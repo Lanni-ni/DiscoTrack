@@ -1,0 +1,5007 @@
+{
+  "task": "discourse relation",
+  "lang": "portugese",
+  "example_prompt": "What is the discourse relation between {arg1} and {arg2}?\nHere are the options and definitions:\nalternation: One unit presents an option, and the other unit offers an alternative that is mutually exclusive with it.\nattribution: One unit states some content, and the other gives information about its source.\ncausal: One unit presents a situation or event, and the other unit shows its cause or result.\ncomment: One unit expresses an opinion or evaluation about something stated in the other unit.\nconcession: One unit presents a situation that appears incompatible with the other unit, but the other unit remains valid.\ncondition: One unit presents a proposition and the other provides conditions that the other proposition depends on.\nconjunction: One unit gives information, and the other unit continues with an additional point.\ncontrast: Two units present opposing or contrasting ideas.\nelaboration: One unit adds extra details, explains, or further describes something introduced in the other unit.\nexplanation: One unit provides a reason, justification, or supporting information for what is stated in the other unit.\nframe: One unit sets the scene or provides background, and the other unit presents the main information.\nmode: One unit explains the way or method by which something in the other unit occurs.\norganization: One unit helps structure the discourse, by introducing, preparing, or pointing out parts of the text.\npurpose: One unit of the text describes an action or event, and the other unit explains the intended goal.\nquery: One unit presents a question or problem, and the other unit gives an answer or solution.\nreformulation: One unit restates or rephrases the other unit in a different way.\ntemporal: One unit indicates that its event or situation happens before, after, or at the same time as the event in the other unit.\n\nArg1: {{arg1}}\nArg2: {{arg2}}",
+  "instances": [
+    {
+      "id": 1,
+      "doc": "D2_C33_Estadao_25-09-2007_10h51",
+      "variables": {
+        "arg1": "E o segundo mural , ' Paz ' , <*> revela que a paz vai muito além da ausência da guerra .",
+        "arg2": "segundo Lula ,"
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 2,
+      "doc": "D4_C22_JB",
+      "variables": {
+        "arg1": "Segundo a Infraero ,",
+        "arg2": "até às 8h havia registros de 21 vôos atrasados e de 16 cancelamentos ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 3,
+      "doc": "D3_C21_JB",
+      "variables": {
+        "arg1": "O ministro da Defesa , Nelson Jobim , decidiu que será realizada uma reforma definitiva na pista principal de Guarulhos , o mais rápido possível ,",
+        "arg2": "de acordo com a assessoria do ministério da Defesa ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 4,
+      "doc": "D4_C11_JB_07-08-2006_06h26",
+      "variables": {
+        "arg1": "A cidade de São Paulo e alguns municípios do interior paulista foram atingidos na madrugada desta segunda-feira por novos atentados com bombas e tiros contra agências bancárias , bases policiais e prédios públicos .",
+        "arg2": "Integrantes do PCC haviam prometido uma nova onda de ataques"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 5,
+      "doc": "D2_C13_Estadao_07-08-2006_02h52",
+      "variables": {
+        "arg1": "na tentativa de reduzir a tensão",
+        "arg2": "e evitar a volta a uma guerra civil ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 6,
+      "doc": "D1_C27_Folha_17-10-2007_23h53",
+      "variables": {
+        "arg1": "Após um zagueiro equatoriano se atrapalhar ,",
+        "arg2": "Não demorou muito para Love acertar a meta ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 7,
+      "doc": "D3_C50_OGlobo",
+      "variables": {
+        "arg1": "e disse que",
+        "arg2": "a bancada tucana vai continuar discutindo a matéria"
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 8,
+      "doc": "D1_C21_Estadao_06-08-2007_15h40",
+      "variables": {
+        "arg1": "Apesar da definição ,",
+        "arg2": "o cronograma da obra não foi divulgado ."
+      },
+      "answer_type": "string",
+      "answer": "concession"
+    },
+    {
+      "id": 9,
+      "doc": "D1_C1_Folha_04-08-2006_07h42",
+      "variables": {
+        "arg1": "Acidentes aéreos são freqüentes no Congo ,",
+        "arg2": "onde 51 companhias privadas operam com aviões antigos principalmente fabricados na antiga União Soviética ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 10,
+      "doc": "D3_C33_OGlobo_25-09-2007_19h59",
+      "variables": {
+        "arg1": "Os países mais industrializados devem dar o exemplo .",
+        "arg2": "É imprescindível que cumpram os compromissos estabelecidos pelo Protocolo de Kyoto ."
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 11,
+      "doc": "D1_C20_Folha_19-09-2007_13h39",
+      "variables": {
+        "arg1": "O PSDB e o DEM <*> somam 117 parlamentares na Câmara .",
+        "arg2": "-- partidos de oposição --"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 12,
+      "doc": "D2_C7_OGlobo",
+      "variables": {
+        "arg1": "Astrônomos do Observatório Europeu Austral , <*> anunciaram a descoberta de uma dupla de planetas errantes",
+        "arg2": "que giram ao redor deles mesmos"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 13,
+      "doc": "D3_C11_OGlobo_07-08-2006_08h29",
+      "variables": {
+        "arg1": "O benefício depende de decisão judicial",
+        "arg2": "após análise do Ministério Público"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 14,
+      "doc": "D5_C10_GPovo_07-08-2006_07h20",
+      "variables": {
+        "arg1": "A Força Aérea israelense lançou uma série de bombardeios contra o Líbano nesta segunda-feira .",
+        "arg2": "O Líbano apresentou um pedido formal ao Conselho de Segurança da Organização das Nações Unidas <*> de uma revisão da proposta de resolução para o fim do conflito no Oriente Médio ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 15,
+      "doc": "D2_C44_JB_10-09-2007_13h36",
+      "variables": {
+        "arg1": "Ele disse que",
+        "arg2": "o ideal é que seja criada uma comissão de três relatores"
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 16,
+      "doc": "D5_C22_GPovo_24-07-2007_08h51",
+      "variables": {
+        "arg1": "Oito pousos <*> foram alternados para o Aeroporto Internacional de Cumbica , em Guarulhos , zona metropolitana de São Paulo .",
+        "arg2": "Cumbica opera por instrumentos"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 17,
+      "doc": "D1_C43_Folha_17-07-2007_13h37",
+      "variables": {
+        "arg1": "Ele encaminhou um ofício ao procurador-geral da República , Antonio Fernando Souza , com pedido para que o Ministério Público Federal investigue os documentos encaminhados por ele ao Conselho de Ética .",
+        "arg2": "a PGR <*> é a instância adequada para investigar a autenticidade de seus documentos ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 18,
+      "doc": "D2_C12_Estadao_07-08-2006_02h29",
+      "variables": {
+        "arg1": "as fortes chuvas <*> provocaram \" muitos danos \" .",
+        "arg2": "cerca de 17 mil famílias ficaram desabrigadas"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 19,
+      "doc": "D1_C18_Folha_16-04-2007_15h46",
+      "variables": {
+        "arg1": "o primeiro ataque ocorreu no primeiro andar do West Ambler Johnston ,",
+        "arg2": "Eles <*> nos trancaram temporariamente nos quartos  ,"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 20,
+      "doc": "D3_C32_JB_17-07-2007_08h16",
+      "variables": {
+        "arg1": "Quase 800 casas foram danificadas ou destruídas somente em Niigata ,",
+        "arg2": "Há preocupação com a saúde dos desabrigados , muitos dos quais idosos ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 21,
+      "doc": "D4_C43_JB_17-07-2007_08h50",
+      "variables": {
+        "arg1": "Não me prestaria a qualquer tipo de manobra",
+        "arg2": "- reagiu o senador ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 22,
+      "doc": "D5_C25_GPovo_17-07-2007",
+      "variables": {
+        "arg1": "A resposta quase veio aos 8 minutos ,",
+        "arg2": "quando Messi fez o cruzamento da esquerda ,"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 23,
+      "doc": "D3_C9_OGlobo_04-08-2006_14h09",
+      "variables": {
+        "arg1": "que teve início na Assembléia Legislativa",
+        "arg2": "e estendeu seus ‘ tentáculos ’ para parte dos poderes do Estado ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 24,
+      "doc": "D2_C41_Estadao_20-07-2007_12h23",
+      "variables": {
+        "arg1": "Além dos ouros de Thiago Pereira ,",
+        "arg2": "também subiram ao lugar mais alto do pódio :"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 25,
+      "doc": "D2_C16_Estadao_21-08-2006",
+      "variables": {
+        "arg1": "Contra João Caldas , por exemplo , pesam 12 pagamentos no total de R$ 136 mil ,",
+        "arg2": "alguns dos quais em sua própria conta ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 26,
+      "doc": "D3_C13_GPovo_07-08-2006_09h28",
+      "variables": {
+        "arg1": "Mas o Exército do Sri Lanka disse que",
+        "arg2": "os Tigres Tâmeis haviam iniciado os ataques ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 27,
+      "doc": "D3_C3_JB",
+      "variables": {
+        "arg1": "que explodiu na última terça-feira contra um prédio da companhia aérea",
+        "arg2": "provocando a morte de pelo menos 198 pessoas -"
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 28,
+      "doc": "D4_C25_JB",
+      "variables": {
+        "arg1": "Ainda aos quatro minutos ,",
+        "arg2": "Júlio Baptista dominou dentro da área ,"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 29,
+      "doc": "D3_C50_OGlobo",
+      "variables": {
+        "arg1": "pela nova proposta do governo , uma pessoa <*> pagaria apenas metade",
+        "arg2": "que ganha R$ 9 mil , por exemplo ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 30,
+      "doc": "D2_C22_Estadao_24-07-2007_08h58",
+      "variables": {
+        "arg1": "A TAM cancelou 68 vôos previstos para esta terça em Congonhas",
+        "arg2": "e transferiu outros 22 para Cumbica ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 31,
+      "doc": "D2_C48_Estadao_24-07-2007_09h56",
+      "variables": {
+        "arg1": "Novo capitão da seleção , o ponta Giba deixou escapar , <*> que",
+        "arg2": "sente muita falta do levantador Ricardinho ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 32,
+      "doc": "D2_C12_Estadao_07-08-2006_02h29",
+      "variables": {
+        "arg1": "calculado por algumas ONGs",
+        "arg2": "que trabalham na Coréia do Norte ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 33,
+      "doc": "D3_C50_OGlobo",
+      "variables": {
+        "arg1": "o senador Sérgio Guerra <*> disse que",
+        "arg2": "seu partido considerou insuficiente a proposta do governo ,"
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 34,
+      "doc": "D4_C46_JB",
+      "variables": {
+        "arg1": "Mais de 600 pessoas ficaram feridas ,",
+        "arg2": "casas foram derrubadas"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 35,
+      "doc": "D4_C43_JB_17-07-2007_08h50",
+      "variables": {
+        "arg1": "O assunto veio à tona",
+        "arg2": "Nesse ponto , só o Supremo poderia tomar a decisão ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 36,
+      "doc": "D1_C2_Folha_04-08-2006_11h38",
+      "variables": {
+        "arg1": "Lula permaneceu estável em 44 %",
+        "arg2": "Os números da última pesquisa Datafolha são semelhantes aos divulgados nesta sexta-feira ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 37,
+      "doc": "D4_C11_JB_07-08-2006_06h26",
+      "variables": {
+        "arg1": "provocou estragos em portas e janelas",
+        "arg2": "que ficam a cerca de 20 metros do local da explosão ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 38,
+      "doc": "D5_C26_GPovo_20-08-2007_12h47",
+      "variables": {
+        "arg1": "os turistas receberam orientação",
+        "arg2": "caso o furacão passe pela região ."
+      },
+      "answer_type": "string",
+      "answer": "condition"
+    },
+    {
+      "id": 39,
+      "doc": "D1_C7_Estadao_04-08-2006_14h13",
+      "variables": {
+        "arg1": "Cerca de metade das estrelas do tamanho do Sol existem em pares .",
+        "arg2": "Nos últimos cinco anos , astrônomos identificaram algumas dezenas de objetos ainda menores que anãs marrons"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 40,
+      "doc": "D1_C27_Folha_17-10-2007_23h53",
+      "variables": {
+        "arg1": "Aos 12 min , em cobrança de falta , o Equador quase empatou a partida .",
+        "arg2": "mas a bola passou por cima do gol ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 41,
+      "doc": "D3_C14_OGlobo_21-08-2006_07h40",
+      "variables": {
+        "arg1": "nas quais era possível ver vários cadáveres",
+        "arg2": "que ainda se encontram no interior ou sob os vagões descarrilados ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 42,
+      "doc": "D5_C22_GPovo_24-07-2007_08h51",
+      "variables": {
+        "arg1": "Cumbica opera por instrumentos",
+        "arg2": "desde as 7h15 ,"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 43,
+      "doc": "D5_C20_GPovo_19-09-2007_12h44",
+      "variables": {
+        "arg1": "A oposição trabalha na lógica do quanto pior melhor ” ,",
+        "arg2": "disse Henrique Fontana"
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 44,
+      "doc": "D2_C29_OGlobo_15-07-2007_07h49",
+      "variables": {
+        "arg1": "A informação foi divulgada pelo advogado das supostas vítimas , Ray Boucher ,",
+        "arg2": "mas a indenização ainda tem que ser aprovada por um juiz ."
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 45,
+      "doc": "D2_C33_Estadao_25-09-2007_10h51",
+      "variables": {
+        "arg1": "O Brasil luta historicamente",
+        "arg2": "para ter direito a voto no órgão ."
+      },
+      "answer_type": "string",
+      "answer": "purpose"
+    },
+    {
+      "id": 46,
+      "doc": "D1_C50_Folha_06-11-2007_12h57",
+      "variables": {
+        "arg1": "Outra novidade é <*> é limitar o crescimento de gastos correntes em 2,5 % ao ano",
+        "arg2": "que o governo propôs"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 47,
+      "doc": "D1_C35_Folha_07-08-2007_14h11",
+      "variables": {
+        "arg1": "O governo dos Estados Unidos oferecia US$ 5 milhões a quem desse informações",
+        "arg2": "De acordo com o ministro colombiano ,"
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 48,
+      "doc": "D5_C20_GPovo_19-09-2007_12h44",
+      "variables": {
+        "arg1": "A pauta foi liberada ,",
+        "arg2": "Outro mecanismo <*> foi a revogação da MP 382 ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 49,
+      "doc": "D2_C42_Estadao_25-09-2007_14h28",
+      "variables": {
+        "arg1": "A medida , <*> também resolveria outro problema :",
+        "arg2": "segundo ele ,"
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 50,
+      "doc": "D3_C50_OGlobo",
+      "variables": {
+        "arg1": "Segundo ele ,",
+        "arg2": "pela nova proposta do governo , uma pessoa <*> pagaria apenas metade"
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 51,
+      "doc": "D1_C12_Folha_07-08-2006_08h30",
+      "variables": {
+        "arg1": "As inundações destruíram grande parte dos cultivos de cereais na Coréia do Norte ,",
+        "arg2": "que o país pode passar por outra crise com a falta de alimentos ,"
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 52,
+      "doc": "D2_C32_Estadao_17-07-2007_08h03",
+      "variables": {
+        "arg1": "Os chefes da usina nuclear do Japão atingida por terremotos na última segunda-feira admitiram que ocorreram mais vazamentos radioativos no local .",
+        "arg2": "Além do vazamento de água contendo material radioativo , gases radioativos também escaparam da usina nuclear de Kashiwazaki ,"
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 53,
+      "doc": "D3_C28_OGlobo_15-07-2007_17h18",
+      "variables": {
+        "arg1": "conquistando o octacampeonato .",
+        "arg2": "De 2001 para cá , a seleção brasileira chegou a todas as finais ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 54,
+      "doc": "D2_C29_OGlobo_15-07-2007_07h49",
+      "variables": {
+        "arg1": "A transparência é parte fundamental disso  ,",
+        "arg2": "disse Boucher ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 55,
+      "doc": "D3_C3_JB",
+      "variables": {
+        "arg1": "A TAM confirmou , na noite desta quinta-feira , que",
+        "arg2": "ao airbus da TAM estava com o reverso do lado direito desligado ,"
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 56,
+      "doc": "D1_C50_Folha_06-11-2007_12h57",
+      "variables": {
+        "arg1": "envio da proposta de reforma tributária ao Congresso até 30 de novembro ;",
+        "arg2": "antecipar o crédito de PIS-Cofins incidente sobre as exportações de 24 meses para 18 meses ;"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 57,
+      "doc": "D2_C22_Estadao_24-07-2007_08h58",
+      "variables": {
+        "arg1": "Já no Santos Dumont , <*> uma chegada apresentou alteração de horário",
+        "arg2": "de onde sai a ponte aérea Rio-São Paulo ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 58,
+      "doc": "D1_C45_Folha_18-10-2007_08h03",
+      "variables": {
+        "arg1": "ele estava foragido da penitenciária de Valparaiso",
+        "arg2": "onde cumpria pena"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 59,
+      "doc": "D2_C13_Estadao_07-08-2006_02h52",
+      "variables": {
+        "arg1": "mas os soldados não permitiram que entrássemos na cidade ,",
+        "arg2": "que está totalmente bloqueada \" ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 60,
+      "doc": "D2_C18_Estadao_16-04-2007_13h44",
+      "variables": {
+        "arg1": "Após a tragédia ,",
+        "arg2": "os dois adolescentes cometeram suicídio ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 61,
+      "doc": "D5_C35_GPovo_07-08-2007_10h26",
+      "variables": {
+        "arg1": "Um dos traficantes internacionais de drogas mais procurados pelos Estados Unidos , o colombiano Juan Carlos Ramirez-Abadia , de 44 anos , foi preso por volta das 6h30 desta terça-feira <*> na região de Aldeia da Serra , na Grande São Paulo .",
+        "arg2": "por enviar aos Estados Unidos 30 toneladas de cocaína"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 62,
+      "doc": "D2_C6_Estadao_08-08-2007_07h49",
+      "variables": {
+        "arg1": "Lula disse que",
+        "arg2": "o governo federal chamou governadores e prefeitos de 375 cidades"
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 63,
+      "doc": "D3_C29_GPovo_15-07-2007_10h43",
+      "variables": {
+        "arg1": "o acordo também pedia a divulgação de arquivos pessoais confidenciais dos padres .",
+        "arg2": "A transparência é parte fundamental disso  ,"
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 64,
+      "doc": "D5_C25_GPovo_17-07-2007",
+      "variables": {
+        "arg1": "Ayala deu o carrinho",
+        "arg2": "e tocou para dentro do seu próprio gol ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 65,
+      "doc": "D4_C15_JB",
+      "variables": {
+        "arg1": "A explosão , <*> aconteceu às 10h40",
+        "arg2": "cujas causas ainda são desconhecidas ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 66,
+      "doc": "D4_C49_JB",
+      "variables": {
+        "arg1": "- Na minha vida política , a vaia e o aplauso são dois momentos de reação do ser humano .",
+        "arg2": "A única coisa que eu , particularmente , fico triste é que eu fui preparado para uma festa ."
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 67,
+      "doc": "D3_C8_JB_04-08-2006_13h56",
+      "variables": {
+        "arg1": "Na última parcial , a Finlândia novamente emparelhou o jogo com o Brasil até a metade do set ,",
+        "arg2": "e perdeu por 25 a 21 ."
+      },
+      "answer_type": "string",
+      "answer": "concession"
+    },
+    {
+      "id": 68,
+      "doc": "D1_C18_Folha_16-04-2007_15h46",
+      "variables": {
+        "arg1": "estar horrorizado com o ocorrido ,",
+        "arg2": "segundo a Casa Branca ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 69,
+      "doc": "D1_C42_Folha_25-09-2007_11h44",
+      "variables": {
+        "arg1": "A expectativa , no entanto , é que o conselho siga a recomendação do relator",
+        "arg2": "o relator negou que o Senado esteja deixando a tarefa apenas para os deputados ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 70,
+      "doc": "D3_C21_JB",
+      "variables": {
+        "arg1": "sem que seja necessário fechar a pista neste momento .",
+        "arg2": "Na primeira etapa , será reformado um terço da pista , em uma das cabeceiras ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 71,
+      "doc": "D1_C36_Folha",
+      "variables": {
+        "arg1": "O senador Antonio Carlos Magalhães <*> morreu às 11h40 de hoje , aos 79 anos , em São Paulo ,",
+        "arg2": "O estado de saúde do senador começou a se complicar neste ano ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 72,
+      "doc": "D3_C32_JB_17-07-2007_08h16",
+      "variables": {
+        "arg1": "Autoridades da maior usina de energia nuclear do mundo , no Japão , admitiram nesta terça-feira que houve mais vazamentos de radiação",
+        "arg2": "O terremoto provocou um pequeno incêndio em um transformador na usina nuclear de Kashiwazaki-Kariwa ,"
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 73,
+      "doc": "D1_C9_Folha_04-08-2006_13h20",
+      "variables": {
+        "arg1": "Os recursos públicos eram desviados para pagamentos de serviços , compras e obras supostamente superfaturadas .",
+        "arg2": "em alguns casos , objetos de contratos nem eram entregues"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 74,
+      "doc": "D2_C40_Estadao_06-08-2007_16h17",
+      "variables": {
+        "arg1": "não entende porque a Revista Veja insiste em fazer denúncias \" infundadas \" contras ele .",
+        "arg2": "O presidente do Senado referia-se à última reportagem da revista"
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 75,
+      "doc": "D2_C21_OGlobo_06-08-2007_16h23",
+      "variables": {
+        "arg1": "As obras da pista também ainda não têm previsão para começar .",
+        "arg2": "O cronograma da obra depende de estudos finais da Infraero ."
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 76,
+      "doc": "D3_C29_GPovo_15-07-2007_10h43",
+      "variables": {
+        "arg1": "293-327",
+        "arg2": "328-335"
+      },
+      "answer_type": "string",
+      "answer": "1<2"
+    },
+    {
+      "id": 77,
+      "doc": "D3_C13_GPovo_07-08-2006_09h28",
+      "variables": {
+        "arg1": "Os ataques ocorreram apesar de um acordo assinado pelos Tigres Tâmeis",
+        "arg2": "e a ameaça de que novos bombardeios seriam considerados pelo grupo como uma declaração de guerra ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 78,
+      "doc": "D4_C27_JB",
+      "variables": {
+        "arg1": "Aos seis , Ronaldinho bateu outra falta",
+        "arg2": "salvando o Equador ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 79,
+      "doc": "D4_C50_JB_06-11-2007_14h12",
+      "variables": {
+        "arg1": "mas ainda insuficiente",
+        "arg2": "- Achamos que a questão <*> a"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 80,
+      "doc": "D4_C14_JB",
+      "variables": {
+        "arg1": "Pelo menos 80 pessoas morreram",
+        "arg2": "informaram fontes policiais e médicas ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 81,
+      "doc": "D2_C22_Estadao_24-07-2007_08h58",
+      "variables": {
+        "arg1": "Aeroporto de Congonhas continuava fechado para pousos na manhã desta terça-feira , 24 ,",
+        "arg2": "e metade dos vôos programados entre 6 e 8 horas foram cancelados ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 82,
+      "doc": "D2_C24_Estadao_23-07-2007_19h16",
+      "variables": {
+        "arg1": "Murer <*> conquistou o lugar mais alto do pódio com a marca de 4m60 ,",
+        "arg2": "Já a outra brasileira <*> Joana Costa , não subiu ao pódio ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 83,
+      "doc": "D1_C48_Folha",
+      "variables": {
+        "arg1": "A torcida recebeu Bernardinho com vaias e gritos de \" Ricardinho \" na estréia da seleção de vôlei no Pan do Rio , ontem .",
+        "arg2": "Na quadra , a seleção mostrou estar bastante nervosa ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 84,
+      "doc": "D2_C40_Estadao_06-08-2007_16h17",
+      "variables": {
+        "arg1": "O líder do DEM , senador José Agripino <*> afirmou que",
+        "arg2": "( RN ) ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 85,
+      "doc": "D3_C6_JB",
+      "variables": {
+        "arg1": "- Tudo que tiver de infra-estrutura na área de transportes nós vamos anunciar também",
+        "arg2": "e começar a liberar o dinheiro"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 86,
+      "doc": "D1_C25_Folha_16-07-2007_07h50",
+      "variables": {
+        "arg1": "No segundo tempo , a pressão argentina aumentou .",
+        "arg2": "Foi quando a dupla de volantes Josué e Mineiro , <*> apareceu mais ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 87,
+      "doc": "D1_C34_Folha_20-08-2007_12h22",
+      "variables": {
+        "arg1": "A Receita Federal intensificou a fiscalização sobre as declarações das pessoas físicas neste ano .",
+        "arg2": "O cruzamento de informações e a análise de dados dos anos anteriores dobraram o número de contribuintes"
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 88,
+      "doc": "D2_C34_Estadao_20-08-2007_13h22",
+      "variables": {
+        "arg1": "Hoje , <*> a Receita fiscaliza também as declarações de anos anteriores .",
+        "arg2": "A produtividade da malha ficou maior  ,"
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 89,
+      "doc": "D1_C2_Folha_04-08-2006_11h38",
+      "variables": {
+        "arg1": "o presidente Luiz Inácio Lula da Silva , <*> teria 44 % das intenções de voto , contra 25 % do tucano Geraldo Alckmin , de acordo com a pesquisa CNI/Ibope divulgada nesta sexta-feira .",
+        "arg2": "Lula permaneceu estável em 44 %"
+      },
+      "answer_type": "string",
+      "answer": "concession"
+    },
+    {
+      "id": 90,
+      "doc": "D1_C23_Folha",
+      "variables": {
+        "arg1": "oito alertas de enchentes severas já foram dados .",
+        "arg2": "Cerca de 10 mil casas já estão ou podem ser inundadas ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 91,
+      "doc": "D3_C29_GPovo_15-07-2007_10h43",
+      "variables": {
+        "arg1": "A Igreja Católica chegou a um acordo financeiro estimado em US$ 660 milhões <*> com mais de 500 pessoas",
+        "arg2": "Este seria o maior pagamento já feito pela Igreja"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 92,
+      "doc": "D1_C18_Folha_16-04-2007_15h46",
+      "variables": {
+        "arg1": "todas as entradas do campus foram fechadas ,",
+        "arg2": "Uma reunião deve ocorrer nesta terça-feira na quadra de basquete da escola ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 93,
+      "doc": "D3_C50_OGlobo",
+      "variables": {
+        "arg1": "semana passada houve um encontro secreto de Mantega , com Tasso Jereissati e Sergio Guerra .",
+        "arg2": "Os dois estiveram na casa do ministro na manhã da última terça-feira ."
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 94,
+      "doc": "D2_C33_Estadao_25-09-2007_10h51",
+      "variables": {
+        "arg1": "O Brasil continuará a trabalhar",
+        "arg2": "para que essa expectativa tão elevada se torne realidade \" ,"
+      },
+      "answer_type": "string",
+      "answer": "purpose"
+    },
+    {
+      "id": 95,
+      "doc": "D1_C50_Folha_06-11-2007_12h57",
+      "variables": {
+        "arg1": "O valor está limitado a R$ 214 ,",
+        "arg2": "Quem ganha mais de R$ 4.340 também , na proposta do governo , poderá usar esse abatimento ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 96,
+      "doc": "D4_C27_JB",
+      "variables": {
+        "arg1": "Aí vi a torcida comemorando",
+        "arg2": "falou , ainda no campo ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 97,
+      "doc": "D5_C10_GPovo_07-08-2006_07h20",
+      "variables": {
+        "arg1": "O Líbano também apresentou objeções à forma como o texto lida com disputas territoriais e",
+        "arg2": "à questão dos prisioneiros mantidos em ambos os lados ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 98,
+      "doc": "D1_C49_Folha_17-07-2007_08h25",
+      "variables": {
+        "arg1": "Eu tenho certeza de que não é esse o pensamento do Rio de Janeiro .",
+        "arg2": "O presidente também falou sobre os investimentos do governo federal para os centros esportivos ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 99,
+      "doc": "D2_C21_OGlobo_06-08-2007_16h23",
+      "variables": {
+        "arg1": "está previsto para ocorrer na terceira e última etapa da reforma ,",
+        "arg2": "que terá três fases ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 100,
+      "doc": "D4_C33_JB",
+      "variables": {
+        "arg1": "O presidente Luiz Inácio Lula da Silva propôs nesta terça-feira em seu discurso na abertura 62ª Assembléia Geral da Organização das Nações Unidas , a realização de uma nova conferência",
+        "arg2": "para sediar a Rio +20 ."
+      },
+      "answer_type": "string",
+      "answer": "purpose"
+    },
+    {
+      "id": 101,
+      "doc": "D4_C41_JB",
+      "variables": {
+        "arg1": "O nadador conquistou mais dois ouros :",
+        "arg2": "um nos 200m medley e outro como reserva da equipe de revezamento 4x100m livre ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 102,
+      "doc": "D5_C35_GPovo_07-08-2007_10h26",
+      "variables": {
+        "arg1": "Um dos traficantes internacionais de drogas mais procurados pelos Estados Unidos , o colombiano Juan Carlos Ramirez-Abadia , de 44 anos , foi preso por volta das 6h30 desta terça-feira <*> na região de Aldeia da Serra , na Grande São Paulo .",
+        "arg2": "A prisão de Abadia faz parte da Operação Farrapos ,"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 103,
+      "doc": "D3_C6_JB",
+      "variables": {
+        "arg1": "- O dado concreto é que nós vamos fazer deste País um verdadeiro canteiro de obra em se tratando de infra-estrutura -",
+        "arg2": "disse o presidente ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 104,
+      "doc": "D4_C36_JB",
+      "variables": {
+        "arg1": "assumiu em março de 1991 , pela terceira vez , o governo da Bahia .",
+        "arg2": "e três anos depois foi eleito presidente da Casa ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 105,
+      "doc": "D3_C21_JB",
+      "variables": {
+        "arg1": "A partir de março ,",
+        "arg2": "será iniciada a fase final da obra , com a reforma do trecho central ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 106,
+      "doc": "D4_C36_JB",
+      "variables": {
+        "arg1": "Ao deixar o Ministério das Comunicações ,",
+        "arg2": "assumiu em março de 1991 , pela terceira vez , o governo da Bahia ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 107,
+      "doc": "D2_C21_OGlobo_06-08-2007_16h23",
+      "variables": {
+        "arg1": "Para receber os vôos de Cumbica ,",
+        "arg2": "A obra , <*> envolveria a revitalização do pavimento da pista e também seu alongamento ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 108,
+      "doc": "D1_C1_Folha_04-08-2006_07h42",
+      "variables": {
+        "arg1": "Segundo uma porta-voz da ONU ,",
+        "arg2": "o avião , de fabricação russa , estava tentando aterrissar no aeroporto de Bukavu em meio a uma tempestade ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 109,
+      "doc": "D1_C43_Folha_17-07-2007_13h37",
+      "variables": {
+        "arg1": "como aluguel e pensão para a jornalista Mônica Veloso ,",
+        "arg2": "com quem tem uma filha ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 110,
+      "doc": "D2_C34_Estadao_20-08-2007_13h22",
+      "variables": {
+        "arg1": "Além da malha fina ,",
+        "arg2": "A Receita também intensificou a fiscalização nas instituições financeiras ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 111,
+      "doc": "D2_C8_OGlobo_04-08-2006_14h13",
+      "variables": {
+        "arg1": "Os dois times voltam a se enfrentar às 12h30 deste sábado , no mesmo ginásio ,",
+        "arg2": "para competições de hóquei no gelo ."
+      },
+      "answer_type": "string",
+      "answer": "purpose"
+    },
+    {
+      "id": 112,
+      "doc": "D5_C20_GPovo_19-09-2007_12h44",
+      "variables": {
+        "arg1": "Para a aprovação da matéria ,",
+        "arg2": "Para ser promulgada ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 113,
+      "doc": "D2_C41_Estadao_20-07-2007_12h23",
+      "variables": {
+        "arg1": "ao cravar o tempo de 3min15s90",
+        "arg2": "( novo recorde pan-americano e sul-americano ) ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 114,
+      "doc": "D1_C2_Folha_04-08-2006_11h38",
+      "variables": {
+        "arg1": "Neste cenário , Lula sobe de 27 % para 31 %",
+        "arg2": "e Alckmin passa de 4 % para 14 % ;"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 115,
+      "doc": "D4_C22_JB",
+      "variables": {
+        "arg1": "Congonhas só abriu para pousos , às 8h50 .",
+        "arg2": "O Aeroporto Internacional de São Paulo <*> em Guarulhos , opera visualmente neste início de manhã ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 116,
+      "doc": "D4_C15_JB",
+      "variables": {
+        "arg1": "Nove pessoas morreram ,",
+        "arg2": "sendo três crianças ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 117,
+      "doc": "D2_C16_Estadao_21-08-2006",
+      "variables": {
+        "arg1": "Benedito Dias",
+        "arg2": "( PP-AP ) ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 118,
+      "doc": "D4_C25_JB",
+      "variables": {
+        "arg1": "O domingo verde-amarelo começou com a conquista do heptacampeonato da Liga .",
+        "arg2": "a Seleção volta agora suas atenções para o Pan , único título"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 119,
+      "doc": "D5_C10_GPovo_07-08-2006_07h20",
+      "variables": {
+        "arg1": "que submeteu uma emenda ao esboço franco-americano ,",
+        "arg2": "pedido que as forças israelenses se retirem do território libanês ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 120,
+      "doc": "D2_C28_Estadao_15-07-2007_17h24",
+      "variables": {
+        "arg1": "ao vencer a Rússia por 3 sets a 1 , com parciais de 18 a 25 , 25 a 23 , 28 a 26 e 25 a 22 , na tarde deste domingo , em Katowice , Polônia , na final da Liga Mundial de vôlei ,",
+        "arg2": "conquistando o heptacampeonato da competição ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 121,
+      "doc": "D1_C26_Folha_20-08-2007_13h16",
+      "variables": {
+        "arg1": "A Península de Yucatán se prepara \" para o pior \" ,",
+        "arg2": "No Texas , moradores começaram ontem a tomar precauções para a passagem do furacão Dean ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 122,
+      "doc": "D1_C42_Folha_25-09-2007_11h44",
+      "variables": {
+        "arg1": "Apesar de deixar as investigações para a Câmara ,",
+        "arg2": "o relator negou que o Senado esteja deixando a tarefa apenas para os deputados ."
+      },
+      "answer_type": "string",
+      "answer": "concession"
+    },
+    {
+      "id": 123,
+      "doc": "D2_C34_Estadao_20-08-2007_13h22",
+      "variables": {
+        "arg1": "Tomando por base as autuações totais",
+        "arg2": "( empresas e pessoas físicas ) ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 124,
+      "doc": "D5_C22_GPovo_24-07-2007_08h51",
+      "variables": {
+        "arg1": "o cancelamento de 68 vôos nesta terça",
+        "arg2": "Dos vôos cancelados , 8 passariam pelo Paraná ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 125,
+      "doc": "D3_C45_OGlobo_18-10-2007_08h33",
+      "variables": {
+        "arg1": "justamente por roubo de Rolex e tentativa de roubo , seguida por tentativa de homicídio .",
+        "arg2": "Marinho teria apresentado identidade falsa , em nome Antônio Edgar Torres Câmara ."
+      },
+      "answer_type": "string",
+      "answer": "concession"
+    },
+    {
+      "id": 126,
+      "doc": "D1_C12_Folha_07-08-2006_08h30",
+      "variables": {
+        "arg1": "Segundo o jornal \" Choson Sinbo \" ,",
+        "arg2": "as fortes chuvas <*> provocaram \" muitos danos \" ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 127,
+      "doc": "D3_C29_GPovo_15-07-2007_10h43",
+      "variables": {
+        "arg1": "A Igreja Católica chegou a um acordo financeiro estimado em US$ 660 milhões <*> com mais de 500 pessoas",
+        "arg2": "( aproximadamente R$ 1,2 bilhão )"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 128,
+      "doc": "D1_C2_Folha_04-08-2006_11h38",
+      "variables": {
+        "arg1": "Lula permaneceu estável em 44 %",
+        "arg2": "e Alckmin oscilou dois pontos percentuais , de 27 % para 25 % ."
+      },
+      "answer_type": "string",
+      "answer": "concession"
+    },
+    {
+      "id": 129,
+      "doc": "D4_C47_JB_17-10-2007_07h54",
+      "variables": {
+        "arg1": "Depois de se reunir hoje com o governo turco em Ancara ,",
+        "arg2": "o vice-presidente iraquiano Hashimi expressou sua esperança de convencer as autoridades turcas para que tratem do problema do PKK em conjunto e por meio de diálogo ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 130,
+      "doc": "D1_C20_Folha_19-09-2007_13h39",
+      "variables": {
+        "arg1": "O PT e PMDB têm , juntos , 174 deputados .",
+        "arg2": "O PSDB e o DEM <*> somam 117 parlamentares na Câmara ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 131,
+      "doc": "D2_C42_Estadao_25-09-2007_14h28",
+      "variables": {
+        "arg1": "referindo-se às investigações sobre o suposto favorecimento da cervejaria , por intermédio de Renan , junto ao Instituto Nacional do Seguro Social <*> e à Receita Federal ,",
+        "arg2": "( INSS )"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 132,
+      "doc": "D5_C25_GPovo_17-07-2007",
+      "variables": {
+        "arg1": "quando Daniel Alves desceu pela direita",
+        "arg2": "e cruzou com força para a pequena área ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 133,
+      "doc": "D1_C49_Folha_17-07-2007_08h25",
+      "variables": {
+        "arg1": "Isso <*> não muda um milímetro do meu comportamento com o Rio de Janeiro .",
+        "arg2": "[ as vaias ]"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 134,
+      "doc": "D2_C23_Estadao_23-07-2007_13h58",
+      "variables": {
+        "arg1": "A chuva torrencial <*> encobriu estradas e milhares de pessoas estão sem fornecimento de eletricidade e de água potável em decorrência da pior enchente nos últimos 60 anos no país ,",
+        "arg2": "para aprimorar o sistema de barreiras contra inundações ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 135,
+      "doc": "D4_C27_JB",
+      "variables": {
+        "arg1": "Aos 39 , Kaká Chutou fraco",
+        "arg2": "e o camisa 1 tomou um frango histórico ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 136,
+      "doc": "D1_C34_Folha_20-08-2007_12h22",
+      "variables": {
+        "arg1": "fazer uma declaração retificadora",
+        "arg2": "para regularizar a situação ."
+      },
+      "answer_type": "string",
+      "answer": "purpose"
+    },
+    {
+      "id": 137,
+      "doc": "D4_C50_JB_06-11-2007_14h12",
+      "variables": {
+        "arg1": "e exigem um novo aumento do teto de isenção ,",
+        "arg2": "mas ainda insuficiente"
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 138,
+      "doc": "D1_C44_Folha_19-09-2007_12h03",
+      "variables": {
+        "arg1": "No mesmo dia , o conselho vai discutir o relatório do senador João Pedro <*> sobre o segundo processo contra o peemedebista",
+        "arg2": "( PT-AM )"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 139,
+      "doc": "D4_C47_JB_17-10-2007_07h54",
+      "variables": {
+        "arg1": "Treze soldados turcos morreram há dez dias em uma emboscada do PKK no sudeste da Turquia ,",
+        "arg2": "naquele que é considerado o mais grave ataque rebelde curdo contra o Exército de Ancara em 12 anos ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 140,
+      "doc": "D5_C41_GPovo_20-07-2007_10h56",
+      "variables": {
+        "arg1": "Thiago soma cinco ouros no Pan ,",
+        "arg2": "tornando-se o novo recordista brasileiro em número de medalhas douradas em uma mesma competição ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 141,
+      "doc": "D1_C16_Folha_21-08-2006_10h14",
+      "variables": {
+        "arg1": "respectivamente segundo e quarto-secretários da Câmara , além da deputada Laura Carneiro",
+        "arg2": "( PFL-RJ ) ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 142,
+      "doc": "D5_C26_GPovo_20-08-2007_12h47",
+      "variables": {
+        "arg1": "Naquela ocasião , o telhado da minha casa voou",
+        "arg2": "Perdi roupas , equipamentos eletrônicos ..."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 143,
+      "doc": "D1_C3_Folha_19-07-2007_21h05",
+      "variables": {
+        "arg1": "que continuou em velocidade bem alta",
+        "arg2": "depois de tocar o solo"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 144,
+      "doc": "D2_C18_Estadao_16-04-2007_13h44",
+      "variables": {
+        "arg1": "Ao menos 33 pessoas morreram nesta segunda-feira , 16 ,",
+        "arg2": "Foi o maior tiroteio já registrado em uma universidade americana ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 145,
+      "doc": "D4_C26_JB_20-08-2007_10h28",
+      "variables": {
+        "arg1": "O Centro Nacional de Furacões dos Estados Unidos disse que",
+        "arg2": "ele pode ganhar força"
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 146,
+      "doc": "D4_C11_JB_07-08-2006_06h26",
+      "variables": {
+        "arg1": "Os alvos na capital incluem a sede do Ministério Público <*> na rua Riachuelo , centro , contra a qual foi jogada uma bomba de fabricação caseira , por volta das 5h .",
+        "arg2": "O prédio da secretaria da Fazenda , no centro , foi atingido por três bombas caseiras ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 147,
+      "doc": "D3_C40_OGlobo_06-08-2007_20h53",
+      "variables": {
+        "arg1": "Eu mandei uma carta a ele",
+        "arg2": "para que abrisse a investigação ."
+      },
+      "answer_type": "string",
+      "answer": "purpose"
+    },
+    {
+      "id": 148,
+      "doc": "D3_C34_JB_20-08-2007_16h22",
+      "variables": {
+        "arg1": "Dobrou o número de pessoas físicas autuadas",
+        "arg2": "de acordo com a Receita Federal do Brasil ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 149,
+      "doc": "D1_C3_Folha_19-07-2007_21h05",
+      "variables": {
+        "arg1": "As imagens , <*> mostram que o avião da TAM levou três segundos para fazer o trajeto na pista que , em condições normais , levariam 11 segundos .",
+        "arg2": "divulgadas pela Infraero ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 150,
+      "doc": "D1_C36_Folha",
+      "variables": {
+        "arg1": "A família ainda não confirmou o local onde será realizado o velório e o enterro do senador .",
+        "arg2": "Os familiares de ACM estão no hospital ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 151,
+      "doc": "D3_C8_JB_04-08-2006_13h56",
+      "variables": {
+        "arg1": "Entretanto , os campeões olímpicos tiveram tranqüilidade para se recuperar",
+        "arg2": "e fechar o set por 25 a 22 em um bloqueio ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 152,
+      "doc": "D2_C27_Estadao_18-10-2007_00h04",
+      "variables": {
+        "arg1": "Robinho , <*> levou a bola para a linha de fundo",
+        "arg2": "e fez todos os tipos de dribles sobre os atônitos zagueiros do Equador ,"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 153,
+      "doc": "D2_C2_Estadao_04-08-2006_12h44",
+      "variables": {
+        "arg1": "A rejeição ao presidente Luiz Inácio Lula da Silva subiu de 28 % em junho para 32 % em julho .",
+        "arg2": "O candidato tucano Geraldo Alckmin , caiu de 34 % para 28 % ."
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 154,
+      "doc": "D2_C4_Estadao_16-07-2007_09h24",
+      "variables": {
+        "arg1": "e fez com que o Centro de Gerenciamento de Emergência <*> da Prefeitura colocasse a cidade em estado de atenção .",
+        "arg2": "( CGE )"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 155,
+      "doc": "D1_C5_JB",
+      "variables": {
+        "arg1": "Inicialmente , Solange Vieira , <*> havia sido escolhida para comandar a Secretaria Nacional de Aviação Civil ,",
+        "arg2": "Jobim decidiu indicar a economista para o cargo ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 156,
+      "doc": "D2_C24_Estadao_23-07-2007_19h16",
+      "variables": {
+        "arg1": "Murer <*> conquistou o lugar mais alto do pódio com a marca de 4m60 ,",
+        "arg2": "- vice-campeã da Copa do Mundo de 2006 -"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 157,
+      "doc": "D1_C25_Folha_16-07-2007_07h50",
+      "variables": {
+        "arg1": "Em desvantagem no placar , os argentinos ficaram com a bola",
+        "arg2": "e pressionaram ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 158,
+      "doc": "D5_C26_GPovo_20-08-2007_12h47",
+      "variables": {
+        "arg1": "os turistas receberam orientação",
+        "arg2": "Ele está em Cancún"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 159,
+      "doc": "D4_C26_JB_20-08-2007_10h28",
+      "variables": {
+        "arg1": "ele pode ganhar força",
+        "arg2": "e chegar à categoria 5 , potencialmente catastrófica , nas próximas 24 horas ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 160,
+      "doc": "D2_C24_Estadao_23-07-2007_19h16",
+      "variables": {
+        "arg1": "Já a outra brasileira <*> Joana Costa , não subiu ao pódio ,",
+        "arg2": "uma vez que não alcançou a marca da cubana ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 161,
+      "doc": "D2_C31_Estadao_17-10-2007_09h32",
+      "variables": {
+        "arg1": "para ser a representante do Brasil no revezamento da tocha dos Jogos Olímpicos de Pequim .",
+        "arg2": "O Brasil não faz parte do trajeto da tocha olímpica ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 162,
+      "doc": "D2_C42_Estadao_25-09-2007_14h28",
+      "variables": {
+        "arg1": "O presidente do Conselho de Ética do Senado , senador Leomar Quintanilha <*> admitiu que vai trabalhar para tentar unificar pelos menos duas das três representações em curso contra o Renan , na reunião do órgão marcada para esta quarta .",
+        "arg2": "A posição de Quintanilha tem o apoio de alguns senadores ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 163,
+      "doc": "D3_C3_JB",
+      "variables": {
+        "arg1": "que seriam comuns a uma torcida de futebol ,",
+        "arg2": "mas que soam inadequados ao momento ."
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 164,
+      "doc": "D4_C43_JB_17-07-2007_08h50",
+      "variables": {
+        "arg1": "e afirmaram que",
+        "arg2": "sem o conjunto completo dos documentos"
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 165,
+      "doc": "D1_C9_Folha_04-08-2006_13h20",
+      "variables": {
+        "arg1": "A polícia informou que",
+        "arg2": "o grupo já desviou R$ 70 milhões ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 166,
+      "doc": "D3_C9_OGlobo_04-08-2006_14h09",
+      "variables": {
+        "arg1": "e estendeu seus ‘ tentáculos ’ para parte dos poderes do Estado ,",
+        "arg2": "comprometendo"
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 167,
+      "doc": "D1_C42_Folha_25-09-2007_11h44",
+      "variables": {
+        "arg1": "O conselho se reúne amanhã <*> com a recomendação para o sobrestamento .",
+        "arg2": "Na segunda representação , Renan é acusado de trabalhar"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 168,
+      "doc": "D1_C23_Folha",
+      "variables": {
+        "arg1": "Na sexta-feira , choveu 12 centímetros em algumas regiões ,",
+        "arg2": "a emergência está \" longe de acabar ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 169,
+      "doc": "D1_C7_Estadao_04-08-2006_14h13",
+      "variables": {
+        "arg1": "Usando telescópios do Observatório Europeu Sul ( ESO ) ,",
+        "arg2": "astrônomos descobriram um planeta com sete vezes a massa de Júpiter , o mais pesado dos que giram em torno do Sol ,"
+      },
+      "answer_type": "string",
+      "answer": "mode"
+    },
+    {
+      "id": 170,
+      "doc": "D2_C31_Estadao_17-10-2007_09h32",
+      "variables": {
+        "arg1": "para ser a representante do Brasil no revezamento da tocha dos Jogos Olímpicos de Pequim .",
+        "arg2": "Aos 16 anos , Jade conquistou três medalhas no Pan :"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 171,
+      "doc": "D2_C32_Estadao_17-07-2007_08h03",
+      "variables": {
+        "arg1": "A central permanece fechada desde a última segunda ,",
+        "arg2": "O terremoto deixou até o momento nove mortos , todos idosos ,"
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 172,
+      "doc": "D3_C50_OGlobo",
+      "variables": {
+        "arg1": "Na reunião , o governo também confirmou os outros pontos da negociação acordados na semana passada ,",
+        "arg2": "Isso quer dizer que despesas com pessoal e material , por exemplo , teriam um limite de crescimento anual de inflação mais 2 % ."
+      },
+      "answer_type": "string",
+      "answer": "comment"
+    },
+    {
+      "id": 173,
+      "doc": "D5_C26_GPovo_20-08-2007_12h47",
+      "variables": {
+        "arg1": "Perdi roupas , equipamentos eletrônicos ...",
+        "arg2": "contou Thiago ,"
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 174,
+      "doc": "D2_C34_Estadao_20-08-2007_13h22",
+      "variables": {
+        "arg1": "O secretário rechaçou a avaliação de que o leão <*> esteja mais guloso em 2007 .",
+        "arg2": "- apelido dado ao Fisco -"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 175,
+      "doc": "D1_C7_Estadao_04-08-2006_14h13",
+      "variables": {
+        "arg1": "Jayawardhana e Ivanov estimaram a massa dos componentes do par",
+        "arg2": "Os dois estão separados por uma distância de seis vezes a que existe entre o Sol e Plutão"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 176,
+      "doc": "D3_C29_GPovo_15-07-2007_10h43",
+      "variables": {
+        "arg1": "A Igreja Católica chegou a um acordo financeiro estimado em US$ 660 milhões <*> com mais de 500 pessoas",
+        "arg2": "que alegam ter sido vítimas de abuso sexual por padres em Los Angeles , nos Estados Unidos ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 177,
+      "doc": "D1_C17_Folha_21-08-2006",
+      "variables": {
+        "arg1": "Alckmin criticou de novo Lula",
+        "arg2": "A humildade é o estágio mais alto da sabedoria  ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 178,
+      "doc": "D5_C47_GPovo_17-10-2007_07h54",
+      "variables": {
+        "arg1": "os governos iraquiano e turco podem resolver seus problemas com um acordo conjunto  ,",
+        "arg2": "acrescentando que uma possível solução trará benefícios para os dois países ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 179,
+      "doc": "D4_C27_JB",
+      "variables": {
+        "arg1": "Cinco minutos depois , aos 31 ,",
+        "arg2": "Kaká fez o gol mais bonito da partida ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 180,
+      "doc": "D1_C43_Folha_17-07-2007_13h37",
+      "variables": {
+        "arg1": "Por unanimidade , os integrantes da Mesa Diretora do Senado decidiram aceitar o pedido do Conselho de Ética de encaminhar para a Polícia Federal pedido para realização de nova perícia nos documentos do presidente da Casa , Renan Calheiros",
+        "arg2": "Renan é alvo de um processo por quebra de decoro"
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 181,
+      "doc": "D5_C26_GPovo_20-08-2007_12h47",
+      "variables": {
+        "arg1": "ficará em Cancún até o próximo sábado",
+        "arg2": "e não está preocupado com a possibilidade de o furacão estragar sua viagem ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 182,
+      "doc": "D1_C50_Folha_06-11-2007_12h57",
+      "variables": {
+        "arg1": "A PEC <*> está tramitando no Senado ,",
+        "arg2": "que prorroga a cobrança da CPMF"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 183,
+      "doc": "D1_C3_Folha_19-07-2007_21h05",
+      "variables": {
+        "arg1": "passou pela pista de Congonhas",
+        "arg2": "atravessou a movimentada avenida Washington Luís e"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 184,
+      "doc": "D1_C18_Folha_16-04-2007_15h46",
+      "variables": {
+        "arg1": "O agressor também morreu .",
+        "arg2": "Não ficou claro se ele foi morto por policiais"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 185,
+      "doc": "D3_C3_JB",
+      "variables": {
+        "arg1": "A câmera da emissora teria registrado a cena logo depois da transmissão da notícia ,",
+        "arg2": "o que sugere uma comemoração festiva da matéria veiculada na TV ."
+      },
+      "answer_type": "string",
+      "answer": "comment"
+    },
+    {
+      "id": 186,
+      "doc": "D2_C19_Estadao_16-04-2007_11h02",
+      "variables": {
+        "arg1": "ele teve uma recaída",
+        "arg2": "e voltou a sentir dores"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 187,
+      "doc": "D3_C40_OGlobo_06-08-2007_20h53",
+      "variables": {
+        "arg1": "“ A iniciativa <*> tem o objetivo de esclarecer essa questão sob a perspectiva penal sem nenhuma interferência sobre o que vai ser decidido no Senado ” ,",
+        "arg2": "que tomei"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 188,
+      "doc": "D1_C48_Folha",
+      "variables": {
+        "arg1": "O destaque foi Dante ,",
+        "arg2": "que anotou 12 pontos"
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 189,
+      "doc": "D4_C22_JB",
+      "variables": {
+        "arg1": "As informações da Infraero não batem com as do painel das companhias aéreas ,",
+        "arg2": "são 20 partidas atrasadas e 24 pousos atrasados ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 190,
+      "doc": "D3_C15_OGlobo_21-08-2006_06h58",
+      "variables": {
+        "arg1": "Pouco depois aconteceu a explosão",
+        "arg2": "- disse um porta-voz policial citado pela \" Itar-Tass \" ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 191,
+      "doc": "D1_C6_Folha_06-08-2007_08h48",
+      "variables": {
+        "arg1": "disse .",
+        "arg2": "E a novidade é o compromisso dos governadores . \""
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 192,
+      "doc": "D1_C48_Folha",
+      "variables": {
+        "arg1": "A torcida recebeu Bernardinho com vaias e gritos de \" Ricardinho \" na estréia da seleção de vôlei no Pan do Rio , ontem .",
+        "arg2": "Ontem , vários se mostraram contrariados com as vaias ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 193,
+      "doc": "D1_C12_Folha_07-08-2006_08h30",
+      "variables": {
+        "arg1": "Um total de 549 pessoas morreram ,",
+        "arg2": "3.043 ficaram feridas"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 194,
+      "doc": "D2_C27_Estadao_18-10-2007_00h04",
+      "variables": {
+        "arg1": "E o primeiro tempo ficou nisso ,",
+        "arg2": "na expectativa de que o Brasil poderia , finalmente , mostrar seu melhor futebol na etapa final ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 195,
+      "doc": "D4_C11_JB_07-08-2006_06h26",
+      "variables": {
+        "arg1": "Os alvos na capital incluem a sede do Ministério Público <*> na rua Riachuelo , centro , contra a qual foi jogada uma bomba de fabricação caseira , por volta das 5h .",
+        "arg2": "No momento , apenas um taxista e um passageiro estavam na rua ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 196,
+      "doc": "D5_C47_GPovo_17-10-2007_07h54",
+      "variables": {
+        "arg1": "A organização terrorista <*> é o único alvo \" ,",
+        "arg2": "( do PKK )"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 197,
+      "doc": "D5_C41_GPovo_20-07-2007_10h56",
+      "variables": {
+        "arg1": "Lucas Sallata fez apenas a décima melhor marca",
+        "arg2": "e não conseguiu avançar na competição ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 198,
+      "doc": "D5_C47_GPovo_17-10-2007_07h54",
+      "variables": {
+        "arg1": "O primeiro-ministro turco , o islamita Recep Tayyip Erdogan , expressou aos congressistas do Partido da Justiça e do Desenvolvimento <*> que",
+        "arg2": "( AKP , governista )"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 199,
+      "doc": "D3_C3_JB",
+      "variables": {
+        "arg1": "- peça acionada durante o pouso",
+        "arg2": "para inverter o sentido da propulsão das turbinas -"
+      },
+      "answer_type": "string",
+      "answer": "purpose"
+    },
+    {
+      "id": 200,
+      "doc": "D4_C2_Globo_04-08-2006_16h09",
+      "variables": {
+        "arg1": "o presidente Luiz Inácio Lula da Silva seria reeleito em primeiro turno",
+        "arg2": "Esta foi a primeira pesquisa da série CNI/Ibope feita já com a lista oficial de candidatos à Presidência registrados no TSE"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 201,
+      "doc": "D2_C5_GPovo_19-09-2007_10h01",
+      "variables": {
+        "arg1": "a economista Solange Vieira , de 38 anos , será a nova presidente da Agência Nacional de Aviação Civil",
+        "arg2": "Alvo de críticas incisivas da oposição desde o acidente com o Airbus da TAM , o atual presidente da Anac , Milton Zuanazzi , já teria concordado em renunciar"
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 202,
+      "doc": "D3_C15_OGlobo_21-08-2006_06h58",
+      "variables": {
+        "arg1": "- No curso da investigação , serão examinadas todas as versões ,",
+        "arg2": "- informou o centro de imprensa da Promotoria de Moscou ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 203,
+      "doc": "D3_C32_JB_17-07-2007_08h16",
+      "variables": {
+        "arg1": "- Os danos são piores que o esperado",
+        "arg2": "- afirmou a repórteres Hiroshi Kaeda , prefeito de Kashiwazaki ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 204,
+      "doc": "D3_C21_JB",
+      "variables": {
+        "arg1": "sem que seja necessário fechar a pista neste momento .",
+        "arg2": "O cronograma da obra depende de estudos finais"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 205,
+      "doc": "D2_C21_OGlobo_06-08-2007_16h23",
+      "variables": {
+        "arg1": "A obra , <*> envolveria a revitalização do pavimento da pista e também seu alongamento .",
+        "arg2": "Além disso , acrescentaria na pista as chamadas “ saídas rápidas ” ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 206,
+      "doc": "D2_C14_Estadao_21-08-2006_10h15",
+      "variables": {
+        "arg1": "a colisão ocorreu",
+        "arg2": "quando o trem número 808 <*> se chocou com a parte traseira de outro ,"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 207,
+      "doc": "D1_C50_Folha_06-11-2007_12h57",
+      "variables": {
+        "arg1": "O ministro da Fazenda , Guido Mantega , apresentou nesta terça-feira a proposta do governo em troca do apoio do PSDB na votação da PEC",
+        "arg2": "A proposta prevê isenção de CPMF para trabalhadores assalariados"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 208,
+      "doc": "D3_C16_OGlobo_21-08-2006_10h45",
+      "variables": {
+        "arg1": "entre eles : Nilton Capixaba",
+        "arg2": ", Benedito Dias"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 209,
+      "doc": "D4_C14_JB",
+      "variables": {
+        "arg1": "após o incêndio de um trem",
+        "arg2": "e que deixou 376 mortos , segundo números oficiais ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 210,
+      "doc": "D4_C26_JB_20-08-2007_10h28",
+      "variables": {
+        "arg1": "17 pescadores ficaram presos na ilha de Pedro Cays ,",
+        "arg2": "Há alertas de furacão na costa de Belize e na parte leste da península Yucatán , no caminho para o popular destino turístico de Cancún ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 211,
+      "doc": "D2_C29_OGlobo_15-07-2007_07h49",
+      "variables": {
+        "arg1": "A Igreja Católica chegou a um acordo financeiro estimado em US$ 660 milhões <*> com mais de 500 pessoas",
+        "arg2": "Igreja venderia prédios administrativos"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 212,
+      "doc": "D2_C2_Estadao_04-08-2006_12h44",
+      "variables": {
+        "arg1": "BRASÍLIA - A pesquisa CNI/Ibope realizada em julho e divulgada nesta sexta-feira mostra que o presidente Luiz Inácio da Silva teria 44 % dos votos no primeiro turno ,",
+        "arg2": "O candidato José Maria Eymael teve o índice de rejeição de 36 % ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 213,
+      "doc": "D2_C33_Estadao_25-09-2007_10h51",
+      "variables": {
+        "arg1": "Os murais pintados pelo artista brasileiro denunciam a violência",
+        "arg2": "Os murais presenteados pelo governo brasileiro à ONU , em 1957 , retratam essa postura ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 214,
+      "doc": "D2_C28_Estadao_15-07-2007_17h24",
+      "variables": {
+        "arg1": "A seleção brasileira de vôlei mais uma vez mostrou o porquê de ser o melhor time do mundo",
+        "arg2": "ao vencer a Rússia por 3 sets a 1 , com parciais de 18 a 25 , 25 a 23 , 28 a 26 e 25 a 22 , na tarde deste domingo , em Katowice , Polônia , na final da Liga Mundial de vôlei ,"
+      },
+      "answer_type": "string",
+      "answer": "comment"
+    },
+    {
+      "id": 215,
+      "doc": "D2_C16_Estadao_21-08-2006",
+      "variables": {
+        "arg1": "A expectativa de lideranças da Câmara e do Conselho de Ética é que pouco mais de 10 % dos 69 deputados denunciados no relatório parcial da CPI dos Sanguessugas abrirão mão de seus mandatos .",
+        "arg2": "Não dá para avaliar quantos vão renunciar  ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 216,
+      "doc": "D1_C34_Folha_20-08-2007_12h22",
+      "variables": {
+        "arg1": "e clicar na seção IRPF",
+        "arg2": "- Extrato Simplificado do Processamento ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 217,
+      "doc": "D4_C25_JB",
+      "variables": {
+        "arg1": "o país parou para acompanhar duas decisões importantes ,",
+        "arg2": "As seleções de vôlei e futebol conquistaram a Liga Mundial e a Copa América"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 218,
+      "doc": "D1_C49_Folha_17-07-2007_08h25",
+      "variables": {
+        "arg1": "e conversar com atletas de vários países do mundo",
+        "arg2": "que estavam lá ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 219,
+      "doc": "D1_C44_Folha_19-09-2007_12h03",
+      "variables": {
+        "arg1": "Vamos unificar",
+        "arg2": "se eu for voto vencido \" ,"
+      },
+      "answer_type": "string",
+      "answer": "condition"
+    },
+    {
+      "id": 220,
+      "doc": "D1_C4_Folha_16-07-2007_09h48",
+      "variables": {
+        "arg1": "Os motoristas , ainda às 9h30 , enfrentavam trânsito lento principalmente na pista expressa da marginal Pinheiros , sentido Interlagos ;",
+        "arg2": "no corredor norte-sul <*> , sentido Santana ;"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 221,
+      "doc": "D4_C10_JB_07-08-2006_03h51",
+      "variables": {
+        "arg1": "os milicianos do Hisbolá já dispararam aproximadamente 2,7 mil foguetes Katyusha e mísseis de diferentes alcances contra território israelense desde de o início dos conflitos ,",
+        "arg2": "que chega hoje ao seu 27º dia ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 222,
+      "doc": "D4_C49_JB",
+      "variables": {
+        "arg1": "Depois das vaias ,",
+        "arg2": "Lula desistiu de declarar aberto os jogos ,"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 223,
+      "doc": "D2_C7_OGlobo",
+      "variables": {
+        "arg1": "os astrônomos identificaram algumas dúzias de objetos com massas inferiores ,",
+        "arg2": "flutuando livres nas proximidades de regiões de formação estelar próximas ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 224,
+      "doc": "D1_C26_Folha_20-08-2007_13h16",
+      "variables": {
+        "arg1": "O governador Rick Perry havia pedido a declaração a Bush na manhã de sábado",
+        "arg2": "( 18 ) ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 225,
+      "doc": "D1_C16_Folha_21-08-2006_10h14",
+      "variables": {
+        "arg1": "Dos 66 congressistas ligados a igrejas evangélicas , 23 <*> estão envolvidos nas irregularidades",
+        "arg2": "-- mais de um terço da bancada --"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 226,
+      "doc": "D3_C14_OGlobo_21-08-2006_07h40",
+      "variables": {
+        "arg1": "Uma colisão entre dois trens de passageiros provocou a morte de pelo menos 80 pessoas",
+        "arg2": "e deixou 165 feridas ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 227,
+      "doc": "D3_C49_OGlobo_16-07-2007_13h57",
+      "variables": {
+        "arg1": "O Rio de Janeiro <*> continua lindo",
+        "arg2": "e merece que o governo federal faça o que for possível para o Rio de Janeiro . ”"
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 228,
+      "doc": "D1_C20_Folha_19-09-2007_13h39",
+      "variables": {
+        "arg1": "Da Câmara , a PEC segue para o Senado",
+        "arg2": "-- onde também precisa ser aprovada em dois turnos ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 229,
+      "doc": "D3_C32_JB_17-07-2007_08h16",
+      "variables": {
+        "arg1": "O terremoto provocou um pequeno incêndio em um transformador na usina nuclear de Kashiwazaki-Kariwa ,",
+        "arg2": "o tremor não havia causado vazamentos ,"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 230,
+      "doc": "D5_C41_GPovo_20-07-2007_10h56",
+      "variables": {
+        "arg1": "terminou em sétimo lugar",
+        "arg2": "( 9m09s11 )"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 231,
+      "doc": "D5_C20_GPovo_19-09-2007_12h44",
+      "variables": {
+        "arg1": "Uma terceira sessão extraordinária para a votação da Proposta de Emenda Constitucional <*> da CPMF deve ser convocada a partir das 21h .",
+        "arg2": "( PEC )"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 232,
+      "doc": "D4_C41_JB",
+      "variables": {
+        "arg1": "Na manhã desta sexta-feira o nadador Thiago Pereira conquistou sua quarta medalha de ouro pelos 200m medley na final da disputa no Complexo Aquático Maria Lenk , com a marca de 1m57s59 .",
+        "arg2": "O outro brasileiro <*> Diogo Yabe , terminou na oitava colocação com o tempo de 2min05s72 ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 233,
+      "doc": "D1_C25_Folha_16-07-2007_07h50",
+      "variables": {
+        "arg1": "Esta é a primeira conquista de Dunga como técnico profissional .",
+        "arg2": "E sem as duas principais estrelas do futebol brasileiro atualmente ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 234,
+      "doc": "D5_C26_GPovo_20-08-2007_12h47",
+      "variables": {
+        "arg1": "Os brasileiros <*> estão se preparando para a chegada do furacão “ Dean ” ,",
+        "arg2": "que estão em Cancún , um dos pontos turísticos mais visitados do México ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 235,
+      "doc": "D3_C36_OGlobo",
+      "variables": {
+        "arg1": "Foi confirmada às 11h40m desta sexta-feira a morte do senador Antônio Carlos Magalhães <*> de 79 anos .",
+        "arg2": "Segundo comunicado do Instituto do Coração <*> em São Paulo , a morte foi \" decorrência de falência de múltiplos órgãos secundária à insuficiência cardíaca \" ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 236,
+      "doc": "D2_C27_Estadao_18-10-2007_00h04",
+      "variables": {
+        "arg1": "E isso com direito a uma seqüência de dribles de Robinho",
+        "arg2": "simplesmente espetacular ."
+      },
+      "answer_type": "string",
+      "answer": "comment"
+    },
+    {
+      "id": 237,
+      "doc": "D3_C12_GPovo_07-08-2006_08h28",
+      "variables": {
+        "arg1": "Ao menos 549 pessoas morreram",
+        "arg2": "e outras 295 ainda estão desaparecidas"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 238,
+      "doc": "D3_C46_OGlobo",
+      "variables": {
+        "arg1": "Duas mulheres de cerca de 80 anos morreram",
+        "arg2": "quando suas casas desmoronaram após o tremor ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 239,
+      "doc": "D4_C25_JB",
+      "variables": {
+        "arg1": "É verdade que o Brasil deu sorte de conseguir um gol",
+        "arg2": "Júlio Baptista dominou dentro da área ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 240,
+      "doc": "D4_C10_JB_07-08-2006_03h51",
+      "variables": {
+        "arg1": "As operações por terra , <*> têm como missão criar uma \" zona militar especial \" ao longo da fronteira entre os dois países , de 110 quilômetros ,",
+        "arg2": "que contam com a participação de aproximadamente dez mil efetivos ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 241,
+      "doc": "D1_C26_Folha_20-08-2007_13h16",
+      "variables": {
+        "arg1": "Horas antes ,",
+        "arg2": "havia forte receio de que Dean , um furacão de categoria 4 descrito por meteorologistas do Centro Nacional de Furacões <*> , com sede em Miami , atingisse em cheio as ilhas a uma velocidade de 240 km /h ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 242,
+      "doc": "D3_C50_OGlobo",
+      "variables": {
+        "arg1": "O governo também admitiu",
+        "arg2": "ampliar o limite para o aumento das despesas com base na inflação mais 2 % do PIB para todos os gastos correntes do governo ,"
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 243,
+      "doc": "D5_C20_GPovo_19-09-2007_12h44",
+      "variables": {
+        "arg1": "Como estratégia de obstrução , os partidos de oposição podem se utilizar , por mais de uma vez , de oito tipos de requerimentos",
+        "arg2": "para \" travar \" a votação ,"
+      },
+      "answer_type": "string",
+      "answer": "purpose"
+    },
+    {
+      "id": 244,
+      "doc": "D1_C18_Folha_16-04-2007_15h46",
+      "variables": {
+        "arg1": "Em agosto de 2006 , o reinício das aulas foi suspenso",
+        "arg2": "depois que um fugitivo matou um segurança e um policial envolvidos em uma perseguição ocorrida em um ponto próximo da universidade ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 245,
+      "doc": "D1_C50_Folha_06-11-2007_12h57",
+      "variables": {
+        "arg1": "O valor está limitado a R$ 214 ,",
+        "arg2": "que é o equivalente ao \" imposto do cheque \" incidente sobre um salário de R$ 4.340 pelo período de um ano"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 246,
+      "doc": "D4_C43_JB_17-07-2007_08h50",
+      "variables": {
+        "arg1": "Preocupados com o surgimento de manobras",
+        "arg2": "que possam atrasar as investigações por causa do recesso parlamentar ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 247,
+      "doc": "D3_C33_OGlobo_25-09-2007_19h59",
+      "variables": {
+        "arg1": "O presidente exaltou os resultados brasileiros no combate às mudanças climáticas .",
+        "arg2": "Lula destacou as iniciativas do governo na Amazônia ,"
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 248,
+      "doc": "D5_C26_GPovo_20-08-2007_12h47",
+      "variables": {
+        "arg1": "O pessoal aqui está acostumado com furacões ,",
+        "arg2": "então eles devem tirar isso de letra ” ,"
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 249,
+      "doc": "D4_C36_JB",
+      "variables": {
+        "arg1": "Iniciou sua vida política no movimento estudantil .",
+        "arg2": "até ser nomeado prefeito de Salvador ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 250,
+      "doc": "D5_C22_GPovo_24-07-2007_08h51",
+      "variables": {
+        "arg1": "Quase metade dos vôos previstos para decolar na manhã desta terça-feira <*> no Aeroporto de Congonhas , na Zona Sul de São Paulo , foi cancelada , de acordo com informações da Infraero .",
+        "arg2": "Oito pousos <*> foram alternados para o Aeroporto Internacional de Cumbica , em Guarulhos , zona metropolitana de São Paulo ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 251,
+      "doc": "D2_C9_Estadao_04-08-2006_09h53",
+      "variables": {
+        "arg1": "Um dos seus principais crimes era a falsificação de pagamentos de funcionários fantasmas por laranjas na Assembléia Legislativa .",
+        "arg2": "Dos 24 deputados estaduais , 23 praticavam esse crime e ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 252,
+      "doc": "D3_C16_OGlobo_21-08-2006_10h45",
+      "variables": {
+        "arg1": "O pefelista Coriolano Sales <*> já apresentou sua renúncia desde a semana passada .",
+        "arg2": "( PFL )"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 253,
+      "doc": "D1_C13_Folha_07-08-2010_07h21",
+      "variables": {
+        "arg1": "Os crimes aconteceram na cidade de Muttur ,",
+        "arg2": "Os corpos de 11 homens e 4 mulheres de etnia tâmil , <*> apareceram na semana passada no escritório da organização ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 254,
+      "doc": "D1_C26_Folha_20-08-2007_13h16",
+      "variables": {
+        "arg1": "Dean matou ao menos nove pessoas nas ilhas de Santa Lúcia , Dominica , República Dominicana e Haiti .",
+        "arg2": "as forças de segurança terão ainda que conter uma onda de saques em várias áreas da ilha ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 255,
+      "doc": "D2_C42_Estadao_25-09-2007_14h28",
+      "variables": {
+        "arg1": "O senador João Pedro <*> relator da segunda representação contra Renan Calheiros <*> no Senado , confirmou que vai apresentar nesta quarta-feira , 26 , na reunião doConselho de Ética , pedido de sobrestamento <*> das investigações sobre o caso .",
+        "arg2": "A proposta <*> deve passar por votação dos demais membros do Conselho de Ética ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 256,
+      "doc": "D2_C21_OGlobo_06-08-2007_16h23",
+      "variables": {
+        "arg1": ", a Infraero realiza o \" desemborrachamento \" da pista de 3,7 km",
+        "arg2": "e assim melhorar o atrito ."
+      },
+      "answer_type": "string",
+      "answer": "purpose"
+    },
+    {
+      "id": 257,
+      "doc": "D4_C46_JB",
+      "variables": {
+        "arg1": "e os reatores de usinas nucleares em Niigata desligaram-se automaticamente",
+        "arg2": "para checagens ,"
+      },
+      "answer_type": "string",
+      "answer": "purpose"
+    },
+    {
+      "id": 258,
+      "doc": "D1_C26_Folha_20-08-2007_13h16",
+      "variables": {
+        "arg1": "é hora de abaixar as cabeças",
+        "arg2": "disse o coordenador das equipes de retirada , Zemrie Thompson , às pessoas levadas para abrigos ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 259,
+      "doc": "D3_C3_JB",
+      "variables": {
+        "arg1": "ao airbus da TAM estava com o reverso do lado direito desligado ,",
+        "arg2": "a aeronave tinha condições de pouso normais , mesmo sem ele ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 260,
+      "doc": "D4_C46_JB",
+      "variables": {
+        "arg1": "mas ainda não está claro quando a companhia elétrica de Tóquio vai religar três unidades no complexo ,",
+        "arg2": "disse Yoshinobu Kamijima , porta-voz da empresa ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 261,
+      "doc": "D4_C25_JB",
+      "variables": {
+        "arg1": "É a terceira final seguida",
+        "arg2": "Em 2004 , também pela Copa América , os argentinos venciam por 2 a 1 ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 262,
+      "doc": "D4_C47_JB_17-10-2007_07h54",
+      "variables": {
+        "arg1": "Hashimi reiterou que",
+        "arg2": "Bagdá considera o PKK uma organização terrorista"
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 263,
+      "doc": "D3_C12_GPovo_07-08-2006_08h28",
+      "variables": {
+        "arg1": "mas uma autoridade local disse na semana passada que",
+        "arg2": "Pyongyang aceitaria ajuda da Coréia do Sul"
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 264,
+      "doc": "D3_C33_OGlobo_25-09-2007_19h59",
+      "variables": {
+        "arg1": "Lula destacou as iniciativas do governo na Amazônia ,",
+        "arg2": "a experiência brasileira no tema pode ser útil a outros países , citando o biodiesel e o etanol ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 265,
+      "doc": "D2_C27_Estadao_18-10-2007_00h04",
+      "variables": {
+        "arg1": "O Brasil lavou a alma",
+        "arg2": "e , nesta quarta-feira , aplicou uma sonora goleada por 5 a 0 sobre o Equador no Maracanã ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 266,
+      "doc": "D4_C49_JB",
+      "variables": {
+        "arg1": "A única coisa que eu , particularmente , fico triste é que eu fui preparado para uma festa .",
+        "arg2": "não haverá mudanças nos planos de investimento do governo federal para o Rio por conta do episódio ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 267,
+      "doc": "D1_C45_Folha_18-10-2007_08h03",
+      "variables": {
+        "arg1": "e três assaltos passaram por mim .",
+        "arg2": "Meu irmão , uma funcionária e eu ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 268,
+      "doc": "D1_C17_Folha_21-08-2006",
+      "variables": {
+        "arg1": "Mas a reviravolta no discurso tucano não deve chegar à TV tão brevemente ,",
+        "arg2": "como também reivindicava ACM ."
+      },
+      "answer_type": "string",
+      "answer": "concession"
+    },
+    {
+      "id": 269,
+      "doc": "D4_C10_JB_07-08-2006_03h51",
+      "variables": {
+        "arg1": "também no domingo foram mortos 30 milicianos do Hezbolá ,",
+        "arg2": "enquanto um oficial e dois soldados israelenses ficaram feridos hoje em Oleado ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 270,
+      "doc": "D3_C33_OGlobo_25-09-2007_19h59",
+      "variables": {
+        "arg1": "e deu um recado às potências",
+        "arg2": "que pedem maior controle internacional sobre a área ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 271,
+      "doc": "D2_C46_Estadao",
+      "variables": {
+        "arg1": "matando pelo menos sete pessoas na cidade de Kashiwazaki",
+        "arg2": "Equipes de resgate continuam procurando por pessoas em meio aos escombros ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 272,
+      "doc": "D2_C42_Estadao_25-09-2007_14h28",
+      "variables": {
+        "arg1": "O senador João Pedro <*> relator da segunda representação contra Renan Calheiros <*> no Senado , confirmou que vai apresentar nesta quarta-feira , 26 , na reunião doConselho de Ética , pedido de sobrestamento <*> das investigações sobre o caso .",
+        "arg2": "O petista havia dado indícios de que iria pedir o arquivamento do caso ,"
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 273,
+      "doc": "D2_C42_Estadao_25-09-2007_14h28",
+      "variables": {
+        "arg1": "A posição de Quintanilha tem o apoio de alguns senadores ,",
+        "arg2": "mas não é bem vista pela oposição ."
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 274,
+      "doc": "D3_C36_OGlobo",
+      "variables": {
+        "arg1": "Segundo o cerimonial do Senado , não haverá homenagens em Brasília .",
+        "arg2": "O corpo só chegará à noite em Salvador ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 275,
+      "doc": "D2_C32_Estadao_17-07-2007_08h03",
+      "variables": {
+        "arg1": "Casas desabaram , muitas delas de madeira e com tradicionais telhados de tijolos pesados ,",
+        "arg2": "e estradas apresentaram rachaduras"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 276,
+      "doc": "D2_C16_Estadao_21-08-2006",
+      "variables": {
+        "arg1": "Dois dos 69 deputados acusados são da Mesa Diretora ,",
+        "arg2": "Ele , porém , resiste à idéia de abrir mão do mandato ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 277,
+      "doc": "D5_C26_GPovo_20-08-2007_12h47",
+      "variables": {
+        "arg1": "“ Não estou preocupado , não .",
+        "arg2": "Temos esperança de que tudo vai dar certo ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 278,
+      "doc": "D3_C47_OGlobo",
+      "variables": {
+        "arg1": "por causa de uma série de ataques cometidos por guerrilheiros curdos",
+        "arg2": "que usam o Norte do Iraque como base ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 279,
+      "doc": "D2_C5_GPovo_19-09-2007_10h01",
+      "variables": {
+        "arg1": "a economista Solange Vieira , de 38 anos , será a nova presidente da Agência Nacional de Aviação Civil",
+        "arg2": "Braço direito do peemedebista desde sua posse , ela é funcionária de carreira do BNDES"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 280,
+      "doc": "D1_C35_Folha_07-08-2007_14h11",
+      "variables": {
+        "arg1": "desde que foi solto ,",
+        "arg2": "Abadia fez quatro cirurgias plásticas"
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 281,
+      "doc": "D4_C11_JB_07-08-2006_06h26",
+      "variables": {
+        "arg1": "Outros dois postos teriam sido atingidos no bairro Higienópolis ,",
+        "arg2": "segundo a rádio CBN ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 282,
+      "doc": "D1_C25_Folha_16-07-2007_07h50",
+      "variables": {
+        "arg1": "Um dos desarmes chegou até Vágner Love .",
+        "arg2": "O atacante , <*> deu um passe preciso"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 283,
+      "doc": "D4_C36_JB",
+      "variables": {
+        "arg1": "Antonio Carlos Peixoto de Magalhães formou-se médico ,",
+        "arg2": "Em 1986 , ACM viveu um de seus maiores dramas pessoais :"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 284,
+      "doc": "D3_C32_JB_17-07-2007_08h16",
+      "variables": {
+        "arg1": "desde 1995 ,",
+        "arg2": "quando um tremor de magnitude 7,3 matou mais de 6.400 pessoas na cidade de Kobe ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 285,
+      "doc": "D1_C2_Folha_04-08-2006_11h38",
+      "variables": {
+        "arg1": "Heloísa Helena , candidata à Presidência pelo PSOL , aparece em terceiro , com 11 % das intenções de voto ,",
+        "arg2": "José Maria Eymael , do PSDC , e Rui Pimenta , do PCO , não chegaram a obter 1 % das intenções de voto ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 286,
+      "doc": "D3_C13_GPovo_07-08-2006_09h28",
+      "variables": {
+        "arg1": "“ Nossa simpatia está com as famílias das vítimas e com todos os civis afetados por este massacre ,",
+        "arg2": "disse Miribel ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 287,
+      "doc": "D1_C25_Folha_16-07-2007_07h50",
+      "variables": {
+        "arg1": "De novo o Brasil era criticado .",
+        "arg2": "De novo o Brasil acabou campeão ."
+      },
+      "answer_type": "string",
+      "answer": "concession"
+    },
+    {
+      "id": 288,
+      "doc": "D1_C18_Folha_16-04-2007_15h46",
+      "variables": {
+        "arg1": "Em agosto de 2006 , o reinício das aulas foi suspenso",
+        "arg2": "e a entrada no campus foi bloqueada"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 289,
+      "doc": "D5_C25_GPovo_17-07-2007",
+      "variables": {
+        "arg1": "Empate este que ficou mais distante aos 39 minutos ,",
+        "arg2": "quando Daniel Alves desceu pela direita"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 290,
+      "doc": "D1_C36_Folha",
+      "variables": {
+        "arg1": "Desde então ,",
+        "arg2": "ACM vinha se submetendo a check-ups de rotina todo mês ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 291,
+      "doc": "D3_C49_OGlobo_16-07-2007_13h57",
+      "variables": {
+        "arg1": "não haverá mudanças nos planos de investimento do governo federal para o Rio por conta do episódio .",
+        "arg2": "“ Nós vamos trabalhar ,"
+      },
+      "answer_type": "string",
+      "answer": "reformulation"
+    },
+    {
+      "id": 292,
+      "doc": "D1_C3_Folha_19-07-2007_21h05",
+      "variables": {
+        "arg1": "A falha no reversor <*> foi detectada pelo sistema eletrônico de checagem da própria aeronave ,",
+        "arg2": "que continuou voando nos dias seguintes , com o reversor direito desligado ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 293,
+      "doc": "D1_C7_Estadao_04-08-2006_14h13",
+      "variables": {
+        "arg1": "É um par de irmãos admirável , cada um com cerca de 1 % da massa do Sol  ,",
+        "arg2": "O mais recente , Oph 162225-240515 , é o primeiro planemo duplo ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 294,
+      "doc": "D3_C21_JB",
+      "variables": {
+        "arg1": "O ministro da Defesa , Nelson Jobim , decidiu que será realizada uma reforma definitiva na pista principal de Guarulhos , o mais rápido possível ,",
+        "arg2": "sem que seja necessário fechar a pista neste momento ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 295,
+      "doc": "D5_C41_GPovo_20-07-2007_10h56",
+      "variables": {
+        "arg1": "No feminino , Monique ferreira garantiu mais um bronze para o Brasil nos 200m livre .",
+        "arg2": "A manhã começou com uma notícia triste ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 296,
+      "doc": "D3_C12_GPovo_07-08-2006_08h28",
+      "variables": {
+        "arg1": "Ao menos 549 pessoas morreram",
+        "arg2": "No mês passado , a FAO <*> estimou que cerca de 60 mil pessoas haviam sido desabrigadas pelas chuvas na Coréia do Norte ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 297,
+      "doc": "D2_C3_Estadao_20-07-2007_11h28",
+      "variables": {
+        "arg1": "Isso não quer dizer que o aeroporto de Congonhas teve influência decisiva no acidente  ,",
+        "arg2": "conclui ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 298,
+      "doc": "D1_C5_JB",
+      "variables": {
+        "arg1": "Inicialmente , Solange Vieira , <*> havia sido escolhida para comandar a Secretaria Nacional de Aviação Civil ,",
+        "arg2": "segundo a assessoria de imprensa do ministério ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 299,
+      "doc": "D1_C16_Folha_21-08-2006_10h14",
+      "variables": {
+        "arg1": "quando o presidente do Conselho de Ética , deputado Ricardo Izar <*> vai instaurar os processos de perda de mandato contra os 69 deputados",
+        "arg2": "( PTB-SP ) ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 300,
+      "doc": "D1_C17_Folha_21-08-2006",
+      "variables": {
+        "arg1": "e cobrou exatamente o que Alckmin fez ontem :",
+        "arg2": "colar à imagem de Lula todos os casos de corrupção"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 301,
+      "doc": "D3_C50_OGlobo",
+      "variables": {
+        "arg1": "seu partido considerou insuficiente a proposta do governo ,",
+        "arg2": "o governo tem condições de ceder mais ."
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 302,
+      "doc": "D4_C14_JB",
+      "variables": {
+        "arg1": "A emissora de TV estatal \" Nile News \" mostrou as primeiras imagens do acidente ,",
+        "arg2": "nas quais era possível ver vários cadáveres"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 303,
+      "doc": "D2_C18_Estadao_16-04-2007_13h44",
+      "variables": {
+        "arg1": "Um dos estudantes foi morto em um dormitório ,",
+        "arg2": "O ataque espalhou pânico e confusão na universidade ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 304,
+      "doc": "D1_C2_Folha_04-08-2006_11h38",
+      "variables": {
+        "arg1": "Na pesquisa , <*> Lula aparece com 44 % das intenções de voto",
+        "arg2": "divulgada no último dia 19 pela Folha ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 305,
+      "doc": "D1_C18_Folha_16-04-2007_15h46",
+      "variables": {
+        "arg1": "Um atirador matou ao menos 30 pessoas em dois diferentes locais da Universidade Técnica da Virgínia , em Blacksburg <*> , nesta segunda-feira , no pior ataque a tiros contra um campus universitário da história dos Estados Unidos .",
+        "arg2": "todas as entradas do campus foram fechadas ,"
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 306,
+      "doc": "D2_C1_Estadao_04-08-2006_05h54",
+      "variables": {
+        "arg1": "As vítimas do acidente foram 14 passageiros e três membros da tripulação .",
+        "arg2": "os membros da tripulação eram de nacionalidade russa ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 307,
+      "doc": "D3_C50_OGlobo",
+      "variables": {
+        "arg1": "seu partido considerou insuficiente a proposta do governo ,",
+        "arg2": "que teria se comprometido a elevar o limite de isenção da CPMF para quem tem renda até R$ 4.340 ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 308,
+      "doc": "D1_C4_Folha_16-07-2007_09h48",
+      "variables": {
+        "arg1": "às 9h30 havia alagamentos no viaduto José Colassuono ;",
+        "arg2": "na pista expressa da avenida Alcântara Machado , sentido bairro , altura da rua Doutor Fomm ;"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 309,
+      "doc": "D4_C47_JB_17-10-2007_07h54",
+      "variables": {
+        "arg1": "O governo de Erdogan se encontra sob pressão para fazer algo contra a crescente ofensiva do PKK ,",
+        "arg2": "Ancara protestou contra esse voto"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 310,
+      "doc": "D4_C43_JB_17-07-2007_08h50",
+      "variables": {
+        "arg1": "os relatores do caso envolvendo o presidente do Senado , Renan Calheiros <*> já articulam um plano B.",
+        "arg2": "Na curta entrevista de ontem , Renan ironizou os jornalistas"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 311,
+      "doc": "D2_C29_OGlobo_15-07-2007_07h49",
+      "variables": {
+        "arg1": "Este seria o maior pagamento já feito pela Igreja",
+        "arg2": "desde que surgiu o escândalo de abuso sexual envolvendo religiosos em 2002"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 312,
+      "doc": "D2_C22_Estadao_24-07-2007_08h58",
+      "variables": {
+        "arg1": "das 39 partidas previstas , 19 foram canceladas ,",
+        "arg2": "Depois de uma segunda-feira caótica ,"
+      },
+      "answer_type": "string",
+      "answer": "reformulation"
+    },
+    {
+      "id": 313,
+      "doc": "D3_C46_OGlobo",
+      "variables": {
+        "arg1": "Niigata foi atingida em outubro de 2004 por um terremoto de mesma intensidade ,",
+        "arg2": "que provocou a morte de 65 pessoas"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 314,
+      "doc": "D3_C46_OGlobo",
+      "variables": {
+        "arg1": "Um pequeno incêndio aconteceu em um transformador elétrico da usina nuclear de Kashiwazaki Kariwa , a maior do mundo ,",
+        "arg2": "mas o fogo já foi controlado ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 315,
+      "doc": "D1_C29_Folha_16-07-2007",
+      "variables": {
+        "arg1": "Os advogados de mais de 500 pessoas <*> anunciaram , na noite de sábado , ter feito um acordo de US$ 660 milhões",
+        "arg2": "Para o presidente da organização , David Clohessy , os sobreviventes <*> devem se sentir orgulhosos ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 316,
+      "doc": "D2_C21_OGlobo_06-08-2007_16h23",
+      "variables": {
+        "arg1": "que em março do ano que vem uma das pistas do Aeroporto de Guarulhos será fechada para reformas de seu trecho central .",
+        "arg2": "As obras da pista também ainda não têm previsão para começar ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 317,
+      "doc": "D2_C6_Estadao_08-08-2007_07h49",
+      "variables": {
+        "arg1": "quando voltar da viagem <*> irá começar a anunciar as obras de infra-estrutura em transporte",
+        "arg2": "que está fazendo pela América Central ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 318,
+      "doc": "D4_C49_JB",
+      "variables": {
+        "arg1": "Eu tenho certeza de que não é esse o pensamento do Rio de Janeiro",
+        "arg2": "- disse Lula , no programa de rádio Café com o Presidente ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 319,
+      "doc": "D1_C21_Estadao_06-08-2007_15h40",
+      "variables": {
+        "arg1": "e , na terceira etapa , o centro da pista será reformado .",
+        "arg2": "Na terceira parte da reforma , parte dos vôos de Cumbica serão transferidos para o Aeroporto de Viracopos , em Campinas ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 320,
+      "doc": "D3_C29_GPovo_15-07-2007_10h43",
+      "variables": {
+        "arg1": "A Igreja Católica chegou a um acordo financeiro estimado em US$ 660 milhões <*> com mais de 500 pessoas",
+        "arg2": "A informação foi divulgada pelo advogado das supostas vítimas , Ray Boucher ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 321,
+      "doc": "D1_C29_Folha_16-07-2007",
+      "variables": {
+        "arg1": "será o maior valor pago por uma diocese",
+        "arg2": "desde que veio à tona nos EUA pela primeira vez um escândalo de pedofilia , em Boston , em 2002 ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 322,
+      "doc": "D1_C45_Folha_18-10-2007_08h03",
+      "variables": {
+        "arg1": "Foi-se um relógio",
+        "arg2": "que acabara de ganhar da minha esposa em comemoração ao meu aniversário ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 323,
+      "doc": "D2_C29_OGlobo_15-07-2007_07h49",
+      "variables": {
+        "arg1": "A Igreja Católica chegou a um acordo financeiro estimado em US$ 660 milhões <*> com mais de 500 pessoas",
+        "arg2": "Em fevereiro de 2004 , um relatório encomendado pela própria Igreja concluiu que mais de 4 mil padres católicos nos Estados Unidos tinham sido acusados de cometer abuso sexual nos últimos 50 anos ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 324,
+      "doc": "D2_C33_Estadao_25-09-2007_10h51",
+      "variables": {
+        "arg1": "com o Programa Fome Zero , conseguiu atingir o primeiro ponto das Metas do Milênio <*> com dez anos de antecedência ,",
+        "arg2": "- erradicar a fome - ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 325,
+      "doc": "D1_C29_Folha_16-07-2007",
+      "variables": {
+        "arg1": "Se aprovado pela Justiça ,",
+        "arg2": "será o maior valor pago por uma diocese"
+      },
+      "answer_type": "string",
+      "answer": "condition"
+    },
+    {
+      "id": 326,
+      "doc": "D3_C49_OGlobo_16-07-2007_13h57",
+      "variables": {
+        "arg1": "O presidente Luiz Inácio Lula da Silva classificou de “ reação do ser humano ” as vaias",
+        "arg2": "não haverá mudanças nos planos de investimento do governo federal para o Rio por conta do episódio ."
+      },
+      "answer_type": "string",
+      "answer": "concession"
+    },
+    {
+      "id": 327,
+      "doc": "D3_C33_OGlobo_25-09-2007_19h59",
+      "variables": {
+        "arg1": "Ele afirmou que",
+        "arg2": "a \" eqüidade social é a melhor arma contra a degradação do planeta \" ,"
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 328,
+      "doc": "D3_C4_OGlobo",
+      "variables": {
+        "arg1": ", a última chuva havia ocorrido no dia 29 de junho , em intensidade menor",
+        "arg2": "do que a que cai sobre a cidade desde a noite de domingo ."
+      },
+      "answer_type": "string",
+      "answer": "concession"
+    },
+    {
+      "id": 329,
+      "doc": "D5_C20_GPovo_19-09-2007_12h44",
+      "variables": {
+        "arg1": "A oposição trabalha na lógica do quanto pior melhor ” ,",
+        "arg2": "A CPMF deve resultar em arrecadação de R$ 39 bilhões em 2008 , conforme a proposta orçamentária encaminhada pelo Planalto ao Congresso ."
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 330,
+      "doc": "D4_C32_GPovo_16-07-2007_19h17",
+      "variables": {
+        "arg1": "A escala Richter é dividida entre 1 a 9 graus ,",
+        "arg2": "No caso do Japão , a magnitude apontada de 6,8 é considerada \" forte \" ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 331,
+      "doc": "D5_C26_GPovo_20-08-2007_12h47",
+      "variables": {
+        "arg1": "e disse que",
+        "arg2": "ainda não viu muitos indícios do furacão “ Dean ” ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 332,
+      "doc": "D4_C43_JB_17-07-2007_08h50",
+      "variables": {
+        "arg1": "Na curta entrevista de ontem , Renan ironizou os jornalistas",
+        "arg2": "não tem intenção de recorrer ao Supremo Tribunal Federal <*> contra as investigações do Conselho de Ética ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 333,
+      "doc": "D5_C35_GPovo_07-08-2007_10h26",
+      "variables": {
+        "arg1": "Abadia foi preso em março de 1996",
+        "arg2": "por enviar aos Estados Unidos 30 toneladas de cocaína"
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 334,
+      "doc": "D3_C9_OGlobo_04-08-2006_14h09",
+      "variables": {
+        "arg1": "A operação também cumpriu 60 mandados de busca e apreensão .",
+        "arg2": "Segundo divulgada pela PF , o grupo criminoso desviou desde 2004 cerca de R$ 70 milhões dos cofres públicos ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 335,
+      "doc": "D1_C44_Folha_19-09-2007_12h03",
+      "variables": {
+        "arg1": "disse hoje ser contrário à unificação dos processos contra o senador Renan Calheiros",
+        "arg2": "( PMDB-AL )"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 336,
+      "doc": "D4_C2_Globo_04-08-2006_16h09",
+      "variables": {
+        "arg1": "De acordo com a pesquisa , Lula <*> tem 44 % das intenções de voto , contra 25 % de Geraldo Alckmin <*> e 11 % de Heloísa Helena",
+        "arg2": "Os votos brancos e nulos somam 9 % ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 337,
+      "doc": "D3_C29_GPovo_15-07-2007_10h43",
+      "variables": {
+        "arg1": "A diocese ainda não comentou o resultado das negociações ,",
+        "arg2": "integrantes da Igreja planejavam aparecer perante a corte na manhã da próxima segunda-feira ."
+      },
+      "answer_type": "string",
+      "answer": "concession"
+    },
+    {
+      "id": 338,
+      "doc": "D1_C9_Folha_04-08-2006_13h20",
+      "variables": {
+        "arg1": "As informações coletadas pela PF durante as investigações foram enviadas ao TJ <*> do Estado de Rondônia e ao STJ",
+        "arg2": "Ao menos 300 policiais de Amapá , Distrito Federal , Mato Grosso , Acre e Rondônia trabalharam na Operação Dominó ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 339,
+      "doc": "D2_C22_Estadao_24-07-2007_08h58",
+      "variables": {
+        "arg1": "Por conta do deslizamento da cabeceira da pista principal de Congonhas , <*> uma pista da Avenida Washington Luís continuava interditada na manhã desta terça .",
+        "arg2": "A pista auxiliar , <*> foi fechada"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 340,
+      "doc": "D4_C10_JB_07-08-2006_03h51",
+      "variables": {
+        "arg1": "A esse respeito , o Conselho de Segurança da ONU debaterá hoje ou amanhã uma proposta de resolução apresentada pelos Estados Unidos e pela França ,",
+        "arg2": "Aparentemente , Israel estaria disposto a aceitar a resolução ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 341,
+      "doc": "D2_C12_Estadao_07-08-2006_02h29",
+      "variables": {
+        "arg1": "No entanto , depois de conhecer a dimensão das inundações ,",
+        "arg2": "o Governo de Seul manifestou sua predisposição em oferecer ajuda à Coréia do Norte"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 342,
+      "doc": "D3_C12_GPovo_07-08-2006_08h28",
+      "variables": {
+        "arg1": "Ao menos 549 pessoas morreram",
+        "arg2": "em conseqüência das enchentes"
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 343,
+      "doc": "D4_C25_JB",
+      "variables": {
+        "arg1": "Aos 23 da segunda etapa ,",
+        "arg2": "o golpe fatal ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 344,
+      "doc": "D2_C24_Estadao_23-07-2007_19h16",
+      "variables": {
+        "arg1": "Como esperado , a atleta Fabiana Murer conquistou a medalha de ouro <*> no salto com vara nos Jogos Pan-Americanos do Rio , nesta segunda-feira , no Estádio João Havelange .",
+        "arg2": "Murer <*> conquistou o lugar mais alto do pódio com a marca de 4m60 ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 345,
+      "doc": "D2_C33_Estadao_25-09-2007_10h51",
+      "variables": {
+        "arg1": "os países mais industrializados \" precisam dar o exemplo no combate ao aquecimento global \"",
+        "arg2": "e disse ser \" imprescindível \" que eles cumpram as metas do Protocolo de Kyoto ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 346,
+      "doc": "D5_C26_GPovo_20-08-2007_12h47",
+      "variables": {
+        "arg1": "Perdi roupas , equipamentos eletrônicos ...",
+        "arg2": "é absurdo ” ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 347,
+      "doc": "D5_C26_GPovo_20-08-2007_12h47",
+      "variables": {
+        "arg1": "que vivem na Ilhas Caymans ,",
+        "arg2": "que ficam entre a Jamaica e Cuba ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 348,
+      "doc": "D5_C41_GPovo_20-07-2007_10h56",
+      "variables": {
+        "arg1": "No feminino , Daiene Dias conseguiu vaga na final , com o quinto <*> melhor tempo .",
+        "arg2": "e não participará da decisão ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 349,
+      "doc": "D3_C13_GPovo_07-08-2006_09h28",
+      "variables": {
+        "arg1": "Quinze funcionários locais de uma organização de caridade francesa no Sri Lanka foram encontrados mortos na cidade de Muttur , no norte do país .",
+        "arg2": "Confrontos entre o Exército e o grupo rebelde Tigres Tâmeis eclodiram na região de Muttur há duas semanas ,"
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 350,
+      "doc": "D4_C24_GPovo_23-07-2007_19h38",
+      "variables": {
+        "arg1": "A brasileira Fabiana Murer conquistou o primeiro ouro do atletismo para o Brasil , nesta segunda-feira , na prova de salto com vara .",
+        "arg2": "A medalha de prata ficou com a americana April Steiner , com a marca de 4m40"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 351,
+      "doc": "D5_C41_GPovo_20-07-2007_10h56",
+      "variables": {
+        "arg1": "No feminino , Daiene Dias conseguiu vaga na final , com o quinto <*> melhor tempo .",
+        "arg2": "( 2m16s97 )"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 352,
+      "doc": "D1_C3_Folha_19-07-2007_21h05",
+      "variables": {
+        "arg1": "O Airbus-A320 da TAM acidentado em São Paulo na última terça-feira <*> tinha um defeito no reverso da turbina direita",
+        "arg2": "a recomendação da Airbus <*> é que a revisão no reversor seja feita até dez dias depois de o defeito ser detectado ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 353,
+      "doc": "D3_C15_OGlobo_21-08-2006_06h58",
+      "variables": {
+        "arg1": "- Isto não foi um acidente ,",
+        "arg2": "- disse Resin ,"
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 354,
+      "doc": "D1_C5_JB",
+      "variables": {
+        "arg1": "indicado para exercer o cargo em substituição a Jorge Luiz Brito Velozo ,",
+        "arg2": "que pediu demissão no final do mês passado ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 355,
+      "doc": "D2_C33_Estadao_25-09-2007_10h51",
+      "variables": {
+        "arg1": "O presidente afirmou também que",
+        "arg2": "os biocombustíveis evitaram que 644 milhões de toneladas de CO2 fossem despejadas na atmosfera ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 356,
+      "doc": "D3_C36_OGlobo",
+      "variables": {
+        "arg1": "Ele era diabético",
+        "arg2": "e tinha também problemas renais ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 357,
+      "doc": "D4_C11_JB_07-08-2006_06h26",
+      "variables": {
+        "arg1": "A rua foi interditada",
+        "arg2": "e a perícia está fazendo a vistoria no local ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 358,
+      "doc": "D5_C26_GPovo_20-08-2007_12h47",
+      "variables": {
+        "arg1": "“ Em 2004 , o <*> Ivan passou por aqui",
+        "arg2": "e foi assustador ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 359,
+      "doc": "D2_C34_Estadao_20-08-2007_13h22",
+      "variables": {
+        "arg1": "A Receita Federal intensificou a fiscalização",
+        "arg2": "Balanço da fiscalização , <*> mostra que as autuações cresceram 316,5 % nos sete primeiros meses deste ano"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 360,
+      "doc": "D3_C28_OGlobo_15-07-2007_17h18",
+      "variables": {
+        "arg1": "A seleção brasileira de vôlei voltou a fazer bonito , desta vez na final da Liga Mundial ,",
+        "arg2": "e garantiram a terceira posição da Liga Mundial ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 361,
+      "doc": "D5_C20_GPovo_19-09-2007_12h44",
+      "variables": {
+        "arg1": "Como estratégia de obstrução , os partidos de oposição podem se utilizar , por mais de uma vez , de oito tipos de requerimentos",
+        "arg2": "“ Nosso objetivo é ganhar tempo ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 362,
+      "doc": "D4_C36_JB",
+      "variables": {
+        "arg1": "Antonio Carlos Peixoto de Magalhães formou-se médico ,",
+        "arg2": "Já em 2006 , seu grupo político colheu , graças ao progresso do lulismo no Nordeste , dois prejuízos :"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 363,
+      "doc": "D3_C40_OGlobo_06-08-2007_20h53",
+      "variables": {
+        "arg1": "O procurador solicitou o encaminhamento de todo o material",
+        "arg2": "“ A iniciativa <*> tem o objetivo de esclarecer essa questão sob a perspectiva penal sem nenhuma interferência sobre o que vai ser decidido no Senado ” ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 364,
+      "doc": "D3_C8_JB_04-08-2006_13h56",
+      "variables": {
+        "arg1": "O primeiro set permaneceu equilibrado até a metade ,",
+        "arg2": "Entretanto , os campeões olímpicos tiveram tranqüilidade para se recuperar"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 365,
+      "doc": "D2_C2_Estadao_04-08-2006_12h44",
+      "variables": {
+        "arg1": "Naquela ocasião , faziam parte da lista da pesquisa CNI/Ibope Enéas <*> que tinha 2 % ;",
+        "arg2": "Pedro Simon <*> também 2 % ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 366,
+      "doc": "D1_C8_Estadao_04-08-2006_13h56",
+      "variables": {
+        "arg1": "A seleção brasileira masculina de vôlei conseguiu , nesta sexta-feira , a sétima vitória consecutiva na Liga Mundial",
+        "arg2": "O time comandado pelo treinador Bernardinho só encontrou um pouco mais de dificuldades no segundo set ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 367,
+      "doc": "D4_C26_JB_20-08-2007_10h28",
+      "variables": {
+        "arg1": "Há alertas de furacão na costa de Belize e na parte leste da península Yucatán , no caminho para o popular destino turístico de Cancún .",
+        "arg2": "Milhares de turistas assustados fizeram filas nos aeroportos do Caribe Mexicano antes da chegada do Dean ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 368,
+      "doc": "D1_C7_Estadao_04-08-2006_14h13",
+      "variables": {
+        "arg1": "Os dois estão separados por uma distância de seis vezes a que existe entre o Sol e Plutão",
+        "arg2": "e ficam no berçário de estrelas de Ophiuchus , a 400 anos-luz da Terra ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 369,
+      "doc": "D3_C3_JB",
+      "variables": {
+        "arg1": "Marco Aurélio se disse",
+        "arg2": "incapaz de relembrar todo o seu gestual em um dia inteiro ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 370,
+      "doc": "D1_C25_Folha_16-07-2007_07h50",
+      "variables": {
+        "arg1": "Aos 40 min , Daniel Alves , o lateral <*> fez jogada de lateral .",
+        "arg2": "Ayala antecipou Vágner Love ,"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 371,
+      "doc": "D1_C25_Folha_16-07-2007_07h50",
+      "variables": {
+        "arg1": "ele não colocou Fernando , o volante",
+        "arg2": "que tinha no banco ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 372,
+      "doc": "D3_C13_GPovo_07-08-2006_09h28",
+      "variables": {
+        "arg1": "Segundo ele ,",
+        "arg2": "o grupo pretendia enviar uma equipe à região ,"
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 373,
+      "doc": "D2_C29_OGlobo_15-07-2007_07h49",
+      "variables": {
+        "arg1": "o acordo também pedia a divulgação de arquivos pessoais confidenciais dos padres .",
+        "arg2": "A transparência é parte fundamental disso  ,"
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 374,
+      "doc": "D3_C32_JB_17-07-2007_08h16",
+      "variables": {
+        "arg1": "Autoridades da maior usina de energia nuclear do mundo , no Japão , admitiram nesta terça-feira que houve mais vazamentos de radiação",
+        "arg2": "após um terremoto ter matado nove pessoas no país"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 375,
+      "doc": "D1_C27_Folha_17-10-2007_23h53",
+      "variables": {
+        "arg1": "No primeiro tempo o Brasil foi superior .",
+        "arg2": "A equipe tocava a bola no meio-campo ,"
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 376,
+      "doc": "D5_C47_GPovo_17-10-2007_07h54",
+      "variables": {
+        "arg1": "que acusou os governos de Washington e de Bagdá de não terem feito o suficiente para frear os ataques contra o Exército turco por parte do PKK ,",
+        "arg2": "cujo comando central se encontra no norte do Iraque ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 377,
+      "doc": "D2_C6_Estadao_08-08-2007_07h49",
+      "variables": {
+        "arg1": "segundo ele ,",
+        "arg2": "é lá que está o maior problema de degradação de moradia , estrutura familiar , violência , crime e narcotráfico ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 378,
+      "doc": "D1_C49_Folha_17-07-2007_08h25",
+      "variables": {
+        "arg1": "O Rio de Janeiro a gente poderia dizer continua lindo",
+        "arg2": "e merece que o governo federal faça o que for possível para o Rio de Janeiro . \""
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 379,
+      "doc": "D1_C13_Folha_07-08-2010_07h21",
+      "variables": {
+        "arg1": "O violento conflito começou em 26 de julho ,",
+        "arg2": "quando as tropas aéreas do governo bombardearam posições da guerrilha ,"
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 380,
+      "doc": "D2_C18_Estadao_16-04-2007_13h44",
+      "variables": {
+        "arg1": "É difícil dizer ao certo o que está acontecendo \" ,",
+        "arg2": "disse , transtornado , o estudante Jason Anthony Smith , de 19 anos ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 381,
+      "doc": "D4_C36_JB",
+      "variables": {
+        "arg1": "Em 1989 , ACM sofreu um infarto",
+        "arg2": "e , <*> recebeu o implante de duas pontes de safena e duas mamárias ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 382,
+      "doc": "D5_C25_GPovo_17-07-2007",
+      "variables": {
+        "arg1": "que deu uma meia lua na marcação",
+        "arg2": "e cruzou para Robinho ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 383,
+      "doc": "D2_C18_Estadao_16-04-2007_13h44",
+      "variables": {
+        "arg1": "para que os familiares consigam informações sobre seus filhos",
+        "arg2": "e recebam atendimento de psicólogos ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 384,
+      "doc": "D2_C29_OGlobo_15-07-2007_07h49",
+      "variables": {
+        "arg1": "Igreja venderia prédios administrativos",
+        "arg2": "integrantes da Igreja planejavam aparecer perante a corte na manhã da próxima segunda-feira ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 385,
+      "doc": "D5_C41_GPovo_20-07-2007_10h56",
+      "variables": {
+        "arg1": "O brasileiro dominou quase toda a prova ,",
+        "arg2": "e acabou apenas na quarta colocação , com o tempo de 1m49s49 ."
+      },
+      "answer_type": "string",
+      "answer": "concession"
+    },
+    {
+      "id": 386,
+      "doc": "D2_C22_Estadao_24-07-2007_08h58",
+      "variables": {
+        "arg1": "das 39 partidas previstas , 19 foram canceladas ,",
+        "arg2": "Nenhuma partida ou chegada internacional , segundo os painéis da Infraero , estavam fora do horário ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 387,
+      "doc": "D2_C22_Estadao_24-07-2007_08h58",
+      "variables": {
+        "arg1": "por conta do nevoeiro",
+        "arg2": "e metade dos vôos programados entre 6 e 8 horas foram cancelados ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 388,
+      "doc": "D3_C4_OGlobo",
+      "variables": {
+        "arg1": "A chuva começou na noite de domingo",
+        "arg2": "Na madrugada , a temperatura foi de 12 graus nos lugares mais frios da cidade ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 389,
+      "doc": "D2_C2_Estadao_04-08-2006_12h44",
+      "variables": {
+        "arg1": "Lula também teve uma redução nas intenções de voto de 57 % para 53 % .",
+        "arg2": "e os que não sabem ou não opinaram , 5 % ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 390,
+      "doc": "D2_C23_Estadao_23-07-2007_13h58",
+      "variables": {
+        "arg1": "O condado de Worcestershire também foi castigado pelas enchentes ,",
+        "arg2": "onde o nível da água atingiu 1,82 metro"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 391,
+      "doc": "D3_C9_OGlobo_04-08-2006_14h09",
+      "variables": {
+        "arg1": "O superintendente regional da Polícia Federal de Rondônia , delegado Joaquim Mesquita , informou nesta sexta-feira , dia 04 ,",
+        "arg2": "que 23 pessoas foram presas , até o momento , pela Operação Dominó , em Rondônia ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 392,
+      "doc": "D1_C18_Folha_16-04-2007_15h46",
+      "variables": {
+        "arg1": "Um atirador matou ao menos 30 pessoas em dois diferentes locais da Universidade Técnica da Virgínia , em Blacksburg <*> , nesta segunda-feira , no pior ataque a tiros contra um campus universitário da história dos Estados Unidos .",
+        "arg2": "O nome do homem armado não foi divulgado ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 393,
+      "doc": "D4_C26_JB_20-08-2007_10h28",
+      "variables": {
+        "arg1": "No Haiti , quatro pessoas morreram ,",
+        "arg2": "desde a chegada do Dean ao Caribe , no primeiro furacão da temporada de 2007 ,"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 394,
+      "doc": "D1_C13_Folha_07-08-2010_07h21",
+      "variables": {
+        "arg1": "mas o governo rejeitou a oferta",
+        "arg2": "e lançou uma nova ofensiva sobre a área , de onde mais de 15 mil civis foram obrigados a fugir na última semana ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 395,
+      "doc": "D3_C18_GPovo",
+      "variables": {
+        "arg1": "em West Ambler Johnston Hall , residência estudantil",
+        "arg2": "que abriga ao menos 895 pessoas ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 396,
+      "doc": "D1_C26_Folha_20-08-2007_13h16",
+      "variables": {
+        "arg1": "A companhia petrolífera estatal do México suspendeu os trabalhos de extração no golfo do Campeche ,",
+        "arg2": "que fica na rota do furacão ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 397,
+      "doc": "D3_C15_OGlobo_21-08-2006_06h58",
+      "variables": {
+        "arg1": "no recinto do mercado , <*> foi detonada uma carga explosiva .",
+        "arg2": "situado no Nordeste da cidade ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 398,
+      "doc": "D3_C15_OGlobo_21-08-2006_06h58",
+      "variables": {
+        "arg1": "- No curso da investigação , serão examinadas todas as versões ,",
+        "arg2": "incluindo a de um ataque terrorista"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 399,
+      "doc": "D2_C34_Estadao_20-08-2007_13h22",
+      "variables": {
+        "arg1": "No mesmo período do ano passado , as atuações de proprietários e dirigentes de empresas somaram R$ 324,43 milhões .",
+        "arg2": "De acordo com o balanço da Receita , as autuações totais de pessoas físicas nos sete primeiros meses deste ano somaram R$ 5,356 bilhões , com crescimento de 352 % em relação ao mesmo período do ano passado ."
+      },
+      "answer_type": "string",
+      "answer": "concession"
+    },
+    {
+      "id": 400,
+      "doc": "D5_C20_GPovo_19-09-2007_12h44",
+      "variables": {
+        "arg1": "cerca de dez deputados estão neste momento fazendo discursos em plenário .",
+        "arg2": "Uma terceira sessão extraordinária para a votação da Proposta de Emenda Constitucional <*> da CPMF deve ser convocada a partir das 21h ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 401,
+      "doc": "D1_C2_Folha_04-08-2006_11h38",
+      "variables": {
+        "arg1": "Neste cenário , Lula sobe de 27 % para 31 %",
+        "arg2": "Heloísa também cresce , de 1 % para 6 % ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 402,
+      "doc": "D5_C20_GPovo_19-09-2007_12h44",
+      "variables": {
+        "arg1": "depois que a base aliada do governo aprovou no início da madrugada desta terça-feira <*> uma medida provisória",
+        "arg2": "( 18 )"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 403,
+      "doc": "D1_C26_Folha_20-08-2007_13h16",
+      "variables": {
+        "arg1": "No Texas , moradores começaram ontem a tomar precauções para a passagem do furacão Dean .",
+        "arg2": "Várias áreas do Estado ainda se recuperam"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 404,
+      "doc": "D2_C12_Estadao_07-08-2006_02h29",
+      "variables": {
+        "arg1": "informou hoje um jornal pró norte-coreano publicado no Japão ,",
+        "arg2": "que citou fontes oficiais de Pyongyang ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 405,
+      "doc": "D1_C20_Folha_19-09-2007_13h39",
+      "variables": {
+        "arg1": "O presidente da Câmara , Arlindo Chinaglia <*> marcou para hoje a votação da PEC",
+        "arg2": "A discussão sobre a proposta já foi aberta"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 406,
+      "doc": "D1_C49_Folha_17-07-2007_08h25",
+      "variables": {
+        "arg1": "É como se eu fosse convidado para o aniversário de um amigo meu ,",
+        "arg2": "chegasse lá"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 407,
+      "doc": "D2_C33_Estadao_25-09-2007_10h51",
+      "variables": {
+        "arg1": "o Brasil vai sediar , no ano que vem , uma conferência internacional sobre biocombustíveis ,",
+        "arg2": "e convidou todos os países a participarem do evento ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 408,
+      "doc": "D4_C43_JB_17-07-2007_08h50",
+      "variables": {
+        "arg1": "ao anunciar que",
+        "arg2": "estava \" invertendo o ônus da prova \""
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 409,
+      "doc": "D2_C6_Estadao_08-08-2007_07h49",
+      "variables": {
+        "arg1": "serão investidos R$ 504 bilhões no PAC <*> até 2010 .",
+        "arg2": "o governo federal chamou governadores e prefeitos de 375 cidades"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 410,
+      "doc": "D2_C18_Estadao_16-04-2007_13h44",
+      "variables": {
+        "arg1": "Whitman matou 15 pessoas ,",
+        "arg2": "e deixou outras 31 pessoas feridas ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 411,
+      "doc": "D2_C32_Estadao_17-07-2007_08h03",
+      "variables": {
+        "arg1": "A central permanece fechada desde a última segunda ,",
+        "arg2": "Na segunda , o terremoto causou um pequeno incêndio em um transformador em uma unidade da companhia ,"
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 412,
+      "doc": "D1_C21_Estadao_06-08-2007_15h40",
+      "variables": {
+        "arg1": "A pista principal do Aeroporto Internacional de São Paulo <*> , em Guarulhos , será totalmente reformada em março de 2008 ,",
+        "arg2": "segundo informações do Ministério da Defesa anunciadas nesta segunda-feira , 6 ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 413,
+      "doc": "D3_C3_JB",
+      "variables": {
+        "arg1": "A notícia , <*> foi comemorada no Palácio com efusão singular por Marco Aurélio e seu assessor ,",
+        "arg2": "A câmera da emissora teria registrado a cena logo depois da transmissão da notícia ,"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 414,
+      "doc": "D1_C9_Folha_04-08-2006_13h20",
+      "variables": {
+        "arg1": "Entre os presos estão o presidente do TJ <*> de Rondônia , desembargador Sebastião Teixeira Chaves , e o presidente da Assembléia Legislativa , deputado José Carlos de Oliveira .",
+        "arg2": "( Tribunal de Justiça )"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 415,
+      "doc": "D4_C22_JB",
+      "variables": {
+        "arg1": "De acordo com a Empresa Brasileira de Infra -Estrutura Aeroportuária",
+        "arg2": "( Infraero ) ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 416,
+      "doc": "D2_C44_JB_10-09-2007_13h36",
+      "variables": {
+        "arg1": "mas que vai colocar a proposta em votação .",
+        "arg2": "Para o senador José Nery , a união das representações \" demonstra mais robustez e elementos de convencimento"
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 417,
+      "doc": "D1_C27_Folha_17-10-2007_23h53",
+      "variables": {
+        "arg1": "Novamente , os jogadores escutaram ,",
+        "arg2": "e ampliaram a vantagem ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 418,
+      "doc": "D2_C5_GPovo_19-09-2007_10h01",
+      "variables": {
+        "arg1": "Cobrado por familiares de vítimas do acidente da TAM e pela oposição ,",
+        "arg2": "dificilmente o relator irá sugerir o indiciamento de Zuanazzi ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 419,
+      "doc": "D4_C32_GPovo_16-07-2007_19h17",
+      "variables": {
+        "arg1": "Os abalos provocaram vazamento de material radioativo na maior usina nuclear do mundo .",
+        "arg2": "Ao menos 9 pessoas morreram"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 420,
+      "doc": "D2_C48_Estadao_24-07-2007_09h56",
+      "variables": {
+        "arg1": "Enquanto isso , o substituto Marcelinho preparava-se para o saque inicial .",
+        "arg2": "O técnico Bernardinho começou o jogo com Marcelinho , André Nascimento , Giba , Dante , Gustavo , Rodrigão e Escadinha ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 421,
+      "doc": "D4_C49_JB",
+      "variables": {
+        "arg1": "A única coisa que eu , particularmente , fico triste é que eu fui preparado para uma festa .",
+        "arg2": "É como se eu fosse convidado para o aniversário de um amigo meu ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 422,
+      "doc": "D4_C36_JB",
+      "variables": {
+        "arg1": "Presença constante na cena política brasileira nas últimas quatro décadas , o senador Antonio Carlos Magalhães <*> morreu na manhã desta sexta-feira , em São Paulo , vítima de insuficiência cardíaca .",
+        "arg2": "Dono de língua afiada , ACM , como era conhecido , colecionou amigos e desafetos indistintamente ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 423,
+      "doc": "D2_C33_Estadao_25-09-2007_10h51",
+      "variables": {
+        "arg1": "O presidente brasileiro destacou que",
+        "arg2": "o sofrimento expresso no mural ' Guerra ' remete à elevada responsabilidade das Nações Unidas em afastar o risco de conflitos armados ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 424,
+      "doc": "D4_C43_JB_17-07-2007_08h50",
+      "variables": {
+        "arg1": "- Falar por mim não vale",
+        "arg2": "- disse ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 425,
+      "doc": "D1_C7_Estadao_04-08-2006_14h13",
+      "variables": {
+        "arg1": "Jayawardhana e Ivanov estimaram a massa dos componentes do par",
+        "arg2": "e concluíram que o planemo duplo é jovem em termos cósmicos , com cerca de um milhão de anos ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 426,
+      "doc": "D2_C23_Estadao_23-07-2007_13h58",
+      "variables": {
+        "arg1": "A chuva torrencial <*> encobriu estradas e milhares de pessoas estão sem fornecimento de eletricidade e de água potável em decorrência da pior enchente nos últimos 60 anos no país ,",
+        "arg2": "O nível da água do rio Severn atingiu 10,4 metros em alguns pontos ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 427,
+      "doc": "D3_C9_OGlobo_04-08-2006_14h09",
+      "variables": {
+        "arg1": "Entre os presos estão o presidente do Tribunal de Justiça de Rondônia , desembargador Sebastião Teixeira Chaves , o presidente da Assembléia Legislativa do Estado , deputado José Carlos de Oliveira <*> o “ Carlão ” , <*> o ex-procurador-geral de Justiça , Abdiel Ramos Figueira , o vice-presidente do Tribunal de Contas de Rondônia , Edílson de Sousa Silva , além de outros juízes , desembargadores , promotores e mais nove deputados estaduais .",
+        "arg2": "A operação também cumpriu 60 mandados de busca e apreensão ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 428,
+      "doc": "D1_C26_Folha_20-08-2007_13h16",
+      "variables": {
+        "arg1": "Stuart Jack , governador das ilhas Cayman , <*> informou que",
+        "arg2": "que são território britânico ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 429,
+      "doc": "D4_C27_JB",
+      "variables": {
+        "arg1": "Como era de se esperar , o Equador começou a partida muito fechado .",
+        "arg2": "Ronaldinho fez linda jogada"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 430,
+      "doc": "D1_C12_Folha_07-08-2006_08h30",
+      "variables": {
+        "arg1": "A Federação Internacional da Cruz Vermelha afirmou na sexta-feira",
+        "arg2": "( 4 )"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 431,
+      "doc": "D2_C15_Estadao_21-08-2006_07h32",
+      "variables": {
+        "arg1": "Nove pessoas morreram ,",
+        "arg2": "informou a polícia ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 432,
+      "doc": "D1_C35_Folha_07-08-2007_14h11",
+      "variables": {
+        "arg1": "os Estados Unidos pediram a extradição",
+        "arg2": "ele"
+      },
+      "answer_type": "string",
+      "answer": "concession"
+    },
+    {
+      "id": 433,
+      "doc": "D4_C36_JB",
+      "variables": {
+        "arg1": "Já em 2006 , seu grupo político colheu , graças ao progresso do lulismo no Nordeste , dois prejuízos :",
+        "arg2": "foi preciso construir uma enorme aliança suprapartidária ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 434,
+      "doc": "D4_C43_JB_17-07-2007_08h50",
+      "variables": {
+        "arg1": "os relatores do caso envolvendo o presidente do Senado , Renan Calheiros <*> já articulam um plano B.",
+        "arg2": "Renato Casagrande e Marisa Serrano acham que foi o próprio Renan quem chamou para si as investigações"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 435,
+      "doc": "D1_C50_Folha_06-11-2007_12h57",
+      "variables": {
+        "arg1": "Ao final do encontro , os senadores tucanos disseram que",
+        "arg2": "esperam que o governo apresente uma contraproposta nas próximas horas ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 436,
+      "doc": "D2_C16_Estadao_21-08-2006",
+      "variables": {
+        "arg1": "e Ildeu Araújo",
+        "arg2": "( PP-SP ) ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 437,
+      "doc": "D1_C50_Folha_06-11-2007_12h57",
+      "variables": {
+        "arg1": "O ministro da Fazenda , Guido Mantega , apresentou nesta terça-feira a proposta do governo em troca do apoio do PSDB na votação da PEC",
+        "arg2": "A PEC <*> está tramitando no Senado ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 438,
+      "doc": "D3_C50_OGlobo",
+      "variables": {
+        "arg1": "Ao deixar a reunião dos tucanos com o ministro da Fazenda , Guido Mantega ,",
+        "arg2": "seu partido considerou insuficiente a proposta do governo ,"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 439,
+      "doc": "D3_C10_OGlobo",
+      "variables": {
+        "arg1": "A aviação de Israel realizou durante a madrugada desta segunda-feira , dia 7 , ataques a 150 alvos no Líbano .",
+        "arg2": "foram travadas lugas sangrentas ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 440,
+      "doc": "D4_C43_JB_17-07-2007_08h50",
+      "variables": {
+        "arg1": "e , no retorno das férias , apresentarem um relatório detalhado sobre o conjunto de documentos",
+        "arg2": "- notas fiscais , recibos de vacinação , extratos bancários , guias de transporte de animais"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 441,
+      "doc": "D2_C34_Estadao_20-08-2007_13h22",
+      "variables": {
+        "arg1": "Além da malha fina ,",
+        "arg2": "a Receita também centrou o foco na fiscalização de pessoas físicas"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 442,
+      "doc": "D4_C25_JB",
+      "variables": {
+        "arg1": "Em meio ao Pan-americano do Rio de Janeiro ,",
+        "arg2": "o país parou para acompanhar duas decisões importantes ,"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 443,
+      "doc": "D1_C17_Folha_21-08-2006",
+      "variables": {
+        "arg1": "beijou",
+        "arg2": "e pediu proteção a uma imagem do santo colocada na entrada da quadra ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 444,
+      "doc": "D1_C8_Estadao_04-08-2006_13h56",
+      "variables": {
+        "arg1": "Invicto na competição ,",
+        "arg2": "o Brasil está tranqüilo na liderança do Grupo B."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 445,
+      "doc": "D1_C20_Folha_19-09-2007_13h39",
+      "variables": {
+        "arg1": "Mas o primeiro vice-presidente da Câmara , deputado Narcio Rodrigues <*> informou aos dois partidos",
+        "arg2": "( PSDB-MG ) ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 446,
+      "doc": "D2_C31_Estadao_17-10-2007_09h32",
+      "variables": {
+        "arg1": "e superou o nadador Thiago Pereira ,",
+        "arg2": "que ganhou seis ouros nos Jogos Pan-Americanos ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 447,
+      "doc": "D3_C21_JB",
+      "variables": {
+        "arg1": "Na segunda etapa , a parte concluída será reaberta",
+        "arg2": "e a obra passará a ser feita na outra cabeceira ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 448,
+      "doc": "D2_C23_Estadao_23-07-2007_13h58",
+      "variables": {
+        "arg1": "Nas piores áreas , o Exército pediu ajuda à Aeronáutica ,",
+        "arg2": "para resgatar mais de cem moradores de suas casas ."
+      },
+      "answer_type": "string",
+      "answer": "purpose"
+    },
+    {
+      "id": 449,
+      "doc": "D4_C36_JB",
+      "variables": {
+        "arg1": "Antonio Carlos Peixoto de Magalhães formou-se médico ,",
+        "arg2": "Entre 1975 e 79 , presidiu a Eletrobrás"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 450,
+      "doc": "D4_C14_JB",
+      "variables": {
+        "arg1": "Mais de 45 ambulâncias foram enviadas ao local do acidente",
+        "arg2": "para socorrer as vítimas"
+      },
+      "answer_type": "string",
+      "answer": "purpose"
+    },
+    {
+      "id": 451,
+      "doc": "D1_C50_Folha_06-11-2007_12h57",
+      "variables": {
+        "arg1": "que fará com que ele receba uma restituição maior",
+        "arg2": "ou pague menos impostos ."
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 452,
+      "doc": "D2_C34_Estadao_20-08-2007_13h22",
+      "variables": {
+        "arg1": "Além de intensificar a fiscalização ,",
+        "arg2": "o que também contribuiu para o aumento das autuações ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 453,
+      "doc": "D1_C25_Folha_16-07-2007_07h50",
+      "variables": {
+        "arg1": "O primeiro título da nova \" era Dunga \" foi em cima justamente do adversário",
+        "arg2": "Ironicamente , a façanha brasileira veio sem que Dunga tivesse seu esquema com três volantes ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 454,
+      "doc": "D3_C36_OGlobo",
+      "variables": {
+        "arg1": "Foi confirmada às 11h40m desta sexta-feira a morte do senador Antônio Carlos Magalhães <*> de 79 anos .",
+        "arg2": "O senador teve seu estado de saúde piorado na semana passada ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 455,
+      "doc": "D1_C25_Folha_16-07-2007_07h50",
+      "variables": {
+        "arg1": "O primeiro título da nova \" era Dunga \" foi em cima justamente do adversário",
+        "arg2": "Primeira conquista do treinador , mas não primeira vitória sobre os argentinos ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 456,
+      "doc": "D1_C29_Folha_16-07-2007",
+      "variables": {
+        "arg1": "Muitos dos padres são acusados por diversas vítimas ,",
+        "arg2": "Tratamento psicológico era recomendado ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 457,
+      "doc": "D4_C43_JB_17-07-2007_08h50",
+      "variables": {
+        "arg1": "Malta fez questão de frisar , no entanto , que",
+        "arg2": "em nenhum momento recebeu qualquer sondagem ou sugestão de Renan para pedir vistas ao pedido dos relatores ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 458,
+      "doc": "D4_C27_JB",
+      "variables": {
+        "arg1": "A Seleção voltou para a segunda etapa com vontade de abrir o placar",
+        "arg2": "e logo aos três minutos Kaká soltou uma bomba"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 459,
+      "doc": "D4_C49_JB",
+      "variables": {
+        "arg1": "A declaração foi feita pelo presidente do Comitê Olímpico Brasileiro <*> Carlos Nuzman .",
+        "arg2": "( COB ) ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 460,
+      "doc": "D1_C50_Folha_06-11-2007_12h57",
+      "variables": {
+        "arg1": "O ministro da Fazenda , Guido Mantega , apresentou nesta terça-feira a proposta do governo em troca do apoio do PSDB na votação da PEC",
+        "arg2": "( Proposta de Emenda Constitucional )"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 461,
+      "doc": "D4_C32_GPovo_16-07-2007_19h17",
+      "variables": {
+        "arg1": "Dois terremotos atingiram a região de Niigata , na costa oeste do Japão , nesta segunda-feira",
+        "arg2": "o Japão sofre a cada ano 20 % dos terremotos mais violentos registrados no mundo ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 462,
+      "doc": "D3_C14_OGlobo_21-08-2006_07h40",
+      "variables": {
+        "arg1": "No entanto , o ministro da Saúde , Hatem El-Gabaly , insistiu que até o momento foram recuperados apenas 36 cadáveres e que 133 feridos foram encaminhados a hospitais da região .",
+        "arg2": "o número de mortos pode aumentar"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 463,
+      "doc": "D1_C45_Folha_18-10-2007_08h03",
+      "variables": {
+        "arg1": "prendeu o garçom e o grafiteiro seguindo informações de um informante da delegacia ,",
+        "arg2": "os dois teriam roubado <*> o acessório de luxo do apresentador da TV Globo ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 464,
+      "doc": "D4_C36_JB",
+      "variables": {
+        "arg1": "a não reeleição do governador Paulo Souto ,",
+        "arg2": "tendo sido eleito logo no primeiro turno o candidato Jaques Wagner"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 465,
+      "doc": "D5_C41_GPovo_20-07-2007_10h56",
+      "variables": {
+        "arg1": "mas , nos metros finais , perdeu o ritmo",
+        "arg2": "e acabou apenas na quarta colocação , com o tempo de 1m49s49 ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 466,
+      "doc": "D4_C32_GPovo_16-07-2007_19h17",
+      "variables": {
+        "arg1": "O primeiro tremor ocorreu pela manhã",
+        "arg2": "O abalo secundário aconteceu durante a noite no Japão ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 467,
+      "doc": "D1_C20_Folha_19-09-2007_13h39",
+      "variables": {
+        "arg1": "Foram revogadas as MPs",
+        "arg2": "que concediam descontos em impostos ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 468,
+      "doc": "D5_C35_GPovo_07-08-2007_10h26",
+      "variables": {
+        "arg1": "por enviar aos Estados Unidos 30 toneladas de cocaína",
+        "arg2": "e mandar drogas ao país em associação com um cartel de Tijuana , no México ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 469,
+      "doc": "D4_C25_JB",
+      "variables": {
+        "arg1": "Júlio Baptista dominou dentro da área ,",
+        "arg2": "e chutou forte ,"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 470,
+      "doc": "D1_C17_Folha_21-08-2006",
+      "variables": {
+        "arg1": "o candidato do PSDB à Presidência , Geraldo Alckmin , deixou ontem a linha \" paz e amor \"",
+        "arg2": "e se curvou à temperatura alta do debate eleitoral ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 471,
+      "doc": "D3_C49_OGlobo_16-07-2007_13h57",
+      "variables": {
+        "arg1": "Lula admitiu que",
+        "arg2": "ficou chateado com a atitude do público ,"
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 472,
+      "doc": "D3_C13_GPovo_07-08-2006_09h28",
+      "variables": {
+        "arg1": "nós não tivemos escolha senão retaliar ” ,",
+        "arg2": "disse o porta-voz do Exército Abdullah Jayawardene à BBC ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 473,
+      "doc": "D4_C43_JB_17-07-2007_08h50",
+      "variables": {
+        "arg1": "A decisão da Mesa Diretora do Senado sairá hoje , às 11h .",
+        "arg2": "que não vai participar da reunião"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 474,
+      "doc": "D2_C42_Estadao_25-09-2007_14h28",
+      "variables": {
+        "arg1": "o objetivo é parar o processo no Senado",
+        "arg2": "é retomar os trabalhos mais à frente \" ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 475,
+      "doc": "D3_C6_JB",
+      "variables": {
+        "arg1": "o Brasil se transformará em um \" canteiro de obra \" .",
+        "arg2": "a liberação de recursos para obras de saneamento básico e habitação previstos no Programa de Aceleração do Crescimento <*> obedecerá critérios exclusivamente técnicos ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 476,
+      "doc": "D3_C50_OGlobo",
+      "variables": {
+        "arg1": "seu partido considerou insuficiente a proposta do governo ,",
+        "arg2": "o governo ainda tem condições de melhorar a contrapartida ."
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 477,
+      "doc": "D2_C40_Estadao_06-08-2007_16h17",
+      "variables": {
+        "arg1": "e agora quero ouvir a bancada",
+        "arg2": "para que a atitude seja do partido \" ,"
+      },
+      "answer_type": "string",
+      "answer": "purpose"
+    },
+    {
+      "id": 478,
+      "doc": "D2_C32_Estadao_17-07-2007_08h03",
+      "variables": {
+        "arg1": "O terremoto deixou até o momento nove mortos , todos idosos ,",
+        "arg2": "e cerca de 13 mil desabrigados ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 479,
+      "doc": "D2_C16_Estadao_21-08-2006",
+      "variables": {
+        "arg1": "e Reginaldo Germano",
+        "arg2": "( PP-BA ) ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 480,
+      "doc": "D5_C47_GPovo_17-10-2007_07h54",
+      "variables": {
+        "arg1": "a concessão da autorização , <*> não implica em uma invasão ao Iraque de forma imediata .",
+        "arg2": "O governo de Erdogan se encontra sob pressão para fazer algo contra a crescente ofensiva do PKK ,"
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 481,
+      "doc": "D2_C29_OGlobo_15-07-2007_07h49",
+      "variables": {
+        "arg1": "Igreja venderia prédios administrativos",
+        "arg2": "para levantar fundos para o acordo ."
+      },
+      "answer_type": "string",
+      "answer": "purpose"
+    },
+    {
+      "id": 482,
+      "doc": "D2_C22_Estadao_24-07-2007_08h58",
+      "variables": {
+        "arg1": "algumas empresas transferiram vôos para o Aeroporto Internacional de São Paulo",
+        "arg2": "( Cumbica ) ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 483,
+      "doc": "D1_C2_Folha_04-08-2006_11h38",
+      "variables": {
+        "arg1": "A pesquisa de hoje apresentou uma variação na lista espontânea",
+        "arg2": "( quando os entrevistados dizem em quem pretendem votar sem um cartão com nomes ) ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 484,
+      "doc": "D4_C25_JB",
+      "variables": {
+        "arg1": "Impecável , a Seleção , <*> aplicou uma goleada humilhante por 4 a 1",
+        "arg2": "e trouxe a taça ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 485,
+      "doc": "D2_C33_Estadao_25-09-2007_10h51",
+      "variables": {
+        "arg1": "os biocombustíveis não afetam a segurança alimentar .",
+        "arg2": "o Brasil vai sediar , no ano que vem , uma conferência internacional sobre biocombustíveis ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 486,
+      "doc": "D5_C35_GPovo_07-08-2007_10h26",
+      "variables": {
+        "arg1": "A agência norte-americana de combate ao tráfico , DEA <*> oferecia US$ 5 milhões",
+        "arg2": "por enviar aos Estados Unidos 30 toneladas de cocaína"
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 487,
+      "doc": "D4_C46_JB",
+      "variables": {
+        "arg1": "- Prateleiras altas caíram",
+        "arg2": "Cerca de 1.700 pessoas fugiram de suas casas para quase 100 centros de resgate ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 488,
+      "doc": "D2_C40_Estadao_06-08-2007_16h17",
+      "variables": {
+        "arg1": "o presidente da Casa , Renan Calheiros , disse que",
+        "arg2": "a decisão do procurador geral da República , Antonio Fernando de Souza , de investigar as denúncias contra ele , atende a um pedido"
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 489,
+      "doc": "D1_C26_Folha_20-08-2007_13h16",
+      "variables": {
+        "arg1": "havia forte receio de que Dean , um furacão de categoria 4 descrito por meteorologistas do Centro Nacional de Furacões <*> , com sede em Miami , atingisse em cheio as ilhas a uma velocidade de 240 km /h .",
+        "arg2": "é hora de abaixar as cabeças"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 490,
+      "doc": "D2_C1_Estadao_04-08-2006_05h54",
+      "variables": {
+        "arg1": "Não houve sobreviventes  ,",
+        "arg2": "disse Okala ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 491,
+      "doc": "D5_C10_GPovo_07-08-2006_07h20",
+      "variables": {
+        "arg1": "O Líbano apresentou um pedido formal ao Conselho de Segurança da Organização das Nações Unidas <*> de uma revisão da proposta de resolução para o fim do conflito no Oriente Médio .",
+        "arg2": "que submeteu uma emenda ao esboço franco-americano ,"
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 492,
+      "doc": "D5_C47_GPovo_17-10-2007_07h54",
+      "variables": {
+        "arg1": "e disse que",
+        "arg2": "os governos iraquiano e turco podem resolver seus problemas com um acordo conjunto  ,"
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 493,
+      "doc": "D1_C16_Folha_21-08-2006_10h14",
+      "variables": {
+        "arg1": "Os deputados acusados de envolvimento na máfia dos sanguessugas têm até a meia-noite desta segunda-feira para renunciar aos mandatos",
+        "arg2": "O Senado ainda estuda os prazos regimentais para as renúncias de senadores envolvidos nas irregularidades ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 494,
+      "doc": "D4_C32_GPovo_16-07-2007_19h17",
+      "variables": {
+        "arg1": "É comum após um forte terremoto a mesma região ser atingida por um outro , não tão forte .",
+        "arg2": "Nesta segunda , porém , a magnitude foi a mesma que a do primeiro ."
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 495,
+      "doc": "D1_C44_Folha_19-09-2007_12h03",
+      "variables": {
+        "arg1": "O conselho decidiu deixar a reunião para a semana que vem",
+        "arg2": "uma vez que , amanhã , a Mesa Diretora do Senado vai decidir se encaminhará a quarta representação contra Renan ao Conselho de Ética da Casa ."
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 496,
+      "doc": "D1_C3_Folha_19-07-2007_21h05",
+      "variables": {
+        "arg1": "que continuou em velocidade bem alta",
+        "arg2": "em vez de seguir reto ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 497,
+      "doc": "D3_C1_JB_04-08-2006_05h44",
+      "variables": {
+        "arg1": "Não houve sobreviventes  ,",
+        "arg2": "disse Okala ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 498,
+      "doc": "D1_C13_Folha_07-08-2010_07h21",
+      "variables": {
+        "arg1": "Os crimes aconteceram na cidade de Muttur ,",
+        "arg2": "que durante as últimas duas semanas vive graves conflitos entre as tropas do Exército do Sri Lanka e a guerrilha dos Tigres de Libertação da Pátria Tâmil"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 499,
+      "doc": "D1_C35_Folha_07-08-2007_14h11",
+      "variables": {
+        "arg1": "convertendo grande parte de seu capital fruto de negócios ilegais em bens dos quais a maioria está em nome de seus familiares e de terceiros \" , <*> O traficante ,",
+        "arg2": "afirma a polícia ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 500,
+      "doc": "D2_C6_Estadao_08-08-2007_07h49",
+      "variables": {
+        "arg1": "serão investidos R$ 504 bilhões no PAC <*> até 2010 .",
+        "arg2": "o critério para o investimento nas cidades será técnico , não partidário ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    }
+  ]
+}

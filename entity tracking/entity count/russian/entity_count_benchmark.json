@@ -1,0 +1,3767 @@
+{
+  "task": "entity_count",
+  "lang": "russian",
+  "example_prompt": "How many times is the {entity} mentioned in the text?",
+  "instances": [
+    {
+      "id": 1,
+      "doc": "2",
+      "variables": {
+        "entity": "Витька",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 2,
+      "doc": "251",
+      "variables": {
+        "entity": "ν",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 3,
+      "doc": "270",
+      "variables": {
+        "entity": "детьми",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 4,
+      "doc": "17",
+      "variables": {
+        "entity": "Макара Иванова",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 5,
+      "doc": "134",
+      "variables": {
+        "entity": "дневники",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 6,
+      "doc": "290",
+      "variables": {
+        "entity": "подполковника милиции Артема Кузнецова",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 7,
+      "doc": "20",
+      "variables": {
+        "entity": "батюшки",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 8,
+      "doc": "8",
+      "variables": {
+        "entity": "дорогие мои друзья",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 9,
+      "doc": "100",
+      "variables": {
+        "entity": "Фирмы общественной собственности и контролируемые компании",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 10,
+      "doc": "725",
+      "variables": {
+        "entity": "поправки в Налоговый кодекс",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 11,
+      "doc": "301",
+      "variables": {
+        "entity": "издателей",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 12,
+      "doc": "16",
+      "variables": {
+        "entity": "щегарем",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 13,
+      "doc": "332",
+      "variables": {
+        "entity": "нашего",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 14,
+      "doc": "718",
+      "variables": {
+        "entity": "Деймона Албарна",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 15,
+      "doc": "253",
+      "variables": {
+        "entity": "« птичий мех » или « гагарьи шейки »",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 16,
+      "doc": "268",
+      "variables": {
+        "entity": "клубной эмблемы",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 17,
+      "doc": "71",
+      "variables": {
+        "entity": "труппы",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "16"
+    },
+    {
+      "id": 18,
+      "doc": "339",
+      "variables": {
+        "entity": "Елена",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 19,
+      "doc": "70",
+      "variables": {
+        "entity": "Федеральной службе исполнения наказаний",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 20,
+      "doc": "22",
+      "variables": {
+        "entity": "его дочка",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 21,
+      "doc": "323",
+      "variables": {
+        "entity": "Мэйсон",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 22,
+      "doc": "13",
+      "variables": {
+        "entity": "сослуживцев",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 23,
+      "doc": "710",
+      "variables": {
+        "entity": "агентству",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 24,
+      "doc": "288",
+      "variables": {
+        "entity": "Ксенией Собчак",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 25,
+      "doc": "342",
+      "variables": {
+        "entity": "автономной республики Крым",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 26,
+      "doc": "117",
+      "variables": {
+        "entity": "своего",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 27,
+      "doc": "204",
+      "variables": {
+        "entity": "романа Дэвида Лисса « Этичный убийца »",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 28,
+      "doc": "272",
+      "variables": {
+        "entity": "своего исторического « предка »",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 29,
+      "doc": "733",
+      "variables": {
+        "entity": "Внука",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 30,
+      "doc": "320",
+      "variables": {
+        "entity": "матёрого интригана Шеварднадзе",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 31,
+      "doc": "3",
+      "variables": {
+        "entity": "маленькая зеленая лягушка",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 32,
+      "doc": "702",
+      "variables": {
+        "entity": "Номер",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 33,
+      "doc": "251",
+      "variables": {
+        "entity": "ещё два внешних кольца",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 34,
+      "doc": "295",
+      "variables": {
+        "entity": "Москвы",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 35,
+      "doc": "30",
+      "variables": {
+        "entity": "Компания Google",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 36,
+      "doc": "132",
+      "variables": {
+        "entity": "поколение",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 37,
+      "doc": "338",
+      "variables": {
+        "entity": "Нигер",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 38,
+      "doc": "271",
+      "variables": {
+        "entity": "России",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 39,
+      "doc": "7",
+      "variables": {
+        "entity": "один из пассажиров",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "16"
+    },
+    {
+      "id": 40,
+      "doc": "332",
+      "variables": {
+        "entity": "того самого народа",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 41,
+      "doc": "81",
+      "variables": {
+        "entity": "всей Южной Азии",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 42,
+      "doc": "732",
+      "variables": {
+        "entity": "некоторые суммы",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 43,
+      "doc": "24",
+      "variables": {
+        "entity": "далекий берег",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 44,
+      "doc": "269",
+      "variables": {
+        "entity": "либерал - демократы",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 45,
+      "doc": "91",
+      "variables": {
+        "entity": "Палестиной",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 46,
+      "doc": "51",
+      "variables": {
+        "entity": "Президент России Владимир Путин",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 47,
+      "doc": "75",
+      "variables": {
+        "entity": "Правительство Сирии",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 48,
+      "doc": "87",
+      "variables": {
+        "entity": "наиболее бедные страны и люди мира",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 49,
+      "doc": "83",
+      "variables": {
+        "entity": "силу",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 50,
+      "doc": "92",
+      "variables": {
+        "entity": "Лондонский саммит Группы двадцати",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 51,
+      "doc": "204",
+      "variables": {
+        "entity": "персонажи",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 52,
+      "doc": "215",
+      "variables": {
+        "entity": "милиционеры",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 53,
+      "doc": "253",
+      "variables": {
+        "entity": "самки",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 54,
+      "doc": "94",
+      "variables": {
+        "entity": "страны",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 55,
+      "doc": "279",
+      "variables": {
+        "entity": "Фэроу Сэндерс",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 56,
+      "doc": "82",
+      "variables": {
+        "entity": "Эта поддержка",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 57,
+      "doc": "92",
+      "variables": {
+        "entity": "Группы двадцати",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 58,
+      "doc": "275",
+      "variables": {
+        "entity": "прямом разрешении",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 59,
+      "doc": "321",
+      "variables": {
+        "entity": "тех",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 60,
+      "doc": "301",
+      "variables": {
+        "entity": "крупнейшего онлайнового магазина электронных книг « Литрес »",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "18"
+    },
+    {
+      "id": 61,
+      "doc": "320",
+      "variables": {
+        "entity": "Москвы",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 62,
+      "doc": "266",
+      "variables": {
+        "entity": "Майкл Делл",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 63,
+      "doc": "732",
+      "variables": {
+        "entity": "большинство",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 64,
+      "doc": "72",
+      "variables": {
+        "entity": "муж",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 65,
+      "doc": "30",
+      "variables": {
+        "entity": "письмом",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 66,
+      "doc": "2",
+      "variables": {
+        "entity": "метры",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 67,
+      "doc": "720",
+      "variables": {
+        "entity": "фонду United Capital Partners",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 68,
+      "doc": "12",
+      "variables": {
+        "entity": "Директор Груздев",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 69,
+      "doc": "99",
+      "variables": {
+        "entity": "астмы",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 70,
+      "doc": "92",
+      "variables": {
+        "entity": "развивающимся странам",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 71,
+      "doc": "211",
+      "variables": {
+        "entity": "Renault",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 72,
+      "doc": "75",
+      "variables": {
+        "entity": "Сирии",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 73,
+      "doc": "63",
+      "variables": {
+        "entity": "Чечне",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 74,
+      "doc": "701",
+      "variables": {
+        "entity": "глава комитета нижней палаты по охране здоровья Сергей Калашников",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 75,
+      "doc": "302",
+      "variables": {
+        "entity": "Альдо Нове",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 76,
+      "doc": "321",
+      "variables": {
+        "entity": "Блогер и шоумен Сергей Стиллавин",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 77,
+      "doc": "70",
+      "variables": {
+        "entity": "Бывший глава нефтяной компании ЮКОС Михаил Ходорковский",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "16"
+    },
+    {
+      "id": 78,
+      "doc": "254",
+      "variables": {
+        "entity": "Цхинвале",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 79,
+      "doc": "72",
+      "variables": {
+        "entity": "молодая женщина",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 80,
+      "doc": "272",
+      "variables": {
+        "entity": "жертва насилия",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 81,
+      "doc": "340",
+      "variables": {
+        "entity": "Призрак Оперы",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 82,
+      "doc": "270",
+      "variables": {
+        "entity": "матери",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 83,
+      "doc": "266",
+      "variables": {
+        "entity": "технологическое шоу TechCrunch50",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 84,
+      "doc": "30",
+      "variables": {
+        "entity": "организацию ICANN",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 85,
+      "doc": "16",
+      "variables": {
+        "entity": "барину Саломирскову",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 86,
+      "doc": "342",
+      "variables": {
+        "entity": "президентом Виктором Януковичем",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 87,
+      "doc": "212",
+      "variables": {
+        "entity": "Запад",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 88,
+      "doc": "84",
+      "variables": {
+        "entity": "Газы",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 89,
+      "doc": "3",
+      "variables": {
+        "entity": "водосточной трубы",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 90,
+      "doc": "69",
+      "variables": {
+        "entity": "Бывший капитан сборной Уэльса",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 91,
+      "doc": "20",
+      "variables": {
+        "entity": "Аполлон , Сережа и я",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 92,
+      "doc": "20",
+      "variables": {
+        "entity": "Аполлон Павлович",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 93,
+      "doc": "18",
+      "variables": {
+        "entity": "тетушка",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "20"
+    },
+    {
+      "id": 94,
+      "doc": "205",
+      "variables": {
+        "entity": "фильм Оксаны Бычковой « Плюс один »",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 95,
+      "doc": "18",
+      "variables": {
+        "entity": "моей",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 96,
+      "doc": "306",
+      "variables": {
+        "entity": "Мирьям",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 97,
+      "doc": "91",
+      "variables": {
+        "entity": "Западного Берега",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 98,
+      "doc": "279",
+      "variables": {
+        "entity": "документальный фильм о фри - джазе « Imagine the Sound »",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 99,
+      "doc": "134",
+      "variables": {
+        "entity": "Васильев ( проф .",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "19"
+    },
+    {
+      "id": 100,
+      "doc": "96",
+      "variables": {
+        "entity": "Китай",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 101,
+      "doc": "323",
+      "variables": {
+        "entity": "Рой Харпер",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 102,
+      "doc": "207",
+      "variables": {
+        "entity": "страны Балтии",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 103,
+      "doc": "131",
+      "variables": {
+        "entity": "Луны",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 104,
+      "doc": "73",
+      "variables": {
+        "entity": "специальный сайт о самых важных событиях в своей истории",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 105,
+      "doc": "288",
+      "variables": {
+        "entity": "ток - шоу",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 106,
+      "doc": "99",
+      "variables": {
+        "entity": "Международное исследование астмы и аллергии среди детей",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 107,
+      "doc": "57",
+      "variables": {
+        "entity": "кокаина",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 108,
+      "doc": "310",
+      "variables": {
+        "entity": "После вопрос « Почему ?",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 109,
+      "doc": "336",
+      "variables": {
+        "entity": "общественного движения « Образ будущего »",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 110,
+      "doc": "295",
+      "variables": {
+        "entity": "эта схема",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 111,
+      "doc": "277",
+      "variables": {
+        "entity": "жеребьёвкой",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 112,
+      "doc": "76",
+      "variables": {
+        "entity": "прогрессивного человечества",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 113,
+      "doc": "728",
+      "variables": {
+        "entity": "самка двугорбого верблюда",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 114,
+      "doc": "268",
+      "variables": {
+        "entity": "Кубков Англии",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 115,
+      "doc": "252",
+      "variables": {
+        "entity": "планшетный компьютер iPad",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 116,
+      "doc": "16",
+      "variables": {
+        "entity": "деньги с завода",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 117,
+      "doc": "91",
+      "variables": {
+        "entity": "Израилем",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 118,
+      "doc": "65",
+      "variables": {
+        "entity": "свои",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 119,
+      "doc": "732",
+      "variables": {
+        "entity": "чудо",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 120,
+      "doc": "718",
+      "variables": {
+        "entity": "Дебютный сольный альбом Деймона Албарна",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 121,
+      "doc": "720",
+      "variables": {
+        "entity": "Акции Mail.ru",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 122,
+      "doc": "9",
+      "variables": {
+        "entity": "тринадцатилетней Наташе Сатиной",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "18"
+    },
+    {
+      "id": 123,
+      "doc": "264",
+      "variables": {
+        "entity": "ФРС",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 124,
+      "doc": "733",
+      "variables": {
+        "entity": "Ее муж",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 125,
+      "doc": "5",
+      "variables": {
+        "entity": "тесном мундирчике с карманами",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 126,
+      "doc": "81",
+      "variables": {
+        "entity": "Индии",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 127,
+      "doc": "310",
+      "variables": {
+        "entity": "Иммануил Кант",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 128,
+      "doc": "720",
+      "variables": {
+        "entity": "социальной сети « ВКонтакте »",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "19"
+    },
+    {
+      "id": 129,
+      "doc": "60",
+      "variables": {
+        "entity": "Нью - Йорка",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 130,
+      "doc": "133",
+      "variables": {
+        "entity": "Именно Н.Я .",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "17"
+    },
+    {
+      "id": 131,
+      "doc": "321",
+      "variables": {
+        "entity": "наркотиками",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 132,
+      "doc": "1",
+      "variables": {
+        "entity": "огромному обломку скалы",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 133,
+      "doc": "730",
+      "variables": {
+        "entity": "своего",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 134,
+      "doc": "18",
+      "variables": {
+        "entity": "Макара Долгорукого",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "18"
+    },
+    {
+      "id": 135,
+      "doc": "3",
+      "variables": {
+        "entity": "Сварливый голенастый петух",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 136,
+      "doc": "339",
+      "variables": {
+        "entity": "Надежда",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 137,
+      "doc": "205",
+      "variables": {
+        "entity": "Актриса « Мастерской Петра Фоменко » Мадлен Джабраилова",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 138,
+      "doc": "212",
+      "variables": {
+        "entity": "России",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 139,
+      "doc": "13",
+      "variables": {
+        "entity": "славного рода Сундучанских",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 140,
+      "doc": "270",
+      "variables": {
+        "entity": "написанные маслом холсты",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 141,
+      "doc": "22",
+      "variables": {
+        "entity": "большим домом",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 142,
+      "doc": "342",
+      "variables": {
+        "entity": "« Голоса Америки »",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 143,
+      "doc": "13",
+      "variables": {
+        "entity": "мальчик",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 144,
+      "doc": "8",
+      "variables": {
+        "entity": "колхозный письмоносец Тимка Колечкин",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "18"
+    },
+    {
+      "id": 145,
+      "doc": "23",
+      "variables": {
+        "entity": "другая особа",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 146,
+      "doc": "98",
+      "variables": {
+        "entity": "нашего",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 147,
+      "doc": "251",
+      "variables": {
+        "entity": "1986U2R / ζ",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 148,
+      "doc": "279",
+      "variables": {
+        "entity": "саксофонист Орнетт Коулмэн",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 149,
+      "doc": "52",
+      "variables": {
+        "entity": "оппозицией",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 150,
+      "doc": "53",
+      "variables": {
+        "entity": "Прокуратура Крымской автономии",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 151,
+      "doc": "3",
+      "variables": {
+        "entity": "кривоногая такса Фунтик",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 152,
+      "doc": "22",
+      "variables": {
+        "entity": "Собачонка ее",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "18"
+    },
+    {
+      "id": 153,
+      "doc": "212",
+      "variables": {
+        "entity": "Агрессия НАТО против Югославии",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 154,
+      "doc": "313",
+      "variables": {
+        "entity": "КНДР",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 155,
+      "doc": "87",
+      "variables": {
+        "entity": "« Большой Двадцатки »",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 156,
+      "doc": "2",
+      "variables": {
+        "entity": "Соседи",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 157,
+      "doc": "275",
+      "variables": {
+        "entity": "Лейпциге",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 158,
+      "doc": "76",
+      "variables": {
+        "entity": "Швеции",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 159,
+      "doc": "88",
+      "variables": {
+        "entity": "Всемирную Торговую Организацию",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "18"
+    },
+    {
+      "id": 160,
+      "doc": "81",
+      "variables": {
+        "entity": "Джамаат - уд - Дава",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 161,
+      "doc": "53",
+      "variables": {
+        "entity": "местного парламента",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 162,
+      "doc": "332",
+      "variables": {
+        "entity": "Константин Хабенский",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 163,
+      "doc": "279",
+      "variables": {
+        "entity": "AACM",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 164,
+      "doc": "134",
+      "variables": {
+        "entity": "тверского купца Афанасия Никитина",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 165,
+      "doc": "729",
+      "variables": {
+        "entity": "Зимбабве",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 166,
+      "doc": "41",
+      "variables": {
+        "entity": "администратора русскоязычного форума thecc.bz",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 167,
+      "doc": "78",
+      "variables": {
+        "entity": "Сьюзен Э.Гринфилд из Оксфордского университета",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 168,
+      "doc": "93",
+      "variables": {
+        "entity": "Комитета по финансовой стабильности",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 169,
+      "doc": "272",
+      "variables": {
+        "entity": "мужчины",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 170,
+      "doc": "268",
+      "variables": {
+        "entity": "Рона Аткинсона",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 171,
+      "doc": "338",
+      "variables": {
+        "entity": "Кот д’Ивуар",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 172,
+      "doc": "6",
+      "variables": {
+        "entity": "моей жене",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 173,
+      "doc": "212",
+      "variables": {
+        "entity": "Югославии",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 174,
+      "doc": "300",
+      "variables": {
+        "entity": "очередная несанкционированная акция протеста « День гнева »",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 175,
+      "doc": "336",
+      "variables": {
+        "entity": "« Закрытый показ »",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 176,
+      "doc": "23",
+      "variables": {
+        "entity": "окна",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 177,
+      "doc": "268",
+      "variables": {
+        "entity": "сэр Алекс Фергюсон",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 178,
+      "doc": "313",
+      "variables": {
+        "entity": "Китай",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "16"
+    },
+    {
+      "id": 179,
+      "doc": "275",
+      "variables": {
+        "entity": "Пресс лицензию Creative",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 180,
+      "doc": "68",
+      "variables": {
+        "entity": "Афганистана",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "17"
+    },
+    {
+      "id": 181,
+      "doc": "2",
+      "variables": {
+        "entity": "Оскорбленное достоинство Мордатенковой",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 182,
+      "doc": "253",
+      "variables": {
+        "entity": "обыкновенной гаги",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 183,
+      "doc": "310",
+      "variables": {
+        "entity": "смыслов",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 184,
+      "doc": "111",
+      "variables": {
+        "entity": "Беларуси",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 185,
+      "doc": "134",
+      "variables": {
+        "entity": "русский купец Семен Маленький",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 186,
+      "doc": "116",
+      "variables": {
+        "entity": "веранды",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 187,
+      "doc": "84",
+      "variables": {
+        "entity": "радикальной джихадской группировки « Воины бога »",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 188,
+      "doc": "275",
+      "variables": {
+        "entity": "GNU Free Documentation License",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 189,
+      "doc": "71",
+      "variables": {
+        "entity": "Легенда",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 190,
+      "doc": "89",
+      "variables": {
+        "entity": "тенденций",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 191,
+      "doc": "93",
+      "variables": {
+        "entity": "G - 20",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 192,
+      "doc": "16",
+      "variables": {
+        "entity": "барам",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 193,
+      "doc": "19",
+      "variables": {
+        "entity": "архитектор - самоучка Дегтяренко",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 194,
+      "doc": "66",
+      "variables": {
+        "entity": "борьбу плакатов",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 195,
+      "doc": "67",
+      "variables": {
+        "entity": "Москва",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 196,
+      "doc": "11",
+      "variables": {
+        "entity": "мать",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 197,
+      "doc": "62",
+      "variables": {
+        "entity": "Математический институт Клэя",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 198,
+      "doc": "7",
+      "variables": {
+        "entity": "грязный , согнутый человек в лохмотьях",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 199,
+      "doc": "279",
+      "variables": {
+        "entity": "Энтони Брэкстон",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 200,
+      "doc": "97",
+      "variables": {
+        "entity": "Более чем миллиарду человек",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 201,
+      "doc": "3",
+      "variables": {
+        "entity": "худая черная курица",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 202,
+      "doc": "279",
+      "variables": {
+        "entity": "Джон Зорн",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 203,
+      "doc": "204",
+      "variables": {
+        "entity": "Главный герой « Заговора бумаг »",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "19"
+    },
+    {
+      "id": 204,
+      "doc": "302",
+      "variables": {
+        "entity": "документальной книги Альдо Нове",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 205,
+      "doc": "15",
+      "variables": {
+        "entity": "полевой ромашке",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "16"
+    },
+    {
+      "id": 206,
+      "doc": "83",
+      "variables": {
+        "entity": "Индия",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 207,
+      "doc": "266",
+      "variables": {
+        "entity": "рынка ценных бумаг",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 208,
+      "doc": "83",
+      "variables": {
+        "entity": "Южном Вазиристане",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 209,
+      "doc": "55",
+      "variables": {
+        "entity": "Представители « Общего дела »",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "16"
+    },
+    {
+      "id": 210,
+      "doc": "265",
+      "variables": {
+        "entity": "свой",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 211,
+      "doc": "288",
+      "variables": {
+        "entity": "певец Александр Скляр",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 212,
+      "doc": "117",
+      "variables": {
+        "entity": "младшенький",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 213,
+      "doc": "336",
+      "variables": {
+        "entity": "Его первая жена",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 214,
+      "doc": "82",
+      "variables": {
+        "entity": "лидером Талибана Суфи Мохаммедом",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 215,
+      "doc": "215",
+      "variables": {
+        "entity": "ее мужа",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 216,
+      "doc": "301",
+      "variables": {
+        "entity": "Google",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 217,
+      "doc": "253",
+      "variables": {
+        "entity": "древнего культурного поселения Йомала",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 218,
+      "doc": "120",
+      "variables": {
+        "entity": "церковь",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 219,
+      "doc": "716",
+      "variables": {
+        "entity": "спортсмену Расулу Мирзаеву",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 220,
+      "doc": "66",
+      "variables": {
+        "entity": "премьер - министра страны",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 221,
+      "doc": "312",
+      "variables": {
+        "entity": "Два проекта Абхазии",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 222,
+      "doc": "57",
+      "variables": {
+        "entity": "банду наркоторговцев",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 223,
+      "doc": "318",
+      "variables": {
+        "entity": "бозона Хиггса",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 224,
+      "doc": "1",
+      "variables": {
+        "entity": "одинокую дачу",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 225,
+      "doc": "279",
+      "variables": {
+        "entity": "уверенность",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 226,
+      "doc": "342",
+      "variables": {
+        "entity": "Гагаузской автономии",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 227,
+      "doc": "340",
+      "variables": {
+        "entity": "её бывший возлюбленный Терри Шеридан",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 228,
+      "doc": "207",
+      "variables": {
+        "entity": "России",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "19"
+    },
+    {
+      "id": 229,
+      "doc": "71",
+      "variables": {
+        "entity": "Театра на Таганке",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 230,
+      "doc": "288",
+      "variables": {
+        "entity": "Александр Гордон",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 231,
+      "doc": "19",
+      "variables": {
+        "entity": "Валя Чмутов",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "17"
+    },
+    {
+      "id": 232,
+      "doc": "342",
+      "variables": {
+        "entity": "премьер - министр Турции Реджеп Тайип Эрдоган",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 233,
+      "doc": "251",
+      "variables": {
+        "entity": "6",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 234,
+      "doc": "272",
+      "variables": {
+        "entity": "редактор раздела « Корреспонденция »",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 235,
+      "doc": "61",
+      "variables": {
+        "entity": "наш",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 236,
+      "doc": "277",
+      "variables": {
+        "entity": "ФИФА",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 237,
+      "doc": "321",
+      "variables": {
+        "entity": "все московские клубы , работающие после полуночи",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 238,
+      "doc": "6",
+      "variables": {
+        "entity": "Лондоне",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 239,
+      "doc": "28",
+      "variables": {
+        "entity": "Джемма",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 240,
+      "doc": "8",
+      "variables": {
+        "entity": "письмо с пометкой \" срочное \" и с тремя марками на конверте",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 241,
+      "doc": "13",
+      "variables": {
+        "entity": "товарищ Отверстиев",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 242,
+      "doc": "270",
+      "variables": {
+        "entity": "семьи Одиноковых",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 243,
+      "doc": "204",
+      "variables": {
+        "entity": "герой",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 244,
+      "doc": "11",
+      "variables": {
+        "entity": "красивая и любимая учительница по сольфеджио",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 245,
+      "doc": "275",
+      "variables": {
+        "entity": "переход на новую лицензию",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 246,
+      "doc": "61",
+      "variables": {
+        "entity": "саммит по ядерной безопасности",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 247,
+      "doc": "302",
+      "variables": {
+        "entity": "автор этих строк",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 248,
+      "doc": "340",
+      "variables": {
+        "entity": "Дракула – 2000",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 249,
+      "doc": "738",
+      "variables": {
+        "entity": "Санкт - Петербург",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 250,
+      "doc": "270",
+      "variables": {
+        "entity": "отца",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 251,
+      "doc": "265",
+      "variables": {
+        "entity": "Наиболее тонкие и деликатные дела",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 252,
+      "doc": "257",
+      "variables": {
+        "entity": "Административный суд Кёльна последнего альбома немецкой индастриал - метал группы Rammstein « Liebe",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 253,
+      "doc": "203",
+      "variables": {
+        "entity": "V Сеульской международной биеннале медиаискусства",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 254,
+      "doc": "205",
+      "variables": {
+        "entity": "Героиня фильма",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 255,
+      "doc": "20",
+      "variables": {
+        "entity": "богатого старика",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 256,
+      "doc": "86",
+      "variables": {
+        "entity": "Африке",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "18"
+    },
+    {
+      "id": 257,
+      "doc": "722",
+      "variables": {
+        "entity": "Действующая в Сирии экстремистская группировка « Исламское государство Ирака и Леванта »",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 258,
+      "doc": "320",
+      "variables": {
+        "entity": "абхазов",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 259,
+      "doc": "340",
+      "variables": {
+        "entity": "Рок - н - ролльщик",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 260,
+      "doc": "99",
+      "variables": {
+        "entity": "использование парацетамола",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 261,
+      "doc": "3",
+      "variables": {
+        "entity": "черный кот Степан",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "20"
+    },
+    {
+      "id": 262,
+      "doc": "254",
+      "variables": {
+        "entity": "затаённое и несформулированное чувство вины",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 263,
+      "doc": "7",
+      "variables": {
+        "entity": "пожилая колхозница",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 264,
+      "doc": "41",
+      "variables": {
+        "entity": "специалиста по информационной безопасности Брайана Кребса",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "17"
+    },
+    {
+      "id": 265,
+      "doc": "211",
+      "variables": {
+        "entity": "новые модели",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 266,
+      "doc": "721",
+      "variables": {
+        "entity": "Ким Дотком (",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "18"
+    },
+    {
+      "id": 267,
+      "doc": "9",
+      "variables": {
+        "entity": "жены Веры Павловны",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 268,
+      "doc": "306",
+      "variables": {
+        "entity": "религиозном квартале « Варшавских домов »",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 269,
+      "doc": "5",
+      "variables": {
+        "entity": "два поросенка",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 270,
+      "doc": "312",
+      "variables": {
+        "entity": "Абхазии",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "19"
+    },
+    {
+      "id": 271,
+      "doc": "251",
+      "variables": {
+        "entity": "μ",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 272,
+      "doc": "117",
+      "variables": {
+        "entity": "мой",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "18"
+    },
+    {
+      "id": 273,
+      "doc": "342",
+      "variables": {
+        "entity": "Евросоюз",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 274,
+      "doc": "253",
+      "variables": {
+        "entity": "Самец",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 275,
+      "doc": "94",
+      "variables": {
+        "entity": "ядерного оружия",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "18"
+    },
+    {
+      "id": 276,
+      "doc": "18",
+      "variables": {
+        "entity": "Софья Андреева",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 277,
+      "doc": "254",
+      "variables": {
+        "entity": "Повседневное ТВ",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 278,
+      "doc": "78",
+      "variables": {
+        "entity": "профессор Чарльз Э.Чейслер",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 279,
+      "doc": "8",
+      "variables": {
+        "entity": "немного семян",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 280,
+      "doc": "68",
+      "variables": {
+        "entity": "нашей страны",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 281,
+      "doc": "340",
+      "variables": {
+        "entity": "Холли",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 282,
+      "doc": "322",
+      "variables": {
+        "entity": "« Небесного суда »",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 283,
+      "doc": "275",
+      "variables": {
+        "entity": "Пресс - секретарь « Википедии »",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 284,
+      "doc": "266",
+      "variables": {
+        "entity": "товаров",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 285,
+      "doc": "725",
+      "variables": {
+        "entity": "Лидер оппозиционной партии УДАР",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 286,
+      "doc": "65",
+      "variables": {
+        "entity": "оружия",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 287,
+      "doc": "90",
+      "variables": {
+        "entity": "Монреальский протокол",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 288,
+      "doc": "20",
+      "variables": {
+        "entity": "Сережа",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 289,
+      "doc": "323",
+      "variables": {
+        "entity": "Ричард Райт",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 290,
+      "doc": "330",
+      "variables": {
+        "entity": "рекламодатели",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 291,
+      "doc": "323",
+      "variables": {
+        "entity": "США",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 292,
+      "doc": "734",
+      "variables": {
+        "entity": "дверь",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 293,
+      "doc": "56",
+      "variables": {
+        "entity": "молодого человека",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 294,
+      "doc": "82",
+      "variables": {
+        "entity": "пакистанской армии",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 295,
+      "doc": "269",
+      "variables": {
+        "entity": "консерваторы",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 296,
+      "doc": "716",
+      "variables": {
+        "entity": "убитого москвича Ивана Агафонова",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 297,
+      "doc": "58",
+      "variables": {
+        "entity": "оппозиция",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 298,
+      "doc": "62",
+      "variables": {
+        "entity": "Григория Перельмана",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "17"
+    },
+    {
+      "id": 299,
+      "doc": "8",
+      "variables": {
+        "entity": "Саньки Коншакова",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "20"
+    },
+    {
+      "id": 300,
+      "doc": "724",
+      "variables": {
+        "entity": "резонансные законопроекты",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 301,
+      "doc": "134",
+      "variables": {
+        "entity": "России",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 302,
+      "doc": "88",
+      "variables": {
+        "entity": "Грузией",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 303,
+      "doc": "268",
+      "variables": {
+        "entity": "Басби",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 304,
+      "doc": "15",
+      "variables": {
+        "entity": "кудрявой мяте",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 305,
+      "doc": "8",
+      "variables": {
+        "entity": "Ученики",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 306,
+      "doc": "279",
+      "variables": {
+        "entity": "люди",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 307,
+      "doc": "134",
+      "variables": {
+        "entity": "Бирму",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 308,
+      "doc": "17",
+      "variables": {
+        "entity": "дереву",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 309,
+      "doc": "207",
+      "variables": {
+        "entity": "Кредитный кризис",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 310,
+      "doc": "57",
+      "variables": {
+        "entity": "37 рюкзаков с 900 килограммами наркотика",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 311,
+      "doc": "321",
+      "variables": {
+        "entity": "Глава столичного Управления наркоконтроля Вячеслав Давыдов",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 312,
+      "doc": "60",
+      "variables": {
+        "entity": "женой",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "20"
+    },
+    {
+      "id": 313,
+      "doc": "323",
+      "variables": {
+        "entity": "Эта сцена",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 314,
+      "doc": "313",
+      "variables": {
+        "entity": "США",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 315,
+      "doc": "721",
+      "variables": {
+        "entity": "Новой Зеландии",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 316,
+      "doc": "9",
+      "variables": {
+        "entity": "гувернантки Миссочки",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 317,
+      "doc": "338",
+      "variables": {
+        "entity": "Африка",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 318,
+      "doc": "279",
+      "variables": {
+        "entity": "Европы",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 319,
+      "doc": "279",
+      "variables": {
+        "entity": "самими музыкантами",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 320,
+      "doc": "83",
+      "variables": {
+        "entity": "Пакистана",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 321,
+      "doc": "288",
+      "variables": {
+        "entity": "Максим Шевченко",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 322,
+      "doc": "80",
+      "variables": {
+        "entity": "обезьяна Рафаил",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 323,
+      "doc": "254",
+      "variables": {
+        "entity": "заявлений президента о необходимости помощи голодающим детям мира",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 324,
+      "doc": "342",
+      "variables": {
+        "entity": "официального Киева",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 325,
+      "doc": "28",
+      "variables": {
+        "entity": "знаменитом теноре Гарсиа",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 326,
+      "doc": "20",
+      "variables": {
+        "entity": "мой друг",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 327,
+      "doc": "318",
+      "variables": {
+        "entity": "протон - антипротонный коллайдер Теватрон",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 328,
+      "doc": "732",
+      "variables": {
+        "entity": "оператора 911",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 329,
+      "doc": "702",
+      "variables": {
+        "entity": "Кингу",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 330,
+      "doc": "131",
+      "variables": {
+        "entity": "Луна",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "20"
+    },
+    {
+      "id": 331,
+      "doc": "322",
+      "variables": {
+        "entity": "Стивена Ханта",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 332,
+      "doc": "729",
+      "variables": {
+        "entity": "Президент Зимбабве Роберт Мугабе",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 333,
+      "doc": "722",
+      "variables": {
+        "entity": "свыше тысячи человек",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 334,
+      "doc": "133",
+      "variables": {
+        "entity": "« Народная » лингвистика",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 335,
+      "doc": "16",
+      "variables": {
+        "entity": "главного приказчика",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 336,
+      "doc": "20",
+      "variables": {
+        "entity": "будуар",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 337,
+      "doc": "723",
+      "variables": {
+        "entity": "Центральноафриканскую республику",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 338,
+      "doc": "67",
+      "variables": {
+        "entity": "Ирана",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 339,
+      "doc": "61",
+      "variables": {
+        "entity": "высокообогащённого урана",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 340,
+      "doc": "6",
+      "variables": {
+        "entity": "небезызвестной леди Сэннокс",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "20"
+    },
+    {
+      "id": 341,
+      "doc": "255",
+      "variables": {
+        "entity": "презервативов с лицом Обамы на упаковке",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 342,
+      "doc": "310",
+      "variables": {
+        "entity": "Происхождение видов путём естественного отбора , или Сохранение благоприятных рас в борьбе за жизнь »",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 343,
+      "doc": "209",
+      "variables": {
+        "entity": "США",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 344,
+      "doc": "316",
+      "variables": {
+        "entity": "эту телевселенную",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 345,
+      "doc": "323",
+      "variables": {
+        "entity": "Дэвид Гилмор",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "19"
+    },
+    {
+      "id": 346,
+      "doc": "23",
+      "variables": {
+        "entity": "Два человека",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 347,
+      "doc": "306",
+      "variables": {
+        "entity": "корреспондент « Маарив » Шломо Иерушалми",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 348,
+      "doc": "134",
+      "variables": {
+        "entity": "Академия Наук",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 349,
+      "doc": "710",
+      "variables": {
+        "entity": "местных жителей",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 350,
+      "doc": "712",
+      "variables": {
+        "entity": "московского « Спартака »",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 351,
+      "doc": "252",
+      "variables": {
+        "entity": "90 тыс. этих устройств",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "17"
+    },
+    {
+      "id": 352,
+      "doc": "69",
+      "variables": {
+        "entity": "российского футбола",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 353,
+      "doc": "251",
+      "variables": {
+        "entity": "Уильям Гершель",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 354,
+      "doc": "9",
+      "variables": {
+        "entity": "ее сестру",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 355,
+      "doc": "330",
+      "variables": {
+        "entity": "Apple iPad",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "20"
+    },
+    {
+      "id": 356,
+      "doc": "23",
+      "variables": {
+        "entity": "Ида Марковна",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 357,
+      "doc": "17",
+      "variables": {
+        "entity": "плетка",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 358,
+      "doc": "53",
+      "variables": {
+        "entity": "националистической партии « Свобода »",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 359,
+      "doc": "264",
+      "variables": {
+        "entity": "швейцарским франком",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 360,
+      "doc": "134",
+      "variables": {
+        "entity": "СССР",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 361,
+      "doc": "9",
+      "variables": {
+        "entity": "трем сестрам  Скалон",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 362,
+      "doc": "24",
+      "variables": {
+        "entity": "темное море",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 363,
+      "doc": "91",
+      "variables": {
+        "entity": "Палестинское государство",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 364,
+      "doc": "711",
+      "variables": {
+        "entity": "местного народного целителя",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 365,
+      "doc": "733",
+      "variables": {
+        "entity": "Михайловскому",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 366,
+      "doc": "111",
+      "variables": {
+        "entity": "экс - кандидат в президенты Беларуси Андрей Санников",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 367,
+      "doc": "71",
+      "variables": {
+        "entity": "Легендарный режиссёр",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "19"
+    },
+    {
+      "id": 368,
+      "doc": "5",
+      "variables": {
+        "entity": "старом речном картузе",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 369,
+      "doc": "288",
+      "variables": {
+        "entity": "Николае Ускове",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 370,
+      "doc": "88",
+      "variables": {
+        "entity": "его силовики",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 371,
+      "doc": "5",
+      "variables": {
+        "entity": "таблеток",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 372,
+      "doc": "264",
+      "variables": {
+        "entity": "долларов",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 373,
+      "doc": "272",
+      "variables": {
+        "entity": "твоих",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 374,
+      "doc": "323",
+      "variables": {
+        "entity": "Брайаном Хамфрисом",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 375,
+      "doc": "117",
+      "variables": {
+        "entity": "Потидея",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "18"
+    },
+    {
+      "id": 376,
+      "doc": "83",
+      "variables": {
+        "entity": "Афганистане",
+        "text": "See count_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    }
+  ]
+}

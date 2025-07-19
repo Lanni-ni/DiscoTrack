@@ -1,0 +1,5007 @@
+{
+  "task": "discourse relation",
+  "lang": "czech",
+  "example_prompt": "What is the discourse relation between {arg1} and {arg2}?\nHere are the options and definitions:\nalternation: One unit presents an option, and the other unit offers an alternative that is mutually exclusive with it.\nattribution: One unit states some content, and the other gives information about its source.\ncausal: One unit presents a situation or event, and the other unit shows its cause or result.\ncomment: One unit expresses an opinion or evaluation about something stated in the other unit.\nconcession: One unit presents a situation that appears incompatible with the other unit, but the other unit remains valid.\ncondition: One unit presents a proposition and the other provides conditions that the other proposition depends on.\nconjunction: One unit gives information, and the other unit continues with an additional point.\ncontrast: Two units present opposing or contrasting ideas.\nelaboration: One unit adds extra details, explains, or further describes something introduced in the other unit.\nexplanation: One unit provides a reason, justification, or supporting information for what is stated in the other unit.\nframe: One unit sets the scene or provides background, and the other unit presents the main information.\nmode: One unit explains the way or method by which something in the other unit occurs.\norganization: One unit helps structure the discourse, by introducing, preparing, or pointing out parts of the text.\npurpose: One unit of the text describes an action or event, and the other unit explains the intended goal.\nquery: One unit presents a question or problem, and the other unit gives an answer or solution.\nreformulation: One unit restates or rephrases the other unit in a different way.\ntemporal: One unit indicates that its event or situation happens before, after, or at the same time as the event in the other unit.\n\nArg1: {{arg1}}\nArg2: {{arg2}}",
+  "instances": [
+    {
+      "id": 1,
+      "doc": "mf930713_099",
+      "variables": {
+        "arg1": "na frontě zataženo s deštěm .",
+        "arg2": "Nejnižší ranní teploty ve středu 10 až 6 st . C , ve čtvrtek 12 až 8 st . C ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 2,
+      "doc": "ln94200_170",
+      "variables": {
+        "arg1": "V autobuse , pendlujícím mezi nádražím a kocourkovskou památkou , řidič každé tři minuty vykřikoval upozornění : Věnujte pozornost upozornění magistrátu !",
+        "arg2": "Všechno klapalo ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 3,
+      "doc": "ln95048_140",
+      "variables": {
+        "arg1": "že okresní pobočky posílají od začátku ledna svým pojištěncům - samoplátcům formuláře nazvané Přehled ,",
+        "arg2": "( 5 ) Samoplátci jej pak musejí odevzdat do osmi dnů po daňovém přiznání ,"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 4,
+      "doc": "cmpr9413_026",
+      "variables": {
+        "arg1": "Hospodářský vývoj v ČR by mohl být příznivější při pružnější dopravě ,",
+        "arg2": "Malá pozornost se věnuje kombinované přepravě ,"
+      },
+      "answer_type": "string",
+      "answer": "organization"
+    },
+    {
+      "id": 5,
+      "doc": "ln94209_45",
+      "variables": {
+        "arg1": "Proti bývalým státním velkobankám , <*> stále stojí prakticky celý zbytek bankovního sektoru .",
+        "arg2": "Handicap malých bank tak přetrvává ."
+      },
+      "answer_type": "string",
+      "answer": "reformulation"
+    },
+    {
+      "id": 6,
+      "doc": "cmpr9413_004",
+      "variables": {
+        "arg1": "Hokejové a kolečkové brusle , hokejky a další výstroj jsou určeny zejména pro kanadský trh ( asi 50 % ) a americký trh ( 35 % ) .",
+        "arg2": "Zbytek připadá především na evropské země ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 7,
+      "doc": "ln94207_83",
+      "variables": {
+        "arg1": "nikde !",
+        "arg2": "Šlechtic i biskup byli totiž nálezkem lidským ,"
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 8,
+      "doc": "mf920922_133",
+      "variables": {
+        "arg1": "V nedělních parlamentních volbách v Estonsku získal podle včerejších předběžných výsledků nejvíce hlasů blok Vlast ,",
+        "arg2": "jehož prezidentským kandidátem byl Lennart Meri ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 9,
+      "doc": "ln95048_058",
+      "variables": {
+        "arg1": "Dá tedy primáři úplatek ,",
+        "arg2": "a k tomu jsem dostal další celé 3000 Kč za \" třídy \" !"
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 10,
+      "doc": "mf920925_087",
+      "variables": {
+        "arg1": "Jeden z nich je dokonce zákonem ústavním .",
+        "arg2": "Ten \" obyčejný \" již poslanci nedávno novelizovali tak , že po každých dvou kolech následuje šestitýdenní pauza ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 11,
+      "doc": "mf930713_055",
+      "variables": {
+        "arg1": "jehož mimořádně poutavě koncipovanou výstavu uspořádali v Malovaném domě v Třebíči .",
+        "arg2": "ale také autogramiáda knihy Kotíkových textů , pohotově vydaných místním nakladatelstvím Arca Jimfa ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 12,
+      "doc": "ln95049_086",
+      "variables": {
+        "arg1": "Anebo možná naopak věří , že ještě letos žádné nebude ,",
+        "arg2": "a chtějí využít poslední příležitosti ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 13,
+      "doc": "mf930713_013",
+      "variables": {
+        "arg1": "( 7 ) V názvu nejde pouze o efektní metaforu :",
+        "arg2": "( 9 ) Lze vidět bohatou fotografickou i projektovou dokumentaci více než padesáti staveb ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 14,
+      "doc": "ln94202_135",
+      "variables": {
+        "arg1": "že příslušné rozhodnutí v tomto směru podepsal společně se zástupcem ministerstva financí již tento týden .",
+        "arg2": "a bude poskytnuta každému , kdo splní stanovené podmínky ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 15,
+      "doc": "mf920922_105",
+      "variables": {
+        "arg1": "Soustředíš se .",
+        "arg2": "Nemyslíš na nic než : světlo ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 16,
+      "doc": "ln95048_056",
+      "variables": {
+        "arg1": "Byl jsem pověřen doprovodit ho vždy na naši přednášku ,",
+        "arg2": "která se většinou konala v některé větší ubikaci na půdě bývalých kasáren ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 17,
+      "doc": "lnd94103_063",
+      "variables": {
+        "arg1": "Dokazuje , že duch rádia Jerevan stále žije :",
+        "arg2": "ale je omezeno tím , že se musíte s první ženou rozvést ."
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 18,
+      "doc": "ln94202_49",
+      "variables": {
+        "arg1": "ale podařilo se to , co jsme vlastně před rokem měli na mysli ,",
+        "arg2": "a konečně tedy můžeme začít pracovat na konkrétní smlouvě , na konkrétním přestěhování ,"
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 19,
+      "doc": "cmpr9415_032",
+      "variables": {
+        "arg1": "Při poslední návštěvě lékaře mne a mou ratolest čekalo milé překvapení : Několik hraček pro větší i menší děti .",
+        "arg2": "Nad stolečkem , <*> byl výrazný nápis upozorňující na nedaleké hračkářství ,"
+      },
+      "answer_type": "string",
+      "answer": "organization"
+    },
+    {
+      "id": 20,
+      "doc": "mf920922_138",
+      "variables": {
+        "arg1": "jejichž letadlo bylo sestřeleno několik hodin po vypuknutí války o Kuvajt 17 . ledna 1991",
+        "arg2": "a oba padli do iráckého zajetí ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 21,
+      "doc": "ln94210_147",
+      "variables": {
+        "arg1": "O ČR zpráva říká ,",
+        "arg2": "že infrastruktura a řízení jsou jejími nejslabšími faktory ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 22,
+      "doc": "ln94200_167",
+      "variables": {
+        "arg1": "Na otázku , <*> odpověděl náměstek Říha ,",
+        "arg2": "že by se daly spočítat na prstech jedné ruky ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 23,
+      "doc": "ln95047_134",
+      "variables": {
+        "arg1": "Připravuje : Kredo , Milíčova 13 , Praha 3 , tel : ( 02 ) 271004 , ( 02 ) 24091606 , fax : ( 02 ) 6279337 , ( 02 ) 24222140 .",
+        "arg2": "Aktuální otázky daně z příjmu fyzických osob , Aktuální otázky daně z příjmu právnických osob , Aktuální otázky DPH - tři jednodenní semináře , které přiblíží současný stav daňové soustavy ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 24,
+      "doc": "ln94207_83",
+      "variables": {
+        "arg1": "Šlechtic i biskup byli totiž nálezkem lidským ,",
+        "arg2": "Pro ozbrojeného českého sedláka dvacátých let patnáctého století byla Bible skálopevnějším kánonem , než pro komunisty dvacátého století Kapitál ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 25,
+      "doc": "lnd94103_013",
+      "variables": {
+        "arg1": "Navrhují ,",
+        "arg2": "aby byla stanoviště hlídaná"
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 26,
+      "doc": "ln94210_147",
+      "variables": {
+        "arg1": "Spojené státy znovu dobyly vedoucí místo",
+        "arg2": "a Singapur se vyšvihl hned za ně ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 27,
+      "doc": "ln95049_019",
+      "variables": {
+        "arg1": "Za neštěstí Uhde považuje , když se někdo domnívá , že takový spor vyřeší zvláštní zákon .",
+        "arg2": "Nerespektovat myšlenku stavitele chrámu , <*> je podle Uhdeho pošetilé ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 28,
+      "doc": "ln94200_112",
+      "variables": {
+        "arg1": "Přesto se zdá , že největší nadějí na zmírnění vlny je bouřlivé počasí ,",
+        "arg2": "které meteorologové čekají ode dneška ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 29,
+      "doc": "mf920925_114",
+      "variables": {
+        "arg1": "Jedním z nich byl i špión Günter Guillaume ,",
+        "arg2": "který pracoval jako poradce bývalého západoněmeckého kancléře Willyho Brandta ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 30,
+      "doc": "ln95048_056",
+      "variables": {
+        "arg1": "Koho jiného jsme mohli pozvat než tehdy již známého spisovatele Karla Poláčka .",
+        "arg2": "Byl jsem pověřen doprovodit ho vždy na naši přednášku ,"
+      },
+      "answer_type": "string",
+      "answer": "mode"
+    },
+    {
+      "id": 31,
+      "doc": "ln94208_143",
+      "variables": {
+        "arg1": "Oficiální odhad tamní produkce pro sezónu 1993 / 94 uvádí číslo 4 mil . tun ,",
+        "arg2": "zatímco neoficiální údaje hovoří pouze o 3.8 mil . tun ."
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 32,
+      "doc": "ln94200_170",
+      "variables": {
+        "arg1": "Všechno se k lepšímu obrátilo s blížícími se volbami do kocourkovského magistrátu .",
+        "arg2": "V autobuse , pendlujícím mezi nádražím a kocourkovskou památkou , řidič každé tři minuty vykřikoval upozornění : Věnujte pozornost upozornění magistrátu !"
+      },
+      "answer_type": "string",
+      "answer": "comment"
+    },
+    {
+      "id": 33,
+      "doc": "ln95048_122",
+      "variables": {
+        "arg1": "Půjčky podle něho mají zcela komerční bankovní charakter",
+        "arg2": "a budou prý pro studenty drastickou zátěží ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 34,
+      "doc": "mf930713_099",
+      "variables": {
+        "arg1": "OZÓN :",
+        "arg2": "Koncentrace ozónu v ozónové vrstvě nad naším územím je 3.6 % nad dlouhodobým průměrem ."
+      },
+      "answer_type": "string",
+      "answer": "organization"
+    },
+    {
+      "id": 35,
+      "doc": "lnd94103_013",
+      "variables": {
+        "arg1": "V Praze bylo k začátku letošního března vydáno na tři tisíce taxikářských koncesí ,",
+        "arg2": "Celkem 35 koncesí však pro různé přestupky neobnovily ."
+      },
+      "answer_type": "string",
+      "answer": "concession"
+    },
+    {
+      "id": 36,
+      "doc": "ln95047_134",
+      "variables": {
+        "arg1": "Účastníci si osvojí metody moderního prodeje , komunikační techniky vyjednávání",
+        "arg2": "a získají praktické zkušenosti ve vedení obchodních jednání ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 37,
+      "doc": "mf920925_018",
+      "variables": {
+        "arg1": "Oproti předchozím je méně explozívní .",
+        "arg2": "Dechy jsou sice stále výrazné ,"
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 38,
+      "doc": "lnd94103_063",
+      "variables": {
+        "arg1": "Odkud však víme o tomto názorovém trendu a jeho důsledcích ?",
+        "arg2": "Je to historická diskuse v Německu samém - Historikerstreit - co nás na ně upozornilo . \""
+      },
+      "answer_type": "string",
+      "answer": "organization"
+    },
+    {
+      "id": 39,
+      "doc": "ln95047_134",
+      "variables": {
+        "arg1": "Připravuje : Kredo .",
+        "arg2": "Podvojné účetnictví - sedmnáctidenní rekvalifikační kurs ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 40,
+      "doc": "ln94200_170",
+      "variables": {
+        "arg1": "Vznikla z toho dokonce jakási gentlemanská dohoda .",
+        "arg2": "Čas od času se Franta sám dostavil na biřickou služebnu , jako že ho chytili ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 41,
+      "doc": "ln94207_83",
+      "variables": {
+        "arg1": "Kdo půdu udržel , stal se praotcem šlechtického rodu .",
+        "arg2": "Protože kdo držel půdu , byl svobodný ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 42,
+      "doc": "mf930713_110",
+      "variables": {
+        "arg1": "Obsadí je takovou přesilou policistů , že nejen prostitutky , ale i překupníci drog raději odejdou ,",
+        "arg2": "protože jim nestojí za to nechat si od poldů kazit kšefty ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 43,
+      "doc": "mf930713_013",
+      "variables": {
+        "arg1": "jejich souputníci směřují k architektuře spíše \" tradičnější , měšťanštější a eklektičtější \"",
+        "arg2": "( jak ji charakterizuje Jindřich Vybíral , autor pozoruhodné přehlídky ) ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 44,
+      "doc": "ln94210_147",
+      "variables": {
+        "arg1": "které vystřídaly loni první Japonsko .",
+        "arg2": "To kleslo až na třetí místo za Singapur ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 45,
+      "doc": "ln95048_056",
+      "variables": {
+        "arg1": "a uměl moc hezky vyprávět .",
+        "arg2": "Jeho přednášky jsme měli rádi ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 46,
+      "doc": "cmpr9415_032",
+      "variables": {
+        "arg1": "Když se hračka zalíbí ,",
+        "arg2": "je pravděpodobné , že si děti její zakoupení na rodiči vyškemrají ."
+      },
+      "answer_type": "string",
+      "answer": "condition"
+    },
+    {
+      "id": 47,
+      "doc": "ln95048_055",
+      "variables": {
+        "arg1": "protože jednak byly za komunismu zakázané ,",
+        "arg2": "a tak logicky přitahovaly ,"
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 48,
+      "doc": "mf930713_013",
+      "variables": {
+        "arg1": "( 4 ) Pozoruhodné \" jiné domy \"",
+        "arg2": "( 5 ) Bezmála padesátileté období , v němž se němečtí a rakouští architekti výrazně podíleli na tváři moravských a slezských měst , dokumentuje až do 17 . října výstava \" Jiný dům \" v Anežském klášteře v Praze ."
+      },
+      "answer_type": "string",
+      "answer": "organization"
+    },
+    {
+      "id": 49,
+      "doc": "ln94209_45",
+      "variables": {
+        "arg1": "Relativně stále vysoké úroky z depozit nutí tyto peněžní instituce poskytovat i relativně drahé úvěry .",
+        "arg2": "dospíváme k závěru , že drahý úvěr rovná se vysoké riziko ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 50,
+      "doc": "ln94207_16",
+      "variables": {
+        "arg1": "Uplynul půlrok",
+        "arg2": "Hraje se různými kartami , maďarskou , katolickou , národní , bolševickou a <*> i českou ."
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 51,
+      "doc": "cmpr9413_017",
+      "variables": {
+        "arg1": "Zároveň s hovorem dostane referent na svůj monitor potřebné informace o volajícím zákazníkovi ,",
+        "arg2": "jeho hovor je spolu s informacemi z databanky předán dalšímu příslušnému pracovníkovi ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 52,
+      "doc": "mf920925_018",
+      "variables": {
+        "arg1": "Oproti předchozím je méně explozívní .",
+        "arg2": "Album je rockovější ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 53,
+      "doc": "ln95048_056",
+      "variables": {
+        "arg1": "kdy jsem mohl poslouchat slova lidí ,",
+        "arg2": "kteří již této zemi a světu něco dali ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 54,
+      "doc": "lnd94103_129",
+      "variables": {
+        "arg1": "Měsíc vychází ve 2.22",
+        "arg2": "a zapadá ve 13.06 hod ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 55,
+      "doc": "cmpr9413_034",
+      "variables": {
+        "arg1": "Stále totiž platí zastaralá směrnice č . 50 / 1978 ve znění několika pozdějších předpisů ,",
+        "arg2": "A tato směrnice se všemi novelami naposledy vyšla v roce 1992"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 56,
+      "doc": "mf920925_087",
+      "variables": {
+        "arg1": "Již šest kandidátů na funkci federálního prezidenta usilovalo o hlasy poslanců FS .",
+        "arg2": "S výjimkou Václava Havla byli všichni odsouzeni k neúspěchu již předem ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 57,
+      "doc": "mf930713_099",
+      "variables": {
+        "arg1": "Oblačno až skoro zataženo s přeháňkami , ojediněle bouřky .",
+        "arg2": "Koncentrace ozónu v ozónové vrstvě nad naším územím je 3.6 % nad dlouhodobým průměrem ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 58,
+      "doc": "mf930713_099",
+      "variables": {
+        "arg1": "Nejnižší ranní teploty 9 až 5 st . C ,",
+        "arg2": "nejvyšší odpolední 15 až 18 st . C ."
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 59,
+      "doc": "mf930713_099",
+      "variables": {
+        "arg1": "a zapadá ve 21 : 05 ,",
+        "arg2": "Měsíc vychází ve středu v 00 : 43"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 60,
+      "doc": "cmpr9413_034",
+      "variables": {
+        "arg1": "provádějí jednotlivé státy ES měření průměrné konzumace cizorodých látek na základě spotřebního koše potravin .",
+        "arg2": "nebude zřejmě nikdy možné zavést stejné limity pro všechny státy bez výjimek ."
+      },
+      "answer_type": "string",
+      "answer": "concession"
+    },
+    {
+      "id": 61,
+      "doc": "mf920922_105",
+      "variables": {
+        "arg1": "když chceš ,",
+        "arg2": "dostaneš se jinam ."
+      },
+      "answer_type": "string",
+      "answer": "condition"
+    },
+    {
+      "id": 62,
+      "doc": "ln94210_147",
+      "variables": {
+        "arg1": "a Singapur se vyšvihl hned za ně ,",
+        "arg2": "zatímco Japonsko bojuje s politikou i ekonomickou krizí ."
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 63,
+      "doc": "ln95048_140",
+      "variables": {
+        "arg1": "( 11 ) Dále jsou zde údaje o cestovním připojištění a nadstandardu při hospitalizaci .",
+        "arg2": "( 12 ) Budou však možná platit jen dočasně ,"
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 64,
+      "doc": "ln94203_145",
+      "variables": {
+        "arg1": "Ministerstvo financí uděluje podle zákona o pojišťovnictví licence pojišťovnám",
+        "arg2": "a zároveň vykonává dozor nad jejich podnikáním ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 65,
+      "doc": "mf920925_114",
+      "variables": {
+        "arg1": "Šéf bývalé východoněmecké tajné služby Markus Wolf byl obžalován z vlastizrady .",
+        "arg2": "Wolf ( 69 ) byl obviněn z toho , že řídil činnost nejméně 12 agentů pracujících proti Bonnu ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 66,
+      "doc": "ln95049_100",
+      "variables": {
+        "arg1": "Nikdo doma nežije zadarmo",
+        "arg2": "myslím , že je placení na místě ."
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 67,
+      "doc": "ln94203_145",
+      "variables": {
+        "arg1": "Zájemce o zřízení pojišťovny musí mj . složit 10 milionů korun , které slouží jako kauce .",
+        "arg2": "Pojišťovny , které povolení MF nemají , u nás své produkty podle zmíněného zákona nabízet nesmějí ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 68,
+      "doc": "lnd94103_063",
+      "variables": {
+        "arg1": "( 2 ) Německu by se hromadným vstupem Turků do státního svazku ulevilo .",
+        "arg2": "Zamezilo by se totiž další diskusi o dvojím občanství"
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 69,
+      "doc": "ln95048_056",
+      "variables": {
+        "arg1": "Koho jiného jsme mohli pozvat než tehdy již známého spisovatele Karla Poláčka .",
+        "arg2": "Dnes , <*> vzpomenu si vždy na jeho kulatou postavu s tichým hlasem ."
+      },
+      "answer_type": "string",
+      "answer": "comment"
+    },
+    {
+      "id": 70,
+      "doc": "ln94207_16",
+      "variables": {
+        "arg1": "Odcházející slovenskou vládní garnituru konejšil ,",
+        "arg2": "domácí veřejnosti hnul žlučí ."
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 71,
+      "doc": "cmpr9413_004",
+      "variables": {
+        "arg1": "První utkání v ledním hokeji sehráli údajně v roce 1879 studenti univerzity McGill v Montrealu .",
+        "arg2": "Není proto náhodou , že ve městě sídlí největší výrobce hokejových bruslí a výstroje na světě firma Canstar ."
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 72,
+      "doc": "lnd94103_063",
+      "variables": {
+        "arg1": "Dokazuje , že duch rádia Jerevan stále žije :",
+        "arg2": "Druhá věta je prosáklá jakýmsi implicitním rasismem ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 73,
+      "doc": "mf930709_087",
+      "variables": {
+        "arg1": "Z kvalifikace do finále se v kánoích dvojic prosadily mezi postupujících dvanáct všechny čtyři české lodě ,",
+        "arg2": "Šimek - Rohan s nejlepším časem ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 74,
+      "doc": "ln94209_45",
+      "variables": {
+        "arg1": "Česká spořitelna minulý týden zveřejnila svůj zájem získat šestnáctiprocentní podíl v České bance .",
+        "arg2": "Zdá se tak , že období masového vzniku nových bank v České republice brzy vystřídají procesy jdoucí spíše opačným směrem ."
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 75,
+      "doc": "mf920925_021",
+      "variables": {
+        "arg1": "V čistším , třeba i groteskním žánru ano -",
+        "arg2": "ale uvěřte potenciálně přirozeným reakcím ve chvíli ,"
+      },
+      "answer_type": "string",
+      "answer": "concession"
+    },
+    {
+      "id": 76,
+      "doc": "ln95048_056",
+      "variables": {
+        "arg1": "Do Terezína jsem přišel koncem roku 1943 .",
+        "arg2": "V tomto koncentračním táboře vládla zvláštní atmosféra ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 77,
+      "doc": "ln94202_135",
+      "variables": {
+        "arg1": "a bude poskytnuta každému , kdo splní stanovené podmínky .",
+        "arg2": "Vztahuje se tedy i na obce či fyzické osoby , které se postarají o travní porosty , o něž nikdo nepečuje ."
+      },
+      "answer_type": "string",
+      "answer": "reformulation"
+    },
+    {
+      "id": 78,
+      "doc": "mf930709_083",
+      "variables": {
+        "arg1": "Obavy , že snad v areálu vyrostou hotely či podobná zařízení , jsou zbytečné .",
+        "arg2": "Náš objekt na Letné bude vždy patřit především fotbalu ."
+      },
+      "answer_type": "string",
+      "answer": "comment"
+    },
+    {
+      "id": 79,
+      "doc": "mf930709_058",
+      "variables": {
+        "arg1": "jak už bývá typické pro nahrávky firmy ECM ,",
+        "arg2": "které u nás distribuuje Arta ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 80,
+      "doc": "ln94200_167",
+      "variables": {
+        "arg1": "že by stanice financovaná americkou vládou mohla vložit prostředky do dostavby několika rozestavěných sídlištních objektů .",
+        "arg2": "Část pracovníků českého vysílání , kteří už v Praze působí , si sehnala ubytování samostatně prostřednictvím realitních kanceláří ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 81,
+      "doc": "mf930713_099",
+      "variables": {
+        "arg1": "Teplota v 1000 m kolem 7 st . C .",
+        "arg2": "Západní až severozápadní vítr 3 až 6 m / s ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 82,
+      "doc": "mf920922_105",
+      "variables": {
+        "arg1": "V Belvedéru , <*> můžeš prožít do 11 . října katarzi .",
+        "arg2": "jsi - li schopen se deset nebo patnáct minut oddat působení specifického prostředí , na první pohled spíše nepříjemného ,"
+      },
+      "answer_type": "string",
+      "answer": "condition"
+    },
+    {
+      "id": 83,
+      "doc": "ln95048_058",
+      "variables": {
+        "arg1": "ale že pravá podstata nadstandardní péče je ošetření banální nemoci primářem , o tom se nemluví ,",
+        "arg2": "a to je podle mého názoru nejdůležitější nadstandard ."
+      },
+      "answer_type": "string",
+      "answer": "comment"
+    },
+    {
+      "id": 84,
+      "doc": "ln94203_145",
+      "variables": {
+        "arg1": "nedostanou žádnou pojistnou náhradu .",
+        "arg2": "Navíc podmínky , <*> nemusí být mnohdy tak výhodné ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 85,
+      "doc": "mf920922_105",
+      "variables": {
+        "arg1": "V jiné , připomínající dřevěný stan , se můžeš položit na jednoduché lehátko ,",
+        "arg2": "Ten tě i po čase spustí k zemi ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 86,
+      "doc": "lnd94103_013",
+      "variables": {
+        "arg1": "Sázejí spíše na zpřísnění podmínek při udělování a obnovování koncesí .",
+        "arg2": "Regulaci počtu pražských taxíků na tři a půl až čtyři tisíce , <*> však uměle zavádět nechtějí ."
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 87,
+      "doc": "ln94200_170",
+      "variables": {
+        "arg1": "Na akci byli převedeni všichni tři kocourkovští biřicové .",
+        "arg2": "Nespala ani galerka ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 88,
+      "doc": "mf920925_021",
+      "variables": {
+        "arg1": "kdy mstitel bičuje nadřízeného ,",
+        "arg2": "jeho roztleskanou tchyni vysazuje na skříň"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 89,
+      "doc": "ln94200_112",
+      "variables": {
+        "arg1": "Imigrační politika USA , nikoli kubánská vláda , je zodpovědná za současný exodus Kubánců z ostrova ,",
+        "arg2": "USA se pokoušejí zastavit proud kubánských uprchlíků s pomocí už více než 70 lodí , 14 letadel a vrtulníků a 8500 lidí ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 90,
+      "doc": "ln94200_167",
+      "variables": {
+        "arg1": "Město zatím propůjčilo zaměstnancům stanice několik bytů v Praze 3 .",
+        "arg2": "že by stanice financovaná americkou vládou mohla vložit prostředky do dostavby několika rozestavěných sídlištních objektů ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 91,
+      "doc": "ln94207_83",
+      "variables": {
+        "arg1": "Po ztroskotání snah o trializaci ( přesněji : o subdualizaci ) habsburské monarchie většina šlechty od českého národa odpadla vůbec .",
+        "arg2": "Definitivně ho opustila za první světové války ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 92,
+      "doc": "mf930713_055",
+      "variables": {
+        "arg1": "Její součástí bylo nejen setkání s autorem ,",
+        "arg2": "který i s chotí přijel až z Berlína ,"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 93,
+      "doc": "mf920922_105",
+      "variables": {
+        "arg1": "Perceptual Cells - vjemové buňky .",
+        "arg2": "Vejdeš do renesanční stavby ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 94,
+      "doc": "ln95048_056",
+      "variables": {
+        "arg1": "Později jsem přišel na to , že to snad tak musí být .",
+        "arg2": "Smutní lidé píší veselé knížky a veselí lidé smutné ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 95,
+      "doc": "mf930713_055",
+      "variables": {
+        "arg1": "o nichž je člověk přesvědčen",
+        "arg2": "a za nimiž pevně stojí ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 96,
+      "doc": "ln94207_83",
+      "variables": {
+        "arg1": "vysoké dvorské úřady plus ohromné latifundie činily ze šlechtice pána .",
+        "arg2": "Mnohem níže stáli vladykové : chudší a méně , to jest kratší dobu , urození ."
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 97,
+      "doc": "ln95049_086",
+      "variables": {
+        "arg1": "Zvážíme - li , že většina studentů se obvykle hlásí nejméně na dvě fakulty ,",
+        "arg2": "je na definitivní rozhodování ještě čas ."
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 98,
+      "doc": "ln94200_170",
+      "variables": {
+        "arg1": "Biřici si vždycky v posledním vagonu metra vyzvedli svého člověka ,",
+        "arg2": "primátor se před půlnocí opásal pendrekem a pouty ,"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 99,
+      "doc": "lnd94103_145",
+      "variables": {
+        "arg1": "Úspor lze ovšem dosáhnout i jen trochu liknavějším projednáváním návrhu ,",
+        "arg2": "neboť oprávněných den ode dne ubývá ."
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 100,
+      "doc": "ln95049_086",
+      "variables": {
+        "arg1": "Jednou alternativou jsou \" kartelové dohody \" ,",
+        "arg2": "druhou pak zárodky specifické konkurence ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 101,
+      "doc": "cmpr9413_034",
+      "variables": {
+        "arg1": "Dále se ukázalo , že hodnoty limitů pro jednotlivé státy ES jsou volnější než hodnoty platné pro ČR .",
+        "arg2": "Ve státech ES je navíc právem spotřebitele , aby měl na výrobku napsáno , z čeho je složen ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 102,
+      "doc": "lnd94103_063",
+      "variables": {
+        "arg1": "Například časopis Economist věnuje velkou studii stále evidentnější krizi německého modelu kapitalismu ,",
+        "arg2": "který je založen na velkých kolektivních smlouvách , moci bank a byrokracii"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 103,
+      "doc": "ln94208_143",
+      "variables": {
+        "arg1": "Podle odhadu britské obchodní firmy E . D . and F . Man bude objem letošní produkce cukru v zemích EU nižší než loni .",
+        "arg2": "Přesto by se však jeho ceny ještě v prvním čtvrtletí příštího roku neměly zvyšovat ."
+      },
+      "answer_type": "string",
+      "answer": "concession"
+    },
+    {
+      "id": 104,
+      "doc": "lnd94103_013",
+      "variables": {
+        "arg1": "že je nesmyslné , aby taxikáři platili až 6000 Kč ročně",
+        "arg2": "a přitom se na atraktivnější místa okupovaná taxikářskou mafií většina z nich vůbec nedostala ."
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 105,
+      "doc": "mf920925_114",
+      "variables": {
+        "arg1": "Wolf ( 69 ) byl obviněn z toho , že řídil činnost nejméně 12 agentů pracujících proti Bonnu .",
+        "arg2": "Legendární šéf tajné služby , <*> byl rovněž obviněn z úplatkářství ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 106,
+      "doc": "cmpr9413_034",
+      "variables": {
+        "arg1": "Tehdy poprvé totiž zařadilo tuto publikaci do svého edičního plánu ,",
+        "arg2": "protože se díky příslibu hlavního hygienika ČR Jaroslava Kříže domnívalo , že ještě ten rok spatří světlo světa . . ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 107,
+      "doc": "cmpr9413_034",
+      "variables": {
+        "arg1": "Pokud by se podařilo nové limity připravit dříve ,",
+        "arg2": "budou vydány zřejmě jen jako další novela směrnice starého zákona ."
+      },
+      "answer_type": "string",
+      "answer": "condition"
+    },
+    {
+      "id": 108,
+      "doc": "ln94207_16",
+      "variables": {
+        "arg1": "Budiž Mečiarovi připomenuto , že poslední volby vyhrál programem postaveným jako negace reformy zosobněné Klausem ,",
+        "arg2": "jehož údajnou podporou se nyní Mečiar ohání ."
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 109,
+      "doc": "ln94203_43",
+      "variables": {
+        "arg1": "Nejvíce důvěry vkládají občané ČR ve své nejbližší okolí a v sebe samé .",
+        "arg2": "Lidé důvěřují více svým partnerům než sobě samým ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 110,
+      "doc": "ln94207_16",
+      "variables": {
+        "arg1": "Odcházející slovenskou vládní garnituru konejšil ,",
+        "arg2": "Takové byly ohlasy na Klausovo diplomatické až přezdvořilé únorové rozloučení s tehdy čerstvě odvolaným Vladimírem Mečiarem ."
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 111,
+      "doc": "mf920925_021",
+      "variables": {
+        "arg1": "Mohl to být klasický psychologický thriller na téma člověk v ohrožení",
+        "arg2": "a tudíž se do jedné <*> lidské studie \" muselo \" vejít kdeco ."
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 112,
+      "doc": "ln94200_167",
+      "variables": {
+        "arg1": "Přesídlení Svobodné Evropy z Mnichova do Prahy by mělo přivést do našeho hlavního města podle některých odhadů přibližně dvě stě lidí ,",
+        "arg2": "kteří budou muset někde bydlet ."
+      },
+      "answer_type": "string",
+      "answer": "organization"
+    },
+    {
+      "id": 113,
+      "doc": "lnd94103_063",
+      "variables": {
+        "arg1": "Proč by se měl snížit počet cizinců ve statistikách ?",
+        "arg2": "a tím veřejně uznat jejich zásluhy o německou hospodářskou a politickou demokracii ?"
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 114,
+      "doc": "mf930713_110",
+      "variables": {
+        "arg1": "Prostitutky jsou však v Perlové ulici , a dokonce i na Václavském náměstí , <*> stále .",
+        "arg2": "které se ministr vnitra Jan Ruml krátce po svém nástupu do funkce snažil vyčistit ,"
+      },
+      "answer_type": "string",
+      "answer": "concession"
+    },
+    {
+      "id": 115,
+      "doc": "mf920922_105",
+      "variables": {
+        "arg1": "Potom uvidíš cosi , co by mohlo být : telefonní budkou",
+        "arg2": "nebo WC nebo kabinkou pro peep show"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 116,
+      "doc": "cmpr9413_017",
+      "variables": {
+        "arg1": "Jeden kabel pro všechno",
+        "arg2": "Její předností je jednotný kabel i zástrčka pro telefon , modem , fax , tiskárnu , terminál i počítač v síti LAN ."
+      },
+      "answer_type": "string",
+      "answer": "organization"
+    },
+    {
+      "id": 117,
+      "doc": "ln94207_16",
+      "variables": {
+        "arg1": "jehož údajnou podporou se nyní Mečiar ohání .",
+        "arg2": "Budiž připomenuty státoprávní manévry , které zpozdily léčbu komunismem nemocné země nejméně o dva roky ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 118,
+      "doc": "mf920922_138",
+      "variables": {
+        "arg1": "ale rány dřevěnou palicí a obušky přivádějí člověka k šílenství , \" vzpomíná v knize \" Sestřelení tornáda \" , <*> britský pilot John Peters .",
+        "arg2": "která v těchto dnech vychází v Londýně ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 119,
+      "doc": "ln95049_100",
+      "variables": {
+        "arg1": "a byla bych ochotná je platit .",
+        "arg2": "Nevím , jestli je ten poplatek málo nebo moc ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 120,
+      "doc": "ln95049_100",
+      "variables": {
+        "arg1": "tak by to nebylo moc peněz",
+        "arg2": "a byla bych ochotná je platit ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 121,
+      "doc": "mf920925_021",
+      "variables": {
+        "arg1": "ale uvěřte potenciálně přirozeným reakcím ve chvíli ,",
+        "arg2": "kdy mstitel bičuje nadřízeného ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 122,
+      "doc": "ln94203_145",
+      "variables": {
+        "arg1": "Naším posláním je chránit spotřebitele , tedy klienty pojišťoven ,",
+        "arg2": "a dbát na to , aby pojišťovny za všech okolností dodržely své závazky ze sjednaných smluv , zdůrazňuje Miluše Zemanová ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 123,
+      "doc": "mf930709_087",
+      "variables": {
+        "arg1": "Tam , <*> převrhl Lukáš Pollert svou kánoi ,",
+        "arg2": "Byl za to penalizován 50 trestnými body ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 124,
+      "doc": "ln95047_134",
+      "variables": {
+        "arg1": "Termín a místo konání : 6 . - 22 . 3 . v Praze .",
+        "arg2": "Připravuje : Kredo ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 125,
+      "doc": "ln94207_83",
+      "variables": {
+        "arg1": "Přichází na scénu v okamžiku , kdy si první člověk ohrazuje klacíkem kus půdy",
+        "arg2": "Kdo půdu udržel , stal se praotcem šlechtického rodu ."
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 126,
+      "doc": "ln94210_147",
+      "variables": {
+        "arg1": "Dobrou skutečností nicméně podle autorů je , že Češi se snaží tyto problémy řešit , zejména pokud jde o modernizaci jejich telekomunikací a školení nové generace se západní technikou řízení .",
+        "arg2": "ČR má i některé další karty ve hře , hlavně vědu a techniku a internacionalizaci ( stupeň zapojení do mezinárodního obchodu a investic ) ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 127,
+      "doc": "lnd94103_033",
+      "variables": {
+        "arg1": "Případ Bohemia podle Kryčera negativně působí v zahraničí :",
+        "arg2": "obchody na burze svědčí o tom , že se zahraniční investoři začínají od ČR odvracet ."
+      },
+      "answer_type": "string",
+      "answer": "comment"
+    },
+    {
+      "id": 128,
+      "doc": "mf930713_055",
+      "variables": {
+        "arg1": "Její součástí bylo nejen setkání s autorem ,",
+        "arg2": "ale také autogramiáda knihy Kotíkových textů , pohotově vydaných místním nakladatelstvím Arca Jimfa ."
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 129,
+      "doc": "ln95049_086",
+      "variables": {
+        "arg1": "přičemž není vůbec jisté , zda parlament školné vůbec odsouhlasí ,",
+        "arg2": "jestli to stihne včas už pro příští školní rok ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 130,
+      "doc": "mf930709_058",
+      "variables": {
+        "arg1": "Je to hudba příjemná , bez temných spodních tónů ,",
+        "arg2": "jak už bývá typické pro nahrávky firmy ECM ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 131,
+      "doc": "ln94209_45",
+      "variables": {
+        "arg1": "které by vytvořily protiváhu velkým bankám",
+        "arg2": "a vyplnily tak onu nebezpečnou destabilizující mezeru ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 132,
+      "doc": "ln94200_170",
+      "variables": {
+        "arg1": "V setmělých ulicích tloukli Kocourkovské bratři Kovářovi .",
+        "arg2": "a všichni na ně byli krátcí ,"
+      },
+      "answer_type": "string",
+      "answer": "concession"
+    },
+    {
+      "id": 133,
+      "doc": "ln94207_16",
+      "variables": {
+        "arg1": "Není moudré rozházet si to , byť s potenciálním významným politikem sousední země .",
+        "arg2": "Všechno ale má své hranice ."
+      },
+      "answer_type": "string",
+      "answer": "concession"
+    },
+    {
+      "id": 134,
+      "doc": "ln94203_100",
+      "variables": {
+        "arg1": "kdyby si to uvědomil nejen ředitel Novy , ale i ředitel ČT 1 ,",
+        "arg2": "ČT 2 je zatím světlou výjimkou ."
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 135,
+      "doc": "ln94202_135",
+      "variables": {
+        "arg1": "Od počátku září bude možné , aby kterákoli fyzická či právnická osoba , která v podhorských a horských oblastech odpovídajícím způsobem pečuje o trvalé travní porosty , získala z rozpočtu ministerstva zemědělství finanční příspěvek 2000 korun na hektar .",
+        "arg2": "že příslušné rozhodnutí v tomto směru podepsal společně se zástupcem ministerstva financí již tento týden ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 136,
+      "doc": "mf930713_055",
+      "variables": {
+        "arg1": "Ve druhém Kotík dokazuje , že je skutečně dominantní osobností počátků abstraktní malby u nás ,",
+        "arg2": "což dokumentuje černá malba Bez názvu z r . 1959 a pak zejména klíčové obrazy Plocha pro hru ( 1961 ) a Tabule ( 1962 ) ."
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 137,
+      "doc": "cmpr9413_034",
+      "variables": {
+        "arg1": "provádějí jednotlivé státy ES měření průměrné konzumace cizorodých látek na základě spotřebního koše potravin .",
+        "arg2": "To jim umožňuje následně měnit hodnoty přípustného množství cizorodých látek v potravinách ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 138,
+      "doc": "cmpr9413_017",
+      "variables": {
+        "arg1": "JEDNA ŠESTKA UŽ TELEKOMUNIKACÍM PADLA :",
+        "arg2": "Technika postoupila dál ."
+      },
+      "answer_type": "string",
+      "answer": "organization"
+    },
+    {
+      "id": 139,
+      "doc": "mf930713_055",
+      "variables": {
+        "arg1": "na niž navazují malby z let padesátých , rozvíjející tvůrčí modernistické záměry Skupiny .",
+        "arg2": "Ve druhém Kotík dokazuje , že je skutečně dominantní osobností počátků abstraktní malby u nás ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 140,
+      "doc": "cmpr9413_034",
+      "variables": {
+        "arg1": "Aby totiž nedošlo k ohrožení zdraví občanů ,",
+        "arg2": "provádějí jednotlivé státy ES měření průměrné konzumace cizorodých látek na základě spotřebního koše potravin ."
+      },
+      "answer_type": "string",
+      "answer": "purpose"
+    },
+    {
+      "id": 141,
+      "doc": "cmpr9413_034",
+      "variables": {
+        "arg1": "A tak se zdá , že zpracovatelé s novými limity nespěchají .",
+        "arg2": "Výsledek : Nové limity ještě nejsou a staré se už nevyplatí vydat ."
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 142,
+      "doc": "cmpr9413_017",
+      "variables": {
+        "arg1": "Digitální telefonní ústředna Option 11 s rozsahem do 224 telefonních poboček , <*> má téměř 400 funkcí .",
+        "arg2": "Například tarifikace poplatků - okamžitý výpočet sazby za uskutečněný hovor podstatně zlevňuje telefonní provoz firem ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 143,
+      "doc": "ln94200_112",
+      "variables": {
+        "arg1": "Castro odmítl Clintonovo rozhodnutí nepřijímat uprchlíky z Kuby .",
+        "arg2": "že USA vytvářejí koncentrační tábor ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 144,
+      "doc": "cmpr9413_026",
+      "variables": {
+        "arg1": "Malá pozornost se věnuje kombinované přepravě ,",
+        "arg2": "která snižuje negativní účinky silniční dopravy na životní prostředí ."
+      },
+      "answer_type": "string",
+      "answer": "concession"
+    },
+    {
+      "id": 145,
+      "doc": "ln95047_134",
+      "variables": {
+        "arg1": "Programy podpory malého a středního podnikání na rok 1995 - seminář poskytne informace ,",
+        "arg2": "Zvláštní programy jsou vyhlášeny pro rozvoj podnikání v regionech a v městských památkových rezervacích ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 146,
+      "doc": "mf920922_133",
+      "variables": {
+        "arg1": "Estonci volili parlament",
+        "arg2": "Estonci volili parlament"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 147,
+      "doc": "mf930709_083",
+      "variables": {
+        "arg1": "12-42",
+        "arg2": "103-113"
+      },
+      "answer_type": "string",
+      "answer": "Už jsme v kontaktu s jednou švýcarskou firmou , která by náš areál přebudovala , jak ochozy , tak interiér . 1<2 unknown purpose purpose mf930709_083 73-84 85-94 Divácká kapacita by se sice snížila z 35000 asi na 25000 , ale pro ligu by to pořád bohatě vyhovovalo ,"
+    },
+    {
+      "id": 148,
+      "doc": "mf930713_099",
+      "variables": {
+        "arg1": "PŘEDPOVĚĎ NA DNEŠEK :",
+        "arg2": "Oblačno až skoro zataženo s přeháňkami , ojediněle bouřky ."
+      },
+      "answer_type": "string",
+      "answer": "organization"
+    },
+    {
+      "id": 149,
+      "doc": "ln94207_16",
+      "variables": {
+        "arg1": "nelze však ani mlčky trpět hru , kde se lacino hraje českými žolíky .",
+        "arg2": "Budiž Mečiarovi připomenuto , že poslední volby vyhrál programem postaveným jako negace reformy zosobněné Klausem ,"
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 150,
+      "doc": "mf930713_110",
+      "variables": {
+        "arg1": "Setkal se většinou s odmítnutím ,",
+        "arg2": "občas i s posměchem ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 151,
+      "doc": "ln94207_16",
+      "variables": {
+        "arg1": "Budiž Mečiarovi připomenuto , že poslední volby vyhrál programem postaveným jako negace reformy zosobněné Klausem ,",
+        "arg2": "Kdo asi to má za nás Bratislavě připomenout ?"
+      },
+      "answer_type": "string",
+      "answer": "comment"
+    },
+    {
+      "id": 152,
+      "doc": "ln95047_134",
+      "variables": {
+        "arg1": "Termín a místo konání : 8 . března v Ústí nad Labem .",
+        "arg2": "Připravuje : Dům techniky Ústí , Veleslavínova 14 , 400 11 Ústí nad Labem , tel . : 047 / 42247 , fax : 047 / 46234 ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 153,
+      "doc": "ln95047_134",
+      "variables": {
+        "arg1": "Aktuální otázky daně z příjmu fyzických osob , Aktuální otázky daně z příjmu právnických osob , Aktuální otázky DPH - tři jednodenní semináře , které přiblíží současný stav daňové soustavy .",
+        "arg2": "Termín a místo konání : 6 . , 7 . a 8 . 3 ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 154,
+      "doc": "ln94200_170",
+      "variables": {
+        "arg1": "Slepice kradl Franta Kejvalů .",
+        "arg2": "a všichni na něho byli krátcí ,"
+      },
+      "answer_type": "string",
+      "answer": "concession"
+    },
+    {
+      "id": 155,
+      "doc": "cmpr9413_026",
+      "variables": {
+        "arg1": "Takové firmy jako naše tomu mohou napomoci .",
+        "arg2": "Vadí nám však české předpisy ,"
+      },
+      "answer_type": "string",
+      "answer": "concession"
+    },
+    {
+      "id": 156,
+      "doc": "mf920925_018",
+      "variables": {
+        "arg1": "Dechy jsou sice stále výrazné ,",
+        "arg2": "ale latinské rytmy i perkuse s výjimkou úvodní skladby Lidi se shromáždí ustoupily do pozadí ."
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 157,
+      "doc": "mf930713_110",
+      "variables": {
+        "arg1": "Stávaly se spojenkyněmi řemeslných zločinců i poddajným nástrojem policie , včetně politické .",
+        "arg2": "Po 17 . listopadu ovšem jejich řemeslo prožívá skutečnou renesanci ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 158,
+      "doc": "lnd94103_053",
+      "variables": {
+        "arg1": "že americký ministr zahraničí Warren Christopher nedosáhl v Damašku žádného opravdového pokroku , který by znamenal novou etapu v izraelskosyrském dialogu .",
+        "arg2": "že setkání v Damašku otevřelo \" novou , významnější etapu \" ."
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 159,
+      "doc": "mf930709_058",
+      "variables": {
+        "arg1": "Byť skladbám dodává dramatičnost ,",
+        "arg2": "porušuje celkovou náladu ."
+      },
+      "answer_type": "string",
+      "answer": "concession"
+    },
+    {
+      "id": 160,
+      "doc": "ln94203_43",
+      "variables": {
+        "arg1": "Z veřejných pracovníků se těší největší důvěře televizní novináři ( 76 procent ) .",
+        "arg2": "O něco menší důvěru požívají novináři rozhlasoví ( 72 procent ) a učitelé ( 71 procent ) ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 161,
+      "doc": "ln95049_100",
+      "variables": {
+        "arg1": "ale obráceně ?",
+        "arg2": "Nevím ."
+      },
+      "answer_type": "string",
+      "answer": "condition"
+    },
+    {
+      "id": 162,
+      "doc": "cmpr9413_017",
+      "variables": {
+        "arg1": "Vyřizování objednávek",
+        "arg2": "První informaci o novém výrobku , ceně a podobně získá volající z řečové paměti ."
+      },
+      "answer_type": "string",
+      "answer": "organization"
+    },
+    {
+      "id": 163,
+      "doc": "ln94203_43",
+      "variables": {
+        "arg1": "Lidé důvěřují více svým partnerům než sobě samým .",
+        "arg2": "Nejméně důvěry vkládají občané České republiky do politiků ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 164,
+      "doc": "ln94207_83",
+      "variables": {
+        "arg1": "Definitivně ho opustila za první světové války .",
+        "arg2": "14 . listopadu 1918 bylo šlechtictví v Československé republice zákonem zrušeno ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 165,
+      "doc": "ln95048_055",
+      "variables": {
+        "arg1": "a tak logicky přitahovaly ,",
+        "arg2": "a za druhé nabízejí rychlá a snadná řešení a vysvětlení ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 166,
+      "doc": "mf920922_105",
+      "variables": {
+        "arg1": "Jako by se buňka kolem tebe roztahovala ,",
+        "arg2": "dostaneš se jinam ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 167,
+      "doc": "mf930713_110",
+      "variables": {
+        "arg1": "je",
+        "arg2": "a bude ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 168,
+      "doc": "lnd94103_013",
+      "variables": {
+        "arg1": "V Praze bylo k začátku letošního března vydáno na tři tisíce taxikářských koncesí ,",
+        "arg2": "na které jezdí přes pět tisíc vozů ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 169,
+      "doc": "mf920922_138",
+      "variables": {
+        "arg1": "Napínavý příběh vypráví o pilotovi a jeho navigátorovi ,",
+        "arg2": "jejichž letadlo bylo sestřeleno několik hodin po vypuknutí války o Kuvajt 17 . ledna 1991"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 170,
+      "doc": "mf930713_055",
+      "variables": {
+        "arg1": "Hodnotná a okouzlující kulturní událost je důkazem , že dlouhodobě kvalitní dramaturgie výstav Malovaného domu , <*> na sebe váže i další umělecké a kulturní aktivity .",
+        "arg2": "kterou vytváří Luboš Kressa ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 171,
+      "doc": "lnd94103_145",
+      "variables": {
+        "arg1": "Nevím , <*> proč podle navrženého \" humanitárního gesta \" , předaného k připomínkovému řízení , mají být odškodněny vdovy po popravených z nacistické okupace - které se už znovu neprovdaly .",
+        "arg2": "Příkladem slibu vdovské čistoty , složeného bezmála na oltáři vlasti , byla kdysi obecně známá Profesionální vdova ."
+      },
+      "answer_type": "string",
+      "answer": "organization"
+    },
+    {
+      "id": 172,
+      "doc": "mf930709_087",
+      "variables": {
+        "arg1": "Měli jsme na medaili ,",
+        "arg2": "prohlásil trenér Nedvěd ."
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 173,
+      "doc": "ln95049_100",
+      "variables": {
+        "arg1": "Jistě , všechno se dá obejít",
+        "arg2": "že stravné není součást léčebné péče"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 174,
+      "doc": "cmpr9413_017",
+      "variables": {
+        "arg1": "Dalším trendem , v některých státech při výstavbě nebo rekonstrukci zejména administrativních budov dokonce předepsaným , je strukturovaná kabeláž .",
+        "arg2": "Její předností je jednotný kabel i zástrčka pro telefon , modem , fax , tiskárnu , terminál i počítač v síti LAN ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 175,
+      "doc": "mf930713_110",
+      "variables": {
+        "arg1": "Prostitutky přežily vše ; přízeň i úklady krutých božstev , nevůli křesťanské církve i obojakou morálku komunistických diktátorů .",
+        "arg2": "Stávaly se spojenkyněmi řemeslných zločinců i poddajným nástrojem policie , včetně politické ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 176,
+      "doc": "mf920922_133",
+      "variables": {
+        "arg1": "Estonci volili parlament",
+        "arg2": "V nedělních parlamentních volbách v Estonsku získal podle včerejších předběžných výsledků nejvíce hlasů blok Vlast ,"
+      },
+      "answer_type": "string",
+      "answer": "organization"
+    },
+    {
+      "id": 177,
+      "doc": "ln95048_140",
+      "variables": {
+        "arg1": "( 3 ) Lidé , kteří si zdravotní pojištění platí sami , musejí nyní svou zdravotní pojišťovnu zpravit o svých příjmech , výdajích a zálohách na pojištění za loňský rok .",
+        "arg2": "( 13 ) Samoplátci jsou lidé samostatně výdělečně činní a ti , kteří mají vlastní nezdaněné příjmy ."
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 178,
+      "doc": "ln95048_056",
+      "variables": {
+        "arg1": "Měl jsem štěstí , že jsem vše přežil .",
+        "arg2": "Po návratu jsem se dověděl , že Karel Poláček šel za mnou také do Osvětimi ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 179,
+      "doc": "lnd94103_063",
+      "variables": {
+        "arg1": "Je však omezeno tím , že udělení se váže na ztrátu či odevzdání občanství předchozího .",
+        "arg2": "( 2 ) Německu by se hromadným vstupem Turků do státního svazku ulevilo ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 180,
+      "doc": "mf930709_087",
+      "variables": {
+        "arg1": "Ve druhé jízdě byla penalizována 35 body za sedm dotyků ,",
+        "arg2": "tušil jsem , že to dobře nedopadne , \""
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 181,
+      "doc": "mf920925_018",
+      "variables": {
+        "arg1": "Na desce je jiná Laura .",
+        "arg2": "Laura si teď více libuje v klidu ."
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 182,
+      "doc": "ln94210_147",
+      "variables": {
+        "arg1": "Ukazatel světové konkurenceschopnosti je založen na kombinaci osmi klíčových faktorů ,",
+        "arg2": "které se skládají z mnoha dílčích prvků ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 183,
+      "doc": "mf920925_018",
+      "variables": {
+        "arg1": "Bez ní se venku neudržíte ani v hektickém tempu třiceti koncertů měsíčně , které hrajeme ,",
+        "arg2": "říká Karel Šůcha ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 184,
+      "doc": "ln94209_45",
+      "variables": {
+        "arg1": "Proti bývalým státním velkobankám , <*> stále stojí prakticky celý zbytek bankovního sektoru .",
+        "arg2": "v kterých je soustředěna drtivá většina všech primárních vkladů ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 185,
+      "doc": "cmpr9413_034",
+      "variables": {
+        "arg1": "A tak se zdá , že zpracovatelé s novými limity nespěchají .",
+        "arg2": "Přitom po nových limitech je hlad ."
+      },
+      "answer_type": "string",
+      "answer": "concession"
+    },
+    {
+      "id": 186,
+      "doc": "lnd94103_013",
+      "variables": {
+        "arg1": "Regulaci počtu pražských taxíků na tři a půl až čtyři tisíce , <*> však uměle zavádět nechtějí .",
+        "arg2": "kterou žádají taxíkářské organizace ,"
+      },
+      "answer_type": "string",
+      "answer": "comment"
+    },
+    {
+      "id": 187,
+      "doc": "mf920925_087",
+      "variables": {
+        "arg1": "Ten \" obyčejný \" již poslanci nedávno novelizovali tak , že po každých dvou kolech následuje šestitýdenní pauza .",
+        "arg2": "Stalo se tak poté ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 188,
+      "doc": "ln94202_135",
+      "variables": {
+        "arg1": "že to není podpora intenzivní zemědělské výroby ,",
+        "arg2": "ale podpora změny struktury v oblasti extenzivní ."
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 189,
+      "doc": "ln94207_83",
+      "variables": {
+        "arg1": "Aby se udržel apartheid mezi vysokou a nízkou šlechtou ,",
+        "arg2": "byly přijaty dva organizační řády ."
+      },
+      "answer_type": "string",
+      "answer": "purpose"
+    },
+    {
+      "id": 190,
+      "doc": "cmpr9413_004",
+      "variables": {
+        "arg1": "Není proto náhodou , že ve městě sídlí největší výrobce hokejových bruslí a výstroje na světě firma Canstar .",
+        "arg2": "Dynamický rozvoj firmy potvrzuje skutečnost , že v příštích dvou třech letech plánuje růst obratu až na 300 milionů dolarů ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 191,
+      "doc": "ln94203_100",
+      "variables": {
+        "arg1": "Domnívám se , že knoflíkem na televizoru se vulgarita neodstraní .",
+        "arg2": "Možná by se probudila i Rada pro rozhlasové a televizní vysílání ,"
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 192,
+      "doc": "mf920925_114",
+      "variables": {
+        "arg1": "Bude - li Wolf usvědčen ,",
+        "arg2": "hrozí mu trest odnětí svobody až na 15 let ."
+      },
+      "answer_type": "string",
+      "answer": "condition"
+    },
+    {
+      "id": 193,
+      "doc": "ln94203_145",
+      "variables": {
+        "arg1": "Pojišťovna , která chce získat licenci , musí podle M . Zemanové splňovat dosti náročná kriteria .",
+        "arg2": "Naším posláním je chránit spotřebitele , tedy klienty pojišťoven ,"
+      },
+      "answer_type": "string",
+      "answer": "purpose"
+    },
+    {
+      "id": 194,
+      "doc": "ln95049_100",
+      "variables": {
+        "arg1": "že stravné není součást léčebné péče",
+        "arg2": "a že to je hotelový poplatek ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 195,
+      "doc": "lnd94103_003",
+      "variables": {
+        "arg1": "Otázku návratu bojnického oltáře na Slovensko otevřelo rozdělení Československa .",
+        "arg2": "Byl to jeden z nejčastěji vyslovovaných slovenských požadavků při dělení společného majetku ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 196,
+      "doc": "ln94203_100",
+      "variables": {
+        "arg1": "Možná by se probudila i Rada pro rozhlasové a televizní vysílání ,",
+        "arg2": "kdyby zhlédla <*> - zatím nejvulgárnější dabovaný anglický film na TV Nova - Whitnail a já ."
+      },
+      "answer_type": "string",
+      "answer": "condition"
+    },
+    {
+      "id": 197,
+      "doc": "mf930713_110",
+      "variables": {
+        "arg1": "Na druhé straně jejich služeb hojně využíval ,",
+        "arg2": "protože sexuálním radovánkám nepropadali jen prohnilí kapitalisté ,"
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 198,
+      "doc": "ln95049_100",
+      "variables": {
+        "arg1": "Jiří Vlach ( ODS ) , místopředseda parlamentu :",
+        "arg2": "Určitě se má platit ,"
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 199,
+      "doc": "lnd94103_129",
+      "variables": {
+        "arg1": "ojediněle přeháňky .",
+        "arg2": "Noční teploty 5 až 1 st . ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 200,
+      "doc": "mf920922_138",
+      "variables": {
+        "arg1": "Jejich pokořující televizní vystoupení , <*> bylo označeno za symbol brutality režimu Saddáma Husajna .",
+        "arg2": "které obletělo celý svět ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 201,
+      "doc": "ln95048_140",
+      "variables": {
+        "arg1": "že Všeobecná v těchto dnech rozesílá další číslo svého časopisu Jistota .",
+        "arg2": "( 10 ) Samoplátci zde najdou podrobné informace o Přehledu ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 202,
+      "doc": "cmpr9413_017",
+      "variables": {
+        "arg1": "Například tarifikace poplatků - okamžitý výpočet sazby za uskutečněný hovor podstatně zlevňuje telefonní provoz firem ,",
+        "arg2": "které tyto ústředny zavedly ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 203,
+      "doc": "ln94207_16",
+      "variables": {
+        "arg1": "Byl - li úplně mimo obraz ,",
+        "arg2": "zařadil naši zem do té části mapy , kde se již děkování ujalo ."
+      },
+      "answer_type": "string",
+      "answer": "condition"
+    },
+    {
+      "id": 204,
+      "doc": "ln95048_122",
+      "variables": {
+        "arg1": "Sociální demokraté namítají ,",
+        "arg2": "že vláda se školným přichází v době , kdy rostou náklady na základní životní potřeby ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 205,
+      "doc": "ln95048_056",
+      "variables": {
+        "arg1": "a tak pro mě skončila doba ,",
+        "arg2": "kdy jsem mohl poslouchat slova lidí ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 206,
+      "doc": "ln94200_84",
+      "variables": {
+        "arg1": "Menší procento obyvatel než v minulosti se také domnívá , že s řešením problému územněsprávního uspořádání je nutné spěchat .",
+        "arg2": "Názor , že je třeba vytvořit vyšší územněsprávní celky pro lepší fungování státní správy a samosprávy , vyslovilo 33 % dotázaných ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 207,
+      "doc": "mf930713_099",
+      "variables": {
+        "arg1": "REKORDY DNE :",
+        "arg2": "Nejvyšší teplota 33.0 st . C byla v roce 1834 ,"
+      },
+      "answer_type": "string",
+      "answer": "organization"
+    },
+    {
+      "id": 208,
+      "doc": "ln94209_45",
+      "variables": {
+        "arg1": "Vysokému riziku se samozřejmě lépe ubrání silný než slabý jedinec .",
+        "arg2": "potřebuje dostatečný zisk ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 209,
+      "doc": "mf930709_087",
+      "variables": {
+        "arg1": "měla navíc ještě tři dotyky na brankách .",
+        "arg2": "Ve druhé jízdě byla penalizována 35 body za sedm dotyků ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 210,
+      "doc": "ln94208_143",
+      "variables": {
+        "arg1": "což bude působit na vzestup cen .",
+        "arg2": "Jejich pohyb směrem vzhůru navíc podpoří nízká úroveň sklizně na Kubě i v samotných zemích EU , místo očekávaných 17.55 mil . tun pouze 14.8 milionu ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 211,
+      "doc": "cmpr9413_034",
+      "variables": {
+        "arg1": "Stále totiž platí zastaralá směrnice č . 50 / 1978 ve znění několika pozdějších předpisů ,",
+        "arg2": "která je odvozena ze zákona o zdraví lidu z roku 1966 ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 212,
+      "doc": "ln94200_167",
+      "variables": {
+        "arg1": "Proto jsme se zeptali náměstka pražského primátora odpovědného za bytovou politiku Vladimíra Říhy ,",
+        "arg2": "zda se zástupci Radia Svobodná Evropa obrátili v této věci na radnici ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 213,
+      "doc": "mf920925_021",
+      "variables": {
+        "arg1": "a tudíž se do jedné <*> lidské studie \" muselo \" vejít kdeco .",
+        "arg2": "- jinak zajímavé -"
+      },
+      "answer_type": "string",
+      "answer": "condition"
+    },
+    {
+      "id": 214,
+      "doc": "ln95049_100",
+      "variables": {
+        "arg1": "Eva Fischerová ( ČSSD ) , poslankyně :",
+        "arg2": "Poplatek nemá v našich poměrech co dělat ,"
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 215,
+      "doc": "ln95048_056",
+      "variables": {
+        "arg1": "Také já jsem se s Karlem Poláčkem za války setkal .",
+        "arg2": "Koho jiného jsme mohli pozvat než tehdy již známého spisovatele Karla Poláčka ."
+      },
+      "answer_type": "string",
+      "answer": "organization"
+    },
+    {
+      "id": 216,
+      "doc": "ln94210_147",
+      "variables": {
+        "arg1": "Zprávu publikují od roku 1980 Mezinárodní institut pro rozvoj řízení a Světové ekonomické fórum ,",
+        "arg2": "které sdružují nebo spolupracují s předními ekonomy světa ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 217,
+      "doc": "cmpr9413_004",
+      "variables": {
+        "arg1": "V České republice jsme investovali deset milionů dolarů do výstavby závodu na výrobu bruslařských kompletů a hokejového vybavení ,",
+        "arg2": "Provoz závodu , <*> začne letos na podzim ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 218,
+      "doc": "cmpr9415_032",
+      "variables": {
+        "arg1": "a předvádí zboží ,",
+        "arg2": "pak většina z nich jistě vítá , že se na cestu k lékaři nemusí vybavit vlastními hračkami"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 219,
+      "doc": "mf930709_087",
+      "variables": {
+        "arg1": "Z kvalifikace do finále se v kánoích dvojic prosadily mezi postupujících dvanáct všechny čtyři české lodě ,",
+        "arg2": "V kvalifikaci kajaků postoupili mezi 32 finalistů Hilgert na 27 . a Přindiš na 28 . místě ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 220,
+      "doc": "ln94210_147",
+      "variables": {
+        "arg1": "Zprávu publikují od roku 1980 Mezinárodní institut pro rozvoj řízení a Světové ekonomické fórum ,",
+        "arg2": "Letošní zpráva zahrnuje 41 zemí seřazených podle světové konkurenceschopnosti ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 221,
+      "doc": "ln94200_170",
+      "variables": {
+        "arg1": "Radní pro bezpečnost se pokusil alespoň na ten smrad Dunky nachytat .",
+        "arg2": "Vytasili se však s vládní výjimkou"
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 222,
+      "doc": "ln94207_83",
+      "variables": {
+        "arg1": "Šlechtic i biskup byli totiž nálezkem lidským ,",
+        "arg2": "v Bibli se pro jejich existenci žádná opora najít nedala ."
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 223,
+      "doc": "mf920922_105",
+      "variables": {
+        "arg1": "a Turrell v ní poprvé opustil koncepci svých rozsáhlých krajinných projektů ,",
+        "arg2": "jež realizuje ať už v Arizoně , nebo Irsku ;"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 224,
+      "doc": "ln94200_112",
+      "variables": {
+        "arg1": "Imigrační politika USA , nikoli kubánská vláda , je zodpovědná za současný exodus Kubánců z ostrova ,",
+        "arg2": "Castro odmítl Clintonovo rozhodnutí nepřijímat uprchlíky z Kuby ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 225,
+      "doc": "ln95048_140",
+      "variables": {
+        "arg1": "( 9 ) Zimová dále řekla ,",
+        "arg2": "že Všeobecná v těchto dnech rozesílá další číslo svého časopisu Jistota ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 226,
+      "doc": "ln94200_84",
+      "variables": {
+        "arg1": "Názor , že je třeba vytvořit vyšší územněsprávní celky pro lepší fungování státní správy a samosprávy , vyslovilo 33 % dotázaných .",
+        "arg2": "Naopak 42 % občanů soudí , že to není nutné ."
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 227,
+      "doc": "mf930709_087",
+      "variables": {
+        "arg1": "Stává se to .",
+        "arg2": "prohlásil olympijský vítěz ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 228,
+      "doc": "ln95048_058",
+      "variables": {
+        "arg1": "Dnes se holedbáme nadstandardní péčí v pokoji s telefonem , televizorem a koupelnou ,",
+        "arg2": "ale že pravá podstata nadstandardní péče je ošetření banální nemoci primářem , o tom se nemluví ,"
+      },
+      "answer_type": "string",
+      "answer": "concession"
+    },
+    {
+      "id": 229,
+      "doc": "ln94207_83",
+      "variables": {
+        "arg1": "a ta byla do značné míry německá .",
+        "arg2": "Nevraživost šlechty na tyto praktiky vedla paradoxně k jejímu zpětnému národnímu uvědomování ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 230,
+      "doc": "ln94200_170",
+      "variables": {
+        "arg1": "Na závěr každé půlnoční šťáry se totiž měl dostavit primátor",
+        "arg2": "a nechat se s úlovkem fotografovat ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 231,
+      "doc": "ln94207_83",
+      "variables": {
+        "arg1": "Přitom se současně poněmčovala ,",
+        "arg2": "neboť přebírala nesporně vyšší kulturu německou , dnešními slovy evropskou ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 232,
+      "doc": "lnd94103_145",
+      "variables": {
+        "arg1": "Svého poválečného druha , <*> před domácími i zahraničními návštěvami zavírala do špajzu .",
+        "arg2": "který mj . produkoval její vzpomínkové knihy ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 233,
+      "doc": "ln95048_058",
+      "variables": {
+        "arg1": "Již tehdy byla běžná v každé nemocnici \" nadstandardní péče \" ,",
+        "arg2": "tj . že nemocný ležel na třídě ."
+      },
+      "answer_type": "string",
+      "answer": "reformulation"
+    },
+    {
+      "id": 234,
+      "doc": "ln94207_83",
+      "variables": {
+        "arg1": "musel prokázat nejméně čtyři generace stavu vladyckého .",
+        "arg2": "Teprve potom si mohl zažádat o přijetí mezi vladyky ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 235,
+      "doc": "ln94207_16",
+      "variables": {
+        "arg1": "Budiž připomenuty státoprávní manévry , které zpozdily léčbu komunismem nemocné země nejméně o dva roky .",
+        "arg2": "Budiž připomenuta miliony kilometrů dlouhá distance mezi standardní stranickou a parlamentní politikou V . Klause a sociální a nacionální demagogií pouličního populismu Mečiarova ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 236,
+      "doc": "ln95047_134",
+      "variables": {
+        "arg1": "Podvojné účetnictví - sedmnáctidenní rekvalifikační kurs .",
+        "arg2": "Termín a místo konání : 6 . - 22 . 3 . v Praze ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 237,
+      "doc": "mf920925_018",
+      "variables": {
+        "arg1": "kterou by chtěla dostat i do zahraniční distribuční sítě .",
+        "arg2": "Bez ní se venku neudržíte ani v hektickém tempu třiceti koncertů měsíčně , které hrajeme ,"
+      },
+      "answer_type": "string",
+      "answer": "condition"
+    },
+    {
+      "id": 238,
+      "doc": "ln94209_45",
+      "variables": {
+        "arg1": "Tento proces , <*> je však v dnešní době zřejmě přirozený .",
+        "arg2": "který může nerovnoměrnost českého bankovního sektoru spíše prohloubit ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 239,
+      "doc": "ln94207_83",
+      "variables": {
+        "arg1": "V roce 1501 o přijímání do stavu panského ,",
+        "arg2": "v roce 1564 o přijímání do stavu vladyckého ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 240,
+      "doc": "mf930713_013",
+      "variables": {
+        "arg1": "od konce 19 . století až do roku 1938 totiž němečtí či rakouští tvůrci realizovali řadu významných staveb ,",
+        "arg2": "které se svou estetikou odlišovaly od těch ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 241,
+      "doc": "ln95048_140",
+      "variables": {
+        "arg1": "( 8 ) Současně jsou samoplátci povinni donést pojišťovně i doklad o dni podání daňového přiznání .",
+        "arg2": "že Všeobecná v těchto dnech rozesílá další číslo svého časopisu Jistota ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 242,
+      "doc": "lnd94103_063",
+      "variables": {
+        "arg1": "Proč by se měl snížit počet cizinců ve statistikách ?",
+        "arg2": "Nesvědčí výrazy \" ulevit Německu , zamezit diskusím , snížit počet cizinců ve statistikách \" o podvědomé nechuti k cizincům ?"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 243,
+      "doc": "mf930713_110",
+      "variables": {
+        "arg1": "V mnoha dávnověkých civilizacích fungovaly jako vážené kněžky lásky ,",
+        "arg2": "a tak se obce a města pod tlakem svých občanů snaží pomoci , jak umějí ."
+      },
+      "answer_type": "string",
+      "answer": "organization"
+    },
+    {
+      "id": 244,
+      "doc": "ln94202_135",
+      "variables": {
+        "arg1": "Vysvětlil také ,",
+        "arg2": "že podpora stimulující obdělávání luk v těchto oblastech je společným programem ministerstev zemědělství a životního prostředí"
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 245,
+      "doc": "ln94207_83",
+      "variables": {
+        "arg1": "Postupně se šlechta vzdávala hospodaření na půdě ve vlastní režii",
+        "arg2": "Proto podporovala v Čechách německou kolonizaci ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 246,
+      "doc": "ln94203_100",
+      "variables": {
+        "arg1": "O vulgaritě a akčních triviálnostech v televizi jsem psal řediteli Novy",
+        "arg2": "- nereagoval ."
+      },
+      "answer_type": "string",
+      "answer": "concession"
+    },
+    {
+      "id": 247,
+      "doc": "lnd94103_145",
+      "variables": {
+        "arg1": "Mnohem lépe znám vdovy , které poté , <*> začaly druhý život .",
+        "arg2": "co jim vyhasla poslední naděje"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 248,
+      "doc": "mf930713_110",
+      "variables": {
+        "arg1": "Prostituci je lepší regulovat ,",
+        "arg2": "protože porazit ji nelze ."
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 249,
+      "doc": "mf920922_105",
+      "variables": {
+        "arg1": "V jiné , připomínající dřevěný stan , se můžeš položit na jednoduché lehátko ,",
+        "arg2": "neony však ovládá technik ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 250,
+      "doc": "ln94207_83",
+      "variables": {
+        "arg1": "tak vznikala šlechta rodová .",
+        "arg2": "Šlechtictví služebné se dalo získat rychleji : za služby panovníkovi , za dvorskou službu ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 251,
+      "doc": "mf920925_087",
+      "variables": {
+        "arg1": "Předem daný negativní výsledek má za následek volání , že volba hlavy státu se stala fraškou .",
+        "arg2": "Vážou ho totiž hned dva zákony , které volbu prezidenta upravují ."
+      },
+      "answer_type": "string",
+      "answer": "concession"
+    },
+    {
+      "id": 252,
+      "doc": "lnd94103_033",
+      "variables": {
+        "arg1": "a požadoval urychlené přijetí zákona , který by vymezil odpovědnost ČNB vůči parlamentu .",
+        "arg2": "Bylo by prý rovněž zapotřebí zřídit centrální úřad odpovědný parlamentu , který by měl dohlížecí a konsolidační pravomoc nad bankami ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 253,
+      "doc": "mf930713_110",
+      "variables": {
+        "arg1": "kteří dokážou vyčistit ulice , popřípadě i celé čtvrtě ,",
+        "arg2": "Obsadí je takovou přesilou policistů , že nejen prostitutky , ale i překupníci drog raději odejdou ,"
+      },
+      "answer_type": "string",
+      "answer": "mode"
+    },
+    {
+      "id": 254,
+      "doc": "ln94202_135",
+      "variables": {
+        "arg1": "Od počátku září bude možné , aby kterákoli fyzická či právnická osoba , která v podhorských a horských oblastech odpovídajícím způsobem pečuje o trvalé travní porosty , získala z rozpočtu ministerstva zemědělství finanční příspěvek 2000 korun na hektar .",
+        "arg2": "ale podpora změny struktury v oblasti extenzivní ."
+      },
+      "answer_type": "string",
+      "answer": "comment"
+    },
+    {
+      "id": 255,
+      "doc": "ln94207_83",
+      "variables": {
+        "arg1": "byl odměňován půdou .",
+        "arg2": "A kdo byl bohat půdou , byl bohat i urozeností , jak jinak ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 256,
+      "doc": "ln94207_83",
+      "variables": {
+        "arg1": "Avšak kde opravdu byl šlechtic ,",
+        "arg2": "Kdo půdu udržel , stal se praotcem šlechtického rodu ."
+      },
+      "answer_type": "string",
+      "answer": "query"
+    },
+    {
+      "id": 257,
+      "doc": "ln95049_100",
+      "variables": {
+        "arg1": "Určitě se má platit ,",
+        "arg2": "Poplatek nemá v našich poměrech co dělat ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 258,
+      "doc": "ln94209_45",
+      "variables": {
+        "arg1": "Bez depozit , bez pobočkové sítě , bez kvalifikovaného personálu a také bez klientů ,",
+        "arg2": "kteří by jim přinesli tolik potřebné primární zdroje ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 259,
+      "doc": "mf930709_058",
+      "variables": {
+        "arg1": "porušuje celkovou náladu .",
+        "arg2": "bylo by album bez chyb ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 260,
+      "doc": "mf920925_087",
+      "variables": {
+        "arg1": "Často se objevuje i argument , že naší mezinárodní prestiži takové volby prvního muže ( ženy ) země neprospívají",
+        "arg2": "a parlament by je měl přerušit do doby vyjasnění státoprávních problémů ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 261,
+      "doc": "ln95049_086",
+      "variables": {
+        "arg1": "a pokud ano ,",
+        "arg2": "jestli to stihne včas už pro příští školní rok ."
+      },
+      "answer_type": "string",
+      "answer": "condition"
+    },
+    {
+      "id": 262,
+      "doc": "mf930713_099",
+      "variables": {
+        "arg1": "nejvyšší odpolední 15 až 18 st . C .",
+        "arg2": "Teplota v 1000 m kolem 7 st . C ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 263,
+      "doc": "mf920925_114",
+      "variables": {
+        "arg1": "a později se vrátil .",
+        "arg2": "Při návratu byl přesně před rokem ( 24 . 9 . 1991 ) zatčen ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 264,
+      "doc": "ln94200_170",
+      "variables": {
+        "arg1": "To byl ovšem jen začátek .",
+        "arg2": "S blížícími se volbami přituhlo ."
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 265,
+      "doc": "cmpr9413_017",
+      "variables": {
+        "arg1": "To znamená , že komunikační systém musí umožňovat využití všech součástí hardware a software nezávisle na umístění kteréhokoli pracoviště .",
+        "arg2": "První informaci o novém výrobku , ceně a podobně získá volající z řečové paměti ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 266,
+      "doc": "ln95049_086",
+      "variables": {
+        "arg1": "je na definitivní rozhodování ještě čas .",
+        "arg2": "Neméně zajímavé bude srovnání výše školného na stejných oborech různých vysokých škol ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 267,
+      "doc": "lnd94103_145",
+      "variables": {
+        "arg1": "Nikdy svůj vdovský status neporušila",
+        "arg2": "a po Juliu Fučíkovi pobírala 320 korun vdovské penze , nepatrný to zlomek svých , na tehdejší dobu obrovských příjmů ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 268,
+      "doc": "ln95047_134",
+      "variables": {
+        "arg1": "Připravuje : Kredo .",
+        "arg2": "Účtování účetních případů ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 269,
+      "doc": "lnd94103_145",
+      "variables": {
+        "arg1": "Je zajímavé , že je v něm velmi často provázeli vězni osvobození z koncentračních táborů nebo vojáci zahraničních jednotek .",
+        "arg2": "Soudím , že mimořádnost - ano , mimořádnost - našeho protinacistického odboje vytvářela svého druhu ghetto , z něhož ani po válce mnozí a mnohé nedokázali či nechtěli vystoupit ."
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 270,
+      "doc": "ln94200_112",
+      "variables": {
+        "arg1": "Zdůraznil ,",
+        "arg2": "že USA vytvářejí koncentrační tábor ,"
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 271,
+      "doc": "ln94200_170",
+      "variables": {
+        "arg1": "Čas od času se Franta sám dostavil na biřickou služebnu , jako že ho chytili .",
+        "arg2": "A zase šel ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 272,
+      "doc": "mf930713_013",
+      "variables": {
+        "arg1": "( 1 ) Pozoruhodné \" jiné domy \"",
+        "arg2": "( 3 ) REPRO : NG"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 273,
+      "doc": "lnd94103_063",
+      "variables": {
+        "arg1": "Z Čech není totiž do Německa vůbec vidět ,",
+        "arg2": "vše je zastřeno sudetskou mlhou a hustým kouřem minulosti ."
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 274,
+      "doc": "ln94207_83",
+      "variables": {
+        "arg1": "a vůbec nevadilo , že byla jazykově většinou německá .",
+        "arg2": "Odcizování začalo po roce 1848 ."
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 275,
+      "doc": "cmpr9413_034",
+      "variables": {
+        "arg1": "A tato směrnice se všemi novelami naposledy vyšla v roce 1992",
+        "arg2": "a od té doby koluje v xeroxových kopiích ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 276,
+      "doc": "cmpr9415_032",
+      "variables": {
+        "arg1": "Obchodník propaguje svou firmu",
+        "arg2": "je pravděpodobné , že si děti její zakoupení na rodiči vyškemrají ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 277,
+      "doc": "ln94200_170",
+      "variables": {
+        "arg1": "Na závěr každé půlnoční šťáry se totiž měl dostavit primátor",
+        "arg2": "a její časté zadržování v metru by nakonec mohlo být podezřelé i opozici ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 278,
+      "doc": "ln94207_83",
+      "variables": {
+        "arg1": "Avšak kde opravdu byl šlechtic ,",
+        "arg2": "kde se vzal ?"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 279,
+      "doc": "mf930713_110",
+      "variables": {
+        "arg1": "Po 17 . listopadu ovšem jejich řemeslo prožívá skutečnou renesanci .",
+        "arg2": "Prodejná láska prožívá skutečně zlaté časy , srovnatelné snad jen s pověstnou zlatou horečkou ."
+      },
+      "answer_type": "string",
+      "answer": "reformulation"
+    },
+    {
+      "id": 280,
+      "doc": "mf920922_138",
+      "variables": {
+        "arg1": "ale rány dřevěnou palicí a obušky přivádějí člověka k šílenství , \" vzpomíná v knize \" Sestřelení tornáda \" , <*> britský pilot John Peters .",
+        "arg2": "Napínavý příběh vypráví o pilotovi a jeho navigátorovi ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 281,
+      "doc": "ln94200_8",
+      "variables": {
+        "arg1": "A tak se i v tomto oboru stala naše věda popelkou , jen nesměle a spíše zásluhou několika jedinců kráčející vedle civilizovaného světa .",
+        "arg2": "Jedním z takových lidí byl a je i dr . Svoboda ."
+      },
+      "answer_type": "string",
+      "answer": "organization"
+    },
+    {
+      "id": 282,
+      "doc": "cmpr9415_032",
+      "variables": {
+        "arg1": "pak většina z nich jistě vítá , že se na cestu k lékaři nemusí vybavit vlastními hračkami",
+        "arg2": "a čekání s dítětem není tak stresující ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 283,
+      "doc": "lnd94103_145",
+      "variables": {
+        "arg1": "Mnohem lépe znám vdovy , které poté , <*> začaly druhý život .",
+        "arg2": "Úspor lze ovšem dosáhnout i jen trochu liknavějším projednáváním návrhu ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 284,
+      "doc": "mf930713_110",
+      "variables": {
+        "arg1": "Z parlamentu před nedávnem vzešel pokus upravit , respektive zamezit prostituci .",
+        "arg2": "Setkal se většinou s odmítnutím ,"
+      },
+      "answer_type": "string",
+      "answer": "concession"
+    },
+    {
+      "id": 285,
+      "doc": "cmpr9413_017",
+      "variables": {
+        "arg1": "Technika postoupila dál .",
+        "arg2": "Teď ještě ta druhá - peníze ."
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 286,
+      "doc": "ln95048_140",
+      "variables": {
+        "arg1": "( 10 ) Samoplátci zde najdou podrobné informace o Přehledu .",
+        "arg2": "( 11 ) Dále jsou zde údaje o cestovním připojištění a nadstandardu při hospitalizaci ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 287,
+      "doc": "mf930713_055",
+      "variables": {
+        "arg1": "ale také mozkem .",
+        "arg2": "ale také přemýšlení . \""
+      },
+      "answer_type": "string",
+      "answer": "reformulation"
+    },
+    {
+      "id": 288,
+      "doc": "ln94209_45",
+      "variables": {
+        "arg1": "Zdá se tak , že období masového vzniku nových bank v České republice brzy vystřídají procesy jdoucí spíše opačným směrem .",
+        "arg2": "Tento proces , <*> je však v dnešní době zřejmě přirozený ."
+      },
+      "answer_type": "string",
+      "answer": "query"
+    },
+    {
+      "id": 289,
+      "doc": "ln94208_143",
+      "variables": {
+        "arg1": "Objem kubánské produkce má klesat i příští rok ,",
+        "arg2": "protože vzhledem k nedostatku pohonných hmot tam bude plocha pro pěstování cukrové třtiny snížena na 63 % ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 290,
+      "doc": "mf920925_087",
+      "variables": {
+        "arg1": "Předem daný negativní výsledek má za následek volání , že volba hlavy státu se stala fraškou .",
+        "arg2": "Často se objevuje i argument , že naší mezinárodní prestiži takové volby prvního muže ( ženy ) země neprospívají"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 291,
+      "doc": "ln94200_112",
+      "variables": {
+        "arg1": "V uplynulých letech bylo pro Kubánce velmi obtížné nebo prakticky nemožné emigrovat legálně nebo alespoň USA navštívit ,",
+        "arg2": "dodal ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 292,
+      "doc": "ln95048_055",
+      "variables": {
+        "arg1": "Uveřejňování takových článků je nesmírně důležité .",
+        "arg2": "a jsem hrozně rád , že jste s tím začaly , milé Lidové noviny ."
+      },
+      "answer_type": "string",
+      "answer": "comment"
+    },
+    {
+      "id": 293,
+      "doc": "ln95048_056",
+      "variables": {
+        "arg1": "Největším překvapením pro nás bylo , že tak smutný a vážný člověk psal knihy veselé a optimistické .",
+        "arg2": "Měl jsem štěstí , že jsem vše přežil ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 294,
+      "doc": "lnd94103_063",
+      "variables": {
+        "arg1": "který je založen na velkých kolektivních smlouvách , moci bank a byrokracii",
+        "arg2": "- je to kapitalismus bez trhu ."
+      },
+      "answer_type": "string",
+      "answer": "reformulation"
+    },
+    {
+      "id": 295,
+      "doc": "ln95049_086",
+      "variables": {
+        "arg1": "Původně mělo být o školném na vysokých školách definitivně rozhodnuto ještě dříve ,",
+        "arg2": "než letošní uchazeči o studium vyplní přihlášku ."
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 296,
+      "doc": "ln95049_100",
+      "variables": {
+        "arg1": "tak já se uskrovním ,",
+        "arg2": "Nevím ."
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 297,
+      "doc": "lnd94103_063",
+      "variables": {
+        "arg1": "Druhá věta je prosáklá jakýmsi implicitním rasismem .",
+        "arg2": "Je ovšem důležité připomenout , že z českého tisku se o nich čtenář nic nedozvěděl ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 298,
+      "doc": "mf920922_105",
+      "variables": {
+        "arg1": "nad hlavou se klene světelná kopule .",
+        "arg2": "Mačkáš páčky ,"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 299,
+      "doc": "ln94200_112",
+      "variables": {
+        "arg1": "Prohlásil ,",
+        "arg2": "že Spojené státy , <*> poskytly jich pouze 11000 ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 300,
+      "doc": "mf920925_018",
+      "variables": {
+        "arg1": "ale latinské rytmy i perkuse s výjimkou úvodní skladby Lidi se shromáždí ustoupily do pozadí .",
+        "arg2": "Větší roli naopak hraje kytara ."
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 301,
+      "doc": "ln94207_16",
+      "variables": {
+        "arg1": "Mohla totiž nastat i jiná varianta .",
+        "arg2": "Ve střední Evropě se hádají nějací dva troubové , utkvělo by zřejmě v paměti Kaliforňana ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 302,
+      "doc": "ln95048_056",
+      "variables": {
+        "arg1": "Se zájmem jsem si přečetl pojednání Arno Paříka o Karlu Poláčkovi .",
+        "arg2": "Koho jiného jsme mohli pozvat než tehdy již známého spisovatele Karla Poláčka ."
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 303,
+      "doc": "ln94207_83",
+      "variables": {
+        "arg1": "Pozoruhodný obrat v tomto směru nastal ve století čtrnáctém .",
+        "arg2": "Královská moc se stále více začínala opírat o města ,"
+      },
+      "answer_type": "string",
+      "answer": "organization"
+    },
+    {
+      "id": 304,
+      "doc": "lnd94103_013",
+      "variables": {
+        "arg1": "V Praze bylo k začátku letošního března vydáno na tři tisíce taxikářských koncesí ,",
+        "arg2": "Za rok úřady odebraly jen 4 koncesní listiny ."
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 305,
+      "doc": "ln94210_147",
+      "variables": {
+        "arg1": "Ukazatel světové konkurenceschopnosti je založen na kombinaci osmi klíčových faktorů ,",
+        "arg2": "Dobrou skutečností nicméně podle autorů je , že Češi se snaží tyto problémy řešit , zejména pokud jde o modernizaci jejich telekomunikací a školení nové generace se západní technikou řízení ."
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 306,
+      "doc": "ln94209_45",
+      "variables": {
+        "arg1": "Bankovní domy tohoto řádu by však logicky měly vzniknout spojením malých bank , a to nejlépe na bázi rovnocenného partnerství .",
+        "arg2": "Soudě podle zmíněných případů České spořitelny a Investiční a poštovní banky dochází zatím pouze k pohlcování malých ryb velkými ."
+      },
+      "answer_type": "string",
+      "answer": "concession"
+    },
+    {
+      "id": 307,
+      "doc": "ln94210_147",
+      "variables": {
+        "arg1": "Japonsko přitom třímalo vedoucí pozici po osm uplynulých let ,",
+        "arg2": "zdůrazňují autoři ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 308,
+      "doc": "mf930713_099",
+      "variables": {
+        "arg1": "Měsíc vychází ve středu v 00 : 43",
+        "arg2": "a zapadá v 16 : 27 hodin letního času ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 309,
+      "doc": "ln95048_058",
+      "variables": {
+        "arg1": "a k tomu jsem dostal další celé 3000 Kč za \" třídy \" !",
+        "arg2": "Již tehdy byla běžná v každé nemocnici \" nadstandardní péče \" ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 310,
+      "doc": "ln95049_100",
+      "variables": {
+        "arg1": "myslím , že je placení na místě .",
+        "arg2": "ale já osobně bych respektoval i zahraniční model , podle něhož se neplatí jen za prvních čtrnáct dnů v nemocnici , ale za osmadvacet ."
+      },
+      "answer_type": "string",
+      "answer": "concession"
+    },
+    {
+      "id": 311,
+      "doc": "ln94207_39",
+      "variables": {
+        "arg1": "zda léta budované renomé , <*> bude stačit kompenzovat prudký pokles důvěry nejen u jejích klientů , ale i u naší a zahraniční veřejnosti ,",
+        "arg2": "do kterého vložila nemalé částky na reklamu , zvelebení svých úřadoven a sponzoring ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 312,
+      "doc": "mf920925_018",
+      "variables": {
+        "arg1": "Včera skupina zahájila turné podporující dobrou desku ,",
+        "arg2": "kterou by chtěla dostat i do zahraniční distribuční sítě ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 313,
+      "doc": "cmpr9413_034",
+      "variables": {
+        "arg1": "který se však postupem času velmi mění .",
+        "arg2": "nebude zřejmě nikdy možné zavést stejné limity pro všechny státy bez výjimek ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 314,
+      "doc": "ln94209_45",
+      "variables": {
+        "arg1": "Česká spořitelna minulý týden zveřejnila svůj zájem získat šestnáctiprocentní podíl v České bance .",
+        "arg2": "Týden před tím převzala téměř beze zbytku AB Banku Mladá Boleslav ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 315,
+      "doc": "ln95048_122",
+      "variables": {
+        "arg1": "Vláda zákon posunula do sociálně těžko stravitelné polohy ,",
+        "arg2": "Půjčky podle něho mají zcela komerční bankovní charakter"
+      },
+      "answer_type": "string",
+      "answer": "organization"
+    },
+    {
+      "id": 316,
+      "doc": "cmpr9415_032",
+      "variables": {
+        "arg1": "Markéta Teuchnerová , Praha 10",
+        "arg2": "Podnikatelské nápady zveřejněné v této rubrice odměňujeme vedle běžného honoráře i stokorunovou premií ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 317,
+      "doc": "cmpr9413_034",
+      "variables": {
+        "arg1": "který se však nedá očekávat dříve než za dva roky .",
+        "arg2": "A tak se zdá , že zpracovatelé s novými limity nespěchají ."
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 318,
+      "doc": "ln94207_16",
+      "variables": {
+        "arg1": "ale i údajně chladné vztahy Prahy s dnešní slovenskou vládou .",
+        "arg2": "Tím prý dává Klausova vláda najevo , že únorový Mečiarův pád hodnotí jako puč ."
+      },
+      "answer_type": "string",
+      "answer": "comment"
+    },
+    {
+      "id": 319,
+      "doc": "ln95048_122",
+      "variables": {
+        "arg1": "Vláda zákon posunula do sociálně těžko stravitelné polohy ,",
+        "arg2": "uvedl ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 320,
+      "doc": "ln95049_100",
+      "variables": {
+        "arg1": "Ale odmítám , aby se za mne bouřilo nějaké Hnutí důchodců .",
+        "arg2": "Já na to mám , abych si čtrnáct dnů v nemocnici mohl zaplatit ."
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 321,
+      "doc": "ln94207_16",
+      "variables": {
+        "arg1": "že česká vláda podporuje jeho .",
+        "arg2": "ale i údajně chladné vztahy Prahy s dnešní slovenskou vládou ."
+      },
+      "answer_type": "string",
+      "answer": "mode"
+    },
+    {
+      "id": 322,
+      "doc": "cmpr9413_017",
+      "variables": {
+        "arg1": "Naprostá většina potenciálních uživatelů dokonce ani netuší , jaké množství velmi užitečných funkcí dnes tato zařízení v sobě integrují .",
+        "arg2": "Proto se přední světoví výrobci , <*> musí zabývat osvětou , vysvětlováním vlastností těchto systémů ."
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 323,
+      "doc": "ln94207_16",
+      "variables": {
+        "arg1": "Bylo tu však ještě jedno publikum ,",
+        "arg2": "se kterým premiér Václav Klaus asi počítal ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 324,
+      "doc": "mf930709_087",
+      "variables": {
+        "arg1": "to už je také něco , \"",
+        "arg2": "řekl Pollert , závodník ,"
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 325,
+      "doc": "ln94203_145",
+      "variables": {
+        "arg1": "a že v případě jejího vypršení či takzvané pojistné události ,",
+        "arg2": "nedostanou žádnou pojistnou náhradu ."
+      },
+      "answer_type": "string",
+      "answer": "condition"
+    },
+    {
+      "id": 326,
+      "doc": "lnd94103_129",
+      "variables": {
+        "arg1": "později přibývání oblačnosti s deštěm .",
+        "arg2": "Nejnižší noční teploty v úterý 4 až 0 st . C . ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 327,
+      "doc": "ln95049_100",
+      "variables": {
+        "arg1": "Přitom jinde nám uniká daleko víc peněz .",
+        "arg2": "Ještě že by to bylo jenom prvních čtrnáct dnů ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 328,
+      "doc": "ln94200_170",
+      "variables": {
+        "arg1": "Všichni to věděli",
+        "arg2": "a všichni na ně byli krátcí ,"
+      },
+      "answer_type": "string",
+      "answer": "concession"
+    },
+    {
+      "id": 329,
+      "doc": "mf920925_087",
+      "variables": {
+        "arg1": "Vážou ho totiž hned dva zákony , které volbu prezidenta upravují .",
+        "arg2": "Právní pravidla pro volbu prezidenta ale nelze měnit každý měsíc s ohledem na momentální politickou situaci ."
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 330,
+      "doc": "mf930713_055",
+      "variables": {
+        "arg1": "Znamenitě provedený výběr je kvalitní informací o nekompromisním vývoji Kotíkovy tvorby , o jeho neústupnosti od požadavků moderní malby .",
+        "arg2": "Na řadě těch , kteří udělali ústupky , se to později projevilo v celém díle ,  řekl autor na vernisáži ."
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 331,
+      "doc": "mf930713_110",
+      "variables": {
+        "arg1": "Zákon na tyto problémy nepamatoval ,",
+        "arg2": "právní řád České republiky vůbec nezná pojem prostituce ,"
+      },
+      "answer_type": "string",
+      "answer": "reformulation"
+    },
+    {
+      "id": 332,
+      "doc": "ln95048_140",
+      "variables": {
+        "arg1": "( 5 ) Samoplátci jej pak musejí odevzdat do osmi dnů po daňovém přiznání ,",
+        "arg2": "které je třeba podat do konce března ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 333,
+      "doc": "ln94207_83",
+      "variables": {
+        "arg1": "Šlechtictví služebné se dalo získat rychleji : za služby panovníkovi , za dvorskou službu .",
+        "arg2": "Zlatou dobou pro šlechtice jakéhokoliv ranku bývávaly boje o trůn ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 334,
+      "doc": "mf930709_087",
+      "variables": {
+        "arg1": "Česká hlídka nasbírala v první jízdě celkem 65 trestných bodů ,",
+        "arg2": "měla navíc ještě tři dotyky na brankách ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 335,
+      "doc": "ln94200_170",
+      "variables": {
+        "arg1": "a tak si na ně jednou počíhala svépomocná domovská domobrana",
+        "arg2": "Všichni útočníci dostali pět měsíců natvrdo ,"
+      },
+      "answer_type": "string",
+      "answer": "concession"
+    },
+    {
+      "id": 336,
+      "doc": "lnd94103_003",
+      "variables": {
+        "arg1": "O výměně Bojnického oltáře za deset gotických deskových obrazů slovenské provenience se dohodli zástupci ministerstev kultury ČR a Slovenské republiky .",
+        "arg2": "Podle tiskové mluvčí českého ministerstva kultury Evy Rolečkové návrh příslušných smluv předloží slovenská strana do 15 . května ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 337,
+      "doc": "mf920925_021",
+      "variables": {
+        "arg1": "Pokud měl ovšem tímhle výrokem na mysli i tvůrce s jejich věčnými politizujícími odkazy ,",
+        "arg2": "paradoxně nezbývá než s lítostí souhlasit ."
+      },
+      "answer_type": "string",
+      "answer": "condition"
+    },
+    {
+      "id": 338,
+      "doc": "lnd94103_013",
+      "variables": {
+        "arg1": "Jejich představitelé argumentují ,",
+        "arg2": "že je nesmyslné , aby taxikáři platili až 6000 Kč ročně"
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 339,
+      "doc": "ln95048_058",
+      "variables": {
+        "arg1": "Tam platil za každý den hospitalizace příplatek ,",
+        "arg2": "ale nadstandardní tehdy hlavně bylo ošetření banální nemoci primářem"
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 340,
+      "doc": "ln94210_147",
+      "variables": {
+        "arg1": "Česká republika stojí z hlediska konkurenceschopnosti na 36 . příčce světového žebříčku , hned za Jihoafrickou republikou a před Řeckem .",
+        "arg2": "Uvádí se to ve Zprávě o světové konkurenceschopnosti 1994 ,"
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 341,
+      "doc": "ln94210_147",
+      "variables": {
+        "arg1": "Zprávu publikují od roku 1980 Mezinárodní institut pro rozvoj řízení a Světové ekonomické fórum ,",
+        "arg2": "Tento pojem ( world competitiveness ) je definován jako schopnost země nebo podniku produkovat rovnoměrně více bohatství než jeho rivalové na světových trzích ."
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 342,
+      "doc": "ln95049_019",
+      "variables": {
+        "arg1": "kdo nebude zároveň hluboce věřící",
+        "arg2": "a nebude si přát být pohřben v tomto chrámu ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 343,
+      "doc": "lnd94103_033",
+      "variables": {
+        "arg1": "Kryčer kritizoval i skutečnost ,",
+        "arg2": "že parlament nemá nad bankami žádné kontrolní pravomoci ,"
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 344,
+      "doc": "mf930713_055",
+      "variables": {
+        "arg1": "ale také přemýšlení . \"",
+        "arg2": "jehož mimořádně poutavě koncipovanou výstavu uspořádali v Malovaném domě v Třebíči ."
+      },
+      "answer_type": "string",
+      "answer": "organization"
+    },
+    {
+      "id": 345,
+      "doc": "mf930713_110",
+      "variables": {
+        "arg1": "a tak se obce a města pod tlakem svých občanů snaží pomoci , jak umějí .",
+        "arg2": "První v řadě bylo město Dubí na Teplicku ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 346,
+      "doc": "ln95048_056",
+      "variables": {
+        "arg1": "a tak pro mě skončila doba ,",
+        "arg2": "Měl jsem štěstí , že jsem vše přežil ."
+      },
+      "answer_type": "string",
+      "answer": "comment"
+    },
+    {
+      "id": 347,
+      "doc": "mf930713_110",
+      "variables": {
+        "arg1": "ale i dívky na telefonu a zaměstnankyně masážních a erotických salónů ,",
+        "arg2": "kterých přibývá jako hub po dešti ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 348,
+      "doc": "lnd94103_145",
+      "variables": {
+        "arg1": "A tak bych chtěl jenom poprosit :",
+        "arg2": "nenuťte tyto ženy , <*> aby by na sklonku aby musely uvažovat , čemu že se to zpronevěřily . Svým popraveným mužům ?"
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 349,
+      "doc": "ln94200_170",
+      "variables": {
+        "arg1": "Všichni útočníci dostali pět měsíců natvrdo ,",
+        "arg2": "protože nepočkali , až je rabijátští bráchové alespoň jednou , raději však dvakrát říznou břitvou ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 350,
+      "doc": "mf920922_105",
+      "variables": {
+        "arg1": "jsi sám ,",
+        "arg2": "nad hlavou se klene světelná kopule ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 351,
+      "doc": "ln94200_167",
+      "variables": {
+        "arg1": "Na otázku , <*> odpověděl náměstek Říha ,",
+        "arg2": "kolik přesně ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 352,
+      "doc": "lnd94103_063",
+      "variables": {
+        "arg1": "O velkém politickém ohlasu těchto tezí nás také nikdo neinformuje .",
+        "arg2": "Protože o nich on , jako specialista na Německo , nic nepíše ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 353,
+      "doc": "ln94203_145",
+      "variables": {
+        "arg1": "Lidé , kteří uzavřou smlouvu se zahraniční pojišťovnou , která nemá povolení u nás působit , se vystavují nebezpečí , že pojišťovna nedodrží podmínky smlouvy",
+        "arg2": "Ministerstvo financí uděluje podle zákona o pojišťovnictví licence pojišťovnám"
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 354,
+      "doc": "cmpr9415_032",
+      "variables": {
+        "arg1": "a předvádí zboží ,",
+        "arg2": "které by třeba při pohledu do výlohy nezaujalo ."
+      },
+      "answer_type": "string",
+      "answer": "condition"
+    },
+    {
+      "id": 355,
+      "doc": "lnd94103_145",
+      "variables": {
+        "arg1": "Mnohem lépe znám vdovy , které poté , <*> začaly druhý život .",
+        "arg2": "Je zajímavé , že je v něm velmi často provázeli vězni osvobození z koncentračních táborů nebo vojáci zahraničních jednotek ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 356,
+      "doc": "cmpr9413_034",
+      "variables": {
+        "arg1": "Ke zpracování nových limitů dalo ministerstvo zdravotnictví popud již v roce 1992 .",
+        "arg2": "Jejich návrh měl být harmonizován s obdobným předpisem platným v západní Evropě ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 357,
+      "doc": "mf930713_055",
+      "variables": {
+        "arg1": "Sama výstava představuje ve výtečném výběru důležité vývojové etapy Kotíkovy tvorby od 40 . let , <*> až po hojné využívání nepravidelných formátů pro malbu v letech osmdesátých .",
+        "arg2": "Nejstarším obrazem je zelenožlutá malba Dívka u šicího stroje z roku 1942 ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 358,
+      "doc": "ln94200_170",
+      "variables": {
+        "arg1": "Všichni to věděli",
+        "arg2": "a všichni na ně byli krátcí ,"
+      },
+      "answer_type": "string",
+      "answer": "concession"
+    },
+    {
+      "id": 359,
+      "doc": "mf920925_114",
+      "variables": {
+        "arg1": "Wolf ( 69 ) byl obviněn z toho , že řídil činnost nejméně 12 agentů pracujících proti Bonnu .",
+        "arg2": "Jedním z nich byl i špión Günter Guillaume ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 360,
+      "doc": "mf920925_018",
+      "variables": {
+        "arg1": "Včera uvedl na náš trh Bonton její třetí album Síla v nás .",
+        "arg2": "Oproti předchozím je méně explozívní ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 361,
+      "doc": "ln94200_170",
+      "variables": {
+        "arg1": "Radní pro bezpečnost spolu s primátorem rozhodli , že provětrají noční metro .",
+        "arg2": "Všechno klapalo ."
+      },
+      "answer_type": "string",
+      "answer": "comment"
+    },
+    {
+      "id": 362,
+      "doc": "ln94207_83",
+      "variables": {
+        "arg1": "Jednak proto , že mohli svobodně loupit a krást tak dlouho ,",
+        "arg2": "že to byla ideální příležitost pro omezování královské moci - za protislužby ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 363,
+      "doc": "mf920925_018",
+      "variables": {
+        "arg1": "Uvědomili jsme si to , až když nám lidi překvapeně říkali -",
+        "arg2": "vy ještě hrajete ? \""
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 364,
+      "doc": "ln94200_84",
+      "variables": {
+        "arg1": "Naopak za velmi naléhavou označilo otázku územněsprávního uspořádání 8 % dotázaných a za naléhavou 23 % .",
+        "arg2": "Naléhavost problému územněsprávního uspořádání pociťuje ve srovnání s rokem 1992 o polovinu občanů méně ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 365,
+      "doc": "ln94200_84",
+      "variables": {
+        "arg1": "Vyplynulo to z výsledků šetření Institutu pro výzkum veřejného mínění provedeného začátkem července na reprezentativním souboru 1097 obyvatel .",
+        "arg2": "Problém územněsprávního uspořádání považuje 29 % občanů za málo naléhavý"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 366,
+      "doc": "mf930713_099",
+      "variables": {
+        "arg1": "Nejnižší ranní teploty ve středu 10 až 6 st . C , ve čtvrtek 12 až 8 st . C ,",
+        "arg2": "nejvyšší odpolední teploty 18 až 22 st . C ."
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 367,
+      "doc": "ln94210_147",
+      "variables": {
+        "arg1": "její vliv na jednotlivé ekonomiky byl nestejný .",
+        "arg2": "Spojené státy znovu dobyly vedoucí místo"
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 368,
+      "doc": "ln95048_122",
+      "variables": {
+        "arg1": "Navrhovaný vysokoškolský zákon , který by umožnil vybírání školného , je pro Českou stranu sociálnědemokratickou nepřijatelný .",
+        "arg2": "že vláda se školným přichází v době , kdy rostou náklady na základní životní potřeby ."
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 369,
+      "doc": "cmpr9415_032",
+      "variables": {
+        "arg1": "Uvítáme nejen nápady z vlastní podnikatelské praxe ,",
+        "arg2": "ale i takové , s nimiž se čtenáři setkali jako spotřebitelé ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 370,
+      "doc": "ln95048_140",
+      "variables": {
+        "arg1": "( 6 ) Podobné formuláře budou muset předložit i klienti ostatních pojišťoven .",
+        "arg2": "( 7 ) Ti , kteří je loni měnili , mají formuláře odevzdat každé z nich ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 371,
+      "doc": "ln95049_100",
+      "variables": {
+        "arg1": "Jak však budete účtovat stravné pacientovi , který prakticky nejí ,",
+        "arg2": "protože leží na onkologickém oddělení"
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 372,
+      "doc": "mf930713_055",
+      "variables": {
+        "arg1": "ale také symbolickým poučením o síle vytrvat v záměrech ,",
+        "arg2": "o nichž je člověk přesvědčen"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 373,
+      "doc": "ln95049_100",
+      "variables": {
+        "arg1": "tak já se uskrovním ,",
+        "arg2": "Ještě že by to bylo jenom prvních čtrnáct dnů ,"
+      },
+      "answer_type": "string",
+      "answer": "concession"
+    },
+    {
+      "id": 374,
+      "doc": "cmpr9413_034",
+      "variables": {
+        "arg1": "Jsou v nich často látky , které se v dříve dostupných potravinách nevyskytovaly ,",
+        "arg2": "nebo jejich povolené hodnoty jsou zbytečně nízké ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 375,
+      "doc": "lnd94103_053",
+      "variables": {
+        "arg1": "Náměstek izraelského ministra obrany Mordechai Gur včera prohlásil ,",
+        "arg2": "že americký ministr zahraničí Warren Christopher nedosáhl v Damašku žádného opravdového pokroku , který by znamenal novou etapu v izraelskosyrském dialogu ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 376,
+      "doc": "ln94202_49",
+      "variables": {
+        "arg1": "Vláda rozhodnutí o přestěhování rozhlasových stanic Svoboda a Svobodná Evropa ( RFE ) z německého Mnichova do Prahy hodnotí jako pozitivní krok ,",
+        "arg2": "uvedl v sobotu ministr pověřený řízením Úřadu vlády Igor Němec ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 377,
+      "doc": "ln94200_112",
+      "variables": {
+        "arg1": "Pentagon se nyní chystá vyslat asi 5000 až 7000 dalších vojáků a příslušníků vojenské policie na základnu v Guantánamu ,",
+        "arg2": "aby posílili tamních 2900 amerických vojáků při udržování pořádku po příjezdu tisíců kubánských uprchlíků ."
+      },
+      "answer_type": "string",
+      "answer": "purpose"
+    },
+    {
+      "id": 378,
+      "doc": "ln94210_147",
+      "variables": {
+        "arg1": "ČR má i některé další karty ve hře , hlavně vědu a techniku a internacionalizaci ( stupeň zapojení do mezinárodního obchodu a investic ) ,",
+        "arg2": "zdůrazňuje zpráva ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 379,
+      "doc": "ln95048_058",
+      "variables": {
+        "arg1": "Dá tedy primáři úplatek ,",
+        "arg2": "a často ne malý ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 380,
+      "doc": "cmpr9413_034",
+      "variables": {
+        "arg1": "Přitom po nových limitech je hlad .",
+        "arg2": "Dokazují to téměř čtyři tisíce závazných objednávek , které již od roku 1992 leží v informačním středisku pro životní prostředí REK ."
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 381,
+      "doc": "ln94207_16",
+      "variables": {
+        "arg1": "Byl - li trochu v obraze ,",
+        "arg2": "pokývl hlavou nad pozoruhodnou velkorysostí ."
+      },
+      "answer_type": "string",
+      "answer": "condition"
+    },
+    {
+      "id": 382,
+      "doc": "mf930713_099",
+      "variables": {
+        "arg1": "Nejvyšší teplota 33.0 st . C byla v roce 1834 ,",
+        "arg2": "nejnižší 9.0 st . C v roce 1907 ."
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 383,
+      "doc": "ln94200_84",
+      "variables": {
+        "arg1": "a podle 22 % obyvatel o žádný problém ani nejde .",
+        "arg2": "Naopak za velmi naléhavou označilo otázku územněsprávního uspořádání 8 % dotázaných a za naléhavou 23 % ."
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 384,
+      "doc": "mf920925_018",
+      "variables": {
+        "arg1": "Nyní se Laura vrací .",
+        "arg2": "Včera uvedl na náš trh Bonton její třetí album Síla v nás ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 385,
+      "doc": "ln95049_019",
+      "variables": {
+        "arg1": "Snad jedině rozumná dohoda , respektující fakt , že Chrám sv . Víta je objekt , postavený k bohoslužebným účelům , spor o katedrálu vyřeší .",
+        "arg2": "Za neštěstí Uhde považuje , když se někdo domnívá , že takový spor vyřeší zvláštní zákon ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 386,
+      "doc": "ln94207_83",
+      "variables": {
+        "arg1": "Odcizování začalo po roce 1848 .",
+        "arg2": "V době vrcholícího boje o české státní právo v poslední třetině minulého století se česká šlechta rozdělila na dvě části : na historickou v čele s hrabětem Jindřichem Clam - Martinicem a na část ústaváckou , která šla s Vídní ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 387,
+      "doc": "lnd94103_145",
+      "variables": {
+        "arg1": "Příkladem slibu vdovské čistoty , složeného bezmála na oltáři vlasti , byla kdysi obecně známá Profesionální vdova .",
+        "arg2": "nenuťte tyto ženy , <*> aby by na sklonku aby musely uvažovat , čemu že se to zpronevěřily . Svým popraveným mužům ?"
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 388,
+      "doc": "ln94210_147",
+      "variables": {
+        "arg1": "Ukazatel světové konkurenceschopnosti je založen na kombinaci osmi klíčových faktorů ,",
+        "arg2": "Jmenovitě jde o domácí ekonomickou sílu , internacionalizaci , vládu , finance , infrastrukturu , řízení , vědu a techniku a lidi ."
+      },
+      "answer_type": "string",
+      "answer": "reformulation"
+    },
+    {
+      "id": 389,
+      "doc": "ln94203_43",
+      "variables": {
+        "arg1": "Lidé důvěřují více svým partnerům než sobě samým .",
+        "arg2": "Svému manželovi ( manželce ) nebo partnerovi ( partnerce ) věří 95 procent dotázaných ."
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 390,
+      "doc": "mf920922_105",
+      "variables": {
+        "arg1": "Potom uvidíš cosi , co by mohlo být : telefonní budkou",
+        "arg2": "Vstoupíš tedy dovnitř - se smíšenými pocity , v nichž se dá rozeznat nervozita z kontaktu s neznámým i zvědavost ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 391,
+      "doc": "ln94203_145",
+      "variables": {
+        "arg1": "Pojišťovny , které povolení MF nemají , u nás své produkty podle zmíněného zákona nabízet nesmějí .",
+        "arg2": "Porušení zákona přitom může zprostředkovatele zahraniční pojišťovny přijít až na 10 milionů korun pokuty ."
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 392,
+      "doc": "lnd94103_053",
+      "variables": {
+        "arg1": "Gur připustil ,",
+        "arg2": "že Christopher mohl mít z jednání kladný dojem ,"
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 393,
+      "doc": "ln95048_055",
+      "variables": {
+        "arg1": "proč ve stejné době vědy a osvěta vyklidily pole ,",
+        "arg2": "přesněji vyklidily stránky novin a časopisů"
+      },
+      "answer_type": "string",
+      "answer": "reformulation"
+    },
+    {
+      "id": 394,
+      "doc": "ln95048_122",
+      "variables": {
+        "arg1": "Druhá námitka se podle Zemana týká půjček na školné .",
+        "arg2": "Půjčky podle něho mají zcela komerční bankovní charakter"
+      },
+      "answer_type": "string",
+      "answer": "organization"
+    },
+    {
+      "id": 395,
+      "doc": "ln95049_100",
+      "variables": {
+        "arg1": "Je uvažovaný pětapadesátikorunový poplatek za denní pobyt na nemocničním lůžku přiměřený ?",
+        "arg2": "Má se vůbec za tyto služby platit ?"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 396,
+      "doc": "ln94209_45",
+      "variables": {
+        "arg1": "Zdá se tak , že období masového vzniku nových bank v České republice brzy vystřídají procesy jdoucí spíše opačným směrem .",
+        "arg2": "Pouze čtyři z nich však existovaly již před listopadem 1989 ."
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 397,
+      "doc": "mf930713_055",
+      "variables": {
+        "arg1": "Ve druhém Kotík dokazuje , že je skutečně dominantní osobností počátků abstraktní malby u nás ,",
+        "arg2": "Ze druhé poloviny šedesátých let a z doby pozdější pocházejí Kotíkovy specifické malby na nepravidelných formátech ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 398,
+      "doc": "lnd94103_129",
+      "variables": {
+        "arg1": "nejvyšší denní 12 až 16 st . C .",
+        "arg2": "Slabý proměnlivý vítr ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 399,
+      "doc": "ln94210_147",
+      "variables": {
+        "arg1": "Česká republika stojí z hlediska konkurenceschopnosti na 36 . příčce světového žebříčku , hned za Jihoafrickou republikou a před Řeckem .",
+        "arg2": "Zprávu publikují od roku 1980 Mezinárodní institut pro rozvoj řízení a Světové ekonomické fórum ,"
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 400,
+      "doc": "cmpr9413_017",
+      "variables": {
+        "arg1": "Potřebuje - li další informace ,",
+        "arg2": "je přepojen na oddělení , které jeho dotazy v nejkratším čase zodpoví ."
+      },
+      "answer_type": "string",
+      "answer": "condition"
+    },
+    {
+      "id": 401,
+      "doc": "lnd94103_013",
+      "variables": {
+        "arg1": "Cech taxi a další profesní organizace protestují proti zavedení poplatků za používání stanovišť .",
+        "arg2": "že je nesmyslné , aby taxikáři platili až 6000 Kč ročně"
+      },
+      "answer_type": "string",
+      "answer": "mode"
+    },
+    {
+      "id": 402,
+      "doc": "mf930709_087",
+      "variables": {
+        "arg1": "FAVORIZOVANÁ ČESKÁ HLÍDKA KANOISTŮ OSMÁ NA MISTROVSTVÍ SVĚTA",
+        "arg2": "Česká hlídka kajakářek skončila ve finále na pátém místě ."
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 403,
+      "doc": "ln94203_43",
+      "variables": {
+        "arg1": "O něco menší důvěru požívají novináři rozhlasoví ( 72 procent ) a učitelé ( 71 procent ) .",
+        "arg2": "Tendence důvěřovat učitelům je podle IVVM vyšší u žen ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 404,
+      "doc": "lnd94103_013",
+      "variables": {
+        "arg1": "a za jejich využití aby se platilo přímo na místě .",
+        "arg2": "Sázejí spíše na zpřísnění podmínek při udělování a obnovování koncesí ."
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 405,
+      "doc": "lnd94103_145",
+      "variables": {
+        "arg1": "co jim vyhasla poslední naděje",
+        "arg2": "( \" muže prý nezabíjejí , ale odvážejí do norských dolů \" ) ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 406,
+      "doc": "cmpr9413_017",
+      "variables": {
+        "arg1": "První informaci o novém výrobku , ceně a podobně získá volající z řečové paměti .",
+        "arg2": "je přepojen na oddělení , které jeho dotazy v nejkratším čase zodpoví ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 407,
+      "doc": "mf930713_055",
+      "variables": {
+        "arg1": "jehož mimořádně poutavě koncipovanou výstavu uspořádali v Malovaném domě v Třebíči .",
+        "arg2": "Sama výstava představuje ve výtečném výběru důležité vývojové etapy Kotíkovy tvorby od 40 . let , <*> až po hojné využívání nepravidelných formátů pro malbu v letech osmdesátých ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 408,
+      "doc": "ln94203_100",
+      "variables": {
+        "arg1": "Snad to dělají kvůli větší razanci .",
+        "arg2": "Nebo se snad jazykem pokleslého žargonu vnucují určitému okruhu mladé populace ?"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 409,
+      "doc": "lnd94103_129",
+      "variables": {
+        "arg1": "Noční teploty 5 až 1 st . ,",
+        "arg2": "při zmenšené oblačnosti i nižší ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 410,
+      "doc": "ln94200_170",
+      "variables": {
+        "arg1": "primátor se před půlnocí opásal pendrekem a pouty ,",
+        "arg2": "Kocourkovský deník každý den uveřejňoval dokumentární fotografie , jak radnice ve dne v noci bojuje se zločinem ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 411,
+      "doc": "mf930713_110",
+      "variables": {
+        "arg1": "do řetězu se zapojila i Praha ,",
+        "arg2": "Prostitutky jsou však v Perlové ulici , a dokonce i na Václavském náměstí , <*> stále ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 412,
+      "doc": "ln94207_16",
+      "variables": {
+        "arg1": "Bylo tu však ještě jedno publikum ,",
+        "arg2": "že česká vláda podporuje jeho ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 413,
+      "doc": "mf930713_013",
+      "variables": {
+        "arg1": "( 7 ) V názvu nejde pouze o efektní metaforu :",
+        "arg2": "( 8 ) Zatímco kupříkladu čeští konstruktivisté a funkcionalisté pojímali dům v intencích Le Corbusierova \" stroje na bydlení \" ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 414,
+      "doc": "mf930713_110",
+      "variables": {
+        "arg1": "a tak se obce a města pod tlakem svých občanů snaží pomoci , jak umějí .",
+        "arg2": "Prostituci je lepší regulovat ,"
+      },
+      "answer_type": "string",
+      "answer": "query"
+    },
+    {
+      "id": 415,
+      "doc": "cmpr9413_004",
+      "variables": {
+        "arg1": "Provoz závodu , <*> začne letos na podzim .",
+        "arg2": "Perspektivně se počítá i s americkým trhem ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 416,
+      "doc": "ln94207_83",
+      "variables": {
+        "arg1": "Zlatou dobou pro šlechtice jakéhokoliv ranku bývávaly boje o trůn .",
+        "arg2": "Královská moc se stále více začínala opírat o města ,"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 417,
+      "doc": "cmpr9413_017",
+      "variables": {
+        "arg1": "Současný trend lze charakterizovat označením \" inteligence rozdělená v síťovém svazku \" .",
+        "arg2": "Vyplynulo to ze semináře ,"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 418,
+      "doc": "lnd94103_145",
+      "variables": {
+        "arg1": "nenuťte tyto ženy , <*> aby by na sklonku aby musely uvažovat , čemu že se to zpronevěřily . Svým popraveným mužům ?",
+        "arg2": "které stejně nelze \" odškodnit \" ,"
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 419,
+      "doc": "lnd94103_063",
+      "variables": {
+        "arg1": "Corriere della Sera z 8 . 3 . přináší pod titulkem Šok v Německu rozsáhlou zprávu o výsledcích sociologického výzkumu ,",
+        "arg2": "který ukázal , že 22 % Němců by nechtělo mít Žida za souseda ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 420,
+      "doc": "ln94207_16",
+      "variables": {
+        "arg1": "Takový kalifornský podnikatel či politik se u snídaně mohl dočíst , že kdesi blízko Jugoslávie sepsul premiér jedné zemičky expremiéra druhé",
+        "arg2": "a vynadal mu do troubů ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 421,
+      "doc": "mf930713_110",
+      "variables": {
+        "arg1": "Prostituce byla ,",
+        "arg2": "Prostituci je lepší regulovat ,"
+      },
+      "answer_type": "string",
+      "answer": "organization"
+    },
+    {
+      "id": 422,
+      "doc": "mf930713_055",
+      "variables": {
+        "arg1": "Nejstarším obrazem je zelenožlutá malba Dívka u šicího stroje z roku 1942 ,",
+        "arg2": "na niž navazují malby z let padesátých , rozvíjející tvůrčí modernistické záměry Skupiny ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 423,
+      "doc": "ln94200_84",
+      "variables": {
+        "arg1": "Naléhavost problému územněsprávního uspořádání pociťuje ve srovnání s rokem 1992 o polovinu občanů méně .",
+        "arg2": "Menší procento obyvatel než v minulosti se také domnívá , že s řešením problému územněsprávního uspořádání je nutné spěchat ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 424,
+      "doc": "lnd94103_063",
+      "variables": {
+        "arg1": "Je to historická diskuse v Německu samém - Historikerstreit - co nás na ně upozornilo . \"",
+        "arg2": "Dokazuje , že duch rádia Jerevan stále žije :"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 425,
+      "doc": "ln94200_170",
+      "variables": {
+        "arg1": "Její specializací byl totiž polní pych",
+        "arg2": "a její časté zadržování v metru by nakonec mohlo být podezřelé i opozici ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 426,
+      "doc": "ln94203_43",
+      "variables": {
+        "arg1": "Důvěru píšícím novinářům vyslovilo 58 procent obyvatel ,",
+        "arg2": "starostům a primátorům 43 procent dotázaných ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 427,
+      "doc": "ln94207_39",
+      "variables": {
+        "arg1": "nesvědčí to o prozíravosti jejího managementu .",
+        "arg2": "Ze dne na den se tak svými podivnými finančními praktikami dostala na úroveň provinční kampeličky ."
+      },
+      "answer_type": "string",
+      "answer": "comment"
+    },
+    {
+      "id": 428,
+      "doc": "ln94203_100",
+      "variables": {
+        "arg1": "že nechtějí kazit děti ,",
+        "arg2": "a proto sporná díla přesouvají na pozdější dobu ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 429,
+      "doc": "ln94200_170",
+      "variables": {
+        "arg1": "protože Dunků bylo moc",
+        "arg2": "a každý z nich měl svá lidská a občanská práva ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 430,
+      "doc": "ln94207_16",
+      "variables": {
+        "arg1": "zařadil naši zem do té části mapy , kde se již děkování ujalo .",
+        "arg2": "pokývl hlavou nad pozoruhodnou velkorysostí ."
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 431,
+      "doc": "cmpr9413_026",
+      "variables": {
+        "arg1": "Takové firmy jako naše tomu mohou napomoci .",
+        "arg2": "Nejsme spokojeni ani s úrovní komunikačního spojení ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 432,
+      "doc": "ln94202_49",
+      "variables": {
+        "arg1": "Vláda rozhodnutí o přestěhování rozhlasových stanic Svoboda a Svobodná Evropa ( RFE ) z německého Mnichova do Prahy hodnotí jako pozitivní krok ,",
+        "arg2": "Reagoval tak na rozhodnutí americké vlády a Kongresu ,"
+      },
+      "answer_type": "string",
+      "answer": "comment"
+    },
+    {
+      "id": 433,
+      "doc": "ln94202_135",
+      "variables": {
+        "arg1": "Ministr dále sdělil ,",
+        "arg2": "že příslušné rozhodnutí v tomto směru podepsal společně se zástupcem ministerstva financí již tento týden ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 434,
+      "doc": "mf920925_114",
+      "variables": {
+        "arg1": "Šéf bývalé východoněmecké tajné služby Markus Wolf byl obžalován z vlastizrady .",
+        "arg2": "hrozí mu trest odnětí svobody až na 15 let ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 435,
+      "doc": "mf920925_087",
+      "variables": {
+        "arg1": "Vážou ho totiž hned dva zákony , které volbu prezidenta upravují .",
+        "arg2": "Jeden z nich je dokonce zákonem ústavním ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 436,
+      "doc": "lnd94103_063",
+      "variables": {
+        "arg1": "K první citaci lze dodat jen málo .",
+        "arg2": "Dokazuje , že duch rádia Jerevan stále žije :"
+      },
+      "answer_type": "string",
+      "answer": "comment"
+    },
+    {
+      "id": 437,
+      "doc": "lnd94103_063",
+      "variables": {
+        "arg1": "( 1 ) \" V Německu je dvojí státní občanství v podstatě možné .",
+        "arg2": "Je však omezeno tím , že udělení se váže na ztrátu či odevzdání občanství předchozího ."
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 438,
+      "doc": "ln94209_45",
+      "variables": {
+        "arg1": "Ze začarovaného kruhu , <*> asi není jiné východisko .",
+        "arg2": "který vznikl už v roce 1990 ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 439,
+      "doc": "lnd94103_063",
+      "variables": {
+        "arg1": "Cizinci podstatně přispěli k německému hospodářskému a kulturnímu vývoji ,",
+        "arg2": "a tím veřejně uznat jejich zásluhy o německou hospodářskou a politickou demokracii ?"
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 440,
+      "doc": "lnd94103_013",
+      "variables": {
+        "arg1": "Zástupci pražského magistrátu však nevěří , že by se hlídači nedali zkorumpovat .",
+        "arg2": "Sázejí spíše na zpřísnění podmínek při udělování a obnovování koncesí ."
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 441,
+      "doc": "ln94207_83",
+      "variables": {
+        "arg1": "Oni i členové jejich rodu byli proto privilegovaní -",
+        "arg2": "tak vznikala šlechta rodová ."
+      },
+      "answer_type": "string",
+      "answer": "mode"
+    },
+    {
+      "id": 442,
+      "doc": "ln95047_134",
+      "variables": {
+        "arg1": "Účtování účetních případů .",
+        "arg2": "Termín a místo konání : 2 . 3 . v Praze ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 443,
+      "doc": "ln95049_086",
+      "variables": {
+        "arg1": "Původně mělo být o školném na vysokých školách definitivně rozhodnuto ještě dříve ,",
+        "arg2": "Každý by se rozhodoval se znalostí podmínek"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 444,
+      "doc": "lnd94103_129",
+      "variables": {
+        "arg1": "Noční teploty 5 až 1 st . ,",
+        "arg2": "V 1000 m na horách kolem 4 st . C ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 445,
+      "doc": "ln94200_170",
+      "variables": {
+        "arg1": "a tak si na ně jednou počíhala svépomocná domovská domobrana",
+        "arg2": "a dala jim parádní deku ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 446,
+      "doc": "ln94200_170",
+      "variables": {
+        "arg1": "primátor se před půlnocí opásal pendrekem a pouty ,",
+        "arg2": "která lapeným osobně nasazoval ."
+      },
+      "answer_type": "string",
+      "answer": "purpose"
+    },
+    {
+      "id": 447,
+      "doc": "ln94207_83",
+      "variables": {
+        "arg1": "A kdo dostal čerstvý erb od krále , musel tři generace prožít ve stavu panošském .",
+        "arg2": "Teprve potom si mohl zažádat o přijetí mezi vladyky ."
+      },
+      "answer_type": "string",
+      "answer": "condition"
+    },
+    {
+      "id": 448,
+      "doc": "ln94207_39",
+      "variables": {
+        "arg1": "nesvědčí to o prozíravosti jejího managementu .",
+        "arg2": "Zdá se totiž , že neovládá elementární základy matematiky ."
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 449,
+      "doc": "mf920922_105",
+      "variables": {
+        "arg1": "Nemyslíš na nic než : světlo .",
+        "arg2": "Jako by se buňka kolem tebe roztahovala ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 450,
+      "doc": "mf930709_087",
+      "variables": {
+        "arg1": "a byl to rozhodující okamžik pro český tým .",
+        "arg2": "Nekoncentrovaný výkon všech přinesl totální výbuch ."
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 451,
+      "doc": "mf930713_099",
+      "variables": {
+        "arg1": "STŘEDA A ČTVRTEK :",
+        "arg2": "Oblačno s přeháňkami , ojediněle i bouřkami ,"
+      },
+      "answer_type": "string",
+      "answer": "organization"
+    },
+    {
+      "id": 452,
+      "doc": "ln94207_16",
+      "variables": {
+        "arg1": "Všechno ale má své hranice .",
+        "arg2": "nelze však ani mlčky trpět hru , kde se lacino hraje českými žolíky ."
+      },
+      "answer_type": "string",
+      "answer": "organization"
+    },
+    {
+      "id": 453,
+      "doc": "mf930713_110",
+      "variables": {
+        "arg1": "Málo platné ,",
+        "arg2": "čeští policisté ještě nemají zkušenosti svých amerických kolegů ,"
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 454,
+      "doc": "ln95048_056",
+      "variables": {
+        "arg1": "Dnes již nedokážu říci podrobnosti ,",
+        "arg2": "ale zabýval se hlavně literárním životem za první republiky ."
+      },
+      "answer_type": "string",
+      "answer": "concession"
+    },
+    {
+      "id": 455,
+      "doc": "ln95048_055",
+      "variables": {
+        "arg1": "Uveřejňování takových článků je nesmírně důležité .",
+        "arg2": "proč ve stejné době vědy a osvěta vyklidily pole ,"
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 456,
+      "doc": "ln94210_147",
+      "variables": {
+        "arg1": "které stojí v mezinárodním srovnání mnohem výše ,",
+        "arg2": "než je celková pozice republiky ,"
+      },
+      "answer_type": "string",
+      "answer": "comment"
+    },
+    {
+      "id": 457,
+      "doc": "ln94210_147",
+      "variables": {
+        "arg1": "Maďarsko je o tři stupně níže",
+        "arg2": "a Polsko až na 41 . místě ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 458,
+      "doc": "mf930713_110",
+      "variables": {
+        "arg1": "protože jiná cesta , než je regulérní úprava prodejné lásky , v demokratické společnosti možná není .",
+        "arg2": "Prostituci je lepší regulovat ,"
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 459,
+      "doc": "lnd94103_053",
+      "variables": {
+        "arg1": "že americký ministr zahraničí Warren Christopher nedosáhl v Damašku žádného opravdového pokroku , který by znamenal novou etapu v izraelskosyrském dialogu .",
+        "arg2": "Podle našich závěrů ještě nebyly vytvořeny podmínky , které by nám umožnily říci , že je možné přejít k mnohem významnější fázi v rozhovorech ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 460,
+      "doc": "ln94203_145",
+      "variables": {
+        "arg1": "V případě toho , že by se pojišťovna dostala do potíží ,",
+        "arg2": "může ministerstvo financí rozhodnout o dalším použití těchto prostředků ."
+      },
+      "answer_type": "string",
+      "answer": "condition"
+    },
+    {
+      "id": 461,
+      "doc": "ln94203_145",
+      "variables": {
+        "arg1": "Navíc podmínky , <*> nemusí být mnohdy tak výhodné ,",
+        "arg2": "takže potenciální klient má malou šanci jim do detailu porozumět ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 462,
+      "doc": "ln94208_143",
+      "variables": {
+        "arg1": "což bude působit na vzestup cen .",
+        "arg2": "Objem kubánské produkce má klesat i příští rok ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 463,
+      "doc": "cmpr9413_004",
+      "variables": {
+        "arg1": "Provoz závodu , <*> začne letos na podzim .",
+        "arg2": "Již nyní se však bruslařské komplety vyrábějí ve Žďáru v pronajatých prostorách ."
+      },
+      "answer_type": "string",
+      "answer": "concession"
+    },
+    {
+      "id": 464,
+      "doc": "ln95049_100",
+      "variables": {
+        "arg1": "ale doma stejně musím jíst ,",
+        "arg2": "denně s manželem tu stovku za jídlo utratíme ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 465,
+      "doc": "lnd94103_145",
+      "variables": {
+        "arg1": "nenuťte tyto ženy , <*> aby by na sklonku aby musely uvažovat , čemu že se to zpronevěřily . Svým popraveným mužům ?",
+        "arg2": "Památce odboje ?"
+      },
+      "answer_type": "string",
+      "answer": "alternation"
+    },
+    {
+      "id": 466,
+      "doc": "ln95047_134",
+      "variables": {
+        "arg1": "Připravuje : Dům techniky Ústí , Veleslavínova 14 , 400 11 Ústí nad Labem , tel . : 047 / 42247 , fax : 047 / 46234 .",
+        "arg2": "Kurs obchodního jednání v oblasti marketingu a prodeje ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 467,
+      "doc": "ln94203_145",
+      "variables": {
+        "arg1": "Porušení zákona přitom může zprostředkovatele zahraniční pojišťovny přijít až na 10 milionů korun pokuty .",
+        "arg2": "Ti , kteří se v této činnosti angažují , se navíc mohou dostat do rozporu s devizovým zákonem ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 468,
+      "doc": "ln94203_43",
+      "variables": {
+        "arg1": "Svému nejbližšímu nadřízenému věří 67 procent lidí .",
+        "arg2": "Důvěru píšícím novinářům vyslovilo 58 procent obyvatel ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 469,
+      "doc": "lnd94103_063",
+      "variables": {
+        "arg1": "Vyčítám lidem , kteří by nám měli Německo přiblížit , <*> že nám zamlčují to , co hýbe německým veřejným míněním .",
+        "arg2": "a mezi ně patří právě J . Šonka ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 470,
+      "doc": "ln94202_135",
+      "variables": {
+        "arg1": "přestali tam hospodařit",
+        "arg2": "a aby tam rostly bodláky ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 471,
+      "doc": "mf930713_013",
+      "variables": {
+        "arg1": "( 5 ) Bezmála padesátileté období , v němž se němečtí a rakouští architekti výrazně podíleli na tváři moravských a slezských měst , dokumentuje až do 17 . října výstava \" Jiný dům \" v Anežském klášteře v Praze .",
+        "arg2": "( 7 ) V názvu nejde pouze o efektní metaforu :"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 472,
+      "doc": "lnd94103_063",
+      "variables": {
+        "arg1": "Druhá věta je prosáklá jakýmsi implicitním rasismem .",
+        "arg2": "Proč by se mělo zamezit diskusím o dvojím občanství ?"
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 473,
+      "doc": "ln94200_170",
+      "variables": {
+        "arg1": "Za normálních okolností se život v Kocourkově odvíjel standardně .",
+        "arg2": "Všechno se k lepšímu obrátilo s blížícími se volbami do kocourkovského magistrátu ."
+      },
+      "answer_type": "string",
+      "answer": "concession"
+    },
+    {
+      "id": 474,
+      "doc": "mf920925_087",
+      "variables": {
+        "arg1": "Stalo se tak poté ,",
+        "arg2": "co při původní dvoutýdenní hrozila skutečná devalvace tohoto aktu ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 475,
+      "doc": "ln94209_45",
+      "variables": {
+        "arg1": "Investiční a poštovní banka , <*> zase před dvěma měsíci koupila více než tříčtvrtinový podíl v Regiobance Hradec Králové .",
+        "arg2": "která vznikla v lednu sloučením dvou peněžních ústavů ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 476,
+      "doc": "mf930713_110",
+      "variables": {
+        "arg1": "jiné kultury je naopak zavrhly",
+        "arg2": "a oficiálně jim určovaly místo na dně společnosti ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 477,
+      "doc": "ln94207_83",
+      "variables": {
+        "arg1": "Ostatní drželi hrubé a nádenické práce .",
+        "arg2": "tak vznikala šlechta rodová ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 478,
+      "doc": "ln95048_056",
+      "variables": {
+        "arg1": "Karel Poláček byl velmi smutný muž .",
+        "arg2": "Zato byl ale velmi vzdělaný"
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 479,
+      "doc": "lnd94103_129",
+      "variables": {
+        "arg1": "a zapadá ve 20.21 hodin .",
+        "arg2": "Měsíc vychází ve 2.22"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 480,
+      "doc": "cmpr9413_004",
+      "variables": {
+        "arg1": "Již nyní se však bruslařské komplety vyrábějí ve Žďáru v pronajatých prostorách .",
+        "arg2": "Jsou určeny zejména pro Skandinávii a západní Evropu ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 481,
+      "doc": "cmpr9413_034",
+      "variables": {
+        "arg1": "Ve státech ES je navíc právem spotřebitele , aby měl na výrobku napsáno , z čeho je složen .",
+        "arg2": "To mu umožňuje vyhnout se konzumaci výrobků , které obsahují velké množství cizorodých látek ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 482,
+      "doc": "cmpr9413_034",
+      "variables": {
+        "arg1": "Pro povolení prodeje takových potravin se musí vždy vést samostatné řízení ,",
+        "arg2": "což zatěžuje prodejce i zdravotníky ."
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 483,
+      "doc": "mf930713_110",
+      "variables": {
+        "arg1": "protože komunistický režim ukládal každému , tedy i prostitutkám , aby uzavřel řádný pracovní poměr ,",
+        "arg2": "a občas kněžky lásky , které si nepořídily razítko do občanského průkazu , trestal jako příživnice ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 484,
+      "doc": "mf920922_105",
+      "variables": {
+        "arg1": "buňky jsou čtyři ,",
+        "arg2": "k nim ještě Düsseldorfský světelný salón s proprietami staršího typu ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 485,
+      "doc": "ln95047_134",
+      "variables": {
+        "arg1": "Kurs obchodního jednání v oblasti marketingu a prodeje .",
+        "arg2": "Termín a místo konání : 1 . 3 . v Praze ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 486,
+      "doc": "cmpr9413_004",
+      "variables": {
+        "arg1": "Roční obrat společnosti se pohybuje kolem 180 milionů dolarů .",
+        "arg2": "Dynamický rozvoj firmy potvrzuje skutečnost , že v příštích dvou třech letech plánuje růst obratu až na 300 milionů dolarů ."
+      },
+      "answer_type": "string",
+      "answer": "comment"
+    },
+    {
+      "id": 487,
+      "doc": "ln95048_058",
+      "variables": {
+        "arg1": "Chce - li někdo , <*> aby jej operoval primář ,",
+        "arg2": "pak dnes nemá oficiální možnost si to zajistit ."
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 488,
+      "doc": "ln94203_145",
+      "variables": {
+        "arg1": "Ministerstvo financí uděluje podle zákona o pojišťovnictví licence pojišťovnám",
+        "arg2": "Podle Miluše Zemanové pravidelně sleduje jejich solventnost a výsledky hospodaření ."
+      },
+      "answer_type": "string",
+      "answer": "mode"
+    },
+    {
+      "id": 489,
+      "doc": "cmpr9413_004",
+      "variables": {
+        "arg1": "V České republice jsme investovali deset milionů dolarů do výstavby závodu na výrobu bruslařských kompletů a hokejového vybavení ,",
+        "arg2": "říká Pierre Boivin , nově jmenovaný ředitel Canstar ( na snímku ) ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 490,
+      "doc": "ln94207_16",
+      "variables": {
+        "arg1": "Takto se dočetl , že někde u Jugoslávie kdosi komusi poděkoval .",
+        "arg2": "zařadil naši zem do té části mapy , kde se již děkování ujalo ."
+      },
+      "answer_type": "string",
+      "answer": "comment"
+    },
+    {
+      "id": 491,
+      "doc": "ln94208_143",
+      "variables": {
+        "arg1": "V zemích EU , kde bylo loni dosaženo téměř rekordní produkce , bude letos sklizeň nižší .",
+        "arg2": "Hmotnost cukrové řepy je totiž menší asi o 20 až 30 % ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 492,
+      "doc": "ln94207_83",
+      "variables": {
+        "arg1": "kde byl šlechtic ( biskup ) ,",
+        "arg2": "nikde !"
+      },
+      "answer_type": "string",
+      "answer": "query"
+    },
+    {
+      "id": 493,
+      "doc": "ln94209_45",
+      "variables": {
+        "arg1": "Pouze čtyři z nich však existovaly již před listopadem 1989 .",
+        "arg2": "Poměr sil mezi velkými a malými bankami se však přesto nezměnil ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 494,
+      "doc": "cmpr9415_032",
+      "variables": {
+        "arg1": "Obchodník propaguje svou firmu",
+        "arg2": "a předvádí zboží ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 495,
+      "doc": "ln94203_100",
+      "variables": {
+        "arg1": "Neobstojí ani tvrzení , že anglický seriál byl ještě sprostější .",
+        "arg2": "Na toto téma by měla v televizi proběhnout beseda ."
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 496,
+      "doc": "ln94203_100",
+      "variables": {
+        "arg1": "kdyby si to uvědomil nejen ředitel Novy , ale i ředitel ČT 1 ,",
+        "arg2": "která se zřejmě pod tlakem konkurenčního boje začíná přizpůsobovat ."
+      },
+      "answer_type": "string",
+      "answer": "comment"
+    },
+    {
+      "id": 497,
+      "doc": "ln95048_056",
+      "variables": {
+        "arg1": "V tomto koncentračním táboře vládla zvláštní atmosféra ,",
+        "arg2": "ve které se dařilo kultuře ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 498,
+      "doc": "ln94200_170",
+      "variables": {
+        "arg1": "Všechno klapalo .",
+        "arg2": "Biřici si vždycky v posledním vagonu metra vyzvedli svého člověka ,"
+      },
+      "answer_type": "string",
+      "answer": "comment"
+    },
+    {
+      "id": 499,
+      "doc": "cmpr9413_017",
+      "variables": {
+        "arg1": "jeho hovor je spolu s informacemi z databanky předán dalšímu příslušnému pracovníkovi .",
+        "arg2": "Digitální telefonní ústředna Option 11 s rozsahem do 224 telefonních poboček , <*> má téměř 400 funkcí ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 500,
+      "doc": "ln94209_45",
+      "variables": {
+        "arg1": "Ostatní začínaly na absolutní nule .",
+        "arg2": "Bez depozit , bez pobočkové sítě , bez kvalifikovaného personálu a také bez klientů ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    }
+  ]
+}

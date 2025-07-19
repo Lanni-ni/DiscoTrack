@@ -1,0 +1,3017 @@
+{
+  "task": "conn-implicit",
+  "lang": "german",
+  "example_prompt": "Implicit discourse connective refers to a logical connection between two discourse units (such as sentences or clauses) that is not explicitly marked by a discourse connective (e.g., “because”, “but”, “after”). Instead, the relation must be inferred by the reader or listener using contextual cues and general world knowledge.\n\nWhat is the most appropriate implicit discourse connective to link the following segments?\nHere are the options: nachdem, danach, auch, und, infolgedessen, weil, aber, durch, außer, zum Beispiel, zum Beispiel, zum Beispiel, außerdem, im Vergleich, tatsächlich, mit anderen Worten, insbesondere, insbesondere, kurz gesagt, zusammenfassend, nämlich, nichtsdestotrotz, andererseits, also, konkret, konkret, deshalb, deshalb, dann, und\nIf there is no appropriate implicit connective, answer: no implicit connective\n\nArg1: {{arg1}}\nArg2: {{arg2}}",
+  "instances": [
+    {
+      "id": 1,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Wir müssen es loswerden",
+        "arg2": "Viele meiner Kollegen arbeiten an tollen Technologien zu dem Zweck , aber ich möchte Ihnen heute die vorstellen , die ich am coolsten finde und die uns am ehesten innerhalb des nächsten Jahrzehnts eine Erde liefert"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 2,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Mit dieser Frage habe ich mich lange auseinandergesetzt",
+        "arg2": "sie entsteht , wenn wir das Geschenk eines Beinahe-Erfolgs schätzen lernen"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 3,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Das ist die Dynamik von Meisterschaft",
+        "arg2": "Dem nahe zu kommen , was man zu wollen dachte , kann dir helfen , mehr zu erhalten , als du dir jemals erträumt hättest"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 4,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Wir schaffen eine Versicherung , verringern die Gefahr für unseren Planeten und für unsere Wirtschaft , und gleichzeitig müssen wir kurzfristig nicht auf Leistung verzichten",
+        "arg2": "Gut , er gefällt Ihnen"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 5,
+      "doc": "talk_2150_de_inter",
+      "variables": {
+        "arg1": "Auf der anderen Seite des Netzwerkes haben sie Menschen , die an Dingen wie Hip-Hop interessiert sind und sich eher mit dem Wohngebiet DC / Maryland / Virigina identifizieren , als mit der korrekten Stadtbezeichnung für Baltimore",
+        "arg2": "In der Mitte sehen Sie etwas , das die beiden Gruppierungen verbindet , und das ist Sport"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 6,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Um den Planeten sichtbar zu machen , müssen wir etwas gegen all das Licht tun",
+        "arg2": "Wir müssen es loswerden"
+      },
+      "answer_type": "string",
+      "answer": "mit anderen Worten"
+    },
+    {
+      "id": 7,
+      "doc": "talk_2150_de_inter",
+      "variables": {
+        "arg1": "Ich glaube aber , eine Stadt ist die Summe der Beziehungen der Leute , die dort leben",
+        "arg2": "Wenn wir anfangen können , die Beziehungen wirklich zu dokumentieren , hätten wir eine echte Chance , die Städte zu erhalten , die wir gerne hätten"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 8,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Präsident John F. Kennedy sagte dazu das einzig Richtige : \" Aktionsprogramme bergen Risiken und Kosten , aber sie sind weit geringer als die langfristigen Risiken und Kosten der bequemen Untätigkeit",
+        "arg2": "Sicher gibt es ein Schätzrisiko , aber da dies alles auf breitem wissenschaftlichen Konsens beruht , ist die Chance , dass es nicht völlig falsch ist , höher als die Wahrscheinlichkeit , dass unser Haus abbrennt oder wir einem Autounfall haben"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 9,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Man sieht den kleinen Mond noch",
+        "arg2": "Gehen wir wieder 10-mal so weit weg"
+      },
+      "answer_type": "string",
+      "answer": "danach"
+    },
+    {
+      "id": 10,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": ", sie entsteht , wenn wir das Geschenk eines Beinahe-Erfolgs schätzen lernen",
+        "arg2": "Ich begann es zu verstehen , als ich eines kalten Tages im Mai einige Uni-Bogenschützen beobachten ging , alles Frauen , wie das Schicksal es wollte , an der nördlichen Spitze von Manhatten , am Baker-Sportkomplex der Columbia-Universität"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 11,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Da verdrehe ich die Augen",
+        "arg2": "Lassen Sie mich eins ein für alle Mal klarstellen : Unternehmen und Investoren sind nicht alleine für das Schicksal des Planeten verantwortlich"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 12,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Wenn wir die Kanten der Blütenblätter genau richtig hinbekommen , regulieren wir ihre Form so , dass wir die Beugung reduzieren",
+        "arg2": "Nun ist es ein toller Schatten"
+      },
+      "answer_type": "string",
+      "answer": "also"
+    },
+    {
+      "id": 13,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Wenn ich Sie aber bitte , einen tollen Tag morgen bei TED zu beschreiben , werden Sie ihn sehr klar und detailliert beschreiben",
+        "arg2": "Das macht der Beinahe-Erfolg"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 14,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Soziales \" beinhaltet Humankapital , Dinge wie Mitarbeiter-Engagement und Innovationsfähigkeit sowie Supply-Chain-Management und Arbeits- und Menschenrechte",
+        "arg2": "Unternehmensführung \" bedeutet die Aufsicht über das Unternehmen durch den Vorstand und Investoren"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 15,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Die ausgleichende Macht , die wirklich Einfluss auf Nachhaltigkeit hat , liegt bei institutionellen Investoren , den großen Investoren wie Pensionsfonds und Stiftungen",
+        "arg2": "Ich glaube , dass nachhaltiges Investieren weniger kompliziert ist , als Sie denken , besser abschneidet , als Sie glauben , und wichtiger ist , als wir uns vorstellen können"
+      },
+      "answer_type": "string",
+      "answer": "tatsächlich"
+    },
+    {
+      "id": 16,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Ich erinnere mich , dass ich sie danach fragte , was sie von diesen frühen Arbeiten hielt",
+        "arg2": "Wenn man nicht wusste , dass sie von ihr waren , hätte man es vielleicht nicht erraten"
+      },
+      "answer_type": "string",
+      "answer": "weil"
+    },
+    {
+      "id": 17,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Die Blütenblätter entfalten sich -- öffnen sich",
+        "arg2": "Das Teleskop dreht sich herum"
+      },
+      "answer_type": "string",
+      "answer": "dann"
+    },
+    {
+      "id": 18,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Wir arbeiten seit 5 oder 6 Jahren daran",
+        "arg2": "Letzten Sommer haben wir einen coolen Test durchgeführt , in Kalifornien bei Northrop Grumman"
+      },
+      "answer_type": "string",
+      "answer": "zum Beispiel"
+    },
+    {
+      "id": 19,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Wir platzieren ein Teleskop oder eine Kamera in diesen Schatten , blicken zurück auf die Sonne , der Großteil des Lichts ist weg , und wir können die matte , feine Struktur in der Korona erkennen",
+        "arg2": "Spitzer schlug vor , das im Weltraum nachzustellen"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 20,
+      "doc": "talk_2009_de",
+      "variables": {
+        "arg1": "Sie sehen das Amerika , das sonst niemand zu sehen bekommt",
+        "arg2": "Wie ihre Vorgänger bereisen die heutigen Nomaden die Hauptverkehrsadern der Vereinigten Staaten aus Stahl und Asphalt"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 21,
+      "doc": "talk_2150_de_inter",
+      "variables": {
+        "arg1": "Auch TEDx ist unten , weit rechts",
+        "arg2": "Auf der anderen Seite des Netzwerkes gibt es eher Afroamerikaner und Latinos , die um ganz andere Dinge besorgt sind als die Geeks"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 22,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Dem nahe zu kommen , was man zu wollen dachte , kann dir helfen , mehr zu erhalten , als du dir jemals erträumt hättest",
+        "arg2": "Das , glaube ich , dachte Elizabeth Murray , als ich sie eines Tages in der Galerie ihre frühen Gemälde lächelnd betrachten sah"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 23,
+      "doc": "talk_2150_de_inter",
+      "variables": {
+        "arg1": "Nur die Rasse zu betrachten , erklärt aber die Vielfältigkeit der Stadtentwicklung nicht",
+        "arg2": "Wenn wir versuchen diese Vielfalt zu nutzen , um heikle Probleme anzugehen , brauchen wir eine neue Art des Denkens bezüglich Vielfältigkeit"
+      },
+      "answer_type": "string",
+      "answer": "deshalb"
+    },
+    {
+      "id": 24,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Sie ist ca. halb so groß wie die , die Sie eben sahen",
+        "arg2": "Hier entfalten sich die Blätter"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 25,
+      "doc": "talk_2150_de_inter",
+      "variables": {
+        "arg1": "Und dies führt zu Dingen wie diesen : [ \" Twitter raus",
+        "arg2": "Das Bild bekam ich vor einigen Wochen"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 26,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Eines der anschaulichsten Beispiele ist , wenn wir uns den Unterschied zwischen Gewinnern von olympischem Silber und Gewinnern von Bronze nach dem Wettbewerb ansehen",
+        "arg2": "Thomas Gilovich und sein Team aus Cornell untersuchten diesen Unterschied und fanden heraus , dass die Frustration , die die Gewinner von Silber spüren , im Vergleich zu Bronze , die eher froh darüber sind , dass sie nicht auf dem 4. Platz ohne Medaille gelandet sind , den Silbermedaillengewinnern einen Fokus auf den nachfolgenden Wettbewerb gibt"
+      },
+      "answer_type": "string",
+      "answer": "insbesondere"
+    },
+    {
+      "id": 27,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Denn leider funktioniert das so nicht sehr gut , weil die Lichtwellen des Lichts und die Wellen um die Lichtblende gebeugt werden , auf dieselbe Weise wie im Teleskop",
+        "arg2": "Es ist wie Wasser , das einen Stein im Bach umfließt , und all das Licht zerstört den Schatten einfach"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 28,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "den Kopf in den Sand zu stecken und nicht darüber nachzudenken",
+        "arg2": "Tun Sie das möglichst nicht"
+      },
+      "answer_type": "string",
+      "answer": "aber"
+    },
+    {
+      "id": 29,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Wir bauen auf unvollständigen Ideen auf , selbst wenn diese Idee unser früheres Selbst ist",
+        "arg2": "Das ist die Dynamik von Meisterschaft"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 30,
+      "doc": "talk_2150_de_inter",
+      "variables": {
+        "arg1": "Auf der anderen Seite des Netzwerkes gibt es eher Afroamerikaner und Latinos , die um ganz andere Dinge besorgt sind als die Geeks",
+        "arg2": "Um Ihnen ein Gefühl zu geben , den grünen Teil des Netzwerkes nennen wir Klein-timore , da diese Leute , wie es scheint , in einer sehr kleinen Stadt wohnen"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 31,
+      "doc": "talk_2150_de_inter",
+      "variables": {
+        "arg1": "Schlussendlich haben wir die Fähigkeit , Interventionen zu starten , die unsere Städte in einer neuen Art umformen",
+        "arg2": "Ich glaube , dass wir dieses Potential haben"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 32,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "die CEOs sehen das ganz klar",
+        "arg2": "Nachhaltigkeit bietet enorme Möglichkeiten"
+      },
+      "answer_type": "string",
+      "answer": "insbesondere"
+    },
+    {
+      "id": 33,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Und deshalb sind sie für die Risiko- und Renditebewertung sehr wichtig",
+        "arg2": "Sie sind sehr komplex und scheinen schwer verständlich , sodass die Versuchung groß sein kann , genau das hier zu tun : den Kopf in den Sand zu stecken und nicht darüber nachzudenken"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 34,
+      "doc": "talk_1971_de",
+      "variables": {
+        "arg1": "Mittels Magnetresonanztomografie ( MRT ) erfasste ich die genaue Form der Anatomie des Patienten , benutzte die Berechnungstechnologie FEM , um besser vorherzusehen , welche inneren Belastungen bei normaler Nutzung entstehen , und lies danach einen Prothesenschaft herstellen",
+        "arg2": "Wir benutzen 3D-Drucker , um Prothesenschäfte aus mehreren Materialen herzustellen , die den Druck dort verringern , wo es die Anatomie des Patienten nötig macht"
+      },
+      "answer_type": "string",
+      "answer": "konkret"
+    },
+    {
+      "id": 35,
+      "doc": "talk_2150_de_inter",
+      "variables": {
+        "arg1": "Wir haben die Baltimore Orioles , die Baltimore Ravens [ Football ] den Olympioniken Michael Phelps , die Baltimore Firma Under Armour , die sie vielleicht kennen",
+        "arg2": "Diese Sportverbundenheit fungiert als einzige Brücke zwischen den beiden Enden des Netzwerkes"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 36,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Das ist kein Science-Fiction",
+        "arg2": "Wir arbeiten seit 5 oder 6 Jahren daran"
+      },
+      "answer_type": "string",
+      "answer": "tatsächlich"
+    },
+    {
+      "id": 37,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Die überraschende Antwort ist ja",
+        "arg2": "Die Daten zeigen , dass Aktien mit besserer ESG-Leistung genauso gut abschneiden wie andere"
+      },
+      "answer_type": "string",
+      "answer": "weil"
+    },
+    {
+      "id": 38,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Sie sind Meister , weil sie erkennen , dass da kein Ende ist",
+        "arg2": "Als ich darüber nachdachte , wurde mir klar , warum mir der Trainer der Bogenschützen am Ende dieses Trainings außerhalb der Hörweite der Schützinnen sagte , dass seine Kollegen und er nie das Gefühl haben , genug für ihr Team tun zu können , nie das Gefühl haben , es gäbe genügend Visualisierungs-Techniken und Haltungsübungen , die ihnen helfen sollen , diese ständigen Beinahe-Erfolge zu überwinden"
+      },
+      "answer_type": "string",
+      "answer": "konkret"
+    },
+    {
+      "id": 39,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Unternehmensführung \" bedeutet die Aufsicht über das Unternehmen durch den Vorstand und Investoren",
+        "arg2": "Ich habe zuvor gesagt , es geht um die wirklich heißen Dinge"
+      },
+      "answer_type": "string",
+      "answer": "infolgedessen"
+    },
+    {
+      "id": 40,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Ich stand hinter einer Schützin , als sich ihr Coach dazwischen stellte , wohl um zu erkennen , wer Unterstützung benötigte , und ihr zusah",
+        "arg2": "Ich verstand nicht , wie auch nur eine den 10er-Ring treffen wollte"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 41,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Eine der Arbeiten traf faktisch so wenig ins Schwarze , dass sie sie zum Abfall in ihrem Studio stellte , und ihre Nachbarin die Arbeit nahm , weil sie ihren Wert erkannte",
+        "arg2": "In diesem Augenblick änderte sich meine Sicht auf Erfolg und Kreativität"
+      },
+      "answer_type": "string",
+      "answer": "infolgedessen"
+    },
+    {
+      "id": 42,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "In der Navajo-Kultur bauen manche Handwerker bewusst einen Fehler in die Textilien und Keramiken ein",
+        "arg2": "Das nennt man eine Stimmungslinie , ein bewusster Fehler im Muster , um dem Weber oder Macher einen Ausweg zu geben , aber auch einen Grund , weitere Arbeiten zu erstellen"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 43,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Sie trennt sich vom Teleskop",
+        "arg2": "Die Blütenblätter entfalten sich -- öffnen sich"
+      },
+      "answer_type": "string",
+      "answer": "dann"
+    },
+    {
+      "id": 44,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "So ein Bild möchte ich von einem erdähnlichen Planeten eines anderen Sterns machen",
+        "arg2": "Warum gibt es das noch nicht"
+      },
+      "answer_type": "string",
+      "answer": "aber"
+    },
+    {
+      "id": 45,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Im besten Interesse der Fondsmitglieder handeln , das ist ihre Kernaufgabe",
+        "arg2": "Man muss sie einfach lieben , die Australier , oder"
+      },
+      "answer_type": "string",
+      "answer": "also"
+    },
+    {
+      "id": 46,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Wir haben den Test 16-mal ausgeführt , und 16-mal blieb es exakt an derselben Stelle stehen , auf ein Zehntel Millimeter genau",
+        "arg2": "Dies muss mit absoluter Präzision erfolgen"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 47,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Und sie gingen lächelnd an mir vorbei , aber sie taxierten mich , während sie zum Rasen gingen , und redeten miteinander nicht durch Worte , sondern durch Nummern , Gradangaben , wie ich dachte , Positionen für die Möglichkeit , ihr Ziel zu treffen",
+        "arg2": "Ich stand hinter einer Schützin , als sich ihr Coach dazwischen stellte , wohl um zu erkennen , wer Unterstützung benötigte , und ihr zusah"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 48,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Deshalb ist es so schwer",
+        "arg2": "Das Licht vom Stern wird gebeugt , im Inneren des Teleskops gestreut , und erzeugt das sehr helle Bild , das den Planeten verblassen lässt"
+      },
+      "answer_type": "string",
+      "answer": "tatsächlich"
+    },
+    {
+      "id": 49,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Sie ist anfangs um eine Nabe gewickelt",
+        "arg2": "Sie trennt sich vom Teleskop"
+      },
+      "answer_type": "string",
+      "answer": "dann"
+    },
+    {
+      "id": 50,
+      "doc": "talk_2150_de_inter",
+      "variables": {
+        "arg1": "Ich denke , als Erstes sollten wir versuchen zu verstehen : Ist diese Trennung ein soziales Konzept",
+        "arg2": "Ist es etwas , dass wir wählen , obwohl wir es auch nicht tun könnten"
+      },
+      "answer_type": "string",
+      "answer": "insbesondere"
+    },
+    {
+      "id": 51,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "ich frage mich wirklich , ob die Anlagestrategien von heute für die Zwecke von morgen geeignet sind",
+        "arg2": "Wir wissen , wenn Investoren sich ein Unternehmen anschauen und entscheiden , ob sie investieren , schauen sie sich Finanzdaten an"
+      },
+      "answer_type": "string",
+      "answer": "zum Beispiel"
+    },
+    {
+      "id": 52,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Aber institutionelle Investoren sind der Schlüsselfaktor für Nachhaltigkeit",
+        "arg2": "Warum sind sie der Schlüssel"
+      },
+      "answer_type": "string",
+      "answer": "also"
+    },
+    {
+      "id": 53,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Das Gerüst der Blätter muss jedes Mal exakt zur selben Stelle ausfahren , auf ein Zehntel Millimeter genau",
+        "arg2": "Wir haben den Test 16-mal ausgeführt , und 16-mal blieb es exakt an derselben Stelle stehen , auf ein Zehntel Millimeter genau"
+      },
+      "answer_type": "string",
+      "answer": "tatsächlich"
+    },
+    {
+      "id": 54,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Was wäre , wenn sie diese Feuerkraft nutzten und mehr von ihrem Kapital in Unternehmen investierten , die am härtesten an der Lösung dieser Probleme arbeiten , oder sie zumindest nicht verschärfen ?\nWas haben wir davon , wenn wir arbeiten , sparen und investieren , nur um im Ruhestand eine Welt vorzufinden , die angespannter und unsicherer ist als jetzt ?\nWenn saubere Luft und frisches Wasser fehlen",
+        "arg2": "Eine berechtigte Frage könnte sein : Und wenn das ganze Nachhaltigkeits-Risiko-Gerede übertrieben und nicht dringlich ist"
+      },
+      "answer_type": "string",
+      "answer": "andererseits"
+    },
+    {
+      "id": 55,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Gehen wir wieder 10-mal so weit weg",
+        "arg2": "Hier sind wir am Rand des Sonnensystems , im Kuipergürtel"
+      },
+      "answer_type": "string",
+      "answer": "infolgedessen"
+    },
+    {
+      "id": 56,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Nachdem der Kurator Robert Storr all die Gemälde aus ihrem lebenslangen Schaffen ausgewählt hatte , betrachtete ich liebend gerne die Gemälde aus den 1970ern",
+        "arg2": "Da gab es einige Motive und Elemente , die sich später in ihrem Leben wiederholten"
+      },
+      "answer_type": "string",
+      "answer": "tatsächlich"
+    },
+    {
+      "id": 57,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Das sind zusammen 133 Billionen",
+        "arg2": "Das ist achteinhalb Mal das BIP der USA"
+      },
+      "answer_type": "string",
+      "answer": "im Vergleich"
+    },
+    {
+      "id": 58,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Wir bauen eine große Lichtblende , fliegen sie ins All , platzieren sie vor dem Stern , verdecken den Großteil des Lichts , fliegen ein Weltraumteleskop in den so erzeugten Schatten und \" Zack ! \" -- wir sehen Planeten",
+        "arg2": "Aussehen würde das ungefähr so : Da ist die große Lichtblende -- und es gibt keine Planeten"
+      },
+      "answer_type": "string",
+      "answer": "insbesondere"
+    },
+    {
+      "id": 59,
+      "doc": "talk_2150_de_inter",
+      "variables": {
+        "arg1": "Es ist eine sehr heterogene Stadt , nicht wie Baltimore oder San Francisco .\nEs gibt immer noch die Gruppen an Menschen aus Verwaltung , Zeitungen , Politk und Kolummnisten .\nTEDxRio is unten rechts , rechts neben Bloggern und Autoren .\nEs gibt aber auch diese enorme Vielfalt an Menschen , interessiert an verschiedenen Musikarten .\nSogar Justin Bieber-Fans sind vertreten .\nAndere Boy-Groups , Countrysänger , Gospelmusiker , Funk , Rap und Stand-Up-Komödianten .\nUnd sogar eine ganze Gruppe rund um Drogen und Witze .\nWie cool ist das denn ?\nAuch die Fußballmannschaft \" Flamengo \" ist vertreten",
+        "arg2": "Sie haben diese Bandbreite von Sport , Verwaltung , Kunst und Musik , aber in einer ganz anderen Art dargestellt"
+      },
+      "answer_type": "string",
+      "answer": "zusammenfassend"
+    },
+    {
+      "id": 60,
+      "doc": "talk_1971_de",
+      "variables": {
+        "arg1": "Für mich ist es ein Anfang , um die Seelen derer zu heilen , die vom Krieg und Krankheiten betroffen sind , ist für mich komfortable und erschwingliche Schnittstellen für ihre Körper herzustellen",
+        "arg2": "Ob in Sierra Leone oder in Boston , ich hoffe , dass dies nicht nur ihren Sinn für menschliches Können wiederherstellt , sondern verändert"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 61,
+      "doc": "talk_2150_de_inter",
+      "variables": {
+        "arg1": "Sogar Justin Bieber-Fans sind vertreten",
+        "arg2": "Andere Boy-Groups , Countrysänger , Gospelmusiker , Funk , Rap und Stand-Up-Komödianten"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 62,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Eine berechtigte Frage könnte sein : Und wenn das ganze Nachhaltigkeits-Risiko-Gerede übertrieben und nicht dringlich ist ?\nWenn es nur etwas für tugendhafte Verbraucher oder eine reine Frage des Lebensstils ist",
+        "arg2": "Präsident John F. Kennedy sagte dazu das einzig Richtige : \" Aktionsprogramme bergen Risiken und Kosten , aber sie sind weit geringer als die langfristigen Risiken und Kosten der bequemen Untätigkeit"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 63,
+      "doc": "talk_2009_de",
+      "variables": {
+        "arg1": "In mir war eine tiefe Unruhe , eine Angst , Opfer zu werden , von einem Leben voller Routine und Langeweile",
+        "arg2": "Viele meiner frühkindlichen Erinnerungen beinhalteten komplizierte Wachträume , in denen ich Grenzen überschritt , Beeren sammelte und allerlei seltsame Leute traf , die unkonventionelle Leben auf der Straße führten"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 64,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Hier sind wir am Rand des Sonnensystems , im Kuipergürtel",
+        "arg2": "Es gibt gar keine Auflösung mehr"
+      },
+      "answer_type": "string",
+      "answer": "tatsächlich"
+    },
+    {
+      "id": 65,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "In diesem Augenblick änderte sich meine Sicht auf Erfolg und Kreativität",
+        "arg2": "Ich erkannte , dass Erfolg nur ein Augenblick ist"
+      },
+      "answer_type": "string",
+      "answer": "insbesondere"
+    },
+    {
+      "id": 66,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Dies ist ein Bild eines unserer Nachbarsterne vom Hubble-Weltraumteleskop",
+        "arg2": "Wenn wir ein ähnliches Weltraumteleskop , ein etwas größeres , dort hinausbringen und eine Blende davorfliegen könnten , dann sähen wir vielleicht so etwas"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 67,
+      "doc": "talk_2009_de",
+      "variables": {
+        "arg1": "Drogensucht und extremes Wetter gehören zur Wirklichkeit , Güterzüge verstümmeln oder töten , und wer auf der Straße gelebt hat , kann ein Zeugnis von der Unmenge an Gesetzen ablegen , wodurch sich Obdachlose strafbar machen",
+        "arg2": "Wussten Sie , dass es in vielen Städten der USA nun illegal ist , auf dem Bordstein zu sitzen , sich in eine Decke zu wickeln , im eigenen Auto zu übernachten , einem Fremden Essen anzubieten"
+      },
+      "answer_type": "string",
+      "answer": "zum Beispiel"
+    },
+    {
+      "id": 68,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Warum haben sie das getan",
+        "arg2": "Die Heimwerker-Fans mögen entschuldigen , aber es gibt mehr Wachstum bei Wasser als bei Elektrowerkzeugen , und dieses Unternehmen hat die , wie sie es nennen , \" neue Neue Welt \" im Visier : Vier Milliarden Menschen aus der Mittelschicht , die Nahrung , Strom und Wasser brauchen"
+      },
+      "answer_type": "string",
+      "answer": "weil"
+    },
+    {
+      "id": 69,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Es ist der ständige Wunsch , die Lücke zwischen dem , wo du bist und dem , wo du sein möchtest , zu schließen",
+        "arg2": "In der Meisterschaft geht darum , Opfer für die Tätigkeit zu bringen und nicht darum , Dinge deiner Karriere zuliebe zu tun"
+      },
+      "answer_type": "string",
+      "answer": "insbesondere"
+    },
+    {
+      "id": 70,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Das wollen wir sehen -- sehen , ob es Wasser gibt , Sauerstoff , Ozon , Dinge , die uns verraten , ob es dort Leben geben könnte",
+        "arg2": "Für mich ist dies die coolste Wissenschaft"
+      },
+      "answer_type": "string",
+      "answer": "deshalb"
+    },
+    {
+      "id": 71,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Die Paris Review hat das aus James Baldwin herausgekitzelt , als sie ihn fragten : \" Was , glauben Sie , wächst mit dem Wissen ? \" und er antwortete : \" Sie lernen , wie wenig Sie wissen",
+        "arg2": "Erfolg motiviert uns , aber ein Beinahe-Erfolg kann uns zu fortwährendem Streben antreiben"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 72,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Ich sehe es als besonderes Glück , dass ich in meinem ersten Job am Museum für Moderne Kunst an einer Retrospektive der Malerin Elizabeth Murray arbeiten durfte",
+        "arg2": "Ich lernte so viel von ihr"
+      },
+      "answer_type": "string",
+      "answer": "weil"
+    },
+    {
+      "id": 73,
+      "doc": "talk_1971_de",
+      "variables": {
+        "arg1": "In einem Versuch , den wir vor kurzem am Media Lab durchführten , hat einer unserer Patienten , ein US-Veteran , der seit über 20 Jahren amputiert ist und schon dutzende Prothesen getragen hat , Folgendes über unsere ausgedruckten Prothesen gesagt : \" Sie ist so weich , als würde man auf Kissen laufen , und verdammt sexy",
+        "arg2": "Heutzutage sollten Behinderungen niemanden mehr daran hindern , ein sinnsvolles Leben zu führen"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 74,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Und die Emissionen , die für den Klimawandel hauptverantwortlich sind , nehmen weiter zu",
+        "arg2": "Das sind ganz klar Umweltthemen und soziale Themen , aber das ist noch nicht alles"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 75,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Nun gehen wir auf die 10-fache Distanz",
+        "arg2": "Hier sind wir in der Umlaufbahn des Uranus"
+      },
+      "answer_type": "string",
+      "answer": "infolgedessen"
+    },
+    {
+      "id": 76,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Das klingt schwierig , aber brillante Ingenieure , meine Kollegen bei JPL , haben ein fabelhaftes Design entwickelt , und das sieht so aus",
+        "arg2": "Sie ist anfangs um eine Nabe gewickelt"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 77,
+      "doc": "talk_1971_de",
+      "variables": {
+        "arg1": "Schätzungsweise 8 000 Männern , Frauen und Kindern wurden in dieser Zeit Arme und Beine amputiert",
+        "arg2": "Meine Familie und ich brachten uns vor einem dieser Angriffe in Sicherheit , als ich 12 war"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 78,
+      "doc": "talk_2009_de",
+      "variables": {
+        "arg1": "Was andere als Geschichten von Entbehrung und wirtschaftlichem Versagen ansehen , betrachten die Reisenden durch das Prisma der Befreiung und Freiheit",
+        "arg2": "Lieber zehren sie vom Überfluss einer -- aus ihrer Sicht -- verschwenderischen Konsumgesellschaft , als sich mit einer unrealistischen Chance auf den herkömmlichen \" American Dream \" abzurackern"
+      },
+      "answer_type": "string",
+      "answer": "weil"
+    },
+    {
+      "id": 79,
+      "doc": "talk_2009_de",
+      "variables": {
+        "arg1": "In den meisten Köpfen ist der Vagabund Teil der Vergangenheit",
+        "arg2": "Das Wort \" Landstreicher \" erinnert an ein Schwarz-Weiß-Foto eines dem Wetter ausgesetzten , verrußten Mannes , der seine Beine aus einem Waggon baumeln lässt"
+      },
+      "answer_type": "string",
+      "answer": "insbesondere"
+    },
+    {
+      "id": 80,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Hier entfalten sich die Blätter",
+        "arg2": "Vier Studenten haben diese vier Blätter im Sommerpraktikum bei JPL gebaut"
+      },
+      "answer_type": "string",
+      "answer": "tatsächlich"
+    },
+    {
+      "id": 81,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Ich wollte sehen , was das sogenannte Archer ' s Paradox ist , die Idee , dass man , um das Ziel genau zu treffen , auf etwas zielen muss , das etwas daneben liegt",
+        "arg2": "Ich stand da und schaute zu , wie der Trainer die Frauen in seinem grauen Kleinbus vorfuhr und sie mit einer Art gelassener Konzentration ausstiegen"
+      },
+      "answer_type": "string",
+      "answer": "also"
+    },
+    {
+      "id": 82,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Das ist schon gigantisch viel Feuerkraft",
+        "arg2": "Damit können wir ganz anders an einige dringende Herausforderungen herangehen , wie frisches Wasser , saubere Luft , Nahrung für 10 Milliarden Münder"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 83,
+      "doc": "talk_1971_de",
+      "variables": {
+        "arg1": "Ganz gleich , wie leistungsfähig die Knöchelprothese ist , wenn der Prothesenschaft unbequem ist , werden Sie die Prothese nicht nutzen , und das ist heutzutage einfach inakzeptabel",
+        "arg2": "Damals , als ich Professor Hugh Herr vor zweieinhalb Jahren traf , und er mich fragte , ob ich eine Lösung für dieses Problem hätte , sagte ich : \" Nein , noch nicht , aber ich würde sie liebend gerne finden"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 84,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Aber Spitzer kannte die Lösung",
+        "arg2": "Wenn wir die Kanten aufbrechen , sie weicher machen könnten , um die Beugung zu reduzieren , dann können wir einen Planeten sehen"
+      },
+      "answer_type": "string",
+      "answer": "insbesondere"
+    },
+    {
+      "id": 85,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Der Mond hat sich vor die Sonne geschoben",
+        "arg2": "Er deckt den Großteils des Lichts ab und wir sehen um ihn herum eine matte Korona"
+      },
+      "answer_type": "string",
+      "answer": "infolgedessen"
+    },
+    {
+      "id": 86,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Darum arbeite ich in diesem Feld , weil ich denke , das wird die Welt verändern",
+        "arg2": "Wenn wir das sehen , wird das alles verändern"
+      },
+      "answer_type": "string",
+      "answer": "konkret"
+    },
+    {
+      "id": 87,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Es ist wie Wasser , das einen Stein im Bach umfließt , und all das Licht zerstört den Schatten einfach",
+        "arg2": "Es ist ein schlechter Schatten : Wir sehen keine Planeten"
+      },
+      "answer_type": "string",
+      "answer": "infolgedessen"
+    },
+    {
+      "id": 88,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Im All wimmelt es von Planeten",
+        "arg2": "Ich will , dass wir in nur einem Jahrzehnt ein Weltraumteleskop bauen , das das Bild einer Erde im Orbit eines anderen Sterns erfassen und herausfinden kann , ob es dort Leben geben könnte"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 89,
+      "doc": "talk_2150_de_inter",
+      "variables": {
+        "arg1": "Es ist eine sehr heterogene Stadt , nicht wie Baltimore oder San Francisco",
+        "arg2": "Es gibt immer noch die Gruppen an Menschen aus Verwaltung , Zeitungen , Politk und Kolummnisten"
+      },
+      "answer_type": "string",
+      "answer": "konkret"
+    },
+    {
+      "id": 90,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Dies ist das berühmte NASA-Foto vom blass-blauen Punkt",
+        "arg2": "Aufgenommen wurde es 1990 von der Raumsonde Voyager , als man sie beim Verlassen des Sonnensystems drehte , um aus einer Entfernung von 6 Mrd. km eine Foto von der Erde zu machen"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 91,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Stellen Sie sich vor , wir nähmen das Hubble Weltraumteleskop , drehten es um und setzten es in eine Umlaufbahn um den Mars",
+        "arg2": "Wir würden vermutlich ein leicht unscharfes Bild der Erde sehen , weil wir ein recht kleines Teleskop in der Umlaufbahn des Mars sind"
+      },
+      "answer_type": "string",
+      "answer": "infolgedessen"
+    },
+    {
+      "id": 92,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Deshalb sehen sie es als ihre Pflicht an , das beim Investment mit einzubeziehen",
+        "arg2": "Im besten Interesse der Fondsmitglieder handeln , das ist ihre Kernaufgabe"
+      },
+      "answer_type": "string",
+      "answer": "insbesondere"
+    },
+    {
+      "id": 93,
+      "doc": "talk_2150_de_inter",
+      "variables": {
+        "arg1": "Sie können sehen , dass jeder Punkt eine Person darstellt , jede Linie eine Beziehung zwischen diesen Menschen und jede Farbe eine Gruppierung innerhalb dieses Netzwerkes",
+        "arg2": "Ich bin hier auf der grünen Seite , unten , weit am rechten Rand , wo die Geeks sind"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 94,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Spitzer schlug vor , das im Weltraum nachzustellen",
+        "arg2": "Wir bauen eine große Lichtblende , fliegen sie ins All , platzieren sie vor dem Stern , verdecken den Großteil des Lichts , fliegen ein Weltraumteleskop in den so erzeugten Schatten und \" Zack ! \" -- wir sehen Planeten"
+      },
+      "answer_type": "string",
+      "answer": "konkret"
+    },
+    {
+      "id": 95,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "sie sind nicht genug",
+        "arg2": "Anleger sollten auch auf Leistungsmetriken wie ESG achten : Umwelt , Soziales und Unternehmensführung"
+      },
+      "answer_type": "string",
+      "answer": "weil"
+    },
+    {
+      "id": 96,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Vier Milliarden Menschen aus der Mittelschicht , die Nahrung , Strom und Wasser brauchen",
+        "arg2": "Jetzt fragen Sie sich vielleicht , sind das denn nicht nur Einzelfälle"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 97,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Was uns dazu bringt , Dinge zu tun , uns weiter voran zu treiben , ist den Beinahe-Erfolg zu schätzen",
+        "arg2": "Wie oft haben wir etwas als einen Klassiker , ein Meisterwerk angesehen , während sein Schöpfer es als hoffnungslos unfertig ansieht , von Schwierigkeiten und Fehlern durchzogen , mit anderen Worten , ein Beinahe-Erfolg"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 98,
+      "doc": "talk_2150_de_inter",
+      "variables": {
+        "arg1": "Sie sehen das hier dokumentiert",
+        "arg2": "Sie sehen die LGBT-Community , die nicht zu den Geeks passt , die Künstler , die Musiker"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 99,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Ich mag ihn auch",
+        "arg2": "Ich mag ihn , weil er sich über beide Lager des Klimawandels lustig macht"
+      },
+      "answer_type": "string",
+      "answer": "insbesondere"
+    },
+    {
+      "id": 100,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Nun , der Mond wirft einen Schatten auf die Erde",
+        "arg2": "Wir platzieren ein Teleskop oder eine Kamera in diesen Schatten , blicken zurück auf die Sonne , der Großteil des Lichts ist weg , und wir können die matte , feine Struktur in der Korona erkennen"
+      },
+      "answer_type": "string",
+      "answer": "dann"
+    },
+    {
+      "id": 101,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "vielleicht nicht , wenn Sie in Boston leben",
+        "arg2": "Es ist doch so : Wir schließen Versicherungen ab , um für diese Fälle finanziell gerüstet zu sein , oder"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 102,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Eine davon sieht ungefähr so aus : Wir nennen sie blütenförmige Sternenblende ( \" Starshade",
+        "arg2": "Wenn wir die Kanten der Blütenblätter genau richtig hinbekommen , regulieren wir ihre Form so , dass wir die Beugung reduzieren"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 103,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Sie sehen , wie sie ausfahren",
+        "arg2": "Die Blätter müssen sich richtig drehen"
+      },
+      "answer_type": "string",
+      "answer": "dann"
+    },
+    {
+      "id": 104,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Seit über drei Jahren kein Leistungskompromiss",
+        "arg2": "Das ist doch okay , oder"
+      },
+      "answer_type": "string",
+      "answer": "also"
+    },
+    {
+      "id": 105,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Wir entfernen uns wieder um das 10-Fache",
+        "arg2": "Nun sind wir in der Oort ' schen Wolke außerhalb des Sonnensystems , und wir sehen , wie die Sonne langsam in unser Sichtfeld rückt , wo sich der Planet befindet"
+      },
+      "answer_type": "string",
+      "answer": "infolgedessen"
+    },
+    {
+      "id": 106,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Ein weiteres Beispiel ist Pentair",
+        "arg2": "Pentair ist ein US-Mischkonzern"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 107,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Unternehmen und Investoren sind nicht alleine für das Schicksal des Planeten verantwortlich",
+        "arg2": "Sie haben nicht unbegrenzte soziale Verpflichtungen , und umsichtige Investitions- und Finanzierungstheorien sind nicht der Nachhaltigkeit untergeordnet"
+      },
+      "answer_type": "string",
+      "answer": "weil"
+    },
+    {
+      "id": 108,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Das Bild ist kleiner , weniger detailliert , gröber",
+        "arg2": "Man sieht den kleinen Mond noch"
+      },
+      "answer_type": "string",
+      "answer": "nichtsdestotrotz"
+    },
+    {
+      "id": 109,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Ich stand da und schaute zu , wie der Trainer die Frauen in seinem grauen Kleinbus vorfuhr und sie mit einer Art gelassener Konzentration ausstiegen",
+        "arg2": "Eine hielt eine halb gegessene Eistüte in der einen Hand und Pfeile mit gelber Befiederung in der linken"
+      },
+      "answer_type": "string",
+      "answer": "insbesondere"
+    },
+    {
+      "id": 110,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Jetzt fragen Sie sich vielleicht , sind das denn nicht nur Einzelfälle",
+        "arg2": "Ich meine , mal ehrlich , stehen Unternehmen , die Nachhaltigkeit berücksichtigen , finanziell tatsächlich gut da"
+      },
+      "answer_type": "string",
+      "answer": "mit anderen Worten"
+    },
+    {
+      "id": 111,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Mit Nachhaltigkeit meine ich die wirklich heißen Themen wie ökologische und soziale Fragen und grundlegende Unternehmensführung",
+        "arg2": "Es ist leichtsinnig , diese Dinge zu ignorieren , denn das kann künftige langfristige Renditen gefährden"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 112,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Sein Lieblingsroman war \" Das unbekannte Meisterwerk \" von Honoré de Balzac und er fühlte sich selbst als Hauptdarsteller",
+        "arg2": "Franz Kafka sah Unvollständigkeit , wenn andere seine Werke nur loben konnten , so sehr , dass er all seine Tagebücher , seine Manuskripte , Briefe und sogar Skizzen nach seinem Tod verbrannt haben wollte"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 113,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Und wenn das ganze Nachhaltigkeits-Risiko-Gerede übertrieben und nicht dringlich ist",
+        "arg2": "Wenn es nur etwas für tugendhafte Verbraucher oder eine reine Frage des Lebensstils ist"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 114,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Und das bei einem Zuggewicht von ca. 50 Pfund , das bei jedem Schuss gehalten wird",
+        "arg2": "Sie traf erst eine Sieben , meine ich , dann eine Neun , dann zweimal die Zehn , und der nächste Pfeil traf nicht mal das Ziel"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 115,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Meisterschaft ist nicht die Bekenntnis zu einem Ziel , sondern das ständige Streben danach",
+        "arg2": "Was uns dazu bringt , Dinge zu tun , uns weiter voran zu treiben , ist den Beinahe-Erfolg zu schätzen"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 116,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Sie sehen , wie Starshade wendet und 50 000 Kilometer vom Teleskop wegfliegt",
+        "arg2": "Sie wird sich vor den Stern platzieren und , einfach so , einen wunderbaren Schatten erzeugen"
+      },
+      "answer_type": "string",
+      "answer": "danach"
+    },
+    {
+      "id": 117,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Was haben wir davon , wenn wir arbeiten , sparen und investieren , nur um im Ruhestand eine Welt vorzufinden , die angespannter und unsicherer ist als jetzt",
+        "arg2": "Wenn saubere Luft und frisches Wasser fehlen"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 118,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Wir haben Erfolg , wenn wir immer unsere Bestleistung versuchen",
+        "arg2": "Eine Weisheit , die Duke Ellington so auffasste : Das Lieblingslied aus seinem Repertoire ist immer das Nächste , immer jenes , das er noch komponieren muss"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 119,
+      "doc": "talk_2150_de_inter",
+      "variables": {
+        "arg1": "Sie sehen , dass dort etwas anderes passiert",
+        "arg2": "Auf der einen Seite gibt es den Medien- , Politik- und Nachrichtenflügel , den es in Baltimore und anderen Städten meist gibt , es gibt aber auch diese tonangebende Gruppe der Geeks und Technikbegeisterten , die die obere Hälfte der Karte dominieren , sowie eine Gruppe , die so klar und ausgeprägt ist , dass wir sie als Twitter-Mitarbeiter bezeichnen , nahe bei den Geeks , zwischen Gamern und Geeks , am entgegengesetzten Ende des Hip-Hop-Spektrums"
+      },
+      "answer_type": "string",
+      "answer": "insbesondere"
+    },
+    {
+      "id": 120,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Und wieder 10-mal weiter weg",
+        "arg2": "Nun sind wir bei Alpha Centauri , unserem nächsten Nachbarstern , und der Planet ist weg"
+      },
+      "answer_type": "string",
+      "answer": "infolgedessen"
+    },
+    {
+      "id": 121,
+      "doc": "talk_2150_de_inter",
+      "variables": {
+        "arg1": "Diese Sportverbundenheit fungiert als einzige Brücke zwischen den beiden Enden des Netzwerkes",
+        "arg2": "Schauen wir uns San Francisco an"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 122,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "wir wollen mehr",
+        "arg2": "Ich will mehr"
+      },
+      "answer_type": "string",
+      "answer": "konkret"
+    },
+    {
+      "id": 123,
+      "doc": "talk_2150_de_inter",
+      "variables": {
+        "arg1": "Ich denke , dass könnte zu der Art , wie wir Rio verstehen , passen , als eine sehr multikulturelle , musikalisch vielfältige Stadt",
+        "arg2": "Wir haben all diese Daten , ein unglaublich reichhaltiger Bestand an Daten über Städte"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 124,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Gut , er gefällt Ihnen .",
+        "arg2": "Ich mag ihn auch"
+      },
+      "answer_type": "string",
+      "answer": "auch"
+    },
+    {
+      "id": 125,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "In einigen Fällen ist ESG ein Indikator für überdurchschnittliche Wertentwicklung",
+        "arg2": "In Blau sehen wir die Leistung der 500 größten globalen Unternehmen und in Gold sehen wir eine Teilmenge von Unternehmen mit guter Klimaschutzstrategie und Risikomanagement"
+      },
+      "answer_type": "string",
+      "answer": "zum Beispiel"
+    },
+    {
+      "id": 126,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Die Erde ist nun Carl Sagans blass-blauer Punkt",
+        "arg2": "Wir entfernen uns wieder um das 10-Fache"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 127,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Gott , gib , dass ich mehr wünsche , als ich erreichen kann \" , flehte Michelangelo , vielleicht zum alttestamentarischen Gott in der Sixtinischen Kapelle , und er selbst wäre Adam mit dem ausgestreckten Finger , der die Hand Gottes nicht ganz erreicht",
+        "arg2": "Meisterschaft ist das Streben , nicht das Erreichen"
+      },
+      "answer_type": "string",
+      "answer": "also"
+    },
+    {
+      "id": 128,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Wir sehen es auch am Leben des unbezwingbaren Arktis-Forschers Ben Saunders , der mir erzählte , dass seine Triumphe nicht bloß das Ergebnis einer großartigen Leistung sind , sondern der Antrieb , der durch eine Reihe von Beinahe-Erfolgen entsteht",
+        "arg2": "Wir haben Erfolg , wenn wir immer unsere Bestleistung versuchen"
+      },
+      "answer_type": "string",
+      "answer": "also"
+    },
+    {
+      "id": 129,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Bitte zu Hause nicht nachmachen",
+        "arg2": "Aber ich frage mich wirklich , ob die Anlagestrategien von heute für die Zwecke von morgen geeignet sind"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 130,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Diese Initiativen schaffen einen mobileren Arbeitsplatz",
+        "arg2": "und reduzieren unseren Immobilien-Bedarf"
+      },
+      "answer_type": "string",
+      "answer": "infolgedessen"
+    },
+    {
+      "id": 131,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Franz Kafka sah Unvollständigkeit , wenn andere seine Werke nur loben konnten , so sehr , dass er all seine Tagebücher , seine Manuskripte , Briefe und sogar Skizzen nach seinem Tod verbrannt haben wollte",
+        "arg2": "Sein Freund lehnte diese Bitte ab , weshalb wir heute all die Werke von Kafka kennen : \" Amerika \" ( \" Der Verschollene \" ) , \" Der Prozess \" und \" Das Schloss \" ; eine Arbeit so unvollständig , dass sie sogar mitten im Satz aufhört"
+      },
+      "answer_type": "string",
+      "answer": "aber"
+    },
+    {
+      "id": 132,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Wenn die Erträge gleich oder besser sind , und es gut für den Planeten ist , sollte es nicht Standard sein",
+        "arg2": "Engagieren sich Investoren , insbesondere institutionelle Investoren"
+      },
+      "answer_type": "string",
+      "answer": "außerdem"
+    },
+    {
+      "id": 133,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Die Welt ist im Wandel",
+        "arg2": "Sie verändert sich wirklich tiefgreifend"
+      },
+      "answer_type": "string",
+      "answer": "konkret"
+    },
+    {
+      "id": 134,
+      "doc": "talk_1971_de",
+      "variables": {
+        "arg1": "Selbst in den Industrieländern dauert es drei Wochen bis hin zu Jahren , bis sich ein Patient an den Schaft gewöhnt , wenn überhaupt",
+        "arg2": "Prothesenbauer benutzen immer noch konventionelle Methoden , wie Pressen und Gießen , um Unibody-Prothesenschäfte herzustellen"
+      },
+      "answer_type": "string",
+      "answer": "weil"
+    },
+    {
+      "id": 135,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Sie muss natürlich größer sein als mein Daumen",
+        "arg2": "Starshade ist halb so groß wie ein Fußballfeld"
+      },
+      "answer_type": "string",
+      "answer": "insbesondere"
+    },
+    {
+      "id": 136,
+      "doc": "talk_2009_de",
+      "variables": {
+        "arg1": "Wussten Sie , dass es in vielen Städten der USA nun illegal ist , auf dem Bordstein zu sitzen , sich in eine Decke zu wickeln , im eigenen Auto zu übernachten , einem Fremden Essen anzubieten",
+        "arg2": "Ich kenne diese Gesetze , weil ich sah , wie Freunde und andere Herumreisende ins Gefängnis geschleppt oder vorgeladen wurden , weil sie diese sogenannten \" Verbrechen \" begangen hatten"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 137,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Starshade ist halb so groß wie ein Fußballfeld",
+        "arg2": "Sie muss 50 000 Kilometer vom Teleskop wegfliegen , das exakt in ihrem Schatten bleiben muss , und dann können wir diese Planeten sehen"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 138,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Das ist die größte Volkswirtschaft der Welt",
+        "arg2": "Das ist schon gigantisch viel Feuerkraft"
+      },
+      "answer_type": "string",
+      "answer": "mit anderen Worten"
+    },
+    {
+      "id": 139,
+      "doc": "talk_2150_de_inter",
+      "variables": {
+        "arg1": "Heute möchte ich Ihnen eine neue Art Karte zeigen",
+        "arg2": "Es ist keine geografische Karte , es ist eine Karte der Beziehungen zwischen den Menschen meiner Heimatstadt , Baltimore , Maryland"
+      },
+      "answer_type": "string",
+      "answer": "konkret"
+    },
+    {
+      "id": 140,
+      "doc": "talk_2150_de_inter",
+      "variables": {
+        "arg1": "Wir sehen immer wieder die gleichen Leute , weil wir nicht die ganze Breite und Tiefe der Stadt erforschen",
+        "arg2": "Auf der anderen Seite des Netzwerkes haben sie Menschen , die an Dingen wie Hip-Hop interessiert sind und sich eher mit dem Wohngebiet DC / Maryland / Virigina identifizieren , als mit der korrekten Stadtbezeichnung für Baltimore"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 141,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Das Teleskop dreht sich herum",
+        "arg2": "Sie sehen , wie Starshade wendet und 50 000 Kilometer vom Teleskop wegfliegt"
+      },
+      "answer_type": "string",
+      "answer": "also"
+    },
+    {
+      "id": 142,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Ich begann es zu verstehen , als ich eines kalten Tages im Mai einige Uni-Bogenschützen beobachten ging , alles Frauen , wie das Schicksal es wollte , an der nördlichen Spitze von Manhatten , am Baker-Sportkomplex der Columbia-Universität",
+        "arg2": "Ich wollte sehen , was das sogenannte Archer ' s Paradox ist , die Idee , dass man , um das Ziel genau zu treffen , auf etwas zielen muss , das etwas daneben liegt"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 143,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "aber da dies alles auf breitem wissenschaftlichen Konsens beruht , ist die Chance , dass es nicht völlig falsch ist , höher als die Wahrscheinlichkeit , dass unser Haus abbrennt oder wir einem Autounfall haben",
+        "arg2": "Nun , vielleicht nicht , wenn Sie in Boston leben"
+      },
+      "answer_type": "string",
+      "answer": "außer"
+    },
+    {
+      "id": 144,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Wir sind verpflichtet , Gewinne zu maximieren , deshalb machen wir das hier nicht . \"\nOder : \" Wir wollen mit dem Portfolio keine Grundsatzerklärungen abgeben",
+        "arg2": "Die folgende Aussage geht mir wirklich unter die Haut : \" Wenn Sie das verändern wollen , verdienen Sie Geld und spenden Sie die Gewinne an Wohltätigkeitsorganisationen"
+      },
+      "answer_type": "string",
+      "answer": "aber"
+    },
+    {
+      "id": 145,
+      "doc": "talk_2150_de_inter",
+      "variables": {
+        "arg1": "Das Bild bekam ich vor einigen Wochen",
+        "arg2": "Es zeigt auf , was auf dem Boden von San Francisco passiert"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 146,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Vorgestellt wurde die Idee 1962 vom Vater des Weltraumteleskops , Lyman Spitzer",
+        "arg2": "Dazu angeregt hatte ihn eine Eklipse"
+      },
+      "answer_type": "string",
+      "answer": "weil"
+    },
+    {
+      "id": 147,
+      "doc": "talk_2009_de",
+      "variables": {
+        "arg1": "Nachts schlafen sie unter den Sternen , gekauert an ihr Rudel aus Hunden , Katzen und Haustierratten zwischen ihren Körpern",
+        "arg2": "Manche Reisende haben sich dieses Leben ausgesucht , verzichten auf Materielles , herkömmliche Arbeit und Uni-Abschlüsse im Tausch gegen einen Hauch von Abenteuer"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 148,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Sie sind sehr komplex",
+        "arg2": "und scheinen schwer verständlich"
+      },
+      "answer_type": "string",
+      "answer": "infolgedessen"
+    },
+    {
+      "id": 149,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Aber es macht deutlich , dass umweltorientierte Führung mit guten Renditen kompatibel ist",
+        "arg2": "Wenn die Erträge gleich oder besser sind , und es gut für den Planeten ist , sollte es nicht Standard sein"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 150,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Insbesondere wenn es um Nachhaltigkeit geht",
+        "arg2": "Mit Nachhaltigkeit meine ich die wirklich heißen Themen wie ökologische und soziale Fragen und grundlegende Unternehmensführung"
+      },
+      "answer_type": "string",
+      "answer": "konkret"
+    },
+    {
+      "id": 151,
+      "doc": "talk_1971_de",
+      "variables": {
+        "arg1": "sollten sie Teil von einem Sierra Leone sein , in dem Krieg und Amputationen nicht als Strategie zur Machtgewinnung genutzt werden",
+        "arg2": "Ich beobachtete Menschen , die ich kannte , liebte , wie sie sich von dieser Verwüstung erholten , aber eine Sache quälte mich zutiefst , und zwar , dass viele der Amputierten in diesem Land nicht ihre Prothesen benutzten"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 152,
+      "doc": "talk_2150_de_inter",
+      "variables": {
+        "arg1": "Ist es etwas , dass wir wählen , obwohl wir es auch nicht tun könnten",
+        "arg2": "Wenn Sie darüber nachdenken , mit diesem Daten haben wir einen Blick darauf und betrachten die Stadt wie einen riesigen Schulspeiseraum , beobachten , wie sich jeder in dieser Stadt seinen Stuhl sucht"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 153,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Das ist die Erde",
+        "arg2": "Das wollen wir sehen -- sehen , ob es Wasser gibt , Sauerstoff , Ozon , Dinge , die uns verraten , ob es dort Leben geben könnte"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 154,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "\" Umwelt \" umfasst Energieverbrauch , Wassernutzung , Abfall und Umweltverschmutzung , kurz",
+        "arg2": "die effiziente Nutzung von Ressourcen"
+      },
+      "answer_type": "string",
+      "answer": "mit anderen Worten"
+    },
+    {
+      "id": 155,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Zack , wir kriegen die Planeten in seiner Umlaufbahn",
+        "arg2": "Das ist kein Science-Fiction"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 156,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Meisterschaft ist das Streben , nicht das Erreichen",
+        "arg2": "Es ist der ständige Wunsch , die Lücke zwischen dem , wo du bist und dem , wo du sein möchtest , zu schließen"
+      },
+      "answer_type": "string",
+      "answer": "mit anderen Worten"
+    },
+    {
+      "id": 157,
+      "doc": "talk_2009_de",
+      "variables": {
+        "arg1": "Darauf gibt es so viele Antworten wie Menschen , die dieses Leben führen , aber Herumreisende antworten oft mit einem Wort : Freiheit",
+        "arg2": "Bis wir in einer Gesellschaft leben , wo jedem Menschen seine Würde bei der Arbeit garantiert wird , sodass sie arbeiten , um gut zu leben , und nicht nur um zu überleben , wird es immer auch jene geben , die die \" offene Straße \" aufsuchen : als Mittel zur Flucht , zur Befreiung und selbstverständlich zur Rebellion"
+      },
+      "answer_type": "string",
+      "answer": "also"
+    },
+    {
+      "id": 158,
+      "doc": "talk_1971_de",
+      "variables": {
+        "arg1": "die Prothesenschäfte , die Schmerzen verursachten , weil sie nicht gut passten",
+        "arg2": "Der Prothesenschaft ist der Teil , in welchen der Amputierte seinen Stumpf steckt , der mit der eigentlichen Prothese verbunden ist"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 159,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Sie glauben , es ist wichtig für größere langfristige Renditen , Punkt",
+        "arg2": "Langfristige Wertschöpfung erfordert die effiziente Verwaltung dreier Formen des Kapitals : Finanzielles , personelles und physisches Kapital .\nDeshalb ist uns ESG wichtig"
+      },
+      "answer_type": "string",
+      "answer": "insbesondere"
+    },
+    {
+      "id": 160,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Die Blätter müssen sich richtig drehen",
+        "arg2": "Das Gerüst der Blätter muss jedes Mal exakt zur selben Stelle ausfahren , auf ein Zehntel Millimeter genau"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 161,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "der Planet ist weg",
+        "arg2": "Alles , was wir sehen , ist das große strahlende Bild des Sterns , der 10-Mrd.-mal heller leuchtet als der Planet"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 162,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Ich stehe hier und denke an all die diversen Möglichkeiten , wie wir in eben in diesem Raum einen Beinahe-Erfolg erzielen könnten , wie das in Ihren Leben umgesetzt werden kann , weil ich glaube , dass wir das aus dem Bauch heraus irgendwie wissen",
+        "arg2": "Wir wissen , dass wir Erfolg haben , wenn wir immer unser Bestes geben , und darum ist das bewusst Unvollständige in unsere Schöpfungsmythen eingebaut"
+      },
+      "answer_type": "string",
+      "answer": "insbesondere"
+    },
+    {
+      "id": 163,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Es ist nicht das gleiche wie Erfolg , was ich als ein Ereignis ansehe , einen Augenblick in der Zeit und als einen Stempel , den die Welt dir aufdrückt",
+        "arg2": "Meisterschaft ist nicht die Bekenntnis zu einem Ziel , sondern das ständige Streben danach"
+      },
+      "answer_type": "string",
+      "answer": "mit anderen Worten"
+    },
+    {
+      "id": 164,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Es ist doch so : Wir schließen Versicherungen ab , um für diese Fälle finanziell gerüstet zu sein , oder",
+        "arg2": "Durch nachhaltiges Investieren tun wir zwei Dinge"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 165,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Nun ist es ein toller Schatten",
+        "arg2": "Er ist etwa 10-Mrd.-mal dunkler als zuvor , und wir erkennen die angestrahlten Planeten -- einfach so"
+      },
+      "answer_type": "string",
+      "answer": "konkret"
+    },
+    {
+      "id": 166,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "schauen sie sich Finanzdaten an .\nMetriken wie Umsatzwachstum , Cashflow , Marktanteil , Bewertung -- Sie wissen schon , die wirklich attraktiven Sachen",
+        "arg2": "Diese Dinge sind natürlich wichtig , aber sie sind nicht genug"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 167,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Ich meine , wirklich viel Geld",
+        "arg2": "Der globale Aktienmarkt umfasst 55 Billionen Dollar"
+      },
+      "answer_type": "string",
+      "answer": "zum Beispiel"
+    },
+    {
+      "id": 168,
+      "doc": "talk_2150_de_inter",
+      "variables": {
+        "arg1": "Sie sehen also , dass die Spannungen , die wir aus San Francisco vernehmen , dass sich die Leute um Gentrifizierung sorgen , wegen diesen neuen Tech-Firmen , die neuen Wohlstand bringen und sich in der Stadt ansiedeln , real sind",
+        "arg2": "Sie sehen das hier dokumentiert"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 169,
+      "doc": "talk_2009_de",
+      "variables": {
+        "arg1": "Andere kommen von der Schattenseite der Gesellschaft ; sie bekamen sie nie , die Chance zum sozialen Aufstieg : Ausbrecher aus Pflegefamilien , jugendliche Ausreißer auf der Flucht vor Missbrauch und unversöhnlichen Elternhäusern",
+        "arg2": "Was andere als Geschichten von Entbehrung und wirtschaftlichem Versagen ansehen , betrachten die Reisenden durch das Prisma der Befreiung und Freiheit"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 170,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Wir sehen es sogar in der Glücksspielindustrie , die einst das Phänomen des Beinahe-Gewinns aufnahm und die Rubbellose erfand , die eine überdurchschnittliche Chance auf einen Beinahe-Gewinn hatten und die Leute dazu verführten , weitere Lose zu kaufen , so dass sie Herz-Stopper genannt wurden und in Großbritannien in den 1970ern zu der Reihe von Missbräuchen der Glücksspielindustrie hinzugefügt wurden",
+        "arg2": "Der Grund , warum der Beinahe-Erfolg uns antreibt , liegt darin , dass er unsere Wahrnehmung ändert und unsere Ziele , die wir eher in die Ferne legen , näher an unsere Position heranbringt , Wenn ich Sie bitte , einen tollen Tag der nächsten Woche zu beschreiben , werden Sie ihn eher allgemein beschreiben"
+      },
+      "answer_type": "string",
+      "answer": "tatsächlich"
+    },
+    {
+      "id": 171,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Letzten Sommer haben wir einen coolen Test durchgeführt , in Kalifornien bei Northrop Grumman",
+        "arg2": "Dies sind vier Blütenblätter einer Starshade im kleinen Maßstab"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 172,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Wirklich cool ist , dass die meisten CEOs darauf achten",
+        "arg2": "Sie begannen , Nachhaltigkeit nicht nur als wichtig , sondern als entscheidend für den Geschäftserfolg zu sehen"
+      },
+      "answer_type": "string",
+      "answer": "konkret"
+    },
+    {
+      "id": 173,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Das nennt man eine Stimmungslinie , ein bewusster Fehler im Muster , um dem Weber oder Macher einen Ausweg zu geben , aber auch einen Grund , weitere Arbeiten zu erstellen",
+        "arg2": "Meister sind keine Experten , weil sie einen Gegenstand zu seinem konzeptionellen Ende bringen"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 174,
+      "doc": "talk_2009_de",
+      "variables": {
+        "arg1": "Aber diese Fotos sind in Farbe : Sie porträtieren eine Gemeinschaft , die im Land herumwirbelt , heftig lebendig und schöpferisch frei",
+        "arg2": "Sie sehen das Amerika , das sonst niemand zu sehen bekommt"
+      },
+      "answer_type": "string",
+      "answer": "insbesondere"
+    },
+    {
+      "id": 175,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Die Bevölkerung wächst und altert",
+        "arg2": "es gibt 7 Milliarden Menschen auf der Erde"
+      },
+      "answer_type": "string",
+      "answer": "konkret"
+    },
+    {
+      "id": 176,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Das , glaube ich , dachte Elizabeth Murray , als ich sie eines Tages in der Galerie ihre frühen Gemälde lächelnd betrachten sah",
+        "arg2": "Selbst wenn wir Utopien erschufen , glaube ich , gäbe es trotzdem noch das Unvollständige"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 177,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Er ist etwa 10-Mrd.-mal dunkler als zuvor , und wir erkennen die angestrahlten Planeten -- einfach so",
+        "arg2": "Sie muss natürlich größer sein als mein Daumen"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 178,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Da gab es einige Motive und Elemente , die sich später in ihrem Leben wiederholten",
+        "arg2": "Ich erinnere mich , dass ich sie danach fragte , was sie von diesen frühen Arbeiten hielt"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 179,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Als ich darüber nachdachte , wurde mir klar , warum mir der Trainer der Bogenschützen am Ende dieses Trainings außerhalb der Hörweite der Schützinnen sagte , dass seine Kollegen und er nie das Gefühl haben , genug für ihr Team tun zu können , nie das Gefühl haben , es gäbe genügend Visualisierungs-Techniken und Haltungsübungen , die ihnen helfen sollen , diese ständigen Beinahe-Erfolge zu überwinden",
+        "arg2": "Es klang nicht wirklich nach einer Beschwerde , sondern eher nach einem Weg , mir etwas mitzuteilen , in einer Art Beitrittsangebot , mich daran zu erinnern , dass er sich einem maßlosen , unfertigen Weg hingibt , der immer noch mehr fordert"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 180,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Es war Jackie Joyner-Kersee , die es 1984 verpasste , Gold im Siebenkampf zu holen um nur eine Drittelsekunde und ihr Mann sagte ihr voraus , dass es ihr die Hartnäckigkeit verleihen würde , die sie im nächsten Wettkampf benötigte",
+        "arg2": "1988 gewann sie Gold im Siebenkampf und setzte den Rekord von 7291 Punkten , ein Punktestand , dem kein anderer Athlet seitdem auch nur nahe kam"
+      },
+      "answer_type": "string",
+      "answer": "aber"
+    },
+    {
+      "id": 181,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Das sind 21 000 Autos weniger auf den Straßen",
+        "arg2": "Genial , oder"
+      },
+      "answer_type": "string",
+      "answer": "also"
+    },
+    {
+      "id": 182,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Ich lernte so viel von ihr",
+        "arg2": "Nachdem der Kurator Robert Storr all die Gemälde aus ihrem lebenslangen Schaffen ausgewählt hatte , betrachtete ich liebend gerne die Gemälde aus den 1970ern"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 183,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Umwelt \" umfasst Energieverbrauch , Wassernutzung , Abfall und Umweltverschmutzung , kurz : die effiziente Nutzung von Ressourcen",
+        "arg2": "Soziales \" beinhaltet Humankapital , Dinge wie Mitarbeiter-Engagement und Innovationsfähigkeit sowie Supply-Chain-Management und Arbeits- und Menschenrechte"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 184,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Eine Weisheit , die Duke Ellington so auffasste : Das Lieblingslied aus seinem Repertoire ist immer das Nächste , immer jenes , das er noch komponieren muss",
+        "arg2": "Dass Beinahe-Erfolg und Meisterschaft verknüpft sind , liegt teilweise daran , dass wir mit größerer Professionalität auch eher erkennen können , dass wir nicht alles wissen , was wir zu wissen dachten"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 185,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Wir würden vermutlich ein leicht unscharfes Bild der Erde sehen , weil wir ein recht kleines Teleskop in der Umlaufbahn des Mars sind",
+        "arg2": "Nun gehen wir auf die 10-fache Distanz"
+      },
+      "answer_type": "string",
+      "answer": "dann"
+    },
+    {
+      "id": 186,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Ich will , dass wir in nur einem Jahrzehnt ein Weltraumteleskop bauen , das das Bild einer Erde im Orbit eines anderen Sterns erfassen und herausfinden kann , ob es dort Leben geben könnte",
+        "arg2": "Meine Kollegen im NASA Jet Propulsion Laboratory in Princeton und ich arbeiten an einer Technologie , die in einigen Jahren genau dazu in der Lage sein wird"
+      },
+      "answer_type": "string",
+      "answer": "deshalb"
+    },
+    {
+      "id": 187,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Ihre Investitionen in Nachhaltigkeit liegen bei fast 100 %",
+        "arg2": "Sie integrieren die ESG systematisch in den gesamten Fonds"
+      },
+      "answer_type": "string",
+      "answer": "durch"
+    },
+    {
+      "id": 188,
+      "doc": "talk_1971_de",
+      "variables": {
+        "arg1": "habe ich für meine Doktorarbeit am MIT Media Lab maßgefertige Prothesenschäfte entworfen , schnell und günstig , mit mehr Tragekomfort als herkömmliche Prothesen",
+        "arg2": "Mittels Magnetresonanztomografie ( MRT ) erfasste ich die genaue Form der Anatomie des Patienten , benutzte die Berechnungstechnologie FEM , um besser vorherzusehen , welche inneren Belastungen bei normaler Nutzung entstehen , und lies danach einen Prothesenschaft herstellen"
+      },
+      "answer_type": "string",
+      "answer": "danach"
+    },
+    {
+      "id": 189,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Dass Beinahe-Erfolg und Meisterschaft verknüpft sind , liegt teilweise daran , dass wir mit größerer Professionalität auch eher erkennen können , dass wir nicht alles wissen , was wir zu wissen dachten",
+        "arg2": "Das nennt man den Dunning-Kruger-Effekt"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 190,
+      "doc": "talk_1971_de",
+      "variables": {
+        "arg1": "Solche Schäfte üben oft unerträglichen Druck auf die Glieder der Patienten aus und verursachen Druckwunden und Blasen",
+        "arg2": "Ganz gleich , wie leistungsfähig die Knöchelprothese ist , wenn der Prothesenschaft unbequem ist , werden Sie die Prothese nicht nutzen , und das ist heutzutage einfach inakzeptabel"
+      },
+      "answer_type": "string",
+      "answer": "weil"
+    },
+    {
+      "id": 191,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Aber hier ist die Frage : Was verleitet uns dazu , Erfolg in Meisterschaft zu wandeln",
+        "arg2": "Mit dieser Frage habe ich mich lange auseinandergesetzt"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 192,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Alles , was wir sehen , ist das große strahlende Bild des Sterns , der 10-Mrd.-mal heller leuchtet als der Planet , der in dem kleinen roten Kreis sein sollte",
+        "arg2": "Das wollen wir sehen"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 193,
+      "doc": "talk_2150_de_inter",
+      "variables": {
+        "arg1": "Ich glaube , sie können versuchen , das verstehen , indem sie solche Karten anschauen",
+        "arg2": "Betrachten wir Rio de Janeiro"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 194,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Das nennt man den Dunning-Kruger-Effekt",
+        "arg2": "Die Paris Review hat das aus James Baldwin herausgekitzelt , als sie ihn fragten : \" Was , glauben Sie , wächst mit dem Wissen ? \" und er antwortete : \" Sie lernen , wie wenig Sie wissen"
+      },
+      "answer_type": "string",
+      "answer": "insbesondere"
+    },
+    {
+      "id": 195,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Ich mag ihn , weil er sich über beide Lager des Klimawandels lustig macht",
+        "arg2": "Ich mag es besonders , weil er mich an Mark Twain erinnert , der sagte : \" Plane für die Zukunft , denn dort wirst du den Rest deines Lebens verbringen"
+      },
+      "answer_type": "string",
+      "answer": "konkret"
+    },
+    {
+      "id": 196,
+      "doc": "talk_2150_de_inter",
+      "variables": {
+        "arg1": "Und sogar eine ganze Gruppe rund um Drogen und Witze",
+        "arg2": "Wie cool ist das denn"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 197,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Die folgende Aussage geht mir wirklich unter die Haut : \" Wenn Sie das verändern wollen , verdienen Sie Geld und spenden Sie die Gewinne an Wohltätigkeitsorganisationen",
+        "arg2": "Da verdrehe ich die Augen"
+      },
+      "answer_type": "string",
+      "answer": "also"
+    },
+    {
+      "id": 198,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Wenn wir die Kanten aufbrechen , sie weicher machen könnten , um die Beugung zu reduzieren , dann können wir einen Planeten sehen",
+        "arg2": "In den letzten , rund zehn Jahren haben wir genau dafür optimale Lösungen gefunden"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 199,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "CalPERS ist ein weiteres Beispiel",
+        "arg2": "CalPERS ist der Pensionsfonds für Angestellte im öffentlichen Dienst in Kalifornien"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 200,
+      "doc": "talk_2009_de",
+      "variables": {
+        "arg1": "Wie ihre Vorgänger bereisen die heutigen Nomaden die Hauptverkehrsadern der Vereinigten Staaten aus Stahl und Asphalt",
+        "arg2": "Am Tag springen sie auf Güterzüge oder strecken den Daumen raus , und fahren auf der Autobahn mit jedem mit , egal ob Lkw-Fahrer oder nicht berufstätige Mütter"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 201,
+      "doc": "talk_1971_de",
+      "variables": {
+        "arg1": "Heutzutage sollten Behinderungen niemanden mehr daran hindern , ein sinnsvolles Leben zu führen",
+        "arg2": "Meine Hoffnung und mein Wunsch ist es , dass die Werkzeuge und Prozesse , die wir in unserer Forschungsgruppe entwickeln , genutzt werden können , um hochfunktionale Prothesen herzustellen , für die , die sie brauchen"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 202,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Das macht der Beinahe-Erfolg",
+        "arg2": "Er lässt uns auf das fokussieren , was wir gerade jetzt planen , um den vor uns liegenden Berg anzugehen"
+      },
+      "answer_type": "string",
+      "answer": "insbesondere"
+    },
+    {
+      "id": 203,
+      "doc": "talk_2150_de_inter",
+      "variables": {
+        "arg1": "Wenn Sie darüber nachdenken , mit diesem Daten haben wir einen Blick darauf und betrachten die Stadt wie einen riesigen Schulspeiseraum , beobachten , wie sich jeder in dieser Stadt seinen Stuhl sucht",
+        "arg2": "Vielleicht ist es Zeit , an dieser Bestuhlung etwas zu rütteln"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 204,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Selbst wenn wir Utopien erschufen , glaube ich , gäbe es trotzdem noch das Unvollständige",
+        "arg2": "Vervollständigung ist das Ziel , aber wir hoffen , dass es nie das Ende ist"
+      },
+      "answer_type": "string",
+      "answer": "zusammenfassend"
+    },
+    {
+      "id": 205,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Astronomen glauben heute , dass jeder Stern in der Galaxis einen Planeten hat",
+        "arg2": "Sie schätzen , dass bis zu ein Fünftel davon einen erdähnlichen Planeten hat , auf dem Leben möglich wäre"
+      },
+      "answer_type": "string",
+      "answer": "konkret"
+    },
+    {
+      "id": 206,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Sie begannen , Nachhaltigkeit nicht nur als wichtig , sondern als entscheidend für den Geschäftserfolg zu sehen",
+        "arg2": "Ungefähr 80 % der CEOs weltweit sehen in Nachhaltigkeit die Wurzel für Innovations-Wachstum , was zu einem Wettbewerbsvorteil in ihren Branchen führt"
+      },
+      "answer_type": "string",
+      "answer": "tatsächlich"
+    },
+    {
+      "id": 207,
+      "doc": "talk_2150_de_inter",
+      "variables": {
+        "arg1": "Uns wird auch bewusst , dass Rasse ein miserabler Vertreter für Vielfältigkeit ist",
+        "arg2": "Wir haben Verteter aus allen Arten von Rassen über die ganze Karte verteilt"
+      },
+      "answer_type": "string",
+      "answer": "insbesondere"
+    },
+    {
+      "id": 208,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Tun Sie das möglichst nicht",
+        "arg2": "Bitte zu Hause nicht nachmachen"
+      },
+      "answer_type": "string",
+      "answer": "mit anderen Worten"
+    },
+    {
+      "id": 209,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Bestandteil meiner Arbeit ist , mit vielen Investoren zu sprechen",
+        "arg2": "Nicht alle sehen das genauso"
+      },
+      "answer_type": "string",
+      "answer": "aber"
+    },
+    {
+      "id": 210,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Viele meiner Kollegen arbeiten an tollen Technologien zu dem Zweck , aber ich möchte Ihnen heute die vorstellen , die ich am coolsten finde und die uns am ehesten innerhalb des nächsten Jahrzehnts eine Erde liefert",
+        "arg2": "Vorgestellt wurde die Idee 1962 vom Vater des Weltraumteleskops , Lyman Spitzer"
+      },
+      "answer_type": "string",
+      "answer": "insbesondere"
+    },
+    {
+      "id": 211,
+      "doc": "talk_2150_de_inter",
+      "variables": {
+        "arg1": "Um Ihnen ein Gefühl zu geben , den grünen Teil des Netzwerkes nennen wir Klein-timore , da diese Leute , wie es scheint , in einer sehr kleinen Stadt wohnen",
+        "arg2": "Wir sehen immer wieder die gleichen Leute , weil wir nicht die ganze Breite und Tiefe der Stadt erforschen"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 212,
+      "doc": "talk_2009_de",
+      "variables": {
+        "arg1": "Ich kenne diese Gesetze , weil ich sah , wie Freunde und andere Herumreisende ins Gefängnis geschleppt oder vorgeladen wurden , weil sie diese sogenannten \" Verbrechen \" begangen hatten",
+        "arg2": "Vielleicht fragen Sie sich , wieso jemand ein Leben wie dieses wählt , unter der Fuchtel diskriminierender Gesetze , aus Mülltonnen zu essen , unter Brücken zu schlafen , hier und da Saisonjobs anzunehmen"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 213,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Warum gibt es das noch nicht",
+        "arg2": "Warum ist das schwer"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 214,
+      "doc": "talk_2150_de_inter",
+      "variables": {
+        "arg1": "Wir haben all diese Daten , ein unglaublich reichhaltiger Bestand an Daten über Städte",
+        "arg2": "Vielleicht reichhaltiger als alles , was wir je zuvor hatten"
+      },
+      "answer_type": "string",
+      "answer": "insbesondere"
+    },
+    {
+      "id": 215,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Sie muss 50 000 Kilometer vom Teleskop wegfliegen , das exakt in ihrem Schatten bleiben muss , und dann können wir diese Planeten sehen",
+        "arg2": "Das klingt schwierig , aber brillante Ingenieure , meine Kollegen bei JPL , haben ein fabelhaftes Design entwickelt , und das sieht so aus"
+      },
+      "answer_type": "string",
+      "answer": "infolgedessen"
+    },
+    {
+      "id": 216,
+      "doc": "talk_2150_de_inter",
+      "variables": {
+        "arg1": "Es ist keine geografische Karte , es ist eine Karte der Beziehungen zwischen den Menschen meiner Heimatstadt , Baltimore , Maryland",
+        "arg2": "Sie können sehen , dass jeder Punkt eine Person darstellt , jede Linie eine Beziehung zwischen diesen Menschen und jede Farbe eine Gruppierung innerhalb dieses Netzwerkes"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 217,
+      "doc": "talk_2150_de_inter",
+      "variables": {
+        "arg1": "Sie haben diese Bandbreite von Sport , Verwaltung , Kunst und Musik , aber in einer ganz anderen Art dargestellt",
+        "arg2": "dass könnte zu der Art , wie wir Rio verstehen , passen , als eine sehr multikulturelle , musikalisch vielfältige Stadt"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 218,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Wenn man nicht wusste , dass sie von ihr waren , hätte man es vielleicht nicht erraten",
+        "arg2": "Sie sagte mir , dass einige nicht dem entsprachen , was sie sich vorgestellt hatte"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 219,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "dass einige nicht dem entsprachen , was sie sich vorgestellt hatte",
+        "arg2": "Eine der Arbeiten traf faktisch so wenig ins Schwarze , dass sie sie zum Abfall in ihrem Studio stellte , und ihre Nachbarin die Arbeit nahm , weil sie ihren Wert erkannte"
+      },
+      "answer_type": "string",
+      "answer": "zum Beispiel"
+    },
+    {
+      "id": 220,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Und das verlieh ihr mehr Hartnäckigkeit , denn sie schoss wieder und wieder",
+        "arg2": "Das ging drei Stunden lang so weiter"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 221,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Wir wissen , dass wir Erfolg haben , wenn wir immer unser Bestes geben , und darum ist das bewusst Unvollständige in unsere Schöpfungsmythen eingebaut",
+        "arg2": "In der Navajo-Kultur bauen manche Handwerker bewusst einen Fehler in die Textilien und Keramiken ein"
+      },
+      "answer_type": "string",
+      "answer": "zum Beispiel"
+    },
+    {
+      "id": 222,
+      "doc": "talk_2150_de_inter",
+      "variables": {
+        "arg1": "Es gibt aber andere Arten , über die Kartierung von Städten nachzudenken und wie diese entstanden sind",
+        "arg2": "Heute möchte ich Ihnen eine neue Art Karte zeigen"
+      },
+      "answer_type": "string",
+      "answer": "konkret"
+    },
+    {
+      "id": 223,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "1988 gewann sie Gold im Siebenkampf und setzte den Rekord von 7291 Punkten , ein Punktestand , dem kein anderer Athlet seitdem auch nur nahe kam",
+        "arg2": "Wir haben keinen Erfolg , wenn wir alles getan haben , sondern wenn wir noch mehr zu tun haben"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 224,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Dadurch werden jährlich 23 Mio. Dollar an Betriebskosten gespart und die Emission von 100 000 Tonnen Kohlenstoff vermieden",
+        "arg2": "Das sind 21 000 Autos weniger auf den Straßen"
+      },
+      "answer_type": "string",
+      "answer": "mit anderen Worten"
+    },
+    {
+      "id": 225,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Wir haben keinen Erfolg , wenn wir alles getan haben , sondern wenn wir noch mehr zu tun haben",
+        "arg2": "Ich stehe hier und denke an all die diversen Möglichkeiten , wie wir in eben in diesem Raum einen Beinahe-Erfolg erzielen könnten , wie das in Ihren Leben umgesetzt werden kann , weil ich glaube , dass wir das aus dem Bauch heraus irgendwie wissen"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 226,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Am Ende der Übung war eine der Schützinnen so ausgelaugt , dass sie sich auf den Boden legte , platt wie eine Flunder , ihr Gesicht in den Himmel blickend .\nVielleicht suchte sie , was T. S. Eliot den \" Ruhepol der sich drehenden Welt \" nannte",
+        "arg2": "In der amerikanischen Kultur kommt es selten vor -- es ist mittlerweile beruflich nicht mehr so wichtig -- dass man Hartnäckigkeit beobachten kann mit diesem Grad an Genauigkeit , was es wirklich bedeutet , die Körperhaltung drei Stunden lang zu beachten , um ein Ziel zu treffen und Spitzenleistungen zu erreichen , die in Vergessenheit geraten sind"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 227,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "In der Meisterschaft geht darum , Opfer für die Tätigkeit zu bringen und nicht darum , Dinge deiner Karriere zuliebe zu tun",
+        "arg2": "Wie viele Erfinder und verborgene Unternehmer leben dieses Phänomen"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 228,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Deshalb ist uns ESG wichtig",
+        "arg2": "Bestandteil meiner Arbeit ist , mit vielen Investoren zu sprechen"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 229,
+      "doc": "talk_2009_de",
+      "variables": {
+        "arg1": "Aber keine andere Erfahrung kam meinen Kindheitsfantasien so nah , wie die , wie andere Herumtreiber zu leben und ihr Leben überall in den USA zu dokumentieren",
+        "arg2": "Das ist der Traum vom nomadischen Leben , eine andere Art amerikanischer Traum , gelebt von jungen Landstreichern , Herumreisenden , Trampern , Nichtsesshaften und Vagabunden"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 230,
+      "doc": "talk_1971_de",
+      "variables": {
+        "arg1": "Meine Hoffnung und mein Wunsch ist es , dass die Werkzeuge und Prozesse , die wir in unserer Forschungsgruppe entwickeln , genutzt werden können , um hochfunktionale Prothesen herzustellen , für die , die sie brauchen",
+        "arg2": "Für mich ist es ein Anfang , um die Seelen derer zu heilen , die vom Krieg und Krankheiten betroffen sind , ist für mich komfortable und erschwingliche Schnittstellen für ihre Körper herzustellen"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 231,
+      "doc": "talk_2009_de",
+      "variables": {
+        "arg1": "Lieber zehren sie vom Überfluss einer -- aus ihrer Sicht -- verschwenderischen Konsumgesellschaft , als sich mit einer unrealistischen Chance auf den herkömmlichen \" American Dream \" abzurackern",
+        "arg2": "Sie nutzen die Tatsache aus , dass in den USA bis zu 40 % der Lebensmittel im Abfall landen , in dem sie nach einwandfreien Nahrungsmitteln in Containern und Abfalleimern suchen"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 232,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "CalPERS ist der Pensionsfonds für Angestellte im öffentlichen Dienst in Kalifornien",
+        "arg2": "Mit einem Vermögen von 244 Mrd.\n[ Dollar ] ist er der zweitgrößte in den USA und der sechstgrößte in der Welt"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 233,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Nachhaltigkeit bietet enorme Möglichkeiten",
+        "arg2": "Wie nutzen Unternehmen ESG , um harte Geschäftsergebnisse zu erzielen"
+      },
+      "answer_type": "string",
+      "answer": "also"
+    },
+    {
+      "id": 234,
+      "doc": "talk_2150_de_inter",
+      "variables": {
+        "arg1": "Ich sammelte die letzten Wochen Daten in Rio",
+        "arg2": "Eine Sache viel mir in dieser Stadt auf : Alles ist wirklich sehr gemischt"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 235,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Meister sind keine Experten , weil sie einen Gegenstand zu seinem konzeptionellen Ende bringen",
+        "arg2": "Sie sind Meister , weil sie erkennen , dass da kein Ende ist"
+      },
+      "answer_type": "string",
+      "answer": "aber"
+    },
+    {
+      "id": 236,
+      "doc": "talk_2009_de",
+      "variables": {
+        "arg1": "Am Tag springen sie auf Güterzüge oder strecken den Daumen raus , und fahren auf der Autobahn mit jedem mit , egal ob Lkw-Fahrer oder nicht berufstätige Mütter",
+        "arg2": "Nachts schlafen sie unter den Sternen , gekauert an ihr Rudel aus Hunden , Katzen und Haustierratten zwischen ihren Körpern"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 237,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Wenn wir ein ähnliches Weltraumteleskop , ein etwas größeres , dort hinausbringen und eine Blende davorfliegen könnten , dann sähen wir vielleicht so etwas",
+        "arg2": "Das ist ein Familienporträt des Sonnensystems -- aber nicht unseres ; wir hoffen auf ein anderes Sonnensystem -- , durch eine Blende gesehen , eine Starshade wie diese"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 238,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "verkauften sie ihr Kerngeschäft , Heimwerker-Geräte",
+        "arg2": "und investierten die Einnahmen ins Wassergeschäft"
+      },
+      "answer_type": "string",
+      "answer": "nachdem"
+    },
+    {
+      "id": 239,
+      "doc": "talk_2009_de",
+      "variables": {
+        "arg1": "Das ist der Traum vom nomadischen Leben , eine andere Art amerikanischer Traum , gelebt von jungen Landstreichern , Herumreisenden , Trampern , Nichtsesshaften und Vagabunden",
+        "arg2": "In den meisten Köpfen ist der Vagabund Teil der Vergangenheit"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 240,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Er lässt uns auf das fokussieren , was wir gerade jetzt planen , um den vor uns liegenden Berg anzugehen",
+        "arg2": "Es war Jackie Joyner-Kersee , die es 1984 verpasste , Gold im Siebenkampf zu holen um nur eine Drittelsekunde und ihr Mann sagte ihr voraus , dass es ihr die Hartnäckigkeit verleihen würde , die sie im nächsten Wettkampf benötigte"
+      },
+      "answer_type": "string",
+      "answer": "zum Beispiel"
+    },
+    {
+      "id": 241,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Das ist achteinhalb Mal das BIP der USA",
+        "arg2": "Das ist die größte Volkswirtschaft der Welt"
+      },
+      "answer_type": "string",
+      "answer": "mit anderen Worten"
+    },
+    {
+      "id": 242,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Der globale Aktienmarkt umfasst 55 Billionen Dollar .\nDer globale Rentenmarkt 78 Billionen Dollar",
+        "arg2": "Das sind zusammen 133 Billionen"
+      },
+      "answer_type": "string",
+      "answer": "zusammenfassend"
+    },
+    {
+      "id": 243,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Meisterschaft ist allerdings nicht gleich Spitzenleistung",
+        "arg2": "Es ist nicht das gleiche wie Erfolg , was ich als ein Ereignis ansehe , einen Augenblick in der Zeit und als einen Stempel , den die Welt dir aufdrückt"
+      },
+      "answer_type": "string",
+      "answer": "insbesondere"
+    },
+    {
+      "id": 244,
+      "doc": "talk_2150_de_inter",
+      "variables": {
+        "arg1": "Es gibt immer noch die Gruppen an Menschen aus Verwaltung , Zeitungen , Politk und Kolummnisten",
+        "arg2": "TEDxRio is unten rechts , rechts neben Bloggern und Autoren"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 245,
+      "doc": "talk_2150_de_inter",
+      "variables": {
+        "arg1": "Betrachten wir Rio de Janeiro",
+        "arg2": "Ich sammelte die letzten Wochen Daten in Rio"
+      },
+      "answer_type": "string",
+      "answer": "insbesondere"
+    },
+    {
+      "id": 246,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Vor etwa einem Jahrzehnt verkauften sie ihr Kerngeschäft , Heimwerker-Geräte , und investierten die Einnahmen ins Wassergeschäft",
+        "arg2": "Das ist ein wirklich großer Einsatz"
+      },
+      "answer_type": "string",
+      "answer": "also"
+    },
+    {
+      "id": 247,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Es gibt gar keine Auflösung mehr",
+        "arg2": "Die Erde ist nun Carl Sagans blass-blauer Punkt"
+      },
+      "answer_type": "string",
+      "answer": "mit anderen Worten"
+    },
+    {
+      "id": 248,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Sie kennen das alle : eine Sonnenfinsternis",
+        "arg2": "Der Mond hat sich vor die Sonne geschoben"
+      },
+      "answer_type": "string",
+      "answer": "nämlich"
+    },
+    {
+      "id": 249,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Halten wir uns einige bekannte Tatsachen vor Augen",
+        "arg2": "Die Bevölkerung wächst und altert ; es gibt 7 Milliarden Menschen auf der Erde , und am Ende des Jahrhunderts werden es 10 Milliarden sein"
+      },
+      "answer_type": "string",
+      "answer": "konkret"
+    },
+    {
+      "id": 250,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Ich verstand nicht , wie auch nur eine den 10er-Ring treffen wollte",
+        "arg2": "Der 10er-Ring aus der 70-Meter-Standard-Distanz sieht etwa so klein aus wie ein Streichholzkopf etwa eine Armlänge entfernt"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 251,
+      "doc": "talk_2009_de",
+      "variables": {
+        "arg1": "Manche Reisende haben sich dieses Leben ausgesucht , verzichten auf Materielles , herkömmliche Arbeit und Uni-Abschlüsse im Tausch gegen einen Hauch von Abenteuer",
+        "arg2": "Andere kommen von der Schattenseite der Gesellschaft ; sie bekamen sie nie , die Chance zum sozialen Aufstieg : Ausbrecher aus Pflegefamilien , jugendliche Ausreißer auf der Flucht vor Missbrauch und unversöhnlichen Elternhäusern"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 252,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Es ist leichtsinnig , diese Dinge zu ignorieren , denn das kann künftige langfristige Renditen gefährden",
+        "arg2": "Vielleicht sind Sie jetzt überrascht : Die ausgleichende Macht , die wirklich Einfluss auf Nachhaltigkeit hat , liegt bei institutionellen Investoren , den großen Investoren wie Pensionsfonds und Stiftungen"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 253,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Das Licht vom Stern wird gebeugt , im Inneren des Teleskops gestreut , und erzeugt das sehr helle Bild , das den Planeten verblassen lässt",
+        "arg2": "Um den Planeten sichtbar zu machen , müssen wir etwas gegen all das Licht tun"
+      },
+      "answer_type": "string",
+      "answer": "also"
+    },
+    {
+      "id": 254,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Vier Studenten haben diese vier Blätter im Sommerpraktikum bei JPL gebaut",
+        "arg2": "Sie sehen , wie sie ausfahren"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 255,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Der Maler Paul Cézanne hat so oft gedacht , seine Arbeiten wären unvollständig , dass er sie unbeachtet links liegen ließ mit der Absicht , sie später wieder hervorzuholen , aber am Ende seines Lebens hatte er als Ergebnis zur zehn Prozent seiner Gemälde signiert",
+        "arg2": "Sein Lieblingsroman war \" Das unbekannte Meisterwerk \" von Honoré de Balzac und er fühlte sich selbst als Hauptdarsteller"
+      },
+      "answer_type": "string",
+      "answer": "tatsächlich"
+    },
+    {
+      "id": 256,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Anleger sollten auch auf Leistungsmetriken wie ESG achten : Umwelt , Soziales und Unternehmensführung",
+        "arg2": "Umwelt \" umfasst Energieverbrauch , Wassernutzung , Abfall und Umweltverschmutzung , kurz : die effiziente Nutzung von Ressourcen"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 257,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Elizabeth Murray hat mich mit der Ansicht über ihre früheren Gemälde überrascht",
+        "arg2": "Der Maler Paul Cézanne hat so oft gedacht , seine Arbeiten wären unvollständig , dass er sie unbeachtet links liegen ließ mit der Absicht , sie später wieder hervorzuholen , aber am Ende seines Lebens hatte er als Ergebnis zur zehn Prozent seiner Gemälde signiert"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 258,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "wir hoffen auf ein anderes Sonnensystem -- , durch eine Blende gesehen , eine Starshade wie diese",
+        "arg2": "Sie sehen Jupiter , Saturn , Uranus , Neptun und , direkt dort in der Mitte , neben dem Rest an Licht , ist der blass-blaue Punkt"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 259,
+      "doc": "talk_2009_de",
+      "variables": {
+        "arg1": "Niemand verliert seine inneren Dämonen , indem er auf der Straße lebt",
+        "arg2": "Drogensucht und extremes Wetter gehören zur Wirklichkeit , Güterzüge verstümmeln oder töten , und wer auf der Straße gelebt hat , kann ein Zeugnis von der Unmenge an Gesetzen ablegen , wodurch sich Obdachlose strafbar machen"
+      },
+      "answer_type": "string",
+      "answer": "insbesondere"
+    },
+    {
+      "id": 260,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Man muss sie einfach lieben , die Australier , oder",
+        "arg2": "CalPERS ist ein weiteres Beispiel"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 261,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Damit können wir ganz anders an einige dringende Herausforderungen herangehen , wie frisches Wasser , saubere Luft , Nahrung für 10 Milliarden Münder .\nWenn nur institutionelle Anleger die ESG in ihre Investitionen integrieren",
+        "arg2": "Was wäre , wenn sie diese Feuerkraft nutzten und mehr von ihrem Kapital in Unternehmen investierten , die am härtesten an der Lösung dieser Probleme arbeiten , oder sie zumindest nicht verschärfen"
+      },
+      "answer_type": "string",
+      "answer": "aber"
+    },
+    {
+      "id": 262,
+      "doc": "talk_2150_de_inter",
+      "variables": {
+        "arg1": "Es zeigt auf , was auf dem Boden von San Francisco passiert",
+        "arg2": "sie können versuchen , das verstehen , indem sie solche Karten anschauen"
+      },
+      "answer_type": "string",
+      "answer": "also"
+    },
+    {
+      "id": 263,
+      "doc": "talk_2150_de_inter",
+      "variables": {
+        "arg1": "Wir haben sogar die Verpflichtung es zu tun",
+        "arg2": "Was ist also eine Stadt"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 264,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Hier sind wir in der Umlaufbahn des Uranus",
+        "arg2": "Das Bild ist kleiner , weniger detailliert , gröber"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 265,
+      "doc": "talk_2009_de",
+      "variables": {
+        "arg1": "Als kleines Mädchen stellte ich mir vor , dass ich eines Tages von Zuhause weglaufe",
+        "arg2": "Seit dem sechsten Lebensjahr bewahrte ich eine Tasche mit Kleidung und Konservendosen in meinem Wandschrank auf"
+      },
+      "answer_type": "string",
+      "answer": "insbesondere"
+    },
+    {
+      "id": 266,
+      "doc": "talk_2150_de_inter",
+      "variables": {
+        "arg1": "In der Mitte sehen Sie etwas , das die beiden Gruppierungen verbindet , und das ist Sport",
+        "arg2": "Wir haben die Baltimore Orioles , die Baltimore Ravens [ Football ] den Olympioniken Michael Phelps , die Baltimore Firma Under Armour , die sie vielleicht kennen"
+      },
+      "answer_type": "string",
+      "answer": "insbesondere"
+    },
+    {
+      "id": 267,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "In den letzten , rund zehn Jahren haben wir genau dafür optimale Lösungen gefunden",
+        "arg2": "Eine davon sieht ungefähr so aus : Wir nennen sie blütenförmige Sternenblende ( \" Starshade"
+      },
+      "answer_type": "string",
+      "answer": "zum Beispiel"
+    },
+    {
+      "id": 268,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Durch nachhaltiges Investieren tun wir zwei Dinge",
+        "arg2": "Wir schaffen eine Versicherung , verringern die Gefahr für unseren Planeten und für unsere Wirtschaft , und gleichzeitig müssen wir kurzfristig nicht auf Leistung verzichten"
+      },
+      "answer_type": "string",
+      "answer": "nämlich"
+    },
+    {
+      "id": 269,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Thomas Gilovich und sein Team aus Cornell untersuchten diesen Unterschied und fanden heraus , dass die Frustration , die die Gewinner von Silber spüren , im Vergleich zu Bronze , die eher froh darüber sind , dass sie nicht auf dem 4. Platz ohne Medaille gelandet sind , den Silbermedaillengewinnern einen Fokus auf den nachfolgenden Wettbewerb gibt",
+        "arg2": "Wir sehen es sogar in der Glücksspielindustrie , die einst das Phänomen des Beinahe-Gewinns aufnahm und die Rubbellose erfand , die eine überdurchschnittliche Chance auf einen Beinahe-Gewinn hatten und die Leute dazu verführten , weitere Lose zu kaufen , so dass sie Herz-Stopper genannt wurden und in Großbritannien in den 1970ern zu der Reihe von Missbräuchen der Glücksspielindustrie hinzugefügt wurden"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 270,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Ich glaube , dass nachhaltiges Investieren weniger kompliziert ist , als Sie denken , besser abschneidet , als Sie glauben , und wichtiger ist , als wir uns vorstellen können",
+        "arg2": "Halten wir uns einige bekannte Tatsachen vor Augen"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 271,
+      "doc": "talk_1971_de",
+      "variables": {
+        "arg1": "Kurz gesagt , wir benutzen Daten , um neuartige Schäfte schnell und günstig herzustellen",
+        "arg2": "In einem Versuch , den wir vor kurzem am Media Lab durchführten , hat einer unserer Patienten , ein US-Veteran , der seit über 20 Jahren amputiert ist und schon dutzende Prothesen getragen hat , Folgendes über unsere ausgedruckten Prothesen gesagt : \" Sie ist so weich , als würde man auf Kissen laufen , und verdammt sexy"
+      },
+      "answer_type": "string",
+      "answer": "zum Beispiel"
+    },
+    {
+      "id": 272,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Die Verfolgung der Meisterschaft , mit anderen Worten , ist fast so etwas wie ein ewiges Vorwärtsstreben",
+        "arg2": "\" Gott , gib , dass ich mehr wünsche , als ich erreichen kann \" , flehte Michelangelo , vielleicht zum alttestamentarischen Gott in der Sixtinischen Kapelle , und er selbst wäre Adam mit dem ausgestreckten Finger , der die Hand Gottes nicht ganz erreicht"
+      },
+      "answer_type": "string",
+      "answer": "zum Beispiel"
+    },
+    {
+      "id": 273,
+      "doc": "talk_1978_de",
+      "variables": {
+        "arg1": "Es klang nicht wirklich nach einer Beschwerde , sondern eher nach einem Weg , mir etwas mitzuteilen , in einer Art Beitrittsangebot , mich daran zu erinnern , dass er sich einem maßlosen , unfertigen Weg hingibt , der immer noch mehr fordert",
+        "arg2": "Wir bauen auf unvollständigen Ideen auf , selbst wenn diese Idee unser früheres Selbst ist"
+      },
+      "answer_type": "string",
+      "answer": "mit anderen Worten"
+    },
+    {
+      "id": 274,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Aufgenommen wurde es 1990 von der Raumsonde Voyager , als man sie beim Verlassen des Sonnensystems drehte , um aus einer Entfernung von 6 Mrd. km eine Foto von der Erde zu machen",
+        "arg2": "So ein Bild möchte ich von einem erdähnlichen Planeten eines anderen Sterns machen"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 275,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Meine Kollegen im NASA Jet Propulsion Laboratory in Princeton und ich arbeiten an einer Technologie , die in einigen Jahren genau dazu in der Lage sein wird",
+        "arg2": "Astronomen glauben heute , dass jeder Stern in der Galaxis einen Planeten hat"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 276,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Dies sind vier Blütenblätter einer Starshade im kleinen Maßstab",
+        "arg2": "Sie ist ca. halb so groß wie die , die Sie eben sahen"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 277,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Nicht alle sehen das genauso",
+        "arg2": "Oft höre ich : \" Wir sind verpflichtet , Gewinne zu maximieren , deshalb machen wir das hier nicht"
+      },
+      "answer_type": "string",
+      "answer": "insbesondere"
+    },
+    {
+      "id": 278,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Der globale Aktienmarkt umfasst 55 Billionen Dollar",
+        "arg2": "Der globale Rentenmarkt 78 Billionen Dollar"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 279,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "ein paar sind wirkliche Vorreiter",
+        "arg2": "Hesta .\nHesta ist ein Pensionsfonds für Mitarbeiter im Gesundheitswesen und im öffentlichen Dienst in Australien , mit einem Vermögen von 22 Mrd.\n[ Dollar ]"
+      },
+      "answer_type": "string",
+      "answer": "zum Beispiel"
+    },
+    {
+      "id": 280,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "In Blau sehen wir die Leistung der 500 größten globalen Unternehmen und in Gold sehen wir eine Teilmenge von Unternehmen mit guter Klimaschutzstrategie und Risikomanagement",
+        "arg2": "Seit fast acht Jahren übertreffen sie die Wertentwicklung um rund zwei Drittel"
+      },
+      "answer_type": "string",
+      "answer": "konkret"
+    },
+    {
+      "id": 281,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Mit einem Vermögen von 244 Mrd.\n[ Dollar ] ist er der zweitgrößte in den USA und der sechstgrößte in der Welt",
+        "arg2": "Ihre Investitionen in Nachhaltigkeit liegen bei fast 100 %"
+      },
+      "answer_type": "string",
+      "answer": "konkret"
+    },
+    {
+      "id": 282,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Was wäre , wenn sie diese Feuerkraft nutzten und mehr von ihrem Kapital in Unternehmen investierten , die am härtesten an der Lösung dieser Probleme arbeiten , oder sie zumindest nicht verschärfen",
+        "arg2": "Was haben wir davon , wenn wir arbeiten , sparen und investieren , nur um im Ruhestand eine Welt vorzufinden , die angespannter und unsicherer ist als jetzt"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 283,
+      "doc": "talk_2009_de",
+      "variables": {
+        "arg1": "Seit dem sechsten Lebensjahr bewahrte ich eine Tasche mit Kleidung und Konservendosen in meinem Wandschrank auf",
+        "arg2": "In mir war eine tiefe Unruhe , eine Angst , Opfer zu werden , von einem Leben voller Routine und Langeweile"
+      },
+      "answer_type": "string",
+      "answer": "weil"
+    },
+    {
+      "id": 284,
+      "doc": "talk_1971_de",
+      "variables": {
+        "arg1": "Prothesenbauer benutzen immer noch konventionelle Methoden , wie Pressen und Gießen , um Unibody-Prothesenschäfte herzustellen",
+        "arg2": "Solche Schäfte üben oft unerträglichen Druck auf die Glieder der Patienten aus und verursachen Druckwunden und Blasen"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 285,
+      "doc": "talk_2150_de_inter",
+      "variables": {
+        "arg1": "Schauen wir uns San Francisco an",
+        "arg2": "Sie sehen , dass dort etwas anderes passiert"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 286,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Sie sehen Jupiter , Saturn , Uranus , Neptun und , direkt dort in der Mitte , neben dem Rest an Licht , ist der blass-blaue Punkt",
+        "arg2": "Das ist die Erde"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 287,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Die Daten zeigen , dass Aktien mit besserer ESG-Leistung genauso gut abschneiden wie andere",
+        "arg2": "In Blau sehen wir den MSCI World Index , ein Index für Großunternehmen aus entwickelten Märkten auf der ganzen Welt"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 288,
+      "doc": "talk_2150_de_inter",
+      "variables": {
+        "arg1": "Vielleicht reichhaltiger als alles , was wir je zuvor hatten",
+        "arg2": "Was können wir damit anfangen"
+      },
+      "answer_type": "string",
+      "answer": "also"
+    },
+    {
+      "id": 289,
+      "doc": "talk_2009_de",
+      "variables": {
+        "arg1": "Sie nutzen die Tatsache aus , dass in den USA bis zu 40 % der Lebensmittel im Abfall landen , in dem sie nach einwandfreien Nahrungsmitteln in Containern und Abfalleimern suchen",
+        "arg2": "Sie opfern materiellen Komfort im Austausch gegen den Raum und die Zeit , ihr kreatives Inneres zu entdecken , um zu träumen , zu lesen , Musik zu machen , Kunst zu erschaffen und zu schreiben"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 290,
+      "doc": "talk_1971_de",
+      "variables": {
+        "arg1": "Der Prothesenschaft ist der Teil , in welchen der Amputierte seinen Stumpf steckt , der mit der eigentlichen Prothese verbunden ist",
+        "arg2": "Selbst in den Industrieländern dauert es drei Wochen bis hin zu Jahren , bis sich ein Patient an den Schaft gewöhnt , wenn überhaupt"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 291,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "nachhaltiges Investieren berücksichtigt ESG-Faktoren und finanzielle Faktoren beim Anlageprozess",
+        "arg2": "Damit können künftige Risiken durch Minimierung von Schäden an Personen und am Planeten begrenzt und Kapital für die Nutzer bereitgestellt werden , die es für produktive und nachhaltige Ergebnisse einsetzen"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 292,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Hesta ist ein Pensionsfonds für Mitarbeiter im Gesundheitswesen und im öffentlichen Dienst in Australien , mit einem Vermögen von 22 Mrd.\n[ Dollar ]",
+        "arg2": "Sie glauben , dass ESG das Potenzial hat , Risiken und Erträge zu beeinflussen"
+      },
+      "answer_type": "string",
+      "answer": "und"
+    },
+    {
+      "id": 293,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "Gesehen aber haben wir noch keinen ; wir haben sie nur indirekt erfasst",
+        "arg2": "Dies ist das berühmte NASA-Foto vom blass-blauen Punkt"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 294,
+      "doc": "talk_1976_de",
+      "variables": {
+        "arg1": "drehten es um",
+        "arg2": "setzten es in eine Umlaufbahn um den Mars"
+      },
+      "answer_type": "string",
+      "answer": "dann"
+    },
+    {
+      "id": 295,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Sie integrieren die ESG systematisch in den gesamten Fonds .\nWarum",
+        "arg2": "Sie glauben , es ist wichtig für größere langfristige Renditen , Punkt"
+      },
+      "answer_type": "string",
+      "answer": "weil"
+    },
+    {
+      "id": 296,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Pentair ist ein US-Mischkonzern",
+        "arg2": "Vor etwa einem Jahrzehnt verkauften sie ihr Kerngeschäft , Heimwerker-Geräte , und investierten die Einnahmen ins Wassergeschäft"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 297,
+      "doc": "talk_2150_de_inter",
+      "variables": {
+        "arg1": "Eine Sache viel mir in dieser Stadt auf : Alles ist wirklich sehr gemischt",
+        "arg2": "Es ist eine sehr heterogene Stadt , nicht wie Baltimore oder San Francisco"
+      },
+      "answer_type": "string",
+      "answer": "konkret"
+    },
+    {
+      "id": 298,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Im Jahr 2012 hat State Street 54 Anwendungsprogramme in die Cloud-Umgebung migriert und weitere 85 Programme eingestellt",
+        "arg2": "Wir virtualisierten die Arbeitsumgebungen und stellten zahlreiche Automatisierungsprojekte fertig"
+      },
+      "answer_type": "string",
+      "answer": "konkret"
+    },
+    {
+      "id": 299,
+      "doc": "talk_2009_de",
+      "variables": {
+        "arg1": "Aber es gibt viele Aspekte an dieser Art zu leben , die alles andere als idyllisch sind",
+        "arg2": "Niemand verliert seine inneren Dämonen , indem er auf der Straße lebt"
+      },
+      "answer_type": "string",
+      "answer": "weil"
+    },
+    {
+      "id": 300,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Wir virtualisierten die Arbeitsumgebungen und stellten zahlreiche Automatisierungsprojekte fertig",
+        "arg2": "Diese Initiativen schaffen einen mobileren Arbeitsplatz und reduzieren unseren Immobilien-Bedarf"
+      },
+      "answer_type": "string",
+      "answer": "infolgedessen"
+    },
+    {
+      "id": 301,
+      "doc": "talk_1927_de",
+      "variables": {
+        "arg1": "Und in Gold sehen wir die Teilmenge von Unternehmen mit der besten ESG-Leistung",
+        "arg2": "Seit über drei Jahren kein Leistungskompromiss"
+      },
+      "answer_type": "string",
+      "answer": "kurz gesagt"
+    }
+  ]
+}

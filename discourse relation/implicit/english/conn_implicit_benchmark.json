@@ -1,0 +1,4447 @@
+{
+  "task": "conn-implicit",
+  "lang": "english",
+  "example_prompt": "Implicit discourse connective refers to a logical connection between two discourse units (such as sentences or clauses) that is not explicitly marked by a discourse connective (e.g., “because”, “but”, “after”). Instead, the relation must be inferred by the reader or listener using contextual cues and general world knowledge.\n\nWhat is the most appropriate implicit discourse connective to link the following segments?\nHere are the options: accordingly, additionally, after all, and, as a result, as well as, because, but, by comparison, clearly, consequently, except, finally, for example, for instance, for that matter, further, furthermore, however, in contrast, in fact, in order, in other words, in short, in sum, instead, namely, nevertheless, next, on the other hand, rather, similarly, so, specifically, that is, then, therefore, whereas\nIf there is no appropriate implicit connective, answer: no implicit connective\n\nArg1: {{arg1}}\nArg2: {{arg2}}",
+  "instances": [
+    {
+      "id": 1,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "Those petals have to rotate into place.",
+        "arg2": "The base of those petals has to go to the same place every time to within a tenth of a millimeter."
+      },
+      "answer_type": "string",
+      "answer": "specifically"
+    },
+    {
+      "id": 2,
+      "doc": "talk_2150_en_inter",
+      "variables": {
+        "arg1": "there's other ways to think about mapping cities and how they got to be made.",
+        "arg2": "Today, I want to show you a new kind of map."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 3,
+      "doc": "talk_2150_en_intra",
+      "variables": {
+        "arg1": "you do have the media, politics and news lobe that tends to exist in Baltimore and other cities,",
+        "arg2": "you also have this very predominant group of geeks and techies that are sort of taking over the top half of the network,"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 4,
+      "doc": "talk_2009_en",
+      "variables": {
+        "arg1": "travelers view their own existence through the prism of liberation and freedom.",
+        "arg2": "They'd rather live off of the excess of what they view as a wasteful consumer society than slave away at an unrealistic chance at the traditional American dream."
+      },
+      "answer_type": "string",
+      "answer": "that is"
+    },
+    {
+      "id": 5,
+      "doc": "talk_2150_en_inter",
+      "variables": {
+        "arg1": "It's a very heterogenous city in a way that Baltimore or San Francisco is not.",
+        "arg2": "You still have the lobe of people involved with government, newspapers, politics, columnists."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 6,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "We build a big screen, we fly it in space, we put it up in front of the star, we block out most of the light, we fly a space telescope in that shadow that's created, and boom, we get to see planets.",
+        "arg2": "that would look something like this."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 7,
+      "doc": "talk_1971_en",
+      "variables": {
+        "arg1": "It's so soft, it's like walking on pillows, and it's effing sexy.",
+        "arg2": "Disability in our age should not prevent anyone from living meaningful lives."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 8,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "Plan for the future,",
+        "arg2": "that's where you're going to spend the rest of your life."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 9,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "The world is changing in some really profound ways,",
+        "arg2": "I worry that investors aren't paying enough attention to some of the biggest drivers of change, especially when it comes to sustainability."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 10,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "it's not resolved at all.",
+        "arg2": "It's that pale blue dot of Carl Sagan's."
+      },
+      "answer_type": "string",
+      "answer": "in other words"
+    },
+    {
+      "id": 11,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "It's Jackie Joyner-Kersee, who in 1984 missed taking the gold in the heptathlon by one third of a second,",
+        "arg2": "and her husband predicted that would give her the tenacity she needed in follow-up competition."
+      },
+      "answer_type": "string",
+      "answer": "as a result"
+    },
+    {
+      "id": 12,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "Masters are not experts",
+        "arg2": "they take a subject to its conceptual end."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 13,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "The petals unfurl,",
+        "arg2": "they open up,"
+      },
+      "answer_type": "string",
+      "answer": "in other words"
+    },
+    {
+      "id": 14,
+      "doc": "talk_2150_en_intra",
+      "variables": {
+        "arg1": "We see the same people over and over again,",
+        "arg2": "but that's because we're not really exploring the full depth and breadth of the city."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 15,
+      "doc": "talk_2150_en_intra",
+      "variables": {
+        "arg1": "the green part of the network we call Smalltimore,",
+        "arg2": "it seems as though we're living in a very small town."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 16,
+      "doc": "talk_2150_en_inter",
+      "variables": {
+        "arg1": "I'm here on the green side, down on the far right where the geeks are, and TEDx also is down on the far right. (Laughter) Now, on the other side of the network, you tend to have primarily African-American and Latino folks who are really concerned about somewhat different things than the geeks are, but just to give some sense, the green part of the network we call Smalltimore, for those of us that inhabit it, because it seems as though we're living in a very small town. We see the same people over and over again, but that's because we're not really exploring the full depth and breadth of the city. On the other end of the network, you have folks who are interested in things like hip-hop music and they even identify with living in the DC/Maryland/Virginia area over, say, the Baltimore city designation proper.",
+        "arg2": "in the middle, you see that there's something that connects the two communities together, and that's sports."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 17,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "It's a terrible shadow.",
+        "arg2": "we can't see planets."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 18,
+      "doc": "talk_2150_en_inter",
+      "variables": {
+        "arg1": "what we're doing with this data is aiming a space telescope at a city and looking at it as if was a giant high school cafeteria, and seeing how everybody arranged themselves in a seating chart.",
+        "arg2": "maybe it's time to shake up the seating chart a little bit."
+      },
+      "answer_type": "string",
+      "answer": "but"
+    },
+    {
+      "id": 19,
+      "doc": "talk_2009_en",
+      "variables": {
+        "arg1": "Others come from the underbelly of society, never given a chance to mobilize upwards: foster care dropouts, teenage runaways escaping abuse and unforgiving homes.",
+        "arg2": "Where others see stories of privation and economic failure, travelers view their own existence through the prism of liberation and freedom."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 20,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "This has to be done very precisely,",
+        "arg2": "if we can do this, if we can build this technology, if we can get it into space, you might see something like this."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 21,
+      "doc": "talk_2150_en_inter",
+      "variables": {
+        "arg1": "On the one hand, you do have the media, politics and news lobe that tends to exist in Baltimore and other cities, but you also have this very predominant group of geeks and techies that are sort of taking over the top half of the network, and there's even a group that's so distinct and clear that we can identify it as Twitter employees, next to the geeks, in between the gamers and the geeks, at the opposite end of the hip-hop spectrum.",
+        "arg2": "So you can see, that the tensions that we've heard about in San Francisco in terms of people being concerned about gentrification and all the new tech companies that are bringing new wealth and settlement into the city are real, and you can actually see that documented here. You can see the LGBT community is not really getting along with the geek community that well, the arts community, the music community."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 22,
+      "doc": "talk_2150_en_intra",
+      "variables": {
+        "arg1": "each line represents a relationship between those people,",
+        "arg2": "each color represents a community within the network."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 23,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "So we can reconsider some of these pressing challenges, like fresh water, clean air, feeding 10 billion mouths, if institutional investors integrated ESG into investment.",
+        "arg2": "What if they used that firepower to allocate more of their capital to companies working the hardest at solving these challenges or at least not exacerbating them?"
+      },
+      "answer_type": "string",
+      "answer": "but"
+    },
+    {
+      "id": 24,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "the odds that it's not completely wrong are better than the odds that our house will burn down or we'll get in a car accident.",
+        "arg2": "maybe not if you live in Boston."
+      },
+      "answer_type": "string",
+      "answer": "except"
+    },
+    {
+      "id": 25,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "I think it comes when we start to value the gift of a near win.",
+        "arg2": "I started to understand this when I went on one cold May day to watch a set of varsity archers, all women as fate would have it, at the northern tip of Manhattan at Columbia's Baker Athletics Complex."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 26,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "if we can do this,",
+        "arg2": "if we can build this technology,"
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 27,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "we're at Alpha Centauri,",
+        "arg2": "the planet is gone."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 28,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "Resist this,",
+        "arg2": "Don't do this at home."
+      },
+      "answer_type": "string",
+      "answer": "in other words"
+    },
+    {
+      "id": 29,
+      "doc": "talk_1971_en",
+      "variables": {
+        "arg1": "we're using data to make novel sockets quickly and cheaply.",
+        "arg2": "In a recent trial we just wrapped up at the Media Lab, one of our patients, a U.S. veteran who has been an amputee for about 20 years and worn dozens of legs, said of one of our printed parts, \"It's so soft, it's like walking on pillows, and it's effing sexy."
+      },
+      "answer_type": "string",
+      "answer": "for example"
+    },
+    {
+      "id": 30,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "A lot of it.",
+        "arg2": "a really lot of it."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 31,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "That's why I got into doing this,",
+        "arg2": "I think that will change the world."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 32,
+      "doc": "talk_1971_en",
+      "variables": {
+        "arg1": "in which the amputee inserts their residual limb,",
+        "arg2": "which connects to the prosthetic ankle."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 33,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "the next arrow didn't even hit the target.",
+        "arg2": "And I saw that gave her more tenacity,"
+      },
+      "answer_type": "string",
+      "answer": "consequently"
+    },
+    {
+      "id": 34,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "we're doing two things.",
+        "arg2": "We're creating insurance, reducing the risk to our planet and to our economy, and at the same time, in the short term, we're not sacrificing performance."
+      },
+      "answer_type": "string",
+      "answer": "namely"
+    },
+    {
+      "id": 35,
+      "doc": "talk_1971_en",
+      "variables": {
+        "arg1": "that my own children would not go through the same experiences we had.",
+        "arg2": "They would, be part of a Sierra Leone where war and amputation were no longer a strategy for gaining power."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 36,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "What gets us to do this,",
+        "arg2": "what get us to forward thrust more is to value the near win."
+      },
+      "answer_type": "string",
+      "answer": "specifically"
+    },
+    {
+      "id": 37,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "We thrive not when we've done it all,",
+        "arg2": "when we still have more to do."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 38,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "how are companies actually leveraging ESG to drive hard business results?",
+        "arg2": "In 2012, State Street migrated 54 applications to the cloud environment, and we retired another 85. We virtualized our operating system environments, and we completed numerous automation projects. Now these initiatives create a more mobile workplace, and they reduce our real estate footprint, and they yield savings of 23 million dollars in operating costs annually, and avoid the emissions of a 100,000 metric tons of carbon. That's the equivalent of taking 21,000 cars off the road. So awesome, right?"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 39,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "I loved looking at the paintings from the 1970s.",
+        "arg2": "There were some motifs and elements that would come up again later in her life."
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 40,
+      "doc": "talk_2150_en_intra",
+      "variables": {
+        "arg1": "Even Justin Bieber fans are represented here. Other boy bands, country singers, gospel music, funk and rap and stand-up comedy,",
+        "arg2": "there's even a whole section around drugs and jokes."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 41,
+      "doc": "talk_2009_en",
+      "variables": {
+        "arg1": "I kept a packed bag with some clothes and cans of food tucked away in the back of a closet.",
+        "arg2": "There was a deep restlessness in me, a primal fear that I would fall prey to a life of routine and boredom."
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 42,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "we can see the planets beam out just like that.",
+        "arg2": "That, of course, has to be bigger than my thumb."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 43,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "That, of course, has to be bigger than my thumb.",
+        "arg2": "That starshade is about the size of half a football field"
+      },
+      "answer_type": "string",
+      "answer": "in fact"
+    },
+    {
+      "id": 44,
+      "doc": "talk_1971_en",
+      "variables": {
+        "arg1": "I met professor Hugh Herr about two and a half years ago,",
+        "arg2": "he asked me if I knew how to solve this problem,"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 45,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "The data shows that stocks with better ESG performance perform just as well as others.",
+        "arg2": "In blue, we see the MSCI World."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 46,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "she had set it out in the trash in her studio,",
+        "arg2": "and her neighbor had taken it"
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 47,
+      "doc": "talk_1971_en",
+      "variables": {
+        "arg1": "he asked me if I knew how to solve this problem,",
+        "arg2": "I said, \"No, not yet, but I would love to figure it out."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 48,
+      "doc": "talk_2150_en_inter",
+      "variables": {
+        "arg1": "we have the ability to create interventions to start to reshape our cities in a new way, and I believe that if we have that capability, we may even bear some responsibility to do so.",
+        "arg2": "what is a city?"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 49,
+      "doc": "talk_2150_en_inter",
+      "variables": {
+        "arg1": "Even Justin Bieber fans are represented here.",
+        "arg2": "the Flamengo football team is  represented here."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 50,
+      "doc": "talk_1971_en",
+      "variables": {
+        "arg1": "Disability in our age should not prevent anyone from living meaningful lives.",
+        "arg2": "My hope and desire is that the tools and processes we develop in our research group can be used to bring highly functional prostheses to those who need them."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 51,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "the next arrow didn't even hit the target.",
+        "arg2": "I saw that gave her more tenacity,"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 52,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "that's not all.",
+        "arg2": "They're economic issues, and that makes them relevant to risk and return."
+      },
+      "answer_type": "string",
+      "answer": "additionally"
+    },
+    {
+      "id": 53,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "I mean, come on, really?",
+        "arg2": "Do companies that take sustainability into account really do well financially?"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 54,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "Now it occurred to me, as I thought about this, why the archery coach told me at the end of that practice, out of earshot of his archers, that he and his colleagues never feel they can do enough for their team, never feel there are enough visualization techniques and posture drills to help them overcome those constant near wins.",
+        "arg2": "It didn't sound like a complaint, exactly, but just a way to let me know, a kind of tender admission, to remind me that he knew he was giving himself over to a voracious, unfinished path that always required more."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 55,
+      "doc": "talk_2150_en_inter",
+      "variables": {
+        "arg1": "it leads to things like this.",
+        "arg2": "Somebody sent me this photo a few weeks ago, and it shows what is happening on the ground in San Francisco, and I think you can actually try to understand that through looking at a map like this."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 56,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "that had a higher than average rate of near wins",
+        "arg2": "compelled people to buy more tickets"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 57,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "One more time, ten times further away.",
+        "arg2": "we're at Alpha Centauri, and the planet is gone."
+      },
+      "answer_type": "string",
+      "answer": "as a result"
+    },
+    {
+      "id": 58,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "I started to understand this",
+        "arg2": "I went on one cold May day to watch a set of varsity archers,"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 59,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "the light waves of the light and waves diffracts around that screen",
+        "arg2": "it did in the telescope."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 60,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "a deliberate flaw in the pattern",
+        "arg2": "to give the weaver or maker a way out,"
+      },
+      "answer_type": "string",
+      "answer": "in order"
+    },
+    {
+      "id": 61,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "And by sustainability, I mean the really juicy things, like environmental and social issues and corporate governance.",
+        "arg2": "I think it's reckless to ignore these things, because doing so can jeopardize future long-term returns."
+      },
+      "answer_type": "string",
+      "answer": "in fact"
+    },
+    {
+      "id": 62,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "the planet is gone.",
+        "arg2": "All we're seeing is the big beaming image of the star that's ten billion times brighter than the planet,"
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 63,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "We put a telescope or a camera in that shadow, we look back at the sun,",
+        "arg2": "most of the light's been removed"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 64,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "Saunders, who tells me that his triumphs are not merely the result of a grand achievement, but of the propulsion of a lineage of near wins.",
+        "arg2": "We thrive when we stay at our own leading edge."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 65,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "they're not enough.",
+        "arg2": "Investors should also look at performance metrics in what we call ESG: environment, social and governance."
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 66,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "about a decade ago, they sold their core power tools business and reinvested those proceeds in a water business.",
+        "arg2": "That's a really big bet."
+      },
+      "answer_type": "string",
+      "answer": "but"
+    },
+    {
+      "id": 67,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "You'll see the petals unfurl.",
+        "arg2": "Those four petals were built by four undergraduates doing a summer internship at JPL."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 68,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "We have a population that's both growing and aging;",
+        "arg2": "we have seven billion souls today heading to 10 billion at the end of the century;"
+      },
+      "answer_type": "string",
+      "answer": "specifically"
+    },
+    {
+      "id": 69,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "Spitzer actually knew the answer.",
+        "arg2": "If we can feather the edges, soften those edges so we can control diffraction, well then we can see a planet,"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 70,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "Mastery is not a commitment to a goal but to a constant pursuit.",
+        "arg2": "What gets us to do this, what get us to forward thrust more is to value the near win."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 71,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "her coach stood in between us",
+        "arg2": "to maybe assess who might need support,"
+      },
+      "answer_type": "string",
+      "answer": "in order"
+    },
+    {
+      "id": 72,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "Why do they hold the key?",
+        "arg2": "they have the money. (Laughter) A lot of it. I mean, a really lot of it."
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 73,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "that most CEOs are.",
+        "arg2": "They started to see sustainability not just as important but crucial to business success."
+      },
+      "answer_type": "string",
+      "answer": "specifically"
+    },
+    {
+      "id": 74,
+      "doc": "talk_2009_en",
+      "variables": {
+        "arg1": "many of the adventures I fantasized about as a child -- traveling and weaving my way between worlds other than my own — have become realities through my work as a documentary photographer.",
+        "arg2": "no other experience has felt as true to my childhood dreams as living amongst and documenting the lives of fellow wanderers across the United States."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 75,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "they are the second largest in the U.S. and the sixth largest in the world.",
+        "arg2": "they're moving toward 100 percent sustainable investment by systematically integrated ESG across the entire fund."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 76,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "there's more growth in water than in power tools, and this company has their sights set on what they call \"the new New World.",
+        "arg2": "Why did they do that?"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 77,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "You can see Jupiter,",
+        "arg2": "you can see Saturn, Uranus, Neptune,"
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 78,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "they sized me up as they made their way to the turf,",
+        "arg2": "spoke to each other not with words but with numbers, degrees, I thought, positions for how they might plan to hit their target."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 79,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "I like it too.",
+        "arg2": "I like it because it pokes fun at both sides of the climate change issue."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 80,
+      "doc": "talk_2150_en_intra",
+      "variables": {
+        "arg1": "the green part of the network we call Smalltimore,",
+        "arg2": "for those of us that inhabit it,"
+      },
+      "answer_type": "string",
+      "answer": "that is"
+    },
+    {
+      "id": 81,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "Thomas Gilovich and his team from Cornell studied this difference",
+        "arg2": "that the frustration silver medalists feel compared to bronze, who are typically a bit more happy to have just not received fourth place and not medaled at all, gives silver medalists a focus on follow-up competition."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 82,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "Why is that hard?",
+        "arg2": "to see, let's imagine we take the Hubble Space Telescope and we turn it around and we move it out to the orbit of Mars. We'll see something like that, a slightly blurry picture of the Earth, because we're a fairly small telescope out at the orbit of Mars. Now let's move ten times further away. Here we are at the orbit of Uranus. It's gotten smaller, it's got less detail, less resolve. We can still see the little moon, but let's go ten times further away again. Here we are at the edge of the solar system, out at the Kuiper Belt. Now it's not resolved at all. It's that pale blue dot of Carl Sagan's. But let's move yet again ten times further away. Here we are out at the Oort Cloud, outside the solar system, and we're starting to see the sun move into the field of view and get into where the planet is. One more time, ten times further away. Now we're at Alpha Centauri, our nearest neighbor star, and the planet is gone. All we're seeing is the big beaming image of the star that's ten billion times brighter than the planet, which should be in that little red circle. That's what we want to see. That's why it's hard. The light from the star is diffracting. It's scattering inside the telescope, creating that very bright image that washes out the planet."
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 83,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "About 80 percent of global CEOs see sustainability as the root to growth in innovation and leading to competitive advantage in their industries. But 93 percent see ESG as the future, or as important to the future of their business.",
+        "arg2": "the views of CEOs are clear."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 84,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "long-term value creation requires the effective management of three forms of capital: financial, human, and physical.",
+        "arg2": "we are concerned with ESG."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 85,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "we turn it around",
+        "arg2": "we move it out to the orbit of Mars."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 86,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "It's eyes rolling, eyes rolling.",
+        "arg2": "I mean, let me clarify something right here."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 87,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "The answer that may surprise you is yes.",
+        "arg2": "Do companies that take sustainability into account really do well financially?"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 88,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "the views of CEOs are clear.",
+        "arg2": "There's tremendous opportunity in sustainability."
+      },
+      "answer_type": "string",
+      "answer": "in sum"
+    },
+    {
+      "id": 89,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "it makes me wonder if the investment rules of today are fit for purpose tomorrow.",
+        "arg2": "We know that investors, when they look at a company and decide whether to invest, they look at financial data, metrics like sales growth, cash flow, market share, valuation -- you know, the really sexy stuff."
+      },
+      "answer_type": "string",
+      "answer": "for example"
+    },
+    {
+      "id": 90,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "they sized me up",
+        "arg2": "they made their way to the turf,"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 91,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "This is a question I've long asked myself.",
+        "arg2": "I think it comes when we start to value the gift of a near win."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 92,
+      "doc": "talk_2150_en_inter",
+      "variables": {
+        "arg1": "You can see the LGBT community is not really getting along with the geek community that well, the arts community, the music community.",
+        "arg2": "And  it leads to things like this."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 93,
+      "doc": "talk_2150_en_inter",
+      "variables": {
+        "arg1": "Somebody sent me this photo a few weeks ago, and it shows what is happening on the ground in San Francisco, and I think you can actually try to understand that through looking at a map like this.",
+        "arg2": "Let's take a look at Rio de Janeiro."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 94,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "You've all seen that.",
+        "arg2": "That's a solar eclipse."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 95,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "reducing the risk to our planet and to our economy,",
+        "arg2": "we're not sacrificing performance."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 96,
+      "doc": "talk_1971_en",
+      "variables": {
+        "arg1": "I designed custom prosthetic sockets quickly and cheaply that are more comfortable than conventional prostheses.",
+        "arg2": "I used magnetic resonance imaging to capture the actual shape of the patient's anatomy,"
+      },
+      "answer_type": "string",
+      "answer": "specifically"
+    },
+    {
+      "id": 97,
+      "doc": "talk_2150_en_inter",
+      "variables": {
+        "arg1": "I want to show you a new kind of map.",
+        "arg2": "This is not a geographic map."
+      },
+      "answer_type": "string",
+      "answer": "but"
+    },
+    {
+      "id": 98,
+      "doc": "talk_2150_en_intra",
+      "variables": {
+        "arg1": "Under Armour, you may have heard of, is a Baltimore company,",
+        "arg2": "that community of sports acts as the only bridge between these two ends of the network."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 99,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "That's four billion middle class people demanding food, energy and water.",
+        "arg2": "Now, you may be asking yourself, are these just isolated cases?"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 100,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "they yield savings of 23 million dollars in operating costs annually,",
+        "arg2": "avoid the emissions of a 100,000 metric tons of carbon."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 101,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "It's about half the size of the one you just saw.",
+        "arg2": "You'll see the petals unfurl."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 102,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "It would be the same thing if I put my thumb up and blocked that spotlight that's getting right in my eye, I can see you in the back row.",
+        "arg2": "Well, what's going on?"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 103,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "unfortunately it doesn't actually work very well,",
+        "arg2": "the light waves of the light and waves diffracts around that screen the same way it did in the telescope."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 104,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "I think that will change the world.",
+        "arg2": "That will change everything when we see that."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 105,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "Elizabeth Murray surprised me",
+        "arg2": "her admission about her earlier paintings."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 106,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "CalPERS is the pension fund for public employees in California,",
+        "arg2": "with assets of 244 billion [dollars], they are the second largest in the U.S. and the sixth largest in the world."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 107,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "we can reconsider some of these pressing challenges, like fresh water, clean air, feeding 10 billion mouths,",
+        "arg2": "institutional investors integrated ESG into investment."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 108,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "We can still see the little moon,",
+        "arg2": "let's go ten times further away again."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 109,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "The global stock market is worth 55 trillion dollars.",
+        "arg2": "The global bond market, 78 trillion."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 110,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "I mean, let me clarify something right here.",
+        "arg2": "Companies and investors are not singularly responsible for the fate of the planet."
+      },
+      "answer_type": "string",
+      "answer": "that is"
+    },
+    {
+      "id": 111,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "she won the gold in the heptathlon",
+        "arg2": "set a record of 7,291 points,"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 112,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "For three hours this went on.",
+        "arg2": "At the end of the practice, one of the archers was so taxed that she lied out on the ground just star-fished, her head looking up at the sky, trying to find what T.S. Eliot might call that still point of the turning world."
+      },
+      "answer_type": "string",
+      "answer": "finally"
+    },
+    {
+      "id": 113,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "they turned it around",
+        "arg2": "it was exiting the solar system to take a picture of the Earth from six billion kilometers away."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 114,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "It was first suggested by Lyman Spitzer, the father of the space telescope, in 1962, and he took his inspiration from an eclipse.",
+        "arg2": "You've all seen that."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 115,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "they look at financial data, metrics like sales growth, cash flow, market share, valuation -- you know, the really sexy stuff.",
+        "arg2": "they look at a company and decide whether to invest,"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 116,
+      "doc": "talk_1971_en",
+      "variables": {
+        "arg1": "If your prosthetic socket is uncomfortable, you will not use your leg,",
+        "arg2": "that is just simply unacceptable in our age."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 117,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "it's why the deliberate incomplete is inbuilt into creation myths.",
+        "arg2": "In Navajo culture, some craftsmen and women would deliberately put an imperfection in textiles and ceramics."
+      },
+      "answer_type": "string",
+      "answer": "for example"
+    },
+    {
+      "id": 118,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "That's some serious freaking firepower.",
+        "arg2": "So we can reconsider some of these pressing challenges, like fresh water, clean air, feeding 10 billion mouths, if institutional investors integrated ESG into investment."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 119,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "Painter Paul Cézanne so often thought his works were incomplete that he would deliberately leave them aside with the intention of picking them back up again,",
+        "arg2": "at the end of his life, the result was that he had only signed 10 percent of his paintings."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 120,
+      "doc": "talk_2009_en",
+      "variables": {
+        "arg1": "there will always be an element of those who seek the open road as a means of escape, of liberation and, of course, of rebellion.",
+        "arg2": "we live in a society where every human is assured dignity in their labor so that they can work to live well, not only work to survive,"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 121,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "I want to take that of an Earth-like planet about another star.",
+        "arg2": "Why haven't we done that?"
+      },
+      "answer_type": "string",
+      "answer": "but"
+    },
+    {
+      "id": 122,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "It blocks out most of the light so we can see that dim corona around it.",
+        "arg2": "It would be the same thing if I put my thumb up and blocked that spotlight that's getting right in my eye,"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 123,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "It's going to move in front of the star just like that, creates a wonderful shadow.",
+        "arg2": "we get planets orbiting about it."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 124,
+      "doc": "talk_2150_en_intra",
+      "variables": {
+        "arg1": "we tend to think about roads and streets and buildings, and the settlement narrative that led to their creation,",
+        "arg2": "you might think about the bold vision of an urban designer,"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 125,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "prudent investing and finance theory aren't subordinate to sustainability.",
+        "arg2": "They're compatible."
+      },
+      "answer_type": "string",
+      "answer": "rather"
+    },
+    {
+      "id": 126,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "I want us, in the next decade, to build a space telescope that'll be able to image an Earth about another star and figure out whether it can harbor life.",
+        "arg2": "My colleagues at the NASA Jet Propulsion Laboratory at Princeton and I are working on technology that will be able to do just that in the coming years."
+      },
+      "answer_type": "string",
+      "answer": "accordingly"
+    },
+    {
+      "id": 127,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "That's 133 trillion combined.",
+        "arg2": "That's eight and a half times the GDP of the U.S."
+      },
+      "answer_type": "string",
+      "answer": "by comparison"
+    },
+    {
+      "id": 128,
+      "doc": "talk_2009_en",
+      "variables": {
+        "arg1": "They'd rather live off of the excess of what they view as a wasteful consumer society than slave away at an unrealistic chance at the traditional American dream.",
+        "arg2": "They take advantage of the fact that in the United States, up to 40 percent of all food ends up in the garbage by scavenging for perfectly good produce in dumpsters and trash cans."
+      },
+      "answer_type": "string",
+      "answer": "specifically"
+    },
+    {
+      "id": 129,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "not ours.",
+        "arg2": "We're hoping it'll be someone else's solar system as seen through an occulter, through a starshade like that."
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 130,
+      "doc": "talk_1971_en",
+      "variables": {
+        "arg1": "Prosthetists still use conventional processes like molding and casting to create single-material prosthetic sockets.",
+        "arg2": "Such sockets often leave intolerable amounts of pressure on the limbs of the patient, leaving them with pressure sores and blisters."
+      },
+      "answer_type": "string",
+      "answer": "consequently"
+    },
+    {
+      "id": 131,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "I remember asking her what she thought of those early works.",
+        "arg2": "If you didn't know they were hers, you might not have been able to guess."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 132,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "Spitzer's suggestion was we do this in space.",
+        "arg2": "We build a big screen, we fly it in space, we put it up in front of the star, we block out most of the light, we fly a space telescope in that shadow that's created, and boom, we get to see planets."
+      },
+      "answer_type": "string",
+      "answer": "specifically"
+    },
+    {
+      "id": 133,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "a few are really at the vanguard.",
+        "arg2": "Hesta. Hesta is a retirement fund for health and community services employees in Australia, with assets of 22 billion [dollars]"
+      },
+      "answer_type": "string",
+      "answer": "for instance"
+    },
+    {
+      "id": 134,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "institutional investors are the x-factor in sustainability.",
+        "arg2": "Why do they hold the key?"
+      },
+      "answer_type": "string",
+      "answer": "so"
+    },
+    {
+      "id": 135,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "They're economic issues,",
+        "arg2": "and that makes them relevant to risk and return."
+      },
+      "answer_type": "string",
+      "answer": "as a result"
+    },
+    {
+      "id": 136,
+      "doc": "talk_2150_en_intra",
+      "variables": {
+        "arg1": "We've got people represented from all different types of races across the entire map here",
+        "arg2": "only looking at race doesn't really contribute to our development of diversity."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 137,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "How many times have we designated something a classic, a masterpiece even, while its creator considers it hopelessly unfinished, riddled with difficulties and flaws, in other words, a near win?",
+        "arg2": "Elizabeth Murray surprised me with her admission about her earlier paintings."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 138,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "If we can feather the edges,",
+        "arg2": "soften those edges"
+      },
+      "answer_type": "string",
+      "answer": "specifically"
+    },
+    {
+      "id": 139,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "We call that our flower petal starshade.",
+        "arg2": "If we make the edges of those petals exactly right, if we control their shape, we can control diffraction, and now we have a great shadow."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 140,
+      "doc": "talk_2150_en_intra",
+      "variables": {
+        "arg1": "it's represented in a very different way,",
+        "arg2": "I think that maybe fits with our understanding of Rio as being a very multicultural, musically diverse city."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 141,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "That's a solar eclipse.",
+        "arg2": "The moon has moved in front of the sun."
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 142,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "you might see something like this.",
+        "arg2": "we can do this, we can build this technology, we can get it into space,"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 143,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "I feel so fortunate that my first job was working at the Museum of Modern Art on a retrospective of painter Elizabeth Murray.",
+        "arg2": "I learned so much from her."
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 144,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "His favorite novel was \"The [Unknown] Masterpiece\" by Honoré de Balzac,",
+        "arg2": "he felt the protagonist was the painter himself."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 145,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "a really lot of it.",
+        "arg2": "The global stock market is worth 55 trillion dollars."
+      },
+      "answer_type": "string",
+      "answer": "for instance"
+    },
+    {
+      "id": 146,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "I think on some gut level we do know this.",
+        "arg2": "We know that we thrive when we stay at our own leading edge,"
+      },
+      "answer_type": "string",
+      "answer": "that is"
+    },
+    {
+      "id": 147,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "we take the Hubble Space Telescope",
+        "arg2": "and we turn it around"
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 148,
+      "doc": "talk_2150_en_inter",
+      "variables": {
+        "arg1": "you have that same kind of spread of sports and civics and the arts and music, but it's represented in a very different way, and I think that maybe fits with our understanding of Rio as being a very multicultural, musically diverse city.",
+        "arg2": "we have all this data."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 149,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "Part of the reason that the near win is inbuilt to mastery is because the greater our proficiency, the more clearly we might see that we don't know all that we thought we did.",
+        "arg2": "It's called the Dunning–Kruger effect."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 150,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "you can see Saturn, Uranus, Neptune,",
+        "arg2": "right there in the center, next to the residual light is that pale blue dot."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 151,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "We put a telescope or a camera in that shadow,",
+        "arg2": "we look back at the sun,"
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 152,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "It's what's called a spirit line, a deliberate flaw in the pattern to give the weaver or maker a way out,",
+        "arg2": "also a reason to continue making work."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 153,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "that his triumphs are not merely the result of a grand achievement,",
+        "arg2": "of the propulsion of a lineage of near wins."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 154,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "you might not have been able to guess.",
+        "arg2": "you didn't know they were hers,"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 155,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "State Street migrated 54 applications to the cloud environment,",
+        "arg2": "we retired another 85."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 156,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "In blue, we see the performance of the 500 largest global companies, and in gold, we see a subset of companies with best practice in climate change strategy and risk management.",
+        "arg2": "over almost eight years, they've outperformed by about two thirds."
+      },
+      "answer_type": "string",
+      "answer": "clearly"
+    },
+    {
+      "id": 157,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "Elizabeth Murray surprised me with her admission about her earlier paintings.",
+        "arg2": "Painter Paul Cézanne so often thought his works were incomplete that he would deliberately leave them aside with the intention of picking them back up again,"
+      },
+      "answer_type": "string",
+      "answer": "similarly"
+    },
+    {
+      "id": 158,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "All we're seeing is the big beaming image of the star that's ten billion times brighter than the planet,",
+        "arg2": "That's what we want to see."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 159,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "What if we work and save and invest, only to find that the world we retire into is more stressed and less secure than it is now?",
+        "arg2": "What if there isn't enough clean air and fresh water?"
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 160,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "CalPERS is another example.",
+        "arg2": "CalPERS is the pension fund for public employees in California,"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 161,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "There's tremendous opportunity in sustainability.",
+        "arg2": "how are companies actually leveraging ESG to drive hard business results?"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 162,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "you might describe it with granular, practical clarity.",
+        "arg2": "I ask you to describe a great day at TED tomorrow,"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 163,
+      "doc": "talk_1971_en",
+      "variables": {
+        "arg1": "It does not matter how powerful your prosthetic ankle is.",
+        "arg2": "If your prosthetic socket is uncomfortable, you will not use your leg,"
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 164,
+      "doc": "talk_2009_en",
+      "variables": {
+        "arg1": "There was a deep restlessness in me, a primal fear that I would fall prey to a life of routine and boredom.",
+        "arg2": "And  many of my early memories involved intricate daydreams where I would walk across borders, forage for berries, and meet all kinds of strange people living unconventional lives on the road."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 165,
+      "doc": "talk_1971_en",
+      "variables": {
+        "arg1": "use finite element modeling to better predict the internal stresses and strains on the normal forces,",
+        "arg2": "create a prosthetic socket for manufacture."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 166,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "these initiatives create a more mobile workplace,",
+        "arg2": "and they reduce our real estate footprint,"
+      },
+      "answer_type": "string",
+      "answer": "consequently"
+    },
+    {
+      "id": 167,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "she won the gold in the heptathlon",
+        "arg2": "and set a record of 7,291 points,"
+      },
+      "answer_type": "string",
+      "answer": "as a result"
+    },
+    {
+      "id": 168,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "I think this is the coolest possible science.",
+        "arg2": "That's why I got into doing this, because I think that will change the world."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 169,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "that's okay, right?",
+        "arg2": "We want more."
+      },
+      "answer_type": "string",
+      "answer": "but"
+    },
+    {
+      "id": 170,
+      "doc": "talk_2009_en",
+      "variables": {
+        "arg1": "stick out their thumbs,",
+        "arg2": "ride the highways with anyone from truckers to soccer moms."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 171,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "in the last 10 years or so we've come up with optimal solutions for doing that.",
+        "arg2": "It looks something like that."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 172,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "His friend refused to honor the request,",
+        "arg2": "we now have all the works we now do by Kafka: \"America,\" \"The Trial\" and \"The Castle,\" a work so incomplete it even stops mid-sentence."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 173,
+      "doc": "talk_2150_en_intra",
+      "variables": {
+        "arg1": "It's an incredibly rich set of data that we have about cities now,",
+        "arg2": "maybe even richer than any data set that we've ever had before."
+      },
+      "answer_type": "string",
+      "answer": "in fact"
+    },
+    {
+      "id": 174,
+      "doc": "talk_2150_en_intra",
+      "variables": {
+        "arg1": "then maybe we have a real shot at creating those kinds of cities that we'd like to have.",
+        "arg2": "we can start to document those relationships in a real way"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 175,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "Hesta is a retirement fund for health and community services employees in Australia, with assets of 22 billion [dollars]",
+        "arg2": "They believe that ESG has the potential to impact risks and returns,"
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 176,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "They believe it's critical to superior long-term returns, full stop.",
+        "arg2": "long-term value creation requires the effective management of three forms of capital: financial, human, and physical."
+      },
+      "answer_type": "string",
+      "answer": "that is"
+    },
+    {
+      "id": 177,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "The Paris Review got it out of James Baldwin when they asked him, \"What do you think increases with knowledge?\" and he said, \"You learn how little you know.",
+        "arg2": "Success motivates us, but a near win can propel us in an ongoing quest."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 178,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "let's go ten times further away again.",
+        "arg2": "we are at the edge of the solar system, out at the Kuiper Belt."
+      },
+      "answer_type": "string",
+      "answer": "as a result"
+    },
+    {
+      "id": 179,
+      "doc": "talk_2150_en_intra",
+      "variables": {
+        "arg1": "you have that same kind of spread of sports and civics and the arts and music, but it's represented in a very different way,",
+        "arg2": "and I think that maybe fits with our understanding of Rio as being a very multicultural, musically diverse city."
+      },
+      "answer_type": "string",
+      "answer": "as a result"
+    },
+    {
+      "id": 180,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "it changes our view of the landscape",
+        "arg2": "puts our goals, which we tend to put at a distance, into more proximate vicinity to where we stand."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 181,
+      "doc": "talk_2150_en_inter",
+      "variables": {
+        "arg1": "I'm here on the green side, down on the far right where the geeks are, and TEDx also is down on the far right.",
+        "arg2": "on the other side of the network, you tend to have primarily African-American and Latino folks who are really concerned about somewhat different things than the geeks are,"
+      },
+      "answer_type": "string",
+      "answer": "in contrast"
+    },
+    {
+      "id": 182,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "In Navajo culture, some craftsmen and women would deliberately put an imperfection in textiles and ceramics.",
+        "arg2": "It's what's called a spirit line, a deliberate flaw in the pattern to give the weaver or maker a way out, but also a reason to continue making work."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 183,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "There were some motifs and elements that would come up again later in her life.",
+        "arg2": "I remember asking her what she thought of those early works."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 184,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "you may be asking yourself, are these just isolated cases?",
+        "arg2": "I mean, come on, really?"
+      },
+      "answer_type": "string",
+      "answer": "but"
+    },
+    {
+      "id": 185,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "They don't have indefinite social obligations,",
+        "arg2": "prudent investing and finance theory aren't subordinate to sustainability."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 186,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "to see the planet, we have to do something about all of that light.",
+        "arg2": "We have to get rid of it."
+      },
+      "answer_type": "string",
+      "answer": "specifically"
+    },
+    {
+      "id": 187,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "It looks something like that.",
+        "arg2": "We call that our flower petal starshade."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 188,
+      "doc": "talk_2150_en_inter",
+      "variables": {
+        "arg1": "there's even a whole section around drugs and jokes.",
+        "arg2": "How cool is that?"
+      },
+      "answer_type": "string",
+      "answer": "so"
+    },
+    {
+      "id": 189,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "The one that just really gets under my skin is, \"If you want to do something about that, just make money, give the profits to charities.",
+        "arg2": "It's eyes rolling, eyes rolling."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 190,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "let's move yet again ten times further away.",
+        "arg2": "we are out at the Oort Cloud, outside the solar system,"
+      },
+      "answer_type": "string",
+      "answer": "as a result"
+    },
+    {
+      "id": 191,
+      "doc": "talk_2009_en",
+      "variables": {
+        "arg1": "I know about these laws",
+        "arg2": "I've watched as friends and other travelers were hauled off to jail or received citations for committing these so-called crimes."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 192,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "Mastery is about sacrificing for your craft",
+        "arg2": "not for the sake of crafting your career."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 193,
+      "doc": "talk_2009_en",
+      "variables": {
+        "arg1": "there are many aspects to this life that are far from idyllic.",
+        "arg2": "No one loses their inner demons by taking to the road."
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 194,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "It gets us to focus on what, right now, we plan to do to address that mountain in our sights.",
+        "arg2": "It's Jackie Joyner-Kersee, who in 1984 missed taking the gold in the heptathlon by one third of a second, and her husband predicted that would give her the tenacity she needed in follow-up competition."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 195,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "I stood behind one archer",
+        "arg2": "her coach stood in between us"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 196,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "Masters are not experts because they take a subject to its conceptual end.",
+        "arg2": "They're masters because they realize that there isn't one."
+      },
+      "answer_type": "string",
+      "answer": "rather"
+    },
+    {
+      "id": 197,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "you're seeing it deploy.",
+        "arg2": "Those petals have to rotate into place."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 198,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "Completion is a goal,",
+        "arg2": "we hope it is never the end."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 199,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "We know that we thrive when we stay at our own leading edge,",
+        "arg2": "and it's why the deliberate incomplete is inbuilt into creation myths."
+      },
+      "answer_type": "string",
+      "answer": "as a result"
+    },
+    {
+      "id": 200,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "they reduce our real estate footprint,",
+        "arg2": "they yield savings of 23 million dollars in operating costs annually,"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 201,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "One of the works, in fact, so didn't meet her mark, she had set it out in the trash in her studio, and her neighbor had taken it because she saw its value.",
+        "arg2": "In that moment, my view of success and creativity changed."
+      },
+      "answer_type": "string",
+      "answer": "consequently"
+    },
+    {
+      "id": 202,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "I saw that gave her more tenacity,",
+        "arg2": "and she went after it again and again."
+      },
+      "answer_type": "string",
+      "answer": "as a result"
+    },
+    {
+      "id": 203,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "let's imagine we take the Hubble Space Telescope and we turn it around and we move it out to the orbit of Mars. We'll see something like that, a slightly blurry picture of the Earth, because we're a fairly small telescope out at the orbit of Mars.",
+        "arg2": "let's move ten times further away."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 204,
+      "doc": "talk_1971_en",
+      "variables": {
+        "arg1": "create a prosthetic socket for manufacture.",
+        "arg2": "We use a 3D printer to create a multi-material prosthetic socket which relieves pressure where needed on the anatomy of the patient."
+      },
+      "answer_type": "string",
+      "answer": "specifically"
+    },
+    {
+      "id": 205,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "if we can build this technology,",
+        "arg2": "if we can get it into space,"
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 206,
+      "doc": "talk_2150_en_intra",
+      "variables": {
+        "arg1": "to create interventions",
+        "arg2": "to start to reshape our cities in a new way,"
+      },
+      "answer_type": "string",
+      "answer": "in order"
+    },
+    {
+      "id": 207,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "we take the Hubble Space Telescope",
+        "arg2": "we turn it around"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 208,
+      "doc": "talk_2150_en_inter",
+      "variables": {
+        "arg1": "that's sports.",
+        "arg2": "We have the Baltimore Orioles, the Baltimore Ravens football team, Michael Phelps, the Olympian."
+      },
+      "answer_type": "string",
+      "answer": "for example"
+    },
+    {
+      "id": 209,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "I can appreciate that there is estimation risk in this,",
+        "arg2": "since this is based on widespread scientific consensus, the odds that it's not completely wrong are better than the odds that our house will burn down or we'll get in a car accident."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 210,
+      "doc": "talk_2009_en",
+      "variables": {
+        "arg1": "loses their inner demons",
+        "arg2": "taking to the road."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 211,
+      "doc": "talk_2150_en_inter",
+      "variables": {
+        "arg1": "We have the Baltimore Orioles, the Baltimore Ravens football team, Michael Phelps, the Olympian.",
+        "arg2": "Under Armour, you may have heard of, is a Baltimore company, and that community of sports acts as the only bridge between these two ends of the network."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 212,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "I wanted to see what's called archer's paradox, the idea that in order to actually hit your target, you have to aim at something slightly skew from it.",
+        "arg2": "I stood and watched as the coach drove up these women in this gray van,"
+      },
+      "answer_type": "string",
+      "answer": "so"
+    },
+    {
+      "id": 213,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "What gets us to convert success into mastery?",
+        "arg2": "This is a question I've long asked myself."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 214,
+      "doc": "talk_1971_en",
+      "variables": {
+        "arg1": "Prosthetists still use conventional processes like molding and casting",
+        "arg2": "to create single-material prosthetic sockets."
+      },
+      "answer_type": "string",
+      "answer": "in order"
+    },
+    {
+      "id": 215,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "what get us to forward thrust more is to value the near win.",
+        "arg2": "How many times have we designated something a classic, a masterpiece even, while its creator considers it hopelessly unfinished, riddled with difficulties and flaws, in other words, a near win?"
+      },
+      "answer_type": "string",
+      "answer": "for example"
+    },
+    {
+      "id": 216,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "Thomas Gilovich and his team from Cornell studied this difference and found that the frustration silver medalists feel compared to bronze, who are typically a bit more happy to have just not received fourth place and not medaled at all, gives silver medalists a focus on follow-up competition.",
+        "arg2": "We see it even in the gambling industry that once picked up on this phenomenon of the near win and created these scratch-off tickets that had a higher than average rate of near wins and so compelled people to buy more tickets that they were called heart-stoppers, and were set on a gambling industry set of abuses in Britain in the 1970s."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 217,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "I think it's reckless to ignore these things, because doing so can jeopardize future long-term returns.",
+        "arg2": "here's something that may surprise you: the balance of power to really influence sustainability rests with institutional investors, the large investors like pension funds, foundations and endowments."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 218,
+      "doc": "talk_1971_en",
+      "variables": {
+        "arg1": "Even in the developed world, it takes a period of three weeks to often years for a patient to get a comfortable socket, if ever.",
+        "arg2": "Prosthetists still use conventional processes like molding and casting to create single-material prosthetic sockets."
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 219,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "just make money, give the profits to charities.",
+        "arg2": "you want to do something about that,"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 220,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "It's about 10 billion times dimmer than it was before,",
+        "arg2": "we can see the planets beam out just like that."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 221,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "If you didn't know they were hers, you might not have been able to guess.",
+        "arg2": "She told me that a few didn't quite meet her own mark for what she wanted them to be."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 222,
+      "doc": "talk_2150_en_inter",
+      "variables": {
+        "arg1": "we have all this data.",
+        "arg2": "It's an incredibly rich set of data that we have about cities now, maybe even richer than any data set that we've ever had before."
+      },
+      "answer_type": "string",
+      "answer": "furthermore"
+    },
+    {
+      "id": 223,
+      "doc": "talk_2150_en_inter",
+      "variables": {
+        "arg1": "This is not a geographic map.",
+        "arg2": "This is a map of the relationships between people in my hometown of Baltimore, Maryland,"
+      },
+      "answer_type": "string",
+      "answer": "rather"
+    },
+    {
+      "id": 224,
+      "doc": "talk_2009_en",
+      "variables": {
+        "arg1": "Some travelers take to the road by choice, renouncing materialism, traditional jobs and university degrees in exchange for a glimmer of adventure.",
+        "arg2": "Others come from the underbelly of society, never given a chance to mobilize upwards: foster care dropouts, teenage runaways escaping abuse and unforgiving homes."
+      },
+      "answer_type": "string",
+      "answer": "whereas"
+    },
+    {
+      "id": 225,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "the temptation may be to do this: bury our heads in the sand and not think about it.",
+        "arg2": "it makes me wonder if the investment rules of today are fit for purpose tomorrow."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 226,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "Investors should also look at performance metrics in what we call ESG: environment, social and governance.",
+        "arg2": "Environment includes energy consumption, water availability, waste and pollution, just making efficient uses of resources."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 227,
+      "doc": "talk_2009_en",
+      "variables": {
+        "arg1": "no other experience has felt as true to my childhood dreams as living amongst and documenting the lives of fellow wanderers across the United States.",
+        "arg2": "This is the nomadic dream, a different kind of American dream lived by young hobos, travelers, hitchhikers, vagrants and tramps."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 228,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "It would be the same thing if I put my thumb up and blocked that spotlight that's getting right in my eye,",
+        "arg2": "I can see you in the back row."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 229,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "Mastery is not just the same as excellence,",
+        "arg2": "It's not the same as success,"
+      },
+      "answer_type": "string",
+      "answer": "similarly"
+    },
+    {
+      "id": 230,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "we turn it around",
+        "arg2": "and we move it out to the orbit of Mars."
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 231,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "It's what I have to imagine Elizabeth Murray was thinking when I saw her smiling at those early paintings one day in the galleries.",
+        "arg2": "Even if we created utopias, I believe we would still have the incomplete."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 232,
+      "doc": "talk_1971_en",
+      "variables": {
+        "arg1": "For me, a place to begin healing the souls of those affected by war and disease is by creating comfortable and affordable interfaces for their bodies.",
+        "arg2": "Whether it's in Sierra Leone or in Boston, I hope this not only restores but indeed transforms their sense of human potential."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 233,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "spoke to each other not with words",
+        "arg2": "with numbers, degrees, I thought, positions for how they might plan to hit their target."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 234,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "President John F. Kennedy said something about this that is just spot on: \"There are risks and costs to a program of action, but they are far less than the long-range risks and costs of comfortable inaction.",
+        "arg2": "what if all this sustainability risk stuff is exaggerated, overstated, it's not urgent, something for virtuous consumers or lifestyle choice?"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 235,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "In 2012, State Street migrated 54 applications to the cloud environment, and we retired another 85.",
+        "arg2": "We virtualized our operating system environments, and we completed numerous automation projects."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 236,
+      "doc": "talk_1971_en",
+      "variables": {
+        "arg1": "you will not use your leg,",
+        "arg2": "your prosthetic socket is uncomfortable,"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 237,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "That's a picture of one our nearest neighbor stars taken with the Hubble Space Telescope.",
+        "arg2": "If we can take a similar space telescope, slightly larger, put it out there, fly an occulter in front of it, what we might see is something like that -- that's a family portrait of our solar system -- but not ours."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 238,
+      "doc": "talk_1971_en",
+      "variables": {
+        "arg1": "that many of the amputees in the country would not use their prostheses.",
+        "arg2": "that their prosthetic sockets were painful because they did not fit well."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 239,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "just a way to let me know, a kind of tender admission,",
+        "arg2": "to remind me that he knew he was giving himself over to a voracious, unfinished path that always required more."
+      },
+      "answer_type": "string",
+      "answer": "in order"
+    },
+    {
+      "id": 240,
+      "doc": "talk_2150_en_inter",
+      "variables": {
+        "arg1": "the first thing that we can try to understand is that segregation is a social construct.",
+        "arg2": "The other thing that we start to realize is that race is a really poor proxy for diversity."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 241,
+      "doc": "talk_2009_en",
+      "variables": {
+        "arg1": "They take advantage of the fact that in the United States, up to 40 percent of all food ends up in the garbage by scavenging for perfectly good produce in dumpsters and trash cans.",
+        "arg2": "They sacrifice material comforts in exchange for the space and the time to explore a creative interior, to dream, to read, to work on music, art and writing."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 242,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "We ran this test 16 times,",
+        "arg2": "16 times it went into the exact same place to a tenth of a millimeter."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 243,
+      "doc": "talk_2009_en",
+      "variables": {
+        "arg1": "They'd  live off of the excess of what they view as a wasteful consumer society",
+        "arg2": "slave away at an unrealistic chance at the traditional American dream."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 244,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "It didn't sound like a complaint, exactly, but just a way to let me know, a kind of tender admission, to remind me that he knew he was giving himself over to a voracious, unfinished path that always required more.",
+        "arg2": "We build out of the unfinished idea, even if that idea is our former self."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 245,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "Lord, grant that I desire more than I can accomplish,\" Michelangelo implored, as if to that Old Testament God on the Sistine Chapel,",
+        "arg2": "he himself was that Adam with his finger outstretched and not quite touching that God's hand."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 246,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "It blocks out most of the light",
+        "arg2": "we can see that dim corona around it."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 247,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "they sold their core power tools business",
+        "arg2": "and reinvested those proceeds in a water business."
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 248,
+      "doc": "talk_2150_en_inter",
+      "variables": {
+        "arg1": "you can actually see that documented here.",
+        "arg2": "You can see the LGBT community is not really getting along with the geek community that well, the arts community, the music community."
+      },
+      "answer_type": "string",
+      "answer": "for example"
+    },
+    {
+      "id": 249,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "she went after it again and again.",
+        "arg2": "For three hours this went on."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 250,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "who in 1984 missed taking the gold in the heptathlon by one third of a second, and her husband predicted that would give her the tenacity she needed in follow-up competition.",
+        "arg2": "In 1988, she won the gold in the heptathlon and set a record of 7,291 points, a score that no athlete has come very close to since."
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 251,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "not all of them see it this way.",
+        "arg2": "Often I hear, \"We are required to maximize returns, so we don't do that here,\" or, \"We don't want to use the portfolio to make policy statements."
+      },
+      "answer_type": "string",
+      "answer": "instead"
+    },
+    {
+      "id": 252,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "we have seven billion souls today heading to 10 billion at the end of the century;",
+        "arg2": "we consume natural resources faster than they can be replenished;"
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 253,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "working on really amazing technologies",
+        "arg2": "to do that,"
+      },
+      "answer_type": "string",
+      "answer": "in order"
+    },
+    {
+      "id": 254,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "let's move ten times further away.",
+        "arg2": "we are at the orbit of Uranus."
+      },
+      "answer_type": "string",
+      "answer": "as a result"
+    },
+    {
+      "id": 255,
+      "doc": "talk_1971_en",
+      "variables": {
+        "arg1": "I used magnetic resonance imaging",
+        "arg2": "to capture the actual shape of the patient's anatomy,"
+      },
+      "answer_type": "string",
+      "answer": "in order"
+    },
+    {
+      "id": 256,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "We're hoping it'll be someone else's solar system as seen through an occulter, through a starshade like that.",
+        "arg2": "You can see Jupiter, you can see Saturn, Uranus, Neptune, and right there in the center, next to the residual light is that pale blue dot."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 257,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "It was taken by the Voyager spacecraft in 1990, when they turned it around as it was exiting the solar system to take a picture of the Earth from six billion kilometers away.",
+        "arg2": "I want to take that of an Earth-like planet about another star."
+      },
+      "answer_type": "string",
+      "answer": "similarly"
+    },
+    {
+      "id": 258,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "they sold their core power tools business",
+        "arg2": "reinvested those proceeds in a water business."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 259,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "Environment includes energy consumption, water availability, waste and pollution, just making efficient uses of resources.",
+        "arg2": "Social includes human capital, things like employee engagement and innovation capacity, as well as supply chain management and labor rights and human rights."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 260,
+      "doc": "talk_2150_en_inter",
+      "variables": {
+        "arg1": "You still have the lobe of people involved with government, newspapers, politics, columnists.",
+        "arg2": "TEDxRio is down in the lower right, right next to bloggers and writers."
+      },
+      "answer_type": "string",
+      "answer": "in fact"
+    },
+    {
+      "id": 261,
+      "doc": "talk_2009_en",
+      "variables": {
+        "arg1": "they portray a community swirling across the country, fiercely alive and creatively free, seeing sides of America that no one else gets to see.",
+        "arg2": "Like their predecessors, today's nomads travel the steel and asphalt arteries of the United States."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 262,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "The moon has moved in front of the sun.",
+        "arg2": "It blocks out most of the light so we can see that dim corona around it."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 263,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "they're moving toward 100 percent sustainable investment by systematically integrated ESG across the entire fund. Why?",
+        "arg2": "They believe it's critical to superior long-term returns, full stop."
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 264,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "Astronomers now believe that every star in the galaxy has a planet, and they speculate that up to one fifth of them have an Earth-like planet that might be able to harbor life,",
+        "arg2": "we haven't seen any of them."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 265,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "bury our heads in the sand and not think about it.",
+        "arg2": "Resist this, if you can."
+      },
+      "answer_type": "string",
+      "answer": "but"
+    },
+    {
+      "id": 266,
+      "doc": "talk_1971_en",
+      "variables": {
+        "arg1": "The prosthetic socket is the part in which the amputee inserts their residual limb, and which connects to the prosthetic ankle.",
+        "arg2": "Even in the developed world, it takes a period of three weeks to often years for a patient to get a comfortable socket, if ever."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 267,
+      "doc": "talk_1971_en",
+      "variables": {
+        "arg1": "that their prosthetic sockets were painful because they did not fit well.",
+        "arg2": "The prosthetic socket is the part in which the amputee inserts their residual limb, and which connects to the prosthetic ankle."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 268,
+      "doc": "talk_2009_en",
+      "variables": {
+        "arg1": "today's nomads travel the steel and asphalt arteries of the United States.",
+        "arg2": "By day, they hop freight trains, stick out their thumbs, and ride the highways with anyone from truckers to soccer moms."
+      },
+      "answer_type": "string",
+      "answer": "specifically"
+    },
+    {
+      "id": 269,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "Good, you like it. I like it too. (Laughter) I like it because it pokes fun at both sides of the climate change issue.",
+        "arg2": "what I really like about it is that it reminds me of something Mark Twain said, which is, \"Plan for the future, because that's where you're going to spend the rest of your life."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 270,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "we haven't seen any of them.",
+        "arg2": "We've only detected them indirectly."
+      },
+      "answer_type": "string",
+      "answer": "rather"
+    },
+    {
+      "id": 271,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "we fly it in space,",
+        "arg2": "we put it up in front of the star,"
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 272,
+      "doc": "talk_2009_en",
+      "variables": {
+        "arg1": "By night, they sleep beneath the stars, huddled together with their packs of dogs, cats and pet rats between their bodies.",
+        "arg2": "Some travelers take to the road by choice, renouncing materialism, traditional jobs and university degrees in exchange for a glimmer of adventure."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 273,
+      "doc": "talk_1971_en",
+      "variables": {
+        "arg1": "If your prosthetic socket is uncomfortable, you will not use your leg, and that is just simply unacceptable in our age.",
+        "arg2": "So one day, when I met professor Hugh Herr about two and a half years ago, and he asked me if I knew how to solve this problem, I said, \"No, not yet, but I would love to figure it out."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 274,
+      "doc": "talk_2150_en_inter",
+      "variables": {
+        "arg1": "The other thing that we start to realize is that race is a really poor proxy for diversity.",
+        "arg2": "We've got people represented from all different types of races across the entire map here"
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 275,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "They started to see sustainability not just as important but crucial to business success.",
+        "arg2": "About 80 percent of global CEOs see sustainability as the root to growth in innovation and leading to competitive advantage in their industries."
+      },
+      "answer_type": "string",
+      "answer": "in fact"
+    },
+    {
+      "id": 276,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "It's not the same as success, which I see as an event, a moment in time, and a label that the world confers upon you.",
+        "arg2": "Mastery is not a commitment to a goal"
+      },
+      "answer_type": "string",
+      "answer": "furthermore"
+    },
+    {
+      "id": 277,
+      "doc": "talk_1971_en",
+      "variables": {
+        "arg1": "one thing that deeply troubled me was that many of the amputees in the country would not use their prostheses.",
+        "arg2": "I watched people who I knew, loved ones, recover from this devastation,"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 278,
+      "doc": "talk_2150_en_intra",
+      "variables": {
+        "arg1": "When we think about mapping cities, we tend to think about roads and streets and buildings, and the settlement narrative that led to their creation, or you might think about the bold vision of an urban designer,",
+        "arg2": "there's other ways to think about mapping cities and how they got to be made."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 279,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "I saw that gave her more tenacity,",
+        "arg2": "she went after it again and again."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 280,
+      "doc": "talk_1971_en",
+      "variables": {
+        "arg1": "Such sockets often leave intolerable amounts of pressure on the limbs of the patient, leaving them with pressure sores and blisters.",
+        "arg2": "how powerful your prosthetic ankle is."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 281,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "The Paris Review got it out of James Baldwin",
+        "arg2": "they asked him, \"What do you think increases with knowledge?\" and he said, \"You learn how little you know."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 282,
+      "doc": "talk_1971_en",
+      "variables": {
+        "arg1": "I was born and raised in Sierra Leone, a small and very beautiful country in West Africa, a country rich both in physical resources and creative talent.",
+        "arg2": "Sierra Leone is infamous for a decade-long rebel war in the '90s when entire villages were burnt down."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 283,
+      "doc": "talk_2009_en",
+      "variables": {
+        "arg1": "Who here knows that in many cities across the United States it is now illegal to sit on the sidewalk, to wrap oneself in a blanket, to sleep in your own car, to offer food to a stranger?",
+        "arg2": "I know about these laws because I've watched as friends and other travelers were hauled off to jail or received citations for committing these so-called crimes."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 284,
+      "doc": "talk_2150_en_intra",
+      "variables": {
+        "arg1": "I'm here on the green side,",
+        "arg2": "down on the far right where the geeks are,"
+      },
+      "answer_type": "string",
+      "answer": "specifically"
+    },
+    {
+      "id": 285,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "it does illustrate that environmental leadership is compatible with good returns.",
+        "arg2": "So if the returns are the same or better and the planet benefits, wouldn't this be the norm?"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 286,
+      "doc": "talk_2009_en",
+      "variables": {
+        "arg1": "The answer to such a question is as varied as the people that take to the road,",
+        "arg2": "travelers often respond with a single word: freedom."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 287,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "that he wanted all of his diaries, manuscripts, letters and even sketches burned upon his death.",
+        "arg2": "His friend refused to honor the request,"
+      },
+      "answer_type": "string",
+      "answer": "however"
+    },
+    {
+      "id": 288,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "We want to see that, see if there's water, oxygen, ozone, the things that might tell us that it could harbor life.",
+        "arg2": "I think this is the coolest possible science."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 289,
+      "doc": "talk_1971_en",
+      "variables": {
+        "arg1": "We use a 3D printer",
+        "arg2": "to create a multi-material prosthetic socket which relieves pressure where needed on the anatomy of the patient."
+      },
+      "answer_type": "string",
+      "answer": "in order"
+    },
+    {
+      "id": 290,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "About 80 percent of global CEOs see sustainability as the root to growth in innovation and leading to competitive advantage in their industries.",
+        "arg2": "93 percent see ESG as the future, or as important to the future of their business."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 291,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "mastery is knowing that it means nothing if you can't do it again and again.",
+        "arg2": "Mastery is not just the same as excellence,"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 292,
+      "doc": "talk_2009_en",
+      "variables": {
+        "arg1": "the vagabond is a creature from the past.",
+        "arg2": "The word \"hobo\" conjures up an old black and white image of a weathered old man covered in coal, legs dangling out of a boxcar,"
+      },
+      "answer_type": "string",
+      "answer": "in fact"
+    },
+    {
+      "id": 293,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "to have just not received fourth place",
+        "arg2": "not medaled at all,"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 294,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "We see it even in the gambling industry that once picked up on this phenomenon of the near win and created these scratch-off tickets that had a higher than average rate of near wins and so compelled people to buy more tickets that they were called heart-stoppers, and were set on a gambling industry set of abuses in Britain in the 1970s.",
+        "arg2": "The reason the near win has a propulsion is because it changes our view of the landscape and puts our goals, which we tend to put at a distance, into more proximate vicinity to where we stand."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 295,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "What if they used that firepower to allocate more of their capital to companies working the hardest at solving these challenges or at least not exacerbating them?",
+        "arg2": "What if we work and save and invest, only to find that the world we retire into is more stressed and less secure than it is now?"
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 296,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "my view of success and creativity changed.",
+        "arg2": "I realized that success is a moment, but what we're always celebrating is creativity and mastery."
+      },
+      "answer_type": "string",
+      "answer": "specifically"
+    },
+    {
+      "id": 297,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "that once picked up on this phenomenon of the near win and created these scratch-off tickets that had a higher than average rate of near wins and so compelled people to buy more tickets that they were called heart-stoppers,",
+        "arg2": "were set on a gambling industry set of abuses in Britain in the 1970s."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 298,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "The light from the star is diffracting.",
+        "arg2": "It's scattering inside the telescope, creating that very bright image that washes out the planet."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 299,
+      "doc": "talk_2150_en_inter",
+      "variables": {
+        "arg1": "You see something a little bit different happening in San Francisco.",
+        "arg2": "On the one hand, you do have the media, politics and news lobe that tends to exist in Baltimore and other cities, but you also have this very predominant group of geeks and techies that are sort of taking over the top half of the network, and there's even a group that's so distinct and clear that we can identify it as Twitter employees, next to the geeks, in between the gamers and the geeks, at the opposite end of the hip-hop spectrum."
+      },
+      "answer_type": "string",
+      "answer": "specifically"
+    },
+    {
+      "id": 300,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "the telescope turns around.",
+        "arg2": "you'll see it flip and fly out that 50,000 kilometers away from the telescope."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 301,
+      "doc": "talk_2150_en_intra",
+      "variables": {
+        "arg1": "that each dot represents a person,",
+        "arg2": "each line represents a relationship between those people,"
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 302,
+      "doc": "talk_2150_en_inter",
+      "variables": {
+        "arg1": "only looking at race doesn't really contribute to our development of diversity.",
+        "arg2": "if we're trying to use diversity as a way to tackle some of our more intractable problems, we need to start to think about diversity in a new way."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 303,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "I have a lot of colleagues working on really amazing technologies to do that, but I want to tell you about one today that I think is the coolest, and probably the most likely to get us an Earth in the next decade.",
+        "arg2": "It was first suggested by Lyman Spitzer, the father of the space telescope, in 1962, and he took his inspiration from an eclipse."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 304,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "that investors aren't paying enough attention to some of the biggest drivers of change,",
+        "arg2": "it comes to sustainability."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 305,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "to have just not received fourth place",
+        "arg2": "and not medaled at all,"
+      },
+      "answer_type": "string",
+      "answer": "as a result"
+    },
+    {
+      "id": 306,
+      "doc": "talk_2150_en_inter",
+      "variables": {
+        "arg1": "We see the same people over and over again, but that's because we're not really exploring the full depth and breadth of the city.",
+        "arg2": "On the other end of the network, you have folks who are interested in things like hip-hop music and they even identify with living in the DC/Maryland/Virginia area over, say, the Baltimore city designation proper."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 307,
+      "doc": "talk_2150_en_intra",
+      "variables": {
+        "arg1": "we may even bear some responsibility to do so.",
+        "arg2": "we have that capability,"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 308,
+      "doc": "talk_2150_en_inter",
+      "variables": {
+        "arg1": "you  have this tremendous diversity of people that are interested in different kinds of music.",
+        "arg2": "Even Justin Bieber fans are represented here."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 309,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "What if they used that firepower to allocate more of their capital to companies working the hardest at solving these challenges or at least not exacerbating them? What if we work and save and invest, only to find that the world we retire into is more stressed and less secure than it is now? What if there isn't enough clean air and fresh water?",
+        "arg2": "a fair question might be, what if all this sustainability risk stuff is exaggerated, overstated, it's not urgent, something for virtuous consumers or lifestyle choice?"
+      },
+      "answer_type": "string",
+      "answer": "on the other hand"
+    },
+    {
+      "id": 310,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "they exited with this kind of relaxed focus.",
+        "arg2": "One held a half-eaten ice cream cone in one hand and arrows in the left with yellow fletching."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 311,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "They believe that ESG has the potential to impact risks and returns, so incorporating it into the investment process is core to their duty to act in the best interest of fund members, core to their duty.",
+        "arg2": "You gotta love the Aussies, right?"
+      },
+      "answer_type": "string",
+      "answer": "so"
+    },
+    {
+      "id": 312,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "One of the most vivid examples of this comes when we look at the difference between Olympic silver medalists and bronze medalists after a competition.",
+        "arg2": "Thomas Gilovich and his team from Cornell studied this difference and found that the frustration silver medalists feel compared to bronze, who are typically a bit more happy to have just not received fourth place and not medaled at all, gives silver medalists a focus on follow-up competition."
+      },
+      "answer_type": "string",
+      "answer": "for example"
+    },
+    {
+      "id": 313,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "to see, let's imagine we take the Hubble Space Telescope and we turn it around and we move it out to the orbit of Mars. We'll see something like that, a slightly blurry picture of the Earth, because we're a fairly small telescope out at the orbit of Mars. Now let's move ten times further away. Here we are at the orbit of Uranus. It's gotten smaller, it's got less detail, less resolve. We can still see the little moon, but let's go ten times further away again. Here we are at the edge of the solar system, out at the Kuiper Belt. Now it's not resolved at all. It's that pale blue dot of Carl Sagan's. But let's move yet again ten times further away. Here we are out at the Oort Cloud, outside the solar system, and we're starting to see the sun move into the field of view and get into where the planet is. One more time, ten times further away. Now we're at Alpha Centauri, our nearest neighbor star, and the planet is gone. All we're seeing is the big beaming image of the star that's ten billion times brighter than the planet, which should be in that little red circle. That's what we want to see. That's why it's hard. The light from the star is diffracting. It's scattering inside the telescope, creating that very bright image that washes out the planet.",
+        "arg2": "Why is that hard?"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 314,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "This is why we are concerned with ESG.",
+        "arg2": "I do speak to a lot of investors as part of my job, and not all of them see it this way."
+      },
+      "answer_type": "string",
+      "answer": "however"
+    },
+    {
+      "id": 315,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "Good, you like it.",
+        "arg2": "I like it too."
+      },
+      "answer_type": "string",
+      "answer": "for that matter"
+    },
+    {
+      "id": 316,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "we put it up in front of the star,",
+        "arg2": "we block out most of the light,"
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 317,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "it has to fly 50,000 kilometers away from the telescope that has to be held right in its shadow,",
+        "arg2": "and  we can see those planets."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 318,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "We have to get rid of it.",
+        "arg2": "I have a lot of colleagues working on really amazing technologies to do that,"
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 319,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "We've been working on this for the last five or six years.",
+        "arg2": "Last summer, we did a really cool test out in California at Northrop Grumman."
+      },
+      "answer_type": "string",
+      "answer": "in fact"
+    },
+    {
+      "id": 320,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "We build a big screen,",
+        "arg2": "we fly it in space,"
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 321,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "Last summer, we did a really cool test out in California at Northrop Grumman.",
+        "arg2": "those are four petals."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 322,
+      "doc": "talk_2009_en",
+      "variables": {
+        "arg1": "There was a deep restlessness in me, a primal fear that I would fall prey to a life of routine and boredom.",
+        "arg2": "many of my early memories involved intricate daydreams where I would walk across borders, forage for berries, and meet all kinds of strange people living unconventional lives on the road."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 323,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "That's what we want to see.",
+        "arg2": "That's why it's hard."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 324,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "That's why it's hard.",
+        "arg2": "The light from the star is diffracting."
+      },
+      "answer_type": "string",
+      "answer": "namely"
+    },
+    {
+      "id": 325,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "Mastery is in the reaching, not the arriving.",
+        "arg2": "It's in constantly wanting to close that gap between where you are and where you want to be."
+      },
+      "answer_type": "string",
+      "answer": "further"
+    },
+    {
+      "id": 326,
+      "doc": "talk_2009_en",
+      "variables": {
+        "arg1": "freight trains maim and kill,",
+        "arg2": "anyone who has lived on the streets can attest to the exhaustive list of laws that criminalize homeless existence."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 327,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "what we might see is something like that -- that's a family portrait of our solar system -- but not ours.",
+        "arg2": "we can take a similar space telescope, slightly larger, put it out there, fly an occulter in front of it,"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 328,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "In blue, we see the MSCI World. It's an index of large companies from developed markets across the world. And in gold, we see a subset of companies rated as having the best ESG performance.",
+        "arg2": "Over three plus years, no performance tradeoff."
+      },
+      "answer_type": "string",
+      "answer": "in short"
+    },
+    {
+      "id": 329,
+      "doc": "talk_2150_en_intra",
+      "variables": {
+        "arg1": "This is a map of the relationships between people in my hometown of Baltimore, Maryland,",
+        "arg2": "what you can see here is that each dot represents a person,"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 330,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "Part of the reason that the near win is inbuilt to mastery is",
+        "arg2": "the greater our proficiency, the more clearly we might see that we don't know all that we thought we did."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 331,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "We know that we thrive when we stay at our own leading edge,",
+        "arg2": "it's why the deliberate incomplete is inbuilt into creation myths."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 332,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "they open up,",
+        "arg2": "the telescope turns around."
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 333,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "In blue, we see the MSCI World. It's an index of large companies from developed markets across the world.",
+        "arg2": "in gold, we see a subset of companies rated as having the best ESG performance."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 334,
+      "doc": "talk_2009_en",
+      "variables": {
+        "arg1": "Many of you might be wondering why anyone would choose a life like this, under the thumb of discriminatory laws, eating out of trash cans, sleeping under bridges, picking up seasonal jobs here and there.",
+        "arg2": "The answer to such a question is as varied as the people that take to the road, but travelers often respond with a single word: freedom."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 335,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "we are out at the Oort Cloud,",
+        "arg2": "we're starting to see the sun move into the field of view and get into where the planet is."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 336,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "We build out of the unfinished idea, even if that idea is our former self.",
+        "arg2": "This is the dynamic of mastery."
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 337,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "most of the light's been removed",
+        "arg2": "and we can see that dim, fine structure in the corona."
+      },
+      "answer_type": "string",
+      "answer": "as a result"
+    },
+    {
+      "id": 338,
+      "doc": "talk_2150_en_inter",
+      "variables": {
+        "arg1": "Even Justin Bieber fans are represented here.",
+        "arg2": "Other boy bands, country singers, gospel music, funk and rap and stand-up comedy,"
+      },
+      "answer_type": "string",
+      "answer": "as well as"
+    },
+    {
+      "id": 339,
+      "doc": "talk_2009_en",
+      "variables": {
+        "arg1": "The answer to such a question is as varied as the people that take to the road, but travelers often respond with a single word: freedom.",
+        "arg2": "Until we live in a society where every human is assured dignity in their labor so that they can work to live well, not only work to survive, there will always be an element of those who seek the open road as a means of escape, of liberation and, of course, of rebellion."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 340,
+      "doc": "talk_2150_en_inter",
+      "variables": {
+        "arg1": "I think some might say that it is a geographical area or a collection of streets and buildings, but I believe that a city is the sum of the relationships of the people that live there,",
+        "arg2": "what is a city?"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 341,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "What if it's a big hoax",
+        "arg2": "we create a better world for nothing?"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 342,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "It's what's called a spirit line, a deliberate flaw in the pattern to give the weaver or maker a way out, but also a reason to continue making work.",
+        "arg2": "Masters are not experts because they take a subject to its conceptual end."
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 343,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "the odds that it's not completely wrong",
+        "arg2": "the odds that our house will burn down or we'll get in a car accident."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 344,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "At the end of the practice, one of the archers was so taxed that she lied out on the ground just star-fished, her head looking up at the sky, trying to find what T.S. Eliot might call that still point of the turning world.",
+        "arg2": "It's so rare in American culture, there's so little that's vocational about it anymore, to look at what doggedness looks like with this level of exactitude, what it means to align your body posture for three hours in order to hit a target, pursuing a kind of excellence in obscurity."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 345,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "In some cases, there may be outperformance from ESG.",
+        "arg2": "In blue, we see the performance of the 500 largest global companies, and in gold, we see a subset of companies with best practice in climate change strategy and risk management."
+      },
+      "answer_type": "string",
+      "answer": "for instance"
+    },
+    {
+      "id": 346,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "They believe that ESG has the potential to impact risks and returns,",
+        "arg2": "incorporating it into the investment process is core to their duty to act in the best interest of fund members, core to their duty."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 347,
+      "doc": "talk_1971_en",
+      "variables": {
+        "arg1": "he asked me if I knew how to solve this problem,",
+        "arg2": "I met professor Hugh Herr about two and a half years ago,"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 348,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "We put a telescope or a camera in that shadow, we look back at the sun, and most of the light's been removed and we can see that dim, fine structure in the corona.",
+        "arg2": "Spitzer's suggestion was we do this in space."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 349,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "This is a sub-scale star shade.",
+        "arg2": "It's about half the size of the one you just saw."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 350,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "you'll see it flip and fly out that 50,000 kilometers away from the telescope.",
+        "arg2": "It's going to move in front of the star just like that, creates a wonderful shadow."
+      },
+      "answer_type": "string",
+      "answer": "next"
+    },
+    {
+      "id": 351,
+      "doc": "talk_1971_en",
+      "variables": {
+        "arg1": "I used magnetic resonance imaging to capture the actual shape of the patient's anatomy, then use finite element modeling to better predict the internal stresses and strains on the normal forces, and then create a prosthetic socket for manufacture. We use a 3D printer to create a multi-material prosthetic socket which relieves pressure where needed on the anatomy of the patient.",
+        "arg2": "we're using data to make novel sockets quickly and cheaply."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 352,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "It separates from the telescope.",
+        "arg2": "The petals unfurl,"
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 353,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "with his finger outstretched",
+        "arg2": "not quite touching that God's hand."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 354,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "they passed me and smiled, but they sized me up as they made their way to the turf, and spoke to each other not with words but with numbers, degrees, I thought, positions for how they might plan to hit their target.",
+        "arg2": "I stood behind one archer as her coach stood in between us to maybe assess who might need support, and watched her, and I didn't understand how even one was going to hit the ten ring."
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 355,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "We'll see something like that, a slightly blurry picture of the Earth,",
+        "arg2": "we take the Hubble Space Telescope and we turn it around and we move it out to the orbit of Mars."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 356,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "Pentair is a U.S. industrial conglomerate,",
+        "arg2": "about a decade ago, they sold their core power tools business and reinvested those proceeds in a water business."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 357,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "this is what a near win does.",
+        "arg2": "It gets us to focus on what, right now, we plan to do to address that mountain in our sights."
+      },
+      "answer_type": "string",
+      "answer": "specifically"
+    },
+    {
+      "id": 358,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "In blue, we see the MSCI World.",
+        "arg2": "It's an index of large companies from developed markets across the world."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 359,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "It's gotten smaller, it's got less detail, less resolve.",
+        "arg2": "We can still see the little moon,"
+      },
+      "answer_type": "string",
+      "answer": "nevertheless"
+    },
+    {
+      "id": 360,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "So if the returns are the same or better and the planet benefits, wouldn't this be the norm?",
+        "arg2": "Are investors, particularly institutional investors, engaged?"
+      },
+      "answer_type": "string",
+      "answer": "furthermore"
+    },
+    {
+      "id": 361,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "this is while holding 50 pounds of draw weight on each shot.",
+        "arg2": "She first hit a seven, I remember, and then a nine, and then two tens, and then the next arrow didn't even hit the target."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 362,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "It's that pale blue dot of Carl Sagan's.",
+        "arg2": "let's move yet again ten times further away."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 363,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "Franz Kafka saw incompletion",
+        "arg2": "others would find only works to praise,"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 364,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "that had a higher than average rate of near wins",
+        "arg2": "and  compelled people to buy more tickets"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 365,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "the odds that it's not completely wrong are better than the odds that our house will burn down or we'll get in a car accident.",
+        "arg2": "this is based on widespread scientific consensus,"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 366,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "is the private sector paying attention?",
+        "arg2": "sustainability matters financially today, and all signs indicate more tomorrow,"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 367,
+      "doc": "talk_2150_en_intra",
+      "variables": {
+        "arg1": "there's even a group that's so distinct and clear",
+        "arg2": "that we can identify it as Twitter employees,"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 368,
+      "doc": "talk_2150_en_inter",
+      "variables": {
+        "arg1": "that segregation is a social construct.",
+        "arg2": "It's something that we choose to do,"
+      },
+      "answer_type": "string",
+      "answer": "in other words"
+    },
+    {
+      "id": 369,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "It's a terrible shadow.",
+        "arg2": "And we can't see planets."
+      },
+      "answer_type": "string",
+      "answer": "as a result"
+    },
+    {
+      "id": 370,
+      "doc": "talk_2150_en_intra",
+      "variables": {
+        "arg1": "some might say that it is a geographical area or a collection of streets and buildings,",
+        "arg2": "I believe that a city is the sum of the relationships of the people that live there,"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 371,
+      "doc": "talk_2150_en_intra",
+      "variables": {
+        "arg1": "It's a very heterogenous city",
+        "arg2": "a way that Baltimore or San Francisco is not."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 372,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "that investors aren't paying enough attention to some of the biggest drivers of change, especially when it comes to sustainability.",
+        "arg2": "And by sustainability, I mean the really juicy things, like environmental and social issues and corporate governance."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 373,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "there's more growth in water than in power tools,",
+        "arg2": "this company has their sights set on what they call \"the new New World."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 374,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "His friend refused to honor the request,",
+        "arg2": "we now have all the works we now do by Kafka: \"America,\" \"The Trial\" and \"The Castle,\" a work so incomplete it even stops mid-sentence."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 375,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "Companies and investors are not singularly responsible for the fate of the planet.",
+        "arg2": "They don't have indefinite social obligations, and prudent investing and finance theory aren't subordinate to sustainability. They're compatible."
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 376,
+      "doc": "talk_2150_en_intra",
+      "variables": {
+        "arg1": "we have the ability to create interventions to start to reshape our cities in a new way,",
+        "arg2": "I believe that if we have that capability, we may even bear some responsibility to do so."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 377,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "His favorite novel was \"The [Unknown] Masterpiece\" by Honoré de Balzac, and he felt the protagonist was the painter himself.",
+        "arg2": "Franz Kafka saw incompletion when others would find only works to praise, so much so that he wanted all of his diaries, manuscripts, letters and even sketches burned upon his death."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 378,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "Why did they do that?",
+        "arg2": "there's more growth in water than in power tools, and this company has their sights set on what they call \"the new New World."
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 379,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "If we make the edges of those petals exactly right,",
+        "arg2": "if we control their shape,"
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 380,
+      "doc": "talk_2150_en_inter",
+      "variables": {
+        "arg1": "it seems as though we're living in a very small town.",
+        "arg2": "We see the same people over and over again,"
+      },
+      "answer_type": "string",
+      "answer": "in other words"
+    },
+    {
+      "id": 381,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "We've only detected them indirectly.",
+        "arg2": "This is NASA's famous picture of the pale blue dot."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 382,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "that it means nothing",
+        "arg2": "you can't do it again and again."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 383,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "We'll see something like that, a slightly blurry picture of the Earth,",
+        "arg2": "we're a fairly small telescope out at the orbit of Mars."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 384,
+      "doc": "talk_1971_en",
+      "variables": {
+        "arg1": "They would, be part of a Sierra Leone where war and amputation were no longer a strategy for gaining power.",
+        "arg2": "As I watched people who I knew, loved ones, recover from this devastation, one thing that deeply troubled me was that many of the amputees in the country would not use their prostheses."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 385,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "We're creating insurance, reducing the risk to our planet and to our economy, and at the same time, in the short term, we're not sacrificing performance.",
+        "arg2": "Good, you like it."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 386,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "it's reckless to ignore these things,",
+        "arg2": "doing so can jeopardize future long-term returns."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 387,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "We want more.",
+        "arg2": "I want more."
+      },
+      "answer_type": "string",
+      "answer": "furthermore"
+    },
+    {
+      "id": 388,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "brilliant engineers, colleagues of mine at JPL, came up with a fabulous design for how to do that",
+        "arg2": "it looks like this."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 389,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "I stood and watched as the coach drove up these women in this gray van,",
+        "arg2": "and they exited"
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 390,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "It means limiting future risk",
+        "arg2": "minimizing harm to people and planet,"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 391,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "It's a wisdom understood by Duke Ellington, who said that his favorite song out of his repertoire was always the next one, always the one he had yet to compose.",
+        "arg2": "Part of the reason that the near win is inbuilt to mastery is because the greater our proficiency, the more clearly we might see that we don't know all that we thought we did."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 392,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "We thrive when we stay at our own leading edge.",
+        "arg2": "It's a wisdom understood by Duke Ellington, who said that his favorite song out of his repertoire was always the next one, always the one he had yet to compose."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 393,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "Social includes human capital, things like employee engagement and innovation capacity, as well as supply chain management and labor rights and human rights.",
+        "arg2": "governance relates to the oversight of companies by their boards and investors."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 394,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "That's eight and a half times the GDP of the U.S.",
+        "arg2": "That's the world's largest economy."
+      },
+      "answer_type": "string",
+      "answer": "in other words"
+    },
+    {
+      "id": 395,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "We build a big screen, we fly it in space, we put it up in front of the star, we block out most of the light, we fly a space telescope in that shadow that's created,",
+        "arg2": "and  we get to see planets."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 396,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "what we're always celebrating is creativity and mastery.",
+        "arg2": "this is the thing: What gets us to convert success into mastery?"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 397,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "we block out most of the light,",
+        "arg2": "we fly a space telescope in that shadow that's created,"
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 398,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "The universe is teeming with planets.",
+        "arg2": "I want us, in the next decade, to build a space telescope that'll be able to image an Earth about another star and figure out whether it can harbor life."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 399,
+      "doc": "talk_2150_en_inter",
+      "variables": {
+        "arg1": "that everything's really kind of mixed up.",
+        "arg2": "It's a very heterogenous city"
+      },
+      "answer_type": "string",
+      "answer": "in other words"
+    },
+    {
+      "id": 400,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "This is the dynamic of mastery.",
+        "arg2": "Coming close to what you thought you wanted can help you attain more than you ever dreamed you could."
+      },
+      "answer_type": "string",
+      "answer": "specifically"
+    },
+    {
+      "id": 401,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "the light waves of the light and waves diffracts around that screen the same way it did in the telescope.",
+        "arg2": "water bending around a rock in a stream,"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 402,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "We have a population that's both growing and aging; we have seven billion souls today heading to 10 billion at the end of the century; we consume natural resources faster than they can be replenished; and the emissions that are mainly responsible for climate change just keep increasing.",
+        "arg2": "these are environmental and social issues, but that's not all."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 403,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "We're creating insurance, reducing the risk to our planet and to our economy,",
+        "arg2": "and  we're not sacrificing performance."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 404,
+      "doc": "talk_1971_en",
+      "variables": {
+        "arg1": "this not only restores",
+        "arg2": "transforms their sense of human potential."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 405,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "we're starting to see the sun move into the field of view and get into where the planet is.",
+        "arg2": "One more time, ten times further away."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 406,
+      "doc": "talk_2150_en_inter",
+      "variables": {
+        "arg1": "It's a very heterogenous city in a way that Baltimore or San Francisco is not. You still have the lobe of people involved with government, newspapers, politics, columnists. TEDxRio is down in the lower right, right next to bloggers and writers. But then you also have this tremendous diversity of people that are interested in different kinds of music. Even Justin Bieber fans are represented here. Other boy bands, country singers, gospel music, funk and rap and stand-up comedy, and there's even a whole section around drugs and jokes. How cool is that? And then the Flamengo football team is also represented here.",
+        "arg2": "you have that same kind of spread of sports and civics and the arts and music, but it's represented in a very different way, and I think that maybe fits with our understanding of Rio as being a very multicultural, musically diverse city."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 407,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "that would look something like this.",
+        "arg2": "there's that big screen, and there's no planets, because unfortunately it doesn't actually work very well, because the light waves of the light and waves diffracts around that screen the same way it did in the telescope."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 408,
+      "doc": "talk_2150_en_intra",
+      "variables": {
+        "arg1": "you can see, though, that the tensions that we've heard about in San Francisco in terms of people being concerned about gentrification and all the new tech companies that are bringing new wealth and settlement into the city are real,",
+        "arg2": "you can actually see that documented here."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 409,
+      "doc": "talk_2009_en",
+      "variables": {
+        "arg1": "anyone who has lived on the streets can attest to the exhaustive list of laws that criminalize homeless existence.",
+        "arg2": "Who here knows that in many cities across the United States it is now illegal to sit on the sidewalk, to wrap oneself in a blanket, to sleep in your own car, to offer food to a stranger?"
+      },
+      "answer_type": "string",
+      "answer": "for example"
+    },
+    {
+      "id": 410,
+      "doc": "talk_2009_en",
+      "variables": {
+        "arg1": "By day, they hop freight trains, stick out their thumbs, and ride the highways with anyone from truckers to soccer moms.",
+        "arg2": "By night, they sleep beneath the stars, huddled together with their packs of dogs, cats and pet rats between their bodies."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 411,
+      "doc": "talk_2150_en_intra",
+      "variables": {
+        "arg1": "we have the ability to create interventions to start to reshape our cities in a new way,",
+        "arg2": "and I believe that if we have that capability, we may even bear some responsibility to do so."
+      },
+      "answer_type": "string",
+      "answer": "therefore"
+    },
+    {
+      "id": 412,
+      "doc": "talk_2009_en",
+      "variables": {
+        "arg1": "no other experience has felt as true to my childhood dreams",
+        "arg2": "living amongst and documenting the lives of fellow wanderers across the United States."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 413,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "Often I hear, \"We are required to maximize returns, so we don't do that here,\" or, \"We don't want to use the portfolio to make policy statements.",
+        "arg2": "The one that just really gets under my skin is, \"If you want to do something about that, just make money, give the profits to charities."
+      },
+      "answer_type": "string",
+      "answer": "however"
+    },
+    {
+      "id": 414,
+      "doc": "talk_2150_en_intra",
+      "variables": {
+        "arg1": "you do have the media, politics and news lobe that tends to exist in Baltimore and other cities,",
+        "arg2": "but you  have this very predominant group of geeks and techies that are sort of taking over the top half of the network,"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 415,
+      "doc": "talk_2150_en_intra",
+      "variables": {
+        "arg1": "it shows what is happening on the ground in San Francisco,",
+        "arg2": "I think you can actually try to understand that through looking at a map like this."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 416,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "If we make the edges of those petals exactly right, if we control their shape, we can control diffraction,",
+        "arg2": "and now we have a great shadow."
+      },
+      "answer_type": "string",
+      "answer": "consequently"
+    },
+    {
+      "id": 417,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "It starts wrapped around a hub.",
+        "arg2": "It separates from the telescope."
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 418,
+      "doc": "talk_2150_en_inter",
+      "variables": {
+        "arg1": "This is a map of the relationships between people in my hometown of Baltimore, Maryland, and what you can see here is that each dot represents a person, each line represents a relationship between those people, and each color represents a community within the network.",
+        "arg2": "I'm here on the green side, down on the far right where the geeks are, and TEDx also is down on the far right."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 419,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "they reduce our real estate footprint,",
+        "arg2": "and they yield savings of 23 million dollars in operating costs annually,"
+      },
+      "answer_type": "string",
+      "answer": "so"
+    },
+    {
+      "id": 420,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "The global stock market is worth 55 trillion dollars. The global bond market, 78 trillion.",
+        "arg2": "That's 133 trillion combined."
+      },
+      "answer_type": "string",
+      "answer": "in sum"
+    },
+    {
+      "id": 421,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "maybe not if you live in Boston.",
+        "arg2": "But my point is that we buy insurance to protect ourselves financially in case those things happen, right?"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 422,
+      "doc": "talk_1971_en",
+      "variables": {
+        "arg1": "I resolved that I would do everything I could to ensure that my own children would not go through the same experiences we had.",
+        "arg2": "my family and I ran for safety when I was about 12 from one of those attacks,"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 423,
+      "doc": "talk_1971_en",
+      "variables": {
+        "arg1": "My hope and desire is that the tools and processes we develop in our research group can be used to bring highly functional prostheses to those who need them.",
+        "arg2": "For me, a place to begin healing the souls of those affected by war and disease is by creating comfortable and affordable interfaces for their bodies."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 424,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "The answer that may surprise you is yes.",
+        "arg2": "The data shows that stocks with better ESG performance perform just as well as others."
+      },
+      "answer_type": "string",
+      "answer": "in fact"
+    },
+    {
+      "id": 425,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "now we have a great shadow.",
+        "arg2": "It's about 10 billion times dimmer than it was before, and we can see the planets beam out just like that."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 426,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "they are really complex",
+        "arg2": "and they can seem really far off,"
+      },
+      "answer_type": "string",
+      "answer": "consequently"
+    },
+    {
+      "id": 427,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "If we can feather the edges, soften those edges so we can control diffraction, well then we can see a planet,",
+        "arg2": "in the last 10 years or so we've come up with optimal solutions for doing that."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 428,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "It's in constantly wanting to close that gap between where you are and where you want to be.",
+        "arg2": "Mastery is about sacrificing for your craft and not for the sake of crafting your career."
+      },
+      "answer_type": "string",
+      "answer": "further"
+    },
+    {
+      "id": 429,
+      "doc": "talk_2150_en_inter",
+      "variables": {
+        "arg1": "How cool is that?",
+        "arg2": "the Flamengo football team is  represented here."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 430,
+      "doc": "talk_2150_en_intra",
+      "variables": {
+        "arg1": "I believe that a city is the sum of the relationships of the people that live there,",
+        "arg2": "I believe that if we can start to document those relationships in a real way then maybe we have a real shot at creating those kinds of cities that we'd like to have."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 431,
+      "doc": "talk_2150_en_intra",
+      "variables": {
+        "arg1": "I spent the last few weeks gathering data about Rio,",
+        "arg2": "and one of the things that stood out to me about this city is that everything's really kind of mixed up."
+      },
+      "answer_type": "string",
+      "answer": "as a result"
+    },
+    {
+      "id": 432,
+      "doc": "talk_2009_en",
+      "variables": {
+        "arg1": "As a little girl, I always imagined I would one day run away.",
+        "arg2": "From the age of six on, I kept a packed bag with some clothes and cans of food tucked away in the back of a closet."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 433,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "That's the world's largest economy.",
+        "arg2": "That's some serious freaking firepower."
+      },
+      "answer_type": "string",
+      "answer": "in other words"
+    },
+    {
+      "id": 434,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "sustainable investing incorporates ESG factors with financial factors into the investment process.",
+        "arg2": "limiting future risk by minimizing harm to people and planet, and it means providing capital to users who deploy it towards productive and sustainable outcomes."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 435,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "we are at the orbit of Uranus.",
+        "arg2": "It's gotten smaller, it's got less detail, less resolve."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 436,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "It's like water bending around a rock in a stream,",
+        "arg2": "all that light just destroys the shadow."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 437,
+      "doc": "talk_2150_en_intra",
+      "variables": {
+        "arg1": "I'm here on the green side, down on the far right where the geeks are,",
+        "arg2": "TEDx also is down on the far right."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 438,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "I do speak to a lot of investors as part of my job,",
+        "arg2": "not all of them see it this way."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 439,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "I started to understand this when I went on one cold May day to watch a set of varsity archers, all women as fate would have it, at the northern tip of Manhattan at Columbia's Baker Athletics Complex.",
+        "arg2": "I wanted to see what's called archer's paradox, the idea that in order to actually hit your target, you have to aim at something slightly skew from it."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 440,
+      "doc": "talk_1976_en",
+      "variables": {
+        "arg1": "Why haven't we done that?",
+        "arg2": "Why is that hard?"
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 441,
+      "doc": "talk_1978_en",
+      "variables": {
+        "arg1": "I stand here thinking and wondering about all the different ways that we might even manufacture a near win in this room, how your lives might play this out,",
+        "arg2": "I think on some gut level we do know this."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 442,
+      "doc": "talk_2009_en",
+      "variables": {
+        "arg1": "No one loses their inner demons by taking to the road.",
+        "arg2": "Addiction is real, the elements are real, freight trains maim and kill, and anyone who has lived on the streets can attest to the exhaustive list of laws that criminalize homeless existence."
+      },
+      "answer_type": "string",
+      "answer": "after all"
+    },
+    {
+      "id": 443,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "this is correlation.",
+        "arg2": "It's not causation."
+      },
+      "answer_type": "string",
+      "answer": "rather"
+    },
+    {
+      "id": 444,
+      "doc": "talk_1927_en",
+      "variables": {
+        "arg1": "In blue, we see the performance of the 500 largest global companies,",
+        "arg2": "in gold, we see a subset of companies with best practice in climate change strategy and risk management."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    }
+  ]
+}

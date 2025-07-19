@@ -1,0 +1,3427 @@
+{
+  "task": "conn-implicit",
+  "lang": "turkish",
+  "example_prompt": "Implicit discourse connective refers to a logical connection between two discourse units (such as sentences or clauses) that is not explicitly marked by a discourse connective (e.g., “because”, “but”, “after”). Instead, the relation must be inferred by the reader or listener using contextual cues and general world knowledge.\n\nWhat is the most appropriate implicit discourse connective to link the following segments?\nHere are the options: aksine, ama, ardından, aslında, aynı ... gibi, aynı zamanda, aynı şekilde, ayrıca, açıkçası, bilhassa, bir başka deyişle, bu nedenle, bu sayede, bunun yerine, bununla beraber, daha ziyade, daha çok, dolayısıyla, fakat, hatta, ise, işte, karşılaştırırsak, kısaca, mesela, nasıl, none, o halde, o nedenle, sonra, sonrasında, sonuç olarak, sonuçta, söz gelimi, tam tersine, ve, yani, zaten, çünkü, örnek olarak, örneğin, öte yandan, öyle ki, özellikle, özetle, üstelik, şöyle ki\nIf there is no appropriate implicit connective, answer: no implicit connective\n\nArg1: {{arg1}}\nArg2: {{arg2}}",
+  "instances": [
+    {
+      "id": 1,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Bitmemiş bir fikir üzerine inşa ederiz, bu fikir eski hâlimiz olsa bile.",
+        "arg2": "Bu ustalığın dinamiğidir."
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 2,
+      "doc": "talk_1971_tr",
+      "variables": {
+        "arg1": "Eğer protez soketiniz rahat değilse bacağınızı kullanamazsınız, ki bu da açıkça bizim çağımızda kabul edilemez bir şey.",
+        "arg2": "Yaklaşık iki buçuk yıl önce bir gün, Profesör Hugh Herr ile tanıştım ve o bana bu sorunun nasıl çözüleceğini bilip bilmediğimi sordu. \"Hayır, henüz değil, ama öğrenmeyi çok isterim\" dedim."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 3,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "okçuluk takımını seyretmeye gittiğimde bunu anlamaya başladım.",
+        "arg2": "Okçu paradoksu denen, yani aslında hedefinizi vurmak için ondan biraz eğimli bir şeye nişan almanız gerektiğini söyleyen fikri görmek istedim."
+      },
+      "answer_type": "string",
+      "answer": "özellikle"
+    },
+    {
+      "id": 4,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Bu kötü bir gölge.",
+        "arg2": "Gezegenleri göremeyiz."
+      },
+      "answer_type": "string",
+      "answer": "çünkü"
+    },
+    {
+      "id": 5,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "gezegenleri görebilirdik",
+        "arg2": "ve yaklaşık son 10 yıldır bunu yapmak için en uygun çözümleri ortaya çıkardık."
+      },
+      "answer_type": "string",
+      "answer": "zaten"
+    },
+    {
+      "id": 6,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "harika bir gölgeye sahip oluruz.",
+        "arg2": "Önceki hâlinden 10 milyar kat daha soluk ve gezegenlerin işte böyle belirdiğini görebiliyoruz."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 7,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "eğer bunu yapabilirsek,",
+        "arg2": "eğer bu teknolojiyi inşa edebilirsek,"
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 8,
+      "doc": "talk_2150_tr",
+      "variables": {
+        "arg1": "Rio, Baltimore ve San Francisco’nun tersine tam bir heterojen şehir.",
+        "arg2": "Hala hükümetle, gazetelerle, politkayla, köşe yazarlarıyla ilintili bir grup insan var."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 9,
+      "doc": "talk_1971_tr",
+      "variables": {
+        "arg1": "o bana bu sorunun nasıl çözüleceğini bilip bilmediğimi sordu.",
+        "arg2": "Hayır, henüz değil, ama öğrenmeyi çok isterim\" dedim."
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 10,
+      "doc": "talk_1971_tr",
+      "variables": {
+        "arg1": "Hastanın anatomisinin gerçek biçimini yakalamak için manyetik rezonans görüntülemesini kullandım",
+        "arg2": "ve normal kuvvetlerde iç gerilme ve deformasyon noktalarını daha iyi tahmin edebilmek için sonlu elemanlar modellemesini kullandım,"
+      },
+      "answer_type": "string",
+      "answer": "sonra"
+    },
+    {
+      "id": 11,
+      "doc": "talk_2150_tr",
+      "variables": {
+        "arg1": "Bu şehir hakkında benim dikkatimi çeken noktalardan gerçekten her şeyin bir tür karışım olması.",
+        "arg2": "Rio, Baltimore ve San Francisco’nun tersine tam bir heterojen şehir."
+      },
+      "answer_type": "string",
+      "answer": "yani"
+    },
+    {
+      "id": 12,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Neredeyse kazanma işte bunu yapar.",
+        "arg2": "Görüş alanımız içinde olan o dağı ele almak için şu an ne yapmayı planladığımıza odaklanmamızı sağlar."
+      },
+      "answer_type": "string",
+      "answer": "bir başka deyişle"
+    },
+    {
+      "id": 13,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "İşimin bir parçası olarak, birçok yatırımcı ile konuşuyorum",
+        "arg2": "ve hepsi durumu bu şekilde görmüyorlar."
+      },
+      "answer_type": "string",
+      "answer": "fakat"
+    },
+    {
+      "id": 14,
+      "doc": "talk_2009_tr",
+      "variables": {
+        "arg1": "hiçbir başka deneyim çocukluk rüyalarımı yaşayanlar arasında olmak kadar ve Birleşik Devlet boyunca gezgin arkadaşların arasında yasamak kadar gerçek hissettirmedi.",
+        "arg2": "Bu bir göçebe hayali Amerikan rüyasının bir başka türü genç rençperlerin, gezginler, otostopçuların ve serseriler yaşadığı."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 15,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Voyager uzay aracı tarafından 1990'da çekildi.",
+        "arg2": "Araç güneş sisteminden çıkmak üzereyken, onu bu tarafa çevirip, 6 milyar kilometre öteden Dünya'nın fotoğrafını çektirdiler."
+      },
+      "answer_type": "string",
+      "answer": "şöyle ki"
+    },
+    {
+      "id": 16,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Ustalık sanatınız için fedakârlık yapmaktır, kariyerinizi inşa etmeniz için değil.",
+        "arg2": "Kaç tane mucit ve sayısız girişimci bu olguyu yaşıyor?"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 17,
+      "doc": "talk_2150_tr_inter",
+      "variables": {
+        "arg1": "Rio de Janerio’ya bir göz atalım.",
+        "arg2": "Son birkaç haftayı Rio hakkında bilgi toplamakla geçirdim"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 18,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "Ama ÇSY sürdürülebilirliğin ölçüsüdür",
+        "arg2": "ve sürdürülebilir yatırım ÇSY faktörlerini finansal faktörlerle birlikte yatırım sürecine dahil eder."
+      },
+      "answer_type": "string",
+      "answer": "aynı zamanda"
+    },
+    {
+      "id": 19,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "sonraki ok da hedefi dahi vuramadı.",
+        "arg2": "Bunun ona daha çok kararlılık verdiğini gördüm"
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 20,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "Hep şüphe, hep şüphe.",
+        "arg2": "Yani burada birşey açıklamama izin verin."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 21,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "güneşin görüş alanımıza, gezegenlerin oldukları yere geçtiğini görmeye başlıyoruz.",
+        "arg2": "Bir kez daha 10 kat uzaklaşarak Alpha Centauri'ye varıyoruz."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 22,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "iklim değişikliği mevzusunun iki yönüyle de dalga geçiyor.",
+        "arg2": "İddiaya girerim, hangi tarafta olduğumu tahmin edemezsiniz."
+      },
+      "answer_type": "string",
+      "answer": "ama"
+    },
+    {
+      "id": 23,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "dünyadaki en büyük 500 şirketin performansını görüyoruz ve altın rengi olarak iklim değişikliği stratejisi ve risk yönetiminde en iyi uygulamalara sahip şirketlerin alt kümesini görüyoruz.",
+        "arg2": "Yaklaşık sekiz sene boyunca, yaklaşık üçte iki oranda daha fazla performans gösterdiler."
+      },
+      "answer_type": "string",
+      "answer": "işte"
+    },
+    {
+      "id": 24,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "Bu gücü bu sorunları çözmek için en fazla çalışan veya en azından bunları kötüleştirmeyen şirketlere daha fazla sermaye aktarmak için kullansalar ne olurdu? Peki ya çalışıp, biriktirip, yatırım yapsak ve emekli olduğumuzda dünyanın şimdikinden daha stresli ve daha az güvenli olduğunu görsek? Peki ya yeteri kadar temiz hava ve temiz su olmazsa?",
+        "arg2": "Adil bir soru da şu olur, peki ya bütün bu sürdürülebilirlik riskiyle ilgili şeyler abartılmışsa, büyütülmüşse, acil değilse, dürüst tüketiciler veya hayat tarzı seçimi için olan bir şeyse?"
+      },
+      "answer_type": "string",
+      "answer": "öte yandan"
+    },
+    {
+      "id": 25,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "İyi, sevdiniz.",
+        "arg2": "Ben de seviyorum."
+      },
+      "answer_type": "string",
+      "answer": "aslında"
+    },
+    {
+      "id": 26,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Bunu yapmamıza sebep olan şey, bizi daha fazla ileriye iten şey, neredeyse kazanmanın değeridir.",
+        "arg2": "Kaç kere bir şeyi bir klasik, hatta başyapıt olarak tanımladık, yaratıcısı onu umutsuzca bitmemiş olarak görürken, zorluklar ve hatalarla dolu olarak, yani başka bir ifadeyle bir neredeyse kazanmak olarak?"
+      },
+      "answer_type": "string",
+      "answer": "örneğin"
+    },
+    {
+      "id": 27,
+      "doc": "talk_2150_tr_inter",
+      "variables": {
+        "arg1": "TEDx de sağdan aşağıda yer almakta.",
+        "arg2": "Ağın diğer tarafında başlıca Afro-Amerikalılar ve Latin toplumu yer almakta"
+      },
+      "answer_type": "string",
+      "answer": "ise"
+    },
+    {
+      "id": 28,
+      "doc": "talk_2150_tr_inter",
+      "variables": {
+        "arg1": "Bunu böyle bir haritaya bakarak anlamaya çalışacağınızı düşünüyorum.",
+        "arg2": "Rio de Janerio’ya bir göz atalım."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 29,
+      "doc": "talk_2150_tr_inter",
+      "variables": {
+        "arg1": "İşte bütün verilere sahibiz.",
+        "arg2": "Şehirler hakkında inanılmaz zenginlikte bilgiye sahibiz şimdi."
+      },
+      "answer_type": "string",
+      "answer": "yani"
+    },
+    {
+      "id": 30,
+      "doc": "talk_2009_tr",
+      "variables": {
+        "arg1": "Bir çoğunuz şunu merak edebilir, neden birisi böyle bir hayatı tercih etsin ki, böyle eşit olmayan yasalar altında, çöp kutularından yemek yiyerek, köprü altlarında uyuyarak, sezonluk işlerde orada burada çalışşın.",
+        "arg2": "Böyle bir soruya yollara düşen insanlar tarafından çeşitli cevaplar verilebilir, ama göçebeler genellikle is tek bir kelime ile cevap vereceklerdir: özgürlük."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 31,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Thomas Gilovich ve Cornell'den ekibi bu farkı araştırmış",
+        "arg2": "ve gümüş madalya alanların, dördüncü olmayıp hiç madalya almamaları söz konusu olmadığı için tipik olarak daha mutlu olan bronz kazananlarla karşılaştırıldığında hissettikleri öfkenin, gümüş madalya kazananlara bir sonraki yarışmada bir odak noktası verdiğini bulmuştur."
+      },
+      "answer_type": "string",
+      "answer": "sonuçta"
+    },
+    {
+      "id": 32,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "Hesta, Avustralya'da sağlık ve toplum hizmetleri çalışanları için bir emeklilik fonu, 22 milyar (dolar) varlığı var.",
+        "arg2": "ÇSY'nin risk ve kazançları etkileme potansiyeli olduğuna inanıyorlar."
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 33,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Görmek istediğimiz şey ise o gezegen.",
+        "arg2": "Bu yüzden bu kadar zor."
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 34,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Eğer başparmağımı kaldırıp, tam gözüme gelen şu spot ışığını engellersem de aynı şey olacaktır,",
+        "arg2": "arka hatta sizi görebilirim."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 35,
+      "doc": "talk_2150_tr",
+      "variables": {
+        "arg1": "Justin Bieber hayranları bile burada gösterilmektedir.",
+        "arg2": "Diğer müzik grupları, country şarkıcıları, dini müzik, funk, rap ve stand up komedi, Uyuşturucu ve espirileri içeren tüm bir bölge bile var."
+      },
+      "answer_type": "string",
+      "answer": "bununla beraber"
+    },
+    {
+      "id": 36,
+      "doc": "talk_2150_tr_inter",
+      "variables": {
+        "arg1": "Bu da bu tür şeylere sebebiyet veriyor.",
+        "arg2": "Birkaç hafta önce biri bana bu fotoğrafı gönderdi."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 37,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "Avustralyalıları sevmek lazım, değil mi?",
+        "arg2": "CalPERS, diğer bir örnek."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 38,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "Mavide, MSCI World'ü görüyoruz.",
+        "arg2": "Bu, dünyadaki gelişmiş pazarlardaki büyük şirketlerin indeksi."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 39,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "gayrimenkul ayak izini azaltıyor,",
+        "arg2": "işletme maliyetlerinde yıllık olarak 23 milyon dolar tasarruf sağlıyor"
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 40,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Evren gezegenlerle dolu.",
+        "arg2": "Önümüzdeki 10 yıl içinde, bir başka yıldızın yakınındaki bir Dünya'yı fotoğraflayıp, orada hayat olup olmadığını ortaya çıkarabilecek bir teleskop icat etmemizi istiyorum."
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 41,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Neden bunu hâlâ yapamadık?",
+        "arg2": "Neden bu kadar zor?"
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 42,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "iki şey yapıyoruz.",
+        "arg2": "Gezegenimize ve ekonomimize olan riski azaltarak sigorta yaratıyoruz ve aynı zamanda da kısa vadede performanstan fedakârlık etmiyoruz."
+      },
+      "answer_type": "string",
+      "answer": "şöyle ki"
+    },
+    {
+      "id": 43,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "muhtemelen şöyle bir şey görebilirsiniz.",
+        "arg2": "Bu bizim en yakın komşu yıldızlarımızdan birinin Hubble Uzay Teleskobu ile çekilen resmi."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 44,
+      "doc": "talk_2009_tr",
+      "variables": {
+        "arg1": "bu yüzden çocukluk dönemi hatıralarımın çoğu sınırlarda yürüyüp, çilek peşinde koştuğum ve farklı farklı insanlarla karşılaştığım yollarda sıradışı bir hayat sürdüğüm karma karışık hayallerdi.",
+        "arg2": "Yıllar geçti,"
+      },
+      "answer_type": "string",
+      "answer": "sonra"
+    },
+    {
+      "id": 45,
+      "doc": "talk_2150_tr",
+      "variables": {
+        "arg1": "Hala hükümetle, gazetelerle, politkayla, köşe yazarlarıyla ilintili bir grup insan var.",
+        "arg2": "TEDx Rio, sağ aşağıda, blogcuların ve yazarların tam yanındadır."
+      },
+      "answer_type": "string",
+      "answer": "VE"
+    },
+    {
+      "id": 46,
+      "doc": "talk_2150_tr_inter",
+      "variables": {
+        "arg1": "o çok farklı bir şekilde temsil temsil edilmektedir.",
+        "arg2": "Sanırım bu, çok kültürlülüğü ve müzikal farklılığıyla Rio’yu anlama tarzımıza uygun düşer."
+      },
+      "answer_type": "string",
+      "answer": "Sonuç olarak"
+    },
+    {
+      "id": 47,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Paris Review, James Baldwin'e sorduğunda şu cevabı alabilmişti, \"Bilgiyle artan şey sizce nedir?\" ve o da şöyle söyledi, \"Ne kadar az bildiğini öğreniyorsun.",
+        "arg2": "Başarı bizi motive eder, ama neredeyse kazanmak süregelen bir arayışta bizi ileriye götürebilir."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 48,
+      "doc": "talk_2150_tr",
+      "variables": {
+        "arg1": "Birkaç hafta önce biri bana bu fotoğrafı gönderdi.",
+        "arg2": "Fotoğraf San Francisco’da neler olduğunu gösteriyor"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 49,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "Bu, dünyanın en büyük ekonomisidir.",
+        "arg2": "Bu, gerçekten de ciddi bir güç."
+      },
+      "answer_type": "string",
+      "answer": "bir başka deyişle"
+    },
+    {
+      "id": 50,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "çok nadir olarak görülecek bir şeye tanıklık ettiğimi anladım, başarı ve ustalık arasındaki o farka.",
+        "arg2": "O zaman başarı o onluk daireye isabet ettirmektir,"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 51,
+      "doc": "talk_2150_tr_inter",
+      "variables": {
+        "arg1": "Justin Bieber hayranları bile burada gösterilmektedir.",
+        "arg2": "Diğer müzik grupları, country şarkıcıları, dini müzik, funk, rap ve stand up komedi, Uyuşturucu ve espirileri içeren tüm bir bölge bile var."
+      },
+      "answer_type": "string",
+      "answer": "bununla beraber"
+    },
+    {
+      "id": 52,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Son 5-6 yıldır bunun üzerinde çalışıyoruz.",
+        "arg2": "Geçen yaz, Kaliforniya'da Northrop Grumman'da çok etkileyici bir sınama yaptık."
+      },
+      "answer_type": "string",
+      "answer": "özellikle"
+    },
+    {
+      "id": 53,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Olduğunuz yer ve olmak istediğiniz yer arasındaki boşluğu sürekli kapatmayı istemektir.",
+        "arg2": "Ustalık sanatınız için fedakârlık yapmaktır, kariyerinizi inşa etmeniz için değil."
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 54,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Birbirleriyle kelimelerle değil, sayılarla, derecelerle konuştular, sanırım hedeflerini vurmayı planladıkları pozisyonlarla.",
+        "arg2": "Belki de kimin desteğe ihtiyacı olabilir diye değerlendirmek üzere koçu aramızda dururken bir okçunun arkasında durdum ve onu seyrettim, birinin bile nasıl onluk daireyi vuracağını anlayamamıştım."
+      },
+      "answer_type": "string",
+      "answer": "sonra"
+    },
+    {
+      "id": 55,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Duke Ellington tarafından anlaşılmış bir bilgelikti bu, ki kendisi repertuvarındaki en sevdiği şarkının hep bir sonraki olduğunu, hep daha bestelemediği şarkı olduğunu söylemiştir.",
+        "arg2": "Neredeyse kazanmanın ustalığın doğasında olmasının sebeplerinden biri, uzmanlığımız ne kadar fazlaysa, bildiğimizi düşündüğümüz şeylerin hepsini bilmediğimizi daha net görebilmemizdir."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 56,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Bir başka yıldızın etrafındaki Dünya benzeri bir gezegenin böyle bir fotoğrafını çekmek istiyorum.",
+        "arg2": "Neden bunu hâlâ yapamadık?"
+      },
+      "answer_type": "string",
+      "answer": "ama"
+    },
+    {
+      "id": 57,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Şunları anlamak isityoruz:",
+        "arg2": "Su var mı, oksijen var mı, ozon var mı?"
+      },
+      "answer_type": "string",
+      "answer": "şöyle ki"
+    },
+    {
+      "id": 58,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "Bu, ABD'nin GSMH'sının sekiz buçuk katı.",
+        "arg2": "Bu, dünyanın en büyük ekonomisidir."
+      },
+      "answer_type": "string",
+      "answer": "bir başka deyişle"
+    },
+    {
+      "id": 59,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "neredeyse kazanma oranı ortalamadan daha yüksek olan kazı kazan biletleri yarattılar",
+        "arg2": "ve insanlar daha fazla bilet almak için öylesine istekliydi"
+      },
+      "answer_type": "string",
+      "answer": "sonuçta"
+    },
+    {
+      "id": 60,
+      "doc": "talk_2150_tr_inter",
+      "variables": {
+        "arg1": "Belki de zaman oturma şemasını biraz sallamaya gelmiştir.",
+        "arg2": "Farkına varmaya başladığımız diğer bir şey ise ırkın gerçekten farklıklar için zayıf bir etken olduğudur."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 61,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Bunun ona daha çok kararlılık verdiğini gördüm ve tekrar tekrar denedi.",
+        "arg2": "Bu üç saat sürdü."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 62,
+      "doc": "talk_2009_tr",
+      "variables": {
+        "arg1": "diğer toplumun alt kesimlerinden gelenlerin yukarlara doğru tırmanmaya şanşı yok: evlatlık olup bakıcılardan kaçanlar, kaçan ergenler, tacize uğrayanlar ve evinden atılalar.",
+        "arg2": "Diğerlerinin ekonomik başarısızlık ve yokluk gördüğü yerde, gezginler liberalizm ve özgürlük prizmasından kendi var oluşlarını görüyorlar."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 63,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Ressam Paul Cézanne, çalışmalarının sıklıkla bitmemiş olduğunu düşünerek, onları tekrar ele almak niyetiyle kasıtlı olarak bir kenara koyardı, ancak hayatının sonunda sonuç resimlerinin sadece yüzde onunu imzalamış olmasıydı.",
+        "arg2": "En sevdiği roman, Honoré de Balzac'ın Gizli Başyapıt'ıydı ve ana karakteri kendisiyle özdeşleştirmişti."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 64,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "Bu, 21.000 aracı trafikten çıkarmaya eşdeğer.",
+        "arg2": "Çok harika, değil"
+      },
+      "answer_type": "string",
+      "answer": "işte"
+    },
+    {
+      "id": 65,
+      "doc": "talk_2150_tr",
+      "variables": {
+        "arg1": "Fotoğraf San Francisco’da neler olduğunu gösteriyor",
+        "arg2": "Bunu böyle bir haritaya bakarak anlamaya çalışacağınızı düşünüyorum."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 66,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "sürdürülebilir yatırım düşündüğünüzden daha az karmaşık, sandığınızdan çok daha iyi performansı var",
+        "arg2": "ve hayal edebileceğimizden çok daha önemli."
+      },
+      "answer_type": "string",
+      "answer": "ayrıca"
+    },
+    {
+      "id": 67,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Yıldızdan gelen ışık sapma yapıyor.",
+        "arg2": "Teleskobun içinde saçılarak, gezegeni görülemeyecek hâle getiren bu aşırı parlak görüntüyü yaratıyor."
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 68,
+      "doc": "talk_2150_tr",
+      "variables": {
+        "arg1": "Bu benim memleketim Maryland, Baltimore’daki insanlar arasındaki ilişkilere dair bir harita.",
+        "arg2": "Burada gördüğünüz her bir nokta bir kişiyi temsil etmekte,"
+      },
+      "answer_type": "string",
+      "answer": "öyle ki"
+    },
+    {
+      "id": 69,
+      "doc": "talk_2150_tr_inter",
+      "variables": {
+        "arg1": "Bu şehir hakkında benim dikkatimi çeken noktalardan gerçekten her şeyin bir tür karışım olması.",
+        "arg2": "Rio, Baltimore ve San Francisco’nun tersine tam bir heterojen şehir."
+      },
+      "answer_type": "string",
+      "answer": "yani"
+    },
+    {
+      "id": 70,
+      "doc": "talk_2150_tr_inter",
+      "variables": {
+        "arg1": "Sadece ırka bakmak farklılıkları geliştirmemize gerçekte bir katkı sağlamaz.",
+        "arg2": "Eğer, farklılıkları bazı zor problemlerimizi çözmek için bir yöntem olarak kullanmayı deniyorsak farklıklara yeni bir tarzda bakmaya başlamamız gerekiyor."
+      },
+      "answer_type": "string",
+      "answer": "o halde"
+    },
+    {
+      "id": 71,
+      "doc": "talk_2150_tr",
+      "variables": {
+        "arg1": "Şimdi de San Francisco’ya bir göz atalım.",
+        "arg2": "San Francisco’da biraz farklı olan bazı şeyleri görürsünüz."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 72,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "Yatırımcılar ÇSY diye adlandırdığımız üç faktörün performans metriklerine de bakmalılar: Çevre, sosyal ve yönetim.",
+        "arg2": "Çevre; enerji tüketimini, su bulunabilirliğini, atık ve kirliliği içeriyor, yani kaynakların etkin kullanımını sağlamakla ilgili."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 73,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Birbirleriyle kelimelerle değil,",
+        "arg2": "sayılarla, derecelerle konuştular,"
+      },
+      "answer_type": "string",
+      "answer": "daha çok"
+    },
+    {
+      "id": 74,
+      "doc": "talk_2009_tr",
+      "variables": {
+        "arg1": "Akşam, yıldızların altında birlikte köpeklerine, kedilerine ve evcil farelerine sokularak uyuyorlar.",
+        "arg2": "Yolları tercih eden bazı gezginler maddeciliği, geleneksel işleri ve üniversite derecelerini bir maceranın zayıf ışığına tercih ediyor."
+      },
+      "answer_type": "string",
+      "answer": "öte yandan"
+    },
+    {
+      "id": 75,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "Yaklaşık sekiz sene boyunca, yaklaşık üçte iki oranda daha fazla performans gösterdiler.",
+        "arg2": "Evet bu korelasyon."
+      },
+      "answer_type": "string",
+      "answer": "yani"
+    },
+    {
+      "id": 76,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Arkadaşları bu isteğine uymayı reddettiler ve bu yüzden şimdi Kafka'nın yaptığı bütün çalışmalara sahibiz: \"Amerika\", \"Dava\" ve \"Şato\", öylesine tamamlanmamış bir eser ki, cümlenin ortasında bitiyor.",
+        "arg2": "Ustalığı arayış, diğer bir deyişle, hemen hemen hep ileriye doğrudur."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 77,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Ay güneşin önüne geçmiş durumda.",
+        "arg2": "Işığın çoğunu engelliyor,"
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 78,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Spitzer aslında yanıtı biliyordu.",
+        "arg2": "Eğer uçları inceltip, bu uçları yumuşatabilirsek sapmaları kontrol edebilirdik."
+      },
+      "answer_type": "string",
+      "answer": "şöyle ki"
+    },
+    {
+      "id": 79,
+      "doc": "talk_2150_tr",
+      "variables": {
+        "arg1": "o çok farklı bir şekilde temsil temsil edilmektedir.",
+        "arg2": "Sanırım bu, çok kültürlülüğü ve müzikal farklılığıyla Rio’yu anlama tarzımıza uygun düşer."
+      },
+      "answer_type": "string",
+      "answer": "Sonuç olarak"
+    },
+    {
+      "id": 80,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "Bazı durumlarda, ÇSY daha iyi bir performans gösterebilir.",
+        "arg2": "Mavide, dünyadaki en büyük 500 şirketin performansını görüyoruz ve altın rengi olarak iklim değişikliği stratejisi ve risk yönetiminde en iyi uygulamalara sahip şirketlerin alt kümesini görüyoruz."
+      },
+      "answer_type": "string",
+      "answer": "örneğin"
+    },
+    {
+      "id": 81,
+      "doc": "talk_2150_tr",
+      "variables": {
+        "arg1": "şehirlerin haritalarını oluşturmayı düşünmenin ve yapmanın başka yolları da var.",
+        "arg2": "Bugün size yeni bir tür harita göstermek istiyorum."
+      },
+      "answer_type": "string",
+      "answer": "öyle ki"
+    },
+    {
+      "id": 82,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "yatırımcılar değişimin en büyük faktörlerinden bazılarına yeterince dikkat etmiyorlar, özellikle de iş sürdürülebilirliğe gelince.",
+        "arg2": "Sürdürülebilirlik derken anlatmak istediğim, çevresel ve sosyal sorunlar ve kurumsal yönetim gibi cazip konular."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 83,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Ustalığı arayış, diğer bir deyişle, hemen hemen hep ileriye doğrudur.",
+        "arg2": "Tanrım, bana başarabileceğimden daha fazlasını istemeyi bahşet,\" diye yakarmıştı Michelangelo,"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 84,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "hepsi durumu bu şekilde görmüyorlar.",
+        "arg2": "Sık sık şunu duyarım, \"Kazancı maksimize etmek zorundayız, bu yüzden bunu burada yapamayız.\", veya \"Portfolyomuzu politika beyanı yapmak için kullanmak istemiyoruz."
+      },
+      "answer_type": "string",
+      "answer": "bunun yerine"
+    },
+    {
+      "id": 85,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Ustalık uzanmaktır, ulaşmak değildir.",
+        "arg2": "Olduğunuz yer ve olmak istediğiniz yer arasındaki boşluğu sürekli kapatmayı istemektir."
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 86,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "Veriler, daha iyi ÇSY performansı olan hisse senetlerinin en az diğerleri kadar başarılı olduğunu gösteriyor.",
+        "arg2": "Mavide, MSCI World'ü görüyoruz."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 87,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "İnanıyorum ki, sürdürülebilir yatırım düşündüğünüzden daha az karmaşık, sandığınızdan çok daha iyi performansı var ve hayal edebileceğimizden çok daha önemli.",
+        "arg2": "Halihazırda bildiklerimizi tekrar hatırlatayım."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 88,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "Ben de seviyorum.",
+        "arg2": "Seviyorum, çünkü iklim değişikliği mevzusunun iki yönüyle de dalga geçiyor."
+      },
+      "answer_type": "string",
+      "answer": "yani"
+    },
+    {
+      "id": 89,
+      "doc": "talk_2009_tr",
+      "variables": {
+        "arg1": "Bu bir göçebe hayali Amerikan rüyasının bir başka türü genç rençperlerin, gezginler, otostopçuların ve serseriler yaşadığı.",
+        "arg2": "Birçoğumuzun aklınızda, aylaklar-serseriler geçmişten gelen canavarlar. \"Gezici rençper\" kelimesi bacakları vagondan sarkan kömürle kaplı yıpranmış yaşlı bir adamı çağrıştırıyor."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 90,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Bu yaprakların tabanı her seferinde, milimetrenin onda biri hassaslıkla aynı yere oturmalı.",
+        "arg2": "Bu sınamayı 16 kez yaptık ve 16 kez, milimetrenin onda biri hassaslıkla tam olarak aynı yere geldi."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 91,
+      "doc": "talk_2150_tr",
+      "variables": {
+        "arg1": "Her bir çizgi ise bu insanlar arasındaki ilişkiyi göstermekte,",
+        "arg2": "her bir renk ağ içindeki topluluğu temsil etmektedir."
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 92,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "bu, çevresel liderliğin iyi kazançla bağdaştığını gösteriyor.",
+        "arg2": "O zaman eğer kazanç aynı ya da daha iyi olursa ve gezegen bundan fayda görürse, bunun norm olması gerekmez mi?"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 93,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "yaklaşık on yıl önce ana elektrikli alet işlerini sattılar ve bu kazançlarını su işine yatırdılar.",
+        "arg2": "Bu çok büyük bir bahis."
+      },
+      "answer_type": "string",
+      "answer": "sonuçta"
+    },
+    {
+      "id": 94,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Göreceğimiz şey şöyle bir şey, Dünya'nın resminin hafifçe bulanık hâli gibi çünkü Mars'ın yörüngesinde oldukça ufak bir teleskobumuz var.",
+        "arg2": "Hadi şimdi 10 kat daha uzaklaşalım."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 95,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "gezegenlerin işte böyle belirdiğini görebiliyoruz.",
+        "arg2": "Tabi bu benim baş parmağımdan daha büyük olmalı."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 96,
+      "doc": "talk_2150_tr",
+      "variables": {
+        "arg1": "Sadece ırka bakmak farklılıkları geliştirmemize gerçekte bir katkı sağlamaz.",
+        "arg2": "Eğer, farklılıkları bazı zor problemlerimizi çözmek için bir yöntem olarak kullanmayı deniyorsak farklıklara yeni bir tarzda bakmaya başlamamız gerekiyor."
+      },
+      "answer_type": "string",
+      "answer": "o halde"
+    },
+    {
+      "id": 97,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Uzun zamandır kendi kendime sorduğum bir soru bu.",
+        "arg2": "Bence başarıya yaklaşma lütfuna değer vermeye başladığımızda ortaya çıkıyor."
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 98,
+      "doc": "talk_2150_tr",
+      "variables": {
+        "arg1": "bu, şehri enine boyuna tüm derinliğine keşfetmemizden kaynaklanıyor.",
+        "arg2": "Ağın diğer ucunda Hip-hop müzik gibi şeylerden hoşlanan topluluğu görebilirsiniz. hatta onlar DC/Maryland/Virgina bölgesinde, doğru tanımıyla Baltimore şehrinin üst tarafında yaşamakla özdeşleşirler."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 99,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Ustalar bir konuyu kavramsal sona getirdikleri için uzman değillerdir.",
+        "arg2": "Ustalardır çünkü bunun olmadığını fark ederler."
+      },
+      "answer_type": "string",
+      "answer": "aslında"
+    },
+    {
+      "id": 100,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Teleskoptan ayrılıyor.",
+        "arg2": "Yapraklar açılıp genişliyor."
+      },
+      "answer_type": "string",
+      "answer": "sonra"
+    },
+    {
+      "id": 101,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Önce bir makaraya sarılı durumda oluyor.",
+        "arg2": "Teleskoptan ayrılıyor."
+      },
+      "answer_type": "string",
+      "answer": "ardından"
+    },
+    {
+      "id": 102,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "Hem büyüyen, hem de yaşlanan bir nüfusumuz var; bugün yedi milyar ruha sahibiz, bu yüzyılın sonuna kadar on milyara doğru gidecek; doğal kaynakları yenilenebileceğinden daha hızlı şekilde tüketiyoruz ve de iklimsel degişikliklerin esas sorumlusu olan gaz emisyonları artmaya devam etmekte.",
+        "arg2": "Bunlar belli ki çevresel ve sosyal sorunlar,"
+      },
+      "answer_type": "string",
+      "answer": "özetle"
+    },
+    {
+      "id": 103,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "Boston'da yaşıyorsanız belki de değil.",
+        "arg2": "Benim söylemek istediğim, birşey olursa diye kendimizi finansal olarak korumak için sigorta satın alıyoruz, değil mi?"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 104,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Bence başarıya yaklaşma lütfuna değer vermeye başladığımızda ortaya çıkıyor.",
+        "arg2": "Manhattan'ın en kuzeyinde bulunan Columbia'nın Baker Spor Kompleksi'nde soğuk bir Mayıs günü üniversitenin, kadere bakın ki hepsi kadın olan, okçuluk takımını seyretmeye gittiğimde bunu anlamaya başladım."
+      },
+      "answer_type": "string",
+      "answer": "aslında"
+    },
+    {
+      "id": 105,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "şirketin başarısı için de kritik olarak",
+        "arg2": "sadece önemli olarak değil,"
+      },
+      "answer_type": "string",
+      "answer": "daha çok"
+    },
+    {
+      "id": 106,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Yapraklarının açıldığını göreceksiniz.",
+        "arg2": "Şimdi yerleştirilmesini görüyorsunuz."
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 107,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Araç güneş sisteminden çıkmak üzereyken, onu bu tarafa çevirip, 6 milyar kilometre öteden Dünya'nın fotoğrafını çektirdiler.",
+        "arg2": "Bir başka yıldızın etrafındaki Dünya benzeri bir gezegenin böyle bir fotoğrafını çekmek istiyorum."
+      },
+      "answer_type": "string",
+      "answer": "aynı şekilde"
+    },
+    {
+      "id": 108,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Bu yıldız gölgeleyici yaklaşık yarım futbol sahası büyüklüğünde ve gölgesi içinde tutulması gereken teleskoptan 50.000 kilometre uzakta uçması gerekiyor. Ancak bu şekilde gezegenleri görebiliriz.",
+        "arg2": "Bu ürkütücü gelse de, JPL'deki meslektaşlarım, parlak mühendisler bunu nasıl yapabileceğimize ilişkin şöyle muhteşem bir tasarım ortaya attılar."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 109,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Bunu yılmaz Kuzey Kutbu kâşifi Ben Saunders'ın yaşamında bile görüyoruz, ki bana zaferlerinin sadece büyük başarılarının sonucu olmadığını, onun yerine bir dizi kazanmaya yaklaştıklarının itici gücü söylemiştir.",
+        "arg2": "Kendi öncüsü olduğumuz yerde kaldığımızda başarılı oluyoruz."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 110,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "Çok harika, değil mi?",
+        "arg2": "Diğer bir örnek de Pentair."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 111,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Onları sadece dolaylı yollardan saptadık.",
+        "arg2": "Bu NASA'nın ünlü \"Soluk Mavi Nokta\" fotoğrafı."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 112,
+      "doc": "talk_2150_tr",
+      "variables": {
+        "arg1": "Bu bir coğrafi harita değil.",
+        "arg2": "Bu benim memleketim Maryland, Baltimore’daki insanlar arasındaki ilişkilere dair bir harita."
+      },
+      "answer_type": "string",
+      "answer": "aksine"
+    },
+    {
+      "id": 113,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "kocası bunun bir sonraki yarışmada ona ihtiyacı olan kararlılığı vereceğini öngörmüştü.",
+        "arg2": "1988'de heptatlonda altını kazandı ve 7.921 puanla rekor kırdı, ki bu o zamandan beri hiçbir sporcunun yaklaşmadığı bir skor."
+      },
+      "answer_type": "string",
+      "answer": "sonra"
+    },
+    {
+      "id": 114,
+      "doc": "talk_2150_tr",
+      "variables": {
+        "arg1": "Son birkaç haftayı Rio hakkında bilgi toplamakla geçirdim",
+        "arg2": "Bu şehir hakkında benim dikkatimi çeken noktalardan gerçekten her şeyin bir tür karışım olması."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 115,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "başarı ve yaratıcılık hakkındaki görüşüm değişti.",
+        "arg2": "Başarının bir an olduğunu, ancak her zaman göklere çıkardığımız şeyin yaratıcılık ve ustalık olduğunu anladım."
+      },
+      "answer_type": "string",
+      "answer": "bilhassa"
+    },
+    {
+      "id": 116,
+      "doc": "talk_2150_tr_inter",
+      "variables": {
+        "arg1": "Fotoğraf San Francisco’da neler olduğunu gösteriyor",
+        "arg2": "Bunu böyle bir haritaya bakarak anlamaya çalışacağınızı düşünüyorum."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 117,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "bu inisiyatifler daha mobil bir iş ortamı yaratıyor,",
+        "arg2": "gayrimenkul ayak izini azaltıyor,"
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 118,
+      "doc": "talk_2150_tr_inter",
+      "variables": {
+        "arg1": "Fakat ortada iki toplumu birleştiren bir şey görürsünüz bu spordur.",
+        "arg2": "Baltimore Orioles ve Baltimore Ravens futbol takımları ve Olimpiyat sporcusu Micheal Plehps var."
+      },
+      "answer_type": "string",
+      "answer": "Örneğin"
+    },
+    {
+      "id": 119,
+      "doc": "talk_1971_tr",
+      "variables": {
+        "arg1": "Protez soketi, uzvu kesilmiş kişinin kesik uzvuna taktığı ve böylece uzvu protez ayağa bağladığı parçadır.",
+        "arg2": "Gelişmiş ülkelerde bile bir hastanın rahat bir soket alabilmesi 3 haftadan yıllara kadar çıkabiliyor, tabi alabilirse."
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 120,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Bu NASA'nın ünlü \"Soluk Mavi Nokta\" fotoğrafı.",
+        "arg2": "Voyager uzay aracı tarafından 1990'da çekildi."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 121,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "yarın TED'de harika bir günü anlatmanızı istesem, bunu tane tane, gerçekçi bir netlikte anlatabilirsiniz.",
+        "arg2": "Neredeyse kazanma işte bunu yapar."
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 122,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Bu muhtemelen bize gelecek 10 yılda bir Dünya bulmaya en yakın olanı.",
+        "arg2": "Fikir ilk olarak 1962'de, uzay teleskobunun babası Lyman Spitzer tarafından ortaya atıldı."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 123,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Bu bir güneş tutulması.",
+        "arg2": "Ay güneşin önüne geçmiş durumda."
+      },
+      "answer_type": "string",
+      "answer": "yani"
+    },
+    {
+      "id": 124,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Ütopyalar yaratmış olsaydık bile, bence hâlâ bitmemişlere sahip olurduk.",
+        "arg2": "Tamamlamak bir amaçtır, ama onun hiçbir zaman son olmadığını ümit ederiz."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 125,
+      "doc": "talk_2009_tr",
+      "variables": {
+        "arg1": "Gün başlarken, yük trenlerinden atılıyorlar baş parmaklarını kaldırıyorlar ve kamyonculardan futbolcu annelerine kim gelirse onlarla yolculuk ediyorlar.",
+        "arg2": "Akşam, yıldızların altında birlikte köpeklerine, kedilerine ve evcil farelerine sokularak uyuyorlar."
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 126,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Buna Çiçek Yapraklı Yıldız Gölgeleyicimiz diyoruz.",
+        "arg2": "Eğer bu yaprakların uçlarını gerektiği gibi yaparsak, eğer biçimlerini kontrol edebilirsek, sapmaları kontrol edebiliriz ve böylece harika bir gölgeye sahip oluruz."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 127,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "sadece para kazan",
+        "arg2": "ve kârı hayır kurumlarına ver."
+      },
+      "answer_type": "string",
+      "answer": "hatta"
+    },
+    {
+      "id": 128,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "birinin bile nasıl onluk daireyi vuracağını anlayamamıştım.",
+        "arg2": "Onluk daire standart 75 yarda mesafeden, bir kol boyu uzaklığından bir kibrit çöpünün ucu kadar küçük görünür."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 129,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "1988'de heptatlonda altını kazandı ve 7.921 puanla rekor kırdı, ki bu o zamandan beri hiçbir sporcunun yaklaşmadığı bir skor.",
+        "arg2": "Her şeyi yaptığımızda gelişmeyiz, aksine daha yapacak şeyler olduğunda."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 130,
+      "doc": "talk_2150_tr_inter",
+      "variables": {
+        "arg1": "Bu benim memleketim Maryland, Baltimore’daki insanlar arasındaki ilişkilere dair bir harita.",
+        "arg2": "Burada gördüğünüz her bir nokta bir kişiyi temsil etmekte,"
+      },
+      "answer_type": "string",
+      "answer": "şöyle ki"
+    },
+    {
+      "id": 131,
+      "doc": "talk_2009_tr",
+      "variables": {
+        "arg1": "bir çok açıdan bu hayat cennet gibi sessiz bir yaşantıdan uzak.",
+        "arg2": "Hiç kimse yollara düşerek kendi içindeki şeytanından kurtulamıyor."
+      },
+      "answer_type": "string",
+      "answer": "çünkü"
+    },
+    {
+      "id": 132,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Su var mı, oksijen var mı, ozon var mı?",
+        "arg2": "Yaşam barındırabileceğine ilişkin işaretler arıyoruz."
+      },
+      "answer_type": "string",
+      "answer": "yani"
+    },
+    {
+      "id": 133,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "En sevdiği roman, Honoré de Balzac'ın Gizli Başyapıt'ıydı ve ana karakteri kendisiyle özdeşleştirmişti.",
+        "arg2": "Diğerleri çalışmalarını yalnızca övgüye değer bulurken, Franz Kafka bitmemiş olarak gördü,"
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 134,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "bizimkini değil, bir başka güneş sistemi görebilmeyi umuyoruz, gölgeleyici sayesinde, bunun gibi bir yıldız gölgeleyici sayesinde.",
+        "arg2": "Jüpiter'i görebilirsiniz, Satürn'ü görebilirsiniz, Uranüs, Neptün ve tam burada merkezde kalıntı ışıkların yanındaki soluk mavi noktayı."
+      },
+      "answer_type": "string",
+      "answer": "örneğin"
+    },
+    {
+      "id": 135,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Bu bizim en yakın komşu yıldızlarımızdan birinin Hubble Uzay Teleskobu ile çekilen resmi.",
+        "arg2": "Eğer buna benzer biraz daha büyük bir uzay teleskobu alıp, oraya bir yere koyarsak, önüne bir gölgeleyici getirirsek, bunun gibi bir şey görebiliriz: Bu güneş sistemimizin aile portresi."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 136,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Spitzer bunu uzayda yapmayı önerdi.",
+        "arg2": "Büyük bir gölgelik yapıp uzaya göndeririz, bunu yıldızın tam önüne koyarız, ışığın çoğunu engelleriz, oluşan gölgeye bir uzay teleskobu yerleştiririz"
+      },
+      "answer_type": "string",
+      "answer": "şöyle ki"
+    },
+    {
+      "id": 137,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Ondan kurtulmak zorundayız.",
+        "arg2": "Bunu başarmak için gerçekten inanılmaz teknolojiler üzerinde çalışan pek çok meslektaşım var."
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 138,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Bunun gibi bir şeye benziyordu.",
+        "arg2": "Buna Çiçek Yapraklı Yıldız Gölgeleyicimiz diyoruz."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 139,
+      "doc": "talk_2150_tr_inter",
+      "variables": {
+        "arg1": "her bir renk ağ içindeki topluluğu temsil etmektedir.",
+        "arg2": "Ben buradaki yeşil renkli, sağ aşağıda anti-sosyallerin yer aldığı alandayım."
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 140,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Bir gün galeride o ilk resimlerine gülümserken onu gördüğümde, Elizabeth Murray'in ne düşündüğünü anlamam için gereken şey bu.",
+        "arg2": "Ütopyalar yaratmış olsaydık bile, bence hâlâ bitmemişlere sahip olurduk."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 141,
+      "doc": "talk_1971_tr",
+      "variables": {
+        "arg1": "Protez kullananlar tek parça protez soketleri yapmak için hala kalıp çıkarma ve kalıba dökme gibi geleneksel yöntemler kullanıyor.",
+        "arg2": "Bu tür soketler genelde hastanın uzvuna dayanılmaz ölçüde baskı yaparak yaralara ve su toplamasına neden oluyor."
+      },
+      "answer_type": "string",
+      "answer": "ama"
+    },
+    {
+      "id": 142,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Bunu kumar endüstrisinde dahi görüyoruz, ki bu neredeyse kazanma olgusunu bir zamanlar alıp neredeyse kazanma oranı ortalamadan daha yüksek olan kazı kazan biletleri yarattılar ve insanlar daha fazla bilet almak için öylesine istekliydi ki, bunlara yürek durduran dendi ve 1970'lerde Britanya'da kumar endüstrisinin bir dizi suistimali ile körüklendi.",
+        "arg2": "Neredeyse kazanmanın itici gücü olmasının nedeni, olaya bakışımızı değiştirmesi ve uzağa koymaya meyilli olduğumuz hedeflerimizi bulunduğumuz daha yakın bir yere koymasıdır."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 143,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "ustalık mükemmellikle aynı şey değildir.",
+        "arg2": "Başarıyla aynı şey değildir,"
+      },
+      "answer_type": "string",
+      "answer": "aynı zamanda"
+    },
+    {
+      "id": 144,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "gerçekten güzel olan şey çoğu genel müdürün dikkat etmesi.",
+        "arg2": "Sürdürülebilirliği sadece önemli olarak değil, şirketin başarısı için de kritik olarak görmeye başladılar."
+      },
+      "answer_type": "string",
+      "answer": "özellikle"
+    },
+    {
+      "id": 145,
+      "doc": "talk_2150_tr",
+      "variables": {
+        "arg1": "adeta büyük bir lisenin kafeteryası gibiymiş bakmak,",
+        "arg2": "herkesin bir oturma şemasına kendisini nasıl yerleştirdiğini görmektir."
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 146,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Ben şimdi sizlere bunların en ilginci olduğunu düşündüğüm birini anlatacağım.",
+        "arg2": "Bu muhtemelen bize gelecek 10 yılda bir Dünya bulmaya en yakın olanı."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 147,
+      "doc": "talk_1971_tr",
+      "variables": {
+        "arg1": "çabuk ve ucuz yeni soketler yapmak için verileri kullanıyoruz.",
+        "arg2": "Son bir denemede, Medya Laboratuvarı'nda, artık tamamladık, hastalarımızdan biri, Amerikalı bir gazi, düzinelerce protez giymiş neredeyse 20 yıllık bir ampüte, bizim yazdırdığımız parçalardan biri hakkında dedi ki, \"Çok yumuşak, yastıkların üzerinde yürüyormuşsun gibi ve çok çekici."
+      },
+      "answer_type": "string",
+      "answer": "örneğin"
+    },
+    {
+      "id": 148,
+      "doc": "talk_2150_tr",
+      "variables": {
+        "arg1": "Farklı ırklardan insanların tüm harita üzerinde temsil edilmesini sağladık burada.",
+        "arg2": "Sadece ırka bakmak farklılıkları geliştirmemize gerçekte bir katkı sağlamaz."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 149,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "bunlardan hiçbirini görmüş değiliz.",
+        "arg2": "Onları sadece dolaylı yollardan saptadık."
+      },
+      "answer_type": "string",
+      "answer": "ama"
+    },
+    {
+      "id": 150,
+      "doc": "talk_2150_tr",
+      "variables": {
+        "arg1": "Sanırım anlamaya çalışacağımız ilk şey ayrımcılığın sosyal bir yapı olduğudur.",
+        "arg2": "Bu bizim yapmayı veya yapmamayı tercih ettiğimiz bir şeydir."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 151,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Neredeyse kazanmanın ustalığın doğasında olmasının sebeplerinden biri, uzmanlığımız ne kadar fazlaysa, bildiğimizi düşündüğümüz şeylerin hepsini bilmediğimizi daha net görebilmemizdir.",
+        "arg2": "Buna Dunning–Kruger etkisi denir."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 152,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "bütün günlüklerinin, el yazılarının, mektuplarının ve hatta taslaklarının öldükten sonra yakılmasını istedi.",
+        "arg2": "Arkadaşları bu isteğine uymayı reddettiler"
+      },
+      "answer_type": "string",
+      "answer": "ama"
+    },
+    {
+      "id": 153,
+      "doc": "talk_2150_tr_intra",
+      "variables": {
+        "arg1": "Her bir çizgi ise bu insanlar arasındaki ilişkiyi göstermekte,",
+        "arg2": "her bir renk ağ içindeki topluluğu temsil etmektedir."
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 154,
+      "doc": "talk_2150_tr_inter",
+      "variables": {
+        "arg1": "değişik müzik tarzlarıyla ilgilenen büyük miktarda insan çeşitliliğine de sahipsiniz",
+        "arg2": "Justin Bieber hayranları bile burada gösterilmektedir."
+      },
+      "answer_type": "string",
+      "answer": "şöyle ki"
+    },
+    {
+      "id": 155,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Geçen yaz, Kaliforniya'da Northrop Grumman'da çok etkileyici bir sınama yaptık.",
+        "arg2": "Burada dört tane yaprak var."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 156,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Gölgelik döne döne uzaklaşıyor ve teleskoptan 50.000 km uzağa uçuyor.",
+        "arg2": "Yıldızın önüne işte böyle geçecek ve harika bir gölge yaratacak."
+      },
+      "answer_type": "string",
+      "answer": "sonra"
+    },
+    {
+      "id": 157,
+      "doc": "talk_2150_tr",
+      "variables": {
+        "arg1": "Ağın diğer tarafında başlıca Afro-Amerikalılar ve Latin toplumu yer almakta ve bunlar anti-sosyallerden kısmen daha farklı şeylerle ilgilenirler.",
+        "arg2": "Bir fikir vermek için ağın yeşil renkli alanını, burada ikamet edenlerimiz için Küçüktimore olarak adlandırabiliriz."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 158,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Princeton'daki NASA Jet Propulsion laboratuvarındaki meslektaşlarım ve ben önümüzdeki birkaç sene içinde bunu yapabilecek bir teknoloji üzerinde çalışıyoruz.",
+        "arg2": "Astronomlar artık gökadadaki her yıldızın bir gezegeni olduğunu düşünüyorlar."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 159,
+      "doc": "talk_2150_tr",
+      "variables": {
+        "arg1": "Belki duymuşsunuzdur, Under Armour bir Baltimore firmasıdır.",
+        "arg2": "Spor camiası ağın her iki ucunu birleştiren tek köprü işlevi görmektedir."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 160,
+      "doc": "talk_2150_tr",
+      "variables": {
+        "arg1": "görüleceği gibi San Francisco’dan kulağımıza gelen ve insanların seçkinleştirme ve yeni teknoloji firmalarının şehre getirdiği yeni zenginlik ve yeni yerleşimlerden kaynaklanan gerginlik bir gerçek olup esasında bu durumun burada dökümante edildiğini görebilirsiniz.",
+        "arg2": "LGBT toplumunun anti-sosyal topluluk ile çok da iyi iyi geçinmediğini görebilirsiniz."
+      },
+      "answer_type": "string",
+      "answer": "örneğin"
+    },
+    {
+      "id": 161,
+      "doc": "talk_2150_tr_inter",
+      "variables": {
+        "arg1": "Birkaç hafta önce biri bana bu fotoğrafı gönderdi.",
+        "arg2": "Fotoğraf San Francisco’da neler olduğunu gösteriyor"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 162,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Her şeyi yaptığımızda gelişmeyiz, aksine daha yapacak şeyler olduğunda.",
+        "arg2": "Burada durup bu odada neredeyse kazanmayı yaratacak değişik yollar hakkında, hayatlarınızın bunu nasıl yerine getirebileceğini düşünüyor ve merak ediyorum."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 163,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "kasti eksiklikler yaratılış efsaneleri içine yerleştirilmiştir.",
+        "arg2": "Navaho kültüründe, bazı erkek ve kadın sanatçılar tekstil ve seramikler içine bilerek kusur koyarlar."
+      },
+      "answer_type": "string",
+      "answer": "örneğin"
+    },
+    {
+      "id": 164,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "Benim söylemek istediğim, birşey olursa diye kendimizi finansal olarak korumak için sigorta satın alıyoruz, değil mi?",
+        "arg2": "İşte sürdürülebilir olarak yatırım yapınca da iki şey yapıyoruz."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 165,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Ona ilk çalışmaları hakkında ne düşündüğünü sorduğumu hatırlıyorum.",
+        "arg2": "Ona ait olduğunu bilmeseniz, bunu tahmin edemezdiniz."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 166,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Bu sınamayı 16 kez yaptık ve 16 kez, milimetrenin onda biri hassaslıkla tam olarak aynı yere geldi.",
+        "arg2": "Bu tam bir doğrulukla yapılmalı ve eğer bunu yapabilirsek, eğer bu teknolojiyi inşa edebilirsek, eğer uzaya götürebilirsek, muhtemelen şöyle bir şey görebilirsiniz."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 167,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "gezegeni görmek için tüm bu ışığa ilişkin bir şeyler yapmamız gerek.",
+        "arg2": "Ondan kurtulmak zorundayız."
+      },
+      "answer_type": "string",
+      "answer": "aslında"
+    },
+    {
+      "id": 168,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Ondan çok fazla şey öğrendim.",
+        "arg2": "Küratör Robert Storr hayat boyu ürettiği işler içinden bütün tabloları seçtikten sonra, 1970'lerdeki resimlere bakmaya bayıldım."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 169,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "bunu yatırım sürecine dahil etmek onların vazifelerinin temeli, fon üyelerinin en çok yararı olacak şekilde davranmak onların vazifelerinin temeli.",
+        "arg2": "Avustralyalıları sevmek lazım, değil mi?"
+      },
+      "answer_type": "string",
+      "answer": "bu nedenle"
+    },
+    {
+      "id": 170,
+      "doc": "talk_1971_tr",
+      "variables": {
+        "arg1": "Gelişmiş ülkelerde bile bir hastanın rahat bir soket alabilmesi 3 haftadan yıllara kadar çıkabiliyor, tabi alabilirse.",
+        "arg2": "Protez kullananlar tek parça protez soketleri yapmak için hala kalıp çıkarma ve kalıba dökme gibi geleneksel yöntemler kullanıyor."
+      },
+      "answer_type": "string",
+      "answer": "çünkü"
+    },
+    {
+      "id": 171,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "Yani burada birşey açıklamama izin verin.",
+        "arg2": "Şirketler ve yatırımcılar gezegenin kaderinden tek başlarına sorumlu değillerdir."
+      },
+      "answer_type": "string",
+      "answer": "NONE"
+    },
+    {
+      "id": 172,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "yeterli değiller.",
+        "arg2": "Yatırımcılar ÇSY diye adlandırdığımız üç faktörün performans metriklerine de bakmalılar: Çevre, sosyal ve yönetim."
+      },
+      "answer_type": "string",
+      "answer": "çünkü"
+    },
+    {
+      "id": 173,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Sistina Şapeli'ndeki Eski Ahit Tanrısı'na ve kendisi de uzattığı parmağı Tanrı'nın eline tam değmeyen Âdem'di.",
+        "arg2": "Ustalık uzanmaktır, ulaşmak değildir."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 174,
+      "doc": "talk_2150_tr_inter",
+      "variables": {
+        "arg1": "eğer düşünürseniz, bizim bu verilerle yapmayı düşündüğümüz şey, şehrin üzerine uzay teleskopu tutmak ve adeta büyük bir lisenin kafeteryası gibiymiş bakmak, herkesin bir oturma şemasına kendisini nasıl yerleştirdiğini görmektir.",
+        "arg2": "Belki de zaman oturma şemasını biraz sallamaya gelmiştir."
+      },
+      "answer_type": "string",
+      "answer": "ama"
+    },
+    {
+      "id": 175,
+      "doc": "talk_2150_tr_inter",
+      "variables": {
+        "arg1": "şehirlerin haritalarını oluşturmayı düşünmenin ve yapmanın başka yolları da var.",
+        "arg2": "Bugün size yeni bir tür harita göstermek istiyorum."
+      },
+      "answer_type": "string",
+      "answer": "şöyle ki"
+    },
+    {
+      "id": 176,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Bu yıldız gölgeleyici yaklaşık yarım futbol sahası büyüklüğünde ve gölgesi içinde tutulması gereken teleskoptan 50.000 kilometre uzakta uçması gerekiyor.",
+        "arg2": "Ancak bu şekilde gezegenleri görebiliriz."
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 177,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Spitzer bunu uzayda yapmayı önerdi. Büyük bir gölgelik yapıp uzaya göndeririz, bunu yıldızın tam önüne koyarız, ışığın çoğunu engelleriz, oluşan gölgeye bir uzay teleskobu yerleştiririz ve işte, gezegenleri görebilir hâle geliriz.",
+        "arg2": "Bu şöyle bir şey olurdu."
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 178,
+      "doc": "talk_2150_tr_inter",
+      "variables": {
+        "arg1": "Rio, Baltimore ve San Francisco’nun tersine tam bir heterojen şehir.",
+        "arg2": "Hala hükümetle, gazetelerle, politkayla, köşe yazarlarıyla ilintili bir grup insan var."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 179,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Bunun hakkında düşününce, neden okçuluk koçunun idmanın sonunda bana okçularının işitmeyeceği mesafeden, onun ve meslektaşlarının ekipleri için ne yapsalar yetmeyeceğini düşündüklerini, kazanmak üzere olmak konusunu aşmalarına yardımcı olması için yeterli gözünde canlandırma tekniği ve duruş eğitimi olmadığını söylediğini anlıyorum.",
+        "arg2": "Aslında tam olarak şikâyet gibi gelmedi bu, sadece bana yaptığı naif bir itiraf gibiydi, kendisini hep daha fazlasını talep eden doymak bilmez, bitmeyen bir yola adadığını bildiğini bana hatırlatmak içindi.\nBitmemiş bir fikir üzerine inşa ederiz, bu fikir eski hâlimiz olsa bile."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 180,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Kendi öncüsü olduğumuz yerde kaldığımızda başarılı oluyoruz.",
+        "arg2": "Duke Ellington tarafından anlaşılmış bir bilgelikti bu, ki kendisi repertuvarındaki en sevdiği şarkının hep bir sonraki olduğunu, hep daha bestelemediği şarkı olduğunu söylemiştir."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 181,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "Halihazırda bildiklerimizi tekrar hatırlatayım.",
+        "arg2": "Hem büyüyen, hem de yaşlanan bir nüfusumuz var;"
+      },
+      "answer_type": "string",
+      "answer": "aslında"
+    },
+    {
+      "id": 182,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "uzanmaktır,",
+        "arg2": "ulaşmak değildir."
+      },
+      "answer_type": "string",
+      "answer": "ama"
+    },
+    {
+      "id": 183,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "bunlar sadece uç vakalar mı?",
+        "arg2": "Yani gerçekten mi öyle?"
+      },
+      "answer_type": "string",
+      "answer": "nasıl"
+    },
+    {
+      "id": 184,
+      "doc": "talk_2150_tr",
+      "variables": {
+        "arg1": "Bunu böyle bir haritaya bakarak anlamaya çalışacağınızı düşünüyorum.",
+        "arg2": "Rio de Janerio’ya bir göz atalım."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 185,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "eğer bu teknolojiyi inşa edebilirsek,",
+        "arg2": "eğer uzaya götürebilirsek,"
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 186,
+      "doc": "talk_2150_tr_inter",
+      "variables": {
+        "arg1": "Belki duymuşsunuzdur, Under Armour bir Baltimore firmasıdır.",
+        "arg2": "Spor camiası ağın her iki ucunu birleştiren tek köprü işlevi görmektedir."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 187,
+      "doc": "talk_2150_tr_inter",
+      "variables": {
+        "arg1": "görüleceği gibi San Francisco’dan kulağımıza gelen ve insanların seçkinleştirme ve yeni teknoloji firmalarının şehre getirdiği yeni zenginlik ve yeni yerleşimlerden kaynaklanan gerginlik bir gerçek olup esasında bu durumun burada dökümante edildiğini görebilirsiniz.",
+        "arg2": "LGBT toplumunun anti-sosyal topluluk ile çok da iyi iyi geçinmediğini görebilirsiniz."
+      },
+      "answer_type": "string",
+      "answer": "örneğin"
+    },
+    {
+      "id": 188,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Hubble Uzay Teleskobu'nu tutup döndürdüğümüzü",
+        "arg2": "ve onu Mars'ın yörüngesine doğru gönderdiğimizi"
+      },
+      "answer_type": "string",
+      "answer": "sonra"
+    },
+    {
+      "id": 189,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "birkaçı da öncü konumda.",
+        "arg2": "Hesta. Hesta, Avustralya'da sağlık ve toplum hizmetleri çalışanları için bir emeklilik fonu, 22 milyar (dolar) varlığı var."
+      },
+      "answer_type": "string",
+      "answer": "örneğin"
+    },
+    {
+      "id": 190,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "durup seyrettim",
+        "arg2": "ve adeta rahat bir odaklanma içinde dışarı çıktılar."
+      },
+      "answer_type": "string",
+      "answer": "sonra"
+    },
+    {
+      "id": 191,
+      "doc": "talk_2009_tr",
+      "variables": {
+        "arg1": "Bu kanunları biliyorum çünkü bir kaç arkadaşın ve diğer gezginlerin şuç denen bu şeylerden dolayı hapishaneye götürüldüğünü veya uyarı aldığına şahit oldum.",
+        "arg2": "Bir çoğunuz şunu merak edebilir, neden birisi böyle bir hayatı tercih etsin ki, böyle eşit olmayan yasalar altında, çöp kutularından yemek yiyerek, köprü altlarında uyuyarak, sezonluk işlerde orada burada çalışşın."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 192,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Tanrım, bana başarabileceğimden daha fazlasını istemeyi bahşet,\" diye yakarmıştı Michelangelo,",
+        "arg2": "sanki Sistina Şapeli'ndeki Eski Ahit Tanrısı'na ve kendisi de uzattığı parmağı Tanrı'nın eline tam değmeyen Âdem'di."
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 193,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "bugün yedi milyar ruha sahibiz, bu yüzyılın sonuna kadar on milyara doğru gidecek;",
+        "arg2": "doğal kaynakları yenilenebileceğinden daha hızlı şekilde tüketiyoruz"
+      },
+      "answer_type": "string",
+      "answer": "ayrıca"
+    },
+    {
+      "id": 194,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Aslında tam olarak şikâyet gibi gelmedi bu, sadece bana yaptığı naif bir itiraf gibiydi, kendisini hep daha fazlasını talep eden doymak bilmez, bitmeyen bir yola adadığını bildiğini bana hatırlatmak içindi.",
+        "arg2": "Bitmemiş bir fikir üzerine inşa ederiz,"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 195,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "İleride hayatında tekrar ortaya çıkacak olan bazı motifler ve öğeler vardı.",
+        "arg2": "Ona ilk çalışmaları hakkında ne düşündüğünü sorduğumu hatırlıyorum."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 196,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "Dünya hisse senedi pazarı 55 trilyon dolar değerindedir. Dünya bono pazarı ise 78 trilyondur.",
+        "arg2": "İkisi beraber 133 trilyondur."
+      },
+      "answer_type": "string",
+      "answer": "yani"
+    },
+    {
+      "id": 197,
+      "doc": "talk_2009_tr",
+      "variables": {
+        "arg1": "Onların öncelleri gibi, bugünün göçebeleri Birleşik Devletler'in çelik ve asfalt arterlerinde seyahat ediyorlar.",
+        "arg2": "Gün başlarken, yük trenlerinden atılıyorlar baş parmaklarını kaldırıyorlar ve kamyonculardan futbolcu annelerine kim gelirse onlarla yolculuk ediyorlar."
+      },
+      "answer_type": "string",
+      "answer": "bilhassa"
+    },
+    {
+      "id": 198,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "bu kabul edilmiş bilimsel mutabakata dayalı olduğu için tamamen yanlış olmaması ihtimali evimizin yanması veya araba kazası geçirmemiz ihtimalinden daha fazla.",
+        "arg2": "Boston'da yaşıyorsanız belki de değil."
+      },
+      "answer_type": "string",
+      "answer": "ama"
+    },
+    {
+      "id": 199,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "tüm bu ışık, gölgeyi yok ediyor.",
+        "arg2": "Bu kötü bir gölge."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 200,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Ustalık bir hedefe bağlılık değil, bitmeyen bir arayıştır.",
+        "arg2": "Bunu yapmamıza sebep olan şey, bizi daha fazla ileriye iten şey, neredeyse kazanmanın değeridir."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 201,
+      "doc": "talk_1971_tr",
+      "variables": {
+        "arg1": "Çok yumuşak, yastıkların üzerinde yürüyormuşsun gibi ve çok çekici.",
+        "arg2": "Günümüzde engellilik kimseyi manidar yaşamlar sürmekten alıkoymamalı."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 202,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "gezegen kayboldu.",
+        "arg2": "Görebildiğimiz tek şey, şuradaki küçük kırmızı çemberin içinde bulunuyor olan gezegenden 10 milyar kat daha parlak olan yıldızın parıldayan büyük görüntüsü."
+      },
+      "answer_type": "string",
+      "answer": "ama"
+    },
+    {
+      "id": 203,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "yaklaşık son 10 yıldır bunu yapmak için en uygun çözümleri ortaya çıkardık.",
+        "arg2": "Bunun gibi bir şeye benziyordu."
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 204,
+      "doc": "talk_2150_tr",
+      "variables": {
+        "arg1": "Belki de zaman oturma şemasını biraz sallamaya gelmiştir.",
+        "arg2": "Farkına varmaya başladığımız diğer bir şey ise ırkın gerçekten farklıklar için zayıf bir etken olduğudur."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 205,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Yapraklar açılıp genişliyor.",
+        "arg2": "Teleskop yön değiştiriyor."
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 206,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "Sürdürülebilirliği sadece önemli olarak değil, şirketin başarısı için de kritik olarak görmeye başladılar.",
+        "arg2": "Dünyadaki genel müdürlerin yaklaşık yüzde 80'i sürdürülebilirliği inovasyonda artış ve endüstrilerinde rekabet avantajına erişmenin kaynağı olarak görüyor."
+      },
+      "answer_type": "string",
+      "answer": "aslında"
+    },
+    {
+      "id": 207,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "yörüngesinde dönen gezegenleri bulduk.",
+        "arg2": "Bu bilimkurgu değil."
+      },
+      "answer_type": "string",
+      "answer": "fakat"
+    },
+    {
+      "id": 208,
+      "doc": "talk_2150_tr_inter",
+      "variables": {
+        "arg1": "inanıyorum ki bir şehir orada yaşayan insanlar arasındaki ilişkiler bütünüdür.",
+        "arg2": "İnanıyorum ki bu ilişkileri gerçekçi bir şekilde belgelemeye başlayabilirsek sahip olmayı isteyeceğimiz tarzda şehirler yaratmayı deneyebiliriz."
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 209,
+      "doc": "talk_2150_tr_inter",
+      "variables": {
+        "arg1": "Bu bir coğrafi harita değil.",
+        "arg2": "Bu benim memleketim Maryland, Baltimore’daki insanlar arasındaki ilişkilere dair bir harita."
+      },
+      "answer_type": "string",
+      "answer": "aksine"
+    },
+    {
+      "id": 210,
+      "doc": "talk_2150_tr_inter",
+      "variables": {
+        "arg1": "Farklı ırklardan insanların tüm harita üzerinde temsil edilmesini sağladık burada.",
+        "arg2": "Sadece ırka bakmak farklılıkları geliştirmemize gerçekte bir katkı sağlamaz."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 211,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Elizabeth Murray, ilk tabloları hakkındaki itirafıyla beni şaşırtmıştı.",
+        "arg2": "Ressam Paul Cézanne, çalışmalarının sıklıkla bitmemiş olduğunu düşünerek, onları tekrar ele almak niyetiyle kasıtlı olarak bir kenara koyardı,"
+      },
+      "answer_type": "string",
+      "answer": "aynı ... gibi"
+    },
+    {
+      "id": 212,
+      "doc": "talk_2150_tr",
+      "variables": {
+        "arg1": "İşte bütün verilere sahibiz.",
+        "arg2": "Şehirler hakkında inanılmaz zenginlikte bilgiye sahibiz şimdi."
+      },
+      "answer_type": "string",
+      "answer": "yani"
+    },
+    {
+      "id": 213,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "1970'lerde Britanya'da kumar endüstrisinin bir dizi suistimali ile körüklendi.",
+        "arg2": "Neredeyse kazanmanın itici gücü olmasının nedeni, olaya bakışımızı değiştirmesi ve uzağa koymaya meyilli olduğumuz hedeflerimizi bulunduğumuz daha yakın bir yere koymasıdır."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 214,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Kaç kere bir şeyi bir klasik, hatta başyapıt olarak tanımladık, yaratıcısı onu umutsuzca bitmemiş olarak görürken, zorluklar ve hatalarla dolu olarak, yani başka bir ifadeyle bir neredeyse kazanmak olarak?",
+        "arg2": "Elizabeth Murray, ilk tabloları hakkındaki itirafıyla beni şaşırtmıştı."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 215,
+      "doc": "talk_2150_tr",
+      "variables": {
+        "arg1": "eğer düşünürseniz, bizim bu verilerle yapmayı düşündüğümüz şey, şehrin üzerine uzay teleskopu tutmak ve adeta büyük bir lisenin kafeteryası gibiymiş bakmak, herkesin bir oturma şemasına kendisini nasıl yerleştirdiğini görmektir.",
+        "arg2": "Belki de zaman oturma şemasını biraz sallamaya gelmiştir."
+      },
+      "answer_type": "string",
+      "answer": "ama"
+    },
+    {
+      "id": 216,
+      "doc": "talk_1971_tr",
+      "variables": {
+        "arg1": "MIT Medya Laboratuvarı'nda doktora çalışmam olarak hızlı ve ucuz bir şekilde klasik soketlerden daha rahat protez soketleri tasarladım.",
+        "arg2": "Hastanın anatomisinin gerçek biçimini yakalamak için manyetik rezonans görüntülemesini kullandım"
+      },
+      "answer_type": "string",
+      "answer": "şöyle ki"
+    },
+    {
+      "id": 217,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "bu da bu sorunları risk ve kazanç ile ilgili hâle getiriyor.",
+        "arg2": "Gerçekten de karmaşık ve uzak görünebilirler, ki bu da şunu yapmamızı cazip kılabilir: Kafamızı kuma gömüp, bunun hakkında düşünmemek."
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 218,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Bu yaprakların yerlerine yönlenmesi gerek.",
+        "arg2": "Bu yaprakların tabanı her seferinde, milimetrenin onda biri hassaslıkla aynı yere oturmalı."
+      },
+      "answer_type": "string",
+      "answer": "şöyle ki"
+    },
+    {
+      "id": 219,
+      "doc": "talk_2150_tr",
+      "variables": {
+        "arg1": "Fakat ortada iki toplumu birleştiren bir şey görürsünüz bu spordur.",
+        "arg2": "Baltimore Orioles ve Baltimore Ravens futbol takımları ve Olimpiyat sporcusu Micheal Plehps var."
+      },
+      "answer_type": "string",
+      "answer": "örneğin"
+    },
+    {
+      "id": 220,
+      "doc": "talk_2150_tr_inter",
+      "variables": {
+        "arg1": "adeta çok küçük bir kasabada yaşıyormuşuz gibi gözüküyor.",
+        "arg2": "Tekrar tekrar aynı insanları görürüz."
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 221,
+      "doc": "talk_2150_tr",
+      "variables": {
+        "arg1": "Şehirler hakkında inanılmaz zenginlikte bilgiye sahibiz şimdi.",
+        "arg2": "Belki de şimdiye kadar sahip olduklarımızdan en zengini."
+      },
+      "answer_type": "string",
+      "answer": "üstelik"
+    },
+    {
+      "id": 222,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "ABD'de ikinci en büyük ve dünyada altıncı en büyükler.",
+        "arg2": "tüm fona sistematik olarak entegre edilmiş ÇSY ile yüzde yüz sürdürülebilir yatırıma doğru gidiyorlar."
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 223,
+      "doc": "talk_1971_tr",
+      "variables": {
+        "arg1": "Günümüzde engellilik kimseyi manidar yaşamlar sürmekten alıkoymamalı.",
+        "arg2": "Umudum ve dileğim şu ki, araştırma grubumuzda geliştirdiğimiz araçlar ve yöntemler ona ihtiyacı olanlara çok işlevli protezler götürmekte kullanılabilir."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 224,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "1970'lerdeki resimlere bakmaya bayıldım.",
+        "arg2": "İleride hayatında tekrar ortaya çıkacak olan bazı motifler ve öğeler vardı."
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 225,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Navaho kültüründe, bazı erkek ve kadın sanatçılar tekstil ve seramikler içine bilerek kusur koyarlar.",
+        "arg2": "Buna ruh çizgisi adı verilir, dokumacı veya yapana bir çıkış yolu vermek için, aynı zamanda da iş yapmasına devam etmesi için bir sebep olarak desende kasti bir kusur."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 226,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "gümüş madalya alanların, hiç madalya almamaları söz konusu olmadığı",
+        "arg2": "dördüncü olmayıp"
+      },
+      "answer_type": "string",
+      "answer": "sonuçta"
+    },
+    {
+      "id": 227,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "Bu, gerçekten de ciddi bir güç. Böylece bu acil sorunlardan bazılarını tekrar ele alabiliriz, temiz su, temiz hava, 10 milyar ağzı beslemek gibi, eğer kurumsal yatırımcılar ÇSY'yi yatırımlarına entegre ederlerse.",
+        "arg2": "Bu gücü bu sorunları çözmek için en fazla çalışan veya en azından bunları kötüleştirmeyen şirketlere daha fazla sermaye aktarmak için kullansalar ne olurdu?"
+      },
+      "answer_type": "string",
+      "answer": "fakat"
+    },
+    {
+      "id": 228,
+      "doc": "talk_2150_tr_inter",
+      "variables": {
+        "arg1": "San Francisco’da biraz farklı olan bazı şeyleri görürsünüz.",
+        "arg2": "Bir tarafta, medya, politika ve haber lobisine sahipsiniz ki bunlar Baltimore ve diğer şehirlerde olma eğilimindedir bir tarafta da çok baskın bir grup olan ve ağın üst yarsını oluşturan anti-sosyallar ve teknoloji meraklılarına da sahipsiniz aynı zamanda. Hatta çok farklı ve belirgin olan ve tweeter çalışanı olarak tanımlayabileceğimiz bir grup var anti-sosyalların yanında, bilgisayar oyuncuları ile Anti-sosyallar arasında Hip-hop spektrumun öbür ucunda."
+      },
+      "answer_type": "string",
+      "answer": "şöyle ki"
+    },
+    {
+      "id": 229,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Bu yüzden bu kadar zor.",
+        "arg2": "Yıldızdan gelen ışık sapma yapıyor."
+      },
+      "answer_type": "string",
+      "answer": "bir başka deyişle"
+    },
+    {
+      "id": 230,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Onluk daire standart 75 yarda mesafeden, bir kol boyu uzaklığından bir kibrit çöpünün ucu kadar küçük görünür.",
+        "arg2": "Bu her atışta 50 librelik çekiş ağırlığını kaldırırken olur."
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 231,
+      "doc": "talk_2150_tr",
+      "variables": {
+        "arg1": "Bugün size yeni bir tür harita göstermek istiyorum.",
+        "arg2": "Bu bir coğrafi harita değil."
+      },
+      "answer_type": "string",
+      "answer": "ama"
+    },
+    {
+      "id": 232,
+      "doc": "talk_2150_tr_inter",
+      "variables": {
+        "arg1": "bu, şehri enine boyuna tüm derinliğine keşfetmemizden kaynaklanıyor.",
+        "arg2": "Ağın diğer ucunda Hip-hop müzik gibi şeylerden hoşlanan topluluğu görebilirsiniz. hatta onlar DC/Maryland/Virgina bölgesinde, doğru tanımıyla Baltimore şehrinin üst tarafında yaşamakla özdeşleşirler."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 233,
+      "doc": "talk_2150_tr_inter",
+      "variables": {
+        "arg1": "Diğer müzik grupları, country şarkıcıları, dini müzik, funk, rap ve stand up komedi, Uyuşturucu ve espirileri içeren tüm bir bölge bile var.",
+        "arg2": "Güzel, değil mi?"
+      },
+      "answer_type": "string",
+      "answer": "işte"
+    },
+    {
+      "id": 234,
+      "doc": "talk_2150_tr",
+      "variables": {
+        "arg1": "her bir renk ağ içindeki topluluğu temsil etmektedir.",
+        "arg2": "Ben buradaki yeşil renkli, sağ aşağıda anti-sosyallerin yer aldığı alandayım."
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 235,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "bu tamam, değil mi?",
+        "arg2": "Daha fazlasını istiyoruz."
+      },
+      "answer_type": "string",
+      "answer": "ama"
+    },
+    {
+      "id": 236,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "Kafamızı kuma gömüp, bunun hakkında düşünmemek.",
+        "arg2": "Yapabilirseniz, buna karşı koyun."
+      },
+      "answer_type": "string",
+      "answer": "ama"
+    },
+    {
+      "id": 237,
+      "doc": "talk_1971_tr",
+      "variables": {
+        "arg1": "onlar artık savaşın ve amputasyonun güç elde etme taktiği olmadığı bir Sierra Leone'nun parçası olacaktı.",
+        "arg2": "Tanıdığım, sevdiğim insanların bu yıkımın yaralarını sarışını izlerken beni çok üzen şey ülkede uzuvları kesilmiş olan çoğu insanın protezlerini kullanmamasıydı."
+      },
+      "answer_type": "string",
+      "answer": "ama"
+    },
+    {
+      "id": 238,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "Sürdürülebilirlik derken anlatmak istediğim, çevresel ve sosyal sorunlar ve kurumsal yönetim gibi cazip konular.",
+        "arg2": "Bence bunları gözardı etmek kayıtsızlık olur, çünkü gözardı edilmesi ileriye dönük uzun vadeli kazançları riske atabilir."
+      },
+      "answer_type": "string",
+      "answer": "aslında"
+    },
+    {
+      "id": 239,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "sanatınız için fedakârlık yapmaktır,",
+        "arg2": "kariyerinizi inşa etmeniz için değil."
+      },
+      "answer_type": "string",
+      "answer": "tam tersine"
+    },
+    {
+      "id": 240,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Ona ilk çalışmaları hakkında ne düşündüğünü sorduğumu hatırlıyorum.",
+        "arg2": "Ona ait olduğunu bilmeseniz, bunu tahmin edemezdiniz."
+      },
+      "answer_type": "string",
+      "answer": "öyle ki"
+    },
+    {
+      "id": 241,
+      "doc": "talk_2009_tr",
+      "variables": {
+        "arg1": "Küçük bir kız olarak, bir gün kaçan giden biri olmayı hayal ettim.",
+        "arg2": "Altı yaşından beri, bazı elbiselerimi davul toplu konserve yiyceklerimi de dolabın arkasında tutuyorum."
+      },
+      "answer_type": "string",
+      "answer": "hatta"
+    },
+    {
+      "id": 242,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Küçülüyor, daha az detaya, daha az çözünürlüğe sahip.",
+        "arg2": "Ufacık Ay'ı hâlâ görebiliyoruz."
+      },
+      "answer_type": "string",
+      "answer": "ama"
+    },
+    {
+      "id": 243,
+      "doc": "talk_2150_tr",
+      "variables": {
+        "arg1": "Bu da bu tür şeylere sebebiyet veriyor.",
+        "arg2": "Birkaç hafta önce biri bana bu fotoğrafı gönderdi."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 244,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Okçu paradoksu denen, yani aslında hedefinizi vurmak için ondan biraz eğimli bir şeye nişan almanız gerektiğini söyleyen fikri görmek istedim.",
+        "arg2": "Koç bu kadınlarla gri minibüsünde yaklaşırken durup seyrettim ve adeta rahat bir odaklanma içinde dışarı çıktılar."
+      },
+      "answer_type": "string",
+      "answer": "o nedenle"
+    },
+    {
+      "id": 245,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "bence biraz içgüdüsel seviyede bunu biliyoruz.",
+        "arg2": "Öncüsü olduğumuz yerde kaldığımızda başarılı olduğumuzu biliyoruz."
+      },
+      "answer_type": "string",
+      "answer": "bir başka deyişle"
+    },
+    {
+      "id": 246,
+      "doc": "talk_2009_tr",
+      "variables": {
+        "arg1": "Böyle bir soruya yollara düşen insanlar tarafından çeşitli cevaplar verilebilir, ama göçebeler genellikle is tek bir kelime ile cevap vereceklerdir: özgürlük.",
+        "arg2": "Her insanın kendi işinin onurundan emin olduğu bir dünyada yaşayana kadar, onlariyi yaşamak için çalışacaklar sadece hayatta kalmak için değil, daima bir anlamda kaçmak için, özgürlük için ve tabii ki başkaldırı için."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 247,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "Sizi hayret ettirecek cevap, evettir.",
+        "arg2": "Veriler, daha iyi ÇSY performansı olan hisse senetlerinin en az diğerleri kadar başarılı olduğunu gösteriyor."
+      },
+      "answer_type": "string",
+      "answer": "aslında"
+    },
+    {
+      "id": 248,
+      "doc": "talk_1971_tr",
+      "variables": {
+        "arg1": "üretilmek üzere bir protez soketi yaptım.",
+        "arg2": "Hastanın anatomisinde gerekli yerlerdeki baskıyı azaltan çok parçalı bir protez soketi yapmak için üç boyutlu yazıcı kullandık."
+      },
+      "answer_type": "string",
+      "answer": "şöyle ki"
+    },
+    {
+      "id": 249,
+      "doc": "talk_2150_tr",
+      "variables": {
+        "arg1": "Farkına varmaya başladığımız diğer bir şey ise ırkın gerçekten farklıklar için zayıf bir etken olduğudur.",
+        "arg2": "Farklı ırklardan insanların tüm harita üzerinde temsil edilmesini sağladık burada."
+      },
+      "answer_type": "string",
+      "answer": "bu sayede"
+    },
+    {
+      "id": 250,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "buna karşı koyun.",
+        "arg2": "Bunu evde denemeyin."
+      },
+      "answer_type": "string",
+      "answer": "bir başka deyişle"
+    },
+    {
+      "id": 251,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Ustalardır çünkü bunun olmadığını fark ederler.",
+        "arg2": "Bunun hakkında düşününce, neden okçuluk koçunun idmanın sonunda bana okçularının işitmeyeceği mesafeden, onun ve meslektaşlarının ekipleri için ne yapsalar yetmeyeceğini düşündüklerini, kazanmak üzere olmak konusunu aşmalarına yardımcı olması için yeterli gözünde canlandırma tekniği ve duruş eğitimi olmadığını söylediğini anlıyorum."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 252,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "Evet bu korelasyon.",
+        "arg2": "Sebep sonuç değil."
+      },
+      "answer_type": "string",
+      "answer": "fakat"
+    },
+    {
+      "id": 253,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "çim alana doğru giderken kim olduğumu anlamaya çalıştılar.",
+        "arg2": "Birbirleriyle kelimelerle değil, sayılarla, derecelerle konuştular, sanırım hedeflerini vurmayı planladıkları pozisyonlarla."
+      },
+      "answer_type": "string",
+      "answer": "şöyle ki"
+    },
+    {
+      "id": 254,
+      "doc": "talk_2150_tr_inter",
+      "variables": {
+        "arg1": "Son birkaç haftayı Rio hakkında bilgi toplamakla geçirdim",
+        "arg2": "Bu şehir hakkında benim dikkatimi çeken noktalardan gerçekten her şeyin bir tür karışım olması."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 255,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Astronomlar artık gökadadaki her yıldızın bir gezegeni olduğunu düşünüyorlar.",
+        "arg2": "Bunların beşte birinin Dünya benzeri bir gezegene sahip olduklarını, yaşam barındırıyor olabileceklerini tahmin ediyorlar."
+      },
+      "answer_type": "string",
+      "answer": "hatta"
+    },
+    {
+      "id": 256,
+      "doc": "talk_2150_tr_intra",
+      "variables": {
+        "arg1": "adeta büyük bir lisenin kafeteryası gibiymiş bakmak,",
+        "arg2": "herkesin bir oturma şemasına kendisini nasıl yerleştirdiğini görmektir."
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 257,
+      "doc": "talk_2009_tr",
+      "variables": {
+        "arg1": "Hiç kimse yollara düşerek kendi içindeki şeytanından kurtulamıyor.",
+        "arg2": "Bağımlılık gerçek, doğa şartları gerçek, yük trenleri öldürüyor ve sakatlıyor ve sokaklarda yaşayan her hangi biri bunu onaylayabilir yorucu yasalar listesi evsiz insanları suçlu hala getiriyor."
+      },
+      "answer_type": "string",
+      "answer": "zaten"
+    },
+    {
+      "id": 258,
+      "doc": "talk_2150_tr_inter",
+      "variables": {
+        "arg1": "Şehirler hakkında inanılmaz zenginlikte bilgiye sahibiz şimdi.",
+        "arg2": "Belki de şimdiye kadar sahip olduklarımızdan en zengini."
+      },
+      "answer_type": "string",
+      "answer": "üstelik"
+    },
+    {
+      "id": 259,
+      "doc": "talk_2150_tr_inter",
+      "variables": {
+        "arg1": "Bugün size yeni bir tür harita göstermek istiyorum.",
+        "arg2": "Bu bir coğrafi harita değil."
+      },
+      "answer_type": "string",
+      "answer": "ama"
+    },
+    {
+      "id": 260,
+      "doc": "talk_2009_tr",
+      "variables": {
+        "arg1": "Diğerlerinin ekonomik başarısızlık ve yokluk gördüğü yerde, gezginler liberalizm ve özgürlük prizmasından kendi var oluşlarını görüyorlar.",
+        "arg2": "boşa giden ve tüketici bir toplum olarak gördüklerinin aşırılılıklarındansa geleneksel Amerikan rüyasında gerçek dışı bir şansla çok çalışarak yaşıyorlar."
+      },
+      "answer_type": "string",
+      "answer": "bir başka deyişle"
+    },
+    {
+      "id": 261,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Ustalık bir hedefe bağlılık değil,",
+        "arg2": "bitmeyen bir arayıştır."
+      },
+      "answer_type": "string",
+      "answer": "daha çok"
+    },
+    {
+      "id": 262,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Bu şöyle bir şey olurdu.",
+        "arg2": "Şuradaki o büyük gölgelik, ama hiç gezegen görünmüyor çünkü ne yazık ki çok iyi çalışmaz."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 263,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Bunun en etkili örneklerinden biri, yarışmadan sonra Olimpiyat gümüş madalyası ile bronz madalyası kazananlar arasındaki farka baktığımızda görülür.",
+        "arg2": "Thomas Gilovich ve Cornell'den ekibi bu farkı araştırmış ve gümüş madalya alanların, dördüncü olmayıp hiç madalya almamaları söz konusu olmadığı için tipik olarak daha mutlu olan bronz kazananlarla karşılaştırıldığında hissettikleri öfkenin, gümüş madalya kazananlara bir sonraki yarışmada bir odak noktası verdiğini bulmuştur."
+      },
+      "answer_type": "string",
+      "answer": "örneğin"
+    },
+    {
+      "id": 264,
+      "doc": "talk_2150_tr",
+      "variables": {
+        "arg1": "TEDx de sağdan aşağıda yer almakta.",
+        "arg2": "Ağın diğer tarafında başlıca Afro-Amerikalılar ve Latin toplumu yer almakta"
+      },
+      "answer_type": "string",
+      "answer": "ise"
+    },
+    {
+      "id": 265,
+      "doc": "talk_1971_tr",
+      "variables": {
+        "arg1": "Umudum ve dileğim şu ki, araştırma grubumuzda geliştirdiğimiz araçlar ve yöntemler ona ihtiyacı olanlara çok işlevli protezler götürmekte kullanılabilir.",
+        "arg2": "Bana göre, savaş ve hastalıktan etkilenen ruhları iyileştirmeye başlamanın yolu bedenleri için rahat ve ekonomik arayüzler oluşturmaktır."
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 266,
+      "doc": "talk_2150_tr",
+      "variables": {
+        "arg1": "adeta çok küçük bir kasabada yaşıyormuşuz gibi gözüküyor.",
+        "arg2": "Tekrar tekrar aynı insanları görürüz."
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 267,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Ay'ın gölgesi Dünya'nın üzerine düşüyor.",
+        "arg2": "Bu gölgeye bir teleskop veya kamera koyuyoruz, güneşe tekrar bakıyoruz ve ışığın çoğu yok olmuş oluyor ve böylece korona bölgesinde kalan soluk detayları görebiliyoruz."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 268,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Tabi bu benim baş parmağımdan daha büyük olmalı.",
+        "arg2": "Bu yıldız gölgeleyici yaklaşık yarım futbol sahası büyüklüğünde"
+      },
+      "answer_type": "string",
+      "answer": "şöyle ki"
+    },
+    {
+      "id": 269,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "Bu yüzden ÇSY ile ilgiliyiz.",
+        "arg2": "İşimin bir parçası olarak, birçok yatırımcı ile konuşuyorum ve hepsi durumu bu şekilde görmüyorlar."
+      },
+      "answer_type": "string",
+      "answer": "fakat"
+    },
+    {
+      "id": 270,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "Dünya gerçekten birçok yönden değişiyor;",
+        "arg2": "endişem o ki yatırımcılar değişimin en büyük faktörlerinden bazılarına yeterince dikkat etmiyorlar, özellikle de iş sürdürülebilirliğe gelince."
+      },
+      "answer_type": "string",
+      "answer": "yani"
+    },
+    {
+      "id": 271,
+      "doc": "talk_1971_tr",
+      "variables": {
+        "arg1": "Sierra Leone'nun 90'lı yıllarda on yıl süren ve tüm köylerin yakılıp yıkıldığı iç savaştan dolayı kötü bir şöhreti vardır.",
+        "arg2": "Bu süre boyunca yaklaşık 8.000 erkek, kadın ve çocuğun kol ve bacakları kesilmiştir."
+      },
+      "answer_type": "string",
+      "answer": "şöyle ki"
+    },
+    {
+      "id": 272,
+      "doc": "talk_2009_tr",
+      "variables": {
+        "arg1": "Altı yaşından beri, bazı elbiselerimi davul toplu konserve yiyceklerimi de dolabın arkasında tutuyorum.",
+        "arg2": "İçimde derin bir rahatsızlık var hayatın tek düzeliğine ve sıkkınlığa kurban düşeceğime dair ilkel bir korku."
+      },
+      "answer_type": "string",
+      "answer": "öyle ki"
+    },
+    {
+      "id": 273,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "Sürdürülebilirliğe gerçekten etki edebilecek güç dengesi kurumsal yatırımcıların, emeklilik fonları, vakıflar ve bağış fonları gibi büyük yatırımcıların elinde.",
+        "arg2": "İnanıyorum ki, sürdürülebilir yatırım düşündüğünüzden daha az karmaşık, sandığınızdan çok daha iyi performansı var ve hayal edebileceğimizden çok daha önemli."
+      },
+      "answer_type": "string",
+      "answer": "aslında"
+    },
+    {
+      "id": 274,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "Çevre; enerji tüketimini, su bulunabilirliğini, atık ve kirliliği içeriyor, yani kaynakların etkin kullanımını sağlamakla ilgili.",
+        "arg2": "Toplum; insan sermayesini, çalışan katılımı ve yenilik yapma kapasitesi gibi şeyleri ve aynı zamanda tedarik zinciri yönetimi, işçi hakları ve insan haklarını içeriyor."
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 275,
+      "doc": "talk_2150_tr_inter",
+      "variables": {
+        "arg1": "Hala hükümetle, gazetelerle, politkayla, köşe yazarlarıyla ilintili bir grup insan var.",
+        "arg2": "TEDx Rio, sağ aşağıda, blogcuların ve yazarların tam yanındadır."
+      },
+      "answer_type": "string",
+      "answer": "VE"
+    },
+    {
+      "id": 276,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Burada dört tane yaprak var.",
+        "arg2": "Bu küçük ölçekli bir yıldız gölgeleyici."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 277,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "hepsi bununla kalmıyor.",
+        "arg2": "Bunlar ekonomik sorunlar ve bu da bu sorunları risk ve kazanç ile ilgili hâle getiriyor."
+      },
+      "answer_type": "string",
+      "answer": "ayrıca"
+    },
+    {
+      "id": 278,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "yaklaşık on yıl önce ana elektrikli alet işlerini sattılar",
+        "arg2": "ve bu kazançlarını su işine yatırdılar."
+      },
+      "answer_type": "string",
+      "answer": "sonra"
+    },
+    {
+      "id": 279,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "JPL'deki meslektaşlarım, parlak mühendisler bunu nasıl yapabileceğimize ilişkin şöyle muhteşem bir tasarım ortaya attılar.",
+        "arg2": "Önce bir makaraya sarılı durumda oluyor."
+      },
+      "answer_type": "string",
+      "answer": "şöyle ki"
+    },
+    {
+      "id": 280,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "Hem büyüyen, hem de yaşlanan bir nüfusumuz var;",
+        "arg2": "bugün yedi milyar ruha sahibiz, bu yüzyılın sonuna kadar on milyara doğru gidecek;"
+      },
+      "answer_type": "string",
+      "answer": "şöyle ki"
+    },
+    {
+      "id": 281,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Bu gölgeye bir teleskop veya kamera koyuyoruz, güneşe tekrar bakıyoruz ve ışığın çoğu yok olmuş oluyor ve böylece korona bölgesinde kalan soluk detayları görebiliyoruz.",
+        "arg2": "Spitzer bunu uzayda yapmayı önerdi."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 282,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Bu ustalığın dinamiğidir.",
+        "arg2": "İstediğinizi düşündüğünüz şeye yaklaşmak, yapmayı hayal ettiğinizden daha fazlasına ulaşmanıza yardımcı olabilir."
+      },
+      "answer_type": "string",
+      "answer": "ayrıca"
+    },
+    {
+      "id": 283,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "Diğer bir örnek de Pentair.",
+        "arg2": "Pentair, bir ABD sanayi holdingi"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 284,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "Neden bunu yaptılar?",
+        "arg2": "ev tamiri meraklılarından özür diliyorum ama su işinde elektrkli aletlerden daha fazla büyüme var ve bu şirket \"yeni Yeni Dünya\" adını verdikleri şeyi başarmak istiyorlardı. Bu, dört milyar orta sınıf insanın yiyecek, enerji ve su talep etmesi demek."
+      },
+      "answer_type": "string",
+      "answer": "çünkü"
+    },
+    {
+      "id": 285,
+      "doc": "talk_2009_tr",
+      "variables": {
+        "arg1": "Birçoğumuzun aklınızda, aylaklar-serseriler geçmişten gelen canavarlar.",
+        "arg2": "Gezici rençper\" kelimesi bacakları vagondan sarkan kömürle kaplı yıpranmış yaşlı bir adamı çağrıştırıyor."
+      },
+      "answer_type": "string",
+      "answer": "özellikle"
+    },
+    {
+      "id": 286,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Gölgelik döne döne uzaklaşıyor",
+        "arg2": "ve teleskoptan 50.000 km uzağa uçuyor."
+      },
+      "answer_type": "string",
+      "answer": "sonuçta"
+    },
+    {
+      "id": 287,
+      "doc": "talk_1971_tr",
+      "variables": {
+        "arg1": "Bana göre, savaş ve hastalıktan etkilenen ruhları iyileştirmeye başlamanın yolu bedenleri için rahat ve ekonomik arayüzler oluşturmaktır.",
+        "arg2": "Sierra Leone'da veya Boston'da, umarım bu yalnızca onları iyileştirmekle kalmaz, aynı zamanda onların insan potansiyeli anlayışlarını da değiştirir."
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 288,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "bu beni bugünkü yatırım kurallarının yarınki amaca uygun olup olmadığı konusunda meraklandırıyor.",
+        "arg2": "Biliyoruz ki yatırımcılar bir şirkete bakıp yatırıma uygun olup olmadığına karar verirken finansal verilere bakıyorlar; satışların büyümesi, nakit akışı, pazar payı değerleme gibi metrikler -bilirsiniz, gerçekten seksi şeyler."
+      },
+      "answer_type": "string",
+      "answer": "söz gelimi"
+    },
+    {
+      "id": 289,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Bunun ona daha çok kararlılık verdiğini gördüm",
+        "arg2": "ve tekrar tekrar denedi."
+      },
+      "answer_type": "string",
+      "answer": "sonra"
+    },
+    {
+      "id": 290,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "Daha fazlasını istiyoruz.",
+        "arg2": "Daha fazlasını istiyorum."
+      },
+      "answer_type": "string",
+      "answer": "daha ziyade"
+    },
+    {
+      "id": 291,
+      "doc": "talk_2150_tr_inter",
+      "variables": {
+        "arg1": "Farkına varmaya başladığımız diğer bir şey ise ırkın gerçekten farklıklar için zayıf bir etken olduğudur.",
+        "arg2": "Farklı ırklardan insanların tüm harita üzerinde temsil edilmesini sağladık burada."
+      },
+      "answer_type": "string",
+      "answer": "bu sayede"
+    },
+    {
+      "id": 292,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "Bunlar ekonomik sorunlar",
+        "arg2": "ve bu da bu sorunları risk ve kazanç ile ilgili hâle getiriyor."
+      },
+      "answer_type": "string",
+      "answer": "dolayısıyla"
+    },
+    {
+      "id": 293,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Önümüzdeki 10 yıl içinde, bir başka yıldızın yakınındaki bir Dünya'yı fotoğraflayıp, orada hayat olup olmadığını ortaya çıkarabilecek bir teleskop icat etmemizi istiyorum.",
+        "arg2": "Princeton'daki NASA Jet Propulsion laboratuvarındaki meslektaşlarım ve ben önümüzdeki birkaç sene içinde bunu yapabilecek bir teknoloji üzerinde çalışıyoruz."
+      },
+      "answer_type": "string",
+      "answer": "aslında"
+    },
+    {
+      "id": 294,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "Şirketler ve yatırımcılar gezegenin kaderinden tek başlarına sorumlu değillerdir.",
+        "arg2": "Sonsuz sosyal sorumlulukları yoktur ve mantıklı yatırım ile finans teorisi sürdürülebilirlikten aşağı değildir. Birbiriyle uyumludurlar."
+      },
+      "answer_type": "string",
+      "answer": "çünkü"
+    },
+    {
+      "id": 295,
+      "doc": "talk_2150_tr_inter",
+      "variables": {
+        "arg1": "Şimdi de San Francisco’ya bir göz atalım.",
+        "arg2": "San Francisco’da biraz farklı olan bazı şeyleri görürsünüz."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 296,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "adeta rahat bir odaklanma içinde dışarı çıktılar.",
+        "arg2": "Birisi bir elinde yarısı yenmiş bir dondurma külahı ve solunda sarı tüyüyle oklar tutuyordu."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 297,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Antrenmanın sonunda, okçulardan biri öylesine zorlanmıştı ki, yere pestil gibi serildi, kafası gökyüzüne doğru bakıyor, T.S. Eliot'un dönen dünyadaki bu duran noktaya ne diyeceğini bulmaya çalışıyordu.",
+        "arg2": "Amerikan kültüründe bu çok nadirdir, bunun artık meslekle pek ilgisi yoktur, bu derecede kusursuz bir kararlılığın nasıl olduğunu, bir hedefi vurmak için üç saat bedenin duruşunu ayarlamanın ne demek olduğunu görmek, bilinmezlik içinde bir çeşit mükemmellik aramak."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 298,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Teleskop yön değiştiriyor.",
+        "arg2": "Gölgelik döne döne uzaklaşıyor"
+      },
+      "answer_type": "string",
+      "answer": "sonrasında"
+    },
+    {
+      "id": 299,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Bunu başarmak için gerçekten inanılmaz teknolojiler üzerinde çalışan pek çok meslektaşım var.",
+        "arg2": "Ben şimdi sizlere bunların en ilginci olduğunu düşündüğüm birini anlatacağım."
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 300,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "Beni gerçekten kızdıranı ise şu, \"Eğer bununla ilgili birşeyler yapmak istiyorsan, sadece para kazan ve kârı hayır kurumlarına ver.",
+        "arg2": "Hep şüphe, hep şüphe."
+      },
+      "answer_type": "string",
+      "answer": "işte"
+    },
+    {
+      "id": 301,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "heptatlonda altını saniyenin üçte biri ile kaçırmıştı",
+        "arg2": "ve kocası bunun bir sonraki yarışmada ona ihtiyacı olan kararlılığı vereceğini öngörmüştü."
+      },
+      "answer_type": "string",
+      "answer": "sonra"
+    },
+    {
+      "id": 302,
+      "doc": "talk_2009_tr",
+      "variables": {
+        "arg1": "bu fotoraflar renkli ve onlar ülke çapında fırıl fırıl dönen, oldukça canlı ve yaratıcı bir şekilde özgür, Amerikan'ın kimsenin görmediği taraflarını gören bir topluluğu tanımlıyor.",
+        "arg2": "Onların öncelleri gibi, bugünün göçebeleri Birleşik Devletler'in çelik ve asfalt arterlerinde seyahat ediyorlar."
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 303,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "O zaman eğer kazanç aynı ya da daha iyi olursa ve gezegen bundan fayda görürse, bunun norm olması gerekmez mi?",
+        "arg2": "Yatırımcılar, özellikle kurumsal yatırımcılar bununla ilgili mi?"
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 304,
+      "doc": "talk_2150_tr_inter",
+      "variables": {
+        "arg1": "Sanırım anlamaya çalışacağımız ilk şey ayrımcılığın sosyal bir yapı olduğudur.",
+        "arg2": "Bu bizim yapmayı veya yapmamayı tercih ettiğimiz bir şeydir."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 305,
+      "doc": "talk_2009_tr",
+      "variables": {
+        "arg1": "Birleşik Devletler'de yiyeceklerin yüzde 40'nın sonunun çöpte bittiği gerçeğinden yola çıkarak çöplüklerin ve çöp tenekelerinin karıştırıp yiyecek toplamak için mükemmel bir üretim yeri olduğudur.",
+        "arg2": "Nesnel rahatlığı yer ve zaman karşılığında içsel bir yaratıcılığı keşfetmek için, hayal kurmak, okumak, müzik, sanat ve edebiyatta çalışmak için feda ediyorlar"
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 306,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "Peki ya çalışıp, biriktirip, yatırım yapsak ve emekli olduğumuzda dünyanın şimdikinden daha stresli ve daha az güvenli olduğunu görsek?",
+        "arg2": "Peki ya yeteri kadar temiz hava ve temiz su olmazsa?"
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 307,
+      "doc": "talk_2150_tr_inter",
+      "variables": {
+        "arg1": "Baltimore Orioles ve Baltimore Ravens futbol takımları ve Olimpiyat sporcusu Micheal Plehps var.",
+        "arg2": "Belki duymuşsunuzdur, Under Armour bir Baltimore firmasıdır."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 308,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "Bu gücü bu sorunları çözmek için en fazla çalışan veya en azından bunları kötüleştirmeyen şirketlere daha fazla sermaye aktarmak için kullansalar ne olurdu?",
+        "arg2": "Peki ya çalışıp, biriktirip, yatırım yapsak ve emekli olduğumuzda dünyanın şimdikinden daha stresli ve daha az güvenli olduğunu görsek?"
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    },
+    {
+      "id": 309,
+      "doc": "talk_2150_tr",
+      "variables": {
+        "arg1": "değişik müzik tarzlarıyla ilgilenen büyük miktarda insan çeşitliliğine de sahipsiniz",
+        "arg2": "Justin Bieber hayranları bile burada gösterilmektedir."
+      },
+      "answer_type": "string",
+      "answer": "öyle ki"
+    },
+    {
+      "id": 310,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "İstediğinizi düşündüğünüz şeye yaklaşmak, yapmayı hayal ettiğinizden daha fazlasına ulaşmanıza yardımcı olabilir.",
+        "arg2": "Bir gün galeride o ilk resimlerine gülümserken onu gördüğümde, Elizabeth Murray'in ne düşündüğünü anlamam için gereken şey bu."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 311,
+      "doc": "talk_1971_tr",
+      "variables": {
+        "arg1": "protez soketlerinin düzgün oturmadığı için canlarını yakmasıymış.",
+        "arg2": "Protez soketi, uzvu kesilmiş kişinin kesik uzvuna taktığı ve böylece uzvu protez ayağa bağladığı parçadır."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 312,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Bu her atışta 50 librelik çekiş ağırlığını kaldırırken olur.",
+        "arg2": "Önce yediyi, ardından dokuzu ve sonra iki kere onu vurduğunu hatırlıyorum"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 313,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "Bu, dünyanın en büyük ekonomisidir. Bu, gerçekten de ciddi bir güç.",
+        "arg2": "Böylece bu acil sorunlardan bazılarını tekrar ele alabiliriz, temiz su, temiz hava, 10 milyar ağzı beslemek gibi, eğer kurumsal yatırımcılar ÇSY'yi yatırımlarına entegre ederlerse."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 314,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Fikir ilk olarak 1962'de, uzay teleskobunun babası Lyman Spitzer tarafından ortaya atıldı.",
+        "arg2": "Bir tutulmadan esinlenmişti."
+      },
+      "answer_type": "string",
+      "answer": "şöyle ki"
+    },
+    {
+      "id": 315,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Görüş alanımız içinde olan o dağı ele almak için şu an ne yapmayı planladığımıza odaklanmamızı sağlar.",
+        "arg2": "Jackie Joyner-Kersee 1984'te heptatlonda altını saniyenin üçte biri ile kaçırmıştı ve kocası bunun bir sonraki yarışmada ona ihtiyacı olan kararlılığı vereceğini öngörmüştü."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 316,
+      "doc": "talk_2009_tr",
+      "variables": {
+        "arg1": "sokaklarda yaşayan her hangi biri bunu onaylayabilir yorucu yasalar listesi evsiz insanları suçlu hala getiriyor.",
+        "arg2": "Burada kim Birleşik Devletler'de birçok şehirde yol kenarına battaniyeye sarılı oturmanın yaşadışı oldupunu biliyor. veya arabanızda uyumanın, veya yabancılara yiyecek önermenin?"
+      },
+      "answer_type": "string",
+      "answer": "örneğin"
+    },
+    {
+      "id": 317,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "gerçekten çok fazla.",
+        "arg2": "Dünya hisse senedi pazarı 55 trilyon dolar değerindedir."
+      },
+      "answer_type": "string",
+      "answer": "örnek olarak"
+    },
+    {
+      "id": 318,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "Bu, insanlara ve gezegene olan zararın minimize edilerek gelecekteki riskin sınırlanması anlamına gelir",
+        "arg2": "ve de üretken ve sürdürülebilir sonuçlar elde eden kullanıcılara sermaye sağlanması anlamına gelir."
+      },
+      "answer_type": "string",
+      "answer": "aynı zamanda"
+    },
+    {
+      "id": 319,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "genel müdürlerin bakışı belli.",
+        "arg2": "Sürdürülebilirlikte inanılmaz bir fırsat bulunur."
+      },
+      "answer_type": "string",
+      "answer": "yani"
+    },
+    {
+      "id": 320,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "Mavide, MSCI World'ü görüyoruz. Bu, dünyadaki gelişmiş pazarlardaki büyük şirketlerin indeksi. Ve altın rengi olarak, ÇSY performansı en iyi olarak değerlendirilmiş şirketlerin bir alt kümesini görüyoruz.",
+        "arg2": "Üç yıldan fazla sürede, hiçbir performans farkı yok."
+      },
+      "answer_type": "string",
+      "answer": "kısaca"
+    },
+    {
+      "id": 321,
+      "doc": "talk_1971_tr",
+      "variables": {
+        "arg1": "Bu süre boyunca yaklaşık 8.000 erkek, kadın ve çocuğun kol ve bacakları kesilmiştir.",
+        "arg2": "Yaklaşık 12 yaşlarındayken ailemle beraber bu saldırılardan birinden kaçtığımızda kendi çocuklarımı bizim yaşadıklarımızı yaşamaktan korumak için elimden gelen her şeyi yapmaya karar verdim."
+      },
+      "answer_type": "string",
+      "answer": "bu nedenle"
+    },
+    {
+      "id": 322,
+      "doc": "talk_2150_tr",
+      "variables": {
+        "arg1": "Diğer müzik grupları, country şarkıcıları, dini müzik, funk, rap ve stand up komedi, Uyuşturucu ve espirileri içeren tüm bir bölge bile var.",
+        "arg2": "Güzel, değil mi?"
+      },
+      "answer_type": "string",
+      "answer": "işte"
+    },
+    {
+      "id": 323,
+      "doc": "talk_2150_tr_inter",
+      "variables": {
+        "arg1": "Ağın diğer tarafında başlıca Afro-Amerikalılar ve Latin toplumu yer almakta ve bunlar anti-sosyallerden kısmen daha farklı şeylerle ilgilenirler.",
+        "arg2": "Bir fikir vermek için ağın yeşil renkli alanını, burada ikamet edenlerimiz için Küçüktimore olarak adlandırabiliriz."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 324,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "Bu küçük ölçekli bir yıldız gölgeleyici.",
+        "arg2": "Az önce gördüğünüzün ancak yarısı kadar."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 325,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "Bunlar ekonomik sorunlar ve bu da bu sorunları risk ve kazanç ile ilgili hâle getiriyor. Gerçekten de karmaşık ve uzak görünebilirler, ki bu da şunu yapmamızı cazip kılabilir: Kafamızı kuma gömüp, bunun hakkında düşünmemek. Yapabilirseniz, buna karşı koyun. Bunu evde denemeyin.",
+        "arg2": "Ama bu beni bugünkü yatırım kurallarının yarınki amaca uygun olup olmadığı konusunda meraklandırıyor."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 326,
+      "doc": "talk_2150_tr",
+      "variables": {
+        "arg1": "San Francisco’da biraz farklı olan bazı şeyleri görürsünüz.",
+        "arg2": "Bir tarafta, medya, politika ve haber lobisine sahipsiniz ki bunlar Baltimore ve diğer şehirlerde olma eğilimindedir bir tarafta da çok baskın bir grup olan ve ağın üst yarsını oluşturan anti-sosyallar ve teknoloji meraklılarına da sahipsiniz aynı zamanda. Hatta çok farklı ve belirgin olan ve tweeter çalışanı olarak tanımlayabileceğimiz bir grup var anti-sosyalların yanında, bilgisayar oyuncuları ile Anti-sosyallar arasında Hip-hop spektrumun öbür ucunda."
+      },
+      "answer_type": "string",
+      "answer": "öyle ki"
+    },
+    {
+      "id": 327,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Buna Dunning–Kruger etkisi denir.",
+        "arg2": "Paris Review, James Baldwin'e sorduğunda şu cevabı alabilmişti, \"Bilgiyle artan şey sizce nedir?\" ve o da şöyle söyledi, \"Ne kadar az bildiğini öğreniyorsun."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 328,
+      "doc": "talk_2150_tr",
+      "variables": {
+        "arg1": "Rio de Janerio’ya bir göz atalım.",
+        "arg2": "Son birkaç haftayı Rio hakkında bilgi toplamakla geçirdim"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 329,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "kurumsal yatırımcılar sürdürülebilirlikte x faktörüdür.",
+        "arg2": "Neden anahtarı ellerinde tutarlar?"
+      },
+      "answer_type": "string",
+      "answer": "o halde"
+    },
+    {
+      "id": 330,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "su işinde elektrkli aletlerden daha fazla büyüme var ve bu şirket \"yeni Yeni Dünya\" adını verdikleri şeyi başarmak istiyorlardı.",
+        "arg2": "Bu, dört milyar orta sınıf insanın yiyecek, enerji ve su talep etmesi demek."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 331,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Thomas Gilovich ve Cornell'den ekibi bu farkı araştırmış ve gümüş madalya alanların, dördüncü olmayıp hiç madalya almamaları söz konusu olmadığı için tipik olarak daha mutlu olan bronz kazananlarla karşılaştırıldığında hissettikleri öfkenin, gümüş madalya kazananlara bir sonraki yarışmada bir odak noktası verdiğini bulmuştur.",
+        "arg2": "Bunu kumar endüstrisinde dahi görüyoruz, ki bu neredeyse kazanma olgusunu bir zamanlar alıp neredeyse kazanma oranı ortalamadan daha yüksek olan kazı kazan biletleri yarattılar ve insanlar daha fazla bilet almak için öylesine istekliydi ki, bunlara yürek durduran dendi ve 1970'lerde Britanya'da kumar endüstrisinin bir dizi suistimali ile körüklendi."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 332,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "Bu, dört milyar orta sınıf insanın yiyecek, enerji ve su talep etmesi demek.",
+        "arg2": "Şimdi kendi kendinize soruyor olabilirsiniz, bunlar sadece uç vakalar mı?"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 333,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "İkisi beraber 133 trilyondur.",
+        "arg2": "Bu, ABD'nin GSMH'sının sekiz buçuk katı."
+      },
+      "answer_type": "string",
+      "answer": "karşılaştırırsak"
+    },
+    {
+      "id": 334,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Buna ruh çizgisi adı verilir, dokumacı veya yapana bir çıkış yolu vermek için, aynı zamanda da iş yapmasına devam etmesi için bir sebep olarak desende kasti bir kusur.",
+        "arg2": "Ustalar bir konuyu kavramsal sona getirdikleri için uzman değillerdir."
+      },
+      "answer_type": "string",
+      "answer": "çünkü"
+    },
+    {
+      "id": 335,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "Sonsuz sosyal sorumlulukları yoktur ve mantıklı yatırım ile finans teorisi sürdürülebilirlikten aşağı değildir.",
+        "arg2": "Birbiriyle uyumludurlar."
+      },
+      "answer_type": "string",
+      "answer": "açıkçası"
+    },
+    {
+      "id": 336,
+      "doc": "talk_1976_tr",
+      "variables": {
+        "arg1": "bence bu dünyayı değiştirecek.",
+        "arg2": "Bunu gördüğümüz zaman her şeyi değiştirecek."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 337,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "2012'de State Street 54 uygulamayı bulut ortama taşıdı ve 85 tanesini de emekliye ayırdık.",
+        "arg2": "İşletim sistemi ortamlarını sanal hâle getirdik ve birçok otomasyon projesini tamamladık."
+      },
+      "answer_type": "string",
+      "answer": "ayrıca"
+    },
+    {
+      "id": 338,
+      "doc": "talk_2150_tr",
+      "variables": {
+        "arg1": "Baltimore Orioles ve Baltimore Ravens futbol takımları ve Olimpiyat sporcusu Micheal Plehps var.",
+        "arg2": "Belki duymuşsunuzdur, Under Armour bir Baltimore firmasıdır."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 339,
+      "doc": "talk_1927_tr",
+      "variables": {
+        "arg1": "Daha fazla uzun dönem kazanç için bunun kritik olduğuna inanıyorlar, nokta.",
+        "arg2": "Uzun dönemli değer yaratımı üç çeşit sermayenin verimli yönetimini gerektirir: Finansal, insan ve fiziksel."
+      },
+      "answer_type": "string",
+      "answer": "yani"
+    },
+    {
+      "id": 340,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Neredeyse kazanmanın itici gücü olmasının nedeni, olaya bakışımızı değiştirmesi ve uzağa koymaya meyilli olduğumuz hedeflerimizi bulunduğumuz daha yakın bir yere koymasıdır.",
+        "arg2": "Gelecek hafta harika bir günün neye benzediğini düşünmenizi istesem, bunu daha genel ifadelerle anlatabilirsiniz."
+      },
+      "answer_type": "string",
+      "answer": "mesela"
+    },
+    {
+      "id": 341,
+      "doc": "talk_1978_tr",
+      "variables": {
+        "arg1": "Başarıyla aynı şey değildir, ki başarıyı bir hadise olarak, zamanın içinde bir an olarak ve dünyanın size verdiği bir etiket olarak görürüm.",
+        "arg2": "Ustalık bir hedefe bağlılık değil, bitmeyen bir arayıştır."
+      },
+      "answer_type": "string",
+      "answer": "ayrıca"
+    },
+    {
+      "id": 342,
+      "doc": "talk_2150_tr",
+      "variables": {
+        "arg1": "inanıyorum ki bir şehir orada yaşayan insanlar arasındaki ilişkiler bütünüdür.",
+        "arg2": "İnanıyorum ki bu ilişkileri gerçekçi bir şekilde belgelemeye başlayabilirsek sahip olmayı isteyeceğimiz tarzda şehirler yaratmayı deneyebiliriz."
+      },
+      "answer_type": "string",
+      "answer": "ve"
+    }
+  ]
+}

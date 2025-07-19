@@ -1,0 +1,5007 @@
+{
+  "task": "discourse relation",
+  "lang": "french",
+  "example_prompt": "What is the discourse relation between {arg1} and {arg2}?\nHere are the options and definitions:\nalternation: One unit presents an option, and the other unit offers an alternative that is mutually exclusive with it.\nattribution: One unit states some content, and the other gives information about its source.\ncausal: One unit presents a situation or event, and the other unit shows its cause or result.\ncomment: One unit expresses an opinion or evaluation about something stated in the other unit.\nconcession: One unit presents a situation that appears incompatible with the other unit, but the other unit remains valid.\ncondition: One unit presents a proposition and the other provides conditions that the other proposition depends on.\nconjunction: One unit gives information, and the other unit continues with an additional point.\ncontrast: Two units present opposing or contrasting ideas.\nelaboration: One unit adds extra details, explains, or further describes something introduced in the other unit.\nexplanation: One unit provides a reason, justification, or supporting information for what is stated in the other unit.\nframe: One unit sets the scene or provides background, and the other unit presents the main information.\nmode: One unit explains the way or method by which something in the other unit occurs.\norganization: One unit helps structure the discourse, by introducing, preparing, or pointing out parts of the text.\npurpose: One unit of the text describes an action or event, and the other unit explains the intended goal.\nquery: One unit presents a question or problem, and the other unit gives an answer or solution.\nreformulation: One unit restates or rephrases the other unit in a different way.\ntemporal: One unit indicates that its event or situation happens before, after, or at the same time as the event in the other unit.\n\nArg1: {{arg1}}\nArg2: {{arg2}}",
+  "instances": [
+    {
+      "id": 1,
+      "doc": "wik1_20_02-04-2006",
+      "variables": {
+        "arg1": "René Leon Bourret est un géologue et un zoologiste français ,",
+        "arg2": "né le 28 janvier 1884 à Nérac , Lot-et-Garonne"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 2,
+      "doc": "wik1_12_02-04-2006",
+      "variables": {
+        "arg1": "Des « rois de Martu » sont cités dans des textes d' Ebla <*> et de la période d' Akkad",
+        "arg2": "( XXIVe siècle av. J. -C. )"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 3,
+      "doc": "wik2_attentats11sept_abstract",
+      "variables": {
+        "arg1": "siège du département de la Défense des États - Unis ,",
+        "arg2": "à Washington ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 4,
+      "doc": "wik1_09_02-04-2006",
+      "variables": {
+        "arg1": "Cette caractéristique est fondamentale",
+        "arg2": "car elle détermine la portée de cet indicateur :"
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 5,
+      "doc": "news_32_28-01-2003",
+      "variables": {
+        "arg1": "les petits et moyens de la classe de Chantal Hetzel , <*> ont rédigé ce texte eux-mêmes .",
+        "arg2": "directrice ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 6,
+      "doc": "news_31_10-01-2003",
+      "variables": {
+        "arg1": "des suites d' une pénible maladie",
+        "arg2": "contre laquelle elle a lutté courageusement ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 7,
+      "doc": "news_22_25-02-2002",
+      "variables": {
+        "arg1": "explique <*> Michel Balandier .",
+        "arg2": "le directeur d' EFI"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 8,
+      "doc": "news_12_18-06-1999",
+      "variables": {
+        "arg1": "L' éclipse du 11 août expliquée au centre Marie - Marvingt",
+        "arg2": "la ville propose actuellement au centre Marie - Marvingt et jusqu' au 23 juin , une exposition réalisée par le CNRS intitulée « Images du ciel » ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 9,
+      "doc": "wik1_01_02-04-2006",
+      "variables": {
+        "arg1": "De nombreux pays et ONG militèrent",
+        "arg2": "en faveur d' une interdiction totale de l' expédition de déchets dangereux à destinations des PED ."
+      },
+      "answer_type": "string",
+      "answer": "purpose"
+    },
+    {
+      "id": 10,
+      "doc": "wik1_01_02-04-2006",
+      "variables": {
+        "arg1": "Après avoir adopté la Convention ,",
+        "arg2": "un certain nombre de PED et d' associations de défense de l' environnement soutinrent"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 11,
+      "doc": "news_16_18-07-1999",
+      "variables": {
+        "arg1": "Exemple à l' Harmonie municipale de Montbéliard ,",
+        "arg2": "qui a vu soudainement ses rangs s' éclaircir ."
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 12,
+      "doc": "geop_3_space",
+      "variables": {
+        "arg1": "La Space Launcher Initiative .",
+        "arg2": "Le programme de Space Launcher Initiative <*> vise à développer un système de lanceur réutilisable entièrement inédit ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 13,
+      "doc": "wik1_15_02-04-2006",
+      "variables": {
+        "arg1": "elle s' oriente ensuite vers le nord puis le nord-est ,",
+        "arg2": "passe au large des Louisiades"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 14,
+      "doc": "wik2_rechauffementClimatique_section1_3",
+      "variables": {
+        "arg1": "appelée « optimum climatique médiéval » :",
+        "arg2": "c' est l' époque où les navigateurs vikings découvrent et baptisent le Groenland"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 15,
+      "doc": "news_31_10-01-2003",
+      "variables": {
+        "arg1": "la défunte épouse René Jacquin ,",
+        "arg2": "originaire de la commune ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 16,
+      "doc": "wik1_17_02-04-2006",
+      "variables": {
+        "arg1": "Son cou très souple ,",
+        "arg2": "Grâce à ses serres puissantes et acérées ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 17,
+      "doc": "wik1_14_02-04-2006",
+      "variables": {
+        "arg1": "le terme animal domestique est souvent employé dans le sens restreint d' animal de compagnie ,",
+        "arg2": "et le verbe domestiquer comme synonyme d' apprivoiser ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 18,
+      "doc": "news_03_17-05-1999",
+      "variables": {
+        "arg1": "que <*> une industrie métallurgique existait .",
+        "arg2": "dès le XIIe siècle , à Dammarie-sur-Saulx , entre autres sites ,"
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 19,
+      "doc": "wik1_29_02-04-2006",
+      "variables": {
+        "arg1": "D' un point de vue technique ,",
+        "arg2": "BITNET était différent d' Internet"
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 20,
+      "doc": "news_02_17-05-1999",
+      "variables": {
+        "arg1": "Espoir",
+        "arg2": "La remise du lavoir abrite depuis quelques jours une exposition"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 21,
+      "doc": "news_03_17-05-1999",
+      "variables": {
+        "arg1": "Cette exposition nous apprend",
+        "arg2": "A peu près au même moment que Gutenberg inventait l' imprimerie ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 22,
+      "doc": "news_15_21-01-2003",
+      "variables": {
+        "arg1": "Suzanne Sequin n' est plus .",
+        "arg2": "Suzanne Sequin s' est éteinte samedi au centre hospitalier de Bar-le-Duc ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 23,
+      "doc": "news_17_21-01-2003",
+      "variables": {
+        "arg1": "Ces délégués remercient le maire",
+        "arg2": "pour avoir pris ses responsabilités"
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 24,
+      "doc": "wik1_03_02-04-2006",
+      "variables": {
+        "arg1": "Houessou Akaba",
+        "arg2": "Houessou Akaba est traditionnellement le quatrième des douze rois du Dahomey ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 25,
+      "doc": "wik1_29_02-04-2006",
+      "variables": {
+        "arg1": "Bitnet",
+        "arg2": "BITNET était un réseau informatique coopératif d' universités américaines ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 26,
+      "doc": "news_27_21-01-2003",
+      "variables": {
+        "arg1": "M. Rivasseau a réaffirmé <*> pour Paris",
+        "arg2": "alors que des témoignages de réfugiés font état d' exactions , viols , et pillages par des éléments"
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 27,
+      "doc": "news_33_21-01-2003",
+      "variables": {
+        "arg1": "Les projets se concrétisent .",
+        "arg2": "Rue du Château ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 28,
+      "doc": "wik1_06_02-04-2006",
+      "variables": {
+        "arg1": "Les réactions des adversaires du Manifeste insistèrent sur le fait",
+        "arg2": "qu' il préludait à un repli sur soi de la Wallonie , à la rupture de la solidarité francophone avec Bruxelles"
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 29,
+      "doc": "wik1_28_02-04-2006",
+      "variables": {
+        "arg1": "et ce sans que ce comportement ait été jugé anormal .",
+        "arg2": "La plupart des relations bisexuelles étaient attachées soit à une période de la vie"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 30,
+      "doc": "news_30_10-01-2003",
+      "variables": {
+        "arg1": "Une jeune fille de 25 ans <*> était signalée disparue .",
+        "arg2": "hébergée chez des parents à Courcelles-lès-Montbéliard ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 31,
+      "doc": "wik1_20_02-04-2006",
+      "variables": {
+        "arg1": "René Leon Bourret est un géologue et un zoologiste français ,",
+        "arg2": "Il arrive dans l' Indochine française en 1900 dans les rangs de l' armée ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 32,
+      "doc": "wik1_16_02-04-2006",
+      "variables": {
+        "arg1": "qui a pour objet l ' étude des facteurs et processus ,",
+        "arg2": "notamment géochimiques et biochimiques ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 33,
+      "doc": "wik1_07_02-04-2006",
+      "variables": {
+        "arg1": "L' omertà est la loi du silence imposée par une mafia .",
+        "arg2": "Plus particulièrement , cela signifie"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 34,
+      "doc": "wik1_28_02-04-2006",
+      "variables": {
+        "arg1": "La plupart des relations bisexuelles étaient attachées soit à une période de la vie",
+        "arg2": "soit à un troisième genre"
+      },
+      "answer_type": "string",
+      "answer": "alternation"
+    },
+    {
+      "id": 35,
+      "doc": "wik1_02_02-04-2006",
+      "variables": {
+        "arg1": "Fils de fermier ,",
+        "arg2": "le jeune italien va très vite s' intéresser à tout ce qui touche à la mécanique ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 36,
+      "doc": "wik2_homoSapiens_origines",
+      "variables": {
+        "arg1": "comme un volume cérébral important :",
+        "arg2": "entre 1 400 et 1 600 cm3 ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 37,
+      "doc": "wik1_21_02-04-2006",
+      "variables": {
+        "arg1": "Non seulement , ce taux supérieur à la moyenne discrédite la suprématie",
+        "arg2": "dont il a fait preuve cette année dans ce Tour d' Italie ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 38,
+      "doc": "news_12_18-06-1999",
+      "variables": {
+        "arg1": "et sera visible partout en France .",
+        "arg2": "Pour la majeure partie du pays , il s' agira d' une éclipse partielle ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 39,
+      "doc": "wik1_20_02-04-2006",
+      "variables": {
+        "arg1": "né le 28 janvier 1884 à Nérac , Lot-et-Garonne",
+        "arg2": "et mort le 28 juillet 1957 à Toulouse ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 40,
+      "doc": "wik1_13_02-04-2006",
+      "variables": {
+        "arg1": "Intellectuel passionné de cinéma européen ,",
+        "arg2": "Penn est de la génération des cinéastes en totale rupture avec l' Hollywood d' antan ,"
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 41,
+      "doc": "news_18_21-01-2003",
+      "variables": {
+        "arg1": "L' enquête <*> avait mis en évidence l' intérêt des adultes pour ces activités artistiques .",
+        "arg2": "réalisée par le conseil municipal des jeunes"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 42,
+      "doc": "news_18_21-01-2003",
+      "variables": {
+        "arg1": "Pour ce premier rendez-vous ,",
+        "arg2": "l' animateur a pu faire partager sa passion"
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 43,
+      "doc": "wik1_08_02-04-2006",
+      "variables": {
+        "arg1": "On appelle panchromatique <*> une réponse physico-chimique",
+        "arg2": "( émulsion photographique , pigment photosensible , vision , etc. ) qui ne discrimine pas les couleurs ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 44,
+      "doc": "wik1_07_02-04-2006",
+      "variables": {
+        "arg1": "Omertà",
+        "arg2": "( loi du silence )"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 45,
+      "doc": "news_11_23-05-1999",
+      "variables": {
+        "arg1": "La voiture circulait dans le sens Mulhouse - Montbéliard",
+        "arg2": "lorsqu'[après être passée à hauteur du 35e RI ,"
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 46,
+      "doc": "wik1_23_02-04-2006",
+      "variables": {
+        "arg1": "On les plaçait dans les tombes des rois ,",
+        "arg2": "afin d' aider l' âme des défunts à rester vivante ."
+      },
+      "answer_type": "string",
+      "answer": "purpose"
+    },
+    {
+      "id": 47,
+      "doc": "wik1_07_02-04-2006",
+      "variables": {
+        "arg1": "Le bris de cette loi implique que la ou les personnes trahies vont tuer le fautif ,",
+        "arg2": "a moins que celui-ci ne les tues avant ."
+      },
+      "answer_type": "string",
+      "answer": "alternation"
+    },
+    {
+      "id": 48,
+      "doc": "wik1_09_02-04-2006",
+      "variables": {
+        "arg1": "Le PIB est par définition une valeur comptable issue du compte de résultat",
+        "arg2": "et non du bilan"
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 49,
+      "doc": "news_35_03-11-2002",
+      "variables": {
+        "arg1": "La Photokina <*> a consacré la photo numérique .",
+        "arg2": "qui vient de se dérouler à Cologne"
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 50,
+      "doc": "wik1_09_02-04-2006",
+      "variables": {
+        "arg1": "Cette caractéristique est fondamentale",
+        "arg2": "celle de la dynamique du revenu"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 51,
+      "doc": "wik2_selectionNaturelle_selection",
+      "variables": {
+        "arg1": "Principes de la sélection naturelle .",
+        "arg2": "La théorie de la sélection naturelle <*> repose sur trois principes :"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 52,
+      "doc": "wik1_20_02-04-2006",
+      "variables": {
+        "arg1": "Il commence à faire paraître des études géologiques dans les années 1920",
+        "arg2": "avant de se consacrer aux reptiles et aux amphibiens ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 53,
+      "doc": "news_10_23-05-1999",
+      "variables": {
+        "arg1": "Hier en début de soirée ,",
+        "arg2": "la route reliant Danjoutin à Belfort était en partie neutralisée par la police ,"
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 54,
+      "doc": "news_29_21-01-2003",
+      "variables": {
+        "arg1": "Présidente de la Délégation aux droits des femmes de l' Assemblée nationale ,",
+        "arg2": "Marie - Jo Zimmermann est inquiète ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 55,
+      "doc": "news_08_23-05-1999",
+      "variables": {
+        "arg1": "Le président Simon :",
+        "arg2": "rien ne lui échappe !"
+      },
+      "answer_type": "string",
+      "answer": "comment"
+    },
+    {
+      "id": 56,
+      "doc": "news_01_17-05-1999",
+      "variables": {
+        "arg1": "En délibérant ,",
+        "arg2": "l' assemblée a accepté la proposition du maire"
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 57,
+      "doc": "wik1_09_02-04-2006",
+      "variables": {
+        "arg1": "Limites et défauts dans la détermination du PIB",
+        "arg2": "Le PIB est par définition une valeur comptable issue du compte de résultat"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 58,
+      "doc": "wik2_rechauffementClimatique_section7_2",
+      "variables": {
+        "arg1": "et publier <*> un « Livre vert » sur l' adaptation de l' UE au changement climatique ,",
+        "arg2": "support de débat avant une prise de décision en 2008 ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 59,
+      "doc": "wik1_06_02-04-2006",
+      "variables": {
+        "arg1": "Les réactions",
+        "arg2": "Les réactions des adversaires du Manifeste insistèrent sur le fait"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 60,
+      "doc": "wik2_rechauffementClimatique_section4_1",
+      "variables": {
+        "arg1": "La prévision par les scientifiques de l' évolution future du climat est possible",
+        "arg2": "par l' utilisation de modèles mathématiques traités informatiquement sur des superordinateurs ."
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 61,
+      "doc": "news_03_17-05-1999",
+      "variables": {
+        "arg1": "puis Jean Baudesson , <*> installa à Marnaval <*> une forge",
+        "arg2": "maire échevin de Saint - Dizier ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 62,
+      "doc": "news_13_18-06-1999",
+      "variables": {
+        "arg1": "Et par le biais de l' activité théâtre ,",
+        "arg2": "ils se sont intéressés à l' expression orale et à la mise en scène avec un intervenant ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 63,
+      "doc": "wik1_04_02-04-2006",
+      "variables": {
+        "arg1": "L' Inhibition de contact est le fait que de nombreuses cellules normales ou dérivant de cellules normales <*> se multiplient",
+        "arg2": "Une étude des cellules cancéreuses en culture a révélé"
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 64,
+      "doc": "wik1_01_02-04-2006",
+      "variables": {
+        "arg1": "un certain nombre de PED et d' associations de défense de l' environnement soutinrent",
+        "arg2": "que le document n' allait pas assez loin ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 65,
+      "doc": "ling_fuchs_section2",
+      "variables": {
+        "arg1": "selon les termes de Valette",
+        "arg2": "( 2003b ) ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 66,
+      "doc": "wik1_17_02-04-2006",
+      "variables": {
+        "arg1": "Grâce à ses serres puissantes et acérées ,",
+        "arg2": "la chouette saisit ses proies en plein vol ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 67,
+      "doc": "wik1_27_02-04-2006",
+      "variables": {
+        "arg1": "Son nom vient de l' hébreu Kfar <*> et Nahum <*> .",
+        "arg2": "( village )"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 68,
+      "doc": "news_02_17-05-1999",
+      "variables": {
+        "arg1": "La remise du lavoir abrite depuis quelques jours une exposition",
+        "arg2": "qui a été inaugurée par Roger Thiriot , <*> en présence de nombreux élus du canton ."
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 69,
+      "doc": "wik1_29_02-04-2006",
+      "variables": {
+        "arg1": "BITNET était différent d' Internet",
+        "arg2": "parce que c' était un réseau point-à-point de type « stocké puis transmis » ."
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 70,
+      "doc": "news_27_21-01-2003",
+      "variables": {
+        "arg1": "Côte d' Ivoire :",
+        "arg2": "viols et pillages ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 71,
+      "doc": "news_22_25-02-2002",
+      "variables": {
+        "arg1": "pour acheter les matières premières nécessaires au redémarrage de l' activité ,",
+        "arg2": "car dans l' usine ,"
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 72,
+      "doc": "wik1_22_02-04-2006",
+      "variables": {
+        "arg1": "La psychothérapie est une pratique",
+        "arg2": "visant à donner du sens ,"
+      },
+      "answer_type": "string",
+      "answer": "purpose"
+    },
+    {
+      "id": 73,
+      "doc": "news_09_23-05-1999",
+      "variables": {
+        "arg1": "pour pénétrer dans l' enceinte du complexe sportif de la commune , avec son semi-remorque ,",
+        "arg2": "C' est au centimètre près que la cabine du véhicule a pu passer entre les deux poteaux du portail principal ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 74,
+      "doc": "wik1_07_02-04-2006",
+      "variables": {
+        "arg1": "que les mafiosi n' impliquent pas la police ou tout autre corps gouvernemental",
+        "arg2": "qui s' occupe de justice dans les affaires de la mafia ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 75,
+      "doc": "news_04_17-05-1999",
+      "variables": {
+        "arg1": "des pêcheurs à la ligne venus",
+        "arg2": "nettoyer les rives"
+      },
+      "answer_type": "string",
+      "answer": "purpose"
+    },
+    {
+      "id": 76,
+      "doc": "wik1_13_02-04-2006",
+      "variables": {
+        "arg1": "Penn est de la génération des cinéastes en totale rupture avec l' Hollywood d' antan ,",
+        "arg2": "prônant un renouveau du cinéma ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 77,
+      "doc": "wik1_08_02-04-2006",
+      "variables": {
+        "arg1": "à contrario d' un support orthochromatique ,",
+        "arg2": "tandis qu' un film non-chromatisé sera sensible seulement au bleu ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 78,
+      "doc": "news_20_21-01-2003",
+      "variables": {
+        "arg1": "Rixe à Montbéliard :",
+        "arg2": "un Belfortain ivre interpellé ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 79,
+      "doc": "news_23_04-03-2002",
+      "variables": {
+        "arg1": "Une première réunion a eu lieu sur la question de l' indemnisation .",
+        "arg2": "Un groupe de travail , <*> s' est réuni une première fois"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 80,
+      "doc": "news_32_28-01-2003",
+      "variables": {
+        "arg1": "Afin de raconter l' histoire",
+        "arg2": "les petits et moyens de la classe de Chantal Hetzel , <*> ont rédigé ce texte eux-mêmes ."
+      },
+      "answer_type": "string",
+      "answer": "purpose"
+    },
+    {
+      "id": 81,
+      "doc": "ling_fuchs_section2",
+      "variables": {
+        "arg1": "Or cette élaboration d’ une ‘ linguistique cinétique ’ fondée sur les mécanismes mentaux sous-jacents aux formes de la langue constitue , <*> “ une tentative <*> dans une théorie linguistique homogène ” .",
+        "arg2": "pour articuler mentalisme et mécanisme"
+      },
+      "answer_type": "string",
+      "answer": "purpose"
+    },
+    {
+      "id": 82,
+      "doc": "news_03_17-05-1999",
+      "variables": {
+        "arg1": "En 1953 ,",
+        "arg2": "puis Jean Baudesson , <*> installa à Marnaval <*> une forge"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 83,
+      "doc": "wik1_22_02-04-2006",
+      "variables": {
+        "arg1": "et <*> elle relève d' une formation post-graduée .",
+        "arg2": "en psychologie ,"
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 84,
+      "doc": "wik1_18_02-04-2006",
+      "variables": {
+        "arg1": "L' Inspecteur Bayard est le héros éponyme d' une bande - dessinée de Jean - Louis Fonteneau et Olivier Schwartz ,",
+        "arg2": "La série se compose tantôt de petites enquêtes de quelques pages , tantôt d' une enquête d' un album entier ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 85,
+      "doc": "news_04_17-05-1999",
+      "variables": {
+        "arg1": "Ce sont finalement les élèves de la classe de CM2 de Jacky Hedin qui sont venus mettre la main au sac poubelle , dans la bonne humeur ,",
+        "arg2": "comme s' ils étaient là pour participer à un jeu de plein - air ,"
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 86,
+      "doc": "news_14_30-06-1999",
+      "variables": {
+        "arg1": "Plus simplement ,",
+        "arg2": "les hasards du calendrier du Comité départemental d' action touristique a fait coïncider la promotion de l' Office de tourisme avec le nouveau classement de l' hôtel - restaurant Le Relais à Arc-et-Senans ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 87,
+      "doc": "news_29_21-01-2003",
+      "variables": {
+        "arg1": "Si les réformes envisagées par le gouvernement pour les européennes et les régionales sont adoptées telles qu' envisagées ,",
+        "arg2": "la parité hommes-femmes en politique risque de régresser ."
+      },
+      "answer_type": "string",
+      "answer": "condition"
+    },
+    {
+      "id": 88,
+      "doc": "wik1_17_02-04-2006",
+      "variables": {
+        "arg1": "La hulotte est un rapace nocturne",
+        "arg2": "La hulotte mesure une quarantaine de centimètres ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 89,
+      "doc": "news_18_21-01-2003",
+      "variables": {
+        "arg1": "Ils étaient nombreux les Brasiliens présents lors de la séance découverte « arts plastiques »",
+        "arg2": "Pour ce premier rendez-vous ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 90,
+      "doc": "wik1_14_02-04-2006",
+      "variables": {
+        "arg1": "Dans le langage courant ,",
+        "arg2": "le terme animal domestique est souvent employé dans le sens restreint d' animal de compagnie ,"
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 91,
+      "doc": "wik1_11_02-04-2006",
+      "variables": {
+        "arg1": "la plus méridionale des Sea Islands",
+        "arg2": "( une chaîne d' îles et d' îlots"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 92,
+      "doc": "wik1_21_02-04-2006",
+      "variables": {
+        "arg1": "Le scandale <*> a encore franchi un pas ,",
+        "arg2": "avec l' exclusion de Marco Pantani du Giro ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 93,
+      "doc": "news_26_10-01-2003",
+      "variables": {
+        "arg1": "« Si cela continue ,",
+        "arg2": "je vais ouvrir une salle municipale »"
+      },
+      "answer_type": "string",
+      "answer": "condition"
+    },
+    {
+      "id": 94,
+      "doc": "news_29_21-01-2003",
+      "variables": {
+        "arg1": "Si les réformes envisagées par le gouvernement pour les européennes et les régionales sont adoptées telles qu' envisagées ,",
+        "arg2": "confie la députée de Moselle"
+      },
+      "answer_type": "string",
+      "answer": "comment"
+    },
+    {
+      "id": 95,
+      "doc": "wik2_rechauffementClimatique_section7_2",
+      "variables": {
+        "arg1": "La Commission européenne va en 2007 - 2008 activer son observatoire de l' énergie ,",
+        "arg2": "et publier <*> un « Livre vert » sur l' adaptation de l' UE au changement climatique ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 96,
+      "doc": "news_07_23-05-1999",
+      "variables": {
+        "arg1": "Décès de Guy Hosneld",
+        "arg2": "suite à une longue et douloureuse maladie ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 97,
+      "doc": "news_24_21-01-2003",
+      "variables": {
+        "arg1": "La section judo de l ' OFP a organisé ce week-end le premier tour de la compétition <*> , dans la salle du COSEC .",
+        "arg2": "Cette animation , <*> est destinée à montrer une première approche de la compétition à tous ces petits sportifs ."
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 98,
+      "doc": "wik1_19_02-04-2006",
+      "variables": {
+        "arg1": "L' armée est déçue ,",
+        "arg2": "il n' y a aucun viol , aucun pillage , aucun meurtre ."
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 99,
+      "doc": "wik1_08_02-04-2006",
+      "variables": {
+        "arg1": "à contrario d' un support orthochromatique ,",
+        "arg2": "lequel n' est sensible qu' au bleu et au vert ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 100,
+      "doc": "news_33_21-01-2003",
+      "variables": {
+        "arg1": "Au cours du dernier conseil municipal",
+        "arg2": "Claude Manet , <*> a fait part au conseil des conclusions du commissaire enquêteur suite à l' enquête publique"
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 101,
+      "doc": "news_32_28-01-2003",
+      "variables": {
+        "arg1": "Afin de raconter l' histoire",
+        "arg2": "qu' ils ont découverte ,"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 102,
+      "doc": "wik1_17_02-04-2006",
+      "variables": {
+        "arg1": "Description",
+        "arg2": "La hulotte est un rapace nocturne"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 103,
+      "doc": "news_04_17-05-1999",
+      "variables": {
+        "arg1": "Ce sont finalement les élèves de la classe de CM2 de Jacky Hedin qui sont venus mettre la main au sac poubelle , dans la bonne humeur ,",
+        "arg2": "laissant au passage le soin à leurs aînés d' en tirer une morale ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 104,
+      "doc": "wik2_rechauffementClimatique_section7_2",
+      "variables": {
+        "arg1": "et publier <*> un « Livre vert » sur l' adaptation de l' UE au changement climatique ,",
+        "arg2": "( prévu en 2007 )"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 105,
+      "doc": "news_08_23-05-1999",
+      "variables": {
+        "arg1": "Le président Simon :",
+        "arg2": "La première exposition avicole de Belfort date de 1922 ."
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 106,
+      "doc": "news_09_23-05-1999",
+      "variables": {
+        "arg1": "Une heure et vingt minutes , c' est le temps qu' il aura fallu à Thierry Guerry ,",
+        "arg2": "chauffeur - routier chez Caillaud ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 107,
+      "doc": "news_11_23-05-1999",
+      "variables": {
+        "arg1": "lorsqu'[après être passée à hauteur du 35e RI ,",
+        "arg2": "elle a quitté la chaussée sur sa droite ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 108,
+      "doc": "wik2_rechauffementClimatique_section1_3",
+      "variables": {
+        "arg1": "Ainsi , <*> est apparu une période chaude aux xe et xie siècles",
+        "arg2": "appelée « optimum climatique médiéval » :"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 109,
+      "doc": "wik1_18_02-04-2006",
+      "variables": {
+        "arg1": "Inspecteur Bayard",
+        "arg2": "L' Inspecteur Bayard est le héros éponyme d' une bande - dessinée de Jean - Louis Fonteneau et Olivier Schwartz ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 110,
+      "doc": "news_08_23-05-1999",
+      "variables": {
+        "arg1": "c' est autour de 1950 que la société d' aviculture de Belfort a vraiment pris sa réelle importance ,",
+        "arg2": "avec la présidence de Claude Simon ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 111,
+      "doc": "news_35_03-11-2002",
+      "variables": {
+        "arg1": "Pourtant , <*> la Rolls des appareils photo poursuit son chemin ,",
+        "arg2": "et le nouveau Leica M7 impose respect et enthousiasme ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 112,
+      "doc": "wik1_15_02-04-2006",
+      "variables": {
+        "arg1": "Cyclone Erica",
+        "arg2": "Le cyclone Erica fut un cyclone tropical"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 113,
+      "doc": "wik1_25_02-04-2006",
+      "variables": {
+        "arg1": "Jean Paulhan , <*> est un écrivain , un critique et un éditeur français , directeur de la Nouvelle Revue française de 1925 à 1940 et de 1946 à 1968 .",
+        "arg2": "né à Nîmes le 2 décembre 1884 et mort à Paris le 9 octobre 1968 ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 114,
+      "doc": "wik1_05_2_02-04-2006",
+      "variables": {
+        "arg1": "Règne",
+        "arg2": "Le règne de Khéops , en égyptien Khoufou , <*> est assez mal connu ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 115,
+      "doc": "wik2_homoSapiens_origines",
+      "variables": {
+        "arg1": "Les recherches en paléontologie humaine ou paléoanthropologie , ainsi que des études en génétique aboutissent à l' idée que la population originelle pour tous les humains se situait en Afrique ,",
+        "arg2": "il y a très approximativement 200 000 ans ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 116,
+      "doc": "news_18_21-01-2003",
+      "variables": {
+        "arg1": "l' animateur a pu faire partager sa passion",
+        "arg2": "et présenter quelques « oeuvres »"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 117,
+      "doc": "wik2_rechauffementClimatique_section7_32",
+      "variables": {
+        "arg1": "Californie .",
+        "arg2": "ainsi , la Californie se trouve à la première place pour la rentabilité énergétique par personne ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 118,
+      "doc": "wik1_13_02-04-2006",
+      "variables": {
+        "arg1": "C' est aux Théâtres des Armées , <*> qu' Arthur Penn fait ses premières armes de metteur en scène ,",
+        "arg2": "durant son service national ,"
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 119,
+      "doc": "news_17_21-01-2003",
+      "variables": {
+        "arg1": "Expression <*> ne correspond pas à la réalité ,",
+        "arg2": "ce que soulignent M. Christian Langlois et M. Patrice Lanini ,"
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 120,
+      "doc": "news_02_17-05-1999",
+      "variables": {
+        "arg1": "qui a été inaugurée par Roger Thiriot , <*> en présence de nombreux élus du canton .",
+        "arg2": "président de l' Association d' insertion des pays de la Saulx et du Perthois ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 121,
+      "doc": "wik1_15_02-04-2006",
+      "variables": {
+        "arg1": "Il s' agit d' une dépression",
+        "arg2": "qui se forme le 4 mars 2003 à environ 300 km de la côte australienne du Queensland , au dessus de la Grande barrière de corail et au niveau du 20e parallèle sud ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 122,
+      "doc": "news_23_04-03-2002",
+      "variables": {
+        "arg1": "Elle avait notamment déployé ses banderoles sur le passage de Lionel Jospin ,",
+        "arg2": "lors de sa récente visite à Lunéville ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 123,
+      "doc": "news_23_04-03-2002",
+      "variables": {
+        "arg1": "constitué par le secrétaire d' Etat aux anciens combattants Jacques Floch ,",
+        "arg2": "pour analyser les propositions et revendications des associations"
+      },
+      "answer_type": "string",
+      "answer": "purpose"
+    },
+    {
+      "id": 124,
+      "doc": "news_25_16-10-2002",
+      "variables": {
+        "arg1": "A l' occasion de la fête des sciences ,",
+        "arg2": "la MJC Nomade propose , au centre commercial des Nations , une exposition photographique et commentée de Fabrice Gillant ."
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 125,
+      "doc": "wik2_rechauffementClimatique_section7_2",
+      "variables": {
+        "arg1": "L' UE ,",
+        "arg2": "mais dispose d' atouts pour lutter contre le réchauffement ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 126,
+      "doc": "wik1_02_02-04-2006",
+      "variables": {
+        "arg1": "il achète un petit garage",
+        "arg2": "et se met à son compte ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 127,
+      "doc": "news_01_17-05-1999",
+      "variables": {
+        "arg1": "que plusieurs automobilistes ont quitté la chaussée à l' intersection de la RD192 et du chemin rural de la Vaux des Fossés",
+        "arg2": "et qu' il convient de modifier le régime de priorité à cet endroit ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 128,
+      "doc": "wik1_14_02-04-2006",
+      "variables": {
+        "arg1": "animale ou végétale",
+        "arg2": "qui a acquis des caractères morphologiques , physiologiques ou même comportementaux nouveaux et héréditaires ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 129,
+      "doc": "wik1_09_02-04-2006",
+      "variables": {
+        "arg1": "et non du bilan",
+        "arg2": "( actif / passif ) ."
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 130,
+      "doc": "news_20_21-01-2003",
+      "variables": {
+        "arg1": "les informant",
+        "arg2": "qu' une rixe est en train de dégénérer ,"
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 131,
+      "doc": "wik2_noamChomsky_abstract",
+      "variables": {
+        "arg1": "Noam Chomsky .",
+        "arg2": "Noam Chomsky , <*> est un linguiste et philosophe américain ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 132,
+      "doc": "news_23_04-03-2002",
+      "variables": {
+        "arg1": "constitué par le secrétaire d' Etat aux anciens combattants Jacques Floch ,",
+        "arg2": "Elle avait notamment déployé ses banderoles sur le passage de Lionel Jospin ,"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 133,
+      "doc": "news_28_21-01-2003",
+      "variables": {
+        "arg1": "L' ancien président de Serbie Milan Milutinovic , <*> s' est rendu volontairement hier au Tribunal pénal international <*> pour l' ex - Yougoslavie de La Haye .",
+        "arg2": "inculpé aux côtés de l' ex - chef d' Etat yougoslave Slobodan Milosevic pour crimes de guerre au Kosovo ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 134,
+      "doc": "wik1_12_02-04-2006",
+      "variables": {
+        "arg1": "Amorrites",
+        "arg2": "Les Amorrites sont un peuple cananéen apparu au Proche-Orient vers le milieu du IIIe millénaire av. J. -C."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 135,
+      "doc": "geop_3_space",
+      "variables": {
+        "arg1": "Une partie des travaux porte sur les technologies de transport dites « Nasaunique » ,",
+        "arg2": "c’est-à-dire consacrées exclusivement aux vols habités ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 136,
+      "doc": "wik2_rechauffementClimatique_section1_3",
+      "variables": {
+        "arg1": "se trouvent des variations plus brèves et plus limitées en intensité .",
+        "arg2": "au cours du dernier millénaire ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 137,
+      "doc": "wik2_rechauffementClimatique_section7_32",
+      "variables": {
+        "arg1": "Le 30 août 2006 ,",
+        "arg2": "le gouvernement et le Parlement de Californie signent un accord pour diminuer la production de gaz à effet de serre ,"
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 138,
+      "doc": "news_04_17-05-1999",
+      "variables": {
+        "arg1": "et curer le petit ruisseau",
+        "arg2": "qui serpente sous les « Sources » avant de se jeter dans l' Ornain ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 139,
+      "doc": "news_03_17-05-1999",
+      "variables": {
+        "arg1": "En 1953 ,",
+        "arg2": "puis Jean Baudesson , <*> installa à Marnaval <*> une forge"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 140,
+      "doc": "news_30_10-01-2003",
+      "variables": {
+        "arg1": "les gendarmes effectuaient une enquête de voisinage",
+        "arg2": "et s' informaient auprès des hôpitaux ou de tout autre endroit où aurait pu trouver refuge la jeune fille ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 141,
+      "doc": "news_29_21-01-2003",
+      "variables": {
+        "arg1": "confie la députée de Moselle",
+        "arg2": "en rendant hommage à celle qui fut secrétaire d' Etat à la Condition féminine ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 142,
+      "doc": "news_22_25-02-2002",
+      "variables": {
+        "arg1": "et qui pouvait la sauver ,",
+        "arg2": "car elle est très attendue sur le marché ."
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 143,
+      "doc": "news_31_10-01-2003",
+      "variables": {
+        "arg1": "Denise Jacquin s' est éteinte mercredi , à l' âge de 73 ans , à l' hôpital ,",
+        "arg2": "des suites d' une pénible maladie"
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 144,
+      "doc": "wik2_rechauffementClimatique_section4_1",
+      "variables": {
+        "arg1": "Ces modèles , <*> reposent sur les lois générales de la thermodynamique",
+        "arg2": "Ces modèles sont considérés comme valides par la communauté scientifique"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 145,
+      "doc": "wik1_19_02-04-2006",
+      "variables": {
+        "arg1": "Massacre d' Ispahan",
+        "arg2": "En 1387 ,"
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 146,
+      "doc": "news_32_28-01-2003",
+      "variables": {
+        "arg1": "Dernièrement ,",
+        "arg2": "les élèves de l' école maternelle ont assisté à un spectacle intitulé « Arturo aux quatre coins du monde » ."
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 147,
+      "doc": "news_34_10-06-2002",
+      "variables": {
+        "arg1": "Un raccourci souvent utilisé mettra les faits sur le compte d' une séparation mal vécue .",
+        "arg2": "Et comme dans la plupart des cas de violences de ce genre , ils sont imputables à l' homme ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 148,
+      "doc": "wik1_01_02-04-2006",
+      "variables": {
+        "arg1": "Après avoir adopté la Convention ,",
+        "arg2": "un certain nombre de PED et d' associations de défense de l' environnement soutinrent"
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 149,
+      "doc": "wik2_rechauffementClimatique_section4_1",
+      "variables": {
+        "arg1": "Ces modèles sont considérés comme valides par la communauté scientifique",
+        "arg2": "lorsqu' ils sont capables de simuler des variations connues du climat ,"
+      },
+      "answer_type": "string",
+      "answer": "condition"
+    },
+    {
+      "id": 150,
+      "doc": "news_20_21-01-2003",
+      "variables": {
+        "arg1": "Dans la nuit de dimanche à lundi , peu après minuit , les services de police de Montbéliard reçoivent un appel téléphonique",
+        "arg2": "les informant"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 151,
+      "doc": "news_09_23-05-1999",
+      "variables": {
+        "arg1": "pour pénétrer dans l' enceinte du complexe sportif de la commune , avec son semi-remorque ,",
+        "arg2": "sur lequel étaient chargées quatorze tonnes d' éléments en bois de trente mètres de long ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 152,
+      "doc": "wik2_rechauffementClimatique_section4_1",
+      "variables": {
+        "arg1": "Modèles climatiques .",
+        "arg2": "La prévision par les scientifiques de l' évolution future du climat est possible"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 153,
+      "doc": "news_24_21-01-2003",
+      "variables": {
+        "arg1": "La section judo de l ' OFP a organisé ce week-end le premier tour de la compétition <*> , dans la salle du COSEC .",
+        "arg2": "appelée « les Petits Tigres »"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 154,
+      "doc": "wik1_17_02-04-2006",
+      "variables": {
+        "arg1": "La hulotte mesure une quarantaine de centimètres .",
+        "arg2": "Sa silhouette est trapue ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 155,
+      "doc": "wik1_10_02-04-2006",
+      "variables": {
+        "arg1": "Au départ de Mariana différentes hypothèses sont à relever :",
+        "arg2": "Les fouilles de la nécropole d’ I Ponti entreprises par G. Moracchini - Mazel , <*> se sont révélées intéressantes ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 156,
+      "doc": "wik2_rechauffementClimatique_section1_3",
+      "variables": {
+        "arg1": "À l' intérieur des grandes fluctuations climatiques terrestres ,",
+        "arg2": "se trouvent des variations plus brèves et plus limitées en intensité ."
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 157,
+      "doc": "ling_fuchs_section2",
+      "variables": {
+        "arg1": "L’ originalité de l’ entreprise guillaumienne <*> est longtemps restée incomprise .",
+        "arg2": "— à savoir la recherche d’ une mécanique psychique à l’ oeuvre dans la langue —"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 158,
+      "doc": "news_11_23-05-1999",
+      "variables": {
+        "arg1": "Un véhicule a effectué une spectaculaire sortie de route , hier vers 18 h 15 , sur l' A36 .",
+        "arg2": "lorsqu'[après être passée à hauteur du 35e RI ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 159,
+      "doc": "news_27_21-01-2003",
+      "variables": {
+        "arg1": "La France a dénoncé hier des violations des droits de l' Homme dans l' ouest de la Côte d' Ivoire ,",
+        "arg2": "tandis que les acteurs de la crise ivoirienne ont entamé à Marcoussis , <*> la deuxième phase de leurs négociations ."
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 160,
+      "doc": "wik1_15_02-04-2006",
+      "variables": {
+        "arg1": "passe au large des Louisiades",
+        "arg2": "avant de partir vers l' est jusqu' à environ 150 km de l' île Rennell aux îles Salomon"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 161,
+      "doc": "wik1_22_02-04-2006",
+      "variables": {
+        "arg1": "visant à donner du sens ,",
+        "arg2": "à soigner"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 162,
+      "doc": "wik2_rechauffementClimatique_section7_32",
+      "variables": {
+        "arg1": "Alors que la population californienne représente 12 % de la population américaine ,",
+        "arg2": "ainsi , la Californie se trouve à la première place pour la rentabilité énergétique par personne ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 163,
+      "doc": "wik2_noamChomsky_abstract",
+      "variables": {
+        "arg1": "Professeur émérite de linguistique au Massachusetts Institute of Technology",
+        "arg2": "où il a enseigné toute sa carrière ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 164,
+      "doc": "wik1_01_02-04-2006",
+      "variables": {
+        "arg1": "De plus , de nombreux courtiers en déchets cherchèrent à exploiter l' image de marque du recyclage",
+        "arg2": "et commencèrent à présenter les destinations de leurs exportations comme des sites de recyclage ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 165,
+      "doc": "wik1_05_2_02-04-2006",
+      "variables": {
+        "arg1": "nécessitant 20 000 ouvriers ,",
+        "arg2": "et considérée de nos jours comme la perfection en terme de technique de construction et d' architecture des pyramides égyptiennes ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 166,
+      "doc": "wik1_25_02-04-2006",
+      "variables": {
+        "arg1": "Pendant la grande guerre ,",
+        "arg2": "il est sergent au 9e Zouaves"
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 167,
+      "doc": "news_21_21-01-2003",
+      "variables": {
+        "arg1": "notamment grâce au succès rencontré par le loto ,",
+        "arg2": "au don de la section des « Fourmis » après leur marché de Noël"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 168,
+      "doc": "news_22_25-02-2002",
+      "variables": {
+        "arg1": "« Nous avions bon espoir d' obtenir d' elle un prêt - relais",
+        "arg2": "explique <*> Michel Balandier ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 169,
+      "doc": "news_31_10-01-2003",
+      "variables": {
+        "arg1": "Denise Jacquin n' est plus",
+        "arg2": "Denise Jacquin s' est éteinte mercredi , à l' âge de 73 ans , à l' hôpital ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 170,
+      "doc": "wik1_05_2_02-04-2006",
+      "variables": {
+        "arg1": "Sa réputation nous vient surtout par ses réalisations architecturales ,",
+        "arg2": "entre autre pour avoir fait construire la grande pyramide de Gizeh ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 171,
+      "doc": "wik1_16_02-04-2006",
+      "variables": {
+        "arg1": "pouvant mener à l ' apparition de la vie , d ' une maniére générale , et à son évolution .",
+        "arg2": "Ceci s ' applique aussi bien à l ' émergence de la vie sur terre ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 172,
+      "doc": "news_10_23-05-1999",
+      "variables": {
+        "arg1": "S' apercevant",
+        "arg2": "que son mari avait soudainement perdu connaissance ,"
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 173,
+      "doc": "news_07_23-05-1999",
+      "variables": {
+        "arg1": "Décès de Guy Hosneld",
+        "arg2": "M. Hosneld avait 44 ans ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 174,
+      "doc": "news_19_30-08-1999",
+      "variables": {
+        "arg1": "rencontre entre Lorrains pour la 3e place contre les voisins de Joeuf ,",
+        "arg2": "mais la fatigue commençait à se faire sentir ."
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 175,
+      "doc": "news_34_10-06-2002",
+      "variables": {
+        "arg1": "Venu armé",
+        "arg2": "Un raccourci souvent utilisé mettra les faits sur le compte d' une séparation mal vécue ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 176,
+      "doc": "wik2_rechauffementClimatique_section1_3",
+      "variables": {
+        "arg1": "Temps historiques .",
+        "arg2": "À l' intérieur des grandes fluctuations climatiques terrestres ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 177,
+      "doc": "news_35_03-11-2002",
+      "variables": {
+        "arg1": "la légende",
+        "arg2": "La Photokina <*> a consacré la photo numérique ."
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 178,
+      "doc": "news_27_21-01-2003",
+      "variables": {
+        "arg1": "Côte d' Ivoire :",
+        "arg2": "La France a dénoncé hier des violations des droits de l' Homme dans l' ouest de la Côte d' Ivoire ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 179,
+      "doc": "wik1_10_02-04-2006",
+      "variables": {
+        "arg1": "Les fouilles de la nécropole d’ I Ponti entreprises par G. Moracchini - Mazel , <*> se sont révélées intéressantes .",
+        "arg2": "située à l’ est du site archéologique de Mariana ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 180,
+      "doc": "wik1_18_02-04-2006",
+      "variables": {
+        "arg1": "L' Inspecteur Bayard est le héros éponyme d' une bande - dessinée de Jean - Louis Fonteneau et Olivier Schwartz ,",
+        "arg2": "publiée dans la revue Astrapi ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 181,
+      "doc": "wik1_02_02-04-2006",
+      "variables": {
+        "arg1": "Deux ans plus tard ,",
+        "arg2": "il achète un petit garage"
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 182,
+      "doc": "wik2_rechauffementClimatique_section1_3",
+      "variables": {
+        "arg1": "se trouvent des variations plus brèves et plus limitées en intensité .",
+        "arg2": "De même , l' époque des Temps Modernes <*> connut une période de refroidissement"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 183,
+      "doc": "wik1_10_02-04-2006",
+      "variables": {
+        "arg1": "située à l’ est du site archéologique de Mariana ,",
+        "arg2": "en rive gauche du Golu ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 184,
+      "doc": "news_31_10-01-2003",
+      "variables": {
+        "arg1": "Denise Jacquin s' est éteinte mercredi , à l' âge de 73 ans , à l' hôpital ,",
+        "arg2": "Denise Fachinetti est née à Mancenans au sein d' une famille de huit enfants ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 185,
+      "doc": "geop_3_effort",
+      "variables": {
+        "arg1": "En ce qui concerne les programmes spatiaux hors MD ,",
+        "arg2": "il est difficile de faire le point des financements proposés à l’ heure actuelle ,"
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 186,
+      "doc": "wik1_21_02-04-2006",
+      "variables": {
+        "arg1": "avec l' exclusion de Marco Pantani du Giro .",
+        "arg2": "Le « Pirate » , <*> a été mis aux fers par les examinateurs de l' UCI ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 187,
+      "doc": "news_04_17-05-1999",
+      "variables": {
+        "arg1": "Une seconde opération se déroulait en parallèle sur le territoire de la commune , avec un groupe d' une dizaine de chevaliers de la gaule « La Barisienne » ,",
+        "arg2": "des pêcheurs à la ligne venus"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 188,
+      "doc": "news_29_21-01-2003",
+      "variables": {
+        "arg1": "« Près de trente ans après le combat mené par Françoise Giroud ,",
+        "arg2": "confie la députée de Moselle"
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 189,
+      "doc": "wik1_04_02-04-2006",
+      "variables": {
+        "arg1": "Une étude des cellules cancéreuses en culture a révélé",
+        "arg2": "que les signaux qui font normalement cesser la croissance n' ont aucun effet sur elles ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 190,
+      "doc": "news_21_21-01-2003",
+      "variables": {
+        "arg1": "le bilan dressé par le vice-président , <*> fait apparaître un solde financier positif ,",
+        "arg2": "M. Ménétrez ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 191,
+      "doc": "news_19_30-08-1999",
+      "variables": {
+        "arg1": "L'après-midi ,",
+        "arg2": "rencontre entre Lorrains pour la 3e place contre les voisins de Joeuf ,"
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 192,
+      "doc": "news_34_10-06-2002",
+      "variables": {
+        "arg1": "Venu armé",
+        "arg2": "pour chercher son enfant ,"
+      },
+      "answer_type": "string",
+      "answer": "purpose"
+    },
+    {
+      "id": 193,
+      "doc": "wik2_selectionNaturelle_selection",
+      "variables": {
+        "arg1": "La théorie de la sélection naturelle <*> repose sur trois principes :",
+        "arg2": "Principe 1 :"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 194,
+      "doc": "news_20_21-01-2003",
+      "variables": {
+        "arg1": "Rixe à Montbéliard :",
+        "arg2": "Dans la nuit de dimanche à lundi , peu après minuit , les services de police de Montbéliard reçoivent un appel téléphonique"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 195,
+      "doc": "news_22_25-02-2002",
+      "variables": {
+        "arg1": "une technologie qu' elle est parvenue à maîtriser l' an dernier ,",
+        "arg2": "et qui pouvait la sauver ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 196,
+      "doc": "wik1_28_02-04-2006",
+      "variables": {
+        "arg1": "La plupart des relations bisexuelles étaient attachées soit à une période de la vie",
+        "arg2": "( comme pour la pédérastie dans l' Antiquité ou le shudo dans le Japon pré-moderne ) ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 197,
+      "doc": "wik1_04_02-04-2006",
+      "variables": {
+        "arg1": "L' Inhibition de contact est le fait que de nombreuses cellules normales ou dérivant de cellules normales <*> se multiplient",
+        "arg2": "( en particulier des cellules épithéliales ) ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 198,
+      "doc": "wik2_noamChomsky_abstract",
+      "variables": {
+        "arg1": "il est connu dans le domaine scientifique",
+        "arg2": "comme le fondateur de la linguistique générative ."
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 199,
+      "doc": "wik1_25_02-04-2006",
+      "variables": {
+        "arg1": "il est sergent au 9e Zouaves",
+        "arg2": "( il est blessé en décembre 1914 ) ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 200,
+      "doc": "wik2_noamChomsky_abstract",
+      "variables": {
+        "arg1": "Noam Chomsky , <*> est un linguiste et philosophe américain .",
+        "arg2": "né Avram Noam Chomsky le 7 décembre 1928 à Philadelphie en Pennsylvanie ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 201,
+      "doc": "news_22_25-02-2002",
+      "variables": {
+        "arg1": "M. Brandt est l' actionnaire majoritaire <*> d' EFI .",
+        "arg2": "( à 68 % )"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 202,
+      "doc": "news_21_21-01-2003",
+      "variables": {
+        "arg1": "Lors de l' assemblée générale de l' Association paroissiale d' éducation populaire ,",
+        "arg2": "le bilan dressé par le vice-président , <*> fait apparaître un solde financier positif ,"
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 203,
+      "doc": "news_23_04-03-2002",
+      "variables": {
+        "arg1": "pour analyser les propositions et revendications des associations",
+        "arg2": "qui protestent contre le décret du 13 juillet 2000 instituant une indemnité spécifique versée , sous certaines conditions , aux orphelins de déportés juifs ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 204,
+      "doc": "news_22_25-02-2002",
+      "variables": {
+        "arg1": "car dans l' usine ,",
+        "arg2": "les machines sont arrêtées depuis le 14 janvier dernier »"
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 205,
+      "doc": "wik2_rechauffementClimatique_section1_3",
+      "variables": {
+        "arg1": "Ainsi , <*> est apparu une période chaude aux xe et xie siècles",
+        "arg2": "au cours du dernier millénaire ,"
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 206,
+      "doc": "news_19_30-08-1999",
+      "variables": {
+        "arg1": "A Soleuvre :",
+        "arg2": "des hauts et des bas"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 207,
+      "doc": "wik1_06_02-04-2006",
+      "variables": {
+        "arg1": "que ce Manifeste s' oppose trait pour tait à l' idée de belgitude",
+        "arg2": "telle qu' elle avait été manifestée"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 208,
+      "doc": "wik1_13_02-04-2006",
+      "variables": {
+        "arg1": "prônant un renouveau du cinéma ,",
+        "arg2": "discours proche de celui de la Nouvelle Vague en France ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 209,
+      "doc": "news_24_21-01-2003",
+      "variables": {
+        "arg1": "dont le prochain aura lieu à Faulx",
+        "arg2": "et le troisième le 1er mai , à Nomeny ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 210,
+      "doc": "wik1_08_02-04-2006",
+      "variables": {
+        "arg1": "On appelle panchromatique <*> une réponse physico-chimique",
+        "arg2": "( du grec pan , tout et chrôma , couleur )"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 211,
+      "doc": "wik2_attentats11sept_abstract",
+      "variables": {
+        "arg1": "Attentats du 11 septembre 2001 .",
+        "arg2": "Les attentats du 11 septembre 2001 <*> sont une série d' attentats - suicides commis par le réseau terroriste Al-Qaida dans le nord-est des États - Unis le mardi 11 septembre 2001 ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 212,
+      "doc": "wik1_17_02-04-2006",
+      "variables": {
+        "arg1": "Sa silhouette est trapue ,",
+        "arg2": "Sa tête est grosse avec des yeux foncés ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 213,
+      "doc": "wik1_17_02-04-2006",
+      "variables": {
+        "arg1": "Sa silhouette est trapue ,",
+        "arg2": "même lorsqu ' elle vole ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 214,
+      "doc": "wik1_16_02-04-2006",
+      "variables": {
+        "arg1": "Ceci s ' applique aussi bien à l ' émergence de la vie sur terre ,",
+        "arg2": "qu ' à la possibilité de vie ailleurs dans le système solaire ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 215,
+      "doc": "news_05_17-05-1999",
+      "variables": {
+        "arg1": "La nouvelle école maternelle a été inaugurée en présence du sous-préfet , du président du conseil général ,",
+        "arg2": "accompagné de MM . Farinet et Verneau , des maires et représentants de la communauté de communes , de l' inspecteur d' académie et de l' inspectrice de l' Education nationale de la circonscription ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 216,
+      "doc": "news_08_23-05-1999",
+      "variables": {
+        "arg1": "La première exposition avicole de Belfort date de 1922 .",
+        "arg2": "Cela fait donc plus de trois-quarts de siècle que la digne société du même nom encourage , dans la région , les éleveurs amateurs ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 217,
+      "doc": "wik1_10_02-04-2006",
+      "variables": {
+        "arg1": "De Mariana à Aleria",
+        "arg2": "Au départ de Mariana différentes hypothèses sont à relever :"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 218,
+      "doc": "news_24_21-01-2003",
+      "variables": {
+        "arg1": "Cette animation , <*> est destinée à montrer une première approche de la compétition à tous ces petits sportifs .",
+        "arg2": "qui comporte trois tours ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 219,
+      "doc": "wik2_rechauffementClimatique_section7_32",
+      "variables": {
+        "arg1": "le gouvernement et le Parlement de Californie signent un accord pour diminuer la production de gaz à effet de serre ,",
+        "arg2": "mettant l' État en conformité avec le protocole de Kyoto158 ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 220,
+      "doc": "wik1_29_02-04-2006",
+      "variables": {
+        "arg1": "BITNET était un réseau informatique coopératif d' universités américaines ,",
+        "arg2": "fondé en 1981 sous l' égide d' Ira Fuchs et de Greydon Freeman de la « City University of New York »"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 221,
+      "doc": "geop_3_space",
+      "variables": {
+        "arg1": "Le programme de Space Launcher Initiative <*> vise à développer un système de lanceur réutilisable entièrement inédit .",
+        "arg2": "Les entreprises privées recevront 4,8 milliards de dollars entre 2001 et 2006"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 222,
+      "doc": "wik1_11_02-04-2006",
+      "variables": {
+        "arg1": "Amelia Island est une île ,",
+        "arg2": "la plus méridionale des Sea Islands"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 223,
+      "doc": "news_21_21-01-2003",
+      "variables": {
+        "arg1": "Ces locaux , <*> sont loués à l' Apep pour une somme modique .",
+        "arg2": "qui sont la propriété de la commune ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 224,
+      "doc": "news_19_30-08-1999",
+      "variables": {
+        "arg1": "L' Effort Basket de Mirecourt participait ce dimanche au tournoi international de Soleuvre au Luxembourg",
+        "arg2": "où étaient présentées des équipes de haut niveau telle Utrecht"
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 225,
+      "doc": "wik2_attentats11sept_abstract",
+      "variables": {
+        "arg1": "les tours jumelles du World Trade Center à Manhattan , <*> et le Pentagone ,",
+        "arg2": "à New York ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 226,
+      "doc": "wik2_rechauffementClimatique_section4_1",
+      "variables": {
+        "arg1": "lorsqu' ils sont capables de simuler des variations connues du climat ,",
+        "arg2": "comme les variations saisonnières , le phénomène El Niño , ou l' oscillation nord-atlantique ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 227,
+      "doc": "wik1_20_02-04-2006",
+      "variables": {
+        "arg1": "René Léon Bourret",
+        "arg2": "René Leon Bourret est un géologue et un zoologiste français ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 228,
+      "doc": "news_02_17-05-1999",
+      "variables": {
+        "arg1": "« Tout simplement » , <*> « parce que l' histoire du travail industriel est , ici , une longue et vieille histoire .",
+        "arg2": "a précisé Roger Thiriot ,"
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 229,
+      "doc": "news_33_21-01-2003",
+      "variables": {
+        "arg1": "Claude Manet , <*> a fait part au conseil des conclusions du commissaire enquêteur suite à l' enquête publique",
+        "arg2": "maire ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 230,
+      "doc": "geop_3_effort",
+      "variables": {
+        "arg1": "Le regroupement des budgets prévu par le nouveau secrétaire à la défense apportera une amélioration de cet état de fait ,",
+        "arg2": "mais il n’ est pas sûr que les données seront déclassifiées ."
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 231,
+      "doc": "wik1_15_02-04-2006",
+      "variables": {
+        "arg1": "Le cyclone Erica fut un cyclone tropical",
+        "arg2": "qui frappa durement la Nouvelle-Calédonie les 13 et 14 mars 2003 ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 232,
+      "doc": "news_05_17-05-1999",
+      "variables": {
+        "arg1": "Dans son intervention ,",
+        "arg2": "M. Soyer a fait l' historique de l' école maternelle ,"
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 233,
+      "doc": "wik1_16_02-04-2006",
+      "variables": {
+        "arg1": "L ' exobiologie <*> est une science interdisciplinaire",
+        "arg2": "( aussi appelée astrobiologie par les anglo-saxons )"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 234,
+      "doc": "wik1_06_02-04-2006",
+      "variables": {
+        "arg1": "La récente Histoire de la littérature belge parue chez Fayard <*> estime",
+        "arg2": "que ce Manifeste s' oppose trait pour tait à l' idée de belgitude"
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 235,
+      "doc": "wik1_05_1_02-04-2006",
+      "variables": {
+        "arg1": "qui se retournèrent contre leurs anciens protecteurs Khazars",
+        "arg2": "et prirent , elles aussi le noms de Russes ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 236,
+      "doc": "news_35_03-11-2002",
+      "variables": {
+        "arg1": "Photo M7 :",
+        "arg2": "la légende"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 237,
+      "doc": "wik1_04_02-04-2006",
+      "variables": {
+        "arg1": "L' Inhibition de contact est le fait que de nombreuses cellules normales ou dérivant de cellules normales <*> se multiplient",
+        "arg2": "jusqu' à ce qu' elles aient formé une couche simple ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 238,
+      "doc": "wik1_03_02-04-2006",
+      "variables": {
+        "arg1": "Houessou Akaba est traditionnellement le quatrième des douze rois du Dahomey .",
+        "arg2": "Il régna de 1685 à 1708 ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 239,
+      "doc": "news_25_16-10-2002",
+      "variables": {
+        "arg1": "la MJC Nomade propose , au centre commercial des Nations , une exposition photographique et commentée de Fabrice Gillant .",
+        "arg2": "Le public pourra découvrir , à travers l' exposition de près de 30 clichés , le travail de ce correspondant de Météo France ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 240,
+      "doc": "wik2_rechauffementClimatique_section1_3",
+      "variables": {
+        "arg1": "caractérisé par des hivers très rigoureux ,",
+        "arg2": "dont le terrible hiver 1708 - 1709 ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 241,
+      "doc": "news_18_21-01-2003",
+      "variables": {
+        "arg1": "Ils étaient nombreux les Brasiliens présents lors de la séance découverte « arts plastiques »",
+        "arg2": "L' enquête <*> avait mis en évidence l' intérêt des adultes pour ces activités artistiques ."
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 242,
+      "doc": "wik1_02_02-04-2006",
+      "variables": {
+        "arg1": "Francesco Zefferino Sbarro , <*> est né le 27 février 1939 , dans les Pouilles",
+        "arg2": "( Sud de l' Italie ) ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 243,
+      "doc": "news_16_18-07-1999",
+      "variables": {
+        "arg1": "Plus précisément , c' est la batterie <*> qui connaît des problèmes .",
+        "arg2": "-une des deux composantes de l' Harmonie-"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 244,
+      "doc": "geop_3_effort",
+      "variables": {
+        "arg1": "En ce qui concerne les programmes spatiaux hors MD ,",
+        "arg2": "Le regroupement des budgets prévu par le nouveau secrétaire à la défense apportera une amélioration de cet état de fait ,"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 245,
+      "doc": "news_09_23-05-1999",
+      "variables": {
+        "arg1": "sur lequel étaient chargées quatorze tonnes d' éléments en bois de trente mètres de long ,",
+        "arg2": "destinés à la couverture du bâtiment en construction sur le stade ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 246,
+      "doc": "wik1_23_02-04-2006",
+      "variables": {
+        "arg1": "l' Art de l' Égypte antique , <*> est l' une des principales sources de l' art en Europe .",
+        "arg2": "né il y a environ cinq mille ans ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 247,
+      "doc": "news_14_30-06-1999",
+      "variables": {
+        "arg1": "qui se tenait le même jour ,",
+        "arg2": "sous la présidence d' Edmond Maire ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 248,
+      "doc": "wik2_homoSapiens_origines",
+      "variables": {
+        "arg1": "Homo Sapiens",
+        "arg2": "- Origines ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 249,
+      "doc": "news_04_17-05-1999",
+      "variables": {
+        "arg1": "Les enfants et les pêcheurs",
+        "arg2": "Ce sont finalement les élèves de la classe de CM2 de Jacky Hedin qui sont venus mettre la main au sac poubelle , dans la bonne humeur ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 250,
+      "doc": "news_14_30-06-1999",
+      "variables": {
+        "arg1": "à l' occasion de l' assemblée générale décentralisée des Offices de tourisme et Syndicats d' initiative du Doubs",
+        "arg2": "qui se tenait le même jour ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 251,
+      "doc": "wik1_17_02-04-2006",
+      "variables": {
+        "arg1": "elle peut complètement tourner la tête vers l' arrière ,",
+        "arg2": "sans bouger le corps ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 252,
+      "doc": "news_13_18-06-1999",
+      "variables": {
+        "arg1": "ils se sont intéressés à l' expression orale et à la mise en scène avec un intervenant ,",
+        "arg2": "Julien Georges ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 253,
+      "doc": "news_10_23-05-1999",
+      "variables": {
+        "arg1": "le temps qu' un dépanneur fasse tomber l' automobile ,",
+        "arg2": "perchée juste au dessus d' une fortification appartenant à l' ancienne ceinture de Belfort ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 254,
+      "doc": "wik1_08_02-04-2006",
+      "variables": {
+        "arg1": "Plus particulièrement , un support sensible est dit panchromatique",
+        "arg2": "lorsqu' il est sensible à toutes les longueurs d' onde du spectre visible ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 255,
+      "doc": "news_34_10-06-2002",
+      "variables": {
+        "arg1": "Venu armé",
+        "arg2": "un Nancéien tire plusieurs fois sur sa compagne"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 256,
+      "doc": "wik1_26_02-04-2006",
+      "variables": {
+        "arg1": "et les 36 touches noires aux notes altérées",
+        "arg2": "( dièse ou bémol ) ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 257,
+      "doc": "wik1_27_02-04-2006",
+      "variables": {
+        "arg1": "Capharnaüm",
+        "arg2": "Capharnaüm ou Kefar Nahum était une ville de l' ancienne Galilée ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 258,
+      "doc": "news_10_23-05-1999",
+      "variables": {
+        "arg1": "S' apercevant",
+        "arg2": "l' épouse , <*> a tenté de garder le véhicule en ligne droite"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 259,
+      "doc": "news_29_21-01-2003",
+      "variables": {
+        "arg1": "Marie - Jo Zimmermann est inquiète .",
+        "arg2": "Si les réformes envisagées par le gouvernement pour les européennes et les régionales sont adoptées telles qu' envisagées ,"
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 260,
+      "doc": "wik2_rechauffementClimatique_section4_1",
+      "variables": {
+        "arg1": "Ces modèles , <*> reposent sur les lois générales de la thermodynamique",
+        "arg2": "dits de circulation générale ,"
+      },
+      "answer_type": "string",
+      "answer": "comment"
+    },
+    {
+      "id": 261,
+      "doc": "wik2_noamChomsky_abstract",
+      "variables": {
+        "arg1": "Professeur émérite de linguistique au Massachusetts Institute of Technology",
+        "arg2": "il est connu dans le domaine scientifique"
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 262,
+      "doc": "wik1_04_02-04-2006",
+      "variables": {
+        "arg1": "Inhibition de contact",
+        "arg2": "L' Inhibition de contact est le fait que de nombreuses cellules normales ou dérivant de cellules normales <*> se multiplient"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 263,
+      "doc": "wik2_noamChomsky_abstract",
+      "variables": {
+        "arg1": "il est connu dans le domaine scientifique",
+        "arg2": "Chomsky a commencé à développer sa théorie de la grammaire générative et transformationnelle dans les années 1950"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 264,
+      "doc": "wik1_26_02-04-2006",
+      "variables": {
+        "arg1": "Le clavier du piano est composé de 88 touches",
+        "arg2": "Les 52 touches blanches correspondent aux notes non altérées ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 265,
+      "doc": "wik1_12_02-04-2006",
+      "variables": {
+        "arg1": "Des « rois de Martu » sont cités dans des textes d' Ebla <*> et de la période d' Akkad",
+        "arg2": "( XXIIIe siècle av. J. -C. ) ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 266,
+      "doc": "wik1_06_02-04-2006",
+      "variables": {
+        "arg1": "telle qu' elle avait été manifestée",
+        "arg2": "notamment dans le numéro spécial de la revue de l' ULB en 1980 intitulé La Belgique malgré tout ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 267,
+      "doc": "news_24_21-01-2003",
+      "variables": {
+        "arg1": "qui comporte trois tours ,",
+        "arg2": "dont le prochain aura lieu à Faulx"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 268,
+      "doc": "news_30_10-01-2003",
+      "variables": {
+        "arg1": "Importantes recherches",
+        "arg2": "L' alerte a été donnée mercredi soir vers 21 h 30 ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 269,
+      "doc": "news_22_25-02-2002",
+      "variables": {
+        "arg1": "« Nous avions bon espoir d' obtenir d' elle un prêt - relais",
+        "arg2": "Ce prêt aurait permis aussi à la société de lancer sa production de plaques offset en numérique ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 270,
+      "doc": "ling_fuchs_section2",
+      "variables": {
+        "arg1": "Or cette élaboration d’ une ‘ linguistique cinétique ’ fondée sur les mécanismes mentaux sous-jacents aux formes de la langue constitue , <*> “ une tentative <*> dans une théorie linguistique homogène ” .",
+        "arg2": "selon les termes de Valette"
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 271,
+      "doc": "wik1_05_1_02-04-2006",
+      "variables": {
+        "arg1": "Les Russ , <*> finirent par se convertir au christianisme",
+        "arg2": "et dès lors , <*> obtinrent la soumission des indigènes slaves ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 272,
+      "doc": "wik2_rechauffementClimatique_section4_1",
+      "variables": {
+        "arg1": "La prévision par les scientifiques de l' évolution future du climat est possible",
+        "arg2": "lorsqu' ils sont capables de simuler des variations connues du climat ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 273,
+      "doc": "news_01_17-05-1999",
+      "variables": {
+        "arg1": "à élaborer le programme d' amélioration de la voirie communale et de la sécurité routière pour l' année 1999 .",
+        "arg2": "Il a rappelé"
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 274,
+      "doc": "news_25_16-10-2002",
+      "variables": {
+        "arg1": "A l' occasion de la fête des sciences ,",
+        "arg2": "manifestation d' envergure nationale ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 275,
+      "doc": "news_14_30-06-1999",
+      "variables": {
+        "arg1": "sous la présidence d' Edmond Maire ,",
+        "arg2": "à la Saline Royale ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 276,
+      "doc": "wik1_21_02-04-2006",
+      "variables": {
+        "arg1": "Non seulement , ce taux supérieur à la moyenne discrédite la suprématie",
+        "arg2": "mais il sème le doute sur ses performances de l' an passé ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 277,
+      "doc": "wik1_09_02-04-2006",
+      "variables": {
+        "arg1": "Le PIB est par définition une valeur comptable issue du compte de résultat",
+        "arg2": "Cette caractéristique est fondamentale"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 278,
+      "doc": "news_09_23-05-1999",
+      "variables": {
+        "arg1": "dont un « chapeau » sur l' un a du être enlevé",
+        "arg2": "pour faciliter la manoeuvre spectaculaire ,"
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 279,
+      "doc": "wik1_28_02-04-2006",
+      "variables": {
+        "arg1": "La bisexualité a une histoire universelle ,",
+        "arg2": "Les gens dans la plupart des sociétés connues ont montré des variables degrés de bisexualité"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 280,
+      "doc": "wik1_05_2_02-04-2006",
+      "variables": {
+        "arg1": "et est considéré par certains comme l' un des plus grands de l' histoire de l' Égypte antique .",
+        "arg2": "Sa réputation nous vient surtout par ses réalisations architecturales ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 281,
+      "doc": "wik2_rechauffementClimatique_section7_32",
+      "variables": {
+        "arg1": "Alors que la population californienne représente 12 % de la population américaine ,",
+        "arg2": "elle ne consomme que 7 % de l' électricité produite dans le pays ;"
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 282,
+      "doc": "news_10_23-05-1999",
+      "variables": {
+        "arg1": "Un malaise",
+        "arg2": "Il semble qu' un malaise du conducteur , <*> soit à l' origine de cet accident peu classique ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 283,
+      "doc": "wik2_rechauffementClimatique_section1_3",
+      "variables": {
+        "arg1": "De même , l' époque des Temps Modernes <*> connut une période de refroidissement",
+        "arg2": "( 1550 - 1850 )"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 284,
+      "doc": "news_18_21-01-2003",
+      "variables": {
+        "arg1": "et présenter quelques « oeuvres »",
+        "arg2": "pour mettre en bouche les participants ."
+      },
+      "answer_type": "string",
+      "answer": "purpose"
+    },
+    {
+      "id": 285,
+      "doc": "news_09_23-05-1999",
+      "variables": {
+        "arg1": "pour faciliter la manoeuvre spectaculaire ,",
+        "arg2": "dirigée par le pilote du convoi exceptionnel ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 286,
+      "doc": "news_07_23-05-1999",
+      "variables": {
+        "arg1": "Nous apprenons avec beaucoup de tristesse , le décès de Guy Hosneld , <*> à l' âge de 44 ans .",
+        "arg2": "suite à une longue et douloureuse maladie ,"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 287,
+      "doc": "news_33_21-01-2003",
+      "variables": {
+        "arg1": "Au cours du dernier conseil municipal",
+        "arg2": "réuni vendredi ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 288,
+      "doc": "wik1_09_02-04-2006",
+      "variables": {
+        "arg1": "Les critiques mettent ainsi en avant deux faiblesses du PIB :",
+        "arg2": "son cloisonnement comptable <*> et sa limite à la sphère du compte de résultat qui ignore l' actif et le passif ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 289,
+      "doc": "wik1_22_02-04-2006",
+      "variables": {
+        "arg1": "à soigner",
+        "arg2": "et éventuellement à résoudre les problèmes découlant d' une souffrance psychique rencontrée par des individus et pouvant se manifester par des symptômes comme la dépression , l' anxiété ou éventuellement par des conduites"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 290,
+      "doc": "wik1_05_1_02-04-2006",
+      "variables": {
+        "arg1": "Les Russ , <*> finirent par se convertir au christianisme",
+        "arg2": "et dès lors , <*> obtinrent la soumission des indigènes slaves ,"
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 291,
+      "doc": "news_17_21-01-2003",
+      "variables": {
+        "arg1": "Que la lumière soit !",
+        "arg2": "« Verdun , ville de lumière ! »"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 292,
+      "doc": "geop_3_space",
+      "variables": {
+        "arg1": "Le programme de Space Launcher Initiative <*> vise à développer un système de lanceur réutilisable entièrement inédit .",
+        "arg2": "Une partie des travaux porte sur les technologies de transport dites « Nasaunique » ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 293,
+      "doc": "wik1_19_02-04-2006",
+      "variables": {
+        "arg1": "L' armée est déçue ,",
+        "arg2": "La population est nerveuse , versatile et un peu effrayée ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 294,
+      "doc": "news_24_21-01-2003",
+      "variables": {
+        "arg1": "Premier tour des « Petits Tigres » .",
+        "arg2": "La section judo de l ' OFP a organisé ce week-end le premier tour de la compétition <*> , dans la salle du COSEC ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 295,
+      "doc": "wik1_04_02-04-2006",
+      "variables": {
+        "arg1": "Inhibition de contact",
+        "arg2": "Une étude des cellules cancéreuses en culture a révélé"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 296,
+      "doc": "news_17_21-01-2003",
+      "variables": {
+        "arg1": "ce que soulignent M. Christian Langlois et M. Patrice Lanini ,",
+        "arg2": "délégués syndicaux CGT des Rapides de la Meuse ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 297,
+      "doc": "news_05_17-05-1999",
+      "variables": {
+        "arg1": "Au cours de la cérémonie d' inauguration .",
+        "arg2": "La nouvelle école maternelle a été inaugurée en présence du sous-préfet , du président du conseil général ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 298,
+      "doc": "wik1_14_02-04-2006",
+      "variables": {
+        "arg1": "Une espèce domestiquée , <*> est une espèce",
+        "arg2": "animale ou végétale"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 299,
+      "doc": "wik1_08_02-04-2006",
+      "variables": {
+        "arg1": "On appelle panchromatique <*> une réponse physico-chimique",
+        "arg2": "Plus particulièrement , un support sensible est dit panchromatique"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 300,
+      "doc": "news_08_23-05-1999",
+      "variables": {
+        "arg1": "Le président Simon :",
+        "arg2": "Photos Jacques FISSIER"
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 301,
+      "doc": "news_09_23-05-1999",
+      "variables": {
+        "arg1": "Une manoeuvre menée avec maestria .",
+        "arg2": "Une heure et vingt minutes , c' est le temps qu' il aura fallu à Thierry Guerry ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 302,
+      "doc": "wik1_22_02-04-2006",
+      "variables": {
+        "arg1": "En médecine ,",
+        "arg2": "la psychothérapie est rattachée à la psychiatrie ,"
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 303,
+      "doc": "news_06_23-05-1999",
+      "variables": {
+        "arg1": "L' agenda sportif",
+        "arg2": "Football"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 304,
+      "doc": "news_17_21-01-2003",
+      "variables": {
+        "arg1": "parue dans la revue n° 33 « Verdun la vie »",
+        "arg2": "et envoyée à tous les Verdunois ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 305,
+      "doc": "news_13_18-06-1999",
+      "variables": {
+        "arg1": "Le Petit Prince au programme des élèves de Jules - Romains",
+        "arg2": "Une représentation théâtrale remarquable ."
+      },
+      "answer_type": "string",
+      "answer": "comment"
+    },
+    {
+      "id": 306,
+      "doc": "geop_3_effort",
+      "variables": {
+        "arg1": "En ce qui concerne les programmes spatiaux hors MD ,",
+        "arg2": "Le regroupement des budgets prévu par le nouveau secrétaire à la défense apportera une amélioration de cet état de fait ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 307,
+      "doc": "news_22_25-02-2002",
+      "variables": {
+        "arg1": "Ce prêt aurait permis aussi à la société de lancer sa production de plaques offset en numérique ,",
+        "arg2": "une technologie qu' elle est parvenue à maîtriser l' an dernier ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 308,
+      "doc": "ling_fuchs_section2",
+      "variables": {
+        "arg1": "Théorie psychomécanique et cognition .",
+        "arg2": "L’ originalité de l’ entreprise guillaumienne <*> est longtemps restée incomprise ."
+      },
+      "answer_type": "string",
+      "answer": "comment"
+    },
+    {
+      "id": 309,
+      "doc": "geop_3_space",
+      "variables": {
+        "arg1": "Le programme de Space Launcher Initiative <*> vise à développer un système de lanceur réutilisable entièrement inédit .",
+        "arg2": "( SLI )"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 310,
+      "doc": "news_26_10-01-2003",
+      "variables": {
+        "arg1": "Les services d' EDF - GDF ont pu rétablir l' électricité dans l' immeuble peu avant 21 h.",
+        "arg2": "Pour le plus grand soulagement des locataires"
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 311,
+      "doc": "news_19_30-08-1999",
+      "variables": {
+        "arg1": "où étaient présentées des équipes de haut niveau telle Utrecht",
+        "arg2": "( N1 hollandaise ) ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 312,
+      "doc": "wik1_16_02-04-2006",
+      "variables": {
+        "arg1": "Exobiologie",
+        "arg2": "L ' exobiologie <*> est une science interdisciplinaire"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 313,
+      "doc": "wik1_29_02-04-2006",
+      "variables": {
+        "arg1": "BITNET était un réseau informatique coopératif d' universités américaines ,",
+        "arg2": "D' un point de vue technique ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 314,
+      "doc": "news_19_30-08-1999",
+      "variables": {
+        "arg1": "A Soleuvre :",
+        "arg2": "L' Effort Basket de Mirecourt participait ce dimanche au tournoi international de Soleuvre au Luxembourg"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 315,
+      "doc": "news_09_23-05-1999",
+      "variables": {
+        "arg1": "chauffeur - routier chez Caillaud ,",
+        "arg2": "l' entreprise en charpente chargée de la pose de la toiture des cours de tennis couverts ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 316,
+      "doc": "news_30_10-01-2003",
+      "variables": {
+        "arg1": "Importantes recherches",
+        "arg2": "pour retrouver la jeune disparue"
+      },
+      "answer_type": "string",
+      "answer": "purpose"
+    },
+    {
+      "id": 317,
+      "doc": "wik1_27_02-04-2006",
+      "variables": {
+        "arg1": "sur la rive nord-ouest du lac de Tibériade au nord de la Palestine",
+        "arg2": "( actuellement dans l' État d' Israël ) ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 318,
+      "doc": "news_30_10-01-2003",
+      "variables": {
+        "arg1": "COURCELLES - LES - MONTBELIARD",
+        "arg2": "Importantes recherches"
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 319,
+      "doc": "wik1_01_02-04-2006",
+      "variables": {
+        "arg1": "un certain nombre de PED et d' associations de défense de l' environnement soutinrent",
+        "arg2": "De nombreux pays et ONG militèrent"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 320,
+      "doc": "news_05_17-05-1999",
+      "variables": {
+        "arg1": "Une nouvelle école pour la commune",
+        "arg2": "Au cours de la cérémonie d' inauguration ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 321,
+      "doc": "news_04_17-05-1999",
+      "variables": {
+        "arg1": "nettoyer les rives",
+        "arg2": "et curer le petit ruisseau"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 322,
+      "doc": "news_33_21-01-2003",
+      "variables": {
+        "arg1": "Rue du Château .",
+        "arg2": "Au cours du dernier conseil municipal"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 323,
+      "doc": "geop_3_effort",
+      "variables": {
+        "arg1": "il est difficile de faire le point des financements proposés à l’ heure actuelle ,",
+        "arg2": "car les lignes budgétaires restent éparpillées et le plus souvent non-identifiables dans le projet de budget de la Maison Blanche ."
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 324,
+      "doc": "wik1_09_02-04-2006",
+      "variables": {
+        "arg1": "Le PIB est par définition une valeur comptable issue du compte de résultat",
+        "arg2": "Les critiques mettent ainsi en avant deux faiblesses du PIB :"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 325,
+      "doc": "news_16_18-07-1999",
+      "variables": {
+        "arg1": "La musique n' adoucit pas toujours les mœurs .",
+        "arg2": "Exemple à l' Harmonie municipale de Montbéliard ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 326,
+      "doc": "news_32_28-01-2003",
+      "variables": {
+        "arg1": "Le voyage d' Arturo le corbeau",
+        "arg2": "Dernièrement ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 327,
+      "doc": "news_26_10-01-2003",
+      "variables": {
+        "arg1": "Un acte malveillant ?",
+        "arg2": "Les services d' EDF - GDF ont pu rétablir l' électricité dans l' immeuble peu avant 21 h."
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 328,
+      "doc": "news_26_10-01-2003",
+      "variables": {
+        "arg1": "Sur place vers 19 h 30 ,",
+        "arg2": "la situation critique poussait le maire Martial Bourquin à envisager une solution de relogement ."
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 329,
+      "doc": "news_20_21-01-2003",
+      "variables": {
+        "arg1": "Il donne le signalement de la voiture .",
+        "arg2": "Le véhicule en question est rapidement localisée et est immobilisée à hauteur de la succursale Peugeot ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 330,
+      "doc": "news_21_21-01-2003",
+      "variables": {
+        "arg1": "au don de la section des « Fourmis » après leur marché de Noël",
+        "arg2": "et à la vente de fleurs à l' occasion de la fête des Mères ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 331,
+      "doc": "news_18_21-01-2003",
+      "variables": {
+        "arg1": "Création d' un atelier « Arts plastiques » .",
+        "arg2": "Ils étaient nombreux les Brasiliens présents lors de la séance découverte « arts plastiques »"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 332,
+      "doc": "wik2_rechauffementClimatique_section7_2",
+      "variables": {
+        "arg1": "L'Union européenne reste le 3e pollueur mondial après la Chine et les États - Unis ,",
+        "arg2": "mais dispose d' atouts pour lutter contre le réchauffement ."
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 333,
+      "doc": "news_11_23-05-1999",
+      "variables": {
+        "arg1": "l' automobile a fini par percuter un arbre assez résistant",
+        "arg2": "pour immobiliser le véhicule ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 334,
+      "doc": "news_19_30-08-1999",
+      "variables": {
+        "arg1": "L' Effort Basket de Mirecourt participait ce dimanche au tournoi international de Soleuvre au Luxembourg",
+        "arg2": "où étaient présentées des équipes de haut niveau telle Utrecht"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 335,
+      "doc": "news_15_21-01-2003",
+      "variables": {
+        "arg1": "Elle fit alors la connaissance de son futur mari ,",
+        "arg2": "plombier-zingueur à Bar-le-Duc ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 336,
+      "doc": "wik1_01_02-04-2006",
+      "variables": {
+        "arg1": "Le Ban Amendment",
+        "arg2": "Après avoir adopté la Convention ,"
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 337,
+      "doc": "news_03_17-05-1999",
+      "variables": {
+        "arg1": "Gutenberg",
+        "arg2": "Cette exposition nous apprend"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 338,
+      "doc": "wik2_selectionNaturelle_selection",
+      "variables": {
+        "arg1": "La théorie de la sélection naturelle <*> repose sur trois principes :",
+        "arg2": "telle qu' elle a été initialement décrite par Charles Darwin ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 339,
+      "doc": "news_14_30-06-1999",
+      "variables": {
+        "arg1": "Le double événement était fêté comme il se doit et conjointement par les deux établissements ,",
+        "arg2": "mercredi 23 juin ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 340,
+      "doc": "wik1_07_02-04-2006",
+      "variables": {
+        "arg1": "Plus particulièrement , cela signifie",
+        "arg2": "que les mafiosi n' impliquent pas la police ou tout autre corps gouvernemental"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 341,
+      "doc": "wik1_16_02-04-2006",
+      "variables": {
+        "arg1": "Ceci s ' applique aussi bien à l ' émergence de la vie sur terre ,",
+        "arg2": "il y a 3 à 4 milliards d ' années ,"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 342,
+      "doc": "wik1_25_02-04-2006",
+      "variables": {
+        "arg1": "Jean Paulhan , <*> est un écrivain , un critique et un éditeur français , directeur de la Nouvelle Revue française de 1925 à 1940 et de 1946 à 1968 .",
+        "arg2": "né à Nîmes le 2 décembre 1884 et mort à Paris le 9 octobre 1968 ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 343,
+      "doc": "news_32_28-01-2003",
+      "variables": {
+        "arg1": "Le voyage d' Arturo le corbeau",
+        "arg2": "Le conteur a fait jouer les enfants ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 344,
+      "doc": "news_01_17-05-1999",
+      "variables": {
+        "arg1": "Le maire a invité les membres du conseil",
+        "arg2": "Il a rappelé"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 345,
+      "doc": "news_20_21-01-2003",
+      "variables": {
+        "arg1": "Il donne le signalement de la voiture .",
+        "arg2": "Le véhicule en question est rapidement localisée et est immobilisée à hauteur de la succursale Peugeot ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 346,
+      "doc": "wik1_04_02-04-2006",
+      "variables": {
+        "arg1": "L' Inhibition de contact est le fait que de nombreuses cellules normales ou dérivant de cellules normales <*> se multiplient",
+        "arg2": "mises en culture ,"
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 347,
+      "doc": "wik2_attentats11sept_abstract",
+      "variables": {
+        "arg1": "Les attentats du 11 septembre 2001 <*> sont une série d' attentats - suicides commis par le réseau terroriste Al-Qaida dans le nord-est des États - Unis le mardi 11 septembre 2001 .",
+        "arg2": "( abréviations : 11/9 , 11-Septembre et , en anglais , 9/11 )"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 348,
+      "doc": "wik2_selectionNaturelle_selection",
+      "variables": {
+        "arg1": "La théorie de la sélection naturelle <*> repose sur trois principes :",
+        "arg2": "1 . le principe de variation"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 349,
+      "doc": "wik2_rechauffementClimatique_section1_3",
+      "variables": {
+        "arg1": "c' est l' époque où les navigateurs vikings découvrent et baptisent le Groenland",
+        "arg2": "et fondent des colonies à l' extrême sud de l' île ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 350,
+      "doc": "news_03_17-05-1999",
+      "variables": {
+        "arg1": "En 1953 ,",
+        "arg2": "les hauts fourneaux et fonderies de Cousances virent le jour ,"
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 351,
+      "doc": "news_10_23-05-1999",
+      "variables": {
+        "arg1": "Il semble qu' un malaise du conducteur , <*> soit à l' origine de cet accident peu classique .",
+        "arg2": "qui pourrait être d' origine épileptique ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 352,
+      "doc": "wik2_homoSapiens_origines",
+      "variables": {
+        "arg1": "- Origines .",
+        "arg2": "Les recherches en paléontologie humaine ou paléoanthropologie , ainsi que des études en génétique aboutissent à l' idée que la population originelle pour tous les humains se situait en Afrique ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 353,
+      "doc": "news_10_23-05-1999",
+      "variables": {
+        "arg1": "Il semble qu' un malaise du conducteur , <*> soit à l' origine de cet accident peu classique .",
+        "arg2": "Hier en début de soirée ,"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 354,
+      "doc": "wik2_selectionNaturelle_selection",
+      "variables": {
+        "arg1": "Principe 1 :",
+        "arg2": "Les individus diffèrent les uns des autres ."
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 355,
+      "doc": "wik2_rechauffementClimatique_section7_2",
+      "variables": {
+        "arg1": "L' UE ,",
+        "arg2": "pionnière dans la lutte contre les émissions de CO ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 356,
+      "doc": "news_32_28-01-2003",
+      "variables": {
+        "arg1": "Afin de raconter l' histoire",
+        "arg2": "qu' ils ont découverte ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 357,
+      "doc": "wik1_05_2_02-04-2006",
+      "variables": {
+        "arg1": "Il est le fils du roi Snéfrou et de la reine Hétep - Hérès Ire ,",
+        "arg2": "et est considéré par certains comme l' un des plus grands de l' histoire de l' Égypte antique ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 358,
+      "doc": "news_30_10-01-2003",
+      "variables": {
+        "arg1": "Aussitôt ,",
+        "arg2": "les gendarmes effectuaient une enquête de voisinage"
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 359,
+      "doc": "news_24_21-01-2003",
+      "variables": {
+        "arg1": "dont le prochain aura lieu à Faulx",
+        "arg2": "( date à définir )"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 360,
+      "doc": "news_22_25-02-2002",
+      "variables": {
+        "arg1": "« Nous avions bon espoir d' obtenir d' elle un prêt - relais",
+        "arg2": "pour acheter les matières premières nécessaires au redémarrage de l' activité ,"
+      },
+      "answer_type": "string",
+      "answer": "purpose"
+    },
+    {
+      "id": 361,
+      "doc": "wik1_22_02-04-2006",
+      "variables": {
+        "arg1": "et éventuellement à résoudre les problèmes découlant d' une souffrance psychique rencontrée par des individus et pouvant se manifester par des symptômes comme la dépression , l' anxiété ou éventuellement par des conduites",
+        "arg2": "( alimentaires TCA , conduites à risques , etc. ) ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 362,
+      "doc": "wik1_13_02-04-2006",
+      "variables": {
+        "arg1": "Biographie",
+        "arg2": "C' est aux Théâtres des Armées , <*> qu' Arthur Penn fait ses premières armes de metteur en scène ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 363,
+      "doc": "wik1_13_02-04-2006",
+      "variables": {
+        "arg1": "C' est aux Théâtres des Armées , <*> qu' Arthur Penn fait ses premières armes de metteur en scène ,",
+        "arg2": "activité qui l' amènera jusqu' à Broadway ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 364,
+      "doc": "wik2_rechauffementClimatique_section7_32",
+      "variables": {
+        "arg1": "Californie .",
+        "arg2": "Alors que la population californienne représente 12 % de la population américaine ,"
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 365,
+      "doc": "news_16_18-07-1999",
+      "variables": {
+        "arg1": "La batterie sans harmonie",
+        "arg2": "La musique n' adoucit pas toujours les mœurs ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 366,
+      "doc": "wik2_rechauffementClimatique_section1_3",
+      "variables": {
+        "arg1": "que les historiens appellent le « petit âge glaciaire »",
+        "arg2": "caractérisé par des hivers très rigoureux ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 367,
+      "doc": "wik1_23_02-04-2006",
+      "variables": {
+        "arg1": "L’ art en Europe .",
+        "arg2": "l' Art de l' Égypte antique , <*> est l' une des principales sources de l' art en Europe ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 368,
+      "doc": "wik2_rechauffementClimatique_section1_3",
+      "variables": {
+        "arg1": "Ainsi , <*> est apparu une période chaude aux xe et xie siècles",
+        "arg2": "De même , l' époque des Temps Modernes <*> connut une période de refroidissement"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 369,
+      "doc": "wik1_21_02-04-2006",
+      "variables": {
+        "arg1": "Non seulement , ce taux supérieur à la moyenne discrédite la suprématie",
+        "arg2": "dont il a fait preuve cette année dans ce Tour d' Italie ,"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 370,
+      "doc": "news_20_21-01-2003",
+      "variables": {
+        "arg1": "qu' une rixe est en train de dégénérer ,",
+        "arg2": "place Ferrer ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 371,
+      "doc": "wik2_selectionNaturelle_selection",
+      "variables": {
+        "arg1": "1 . le principe de variation",
+        "arg2": "Principe 1 :"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 372,
+      "doc": "news_35_03-11-2002",
+      "variables": {
+        "arg1": "la légende",
+        "arg2": "Pourtant , <*> la Rolls des appareils photo poursuit son chemin ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 373,
+      "doc": "wik1_26_02-04-2006",
+      "variables": {
+        "arg1": "Le clavier du piano est composé de 88 touches",
+        "arg2": "( sauf exception ) ."
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 374,
+      "doc": "wik1_16_02-04-2006",
+      "variables": {
+        "arg1": "qui a pour objet l ' étude des facteurs et processus ,",
+        "arg2": "pouvant mener à l ' apparition de la vie , d ' une maniére générale , et à son évolution ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 375,
+      "doc": "news_14_30-06-1999",
+      "variables": {
+        "arg1": "mercredi 23 juin ,",
+        "arg2": "à l' occasion de l' assemblée générale décentralisée des Offices de tourisme et Syndicats d' initiative du Doubs"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 376,
+      "doc": "news_28_21-01-2003",
+      "variables": {
+        "arg1": "Milutinovic devant le TPI .",
+        "arg2": "L' ancien président de Serbie Milan Milutinovic , <*> s' est rendu volontairement hier au Tribunal pénal international <*> pour l' ex - Yougoslavie de La Haye ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 377,
+      "doc": "wik2_rechauffementClimatique_section1_3",
+      "variables": {
+        "arg1": "De même , l' époque des Temps Modernes <*> connut une période de refroidissement",
+        "arg2": "que les historiens appellent le « petit âge glaciaire »"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 378,
+      "doc": "wik1_21_02-04-2006",
+      "variables": {
+        "arg1": "Le « Pirate » , <*> a été mis aux fers par les examinateurs de l' UCI .",
+        "arg2": "porteur du maillot rose ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 379,
+      "doc": "wik1_06_02-04-2006",
+      "variables": {
+        "arg1": "qu' il préludait à un repli sur soi de la Wallonie , à la rupture de la solidarité francophone avec Bruxelles",
+        "arg2": "ou encore que les signataires cherchaient à se positionner avantageusement en fonction des évolutions institutionnelles ."
+      },
+      "answer_type": "string",
+      "answer": "alternation"
+    },
+    {
+      "id": 380,
+      "doc": "wik1_02_02-04-2006",
+      "variables": {
+        "arg1": "Franco Sbarro",
+        "arg2": "Francesco Zefferino Sbarro , <*> est né le 27 février 1939 , dans les Pouilles"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 381,
+      "doc": "wik1_11_02-04-2006",
+      "variables": {
+        "arg1": "( une chaîne d' îles et d' îlots",
+        "arg2": "qui s' étend le long de la côte est des États - Unis d' Amérique , de la Caroline du Nord à la Floride ) ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 382,
+      "doc": "wik1_02_02-04-2006",
+      "variables": {
+        "arg1": "Francesco Zefferino Sbarro , <*> est né le 27 février 1939 , dans les Pouilles",
+        "arg2": "plus connu sous le nom de Franco Sbarro ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 383,
+      "doc": "wik1_25_02-04-2006",
+      "variables": {
+        "arg1": "Jean Paulhan",
+        "arg2": "Jean Paulhan , <*> est un écrivain , un critique et un éditeur français , directeur de la Nouvelle Revue française de 1925 à 1940 et de 1946 à 1968 ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 384,
+      "doc": "news_27_21-01-2003",
+      "variables": {
+        "arg1": "La France a dénoncé hier des violations des droits de l' Homme dans l' ouest de la Côte d' Ivoire ,",
+        "arg2": "tandis que les acteurs de la crise ivoirienne ont entamé à Marcoussis , <*> la deuxième phase de leurs négociations ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 385,
+      "doc": "news_26_10-01-2003",
+      "variables": {
+        "arg1": "Pour le plus grand soulagement des locataires",
+        "arg2": "qui ont pu regagner leurs logements ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 386,
+      "doc": "wik2_rechauffementClimatique_section7_2",
+      "variables": {
+        "arg1": "L'Union européenne reste le 3e pollueur mondial après la Chine et les États - Unis ,",
+        "arg2": "mais dispose d' atouts pour lutter contre le réchauffement ."
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 387,
+      "doc": "news_05_17-05-1999",
+      "variables": {
+        "arg1": "M. Soyer a fait l' historique de l' école maternelle ,",
+        "arg2": "qui existe à Vignot depuis 1972 ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 388,
+      "doc": "news_30_10-01-2003",
+      "variables": {
+        "arg1": "Une jeune fille de 25 ans <*> était signalée disparue .",
+        "arg2": "hébergée chez des parents à Courcelles-lès-Montbéliard ,"
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 389,
+      "doc": "news_28_21-01-2003",
+      "variables": {
+        "arg1": "Il devrait comparaître dans les prochains jours",
+        "arg2": "pour indiquer"
+      },
+      "answer_type": "string",
+      "answer": "purpose"
+    },
+    {
+      "id": 390,
+      "doc": "wik2_noamChomsky_abstract",
+      "variables": {
+        "arg1": "Noam Chomsky , <*> est un linguiste et philosophe américain .",
+        "arg2": "il est connu dans le domaine scientifique"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 391,
+      "doc": "news_28_21-01-2003",
+      "variables": {
+        "arg1": "pour indiquer",
+        "arg2": "s' il plaide coupable ou non coupable des faits qui lui sont reprochés ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 392,
+      "doc": "news_22_25-02-2002",
+      "variables": {
+        "arg1": "Que s' est - il passé ?",
+        "arg2": "M. Brandt est l' actionnaire majoritaire <*> d' EFI ."
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 393,
+      "doc": "news_03_17-05-1999",
+      "variables": {
+        "arg1": "puis Jean Baudesson , <*> installa à Marnaval <*> une forge",
+        "arg2": "qui connut son apogée au XIXe siècle ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 394,
+      "doc": "wik1_06_02-04-2006",
+      "variables": {
+        "arg1": "Les réactions des adversaires du Manifeste insistèrent sur le fait",
+        "arg2": "La récente Histoire de la littérature belge parue chez Fayard <*> estime"
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 395,
+      "doc": "wik1_16_02-04-2006",
+      "variables": {
+        "arg1": "qu ' à la possibilité de vie ailleurs dans le système solaire ,",
+        "arg2": "voire sur d ' éventuelles planètes extrasolaires ou autre ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 396,
+      "doc": "news_08_23-05-1999",
+      "variables": {
+        "arg1": "La première exposition avicole de Belfort date de 1922 .",
+        "arg2": "Pour être précis ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 397,
+      "doc": "news_09_23-05-1999",
+      "variables": {
+        "arg1": "Une heure et vingt minutes , c' est le temps qu' il aura fallu à Thierry Guerry ,",
+        "arg2": "pour pénétrer dans l' enceinte du complexe sportif de la commune , avec son semi-remorque ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 398,
+      "doc": "news_09_23-05-1999",
+      "variables": {
+        "arg1": "C' est au centimètre près que la cabine du véhicule a pu passer entre les deux poteaux du portail principal ,",
+        "arg2": "dont un « chapeau » sur l' un a du être enlevé"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 399,
+      "doc": "wik1_22_02-04-2006",
+      "variables": {
+        "arg1": "En médecine ,",
+        "arg2": "en psychologie ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 400,
+      "doc": "wik1_17_02-04-2006",
+      "variables": {
+        "arg1": "La hulotte est un rapace nocturne",
+        "arg2": "mais elle peut vivre le jour ."
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 401,
+      "doc": "wik1_05_1_02-04-2006",
+      "variables": {
+        "arg1": "Les Russ , <*> finirent par se convertir au christianisme",
+        "arg2": "pillards d' églises ,"
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 402,
+      "doc": "wik1_28_02-04-2006",
+      "variables": {
+        "arg1": "La bisexualité dans l' Histoire",
+        "arg2": "selon la plupart des sources historiques et littéraires ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 403,
+      "doc": "news_27_21-01-2003",
+      "variables": {
+        "arg1": "M. Rivasseau a réaffirmé <*> pour Paris",
+        "arg2": "l ' « exigence absolue du respect des droits de l' Homme »"
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 404,
+      "doc": "wik1_06_02-04-2006",
+      "variables": {
+        "arg1": "La récente Histoire de la littérature belge parue chez Fayard <*> estime",
+        "arg2": "( Paris , 2003 )"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 405,
+      "doc": "wik1_14_02-04-2006",
+      "variables": {
+        "arg1": "qui a acquis des caractères morphologiques , physiologiques ou même comportementaux nouveaux et héréditaires ,",
+        "arg2": "résultant d' une interaction prolongée , d' un contrôle voire d' une sélection délibérée de la part de l' être humain ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 406,
+      "doc": "news_34_10-06-2002",
+      "variables": {
+        "arg1": "un Nancéien tire plusieurs fois sur sa compagne",
+        "arg2": "qu' il blesse grièvement ."
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 407,
+      "doc": "news_25_16-10-2002",
+      "variables": {
+        "arg1": "Voyage au coeur d' un orage .",
+        "arg2": "L' oeil photographique de Fabrice Gillant tente de percer les mystères du ciel ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 408,
+      "doc": "wik1_27_02-04-2006",
+      "variables": {
+        "arg1": "Capharnaüm ou Kefar Nahum était une ville de l' ancienne Galilée ,",
+        "arg2": "sur la rive nord-ouest du lac de Tibériade au nord de la Palestine"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 409,
+      "doc": "news_09_23-05-1999",
+      "variables": {
+        "arg1": "Toi mon toit",
+        "arg2": "Une manoeuvre menée avec maestria ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 410,
+      "doc": "news_17_21-01-2003",
+      "variables": {
+        "arg1": "ce que soulignent M. Christian Langlois et M. Patrice Lanini ,",
+        "arg2": "Ces délégués remercient le maire"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 411,
+      "doc": "wik1_09_02-04-2006",
+      "variables": {
+        "arg1": "Le PIB est par définition une valeur comptable issue du compte de résultat",
+        "arg2": "( produits et coûts )"
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 412,
+      "doc": "wik1_23_02-04-2006",
+      "variables": {
+        "arg1": "Bien que celle-ci soit géographiquement située en Afrique ,",
+        "arg2": "l' Art de l' Égypte antique , <*> est l' une des principales sources de l' art en Europe ."
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 413,
+      "doc": "wik2_rechauffementClimatique_section4_1",
+      "variables": {
+        "arg1": "Ces modèles , <*> reposent sur les lois générales de la thermodynamique",
+        "arg2": "dits de circulation générale ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 414,
+      "doc": "wik1_05_2_02-04-2006",
+      "variables": {
+        "arg1": "dont la construction prit vingt années ,",
+        "arg2": "nécessitant 20 000 ouvriers ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 415,
+      "doc": "wik1_23_02-04-2006",
+      "variables": {
+        "arg1": "On les plaçait dans les tombes des rois ,",
+        "arg2": "puis progressivement dans celles de personnages de moindre importance sociale ,"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 416,
+      "doc": "news_03_17-05-1999",
+      "variables": {
+        "arg1": "A peu près au même moment que Gutenberg inventait l' imprimerie ,",
+        "arg2": "Gillet Bonnemire créait en 1450 la première forge à Saint - Dizier , à l' actuel emplacement du CHS ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 417,
+      "doc": "news_27_21-01-2003",
+      "variables": {
+        "arg1": "alors que des témoignages de réfugiés font état d' exactions , viols , et pillages par des éléments",
+        "arg2": "semble -t -il libériens ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 418,
+      "doc": "wik1_21_02-04-2006",
+      "variables": {
+        "arg1": "porteur du maillot rose ,",
+        "arg2": "vainqueur de deux étapes coup sur coup ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 419,
+      "doc": "news_22_25-02-2002",
+      "variables": {
+        "arg1": "La banque de l' entreprise , <*> possède pour sa part 22 % des actions .",
+        "arg2": "la Société Générale ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 420,
+      "doc": "news_10_23-05-1999",
+      "variables": {
+        "arg1": "la route reliant Danjoutin à Belfort était en partie neutralisée par la police ,",
+        "arg2": "le temps qu' un dépanneur fasse tomber l' automobile ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 421,
+      "doc": "news_30_10-01-2003",
+      "variables": {
+        "arg1": "L' alerte a été donnée mercredi soir vers 21 h 30 .",
+        "arg2": "Une jeune fille de 25 ans <*> était signalée disparue ."
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 422,
+      "doc": "wik2_homoSapiens_origines",
+      "variables": {
+        "arg1": "De plus ces caractères propres doivent être combinés à d' autres caractères",
+        "arg2": "comme un volume cérébral important :"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 423,
+      "doc": "news_26_10-01-2003",
+      "variables": {
+        "arg1": "Les services d' EDF - GDF ont pu rétablir l' électricité dans l' immeuble peu avant 21 h.",
+        "arg2": "Sur place vers 19 h 30 ,"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 424,
+      "doc": "news_13_18-06-1999",
+      "variables": {
+        "arg1": "Julien Georges ,",
+        "arg2": "maître de théâtre ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 425,
+      "doc": "news_01_17-05-1999",
+      "variables": {
+        "arg1": "Le maire a invité les membres du conseil",
+        "arg2": "à élaborer le programme d' amélioration de la voirie communale et de la sécurité routière pour l' année 1999 ."
+      },
+      "answer_type": "string",
+      "answer": "purpose"
+    },
+    {
+      "id": 426,
+      "doc": "news_16_18-07-1999",
+      "variables": {
+        "arg1": "Pour soutenir « le chef » ,",
+        "arg2": "comme l' explique un des démissionnaires ."
+      },
+      "answer_type": "string",
+      "answer": "comment"
+    },
+    {
+      "id": 427,
+      "doc": "wik1_28_02-04-2006",
+      "variables": {
+        "arg1": "Les gens dans la plupart des sociétés connues ont montré des variables degrés de bisexualité",
+        "arg2": "et ce sans que ce comportement ait été jugé anormal ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 428,
+      "doc": "news_03_17-05-1999",
+      "variables": {
+        "arg1": "puis Jean Baudesson , <*> installa à Marnaval <*> une forge",
+        "arg2": "autorisé par lettres patentes d' Henri IV ,"
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 429,
+      "doc": "wik1_23_02-04-2006",
+      "variables": {
+        "arg1": "Bien que celle-ci soit géographiquement située en Afrique ,",
+        "arg2": "l' Art de l' Égypte antique , <*> est l' une des principales sources de l' art en Europe ."
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 430,
+      "doc": "wik2_rechauffementClimatique_section4_1",
+      "variables": {
+        "arg1": "Ces modèles , <*> reposent sur les lois générales de la thermodynamique",
+        "arg2": "et simulent les déplacements et les températures des masses atmosphériques et océaniques ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 431,
+      "doc": "news_27_21-01-2003",
+      "variables": {
+        "arg1": "tandis que les acteurs de la crise ivoirienne ont entamé à Marcoussis , <*> la deuxième phase de leurs négociations .",
+        "arg2": "près de Paris ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 432,
+      "doc": "news_04_17-05-1999",
+      "variables": {
+        "arg1": "Ce sont finalement les élèves de la classe de CM2 de Jacky Hedin qui sont venus mettre la main au sac poubelle , dans la bonne humeur ,",
+        "arg2": "Une seconde opération se déroulait en parallèle sur le territoire de la commune , avec un groupe d' une dizaine de chevaliers de la gaule « La Barisienne » ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 433,
+      "doc": "wik1_05_1_02-04-2006",
+      "variables": {
+        "arg1": "Les Russ , <*> finirent par se convertir au christianisme",
+        "arg2": "pillards d' églises ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 434,
+      "doc": "news_12_18-06-1999",
+      "variables": {
+        "arg1": "L' éclipse du 11 août expliquée au centre Marie - Marvingt",
+        "arg2": "Une éclipse de soleil se produira le mercredi 11 août à la mi-journée"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 435,
+      "doc": "news_21_21-01-2003",
+      "variables": {
+        "arg1": "le bilan dressé par le vice-président , <*> fait apparaître un solde financier positif ,",
+        "arg2": "notamment grâce au succès rencontré par le loto ,"
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 436,
+      "doc": "news_13_18-06-1999",
+      "variables": {
+        "arg1": "Le Petit Prince au programme des élèves de Jules - Romains",
+        "arg2": "Le Petit Prince de Saint Exupéry est entré à l' école primaire Jules - Romains dans le cadre d' un projet école et des CATE , en novembre dernier ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 437,
+      "doc": "news_21_21-01-2003",
+      "variables": {
+        "arg1": "L' association paroissiale investit dans les locaux de la cure .",
+        "arg2": "Lors de l' assemblée générale de l' Association paroissiale d' éducation populaire ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 438,
+      "doc": "news_10_23-05-1999",
+      "variables": {
+        "arg1": "Il semble qu' un malaise du conducteur , <*> soit à l' origine de cet accident peu classique .",
+        "arg2": "S' apercevant"
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 439,
+      "doc": "news_03_17-05-1999",
+      "variables": {
+        "arg1": "Cette exposition nous apprend",
+        "arg2": "dès le XIIe siècle , à Dammarie-sur-Saulx , entre autres sites ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 440,
+      "doc": "news_22_25-02-2002",
+      "variables": {
+        "arg1": "Jet d' éponge",
+        "arg2": "Que s' est - il passé ?"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 441,
+      "doc": "wik2_rechauffementClimatique_section1_3",
+      "variables": {
+        "arg1": "c' est l' époque où les navigateurs vikings découvrent et baptisent le Groenland",
+        "arg2": "( littéralement « Pays vert » )"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 442,
+      "doc": "wik2_noamChomsky_abstract",
+      "variables": {
+        "arg1": "Chomsky a commencé à développer sa théorie de la grammaire générative et transformationnelle dans les années 1950",
+        "arg2": "en cherchant à dépasser aussi bien l' approche structuraliste , distributionnaliste que béhavioriste dans l' étude du langage naturel ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 443,
+      "doc": "wik1_26_02-04-2006",
+      "variables": {
+        "arg1": "Le clavier du piano est composé de 88 touches",
+        "arg2": "Les touches du piano sont généralement faites en épicéa ou en tilleul ,"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 444,
+      "doc": "news_01_17-05-1999",
+      "variables": {
+        "arg1": "Il a rappelé",
+        "arg2": "En délibérant ,"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 445,
+      "doc": "wik2_rechauffementClimatique_section7_2",
+      "variables": {
+        "arg1": "La Commission européenne va en 2007 - 2008 activer son observatoire de l' énergie ,",
+        "arg2": "restée embryonnaire ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 446,
+      "doc": "news_01_17-05-1999",
+      "variables": {
+        "arg1": "Amélioration de la sécurité",
+        "arg2": "Le maire a invité les membres du conseil"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 447,
+      "doc": "wik2_attentats11sept_abstract",
+      "variables": {
+        "arg1": "les tours jumelles du World Trade Center à Manhattan , <*> et le Pentagone ,",
+        "arg2": "siège du département de la Défense des États - Unis ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 448,
+      "doc": "news_31_10-01-2003",
+      "variables": {
+        "arg1": "Denise Jacquin s' est éteinte mercredi , à l' âge de 73 ans , à l' hôpital ,",
+        "arg2": "Denise Fachinetti est née à Mancenans au sein d' une famille de huit enfants ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 449,
+      "doc": "news_17_21-01-2003",
+      "variables": {
+        "arg1": "pour avoir pris ses responsabilités",
+        "arg2": "en aménageant le parking de la Tour du Champ ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 450,
+      "doc": "wik1_05_1_02-04-2006",
+      "variables": {
+        "arg1": "et dès lors , <*> obtinrent la soumission des indigènes slaves ,",
+        "arg2": "soutenus par l' Eglise orthodoxe ,"
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 451,
+      "doc": "news_08_23-05-1999",
+      "variables": {
+        "arg1": "Pour être précis ,",
+        "arg2": "c' est autour de 1950 que la société d' aviculture de Belfort a vraiment pris sa réelle importance ,"
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 452,
+      "doc": "news_35_03-11-2002",
+      "variables": {
+        "arg1": "La Photokina <*> a consacré la photo numérique .",
+        "arg2": "Pourtant , <*> la Rolls des appareils photo poursuit son chemin ,"
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 453,
+      "doc": "wik1_28_02-04-2006",
+      "variables": {
+        "arg1": "La bisexualité a une histoire universelle ,",
+        "arg2": "selon la plupart des sources historiques et littéraires ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 454,
+      "doc": "news_06_23-05-1999",
+      "variables": {
+        "arg1": "Une seule rencontre est au programme des licenciés du FC aujourd'hui .",
+        "arg2": "L' équipe B , chez les seniors , évoluera à partir de 15 h , sur la pelouse du terrain d' honneur , face à la formation de Laneuville ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 455,
+      "doc": "wik1_08_02-04-2006",
+      "variables": {
+        "arg1": "Panchromatique",
+        "arg2": "On appelle panchromatique <*> une réponse physico-chimique"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 456,
+      "doc": "wik1_17_02-04-2006",
+      "variables": {
+        "arg1": "Son cou très souple ,",
+        "arg2": "elle peut complètement tourner la tête vers l' arrière ,"
+      },
+      "answer_type": "string",
+      "answer": "causal"
+    },
+    {
+      "id": 457,
+      "doc": "news_12_18-06-1999",
+      "variables": {
+        "arg1": "Pour préparer la population à ce phénomène ,",
+        "arg2": "la ville propose actuellement au centre Marie - Marvingt et jusqu' au 23 juin , une exposition réalisée par le CNRS intitulée « Images du ciel » ."
+      },
+      "answer_type": "string",
+      "answer": "purpose"
+    },
+    {
+      "id": 458,
+      "doc": "news_01_17-05-1999",
+      "variables": {
+        "arg1": "Il a rappelé",
+        "arg2": "que plusieurs automobilistes ont quitté la chaussée à l' intersection de la RD192 et du chemin rural de la Vaux des Fossés"
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 459,
+      "doc": "wik1_21_02-04-2006",
+      "variables": {
+        "arg1": "Le scandale <*> a encore franchi un pas ,",
+        "arg2": "qui frappe le cyclisme"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 460,
+      "doc": "wik1_10_02-04-2006",
+      "variables": {
+        "arg1": "Les fouilles de la nécropole d’ I Ponti entreprises par G. Moracchini - Mazel , <*> se sont révélées intéressantes .",
+        "arg2": "située à l’ est du site archéologique de Mariana ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 461,
+      "doc": "news_03_17-05-1999",
+      "variables": {
+        "arg1": "Cette exposition nous apprend",
+        "arg2": "A peu près au même moment que Gutenberg inventait l' imprimerie ,"
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 462,
+      "doc": "news_11_23-05-1999",
+      "variables": {
+        "arg1": "Fort heureusement pour les deux occupants ,",
+        "arg2": "l' automobile a fini par percuter un arbre assez résistant"
+      },
+      "answer_type": "string",
+      "answer": "comment"
+    },
+    {
+      "id": 463,
+      "doc": "news_31_10-01-2003",
+      "variables": {
+        "arg1": "Le 19 juillet 1947 ,",
+        "arg2": "la défunte épouse René Jacquin ,"
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 464,
+      "doc": "wik1_05_2_02-04-2006",
+      "variables": {
+        "arg1": "Le règne de Khéops , en égyptien Khoufou , <*> est assez mal connu .",
+        "arg2": "abréviation de Khnoum - koue - foui"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 465,
+      "doc": "wik1_28_02-04-2006",
+      "variables": {
+        "arg1": "soit à un troisième genre",
+        "arg2": "( comme pour les Deux - Esprits nord-amérindiens ou les bacchás d' Asie centrale ) ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 466,
+      "doc": "wik1_13_02-04-2006",
+      "variables": {
+        "arg1": "Arthur Penn",
+        "arg2": "Arthur Penn est un réalisateur américain né le 27 septembre 1922 à Philadelphie ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 467,
+      "doc": "geop_3_space",
+      "variables": {
+        "arg1": "Les entreprises privées recevront 4,8 milliards de dollars entre 2001 et 2006",
+        "arg2": "pour réaliser des recherches sur ce thème ."
+      },
+      "answer_type": "string",
+      "answer": "purpose"
+    },
+    {
+      "id": 468,
+      "doc": "news_26_10-01-2003",
+      "variables": {
+        "arg1": "« Si cela continue ,",
+        "arg2": "confiait le premier magistrat ."
+      },
+      "answer_type": "string",
+      "answer": "attribution"
+    },
+    {
+      "id": 469,
+      "doc": "news_22_25-02-2002",
+      "variables": {
+        "arg1": "M. Brandt est l' actionnaire majoritaire <*> d' EFI .",
+        "arg2": "La banque de l' entreprise , <*> possède pour sa part 22 % des actions ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 470,
+      "doc": "news_18_21-01-2003",
+      "variables": {
+        "arg1": "Ils étaient nombreux les Brasiliens présents lors de la séance découverte « arts plastiques »",
+        "arg2": "pour venir écouter Sylvain Breda présenter son panel de compétences ."
+      },
+      "answer_type": "string",
+      "answer": "purpose"
+    },
+    {
+      "id": 471,
+      "doc": "news_35_03-11-2002",
+      "variables": {
+        "arg1": "La Photokina <*> a consacré la photo numérique .",
+        "arg2": "Marketing et effet de mode sont les clefs du succès des photoscopes ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 472,
+      "doc": "news_15_21-01-2003",
+      "variables": {
+        "arg1": "Suzanne Sequin s' est éteinte samedi au centre hospitalier de Bar-le-Duc ,",
+        "arg2": "où elle avait été admise il y a un mois ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 473,
+      "doc": "news_27_21-01-2003",
+      "variables": {
+        "arg1": "La France a dénoncé hier des violations des droits de l' Homme dans l' ouest de la Côte d' Ivoire ,",
+        "arg2": "tandis que les acteurs de la crise ivoirienne ont entamé à Marcoussis , <*> la deuxième phase de leurs négociations ."
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 474,
+      "doc": "news_16_18-07-1999",
+      "variables": {
+        "arg1": "Exemple à l' Harmonie municipale de Montbéliard ,",
+        "arg2": "Plus précisément , c' est la batterie <*> qui connaît des problèmes ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 475,
+      "doc": "news_23_04-03-2002",
+      "variables": {
+        "arg1": "Un groupe de travail , <*> s' est réuni une première fois",
+        "arg2": "constitué par le secrétaire d' Etat aux anciens combattants Jacques Floch ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 476,
+      "doc": "news_10_23-05-1999",
+      "variables": {
+        "arg1": "l' épouse , <*> a tenté de garder le véhicule en ligne droite",
+        "arg2": "en se saisissant du volant ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 477,
+      "doc": "news_12_18-06-1999",
+      "variables": {
+        "arg1": "Une éclipse de soleil se produira le mercredi 11 août à la mi-journée",
+        "arg2": "et sera visible partout en France ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 478,
+      "doc": "wik1_26_02-04-2006",
+      "variables": {
+        "arg1": "Les 52 touches blanches correspondent aux notes non altérées ,",
+        "arg2": "et les 36 touches noires aux notes altérées"
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 479,
+      "doc": "wik1_13_02-04-2006",
+      "variables": {
+        "arg1": "Arthur Penn est un réalisateur américain né le 27 septembre 1922 à Philadelphie .",
+        "arg2": "Biographie"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 480,
+      "doc": "wik1_26_02-04-2006",
+      "variables": {
+        "arg1": "Le clavier du piano est composé de 88 touches",
+        "arg2": "( sauf exception ) ."
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 481,
+      "doc": "wik1_26_02-04-2006",
+      "variables": {
+        "arg1": "Les touches du piano sont généralement faites en épicéa ou en tilleul ,",
+        "arg2": "bois choisis pour leur légèreté ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 482,
+      "doc": "wik1_09_02-04-2006",
+      "variables": {
+        "arg1": "celle de la dynamique du revenu",
+        "arg2": "et non de la richesse de l’ actif détenu ou des dettes contractées ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 483,
+      "doc": "news_17_21-01-2003",
+      "variables": {
+        "arg1": "« Verdun , ville de lumière ! »",
+        "arg2": "Expression <*> ne correspond pas à la réalité ,"
+      },
+      "answer_type": "string",
+      "answer": "contrast"
+    },
+    {
+      "id": 484,
+      "doc": "wik1_05_1_02-04-2006",
+      "variables": {
+        "arg1": "Fin de l' Empire khazar",
+        "arg2": "Les Russ , <*> finirent par se convertir au christianisme"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 485,
+      "doc": "news_20_21-01-2003",
+      "variables": {
+        "arg1": "place Ferrer ,",
+        "arg2": "à Montbéliard ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 486,
+      "doc": "wik2_rechauffementClimatique_section4_1",
+      "variables": {
+        "arg1": "par l' utilisation de modèles mathématiques traités informatiquement sur des superordinateurs .",
+        "arg2": "Ces modèles , <*> reposent sur les lois générales de la thermodynamique"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 487,
+      "doc": "wik1_09_02-04-2006",
+      "variables": {
+        "arg1": "son cloisonnement comptable <*> et sa limite à la sphère du compte de résultat qui ignore l' actif et le passif .",
+        "arg2": "( ce qui échappe à la comptabilité nationale échappe au PIB )"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 488,
+      "doc": "wik1_11_02-04-2006",
+      "variables": {
+        "arg1": "Amelia Island",
+        "arg2": "Amelia Island est une île ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 489,
+      "doc": "news_07_23-05-1999",
+      "variables": {
+        "arg1": "Nous apprenons avec beaucoup de tristesse , le décès de Guy Hosneld , <*> à l' âge de 44 ans .",
+        "arg2": "suite à une longue et douloureuse maladie ,"
+      },
+      "answer_type": "string",
+      "answer": "explanation"
+    },
+    {
+      "id": 490,
+      "doc": "news_20_21-01-2003",
+      "variables": {
+        "arg1": "Il donne le signalement de la voiture .",
+        "arg2": "Le véhicule en question est rapidement localisée et est immobilisée à hauteur de la succursale Peugeot ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 491,
+      "doc": "news_15_21-01-2003",
+      "variables": {
+        "arg1": "Atteinte depuis peu d' une grave maladie ,",
+        "arg2": "Suzanne Sequin s' est éteinte samedi au centre hospitalier de Bar-le-Duc ,"
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 492,
+      "doc": "news_17_21-01-2003",
+      "variables": {
+        "arg1": "« Verdun , ville de lumière ! »",
+        "arg2": "parue dans la revue n° 33 « Verdun la vie »"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 493,
+      "doc": "news_32_28-01-2003",
+      "variables": {
+        "arg1": "les élèves de l' écoPlus simplement ,le maternelle ont assisté à un spectacle intitulé « Arturo aux quatre coins du monde » .",
+        "arg2": "les petits et moyens de la classe de Chantal Hetzel , <*> ont rédigé ce texte eux-mêmes ."
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 494,
+      "doc": "news_01_17-05-1999",
+      "variables": {
+        "arg1": "l' assemblée a accepté la proposition du maire",
+        "arg2": "et l' a chargé de faire établir par les services de la DDE un dossier de demande de subvention dans le cadre de la répartition des amendes de police 1999 ."
+      },
+      "answer_type": "string",
+      "answer": "conjunction"
+    },
+    {
+      "id": 495,
+      "doc": "news_15_21-01-2003",
+      "variables": {
+        "arg1": "Suzanne Sequin s' est éteinte samedi au centre hospitalier de Bar-le-Duc ,",
+        "arg2": "Elle allait avoir aujourd'hui 79 ans ."
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 496,
+      "doc": "geop_3_effort",
+      "variables": {
+        "arg1": "Un effort de R&D sur la militarisation de l’ espace .",
+        "arg2": "En ce qui concerne les programmes spatiaux hors MD ,"
+      },
+      "answer_type": "string",
+      "answer": "comment"
+    },
+    {
+      "id": 497,
+      "doc": "wik1_02_02-04-2006",
+      "variables": {
+        "arg1": "Francesco Zefferino Sbarro , <*> est né le 27 février 1939 , dans les Pouilles",
+        "arg2": "le jeune italien va très vite s' intéresser à tout ce qui touche à la mécanique ."
+      },
+      "answer_type": "string",
+      "answer": "temporal"
+    },
+    {
+      "id": 498,
+      "doc": "wik1_19_02-04-2006",
+      "variables": {
+        "arg1": "Tamerlan effectue des raids en Iran .",
+        "arg2": "Un des chef locaux commit la maladresse sinon la folie de retenir les diplomates envoyés par Tamerlan ."
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    },
+    {
+      "id": 499,
+      "doc": "wik1_05_1_02-04-2006",
+      "variables": {
+        "arg1": "et dès lors , <*> obtinrent la soumission des indigènes slaves ,",
+        "arg2": "leurs anciennes victimes ,"
+      },
+      "answer_type": "string",
+      "answer": "elaboration"
+    },
+    {
+      "id": 500,
+      "doc": "news_29_21-01-2003",
+      "variables": {
+        "arg1": "« Près de trente ans après le combat mené par Françoise Giroud ,",
+        "arg2": "il est paradoxal de devoir tirer la sonnette d' alarme » ,"
+      },
+      "answer_type": "string",
+      "answer": "frame"
+    }
+  ]
+}

@@ -1,0 +1,3391 @@
+{
+  "task": "entity_count",
+  "lang": "turkish",
+  "example_prompt": "How many times is the {entity} mentioned in the text?",
+  "instances": [
+    {
+      "id": 1,
+      "doc": "20580000",
+      "variables": {
+        "entity": "3 Kasım seçimlerinin"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 2,
+      "doc": "21040000",
+      "variables": {
+        "entity": "Demiray"
+      },
+      "answer_type": "string",
+      "answer": "18"
+    },
+    {
+      "id": 3,
+      "doc": "00032161",
+      "variables": {
+        "entity": "büyük ablam"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 4,
+      "doc": "00044121",
+      "variables": {
+        "entity": "tanrının"
+      },
+      "answer_type": "string",
+      "answer": "16"
+    },
+    {
+      "id": 5,
+      "doc": "00058111",
+      "variables": {
+        "entity": "kadavranın cinsiyetinin"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 6,
+      "doc": "22280000",
+      "variables": {
+        "entity": "üniversite"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 7,
+      "doc": "00044121",
+      "variables": {
+        "entity": "gamma"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 8,
+      "doc": "20270000",
+      "variables": {
+        "entity": "Vali Çakır"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 9,
+      "doc": "21040000",
+      "variables": {
+        "entity": "IMF"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 10,
+      "doc": "00105133",
+      "variables": {
+        "entity": "gerilimim"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 11,
+      "doc": "22280000",
+      "variables": {
+        "entity": "Cem Uzan"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 12,
+      "doc": "00111211",
+      "variables": {
+        "entity": "elinde ki teknik raporu"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 13,
+      "doc": "00111211",
+      "variables": {
+        "entity": "Amerikalı şirket aleyhine bir dava"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 14,
+      "doc": "21040000",
+      "variables": {
+        "entity": "sır kavramı"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 15,
+      "doc": "00142211",
+      "variables": {
+        "entity": "ön mezeler"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 16,
+      "doc": "20270000",
+      "variables": {
+        "entity": "Amerikan otomotiv endüstrisinin buluşu"
+      },
+      "answer_type": "string",
+      "answer": "19"
+    },
+    {
+      "id": 17,
+      "doc": "20210000",
+      "variables": {
+        "entity": "KANAL D'nin ilgiyle izlenen 'Koltuk' isimli yarışma programı"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 18,
+      "doc": "00095233",
+      "variables": {
+        "entity": "duyguları"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 19,
+      "doc": "00016112",
+      "variables": {
+        "entity": "Birincisi"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 20,
+      "doc": "21040000",
+      "variables": {
+        "entity": "fon"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 21,
+      "doc": "20580000",
+      "variables": {
+        "entity": "Ankara'da , İstanbul'da , deniz kenarı veya kimi tepelerde oturup DYP'ye icazetle başkan olma devrinin"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 22,
+      "doc": "20710000",
+      "variables": {
+        "entity": "özel bir televizyonun"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 23,
+      "doc": "22280000",
+      "variables": {
+        "entity": "güvenlik , savunma amaçlı hibe ve yardımlara ilişkin uygulama boşluğu"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 24,
+      "doc": "21040000",
+      "variables": {
+        "entity": "gerçek konut projelerine"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 25,
+      "doc": "21040000",
+      "variables": {
+        "entity": "hisse senetlerinin"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 26,
+      "doc": "00016112",
+      "variables": {
+        "entity": "materyalizm"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 27,
+      "doc": "20270000",
+      "variables": {
+        "entity": "kadın"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 28,
+      "doc": "00016112",
+      "variables": {
+        "entity": "meta ekonomisinin"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 29,
+      "doc": "00058111",
+      "variables": {
+        "entity": "cılız ve uyuşuk ses li doktor"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 30,
+      "doc": "21040000",
+      "variables": {
+        "entity": "birçok özelliklerinin"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 31,
+      "doc": "20210000",
+      "variables": {
+        "entity": "geçen yıl İstanbul'a gelerek tanıtımını yaptığı Yapı Kredi Sanat Festivali 2002"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 32,
+      "doc": "22080000",
+      "variables": {
+        "entity": "Devlet eski Bakanı Derviş"
+      },
+      "answer_type": "string",
+      "answer": "18"
+    },
+    {
+      "id": 33,
+      "doc": "00016112",
+      "variables": {
+        "entity": "İkincisi"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 34,
+      "doc": "00058111",
+      "variables": {
+        "entity": "morg"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 35,
+      "doc": "21040000",
+      "variables": {
+        "entity": "2002 için hedefler"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 36,
+      "doc": "20200000",
+      "variables": {
+        "entity": "alışveriş bilimini"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 37,
+      "doc": "20270000",
+      "variables": {
+        "entity": "Çiftler"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 38,
+      "doc": "22280000",
+      "variables": {
+        "entity": "Olası Irak operasyonunda"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 39,
+      "doc": "20270000",
+      "variables": {
+        "entity": "İLKER İnanoğlu"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 40,
+      "doc": "00044121",
+      "variables": {
+        "entity": "insanın algıla yıcı organı"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 41,
+      "doc": "00044121",
+      "variables": {
+        "entity": "düşünce"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 42,
+      "doc": "20200000",
+      "variables": {
+        "entity": "Ermeniler"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 43,
+      "doc": "22080000",
+      "variables": {
+        "entity": "ATO Başkanı Sinan Aygün"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 44,
+      "doc": "20210000",
+      "variables": {
+        "entity": "Hüseyin Çağlayan"
+      },
+      "answer_type": "string",
+      "answer": "19"
+    },
+    {
+      "id": 45,
+      "doc": "21040000",
+      "variables": {
+        "entity": "bir bono"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 46,
+      "doc": "00044121",
+      "variables": {
+        "entity": "otobüsün altında ezilen kişinin"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 47,
+      "doc": "00111211",
+      "variables": {
+        "entity": "bu tahkikatın"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 48,
+      "doc": "00142211",
+      "variables": {
+        "entity": "Beyaz peynir"
+      },
+      "answer_type": "string",
+      "answer": "20"
+    },
+    {
+      "id": 49,
+      "doc": "00044121",
+      "variables": {
+        "entity": "Parçacıklar"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 50,
+      "doc": "20210000",
+      "variables": {
+        "entity": "Oktay Sarıtop"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 51,
+      "doc": "20270000",
+      "variables": {
+        "entity": "SİBEL Can"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 52,
+      "doc": "20200000",
+      "variables": {
+        "entity": "TC"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 53,
+      "doc": "21040000",
+      "variables": {
+        "entity": "piyasaların"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 54,
+      "doc": "00105133",
+      "variables": {
+        "entity": "kızdığım konu"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 55,
+      "doc": "20580000",
+      "variables": {
+        "entity": "Fikret Bila Bey'i"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 56,
+      "doc": "00032161",
+      "variables": {
+        "entity": "Ramiz ile Katan a"
+      },
+      "answer_type": "string",
+      "answer": "19"
+    },
+    {
+      "id": 57,
+      "doc": "20270000",
+      "variables": {
+        "entity": "ŞAHMERAN Efsanesi'nin anlatıldığı Melek ad lı dizinin başrolünde oynayan Begüm Kütük"
+      },
+      "answer_type": "string",
+      "answer": "20"
+    },
+    {
+      "id": 58,
+      "doc": "22080000",
+      "variables": {
+        "entity": "yüksek ve istikrarlı büyüme"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 59,
+      "doc": "21040000",
+      "variables": {
+        "entity": "tedbir"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 60,
+      "doc": "20580000",
+      "variables": {
+        "entity": "Memura"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 61,
+      "doc": "00142211",
+      "variables": {
+        "entity": "başvuran ları"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 62,
+      "doc": "00044121",
+      "variables": {
+        "entity": "otobüsün çarptığına ilişkin ses , görüntü , sertlik hislerini"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 63,
+      "doc": "20580000",
+      "variables": {
+        "entity": "gelecek başkan"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 64,
+      "doc": "20200000",
+      "variables": {
+        "entity": "YTP Genel Başkanı İsmail Cem"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 65,
+      "doc": "20200000",
+      "variables": {
+        "entity": "Türk"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 66,
+      "doc": "20270000",
+      "variables": {
+        "entity": "bu tür araçların sahiplerini"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 67,
+      "doc": "00142211",
+      "variables": {
+        "entity": "Dil üzerinde ki küçük pürtüklerin"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 68,
+      "doc": "20710000",
+      "variables": {
+        "entity": "bir aile"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 69,
+      "doc": "00032161",
+      "variables": {
+        "entity": "Okula"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 70,
+      "doc": "00032161",
+      "variables": {
+        "entity": "Sınıfta"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 71,
+      "doc": "20200000",
+      "variables": {
+        "entity": "Devletin ırkı olmaz"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 72,
+      "doc": "00053223",
+      "variables": {
+        "entity": "Zübeyde'nin yeğenlerini"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 73,
+      "doc": "00016112",
+      "variables": {
+        "entity": "20. yüzyıl"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 74,
+      "doc": "20270000",
+      "variables": {
+        "entity": "kız"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 75,
+      "doc": "00084111",
+      "variables": {
+        "entity": "donunun"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 76,
+      "doc": "21040000",
+      "variables": {
+        "entity": "2003"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 77,
+      "doc": "00111211",
+      "variables": {
+        "entity": "Ölen pilotun"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 78,
+      "doc": "00095233",
+      "variables": {
+        "entity": "Eroin bağımlılarıyla"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 79,
+      "doc": "22080000",
+      "variables": {
+        "entity": "mükelleflerin"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 80,
+      "doc": "00053223",
+      "variables": {
+        "entity": "arka tarafa"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 81,
+      "doc": "20270000",
+      "variables": {
+        "entity": "Verdiğim numaraların"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 82,
+      "doc": "20710000",
+      "variables": {
+        "entity": "Düşen Konya uçağında kabin görevlisi olan Deniz Karasu'nun"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 83,
+      "doc": "20200000",
+      "variables": {
+        "entity": "alışveriş"
+      },
+      "answer_type": "string",
+      "answer": "16"
+    },
+    {
+      "id": 84,
+      "doc": "21040000",
+      "variables": {
+        "entity": "Çukurova Grubu şirketlerinden Digital Platform İletişim Hizmetleri A .Ş .'ye"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 85,
+      "doc": "22280000",
+      "variables": {
+        "entity": "Başbakan Gül'ün eşi Hayrünnisa Gül'ün"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 86,
+      "doc": "20580000",
+      "variables": {
+        "entity": "AB"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 87,
+      "doc": "00016112",
+      "variables": {
+        "entity": "vakit"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 88,
+      "doc": "00166271",
+      "variables": {
+        "entity": "Babam"
+      },
+      "answer_type": "string",
+      "answer": "20"
+    },
+    {
+      "id": 89,
+      "doc": "00016112",
+      "variables": {
+        "entity": "tüm insanlığa"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 90,
+      "doc": "00111211",
+      "variables": {
+        "entity": "Milli Savunma Bakanlığı'na"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 91,
+      "doc": "22280000",
+      "variables": {
+        "entity": "Başbakan Gül'ün"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 92,
+      "doc": "00084111",
+      "variables": {
+        "entity": "benim pantolonda"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 93,
+      "doc": "00084111",
+      "variables": {
+        "entity": "annesinin"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 94,
+      "doc": "20270000",
+      "variables": {
+        "entity": "eşi Sulhi Aksüt'ün hazırlattığı , Bir okul yaptır , bin hapishane kapat afişini"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 95,
+      "doc": "00002213",
+      "variables": {
+        "entity": "Elim ayağım"
+      },
+      "answer_type": "string",
+      "answer": "20"
+    },
+    {
+      "id": 96,
+      "doc": "00002213",
+      "variables": {
+        "entity": "Ömür Uzatma Kıraathanesi'nin kapısı"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 97,
+      "doc": "20710000",
+      "variables": {
+        "entity": "Diyarbakır'da yaşamını yitiren Aktan Tuncer'in"
+      },
+      "answer_type": "string",
+      "answer": "20"
+    },
+    {
+      "id": 98,
+      "doc": "00032161",
+      "variables": {
+        "entity": "Babası"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 99,
+      "doc": "00038121",
+      "variables": {
+        "entity": "Duvar"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 100,
+      "doc": "20710000",
+      "variables": {
+        "entity": "Başbakan Gül'ün"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 101,
+      "doc": "00058111",
+      "variables": {
+        "entity": "duygusal ve cinsel ilişkileri"
+      },
+      "answer_type": "string",
+      "answer": "19"
+    },
+    {
+      "id": 102,
+      "doc": "00016112",
+      "variables": {
+        "entity": "sona eren bin yılın"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 103,
+      "doc": "22280000",
+      "variables": {
+        "entity": "Ankara'ya"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 104,
+      "doc": "21040000",
+      "variables": {
+        "entity": "Siyasi Partiler"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 105,
+      "doc": "20270000",
+      "variables": {
+        "entity": "kaba örgü kazaklar"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 106,
+      "doc": "20200000",
+      "variables": {
+        "entity": "perakende"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 107,
+      "doc": "00038121",
+      "variables": {
+        "entity": "dil"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 108,
+      "doc": "22280000",
+      "variables": {
+        "entity": "yemeğe"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 109,
+      "doc": "20200000",
+      "variables": {
+        "entity": "antroplojinin"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 110,
+      "doc": "20210000",
+      "variables": {
+        "entity": "Müşteriler"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 111,
+      "doc": "20200000",
+      "variables": {
+        "entity": "kamulaştırmada"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 112,
+      "doc": "00002213",
+      "variables": {
+        "entity": "saçım"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 113,
+      "doc": "00095233",
+      "variables": {
+        "entity": "bir anne"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 114,
+      "doc": "00002213",
+      "variables": {
+        "entity": "İçki"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 115,
+      "doc": "00032161",
+      "variables": {
+        "entity": "Kapıyı"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 116,
+      "doc": "22280000",
+      "variables": {
+        "entity": "20 milyar dolar lık paketle"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 117,
+      "doc": "00105133",
+      "variables": {
+        "entity": "bir yük"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 118,
+      "doc": "20710000",
+      "variables": {
+        "entity": "İstanbul'da"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 119,
+      "doc": "22080000",
+      "variables": {
+        "entity": "Memur maaş zammında"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 120,
+      "doc": "20210000",
+      "variables": {
+        "entity": "Türkiye'ye"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 121,
+      "doc": "22280000",
+      "variables": {
+        "entity": "ABD'nin"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 122,
+      "doc": "20580000",
+      "variables": {
+        "entity": "Hükümet"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 123,
+      "doc": "00032161",
+      "variables": {
+        "entity": "bu işi yapan"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 124,
+      "doc": "00038121",
+      "variables": {
+        "entity": "Ünlü Fransız mimar Le Corbusier'nin"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 125,
+      "doc": "00002213",
+      "variables": {
+        "entity": "yarım şişe viski"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 126,
+      "doc": "20200000",
+      "variables": {
+        "entity": "TKP'nin"
+      },
+      "answer_type": "string",
+      "answer": "17"
+    },
+    {
+      "id": 127,
+      "doc": "00142211",
+      "variables": {
+        "entity": "domates"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 128,
+      "doc": "00111211",
+      "variables": {
+        "entity": "askeri savcılık"
+      },
+      "answer_type": "string",
+      "answer": "16"
+    },
+    {
+      "id": 129,
+      "doc": "22080000",
+      "variables": {
+        "entity": "vergi"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 130,
+      "doc": "20270000",
+      "variables": {
+        "entity": "Yüksek topuğun"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 131,
+      "doc": "21040000",
+      "variables": {
+        "entity": "süreç"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 132,
+      "doc": "00038121",
+      "variables": {
+        "entity": "Hayatın"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 133,
+      "doc": "00038121",
+      "variables": {
+        "entity": "bir aile"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 134,
+      "doc": "00095233",
+      "variables": {
+        "entity": "mutluluk"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 135,
+      "doc": "20210000",
+      "variables": {
+        "entity": "Önünü göremeyen yatırımcı"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 136,
+      "doc": "20200000",
+      "variables": {
+        "entity": "gençlerle"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 137,
+      "doc": "00084111",
+      "variables": {
+        "entity": "Recep'le Ömer'in"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 138,
+      "doc": "20210000",
+      "variables": {
+        "entity": "SON dönemde hakkında çıkan aşk dedikoduları yüzünden gergin anlar yaşayan Çağla Şıkel"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 139,
+      "doc": "00105133",
+      "variables": {
+        "entity": "Celal"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 140,
+      "doc": "20270000",
+      "variables": {
+        "entity": "senaryosunu yazıp başrolünü oynadığı 'Kurşun Asker' ad lı dizinin"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 141,
+      "doc": "00044121",
+      "variables": {
+        "entity": "gerçek parçacıklar"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 142,
+      "doc": "22080000",
+      "variables": {
+        "entity": "vergi barışı projesi"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 143,
+      "doc": "20210000",
+      "variables": {
+        "entity": "erkeklerin"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 144,
+      "doc": "00044121",
+      "variables": {
+        "entity": "İnsanın"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 145,
+      "doc": "00053223",
+      "variables": {
+        "entity": "bütün erkeklerin"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 146,
+      "doc": "00053223",
+      "variables": {
+        "entity": "püsküllü uçlarını kesip attığım taze soğan"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 147,
+      "doc": "00058111",
+      "variables": {
+        "entity": "üç gün önce görüştüğünüz sekreter adaylarının"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 148,
+      "doc": "20710000",
+      "variables": {
+        "entity": "Rallici Behzat Külür"
+      },
+      "answer_type": "string",
+      "answer": "19"
+    },
+    {
+      "id": 149,
+      "doc": "00166271",
+      "variables": {
+        "entity": "gazete"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 150,
+      "doc": "20710000",
+      "variables": {
+        "entity": "Elvan Ayran'ın dayısı"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 151,
+      "doc": "20580000",
+      "variables": {
+        "entity": "Komutanlar"
+      },
+      "answer_type": "string",
+      "answer": "16"
+    },
+    {
+      "id": 152,
+      "doc": "20210000",
+      "variables": {
+        "entity": "Irak"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 153,
+      "doc": "00038121",
+      "variables": {
+        "entity": "barınak"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 154,
+      "doc": "22080000",
+      "variables": {
+        "entity": "gecikme"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 155,
+      "doc": "00053223",
+      "variables": {
+        "entity": "babama"
+      },
+      "answer_type": "string",
+      "answer": "17"
+    },
+    {
+      "id": 156,
+      "doc": "20270000",
+      "variables": {
+        "entity": "Yapımcıyla"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 157,
+      "doc": "21040000",
+      "variables": {
+        "entity": "1 .1 cent seviyesinden"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 158,
+      "doc": "22280000",
+      "variables": {
+        "entity": "Fadıl Akgündüz'ün"
+      },
+      "answer_type": "string",
+      "answer": "17"
+    },
+    {
+      "id": 159,
+      "doc": "00095233",
+      "variables": {
+        "entity": "Yasal Valium , Diazem gibi haplardan eroine geçen ler arasında beni en çok şaşkınlığa düşüren kişi"
+      },
+      "answer_type": "string",
+      "answer": "20"
+    },
+    {
+      "id": 160,
+      "doc": "00032161",
+      "variables": {
+        "entity": "cezan"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 161,
+      "doc": "00058111",
+      "variables": {
+        "entity": "Bir sürü kadınla"
+      },
+      "answer_type": "string",
+      "answer": "16"
+    },
+    {
+      "id": 162,
+      "doc": "20210000",
+      "variables": {
+        "entity": "burada ki evlerden birinin kömürlüğünde bulunan dört mezar"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 163,
+      "doc": "20710000",
+      "variables": {
+        "entity": "Büyükşehir Belediyesi Su ve Kanalizasyon İdaresi ( DİSKİ ) Başkanlığı'nın su basan pompalarının"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 164,
+      "doc": "00095233",
+      "variables": {
+        "entity": "baba ilgisi"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 165,
+      "doc": "00016112",
+      "variables": {
+        "entity": "teori"
+      },
+      "answer_type": "string",
+      "answer": "16"
+    },
+    {
+      "id": 166,
+      "doc": "20270000",
+      "variables": {
+        "entity": "okul yaptırma"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 167,
+      "doc": "00105133",
+      "variables": {
+        "entity": "günahı"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 168,
+      "doc": "00038121",
+      "variables": {
+        "entity": "değerli , uzun yazısının"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 169,
+      "doc": "00084111",
+      "variables": {
+        "entity": "bağlamasını"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 170,
+      "doc": "00142211",
+      "variables": {
+        "entity": "Leblebi"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 171,
+      "doc": "22280000",
+      "variables": {
+        "entity": "AB"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 172,
+      "doc": "00044121",
+      "variables": {
+        "entity": "sözünü ettiğiniz şey"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 173,
+      "doc": "00058111",
+      "variables": {
+        "entity": "genç bir kız"
+      },
+      "answer_type": "string",
+      "answer": "20"
+    },
+    {
+      "id": 174,
+      "doc": "00044121",
+      "variables": {
+        "entity": "bu ölçüt"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 175,
+      "doc": "20710000",
+      "variables": {
+        "entity": "THY"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 176,
+      "doc": "20210000",
+      "variables": {
+        "entity": "KADEK'in"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 177,
+      "doc": "00044121",
+      "variables": {
+        "entity": "soyut bir kavram olan mutlak doğruya yaklaştırmalar dizisi"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 178,
+      "doc": "00142211",
+      "variables": {
+        "entity": "beyazı"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 179,
+      "doc": "00095233",
+      "variables": {
+        "entity": "Ailesinden kendisine büyük bir miras kalmış olan karısını"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 180,
+      "doc": "20580000",
+      "variables": {
+        "entity": "Arınç'ın sözleri"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 181,
+      "doc": "20200000",
+      "variables": {
+        "entity": "AB'ye uyum süreci nedeniyle hazırlanan azınlık cemaatleri vakıflarının mal edinmelerini düzenleyen yönetmelik"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 182,
+      "doc": "22280000",
+      "variables": {
+        "entity": "kredi"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 183,
+      "doc": "20710000",
+      "variables": {
+        "entity": "pist"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 184,
+      "doc": "22080000",
+      "variables": {
+        "entity": "DemirDöküm"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 185,
+      "doc": "20210000",
+      "variables": {
+        "entity": "canı sıkılmış bir çocuğun"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 186,
+      "doc": "00044121",
+      "variables": {
+        "entity": "bugün bilim dünyasında en yaygın olarak kabul gören teori olan big bang"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 187,
+      "doc": "00044121",
+      "variables": {
+        "entity": "özdek"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 188,
+      "doc": "20270000",
+      "variables": {
+        "entity": "'BİNNAZ' ad lı şarkısıyla olay yaratan Ciguli"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 189,
+      "doc": "20580000",
+      "variables": {
+        "entity": "BDDK"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 190,
+      "doc": "00038121",
+      "variables": {
+        "entity": "çadır"
+      },
+      "answer_type": "string",
+      "answer": "16"
+    },
+    {
+      "id": 191,
+      "doc": "20200000",
+      "variables": {
+        "entity": "iş"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 192,
+      "doc": "00016112",
+      "variables": {
+        "entity": "Siyasal devrimlerin"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 193,
+      "doc": "00032161",
+      "variables": {
+        "entity": "beyin meyin"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 194,
+      "doc": "20200000",
+      "variables": {
+        "entity": "Feriköy Ermeni Kilisesi Vakfı Yönetim Kurulu üyesi ve Avukat Sebuh Aslagil"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 195,
+      "doc": "00038121",
+      "variables": {
+        "entity": "Sayın Tului Sönmez"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 196,
+      "doc": "00142211",
+      "variables": {
+        "entity": "İngilizler"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 197,
+      "doc": "21040000",
+      "variables": {
+        "entity": "Arçelik"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 198,
+      "doc": "20200000",
+      "variables": {
+        "entity": "tüm mülklerinin"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 199,
+      "doc": "20270000",
+      "variables": {
+        "entity": "babası Engincan Güre"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 200,
+      "doc": "20210000",
+      "variables": {
+        "entity": "Japonya"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 201,
+      "doc": "20270000",
+      "variables": {
+        "entity": "akşam"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 202,
+      "doc": "20200000",
+      "variables": {
+        "entity": "halk"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 203,
+      "doc": "22080000",
+      "variables": {
+        "entity": "Bakanlar Kurulu'na"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 204,
+      "doc": "00053223",
+      "variables": {
+        "entity": "oğlanların hepsini"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 205,
+      "doc": "00044121",
+      "variables": {
+        "entity": "bilim dünyasında"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 206,
+      "doc": "20200000",
+      "variables": {
+        "entity": "ÖDP"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 207,
+      "doc": "20200000",
+      "variables": {
+        "entity": "Çiller"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 208,
+      "doc": "00002213",
+      "variables": {
+        "entity": "Şakir"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 209,
+      "doc": "00105133",
+      "variables": {
+        "entity": "Sırf sana olan kızgınlığımı birine anlatmam"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 210,
+      "doc": "20200000",
+      "variables": {
+        "entity": "Dünyanın önde gelen perakende gurusu Paco Underhill"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 211,
+      "doc": "22280000",
+      "variables": {
+        "entity": "Siirt'te yapılacak seçimde"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 212,
+      "doc": "00142211",
+      "variables": {
+        "entity": "imam"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 213,
+      "doc": "00044121",
+      "variables": {
+        "entity": "kuantum"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 214,
+      "doc": "00166271",
+      "variables": {
+        "entity": "Ay dede"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 215,
+      "doc": "20580000",
+      "variables": {
+        "entity": "başkan adayı Ağar'a"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 216,
+      "doc": "00044121",
+      "variables": {
+        "entity": "George Berkeley"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 217,
+      "doc": "00032161",
+      "variables": {
+        "entity": "anamın suçu"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 218,
+      "doc": "00058111",
+      "variables": {
+        "entity": "kadavra"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 219,
+      "doc": "00016112",
+      "variables": {
+        "entity": "İkinci büyük teorik atılım dönemi"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 220,
+      "doc": "00038121",
+      "variables": {
+        "entity": "toplu konut"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 221,
+      "doc": "20200000",
+      "variables": {
+        "entity": "İnşaatta"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 222,
+      "doc": "00016112",
+      "variables": {
+        "entity": "soyutlama"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 223,
+      "doc": "20580000",
+      "variables": {
+        "entity": "Bu partiler arasında ki DYP'de"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 224,
+      "doc": "00142211",
+      "variables": {
+        "entity": "Dil"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 225,
+      "doc": "21040000",
+      "variables": {
+        "entity": "105 .6 trilyon liradan 319 .9 trilyon liraya yükseltildi"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 226,
+      "doc": "20580000",
+      "variables": {
+        "entity": "Sezer"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 227,
+      "doc": "00032161",
+      "variables": {
+        "entity": "sol gözün"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 228,
+      "doc": "20710000",
+      "variables": {
+        "entity": "Hostes abla"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 229,
+      "doc": "00084111",
+      "variables": {
+        "entity": "Ellerimi"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 230,
+      "doc": "00032161",
+      "variables": {
+        "entity": "anası"
+      },
+      "answer_type": "string",
+      "answer": "18"
+    },
+    {
+      "id": 231,
+      "doc": "00111211",
+      "variables": {
+        "entity": "Milli Savunma Bakanlığı'nda görevli bir kurmay albay"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 232,
+      "doc": "00038121",
+      "variables": {
+        "entity": "kuşun ki"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 233,
+      "doc": "00084111",
+      "variables": {
+        "entity": "kıyıya çekilmiş , ters döndürülmüş , birkaç yıldan beri denize indirilmeyen eski kayığın"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 234,
+      "doc": "22280000",
+      "variables": {
+        "entity": "YAŞ üyelerinin"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 235,
+      "doc": "20580000",
+      "variables": {
+        "entity": "CHP Genel Başkanı Deniz Baykal"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 236,
+      "doc": "00038121",
+      "variables": {
+        "entity": "insanın"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 237,
+      "doc": "22080000",
+      "variables": {
+        "entity": "Almanya'da faaliyet gösteren iki şirketi izlediklerini açıklayan DemirDöküm Genel Müdürü Melih Batılı"
+      },
+      "answer_type": "string",
+      "answer": "18"
+    },
+    {
+      "id": 238,
+      "doc": "00142211",
+      "variables": {
+        "entity": "İsveç Kra lı"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 239,
+      "doc": "00058111",
+      "variables": {
+        "entity": "göbek li geniş burun lu , kırmızı yüzlü olan ı"
+      },
+      "answer_type": "string",
+      "answer": "20"
+    },
+    {
+      "id": 240,
+      "doc": "20710000",
+      "variables": {
+        "entity": "Futbol Federasyonu eski Başkanı Kemal Ulusu'nun"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 241,
+      "doc": "20210000",
+      "variables": {
+        "entity": "Irak savaşının"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 242,
+      "doc": "00142211",
+      "variables": {
+        "entity": "Lübnan usulü tabbule"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 243,
+      "doc": "20270000",
+      "variables": {
+        "entity": "meslek"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 244,
+      "doc": "20270000",
+      "variables": {
+        "entity": "tarotçulardan ve falcılardan"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 245,
+      "doc": "00016112",
+      "variables": {
+        "entity": "din"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 246,
+      "doc": "00044121",
+      "variables": {
+        "entity": "dizgede"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 247,
+      "doc": "20270000",
+      "variables": {
+        "entity": "babası Engincan Güre adına Esenler'de yaptırdığı okulun"
+      },
+      "answer_type": "string",
+      "answer": "16"
+    },
+    {
+      "id": 248,
+      "doc": "00084111",
+      "variables": {
+        "entity": "yat kiralayıp gezen turistlerin"
+      },
+      "answer_type": "string",
+      "answer": "17"
+    },
+    {
+      "id": 249,
+      "doc": "00111211",
+      "variables": {
+        "entity": "takipsizlik kararı"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 250,
+      "doc": "20200000",
+      "variables": {
+        "entity": "seçim"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 251,
+      "doc": "00084111",
+      "variables": {
+        "entity": "kalabalık bir grubun"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 252,
+      "doc": "20200000",
+      "variables": {
+        "entity": "insan"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 253,
+      "doc": "21040000",
+      "variables": {
+        "entity": "Kredi kartlarında"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 254,
+      "doc": "20580000",
+      "variables": {
+        "entity": "Türkiye"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 255,
+      "doc": "00142211",
+      "variables": {
+        "entity": "tazesi"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 256,
+      "doc": "00166271",
+      "variables": {
+        "entity": "Niye bir tane yok ?"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 257,
+      "doc": "00105133",
+      "variables": {
+        "entity": "Ayla"
+      },
+      "answer_type": "string",
+      "answer": "19"
+    },
+    {
+      "id": 258,
+      "doc": "00166271",
+      "variables": {
+        "entity": "evimizin"
+      },
+      "answer_type": "string",
+      "answer": "19"
+    },
+    {
+      "id": 259,
+      "doc": "00038121",
+      "variables": {
+        "entity": "ailenin"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 260,
+      "doc": "21040000",
+      "variables": {
+        "entity": "siyasetin finansmanının"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 261,
+      "doc": "00095233",
+      "variables": {
+        "entity": "Katı , otoriter ve ilgisiz bir doktorla evli olan kadın"
+      },
+      "answer_type": "string",
+      "answer": "20"
+    },
+    {
+      "id": 262,
+      "doc": "00044121",
+      "variables": {
+        "entity": "tanrının istemi"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 263,
+      "doc": "00058111",
+      "variables": {
+        "entity": "Laboratuar"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 264,
+      "doc": "00038121",
+      "variables": {
+        "entity": "modernitenin"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 265,
+      "doc": "00002213",
+      "variables": {
+        "entity": "Yeşilden maviye dönüşen iri gözlerini"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 266,
+      "doc": "00058111",
+      "variables": {
+        "entity": "bir kadavraya"
+      },
+      "answer_type": "string",
+      "answer": "17"
+    },
+    {
+      "id": 267,
+      "doc": "22080000",
+      "variables": {
+        "entity": "kazan"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 268,
+      "doc": "00053223",
+      "variables": {
+        "entity": "harman yerlerinden kalkıp uçup gelen ve insanı hışır hışır kaşındıran yal tozlarını"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 269,
+      "doc": "20200000",
+      "variables": {
+        "entity": "Devlet"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 270,
+      "doc": "20210000",
+      "variables": {
+        "entity": "Birleşik Arap Emirlikleri Kralı'nın oğlu ve aynı zamanda hem Abu Dabi Bilgi Bakanı hem de Abu Dabi TV'nin sahibi Şeyh Abdullah Bin Zayed"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 271,
+      "doc": "20580000",
+      "variables": {
+        "entity": "Tansu Çiller için gözyaşı döken DYp 'li Biriçim Küçük'ün"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 272,
+      "doc": "00044121",
+      "variables": {
+        "entity": "Fizik"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 273,
+      "doc": "20210000",
+      "variables": {
+        "entity": "Konya'dan gelen habere"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 274,
+      "doc": "20200000",
+      "variables": {
+        "entity": "mülk edinme"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 275,
+      "doc": "20710000",
+      "variables": {
+        "entity": "Kazada hayatını kaybeden çiftlerden biri"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 276,
+      "doc": "20270000",
+      "variables": {
+        "entity": "Dünyanın üçüncü büyük otomobil üreticisi Toyota'nın küçük sınıfta ki temsilcisi Yaris'in"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 277,
+      "doc": "00095233",
+      "variables": {
+        "entity": "kendisini rahatlatma"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 278,
+      "doc": "22280000",
+      "variables": {
+        "entity": "YÖK Başkanı'nı"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 279,
+      "doc": "20210000",
+      "variables": {
+        "entity": "tüketim"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 280,
+      "doc": "00044121",
+      "variables": {
+        "entity": "Politzer'in"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 281,
+      "doc": "22280000",
+      "variables": {
+        "entity": "ANAP'ta"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 282,
+      "doc": "22080000",
+      "variables": {
+        "entity": "Rekortmenler"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 283,
+      "doc": "20200000",
+      "variables": {
+        "entity": "tüketici"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 284,
+      "doc": "00044121",
+      "variables": {
+        "entity": "baş yazarları"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 285,
+      "doc": "00016112",
+      "variables": {
+        "entity": "Bilim ile din"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 286,
+      "doc": "22080000",
+      "variables": {
+        "entity": "büyüme"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 287,
+      "doc": "22280000",
+      "variables": {
+        "entity": "BM Genel Sekreteri Kofi Annan planı"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 288,
+      "doc": "22280000",
+      "variables": {
+        "entity": "YAŞ"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 289,
+      "doc": "00038121",
+      "variables": {
+        "entity": "Türk"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 290,
+      "doc": "20210000",
+      "variables": {
+        "entity": "1975 yılında Vassar College'dan mezun olan Paco Underhill"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 291,
+      "doc": "00038121",
+      "variables": {
+        "entity": "Kodlanmış numaralarıyla anılan insanlar"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 292,
+      "doc": "22280000",
+      "variables": {
+        "entity": "Olası Irak operasyonunda Türkiye'den taleplere ilişkin son kararın alınacağı MGK öncesinde Ankara'ya gelen ABD'nin iki bakan yardımcısı"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 293,
+      "doc": "00166271",
+      "variables": {
+        "entity": "büyüklük"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 294,
+      "doc": "20200000",
+      "variables": {
+        "entity": "Türkiye'nin işi"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 295,
+      "doc": "00105133",
+      "variables": {
+        "entity": "Selahattin"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 296,
+      "doc": "00142211",
+      "variables": {
+        "entity": "Anadolu"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 297,
+      "doc": "20270000",
+      "variables": {
+        "entity": "internet"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 298,
+      "doc": "20580000",
+      "variables": {
+        "entity": "20 gün"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 299,
+      "doc": "00111211",
+      "variables": {
+        "entity": "kuşkularımızı çok yoğunlaştıran noktalar"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 300,
+      "doc": "00038121",
+      "variables": {
+        "entity": "başkaları"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 301,
+      "doc": "20200000",
+      "variables": {
+        "entity": "TC yurttaşlığı"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 302,
+      "doc": "00044121",
+      "variables": {
+        "entity": "doğruluğunu kendi içinde barındıran önermelerden"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 303,
+      "doc": "21040000",
+      "variables": {
+        "entity": "DİBS"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 304,
+      "doc": "00016112",
+      "variables": {
+        "entity": "İnsanlar"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 305,
+      "doc": "00032161",
+      "variables": {
+        "entity": "Bisikletleriyle bu sokaktan çok sık geçen , geçer ken de bu evin önünde zillerini ya da pil li düdüklerini öttüren delikanlılardan"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 306,
+      "doc": "00142211",
+      "variables": {
+        "entity": "Zamanın Padişahı"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 307,
+      "doc": "20210000",
+      "variables": {
+        "entity": "Amerika'nın"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 308,
+      "doc": "00044121",
+      "variables": {
+        "entity": "evrenin"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 309,
+      "doc": "20580000",
+      "variables": {
+        "entity": "gelecek başkan adaylarıyla"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 310,
+      "doc": "22080000",
+      "variables": {
+        "entity": "Yatırım"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 311,
+      "doc": "00142211",
+      "variables": {
+        "entity": "sebzeler"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 312,
+      "doc": "00002213",
+      "variables": {
+        "entity": "Fevzi"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 313,
+      "doc": "22080000",
+      "variables": {
+        "entity": "Türkiye'nin"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 314,
+      "doc": "00002213",
+      "variables": {
+        "entity": "çakmağı"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 315,
+      "doc": "20210000",
+      "variables": {
+        "entity": "Gazi Üniversitesi öğretim görevlisi Yrd . Doç. Dr . Ayşe Canatan"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 316,
+      "doc": "22080000",
+      "variables": {
+        "entity": "SİAD Zirvesi'nde konuşan TÜSİAD Başkanı Özilhan"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 317,
+      "doc": "20580000",
+      "variables": {
+        "entity": "ara seçimi düzenleyen 78. madde"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 318,
+      "doc": "20210000",
+      "variables": {
+        "entity": "AB"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 319,
+      "doc": "00044121",
+      "variables": {
+        "entity": "sözünü ettiğiniz şey"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 320,
+      "doc": "00002213",
+      "variables": {
+        "entity": "Parkta onu bekleyen diğer erkekleri"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 321,
+      "doc": "00058111",
+      "variables": {
+        "entity": "bir cinayete kurban giden bu kadın"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 322,
+      "doc": "00032161",
+      "variables": {
+        "entity": "yemek götürecek kimse"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 323,
+      "doc": "20210000",
+      "variables": {
+        "entity": "Beşiktaşlı Zago"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 324,
+      "doc": "00105133",
+      "variables": {
+        "entity": "rahip"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 325,
+      "doc": "00038121",
+      "variables": {
+        "entity": "toplumlara"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 326,
+      "doc": "20580000",
+      "variables": {
+        "entity": "paketten"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 327,
+      "doc": "20210000",
+      "variables": {
+        "entity": "Hacim siz ve sıkışık seanslar geçiren borsa"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 328,
+      "doc": "22280000",
+      "variables": {
+        "entity": "Kıbrıs Türk halkının"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 329,
+      "doc": "21040000",
+      "variables": {
+        "entity": "371 gün vade li iskonto lu tahvil"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 330,
+      "doc": "20580000",
+      "variables": {
+        "entity": "türbanlı öğrencilerin üniversiteye dönüşünü sağlayacak af"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 331,
+      "doc": "22080000",
+      "variables": {
+        "entity": "Kuruluşların harcamaları"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 332,
+      "doc": "00044121",
+      "variables": {
+        "entity": "maddenin"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 333,
+      "doc": "22080000",
+      "variables": {
+        "entity": "ortak şirket"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 334,
+      "doc": "20710000",
+      "variables": {
+        "entity": "Elvan Ayran'ın"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 335,
+      "doc": "00111211",
+      "variables": {
+        "entity": "kaza kırım heyeti"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 336,
+      "doc": "20270000",
+      "variables": {
+        "entity": "DENİZ Akkaya"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 337,
+      "doc": "00142211",
+      "variables": {
+        "entity": "yeşillikler"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 338,
+      "doc": "20200000",
+      "variables": {
+        "entity": "isteyen lere"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 339,
+      "doc": "22080000",
+      "variables": {
+        "entity": "TOBB"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 340,
+      "doc": "21040000",
+      "variables": {
+        "entity": "Irak'ta"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 341,
+      "doc": "22080000",
+      "variables": {
+        "entity": "en yüksek memur maaşı"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 342,
+      "doc": "00142211",
+      "variables": {
+        "entity": "Lahana"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 343,
+      "doc": "20200000",
+      "variables": {
+        "entity": "Süryani Kadim Meryem Ana Kilisesi Vakfı Başkanı Yakup Tahincioğlu"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 344,
+      "doc": "20200000",
+      "variables": {
+        "entity": "Sandık"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 345,
+      "doc": "00038121",
+      "variables": {
+        "entity": "işçiler"
+      },
+      "answer_type": "string",
+      "answer": "18"
+    },
+    {
+      "id": 346,
+      "doc": "00095233",
+      "variables": {
+        "entity": "kocaman bir delik"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 347,
+      "doc": "21040000",
+      "variables": {
+        "entity": "Arçelik Genel Müdürü Nedim Esgin"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 348,
+      "doc": "20210000",
+      "variables": {
+        "entity": "Drugstore'da alışveriş yapan ların"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 349,
+      "doc": "00032161",
+      "variables": {
+        "entity": "insanın içine işleyen sesiyle"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 350,
+      "doc": "20200000",
+      "variables": {
+        "entity": "ana inşaat kampları"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 351,
+      "doc": "20210000",
+      "variables": {
+        "entity": "yüzde 8'i"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 352,
+      "doc": "00044121",
+      "variables": {
+        "entity": "W . B . Bonnor"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 353,
+      "doc": "00032161",
+      "variables": {
+        "entity": "denizi , günlük geziden dönen tekneleri , kıyıdan yarım mil kadar açıkta demirlemiş gemimizi seyrediyormuş gibi yapan sarmaş dolaş sevgililer"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 354,
+      "doc": "00105133",
+      "variables": {
+        "entity": "Günah çıkarmaya gitmiş bir birey"
+      },
+      "answer_type": "string",
+      "answer": "18"
+    },
+    {
+      "id": 355,
+      "doc": "21040000",
+      "variables": {
+        "entity": "A tipi fonlar"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 356,
+      "doc": "00016112",
+      "variables": {
+        "entity": "matematiğin"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 357,
+      "doc": "00038121",
+      "variables": {
+        "entity": "1960- 1978 arası"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 358,
+      "doc": "20200000",
+      "variables": {
+        "entity": "YSK'ya"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 359,
+      "doc": "00142211",
+      "variables": {
+        "entity": "Koyun"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 360,
+      "doc": "00166271",
+      "variables": {
+        "entity": "tüm eşyaları"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 361,
+      "doc": "20710000",
+      "variables": {
+        "entity": "Yara lı lardan Burak Altındağ'ın"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 362,
+      "doc": "00095233",
+      "variables": {
+        "entity": "insanın"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 363,
+      "doc": "21040000",
+      "variables": {
+        "entity": "iMKB"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 364,
+      "doc": "20710000",
+      "variables": {
+        "entity": "Servet"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 365,
+      "doc": "00053223",
+      "variables": {
+        "entity": "sedirin"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 366,
+      "doc": "00044121",
+      "variables": {
+        "entity": "matematik"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 367,
+      "doc": "00095233",
+      "variables": {
+        "entity": "Alev'in babası"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 368,
+      "doc": "22080000",
+      "variables": {
+        "entity": "Mali Barış'tan yararlanacakların"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 369,
+      "doc": "00058111",
+      "variables": {
+        "entity": "Gerçek rengi"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 370,
+      "doc": "22280000",
+      "variables": {
+        "entity": "Hazine Bakan Yardımcısı John Taylor"
+      },
+      "answer_type": "string",
+      "answer": "16"
+    },
+    {
+      "id": 371,
+      "doc": "00084111",
+      "variables": {
+        "entity": "üstüne gömleğini sardığı darbukasını"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 372,
+      "doc": "00002213",
+      "variables": {
+        "entity": "polise"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 373,
+      "doc": "20210000",
+      "variables": {
+        "entity": "FRAN SIZ opera sanatçısı Emma Shapplin"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 374,
+      "doc": "22080000",
+      "variables": {
+        "entity": "İş Güvencesi"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 375,
+      "doc": "20200000",
+      "variables": {
+        "entity": "Yargıtay Başsavcısı Sabih Kanadoğlu"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 376,
+      "doc": "20270000",
+      "variables": {
+        "entity": "basın özgürlüğünün had safhada olduğu ve her gün ortalama 85 intiharın yaşandığı ABD"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    }
+  ]
+}

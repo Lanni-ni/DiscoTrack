@@ -1,0 +1,862 @@
+{
+  "task": "stanza",
+  "lang": "german",
+  "example_prompt": "In the following sentence, two mentions are marked with curly braces `{}`.\n\n{Sentence with two marked mentions}\n\nDo the two marked mentions refer to the same entity?\nAnswer with \"Yes\" or \"No\".",
+  "instances": [
+    {
+      "id": 1,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-13015_words.xml",
+      "variables": {
+        "text": "Auch wenn unklar ist , welchen Preis {Rosco} dafür haben will , dass {er} sein stärkstes Faustpfand - das Loch - aus der Hand gibt :"
+      },
+      "answer_type": "string",
+      "answer": "Yes"
+    },
+    {
+      "id": 2,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-13758_words.xml",
+      "variables": {
+        "text": "Wer auf das Ja-Wort aus Brieselang warten kann , keine Scheu vor seitenlangen Fragebögen hat und in Kauf nimmt , dass {er} wahrscheinlich nicht billiger wegkommt , als wenn er nach eigenen Vorstellungen die Fassade gestrichen hätte - {dem} kann bescheinigt werden , dass ihm sein Dorf und dessen Erscheinungsbild am Herzen liegt ."
+      },
+      "answer_type": "string",
+      "answer": "Yes"
+    },
+    {
+      "id": 3,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-13758_words.xml",
+      "variables": {
+        "text": "Wer auf das Ja-Wort aus Brieselang warten kann , keine Scheu vor seitenlangen Fragebögen hat und in Kauf nimmt , dass {er} wahrscheinlich nicht billiger wegkommt , als wenn er nach eigenen Vorstellungen die Fassade gestrichen hätte - dem kann bescheinigt werden , dass {ihm} sein Dorf und dessen Erscheinungsbild am Herzen liegt ."
+      },
+      "answer_type": "string",
+      "answer": "Yes"
+    },
+    {
+      "id": 4,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "Weder das Wasserstraßenneubauamt Berlin als Bauherr , noch die bauausführende Firma oder die Straßenverkehrsbehörde {Nauen} hatten bis gestern Informationen dazu veröffentlicht . Abgesehen von der in Paretz herrschenden generellen Ablehnung gegen den Havelausbau und den {damit} verbundenen Brückenneubau - die Bürger quasi bis fünf Minuten vor Zwölf im Regen stehen zu lassen , ist nicht zu fassen bei solch einem Großprojekt ."
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 5,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-13125_words.xml",
+      "variables": {
+        "text": "Können {wir} denn alles glauben , was {uns} heute über den Kampf gegen den Terrorismus in dem asisatischen Land gesagt wird ?"
+      },
+      "answer_type": "string",
+      "answer": "Yes"
+    },
+    {
+      "id": 6,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9521_words.xml",
+      "variables": {
+        "text": "Finanzstadtrat {Bosse} hatte vor Wochen aus der Zeitung erfahren müssen , dass {er} im Sommer 2002 zugunsten eines CDU-Kandidaten in die Wüste geschickt wird ."
+      },
+      "answer_type": "string",
+      "answer": "Yes"
+    },
+    {
+      "id": 7,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "Sie hatte das Ergebnis {der Wirtschaftlichkeitsrechnung} für den Betrieb der Stammbahn von Potsdam nach Berlin in diesem Jahr immer wieder angekündigt und verschob die Bekanntgabe der Zahlen mit schöner Regelmäßigkeit . Das Unternehmen nährte dadurch Spekulationen , dass die bis 1945 existierende Bahnstrecke wohl doch keine Chance auf Wiederaufbau habe . Glaubt man den neuesten Verlautbarungen des Bahnsprechers und der Kleinmachnower Initiative \" Stammbahn \" ist dem nicht so . Vielmehr brütet man über einer abgespeckten Variante , die Kosten sparen und die Belastungen für die Länder {Berlin} und Brandenburg minimieren soll ."
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 8,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "Dass die nur ein Bad , kein Hotel bauen will , interessierte {Kadatz} weniger . Auch nicht die letzten Gespräche {mit Rogner} ."
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 9,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11280_words.xml",
+      "variables": {
+        "text": "{Containerplätze} sind zweckmäßig , doch leider funktionieren {sie} nicht so richtig ."
+      },
+      "answer_type": "string",
+      "answer": "Yes"
+    },
+    {
+      "id": 10,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-2316_words.xml",
+      "variables": {
+        "text": "Zum Beweis : Die damalige Aufsichtsratschefin Margit Spielmann wird am Samstag - obwohl {sie} bis heute nicht für {ihre} Wobra-Arbeit entlastet wurde und Schliesing noch im Vorjahr mit der Möglichkeit einer Klage gegen sie drohte - von der SPD wieder als Brandenburger Bundestagsabgeordnete nominiert ."
+      },
+      "answer_type": "string",
+      "answer": "Yes"
+    },
+    {
+      "id": 11,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "Damit erklärt die gelbe Post , warum sie sich {ihrer} Tochter McPaper quasi auf den Schoß setzt . Alles an einem Ort zu haben - Papierwaren kann man kaufen , Postalisches abwickeln - ist ja tatsächlich kundenfreundlich . Noch mehr freut es natürlich , dass man nicht mehr wie ein Luchs auf der Lauer liegen muss , um die Öffnungszeiten auch einzuhalten . Besonders Berufstätige , die es z. B. auch noch am Sonnabend an ihre Schließfächer drängt , dürfen nun aufatmen . Bei anderen wird es Stoßseufzer geben . Dass {mit der Schließung in der Bahnhofstraße} eine über einhundertjährige Tradition des Kyritzer Postgebäudes zu Ende geht , damit muss man sich abfinden ."
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 12,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17673_words.xml",
+      "variables": {
+        "text": "Vorbei auch die Zeiten , in denen gewaltbereite Jugendliche {ihr} Katz- und Maus-Spielchen mit den Polizisten trieben , indem {sie} provozierten , ohne straffällig zu werden ."
+      },
+      "answer_type": "string",
+      "answer": "Yes"
+    },
+    {
+      "id": 13,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-18912_words.xml",
+      "variables": {
+        "text": "Wenn {Werbestrategen} die Himmelsscharen als Verkäufer für Handys , Abführpillen und Aktienpapiere oder als Blickfang für Erotikmessen missbrauchen , müssen wir {ihnen} ja nicht glauben ."
+      },
+      "answer_type": "string",
+      "answer": "Yes"
+    },
+    {
+      "id": 14,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12666_words.xml",
+      "variables": {
+        "text": "Rüdiger {Kadatz} hat seine Meinung zum Rheinsberger Thermalbad , und {er} will sie nicht in Frage stellen :"
+      },
+      "answer_type": "string",
+      "answer": "Yes"
+    },
+    {
+      "id": 15,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-1679_words.xml",
+      "variables": {
+        "text": "{Wer} {sein} Haus bereits saniert hat , muss auch nicht mehr befürchten , dass der Putz von der Fassade fällt ."
+      },
+      "answer_type": "string",
+      "answer": "Yes"
+    },
+    {
+      "id": 16,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-5144_words.xml",
+      "variables": {
+        "text": "Es hat wieder den Anschein , als würden {Menschen} nur galgenhumorig Tatsachen ins Auge sehen können , denen {sie} machtlos ausgeliefert sind ."
+      },
+      "answer_type": "string",
+      "answer": "Yes"
+    },
+    {
+      "id": 17,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "Die Haftanstalt in Spremberg hat am Dienstag {einen Häftling} freigelassen , der gar nicht zur Entlassung anstand . Schlicht durch eine Namensverwechslung konnte der verurteilte Dieb das Gefängnistor passieren . Seither ist er verschwunden . Gefährlich sei er nicht , beeilte sich {das Justizministerium} gestern mitzuteilen , aber - klar doch - in die Freiheit gehört er auch noch nicht ."
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 18,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-15209_words.xml",
+      "variables": {
+        "text": "{Busse} können nur eingesetzt werden , wenn {sie} ausgelastet sind ."
+      },
+      "answer_type": "string",
+      "answer": "Yes"
+    },
+    {
+      "id": 19,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17706_words.xml",
+      "variables": {
+        "text": "Der Landrat hat die Wahl gewonnen , doch sich auf {seinen} Lorbeeren ausruhen - das kann {er} nicht ."
+      },
+      "answer_type": "string",
+      "answer": "Yes"
+    },
+    {
+      "id": 20,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "Stadtkern aufwerten Im Streit zwischen der Stadt Wittstock und dem Landesstraßenbauamt Kyritz hat Bürgermeister Lutz Scheidemann {einen klaren Sieg} errungen . Wittstock wird in einigen Jahren frei von Lkw-Verkehr sein , eine Umgehung entlastet die Innenstadt . Klirrende Gläser in den Wohnzimmerschränken sind dann Geschichte . Wer sein Haus bereits saniert hat , muss auch nicht mehr befürchten , dass der Putz von der Fassade fällt . Mit der Einigung kommt aber {auf die Wittstocker} eine große Herausforderung zu ."
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 21,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "Scharon agiert , {Arafat} antwortet mit Gegenreaktionen . Arafat agiert , Scharon blockt . Ein Schachspiel mit Konsequenzen für Leben und Tod . Politische Beobachter auf beiden Seiten sind sich einig : Nur der Einfluss von außen kann diesen Poker beenden . Und so schielen die Israelis nach Washington , an dessen Tropf sie militärisch und wirtschaftlich hängen , die Palästinenser zur Europäischen Union und zu den arabischen Staaten , von deren Unterstützung sie abhängen . Die Folge ist oft genug eine Polarisierung auch bei den potenziellen Schiedsrichtern . Zu Weihnachten allerdings waren sich US-Amerikaner und {Europäer} einig : Das vom israelischen Premier verhängte Reiseverbot für Arafat zur Christmette nach Bethlehem war unnötig und unangemessen ."
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 22,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "Ein übles Verbrechen Angst kann {das Leben von Menschen} zerstören . Angst zu schüren ist die makabere \" coole \" Absicht von Trittbrettfahrern in diesen Wochen . Denen muss es offenbar imponieren , dass in Amerika gefährliche Krankheitserreger eingetütet und ohne jede Ehrfurcht vor menschlichem Leben in einen tödlichen Kreislauf geschickt werden . Auch hierzulande gibt 's Menschen , die Pulver oder Puder an Bekannte oder Ungeliebte schicken . Vielleicht stehen sie ganz in der Nähe rum , wenn die Briefe geöffnet werden und Schrecken verbreiten , zu aufwändigen Sicherheitsmaßnahmen zwingen . Die Angst erfasst nicht nur die Empfänger . Zumindest gemischte Gefühle beschleichen {auch die Mitarbeiter des Hennigsdorfer Briefzentrums} , wenn sie Briefe mit merkwürdigen Anschriften , arabischen Lettern oder fühlbar ungewöhnlichem Inhalt feststellen ."
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 23,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9884_words.xml",
+      "variables": {
+        "text": "als Schröder noch {Schmidt} wegen {dessen} Amerikahörigkeit beschimpfte und Fischer in Mutlangen gegen die Nachrüstung demonstrierte ."
+      },
+      "answer_type": "string",
+      "answer": "Yes"
+    },
+    {
+      "id": 24,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-5297_words.xml",
+      "variables": {
+        "text": "Als die Veag wegen der Liberalisierung des Strommarktes unter Druck geriet und ihre Strompreise senken musste , hielt {sie} sich bei {ihrem} Lieferanten schadlos ."
+      },
+      "answer_type": "string",
+      "answer": "Yes"
+    },
+    {
+      "id": 25,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "Es ist offensichtlich , dass dieser Bundeswehr-Einsatz bei vielen Grünen an die Wurzeln {ihrer Identität} rührt . Konnte der Kosovo-Krieg noch mit dem Kampf für die Menschenrechte in Europa begründete werden , geht es nun um die militärische Solidarität {mit den USA} in einem weit entfernten Dritte-Welt-Land ."
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 26,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "\" Ich kann mir zwar {die Meinung von 220_000 Menschen in meinem Wahlkreis} anhören , aber nicht jede Ansicht berücksichtigen \" , verteidigte sich Ernst Bahr am Montagabend . Es fiel auf , dass sich der SPD-Mann als Einziger aus dem Trio der Gesprächspartner Unmut zuzog . Lag es am klaren Bekenntnis zur Politik des Bundeskanzlers , am uneingeschränkten Verteidigen der Kosovo- und Mazedonien-Einsätze der Bundeswehr oder einfach daran , dass die etwa 60 Leute im Raum allzu kritikloses Bewerten {der Regierenden} zu erkennen glaubten ?"
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 27,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "Ein paar vage mündliche Finanzierungs-Versprechen , die Skizze {des einzigen anderen Bades} , das ist alles , was Lielje vorweisen kann . Eine echte Alternative sieht anders aus . Doch immerhin bewegt sich etwas im {Rheinsberger} Thermalbad-Rennen ."
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 28,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "Obendrein legte {die Kämmerei} , als für die Vermögensverwaltung der Stadt zuständige Stelle , die Hände in den Schoß . Das Schlimmste aber ist , dass noch heute versucht wird , zu mauscheln . Bürgermeister Jochen Wagner zieht sich auf die Vertraulichkeit zurück . Dabei erwarten die Bürger nach diesem Vertrauensbruch klare Antworten darauf , welche Konsequenzen {aus diesem Desaster} gezogen wurden ."
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 29,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "Soll sie versuchen , über die SPD-dominierte Verwaltung {das Verfüllen} zu behindern und so den Termin zu kippen ? Oder am Ende helfen ? Der SPD-OB-Kandidat Helmut Schmidt hat angekündigt , er wolle das Problem {Neustadt Markt} \" entschlossen und ohne Getöse \" ab Mai 2002 als Chefsache in die Hände nehmen , falls er OB wird ."
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 30,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "{Der Umrechnungskurs für den} Euro steht fest . Daran darf nicht gerüttelt werden . Auf- und abgerundet wird zwei Stellen hinter dem Komma - nach kaufmännischem Prinzip . Dies kann {jedoch bei den} Gewerbetreibenden zu Einnahmeverlusten führen ."
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 31,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "Dass mit der Schließung in der Bahnhofstraße eine über einhundertjährige Tradition {des Kyritzer Postgebäudes} zu Ende geht , damit muss man sich abfinden . Schwerer wiegt die Schließung der Filiale am Rehfelder Weg . Sie hat den Leuten aus Kyritz West bisher weite Wege erspart . Besonders die Älteren dürften sauer reagieren {auf das Aus} ."
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 32,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "Das Hohenzollernland ist immer noch in , schließen Brandenburgs Kulturministerin Wanka und {ihre Berliner Kollegin Goehler} aus dieser Erhebung . Kritikern , die der borussischen Kampagne Thesenlosigkeit und Beliebigkeit vorwarfen , können sie endlich mit Zahlen kommen . Mögen die mitunter auch interessant nach oben korrigiert sein : So endete die große Berliner Eröffnungsschau \" Preußen 1701 \" laut Veranstalter , immerhin {das ehrenwerte Deutsche Historische Museum} , mit 72_000 Besuchern ."
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 33,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "Auch wenn sich {EZB-Chef Wim Duisenberg} weiter weigert , das böse R-Wort \" Rezession \" in den Mund zu nehmen - dass die Weltwirtschaft in eine schwere Krise rutscht , bestreitet niemand mehr . Fraglich ist aber , ob niedrige Zinsen und damit billigeres Geld für mehr Investitionen und Konsum und so für den erhofften raschen Aufschwung sorgen . Die Verunsicherung von Verbrauchern und Unternehmern ist seit dem 11. {September} weniger ökonomisch als psychologisch begründet ."
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 34,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-8563_words.xml",
+      "variables": {
+        "text": "Die wiederum förderte damit 264 Bauten im Brandenburgischen , um den Verfall zu stoppen , {ihre} Schönheit zu bewahren , {sie} den Menschen wieder zugänglich zu machen ."
+      },
+      "answer_type": "string",
+      "answer": "Yes"
+    },
+    {
+      "id": 35,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-18912_words.xml",
+      "variables": {
+        "text": "Als Franz Fühmann vor fast zwei Jahrzehnten {sein} Essay über Georg Trakls Dichtung schrieb , gab {er} ihm den Titel \" Vor Feuerschlünden \" ."
+      },
+      "answer_type": "string",
+      "answer": "Yes"
+    },
+    {
+      "id": 36,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "Sie hatte das Ergebnis der Wirtschaftlichkeitsrechnung für den Betrieb der Stammbahn von Potsdam nach Berlin in diesem Jahr immer wieder angekündigt und verschob {die Bekanntgabe der Zahlen} mit schöner Regelmäßigkeit . Das Unternehmen nährte dadurch Spekulationen , dass die bis 1945 existierende Bahnstrecke wohl doch keine Chance auf Wiederaufbau habe . Glaubt man den neuesten Verlautbarungen des Bahnsprechers und der Kleinmachnower Initiative \" Stammbahn \" ist dem nicht so . Vielmehr brütet man über einer abgespeckten Variante , die Kosten sparen und die Belastungen für die Länder Berlin und Brandenburg minimieren soll . Für die Realisierung des Projekts wird die Zeit langsam knapp . Denn der Bund ging bereits mit 50 Millionen Mark in Vorleistung , um die Einführung der Gleise in den Berliner Tiergartentunnel zu gewährleisten . Fährt die Stammbahn bis 2006 nicht , muss die Deutsche Bahn AG dieses Geld zurückerstatten . {Der Klärung} bedarf außerdem , wie das Problem des Schallschutzes für betroffene Anwohner in Kleinmachnow und Berlin gelöst werden soll ."
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 37,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "Und das weiß {Gilde} auch : Schon bei der ersten Personalie vertraut er nicht auf seine Macht ; er sucht den Kompromiss . Es geht um den Job des Vize-Landrats , des zweitmächtigsten Mannes der Kreisverwaltung . Bislang ist das Klaus-Peter Appel . Geht es nach Gilde , bliebe das so . Doch fragt er sich , ob {der Kreistag} das genauso sieht ."
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 38,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "Lag es am klaren Bekenntnis zur Politik des Bundeskanzlers , am uneingeschränkten Verteidigen der Kosovo- und Mazedonien-Einsätze der Bundeswehr oder einfach daran , dass die etwa 60 Leute im Raum allzu kritikloses Bewerten {der Regierenden} zu erkennen glaubten ? Wahrscheinlich machte es die Summe . Es förderte auch nicht unbedingt die Sympathien , als sich Bahr mit einem \" auch ein Minister muss sich irren können \" verbal {vor Rudolf Scharping} stellte ."
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 39,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-13015_words.xml",
+      "variables": {
+        "text": "Denn verschwindet das Loch wirklich , verschwindet auch der Selbsthass , mit dem sich die Brandenburger ob {ihrer} hässlichen Mitte geißeln und wegen dem {sie} sich schämen ."
+      },
+      "answer_type": "string",
+      "answer": "Yes"
+    },
+    {
+      "id": 40,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-13507_words.xml",
+      "variables": {
+        "text": "\" Ich kann {mir} zwar die Meinung von 220_000 Menschen in {meinem} Wahlkreis anhören , aber nicht jede Ansicht berücksichtigen \" , verteidigte sich Ernst Bahr am Montagabend ."
+      },
+      "answer_type": "string",
+      "answer": "Yes"
+    },
+    {
+      "id": 41,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11670_words.xml",
+      "variables": {
+        "text": "Dabei sollten {wir} uns gerade am Volkstrauertag erinnern können , wie es sich anfühlt , wenn das tote Kind auf dem Fernsehschirm nicht mehr \" irgendein Asiate \" ist , sondern {unser} eigenes Kind ."
+      },
+      "answer_type": "string",
+      "answer": "Yes"
+    },
+    {
+      "id": 42,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "Nichts lässt {die Volksseele} lauter aufschreien als das Trauerspiel \" Loch \" , dieses Sinnbild für Ignoranz , Unfähigkeit und Inkompetenz . Wer das Problem nach einem halben Jahrzehnt des Stillstands durch entschlossenes Handeln löst , hat gute Chancen , als Oberbürgermeister akzeptiert zu werden . Denn verschwindet das Loch wirklich , verschwindet auch der Selbsthass , mit dem sich die Brandenburger ob ihrer hässlichen Mitte geißeln und wegen dem sie sich schämen . Tiemanns Initiative setzt jetzt die SPD unter unglaublichen Druck . Was hat die SPD dem entgegenzusetzen ? Soll sie versuchen , über die SPD-dominierte Verwaltung {das Verfüllen} zu behindern und so den Termin zu kippen ?"
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 43,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "\" Nur ein Wunder \" , sagt der Groß-Kreutzer Amtsdirektor Meske , könnte {Götz} den Weg in seinen Verbund noch ebnen . Dreht sich Götz um und blickt nach Emster-Havel , sieht es am Horizont unter anderem die schon wartenden Gemeinden Schenkenberg und Jeserig . Die hoffen , Götz nun leichter im Amt zu halten . {Für die austrittswilligen Amtsgemeinden Damsdorf und Gollwitz} freilich dürfte die Groß-Kreutzer Problemlage keine Folgen haben ."
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 44,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "Auf Grund der dramatischen Kassenlage in Brandenburg hat sie jetzt {eine seit mehr als einem Jahr erarbeitete Kabinettsvorlage} überraschend auf Eis gelegt und vorgeschlagen , erst 2003 darüber zu entscheiden . Überraschend , weil {das Finanz- und das Bildungsressort} das Lehrerpersonalkonzept gemeinsam entwickelt hatten ."
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 45,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "Glückliche Hühner {Um die deutschen Legehennen} ist heftiger politischer Streit entbrannt . Bundesagrarministerin Renate Künast will das Halten der Tiere in engen Legebatterien bereits vom Jahr 2006 an verbieten . In den EU-Nachbarländern soll das erst fünf Jahre später gelten . Eier-Produzenten aus der ganzen Republik machen gegen Künasts Pläne mobil . Die Betriebe im Osten fürchten , dass die hohen Investitionen , die sie in moderne Legebatterien nach europäischem Standard gesteckt haben , umsonst gewesen sind . Im Westen herrscht die Sorge vor , ausländische Konkurrenten könnten dann mit Billig-Eiern aus Legebatterien den deutschen Markt überschwemmen . Beide Bedenken sind nicht einfach von der Hand zu weisen . {Ministerin Künast} muss zumindest über längere Übergangsfristen nachdenken ."
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 46,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-5297_words.xml",
+      "variables": {
+        "text": "Als die Veag wegen der Liberalisierung des Strommarktes unter Druck geriet und {ihre} Strompreise senken musste , hielt {sie} sich bei ihrem Lieferanten schadlos ."
+      },
+      "answer_type": "string",
+      "answer": "Yes"
+    },
+    {
+      "id": 47,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "Kerner hatte nichts zu sagen {in seiner gleichnamigen ZDF-Talkshow} . Die emanzipierte Verona Feldbusch und die Emanze Alice Schwarzer machten den Talkmaster mit ihrem verbalen Gefecht über das gängige Frauenbild mundtot . Die staunenden Zuschauer störte das aber überhaupt nicht . Und die Quoten steigen und steigen . Da dachten sich die Mainzelmänner , warum sollen wir unser Zugpferd Kerner nur einmal die Woche loslassen ? Und beschlossen , dass der Sympathieträger gleich vier Mal in der Woche zu später Stunde seine Prominenten und weniger Prominenten befragt . Auf diesen Sendeplätzen laufen nämlich Wiederholungen , die ohnehin kein Mensch sieht . Das mag zwar dem Zweiten unterm Quotenstrich mehr bringen , trotzdem darf bezweifelt werden , ob das der Sendung selbst und ihrer \" Allzweckwaffe \" {Kerner} wirklich zu Gute kommt ."
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 48,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-13758_words.xml",
+      "variables": {
+        "text": "Wer auf das Ja-Wort aus Brieselang warten kann , keine Scheu vor seitenlangen Fragebögen hat und in Kauf nimmt , dass er wahrscheinlich nicht billiger wegkommt , als wenn er nach eigenen Vorstellungen die Fassade gestrichen hätte - {dem} kann bescheinigt werden , dass ihm {sein} Dorf und dessen Erscheinungsbild am Herzen liegt ."
+      },
+      "answer_type": "string",
+      "answer": "Yes"
+    },
+    {
+      "id": 49,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "Der Kyritzer Bäckermeister Thomas Haupt brachte gestern zum Spezialitätenwettbewerb der Prignitzer Bäcker-Innung eine Tafel mit , auf der {von dieser Begebenheit} berichtet wird . Die Rezeptur für seinen Knatterkrapfen hat er von {seiner} Großmutter übernommen ."
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 50,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-4403_words.xml",
+      "variables": {
+        "text": "{Das} klingt nicht nur technisch sinnvoll , {das} gibt der Wirtschaft auch finanziell halbwegs die Garantie , kein neues Dienstleister-Fiasko wie bei FX zu erleben ."
+      },
+      "answer_type": "string",
+      "answer": "Yes"
+    },
+    {
+      "id": 51,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "Wer in der Zeit , da er noch nach Ämtern strebte , mit eben denselben Argumenten , die heute {aus dem pazifistischen Lager} der Regierung entgegenschallen , Kohl , Genscher und Kinkel verteufelte , hat kein Recht , den Kritikern ihr Gewissen abzusprechen . Die anfängliche Überreaktion von Kanzler und Außenminister hat eben auch damit zu tun , dass sie als Bekehrte das Misstrauen jener fürchten , die mit Amerika schon kritische Solidarität übten , als Schröder noch Schmidt wegen dessen Amerikahörigkeit beschimpfte und Fischer in Mutlangen gegen die Nachrüstung demonstrierte . Es stimmt schon , Schmidt , Kohl und {Genscher} hätten in Washington sehr viel genauer nach Strategie und Zielen fragen können , da sie nicht vor der eigenen Vergangenheit weglaufen mussten ."
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 52,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-18171_words.xml",
+      "variables": {
+        "text": "Das hatte die Bauaufsicht nicht getan , als {sie} {ihren} unbegründeten Baustopp-Bescheid gegen einen Grundbesitzer abschickte ."
+      },
+      "answer_type": "string",
+      "answer": "Yes"
+    },
+    {
+      "id": 53,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "Damals , als die Angst vor dem Rinderwahn irrationale Züge annahm , hätten auch die cleversten Werbestrategen eine Veranstaltung wie {das Schlachtefest} am Wochenende in Paaren/Glien nicht an den Mann , oder besser , an den Verbraucher bringen können . Die BSE-Panik liegt nun länger als ein Jahr zurück . Fast unmerklich ist das Vertrauen der Menschen zurückgekehrt , der Absatz von Fleischwaren hat die gewohnten Größenordnungen wieder erreicht . Ob {dies} das Ergebnis einer veränderten Politik ist , darf bezweifelt werden ."
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 54,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17664_words.xml",
+      "variables": {
+        "text": "{Zahlungsprobleme} kriegen nur die , die {sie} schon immer hatten ."
+      },
+      "answer_type": "string",
+      "answer": "Yes"
+    },
+    {
+      "id": 55,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "Weder das Wasserstraßenneubauamt {Berlin} als Bauherr , noch die bauausführende Firma oder die Straßenverkehrsbehörde Nauen hatten bis gestern Informationen dazu veröffentlicht . Abgesehen von der {in Paretz} herrschenden generellen Ablehnung gegen den Havelausbau und den damit verbundenen Brückenneubau - die Bürger quasi bis fünf Minuten vor Zwölf im Regen stehen zu lassen , ist nicht zu fassen bei solch einem Großprojekt ."
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 56,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-13758_words.xml",
+      "variables": {
+        "text": "Wer auf das Ja-Wort aus Brieselang warten kann , keine Scheu vor seitenlangen Fragebögen hat und in Kauf nimmt , dass er wahrscheinlich nicht billiger wegkommt , als wenn er nach eigenen Vorstellungen die Fassade gestrichen hätte - {dem} kann bescheinigt werden , dass {ihm} sein Dorf und dessen Erscheinungsbild am Herzen liegt ."
+      },
+      "answer_type": "string",
+      "answer": "Yes"
+    },
+    {
+      "id": 57,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "Das Lachen kann empfindsamen Seelen aber vergehen , wenn sie die Internetseite des Zentralorgans der deutschen Jäger , \" Wild und Hund \" , aufrufen : In einer Animation werden Patronen abgeschossen , {dazu} erscheint der Werbeslogan \" Jeder Klick ein Treffer \" . Solche martialischen Töne einzelner Weidmänner bieten den Gegnern der Jägerei eine ideale Angriffsfläche . Heute demonstriert die \" Initiative zur Abschaffung der Jagd \" wieder in Berlin . Ein Lehrer aus Baden-Württemberg verschickt eifrig so genannte \" Lusttöter \" , die zeigen sollen , dass das Grauen zwei Beine und ein Gewehr in Händen hat . Doch auch dieser Tierschützer befindet sich auf verlorenem Posten . Selbst Ökologen bestreiten nicht , dass das natürliche Gleichgewicht durch menschliche Eingriffe wieder hergestellt werden muss . Übrigens ist das Ansinnen {der Jagdgegner} genauso sinnlos , als wenn Vegetarier Fleischesser überzeugen wollten ."
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 58,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14422_words.xml",
+      "variables": {
+        "text": "Wenn die Knirpse herausgewachsen sind , erinnern {sie} sich vor allem , ob sie in {ihrem} Kindergarten glücklich waren , ob sie die Tanten leiden mochten oder nur sehnsüchtig den Abend herbeisehnten ."
+      },
+      "answer_type": "string",
+      "answer": "Yes"
+    },
+    {
+      "id": 59,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "Im Westen herrscht die Sorge vor , ausländische Konkurrenten könnten dann mit Billig-Eiern aus Legebatterien {den deutschen Markt} überschwemmen . Beide Bedenken sind nicht einfach von der Hand zu weisen . {Ministerin Künast} muss zumindest über längere Übergangsfristen nachdenken ."
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 60,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-8134_words.xml",
+      "variables": {
+        "text": "Die Ortsteile wollen , dass die Abgeordneten mit {ihnen} sprechen , {ihre} Sorgen anhören , sich dafür interessieren - ohne dass ihnen jemand die Pistole auf die Brust setzt ."
+      },
+      "answer_type": "string",
+      "answer": "Yes"
+    },
+    {
+      "id": 61,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "Und wird hoffentlich nicht mehr kleinzukriegen sein - {trotz der Pleite der Landesentwicklungsgesellschaft ( {LEG}} ) und gelegentlichen Jammerns in den eigenen Reihen ."
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 62,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-13507_words.xml",
+      "variables": {
+        "text": "\" {Ich} kann mir zwar die Meinung von 220_000 Menschen in meinem Wahlkreis anhören , aber nicht jede Ansicht berücksichtigen \" , verteidigte sich Ernst {Bahr} am Montagabend ."
+      },
+      "answer_type": "string",
+      "answer": "Yes"
+    },
+    {
+      "id": 63,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-13758_words.xml",
+      "variables": {
+        "text": "Wer auf das Ja-Wort aus Brieselang warten kann , keine Scheu vor seitenlangen Fragebögen hat und in Kauf nimmt , dass er wahrscheinlich nicht billiger wegkommt , als wenn er nach eigenen Vorstellungen die Fassade gestrichen hätte - dem kann bescheinigt werden , dass {ihm} {sein} Dorf und dessen Erscheinungsbild am Herzen liegt ."
+      },
+      "answer_type": "string",
+      "answer": "Yes"
+    },
+    {
+      "id": 64,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "Das Lachen kann empfindsamen Seelen aber vergehen , wenn sie die Internetseite {des Zentralorgans der deutschen Jäger} , \" Wild und Hund \" , aufrufen : In einer Animation werden Patronen abgeschossen , {dazu} erscheint der Werbeslogan \" Jeder Klick ein Treffer \" ."
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 65,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "Dank {der Kooperationsvereinbarung mit der CDU} hat man deren Zustimmung schon in der Tasche . Die PDS wird nichts dagegen haben . Um die sicher notwendigen Investitionen tätigen zu können , bleibt aber am Ende wieder nur {der Verkauf von Tafelsilber} ."
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 66,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "\" Nur ein Wunder \" , sagt der Groß-Kreutzer Amtsdirektor Meske , könnte Götz den Weg in {seinen} Verbund noch ebnen . Dreht sich Götz um und blickt nach Emster-Havel , sieht es am Horizont unter anderem die schon wartenden Gemeinden Schenkenberg und {Jeserig} ."
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 67,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "Spatz in der Hand Rüdiger Kadatz hat seine Meinung zum {Rheinsberger} Thermalbad , und er will sie nicht in Frage stellen : Nach einem Jahr Verhandelns habe Rheinsbergs Favorit Rogner verspielt . Ein neuer Investor muss her , und den hatte Kadatz am Mittwochabend in der Stadtverordnetenversammlung parat - die Lielje-Gruppe . Dass die nur ein Bad , kein Hotel bauen will , interessierte Kadatz weniger . Auch nicht die letzten Gespräche mit Rogner . Neue Entwicklungen ? Wozu noch ? Für Kadatz war klar : Lieber den Spatz in der Hand als die Taube auf dem Dach . Eine verständliche Einstellung - wenn es denn einen Spatz gäbe . Wenn man genauer hinsieht , halten die Rheinsberger vom zweiten Thermalbad-Bewerber nicht mehr in der Hand als vom ersten . Ein paar vage mündliche Finanzierungs-Versprechen , die Skizze des einzigen anderen Bades , das ist alles , was Lielje vorweisen kann . Eine echte Alternative sieht anders aus . Doch immerhin bewegt sich etwas im Rheinsberger Thermalbad-Rennen . {Rogner} ist willig , Finanziers sind gefunden ."
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 68,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-6539_words.xml",
+      "variables": {
+        "text": "Der Kanzler gibt {seinen} Berliner Genossen den entscheidenden Fingerzeig in Richtung rot-gelb-grüner Ampel-Koalition , weil {er} sich die Liberalen als möglichen Koalitionspartner für die Bundestagswahl im kommenden Jahr warmhalten möchte ."
+      },
+      "answer_type": "string",
+      "answer": "Yes"
+    },
+    {
+      "id": 69,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-10902_words.xml",
+      "variables": {
+        "text": "Es darf nicht sein , dass {Zehnjährige} zum Glimmstängel und zum Bier greifen , weil {sie} es ohne Probleme bekommen ."
+      },
+      "answer_type": "string",
+      "answer": "Yes"
+    },
+    {
+      "id": 70,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-13015_words.xml",
+      "variables": {
+        "text": "Auch wenn unklar ist , welchen Preis Rosco dafür haben will , dass {er} {sein} stärkstes Faustpfand - das Loch - aus der Hand gibt :"
+      },
+      "answer_type": "string",
+      "answer": "Yes"
+    },
+    {
+      "id": 71,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "Voll des Lobes waren Mitglieder {des Pritzwalker Bauausschusses} am Mittwoch , als ein Bericht über die Bewirtschaftung des Stadtforstes auf der Tagesordnung ihrer Sitzung stand . \" Pritzwalk kann auf seinen Stadtwald stolz sein . Sowas gibt es selten \" , schwärmte etwa Wolfgang Eichhorst . Und Dietrich Kurtz sagte : \" Früher als Jungs und mit der Clique sind wir oft ins Hainholz gegangen . Das war damals für die Jugend selbstverständlich . \" Ob sie sich da vielleicht heimlich mit Mädchen getroffen hätten , wollten neugierige Sitzungsteilnehmer wissen : \" Klar sind da auch mal Mädels dabei gewesen \" , gestand Kurtz . {Der wunderbare Mischwald am Rande der Stadt} entfaltet aber nicht nur eine nostalgische Wirkung auf die Menschen ."
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 72,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "Möllemann bereist seinerseits schon jetzt eifrig {den Nahen Osten} , um für diesen Fall gerüstet zu sein und sich als neuer liberaler Außenminister zu empfehlen . \" Riesenstaatsmann Mümmelmann \" , wie Franz-Josef Strauß {den schnauzbärtigen Fallschirmspringer aus Münster} einmal titulierte , ist auch schon voll im Geschäft und wird nicht müde , Israels Politik der \" präventiven Liquidierungen \" als \" Staatsterrorismus \" zu geißeln ."
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 73,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "Den Literaturpreis haben bisher Schöngeister wie Hanns Cibulka und Wulf Kirsten , Volker Braun und {Thomas Rosenlöcher} bekommen . Wer aus ihren Gedichten ein umweltpolitisches Engagement ableitet , instrumentalisiert die Literatur ideologisch . Die Zeiten , da die Literatur Aufklärungs- und Bekenntnisarbeit mitleisten musste , sind zum Glück vorbei . Deshalb ist es auch gut , dass das Umweltministerium in diesem Jahr in engerem Sinne auf fachliche Leistungen setzt . Susanne Paulsen bekommt den Preis für ein erzählendes Sachbuch , das dem Leser die rätselhafte Welt {der Pflanzen} näherbringt ."
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 74,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "Jetzt haben sich auch die Verantwortlichen {des Landkreises} mit der Weltlage beschäftigen müssen . Der zuständige Stab kennt Gefahrenlagen , die von schweren Unglücken ausgehen können , zum Beispiel mit Zügen . Auf dem Bahnhof {Neustadt} hat man schon mehrfach Szenarien durchgespielt und Gegenmaßnahmen geprobt ."
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 75,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "Die Ergebnisse waren bislang {in der Tat} dürftig . Das Wenige , das Tarifparteien und Bundesregierung vereinbarten , wurde oft nicht mal umgesetzt . So sind etwa die Gewerkschaften zu Recht sauer , weil die Zusage der Unternehmer , Überstunden abzubauen , nicht eingehalten wurde . Der jüngst geplatzte Termin geht jedoch auf das Gewerkschaftskonto . Denn die Strategie der IG Metall ist durchsichtig . Sie will heute hohe Tarifforderungen verkünden können , ohne auf die Bündnispartner Rücksicht nehmen zu müssen . Der Geldbeutel der eigenen Mitglieder ist wieder einmal wichtiger als die Sorgen der Arbeitslosen . Das erste Bündnis für Arbeit ging durch die Unfähigkeit der Kohl-Regierung in die Brüche . Diesmal könnte es ausgerechnet {sein} Erfinder , IG-Metall-Chef Klaus Zwickel , sein , der ihm den Totenschein ausstellt ."
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 76,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "Auf Eis gelegt Dagmar Ziegler sitzt {in der Schuldenfalle} . Auf Grund der dramatischen Kassenlage in Brandenburg hat sie jetzt eine seit mehr als einem Jahr erarbeitete Kabinettsvorlage überraschend auf Eis gelegt und vorgeschlagen , erst 2003 darüber zu entscheiden . Überraschend , weil das Finanz- und das Bildungsressort das Lehrerpersonalkonzept gemeinsam entwickelt hatten . Der Rückzieher der Finanzministerin ist aber verständlich . Es dürfte derzeit schwer zu vermitteln sein , weshalb ein Ressort pauschal von künftigen Einsparungen ausgenommen werden soll auf Kosten der anderen . {Reiches} Ministerkollegen werden mit Argusaugen darüber wachen , dass das Konzept wasserdicht ist ."
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 77,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11766_words.xml",
+      "variables": {
+        "text": "Dass {Millionen} fehlen , hindert nicht daran , {sie} zu verteilen ."
+      },
+      "answer_type": "string",
+      "answer": "Yes"
+    },
+    {
+      "id": 78,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-10575_words.xml",
+      "variables": {
+        "text": "Die Stadt stellt {Blumenzwiebeln} en masse zur Verfügung , Schüler bringen {sie} in die Erde und sorgen dafür , dass es im Frühjahr noch bunter ist als sonst auf kommunalen Flächen ."
+      },
+      "answer_type": "string",
+      "answer": "Yes"
+    },
+    {
+      "id": 79,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "Ist es doch die Anerkennung dafür , dass der frühere Generaldirektor der Schlösserstiftung nicht allein von der Sorge um die anvertrauten Kunstschätze getrieben war , sondern von der Vision einer Stadt , die {durch diese Kunst} lebt . So stand Giersberg nicht nur wie der Fels in der Brandung , als die Kommerzialisierungswogen an die Schlossmauern schlugen . Sein stilles , aber nachhaltiges Eintreten für die Qualitäten der Kulturlandschaft außerhalb seiner Gärten , allzuoft als Sichtachsen-Fetischismus benörgelt , hat dazu beigetragen , die Landeshauptstadt als Gesamtkunstwerk erfahrbar zu machen . Dafür hat ihm {Potsdam} zu danken ."
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 80,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "Vorbei auch die Zeiten , in denen {gewaltbereite Jugendliche} ihr Katz- und Maus-Spielchen mit den Polizisten trieben , indem sie provozierten , ohne straffällig zu werden . Vorbei . Wer sich jetzt etwas zu Schulden kommen lässt , muss damit rechnen , unverzüglich und beweiskräftig überführt zu werden . Die Kameras sind unbestechlich . Aus der Distanz beobachten sie das Geschehen und geben {den Beamten an den Monitoren} die Möglichkeit , die Lage nüchtern und mit klarem Kopf einzuschätzen ."
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 81,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-13758_words.xml",
+      "variables": {
+        "text": "Wer auf das Ja-Wort aus Brieselang warten kann , keine Scheu vor seitenlangen Fragebögen hat und in Kauf nimmt , dass {er} wahrscheinlich nicht billiger wegkommt , als wenn er nach eigenen Vorstellungen die Fassade gestrichen hätte - dem kann bescheinigt werden , dass ihm {sein} Dorf und dessen Erscheinungsbild am Herzen liegt ."
+      },
+      "answer_type": "string",
+      "answer": "Yes"
+    },
+    {
+      "id": 82,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9852_words.xml",
+      "variables": {
+        "text": "{Eltern} , die selbst um {ihr} Gleichgewicht kämpfen , haben mit sich selbst zu tun ."
+      },
+      "answer_type": "string",
+      "answer": "Yes"
+    },
+    {
+      "id": 83,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-10652_words.xml",
+      "variables": {
+        "text": "Da dachten sich die Mainzelmänner , warum sollen {wir} {unser} Zugpferd Kerner nur einmal die Woche loslassen ?"
+      },
+      "answer_type": "string",
+      "answer": "Yes"
+    },
+    {
+      "id": 84,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-3277_words.xml",
+      "variables": {
+        "text": "Damit erklärt die gelbe Post , warum {sie} sich {ihrer} Tochter McPaper quasi auf den Schoß setzt ."
+      },
+      "answer_type": "string",
+      "answer": "Yes"
+    },
+    {
+      "id": 85,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14841_words.xml",
+      "variables": {
+        "text": "Manche Geschäftsleute werden vor der Währungsumstellung noch schnell {ihre} Ware verteuern , damit {sie} sich besser umrechnen lässt ."
+      },
+      "answer_type": "string",
+      "answer": "Yes"
+    },
+    {
+      "id": 86,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-13507_words.xml",
+      "variables": {
+        "text": "\" Ich kann {mir} zwar die Meinung von 220_000 Menschen in meinem Wahlkreis anhören , aber nicht jede Ansicht berücksichtigen \" , verteidigte sich Ernst {Bahr} am Montagabend ."
+      },
+      "answer_type": "string",
+      "answer": "Yes"
+    },
+    {
+      "id": 87,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "{Dabei} sind es vor allem Anwohner , die mit mehr als den erlaubten 7 km/h durch die ausgewiesene Spielstraße fahren . Hier , wo sich {die Namensschilder} wie ein Potsdamer \" Who is who ?"
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 88,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "Offene Fragen Die Kränzliner , {Mankerer} , Wustrauer , Walchower und Protzener fühlen sich ungerecht behandelt . Sie sind schon seit Jahren an Klärwerke angeschlossen . Die Klärwerke beziehungsweise die Druckleitungen wurden bereits von der Gemeinde und damit von den Steuern der Bürger bezahlt . Warum also sollen sie jetzt noch einmal Klärbeiträge bezahlen , nur weil sie von einem Klärwerk an ein anderes umgeleitet werden ? Die übrigen Fehrbelliner Verbandgemeinden fühlen sich ebenso im Recht : Warum sollen sie höhere Abwassergebühren in Kauf nehmen , bloß weil einige Mitglieder der Solidargemeinschaft keinen Klärbeitrag zahlen möchten ? In sich schlüssig sind beide Argumentationen . {Die einen} hatten eben Glück , dass ihr Bürgermeister cleverer oder schneller war als andere ."
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 89,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12666_words.xml",
+      "variables": {
+        "text": "Rüdiger Kadatz hat {seine} Meinung zum Rheinsberger Thermalbad , und {er} will sie nicht in Frage stellen :"
+      },
+      "answer_type": "string",
+      "answer": "Yes"
+    },
+    {
+      "id": 90,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "Kerner hatte nichts zu sagen {in seiner gleichnamigen ZDF-Talkshow} . Die emanzipierte Verona Feldbusch und die Emanze Alice Schwarzer machten den Talkmaster mit ihrem verbalen Gefecht über das gängige Frauenbild mundtot . {Die staunenden Zuschauer} störte das aber überhaupt nicht ."
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 91,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "Bekanntlich sitzt {der Landesregierung} beim Thema Kinderbetreuung der Rotstift nach wie vor viel zu locker . Mit den Folgen müssen sich die Verwaltungen vor Ort herumplagen . Unpopuläre Entscheidungen , die bis zur Schließung führen , sind die Folge . Davon wissen auch die Löwenberger ein trauriges Lied zu singen . Die eingangs erwähnte Analyse ist der Versuch , auf weniger Geld für Kinderbetreuung möglichst objektiv zu reagieren . Nunmehr soll eine Kita öffnen , wenn zwischen zehn und 15 Prozent ( schon diese Spanne ist ein Zugeständnis ) der insgesamt betreuten Mädchen und Jungen {in der Einrichtung} sind ."
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 92,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-13507_words.xml",
+      "variables": {
+        "text": "\" {Ich} kann {mir} zwar die Meinung von 220_000 Menschen in meinem Wahlkreis anhören , aber nicht jede Ansicht berücksichtigen \" , verteidigte sich Ernst Bahr am Montagabend ."
+      },
+      "answer_type": "string",
+      "answer": "Yes"
+    },
+    {
+      "id": 93,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-13507_words.xml",
+      "variables": {
+        "text": "\" {Ich} kann mir zwar die Meinung von 220_000 Menschen in {meinem} Wahlkreis anhören , aber nicht jede Ansicht berücksichtigen \" , verteidigte sich Ernst Bahr am Montagabend ."
+      },
+      "answer_type": "string",
+      "answer": "Yes"
+    },
+    {
+      "id": 94,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "Gerade eben feierten dort {Anwohner} die Wiederherstellung ihres - noch immer namenlosen - {Stadtplatzes} , schon trifft man sich auch am Kiewitt zum Bürgerfest ."
+      },
+      "answer_type": "string",
+      "answer": "No"
+    },
+    {
+      "id": 95,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference",
+      "variables": {
+        "text": "Doch fragt er sich , ob {der Kreistag} das genauso sieht . Deshalb signalisiert er vorab , dass er durchaus einen anderen als seinen Lieblingskandidaten zur Wahl im Kreistag vorschlagen würde . Das ist eine zwiespältige Entscheidung . Einerseits ist es vernünftig . Im Falle einer Abstimmungs-Niederlage würde er ebenso wie sein Kandidat beschädigt . Zudem ist es schlau , Kritiker ins Boot zu holen . Andererseits begibt sich Gilde damit in die Hände des Kreistags . Und der könnte Gefallen daran finden , ihm einen unbequemen Aufpasser an die Seite zu stellen . Oder , was weitaus unangenehmer wäre , einen ehrgeizigen Konkurrenten , der Gilde - möglichst schnell - beerben will . Der Landrat hat {die Wahl} gewonnen , doch sich auf seinen Lorbeeren ausruhen - das kann er nicht ."
+      },
+      "answer_type": "string",
+      "answer": "No"
+    }
+  ]
+}

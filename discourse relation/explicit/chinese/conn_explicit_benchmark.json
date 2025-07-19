@@ -1,0 +1,4507 @@
+{
+  "task": "conn-explicit",
+  "lang": "chinese",
+  "example_prompt": "An explicit discourse connective is a word or phrase which indicates the presence of a discourse relation between two segments, such as contrast, elaboration or temporal sequence. These connectives provide strong cues and allow us to classify discourse relations with high accuracy.\n\nMark all explicit discourse connectives in the sentence using curly brackets. If there is no explicit discourse connective, answer with 'no explicit connective'.\nHere are the options: 一, 一旦, 一样, 一部分是因为, 上面提到的, 不, 不仅, 不仅仅, 不仅如此, 不但, 不光, 不只, 不只是, 不是, 不止, 不然, 不管, 不要, 不论, 不过, 与其, 与其说, 中, 为, 为了, 为止, 举, 举一个例子, 举个例子, 之余, 之前, 之后, 之外, 之所以, 也, 也就是, 也就是说, 于是, 仅仅因为, 从, 从此, 从而, 令, 以, 以便, 以免, 以及, 以后, 以外, 以来, 以至于, 以致, 以致于, 任凭, 仿佛, 但, 但是, 作用, 你, 使, 使得, 例如, 例如说, 例子, 倒不如, 借由, 假如, 假如说, 假设, 像, 像是, 其中, 再, 凭着, 则, 到, 到时, 前, 包括, 即, 即使, 即便, 却, 原因, 去, 又, 反之, 反正, 反而, 反过来说, 另外, 只, 只不过, 只是, 只有, 只有一个目标, 只要, 可, 可是, 同时, 同样的, 后, 后不久, 后来, 否则, 哪怕, 唯有, 因为, 因此, 因而, 在, 好像, 好比, 好让, 如, 如同, 如是, 如果, 如此, 尤其, 尤其是, 就, 就像, 就像是, 就好像, 就如同, 就是, 就是说, 就算, 尽管, 居然, 并, 并不, 并且, 并没有, 并非, 开始, 当, 当a, 当中, 当时, 当然, 很像, 总之, 我举个例, 或, 或是, 或者, 或者是, 或者说, 或许也, 所以, 才, 换句话说, 换句话说就是, 换言之, 接着, 无论, 无论是, 既, 既然, 时, 时候, 是, 更, 更不要说, 更夸张的, 更重要的是, 最后, 最后一点, 最重要的是, 来, 正好相反, 正如, 正是因为, 此, 每到, 每当, 比如, 比如说, 比方, 比方说, 然后, 然而, 特别是, 甚至, 用, 由于, 的, 的时候, 的话, 目的, 直, 直到, 相反, 相对的, 相当于, 第一, 第一个, 第三个, 第二, 第二个, 等, 经过, 结果, 缘于, 而, 而不只是, 而不是, 而且, 而后, 而是, 自从, 若, 若是, 虽然, 要, 要不然, 要是, 譬如说, 让, 跟, 过后, 运用, 还, 还是, 还有, 这, 这个, 这个时候, 这也是为什么, 这事儿, 这些, 这样, 这样的, 这种, 进而, 连, 透过, 通过, 那, 那个时候, 那么, 那便是, 那就是, 那时候, 那是, 那更重要的是, 都, 除了, 除此之外, 除此外, 除非, 随后, 随着, 靠的, 首先\nHere is the text:\n{{text}}",
+  "instances": [
+    {
+      "id": 1,
+      "doc": "81",
+      "variables": {
+        "text": "你又胖又没有什么好聊的，为什么任何一个英俊的成功男士会和你这样的失败者约会呢？”"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 2,
+      "doc": "48_w",
+      "variables": {
+        "text": "我们先看一下这一段程式码，大家可能会觉得奇怪，这边哪有什么程式码，我只看到了一个圆圈啊！"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 3,
+      "doc": "token824",
+      "variables": {
+        "text": "那里的人需要这些，但我们偏偏不给。"
+      },
+      "answer_type": "string",
+      "answer": "那里的人需要这些，{但}我们偏偏不给。"
+    },
+    {
+      "id": 4,
+      "doc": "54_w",
+      "variables": {
+        "text": "就是鹭科全世界有 62 种，它为什麽脚比较长，它为什麽翅膀比较长，为什麽它飞行的时候拍翅比较慢，为什麽它的颈部会弯曲往后缩，为什麽它会栖息于沼泽河口沙洲水田，为什麽……"
+      },
+      "answer_type": "string",
+      "answer": "{就是}鹭科全世界有62 种，它为什麽脚比较长，它为什麽翅膀比较长，为什麽它飞行的时候拍翅比较慢，为什麽它的颈部会弯曲往后缩，为什麽它会栖息于沼泽河口沙洲水田，为什麽……"
+    },
+    {
+      "id": 5,
+      "doc": "87",
+      "variables": {
+        "text": "很多语言都有语法上的词性，每个名词都有一个指定的词性，通常是阳性或阴性。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 6,
+      "doc": "token1756",
+      "variables": {
+        "text": "为了让大卫活得更自在，我会想瞬间治愈他的唐氏综合症。"
+      },
+      "answer_type": "string",
+      "answer": "{为了}让大卫活得更自在，我会想瞬间治愈他的唐氏综合症。"
+    },
+    {
+      "id": 7,
+      "doc": "68",
+      "variables": {
+        "text": "我以为自己陷入了疯狂的爱情，还不知道我已经懵懂的走进了一张精心编织的控制你身体、心灵和经济的陷阱。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 8,
+      "doc": "67",
+      "variables": {
+        "text": "于是我做了一个邮件自动回复程序。"
+      },
+      "answer_type": "string",
+      "answer": "{于是}我做了一个邮件自动回复程序。"
+    },
+    {
+      "id": 9,
+      "doc": "12",
+      "variables": {
+        "text": "我就有这样一个构想，就来做实验，反正小朋友，开始玩的时候，他们就PK 。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 10,
+      "doc": "61_w",
+      "variables": {
+        "text": "非常高兴，也非常荣幸有这个机会来这里跟大家谈谈我们在做的一些研究和它们未来可能的发展。"
+      },
+      "answer_type": "string",
+      "answer": "非常高兴，{也}非常荣幸有这个机会来这里跟大家谈谈我们在做的一些研究和它们未来可能的发展。"
+    },
+    {
+      "id": 11,
+      "doc": "19_w",
+      "variables": {
+        "text": "第二个年轻人，我想跟大家介绍的是陈伟胜，他也是我们剧团年轻人，他以前是一个中辍生。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 12,
+      "doc": "65_w",
+      "variables": {
+        "text": "也算是一首原本是要唤醒台湾人主体意识的歌变成了号召台湾人加入二战，为日本天皇效命的一首军歌，完全变成了一个相反意义的歌曲了。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 13,
+      "doc": "64_w",
+      "variables": {
+        "text": "我请这些听我课的校长，还有老师们，回到他们自己的课堂之后，把我教他们的火灾观念告诉他们的学生。"
+      },
+      "answer_type": "string",
+      "answer": "我请这些听我课的校长，还有老师们，回到他们自己的课堂{之后}，把我教他们的火灾观念告诉他们的学生。"
+    },
+    {
+      "id": 14,
+      "doc": "token2150",
+      "variables": {
+        "text": "因此，如果我们试图使用多样化，成为解决我们一些更棘手的问题的方法，我们需要开始以新的方式思考多样性。"
+      },
+      "answer_type": "string",
+      "answer": "{因此}，{如果}我们试图使用多样化，成为解决我们一些更棘手的问题的方法，我们需要开始以新的方式思考多样性。"
+    },
+    {
+      "id": 15,
+      "doc": "48_w",
+      "variables": {
+        "text": "从去年的十一月到现在将近一年的时间，我们其实已经发起了非常多的专案，其中有非常有意义非常有趣的专案。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 16,
+      "doc": "75",
+      "variables": {
+        "text": "我收集故事；这就是我的工作。"
+      },
+      "answer_type": "string",
+      "answer": "我收集故事；{这}就是我的工作。"
+    },
+    {
+      "id": 17,
+      "doc": "27_w",
+      "variables": {
+        "text": "这个时候，我们看见一代、两代、三代、四代、五代，到第五代的时候，基本上就说这个杂交后代，它和亲本中 A 的基因是一致的，具有微量的亲本基因。"
+      },
+      "answer_type": "string",
+      "answer": "{这个时候}，我们看见一代、两代、三代、四代、五代，到第五代{的时候}，基本上就说这个杂交后代，它和亲本中A 的基因是一致的，具有微量的亲本基因。"
+    },
+    {
+      "id": 18,
+      "doc": "49_w",
+      "variables": {
+        "text": "他们会成为你的声音，如果你对他们好，他们也会呵护你。"
+      },
+      "answer_type": "string",
+      "answer": "他们会成为你的声音，{如果}你对他们好，他们也会呵护你。"
+    },
+    {
+      "id": 19,
+      "doc": "37_w",
+      "variables": {
+        "text": "我觉得一直到今天，在数位科技、在资讯科技的浪潮的冲击之下，每一个资深媒体人，凭良心说到现在都还惊魂未定。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 20,
+      "doc": "105",
+      "variables": {
+        "text": "接下来，我要告诉你们作为自我的体验，成为你自己的特定体验也是一种大脑产生的可控幻觉。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 21,
+      "doc": "106",
+      "variables": {
+        "text": "我收到了数千份回信和邮件，现在每天还能收到一些，我认为这是因为我问的问题。"
+      },
+      "answer_type": "string",
+      "answer": "我收到了数千份回信和邮件，现在每天还能收到一些，我认为这是{因为}我问的问题。"
+    },
+    {
+      "id": 22,
+      "doc": "93",
+      "variables": {
+        "text": "这听起来就像是常识，也的确是，但这符合我们空间记忆的工作原理，有很多科学依据支持这一点。"
+      },
+      "answer_type": "string",
+      "answer": "这听起来就像是常识，也的确是，{但}这符合我们空间记忆的工作原理，有很多科学依据支持这一点。"
+    },
+    {
+      "id": 23,
+      "doc": "84",
+      "variables": {
+        "text": "但是通常而言我们不能全部全部。"
+      },
+      "answer_type": "string",
+      "answer": "{但是}通常而言我们不能全部全部。"
+    },
+    {
+      "id": 24,
+      "doc": "12",
+      "variables": {
+        "text": "因为质数的概念大概是国中才要教的，他们小学就尝试到这件事情。"
+      },
+      "answer_type": "string",
+      "answer": "{因为}质数的概念大概是国中才要教的，他们小学就尝试到这件事情。"
+    },
+    {
+      "id": 25,
+      "doc": "105",
+      "variables": {
+        "text": "人们看起来像是变形的状态，甚至像患有精神病一样。"
+      },
+      "answer_type": "string",
+      "answer": "人们看起来像是变形的状态，{甚至}像患有精神病一样。"
+    },
+    {
+      "id": 26,
+      "doc": "29_w",
+      "variables": {
+        "text": "大家在开箱的过程当中，甚至会去讨论这些商品背后有趣的东西，去讨论消费对人们真正的价值是什么。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 27,
+      "doc": "54_w",
+      "variables": {
+        "text": "在国光石化的期间，我到芳苑，访问这些蚵农，这个阿婆告诉我她一天剥蚵子，只能收入大概五百块到一千块，我们问她说，“那为什麽你不希望石化工厂来呢？”"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 28,
+      "doc": "85",
+      "variables": {
+        "text": "对有些人来说，这就是没戏了。"
+      },
+      "answer_type": "string",
+      "answer": "对有些人来说，{这}就是没戏了。"
+    },
+    {
+      "id": 29,
+      "doc": "42_w",
+      "variables": {
+        "text": "除了提供给他们跟一般人一样的法律保障之外，作为一个心理学者，我更想理解的是：为什么？"
+      },
+      "answer_type": "string",
+      "answer": "{除了}提供给他们跟一般人一样的法律保障{之外}，作为一个心理学者，我更想理解的是：为什么？"
+    },
+    {
+      "id": 30,
+      "doc": "90",
+      "variables": {
+        "text": "公开羞辱这种流血的文化是时候该停止了，无论是互联网还是我们的文化，都是时候对其进行干预了。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 31,
+      "doc": "token1978",
+      "variables": {
+        "text": "我站在这里思索和想象每一种方法，让我们有可能在这个房间里达到哪怕一项差一点的成功。"
+      },
+      "answer_type": "string",
+      "answer": "我站在这里思索和想象每一种方法，{让}我们有可能在这个房间里达到哪怕一项差一点的成功。"
+    },
+    {
+      "id": 32,
+      "doc": "75",
+      "variables": {
+        "text": "我们都知道这是个什么滋味：“我不够什么，我不够苗条，不够有钱，不够漂亮，不够聪明，职位不够高。”"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 33,
+      "doc": "token769",
+      "variables": {
+        "text": "然而有一天， P 医生在我做体能训练的时候来看我了。嗯，那些无情的、令人精疲力尽的体能训练。然后他对我说：“艾米，你真是个强壮的小姑娘啊，我感觉有一天你能把这些带子弄断，你弄断的时候，我就奖励你 100 美元。”"
+      },
+      "answer_type": "string",
+      "answer": "{然而}有一天，P 医生在我做体能训练的时候来看我了。嗯，那些无情的、令人精疲力尽的体能训练。然后他对我说：“艾米，你真是个强壮的小姑娘啊，我感觉有一天你能把这些带子弄断，你弄断的时候，我就奖励你100 美元。”"
+    },
+    {
+      "id": 34,
+      "doc": "6",
+      "variables": {
+        "text": "但是，我父亲回到美国去了，从此我们有很多年的时间没有见面。"
+      },
+      "answer_type": "string",
+      "answer": "{但是}，我父亲回到美国去了，从此我们有很多年的时间没有见面。"
+    },
+    {
+      "id": 35,
+      "doc": "token2150",
+      "variables": {
+        "text": "最后，我们要有能力干预，以一种新的方式重塑我们的城市，我相信，如果我们有能力的话，我们甚至会承担一些责任。"
+      },
+      "answer_type": "string",
+      "answer": "最后，我们要有能力干预，{以}一种新的方式重塑我们的城市，我相信，{如果}我们有能力的话，我们{甚至}会承担一些责任。"
+    },
+    {
+      "id": 36,
+      "doc": "84",
+      "variables": {
+        "text": "530 人当然是远远多于一个人的，部分原因在于现代更多的人可以接受训练并且训练方法更加科学合理。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 37,
+      "doc": "20_w",
+      "variables": {
+        "text": "后来他创造了精神分析学派，了解了潜意识，这些都跟他的早年的家庭经验脱离不了关系。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 38,
+      "doc": "85",
+      "variables": {
+        "text": "然后，实验里人们选择忽略了这些错误，只是挑出对的时候，做得很好的时候，把这些录像给运动员看。"
+      },
+      "answer_type": "string",
+      "answer": "{然后}，实验里人们选择忽略了这些错误，只是挑出对的时候，做得很好的时候，把这些录像给运动员看。"
+    },
+    {
+      "id": 39,
+      "doc": "token1978",
+      "variables": {
+        "text": "她们笑着从我身边走过，不过她们走向场地的时候打量了我一下，她们不出声地彼此交流，我猜是用数字、角度之类来谈论她们可能计划好的射击位置。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 40,
+      "doc": "99",
+      "variables": {
+        "text": "爱情，婚姻，离婚，休耕期，爱情，婚姻，共同监护子女，又一次婚姻，又一次离婚，你们能想象这画面吧。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 41,
+      "doc": "37_w",
+      "variables": {
+        "text": "这个世界几乎对你没有什么秘密了，你可以去搜寻到所有你要搜寻的事情，世界对你更加的开放了。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 42,
+      "doc": "87",
+      "variables": {
+        "text": "最后，我举了一个语言可以如何影响跟我们切身相关的事件的例子，如责备、惩罚和目击证词。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 43,
+      "doc": "27_w",
+      "variables": {
+        "text": "不管怎么样，我们都是在让自己在这个社会中的一个适合的程度，得到一个提高，从而印证达尔文的这句话，叫做“强者未必生存，智者未必生存，适者生存。”"
+      },
+      "answer_type": "string",
+      "answer": "{不管}怎么样，我们都是在让自己在这个社会中的一个适合的程度，得到一个提高，{从而}印证达尔文的这句话，叫做“强者未必生存，智者未必生存，适者生存。”"
+    },
+    {
+      "id": 44,
+      "doc": "105",
+      "variables": {
+        "text": "我们将测试者的一只真手遮盖起来，取而代之的是这只橡胶手，将橡胶手放在人们面前。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 45,
+      "doc": "24_w",
+      "variables": {
+        "text": "甚至会说你能坚持多久啊？"
+      },
+      "answer_type": "string",
+      "answer": "{甚至}会说你能坚持多久啊？"
+    },
+    {
+      "id": 46,
+      "doc": "56_w",
+      "variables": {
+        "text": "啊，你就是相信说我们在早期，我们中国在早期就是说，哪里的刀剑做的最好，哪个国家就是赢家。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 47,
+      "doc": "46_w",
+      "variables": {
+        "text": "我记得，我虽然没有你方便，可是我横渡过日月潭两次。"
+      },
+      "answer_type": "string",
+      "answer": "我记得，我{虽然}没有你方便，{可是}我横渡过日月潭两次。"
+    },
+    {
+      "id": 48,
+      "doc": "84",
+      "variables": {
+        "text": "在今天，相比于同样规格的跳高运动员的平均体型，铅球运动员的平均体型要高二点五英寸并且重130 磅。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 49,
+      "doc": "30_w",
+      "variables": {
+        "text": "呃，通过我们的技术呢，就可以帮助定损人员在办公室里面，这个喝一杯茶就可以很清爽的把这个事情给做了。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 50,
+      "doc": "17_w",
+      "variables": {
+        "text": "他是新和老的混合在一起的，那个黑黑的石头是当地山上自己的石头，那这是一个老房子，这个老房子，当地人说这个没有任何价值，拆掉吧。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 51,
+      "doc": "39_w",
+      "variables": {
+        "text": "就在我要出发之前，我的太太，她非常地非常地非常地舍不得，就是常常一直哭。"
+      },
+      "answer_type": "string",
+      "answer": "就在我要出发{之前}，我的太太，她非常地非常地非常地舍不得，就是常常一直哭。"
+    },
+    {
+      "id": 52,
+      "doc": "70",
+      "variables": {
+        "text": "从伊拉克和阿富汗归来的成千上百个军人爆发出各种问题，没有人去看他们脑部功能的状态。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 53,
+      "doc": "24_w",
+      "variables": {
+        "text": "我觉得我真的就印证了这句话，从我的大学一年级开始，我鼓起勇气印出了我的第一件T恤 。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 54,
+      "doc": "46_w",
+      "variables": {
+        "text": "我就遇到，这几年有一些年轻人，会抱怨自己没有好的家世背景，没有好的条件，薪水很低，然后房价很高，看不到未来。"
+      },
+      "answer_type": "string",
+      "answer": "我就遇到，这几年有一些年轻人，会抱怨自己没有好的家世背景，没有好的条件，薪水很低，{然后}房价很高，看不到未来。"
+    },
+    {
+      "id": 55,
+      "doc": "105",
+      "variables": {
+        "text": "如果我再在这儿加上第二版图像用灰条连接这两块区域，你会发现，它们毫无差别。"
+      },
+      "answer_type": "string",
+      "answer": "{如果}我再在这儿加上第二版图像用灰条连接这两块区域，你会发现，它们毫无差别。"
+    },
+    {
+      "id": 56,
+      "doc": "3",
+      "variables": {
+        "text": "例如，我们的想法。"
+      },
+      "answer_type": "string",
+      "answer": "{例如}，我们的想法。"
+    },
+    {
+      "id": 57,
+      "doc": "87",
+      "variables": {
+        "text": "而回答会是：“远处东北偏北处，你呢？”"
+      },
+      "answer_type": "string",
+      "answer": "{而}回答会是：“远处东北偏北处，你呢？”"
+    },
+    {
+      "id": 58,
+      "doc": "9",
+      "variables": {
+        "text": "也因此，我早产了两个月。"
+      },
+      "answer_type": "string",
+      "answer": "也{因此}，我早产了两个月。"
+    },
+    {
+      "id": 59,
+      "doc": "87",
+      "variables": {
+        "text": "大概平均每个星期就有一种语言消失，据估计，在接下来的100年 里世界上一半的语言将会消失。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 60,
+      "doc": "88",
+      "variables": {
+        "text": "而且那就是你的热爱所在。"
+      },
+      "answer_type": "string",
+      "answer": "{而且}那就是你的热爱所在。"
+    },
+    {
+      "id": 61,
+      "doc": "90",
+      "variables": {
+        "text": "今天，我想和大家分享一些我的经历，谈谈这些经历是如何塑造了我对文化的审视，谈谈我是多么希望过去的经历可以引起一场变革，帮助其他人少遭受一些痛苦。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 62,
+      "doc": "88",
+      "variables": {
+        "text": "当我得到在出版业的第一份工作——杂志编辑，我非常开心。"
+      },
+      "answer_type": "string",
+      "answer": "{当}我得到在出版业的第一份工作——杂志编辑，我非常开心。"
+    },
+    {
+      "id": 63,
+      "doc": "9",
+      "variables": {
+        "text": "我也希望就是，我最大的希望就是让更多人可以成为器官捐赠者，让更多的人可以因此而活命，让更多的家庭可以因此而受惠。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 64,
+      "doc": "54_w",
+      "variables": {
+        "text": "那其中有几本书很幸运地在后来被翻译到外文去，特别是中间第二本书叫复眼人这本书，成为台湾第一本，被版权交易到蓝灯书屋，全世界最大的出版社，蓝灯书屋下面翻译出来的一本书。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 65,
+      "doc": "99",
+      "variables": {
+        "text": "实际上我永远也不能感觉完整，直到我学会爱自己。"
+      },
+      "answer_type": "string",
+      "answer": "实际上我永远也不能感觉完整，{直到}我学会爱自己。"
+    },
+    {
+      "id": 66,
+      "doc": "23_w",
+      "variables": {
+        "text": "但我以前的一些朋友，可能都会在讲“你是不是还是没长大啊。”"
+      },
+      "answer_type": "string",
+      "answer": "{但}我以前的一些朋友，可能都会在讲“你是不是还是没长大啊。”"
+    },
+    {
+      "id": 67,
+      "doc": "99",
+      "variables": {
+        "text": "你更不会对自己说，“你要是没有嫁给那个屌丝，我就会爱你，但是你嫁了，对不起，我觉得我们俩结束了。”"
+      },
+      "answer_type": "string",
+      "answer": "你{更}不会对自己说，“你要是没有嫁给那个屌丝，我就会爱你，{但是}你嫁了，对不起，我觉得我们俩结束了。”"
+    },
+    {
+      "id": 68,
+      "doc": "20_w",
+      "variables": {
+        "text": "还有最后这一个人，这个人是弗洛伊德曾经非常好的学术上的伙伴叫做荣格。"
+      },
+      "answer_type": "string",
+      "answer": "{还有}最后这一个人，这个人是弗洛伊德曾经非常好的学术上的伙伴叫做荣格。"
+    },
+    {
+      "id": 69,
+      "doc": "29_w",
+      "variables": {
+        "text": "那随着这个咱们城市化进程的不断的深化，其实在北上广之外，有越来越多的城市，它们不管是在经济上啊，日常生活条件上，或者是文化条件上，都越来越达到这个大家新时代期待的这种宜居的条件了。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 70,
+      "doc": "42_w",
+      "variables": {
+        "text": "等着自己有没有人，在八点半带他去刑场，到了九点确定没有，把衣服换回来，持续过他一生的生活。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 71,
+      "doc": "12",
+      "variables": {
+        "text": "老师就说:“韦嘉，教育实习，是一个让你虚心学习的地方，不是让你一展长才的地方。”"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 72,
+      "doc": "75",
+      "variables": {
+        "text": "我觉得我领悟到了关键，有能力去创一番事业，社会工作的一个重要理念是置身于工作的不适中。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 73,
+      "doc": "43_w",
+      "variables": {
+        "text": "然后总有一天，我可以吃到这个世界上最大，最饱满的饼干，让我吃一辈子都不会再饿。"
+      },
+      "answer_type": "string",
+      "answer": "{然后}总有一天，我可以吃到这个世界上最大，最饱满的饼干，{让}我吃一辈子都不会再饿。"
+    },
+    {
+      "id": 74,
+      "doc": "56_w",
+      "variables": {
+        "text": "现在做积层钢的东西，就是像这个东西做好，这个是我有做一支剑，在我们台湾得到台湾工艺师的奖，这个是四面的花纹都不一样，这个叫做控纹。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 75,
+      "doc": "30_w",
+      "variables": {
+        "text": "比如说哪天去超市买的方便面，它涨个五毛钱或者一毛钱，它很有可能就是三千公里之外的马来和印尼，它多下了一场雨。"
+      },
+      "answer_type": "string",
+      "answer": "{比如说}哪天去超市买的方便面，它涨个五毛钱或者一毛钱，它很有可能就是三千公里之外的马来和印尼，它多下了一场雨。"
+    },
+    {
+      "id": 76,
+      "doc": "36_w",
+      "variables": {
+        "text": "在机场中间，那像那种台阶，我是上不去的，这时候或者是背或者是抬让我上去。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 77,
+      "doc": "20_w",
+      "variables": {
+        "text": "这几年，我带很多的人去重新回顾他们自己的生命经验，我们去探究出觉察力可以做的方法是什么。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 78,
+      "doc": "90",
+      "variables": {
+        "text": "在2010年 的9月 ，我和妈妈打了一通电话，讨论了关于泰勒·克莱门蒂的新闻，他是罗格斯大学一年级的新生。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 79,
+      "doc": "88",
+      "variables": {
+        "text": "我离曾经的工作越来越远：杂志编辑、电台主持，这些在聚会上说出来都令人羡慕的工作。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 80,
+      "doc": "28_w",
+      "variables": {
+        "text": "当然还有我们看不到的无形垃圾，这些无形垃圾就好比商品虚假营销广告，促使消费者去盲目消费。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 81,
+      "doc": "22_w",
+      "variables": {
+        "text": "那通过这样的方式，我们能在游戏结束的时候，让很多人知道一些 tips 。"
+      },
+      "answer_type": "string",
+      "answer": "那通过这样的方式，我们能在游戏结束{的时候}，让很多人知道一些tips 。"
+    },
+    {
+      "id": 82,
+      "doc": "84",
+      "variables": {
+        "text": "这里你看到迈克.菲尔普斯，历史上最伟大的游泳运动员，就站在希查姆.艾尔.奎罗伊的旁边，一英里世界纪录的保持者。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 83,
+      "doc": "106",
+      "variables": {
+        "text": "但我相信一种成功神学，我相信即使是在黑暗里，也会有美好，也会有爱。"
+      },
+      "answer_type": "string",
+      "answer": "{但}我相信一种成功神学，我相信{即使}是在黑暗里，也会有美好，也会有爱。"
+    },
+    {
+      "id": 84,
+      "doc": "81",
+      "variables": {
+        "text": "由于时差的关系，我就想，“好吧，他一定是和朋友在一起，他晚点儿会打来的。”"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 85,
+      "doc": "27_w",
+      "variables": {
+        "text": "那，但是真正帮到干香柏北部居群，适应这种干旱和稍微寒冷的气候的基因呢？"
+      },
+      "answer_type": "string",
+      "answer": "那，{但是}真正帮到干香柏北部居群，适应这种干旱和稍微寒冷的气候的基因呢？"
+    },
+    {
+      "id": 86,
+      "doc": "68",
+      "variables": {
+        "text": "我原本以为世界上只有我一个人会继续留在一个打我的男人身边，但是事实上在我这个年龄段这种事情非常普遍。"
+      },
+      "answer_type": "string",
+      "answer": "我原本以为世界上只有我一个人会继续留在一个打我的男人身边，{但是}事实上在我这个年龄段这种事情非常普遍。"
+    },
+    {
+      "id": 87,
+      "doc": "52_w",
+      "variables": {
+        "text": "那天我想要录鸟叫，但中午 12点多吃完中饭后去录，其实鸟只有在清晨跟黄昏，出来觅食时会叽叽喳喳叫，中午整座山非常安静。"
+      },
+      "answer_type": "string",
+      "answer": "那天我想要录鸟叫，{但}中午12点 多吃完中饭{后}去录，其实鸟只有在清晨跟黄昏，出来觅食{时}会叽叽喳喳叫，中午整座山非常安静。"
+    },
+    {
+      "id": 88,
+      "doc": "30_w",
+      "variables": {
+        "text": "比如说从这个矩阵里面去找到这张图里面有多少条船。"
+      },
+      "answer_type": "string",
+      "answer": "{比如说}从这个矩阵里面去找到这张图里面有多少条船。"
+    },
+    {
+      "id": 89,
+      "doc": "3",
+      "variables": {
+        "text": "在比较不极端的一方面，我们过去的研究不断的显示，情绪跟我们的身体、心理健康，跟我们的学习、工作表现、领导力、创造力，都有密切直接的关系。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 90,
+      "doc": "54_w",
+      "variables": {
+        "text": "这是陈有兰溪在1996年 贺伯颱风上面的龙华国小整个被掏空以后倒塌，请问一下这是谁的恶意？"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 91,
+      "doc": "29_w",
+      "variables": {
+        "text": "然后我们也看到很多年轻人开始在生活当中，创造更多自己让自己喘气的小时刻。"
+      },
+      "answer_type": "string",
+      "answer": "{然后}我们也看到很多年轻人开始在生活当中，创造更多自己让自己喘气的小时刻。"
+    },
+    {
+      "id": 92,
+      "doc": "81",
+      "variables": {
+        "text": "只要你了解这些知识，并改变一些简单的习惯，那将是一个我们都能置身其中的世界。"
+      },
+      "answer_type": "string",
+      "answer": "{只要}你了解这些知识，{并}改变一些简单的习惯，那将是一个我们都能置身其中的世界。"
+    },
+    {
+      "id": 93,
+      "doc": "20_w",
+      "variables": {
+        "text": "他们反而很勇敢的站到这个困境里面去，了解这个困境背后的意义是什么。"
+      },
+      "answer_type": "string",
+      "answer": "他们{反而}很勇敢的站到这个困境里面去，了解这个困境背后的意义是什么。"
+    },
+    {
+      "id": 94,
+      "doc": "88",
+      "variables": {
+        "text": "但没这回事。"
+      },
+      "answer_type": "string",
+      "answer": "{但}没这回事。"
+    },
+    {
+      "id": 95,
+      "doc": "17_w",
+      "variables": {
+        "text": "这也是为什么在过去的十年里头，我带着我的工作室啊，也同时我也是个教师，带着我的学生在整个的浙江省我们来做调查。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 96,
+      "doc": "55_w",
+      "variables": {
+        "text": "我希望今天在座的各位听完我这一场演讲，其实不用有非常非常大的涟漪，你只要开始感觉到你正在选择就好。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 97,
+      "doc": "28_w",
+      "variables": {
+        "text": "还有人认为我们做的不够，因为我上厕所需要用纸，偶尔还会坐飞机，甚至每周还有点肉菜。"
+      },
+      "answer_type": "string",
+      "answer": "还有人认为我们做的不够，{因为}我上厕所需要用纸，偶尔还会坐飞机，{甚至}每周还有点肉菜。"
+    },
+    {
+      "id": 98,
+      "doc": "3",
+      "variables": {
+        "text": "那时候我问了她一句所有心理医生迟早都会问病人的问题，“你有什么感觉啊？”"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 99,
+      "doc": "29_w",
+      "variables": {
+        "text": "比如说，我今天突然就不想被微信轰炸了，我就把我的微信这个名称直接改成“青年志- summer -闭关写提案-写的好与不好-上下三个亿”那这样的一个名字在那边的时候，不管是客户啊，或者是这个领导啊，试图在群里要@我的时候，可能就会会心的一笑，放我一马。"
+      },
+      "answer_type": "string",
+      "answer": "{比如说}，我今天突然就不想被微信轰炸了，我就把我的微信这个名称直接改成“青年志-summer -闭关写提案-写的好与不好-上下三个亿”那这样的一个名字在那边{的时候}，不管是客户啊，或者是这个领导啊，试图在群里要@我{的时候}，可能就会会心的一笑，放我一马。"
+    },
+    {
+      "id": 100,
+      "doc": "token769",
+      "variables": {
+        "text": "有时候，我们只是随便地给一个成人或孩子命名，却有可能限制住了他们的发展，给他们蒙上阴影，让他们对自己的能力质疑。"
+      },
+      "answer_type": "string",
+      "answer": "有时候，我们只是随便地给一个成人或孩子命名，{却}有可能限制住了他们的发展，给他们蒙上阴影，让他们对自己的能力质疑。"
+    },
+    {
+      "id": 101,
+      "doc": "106",
+      "variables": {
+        "text": "我还没完全理解成功神学是如何成为了主要的国民宗教，为美国梦的核心做出另一个超常的解释。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 102,
+      "doc": "9",
+      "variables": {
+        "text": "因为，生命就是应该让它活得有色彩一点。"
+      },
+      "answer_type": "string",
+      "answer": "{因为}，生命就是应该让它活得有色彩一点。"
+    },
+    {
+      "id": 103,
+      "doc": "36_w",
+      "variables": {
+        "text": "我想，一个人走出来，那就有更多的残障朋友走出来，更多的残障人朋友走出来。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 104,
+      "doc": "83",
+      "variables": {
+        "text": "2009年时，我把目标放得非常远大，对于一名到如今都不能安静下来、无法集中心神超过 10 分钟的人来说非常远大，那就是阅读 50 本书。"
+      },
+      "answer_type": "string",
+      "answer": "2009年 时，我把目标放得非常远大，对于一名到如今都不能安静下来、无法集中心神超过10 分钟的人来说非常远大，{那就是}阅读50 本书。"
+    },
+    {
+      "id": 105,
+      "doc": "token769",
+      "variables": {
+        "text": "今天我想做一点声明，“克服逆境”这一说法对我来说根本不成立，别人让我就这一话题说几句的时候，我很不自在，我开始思考为什么会这样。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 106,
+      "doc": "30_w",
+      "variables": {
+        "text": "呃，那么我们拿着这个模型去判断未来，就可以得到一张风险地图。"
+      },
+      "answer_type": "string",
+      "answer": "呃，{那么}我们拿着这个模型去判断未来，就可以得到一张风险地图。"
+    },
+    {
+      "id": 107,
+      "doc": "35_w",
+      "variables": {
+        "text": "很幸运，我在一次下乡考察的，这样的一个过程中，结识了一个隐居在寺庙的，这样的一个老学者。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 108,
+      "doc": "28_w",
+      "variables": {
+        "text": "据美国国家地理报道，上世纪五十年代，塑料开始在我们生活当中，被大规模的生产和运用，所有人在产生垃圾至今还在这个地球上，其中只有不到百分之九的塑料被真正得到回收。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 109,
+      "doc": "37_w",
+      "variables": {
+        "text": "但是，现在我们发现移动式的平台，还有不断更新的讯息，已经把电视台讲究专业分工，跟录播流程这样子的逻辑思维，全部都给打乱了。"
+      },
+      "answer_type": "string",
+      "answer": "{但是}，现在我们发现移动式的平台，还有不断更新的讯息，已经把电视台讲究专业分工，跟录播流程这样子的逻辑思维，全部都给打乱了。"
+    },
+    {
+      "id": 110,
+      "doc": "90",
+      "variables": {
+        "text": "当我们意识到了可持续性的重要之处，更多的人开始已经把目光转向了循环利用。"
+      },
+      "answer_type": "string",
+      "answer": "{当}我们意识到了可持续性的重要之处，更多的人开始已经把目光转向了循环利用。"
+    },
+    {
+      "id": 111,
+      "doc": "54_w",
+      "variables": {
+        "text": "有很多感觉是必须靠直觉，必须靠一些抽象的语言去描述，我觉得文学可以唤醒我们的审美能力。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 112,
+      "doc": "9",
+      "variables": {
+        "text": "对啊，也产生出许多问题，像是排斥、自体免疫、还有关节上的疼痛。"
+      },
+      "answer_type": "string",
+      "answer": "对啊，也产生出许多问题，{像是}排斥、自体免疫、还有关节上的疼痛。"
+    },
+    {
+      "id": 113,
+      "doc": "81",
+      "variables": {
+        "text": "事实上，我这辈子经历过的最困难的事就是跨过大西洋搬到纽约来读心理学的博士学位。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 114,
+      "doc": "20_w",
+      "variables": {
+        "text": "我把它分成三个步骤，第一个呢，就是你要去认识那些你跟别人相处的时候，那些让你不舒服的，那些人际之间的经验。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 115,
+      "doc": "68",
+      "variables": {
+        "text": "在初次交往中康纳做的最聪明的事情，是让我相信，在这段感情中我是强势的一方。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 116,
+      "doc": "87",
+      "variables": {
+        "text": "当我们测试人们辨别这些颜色的能力的时候，我们发现俄语使用者能够更快地进行这种概念切换，他们能够更快地分辨浅蓝色和深蓝色。"
+      },
+      "answer_type": "string",
+      "answer": "{当}我们测试人们辨别这些颜色的能力{的}时候，我们发现俄语使用者能够更快地进行这种概念切换，他们能够更快地分辨浅蓝色和深蓝色。"
+    },
+    {
+      "id": 117,
+      "doc": "21_w",
+      "variables": {
+        "text": "在中国的上市公司当中啊，三百位基础拣选出来经济社会环境贡献最大的九十九家公司，被我们称为叫做发现中国\"义利99 \"。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 118,
+      "doc": "52_w",
+      "variables": {
+        "text": "因为认真，所以更主动学习，去发掘这片子中还有多少乐趣。"
+      },
+      "answer_type": "string",
+      "answer": "{因为}认真，{所以}更主动学习，{去}发掘这片子中还有多少乐趣。"
+    },
+    {
+      "id": 119,
+      "doc": "32_w",
+      "variables": {
+        "text": "最后吃完以后发现，剩下来的东西跟吃的时候是一样的，那么这些东西哪里去呢？"
+      },
+      "answer_type": "string",
+      "answer": "最后吃完{以后}发现，剩下来的东西跟吃的时候是一样的，那么这些东西哪里去呢？"
+    },
+    {
+      "id": 120,
+      "doc": "84",
+      "variables": {
+        "text": "现在想象去年的世锦赛的100 米比赛体育场，成千上万的粉丝屏住呼吸等待着去观看尤塞恩博尔特，史上跑得最快的人，如同闪光灯闪动时一样的世界上最快的九个人在各自的跑道上做好准备。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 121,
+      "doc": "97",
+      "variables": {
+        "text": "工业化国家睡眠量的大量减少对我们的健康，我们的幸福，甚至安全以及孩子的教育有灾难性的影响。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 122,
+      "doc": "17_w",
+      "variables": {
+        "text": "我们去看了一下，做了个调查，后来发现，还有一点点传统东西的村子也不过还剩下二十多个，其实是一个非常惨的一个状态啊。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 123,
+      "doc": "30_w",
+      "variables": {
+        "text": "他们去拿这个手持的 GPS 跑到地里面去走一圈，然后得到了一个面积数据。"
+      },
+      "answer_type": "string",
+      "answer": "他们去拿这个手持的GPS 跑到地里面去走一圈，{然后}得到了一个面积数据。"
+    },
+    {
+      "id": 124,
+      "doc": "75",
+      "variables": {
+        "text": "因为我相信当我们在一个让人觉得“我已经足够了”的环境中打拼的时候，我们会停止抱怨，开始倾听，我们会对周围的人会更友善，更温和，对自己也会更友善，更温和。"
+      },
+      "answer_type": "string",
+      "answer": "{因为}我相信{当}我们在一个让人觉得“我已经足够了”的环境中打拼{的}时候，我们会停止抱怨，开始倾听，我们会对周围的人会更友善，更温和，对自己{也}会更友善，更温和。"
+    },
+    {
+      "id": 125,
+      "doc": "token1971",
+      "variables": {
+        "text": "我使用了磁共振成像，来捕捉病人肢体解剖图所表现的准确形状，再用有限元建模来更好地预测出正常状态下，肌体内部所受到的压力和张力，据此创造出假肢接受腔送去制作。"
+      },
+      "answer_type": "string",
+      "answer": "我使用了磁共振成像，{来}捕捉病人肢体解剖图所表现的准确形状，再用有限元建模{来}更好地预测出正常状态下，肌体内部所受到的压力和张力，据此创造出假肢接受腔送去制作。"
+    },
+    {
+      "id": 126,
+      "doc": "99",
+      "variables": {
+        "text": "然后 8 年后，我又再婚了，我 40 岁的时候，我当时觉得，“好，这个感觉对了！”"
+      },
+      "answer_type": "string",
+      "answer": "{然后}8 年后，我又再婚了，我40 岁{的时候}，我当时觉得，“好，这个感觉对了！”"
+    },
+    {
+      "id": 127,
+      "doc": "55_w",
+      "variables": {
+        "text": "运气好的话，七点十五分你在水里，但是这已经跟本来的计划不一样。"
+      },
+      "answer_type": "string",
+      "answer": "运气好{的话}，七点十五分你在水里，{但是}这已经跟本来的计划不一样。"
+    },
+    {
+      "id": 128,
+      "doc": "84",
+      "variables": {
+        "text": "所以在巨大体格占优势的运动中，“巨大”的运动员变得越来越“巨大”。"
+      },
+      "answer_type": "string",
+      "answer": "{所以}在巨大体格占优势的运动中，“巨大”的运动员变得越来越“巨大”。"
+    },
+    {
+      "id": 129,
+      "doc": "1",
+      "variables": {
+        "text": "后来还用英文助理的名义，踏进了广告界。"
+      },
+      "answer_type": "string",
+      "answer": "{后来}还{用}英文助理的名义，踏进了广告界。"
+    },
+    {
+      "id": 130,
+      "doc": "55_w",
+      "variables": {
+        "text": "我要讲的就是，是什么样的秘诀，让我一步一步走到今天，可以成为一个摇滚国际歌手。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 131,
+      "doc": "37_w",
+      "variables": {
+        "text": "我觉得我们的古人真的是先知，早在千年前就说了：“秀才不出门，能知天下事。”"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 132,
+      "doc": "token769",
+      "variables": {
+        "text": "这个词条中“接近反义词”中的两个词尤其让我很不好受，它们是：“完整的，健全的。”"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 133,
+      "doc": "token1756",
+      "variables": {
+        "text": "我想要研究的是，这是怎样的过程，有着这些身份认同的人们是怎么和他们保持好的关系的。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 134,
+      "doc": "3",
+      "variables": {
+        "text": "但是，我是可以生气，但不能打人。"
+      },
+      "answer_type": "string",
+      "answer": "{但是}，我是可以生气，但不能打人。"
+    },
+    {
+      "id": 135,
+      "doc": "68",
+      "variables": {
+        "text": "我们刚搬到新英格兰小镇，我想，康纳应该是觉得这里很安全，他就买了三支枪。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 136,
+      "doc": "18_w",
+      "variables": {
+        "text": "所以，我们用它回收的绿色酒瓶做成了一个杯子，这个杯子搭配月饼呢，一起贩售给他的消费者。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 137,
+      "doc": "105",
+      "variables": {
+        "text": "一类是我们对于外界的认知，包括影像、声音、气味，这是多感官的、全景的、3D 的、身临其境的内心电影。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 138,
+      "doc": "6",
+      "variables": {
+        "text": "因此，我没有自信。"
+      },
+      "answer_type": "string",
+      "answer": "{因此}，我没有自信。"
+    },
+    {
+      "id": 139,
+      "doc": "84",
+      "variables": {
+        "text": "在20 世纪上半叶，体育教师和教练都认为匀称的体型对于所有运动来说是最好的；中等身高，中等体重，无论什么运动。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 140,
+      "doc": "65_w",
+      "variables": {
+        "text": "这首歌的诞生多少跟那时候台湾在殖民政府日本殖民之下，产生的那种台湾人要唱自己的歌的意识所产生的歌。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 141,
+      "doc": "84",
+      "variables": {
+        "text": "之后这种见解逐渐消失，与此同时，数字科技，首先是收音机，然后是电视和网络，给予百万，甚至十余亿人一张“票”去观看运动比赛。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 142,
+      "doc": "31_w",
+      "variables": {
+        "text": "那Z 实际上本科是一个学物理的人，他本身对这种虚拟的真实是不感兴趣的。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 143,
+      "doc": "3",
+      "variables": {
+        "text": "碰到再无理的人不可以生气；自己心里再难过也不可以流眼泪，那是在职场上。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 144,
+      "doc": "25_w",
+      "variables": {
+        "text": "不知道有多少朋友跟我一样啊，对于那种看上去特别轻松，赚钱又特别多的工作，充满了好奇心和向往。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 145,
+      "doc": "24_w",
+      "variables": {
+        "text": "其实那个时候在乡郊野外真的是已经一盏灯都没有了，我们每一个人都必须靠自己的头灯，然后看看着前面几米的路。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 146,
+      "doc": "34_w",
+      "variables": {
+        "text": "意见领袖这个词，其实最早提出意见领袖这个词，是1940年 的一个社会学家，指在人际传播中处于优势地位，能够有效影响他人意见的人。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 147,
+      "doc": "52_w",
+      "variables": {
+        "text": "今天你把这声音拿到繁杂的台北市，戴上耳机，把眼睛闭起来，真的好像在听音乐一样。"
+      },
+      "answer_type": "string",
+      "answer": "今天你把这声音拿到繁杂的台北市，戴上耳机，把眼睛闭起来，真的{好像}在听音乐一样。"
+    },
+    {
+      "id": 148,
+      "doc": "27_w",
+      "variables": {
+        "text": "实际上花青素这两年在我们的保健品市场也非常出名，号称可以口服的美容化妆品，在座的女士可以尝试一下。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 149,
+      "doc": "20_w",
+      "variables": {
+        "text": "在心理学家的概念里面呢，人从出生开始就有一种很像英雄的状态，我们会觉得自己非常的了不起，所以你会觉得自己应该要成为一个什么样的人，非常非常棒的人。"
+      },
+      "answer_type": "string",
+      "answer": "在心理学家的概念里面呢，人从出生开始就有一种{很像}英雄的状态，我们会觉得自己非常的了不起，{所以}你会觉得自己应该要成为一个什么样的人，非常非常棒的人。"
+    },
+    {
+      "id": 150,
+      "doc": "88",
+      "variables": {
+        "text": "我被解雇后不久，这档栏目也被砍掉了。"
+      },
+      "answer_type": "string",
+      "answer": "我被解雇{后不久}，这档栏目也被砍掉了。"
+    },
+    {
+      "id": 151,
+      "doc": "27_w",
+      "variables": {
+        "text": "那么我们可以看到右图这个祖源聚类分析里面，干香柏北部居群里面，它实际上是有巨柏过来的一点点的这样一些基因，那这些基因到底传递了多少基因呢？"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 152,
+      "doc": "99",
+      "variables": {
+        "text": "现在我来回想一下我刚刚描述的这个人，她有一段非常糟糕的感情史，我就想，“我真的要跟这个人结婚吗？这就是你想让我结婚的女人？”"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 153,
+      "doc": "86",
+      "variables": {
+        "text": "我不是一个人，太多女士曾告诉我她们多么被职业和专业吸引，她们知道她们会做得很好，她们知道她们会非常完美，不足为奇。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 154,
+      "doc": "23_w",
+      "variables": {
+        "text": "但实际上有一份数据，我也感觉到特别有意思的，就是全球电子游戏玩家实际上现在有 23亿了。"
+      },
+      "answer_type": "string",
+      "answer": "{但}实际上有一份数据，我也感觉到特别有意思的，就是全球电子游戏玩家实际上现在有23亿 了。"
+    },
+    {
+      "id": 155,
+      "doc": "21_w",
+      "variables": {
+        "text": "也就是说市场是不是接纳呢？"
+      },
+      "answer_type": "string",
+      "answer": "{也就是说}市场是不是接纳呢？"
+    },
+    {
+      "id": 156,
+      "doc": "token1971",
+      "variables": {
+        "text": "对我来说，想要开始抚平那些被战争和疾病伤害的人们的心灵的创伤，就是要先为他们的身体创造出舒适并且价格低廉的接口。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 157,
+      "doc": "36_w",
+      "variables": {
+        "text": "这个是在台湾地区，我在地铁里面拍到了，这里面大概有四到五辆的婴儿车在那面。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 158,
+      "doc": "27_w",
+      "variables": {
+        "text": "比如，今天我看见了有大国工匠，有跑者，有设计者，非常出色的，还有像我这样的教书匠。"
+      },
+      "answer_type": "string",
+      "answer": "{比如}，今天我看见了有大国工匠，有跑者，有设计者，非常出色的，还有像我这样的教书匠。"
+    },
+    {
+      "id": 159,
+      "doc": "24_w",
+      "variables": {
+        "text": "教练说，“这叫做体格提升，就是当你每次到了身体的极限的时候，再迫使你一点，这次做二十个下次做四十个。”"
+      },
+      "answer_type": "string",
+      "answer": "教练说，“这叫做体格提升，{就是}当你每次到了身体的极限{的时候}，再迫使你一点，这次做二十个下次做四十个。”"
+    },
+    {
+      "id": 160,
+      "doc": "19_w",
+      "variables": {
+        "text": "我觉得就是因为有这样子的过程，让年轻人他们自己去接触，他们自己去选择他们的价值观，选择他们想要相信的实践。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 161,
+      "doc": "75",
+      "variables": {
+        "text": "而我的观点则倾向于，生活是一团乱麻，解开它，把它整理好，再归类放入便当盒里。"
+      },
+      "answer_type": "string",
+      "answer": "{而}我的观点则倾向于，生活是一团乱麻，解开它，把它整理好，再归类放入便当盒里。"
+    },
+    {
+      "id": 162,
+      "doc": "70",
+      "variables": {
+        "text": "逆转脑部损害是很令人雀跃的新疆界，但其影响比单是修复脑部更深远。"
+      },
+      "answer_type": "string",
+      "answer": "逆转脑部损害是很令人雀跃的新疆界，{但}其影响比单是修复脑部更深远。"
+    },
+    {
+      "id": 163,
+      "doc": "54_w",
+      "variables": {
+        "text": "可是，作为一个文学作者，每次谈到环境议题的时候，比方说我们谈到核能议题的时候，我们就会遇到专家跳出来说，“你根本不是一个核能专家，你凭什麽对这个议题表达意见。”"
+      },
+      "answer_type": "string",
+      "answer": "{可是}，作为一个文学作者，每次谈到环境议题的时候，{比方说}我们谈到核能议题{的时候}，我们就会遇到专家跳出来说，“你根本不是一个核能专家，你凭什麽对这个议题表达意见。”"
+    },
+    {
+      "id": 164,
+      "doc": "20_w",
+      "variables": {
+        "text": "然后，在那之后呢，我就陷入一股非常长时间的悲伤，那我怎么样让自己好起来呢?"
+      },
+      "answer_type": "string",
+      "answer": "{然后}，在那之后呢，我就陷入一股非常长时间的悲伤，那我怎么样让自己好起来呢?"
+    },
+    {
+      "id": 165,
+      "doc": "token769",
+      "variables": {
+        "text": "我想在最后送给大家一首诗，诗的作者是十四世纪的波斯诗人哈菲斯，这首诗是我的一个朋友，雅克•邓波讲给我的。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 166,
+      "doc": "30_w",
+      "variables": {
+        "text": "但实际上我们在处理很多事情的时候，肉眼是无法去看的。"
+      },
+      "answer_type": "string",
+      "answer": "{但}实际上我们在处理很多事情的时候，肉眼是无法去看的。"
+    },
+    {
+      "id": 167,
+      "doc": "token1756",
+      "variables": {
+        "text": "我们的社会进步了，医学也发展了，我认同这两方面的进步，我认为社会的进步是了不起的，有意义的和惊人的，我认为医学的进步也是如此。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 168,
+      "doc": "19_w",
+      "variables": {
+        "text": "所以，我觉得，嗯，我加入风筝计划之后，我看的这些年轻人，从他们眼神当中，我可以看到曾经的我自己，因为曾经的我在国中的时候，因为时常打架、闹事、转学。"
+      },
+      "answer_type": "string",
+      "answer": "所以，我觉得，嗯，我加入风筝计划{之后}，我看的这些年轻人，从他们眼神当中，我可以看到曾经的我自己，{因为}曾经的我在国中{的时候}，因为时常打架、闹事、转学。"
+    },
+    {
+      "id": 169,
+      "doc": "81",
+      "variables": {
+        "text": "我当时无法解释，但我现在明白了，非常简单的原因：孤独。"
+      },
+      "answer_type": "string",
+      "answer": "我当时无法解释，{但}我现在明白了，非常简单的原因：孤独。"
+    },
+    {
+      "id": 170,
+      "doc": "6",
+      "variables": {
+        "text": "但是，如果他们，没有你想象的，渴望的那么可爱，我只能说，你的路难走一点。"
+      },
+      "answer_type": "string",
+      "answer": "{但是}，如果他们，没有你想象的，渴望的那么可爱，我只能说，你的路难走一点。"
+    },
+    {
+      "id": 171,
+      "doc": "10",
+      "variables": {
+        "text": "下课后，她问我开不开心，我说：“开心。”"
+      },
+      "answer_type": "string",
+      "answer": "下课{后}，她问我开不开心，我说：“开心。”"
+    },
+    {
+      "id": 172,
+      "doc": "token824",
+      "variables": {
+        "text": "我们对于民间机构，对政府，有时甚至是对科学，已经失去了信任，也许我们确实有不信任的理由。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 173,
+      "doc": "90",
+      "variables": {
+        "text": "在过去的八个月里，这些对话的内容，一直像达摩克利斯之剑临头的危险一样悬在我的头上。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 174,
+      "doc": "35_w",
+      "variables": {
+        "text": "他说，“在中国做文化、做艺术，就是要考验你们有没有这样的一个格局，能够贯穿古今中外、跨越这个时间和空间束缚的这样一个格局。”"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 175,
+      "doc": "84",
+      "variables": {
+        "text": "在去年年末， 1314 人在四分钟内跑完了一英里，但就像杰西·欧文一样，罗杰·本尼斯特阁下在柔软的煤渣上跑步，这从他腿上偷去的能量要多于今日的塑胶跑道所偷走的。"
+      },
+      "answer_type": "string",
+      "answer": "在去年年末，1314 人在四分钟内跑完了一英里，{但}就像杰西·欧文一样，罗杰·本尼斯特阁下在柔软的煤渣上跑步，这从他腿上偷去的能量要多于今日的塑胶跑道所偷走的。"
+    },
+    {
+      "id": 176,
+      "doc": "24_w",
+      "variables": {
+        "text": "而且这群女生让我第一次感受到跑步可以这么的疯狂。"
+      },
+      "answer_type": "string",
+      "answer": "{而且}这群女生让我第一次感受到跑步可以这么的疯狂。"
+    },
+    {
+      "id": 177,
+      "doc": "25_w",
+      "variables": {
+        "text": "似乎人们对于包装纸里面包着的东西被拆开的那一瞬间，格外地好奇，并且能给许多人制造快感。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 178,
+      "doc": "85",
+      "variables": {
+        "text": "想象一下我们可以怎样改变我们为人父母的方式，“谢谢你，爱丽丝，谢谢你把杯子拿到吧台。”"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 179,
+      "doc": "52_w",
+      "variables": {
+        "text": "眼睛闭起来后，其实可以看到更多的东西。"
+      },
+      "answer_type": "string",
+      "answer": "眼睛闭起来{后}，其实可以看到更多的东西。"
+    },
+    {
+      "id": 180,
+      "doc": "48_w",
+      "variables": {
+        "text": "如果，你今天可以在社群网站分享你在这个预算里头的发现给大家，让更多的人关心国家的预算。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 181,
+      "doc": "25_w",
+      "variables": {
+        "text": "因为，原来可能我带着更大的制作组去拍摄的可能更专业的视频都没有受到过这么多的关注。"
+      },
+      "answer_type": "string",
+      "answer": "{因为}，原来可能我带着更大的制作组去拍摄的可能更专业的视频都没有受到过这么多的关注。"
+    },
+    {
+      "id": 182,
+      "doc": "9",
+      "variables": {
+        "text": "跟你右边的人讲说“你可以做到的”，跟你左边的人说“你可以做到的”，现在你相信你可以做到吗？"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 183,
+      "doc": "17_w",
+      "variables": {
+        "text": "因为最可怕的是，又搞出一种新的中国风格，啊，又是一个概念化的，因为真正的中国的东西是非常丰富啊，非常有细腻的差别。"
+      },
+      "answer_type": "string",
+      "answer": "{因为}最可怕的是，又搞出一种新的中国风格，啊，又是一个概念化的，{因为}真正的中国的东西是非常丰富啊，非常有细腻的差别。"
+    },
+    {
+      "id": 184,
+      "doc": "12",
+      "variables": {
+        "text": "因为你们现在做的话，到时分组比赛，招式就会被别组抄走。"
+      },
+      "answer_type": "string",
+      "answer": "因为你们现在做{的话}，{到时}分组比赛，招式就会被别组抄走。"
+    },
+    {
+      "id": 185,
+      "doc": "12",
+      "variables": {
+        "text": "我就永远记得那时候，但是我的谢师宴的时候，老师跟我讲这一句，他说，“花圃中的草，长得比较高的那个，总是被割掉的那个。”"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 186,
+      "doc": "17_w",
+      "variables": {
+        "text": "那么在这样一些巨大的高楼大厦之下，普通人的那种卑微的，日常的，可爱的，小小的生活还有没有价值啊？"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 187,
+      "doc": "36_w",
+      "variables": {
+        "text": "只想把他的这个过程，他的就去独自出行的过程把它记录下来，这个真实的记录下来。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 188,
+      "doc": "token769",
+      "variables": {
+        "text": "我想把我几个月之前的一个大发现与大家分享一下，我当时正在为一家意大利杂志“Wired ”写一篇文章。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 189,
+      "doc": "86",
+      "variables": {
+        "text": "编程，是一个无止尽的过程实验和错误，试着将对的指令放在合适的地方，有时只是一个分号就能决定成功还是失败。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 190,
+      "doc": "88",
+      "variables": {
+        "text": "我并不想知道接下来五年我要做什麽，或者我会投入什麽。"
+      },
+      "answer_type": "string",
+      "answer": "我并不想知道接下来五年我要做什麽，{或者}我会投入什麽。"
+    },
+    {
+      "id": 191,
+      "doc": "24_w",
+      "variables": {
+        "text": "尤其是平地马拉松、城市马拉松，基本上都是没有什么落差的，就算是我们去到香港的渣打马拉松。"
+      },
+      "answer_type": "string",
+      "answer": "尤其是平地马拉松、城市马拉松，基本上都是没有什么落差的，{就算}是我们去到香港的渣打马拉松。"
+    },
+    {
+      "id": 192,
+      "doc": "37_w",
+      "variables": {
+        "text": "如此看起来，电视台的困境就非常清楚了，电视台一直以来是大家所仰望的，建置成本非常高。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 193,
+      "doc": "54_w",
+      "variables": {
+        "text": "除此之外呢，其实我们也可以用另外一种说法，这是美国的自然写作者 Aldo Leopold ，是我的偶像，他写的，他说“在每个转弯处，我们看到白鹭站在前方的水池中，一尊尊白色的雕像都有一个白色的倒影，当一群白鹭在远处一棵绿柳树上栖息时，它们看起来就像一阵太早来临的暴风雪”。"
+      },
+      "answer_type": "string",
+      "answer": "除此之外呢，其实我们也可以用另外一种说法，这是美国的自然写作者Aldo Leopold ，是我的偶像，他写的，他说“在每个转弯处，我们看到白鹭站在前方的水池中，一尊尊白色的雕像都有一个白色的倒影，{当}一群白鹭在远处一棵绿柳树上栖息{时}，它们看起来就像一阵太早来临的暴风雪”。"
+    },
+    {
+      "id": 194,
+      "doc": "token1756",
+      "variables": {
+        "text": "当母亲说那些话的时候，我就会感到很焦虑。"
+      },
+      "answer_type": "string",
+      "answer": "{当}母亲说那些话{的}时候，我就会感到很焦虑。"
+    },
+    {
+      "id": 195,
+      "doc": "9",
+      "variables": {
+        "text": "这是我四岁的时候，代表阿拉斯加州到美国国会，倡导器官捐赠重要性的照片之一。"
+      },
+      "answer_type": "string",
+      "answer": "这是我四岁{的时候}，代表阿拉斯加州到美国国会，倡导器官捐赠重要性的照片之一。"
+    },
+    {
+      "id": 196,
+      "doc": "token824",
+      "variables": {
+        "text": "好了，这样一场非常有趣的对话之后，你也许会说，“你还会走进这一时间机器，并且驶向未来吗？”"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 197,
+      "doc": "103",
+      "variables": {
+        "text": "它绝无仅有，或能引起战争，或能说“我爱你”。"
+      },
+      "answer_type": "string",
+      "answer": "它绝无仅有，或能引起战争，{或}能说“我爱你”。"
+    },
+    {
+      "id": 198,
+      "doc": "49_w",
+      "variables": {
+        "text": "我妈妈对此非常失望，所以我转换跑道，决定专研设计。"
+      },
+      "answer_type": "string",
+      "answer": "我妈妈对此非常失望，{所以}我转换跑道，决定专研设计。"
+    },
+    {
+      "id": 199,
+      "doc": "47_w",
+      "variables": {
+        "text": "他只能试着在沙土上、在墙壁上作画，把这个讯息传递出去，后来也许发明了纸、竹简这样子的媒体让人可以在上面书写、绘画，甚至到了后来中世纪可能有各式各样绘画的技巧、素描等等。"
+      },
+      "answer_type": "string",
+      "answer": "他只能试着在沙土上、在墙壁上作画，把这个讯息传递出去，后来也许发明了纸、竹简这样子的媒体让人可以在上面书写、绘画，{甚至}到了后来中世纪可能有各式各样绘画的技巧、素描等等。"
+    },
+    {
+      "id": 200,
+      "doc": "103",
+      "variables": {
+        "text": "另外，就像老歌里唱的，你所说的很重要，还有你的表达方式也很重要。"
+      },
+      "answer_type": "string",
+      "answer": "{另外}，就像老歌里唱的，你所说的很重要，还有你的表达方式{也}很重要。"
+    },
+    {
+      "id": 201,
+      "doc": "54_w",
+      "variables": {
+        "text": "那最后，请容许我为各位念我写的一首诗，这是今年美浓的黄蝶祭的时候，主办单位邀请我去黄蝶祭，我写的一首诗，当时林生祥替我伴奏。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 202,
+      "doc": "17_w",
+      "variables": {
+        "text": "这个农民自己想造的就是这样的房子，他们想拆掉这个老的，换这样一个新的，就是非常典型。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 203,
+      "doc": "36_w",
+      "variables": {
+        "text": "现在的无障碍车厢是已经标配了，就标配还是这样的座位全部都是健全人在坐，我们这种重点旅客是买不到的。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 204,
+      "doc": "87",
+      "variables": {
+        "text": "对我来说，如果我面向这边，时间就是这样走的；如果我面向这边，时间就是这样走的；如果我面向这边，时间就是这样走的——完全以我为中心，我每次一转身，时间也要跟着我改变方向。"
+      },
+      "answer_type": "string",
+      "answer": "对我来说，{如果}我面向这边，时间就是这样走的；如果我面向这边，时间就是这样走的；如果我面向这边，时间就是这样走的——完全以我为中心，我每次一转身，时间也要跟着我改变方向。"
+    },
+    {
+      "id": 205,
+      "doc": "10",
+      "variables": {
+        "text": "从以上两个小故事中大家可能会发现，我小时候想要学什么，父母还是蛮尊重我的意愿。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 206,
+      "doc": "29_w",
+      "variables": {
+        "text": "举个例子，开箱视频大家肯定都不陌生，那在一线城市有人设的网红们开箱开什么东西呢？"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 207,
+      "doc": "token1756",
+      "variables": {
+        "text": "那些听力健全的父母，总是试图去治愈他们的孩子，那些聋人要差不多到青春期的时候，才开始接触聋人群体。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 208,
+      "doc": "83",
+      "variables": {
+        "text": "十个月后，我听完了所有99 张CD 的德国语言教程，每一张听了三遍。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 209,
+      "doc": "6",
+      "variables": {
+        "text": "但是，后来走入身心灵领域后，我才清清楚楚的了解，原来指责跟谩骂是婚姻里特大号的杀手。"
+      },
+      "answer_type": "string",
+      "answer": "{但是}，后来走入身心灵领域{后}，我才清清楚楚的了解，原来指责跟谩骂是婚姻里特大号的杀手。"
+    },
+    {
+      "id": 210,
+      "doc": "84",
+      "variables": {
+        "text": "女子体操的平均数据在过去30年 中，从5 英尺3 英寸缩小到了四英尺九英寸，这样有益于他们的能量-体重比率和在空气中旋转。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 211,
+      "doc": "token769",
+      "variables": {
+        "text": "看吧，你们所需要的就是这样一个人，他能向你展示你自己的力量，人类的灵魂是包容的。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 212,
+      "doc": "29_w",
+      "variables": {
+        "text": "那，呃，大家可能都听过这个词，其实是近几年年轻人的，呃，休闲审美的一个奥义，叫做“沙雕”。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 213,
+      "doc": "43_w",
+      "variables": {
+        "text": "但是，终究是被他追上了"
+      },
+      "answer_type": "string",
+      "answer": "{但是}，终究是被他追上了"
+    },
+    {
+      "id": 214,
+      "doc": "85",
+      "variables": {
+        "text": "听清楚，下面这句话我送给狂人，不合群的，反叛的，老惹麻烦的，与周围格格不入的人。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 215,
+      "doc": "68",
+      "variables": {
+        "text": "而在美国， 16 至 24 岁的女性相比其他年龄段的女性受到家庭暴力伤害的可能性要高出两倍以上。"
+      },
+      "answer_type": "string",
+      "answer": "{而}在美国，16 至24 岁的女性相比其他年龄段的女性受到家庭暴力伤害的可能性要高出两倍以上。"
+    },
+    {
+      "id": 216,
+      "doc": "3",
+      "variables": {
+        "text": "从事心理学的研究，让我有机会到不同的地方，常常认识不一样的人。"
+      },
+      "answer_type": "string",
+      "answer": "从事心理学的研究，{让}我有机会到不同的地方，常常认识不一样的人。"
+    },
+    {
+      "id": 217,
+      "doc": "90",
+      "variables": {
+        "text": "在场的人，有22 岁时没做过错事或者没后悔过自己22 岁经历的，请举手示意好吗？"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 218,
+      "doc": "103",
+      "variables": {
+        "text": "如果我把声音提到鼻子这儿，你可以听出不同。"
+      },
+      "answer_type": "string",
+      "answer": "{如果}我把声音提到鼻子这儿，你可以听出不同。"
+    },
+    {
+      "id": 219,
+      "doc": "65_w",
+      "variables": {
+        "text": "我想说的就是说，每一次发声和每一次聆听的这个过程，它不只是一个当下的感情而已。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 220,
+      "doc": "64_w",
+      "variables": {
+        "text": "比方我们前面讲的，当我们打开门发现门外面，或者向上的楼梯间充满着浓烟跟高热的时候，这时候请你不要逃生，请你不要逃生，"
+      },
+      "answer_type": "string",
+      "answer": "{比方}我们前面讲的，{当}我们打开门发现门外面，或者向上的楼梯间充满着浓烟跟高热{的}时候，这时候请你不要逃生，请你不要逃生，"
+    },
+    {
+      "id": 221,
+      "doc": "18_w",
+      "variables": {
+        "text": "他不知道，他就问了那个工厂的师傅说：“那这些坏掉的胚体会去哪？”"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 222,
+      "doc": "34_w",
+      "variables": {
+        "text": "其实，我们有在关注一点点，比如说，从他们所发的这个意见，发表的意见和最后被点赞的次数和粉丝转化率，被评论的次数和粉丝转化率等等各个不同的这个关系。"
+      },
+      "answer_type": "string",
+      "answer": "其实，我们有在关注一点点，{比如说}，从他们所发的这个意见，发表的意见和最后被点赞的次数和粉丝转化率，被评论的次数和粉丝转化率等等各个不同的这个关系。"
+    },
+    {
+      "id": 223,
+      "doc": "46_w",
+      "variables": {
+        "text": "我知道这是现实，可是我也想跟大家分享的是一个掉到粪坑里面又一直抱怨粪坑很臭的人是走不出粪坑的。"
+      },
+      "answer_type": "string",
+      "answer": "我知道这是现实，{可是}我也想跟大家分享的是一个掉到粪坑里面又一直抱怨粪坑很臭的人是走不出粪坑的。"
+    },
+    {
+      "id": 224,
+      "doc": "token1978",
+      "variables": {
+        "text": "杰西·乔伊娜-柯西在1984年 以三分之一秒的差距和七项全能金牌失之交臂，她的丈夫预测说，这个经历会带给她在后续比赛中所需要的韧性。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 225,
+      "doc": "42_w",
+      "variables": {
+        "text": "因为我希望他可以理解他的所作所为对于被害者，对于被害者的家庭甚至对于像我在内的人或者一般的人造成多大的影响。"
+      },
+      "answer_type": "string",
+      "answer": "{因为}我希望他可以理解他的所作所为对于被害者，对于被害者的家庭甚至对于像我在内的人或者一般的人造成多大的影响。"
+    },
+    {
+      "id": 226,
+      "doc": "85",
+      "variables": {
+        "text": "我就这样给自己写了一封信它是我的“自夸”列表，那上面有我为之骄傲的成就。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 227,
+      "doc": "35_w",
+      "variables": {
+        "text": "于是我趁热打铁，又做了这样一件反映道家文化的这个大型雕塑的这个装置作品。"
+      },
+      "answer_type": "string",
+      "answer": "{于是}我趁热打铁，又做了这样一件反映道家文化的这个大型雕塑的这个装置作品。"
+    },
+    {
+      "id": 228,
+      "doc": "12",
+      "variables": {
+        "text": "从此开始，才能让天赋自由。"
+      },
+      "answer_type": "string",
+      "answer": "{从}此{开始}，才能让天赋自由。"
+    },
+    {
+      "id": 229,
+      "doc": "37_w",
+      "variables": {
+        "text": "很简单的，我就来拿2015年 的YouTube 的十大网红来作为例子，各位就可以知道了。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 230,
+      "doc": "97",
+      "variables": {
+        "text": "现在，在春天，当我们少一个小时睡眠时，我们看到接下来的第二天心脏病发作会增加 24%。"
+      },
+      "answer_type": "string",
+      "answer": "现在，在春天，{当}我们少一个小时睡眠{时}，我们看到接下来的第二天心脏病发作会增加24% 。"
+    },
+    {
+      "id": 231,
+      "doc": "43_w",
+      "variables": {
+        "text": "这些孩子饥饿的，受虐的，甚至因为爸爸妈妈是新住民而受到歧视的都有，我认为这个不是政府的问题而已。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 232,
+      "doc": "23_w",
+      "variables": {
+        "text": "后来高中的时候跟几个小伙伴一起组织动画工作室，我尝试去做 3D 的一些模型设计以及动画设计。"
+      },
+      "answer_type": "string",
+      "answer": "后来高中{的时候}跟几个小伙伴一起组织动画工作室，我尝试去做3D 的一些模型设计以及动画设计。"
+    },
+    {
+      "id": 233,
+      "doc": "55_w",
+      "variables": {
+        "text": "但是我知道，只要把身材练得匀称，我可以比任何人都要高大。"
+      },
+      "answer_type": "string",
+      "answer": "{但是}我知道，{只要}把身材练得匀称，我可以比任何人都要高大。"
+    },
+    {
+      "id": 234,
+      "doc": "54_w",
+      "variables": {
+        "text": "可是，各位要记住一件事情，在生态保育的过程当中，你不认识的动物，通常人们就比较不关心它。"
+      },
+      "answer_type": "string",
+      "answer": "{可是}，各位要记住一件事情，在生态保育的过程当中，你不认识的动物，通常人们就比较不关心它。"
+    },
+    {
+      "id": 235,
+      "doc": "42_w",
+      "variables": {
+        "text": "我的手机常常会接到不明的简讯，很多时候是要访问的，有些是谩骂类型的简讯，这个简讯来特别的奇怪。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 236,
+      "doc": "17_w",
+      "variables": {
+        "text": "远处那一堆房子在浙江省现在叫做违章建筑，全省都在搞一个大的运动叫拆违章建筑。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 237,
+      "doc": "24_w",
+      "variables": {
+        "text": "感觉好像我穿了一件勇气的防护衣一样，它促使我更加有信心的迈出下一步去尝试其他我没有尝试过的东西。"
+      },
+      "answer_type": "string",
+      "answer": "感觉{好像}我穿了一件勇气的防护衣一样，它促使我更加有信心的迈出下一步去尝试其他我没有尝试过的东西。"
+    },
+    {
+      "id": 238,
+      "doc": "19_w",
+      "variables": {
+        "text": "然后呢，冲动的个性被学校列为高关怀的年轻人，被带到青少年辅导组里面去辅导。"
+      },
+      "answer_type": "string",
+      "answer": "{然后}呢，冲动的个性被学校列为高关怀的年轻人，被带到青少年辅导组里面去辅导。"
+    },
+    {
+      "id": 239,
+      "doc": "54_w",
+      "variables": {
+        "text": "如果你给我的那座山啊都是柠檬色的迁徙者，你会走到哪里都想念那座山，因为这世界每个人都在路上，扛着你的铁刀木啊在路上，想念故乡的山就往心口砍一刀，这里柠檬色的迁徙者指的就是淡黄蝶，因为它的英文名字就叫柠檬色的迁徙者。"
+      },
+      "answer_type": "string",
+      "answer": "{如果}你给我的那座山啊都是柠檬色的迁徙者，你会走到哪里都想念那座山，{因为}这世界每个人都在路上，扛着你的铁刀木啊在路上，想念故乡的山就往心口砍一刀，这里柠檬色的迁徙者指的就是淡黄蝶，{因为}它的英文名字就叫柠檬色的迁徙者。"
+    },
+    {
+      "id": 240,
+      "doc": "token1971",
+      "variables": {
+        "text": "我在塞拉利昂出生长大，这是一个小而美丽的国家，位于非洲的西部，这里有丰富的物产资源和富有创造力的人才。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 241,
+      "doc": "103",
+      "variables": {
+        "text": "当然，音调常常跟语速一起来指示兴奋度，但你能仅仅用音调就显示出来。"
+      },
+      "answer_type": "string",
+      "answer": "当然，音调常常跟语速一起来指示兴奋度，{但}你能仅仅用音调就显示出来。"
+    },
+    {
+      "id": 242,
+      "doc": "token824",
+      "variables": {
+        "text": "这仅仅是移动了一些基因组，跟添加化学物质没有任何关联，跟荷尔蒙也没有关系。"
+      },
+      "answer_type": "string",
+      "answer": "这仅仅是移动了一些基因组，跟添加化学物质没有任何关联，跟荷尔蒙{也}没有关系。"
+    },
+    {
+      "id": 243,
+      "doc": "42_w",
+      "variables": {
+        "text": "那么后来我的女儿跟我说：“爸爸你的工作好难。”"
+      },
+      "answer_type": "string",
+      "answer": "{那么}后来我的女儿跟我说：“爸爸你的工作好难。”"
+    },
+    {
+      "id": 244,
+      "doc": "86",
+      "variables": {
+        "text": "我得到了《纽约每日新闻》的认可，《华尔街日报》刊登了我在选举日的照片，美国全国广播公司财经频道称之为全国范围内最热的选战。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 245,
+      "doc": "6",
+      "variables": {
+        "text": "包括里面有一句，是很多父母亲都告诉孩子说：“我骂你是因为我爱你。”"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 246,
+      "doc": "43_w",
+      "variables": {
+        "text": "研究结果发现，几乎毫无例外的，这多出来的一块饼干都被随机选出来的小组长给吃掉了。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 247,
+      "doc": "17_w",
+      "variables": {
+        "text": "那么正常的建筑师应该做什么呢？"
+      },
+      "answer_type": "string",
+      "answer": "{那么}正常的建筑师应该做什么呢？"
+    },
+    {
+      "id": 248,
+      "doc": "22_w",
+      "variables": {
+        "text": "如果我不过去的话，是没有办法解决这个问题的。"
+      },
+      "answer_type": "string",
+      "answer": "{如果}我不过去{的话}，是没有办法解决这个问题的。"
+    },
+    {
+      "id": 249,
+      "doc": "84",
+      "variables": {
+        "text": "在1972年 ，埃迪.麦克莱斯打破了一小时骑行最长距离的记录，1 小时骑行30 英里，3774 英尺。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 250,
+      "doc": "17_w",
+      "variables": {
+        "text": "这个是我们当时，这十年里头，我们做了大量这样的工作，对每一个地区做这样详细的调查。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 251,
+      "doc": "3",
+      "variables": {
+        "text": "她说：“我也很失望。这个人，当初我嫁给他的时候，不是这个样子的。”"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 252,
+      "doc": "99",
+      "variables": {
+        "text": "我有点想再说一遍：你生命中遇到最大挑战的部分将会成为你最能够提供想法的部分，现在让我来跟你讲讲我最需要嫁的那个人：我自己。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 253,
+      "doc": "75",
+      "variables": {
+        "text": "最后我输了，但我或许赢回了我的生活。"
+      },
+      "answer_type": "string",
+      "answer": "最后我输了，{但}我或许赢回了我的生活。"
+    },
+    {
+      "id": 254,
+      "doc": "token1978",
+      "variables": {
+        "text": "他被问道：“您认为是什么增加了知识？”他回答说：“知道的越少，学到的越多。”"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 255,
+      "doc": "86",
+      "variables": {
+        "text": "我的朋友Lev Brie ，是哥伦比亚大学的教授，他教授Java 编程，他告诉我他对电脑科学学生开放的咨询时间里发生的故事。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 256,
+      "doc": "17_w",
+      "variables": {
+        "text": "我们做这样的图，让农民拿着这个图，像字典一样去查，完了，自己按照这个东西去做改造。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 257,
+      "doc": "49_w",
+      "variables": {
+        "text": "我对MOB 的定义就是一千平方米的单纯好料，外加一群有创意的技客天才，创意十足的嬉皮客和机智精明的生意人，全部混为一体，将所有三个组合同一个空间。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 258,
+      "doc": "token1756",
+      "variables": {
+        "text": "他是他的家庭成员里第一个去上大学的人，他住在学校宿舍并且自己开车，一辆为他身体状况特别制造的汽车。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 259,
+      "doc": "token1978",
+      "variables": {
+        "text": "总觉得还有更多的视觉技巧、姿势训练可以帮助她们去克服那些连续的“差一点的成功”。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 260,
+      "doc": "85",
+      "variables": {
+        "text": "强大的活着，然后这个变成了他个人精神的代言。"
+      },
+      "answer_type": "string",
+      "answer": "强大的活着，{然后}这个变成了他个人精神的代言。"
+    },
+    {
+      "id": 261,
+      "doc": "20_w",
+      "variables": {
+        "text": "可是这个女生呢，就用一种我听起来真的非常奇怪的语调，在跟这个男生说话。"
+      },
+      "answer_type": "string",
+      "answer": "{可是}这个女生呢，就用一种我听起来真的非常奇怪的语调，在跟这个男生说话。"
+    },
+    {
+      "id": 262,
+      "doc": "24_w",
+      "variables": {
+        "text": "然后我又自己一个人在黑暗的道路里面跑。"
+      },
+      "answer_type": "string",
+      "answer": "{然后}我又自己一个人在黑暗的道路里面跑。"
+    },
+    {
+      "id": 263,
+      "doc": "99",
+      "variables": {
+        "text": "第二，你将与你自己结婚，无论是好是坏。"
+      },
+      "answer_type": "string",
+      "answer": "{第二}，你将与你自己结婚，无论是好是坏。"
+    },
+    {
+      "id": 264,
+      "doc": "52_w",
+      "variables": {
+        "text": "我们很少有机会，因为平常都在讲话，走路，制造很多杂音，没有办法跟环境有这样密切地接触。"
+      },
+      "answer_type": "string",
+      "answer": "我们很少有机会，{因为}平常都在讲话，走路，制造很多杂音，没有办法跟环境有这样密切地接触。"
+    },
+    {
+      "id": 265,
+      "doc": "67",
+      "variables": {
+        "text": "我收到一封他们发的邮件，上面写着：“还有三周，安全超市就要在国王十字路口开张啦！！！”"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 266,
+      "doc": "99",
+      "variables": {
+        "text": "这想法和婚姻本身一样重要，如果要简单地概括，就是你和你自己开始交往，然后你为自己带上一枚戒指。"
+      },
+      "answer_type": "string",
+      "answer": "这想法和婚姻本身一样重要，{如果}要简单地概括，就是你和你自己开始交往，{然后}你为自己带上一枚戒指。"
+    },
+    {
+      "id": 267,
+      "doc": "88",
+      "variables": {
+        "text": "我没有任何销售背景，除非算上女童军经历，我的表现也很糟。"
+      },
+      "answer_type": "string",
+      "answer": "我没有任何销售背景，{除非}算上女童军经历，我的表现也很糟。"
+    },
+    {
+      "id": 268,
+      "doc": "85",
+      "variables": {
+        "text": "我觉得他那时候就像《海豚故事》里那条叫弗里波的海豚一样，每次我扔球过去，他总接不住，我那时心想，“完了，我们有麻烦了。”"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 269,
+      "doc": "36_w",
+      "variables": {
+        "text": "但是呢，这种座位我从来没买过。"
+      },
+      "answer_type": "string",
+      "answer": "{但是}呢，这种座位我从来没买过。"
+    },
+    {
+      "id": 270,
+      "doc": "103",
+      "variables": {
+        "text": "如果我打扰了任何人的话，抱歉。"
+      },
+      "answer_type": "string",
+      "answer": "{如果}我打扰了任何人{的话}，抱歉。"
+    },
+    {
+      "id": 271,
+      "doc": "27_w",
+      "variables": {
+        "text": "那么这个时候我们讲，这个杂种群会有很多不同的命运，可以发生基因传递，可以进化产生新物种，也可以让稀有的亲本种走向灭绝。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 272,
+      "doc": "token1978",
+      "variables": {
+        "text": "我当时站在一个弓箭手后面，她的教练站在我们中间，可能是看看谁需要支持，还有照看，我甚至不知道怎么样才能击中 10 环。"
+      },
+      "answer_type": "string",
+      "answer": "我{当时}站在一个弓箭手后面，她的教练站在我们中间，可能是看看谁需要支持，还有照看，我甚至不知道怎么样才能击中10 环。"
+    },
+    {
+      "id": 273,
+      "doc": "70",
+      "variables": {
+        "text": "在接下来的22年 中，我和同事从93 个国家搜集行为问题病患的脑部扫描影像，建构了世界上此领域中最大的资料库。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 274,
+      "doc": "106",
+      "variables": {
+        "text": "我研究了基督教的一支，别称“成功神学”，它的名字很直白地告诉你上帝希望你成功。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 275,
+      "doc": "3",
+      "variables": {
+        "text": "这时候你可能会想到，监狱里面的暴力犯不就是情绪出了问题，才会做出这些事吗？"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 276,
+      "doc": "83",
+      "variables": {
+        "text": "我还是那位不能静下心来，专注超过5 或10 分钟的孩子，还是那位没有特殊天赋或技能的人。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 277,
+      "doc": "39_w",
+      "variables": {
+        "text": "那为什么，为什么它这么没有生产力，听起来这么没有意思的一件事情，我们还要花这么多的心力去做？"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 278,
+      "doc": "97",
+      "variables": {
+        "text": "这是一种无声的睡眠缺乏流行病，它正在快速成为我们在21 世纪面临的其中一个公众健康的最大挑战。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 279,
+      "doc": "87",
+      "variables": {
+        "text": "所以俄语使用者一生都会在语言上区别这两种颜色。"
+      },
+      "answer_type": "string",
+      "answer": "{所以}俄语使用者一生都会在语言上区别这两种颜色。"
+    },
+    {
+      "id": 280,
+      "doc": "27_w",
+      "variables": {
+        "text": "那么二零一四年和二零一六年发表的两篇文章，分别证明藏人从已灭绝的丹尼索瓦人身上获得了一些基因，帮助他们适应高原低氧的环境。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 281,
+      "doc": "47_w",
+      "variables": {
+        "text": "简单来讲，我们认为从VR 现在这个科技，它已经可以突破人类基本的感知，把人类真正带到一个虚拟空间。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 282,
+      "doc": "83",
+      "variables": {
+        "text": "有一天，我步行去上班，那段时间我的通勤方式就是步行从伦敦海德公园的一端到另一端。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 283,
+      "doc": "17_w",
+      "variables": {
+        "text": "嗯，二零一二年的五月的某一天，我在这个北京的人民大会堂，接受了这个雷斯奖，并搬了家。"
+      },
+      "answer_type": "string",
+      "answer": "嗯，二零一二年的五月的某一天，我在这个北京的人民大会堂，接受了这个雷斯奖，{并}搬了家。"
+    },
+    {
+      "id": 284,
+      "doc": "18_w",
+      "variables": {
+        "text": "大家不知道有没有闻过羊奶或者牛奶臭掉的味道，那个臭掉的味道是大家难以想象的。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 285,
+      "doc": "85",
+      "variables": {
+        "text": "而对我来说，“你的意思是我还有一丝机会呢”。"
+      },
+      "answer_type": "string",
+      "answer": "{而}对我来说，“你的意思是我还有一丝机会呢”。"
+    },
+    {
+      "id": 286,
+      "doc": "12",
+      "variables": {
+        "text": "跟小时候一样，学校就传了，传到我的指导教授那，然后我就又被征召了。"
+      },
+      "answer_type": "string",
+      "answer": "跟小时候一样，学校就传了，传到我的指导教授那，{然后}我就又被征召了。"
+    },
+    {
+      "id": 287,
+      "doc": "9",
+      "variables": {
+        "text": "而那时候，她三个月大，但是，去年十一月的时候，她接受了肝移植手术。"
+      },
+      "answer_type": "string",
+      "answer": "而那时候，她三个月大，{但是}，去年十一月的时候，她接受了肝移植手术。"
+    },
+    {
+      "id": 288,
+      "doc": "token824",
+      "variables": {
+        "text": "我们也不想让商业公司为新作物打上专利。"
+      },
+      "answer_type": "string",
+      "answer": "我们{也}不想让商业公司为新作物打上专利。"
+    },
+    {
+      "id": 289,
+      "doc": "1",
+      "variables": {
+        "text": "我的经验是这样：当，啊，到大国当宰相，有点像我一样哈，就是它是可以，你可以看到很多国际视野，比较见识多广。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 290,
+      "doc": "55_w",
+      "variables": {
+        "text": "而这四分之一你达成了什么？"
+      },
+      "answer_type": "string",
+      "answer": "{而}这四分之一你达成了什么？"
+    },
+    {
+      "id": 291,
+      "doc": "83",
+      "variables": {
+        "text": "他能控制的只有在处理那些小小决定的时候，做出最正确的选择，以便间接影响成功概率，让他获得这些成就。"
+      },
+      "answer_type": "string",
+      "answer": "他能控制的只有在处理那些小小决定{的时候}，做出最正确的选择，{以便}间接影响成功概率，{让}他获得这些成就。"
+    },
+    {
+      "id": 292,
+      "doc": "35_w",
+      "variables": {
+        "text": "那有缘人我就可以给他讲啊，为什么这个世界上有黑就有白，有男人就有女人？"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 293,
+      "doc": "32_w",
+      "variables": {
+        "text": "因此超尺度的背后有超尺度的结果，谁也预料不到结果是什么。"
+      },
+      "answer_type": "string",
+      "answer": "{因此}超尺度的背后有超尺度的结果，谁也预料不到结果是什么。"
+    },
+    {
+      "id": 294,
+      "doc": "6",
+      "variables": {
+        "text": "所以，在我们的互动当中，我们彼此也学习和平的重要。"
+      },
+      "answer_type": "string",
+      "answer": "{所以}，在我们的互动当中，我们彼此也学习和平的重要。"
+    },
+    {
+      "id": 295,
+      "doc": "106",
+      "variables": {
+        "text": "我越盯着看诊断书，越是意识到，对于“好人有好报”这句话，我有着自己的理解。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 296,
+      "doc": "28_w",
+      "variables": {
+        "text": "不健康的社会风气，误导消费者去盲目跟风、攀比、模仿，还有拥挤的居家环境，给我们的身心带来焦虑和烦躁。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 297,
+      "doc": "52_w",
+      "variables": {
+        "text": "这段声音是我在翡翠水库，台北市的水源，在那边录音的，下午大概5点 多的时候。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 298,
+      "doc": "27_w",
+      "variables": {
+        "text": "对吧，我们刚才讲的这个基因传递可以通过不断的F1 代不断的杂交和一个亲本杂交来传递基因。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 299,
+      "doc": "42_w",
+      "variables": {
+        "text": "那么今天我想透过分享一个故事的方式，而不去讲解这些艰涩的法律名词，来跟各位分享一下有关于死刑辩护教会我的几件事情。"
+      },
+      "answer_type": "string",
+      "answer": "{那么}今天我想透过分享一个故事的方式，而不去讲解这些艰涩的法律名词，{来}跟各位分享一下有关于死刑辩护教会我的几件事情。"
+    },
+    {
+      "id": 300,
+      "doc": "47_w",
+      "variables": {
+        "text": "这个话，我认为对的是一半，对的是说，游戏行业始终是虚拟现实非常重要的科技推手。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 301,
+      "doc": "19_w",
+      "variables": {
+        "text": "但是，他也现在是全四湖乡，唯一个会做灯光技术的年轻人。"
+      },
+      "answer_type": "string",
+      "answer": "{但是}，他也现在是全四湖乡，唯一个会做灯光技术的年轻人。"
+    },
+    {
+      "id": 302,
+      "doc": "17_w",
+      "variables": {
+        "text": "这就是我们的象山校园，啊，中心这栋楼是我们建筑学院，那个尖顶之下就是我的办公室啊。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 303,
+      "doc": "36_w",
+      "variables": {
+        "text": "这是在北京王府井，北京王府井的时候，一个妈妈带着孩子出来取钱，她用了无障碍设施。"
+      },
+      "answer_type": "string",
+      "answer": "这是在北京王府井，北京王府井{的时候}，一个妈妈带着孩子出来取钱，她用了无障碍设施。"
+    },
+    {
+      "id": 304,
+      "doc": "49_w",
+      "variables": {
+        "text": "我们尝试推广学生和专业人士共享的空间，这是参与的群众和120 位驻内会员，此外我们有3000 位线上会员。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 305,
+      "doc": "20_w",
+      "variables": {
+        "text": "而有多少能力可以去爱别人，那同时，你才有多少可能性，可以被别人同样这样子的对待。"
+      },
+      "answer_type": "string",
+      "answer": "{而}有多少能力可以去爱别人，那同时，你{才}有多少可能性，可以被别人同样这样子的对待。"
+    },
+    {
+      "id": 306,
+      "doc": "34_w",
+      "variables": {
+        "text": "我今天演讲内容是“ Reflection on KOL ”，就是意见领袖的一个反思，或者是个人一些感悟。"
+      },
+      "answer_type": "string",
+      "answer": "我今天演讲内容是“Reflection on KOL ”，就是意见领袖的一个反思，{或者}是个人一些感悟。"
+    },
+    {
+      "id": 307,
+      "doc": "61_w",
+      "variables": {
+        "text": "那上帝粒子的发现是透过高加速器所形成的设施，去找到原宇宙形成的前几秒里面所发生的现象，达到这样一个能量必须用到超导磁铁所形成的加速器才能达到这个目的，所以这是一个非常重要的应用。"
+      },
+      "answer_type": "string",
+      "answer": "那上帝粒子的发现是{透过}高加速器所形成的设施，{去}找到原宇宙形成的前几秒里面所发生的现象，达到这样一个能量必须用到超导磁铁所形成的加速器才能达到这个目的，{所以}这是一个非常重要的应用。"
+    },
+    {
+      "id": 308,
+      "doc": "90",
+      "variables": {
+        "text": "它让我再次想起了我的经历，我开始审视身边存在的羞辱和欺凌，并且发现了一些不同的东西。"
+      },
+      "answer_type": "string",
+      "answer": "它让我再次想起了我的经历，我开始审视身边存在的羞辱和欺凌，{并且}发现了一些不同的东西。"
+    },
+    {
+      "id": 309,
+      "doc": "23_w",
+      "variables": {
+        "text": "因为小霸王学习机当时有一个致命的缺陷，它并不能保存代码，意味着说你上午花半天时间写完代码，你可能就运行十分钟就结束了。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 310,
+      "doc": "24_w",
+      "variables": {
+        "text": "所以，在这个路上可能一个人也遇不到。"
+      },
+      "answer_type": "string",
+      "answer": "{所以}，在这个路上可能一个人也遇不到。"
+    },
+    {
+      "id": 311,
+      "doc": "31_w",
+      "variables": {
+        "text": "那平均而言，你一辈子喜欢十个人，对吧，那你不应该喜欢一千个人嘛，那你为什么还能记得百世前的我？”"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 312,
+      "doc": "64_w",
+      "variables": {
+        "text": "一发生火灾，应该要立即逃生。"
+      },
+      "answer_type": "string",
+      "answer": "{一}发生火灾，应该要立即逃生。"
+    },
+    {
+      "id": 313,
+      "doc": "47_w",
+      "variables": {
+        "text": "除了前面两个身临其境的效果跟三维媒体，我们看来，在非常近的现在我们觉得整个教育行业马上会有非常大的变化。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 314,
+      "doc": "37_w",
+      "variables": {
+        "text": "第一名的是这一位，他叫作Felix Kjellberg ，这位年轻的小伙子，据说他是YouTube 上面的一个传奇人物。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 315,
+      "doc": "81",
+      "variables": {
+        "text": "他还得再做三轮化疗，但是我们知道他能恢复。"
+      },
+      "answer_type": "string",
+      "answer": "他还得再做三轮化疗，{但是}我们知道他能恢复。"
+    },
+    {
+      "id": 316,
+      "doc": "46_w",
+      "variables": {
+        "text": "每当我拉著行李走在路上，我都拉不了太远、太久，就会有人冲过来，“先生，我帮你。”"
+      },
+      "answer_type": "string",
+      "answer": "{每当}我拉著行李走在路上，我都拉不了太远、太久，就会有人冲过来，“先生，我帮你。”"
+    },
+    {
+      "id": 317,
+      "doc": "56_w",
+      "variables": {
+        "text": "像这一支菜刀，要做菜刀了，旁边它的铁是软的，中间是包一块硬的。"
+      },
+      "answer_type": "string",
+      "answer": "{像}这一支菜刀，要做菜刀了，旁边它的铁是软的，中间是包一块硬的。"
+    },
+    {
+      "id": 318,
+      "doc": "18_w",
+      "variables": {
+        "text": "但是大家可能难以想象，有一个最辛苦的事情就是臭味。"
+      },
+      "answer_type": "string",
+      "answer": "{但是}大家可能难以想象，有一个最辛苦的事情就是臭味。"
+    },
+    {
+      "id": 319,
+      "doc": "6",
+      "variables": {
+        "text": "所以，我要跟各位分享的是，我的母亲是一个单亲妈妈。"
+      },
+      "answer_type": "string",
+      "answer": "{所以}，我要跟各位分享的是，我的母亲是一个单亲妈妈。"
+    },
+    {
+      "id": 320,
+      "doc": "20_w",
+      "variables": {
+        "text": "接着呢，我就看着我肚子里五周大的胚胎就从我身体里面就掉到马桶里去。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 321,
+      "doc": "54_w",
+      "variables": {
+        "text": "所以如果你不认识蓝鲸的话，要谈蓝鲸的保育就变得非常的困难。"
+      },
+      "answer_type": "string",
+      "answer": "{所以}{如果}你不认识蓝鲸{的话}，要谈蓝鲸的保育就变得非常的困难。"
+    },
+    {
+      "id": 322,
+      "doc": "31_w",
+      "variables": {
+        "text": "然后呢，逐渐的，这个技术越发展越好，就可以让他们正式有一些似乎真实的人生体验，像是做了一个又一个的长梦。"
+      },
+      "answer_type": "string",
+      "answer": "{然后}呢，逐渐的，这个技术越发展越好，就可以{让}他们正式有一些似乎真实的人生体验，像是做了一个又一个的长梦。"
+    },
+    {
+      "id": 323,
+      "doc": "12",
+      "variables": {
+        "text": "但台湾呢?"
+      },
+      "answer_type": "string",
+      "answer": "{但}台湾呢?"
+    },
+    {
+      "id": 324,
+      "doc": "32_w",
+      "variables": {
+        "text": "在很温暖的屋里看很冷的室内，很温暖的颜色对冷的室内的时候，我们完成这样的一个建筑，用我们的专业的方法来诠释它，这样是不是更好一点？"
+      },
+      "answer_type": "string",
+      "answer": "{在}很温暖的屋里看很冷的室内，很温暖的颜色对冷的室内{的}时候，我们完成这样的一个建筑，用我们的专业的方法来诠释它，这样是不是更好一点？"
+    },
+    {
+      "id": 325,
+      "doc": "18_w",
+      "variables": {
+        "text": "那我的父亲呢，我的父亲呢，和我的母亲从小含辛茹苦，真的做酒干倘卖无，抚养我长大，让我到英国剑桥读书，让我到mit 能当访问学者。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 326,
+      "doc": "29_w",
+      "variables": {
+        "text": "然后比如唐山，今天其实大家说的唐山的时候，更多的想到的是他们这个非常魔性的各种建筑，欢迎大家去实地看一看。"
+      },
+      "answer_type": "string",
+      "answer": "{然后}比如唐山，今天其实大家说的唐山{的时候}，更多的想到的是他们这个非常魔性的各种建筑，欢迎大家去实地看一看。"
+    },
+    {
+      "id": 327,
+      "doc": "30_w",
+      "variables": {
+        "text": "当这个时候有一个太阳照进去的时候，就会形成一个阴影。"
+      },
+      "answer_type": "string",
+      "answer": "{当}这个时候有一个太阳照进去{的}时候，就会形成一个阴影。"
+    },
+    {
+      "id": 328,
+      "doc": "86",
+      "variables": {
+        "text": "这只是成千上万个例子中的三个，成千上万个女孩被社会化为不完美的，她们学习如何不断尝试，学着如何持之以恒。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 329,
+      "doc": "17_w",
+      "variables": {
+        "text": "当然还有别的，比如我厨房做的很大，我希望他们还能够用传统的方式烧饭。"
+      },
+      "answer_type": "string",
+      "answer": "当然还有别的，{比如}我厨房做的很大，我希望他们还能够用传统的方式烧饭。"
+    },
+    {
+      "id": 330,
+      "doc": "68",
+      "variables": {
+        "text": "这就是我要告诉你的第一个事实：家庭暴力可能发生在每个人身上，无关你的种族、信仰、收入和教育水平。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 331,
+      "doc": "54_w",
+      "variables": {
+        "text": "我们国文课本选的文章大部分并不好，你只要想一下世界上的着名文学，有哪一些是描述人类的光明面。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 332,
+      "doc": "35_w",
+      "variables": {
+        "text": "大家可以看到这个它的这个裤衩，其实我用到的是上海世博会的那个中国国家馆，现在叫中华艺术宫啊，它这个元素的这个概念。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 333,
+      "doc": "27_w",
+      "variables": {
+        "text": "像我们这个地方，看到的马和驴，他们就是两个物种。"
+      },
+      "answer_type": "string",
+      "answer": "{像}我们这个地方，看到的马和驴，他们就是两个物种。"
+    },
+    {
+      "id": 334,
+      "doc": "19_w",
+      "variables": {
+        "text": "看到这次的主题叫做放学后fun ，我第一个想法就是，我们年轻人在学校里面的教育不快乐吗？"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 335,
+      "doc": "90",
+      "variables": {
+        "text": "近二十年来，无论是网络还是生活中，我们都在文化的土壤里慢慢地种下了公开羞辱的种子。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 336,
+      "doc": "token1971",
+      "variables": {
+        "text": "假肢接受腔是一个插孔，被截肢者将他们的残肢插入其中，假肢接受腔就和踝关节假体连接在一起。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 337,
+      "doc": "35_w",
+      "variables": {
+        "text": "安子格说，艺术最简单也最困难，偏技巧的只需要做到极致，偏观念的只需要做的真诚。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 338,
+      "doc": "18_w",
+      "variables": {
+        "text": "所以，在二零一七年的时候，我推了一个非常重要的计划，叫做 W春池计划。"
+      },
+      "answer_type": "string",
+      "answer": "{所以}，在二零一七年的时候，我推了一个非常重要的计划，叫做W春 池计划。"
+    },
+    {
+      "id": 339,
+      "doc": "99",
+      "variables": {
+        "text": "让我来告诉你“感觉对了”，对于一个去过24 个寄养家庭的女孩是什么样子的：一个男人结婚九个月后就开始出去约会了；他开始和21 岁的姑娘在一起。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 340,
+      "doc": "87",
+      "variables": {
+        "text": "如果你说的是希伯来语或阿拉伯语，你则可能会以相反的方向排列，从右到左。"
+      },
+      "answer_type": "string",
+      "answer": "{如果}你说的是希伯来语或阿拉伯语，你则可能会以相反的方向排列，从右到左。"
+    },
+    {
+      "id": 341,
+      "doc": "54_w",
+      "variables": {
+        "text": "当我到那些现场的时候，我发现一件事情，就是在这个弃绝野地价值的都市里面，我重新看到那些不同的脸。"
+      },
+      "answer_type": "string",
+      "answer": "{当}我到那些现场{的}时候，我发现一件事情，{就是}在这个弃绝野地价值的都市里面，我重新看到那些不同的脸。"
+    },
+    {
+      "id": 342,
+      "doc": "27_w",
+      "variables": {
+        "text": "那么这十六个里面呢，呃，有一个非常重要的基因，就是我们的MYBD 基因，这个基因可以帮助植物合成花青素。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 343,
+      "doc": "83",
+      "variables": {
+        "text": "不过，当你听到这些成就时，我希望你了解的是：我还是那位 C-的学生。"
+      },
+      "answer_type": "string",
+      "answer": "{不过}，{当}你听到这些成就{时}，我希望你了解的是：我还是那位C- 的学生。"
+    },
+    {
+      "id": 344,
+      "doc": "48_w",
+      "variables": {
+        "text": "我们还做了，你也可以看到单笔预算历年来的变化。"
+      },
+      "answer_type": "string",
+      "answer": "我们还做了，你{也}可以看到单笔预算历年来的变化。"
+    },
+    {
+      "id": 345,
+      "doc": "12",
+      "variables": {
+        "text": "我觉得我们的教育是应该有不一样的方式，我会希望有一天这个花圃中，可能没有推草机，可能这个草可以乱长，甚至有一天它可以开花。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 346,
+      "doc": "70",
+      "variables": {
+        "text": "1992年，我参加了一个全天的脑部 SPECT 影像技术研讨会，会议很精彩，而且和我们早期在精神病学中使用 SPECT 的经验相呼应。"
+      },
+      "answer_type": "string",
+      "answer": "1992年 ，我参加了一个全天的脑部SPECT 影像技术研讨会，会议很精彩，{而且}和我们早期在精神病学中使用SPECT 的经验相呼应。"
+    },
+    {
+      "id": 347,
+      "doc": "63_w",
+      "variables": {
+        "text": "然后，到南极的地方中间很多在海上都没有 internet ，结果到南极竟然有 internet ，因为那里有美军基地，有一些科学站。"
+      },
+      "answer_type": "string",
+      "answer": "{然后}，到南极的地方中间很多在海上都没有internet ，{结果}到南极竟然有internet ，{因为}那里有美军基地，有一些科学站。"
+    },
+    {
+      "id": 348,
+      "doc": "10",
+      "variables": {
+        "text": "所以，我现在有空的时候，还是会回去找琵琶老师上课。"
+      },
+      "answer_type": "string",
+      "answer": "{所以}，我现在有空{的时候}，还是会回去找琵琶老师上课。"
+    },
+    {
+      "id": 349,
+      "doc": "75",
+      "variables": {
+        "text": "我能告诉你关于耻辱的很多东西，但那样我就得占用别人的时间了。"
+      },
+      "answer_type": "string",
+      "answer": "我能告诉你关于耻辱的很多东西，{但}那样我就得占用别人的时间了。"
+    },
+    {
+      "id": 350,
+      "doc": "23_w",
+      "variables": {
+        "text": "后来出现电子游戏之后，发现这个事情成为了可能。"
+      },
+      "answer_type": "string",
+      "answer": "后来出现电子游戏{之后}，发现这个事情成为了可能。"
+    },
+    {
+      "id": 351,
+      "doc": "24_w",
+      "variables": {
+        "text": "在这个过程当中，我也从满腔热血的倾注我的所有勇气到我的衣服上，到慢慢的感受到这个社会的现实，所有的骨感。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 352,
+      "doc": "9",
+      "variables": {
+        "text": "也是因为这样，去年四月的时候，我遇到了一个跟我患有相同病症的妹妹，她是雨霏。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 353,
+      "doc": "81",
+      "variables": {
+        "text": "但我知道该怎样做。"
+      },
+      "answer_type": "string",
+      "answer": "{但}我知道该怎样做。"
+    },
+    {
+      "id": 354,
+      "doc": "84",
+      "variables": {
+        "text": "把卡伦津在长跑上的成功放远一点，考虑一下历史下十七个在两小时十分钟内完成马拉松的美国人。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 355,
+      "doc": "22_w",
+      "variables": {
+        "text": "她并没有跟商场的导购或者一些大人报上我的手机号码，按照我想象的那样，把问题解决掉，找到我。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 356,
+      "doc": "54_w",
+      "variables": {
+        "text": "当然这些前辈作家对我影响非常大，但对我能够继续走这条路下去的最重要的原因还是因为野地，就是我从大学毕业之后，当兵退伍之后，所迷恋上的野地。"
+      },
+      "answer_type": "string",
+      "answer": "当然这些前辈作家对我影响非常大，{但}对我能够继续走这条路下去的最重要的原因还是{因为}野地，{就是}我从大学毕业之后，当兵退伍之后，所迷恋上的野地。"
+    },
+    {
+      "id": 357,
+      "doc": "19_w",
+      "variables": {
+        "text": "第一个是这个花样年华全国青少年戏剧节，我们希望在体制之外呢，通过这样子的活动，打造一个无形的学校，带年轻人能够去探索生命，它的样貌跟本质。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 358,
+      "doc": "47_w",
+      "variables": {
+        "text": "游戏只是娱乐产业的一部分而已，其实我们看到很多包含在大陆这边现下的体验店，包含像游乐园，甚至在英国有一位很有名的魔术师，他创造了一个内容叫做 Ghost Train ，幽灵列车，它是一个有点像是鬼屋形式的一个体验，但是由于虚拟现实这样的临场感，所有的人可以真正地在这恐怖的环境里面完成这样的任务。"
+      },
+      "answer_type": "string",
+      "answer": "游戏只是娱乐产业的一部分而已，其实我们看到很多包含在大陆这边现下的体验店，包含像游乐园，{甚至}在英国有一位很有名的魔术师，他创造了一个内容叫做Ghost Train ，幽灵列车，它是一个有点像是鬼屋形式的一个体验，{但是}由于虚拟现实这样的临场感，所有的人可以真正地在这恐怖的环境里面完成这样的任务。"
+    },
+    {
+      "id": 359,
+      "doc": "35_w",
+      "variables": {
+        "text": "说白了，在中国做艺术，你是否有一个能将个人的利益融入到大众需求当中去，有没有这样的一个智慧。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 360,
+      "doc": "28_w",
+      "variables": {
+        "text": "其实对我来说是完全相反的，这种生活方式给我带来好处，远不比我生活收获的一些简单快乐，更多是省钱。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 361,
+      "doc": "43_w",
+      "variables": {
+        "text": "他说：“老师，因为就只有你来的时候，没有满腔的大道理要讲给我们听，只有你来，用你的聆听告诉我们，我们的生命，就算没有办法改变了，都有它们的既有价值。”"
+      },
+      "answer_type": "string",
+      "answer": "他说：“老师，{因为}就只有你来{的时候}，没有满腔的大道理要讲给我们听，只有你来，{用}你的聆听告诉我们，我们的生命，{就算}没有办法改变了，{都}有它们的既有价值。”"
+    },
+    {
+      "id": 362,
+      "doc": "105",
+      "variables": {
+        "text": "当感知预测太过强烈，正如这一案例中，画面看起来就像是幻觉。"
+      },
+      "answer_type": "string",
+      "answer": "{当}感知预测太过强烈，正如这一案例中，画面看起来就像是幻觉。"
+    },
+    {
+      "id": 363,
+      "doc": "17_w",
+      "variables": {
+        "text": "如果你真正走进这座城市，它应该是什么样子啊？"
+      },
+      "answer_type": "string",
+      "answer": "{如果}你真正走进这座城市，它应该是什么样子啊？"
+    },
+    {
+      "id": 364,
+      "doc": "87",
+      "variables": {
+        "text": "最近，在我的实验室和全球其它一些实验室，我们开始做研究，现在我们有真实的科学数据，可以帮助回答这个问题。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 365,
+      "doc": "54_w",
+      "variables": {
+        "text": "比如说像珍古德这样的人，珍古德在 1964年拍了一张照片。"
+      },
+      "answer_type": "string",
+      "answer": "{比如说}像珍古德这样的人，珍古德在1964年 拍了一张照片。"
+    },
+    {
+      "id": 366,
+      "doc": "37_w",
+      "variables": {
+        "text": "所以呢，接下来我必须说在一个新的媒体时代，在这个数位科技的时代，我们大家每一个人都有三个利基，这是大家的 bonus ，有三个利基。"
+      },
+      "answer_type": "string",
+      "answer": "{所以}呢，接下来我必须说在一个新的媒体时代，在这个数位科技的时代，我们大家每一个人都有三个利基，这是大家的bonus ，有三个利基。"
+    },
+    {
+      "id": 367,
+      "doc": "23_w",
+      "variables": {
+        "text": "那就是父母睡觉之后，把游戏拿过来，在客厅里面玩，玩到凌晨。"
+      },
+      "answer_type": "string",
+      "answer": "那就是父母睡觉{之后}，把游戏拿过来，在客厅里面玩，玩到凌晨。"
+    },
+    {
+      "id": 368,
+      "doc": "token1756",
+      "variables": {
+        "text": "我小的时候，把母亲讲的关于抚育我和弟弟的这段话，当成是世界上最高的称赞。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 369,
+      "doc": "86",
+      "variables": {
+        "text": "但在我心中，这就是我创造不同的方式，改变现状。"
+      },
+      "answer_type": "string",
+      "answer": "{但}在我心中，这就是我创造不同的方式，改变现状。"
+    },
+    {
+      "id": 370,
+      "doc": "61_w",
+      "variables": {
+        "text": "Onnes 在 1911 年把超导性这样定义出来，因为它没有电阻，所以我就可以把它做成一个超导圈。"
+      },
+      "answer_type": "string",
+      "answer": "Onnes 在1911 年把超导性这样定义出来，{因为}它没有电阻，{所以}我就可以把它做成一个超导圈。"
+    },
+    {
+      "id": 371,
+      "doc": "55_w",
+      "variables": {
+        "text": "我记得去年几个学生冲进去立法院的时候，我在看这些电视，或是在网路上面看还有很多人在讲风凉话，说：“这个半夜就会被抬走了，明天就没有了，没戏唱了。”"
+      },
+      "answer_type": "string",
+      "answer": "我记得去年几个学生冲进去立法院{的时候}，我在看这些电视，或是在网路上面看还有很多人在讲风凉话，说：“这个半夜就会被抬走了，明天就没有了，没戏唱了。”"
+    },
+    {
+      "id": 372,
+      "doc": "37_w",
+      "variables": {
+        "text": "第三个，不管怎么样，在这个数位科技的时代，每一个人都是大数据的一部份，我们一定会被分析的。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 373,
+      "doc": "43_w",
+      "variables": {
+        "text": "讲这三个故事，其实，是希望在某一种程度上描述我这个饼干怪在追求所谓的终极饼干的一个旅程。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 374,
+      "doc": "65_w",
+      "variables": {
+        "text": "可是，我相信各位听到这段声音，你一定会有很多的感觉。"
+      },
+      "answer_type": "string",
+      "answer": "{可是}，我相信各位听到这段声音，你一定会有很多的感觉。"
+    },
+    {
+      "id": 375,
+      "doc": "20_w",
+      "variables": {
+        "text": "我们开始发生各种大大小小的无止境的争吵，但是，这些争吵却在那之后，让我们更了解彼此是一个什么样的人。"
+      },
+      "answer_type": "string",
+      "answer": "我们开始发生各种大大小小的无止境的争吵，{但是}，这些争吵却在那{之后}，让我们更了解彼此是一个什么样的人。"
+    },
+    {
+      "id": 376,
+      "doc": "42_w",
+      "variables": {
+        "text": "那各位必须要了解这不是一般的刑事案件，这是死刑案件，所以在死刑案件里面的证据调查程序，很多时候因为检辩双方的武器不对等，因为律师没有调查的权利，因为律师的质或者辩护的受训的量不足，很多时候其实处于极其弱势的情况。"
+      },
+      "answer_type": "string",
+      "answer": "那各位必须要了解这{不}是一般的刑事案件，这{是}死刑案件，{所以}在死刑案件里面的证据调查程序，很多时候因为检辩双方的武器不对等，因为律师没有调查的权利，{因为}律师的质或者辩护的受训的量不足，很多时候其实处于极其弱势的情况。"
+    },
+    {
+      "id": 377,
+      "doc": "token2150",
+      "variables": {
+        "text": "在这里有为政府、报纸、政治或专栏工作的人们。EDxRio 位于右下角，在博客博主和作家的旁边。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 378,
+      "doc": "35_w",
+      "variables": {
+        "text": "呃，当时呢，我还想把这个形象做成一个十多米高的，这样的一个巨型的雕塑装置，想想都觉得挺有意思。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 379,
+      "doc": "34_w",
+      "variables": {
+        "text": "有好的knowledge ，经过很好的意见领袖表达的knowledge ，它应该是有启发的，有问题意识的、关注到在当时某个社会，在你身边的某个群体，他们行动或者他们行为有些不合适的地方。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 380,
+      "doc": "19_w",
+      "variables": {
+        "text": "在这边，我想先跟大家坦诚一件事情，我可能是TED 邀请过来，学历最低的一个讲者。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 381,
+      "doc": "87",
+      "variables": {
+        "text": "相反，俄语使用者要把浅蓝色“ goluboy ”和深蓝色“ siniy ”区别开来。"
+      },
+      "answer_type": "string",
+      "answer": "{相反}，俄语使用者要把浅蓝色“goluboy ”和深蓝色“siniy ”区别开来。"
+    },
+    {
+      "id": 382,
+      "doc": "1",
+      "variables": {
+        "text": "然后，各位年轻的稍微有一点耐性，不要怕唠叨。"
+      },
+      "answer_type": "string",
+      "answer": "{然后}，各位年轻的稍微有一点耐性，不要怕唠叨。"
+    },
+    {
+      "id": 383,
+      "doc": "106",
+      "variables": {
+        "text": "我正进入像我一样的人的世界，人们在破碎的梦想前颤抖，曾以为自己有能力实现；在破碎的计划前战栗，没意识到他们已制定这些计划。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 384,
+      "doc": "token2150",
+      "variables": {
+        "text": "其他男子乐队、乡村歌手、福音音乐、放克和说唱和单口相声，甚至还有一整节是关于毒品和笑话。"
+      },
+      "answer_type": "string",
+      "answer": "其他男子乐队、乡村歌手、福音音乐、放克和说唱和单口相声，{甚至}还有一整节是关于毒品和笑话。"
+    },
+    {
+      "id": 385,
+      "doc": "1",
+      "variables": {
+        "text": "我从到美国学校门口递名片，找广告模特儿，整理会议室，到印刷厂看打样，还贴杂志的商伪贴纸，开始我的广告人生涯。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 386,
+      "doc": "39_w",
+      "variables": {
+        "text": "然后， Borad Peak 就在它的旁边一点点。"
+      },
+      "answer_type": "string",
+      "answer": "{然后}，Borad Peak 就在它的旁边一点点。"
+    },
+    {
+      "id": 387,
+      "doc": "61_w",
+      "variables": {
+        "text": "人脑也会发出讯号，这个讯号也可以用磁性去做描述，它的讯号大小大约在10 的负13 次方。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 388,
+      "doc": "42_w",
+      "variables": {
+        "text": "但是，并没有，我看到的是一个略带羞涩腼腆的年轻人。"
+      },
+      "answer_type": "string",
+      "answer": "{但是}，并没有，我看到的是一个略带羞涩腼腆的年轻人。"
+    },
+    {
+      "id": 389,
+      "doc": "42_w",
+      "variables": {
+        "text": "这是第一个问题，在郑捷的那个时候，在郑捷这个案子的时候，我有了深刻的体会。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 390,
+      "doc": "token2150",
+      "variables": {
+        "text": "几个星期前有人给我发了这张照片，这反映了在旧金山正发生什么事情，我认为你可以实际地通过这样的地图去理解。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 391,
+      "doc": "65_w",
+      "variables": {
+        "text": "在战争结束之后呢，《雨夜花》当然也跟着解禁。"
+      },
+      "answer_type": "string",
+      "answer": "在战争结束{之后}呢，《雨夜花》当然也跟着解禁。"
+    },
+    {
+      "id": 392,
+      "doc": "48_w",
+      "variables": {
+        "text": "政府就是人民组成的，而人民就是我们，我们就是你们。"
+      },
+      "answer_type": "string",
+      "answer": "政府就是人民组成的，{而}人民就是我们，我们就是你们。"
+    },
+    {
+      "id": 393,
+      "doc": "27_w",
+      "variables": {
+        "text": "ok ，那么另外一个基因呢，它可以提升植物对干旱等环境胁迫的能力，也就是说它可以帮植物适应不同的环境，那么其实，这种基因传递传递生存智慧的这种例子并不少见。"
+      },
+      "answer_type": "string",
+      "answer": "ok ，那么另外一个基因呢，它可以提升植物对干旱等环境胁迫的能力，{也就是说}它可以帮植物适应不同的环境，那么其实，这种基因传递传递生存智慧的这种例子并不少见。"
+    },
+    {
+      "id": 394,
+      "doc": "17_w",
+      "variables": {
+        "text": "实际上，我们看到从那时到现在为止，中国县级县城以上的城市五十万人口以上的城市，一共三千座，每一座城市都已经变成了这个样子。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 395,
+      "doc": "54_w",
+      "variables": {
+        "text": "因为我现在自己也耕种，像刚刚吴先生所讲的，我是农业一点零的耕种用户，我常常想说在学术或写作上面，大概有三个条件你可以成功。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 396,
+      "doc": "19_w",
+      "variables": {
+        "text": "在我们云林那种比较资源比较没有那么多地方，能够有这个机会，能够有这个舞台，这一切是多么的不容易。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 397,
+      "doc": "3",
+      "variables": {
+        "text": "这个是属于你个人的主观感受，没有人有权利可以告诉你，你这样的感受，是对还是不对、是好还是不好。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 398,
+      "doc": "39_w",
+      "variables": {
+        "text": "所以，我昨天就又把它 delete 掉，不要了，我不用简报档。"
+      },
+      "answer_type": "string",
+      "answer": "{所以}，我昨天就又把它delete 掉，不要了，我不用简报档。"
+    },
+    {
+      "id": 399,
+      "doc": "54_w",
+      "variables": {
+        "text": "那后来我写作这件事情，我妈妈从反对，到后来她现在床头摆着一排我的书，而我很幸运地在我父亲过世之后，我妈妈还在的时候，她已经渐渐接受我成为一个写作者这样一件事情。"
+      },
+      "answer_type": "string",
+      "answer": "那后来我写作这件事情，我妈妈从反对，到后来她现在床头摆着一排我的书，{而}我很幸运地在我父亲过世之后，我妈妈还在{的时候}，她已经渐渐接受我成为一个写作者这样一件事情。"
+    },
+    {
+      "id": 400,
+      "doc": "84",
+      "variables": {
+        "text": "尽管他是如此地天资出众，克里安并不是一个生理上的怪胎。"
+      },
+      "answer_type": "string",
+      "answer": "{尽管}他是如此地天资出众，克里安并不是一个生理上的怪胎。"
+    },
+    {
+      "id": 401,
+      "doc": "22_w",
+      "variables": {
+        "text": "我们在游戏的场景里面设定很多线索，比如说小孩儿的一个小书包一只鞋子，一些坏人的一些踪迹，用纯游戏的方式来带入这个这个事件。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 402,
+      "doc": "37_w",
+      "variables": {
+        "text": "而这两者，也就是媒体的品牌价值，以及透过新媒体可以更贴近不同族群这样的特性，事实上正是电视的优势不断地流失，同时从强势媒体变成弱势媒体的主要原因。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 403,
+      "doc": "61_w",
+      "variables": {
+        "text": "所谓的超导体，它会呈现一个有趣的现象，就是在某一个特定的温度之下，电阻会急速下降，就会降到完全量不到数字， 0 电阻的状态，这个状态就叫做超导体。"
+      },
+      "answer_type": "string",
+      "answer": "所谓的超导体，它会呈现一个有趣的现象，{就是}在某一个特定的温度之下，电阻会急速下降，就会降到完全量不到数字，0 电阻的状态，这个状态就叫做超导体。"
+    },
+    {
+      "id": 404,
+      "doc": "35_w",
+      "variables": {
+        "text": "于是呢，我构建了自己的一个世界观和体系，叫做东方的核加西方的壳。"
+      },
+      "answer_type": "string",
+      "answer": "{于是}呢，我构建了自己的一个世界观和体系，叫做东方的核加西方的壳。"
+    },
+    {
+      "id": 405,
+      "doc": "token824",
+      "variables": {
+        "text": "让我们设想这里有一台机器，它是一个很大的，很酷的，很TED 的机器，它是一个时间机器。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 406,
+      "doc": "68",
+      "variables": {
+        "text": "和你的孩子，你的同事，你的朋友和家人讨论这个话题，将虐待曝之于光，帮助幸存者重新找回美好、可爱的自己，重新拥有未来。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 407,
+      "doc": "18_w",
+      "variables": {
+        "text": "所以，他就重新思考，“我能不能用更循环的材料来创造一个价值？"
+      },
+      "answer_type": "string",
+      "answer": "{所以}，他就重新思考，“我能不能用更循环的材料来创造一个价值？"
+    },
+    {
+      "id": 408,
+      "doc": "42_w",
+      "variables": {
+        "text": "在跟值日祕书的沟通过程里面，你会发现我的电话大概被转在那边，大概20 分钟左右不断地转、不断地转。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 409,
+      "doc": "token769",
+      "variables": {
+        "text": "当时我还是个五岁的孩子，便和P 医生讨价还价，求他别再让我做那些体能训练了，当然，我没有得逞。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 410,
+      "doc": "30_w",
+      "variables": {
+        "text": "我们通过对比火灾前后的，这个树的多少，就可以得到有多少树被火烧掉了。"
+      },
+      "answer_type": "string",
+      "answer": "我们{通过}对比火灾前后的，这个树的多少，就可以得到有多少树被火烧掉了。"
+    },
+    {
+      "id": 411,
+      "doc": "1",
+      "variables": {
+        "text": "我在2003年 的时候，转到中国大陆工作，迎面而来又是一个“大爆炸”，这次有一个英文名字叫做SARS 。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 412,
+      "doc": "token1978",
+      "variables": {
+        "text": "他的朋友拒绝这样做，正因如此，我们现在还有这些卡夫卡的作品：《亚美利加》、《审判》、《城堡》，这个作品如此不完整，甚至还有破句。"
+      },
+      "answer_type": "string",
+      "answer": "他的朋友拒绝这样做，正因如此，我们现在还有这些卡夫卡的作品：《亚美利加》、《审判》、《城堡》，这个作品如此不完整，{甚至}还有破句。"
+    },
+    {
+      "id": 413,
+      "doc": "67",
+      "variables": {
+        "text": "没想到，过了一周，你猜怎么着，“还有一周，安全超市即将在国王十字路口开张啦！！！”"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 414,
+      "doc": "105",
+      "variables": {
+        "text": "如今，我们对于“如何理解自我”有了根本性的改变，我想这是值得庆祝的事情，因为科学界经常引用哥白尼的一句话：我们不是宇宙的中心。"
+      },
+      "answer_type": "string",
+      "answer": "如今，我们对于“如何理解自我”有了根本性的改变，我想这是值得庆祝的事情，{因为}科学界经常引用哥白尼的一句话：我们不是宇宙的中心。"
+    },
+    {
+      "id": 415,
+      "doc": "token769",
+      "variables": {
+        "text": "值得注意的是描述残疾人的那些词汇的背后所体现的人们内心的价值观，以及这种价值观形成的过程。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 416,
+      "doc": "21_w",
+      "variables": {
+        "text": "如果，用一句话概括说，富起来和强起来时代究竟有什么差别，我想应该是，如果说富起来的时代，它主要是一个 GDP 的锦标赛，而强起来的时代，它一定是对经济、社会和环境的一个全能赛。"
+      },
+      "answer_type": "string",
+      "answer": "{如果}，用一句话概括说，富起来和强起来时代究竟有什么差别，我想应该是，如果说富起来的时代，它主要是一个GDP 的锦标赛，{而}强起来的时代，它一定是对经济、社会和环境的一个全能赛。"
+    },
+    {
+      "id": 417,
+      "doc": "24_w",
+      "variables": {
+        "text": "我去拍了个广告，很多人看到这个广告播出的时候都跟我说“哇哦，你好帅。”"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 418,
+      "doc": "24_w",
+      "variables": {
+        "text": "就像上面大家看到我被教练踢的那张一样，眼睛闭的死死的。"
+      },
+      "answer_type": "string",
+      "answer": "{就像}上面大家看到我被教练踢的那张一样，眼睛闭的死死的。"
+    },
+    {
+      "id": 419,
+      "doc": "52_w",
+      "variables": {
+        "text": "我把收音机打开，录了 3 分钟，我一声鸟叫也没录到，但我录到许多山里像精灵一样的声音。"
+      },
+      "answer_type": "string",
+      "answer": "我把收音机打开，录了3 分钟，我一声鸟叫也没录到，{但}我录到许多山里像精灵一样的声音。"
+    },
+    {
+      "id": 420,
+      "doc": "20_w",
+      "variables": {
+        "text": "我突然发现他说的没有错，我们两个呢，是两个南部的小孩，我们就像背着行囊到台北去打拼，为了建构一个完美中的家，为了去付那个高房贷，我们每天呢，从早到晚，从一到日全部都在工作，我们两个之间，老早就累积出非常非常非常多的问题。"
+      },
+      "answer_type": "string",
+      "answer": "我突然发现他说的没有错，我们两个呢，是两个南部的小孩，我们就像背着行囊到台北去打拼，为了建构一个完美中的家，{为了}去付那个高房贷，我们每天呢，从早到晚，从一到日全部都在工作，我们两个之间，老早就累积出非常非常非常多的问题。"
+    },
+    {
+      "id": 421,
+      "doc": "63_w",
+      "variables": {
+        "text": "你会看有一个欧巴桑最后讲了说，很感动，然后他说：“台湾number one ，赞。”"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 422,
+      "doc": "20_w",
+      "variables": {
+        "text": "可是，他的哥哥是正常的。"
+      },
+      "answer_type": "string",
+      "answer": "{可是}，他的哥哥是正常的。"
+    },
+    {
+      "id": 423,
+      "doc": "56_w",
+      "variables": {
+        "text": "那拍片不是只有我们台湾，也有美国美联社，半岛电视台，历史频道，外国的频道有很多来访问啦!"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 424,
+      "doc": "6",
+      "variables": {
+        "text": "所以，他很珍惜父母亲给他的生命，所以，从他身上我开始学会爱自己。"
+      },
+      "answer_type": "string",
+      "answer": "{所以}，他很珍惜父母亲给他的生命，{所以}，从他身上我开始学会爱自己。"
+    },
+    {
+      "id": 425,
+      "doc": "23_w",
+      "variables": {
+        "text": "那我们也希望这个工具能够让人们去实现游戏梦，用游戏去表达自己的想法，去表达更多的创意。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 426,
+      "doc": "48_w",
+      "variables": {
+        "text": "而且他们的确会试着做改变。"
+      },
+      "answer_type": "string",
+      "answer": "{而且}他们的确会试着做改变。"
+    },
+    {
+      "id": 427,
+      "doc": "70",
+      "variables": {
+        "text": "我和同事针对国家美式足球联盟除役和在役球员，进行有史以来第一项和规模最大的一项研究。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 428,
+      "doc": "19_w",
+      "variables": {
+        "text": "我想要跟大家谈一谈，我这十几年在体制之外，所看到的现象就是，教育这件事情它越来越往一个单一的价值，价值观的目标去靠拢。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 429,
+      "doc": "55_w",
+      "variables": {
+        "text": "每一个人，只是选择几个钟头的时间而已，就有可能达到一个大的结果，有可能挡下我们本来认为挡不下的事情。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 430,
+      "doc": "3",
+      "variables": {
+        "text": "她跟我分享，在这样一个以男性为主的环境当中上班，是不可以显露出自己软弱或脆弱的一面的。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 431,
+      "doc": "97",
+      "variables": {
+        "text": "那些每晚只睡五个小时的男性相比每晚睡够至少七个小时的男性，有着更小的睾丸。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 432,
+      "doc": "token1756",
+      "variables": {
+        "text": "我说：“我是同性恋。我不会走那条路。我希望你不要再说那些话了。”"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 433,
+      "doc": "70",
+      "variables": {
+        "text": "但我实在很讨厌枪林弹雨和睡在泥地上，我就找机会改接受 X 光技师的训练，并发现了我对医学影像技术的热爱。"
+      },
+      "answer_type": "string",
+      "answer": "{但}我实在很讨厌枪林弹雨和睡在泥地上，我就找机会改接受X 光技师的训练，{并}发现了我对医学影像技术的热爱。"
+    },
+    {
+      "id": 434,
+      "doc": "43_w",
+      "variables": {
+        "text": "他们将一大群大学生招集起来之后，然后三个三个分成小组。"
+      },
+      "answer_type": "string",
+      "answer": "他们将一大群大学生招集起来{之后}，然后三个三个分成小组。"
+    },
+    {
+      "id": 435,
+      "doc": "105",
+      "variables": {
+        "text": "我们还可以体验随着时间流逝，基于丰富的记忆及社会相互作用我们仍是一个与众不同的人。"
+      },
+      "answer_type": "string",
+      "answer": "我们{还}可以体验随着时间流逝，基于丰富的记忆及社会相互作用我们仍是一个与众不同的人。"
+    },
+    {
+      "id": 436,
+      "doc": "6",
+      "variables": {
+        "text": "很多人对赖佩霞的认识呢，大概就是好几十年前，大概30 年前看台视新闻，每天晚上有个珍重今夜，每天晚上我唱两首歌。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 437,
+      "doc": "29_w",
+      "variables": {
+        "text": "通常就开这几样：要不就是国际尖货，要不然就是黑科技，要不然就是，呃，消费升级的体验，对吧。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 438,
+      "doc": "37_w",
+      "variables": {
+        "text": "以我来讲，我经历过非常多的转播选举、921 大地震、莫拉克风灾，还有辜汪上海会谈。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 439,
+      "doc": "90",
+      "variables": {
+        "text": "ChildLine ，英国的一个旨在帮助年轻人解决各种问题的公益组织，在去年年末给出了一个令人惊愕的数据：与2012年 相比，2013年 有关网络凌辱的电话和邮件的数量增长了87% 。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 440,
+      "doc": "31_w",
+      "variables": {
+        "text": "这个地方呢，其实就是以前被废弃的城市公园，中间是一汪湖泊，左边隐隐绰绰地，有一些养鸡养鸭的，还有一些田地。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 441,
+      "doc": "88",
+      "variables": {
+        "text": "至于你已经知道你想做的事——你想要写本书，开始做生意，或是转换职业轨道……"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 442,
+      "doc": "6",
+      "variables": {
+        "text": "家庭觉醒，是我30 年来走在身心灵的道路上，我觉得是非常重要的一个概念，观念。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 443,
+      "doc": "63_w",
+      "variables": {
+        "text": "有的人本来，你等一下看会再播一次，有一个黑衣人是一个台大同学的同学，他本来是比较defensive 。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 444,
+      "doc": "24_w",
+      "variables": {
+        "text": "然后，在无数次被打的过程当中，我渐渐的发现，原来真的只有你直视迎面来的拳头，你才能快速的把它挡掉。"
+      },
+      "answer_type": "string",
+      "answer": "{然后}，在无数次被打的过程当中，我渐渐的发现，原来真的{只有}你直视迎面来的拳头，你才能快速的把它挡掉。"
+    },
+    {
+      "id": 445,
+      "doc": "35_w",
+      "variables": {
+        "text": "我说：“其实你误会了，说这个人叫关羽，他在生前是以诚信和忠义著称的。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 446,
+      "doc": "54_w",
+      "variables": {
+        "text": "我在花莲大概溯了十几条溪流，每一条溪流溯到最上游，你就会看到这样子的情形。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 447,
+      "doc": "token1978",
+      "variables": {
+        "text": "他们发现银牌获得者相对沮丧，而铜牌获得者通常更开心一点，因为他们没有拿到第四名，总比没有奖牌的强。"
+      },
+      "answer_type": "string",
+      "answer": "他们发现银牌获得者相对沮丧，{而}铜牌获得者通常更开心一点，{因为}他们没有拿到第四名，总比没有奖牌的强。"
+    },
+    {
+      "id": 448,
+      "doc": "68",
+      "variables": {
+        "text": "因为在家庭暴力中的最后一步就是杀掉她。"
+      },
+      "answer_type": "string",
+      "answer": "{因为}在家庭暴力中的最后一步就是杀掉她。"
+    },
+    {
+      "id": 449,
+      "doc": "90",
+      "variables": {
+        "text": "转变可以从简单的事开始，但是这又谈何容易。"
+      },
+      "answer_type": "string",
+      "answer": "转变可以从简单的事开始，{但是}这又谈何容易。"
+    },
+    {
+      "id": 450,
+      "doc": "87",
+      "variables": {
+        "text": "更糟糕的是，现在几乎我们所知道的所有关于人类大脑和思维的东西都是基于大学中说美式英语的学生的研究。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 451,
+      "doc": "84",
+      "variables": {
+        "text": "这些记录总是趋向于下降，但总会被一些陡峭的“斜坡”打断。"
+      },
+      "answer_type": "string",
+      "answer": "这些记录总是趋向于下降，{但}总会被一些陡峭的“斜坡”打断。"
+    },
+    {
+      "id": 452,
+      "doc": "43_w",
+      "variables": {
+        "text": "“嗨马立”又继续讲了一整个礼拜，到了第五个礼拜的时候，他忽然抬起头说:“我并不好。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 453,
+      "doc": "token769",
+      "variables": {
+        "text": "人类学家告诉我们，我们作为人类总是希望我们所在群体中的人们是有用的，是有能力做贡献的。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 454,
+      "doc": "3",
+      "variables": {
+        "text": "试想，一个从来没有失去过的人，他对于“拥有”这两个字的体会，也会比较有限。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 455,
+      "doc": "81",
+      "variables": {
+        "text": "我能，因为那是一个我想置身其中的世界，也是我哥哥想置身其中的世界。"
+      },
+      "answer_type": "string",
+      "answer": "我能，{因为}那是一个我想置身其中的世界，{也}是我哥哥想置身其中的世界。"
+    },
+    {
+      "id": 456,
+      "doc": "22_w",
+      "variables": {
+        "text": "当然，我们马上就发现了。"
+      },
+      "answer_type": "string",
+      "answer": "{当然}，我们马上就发现了。"
+    },
+    {
+      "id": 457,
+      "doc": "30_w",
+      "variables": {
+        "text": "啊，6PB 左右，呃，家用的宽带差不多是一百兆的一个带宽，呃，什么都不干，天天下数据都要下19年 才能够下6PB左右的数据。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 458,
+      "doc": "90",
+      "variables": {
+        "text": "在1998年 的9月 ，我坐在一个没有窗户的办公室，在独立检察官办公室里，日光灯嗡嗡作响，我听着自己在一通电话里的声音，那个电话是一年前通过窃听录取的，是一个我当时以为是朋友的人打来的。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 459,
+      "doc": "3",
+      "variables": {
+        "text": "其他的情绪，可能会因为文化、生长背景不同而有所差异，但是基本情绪是个人、每一个人经常性都会有的。"
+      },
+      "answer_type": "string",
+      "answer": "其他的情绪，可能会因为文化、生长背景不同而有所差异，{但是}基本情绪是个人、每一个人经常性都会有的。"
+    },
+    {
+      "id": 460,
+      "doc": "18_w",
+      "variables": {
+        "text": "它不像塑胶可能回来一次之后，就只能降解做成衣服、做成鞋子，所以玻璃是一个非常天生的循环的材料。"
+      },
+      "answer_type": "string",
+      "answer": "它不像塑胶可能回来一次{之后}，就只能降解做成衣服、做成鞋子，{所以}玻璃是一个非常天生的循环的材料。"
+    },
+    {
+      "id": 461,
+      "doc": "35_w",
+      "variables": {
+        "text": "那他背后站的其实是一个更庞大的一个佛学和科学这样的一个系统的海洋，可以无限的去做延展做商业去开发。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 462,
+      "doc": "1",
+      "variables": {
+        "text": "所以，只有你质量并重的目标，我们才不会自满。"
+      },
+      "answer_type": "string",
+      "answer": "{所以}，{只有}你质量并重的目标，我们才不会自满。"
+    },
+    {
+      "id": 463,
+      "doc": "6",
+      "variables": {
+        "text": "所以，在这里面，从我后来认识我现在的先生之后，从他跟他父母亲的关系，我开始了解什么叫爱自己。"
+      },
+      "answer_type": "string",
+      "answer": "{所以}，在这里面，从我后来认识我现在的先生之后，从他跟他父母亲的关系，我开始了解什么叫爱自己。"
+    },
+    {
+      "id": 464,
+      "doc": "36_w",
+      "variables": {
+        "text": "但是，这个真正的范围应该更广，准确的应该叫行动障碍者。"
+      },
+      "answer_type": "string",
+      "answer": "{但是}，这个真正的范围应该更广，准确的应该叫行动障碍者。"
+    },
+    {
+      "id": 465,
+      "doc": "87",
+      "variables": {
+        "text": "Kuuk Thaayorre 人有意思的一点是，在这个土著文化里面，他们没有“左”和“右”这样的词，所有的东西都是通过基本方向来表达的：东南西北，是的，我说的是“所有的东西”。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 466,
+      "doc": "39_w",
+      "variables": {
+        "text": "你知道，因为所谓外面的人称做的探险家通常就是都不晓得下一秒钟我要做什么事情，下一秒钟会发生什么事情。"
+      },
+      "answer_type": "string",
+      "answer": "你知道，{因为}所谓外面的人称做的探险家通常就是都不晓得下一秒钟我要做什么事情，下一秒钟会发生什么事情。"
+    },
+    {
+      "id": 467,
+      "doc": "37_w",
+      "variables": {
+        "text": "确实我们每一个人生活在这么一个科技快速进步的，从所谓的传统媒体进入到新媒体时代的每一个人，我们享受了很多的方便，我们增加了很多发声的管道，但是，我们也有很多的危机和挑战。"
+      },
+      "answer_type": "string",
+      "answer": "确实我们每一个人生活在这么一个科技快速进步的，从所谓的传统媒体进入到新媒体时代的每一个人，我们享受了很多的方便，我们增加了很多发声的管道{，但是}我们也有很多的危机和挑战。"
+    },
+    {
+      "id": 468,
+      "doc": "20_w",
+      "variables": {
+        "text": "首先，这三个大师，他们都遇到的生命当中非常大的困境，也许比你刚刚想的困境还要来的大。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 469,
+      "doc": "23_w",
+      "variables": {
+        "text": "也有来自大学的一些设计师，他们自己组了个团队，自己完成了游戏。"
+      },
+      "answer_type": "string",
+      "answer": "{也}有来自大学的一些设计师，他们自己组了个团队，自己完成了游戏。"
+    },
+    {
+      "id": 470,
+      "doc": "49_w",
+      "variables": {
+        "text": "试着推销自己，用脸书宣传或打造一个完美的网站，让世界看看你的成员和团体。"
+      },
+      "answer_type": "string",
+      "answer": "试着推销自己，用脸书宣传或打造一个完美的网站，{让}世界看看你的成员和团体。"
+    },
+    {
+      "id": 471,
+      "doc": "105",
+      "variables": {
+        "text": "但现在人们不再这样想了。"
+      },
+      "answer_type": "string",
+      "answer": "{但}现在人们不再这样想了。"
+    },
+    {
+      "id": 472,
+      "doc": "token769",
+      "variables": {
+        "text": "没有任何医疗诊断能够解释这种意志的威力有多么巨大，意志能影响一个人的生活质量。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 473,
+      "doc": "103",
+      "variables": {
+        "text": "下一个是舌头，夸张的啦，啦，啦，啦……美极了，你们做得很好。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 474,
+      "doc": "105",
+      "variables": {
+        "text": "大脑将这些感觉信号与之前对世界的预期或信念相结合做出是什么产生了这些信号的最佳猜想。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 475,
+      "doc": "20_w",
+      "variables": {
+        "text": "有一天，他听到他爸爸告诉他说：“你知道吗？我小时候，以前我年轻的时候有一个经验。”"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 476,
+      "doc": "37_w",
+      "variables": {
+        "text": "在这个过程当中，我常常觉得其实我们常常被科技推著跑，在过去，相对科技还不是那么进步的年代，我觉得我们比较常常思考，思考未来是什么？竞争力是什么？"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 477,
+      "doc": "18_w",
+      "variables": {
+        "text": "那他找上春池的原因其实有一个关键，这个关键在于说我们做的是循环玻璃这件事情。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 478,
+      "doc": "81",
+      "variables": {
+        "text": "我曾访问过一个幼儿园，在那儿我观察了三个儿童,在玩完全一样的塑料玩具。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 479,
+      "doc": "10",
+      "variables": {
+        "text": "大陆的定段赛每年指定两位女孩，那年我很幸运成为两位女孩中的一位，从此展开了不一样的人生。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 480,
+      "doc": "18_w",
+      "variables": {
+        "text": "我过去几年，我记得在夏天都有一段时间，我是真的我也不想呆家里。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 481,
+      "doc": "97",
+      "variables": {
+        "text": "睡眠充足组的被试可以睡够八个小时，而睡眠不足组的被试则在实验室中，在全程监控下，不断地被我们叫醒。"
+      },
+      "answer_type": "string",
+      "answer": "睡眠充足组的被试可以睡够八个小时，{而}睡眠不足组的被试则在实验室中，在全程监控下，不断地被我们叫醒。"
+    },
+    {
+      "id": 482,
+      "doc": "22_w",
+      "variables": {
+        "text": "其实我们做了那么多的内容，游戏的玩法，多人的pk 还有登录奖励，图鉴系统，成就系统等等等等。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 483,
+      "doc": "46_w",
+      "variables": {
+        "text": "你知道吗，如果穿越够多的“没有”，就能够站上 TED 的讲台，分享你的故事。"
+      },
+      "answer_type": "string",
+      "answer": "{你}知道吗，{如果}穿越够多的“没有”，就能够站上TED 的讲台，分享你的故事。"
+    },
+    {
+      "id": 484,
+      "doc": "token1978",
+      "variables": {
+        "text": "那个弓箭手第一次射中了 7 环，我记得接下来是个 9 环，然后是 2 个 10 环，接下来的那支箭却没有射到靶上。"
+      },
+      "answer_type": "string",
+      "answer": "那个弓箭手第一次射中了7 环，我记得接下来是个9 环，{然后}是2 个10 环，接下来的那支箭{却}没有射到靶上。"
+    },
+    {
+      "id": 485,
+      "doc": "token769",
+      "variables": {
+        "text": "他说的那句话大概意思就是，能生存下来的物种往往不是最强壮的，也不是最聪明的，而是最能适应外部环境变化的。"
+      },
+      "answer_type": "string",
+      "answer": "他说的那句话大概意思就是，能生存下来的物种往往{不}是最强壮的，{也}不是最聪明的，{而}是最能适应外部环境变化的。"
+    },
+    {
+      "id": 486,
+      "doc": "55_w",
+      "variables": {
+        "text": "但是在萨尔瓦多，人工流产是违法的。"
+      },
+      "answer_type": "string",
+      "answer": "{但是}在萨尔瓦多，人工流产是违法的。"
+    },
+    {
+      "id": 487,
+      "doc": "1",
+      "variables": {
+        "text": "那像我一个这么平凡，没有什么背景的人，我可以一路克服那么多不景气、困难，我相信在座的每一个人都可以。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 488,
+      "doc": "3",
+      "variables": {
+        "text": "在过去几年当中，除了有机会能够跟大学生互动之外，台北监狱，也是我常常进出的地方。"
+      },
+      "answer_type": "string",
+      "answer": "在过去几年当中，{除了}有机会能够跟大学生互动{之外}，台北监狱，也是我常常进出的地方。"
+    },
+    {
+      "id": 489,
+      "doc": "6",
+      "variables": {
+        "text": "然后，在亲密关系当中，我们两个也放下了输赢。"
+      },
+      "answer_type": "string",
+      "answer": "{然后}，在亲密关系当中，我们两个也放下了输赢。"
+    },
+    {
+      "id": 490,
+      "doc": "93",
+      "variables": {
+        "text": "你们可能对这点感到疑惑，但有人的确做了一个实验。"
+      },
+      "answer_type": "string",
+      "answer": "你们可能对这点感到疑惑，{但}有人的确做了一个实验。"
+    },
+    {
+      "id": 491,
+      "doc": "68",
+      "variables": {
+        "text": "这个秘密就是我曾经被我认为是我灵魂伴侣的男人用这把装满空心弹头的枪指着我的头太多、太多次。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 492,
+      "doc": "35_w",
+      "variables": {
+        "text": "那从空间上，它其实作为一个小小的窗口，是对于西方来讲，是一个认知东方世界、认知我们东方传统文化的一个渠道。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 493,
+      "doc": "61_w",
+      "variables": {
+        "text": "超导是一个很有趣，非常重要的概念，在近代物理的发展是一个很重要的课题。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 494,
+      "doc": "10",
+      "variables": {
+        "text": "孩子与你们同在，但并不属于你们。"
+      },
+      "answer_type": "string",
+      "answer": "孩子与你们同在，{但}并不属于你们。"
+    },
+    {
+      "id": 495,
+      "doc": "55_w",
+      "variables": {
+        "text": "大家都知道，闪灵的表演很 heavy ，非常地消耗体能，而且不只这样，台湾人跟欧美人比起来，就是比较瘦小。"
+      },
+      "answer_type": "string",
+      "answer": "大家都知道，闪灵的表演很heavy ，非常地消耗体能，{而且}不只{这样}，台湾人跟欧美人比起来，就是比较瘦小。"
+    },
+    {
+      "id": 496,
+      "doc": "87",
+      "variables": {
+        "text": "当然如果大家的生活到目前为止都还比较顺利的话，你之前应该没有这样想过。"
+      },
+      "answer_type": "string",
+      "answer": "当然{如果}大家的生活到目前为止都还比较顺利{的话}，你之前应该没有这样想过。"
+    },
+    {
+      "id": 497,
+      "doc": "56_w",
+      "variables": {
+        "text": "虽然我说打铁，是从我们打铁三代，就是从我阿公，我爸爸，我10 岁的时候就跟我爸爸打铁，打到现在，我现在已经70 岁，已经整整做了快要60 年的打铁。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 498,
+      "doc": "86",
+      "variables": {
+        "text": "对美国的经济，对任何成长中的经济，对真正的创新开发，我们不能丢下半数的人口。"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 499,
+      "doc": "24_w",
+      "variables": {
+        "text": "我们是全女子组，她们有来自美国的设计师，丹麦的妈妈，法国的拳手，或者是非洲的学生。"
+      },
+      "answer_type": "string",
+      "answer": "我们是全女子组，她们有来自美国的设计师，丹麦的妈妈，法国的拳手，{或者是}非洲的学生。"
+    },
+    {
+      "id": 500,
+      "doc": "3",
+      "variables": {
+        "text": "到了急救现场的时候，不管当事人经历多大的痛苦，我们也不能给他任何的止痛药，或是麻醉药。"
+      },
+      "answer_type": "string",
+      "answer": "到了急救现场{的时候}，不管当事人经历多大的痛苦，我们也不能给他任何的止痛药，或是麻醉药。"
+    }
+  ]
+}

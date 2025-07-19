@@ -1,0 +1,7509 @@
+{
+  "task": "entity_most",
+  "lang": "polish",
+  "example_prompt": "Which entity is mentioned the most times in the text?",
+  "instances": [
+    {
+      "id": 1,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704230043_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "ŚWIĘTY WOJCIECH",
+        "_",
+        "Stary patron nowej Europy",
+        "świętego Wojciecha",
+        "św . Wojciecha",
+        "Ten z pozoru \" bankrut \"",
+        "wojciechowy",
+        "Wojciecha , który podróżując między jej częściami przenosił idee , przerzucał mosty",
+        "Wojciech",
+        "świętego \" jednoczącej się wówczas Europy \"",
+        "patrona wspólnej Europy",
+        "św . Wojciecha , którego działanie św . Wojciecha wyraźnie związane było z przekraczaniem granic i z tworzeniem - wspólnie z ówczesnymi władcami - wizji jednej , zewangelizowanej Europy",
+        "człowieka wskazującego na wartości , które się ostały i stanowiły o zasadniczej sile Europy , która z chrześcijaństwa wyrastała i na nim się oparła",
+        "Wojciecha , który mógł by stanąć obok św . Benedykta , świętych Cyryla i Metodego , jako człowiek , który łączy wiele narodów",
+        "św . Wojciech",
+        "Biskup",
+        "Wojciecha",
+        "Biskup Wojciech",
+        "ten nasz przyjaciel",
+        "biskupowi",
+        "Wojciechowi",
+        "Osłabłego",
+        "biskupa",
+        "św . Wojciecha , zwanego przez Kadłubka \" Najświętszym Patronem Polaków \"",
+        "jego własnym"
+      ]
+    },
+    {
+      "id": 2,
+      "doc": "input_data/PCC-1.5-MMAX/long/200108300032_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Wojciecha Łukaszka - jednego z uczestników tej operacji , który w szczegółach wyjaśnił nam kulisy transakcji",
+        "_",
+        "mojego",
+        "Łukaszek",
+        "Łukaszka",
+        "Wojciech Łukaszek",
+        "moim",
+        "swojej",
+        "Przysięga"
+      ]
+    },
+    {
+      "id": 3,
+      "doc": "input_data/PCC-1.5-MMAX/long/199911220063_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Andrzej Gołota",
+        "Gołota",
+        "_",
+        "Andrzeja Gołoty",
+        "Gołotę",
+        "Gołotą",
+        "Polak",
+        "Polaka",
+        "Gołoty",
+        "ten",
+        "byłym mistrzu Polski",
+        "polskiego pięściarza",
+        "były pięściarz warszawskiej Legii",
+        "własne",
+        "swoimi",
+        "by",
+        "zawiesi"
+      ]
+    },
+    {
+      "id": 4,
+      "doc": "input_data/PCC-1.5-MMAX/long/199906260027_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Dziurowicz",
+        "Marian Dziurowicz",
+        "_",
+        "swą",
+        "własne",
+        "Dziurowicza",
+        "Prezes najważniejszego związku sportowego",
+        "Marian",
+        "Prezes",
+        "człowiek , którego nie akceptuje szeroko pojęta społeczność piłkarska",
+        "Dziurowiczowi",
+        "prezes Dziurowicz",
+        "swojej"
+      ]
+    },
+    {
+      "id": 5,
+      "doc": "input_data/PCC-1.5-MMAX/long/200001030029_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Wieniawa - Długoszowski",
+        "Bolesław Wieniawa - Długoszowski",
+        "Wieniawie - bawidamku i fanfaronie",
+        "tę malowniczą i tragiczną postać dwudziestolecia międzywojennego",
+        "generała Wieniawy",
+        "Bolesława Wieniawy - Długoszowskiego",
+        "oficera i dyplomaty",
+        "osoby , której dotyczą",
+        "Wieniawy",
+        "jednego człowieka",
+        "ówczesny ambasador RP przy Kwirynale , b . adiutant marszałka Piłsudskiego gen . Bolesław Wieniawa - Długoszowski",
+        "_",
+        "Wieniawa",
+        "Wieniawie",
+        "samego Wieniawy",
+        "jego adiutanta",
+        "generała",
+        "ambasadora Wieniawy",
+        "Świeżo upieczony doktor medycyny ( ze specjalnością w zakresie chirurgii i okulistyki )",
+        "swych",
+        "Ambasador",
+        "bezinteresownie oddanego i wiernego adiutanta oraz żołnierza , który nad proponowane mu już w niepodległej Polsce stanowiska będzie przekładał służbę w pułku szwoleżerów"
+      ]
+    },
+    {
+      "id": 6,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704210012_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "grupa wojskowych",
+        "_",
+        "pułkowników",
+        "grupa wysokich rangą wojskowych",
+        "Sprawcy tych nieszczęść",
+        "Pułkownicy",
+        "winnych",
+        "sprawców zamachu",
+        "władzy",
+        "Junta",
+        "juntę",
+        "junty",
+        "Pięciu z nich",
+        "Całej piątce",
+        "Sami"
+      ]
+    },
+    {
+      "id": 7,
+      "doc": "input_data/PCC-1.5-MMAX/long/199802030127_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "KONSUMENTA",
+        "klienta",
+        "Konsument",
+        "pasywnego uczestnika rynku",
+        "_",
+        "własną",
+        "konsument europejski"
+      ]
+    },
+    {
+      "id": 8,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "satanistami",
+        "bialskich satanistów",
+        "sataniści",
+        "swoich",
+        "_",
+        "swoje",
+        "satanistów",
+        "własnych",
+        "członkami grupy",
+        "bialskimi satanistami",
+        "swojej",
+        "swoją"
+      ]
+    },
+    {
+      "id": 9,
+      "doc": "input_data/PCC-1.5-MMAX/short/2101_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Twoimi",
+        "nie mogę",
+        "się zachowuję",
+        "mój",
+        "nie możesz",
+        "zastanów się",
+        "mojego",
+        "\" przeżyjesz \"",
+        "nie zmienisz"
+      ]
+    },
+    {
+      "id": 10,
+      "doc": "input_data/PCC-1.5-MMAX/short/2087_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "nasz bohater",
+        "swoją"
+      ]
+    },
+    {
+      "id": 11,
+      "doc": "input_data/PCC-1.5-MMAX/short/3572_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "uczeń",
+        "swojego",
+        "_",
+        "Twoje",
+        "chłopak",
+        "swego"
+      ]
+    },
+    {
+      "id": 12,
+      "doc": "input_data/PCC-1.5-MMAX/short/3175_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp1",
+        "_",
+        "ten chłopak",
+        "najjaśniejszy panie",
+        "królewiczu ty"
+      ]
+    },
+    {
+      "id": 13,
+      "doc": "input_data/PCC-1.5-MMAX/short/3135_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp0",
+        "_",
+        "mój",
+        "mamo",
+        "mama"
+      ]
+    },
+    {
+      "id": 14,
+      "doc": "input_data/PCC-1.5-MMAX/long/200202020036_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Drobna przedsiębiorczość",
+        "_",
+        "tym sektorze",
+        "tego sektora",
+        "\" drobna przedsiębiorczość \"",
+        "drobna wytwórczość w gospodarce pozarolniczej",
+        "prywatnych małych i średnich przedsiębiorstw",
+        "MSP",
+        "drobnej przedsiębiorczości",
+        "drobną przedsiębiorczością dnia dzisiejszego , działającą w odmiennych warunkach niż w początkowej fazie transformacji",
+        "naszych firm tego typu",
+        "małe i średnie firmy",
+        "przedsiębiorstwa mikro i małe",
+        "polskich MSP",
+        "podmioty mikro i małe",
+        "polskich"
+      ]
+    },
+    {
+      "id": 15,
+      "doc": "input_data/PCC-1.5-MMAX/short/3079_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Julek",
+        "_",
+        "swojego",
+        "on sam",
+        "swoje"
+      ]
+    },
+    {
+      "id": 16,
+      "doc": "input_data/PCC-1.5-MMAX/short/3133_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "ŁUKASZ",
+        "Łukaszu",
+        "_",
+        "swoje"
+      ]
+    },
+    {
+      "id": 17,
+      "doc": "input_data/PCC-1.5-MMAX/short/3163_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp1",
+        "_"
+      ]
+    },
+    {
+      "id": 18,
+      "doc": "input_data/PCC-1.5-MMAX/short/441_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "GOŚKA",
+        "_",
+        "misiu",
+        "moje",
+        "swojemu",
+        "swojej"
+      ]
+    },
+    {
+      "id": 19,
+      "doc": "input_data/PCC-1.5-MMAX/short/3191_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp0",
+        "_",
+        "podgłoszę"
+      ]
+    },
+    {
+      "id": 20,
+      "doc": "input_data/PCC-1.5-MMAX/short/3193_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp2",
+        "_"
+      ]
+    },
+    {
+      "id": 21,
+      "doc": "input_data/PCC-1.5-MMAX/short/487_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Maciej",
+        "swoją",
+        "sp4",
+        "_",
+        "stary"
+      ]
+    },
+    {
+      "id": 22,
+      "doc": "input_data/PCC-1.5-MMAX/short/3162_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp0",
+        "_",
+        "mój"
+      ]
+    },
+    {
+      "id": 23,
+      "doc": "input_data/PCC-1.5-MMAX/short/3418_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "męża",
+        "_",
+        "Janusz P .",
+        "Janusz"
+      ]
+    },
+    {
+      "id": 24,
+      "doc": "input_data/PCC-1.5-MMAX/short/3619_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "swoje",
+        "mój",
+        "Myśl",
+        "Twoim",
+        "Twoje",
+        "Twój"
+      ]
+    },
+    {
+      "id": 25,
+      "doc": "input_data/PCC-1.5-MMAX/short/504_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "sp3",
+        "mój",
+        "mama"
+      ]
+    },
+    {
+      "id": 26,
+      "doc": "input_data/PCC-1.5-MMAX/short/2531_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Anna Maria Jopek",
+        "_",
+        "swój",
+        "pani Anna",
+        "mój"
+      ]
+    },
+    {
+      "id": 27,
+      "doc": "input_data/PCC-1.5-MMAX/short/3000_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Kompletnie zaskoczona Joanna",
+        "maleńka",
+        "Joanna",
+        "twoich"
+      ]
+    },
+    {
+      "id": 28,
+      "doc": "input_data/PCC-1.5-MMAX/short/3071_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Robert",
+        "_",
+        "swoje",
+        "moje"
+      ]
+    },
+    {
+      "id": 29,
+      "doc": "input_data/PCC-1.5-MMAX/short/3165_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp0",
+        "_"
+      ]
+    },
+    {
+      "id": 30,
+      "doc": "input_data/PCC-1.5-MMAX/short/3181_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp3",
+        "_",
+        "chciała m",
+        "przebiła m"
+      ]
+    },
+    {
+      "id": 31,
+      "doc": "input_data/PCC-1.5-MMAX/short/413_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Twoje",
+        "_",
+        "Twoja",
+        "Zrób",
+        "zuzaaaaa",
+        "czytalam"
+      ]
+    },
+    {
+      "id": 32,
+      "doc": "input_data/PCC-1.5-MMAX/short/103_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "swoich",
+        "samą sobą"
+      ]
+    },
+    {
+      "id": 33,
+      "doc": "input_data/PCC-1.5-MMAX/short/3047_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Janka",
+        "_",
+        "Janiku",
+        "moja",
+        "Janek",
+        "mmam",
+        "mały"
+      ]
+    },
+    {
+      "id": 34,
+      "doc": "input_data/PCC-1.5-MMAX/short/3148_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp2",
+        "_",
+        "dziewczyno",
+        "mój",
+        "stara"
+      ]
+    },
+    {
+      "id": 35,
+      "doc": "input_data/PCC-1.5-MMAX/short/3182_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp3",
+        "_",
+        "odporniłaś",
+        "ja sama"
+      ]
+    },
+    {
+      "id": 36,
+      "doc": "input_data/PCC-1.5-MMAX/short/55_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Light-r",
+        "_",
+        "odziedziczyłęm",
+        "szanowny Light-r",
+        "jestes",
+        "twoja"
+      ]
+    },
+    {
+      "id": 37,
+      "doc": "input_data/PCC-1.5-MMAX/short/3152_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp0",
+        "_"
+      ]
+    },
+    {
+      "id": 38,
+      "doc": "input_data/PCC-1.5-MMAX/short/272_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "PŁACZE",
+        "_",
+        "Agatę",
+        "Agata",
+        "mój",
+        "Agaty",
+        "zapłakaną i trzęsącą się Agatę",
+        "Agatko",
+        "kochanie",
+        "AGNIESZKA"
+      ]
+    },
+    {
+      "id": 39,
+      "doc": "input_data/PCC-1.5-MMAX/short/2921_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Nazywam się",
+        "swoje",
+        "Moje",
+        "moim"
+      ]
+    },
+    {
+      "id": 40,
+      "doc": "input_data/PCC-1.5-MMAX/short/3174_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "pan",
+        "sp1",
+        "_"
+      ]
+    },
+    {
+      "id": 41,
+      "doc": "input_data/PCC-1.5-MMAX/short/3190_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp1",
+        "_"
+      ]
+    },
+    {
+      "id": 42,
+      "doc": "input_data/PCC-1.5-MMAX/short/3192_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Lena",
+        "_",
+        "Lenuś",
+        "mojej"
+      ]
+    },
+    {
+      "id": 43,
+      "doc": "input_data/PCC-1.5-MMAX/short/2437_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Luchino Visconti di Modrone",
+        "Visconti",
+        "_",
+        "Viscontiego",
+        "młody Luchino",
+        "Viscontim",
+        "swojej",
+        "artysty"
+      ]
+    },
+    {
+      "id": 44,
+      "doc": "input_data/PCC-1.5-MMAX/short/1000_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "swoje",
+        "Kazik",
+        "Staszewskiego",
+        "Artysta",
+        "Kazika"
+      ]
+    },
+    {
+      "id": 45,
+      "doc": "input_data/PCC-1.5-MMAX/short/2571_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "\" zwiedził \"",
+        "zawodnika",
+        "piłkarz",
+        "swoich",
+        "Dubiemu",
+        "zawodnik",
+        "Daniel Dubicki",
+        "Daniela Dubickiego"
+      ]
+    },
+    {
+      "id": 46,
+      "doc": "input_data/PCC-1.5-MMAX/short/2738_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Moje",
+        "moją",
+        "mojej",
+        "_",
+        "moja",
+        "mojego",
+        "Twój Ojciec"
+      ]
+    },
+    {
+      "id": 47,
+      "doc": "input_data/PCC-1.5-MMAX/short/274_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Jaguś"
+      ]
+    },
+    {
+      "id": 48,
+      "doc": "input_data/PCC-1.5-MMAX/short/3188_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp2",
+        "_",
+        "Kasia"
+      ]
+    },
+    {
+      "id": 49,
+      "doc": "input_data/PCC-1.5-MMAX/short/663_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Kuba",
+        "_",
+        "jedynaku",
+        "Kuby",
+        "chłopca",
+        "własnej",
+        "Kubie",
+        "Kubą Stępniakiem",
+        "gwiazduje"
+      ]
+    },
+    {
+      "id": 50,
+      "doc": "input_data/PCC-1.5-MMAX/short/807_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Wezak",
+        "_",
+        "zrobilem",
+        "uzyskalem",
+        "pomyslalem",
+        "mam",
+        "moge",
+        "przejolem sie",
+        "wkrecilem",
+        "mysle",
+        "mialem",
+        "Stary",
+        "by ś"
+      ]
+    },
+    {
+      "id": 51,
+      "doc": "input_data/PCC-1.5-MMAX/short/92_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_"
+      ]
+    },
+    {
+      "id": 52,
+      "doc": "input_data/PCC-1.5-MMAX/short/2696_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "ksiądz Henryk",
+        "Czyta",
+        "swej"
+      ]
+    },
+    {
+      "id": 53,
+      "doc": "input_data/PCC-1.5-MMAX/short/3194_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp3",
+        "_"
+      ]
+    },
+    {
+      "id": 54,
+      "doc": "input_data/PCC-1.5-MMAX/long/199912180034_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Andrzeja Wajdy",
+        "Andrzej Wajda , którego film \" Pan Tadeusz \" jest polskim kandydatem do Oscara w kategorii obrazów nieangielskojęzycznych",
+        "Wajdy",
+        "polskiego reżysera Andrzeja Wajdy",
+        "Pan Wajda",
+        "_",
+        "tego artysty",
+        "polskiego mistrza",
+        "Andrzej Wajda",
+        "Wajda",
+        "mistrza polskiego kina"
+      ]
+    },
+    {
+      "id": 55,
+      "doc": "input_data/PCC-1.5-MMAX/short/109_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_"
+      ]
+    },
+    {
+      "id": 56,
+      "doc": "input_data/PCC-1.5-MMAX/short/3031_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "mężczyzna",
+        "_",
+        "Bocian",
+        "Ten"
+      ]
+    },
+    {
+      "id": 57,
+      "doc": "input_data/PCC-1.5-MMAX/short/3069_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "ŁUKASZ",
+        "_",
+        "Łukasza"
+      ]
+    },
+    {
+      "id": 58,
+      "doc": "input_data/PCC-1.5-MMAX/short/339_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "wyciągła",
+        "_",
+        "Ślepa",
+        "krzykła",
+        "moje",
+        "Elżbietka"
+      ]
+    },
+    {
+      "id": 59,
+      "doc": "input_data/PCC-1.5-MMAX/short/3596_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "mój",
+        "m mi m",
+        "moich"
+      ]
+    },
+    {
+      "id": 60,
+      "doc": "input_data/PCC-1.5-MMAX/short/464_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "pięknego dwudziestosiedmioletniego mężczyznę",
+        "_",
+        "własną",
+        "swój",
+        "tego chłopaka"
+      ]
+    },
+    {
+      "id": 61,
+      "doc": "input_data/PCC-1.5-MMAX/short/493_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp1",
+        "_",
+        "tego dzieciaka"
+      ]
+    },
+    {
+      "id": 62,
+      "doc": "input_data/PCC-1.5-MMAX/short/812_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "psiaczek1988",
+        "_",
+        "Twój",
+        "Twoim",
+        "Twoja",
+        "Twoich",
+        "jestes"
+      ]
+    },
+    {
+      "id": 63,
+      "doc": "input_data/PCC-1.5-MMAX/short/961_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "mojej",
+        "_",
+        "moje",
+        "musiałem",
+        "moim",
+        "moją",
+        "moich"
+      ]
+    },
+    {
+      "id": 64,
+      "doc": "input_data/PCC-1.5-MMAX/short/177_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_"
+      ]
+    },
+    {
+      "id": 65,
+      "doc": "input_data/PCC-1.5-MMAX/short/2367_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "pan",
+        "swój",
+        "swoją"
+      ]
+    },
+    {
+      "id": 66,
+      "doc": "input_data/PCC-1.5-MMAX/short/2947_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Misia",
+        "_",
+        "piła",
+        "Misi"
+      ]
+    },
+    {
+      "id": 67,
+      "doc": "input_data/PCC-1.5-MMAX/short/3100_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Pciuch dwadzieścia cztery",
+        "Pciucha",
+        "młody Pciuch",
+        "_",
+        "Pciuch",
+        "Listonosz Pciuch dwadzieścia cztery",
+        "pana",
+        "panie listonoszu"
+      ]
+    },
+    {
+      "id": 68,
+      "doc": "input_data/PCC-1.5-MMAX/long/199802040182_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "SUMO",
+        "Ten sport",
+        "sumo - misterium łączące w sobie elementy teatru , religii i walki",
+        "_",
+        "tego sportu",
+        "tym sporcie",
+        "japońskiej konkurencji",
+        "ich sport narodowy"
+      ]
+    },
+    {
+      "id": 69,
+      "doc": "input_data/PCC-1.5-MMAX/short/2156_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_"
+      ]
+    },
+    {
+      "id": 70,
+      "doc": "input_data/PCC-1.5-MMAX/short/2783_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Sweet girl",
+        "_",
+        "sweet",
+        "mysle",
+        "mine"
+      ]
+    },
+    {
+      "id": 71,
+      "doc": "input_data/PCC-1.5-MMAX/short/3159_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp0",
+        "_",
+        "by m",
+        "chciał em",
+        "chuju",
+        "mógł by ś",
+        "moi",
+        "widział em"
+      ]
+    },
+    {
+      "id": 72,
+      "doc": "input_data/PCC-1.5-MMAX/short/3205_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Jamrozy",
+        "_",
+        "panem",
+        "menedżer do wynajęcia",
+        "pana",
+        "mojego",
+        "pan"
+      ]
+    },
+    {
+      "id": 73,
+      "doc": "input_data/PCC-1.5-MMAX/short/37_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "swoje",
+        "_",
+        "swój"
+      ]
+    },
+    {
+      "id": 74,
+      "doc": "input_data/PCC-1.5-MMAX/short/97_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "ksiądz Suryn",
+        "mojej",
+        "księdza",
+        "Bracie Józefie",
+        "księże Józefie",
+        "swojej",
+        "swoimi",
+        "twoje",
+        "twoją"
+      ]
+    },
+    {
+      "id": 75,
+      "doc": "input_data/PCC-1.5-MMAX/short/3063_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "MARTA",
+        "_",
+        "Kochanie",
+        "MARTY"
+      ]
+    },
+    {
+      "id": 76,
+      "doc": "input_data/PCC-1.5-MMAX/short/2774_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Karolina Pilewska",
+        "_",
+        "twój",
+        "twojego",
+        "Twoim"
+      ]
+    },
+    {
+      "id": 77,
+      "doc": "input_data/PCC-1.5-MMAX/short/2880_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "moja",
+        "moim",
+        "moją",
+        "swojej",
+        "córeczko",
+        "dziecinko"
+      ]
+    },
+    {
+      "id": 78,
+      "doc": "input_data/PCC-1.5-MMAX/short/2904_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_"
+      ]
+    },
+    {
+      "id": 79,
+      "doc": "input_data/PCC-1.5-MMAX/short/3051_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "RYSZARD",
+        "Rysiowi",
+        "_",
+        "twoja"
+      ]
+    },
+    {
+      "id": 80,
+      "doc": "input_data/PCC-1.5-MMAX/short/3157_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp0",
+        "_"
+      ]
+    },
+    {
+      "id": 81,
+      "doc": "input_data/PCC-1.5-MMAX/short/3183_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "swoją"
+      ]
+    },
+    {
+      "id": 82,
+      "doc": "input_data/PCC-1.5-MMAX/short/276_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Władysław",
+        "Turkowski",
+        "_",
+        "Władysława",
+        "puerze"
+      ]
+    },
+    {
+      "id": 83,
+      "doc": "input_data/PCC-1.5-MMAX/short/101_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "szewczyk Dratewka",
+        "_",
+        "Dratewka",
+        "dobry człowieku",
+        "szewczyk"
+      ]
+    },
+    {
+      "id": 84,
+      "doc": "input_data/PCC-1.5-MMAX/short/133_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "dh . \" Sowy \"",
+        "Jerzy Makles",
+        "Twoją",
+        "_",
+        "zmarłego",
+        "J . Maklesowi",
+        "ich trener",
+        "ostrzeszowianina i przyjaciela",
+        "Jurku",
+        "Twoim",
+        "bądź"
+      ]
+    },
+    {
+      "id": 85,
+      "doc": "input_data/PCC-1.5-MMAX/short/2416_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Marian Grochowski z Jaworzna",
+        "Mariana Grochowskiego",
+        "Swoją",
+        "Marian Grochowski",
+        "_",
+        "nasz Czytelnik",
+        "pana Mariana"
+      ]
+    },
+    {
+      "id": 86,
+      "doc": "input_data/PCC-1.5-MMAX/short/2605_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "nowego wiceprezydenta",
+        "Marek Klimczak",
+        "Nowy wiceprezydent",
+        "Markowi Klimczakowi",
+        "swoje",
+        "kandydat na wiceprezydenta",
+        "Marka Klimczaka",
+        "kandydata",
+        "Klimczaka",
+        "kandydat"
+      ]
+    },
+    {
+      "id": 87,
+      "doc": "input_data/PCC-1.5-MMAX/short/2949_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Kaziuk",
+        "twój najlepszy przyjaciel",
+        "podpity przyjaciel pana domu"
+      ]
+    },
+    {
+      "id": 88,
+      "doc": "input_data/PCC-1.5-MMAX/short/3025_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "ANDRZEJ",
+        "chłopie",
+        "_",
+        "ANDRZEJA",
+        "Jędruś",
+        "Synku"
+      ]
+    },
+    {
+      "id": 89,
+      "doc": "input_data/PCC-1.5-MMAX/short/3120_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "panie doktorze",
+        "Murek",
+        "Murka",
+        "_",
+        "pan doktor",
+        "Starał się",
+        "pan",
+        "swoje",
+        "pana",
+        "panu",
+        "mojego"
+      ]
+    },
+    {
+      "id": 90,
+      "doc": "input_data/PCC-1.5-MMAX/short/3173_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp6",
+        "_"
+      ]
+    },
+    {
+      "id": 91,
+      "doc": "input_data/PCC-1.5-MMAX/short/3180_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp1",
+        "_",
+        "pani",
+        "kochanie"
+      ]
+    },
+    {
+      "id": 92,
+      "doc": "input_data/PCC-1.5-MMAX/short/3239_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "mojego"
+      ]
+    },
+    {
+      "id": 93,
+      "doc": "input_data/PCC-1.5-MMAX/short/538_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Senator Zbigniew Kulak",
+        "SenatorZbigniewKulak",
+        "moją",
+        "moją osobę",
+        "_",
+        "mój",
+        "mojej osoby",
+        "moim"
+      ]
+    },
+    {
+      "id": 94,
+      "doc": "input_data/PCC-1.5-MMAX/short/77_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "sam",
+        "samego siebie"
+      ]
+    },
+    {
+      "id": 95,
+      "doc": "input_data/PCC-1.5-MMAX/short/2423_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Sebastian G . , który przez kilkanaście miesięcy znęcał się nad najbliższymi",
+        "Domowego tyrana",
+        "_",
+        "23-letniego katowiczanina",
+        "podejrzany",
+        "lubieżnika",
+        "Sebastian G .",
+        "Młody człowiek",
+        "Sebastian",
+        "Sebastiana G .",
+        "mężczyzna",
+        "konkubent",
+        "swoją"
+      ]
+    },
+    {
+      "id": 96,
+      "doc": "input_data/PCC-1.5-MMAX/short/3184_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp3",
+        "_",
+        "moim"
+      ]
+    },
+    {
+      "id": 97,
+      "doc": "input_data/PCC-1.5-MMAX/short/111_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Arek",
+        "_"
+      ]
+    },
+    {
+      "id": 98,
+      "doc": "input_data/PCC-1.5-MMAX/short/1360_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Boryna",
+        "_",
+        "stary",
+        "staremu",
+        "tatulu"
+      ]
+    },
+    {
+      "id": 99,
+      "doc": "input_data/PCC-1.5-MMAX/short/200_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "dziesięcioletnią dziewczynkę",
+        "rannemu dziecku",
+        "Sanda",
+        "dziecka",
+        "córkę",
+        "dziewczynki",
+        "moje dziecko",
+        "_",
+        "Sandę",
+        "dziewczynkę",
+        "dziesięciolatka",
+        "pogryzione dziecko"
+      ]
+    },
+    {
+      "id": 100,
+      "doc": "input_data/PCC-1.5-MMAX/short/2119_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Janusz Czerwiński , prezes firmy Astra Tech",
+        "_",
+        "swego",
+        "Sam"
+      ]
+    },
+    {
+      "id": 101,
+      "doc": "input_data/PCC-1.5-MMAX/short/2535_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "pani minister",
+        "_",
+        "Elżbieta Jakubiak",
+        "Elżbietą Jakubiak",
+        "Elżbiety Jakubiak"
+      ]
+    },
+    {
+      "id": 102,
+      "doc": "input_data/PCC-1.5-MMAX/short/2909_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "moi",
+        "moich"
+      ]
+    },
+    {
+      "id": 103,
+      "doc": "input_data/PCC-1.5-MMAX/short/2930_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "swych",
+        "on , więzień przykuty do domku Hermesa , do pilnującego go żołnierza",
+        "swego",
+        "Moje"
+      ]
+    },
+    {
+      "id": 104,
+      "doc": "input_data/PCC-1.5-MMAX/short/2945_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "IWONA"
+      ]
+    },
+    {
+      "id": 105,
+      "doc": "input_data/PCC-1.5-MMAX/short/2970_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "MAGDĄ",
+        "MAGDA",
+        "MAGDĘ",
+        "panią",
+        "_",
+        "pani",
+        "Moja droga",
+        "twojej"
+      ]
+    },
+    {
+      "id": 106,
+      "doc": "input_data/PCC-1.5-MMAX/short/3068_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "MARIOLA",
+        "_",
+        "założę się"
+      ]
+    },
+    {
+      "id": 107,
+      "doc": "input_data/PCC-1.5-MMAX/short/3170_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp0",
+        "_"
+      ]
+    },
+    {
+      "id": 108,
+      "doc": "input_data/PCC-1.5-MMAX/short/3199_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp2",
+        "babcia",
+        "_"
+      ]
+    },
+    {
+      "id": 109,
+      "doc": "input_data/PCC-1.5-MMAX/short/3293_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Giuliani junior",
+        "_",
+        "Rudy",
+        "Giuliani",
+        "syn",
+        "Rudy Giuliani",
+        "Giulianiego"
+      ]
+    },
+    {
+      "id": 110,
+      "doc": "input_data/PCC-1.5-MMAX/short/3298_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Znacznie młodsza od niego żona Elżbieta , krakowianka",
+        "Elżbieta",
+        "_",
+        "Elżbieta Penderecka",
+        "swojego",
+        "Pani Elżbieta",
+        "pomagała"
+      ]
+    },
+    {
+      "id": 111,
+      "doc": "input_data/PCC-1.5-MMAX/short/3368_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Olka",
+        "_",
+        "Olce",
+        "dziewczyna",
+        "Olki"
+      ]
+    },
+    {
+      "id": 112,
+      "doc": "input_data/PCC-1.5-MMAX/short/3579_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "swojego",
+        "Twojej",
+        "Twojego"
+      ]
+    },
+    {
+      "id": 113,
+      "doc": "input_data/PCC-1.5-MMAX/short/401_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "ten chlopak",
+        "dostal",
+        "zrezygnowal",
+        "poszedl",
+        "_",
+        "swojej",
+        "mogł",
+        "facet",
+        "bedzie",
+        "zapomnial"
+      ]
+    },
+    {
+      "id": 114,
+      "doc": "input_data/PCC-1.5-MMAX/short/485_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Natalka"
+      ]
+    },
+    {
+      "id": 115,
+      "doc": "input_data/PCC-1.5-MMAX/short/53_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "taka",
+        "_",
+        "moge",
+        "Pozdrawiem",
+        "spedzisz",
+        "Twojego"
+      ]
+    },
+    {
+      "id": 116,
+      "doc": "input_data/PCC-1.5-MMAX/short/3119_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Winrych",
+        "swoich"
+      ]
+    },
+    {
+      "id": 117,
+      "doc": "input_data/PCC-1.5-MMAX/short/488_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp1",
+        "_"
+      ]
+    },
+    {
+      "id": 118,
+      "doc": "input_data/PCC-1.5-MMAX/short/105_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Tygellinie",
+        "_",
+        "Tygellina",
+        "Tygellinus",
+        "prefekt",
+        "Tygellin"
+      ]
+    },
+    {
+      "id": 119,
+      "doc": "input_data/PCC-1.5-MMAX/short/110_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "twoi",
+        "jeżdże",
+        "pojeżdże"
+      ]
+    },
+    {
+      "id": 120,
+      "doc": "input_data/PCC-1.5-MMAX/short/1940_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "SenatorMarianJurczyk",
+        "_"
+      ]
+    },
+    {
+      "id": 121,
+      "doc": "input_data/PCC-1.5-MMAX/short/2659_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "30-letni Jacek , pracoholik",
+        "moimi",
+        "Jacek",
+        "swojej",
+        "swoją",
+        "moich",
+        "Jacka"
+      ]
+    },
+    {
+      "id": 122,
+      "doc": "input_data/PCC-1.5-MMAX/short/2799_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "melulu87",
+        "_",
+        "wrocilam",
+        "chodzilam",
+        "moim",
+        "stracilam",
+        "walcze",
+        "chcem"
+      ]
+    },
+    {
+      "id": 123,
+      "doc": "input_data/PCC-1.5-MMAX/short/2915_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Lekarka",
+        "_",
+        "swojego",
+        "moim"
+      ]
+    },
+    {
+      "id": 124,
+      "doc": "input_data/PCC-1.5-MMAX/short/3050_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Skorom",
+        "mój",
+        "_",
+        "Wacławie",
+        "twój",
+        "Waszmość",
+        "bądź",
+        "mojemu"
+      ]
+    },
+    {
+      "id": 125,
+      "doc": "input_data/PCC-1.5-MMAX/short/3058_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Kuba",
+        "współczuł by",
+        "pomyślał by",
+        "Uścisnął by",
+        "zamknął by",
+        "_",
+        "Kuby",
+        "ofiara tamtej katastrofy",
+        "Ocalały pielgrzym",
+        "Kubę",
+        "takiego"
+      ]
+    },
+    {
+      "id": 126,
+      "doc": "input_data/PCC-1.5-MMAX/short/3085_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Agnieszkę",
+        "Agnieszka"
+      ]
+    },
+    {
+      "id": 127,
+      "doc": "input_data/PCC-1.5-MMAX/short/3092_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Nie wiem",
+        "_",
+        "nie mogę"
+      ]
+    },
+    {
+      "id": 128,
+      "doc": "input_data/PCC-1.5-MMAX/short/3098_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "ŁUKASZ",
+        "_"
+      ]
+    },
+    {
+      "id": 129,
+      "doc": "input_data/PCC-1.5-MMAX/short/3115_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "ty obesrańcu",
+        "Mock",
+        "swoje",
+        "Mocka",
+        "pan",
+        "panie nadwachmistrzu"
+      ]
+    },
+    {
+      "id": 130,
+      "doc": "input_data/PCC-1.5-MMAX/short/3145_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp3",
+        "_"
+      ]
+    },
+    {
+      "id": 131,
+      "doc": "input_data/PCC-1.5-MMAX/short/3187_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp2",
+        "moje",
+        "_",
+        "Ania"
+      ]
+    },
+    {
+      "id": 132,
+      "doc": "input_data/PCC-1.5-MMAX/short/3300_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Dębski",
+        "_",
+        "Dębskiego",
+        "Jacek",
+        "Dowiedział się"
+      ]
+    },
+    {
+      "id": 133,
+      "doc": "input_data/PCC-1.5-MMAX/short/3426_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "pan",
+        "całym sobą",
+        "Prezes Kaczyński"
+      ]
+    },
+    {
+      "id": 134,
+      "doc": "input_data/PCC-1.5-MMAX/short/3456_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "pana",
+        "Moje",
+        "_",
+        "wolę",
+        "pan",
+        "mojej"
+      ]
+    },
+    {
+      "id": 135,
+      "doc": "input_data/PCC-1.5-MMAX/short/398_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "funduszu inwestycyjnego",
+        "funduszu",
+        "fundusz inwestycyjny",
+        "fundusz"
+      ]
+    },
+    {
+      "id": 136,
+      "doc": "input_data/PCC-1.5-MMAX/short/432_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "stryja",
+        "_",
+        "gdym",
+        "autor powyższych słów",
+        "swoje",
+        "autor",
+        "Moja",
+        "mój"
+      ]
+    },
+    {
+      "id": 137,
+      "doc": "input_data/PCC-1.5-MMAX/short/496_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp1",
+        "_",
+        "niunia"
+      ]
+    },
+    {
+      "id": 138,
+      "doc": "input_data/PCC-1.5-MMAX/short/71_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "moich",
+        "moja",
+        "mojego"
+      ]
+    },
+    {
+      "id": 139,
+      "doc": "input_data/PCC-1.5-MMAX/short/88_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Pani Słaba",
+        "_",
+        "sama"
+      ]
+    },
+    {
+      "id": 140,
+      "doc": "input_data/PCC-1.5-MMAX/short/2780_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "frytka",
+        "_",
+        "moje",
+        "Mój"
+      ]
+    },
+    {
+      "id": 141,
+      "doc": "input_data/PCC-1.5-MMAX/short/281_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Łukasza",
+        "ty sam",
+        "ŁUKASZ",
+        "mojej"
+      ]
+    },
+    {
+      "id": 142,
+      "doc": "input_data/PCC-1.5-MMAX/short/100_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "sam",
+        "swoje"
+      ]
+    },
+    {
+      "id": 143,
+      "doc": "input_data/PCC-1.5-MMAX/short/1365_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Antek"
+      ]
+    },
+    {
+      "id": 144,
+      "doc": "input_data/PCC-1.5-MMAX/short/205_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "pan",
+        "_",
+        "Tomasz Kuszczak"
+      ]
+    },
+    {
+      "id": 145,
+      "doc": "input_data/PCC-1.5-MMAX/short/2143_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "swojemu"
+      ]
+    },
+    {
+      "id": 146,
+      "doc": "input_data/PCC-1.5-MMAX/short/270_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Hanka",
+        "_",
+        "własną"
+      ]
+    },
+    {
+      "id": 147,
+      "doc": "input_data/PCC-1.5-MMAX/short/2854_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "mojej",
+        "moich"
+      ]
+    },
+    {
+      "id": 148,
+      "doc": "input_data/PCC-1.5-MMAX/short/2922_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "JANINY",
+        "JANINA",
+        "Janka",
+        "_",
+        "moim"
+      ]
+    },
+    {
+      "id": 149,
+      "doc": "input_data/PCC-1.5-MMAX/short/2940_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Twój",
+        "dziewczynka"
+      ]
+    },
+    {
+      "id": 150,
+      "doc": "input_data/PCC-1.5-MMAX/short/2943_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Złam",
+        "własne"
+      ]
+    },
+    {
+      "id": 151,
+      "doc": "input_data/PCC-1.5-MMAX/short/2950_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "jego brat",
+        "Eberhard",
+        "_",
+        "swych",
+        "swym",
+        "swój"
+      ]
+    },
+    {
+      "id": 152,
+      "doc": "input_data/PCC-1.5-MMAX/short/2973_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "HENRYK",
+        "_",
+        "Twój mąż",
+        "Henryku"
+      ]
+    },
+    {
+      "id": 153,
+      "doc": "input_data/PCC-1.5-MMAX/short/3046_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Tato",
+        "mojego"
+      ]
+    },
+    {
+      "id": 154,
+      "doc": "input_data/PCC-1.5-MMAX/short/3104_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "PIOTR",
+        "_",
+        "PIOTRA"
+      ]
+    },
+    {
+      "id": 155,
+      "doc": "input_data/PCC-1.5-MMAX/short/3111_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Harry",
+        "Harry ’ emu",
+        "zbiegły więzień"
+      ]
+    },
+    {
+      "id": 156,
+      "doc": "input_data/PCC-1.5-MMAX/short/3137_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Bogusia",
+        "pan Mariusz",
+        "_",
+        "Boguś",
+        "sp1",
+        "kobity",
+        "pan",
+        "kochanie"
+      ]
+    },
+    {
+      "id": 157,
+      "doc": "input_data/PCC-1.5-MMAX/short/3467_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "TON Agro",
+        "_",
+        "Agro",
+        "spółkę",
+        "spółki",
+        "spółka",
+        "własny"
+      ]
+    },
+    {
+      "id": 158,
+      "doc": "input_data/PCC-1.5-MMAX/short/3529_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Wartak",
+        "swoje",
+        "_",
+        "mi , prostemu górnikowi",
+        "swoich"
+      ]
+    },
+    {
+      "id": 159,
+      "doc": "input_data/PCC-1.5-MMAX/short/473_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Twój Bartek",
+        "BARTEK",
+        "TERESY",
+        "TERESA",
+        "twoją",
+        "swoją",
+        "Kładzie",
+        "uśmiecha się"
+      ]
+    },
+    {
+      "id": 160,
+      "doc": "input_data/PCC-1.5-MMAX/short/492_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp3",
+        "Ola",
+        "_",
+        "mój",
+        "twój"
+      ]
+    },
+    {
+      "id": 161,
+      "doc": "input_data/PCC-1.5-MMAX/short/3451_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "mojej",
+        "moje",
+        "moim"
+      ]
+    },
+    {
+      "id": 162,
+      "doc": "input_data/PCC-1.5-MMAX/short/1939_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "WicemarszalekTadeuszRzemykowski",
+        "_"
+      ]
+    },
+    {
+      "id": 163,
+      "doc": "input_data/PCC-1.5-MMAX/short/2238_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "pan",
+        "chory",
+        "pana"
+      ]
+    },
+    {
+      "id": 164,
+      "doc": "input_data/PCC-1.5-MMAX/short/2387_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "moje"
+      ]
+    },
+    {
+      "id": 165,
+      "doc": "input_data/PCC-1.5-MMAX/short/2674_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Janusza",
+        "Janusz",
+        "Anną",
+        "Anna",
+        "_"
+      ]
+    },
+    {
+      "id": 166,
+      "doc": "input_data/PCC-1.5-MMAX/short/269_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "STOMIL",
+        "_",
+        "swojego",
+        "Stomilowi",
+        "Stomila",
+        "Stomilu"
+      ]
+    },
+    {
+      "id": 167,
+      "doc": "input_data/PCC-1.5-MMAX/short/2_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "krokowski kandydat do tytułu Wójta Pomorza",
+        "wójt gminy Krokowa",
+        "swój",
+        "wójt",
+        "moja",
+        "Henryka Doeringa",
+        "wójt Krokowej",
+        "Henryk Doering"
+      ]
+    },
+    {
+      "id": 168,
+      "doc": "input_data/PCC-1.5-MMAX/short/3010_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Gadajże",
+        "Ja sam"
+      ]
+    },
+    {
+      "id": 169,
+      "doc": "input_data/PCC-1.5-MMAX/short/3177_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp3",
+        "_",
+        "moich"
+      ]
+    },
+    {
+      "id": 170,
+      "doc": "input_data/PCC-1.5-MMAX/short/3292_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "pani",
+        "mój",
+        "ja sama"
+      ]
+    },
+    {
+      "id": 171,
+      "doc": "input_data/PCC-1.5-MMAX/short/3515_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "J . Łydżby",
+        "Artysta",
+        "_",
+        "artysty",
+        "J . Łydżba",
+        "malarz",
+        "swego"
+      ]
+    },
+    {
+      "id": 172,
+      "doc": "input_data/PCC-1.5-MMAX/short/361_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Ustaw",
+        "Twojego"
+      ]
+    },
+    {
+      "id": 173,
+      "doc": "input_data/PCC-1.5-MMAX/short/446_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Nalepy",
+        "_",
+        "moim",
+        "Tadeusz Nalepa"
+      ]
+    },
+    {
+      "id": 174,
+      "doc": "input_data/PCC-1.5-MMAX/short/478_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Matka Gwiazdy",
+        "_",
+        "mama",
+        "nasiłowałam"
+      ]
+    },
+    {
+      "id": 175,
+      "doc": "input_data/PCC-1.5-MMAX/short/495_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp0",
+        "_",
+        "moje",
+        "mój"
+      ]
+    },
+    {
+      "id": 176,
+      "doc": "input_data/PCC-1.5-MMAX/short/532_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "WicemarszalekAndrzejChronowski",
+        "_"
+      ]
+    },
+    {
+      "id": 177,
+      "doc": "input_data/PCC-1.5-MMAX/short/689_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "twojej",
+        "twoją",
+        "przyszła pani prawnik",
+        "Moją",
+        "swojej",
+        "swój"
+      ]
+    },
+    {
+      "id": 178,
+      "doc": "input_data/PCC-1.5-MMAX/short/85_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "moja"
+      ]
+    },
+    {
+      "id": 179,
+      "doc": "input_data/PCC-1.5-MMAX/short/2929_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "stworzenie",
+        "przeszło"
+      ]
+    },
+    {
+      "id": 180,
+      "doc": "input_data/PCC-1.5-MMAX/short/3331_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Człowiek",
+        "_",
+        "swojego"
+      ]
+    },
+    {
+      "id": 181,
+      "doc": "input_data/PCC-1.5-MMAX/short/145_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "pan",
+        "_",
+        "pana"
+      ]
+    },
+    {
+      "id": 182,
+      "doc": "input_data/PCC-1.5-MMAX/short/2541_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "pan",
+        "_",
+        "swoich",
+        "Mój",
+        "syna"
+      ]
+    },
+    {
+      "id": 183,
+      "doc": "input_data/PCC-1.5-MMAX/short/2580_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Aleksandrem Jakowienko , Konsulem Generalnym Federacji Rosyjskiej",
+        "pan",
+        "swoją",
+        "_"
+      ]
+    },
+    {
+      "id": 184,
+      "doc": "input_data/PCC-1.5-MMAX/short/268_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "AGATA",
+        "wezwę",
+        "_",
+        "twoim",
+        "Julio",
+        "Agatę"
+      ]
+    },
+    {
+      "id": 185,
+      "doc": "input_data/PCC-1.5-MMAX/short/2793_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Zamyślona",
+        "_",
+        "Mój",
+        "moge",
+        "jestes",
+        "dostalas",
+        "zrobilas"
+      ]
+    },
+    {
+      "id": 186,
+      "doc": "input_data/PCC-1.5-MMAX/short/282_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "ŁUKASZ",
+        "_",
+        "Łukasza"
+      ]
+    },
+    {
+      "id": 187,
+      "doc": "input_data/PCC-1.5-MMAX/short/2924_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "batko",
+        "_",
+        "Juraj",
+        "twojej",
+        "mojego"
+      ]
+    },
+    {
+      "id": 188,
+      "doc": "input_data/PCC-1.5-MMAX/short/2935_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "załoga , odwykła od trudów i żeglugi",
+        "swój",
+        "ci marynarze",
+        "_",
+        "żeglarzy",
+        "Załoga",
+        "Zalani , na wpół oślepli , pokryci górą pian , żeglarze",
+        "ci żeglarze",
+        "zaślepieni",
+        "ci na wpół umarli"
+      ]
+    },
+    {
+      "id": 189,
+      "doc": "input_data/PCC-1.5-MMAX/short/3013_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Robert",
+        "Roberta"
+      ]
+    },
+    {
+      "id": 190,
+      "doc": "input_data/PCC-1.5-MMAX/short/3084_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "dziewczyna",
+        "_",
+        "swe",
+        "Inge"
+      ]
+    },
+    {
+      "id": 191,
+      "doc": "input_data/PCC-1.5-MMAX/short/3102_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "swoich",
+        "Rozpromieniła się",
+        "ocknęła się"
+      ]
+    },
+    {
+      "id": 192,
+      "doc": "input_data/PCC-1.5-MMAX/short/3105_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Lucynda",
+        "_",
+        "Aleś",
+        "Gdzieś",
+        "świnia"
+      ]
+    },
+    {
+      "id": 193,
+      "doc": "input_data/PCC-1.5-MMAX/short/3106_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "MARII",
+        "MARIA",
+        "Marysi",
+        "_"
+      ]
+    },
+    {
+      "id": 194,
+      "doc": "input_data/PCC-1.5-MMAX/short/3149_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp0",
+        "_"
+      ]
+    },
+    {
+      "id": 195,
+      "doc": "input_data/PCC-1.5-MMAX/short/3158_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp0",
+        "_",
+        "mój",
+        "chciała m",
+        "by m"
+      ]
+    },
+    {
+      "id": 196,
+      "doc": "input_data/PCC-1.5-MMAX/short/3168_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp1",
+        "_"
+      ]
+    },
+    {
+      "id": 197,
+      "doc": "input_data/PCC-1.5-MMAX/short/3186_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "sp2",
+        "cziasz"
+      ]
+    },
+    {
+      "id": 198,
+      "doc": "input_data/PCC-1.5-MMAX/short/3198_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp1",
+        "Ola",
+        "_"
+      ]
+    },
+    {
+      "id": 199,
+      "doc": "input_data/PCC-1.5-MMAX/short/3230_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "głosowania",
+        "referendum"
+      ]
+    },
+    {
+      "id": 200,
+      "doc": "input_data/PCC-1.5-MMAX/short/3346_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Jowialny i pyskaty Aleksander Gudzowaty",
+        "_",
+        "modlił się",
+        "swojej",
+        "Gudzowatego",
+        "Gudzowa ty",
+        "Gudzowaty",
+        "mniejszościowego akcjonariusza Gas Trading , czyli Gudzowatego",
+        "Polskiego biznesmena"
+      ]
+    },
+    {
+      "id": 201,
+      "doc": "input_data/PCC-1.5-MMAX/short/429_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "mężczyzną",
+        "mężczyznę",
+        "mężczyzna",
+        "_",
+        "MĘŻCZYŹNIE",
+        "swego",
+        "swoją",
+        "swą"
+      ]
+    },
+    {
+      "id": 202,
+      "doc": "input_data/PCC-1.5-MMAX/short/462_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "mej",
+        "mego"
+      ]
+    },
+    {
+      "id": 203,
+      "doc": "input_data/PCC-1.5-MMAX/short/477_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Kacper",
+        "_",
+        "Kacpra",
+        "Kacprowi"
+      ]
+    },
+    {
+      "id": 204,
+      "doc": "input_data/PCC-1.5-MMAX/short/486_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "sp1",
+        "twojemu",
+        "kup"
+      ]
+    },
+    {
+      "id": 205,
+      "doc": "input_data/PCC-1.5-MMAX/short/494_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp0",
+        "_"
+      ]
+    },
+    {
+      "id": 206,
+      "doc": "input_data/PCC-1.5-MMAX/short/636_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Pani Maria",
+        "_",
+        "Maria Mularczyk",
+        "swojego"
+      ]
+    },
+    {
+      "id": 207,
+      "doc": "input_data/PCC-1.5-MMAX/short/808_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "shiroo",
+        "_",
+        "wal"
+      ]
+    },
+    {
+      "id": 208,
+      "doc": "input_data/PCC-1.5-MMAX/short/2862_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "utrudzeni podróżnicy",
+        "Swym"
+      ]
+    },
+    {
+      "id": 209,
+      "doc": "input_data/PCC-1.5-MMAX/short/3599_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Twoim",
+        "Zastanów się"
+      ]
+    },
+    {
+      "id": 210,
+      "doc": "input_data/PCC-1.5-MMAX/short/135_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "prof . Zdzisława Jana Ryna",
+        "prof . Ryn",
+        "_",
+        "własnych",
+        "Ryn",
+        "prof . Ryna",
+        "ten",
+        "polskiego ambasadora",
+        "ambasador",
+        "amb . Ryn"
+      ]
+    },
+    {
+      "id": 211,
+      "doc": "input_data/PCC-1.5-MMAX/short/210_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Znana teatromanom i telewidzom ( „ Złotopolscy ” ) aktorka - Ewa Kasprzyk",
+        "Ewa Kasprzyk",
+        "_",
+        "przeniesie się",
+        "Ewą , najlepszym kumplem",
+        "Ewo",
+        "Aktorka",
+        "Ewa",
+        "aktorkę",
+        "pani",
+        "gwiazdę",
+        "swoją ulubienicę",
+        "Pani Ewo"
+      ]
+    },
+    {
+      "id": 212,
+      "doc": "input_data/PCC-1.5-MMAX/short/2123_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Sceptycy , którzy nie chcą sami się przekonać o skuteczności naturalnego leczenia i zdrowego odżywiania",
+        "swoje",
+        "_",
+        "swoich",
+        "swe",
+        "swojego"
+      ]
+    },
+    {
+      "id": 213,
+      "doc": "input_data/PCC-1.5-MMAX/short/236_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Moja",
+        "_",
+        "sam",
+        "twój kochający J Iwasz [ kiewicz ]",
+        "moją"
+      ]
+    },
+    {
+      "id": 214,
+      "doc": "input_data/PCC-1.5-MMAX/short/2507_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Potwór z Katowic",
+        "Arnolda B . , mieszkańca Katowic , oskarżonego o zamordowanie kilkunastu prostytutek",
+        "Arnold B . , spokojny , bezkonfliktowy pracownik Huty „ Baildon ”",
+        "_",
+        "Arnolda",
+        "Arnold",
+        "żywił się",
+        "głównego najemcy",
+        "Arnoldowi",
+        "się pastwił"
+      ]
+    },
+    {
+      "id": 215,
+      "doc": "input_data/PCC-1.5-MMAX/short/2794_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "napisałas",
+        "_",
+        "kochana",
+        "wika141",
+        "boje się",
+        "się boję",
+        "się martwię"
+      ]
+    },
+    {
+      "id": 216,
+      "doc": "input_data/PCC-1.5-MMAX/short/2849_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Bąka",
+        "kol . Bąk",
+        "swoje",
+        "człowieka chorego psychicznie i szkodnika",
+        "Bąk",
+        "_",
+        "Swoimi"
+      ]
+    },
+    {
+      "id": 217,
+      "doc": "input_data/PCC-1.5-MMAX/short/286_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Tomek",
+        "_",
+        "nie miał",
+        "Przyglądał się",
+        "swoich",
+        "swoją",
+        "Zrywał się",
+        "Puszczał się"
+      ]
+    },
+    {
+      "id": 218,
+      "doc": "input_data/PCC-1.5-MMAX/short/287_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "najczcigodniejszy",
+        "Tygellin",
+        "prefekta",
+        "_",
+        "moich",
+        "Tygellinowi"
+      ]
+    },
+    {
+      "id": 219,
+      "doc": "input_data/PCC-1.5-MMAX/short/2889_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "swoje"
+      ]
+    },
+    {
+      "id": 220,
+      "doc": "input_data/PCC-1.5-MMAX/short/288_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "niewolniku",
+        "Ursus",
+        "_",
+        "Ursusa",
+        "moja",
+        "żeś"
+      ]
+    },
+    {
+      "id": 221,
+      "doc": "input_data/PCC-1.5-MMAX/short/2927_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Anka",
+        "_",
+        "mój",
+        "żem",
+        "niewinnej",
+        "Płonę",
+        "mamuśce uczulonej na dym"
+      ]
+    },
+    {
+      "id": 222,
+      "doc": "input_data/PCC-1.5-MMAX/short/2952_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Urszula",
+        "Urszuli",
+        "Urszuli ( która wtedy gwałtownie się _ budzi )",
+        "_",
+        "Urszula śmiertelnie przerażona",
+        "pani",
+        "mój",
+        "kłamczucha",
+        "Urszuli w panice"
+      ]
+    },
+    {
+      "id": 223,
+      "doc": "input_data/PCC-1.5-MMAX/short/2959_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "pana",
+        "panie Adasiu",
+        "_",
+        "moja",
+        "pan",
+        "Adama",
+        "panem"
+      ]
+    },
+    {
+      "id": 224,
+      "doc": "input_data/PCC-1.5-MMAX/short/2969_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "KAMIL",
+        "Kamilowi",
+        "_",
+        "Mógł by m",
+        "Stary",
+        "Kamilku",
+        "Kamila"
+      ]
+    },
+    {
+      "id": 225,
+      "doc": "input_data/PCC-1.5-MMAX/short/2976_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "swoją"
+      ]
+    },
+    {
+      "id": 226,
+      "doc": "input_data/PCC-1.5-MMAX/short/2981_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "MARIA",
+        "_",
+        "pani"
+      ]
+    },
+    {
+      "id": 227,
+      "doc": "input_data/PCC-1.5-MMAX/short/2999_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Dziewczynko",
+        "_",
+        "Dzidzię",
+        "Dziewczynka",
+        "rozkraczonej kaleki"
+      ]
+    },
+    {
+      "id": 228,
+      "doc": "input_data/PCC-1.5-MMAX/short/3123_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Kobieta II",
+        "Pani",
+        "_",
+        "pami ? tam"
+      ]
+    },
+    {
+      "id": 229,
+      "doc": "input_data/PCC-1.5-MMAX/short/3171_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp2",
+        "Leszku",
+        "_",
+        "swoją"
+      ]
+    },
+    {
+      "id": 230,
+      "doc": "input_data/PCC-1.5-MMAX/short/459_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Bąka",
+        "poety",
+        "_",
+        "swoje",
+        "desperata",
+        "jego osoby",
+        "neurastenika"
+      ]
+    },
+    {
+      "id": 231,
+      "doc": "input_data/PCC-1.5-MMAX/short/467_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Adasiu"
+      ]
+    },
+    {
+      "id": 232,
+      "doc": "input_data/PCC-1.5-MMAX/short/482_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "tobym",
+        "Agnieszka"
+      ]
+    },
+    {
+      "id": 233,
+      "doc": "input_data/PCC-1.5-MMAX/short/72_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Ob . Wojciecha Bąka",
+        "właścicielowi , przebywającemu w \" Dziekance \"",
+        "_",
+        "swego",
+        "Bąka"
+      ]
+    },
+    {
+      "id": 234,
+      "doc": "input_data/PCC-1.5-MMAX/short/813_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Picia",
+        "Piotr Lato",
+        "mozesz",
+        "Twoja",
+        "moja"
+      ]
+    },
+    {
+      "id": 235,
+      "doc": "input_data/PCC-1.5-MMAX/short/967_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_"
+      ]
+    },
+    {
+      "id": 236,
+      "doc": "input_data/PCC-1.5-MMAX/short/106_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Ziutek",
+        "_",
+        "pieszczochu",
+        "mojego",
+        "młody człowieku",
+        "Ziutka",
+        "Chłopiec"
+      ]
+    },
+    {
+      "id": 237,
+      "doc": "input_data/PCC-1.5-MMAX/short/196_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "cała trójka",
+        "swój",
+        "_",
+        "naszą",
+        "wasze",
+        "nasze",
+        "naszych",
+        "swą",
+        "naszym"
+      ]
+    },
+    {
+      "id": 238,
+      "doc": "input_data/PCC-1.5-MMAX/short/254_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "nasze",
+        "naszej"
+      ]
+    },
+    {
+      "id": 239,
+      "doc": "input_data/PCC-1.5-MMAX/short/3042_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "DONA",
+        "pani",
+        "swojej",
+        "swoją"
+      ]
+    },
+    {
+      "id": 240,
+      "doc": "input_data/PCC-1.5-MMAX/short/514_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "panie profesorze",
+        "Profesor",
+        "_",
+        "moja"
+      ]
+    },
+    {
+      "id": 241,
+      "doc": "input_data/PCC-1.5-MMAX/long/199912280024_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "PLUSKWA MILENIJNA",
+        "problemu roku 2000",
+        "PR 2000",
+        "problemem związanym ze zmianą daty",
+        "milenijną pluskwą",
+        "problemem milenijnym",
+        "problem roku 2000",
+        "Y2K"
+      ]
+    },
+    {
+      "id": 242,
+      "doc": "input_data/PCC-1.5-MMAX/short/2536_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "19-letnia poddębiczanka Aleksandra Janaszkiewicz , która w sobotę zadebiutowała tomikiem poezji „ Schiizofrenie wyłamanych drzwi ”",
+        "_",
+        "swoje",
+        "Aleksandra Janaszkiewicz",
+        "moje"
+      ]
+    },
+    {
+      "id": 243,
+      "doc": "input_data/PCC-1.5-MMAX/short/2636_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Hokejowi mistrzowie Polski",
+        "Dworów Unii",
+        "oświęcimianom",
+        "mistrz",
+        "_",
+        "Dworów",
+        "przeciwnika",
+        "gospodarze",
+        "oświęcimianie",
+        "mistrzom Polski",
+        "oświęcimian"
+      ]
+    },
+    {
+      "id": 244,
+      "doc": "input_data/PCC-1.5-MMAX/short/2678_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "obcokrajowca",
+        "Duńczyka",
+        "zagraniczny turysta",
+        "Turysta z Danii",
+        "_",
+        "jej duński podopieczny",
+        "Obcokrajowiec",
+        "mężczyzna",
+        "turysta"
+      ]
+    },
+    {
+      "id": 245,
+      "doc": "input_data/PCC-1.5-MMAX/short/2768_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Rolson123456",
+        "_",
+        "moim",
+        "moich",
+        "moja"
+      ]
+    },
+    {
+      "id": 246,
+      "doc": "input_data/PCC-1.5-MMAX/short/2812_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Kanclerzowi",
+        "Robinson",
+        "Godericha",
+        "Goderich"
+      ]
+    },
+    {
+      "id": 247,
+      "doc": "input_data/PCC-1.5-MMAX/short/2873_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "żem"
+      ]
+    },
+    {
+      "id": 248,
+      "doc": "input_data/PCC-1.5-MMAX/short/2906_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Elżbietę",
+        "_",
+        "Elżbieta",
+        "Elżbiety"
+      ]
+    },
+    {
+      "id": 249,
+      "doc": "input_data/PCC-1.5-MMAX/short/2912_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Otrząsnęła się",
+        "_",
+        "wspierała się",
+        "ją całą",
+        "oparła by się"
+      ]
+    },
+    {
+      "id": 250,
+      "doc": "input_data/PCC-1.5-MMAX/short/2925_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "ŁUKASZ",
+        "_",
+        "Łukasza"
+      ]
+    },
+    {
+      "id": 251,
+      "doc": "input_data/PCC-1.5-MMAX/short/2931_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Panie",
+        "Winicjusz",
+        "Petroniusza",
+        "sam"
+      ]
+    },
+    {
+      "id": 252,
+      "doc": "input_data/PCC-1.5-MMAX/short/2934_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "twego",
+        "moich",
+        "_",
+        "samym sobą",
+        "Drogi kolego",
+        "swego"
+      ]
+    },
+    {
+      "id": 253,
+      "doc": "input_data/PCC-1.5-MMAX/short/2965_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Pani Sabina",
+        "_",
+        "mamo",
+        "pani Sabiny"
+      ]
+    },
+    {
+      "id": 254,
+      "doc": "input_data/PCC-1.5-MMAX/short/2968_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Szerucki",
+        "_",
+        "twoja",
+        "ty skurwysynie",
+        "swego"
+      ]
+    },
+    {
+      "id": 255,
+      "doc": "input_data/PCC-1.5-MMAX/short/2974_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Opel",
+        "_",
+        "swoją"
+      ]
+    },
+    {
+      "id": 256,
+      "doc": "input_data/PCC-1.5-MMAX/short/299_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Jadzia",
+        "Jadziu"
+      ]
+    },
+    {
+      "id": 257,
+      "doc": "input_data/PCC-1.5-MMAX/short/3093_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Afrodycie Limanii",
+        "Izyda",
+        "Królowo niebios",
+        "ty , która w radości z odnalezienia Utraconej obdarzyła ś nas ziarnem",
+        "czczona w Eleusis Matko",
+        "Ty , której żywota owocem Amor",
+        "Astreo",
+        "Anadyomene wielbiona w obmywanym falami Pafos",
+        "siostro Feba , która brzemiennym w rozwiązaniu udzielasz pomocy",
+        "Prozerpino , rozwierająca bramy podziemi",
+        "_",
+        "bogini"
+      ]
+    },
+    {
+      "id": 258,
+      "doc": "input_data/PCC-1.5-MMAX/short/3099_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "stojącego spokojnie koło windy pana Jankowiaka",
+        "pan Jankowiak",
+        "swoją"
+      ]
+    },
+    {
+      "id": 259,
+      "doc": "input_data/PCC-1.5-MMAX/short/3107_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "moje",
+        "mój",
+        "mojej"
+      ]
+    },
+    {
+      "id": 260,
+      "doc": "input_data/PCC-1.5-MMAX/short/3126_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Aniela Sopelkundel",
+        "_",
+        "Mamuśka Sopelkundel",
+        "pani"
+      ]
+    },
+    {
+      "id": 261,
+      "doc": "input_data/PCC-1.5-MMAX/short/3138_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp2",
+        "Wiesia",
+        "_"
+      ]
+    },
+    {
+      "id": 262,
+      "doc": "input_data/PCC-1.5-MMAX/short/313_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "najsilniejsza w parlamencie opozycja",
+        "PiS",
+        "_",
+        "Partia Kaczyńskiego"
+      ]
+    },
+    {
+      "id": 263,
+      "doc": "input_data/PCC-1.5-MMAX/short/3179_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Maciek",
+        "_",
+        "raptus",
+        "ty człowieku"
+      ]
+    },
+    {
+      "id": 264,
+      "doc": "input_data/PCC-1.5-MMAX/short/433_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Pana Jezusa",
+        "Chrystusa Pana",
+        "Panie",
+        "Twoje",
+        "Pan",
+        "_",
+        "broni",
+        "Boże , wiekuisty Pasterzu wiernych",
+        "spraw",
+        "Twój",
+        "Chrystusa",
+        "Twoją",
+        "Chrystusa , Pana naszego",
+        "Pana naszego"
+      ]
+    },
+    {
+      "id": 265,
+      "doc": "input_data/PCC-1.5-MMAX/short/474_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "STOMIL",
+        "własnego ojca",
+        "Ojciec",
+        "ojca",
+        "Stomilu",
+        "_",
+        "twoim"
+      ]
+    },
+    {
+      "id": 266,
+      "doc": "input_data/PCC-1.5-MMAX/short/481_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Władysław",
+        "_",
+        "Turkowski",
+        "Panie Władysławie",
+        "Pan",
+        "pan Władysław",
+        "panu"
+      ]
+    },
+    {
+      "id": 267,
+      "doc": "input_data/PCC-1.5-MMAX/short/501_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "ich państwa",
+        "Rosji",
+        "Rosja",
+        "_"
+      ]
+    },
+    {
+      "id": 268,
+      "doc": "input_data/PCC-1.5-MMAX/short/654_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "prezydentowi",
+        "prezydent Tadeusz Krzakowski",
+        "Tadeuszowi Krzakowskiemu , prezydentowi Legnicy",
+        "_",
+        "Pan Prezydent",
+        "Pana Prezydenta",
+        "Prezydent Krzakowski",
+        "prezydent"
+      ]
+    },
+    {
+      "id": 269,
+      "doc": "input_data/PCC-1.5-MMAX/short/84_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "rozsrożony kowal",
+        "_",
+        "kowal"
+      ]
+    },
+    {
+      "id": 270,
+      "doc": "input_data/PCC-1.5-MMAX/long/199901190115_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Niemczech",
+        "Niemiec",
+        "jego kraju",
+        "Niemcy",
+        "swoje",
+        "państwa"
+      ]
+    },
+    {
+      "id": 271,
+      "doc": "input_data/PCC-1.5-MMAX/short/1358_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "chuderlawy Hindus , w okularach , z kopą tłustych włosów , które nosiły wyraźny ślad grzebienia",
+        "pan",
+        "Hindusa",
+        "Pan Dżaj Motal",
+        "_",
+        "by",
+        "ten"
+      ]
+    },
+    {
+      "id": 272,
+      "doc": "input_data/PCC-1.5-MMAX/short/264_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "mój"
+      ]
+    },
+    {
+      "id": 273,
+      "doc": "input_data/PCC-1.5-MMAX/short/2881_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "moimi",
+        "moje",
+        "Pani"
+      ]
+    },
+    {
+      "id": 274,
+      "doc": "input_data/PCC-1.5-MMAX/short/2938_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "moja osoba",
+        "moja",
+        "Wiktor",
+        "Wiktorem"
+      ]
+    },
+    {
+      "id": 275,
+      "doc": "input_data/PCC-1.5-MMAX/short/94_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Juan",
+        "mój",
+        "Moje",
+        "mojej"
+      ]
+    },
+    {
+      "id": 276,
+      "doc": "input_data/PCC-1.5-MMAX/short/2376_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "inż . Leszka Solskiego z Sopotu",
+        "pana Leszka"
+      ]
+    },
+    {
+      "id": 277,
+      "doc": "input_data/PCC-1.5-MMAX/short/2377_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "znajomego",
+        "_",
+        "właściciela baru",
+        "Właściciel",
+        "Pan Mikołajczak",
+        "własną",
+        "Mikołajczak",
+        "mój"
+      ]
+    },
+    {
+      "id": 278,
+      "doc": "input_data/PCC-1.5-MMAX/short/2381_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "pana Witolda",
+        "Solik",
+        "Soliku",
+        "swoją"
+      ]
+    },
+    {
+      "id": 279,
+      "doc": "input_data/PCC-1.5-MMAX/short/2401_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "pani Janina",
+        "_",
+        "swoje"
+      ]
+    },
+    {
+      "id": 280,
+      "doc": "input_data/PCC-1.5-MMAX/short/2555_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "MTS-u Chrzanów",
+        "własnym",
+        "gospodarze",
+        "miejscowych",
+        "MTS-u",
+        "_",
+        "Chrzanowianie",
+        "zespołu"
+      ]
+    },
+    {
+      "id": 281,
+      "doc": "input_data/PCC-1.5-MMAX/short/2709_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Pan",
+        "_",
+        "moja",
+        "mój"
+      ]
+    },
+    {
+      "id": 282,
+      "doc": "input_data/PCC-1.5-MMAX/short/2734_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Iwanem Kedrynem-Rudnyckim",
+        "Kedryn",
+        "_",
+        "swojego",
+        "stryj",
+        "Sam Kedryn"
+      ]
+    },
+    {
+      "id": 283,
+      "doc": "input_data/PCC-1.5-MMAX/short/2740_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Papież",
+        "_",
+        "Ojciec Święty",
+        "swojego",
+        "Ojca Świętego , który pragnął pozostać w swoim mieszkaniu , gdzie zresztą _ miał zapewnioną całkowitą opiekę medyczną",
+        "chorego",
+        "Ojcu Świętemu"
+      ]
+    },
+    {
+      "id": 284,
+      "doc": "input_data/PCC-1.5-MMAX/short/2776_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Zombianka",
+        "_",
+        "własne",
+        "woilę"
+      ]
+    },
+    {
+      "id": 285,
+      "doc": "input_data/PCC-1.5-MMAX/short/2864_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "musiałem"
+      ]
+    },
+    {
+      "id": 286,
+      "doc": "input_data/PCC-1.5-MMAX/short/2895_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Wilhelmie Marszalku",
+        "bohaterze",
+        "_",
+        "własnego",
+        "Marszałek",
+        "samemu",
+        "Wilhelma",
+        "hrabiego Pembroke",
+        "Marszałka"
+      ]
+    },
+    {
+      "id": 287,
+      "doc": "input_data/PCC-1.5-MMAX/short/2989_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "JULITA",
+        "kobietą",
+        "_",
+        "Julity"
+      ]
+    },
+    {
+      "id": 288,
+      "doc": "input_data/PCC-1.5-MMAX/short/3012_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "LAURA",
+        "samotnie grającą Laurę",
+        "_",
+        "Moja",
+        "moją"
+      ]
+    },
+    {
+      "id": 289,
+      "doc": "input_data/PCC-1.5-MMAX/short/3030_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "drugi samuraj",
+        "ostatniego uczestnika",
+        "Ten",
+        "_",
+        "uczestnik ten",
+        "swoich",
+        "by"
+      ]
+    },
+    {
+      "id": 290,
+      "doc": "input_data/PCC-1.5-MMAX/short/3038_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Maurycemu"
+      ]
+    },
+    {
+      "id": 291,
+      "doc": "input_data/PCC-1.5-MMAX/short/3074_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Boskiego",
+        "Stary",
+        "_",
+        "Boski",
+        "mojego",
+        "małżonek"
+      ]
+    },
+    {
+      "id": 292,
+      "doc": "input_data/PCC-1.5-MMAX/short/3077_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "PIOTR",
+        "_",
+        "moja",
+        "moje"
+      ]
+    },
+    {
+      "id": 293,
+      "doc": "input_data/PCC-1.5-MMAX/short/3178_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Andrzej",
+        "_",
+        "Andrzeja"
+      ]
+    },
+    {
+      "id": 294,
+      "doc": "input_data/PCC-1.5-MMAX/short/3258_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Monika Skoczylas z Winnicy",
+        "Moniki",
+        "moją",
+        "Monika"
+      ]
+    },
+    {
+      "id": 295,
+      "doc": "input_data/PCC-1.5-MMAX/short/3305_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Billa Clintona",
+        "Prezydent",
+        "_",
+        "swoją",
+        "Clintona",
+        "swemu",
+        "Clinton",
+        "swego szefa"
+      ]
+    },
+    {
+      "id": 296,
+      "doc": "input_data/PCC-1.5-MMAX/short/3348_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Asłanowi Maschadowowi",
+        "swój",
+        "Maschadowem , zabitym przez rosyjskie siły specjalne",
+        "Maschadow"
+      ]
+    },
+    {
+      "id": 297,
+      "doc": "input_data/PCC-1.5-MMAX/short/3421_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Mikołaj Dzierzgowski , herbu Jastrzębiec",
+        "duchownego",
+        "Dzierzgowskiego",
+        "Mikołaj",
+        "_",
+        "biskup Dzierzgowski , bliski współpracownik zmarłego"
+      ]
+    },
+    {
+      "id": 298,
+      "doc": "input_data/PCC-1.5-MMAX/short/3615_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Nasza",
+        "_",
+        "naszym",
+        "nasze"
+      ]
+    },
+    {
+      "id": 299,
+      "doc": "input_data/PCC-1.5-MMAX/short/378_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "swoich",
+        "człowiek oświadczający publicznie , że brzydzi się polityką",
+        "pan",
+        "panu"
+      ]
+    },
+    {
+      "id": 300,
+      "doc": "input_data/PCC-1.5-MMAX/short/402_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "pokaz",
+        "Edervenne",
+        "Dziękję"
+      ]
+    },
+    {
+      "id": 301,
+      "doc": "input_data/PCC-1.5-MMAX/short/434_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Kierkegaarda",
+        "ten",
+        "_",
+        "tego filozofa",
+        "_ syna",
+        "on sam",
+        "Kierkegaard"
+      ]
+    },
+    {
+      "id": 302,
+      "doc": "input_data/PCC-1.5-MMAX/short/471_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Dziewczyna",
+        "_"
+      ]
+    },
+    {
+      "id": 303,
+      "doc": "input_data/PCC-1.5-MMAX/short/512_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp2",
+        "_",
+        "wiedzę",
+        "moje",
+        "panu profesorowi",
+        "pan"
+      ]
+    },
+    {
+      "id": 304,
+      "doc": "input_data/PCC-1.5-MMAX/short/534_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Bractwa Strzeleckie Rzeczypospolitej Polskiej",
+        "Kurkowych Bractw Strzeleckich",
+        "bractw strzeleckich",
+        "Kurkowe bractwa strzeleckie",
+        "bractwa",
+        "_",
+        "tych stowarzyszeń",
+        "bractw",
+        "Bractwa strzeleckie",
+        "bractwom"
+      ]
+    },
+    {
+      "id": 305,
+      "doc": "input_data/PCC-1.5-MMAX/short/582_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "swymi",
+        "Czesław S .",
+        "rannego sąsiada",
+        "nieprzytomny mężczyzna",
+        "Czesławem S .",
+        "sąsiada",
+        "mężczyzna"
+      ]
+    },
+    {
+      "id": 306,
+      "doc": "input_data/PCC-1.5-MMAX/short/659_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "pani",
+        "mój"
+      ]
+    },
+    {
+      "id": 307,
+      "doc": "input_data/PCC-1.5-MMAX/short/65_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Prawie każde małżeństwo , które startuje do życia wspólnego",
+        "swojego",
+        "swoich",
+        "_",
+        "swoje",
+        "rodziców",
+        "swoich rodziców",
+        "ojcem i matką"
+      ]
+    },
+    {
+      "id": 308,
+      "doc": "input_data/PCC-1.5-MMAX/short/1137_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Nalepą",
+        "Tadeusz",
+        "_"
+      ]
+    },
+    {
+      "id": 309,
+      "doc": "input_data/PCC-1.5-MMAX/short/1814_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Jana Stępkowskiego , artysty ze Strzegowa",
+        "artysty",
+        "_",
+        "artysty ze Strzegowa",
+        "Jana Stępkowskiego",
+        "Stępkowskiego"
+      ]
+    },
+    {
+      "id": 310,
+      "doc": "input_data/PCC-1.5-MMAX/short/2157_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "swoje",
+        "swoim dziecku",
+        "Twojej pociechy",
+        "dziecku",
+        "swojemu maluchowi"
+      ]
+    },
+    {
+      "id": 311,
+      "doc": "input_data/PCC-1.5-MMAX/short/2919_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Robert"
+      ]
+    },
+    {
+      "id": 312,
+      "doc": "input_data/PCC-1.5-MMAX/short/2986_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Zani",
+        "_",
+        "swój",
+        "Zaniego"
+      ]
+    },
+    {
+      "id": 313,
+      "doc": "input_data/PCC-1.5-MMAX/short/3052_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "moje",
+        "mój"
+      ]
+    },
+    {
+      "id": 314,
+      "doc": "input_data/PCC-1.5-MMAX/short/3423_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "zespół",
+        "zespołu",
+        "zespół ten",
+        "_",
+        "własnego",
+        "zaspół"
+      ]
+    },
+    {
+      "id": 315,
+      "doc": "input_data/PCC-1.5-MMAX/short/3498_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "młody Niemiec",
+        "_",
+        "Sven",
+        "Niemca",
+        "Svena"
+      ]
+    },
+    {
+      "id": 316,
+      "doc": "input_data/PCC-1.5-MMAX/short/505_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Jamrozy",
+        "moim",
+        "pan",
+        "Mojemu",
+        "prezesa PZU",
+        "mojego",
+        "_"
+      ]
+    },
+    {
+      "id": 317,
+      "doc": "input_data/PCC-1.5-MMAX/short/809_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "qwerty _ lol",
+        "_",
+        "zaówarzylem"
+      ]
+    },
+    {
+      "id": 318,
+      "doc": "input_data/PCC-1.5-MMAX/long/199901300101_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "mózgu",
+        "ludzkiego mózgu",
+        "Mózg",
+        "ludzkim mózgiem",
+        "umyśle człowieka"
+      ]
+    },
+    {
+      "id": 319,
+      "doc": "input_data/PCC-1.5-MMAX/long/200203190026_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "osobę 20-letnią ją która rozpoczęła pracę w 1999 r . i zaczyna płacić składki do ZUS",
+        "osoba ta",
+        "Osoba X .",
+        "_",
+        "swoje",
+        "osoby X ."
+      ]
+    },
+    {
+      "id": 320,
+      "doc": "input_data/PCC-1.5-MMAX/short/128_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Chorzy",
+        "_",
+        "my , pacjenci",
+        "Protestujący"
+      ]
+    },
+    {
+      "id": 321,
+      "doc": "input_data/PCC-1.5-MMAX/short/1806_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Bieli",
+        "Profesor",
+        "Biela",
+        "swym",
+        "posła",
+        "swoich"
+      ]
+    },
+    {
+      "id": 322,
+      "doc": "input_data/PCC-1.5-MMAX/short/2432_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Sygnału Włosienicy",
+        "klubu",
+        "Sygnał",
+        "_",
+        "własnej",
+        "LKS Sygnał Włosienica",
+        "Sygnału",
+        "Włosienicy",
+        "Włosienica"
+      ]
+    },
+    {
+      "id": 323,
+      "doc": "input_data/PCC-1.5-MMAX/short/2524_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Andrzej Lepper",
+        "Przewodniczący Samoobrony",
+        "Lepper",
+        "Lepperowi",
+        "szef tej partii",
+        "pan"
+      ]
+    },
+    {
+      "id": 324,
+      "doc": "input_data/PCC-1.5-MMAX/short/263_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "swoich",
+        "moje"
+      ]
+    },
+    {
+      "id": 325,
+      "doc": "input_data/PCC-1.5-MMAX/short/277_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Mężczyzna 3",
+        "_",
+        "szefie",
+        "pan",
+        "moje"
+      ]
+    },
+    {
+      "id": 326,
+      "doc": "input_data/PCC-1.5-MMAX/short/2806_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Słowacy",
+        "_",
+        "Słowaków",
+        "zespół słowacki",
+        "Słowacja",
+        "zespołu",
+        "zwycięzcom"
+      ]
+    },
+    {
+      "id": 327,
+      "doc": "input_data/PCC-1.5-MMAX/short/2821_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_"
+      ]
+    },
+    {
+      "id": 328,
+      "doc": "input_data/PCC-1.5-MMAX/short/2867_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Tadzik , mój sublokator",
+        "_",
+        "ojca"
+      ]
+    },
+    {
+      "id": 329,
+      "doc": "input_data/PCC-1.5-MMAX/short/2911_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "AGATA",
+        "Pani dyrektor",
+        "pani",
+        "_",
+        "swojego"
+      ]
+    },
+    {
+      "id": 330,
+      "doc": "input_data/PCC-1.5-MMAX/short/2916_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "swojego",
+        "Boś",
+        "Jaguś"
+      ]
+    },
+    {
+      "id": 331,
+      "doc": "input_data/PCC-1.5-MMAX/short/2944_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Musiałem",
+        "_",
+        "moich",
+        "Tobym"
+      ]
+    },
+    {
+      "id": 332,
+      "doc": "input_data/PCC-1.5-MMAX/short/297_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_"
+      ]
+    },
+    {
+      "id": 333,
+      "doc": "input_data/PCC-1.5-MMAX/short/2982_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "MARIA",
+        "_",
+        "pani",
+        "MARII",
+        "Marysię"
+      ]
+    },
+    {
+      "id": 334,
+      "doc": "input_data/PCC-1.5-MMAX/short/2990_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "BARBARA",
+        "_",
+        "pani"
+      ]
+    },
+    {
+      "id": 335,
+      "doc": "input_data/PCC-1.5-MMAX/short/2993_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Jasiu",
+        "twoje",
+        "moją"
+      ]
+    },
+    {
+      "id": 336,
+      "doc": "input_data/PCC-1.5-MMAX/short/3006_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "tego garbatego potwora"
+      ]
+    },
+    {
+      "id": 337,
+      "doc": "input_data/PCC-1.5-MMAX/short/3041_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "TOMASZ",
+        "_",
+        "twoja",
+        "uśmiecha się"
+      ]
+    },
+    {
+      "id": 338,
+      "doc": "input_data/PCC-1.5-MMAX/short/3049_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Marta",
+        "_",
+        "ciotko",
+        "swej"
+      ]
+    },
+    {
+      "id": 339,
+      "doc": "input_data/PCC-1.5-MMAX/short/3057_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Panie Ryszardzie",
+        "pana",
+        "RYSZARD",
+        "pan",
+        "swojego",
+        "Ryszarda , który trochę się ucieszył , ale nie _ jest do końca pewny czy wszystko jest OK"
+      ]
+    },
+    {
+      "id": 340,
+      "doc": "input_data/PCC-1.5-MMAX/short/3087_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "EDWARDA",
+        "EDWARD",
+        "_"
+      ]
+    },
+    {
+      "id": 341,
+      "doc": "input_data/PCC-1.5-MMAX/short/3169_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp1",
+        "moja",
+        "_"
+      ]
+    },
+    {
+      "id": 342,
+      "doc": "input_data/PCC-1.5-MMAX/short/3215_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "enfant terrible Krakowa",
+        "muzyk",
+        "performer",
+        "wielki malarz",
+        "założyciel słynnego zespołu dupą .",
+        "postać",
+        "Krzysztofa",
+        "Krzysia",
+        "Krzysztof",
+        "Krzysztof Niemczyk",
+        "Niemczyk",
+        "swojego",
+        "Niemczyka"
+      ]
+    },
+    {
+      "id": 343,
+      "doc": "input_data/PCC-1.5-MMAX/short/327_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "córka znanego pisarza , która w dorosłym wieku próbuje odzyskać stracone dzieciństwo",
+        "_",
+        "dziecko",
+        "\" garderoby \"",
+        "autorka",
+        "córka"
+      ]
+    },
+    {
+      "id": 344,
+      "doc": "input_data/PCC-1.5-MMAX/short/333_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Jackowska",
+        "_",
+        "pani",
+        "św . Jackowskiej",
+        "Jackowską"
+      ]
+    },
+    {
+      "id": 345,
+      "doc": "input_data/PCC-1.5-MMAX/short/3512_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "wspólny",
+        "nasza",
+        "naszej",
+        "naszych"
+      ]
+    },
+    {
+      "id": 346,
+      "doc": "input_data/PCC-1.5-MMAX/short/3533_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Poprzedni prezydent Alberto Fujimori , pochodzenia japońskiego",
+        "_",
+        "Fujimori , bliżej nieznany inżynier , który wygrał wybory ze światowej sławy pisarzem Mario Vargasem Llosą",
+        "Fujimori"
+      ]
+    },
+    {
+      "id": 347,
+      "doc": "input_data/PCC-1.5-MMAX/short/3607_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_"
+      ]
+    },
+    {
+      "id": 348,
+      "doc": "input_data/PCC-1.5-MMAX/short/468_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Mój",
+        "Moją",
+        "mojego"
+      ]
+    },
+    {
+      "id": 349,
+      "doc": "input_data/PCC-1.5-MMAX/short/592_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Beniamina",
+        "ten trzynastolatek",
+        "Beniamin",
+        "_",
+        "chłopiec",
+        "chłopca"
+      ]
+    },
+    {
+      "id": 350,
+      "doc": "input_data/PCC-1.5-MMAX/short/681_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Antoni Gabański",
+        "właściciela",
+        "własnej",
+        "_",
+        "Gabańskiego",
+        "Antoniego Gabańskiego",
+        "swego"
+      ]
+    },
+    {
+      "id": 351,
+      "doc": "input_data/PCC-1.5-MMAX/long/200004290022_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "maja"
+      ]
+    },
+    {
+      "id": 352,
+      "doc": "input_data/PCC-1.5-MMAX/short/1366_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Staszku",
+        "Burski",
+        "bracie"
+      ]
+    },
+    {
+      "id": 353,
+      "doc": "input_data/PCC-1.5-MMAX/short/2137_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Książę",
+        "dziecka",
+        "moją",
+        "księcia"
+      ]
+    },
+    {
+      "id": 354,
+      "doc": "input_data/PCC-1.5-MMAX/short/2409_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "piłkarska Proszowianka",
+        "_",
+        "drużyna",
+        "Proszowiankę",
+        "własnych",
+        "proszowickich",
+        "naszej",
+        "Proszowiance",
+        "nasz klub"
+      ]
+    },
+    {
+      "id": 355,
+      "doc": "input_data/PCC-1.5-MMAX/short/243_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Ksiądz",
+        "_",
+        "księdza",
+        "samego księdza",
+        "będzi"
+      ]
+    },
+    {
+      "id": 356,
+      "doc": "input_data/PCC-1.5-MMAX/short/2501_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Pan profesor",
+        "profesora",
+        "On sam",
+        "pana profesora",
+        "_",
+        "panem profesorem",
+        "Mistrzu",
+        "Piotr Dobrowolski ( urodzony 26 kwietnia 1938 roku , zmarły 6 sierpnia 2005 roku ) , profesor zwyczajny dr hab . nauk politycznych , nauczyciel akademicki Wydziału Nauk Społecznych Uniwersytetu Śląskiego w Katowicach i prodziekan tego wydziału"
+      ]
+    },
+    {
+      "id": 357,
+      "doc": "input_data/PCC-1.5-MMAX/short/2522_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Andrzej , mieszkaniec jednej z podkieleckich miejscowości",
+        "_"
+      ]
+    },
+    {
+      "id": 358,
+      "doc": "input_data/PCC-1.5-MMAX/short/2545_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "były dyrektor szpitala rejonowego Krzysztof Grochowina",
+        "_",
+        "Krzysztof Grochowina",
+        "prezesa pana Grochowinę",
+        "oskarżonego",
+        "były dyrektor",
+        "nowy pracownik",
+        "kogoś , kto nie sprawdził się w szpitalu i jako szef spółdzielni mieszkaniowej"
+      ]
+    },
+    {
+      "id": 359,
+      "doc": "input_data/PCC-1.5-MMAX/short/2573_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Syndyk",
+        "syndyk masy upadłościowej zakładów Paweł Marciniak",
+        "_",
+        "swe"
+      ]
+    },
+    {
+      "id": 360,
+      "doc": "input_data/PCC-1.5-MMAX/short/2576_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Marta",
+        "_",
+        "dziewczynki",
+        "dziewczynka",
+        "tego dziecka"
+      ]
+    },
+    {
+      "id": 361,
+      "doc": "input_data/PCC-1.5-MMAX/short/2658_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Czyżycki",
+        "_",
+        "mojej",
+        "myśleniczaninem",
+        "Bogdan"
+      ]
+    },
+    {
+      "id": 362,
+      "doc": "input_data/PCC-1.5-MMAX/short/2723_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "naszym"
+      ]
+    },
+    {
+      "id": 363,
+      "doc": "input_data/PCC-1.5-MMAX/short/283_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Renatki",
+        "Renatka"
+      ]
+    },
+    {
+      "id": 364,
+      "doc": "input_data/PCC-1.5-MMAX/short/284_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "dobry człowieku",
+        "Dratewka",
+        "Dratewce",
+        "panku"
+      ]
+    },
+    {
+      "id": 365,
+      "doc": "input_data/PCC-1.5-MMAX/short/2896_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "moja",
+        "_",
+        "mojego"
+      ]
+    },
+    {
+      "id": 366,
+      "doc": "input_data/PCC-1.5-MMAX/short/2918_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "chory",
+        "pan",
+        "_",
+        "Turek"
+      ]
+    },
+    {
+      "id": 367,
+      "doc": "input_data/PCC-1.5-MMAX/short/2955_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "młodziutki , dwudziestoletni chłopak , w którym na pierwszy rzut oka można było poznać studenta",
+        "_"
+      ]
+    },
+    {
+      "id": 368,
+      "doc": "input_data/PCC-1.5-MMAX/short/2963_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Puzon",
+        "Torba",
+        "Puzona"
+      ]
+    },
+    {
+      "id": 369,
+      "doc": "input_data/PCC-1.5-MMAX/short/2964_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "oboje",
+        "_",
+        "będziewa",
+        "Musiwa",
+        "Wawrzon z Marysią"
+      ]
+    },
+    {
+      "id": 370,
+      "doc": "input_data/PCC-1.5-MMAX/short/2975_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "moja",
+        "mój",
+        "pani",
+        "moich",
+        "noszę"
+      ]
+    },
+    {
+      "id": 371,
+      "doc": "input_data/PCC-1.5-MMAX/short/2996_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Zenkowi",
+        "Zenona",
+        "Zenon"
+      ]
+    },
+    {
+      "id": 372,
+      "doc": "input_data/PCC-1.5-MMAX/short/300_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "twój"
+      ]
+    },
+    {
+      "id": 373,
+      "doc": "input_data/PCC-1.5-MMAX/short/3017_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "MAREK",
+        "_",
+        "własne"
+      ]
+    },
+    {
+      "id": 374,
+      "doc": "input_data/PCC-1.5-MMAX/short/3018_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "JAREK",
+        "_",
+        "Nie lubię",
+        "Nie znam",
+        "nie znasz",
+        "Jaruś"
+      ]
+    },
+    {
+      "id": 375,
+      "doc": "input_data/PCC-1.5-MMAX/short/3056_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Kiernackiemu",
+        "_",
+        "pan",
+        "Kiernacki",
+        "Kiernackiego"
+      ]
+    },
+    {
+      "id": 376,
+      "doc": "input_data/PCC-1.5-MMAX/short/3109_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Dzidka",
+        "dziecku"
+      ]
+    },
+    {
+      "id": 377,
+      "doc": "input_data/PCC-1.5-MMAX/short/3136_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp1",
+        "_",
+        "panie"
+      ]
+    },
+    {
+      "id": 378,
+      "doc": "input_data/PCC-1.5-MMAX/short/3172_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp1",
+        "_",
+        "pan",
+        "moim"
+      ]
+    },
+    {
+      "id": 379,
+      "doc": "input_data/PCC-1.5-MMAX/short/3226_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Patron nowej francuskiej restauracji w Warszawie",
+        "Henri de Toulouse - Lautrec",
+        "swe",
+        "Lautrec",
+        "Malarz",
+        "_",
+        "nieżył",
+        "artysty",
+        "malarza",
+        "zmarłego"
+      ]
+    },
+    {
+      "id": 380,
+      "doc": "input_data/PCC-1.5-MMAX/short/3274_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Basia",
+        "uśmiechnięta kobieta po czterdziestce",
+        "_",
+        "zdecydowała się",
+        "zajmowała się"
+      ]
+    },
+    {
+      "id": 381,
+      "doc": "input_data/PCC-1.5-MMAX/short/3386_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "naszym",
+        "naszą",
+        "nasze"
+      ]
+    },
+    {
+      "id": 382,
+      "doc": "input_data/PCC-1.5-MMAX/short/3620_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "dziecka",
+        "_",
+        "swoją pociechą",
+        "dziecku",
+        "dziecko",
+        "maluchowi",
+        "własnymi",
+        "małemu dziecku"
+      ]
+    },
+    {
+      "id": 383,
+      "doc": "input_data/PCC-1.5-MMAX/short/390_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "pracy",
+        "pracę",
+        "pracą"
+      ]
+    },
+    {
+      "id": 384,
+      "doc": "input_data/PCC-1.5-MMAX/short/490_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp0",
+        "_"
+      ]
+    },
+    {
+      "id": 385,
+      "doc": "input_data/PCC-1.5-MMAX/short/560_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "nowego gatunku",
+        "nowy , nieopisany dotychczas gatunek guzaka , morfologicznie podobny do guzaka amerykańskiego i guzaka holenderskiego",
+        "nowego gatunku guzaka",
+        "nieznanego gatunku guzaka",
+        "Ten sam nieznany gatunek nicienia",
+        "_",
+        "nowo odkrytym gatunkiem",
+        "M . minor",
+        "nowego , oddzielnego gatunku guzaka",
+        "nicieniowi temu"
+      ]
+    },
+    {
+      "id": 386,
+      "doc": "input_data/PCC-1.5-MMAX/short/648_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "strażaków , którzy brali udział w akcji ratowania ofiar wybuchu gazu",
+        "Państwowej Straży Pożarnej",
+        "Ratownicy",
+        "Strażacy",
+        "Państwowej Straży Pożarnej w Malborku"
+      ]
+    },
+    {
+      "id": 387,
+      "doc": "input_data/PCC-1.5-MMAX/short/979_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "zajmował się",
+        "_",
+        "zajmuje się",
+        "Pełni"
+      ]
+    },
+    {
+      "id": 388,
+      "doc": "input_data/PCC-1.5-MMAX/short/2525_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Arki",
+        "gdynian",
+        "_",
+        "naszym",
+        "naszej"
+      ]
+    },
+    {
+      "id": 389,
+      "doc": "input_data/PCC-1.5-MMAX/short/2966_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Dzidzia",
+        "Gdzieś"
+      ]
+    },
+    {
+      "id": 390,
+      "doc": "input_data/PCC-1.5-MMAX/short/2997_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "pierwszy z rycerzy",
+        "_",
+        "Pierwszy mąż",
+        "męża",
+        "ten plucha",
+        "mą"
+      ]
+    },
+    {
+      "id": 391,
+      "doc": "input_data/PCC-1.5-MMAX/short/3090_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "pułkowniku"
+      ]
+    },
+    {
+      "id": 392,
+      "doc": "input_data/PCC-1.5-MMAX/short/3140_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp1",
+        "_",
+        "mój"
+      ]
+    },
+    {
+      "id": 393,
+      "doc": "input_data/PCC-1.5-MMAX/short/3203_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "pan",
+        "sp5",
+        "_"
+      ]
+    },
+    {
+      "id": 394,
+      "doc": "input_data/PCC-1.5-MMAX/short/1362_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "ELI",
+        "ELŻBIETA",
+        "Ela",
+        "_",
+        "swoje"
+      ]
+    },
+    {
+      "id": 395,
+      "doc": "input_data/PCC-1.5-MMAX/short/162_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Bogusia",
+        "Boguś",
+        "_"
+      ]
+    },
+    {
+      "id": 396,
+      "doc": "input_data/PCC-1.5-MMAX/short/180_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Zatrzymujemy się"
+      ]
+    },
+    {
+      "id": 397,
+      "doc": "input_data/PCC-1.5-MMAX/short/192_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Trzech zamaskowanych mężczyzn",
+        "Bandyci",
+        "trzech mężczyzn",
+        "_",
+        "Napastnicy",
+        "mężczyźni",
+        "napastników",
+        "bandytów"
+      ]
+    },
+    {
+      "id": 398,
+      "doc": "input_data/PCC-1.5-MMAX/short/1938_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "WicemarszalekAndrzejChronowski",
+        "_"
+      ]
+    },
+    {
+      "id": 399,
+      "doc": "input_data/PCC-1.5-MMAX/short/206_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Eugeniusza Wróbla",
+        "59-letni Eugeniusz Wróbel",
+        "swojego",
+        "ojca",
+        "męża",
+        "b . wiceministra",
+        "Jej mąż",
+        "żyjącego Eugeniusza Wróbla",
+        "Eugeniusz Wróbel",
+        "_"
+      ]
+    },
+    {
+      "id": 400,
+      "doc": "input_data/PCC-1.5-MMAX/short/2458_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "szczucińskiej Wisły",
+        "Zespół prowadzony przez grającego szkoleniowca Jerzego Smasia",
+        "klubu",
+        "szczucinianie",
+        "_",
+        "Wisły",
+        "zespołu",
+        "beniaminka ze Szczucina"
+      ]
+    },
+    {
+      "id": 401,
+      "doc": "input_data/PCC-1.5-MMAX/short/2484_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Właściciel _",
+        "Łukasz Sitarski , który remontowane mieszkanie _ chciał przeznaczyć na przedszkole",
+        "pan Łukasz",
+        "własną",
+        "_",
+        "Czytelnika"
+      ]
+    },
+    {
+      "id": 402,
+      "doc": "input_data/PCC-1.5-MMAX/short/2519_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "nowotarżanki Anety Tworek , dla której jest to już 13 . wystawa od ukończenia studiów w Instytucie Sztuki Akademii Pedagogicznej w Krakowie",
+        "Anetkę",
+        "Nowotarżanka",
+        "_",
+        "swój",
+        "malarki , która uprawia także fotografię , a _ pracuje – jako nauczyciel sztuki – w nowotarskim Gimnazjum nr 1",
+        "artystka",
+        "nowotarżanki",
+        "malarką"
+      ]
+    },
+    {
+      "id": 403,
+      "doc": "input_data/PCC-1.5-MMAX/short/252_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Gustaw Herling - Grudziński",
+        "on , który swe dzieło wywodził z bezsennego czuwania",
+        "swe",
+        "_",
+        "on , który uważał , że prawda ludzkich doznań , namiętności i nadziei objawia się w czas walki światła z cieniem , „ drżącego , konwulsyjnego niemal splotu tego , co widzialne i niewidzialne ”",
+        "Herlinga"
+      ]
+    },
+    {
+      "id": 404,
+      "doc": "input_data/PCC-1.5-MMAX/short/2623_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Joanny Suskiej - Brzozowskiej",
+        "Joanna Suska - Brzozowska",
+        "_",
+        "Joanna",
+        "mojego",
+        "wokalistka"
+      ]
+    },
+    {
+      "id": 405,
+      "doc": "input_data/PCC-1.5-MMAX/short/2653_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Herbata",
+        "herbaty",
+        "czarną",
+        "czarną herbatę"
+      ]
+    },
+    {
+      "id": 406,
+      "doc": "input_data/PCC-1.5-MMAX/short/2718_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Agnieszka",
+        "_",
+        "Agnes"
+      ]
+    },
+    {
+      "id": 407,
+      "doc": "input_data/PCC-1.5-MMAX/short/2765_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Sweet girl",
+        "wytrzymalas",
+        "twoja"
+      ]
+    },
+    {
+      "id": 408,
+      "doc": "input_data/PCC-1.5-MMAX/short/2870_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Stallmana",
+        "_",
+        "Stallmanowi",
+        "Stallman",
+        "niego samego"
+      ]
+    },
+    {
+      "id": 409,
+      "doc": "input_data/PCC-1.5-MMAX/short/2905_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Witold",
+        "Wańkowicz"
+      ]
+    },
+    {
+      "id": 410,
+      "doc": "input_data/PCC-1.5-MMAX/short/2926_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "EDWARDA",
+        "EDWARD",
+        "_"
+      ]
+    },
+    {
+      "id": 411,
+      "doc": "input_data/PCC-1.5-MMAX/short/2941_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "małoletnią Karolinę",
+        "Oleńki",
+        "dziecka , które przyjdzie na świat",
+        "Oleńka",
+        "Karolina Maria",
+        "dziecka",
+        "małoletniej",
+        "Karolina",
+        "_",
+        "małej"
+      ]
+    },
+    {
+      "id": 412,
+      "doc": "input_data/PCC-1.5-MMAX/short/2953_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Grześ",
+        "_",
+        "swoje"
+      ]
+    },
+    {
+      "id": 413,
+      "doc": "input_data/PCC-1.5-MMAX/short/2991_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Wilija , naszych strumieni rodzica",
+        "Wilija",
+        "Litwinki",
+        "_",
+        "swego",
+        "Litwince",
+        "kochankę",
+        "Litwinko biedna"
+      ]
+    },
+    {
+      "id": 414,
+      "doc": "input_data/PCC-1.5-MMAX/short/301_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "pani Danusiu",
+        "pan Danusiu",
+        "_"
+      ]
+    },
+    {
+      "id": 415,
+      "doc": "input_data/PCC-1.5-MMAX/short/3020_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "starego Adamiaka , co po całych dniach na ławce sterczał",
+        "_",
+        "psem",
+        "Sam"
+      ]
+    },
+    {
+      "id": 416,
+      "doc": "input_data/PCC-1.5-MMAX/short/3076_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Marek",
+        "dorosłego mężczyzny",
+        "weterana",
+        "_"
+      ]
+    },
+    {
+      "id": 417,
+      "doc": "input_data/PCC-1.5-MMAX/short/3083_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "pan",
+        "Własnymi"
+      ]
+    },
+    {
+      "id": 418,
+      "doc": "input_data/PCC-1.5-MMAX/short/3103_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Tadeusz Wyrwa-Krzyżański",
+        "_",
+        "swojego",
+        "poety",
+        "autor „ Mostów z ogni ”",
+        "swojej"
+      ]
+    },
+    {
+      "id": 419,
+      "doc": "input_data/PCC-1.5-MMAX/short/3112_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "pan",
+        "Johna Lesniaka , osiemdziesięcioletniego Sklerotyka Z przetrąconym kręgosłupem , cukrzycą , rakiem Pęcherza i setką Pomniejszych chorób",
+        "_",
+        "Biedny John Lesniak",
+        "duma",
+        "moje",
+        "staruszka"
+      ]
+    },
+    {
+      "id": 420,
+      "doc": "input_data/PCC-1.5-MMAX/short/3113_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Siostry"
+      ]
+    },
+    {
+      "id": 421,
+      "doc": "input_data/PCC-1.5-MMAX/short/3114_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Szprycha"
+      ]
+    },
+    {
+      "id": 422,
+      "doc": "input_data/PCC-1.5-MMAX/short/3116_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "tamtejszego pastora , który podobno umiał poskramiać nieczyste siły",
+        "Pastorowi",
+        "_",
+        "pastora",
+        "pastor"
+      ]
+    },
+    {
+      "id": 423,
+      "doc": "input_data/PCC-1.5-MMAX/short/3234_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Marcin",
+        "_"
+      ]
+    },
+    {
+      "id": 424,
+      "doc": "input_data/PCC-1.5-MMAX/short/3377_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Marek Surmacz",
+        "_",
+        "Surmacz",
+        "Surmacza"
+      ]
+    },
+    {
+      "id": 425,
+      "doc": "input_data/PCC-1.5-MMAX/short/3429_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "pana",
+        "_",
+        "pan",
+        "panu",
+        "moich"
+      ]
+    },
+    {
+      "id": 426,
+      "doc": "input_data/PCC-1.5-MMAX/short/3488_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Metra",
+        "Metro",
+        "czekało",
+        "Koncern",
+        "_",
+        "koncernu",
+        "Ten koncern",
+        "Metrem"
+      ]
+    },
+    {
+      "id": 427,
+      "doc": "input_data/PCC-1.5-MMAX/short/3575_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "danych",
+        "danych GIS",
+        "dane",
+        "_",
+        "wprowadzanych danych"
+      ]
+    },
+    {
+      "id": 428,
+      "doc": "input_data/PCC-1.5-MMAX/short/3589_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "decydujesz się",
+        "_",
+        "sprzedasz _ kupisz _ tzw . \" square \" lub \" close \"",
+        "Twoim"
+      ]
+    },
+    {
+      "id": 429,
+      "doc": "input_data/PCC-1.5-MMAX/short/448_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Panie Józefie",
+        "pan",
+        "_",
+        "panu",
+        "pan Józef"
+      ]
+    },
+    {
+      "id": 430,
+      "doc": "input_data/PCC-1.5-MMAX/short/499_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp0",
+        "_",
+        "Kasiu"
+      ]
+    },
+    {
+      "id": 431,
+      "doc": "input_data/PCC-1.5-MMAX/short/500_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "pani",
+        "sp1",
+        "_"
+      ]
+    },
+    {
+      "id": 432,
+      "doc": "input_data/PCC-1.5-MMAX/short/507_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "nasz",
+        "naszych",
+        "nasze"
+      ]
+    },
+    {
+      "id": 433,
+      "doc": "input_data/PCC-1.5-MMAX/short/661_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "państwa Szczurków",
+        "Małżonkowie",
+        "_",
+        "nasze",
+        "Pani Basia i pan Wojtek",
+        "państwo Szczurkowie",
+        "naszym"
+      ]
+    },
+    {
+      "id": 434,
+      "doc": "input_data/PCC-1.5-MMAX/short/68_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "naszym"
+      ]
+    },
+    {
+      "id": 435,
+      "doc": "input_data/PCC-1.5-MMAX/short/948_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "pułkownika Michała Wołodyjowskiego , który po śmierci _ narzeczonej porzucił żołnierską służbę i wstąpił do klasztoru Kamedułów",
+        "_",
+        "Wołodyjowski",
+        "swojego męża",
+        "Wołodyjowski pomny swej przysięgi , ze prędzej _ zginie niż _ podda twierdzę",
+        "swej"
+      ]
+    },
+    {
+      "id": 436,
+      "doc": "input_data/PCC-1.5-MMAX/short/2459_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_"
+      ]
+    },
+    {
+      "id": 437,
+      "doc": "input_data/PCC-1.5-MMAX/short/2638_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "kobiecie , która znalazła instrument",
+        "moje",
+        "sąsiadka"
+      ]
+    },
+    {
+      "id": 438,
+      "doc": "input_data/PCC-1.5-MMAX/short/290_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "mój kumpel",
+        "Jacka",
+        "_",
+        "RELIGIOZNAWCĄ"
+      ]
+    },
+    {
+      "id": 439,
+      "doc": "input_data/PCC-1.5-MMAX/short/3222_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Polska",
+        "nasze",
+        "naszych"
+      ]
+    },
+    {
+      "id": 440,
+      "doc": "input_data/PCC-1.5-MMAX/short/3303_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "profesorowi",
+        "ojca",
+        "ojciec",
+        "_",
+        "mój",
+        "Remy",
+        "ojcu",
+        "Profesor"
+      ]
+    },
+    {
+      "id": 441,
+      "doc": "input_data/PCC-1.5-MMAX/short/3542_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "SenatorLeonKieres",
+        "Zwracam się",
+        "_",
+        "moje",
+        "Moim"
+      ]
+    },
+    {
+      "id": 442,
+      "doc": "input_data/PCC-1.5-MMAX/short/10_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "nowoczesny biurowiec z parkingiem podziemnym i szybkobieżnymi windami",
+        "biurowca przy Mysiej 5",
+        "budynku",
+        "Nowy budynek",
+        "nowego gmachu",
+        "gmachem",
+        "nowym biurowcu",
+        "tego obiektu",
+        "tam"
+      ]
+    },
+    {
+      "id": 443,
+      "doc": "input_data/PCC-1.5-MMAX/short/119_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "naszym",
+        "naszy"
+      ]
+    },
+    {
+      "id": 444,
+      "doc": "input_data/PCC-1.5-MMAX/short/143_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "studenta",
+        "_",
+        "student",
+        "swoich",
+        "rzeczony student",
+        "swego"
+      ]
+    },
+    {
+      "id": 445,
+      "doc": "input_data/PCC-1.5-MMAX/short/2097_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "swój",
+        "Twojej"
+      ]
+    },
+    {
+      "id": 446,
+      "doc": "input_data/PCC-1.5-MMAX/short/2103_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "naszym",
+        "naszej"
+      ]
+    },
+    {
+      "id": 447,
+      "doc": "input_data/PCC-1.5-MMAX/short/2131_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "pierwszy subskrybent",
+        "Witold Wojtowicz",
+        "Witolda",
+        "autora",
+        "Autor",
+        "swojego",
+        "Witold",
+        "_"
+      ]
+    },
+    {
+      "id": 448,
+      "doc": "input_data/PCC-1.5-MMAX/short/2150_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "rysunek 5 . 3 Wciśnij"
+      ]
+    },
+    {
+      "id": 449,
+      "doc": "input_data/PCC-1.5-MMAX/short/2385_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Ośmioletni Władimir",
+        "_",
+        "_ Syn",
+        "Ośmiolatek",
+        "Władimir"
+      ]
+    },
+    {
+      "id": 450,
+      "doc": "input_data/PCC-1.5-MMAX/short/2464_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "mojej",
+        "Danuta z Ostrowa"
+      ]
+    },
+    {
+      "id": 451,
+      "doc": "input_data/PCC-1.5-MMAX/short/2490_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "pana Gerharda",
+        "_",
+        "siwiutki pan Gerhard",
+        "Mężczyzna",
+        "rozgoryczony sołtys",
+        "Pan Gerhard"
+      ]
+    },
+    {
+      "id": 452,
+      "doc": "input_data/PCC-1.5-MMAX/short/2562_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "ŁKS",
+        "łódzkiego klubu",
+        "klub z al . Unii",
+        "Łodzianie",
+        "klubu takiego jak ŁKS",
+        "_"
+      ]
+    },
+    {
+      "id": 453,
+      "doc": "input_data/PCC-1.5-MMAX/short/2667_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "„ Dziennikowi Zachodniemu ”",
+        "nasza gazeta",
+        "nasza",
+        "„ DZ ”",
+        "gazety",
+        "„ Dziennika Zachodniego ”",
+        "naszej gazety",
+        "naszej"
+      ]
+    },
+    {
+      "id": 454,
+      "doc": "input_data/PCC-1.5-MMAX/short/266_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "waszym",
+        "Nasi"
+      ]
+    },
+    {
+      "id": 455,
+      "doc": "input_data/PCC-1.5-MMAX/short/2710_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Wisły",
+        "Rywale",
+        "Wisła",
+        "Wiśle",
+        "takim przeciwnikiem",
+        "_"
+      ]
+    },
+    {
+      "id": 456,
+      "doc": "input_data/PCC-1.5-MMAX/short/2829_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Cała roślina",
+        "_",
+        "Roślina",
+        "arniki górskiej",
+        "arniki",
+        "rośliny"
+      ]
+    },
+    {
+      "id": 457,
+      "doc": "input_data/PCC-1.5-MMAX/short/2857_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Wuj _",
+        "moja"
+      ]
+    },
+    {
+      "id": 458,
+      "doc": "input_data/PCC-1.5-MMAX/short/2937_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Morawica",
+        "_",
+        "Panie"
+      ]
+    },
+    {
+      "id": 459,
+      "doc": "input_data/PCC-1.5-MMAX/short/2946_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "jego własne"
+      ]
+    },
+    {
+      "id": 460,
+      "doc": "input_data/PCC-1.5-MMAX/short/2972_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Leszka",
+        "_",
+        "LESZEK",
+        "mały Lesio"
+      ]
+    },
+    {
+      "id": 461,
+      "doc": "input_data/PCC-1.5-MMAX/short/2979_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Wyweron",
+        "_",
+        "bratu"
+      ]
+    },
+    {
+      "id": 462,
+      "doc": "input_data/PCC-1.5-MMAX/short/2988_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_"
+      ]
+    },
+    {
+      "id": 463,
+      "doc": "input_data/PCC-1.5-MMAX/short/3007_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "CHRUST",
+        "_",
+        "Komisarz Chrust",
+        "Chrusta obserwującego reakcję Dony"
+      ]
+    },
+    {
+      "id": 464,
+      "doc": "input_data/PCC-1.5-MMAX/short/3036_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "olbrzymi tygrys",
+        "_",
+        "tygrysem",
+        "Zwierze",
+        "tygrysa",
+        "ten",
+        "ofiary",
+        "zwierzęcia"
+      ]
+    },
+    {
+      "id": 465,
+      "doc": "input_data/PCC-1.5-MMAX/short/304_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "nasz",
+        "naszym",
+        "_"
+      ]
+    },
+    {
+      "id": 466,
+      "doc": "input_data/PCC-1.5-MMAX/short/3075_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "naszym",
+        "naszej"
+      ]
+    },
+    {
+      "id": 467,
+      "doc": "input_data/PCC-1.5-MMAX/short/3088_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "majora Kovalsky ’ ego",
+        "_",
+        "Kovalsky",
+        "majora",
+        "Kovalsky ’ ego",
+        "Kochany"
+      ]
+    },
+    {
+      "id": 468,
+      "doc": "input_data/PCC-1.5-MMAX/short/3097_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "przejedziesz się"
+      ]
+    },
+    {
+      "id": 469,
+      "doc": "input_data/PCC-1.5-MMAX/short/3108_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Ci ludzie",
+        "_"
+      ]
+    },
+    {
+      "id": 470,
+      "doc": "input_data/PCC-1.5-MMAX/short/3143_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "ten samochód",
+        "_"
+      ]
+    },
+    {
+      "id": 471,
+      "doc": "input_data/PCC-1.5-MMAX/short/3202_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "własne"
+      ]
+    },
+    {
+      "id": 472,
+      "doc": "input_data/PCC-1.5-MMAX/short/3344_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Jarosław Kaczyński",
+        "swoje",
+        "_",
+        "swój",
+        "Kaczyński",
+        "swojej",
+        "prezes PiS"
+      ]
+    },
+    {
+      "id": 473,
+      "doc": "input_data/PCC-1.5-MMAX/short/3354_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Michał Rzepkowski",
+        "_",
+        "rolnika",
+        "Michał",
+        "Młody gospodarz",
+        "gospodarzy",
+        "Rolnik",
+        "Rzepkowski",
+        "Rzepkowskiemu"
+      ]
+    },
+    {
+      "id": 474,
+      "doc": "input_data/PCC-1.5-MMAX/short/3401_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Kontrolerka",
+        "Agata Kalińska - Moc",
+        "Kalińska - Moc",
+        "_",
+        "adwokatka",
+        "adwokatki",
+        "Tłumaczy"
+      ]
+    },
+    {
+      "id": 475,
+      "doc": "input_data/PCC-1.5-MMAX/short/3416_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "Giuliani"
+      ]
+    },
+    {
+      "id": 476,
+      "doc": "input_data/PCC-1.5-MMAX/short/3417_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Państwa Choczyńskich z Żywca",
+        "_"
+      ]
+    },
+    {
+      "id": 477,
+      "doc": "input_data/PCC-1.5-MMAX/short/3420_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "naszym",
+        "_",
+        "nasze"
+      ]
+    },
+    {
+      "id": 478,
+      "doc": "input_data/PCC-1.5-MMAX/short/3503_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Owady",
+        "_",
+        "owadów",
+        "stają się",
+        "owadom"
+      ]
+    },
+    {
+      "id": 479,
+      "doc": "input_data/PCC-1.5-MMAX/short/351_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Panie Senatorze",
+        "Pan",
+        "_",
+        "pan senator",
+        "własne",
+        "moją"
+      ]
+    },
+    {
+      "id": 480,
+      "doc": "input_data/PCC-1.5-MMAX/short/3539_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "WicemarszalekMaciejPlazynski",
+        "_"
+      ]
+    },
+    {
+      "id": 481,
+      "doc": "input_data/PCC-1.5-MMAX/short/411_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "direct85",
+        "_",
+        "osoby 14-sto letniej",
+        "14-letnia osobo",
+        "własny"
+      ]
+    },
+    {
+      "id": 482,
+      "doc": "input_data/PCC-1.5-MMAX/short/480_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "przybysza",
+        "Adaś"
+      ]
+    },
+    {
+      "id": 483,
+      "doc": "input_data/PCC-1.5-MMAX/short/558_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Szef sprzedaży",
+        "_",
+        "swoich",
+        "swoimi",
+        "Dobry dyrektor handlowy"
+      ]
+    },
+    {
+      "id": 484,
+      "doc": "input_data/PCC-1.5-MMAX/short/572_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "naszym",
+        "nasz"
+      ]
+    },
+    {
+      "id": 485,
+      "doc": "input_data/PCC-1.5-MMAX/short/581_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "siatkarzy",
+        "_",
+        "Siatkarze",
+        "polskiej reprezentacji"
+      ]
+    },
+    {
+      "id": 486,
+      "doc": "input_data/PCC-1.5-MMAX/short/672_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "obrońca Maciej Stolarczyk",
+        "Pan",
+        "Pana",
+        "Panu"
+      ]
+    },
+    {
+      "id": 487,
+      "doc": "input_data/PCC-1.5-MMAX/short/679_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "monitorem",
+        "monitor",
+        "ekranu",
+        "ekran",
+        "_",
+        "ekran komputera",
+        "ekranu komputera",
+        "ekranie"
+      ]
+    },
+    {
+      "id": 488,
+      "doc": "input_data/PCC-1.5-MMAX/short/2144_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "animacji",
+        "animacja , która po 5 sekundach doprowadzi do poszerzenia przycisku na szerokość całego okna ( przy założeniu , że okno ma 150 pikseli szerokości )",
+        "animacja",
+        "_"
+      ]
+    },
+    {
+      "id": 489,
+      "doc": "input_data/PCC-1.5-MMAX/short/2449_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_"
+      ]
+    },
+    {
+      "id": 490,
+      "doc": "input_data/PCC-1.5-MMAX/short/2591_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "kina \" Pasaż \"",
+        "Niewielki budynek w Pasażu Bielaka",
+        "kina",
+        "przybytek X Muzy",
+        "\" Pasaż \"",
+        "\" Pasażu \"",
+        "tam",
+        "kino"
+      ]
+    },
+    {
+      "id": 491,
+      "doc": "input_data/PCC-1.5-MMAX/short/2956_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Heniek",
+        "_",
+        "swojego",
+        "podporucznika Ziemby",
+        "swoje"
+      ]
+    },
+    {
+      "id": 492,
+      "doc": "input_data/PCC-1.5-MMAX/short/3402_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "T . Cierlaka",
+        "p . Tadeusz",
+        "nasz bohater",
+        "swojej",
+        "T . Cierlak",
+        "swoje"
+      ]
+    },
+    {
+      "id": 493,
+      "doc": "input_data/PCC-1.5-MMAX/short/3553_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "WicemarszalekDonaldTusk",
+        "_",
+        "Panie Marszałku"
+      ]
+    },
+    {
+      "id": 494,
+      "doc": "input_data/PCC-1.5-MMAX/short/617_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "konsumenta"
+      ]
+    },
+    {
+      "id": 495,
+      "doc": "input_data/PCC-1.5-MMAX/short/722_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "naszego",
+        "nasz"
+      ]
+    },
+    {
+      "id": 496,
+      "doc": "input_data/PCC-1.5-MMAX/long/199801030068_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Karty stałego klienta",
+        "kart stałego klienta",
+        "tego typu kart",
+        "kart"
+      ]
+    },
+    {
+      "id": 497,
+      "doc": "input_data/PCC-1.5-MMAX/short/129_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Siwy",
+        "_"
+      ]
+    },
+    {
+      "id": 498,
+      "doc": "input_data/PCC-1.5-MMAX/short/131_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Jarosław Kaczyński",
+        "_",
+        "swoją",
+        "Kaczyński",
+        "lider PiS",
+        "swojego",
+        "Kaczyńskim",
+        "prezesa PiS"
+      ]
+    },
+    {
+      "id": 499,
+      "doc": "input_data/PCC-1.5-MMAX/short/1935_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "senatora Stępnia",
+        "SenatorPiotrStepien",
+        "_"
+      ]
+    },
+    {
+      "id": 500,
+      "doc": "input_data/PCC-1.5-MMAX/short/2234_words.xml",
+      "variables": {
+        "text": "See most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "_",
+        "naszej",
+        "nasza"
+      ]
+    }
+  ]
+}

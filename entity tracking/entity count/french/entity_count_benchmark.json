@@ -1,0 +1,4177 @@
+{
+  "task": "entity_count",
+  "lang": "french",
+  "example_prompt": "How many times is the {entity} mentioned in the text?",
+  "instances": [
+    {
+      "id": 1,
+      "doc": "madamedehautefort",
+      "variables": {
+        "entity": "l' échafaud",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 2,
+      "doc": "nemoville",
+      "variables": {
+        "entity": "son",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 3,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity": "Jésus",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 4,
+      "doc": "ungroupped-estrepublicain-1-015",
+      "variables": {
+        "entity": "l' OTAN",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "20"
+    },
+    {
+      "id": 5,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity": "une seconde fille",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 6,
+      "doc": "jeanchristophe-2",
+      "variables": {
+        "entity": "Ernst",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 7,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity": "une large rue",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "16"
+    },
+    {
+      "id": 8,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity": "une pièce",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 9,
+      "doc": "ungroupped-estrepublicain-2-068",
+      "variables": {
+        "entity": "la mairie",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 10,
+      "doc": "jeanchristophe-2",
+      "variables": {
+        "entity": "ses inflexions de voix",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 11,
+      "doc": "aden",
+      "variables": {
+        "entity": "le corps",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 12,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity": "une jolie place",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 13,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity": "Cette défroque hétéroclite",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 14,
+      "doc": "ungroupped-estrepublicain-1-019",
+      "variables": {
+        "entity": "le versement de cet acompte minimum",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 15,
+      "doc": "ungroupped-estrepublicain-1-019",
+      "variables": {
+        "entity": "la direction",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 16,
+      "doc": "ungroupped-estrepublicain-1-025",
+      "variables": {
+        "entity": "François Hollande",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "18"
+    },
+    {
+      "id": 17,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity": "Favre",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 18,
+      "doc": "morteamoureuse",
+      "variables": {
+        "entity": "nos",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "20"
+    },
+    {
+      "id": 19,
+      "doc": "nemoville",
+      "variables": {
+        "entity": "une vieille servante",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 20,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity": "Filicchi",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 21,
+      "doc": "morteamoureuse",
+      "variables": {
+        "entity": "deux chevaux noirs comme la nuit",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 22,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity": "Catherine Charlton",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 23,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity": "M De Voltaire",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 24,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity": "la guerre",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 25,
+      "doc": "ungroupped-estrepublicain-2-057",
+      "variables": {
+        "entity": "notre",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 26,
+      "doc": "madamedehautefort",
+      "variables": {
+        "entity": "l' ordre de se retirer pour quelque temps",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 27,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity": "cette ville nouvelle",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 28,
+      "doc": "ungroupped-estrepublicain-1-009",
+      "variables": {
+        "entity": "les pompiers",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 29,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity": "choux superbes",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 30,
+      "doc": "madamedehautefort",
+      "variables": {
+        "entity": "le marquis de Hautefort",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 31,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity": "MYSTèRES SACREMENS",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "19"
+    },
+    {
+      "id": 32,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity": "un jardin situé en contre-bas de la cour",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 33,
+      "doc": "ungroupped-estrepublicain-1-015",
+      "variables": {
+        "entity": "le Kosovo",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 34,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity": "les beaux légumes",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "16"
+    },
+    {
+      "id": 35,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "entity": "tous les souvenirs",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 36,
+      "doc": "mademoisellefifi-1",
+      "variables": {
+        "entity": "sa femme",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 37,
+      "doc": "bouvardetpecuchet",
+      "variables": {
+        "entity": "Les bœufs",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 38,
+      "doc": "jeanchristophe-2",
+      "variables": {
+        "entity": "un garçon",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 39,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity": "les Filicchi",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 40,
+      "doc": "nemoville",
+      "variables": {
+        "entity": "une chambre vivement éclairée à l' électricité",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 41,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity": "la salle de le trône",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 42,
+      "doc": "nemoville",
+      "variables": {
+        "entity": "sa fille",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "19"
+    },
+    {
+      "id": 43,
+      "doc": "doucelumiere",
+      "variables": {
+        "entity": "le marié",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 44,
+      "doc": "bouvardetpecuchet",
+      "variables": {
+        "entity": "Caen",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 45,
+      "doc": "ungroupped-estrepublicain-2-022",
+      "variables": {
+        "entity": "Le Père Noël",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 46,
+      "doc": "ungroupped-estrepublicain-1-032",
+      "variables": {
+        "entity": "des décisions fondamentales",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 47,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity": "une divinité mythologique , Flore ou Pomone",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 48,
+      "doc": "bouvardetpecuchet",
+      "variables": {
+        "entity": "le charretier",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 49,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity": "ces dames",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 50,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity": "Charles",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 51,
+      "doc": "aden",
+      "variables": {
+        "entity": "la bouche",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 52,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity": "votre sainte volonté",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 53,
+      "doc": "bouvardetpecuchet",
+      "variables": {
+        "entity": "le fermier",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "18"
+    },
+    {
+      "id": 54,
+      "doc": "morteamoureuse",
+      "variables": {
+        "entity": "ses lèvres",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 55,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity": "son cœur",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "17"
+    },
+    {
+      "id": 56,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity": "ses légumes",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 57,
+      "doc": "pauline",
+      "variables": {
+        "entity": "l' un",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 58,
+      "doc": "morteamoureuse",
+      "variables": {
+        "entity": "ma vie",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 59,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity": "une enfant",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 60,
+      "doc": "madamedehautefort",
+      "variables": {
+        "entity": "quelque brouillerie",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 61,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity": "les lucarnes",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 62,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "entity": "la campagne",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 63,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity": "les roues",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 64,
+      "doc": "ungroupped-estrepublicain-1-031",
+      "variables": {
+        "entity": "le premier Mac Donald 's de le département",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 65,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity": "le premier homme",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 66,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity": "quatre cents et quelques autres prisonniers",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 67,
+      "doc": "bouvardetpecuchet",
+      "variables": {
+        "entity": "un certain Dumouchel , professeur",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 68,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity": "Les femmes , enveloppées de leurs manteaux",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 69,
+      "doc": "ungroupped-estrepublicain-2-057",
+      "variables": {
+        "entity": "le quartier de les Résidences",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 70,
+      "doc": "doucelumiere",
+      "variables": {
+        "entity": "la sapinière voisine",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "17"
+    },
+    {
+      "id": 71,
+      "doc": "pauline",
+      "variables": {
+        "entity": "l' auberge de le Lion-Couronné",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 72,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity": "les gens agréables",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "17"
+    },
+    {
+      "id": 73,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity": "ses autres meubles",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 74,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity": "notre",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 75,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "entity": "la nouvelle femme de ménage",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 76,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity": "le père",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 77,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity": "un costume de nuit",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 78,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity": "le bois de Boulogne",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 79,
+      "doc": "articleswiki_zebre",
+      "variables": {
+        "entity": "nos",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 80,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity": "un autre sentiment",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 81,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity": "l' homme",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "19"
+    },
+    {
+      "id": 82,
+      "doc": "jeanchristophe-2",
+      "variables": {
+        "entity": "ses parents",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "17"
+    },
+    {
+      "id": 83,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity": "la vie",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 84,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity": "les églises",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 85,
+      "doc": "ungroupped-estrepublicain-2-053",
+      "variables": {
+        "entity": "Thierry Jeanroy",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 86,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity": "Saint-Eustache",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 87,
+      "doc": "ungroupped-estrepublicain-2-021",
+      "variables": {
+        "entity": "Une crèche intercommunale",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 88,
+      "doc": "pauline",
+      "variables": {
+        "entity": "La mairesse",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "20"
+    },
+    {
+      "id": 89,
+      "doc": "aden",
+      "variables": {
+        "entity": "la liberté",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 90,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity": "la pensée",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 91,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity": "Le Dauphin",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 92,
+      "doc": "sarrasine",
+      "variables": {
+        "entity": "sa mère",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 93,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity": "le péché originel",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 94,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity": "son ami Marjolin",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "17"
+    },
+    {
+      "id": 95,
+      "doc": "ungroupped-estrepublicain-2-011",
+      "variables": {
+        "entity": "le futur retraité",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "20"
+    },
+    {
+      "id": 96,
+      "doc": "bouvardetpecuchet",
+      "variables": {
+        "entity": "la couche",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 97,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity": "une jeune femme",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 98,
+      "doc": "aden",
+      "variables": {
+        "entity": "les femmes",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 99,
+      "doc": "mademoisellefifi-3",
+      "variables": {
+        "entity": "la jeune malade",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "16"
+    },
+    {
+      "id": 100,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity": "la force",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 101,
+      "doc": "madamedehautefort",
+      "variables": {
+        "entity": "une lettre cachetée",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 102,
+      "doc": "mademoisellefifi-1",
+      "variables": {
+        "entity": "le lieutenant Otto et le sous-lieutenant Fritz",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 103,
+      "doc": "ungroupped-estrepublicain-1-019",
+      "variables": {
+        "entity": "sa prime",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 104,
+      "doc": "jeanchristophe-2",
+      "variables": {
+        "entity": "ses parents",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 105,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity": "La pluie",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 106,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity": "L' innocence",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 107,
+      "doc": "pauline",
+      "variables": {
+        "entity": "les vrais artistes",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 108,
+      "doc": "bouvardetpecuchet",
+      "variables": {
+        "entity": "l' Orne",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 109,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity": "les armoiries sculptées à l' extérieur",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 110,
+      "doc": "jeanchristophe-2",
+      "variables": {
+        "entity": "une Missa solemnis",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 111,
+      "doc": "jeanchristophe-2",
+      "variables": {
+        "entity": "les gestes grotesques et de les plaisanteries stupides de Melchior",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 112,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity": "une fin quelconque",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 113,
+      "doc": "ungroupped-estrepublicain-1-000",
+      "variables": {
+        "entity": "élèves de l' éveil musical",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 114,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity": "la cuisine",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 115,
+      "doc": "sarrasine",
+      "variables": {
+        "entity": "ces femmes",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 116,
+      "doc": "nemoville",
+      "variables": {
+        "entity": "le bord de la mer",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 117,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity": "le salut de l' homme",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 118,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity": "les grandes coquettes",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 119,
+      "doc": "sarrasine",
+      "variables": {
+        "entity": "les mélodieuses richesses de les tons les plus coquettement doux et tendres",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 120,
+      "doc": "madamedehautefort",
+      "variables": {
+        "entity": "la princesse de Conti",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 121,
+      "doc": "articleswiki_zebre",
+      "variables": {
+        "entity": "les zèbres de Grévy",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 122,
+      "doc": "ungroupped-estrepublicain-1-031",
+      "variables": {
+        "entity": "Les Verts",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 123,
+      "doc": "pauline",
+      "variables": {
+        "entity": "Les yeux distraits de la voyageuse",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 124,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity": "une espèce de niche de rocaille",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 125,
+      "doc": "nemoville",
+      "variables": {
+        "entity": "cette épave",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 126,
+      "doc": "bouvardetpecuchet",
+      "variables": {
+        "entity": "Barberou , un de ses amis",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "16"
+    },
+    {
+      "id": 127,
+      "doc": "morteamoureuse",
+      "variables": {
+        "entity": "un gentilhomme",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 128,
+      "doc": "mademoisellefifi-1",
+      "variables": {
+        "entity": "son grand salon",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 129,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity": "le cher Carleton",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 130,
+      "doc": "articleswiki_girafe",
+      "variables": {
+        "entity": "Tanzanie",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 131,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity": "ses frères",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 132,
+      "doc": "madamedehautefort",
+      "variables": {
+        "entity": "un billet",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 133,
+      "doc": "mademoisellefifi-3",
+      "variables": {
+        "entity": "une femme",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 134,
+      "doc": "mademoisellefifi-3",
+      "variables": {
+        "entity": "le centre de longues avenues de chênes",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 135,
+      "doc": "aden",
+      "variables": {
+        "entity": "cet exercice officiel qu' on appelle encore philosophie",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 136,
+      "doc": "sarrasine",
+      "variables": {
+        "entity": "ses habits de théâtre",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 137,
+      "doc": "doucelumiere",
+      "variables": {
+        "entity": "sa large et forte grille",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "19"
+    },
+    {
+      "id": 138,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity": "ses dogmes",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 139,
+      "doc": "pauline",
+      "variables": {
+        "entity": "les lieux",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 140,
+      "doc": "sarrasine",
+      "variables": {
+        "entity": "la famille de Lanty",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "16"
+    },
+    {
+      "id": 141,
+      "doc": "madamedehautefort",
+      "variables": {
+        "entity": "la tête de l' armée",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 142,
+      "doc": "mademoisellefifi-1",
+      "variables": {
+        "entity": "un mur",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 143,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity": "Mes parents",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "17"
+    },
+    {
+      "id": 144,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity": "le duc de Fronsac",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 145,
+      "doc": "mademoisellefifi-1",
+      "variables": {
+        "entity": "une inapaisable passion",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 146,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity": "un maigre bidet",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 147,
+      "doc": "madamedehautefort",
+      "variables": {
+        "entity": "sa grand mère",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "17"
+    },
+    {
+      "id": 148,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity": "la soubrette",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 149,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity": "New-York",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 150,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity": "l' eau lustrale",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 151,
+      "doc": "madamedehautefort",
+      "variables": {
+        "entity": "la reine-mère",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 152,
+      "doc": "morteamoureuse",
+      "variables": {
+        "entity": "la porte",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 153,
+      "doc": "sarrasine",
+      "variables": {
+        "entity": "une statue de femme",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 154,
+      "doc": "sarrasine",
+      "variables": {
+        "entity": "cette voix",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 155,
+      "doc": "sarrasine",
+      "variables": {
+        "entity": "nos",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "18"
+    },
+    {
+      "id": 156,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity": "ses sacremens",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 157,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity": "Alors",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 158,
+      "doc": "nemoville",
+      "variables": {
+        "entity": "leurs compagnons",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 159,
+      "doc": "mademoisellefifi-1",
+      "variables": {
+        "entity": "Courville",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 160,
+      "doc": "sarrasine",
+      "variables": {
+        "entity": "les maîtres de le logis",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 161,
+      "doc": "ungroupped-estrepublicain-2-057",
+      "variables": {
+        "entity": "ma fille",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 162,
+      "doc": "mademoisellefifi-1",
+      "variables": {
+        "entity": "une famille",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "20"
+    },
+    {
+      "id": 163,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity": "les choses mystérieuses",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 164,
+      "doc": "mademoisellefifi-3",
+      "variables": {
+        "entity": "Un médecin",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 165,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity": "les armoiries de le porche",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 166,
+      "doc": "mademoisellefifi-3",
+      "variables": {
+        "entity": "M. Lelièvre",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "19"
+    },
+    {
+      "id": 167,
+      "doc": "madamedehautefort",
+      "variables": {
+        "entity": "les grâces naissantes",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 168,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity": "votre",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 169,
+      "doc": "sarrasine",
+      "variables": {
+        "entity": "cette extrême faiblesse",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 170,
+      "doc": "morteamoureuse",
+      "variables": {
+        "entity": "son corps",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 171,
+      "doc": "bouvardetpecuchet",
+      "variables": {
+        "entity": "Mme veuve Bordin",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 172,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity": "sa fille Rebecca",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 173,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity": "la petite chambre",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 174,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity": "la duègne",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "16"
+    },
+    {
+      "id": 175,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity": "le cardinal de Richelieu",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 176,
+      "doc": "pauline",
+      "variables": {
+        "entity": "les yeux verts et luisants pleins de dépit et de méfiance",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 177,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity": "le bruit",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 178,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity": "des vitres bouillonnées",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 179,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity": "la procession de les cordons bleus",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 180,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity": "votre",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 181,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity": "leur chambre à coucher",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 182,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity": "ses enfants",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 183,
+      "doc": "doucelumiere",
+      "variables": {
+        "entity": "L' une d' elles",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 184,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "entity": "toutes deux",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 185,
+      "doc": "morteamoureuse",
+      "variables": {
+        "entity": "mon esprit",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 186,
+      "doc": "sarrasine",
+      "variables": {
+        "entity": "Le cardinal Cicognara",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "19"
+    },
+    {
+      "id": 187,
+      "doc": "jeanchristophe-2",
+      "variables": {
+        "entity": "le veston",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 188,
+      "doc": "morteamoureuse",
+      "variables": {
+        "entity": "le bras",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 189,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity": "Un maigre feu",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 190,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity": "une femme",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 191,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity": "le bord de la Marne",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 192,
+      "doc": "nemoville",
+      "variables": {
+        "entity": "votre chambre",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 193,
+      "doc": "doucelumiere",
+      "variables": {
+        "entity": "les trois amis",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 194,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity": "feu son père , mort depuis quelques années",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 195,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity": "Milton",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 196,
+      "doc": "articleswiki_girafe",
+      "variables": {
+        "entity": "La girafe",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 197,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity": "les becs de gaz",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 198,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity": "la nature",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 199,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "entity": "la douleur de ma hanche",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "20"
+    },
+    {
+      "id": 200,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity": "la santé de mon William",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 201,
+      "doc": "bouvardetpecuchet",
+      "variables": {
+        "entity": "une manière de camisole en indienne",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 202,
+      "doc": "madamedehautefort",
+      "variables": {
+        "entity": "la Bastille",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 203,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity": "une distraction",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 204,
+      "doc": "bouvardetpecuchet",
+      "variables": {
+        "entity": "une manière de cahute faite en rondins",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 205,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity": "Ce qui fait le malheur de les uns",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 206,
+      "doc": "bouvardetpecuchet",
+      "variables": {
+        "entity": "le soleil",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 207,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity": "un de les hommes",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 208,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity": "l' Isabelle",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 209,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity": "ces diables de légumes , et les fruits , et les poissons , et la viande",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 210,
+      "doc": "jeanchristophe-2",
+      "variables": {
+        "entity": "Deux autres",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "20"
+    },
+    {
+      "id": 211,
+      "doc": "sarrasine",
+      "variables": {
+        "entity": "son être intime",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 212,
+      "doc": "nemoville",
+      "variables": {
+        "entity": "le projet de son ami.",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 213,
+      "doc": "mademoisellefifi-3",
+      "variables": {
+        "entity": "ce ménage",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 214,
+      "doc": "jeanchristophe-2",
+      "variables": {
+        "entity": "Clara Sartorius",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 215,
+      "doc": "mademoisellefifi-1",
+      "variables": {
+        "entity": "le râle",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 216,
+      "doc": "nemoville",
+      "variables": {
+        "entity": "un jardin",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 217,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity": "l' habitation",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 218,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity": "ses conséquences immédiates",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 219,
+      "doc": "ungroupped-estrepublicain-2-068",
+      "variables": {
+        "entity": "le conseil municipal",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 220,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity": "les sophistes",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "18"
+    },
+    {
+      "id": 221,
+      "doc": "bouvardetpecuchet",
+      "variables": {
+        "entity": "l' autre",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 222,
+      "doc": "nemoville",
+      "variables": {
+        "entity": "un domestique",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 223,
+      "doc": "morteamoureuse",
+      "variables": {
+        "entity": "la mienne",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 224,
+      "doc": "madamedehautefort",
+      "variables": {
+        "entity": "son cadet Gilles de Hautefort",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 225,
+      "doc": "madamedehautefort",
+      "variables": {
+        "entity": "la grossesse d' Anne d' Autriche",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 226,
+      "doc": "ungroupped-estrepublicain-1-016",
+      "variables": {
+        "entity": "la droite",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 227,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity": "trente ou quarante pauvres créatures de toutes les nations , Grecs , Turcs , Espagnols , Français , venant de faire naufrage",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 228,
+      "doc": "doucelumiere",
+      "variables": {
+        "entity": "en Algérie",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 229,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity": "des tableaux extraordinaires",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 230,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "entity": "une jolie rivière",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 231,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity": "quelque ville étrange",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 232,
+      "doc": "articleswiki_girafe",
+      "variables": {
+        "entity": "Neuf sous-espèces",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 233,
+      "doc": "jeanchristophe-2",
+      "variables": {
+        "entity": "les genoux",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 234,
+      "doc": "jeanchristophe-2",
+      "variables": {
+        "entity": "onze enfants",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 235,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity": "ses consolations",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 236,
+      "doc": "ungroupped-estrepublicain-1-032",
+      "variables": {
+        "entity": "la société israélienne",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 237,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity": "Saint - Denis",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 238,
+      "doc": "morteamoureuse",
+      "variables": {
+        "entity": "nos",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 239,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity": "la Bastille",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 240,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity": "l' empereur Julien",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 241,
+      "doc": "mademoisellefifi-1",
+      "variables": {
+        "entity": "la mine",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 242,
+      "doc": "aden",
+      "variables": {
+        "entity": "les massacres",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 243,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "entity": "notre chauffeur",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 244,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity": "un galon terni",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 245,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity": "un de les gardiens de notre chambre",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "20"
+    },
+    {
+      "id": 246,
+      "doc": "ungroupped-estrepublicain-1-013",
+      "variables": {
+        "entity": "la session inaugurale de le parlement",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 247,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity": "un premier fils",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "16"
+    },
+    {
+      "id": 248,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity": "l' univers",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 249,
+      "doc": "madamedehautefort",
+      "variables": {
+        "entity": "Le fils aîné",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 250,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity": "Notre",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "16"
+    },
+    {
+      "id": 251,
+      "doc": "mademoisellefifi-3",
+      "variables": {
+        "entity": "mon lit",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 252,
+      "doc": "morteamoureuse",
+      "variables": {
+        "entity": "la coupe de vin épicé",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 253,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity": "ma petite Kate",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 254,
+      "doc": "madamedehautefort",
+      "variables": {
+        "entity": "votre adresse",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 255,
+      "doc": "aden",
+      "variables": {
+        "entity": "les armatures de l' ancien esprit",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 256,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "entity": "un homme",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "17"
+    },
+    {
+      "id": 257,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity": "le genre humain",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 258,
+      "doc": "sarrasine",
+      "variables": {
+        "entity": "des enfants",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 259,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity": "le comte d' Artois",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 260,
+      "doc": "nemoville",
+      "variables": {
+        "entity": "le pays",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 261,
+      "doc": "madamedehautefort",
+      "variables": {
+        "entity": "une quinzaine de jours",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 262,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity": "une adorable petite femme brune",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 263,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "entity": "cette joie",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 264,
+      "doc": "doucelumiere",
+      "variables": {
+        "entity": "une souplesse et une hardiesse",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 265,
+      "doc": "pauline",
+      "variables": {
+        "entity": "notre",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 266,
+      "doc": "doucelumiere",
+      "variables": {
+        "entity": "Juliette Force",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 267,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity": "Mme Denis",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "17"
+    },
+    {
+      "id": 268,
+      "doc": "ungroupped-estrepublicain-1-008",
+      "variables": {
+        "entity": "Netanyahu",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "18"
+    },
+    {
+      "id": 269,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "entity": "le printemps",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 270,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "entity": "une chaîne solidement rivée à ma poitrine",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 271,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "entity": "la dinde",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 272,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity": "plusieurs cloches",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 273,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity": "Une femme",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 274,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity": "ses enfants",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 275,
+      "doc": "morteamoureuse",
+      "variables": {
+        "entity": "un page nègre",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "16"
+    },
+    {
+      "id": 276,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "entity": "la maison",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 277,
+      "doc": "aden",
+      "variables": {
+        "entity": "le monde",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 278,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity": "la chûte",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 279,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity": "Genève",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 280,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity": "Son père",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 281,
+      "doc": "nemoville",
+      "variables": {
+        "entity": "le capitaine Nemo",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 282,
+      "doc": "sarrasine",
+      "variables": {
+        "entity": "Paris",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "17"
+    },
+    {
+      "id": 283,
+      "doc": "sarrasine",
+      "variables": {
+        "entity": "Son père",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 284,
+      "doc": "ungroupped-estrepublicain-1-026",
+      "variables": {
+        "entity": "le concours de les fromages de Trepot",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 285,
+      "doc": "sarrasine",
+      "variables": {
+        "entity": "une toile magnifiquement encadrée",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 286,
+      "doc": "mademoisellefifi-1",
+      "variables": {
+        "entity": "Le Devoir",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 287,
+      "doc": "aden",
+      "variables": {
+        "entity": "une femme",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 288,
+      "doc": "doucelumiere",
+      "variables": {
+        "entity": "Le trois mai",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 289,
+      "doc": "doucelumiere",
+      "variables": {
+        "entity": "la main",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 290,
+      "doc": "sarrasine",
+      "variables": {
+        "entity": "ces cris involontaires arrachés par les délices convulsives trop rarement données par les passions humaines",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 291,
+      "doc": "articleswiki_girafe",
+      "variables": {
+        "entity": "le long cou",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 292,
+      "doc": "aden",
+      "variables": {
+        "entity": "d' abeille",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 293,
+      "doc": "mademoisellefifi-3",
+      "variables": {
+        "entity": "son grand cheval",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "19"
+    },
+    {
+      "id": 294,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity": "Balthazar",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 295,
+      "doc": "nemoville",
+      "variables": {
+        "entity": "L' abbé Bernard et Roger",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 296,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity": "la famille maintenant déchue",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 297,
+      "doc": "sarrasine",
+      "variables": {
+        "entity": "un homme",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 298,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity": "Un seul battant",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 299,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity": "l' église",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 300,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity": "la façade",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 301,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity": "Mes frères",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "19"
+    },
+    {
+      "id": 302,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity": "le vin pur",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 303,
+      "doc": "nemoville",
+      "variables": {
+        "entity": "tous trois",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "17"
+    },
+    {
+      "id": 304,
+      "doc": "jeanchristophe-2",
+      "variables": {
+        "entity": "ces gens",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 305,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity": "celui que l' on appelle ici Monsieur le capitano",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 306,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "entity": "de tout petits bouts de bois",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 307,
+      "doc": "ungroupped-estrepublicain-2-061",
+      "variables": {
+        "entity": "deux mois environ",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 308,
+      "doc": "doucelumiere",
+      "variables": {
+        "entity": "le frère de le tailleur",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 309,
+      "doc": "aden",
+      "variables": {
+        "entity": "le rythme",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 310,
+      "doc": "pauline",
+      "variables": {
+        "entity": "d' autres",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 311,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "entity": "notre",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 312,
+      "doc": "jeanchristophe-2",
+      "variables": {
+        "entity": "Les Krafft",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 313,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity": "une petite fille",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 314,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity": "l' avenue",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 315,
+      "doc": "articleswiki_girafe",
+      "variables": {
+        "entity": "les mâles",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "17"
+    },
+    {
+      "id": 316,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity": "la patte",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 317,
+      "doc": "nemoville",
+      "variables": {
+        "entity": "la terre avec toutes ses misères",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 318,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "entity": "notre chambre d' enfant",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 319,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity": "Lausanne",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "16"
+    },
+    {
+      "id": 320,
+      "doc": "sarrasine",
+      "variables": {
+        "entity": "les veines bleues",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 321,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity": "Ma mère",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "18"
+    },
+    {
+      "id": 322,
+      "doc": "bouvardetpecuchet",
+      "variables": {
+        "entity": "une manière de château",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 323,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity": "Marli",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 324,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "entity": "la route",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 325,
+      "doc": "pauline",
+      "variables": {
+        "entity": "les besoins de le bien-être",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 326,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity": "les eaux",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 327,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity": "le ciel",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 328,
+      "doc": "doucelumiere",
+      "variables": {
+        "entity": "sa maison",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 329,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "entity": "notre",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 330,
+      "doc": "aden",
+      "variables": {
+        "entity": "Aden",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "20"
+    },
+    {
+      "id": 331,
+      "doc": "ungroupped-estrepublicain-2-017",
+      "variables": {
+        "entity": "le village",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 332,
+      "doc": "morteamoureuse",
+      "variables": {
+        "entity": "un vieux chien",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 333,
+      "doc": "madamedehautefort",
+      "variables": {
+        "entity": "état",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 334,
+      "doc": "aden",
+      "variables": {
+        "entity": "un grand penseur",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "16"
+    },
+    {
+      "id": 335,
+      "doc": "pauline",
+      "variables": {
+        "entity": "Paris",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 336,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity": "deux de les plus belles femmes de la cour",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 337,
+      "doc": "articleswiki_zebre",
+      "variables": {
+        "entity": "un lion",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 338,
+      "doc": "ungroupped-estrepublicain-1-008",
+      "variables": {
+        "entity": "Ehoud Barak",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 339,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity": "l' ami de leur père",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 340,
+      "doc": "sarrasine",
+      "variables": {
+        "entity": "le théâtre d' Argentina",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 341,
+      "doc": "bouvardetpecuchet",
+      "variables": {
+        "entity": "un homme à chevelure grisonnante et vêtu d' un paletot noir",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 342,
+      "doc": "doucelumiere",
+      "variables": {
+        "entity": "l' école",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 343,
+      "doc": "bouvardetpecuchet",
+      "variables": {
+        "entity": "le conducteur et le charretier",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 344,
+      "doc": "sarrasine",
+      "variables": {
+        "entity": "votre",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "16"
+    },
+    {
+      "id": 345,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity": "le pavillon",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 346,
+      "doc": "sarrasine",
+      "variables": {
+        "entity": "Filippo",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 347,
+      "doc": "morteamoureuse",
+      "variables": {
+        "entity": "ce que je faisais",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 348,
+      "doc": "madamedehautefort",
+      "variables": {
+        "entity": "La troisième",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 349,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity": "Mme Sadler",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 350,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity": "ses",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "16"
+    },
+    {
+      "id": 351,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity": "une dame",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 352,
+      "doc": "doucelumiere",
+      "variables": {
+        "entity": "un panier",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 353,
+      "doc": "bouvardetpecuchet",
+      "variables": {
+        "entity": "Une petite fille",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 354,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity": "les boulevards",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 355,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "entity": "Paris",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 356,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity": "mon âme d' enfant",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 357,
+      "doc": "aden",
+      "variables": {
+        "entity": "Les disciples rangés",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 358,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity": "la rue Rambuteau",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 359,
+      "doc": "ungroupped-estrepublicain-1-030",
+      "variables": {
+        "entity": "le reste",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 360,
+      "doc": "articleswiki_zebre",
+      "variables": {
+        "entity": "les équidés primitifs",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 361,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity": "de toits en éteignoir",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 362,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity": "la religion",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 363,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity": "un monde frivole",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 364,
+      "doc": "morteamoureuse",
+      "variables": {
+        "entity": "Margheritone",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 365,
+      "doc": "mademoisellefifi-1",
+      "variables": {
+        "entity": "La pluie",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 366,
+      "doc": "pauline",
+      "variables": {
+        "entity": "toucher",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 367,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity": "mes frères et moi",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 368,
+      "doc": "mademoisellefifi-3",
+      "variables": {
+        "entity": "ma bonne",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 369,
+      "doc": "bouvardetpecuchet",
+      "variables": {
+        "entity": "La vieille femme",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 370,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity": "son bonheur",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 371,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity": "tes tablettes",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 372,
+      "doc": "morteamoureuse",
+      "variables": {
+        "entity": "mon âme",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 373,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity": "nos",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 374,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "entity": "nos",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 375,
+      "doc": "sarrasine",
+      "variables": {
+        "entity": "Une vieille femme",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 376,
+      "doc": "jeanchristophe-2",
+      "variables": {
+        "entity": "ce qu' il pensait",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 377,
+      "doc": "ungroupped-estrepublicain-1-011",
+      "variables": {
+        "entity": "Contempora",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 378,
+      "doc": "jeanchristophe-2",
+      "variables": {
+        "entity": "tous deux",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 379,
+      "doc": "sarrasine",
+      "variables": {
+        "entity": "nos",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "18"
+    },
+    {
+      "id": 380,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity": "le feu",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 381,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity": "le lazaret",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 382,
+      "doc": "ungroupped-estrepublicain-1-020",
+      "variables": {
+        "entity": "Farid Smahi",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "19"
+    },
+    {
+      "id": 383,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity": "une autre un peu moins grande",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 384,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity": "cette loi",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 385,
+      "doc": "ungroupped-estrepublicain-1-018",
+      "variables": {
+        "entity": "Alain Woimbée",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 386,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity": "la seule pièce un peu vivante de le château désert",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 387,
+      "doc": "ungroupped-estrepublicain-2-061",
+      "variables": {
+        "entity": "le jeune homme",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "19"
+    },
+    {
+      "id": 388,
+      "doc": "mademoisellefifi-3",
+      "variables": {
+        "entity": "son mari",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 389,
+      "doc": "aden",
+      "variables": {
+        "entity": "un soldat de coloniale envoyé à les sections spéciales de le cap Saint-Jacques",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 390,
+      "doc": "ungroupped-estrepublicain-1-019",
+      "variables": {
+        "entity": "chaque agent",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 391,
+      "doc": "mademoisellefifi-1",
+      "variables": {
+        "entity": "Les deux derniers",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "16"
+    },
+    {
+      "id": 392,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity": "la confession",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 393,
+      "doc": "mademoisellefifi-1",
+      "variables": {
+        "entity": "un lieutenant",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 394,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity": "la rédemption",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "16"
+    },
+    {
+      "id": 395,
+      "doc": "ungroupped-estrepublicain-2-011",
+      "variables": {
+        "entity": "La société Evobus",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 396,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "entity": "son petit garçon",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 397,
+      "doc": "sarrasine",
+      "variables": {
+        "entity": "le bal",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 398,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity": "un de nos voisins",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "20"
+    },
+    {
+      "id": 399,
+      "doc": "madamedehautefort",
+      "variables": {
+        "entity": "sa femme",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 400,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity": "un coquemar de fonte pendu à la crémaillère",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 401,
+      "doc": "doucelumiere",
+      "variables": {
+        "entity": "garçon de dix ans",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 402,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity": "le plus habile héraut d' armes",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 403,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity": "la terre",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 404,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity": "sa place",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 405,
+      "doc": "aden",
+      "variables": {
+        "entity": "des actions réelles",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 406,
+      "doc": "sarrasine",
+      "variables": {
+        "entity": "l' un de ses camarades",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 407,
+      "doc": "ungroupped-estrepublicain-1-019",
+      "variables": {
+        "entity": "le personnel",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 408,
+      "doc": "jeanchristophe-2",
+      "variables": {
+        "entity": "l' enfant",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 409,
+      "doc": "bouvardetpecuchet",
+      "variables": {
+        "entity": "la campagne",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 410,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity": "les cordons bleus",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 411,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity": "notre",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 412,
+      "doc": "nemoville",
+      "variables": {
+        "entity": "chaque habitant de la ville",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 413,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity": "Ces pauvres gens",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 414,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity": "sa petite sœur Catherine",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 415,
+      "doc": "morteamoureuse",
+      "variables": {
+        "entity": "frère",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 416,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity": "St-Jean",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 417,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity": "animal affectueux et poli",
+        "text": "See count_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    }
+  ]
+}

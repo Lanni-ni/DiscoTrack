@@ -1,0 +1,1978 @@
+{
+  "task": "entity_most",
+  "lang": "french",
+  "example_prompt": "Which entity is mentioned the most times in the text?",
+  "instances": [
+    {
+      "id": 1,
+      "doc": "diableaucorps",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "ma",
+        "mes",
+        "mon",
+        "seul de la classe",
+        "travaillai",
+        "pensais",
+        "aurais",
+        "moi -même",
+        "votre",
+        "Marthe",
+        "ta",
+        "mon pauvre chéri"
+      ]
+    },
+    {
+      "id": 2,
+      "doc": "morteamoureuse",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Moi , pauvre prêtre de campagne",
+        "mon",
+        "ma",
+        "mes",
+        "ton",
+        "moi - même",
+        "moi -même",
+        "Romuald",
+        "mon ami",
+        "votre",
+        "mon frère",
+        "mon cher Romuald",
+        "seigneur prêtre",
+        "ma personne",
+        "Mon fils",
+        "cher amour",
+        "tes",
+        "mon gentilhomme",
+        "cher cœur",
+        "vos",
+        "il signor Romualdo , amant en titre de la Clarimonde",
+        "pauvre amour",
+        "mon seul bien",
+        "mon dieu",
+        "mon enfant",
+        "ta",
+        "vous -même",
+        "seigneur Romuald"
+      ]
+    },
+    {
+      "id": 3,
+      "doc": "jeanchristophe-2",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "le petit Christophe",
+        "Christophe",
+        "ses",
+        "sa",
+        "son",
+        "Mon pauvre garçon",
+        "l' enfant",
+        "ta",
+        "Monte",
+        "jeta",
+        "cacha",
+        "ce petit garçon",
+        "le nouveau venu",
+        "un petit pauvre",
+        "le fils de Melchior Krafft",
+        "le petit pauvre",
+        "Le malheureux garçon",
+        "lança",
+        "allongea",
+        "réussit",
+        "tomba",
+        "faillit",
+        "secoua",
+        "fit",
+        "gifla",
+        "hurla",
+        "mordit",
+        "gamin",
+        "son fils",
+        "le petit",
+        "fut",
+        "un enfant",
+        "trouva",
+        "voyageait",
+        "venez",
+        "consentait",
+        "le tour de Christophe",
+        "prends",
+        "Donne",
+        "son petit garçon",
+        "son aîné",
+        "Mon pauvre petit garçon",
+        "dansait",
+        "enfouit",
+        "lui -même",
+        "saisit",
+        "voulut",
+        "frappait",
+        "coupait",
+        "brûlait",
+        "enfant",
+        "sautait",
+        "pensait"
+      ]
+    },
+    {
+      "id": 4,
+      "doc": "doucelumiere",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Douce Lumiere",
+        "son",
+        "sa",
+        "La fillette",
+        "l' enfant",
+        "laissaient",
+        "sa petite maîtresse",
+        "la petite",
+        "ses",
+        "Douce",
+        "elle - même",
+        "franchissait",
+        "grimpait",
+        "la petite fille",
+        "rentra",
+        "se laissa glisser",
+        "sa petite fille",
+        "courbait",
+        "se laissait",
+        "elle -même",
+        "la chère petite",
+        "cette gamine",
+        "petite",
+        "Votre",
+        "sa petite camarade",
+        "tes",
+        "ton",
+        "ta",
+        "fut",
+        "sa camarade",
+        "la petite Lumière",
+        "petite Lumière",
+        "la petite Eglantine",
+        "gnangnan",
+        "Églantine Lumière",
+        "cette gnangnan",
+        "devançait",
+        "Lumière",
+        "Églantine",
+        "oublia",
+        "commença",
+        "chercha",
+        "s' assit",
+        "attendit",
+        "baissa",
+        "répondit",
+        "celle qu' elle appelait gnangnan",
+        "rabattit",
+        "ouvrit",
+        "sa jeune élève",
+        "cette petite gnangnan",
+        "la belle",
+        "mon",
+        "ma",
+        "cette élève - là",
+        "la jeune fille",
+        "sa maîtresse",
+        "dit",
+        "sa chère Douce"
+      ]
+    },
+    {
+      "id": 5,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "mes",
+        "mon",
+        "ma",
+        "mon enfant",
+        "moi - même",
+        "toute seule",
+        "ton",
+        "ma grande sœur",
+        "Annette",
+        "ta",
+        "moi -même",
+        "tes",
+        "petite mère",
+        "reprenait",
+        "ma fille"
+      ]
+    },
+    {
+      "id": 6,
+      "doc": "elisabethseton",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Élisabeth Seton",
+        "Madame Seton",
+        "sa",
+        "cette illustre convertie",
+        "ses",
+        "l' une de les gloires de l' Amérique",
+        "son",
+        "Cette femme comblée de tous les dons",
+        "les siens",
+        "l' ouvrière de Dieu",
+        "Mme Seton",
+        "cette femme",
+        "l' une de les plus accomplies , des plus aimantes et des plus aimées",
+        "elle -même",
+        "Élisabeth-Anna Bayley",
+        "Élisabeth",
+        "sa fille",
+        "L' enfant",
+        "resta",
+        "Mon",
+        "ma",
+        "moi -même",
+        "Mlle Bayley",
+        "la jeune fille",
+        "portait",
+        "Mes",
+        "le Te Deum",
+        "offrait",
+        "Élisabeth encore protestante",
+        "mère",
+        "sa femme",
+        "La courageuse femme",
+        "la plus aimable et la plus aimante de les filles",
+        "cette âme profondément chrétienne",
+        "les miens",
+        "Maman",
+        "moi - même",
+        "Signora",
+        "les miennes",
+        "ton",
+        "son âme",
+        "sa vie",
+        "sa chérie",
+        "son tout",
+        "la Signora",
+        "Mme Élisabeth",
+        "moi seule",
+        "la première"
+      ]
+    },
+    {
+      "id": 7,
+      "doc": "madamedehautefort",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Madame de Hautefort",
+        "une toute autre personne",
+        "une ennemie",
+        "une rivale de Richelieu et de Mazarin",
+        "La noble femme",
+        "appartient",
+        "son",
+        "ses",
+        "sa",
+        "la favorite d' un roi",
+        "l' amie d' une reine",
+        "l' idole de la cour la plus brillante de l' univers",
+        "Marie de Hautefort",
+        "Marie",
+        "le dernier enfant de le marquis Charles de Hautefort",
+        "leur sœur cadette Marie de Hautefort",
+        "Celle - ci",
+        "La jeune fille",
+        "tarda",
+        "l' aimable enfant",
+        "cette charmante personne",
+        "Mme de Hautefort",
+        "Mlle de Hautefort",
+        "la jeune Marie",
+        "sa nouvelle fille d' honneur",
+        "une rivale",
+        "une surveillante et une ennemie",
+        "cette belle enfant",
+        "une héroïne",
+        "la favorite de Louis XIII",
+        "celle d' Anne d' Autriche",
+        "rougit",
+        "un autre enfant",
+        "Hautefort la merveille Réveille Tous les sens de Louis",
+        "Mlle de Haute-fort",
+        "avait",
+        "l' autre",
+        "ce jeune et noble cœur",
+        "vos",
+        "une jeune fille",
+        "la jeune favorite",
+        "dédaigna",
+        "Celle -ci",
+        "cette charmante fille",
+        "une maîtresse aussi peu complaisante",
+        "une blonde éblouissante",
+        "sa compagne",
+        "sa jeune et fidèle amie Marie de Hautefort",
+        "la belle Marie",
+        "l' héroïne",
+        "sa sœur",
+        "la superbe créature",
+        "elle -même",
+        "grisette",
+        "barbouille",
+        "cache",
+        "prend",
+        "fait",
+        "La noble fille",
+        "la sœur de son valet de chambre",
+        "l' altière Marie de Hautefort",
+        "montra",
+        "expliqua",
+        "dit",
+        "la jeune fille modeste",
+        "sa jeune et intrépide amie",
+        "sa petite-fille",
+        "cette ravissante figure",
+        "ce noble cœur",
+        "sa jeune confidente",
+        "leur intermédiaire auprès de sa maîtresse",
+        "sa première et irrésistible maîtresse",
+        "une personne tout aussi dangereuse",
+        "l' ancienne favorite",
+        "une pareille amie",
+        "l' exilée",
+        "mes",
+        "aurai",
+        "Ma",
+        "la très fidèle"
+      ]
+    },
+    {
+      "id": 8,
+      "doc": "sarrasine",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Ernest-Jean Sarrasine",
+        "Son",
+        "un enfant",
+        "le petit-fils de Matthieu Sarrasine",
+        "Le jeune Sarrasine",
+        "sa",
+        "révoltait",
+        "restait",
+        "ses",
+        "croquait",
+        "barbouillait",
+        "l' artiste",
+        "Sarrasine",
+        "entra",
+        "le jeune artiste",
+        "son élève",
+        "le sculpteur célèbre",
+        "un grand homme futur",
+        "son fils",
+        "cette jeune âme",
+        "cette âme passionnée",
+        "l' élève de Bouchardon",
+        "un jeune homme",
+        "entrait",
+        "vivait",
+        "répudia",
+        "le sculpteur",
+        "sa camarade",
+        "assied",
+        "le jeune sculpteur",
+        "lui -même",
+        "entendait",
+        "déroule",
+        "développe",
+        "disperse",
+        "parlait",
+        "suppliait",
+        "épuisait",
+        "donna",
+        "finit",
+        "le farouche sculpteur",
+        "le Français",
+        "ma",
+        "Jeune homme",
+        "vos",
+        "seigneur Français",
+        "son maître",
+        "trouva",
+        "fit",
+        "un pauvre sculpteur",
+        "résigna",
+        "l' amoureux artiste",
+        "ton",
+        "assit",
+        "protesta",
+        "votre",
+        "mon",
+        "l' amoureux sculpteur",
+        "porta",
+        "monsieur",
+        "l' artiste enivré",
+        "Mon cher",
+        "mes",
+        "discontinua",
+        "lança",
+        "brandit"
+      ]
+    },
+    {
+      "id": 9,
+      "doc": "pauline",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "la personne",
+        "sa",
+        "une jeune femme d' une beauté vive et saisissante , mais pâlie par la fatigue",
+        "ses",
+        "la voyageuse",
+        "son",
+        "ma",
+        "la jeune femme",
+        "L' étrangère",
+        "Madame",
+        "la servante",
+        "dame",
+        "mon",
+        "notre voyageuse",
+        "son ancienne amie",
+        "Laurence",
+        "ta",
+        "Chère Laurence",
+        "dis",
+        "pâlit",
+        "Vois",
+        "vit",
+        "se retirer",
+        "l' actrice",
+        "cette malheureuse",
+        "se remettant",
+        "mademoiselle ... ou madame",
+        "cette dame",
+        "son amie",
+        "celle - ci",
+        "commanda",
+        "ma pauvre enfant",
+        "mon enfant",
+        "de Laurence",
+        "intrigua",
+        "finit",
+        "la belle actrice de la capitale",
+        "voulut",
+        "la comédienne",
+        "celle -ci",
+        "cette petite sous-maîtresse",
+        "son gré",
+        "mademoiselle S",
+        "l' amie de Pauline",
+        "elle -même",
+        "fut",
+        "se montra",
+        "marchait"
+      ]
+    },
+    {
+      "id": 10,
+      "doc": "ventredeparis",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "quelque cochon d' ivrogne",
+        "une masse noire",
+        "un homme vautré tout de son long",
+        "son",
+        "l' homme",
+        "le sacré porc",
+        "sa",
+        "mon brave",
+        "ses",
+        "l' inconnu",
+        "Florent",
+        "tomba",
+        "aida",
+        "s' assit",
+        "échappa",
+        "se rappelait",
+        "Vos",
+        "cet inconnu",
+        "se tint",
+        "répondait",
+        "monsieur",
+        "assura",
+        "resta",
+        "son compagnon",
+        "s' abandonnait",
+        "regardait",
+        "Celui -ci"
+      ]
+    },
+    {
+      "id": 11,
+      "doc": "bouvardetpecuchet",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Deux hommes",
+        "notre",
+        "nos",
+        "Bouvard et Pécuchet",
+        "s' étaient rassis",
+        "avaient fait",
+        "tous les deux",
+        "les deux",
+        "l' autre",
+        "frémirent",
+        "ces deux inconnus",
+        "lisaient",
+        "arrachèrent",
+        "dormirent",
+        "mangèrent",
+        "rentrèrent",
+        "reçurent",
+        "s' exaltaient",
+        "se gâtaient",
+        "revinrent",
+        "dépassèrent",
+        "ces deux hommes",
+        "iraient",
+        "regarderaient",
+        "se délecteraient",
+        "dîneraient",
+        "redoutaient",
+        "vint",
+        "se promenèrent",
+        "s' endormirent",
+        "ces messieurs",
+        "partirent",
+        "Les deux Parisiens",
+        "eurent",
+        "sarclaient",
+        "émondaient",
+        "s' imposaient",
+        "mangeaient",
+        "allaient",
+        "écrasaient",
+        "coupaient",
+        "faisaient",
+        "parcouraient",
+        "causaient",
+        "regardaient",
+        "répétaient",
+        "Les deux amis",
+        "les futurs agronomes",
+        "se sentaient",
+        "les messieurs",
+        "Les deux visiteurs",
+        "se firent",
+        "s' abonnèrent",
+        "questionnaient",
+        "manquaient",
+        "puchaient",
+        "surveillaient",
+        "portaient",
+        "s' amusaient",
+        "eux -mêmes",
+        "administraient",
+        "ouvraient",
+        "savaient"
+      ]
+    },
+    {
+      "id": 12,
+      "doc": "nemoville",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "un prêtre",
+        "son",
+        "Ce prêtre",
+        "Sa",
+        "ses",
+        "l' abbé Bernard",
+        "L' abbé",
+        "le prêtre",
+        "vit",
+        "mon",
+        "monsieur l' abbé",
+        "se rendit",
+        "quitta",
+        "Monsieur l' abbé Bernard",
+        "Celui -ci",
+        "Mon père",
+        "appela",
+        "celui - ci",
+        "le bon prêtre",
+        "lut",
+        "attendit",
+        "se mit",
+        "mettait",
+        "votre",
+        "le curé",
+        "Le nouveau curé",
+        "répliqua",
+        "félicita",
+        "vos",
+        "fut",
+        "notre curé",
+        "partit",
+        "le curé Bernard",
+        "le premier",
+        "son curé",
+        "leur curé",
+        "mes",
+        "Monsieur le curé"
+      ]
+    },
+    {
+      "id": 13,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "ces demoiselles",
+        "ses sœurs",
+        "ses filles",
+        "mesdemoiselles",
+        "votre",
+        "vôtres",
+        "mes filles",
+        "les filles",
+        "ses petites-filles",
+        "Rosalie et à sa sœur",
+        "Mes très chères filles",
+        "de bons et aimables enfans",
+        "mes chères filles",
+        "négligez",
+        "vos",
+        "leurs filles",
+        "les mêmes",
+        "Les fillettes",
+        "notre",
+        "Rosalie et de sa sœur",
+        "Les deux enfants",
+        "les voyageuses",
+        "grandes filles",
+        "les demoiselles de Constant",
+        "nos",
+        "les filles de Samuel et de Charlotte",
+        "les jeunes filles",
+        "l' on",
+        "ces petites provinciales venues à l' opéra",
+        "Ces dames",
+        "été",
+        "pûmes",
+        "ses petites-filles un peu nerveuses",
+        "les enfants",
+        "Rosalie et Lisette",
+        "les sœurs",
+        "contons",
+        "gardez",
+        "rapportez",
+        "apprenez",
+        "nos voyageuses"
+      ]
+    },
+    {
+      "id": 14,
+      "doc": "mademoisellefifi-1",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sa",
+        "portait",
+        "restait",
+        "son",
+        "rencontrât",
+        "ses",
+        "chasseur",
+        "Le baron de Coutelier",
+        "envole -- j' épaule -- pan",
+        "monsieur Hector",
+        "le baron",
+        "remuait",
+        "gesticulait",
+        "demandait",
+        "essayait",
+        "vieillissait",
+        "demeura",
+        "son maître",
+        "exaspérait",
+        "recommençait",
+        "un homme foutu",
+        "M. de Coutelier",
+        "prêtait",
+        "l' équiper",
+        "mon",
+        "Faites",
+        "votre",
+        "mon cher",
+        "balbutiant",
+        "un monsieur",
+        "le baron , changé , vieilli , en costume de voyage",
+        "son vieil ami",
+        "reprit",
+        "leur ami"
+      ]
+    },
+    {
+      "id": 15,
+      "doc": "capitainefracasse",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "le dernier descendant de ces hommes de race et d' épée",
+        "ses",
+        "mon pauvre maître",
+        "Le jeune maître",
+        "le nouveau venu",
+        "son",
+        "Le baron de Sigognac",
+        "le seigneur de ce castel démantelé",
+        "sa",
+        "un jeune homme",
+        "le jeune baron",
+        "le fluet baron",
+        "le jeune Sigognac",
+        "avait été",
+        "le fils",
+        "Sigognac",
+        "le seigneur",
+        "Le Baron",
+        "son maître",
+        "un rejeton isolé",
+        "le jeune seigneur",
+        "leur descendant",
+        "Le châtelain de ce triste manoir , habitué à ces lugubres symphonies",
+        "se mit",
+        "son fils",
+        "le jeune enfant",
+        "le baron de Sigognac accoutré comme un gueux de l' Hostière ou comme un cueilleur de pommes de le Perche",
+        "un rejeton de cette race amoindrie",
+        "se dressa",
+        "le jeune homme",
+        "le maître",
+        "entr'ouvrit",
+        "se trouva",
+        "noble châtelain",
+        "votre",
+        "le Baron ennuyé par le verbiage de le vieux drôle",
+        "Votre Seigneurie",
+        "ma",
+        "mon",
+        "ce seigneur",
+        "daigne",
+        "à qui",
+        "notre jeune baron",
+        "Le jeune maître de le château",
+        "le jeune baron de Sigognac"
+      ]
+    },
+    {
+      "id": 16,
+      "doc": "mademoisellefifi-3",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "son",
+        "sa",
+        "Jeanne",
+        "la jeune femme",
+        "ses",
+        "prit",
+        "jouait",
+        "put",
+        "l' un",
+        "rappelait"
+      ]
+    },
+    {
+      "id": 17,
+      "doc": "aden",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "les jeunes gens",
+        "Les gens de mon âge",
+        "des victimes",
+        "nos",
+        "notre",
+        "Faisons"
+      ]
+    },
+    {
+      "id": 18,
+      "doc": "articleswiki_girafe",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Girafe",
+        "La girafe",
+        "Giraffa camelopardalis",
+        "une espèce de mammifères ongulés artiodactyles , de le groupe de les ruminants , vivant dans les savanes africaines et répandue de le Tchad jusqu' en Afrique de le Sud",
+        "Son",
+        "l' animal",
+        "les girafes",
+        "girafes",
+        "l' animal le plus grand en hauteur",
+        "une girafe",
+        "Sa",
+        "Ses",
+        "L' espèce",
+        "abreuve",
+        "va",
+        "guide",
+        "referme",
+        "tire",
+        "l' un de les rares animaux",
+        "dort",
+        "reposera"
+      ]
+    },
+    {
+      "id": 19,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Dieu",
+        "seigneur",
+        "le souverain",
+        "le grand secret de la nature",
+        "Konciosa",
+        "faisons",
+        "sa",
+        "l' esprit créateur",
+        "Jéhovah",
+        "le très-haut",
+        "un Dieu",
+        "un dieu de bonté et d' indulgence",
+        "ce Dieu",
+        "le ciel",
+        "l' éternel",
+        "son",
+        "celui qui fait rouler , sans les confondre , ces millions d' univers sur nos têtes",
+        "ses",
+        "le souverain de les cieux",
+        "celui qui lance la foudre entouré de bandelettes de lin",
+        "celui que l' univers ne peut contenir",
+        "le tout-puissant",
+        "un dieu irrité",
+        "la majesté divine",
+        "le seigneur",
+        "le grand être",
+        "celui qui a si bien pénétré dans le coeur humain",
+        "celui - là même qui en a pétri l' argile",
+        "Dieu le père",
+        "le dieu",
+        "un dieu prêt à pardonner",
+        "son créateur",
+        "cet esprit de lumière",
+        "l' amour divin",
+        "Le sauveur",
+        "le créateur",
+        "celui dont notre ame est émanée",
+        "son père"
+      ]
+    },
+    {
+      "id": 20,
+      "doc": "articleswiki_zebre",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Zèbre",
+        "Ces animaux",
+        "des zèbres",
+        "les zèbres",
+        "le zèbre",
+        "zèbres",
+        "les animaux",
+        "l' animal",
+        "ses",
+        "tous les zèbres",
+        "un zèbre",
+        "l' espèce",
+        "sa",
+        "les zèbres modernes"
+      ]
+    },
+    {
+      "id": 21,
+      "doc": "ungroupped-estrepublicain-2-049",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Monique Barbier",
+        "Figure bien connue de la rue Jean-Jaurès",
+        "son",
+        "ses",
+        "Monique",
+        "sa",
+        "laissait",
+        "visitant"
+      ]
+    },
+    {
+      "id": 22,
+      "doc": "ungroupped-estrepublicain-2-051",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Franck",
+        "le prévenu",
+        "son",
+        "le jeune homme",
+        "son client",
+        "ses",
+        "sa",
+        "mon",
+        "a ouverte",
+        "est revenu",
+        "prend"
+      ]
+    },
+    {
+      "id": 23,
+      "doc": "ungroupped-estrepublicain-1-011",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Thierry Pellard",
+        "Thierry",
+        "M. Pellard",
+        "son",
+        "ses",
+        "Ma",
+        "l' artiste",
+        "ce « sculpteur à temps partiel",
+        "pour qui",
+        "Sa"
+      ]
+    },
+    {
+      "id": 24,
+      "doc": "ungroupped-estrepublicain-1-032",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Barak",
+        "le candidat travailliste",
+        "M. Barak",
+        "sa",
+        "cet ancien chef d' état-major connu pour ses hauts faits d' armes et ses actions d' éclat",
+        "ses",
+        "Le leader travailliste",
+        "Ehud Barak",
+        "son"
+      ]
+    },
+    {
+      "id": 25,
+      "doc": "ungroupped-estrepublicain-2-033",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Gaëlle",
+        "Gaëlle Malingrey",
+        "Son",
+        "Ses",
+        "sa"
+      ]
+    },
+    {
+      "id": 26,
+      "doc": "ungroupped-estrepublicain-1-015",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "l' OTAN",
+        "ses",
+        "notre",
+        "l' Alliance",
+        "nos"
+      ]
+    },
+    {
+      "id": 27,
+      "doc": "ungroupped-estrepublicain-2-011",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "le futur retraité",
+        "un de ses plus fidèles employés",
+        "Michel Zajac",
+        "ses",
+        "sa",
+        "votre",
+        "son",
+        "Michel",
+        "le directeur",
+        "le jeune retraité",
+        "les siens"
+      ]
+    },
+    {
+      "id": 28,
+      "doc": "ungroupped-estrepublicain-1-020",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Farid Smahi",
+        "Celui qu' on a souvent qualifié d' « alibi » , de « faire valoir » ou de « prétexte",
+        "son",
+        "ce fils d' immigrés algériens",
+        "mes",
+        "mon",
+        "Ma"
+      ]
+    },
+    {
+      "id": 29,
+      "doc": "ungroupped-estrepublicain-2-061",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "le jeune homme",
+        "ses",
+        "bu",
+        "a allumé",
+        "son",
+        "était"
+      ]
+    },
+    {
+      "id": 30,
+      "doc": "ungroupped-estrepublicain-1-008",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Netanyahu",
+        "le candidat de le Likoud , Benjamin Netanyahu",
+        "Benjamin Netanyahu",
+        "ses",
+        "le chef de la droite nationaliste",
+        "sa",
+        "son",
+        "l' actuel chef de le gouvernement"
+      ]
+    },
+    {
+      "id": 31,
+      "doc": "ungroupped-estrepublicain-1-025",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "François Hollande",
+        "son",
+        "l' actuelle direction socialiste"
+      ]
+    },
+    {
+      "id": 32,
+      "doc": "ungroupped-estrepublicain-2-057",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "notre",
+        "Roxane Herbrecht et Nicolas Burcey"
+      ]
+    },
+    {
+      "id": 33,
+      "doc": "ungroupped-estrepublicain-1-031",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "le premier Mac Donald 's de le département",
+        "le fast food d' Andelnans",
+        "ce Mac Do",
+        "Ce restaurant",
+        "Ce fast food nouveau",
+        "le fast food",
+        "Le restaurant très attendu d' Andelnans",
+        "ses",
+        "Ce 748ème Mac Donald 's français",
+        "le restaurant flambant neuf de le rond-point",
+        "Ce Mac Do de le troisième millénaire"
+      ]
+    },
+    {
+      "id": 34,
+      "doc": "ungroupped-estrepublicain-1-019",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "le personnel",
+        "les agents de l' hôpital",
+        "notre",
+        "les agents de notre hôpital public"
+      ]
+    },
+    {
+      "id": 35,
+      "doc": "ungroupped-estrepublicain-1-000",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "élèves de l' éveil musical",
+        "les bambins de l' école municipale de musique agréée de Commercy et des ateliers décentralisés",
+        "les élèves de l' éveil musical"
+      ]
+    },
+    {
+      "id": 36,
+      "doc": "ungroupped-estrepublicain-1-014",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "le président russe",
+        "son",
+        "le président",
+        "Boris Eltsine",
+        "Eltsine",
+        "le président Eltsine",
+        "à qui"
+      ]
+    },
+    {
+      "id": 37,
+      "doc": "ungroupped-estrepublicain-1-030",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "le SLUC",
+        "le Cinq",
+        "les Nancéiens",
+        "son",
+        "Nancy",
+        "les Lorrains"
+      ]
+    },
+    {
+      "id": 38,
+      "doc": "ungroupped-estrepublicain-1-026",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Maéva , Léa , Pauline , Floriane , Eva , Elodie , Rémi",
+        "s' apprêtent",
+        "les écoliers",
+        "les enfants"
+      ]
+    },
+    {
+      "id": 39,
+      "doc": "ungroupped-estrepublicain-1-007",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Mario Dancelli",
+        "son",
+        "ce nouveau commerçant"
+      ]
+    },
+    {
+      "id": 40,
+      "doc": "ungroupped-estrepublicain-1-024",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "son",
+        "Pierrot",
+        "le seigneur « Walter",
+        "Pierre Walter",
+        "ses"
+      ]
+    },
+    {
+      "id": 41,
+      "doc": "ungroupped-estrepublicain-1-006",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "de colza",
+        "le colza",
+        "petites fleurs jaunes"
+      ]
+    },
+    {
+      "id": 42,
+      "doc": "ungroupped-estrepublicain-1-009",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "les pompiers",
+        "les sapeurs-pompiers",
+        "ces volontaires",
+        "les sapeurs-pompiers volontaires de le secteur"
+      ]
+    },
+    {
+      "id": 43,
+      "doc": "ungroupped-estrepublicain-1-013",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Mme Kavakci",
+        "la députée islamiste Merve Kavakci",
+        "l' élue d' Istanbul de le parti islamiste de la Vertu ( Fazilet"
+      ]
+    },
+    {
+      "id": 44,
+      "doc": "ungroupped-estrepublicain-2-046",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "les policiers",
+        "débattent"
+      ]
+    },
+    {
+      "id": 45,
+      "doc": "ungroupped-estrepublicain-1-016",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "la droite",
+        "ses",
+        "L' opposition",
+        "sa"
+      ]
+    },
+    {
+      "id": 46,
+      "doc": "ungroupped-estrepublicain-2-062",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "les locataires",
+        "les différents habitants de l' immeuble",
+        "les sinistrés"
+      ]
+    },
+    {
+      "id": 47,
+      "doc": "ungroupped-estrepublicain-1-010",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "l' équipe 2 féminine",
+        "ce groupe",
+        "Bayia , Rachida , Karen , Karine , Christèle , Virginie , Aline , Maud , Elise , Armelle",
+        "elles -mêmes"
+      ]
+    },
+    {
+      "id": 48,
+      "doc": "ungroupped-estrepublicain-1-021",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Daniel Boiteux",
+        "Celui -ci",
+        "ses",
+        "Le président"
+      ]
+    },
+    {
+      "id": 49,
+      "doc": "ungroupped-estrepublicain-1-018",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "ses",
+        "François Dosé"
+      ]
+    },
+    {
+      "id": 50,
+      "doc": "ungroupped-estrepublicain-2-053",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "le Ballon",
+        "Ballon d' Alsace"
+      ]
+    },
+    {
+      "id": 51,
+      "doc": "ungroupped-estrepublicain-2-064",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Le suicidaire",
+        "L' occupant de l' appartement de le rez-de-chaussée",
+        "ses",
+        "a été",
+        "ce jeune homme âgé de 30 ans"
+      ]
+    },
+    {
+      "id": 52,
+      "doc": "ungroupped-estrepublicain-2-029",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "les petits Barisiens",
+        "nos"
+      ]
+    },
+    {
+      "id": 53,
+      "doc": "ungroupped-estrepublicain-2-021",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Une crèche intercommunale",
+        "La crèche",
+        "ses",
+        "une crèche vivante",
+        "Cette crèche"
+      ]
+    },
+    {
+      "id": 54,
+      "doc": "ungroupped-estrepublicain-2-006",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Marie et Alex",
+        "Les époux Kombou",
+        "Marie Nkoum Yen et Alex Junior Kombou",
+        "ce jeune couple",
+        "les jeunes mariés"
+      ]
+    },
+    {
+      "id": 55,
+      "doc": "ungroupped-estrepublicain-1-023",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "une goutte d' eau",
+        "une goutte d' eau , nommée Perline",
+        "Perline",
+        "son",
+        "un personnage attachant"
+      ]
+    },
+    {
+      "id": 56,
+      "doc": "ungroupped-estrepublicain-2-023",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "les personnes",
+        "les aînés"
+      ]
+    },
+    {
+      "id": 57,
+      "doc": "ungroupped-estrepublicain-2-060",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Polochon",
+        "Sa",
+        "le chat à le pelage de couleur noire et pourvu d' un collier avec une petite plaque"
+      ]
+    },
+    {
+      "id": 58,
+      "doc": "ungroupped-estrepublicain-1-001",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "les bénévoles de le Lions-Club",
+        "les membres de le Lions-Club",
+        "les bénévoles",
+        "les ramasseurs"
+      ]
+    },
+    {
+      "id": 59,
+      "doc": "ungroupped-estrepublicain-1-022",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "formation",
+        "le stage",
+        "une formation",
+        "la formation CFA / PSE ( Certificat de formation à les activités de premiers secours en équipe",
+        "La formation"
+      ]
+    },
+    {
+      "id": 60,
+      "doc": "ungroupped-estrepublicain-2-054",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Le jeune homme à l' origine de l' explosion",
+        "son",
+        "le jeune homme"
+      ]
+    },
+    {
+      "id": 61,
+      "doc": "ungroupped-estrepublicain-2-015",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "nos lecteurs"
+      ]
+    },
+    {
+      "id": 62,
+      "doc": "ungroupped-estrepublicain-2-068",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "le conseil municipal",
+        "Le conseil"
+      ]
+    },
+    {
+      "id": 63,
+      "doc": "ungroupped-estrepublicain-2-032",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "le club de les personnes âgées de Chalaines",
+        "son",
+        "le club",
+        "ses"
+      ]
+    },
+    {
+      "id": 64,
+      "doc": "ungroupped-estrepublicain-2-009",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "celle de la saint Sylvestre",
+        "Nuit"
+      ]
+    },
+    {
+      "id": 65,
+      "doc": "ungroupped-estrepublicain-2-025",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Germain Yung",
+        "ses"
+      ]
+    },
+    {
+      "id": 66,
+      "doc": "ungroupped-estrepublicain-2-040",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "le centre de secours de Saint-Mihiel",
+        "le centre de secours"
+      ]
+    },
+    {
+      "id": 67,
+      "doc": "ungroupped-estrepublicain-2-063",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "deux jeunes de le deuxième étage"
+      ]
+    },
+    {
+      "id": 68,
+      "doc": "ungroupped-estrepublicain-2-017",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "les « plus de 65 ans » de le village",
+        "les aînés de la commune",
+        "ceux -ci"
+      ]
+    },
+    {
+      "id": 69,
+      "doc": "ungroupped-estrepublicain-2-022",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Le Père Noël et sa dame",
+        "Le Père et la Mère Noël ancervillois",
+        "Patrick et Marie-Odile"
+      ]
+    },
+    {
+      "id": 70,
+      "doc": "ungroupped-estrepublicain-2-016",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Phil le Roy",
+        "ses"
+      ]
+    },
+    {
+      "id": 71,
+      "doc": "ungroupped-estrepublicain-2-027",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Guerreiro",
+        "Champion de district à la libre de départementale 1 en 2001",
+        "sa"
+      ]
+    },
+    {
+      "id": 72,
+      "doc": "ungroupped-estrepublicain-1-029",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "les mycologues baumois",
+        "Les mycologues présents sur l' exposition"
+      ]
+    },
+    {
+      "id": 73,
+      "doc": "ungroupped-estrepublicain-2-031",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "l' un d' eux"
+      ]
+    },
+    {
+      "id": 74,
+      "doc": "ungroupped-estrepublicain-1-002",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Auxelles-Haut"
+      ]
+    },
+    {
+      "id": 75,
+      "doc": "ungroupped-estrepublicain-2-050",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "un locataire",
+        "Le jeune homme"
+      ]
+    },
+    {
+      "id": 76,
+      "doc": "ungroupped-estrepublicain-2-014",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "nos",
+        "l' Est Républicain"
+      ]
+    },
+    {
+      "id": 77,
+      "doc": "ungroupped-estrepublicain-2-039",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Le club « Les Chardons bleus",
+        "ses",
+        "le club de les « Chardons bleus"
+      ]
+    },
+    {
+      "id": 78,
+      "doc": "ungroupped-estrepublicain-2-008",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "la ville",
+        "en ville"
+      ]
+    },
+    {
+      "id": 79,
+      "doc": "ungroupped-estrepublicain-1-003",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Déchetterie mobile",
+        "la déchetterie mobile",
+        "la déchetterie"
+      ]
+    },
+    {
+      "id": 80,
+      "doc": "ungroupped-estrepublicain-2-065",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Circulation",
+        "La circulation de tout véhicule"
+      ]
+    },
+    {
+      "id": 81,
+      "doc": "ungroupped-estrepublicain-2-041",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "L' association de les amis de l' église Saint-Michel",
+        "son",
+        "l' association"
+      ]
+    },
+    {
+      "id": 82,
+      "doc": "ungroupped-estrepublicain-2-045",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "nos édiles"
+      ]
+    },
+    {
+      "id": 83,
+      "doc": "ungroupped-estrepublicain-2-019",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "plus de quarante licenciées"
+      ]
+    },
+    {
+      "id": 84,
+      "doc": "ungroupped-estrepublicain-2-010",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "2003"
+      ]
+    },
+    {
+      "id": 85,
+      "doc": "ungroupped-estrepublicain-2-066",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "La Caisse d' Allocations familiales de le Territoire de Belfort",
+        "ses"
+      ]
+    },
+    {
+      "id": 86,
+      "doc": "ungroupped-estrepublicain-1-027",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Opération gendarmerie-police",
+        "l' opération"
+      ]
+    },
+    {
+      "id": 87,
+      "doc": "ungroupped-estrepublicain-2-024",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "le Père Noël"
+      ]
+    },
+    {
+      "id": 88,
+      "doc": "ungroupped-estrepublicain-2-018",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Don de le sang",
+        "don de sang"
+      ]
+    },
+    {
+      "id": 89,
+      "doc": "ungroupped-estrepublicain-2-012",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Circulation interdite",
+        "la circulation de les véhicules"
+      ]
+    },
+    {
+      "id": 90,
+      "doc": "ungroupped-estrepublicain-2-067",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Un cambrioleur"
+      ]
+    },
+    {
+      "id": 91,
+      "doc": "ungroupped-estrepublicain-2-004",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Giffaumont-Champaubert"
+      ]
+    },
+    {
+      "id": 92,
+      "doc": "ungroupped-estrepublicain-2-013",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Le Bar natation-triathlon-club",
+        "ses"
+      ]
+    },
+    {
+      "id": 93,
+      "doc": "ungroupped-estrepublicain-2-043",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Soirée bavaroise",
+        "une soirée bavaroise"
+      ]
+    },
+    {
+      "id": 94,
+      "doc": "ungroupped-estrepublicain-2-034",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Office dominical"
+      ]
+    },
+    {
+      "id": 95,
+      "doc": "ungroupped-estrepublicain-2-038",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Animation commerciale"
+      ]
+    },
+    {
+      "id": 96,
+      "doc": "ungroupped-estrepublicain-2-005",
+      "variables": {
+        "text": "See most_french_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Vitry-le-François"
+      ]
+    }
+  ]
+}
