@@ -1,6 +1,6 @@
 {
   "task": "entity_most",
-  "lang": "eng",
+  "lang": "english",
   "example_prompt": "Which entity is mentioned the most times in the text?",
   "instances": [
     {
@@ -31,7 +31,6 @@
       "answer_type": "list",
       "answer": [
         "Galois '",
-        "Galois",
         "the author",
         "Galois himself",
         "the victim of an infamous coquette and her two dupes",
@@ -91,11 +90,9 @@
         "The protégé of Pope Damasus I , who died in December of 384",
         "a saint",
         "Doctor of the Church",
-        "Eusebius Sophronius Hieronymus",
         "a schoolboy",
         "a student in Rome",
         "St. Jerome",
-        "St Jerome",
         "he himself"
       ]
     },
@@ -233,8 +230,7 @@
         "the pilot",
         "Jacques Chalmers",
         "one of the most panicked",
-        "Chalmers",
-        "Chalmers '"
+        "Chalmers"
       ]
     },
     {
@@ -286,7 +282,6 @@
         "the spiritual successor to Pachomius",
         "St. Theodorus of Tabennese",
         "Theodorus",
-        "Theodorus ’",
         "the \" brothers ’ comforter \"",
         "a prominent figure at Tabennese",
         "steward of Tabennese",
@@ -1169,12 +1164,10 @@
         "the anemones",
         "These animals",
         "the animals themselves",
-        "the animal 's",
         "a new species",
         "anemones",
         "Edwardsiella andrillae",
-        "E. andrillae",
-        "the anemone 's"
+        "E. andrillae"
       ]
     },
     {
@@ -1563,18 +1556,29 @@
     },
     {
       "id": 95,
+      "doc": "GUM_whow_basil",
+      "variables": {
+        "text": "See most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "you",
+        "your"
+      ]
+    },
+    {
+      "id": 96,
       "doc": "GUM_conversation_christmas",
       "variables": {
         "text": "See most_english_document.json"
       },
       "answer_type": "list",
       "answer": [
-        "it .",
         "this sweater"
       ]
     },
     {
-      "id": 96,
+      "id": 97,
       "doc": "GUM_conversation_gossip",
       "variables": {
         "text": "See most_english_document.json"
@@ -1588,7 +1592,7 @@
       ]
     },
     {
-      "id": 97,
+      "id": 98,
       "doc": "GUM_essay_food",
       "variables": {
         "text": "See most_english_document.json"
@@ -1603,7 +1607,7 @@
       ]
     },
     {
-      "id": 98,
+      "id": 99,
       "doc": "GUM_textbook_anthropology",
       "variables": {
         "text": "See most_english_document.json"
@@ -1615,7 +1619,7 @@
       ]
     },
     {
-      "id": 99,
+      "id": 100,
       "doc": "GUM_textbook_history",
       "variables": {
         "text": "See most_english_document.json"
@@ -1628,7 +1632,7 @@
       ]
     },
     {
-      "id": 100,
+      "id": 101,
       "doc": "GUM_academic_exposure",
       "variables": {
         "text": "See most_english_document.json"
@@ -1643,7 +1647,7 @@
       ]
     },
     {
-      "id": 101,
+      "id": 102,
       "doc": "GUM_vlog_radiology",
       "variables": {
         "text": "See most_english_document.json"
@@ -1659,7 +1663,7 @@
       ]
     },
     {
-      "id": 102,
+      "id": 103,
       "doc": "GUM_academic_huh",
       "variables": {
         "text": "See most_english_document.json"
@@ -1672,7 +1676,24 @@
       ]
     },
     {
-      "id": 103,
+      "id": 104,
+      "doc": "GUM_academic_huh",
+      "variables": {
+        "text": "See most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "a word like ‘ Huh ? ’ – used as a ‘ repair initiator ’ when , for example , one has not clearly heard what someone just said [ 5 ] , [ 6 ]",
+        "Huh",
+        "a universal word",
+        "a word",
+        "this item",
+        "a non-prototypical word",
+        "the interjection huh ?"
+      ]
+    },
+    {
+      "id": 105,
       "doc": "GUM_letter_conference",
       "variables": {
         "text": "See most_english_document.json"
@@ -1683,7 +1704,7 @@
       ]
     },
     {
-      "id": 104,
+      "id": 106,
       "doc": "GUM_voyage_cuba",
       "variables": {
         "text": "See most_english_document.json"
@@ -1695,7 +1716,7 @@
       ]
     },
     {
-      "id": 105,
+      "id": 107,
       "doc": "GUM_academic_librarians",
       "variables": {
         "text": "See most_english_document.json"
@@ -1710,7 +1731,7 @@
       ]
     },
     {
-      "id": 106,
+      "id": 108,
       "doc": "GUM_academic_games",
       "variables": {
         "text": "See most_english_document.json"
@@ -1725,7 +1746,7 @@
       ]
     },
     {
-      "id": 107,
+      "id": 109,
       "doc": "GUM_conversation_erasmus",
       "variables": {
         "text": "See most_english_document.json"
@@ -1737,7 +1758,7 @@
       ]
     },
     {
-      "id": 108,
+      "id": 110,
       "doc": "GUM_conversation_scientist",
       "variables": {
         "text": "See most_english_document.json"
@@ -1750,7 +1771,7 @@
       ]
     },
     {
-      "id": 109,
+      "id": 111,
       "doc": "GUM_interview_cocktail",
       "variables": {
         "text": "See most_english_document.json"
@@ -1765,7 +1786,7 @@
       ]
     },
     {
-      "id": 110,
+      "id": 112,
       "doc": "GUM_podcast_llms",
       "variables": {
         "text": "See most_english_document.json"
@@ -1784,7 +1805,7 @@
       ]
     },
     {
-      "id": 111,
+      "id": 113,
       "doc": "GUM_textbook_sociology",
       "variables": {
         "text": "See most_english_document.json"
@@ -1797,7 +1818,7 @@
       ]
     },
     {
-      "id": 112,
+      "id": 114,
       "doc": "GUM_conversation_grounded",
       "variables": {
         "text": "See most_english_document.json"
@@ -1810,7 +1831,7 @@
       ]
     },
     {
-      "id": 113,
+      "id": 115,
       "doc": "GUM_academic_mutation",
       "variables": {
         "text": "See most_english_document.json"
@@ -1821,7 +1842,18 @@
       ]
     },
     {
-      "id": 114,
+      "id": 116,
+      "doc": "GUM_academic_mutation",
+      "variables": {
+        "text": "See most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Suilen H. Alvarado"
+      ]
+    },
+    {
+      "id": 117,
       "doc": "GUM_conversation_family",
       "variables": {
         "text": "See most_english_document.json"
@@ -1832,7 +1864,7 @@
       ]
     },
     {
-      "id": 115,
+      "id": 118,
       "doc": "GUM_conversation_vet",
       "variables": {
         "text": "See most_english_document.json"
@@ -1845,7 +1877,7 @@
       ]
     },
     {
-      "id": 116,
+      "id": 119,
       "doc": "GUM_court_property",
       "variables": {
         "text": "See most_english_document.json"
@@ -1853,12 +1885,11 @@
       "answer_type": "list",
       "answer": [
         "plaintiffs '",
-        "plaintiffs",
         "the plaintiffs"
       ]
     },
     {
-      "id": 117,
+      "id": 120,
       "doc": "GUM_interview_brotherhood",
       "variables": {
         "text": "See most_english_document.json"
@@ -1870,7 +1901,7 @@
       ]
     },
     {
-      "id": 118,
+      "id": 121,
       "doc": "GUM_speech_maiden",
       "variables": {
         "text": "See most_english_document.json"
@@ -1884,7 +1915,7 @@
       ]
     },
     {
-      "id": 119,
+      "id": 122,
       "doc": "GUM_voyage_guadeloupe",
       "variables": {
         "text": "See most_english_document.json"
@@ -1902,7 +1933,7 @@
       ]
     },
     {
-      "id": 120,
+      "id": 123,
       "doc": "GUM_whow_cupcakes",
       "variables": {
         "text": "See most_english_document.json"
@@ -1914,7 +1945,7 @@
       ]
     },
     {
-      "id": 121,
+      "id": 124,
       "doc": "GUM_academic_salinity",
       "variables": {
         "text": "See most_english_document.json"
@@ -1926,7 +1957,18 @@
       ]
     },
     {
-      "id": 122,
+      "id": 125,
+      "doc": "GUM_academic_salinity",
+      "variables": {
+        "text": "See most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sea"
+      ]
+    },
+    {
+      "id": 126,
       "doc": "GUM_academic_thrones",
       "variables": {
         "text": "See most_english_document.json"
@@ -1944,7 +1986,7 @@
       ]
     },
     {
-      "id": 123,
+      "id": 127,
       "doc": "GUM_fiction_giants",
       "variables": {
         "text": "See most_english_document.json"
@@ -1957,7 +1999,18 @@
       ]
     },
     {
-      "id": 124,
+      "id": 128,
+      "doc": "GUM_fiction_giants",
+      "variables": {
+        "text": "See most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "The traveler"
+      ]
+    },
+    {
+      "id": 129,
       "doc": "GUM_interview_messina",
       "variables": {
         "text": "See most_english_document.json"
@@ -1970,7 +2023,7 @@
       ]
     },
     {
-      "id": 125,
+      "id": 130,
       "doc": "GUM_podcast_addiction",
       "variables": {
         "text": "See most_english_document.json"
@@ -1985,7 +2038,7 @@
       ]
     },
     {
-      "id": 126,
+      "id": 131,
       "doc": "GUM_podcast_brave",
       "variables": {
         "text": "See most_english_document.json"
@@ -1999,7 +2052,7 @@
       ]
     },
     {
-      "id": 127,
+      "id": 132,
       "doc": "GUM_voyage_merida",
       "variables": {
         "text": "See most_english_document.json"
@@ -2016,7 +2069,7 @@
       ]
     },
     {
-      "id": 128,
+      "id": 133,
       "doc": "GUM_whow_quidditch",
       "variables": {
         "text": "See most_english_document.json"
@@ -2028,7 +2081,7 @@
       ]
     },
     {
-      "id": 129,
+      "id": 134,
       "doc": "GUM_podcast_wrestling",
       "variables": {
         "text": "See most_english_document.json"
@@ -2041,7 +2094,7 @@
       ]
     },
     {
-      "id": 130,
+      "id": 135,
       "doc": "GUM_conversation_blacksmithing",
       "variables": {
         "text": "See most_english_document.json"
@@ -2055,7 +2108,7 @@
       ]
     },
     {
-      "id": 131,
+      "id": 136,
       "doc": "GUM_court_equality",
       "variables": {
         "text": "See most_english_document.json"
@@ -2066,7 +2119,7 @@
       ]
     },
     {
-      "id": 132,
+      "id": 137,
       "doc": "GUM_fiction_garden",
       "variables": {
         "text": "See most_english_document.json"
@@ -2077,7 +2130,7 @@
       ]
     },
     {
-      "id": 133,
+      "id": 138,
       "doc": "GUM_fiction_moon",
       "variables": {
         "text": "See most_english_document.json"
@@ -2093,7 +2146,7 @@
       ]
     },
     {
-      "id": 134,
+      "id": 139,
       "doc": "GUM_fiction_wedding",
       "variables": {
         "text": "See most_english_document.json"
@@ -2109,7 +2162,7 @@
       ]
     },
     {
-      "id": 135,
+      "id": 140,
       "doc": "GUM_news_warming",
       "variables": {
         "text": "See most_english_document.json"
@@ -2123,7 +2176,7 @@
       ]
     },
     {
-      "id": 136,
+      "id": 141,
       "doc": "GUM_textbook_entrepreneurship",
       "variables": {
         "text": "See most_english_document.json"
@@ -2136,7 +2189,7 @@
       ]
     },
     {
-      "id": 137,
+      "id": 142,
       "doc": "GUM_academic_art",
       "variables": {
         "text": "See most_english_document.json"
@@ -2154,7 +2207,7 @@
       ]
     },
     {
-      "id": 138,
+      "id": 143,
       "doc": "GUM_academic_epistemic",
       "variables": {
         "text": "See most_english_document.json"
@@ -2167,7 +2220,7 @@
       ]
     },
     {
-      "id": 139,
+      "id": 144,
       "doc": "GUM_essay_dividends",
       "variables": {
         "text": "See most_english_document.json"
@@ -2181,7 +2234,7 @@
       ]
     },
     {
-      "id": 140,
+      "id": 145,
       "doc": "GUM_fiction_time",
       "variables": {
         "text": "See most_english_document.json"
@@ -2195,7 +2248,7 @@
       ]
     },
     {
-      "id": 141,
+      "id": 146,
       "doc": "GUM_fiction_veronique",
       "variables": {
         "text": "See most_english_document.json"
@@ -2208,7 +2261,7 @@
       ]
     },
     {
-      "id": 142,
+      "id": 147,
       "doc": "GUM_interview_peres",
       "variables": {
         "text": "See most_english_document.json"
@@ -2219,7 +2272,7 @@
       ]
     },
     {
-      "id": 143,
+      "id": 148,
       "doc": "GUM_news_lanterns",
       "variables": {
         "text": "See most_english_document.json"
@@ -2236,7 +2289,7 @@
       ]
     },
     {
-      "id": 144,
+      "id": 149,
       "doc": "GUM_news_questionnaire",
       "variables": {
         "text": "See most_english_document.json"
@@ -2254,7 +2307,7 @@
       ]
     },
     {
-      "id": 145,
+      "id": 150,
       "doc": "GUM_news_soccer",
       "variables": {
         "text": "See most_english_document.json"
@@ -2266,7 +2319,19 @@
       ]
     },
     {
-      "id": 146,
+      "id": 151,
+      "doc": "GUM_news_soccer",
+      "variables": {
+        "text": "See most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "England",
+        "a highly - skilled and highly co-ordinated team"
+      ]
+    },
+    {
+      "id": 152,
       "doc": "GUM_textbook_artwork",
       "variables": {
         "text": "See most_english_document.json"
@@ -2278,7 +2343,7 @@
       ]
     },
     {
-      "id": 147,
+      "id": 153,
       "doc": "GUM_vlog_lipstick",
       "variables": {
         "text": "See most_english_document.json"
@@ -2292,7 +2357,7 @@
       ]
     },
     {
-      "id": 148,
+      "id": 154,
       "doc": "GUM_court_negligence",
       "variables": {
         "text": "See most_english_document.json"
@@ -2303,7 +2368,7 @@
       ]
     },
     {
-      "id": 149,
+      "id": 155,
       "doc": "GUM_speech_impeachment",
       "variables": {
         "text": "See most_english_document.json"
@@ -2320,7 +2385,7 @@
       ]
     },
     {
-      "id": 150,
+      "id": 156,
       "doc": "GUM_vlog_portland",
       "variables": {
         "text": "See most_english_document.json"
@@ -2334,7 +2399,7 @@
       ]
     },
     {
-      "id": 151,
+      "id": 157,
       "doc": "GUM_academic_lighting",
       "variables": {
         "text": "See most_english_document.json"
@@ -2346,7 +2411,7 @@
       ]
     },
     {
-      "id": 152,
+      "id": 158,
       "doc": "GUM_interview_ants",
       "variables": {
         "text": "See most_english_document.json"
@@ -2361,7 +2426,7 @@
       ]
     },
     {
-      "id": 153,
+      "id": 159,
       "doc": "GUM_interview_licen",
       "variables": {
         "text": "See most_english_document.json"
@@ -2377,7 +2442,7 @@
       ]
     },
     {
-      "id": 154,
+      "id": 160,
       "doc": "GUM_interview_mcguire",
       "variables": {
         "text": "See most_english_document.json"
@@ -2389,7 +2454,7 @@
       ]
     },
     {
-      "id": 155,
+      "id": 161,
       "doc": "GUM_news_expo",
       "variables": {
         "text": "See most_english_document.json"
@@ -2400,7 +2465,7 @@
       ]
     },
     {
-      "id": 156,
+      "id": 162,
       "doc": "GUM_news_flag",
       "variables": {
         "text": "See most_english_document.json"
@@ -2413,7 +2478,7 @@
       ]
     },
     {
-      "id": 157,
+      "id": 163,
       "doc": "GUM_vlog_hiking",
       "variables": {
         "text": "See most_english_document.json"
@@ -2431,7 +2496,7 @@
       ]
     },
     {
-      "id": 158,
+      "id": 164,
       "doc": "GUM_vlog_wine",
       "variables": {
         "text": "See most_english_document.json"
@@ -2445,7 +2510,7 @@
       ]
     },
     {
-      "id": 159,
+      "id": 165,
       "doc": "GUM_essay_tools",
       "variables": {
         "text": "See most_english_document.json"
@@ -2458,7 +2523,7 @@
       ]
     },
     {
-      "id": 160,
+      "id": 166,
       "doc": "GUM_podcast_bangladesh",
       "variables": {
         "text": "See most_english_document.json"
@@ -2470,7 +2535,7 @@
       ]
     },
     {
-      "id": 161,
+      "id": 167,
       "doc": "GUM_academic_economics",
       "variables": {
         "text": "See most_english_document.json"
@@ -2484,7 +2549,7 @@
       ]
     },
     {
-      "id": 162,
+      "id": 168,
       "doc": "GUM_interview_dungeon",
       "variables": {
         "text": "See most_english_document.json"
@@ -2498,7 +2563,7 @@
       ]
     },
     {
-      "id": 163,
+      "id": 169,
       "doc": "GUM_news_korea",
       "variables": {
         "text": "See most_english_document.json"
@@ -2514,7 +2579,22 @@
       ]
     },
     {
-      "id": 164,
+      "id": 170,
+      "doc": "GUM_news_korea",
+      "variables": {
+        "text": "See most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "military",
+        "the country 's military",
+        "KPA",
+        "the KPA",
+        "the Korean People 's Army"
+      ]
+    },
+    {
+      "id": 171,
       "doc": "GUM_speech_destiny",
       "variables": {
         "text": "See most_english_document.json"
@@ -2525,7 +2605,7 @@
       ]
     },
     {
-      "id": 165,
+      "id": 172,
       "doc": "GUM_speech_trump",
       "variables": {
         "text": "See most_english_document.json"
@@ -2537,7 +2617,19 @@
       ]
     },
     {
-      "id": 166,
+      "id": 173,
+      "doc": "GUM_speech_trump",
+      "variables": {
+        "text": "See most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "They",
+        "their"
+      ]
+    },
+    {
+      "id": 174,
       "doc": "GUM_textbook_governments",
       "variables": {
         "text": "See most_english_document.json"
@@ -2548,7 +2640,7 @@
       ]
     },
     {
-      "id": 167,
+      "id": 175,
       "doc": "GUM_conversation_atoms",
       "variables": {
         "text": "See most_english_document.json"
@@ -2562,7 +2654,22 @@
       ]
     },
     {
-      "id": 168,
+      "id": 176,
+      "doc": "GUM_conversation_atoms",
+      "variables": {
+        "text": "See most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Eight",
+        "Ocho",
+        "huit",
+        "eight balloons",
+        "em"
+      ]
+    },
+    {
+      "id": 177,
       "doc": "GUM_court_carpet",
       "variables": {
         "text": "See most_english_document.json"
@@ -2575,7 +2682,7 @@
       ]
     },
     {
-      "id": 169,
+      "id": 178,
       "doc": "GUM_fiction_frankenstein",
       "variables": {
         "text": "See most_english_document.json"
@@ -2586,7 +2693,7 @@
       ]
     },
     {
-      "id": 170,
+      "id": 179,
       "doc": "GUM_fiction_sneeze",
       "variables": {
         "text": "See most_english_document.json"
@@ -2599,7 +2706,7 @@
       ]
     },
     {
-      "id": 171,
+      "id": 180,
       "doc": "GUM_interview_onion",
       "variables": {
         "text": "See most_english_document.json"
@@ -2612,7 +2719,7 @@
       ]
     },
     {
-      "id": 172,
+      "id": 181,
       "doc": "GUM_news_election",
       "variables": {
         "text": "See most_english_document.json"
@@ -2626,7 +2733,20 @@
       ]
     },
     {
-      "id": 173,
+      "id": 182,
+      "doc": "GUM_news_election",
+      "variables": {
+        "text": "See most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "DAB 's",
+        "DAB",
+        "Pro-Beijing DAB 's"
+      ]
+    },
+    {
+      "id": 183,
       "doc": "GUM_speech_albania",
       "variables": {
         "text": "See most_english_document.json"
@@ -2640,7 +2760,7 @@
       ]
     },
     {
-      "id": 174,
+      "id": 184,
       "doc": "GUM_speech_data",
       "variables": {
         "text": "See most_english_document.json"
@@ -2652,7 +2772,7 @@
       ]
     },
     {
-      "id": 175,
+      "id": 185,
       "doc": "GUM_speech_telescope",
       "variables": {
         "text": "See most_english_document.json"
@@ -2663,7 +2783,7 @@
       ]
     },
     {
-      "id": 176,
+      "id": 186,
       "doc": "GUM_vlog_college",
       "variables": {
         "text": "See most_english_document.json"
@@ -2678,19 +2798,18 @@
       ]
     },
     {
-      "id": 177,
+      "id": 187,
       "doc": "GUM_court_loan",
       "variables": {
         "text": "See most_english_document.json"
       },
       "answer_type": "list",
       "answer": [
-        "The states",
-        "the states '"
+        "The states"
       ]
     },
     {
-      "id": 178,
+      "id": 188,
       "doc": "GUM_academic_census",
       "variables": {
         "text": "See most_english_document.json"
@@ -2704,7 +2823,7 @@
       ]
     },
     {
-      "id": 179,
+      "id": 189,
       "doc": "GUM_fiction_pag",
       "variables": {
         "text": "See most_english_document.json"
@@ -2718,7 +2837,7 @@
       ]
     },
     {
-      "id": 180,
+      "id": 190,
       "doc": "GUM_interview_herrick",
       "variables": {
         "text": "See most_english_document.json"
@@ -2730,7 +2849,7 @@
       ]
     },
     {
-      "id": 181,
+      "id": 191,
       "doc": "GUM_news_crane",
       "variables": {
         "text": "See most_english_document.json"
@@ -2743,7 +2862,7 @@
       ]
     },
     {
-      "id": 182,
+      "id": 192,
       "doc": "GUM_news_stampede",
       "variables": {
         "text": "See most_english_document.json"
@@ -2758,7 +2877,7 @@
       ]
     },
     {
-      "id": 183,
+      "id": 193,
       "doc": "GUM_podcast_collaboration",
       "variables": {
         "text": "See most_english_document.json"
@@ -2770,7 +2889,7 @@
       ]
     },
     {
-      "id": 184,
+      "id": 194,
       "doc": "GUM_fiction_lunre",
       "variables": {
         "text": "See most_english_document.json"
@@ -2782,7 +2901,7 @@
       ]
     },
     {
-      "id": 185,
+      "id": 195,
       "doc": "GUM_interview_gaming",
       "variables": {
         "text": "See most_english_document.json"
@@ -2796,7 +2915,7 @@
       ]
     },
     {
-      "id": 186,
+      "id": 196,
       "doc": "GUM_academic_implicature",
       "variables": {
         "text": "See most_english_document.json"
@@ -2808,7 +2927,19 @@
       ]
     },
     {
-      "id": 187,
+      "id": 197,
+      "doc": "GUM_academic_implicature",
+      "variables": {
+        "text": "See most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "two children",
+        "these two children"
+      ]
+    },
+    {
+      "id": 198,
       "doc": "GUM_news_taxes",
       "variables": {
         "text": "See most_english_document.json"
@@ -2819,7 +2950,7 @@
       ]
     },
     {
-      "id": 188,
+      "id": 199,
       "doc": "GUM_vlog_exams",
       "variables": {
         "text": "See most_english_document.json"
@@ -2831,7 +2962,7 @@
       ]
     },
     {
-      "id": 189,
+      "id": 200,
       "doc": "GUM_vlog_mermaid",
       "variables": {
         "text": "See most_english_document.json"
@@ -2843,7 +2974,7 @@
       ]
     },
     {
-      "id": 190,
+      "id": 201,
       "doc": "GUM_vlog_pizzeria",
       "variables": {
         "text": "See most_english_document.json"
@@ -2856,7 +2987,7 @@
       ]
     },
     {
-      "id": 191,
+      "id": 202,
       "doc": "GUM_conversation_risk",
       "variables": {
         "text": "See most_english_document.json"
@@ -2868,7 +2999,7 @@
       ]
     },
     {
-      "id": 192,
+      "id": 203,
       "doc": "GUM_fiction_oversite",
       "variables": {
         "text": "See most_english_document.json"
@@ -2882,7 +3013,7 @@
       ]
     },
     {
-      "id": 193,
+      "id": 204,
       "doc": "GUM_fiction_rose",
       "variables": {
         "text": "See most_english_document.json"
@@ -2896,7 +3027,7 @@
       ]
     },
     {
-      "id": 194,
+      "id": 205,
       "doc": "GUM_interview_mckenzie",
       "variables": {
         "text": "See most_english_document.json"
@@ -2908,7 +3039,7 @@
       ]
     },
     {
-      "id": 195,
+      "id": 206,
       "doc": "GUM_speech_humanitarian",
       "variables": {
         "text": "See most_english_document.json"
@@ -2920,7 +3051,18 @@
       ]
     },
     {
-      "id": 196,
+      "id": 207,
+      "doc": "GUM_speech_humanitarian",
+      "variables": {
+        "text": "See most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "A great many people"
+      ]
+    },
+    {
+      "id": 208,
       "doc": "GUM_speech_nixon",
       "variables": {
         "text": "See most_english_document.json"
@@ -2934,7 +3076,19 @@
       ]
     },
     {
-      "id": 197,
+      "id": 209,
+      "doc": "GUM_speech_nixon",
+      "variables": {
+        "text": "See most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "the Congress",
+        "a full - time Congress"
+      ]
+    },
+    {
+      "id": 210,
       "doc": "GUM_textbook_labor",
       "variables": {
         "text": "See most_english_document.json"
@@ -2945,7 +3099,7 @@
       ]
     },
     {
-      "id": 198,
+      "id": 211,
       "doc": "GUM_vlog_covid",
       "variables": {
         "text": "See most_english_document.json"
@@ -2957,7 +3111,7 @@
       ]
     },
     {
-      "id": 199,
+      "id": 212,
       "doc": "GUM_fiction_beast",
       "variables": {
         "text": "See most_english_document.json"
@@ -2969,7 +3123,31 @@
       ]
     },
     {
-      "id": 200,
+      "id": 213,
+      "doc": "GUM_fiction_beast",
+      "variables": {
+        "text": "See most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "it was drizzling",
+        "the rain",
+        "soft rain"
+      ]
+    },
+    {
+      "id": 214,
+      "doc": "GUM_fiction_beast",
+      "variables": {
+        "text": "See most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "the bleachers"
+      ]
+    },
+    {
+      "id": 215,
       "doc": "GUM_fiction_claus",
       "variables": {
         "text": "See most_english_document.json"
@@ -2982,7 +3160,67 @@
       ]
     },
     {
-      "id": 201,
+      "id": 216,
+      "doc": "GUM_fiction_claus",
+      "variables": {
+        "text": "See most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "the wireless headset that dangled from her neck",
+        "Betty ’s headset",
+        "her headset ’s",
+        "headset"
+      ]
+    },
+    {
+      "id": 217,
+      "doc": "GUM_fiction_claus",
+      "variables": {
+        "text": "See most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Christmas"
+      ]
+    },
+    {
+      "id": 218,
+      "doc": "GUM_fiction_claus",
+      "variables": {
+        "text": "See most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Gomez"
+      ]
+    },
+    {
+      "id": 219,
+      "doc": "GUM_fiction_claus",
+      "variables": {
+        "text": "See most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Her boys"
+      ]
+    },
+    {
+      "id": 220,
+      "doc": "GUM_fiction_claus",
+      "variables": {
+        "text": "See most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Santa ’s cell",
+        "the cell phone",
+        "the phone"
+      ]
+    },
+    {
+      "id": 221,
       "doc": "GUM_fiction_pixies",
       "variables": {
         "text": "See most_english_document.json"
@@ -2995,7 +3233,31 @@
       ]
     },
     {
-      "id": 202,
+      "id": 222,
+      "doc": "GUM_fiction_pixies",
+      "variables": {
+        "text": "See most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Damned pixies",
+        "these things",
+        "kids"
+      ]
+    },
+    {
+      "id": 223,
+      "doc": "GUM_fiction_pixies",
+      "variables": {
+        "text": "See most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "the pixies ’"
+      ]
+    },
+    {
+      "id": 224,
       "doc": "GUM_news_asylum",
       "variables": {
         "text": "See most_english_document.json"
@@ -3008,7 +3270,18 @@
       ]
     },
     {
-      "id": 203,
+      "id": 225,
+      "doc": "GUM_news_asylum",
+      "variables": {
+        "text": "See most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Indonesia"
+      ]
+    },
+    {
+      "id": 226,
       "doc": "GUM_news_worship",
       "variables": {
         "text": "See most_english_document.json"
@@ -3021,7 +3294,7 @@
       ]
     },
     {
-      "id": 204,
+      "id": 227,
       "doc": "GUM_vlog_appearance",
       "variables": {
         "text": "See most_english_document.json"
@@ -3034,7 +3307,43 @@
       ]
     },
     {
-      "id": 205,
+      "id": 228,
+      "doc": "GUM_vlog_appearance",
+      "variables": {
+        "text": "See most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Today",
+        "Wednesday"
+      ]
+    },
+    {
+      "id": 229,
+      "doc": "GUM_vlog_appearance",
+      "variables": {
+        "text": "See most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "pimple patches"
+      ]
+    },
+    {
+      "id": 230,
+      "doc": "GUM_vlog_appearance",
+      "variables": {
+        "text": "See most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "ugly",
+        "such a subjective word",
+        "a word meant to like , oppress people , particularly women"
+      ]
+    },
+    {
+      "id": 231,
       "doc": "GUM_vlog_hair",
       "variables": {
         "text": "See most_english_document.json"
@@ -3046,7 +3355,7 @@
       ]
     },
     {
-      "id": 206,
+      "id": 232,
       "doc": "GUM_vlog_pregnant",
       "variables": {
         "text": "See most_english_document.json"
@@ -3058,7 +3367,19 @@
       ]
     },
     {
-      "id": 207,
+      "id": 233,
+      "doc": "GUM_vlog_pregnant",
+      "variables": {
+        "text": "See most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "people 's",
+        "everyone"
+      ]
+    },
+    {
+      "id": 234,
       "doc": "GUM_speech_inauguration",
       "variables": {
         "text": "See most_english_document.json"

@@ -12,10 +12,7 @@
       "answer_type": "list",
       "answer": [
         "Christian Gildes",
-        "Gilde",
-        "seine",
-        "seinen",
-        "sein"
+        "Gilde"
       ]
     },
     {
@@ -27,9 +24,7 @@
       "answer_type": "list",
       "answer": [
         "der frühere Generaldirektor der Schlösserstiftung",
-        "Giersberg",
-        "Sein",
-        "seinem"
+        "Giersberg"
       ]
     },
     {
@@ -42,7 +37,6 @@
       "answer": [
         "Gerd Stuckenbrok",
         "den SPD-Chef",
-        "seine",
         "Stuckenbrok",
         "Gerd Stuckenbroks",
         "der Genosse"
@@ -58,8 +52,7 @@
       "answer": [
         "Detektiv T. aus Hennigsdorf",
         "der junge Mann",
-        "T.",
-        "seinen"
+        "T."
       ]
     },
     {
@@ -72,10 +65,8 @@
       "answer": [
         "Rudolf Völler",
         "Ruuuuudi",
-        "sein",
         "Rudi",
         "der ehemalige Torjäger",
-        "seines",
         "Der grauhaarige Hanauer",
         "Völler"
       ]
@@ -127,10 +118,8 @@
       },
       "answer_type": "list",
       "answer": [
-        "ihrem",
         "Elisabeth Herzog",
-        "der 2. Beigeordneten und künftigen Bürgermeisterin",
-        "Ihren"
+        "der 2. Beigeordneten und künftigen Bürgermeisterin"
       ]
     },
     {
@@ -171,11 +160,9 @@
       "answer_type": "list",
       "answer": [
         "Johannes B. Kerner",
-        "seiner",
         "den Talkmaster",
         "unser Zugpferd Kerner",
         "der Sympathieträger",
-        "seine",
         "ihrer Allzweckwaffe Kerner"
       ]
     },
@@ -187,7 +174,6 @@
       },
       "answer_type": "list",
       "answer": [
-        "unsere",
         "des Volkes"
       ]
     },
@@ -199,7 +185,6 @@
       },
       "answer_type": "list",
       "answer": [
-        "meinem",
         "Ernst Bahr",
         "der SPD-Mann",
         "der Regierenden",
@@ -253,7 +238,6 @@
       },
       "answer_type": "list",
       "answer": [
-        ". Manche",
         ".",
         "wie",
         "erfahren die",
@@ -270,7 +254,6 @@
       "answer_type": "list",
       "answer": [
         "die Rettungskräfte",
-        "ihrem",
         "die Feuerwehr"
       ]
     },
@@ -299,7 +282,6 @@
         "der Deutschen",
         "der Menschen",
         "die Verbraucher",
-        "ihren",
         "Die Menschen"
       ]
     },
@@ -311,8 +293,6 @@
       },
       "answer_type": "list",
       "answer": [
-        "beide",
-        "ihre",
         "der Regierenden",
         "der Regierung"
       ]
@@ -341,12 +321,24 @@
       "answer_type": "list",
       "answer": [
         "Rüdiger Kadatz",
-        "seine",
         "Kadatz"
       ]
     },
     {
       "id": 25,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12666_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Rheinsbergs Favorit Rogner",
+        "die Taube auf dem Dach",
+        "Rogner"
+      ]
+    },
+    {
+      "id": 26,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12976_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -359,7 +351,7 @@
       ]
     },
     {
-      "id": 26,
+      "id": 27,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14047_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -373,7 +365,19 @@
       ]
     },
     {
-      "id": 27,
+      "id": 28,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14047_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "des Kreistages",
+        "der Kreistag"
+      ]
+    },
+    {
+      "id": 29,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14055_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -382,12 +386,11 @@
       "answer": [
         "Gerhard Schröders",
         "der Kanzler",
-        "seine",
         "Schröder"
       ]
     },
     {
-      "id": 28,
+      "id": 30,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-1423_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -400,7 +403,7 @@
       ]
     },
     {
-      "id": 29,
+      "id": 31,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14654_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -413,7 +416,7 @@
       ]
     },
     {
-      "id": 30,
+      "id": 32,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14792_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -426,7 +429,7 @@
       ]
     },
     {
-      "id": 31,
+      "id": 33,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-15609_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -434,12 +437,11 @@
       "answer_type": "list",
       "answer": [
         "Die Blankenfelder Gemeindevertreter",
-        "ihren",
         "der Gemeinderat"
       ]
     },
     {
-      "id": 32,
+      "id": 34,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-16360_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -447,14 +449,11 @@
       "answer_type": "list",
       "answer": [
         "Der Kyritzer Bäckermeister Thomas Haupt",
-        "seinen",
-        "seiner",
-        "Die Meister",
-        "ihre"
+        "Die Meister"
       ]
     },
     {
-      "id": 33,
+      "id": 35,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17242_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -465,7 +464,7 @@
       ]
     },
     {
-      "id": 34,
+      "id": 36,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17254_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -477,7 +476,7 @@
       ]
     },
     {
-      "id": 35,
+      "id": 37,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17664_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -490,7 +489,7 @@
       ]
     },
     {
-      "id": 36,
+      "id": 38,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-18160_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -498,12 +497,11 @@
       "answer_type": "list",
       "answer": [
         "des Innenministers und Parteivorsitzenden Jörg Schönbohm",
-        "seinen",
         "der eigene Parteichef"
       ]
     },
     {
-      "id": 37,
+      "id": 39,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-18333_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -515,18 +513,19 @@
       ]
     },
     {
-      "id": 38,
+      "id": 40,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-18912_words.xml",
       "variables": {
         "text": "See most_german_document.json"
       },
       "answer_type": "list",
       "answer": [
-        "unsere"
+        "wir",
+        "uns"
       ]
     },
     {
-      "id": 39,
+      "id": 41,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-6165_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -535,12 +534,11 @@
       "answer": [
         "die Feuerwehr",
         "die Retter",
-        "ihre",
         "die Einsatzfahrzeuge"
       ]
     },
     {
-      "id": 40,
+      "id": 42,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-7071_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -549,36 +547,33 @@
       "answer": [
         "dieser Stadt",
         "Die Stadt",
-        "ihre",
         "der Stadt"
       ]
     },
     {
-      "id": 41,
+      "id": 43,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-8134_words.xml",
       "variables": {
         "text": "See most_german_document.json"
       },
       "answer_type": "list",
       "answer": [
-        "Die Ortsteile",
-        "ihre"
+        "Die Ortsteile"
       ]
     },
     {
-      "id": 42,
+      "id": 44,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-10207_words.xml",
       "variables": {
         "text": "See most_german_document.json"
       },
       "answer_type": "list",
       "answer": [
-        "Die Amtsinhaber",
-        "beide"
+        "Die Amtsinhaber"
       ]
     },
     {
-      "id": 43,
+      "id": 45,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11318_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -592,7 +587,7 @@
       ]
     },
     {
-      "id": 44,
+      "id": 46,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12084_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -603,7 +598,7 @@
       ]
     },
     {
-      "id": 45,
+      "id": 47,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12383_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -617,7 +612,7 @@
       ]
     },
     {
-      "id": 46,
+      "id": 48,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12473_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -625,12 +620,11 @@
       "answer_type": "list",
       "answer": [
         "auch die Unternehmer",
-        "die Unternehmen",
-        "ihre"
+        "die Unternehmen"
       ]
     },
     {
-      "id": 47,
+      "id": 49,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-13015_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -644,7 +638,7 @@
       ]
     },
     {
-      "id": 48,
+      "id": 50,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-13311_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -652,23 +646,23 @@
       "answer_type": "list",
       "answer": [
         "die gebührenfinanzierten Programme",
-        "ihren",
         "auch beim öffentlich-rechtlichen Rundfunk"
       ]
     },
     {
-      "id": 49,
+      "id": 51,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-13758_words.xml",
       "variables": {
         "text": "See most_german_document.json"
       },
       "answer_type": "list",
       "answer": [
-        "sein"
+        "er",
+        "ihm"
       ]
     },
     {
-      "id": 50,
+      "id": 52,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14071_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -680,7 +674,7 @@
       ]
     },
     {
-      "id": 51,
+      "id": 53,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14590_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -692,7 +686,7 @@
       ]
     },
     {
-      "id": 52,
+      "id": 54,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-1679_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -704,7 +698,7 @@
       ]
     },
     {
-      "id": 53,
+      "id": 55,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17062_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -716,7 +710,7 @@
       ]
     },
     {
-      "id": 54,
+      "id": 56,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-1757_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -730,7 +724,7 @@
       ]
     },
     {
-      "id": 55,
+      "id": 57,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-18354_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -744,7 +738,7 @@
       ]
     },
     {
-      "id": 56,
+      "id": 58,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19012_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -756,7 +750,7 @@
       ]
     },
     {
-      "id": 57,
+      "id": 59,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19372_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -769,7 +763,7 @@
       ]
     },
     {
-      "id": 58,
+      "id": 60,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19436_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -777,12 +771,11 @@
       "answer_type": "list",
       "answer": [
         "Gysi",
-        "wie Gysi",
-        "seine"
+        "wie Gysi"
       ]
     },
     {
-      "id": 59,
+      "id": 61,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19442_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -796,19 +789,18 @@
       ]
     },
     {
-      "id": 60,
+      "id": 62,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-3377_words.xml",
       "variables": {
         "text": "See most_german_document.json"
       },
       "answer_type": "list",
       "answer": [
-        "alle",
         "die SPD-Fraktion"
       ]
     },
     {
-      "id": 61,
+      "id": 63,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-4428_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -816,12 +808,11 @@
       "answer_type": "list",
       "answer": [
         "Westernreiter",
-        "die Westernreiter",
-        "ihre"
+        "die Westernreiter"
       ]
     },
     {
-      "id": 62,
+      "id": 64,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-5012_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -834,20 +825,18 @@
       ]
     },
     {
-      "id": 63,
+      "id": 65,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-5297_words.xml",
       "variables": {
         "text": "See most_german_document.json"
       },
       "answer_type": "list",
       "answer": [
-        "die Veag",
-        "ihre",
-        "ihrem"
+        "die Veag"
       ]
     },
     {
-      "id": 64,
+      "id": 66,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-5715_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -860,7 +849,7 @@
       ]
     },
     {
-      "id": 65,
+      "id": 67,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-6488_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -873,7 +862,7 @@
       ]
     },
     {
-      "id": 66,
+      "id": 68,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9612_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -886,7 +875,7 @@
       ]
     },
     {
-      "id": 67,
+      "id": 69,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9852_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -898,7 +887,7 @@
       ]
     },
     {
-      "id": 68,
+      "id": 70,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9891_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -906,12 +895,11 @@
       "answer_type": "list",
       "answer": [
         "die Zehdenicker",
-        "die Stadtverordneten",
-        "ihre"
+        "die Stadtverordneten"
       ]
     },
     {
-      "id": 69,
+      "id": 71,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-10575_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -925,7 +913,7 @@
       ]
     },
     {
-      "id": 70,
+      "id": 72,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11177_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -937,7 +925,7 @@
       ]
     },
     {
-      "id": 71,
+      "id": 73,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11279_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -949,7 +937,19 @@
       ]
     },
     {
-      "id": 72,
+      "id": 74,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11279_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Artemedia",
+        "seinen Betrieb"
+      ]
+    },
+    {
+      "id": 75,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11299_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -961,18 +961,18 @@
       ]
     },
     {
-      "id": 73,
+      "id": 76,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14813_words.xml",
       "variables": {
         "text": "See most_german_document.json"
       },
       "answer_type": "list",
       "answer": [
-        "seine"
+        "ein Lichtspieltheaterchef"
       ]
     },
     {
-      "id": 74,
+      "id": 77,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-16250_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -985,7 +985,7 @@
       ]
     },
     {
-      "id": 75,
+      "id": 78,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17091_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -997,7 +997,7 @@
       ]
     },
     {
-      "id": 76,
+      "id": 79,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17673_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1009,7 +1009,20 @@
       ]
     },
     {
-      "id": 77,
+      "id": 80,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17673_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Drei hochmoderne Videokameras",
+        "Die Kameras",
+        "Die technischen Augen"
+      ]
+    },
+    {
+      "id": 81,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-18750_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1021,7 +1034,19 @@
       ]
     },
     {
-      "id": 78,
+      "id": 82,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-18750_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "viele Menschen",
+        "die Alten und Einsamen , die Flüchtlinge und Asylsuchenden , die Heimatlosen , Hungernden , Kranken"
+      ]
+    },
+    {
+      "id": 83,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19501_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1033,7 +1058,19 @@
       ]
     },
     {
-      "id": 79,
+      "id": 84,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19501_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Berlin",
+        "Berliner"
+      ]
+    },
+    {
+      "id": 85,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-2611_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1045,7 +1082,7 @@
       ]
     },
     {
-      "id": 80,
+      "id": 86,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-2669_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1059,7 +1096,7 @@
       ]
     },
     {
-      "id": 81,
+      "id": 87,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-3110_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1073,7 +1110,7 @@
       ]
     },
     {
-      "id": 82,
+      "id": 88,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-4403_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1085,7 +1122,7 @@
       ]
     },
     {
-      "id": 83,
+      "id": 89,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-4794_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1098,7 +1135,7 @@
       ]
     },
     {
-      "id": 84,
+      "id": 90,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-5010_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1106,24 +1143,34 @@
       "answer_type": "list",
       "answer": [
         "Eine westliche Journalistengruppe",
-        "die Berichterstatter",
-        "ihre"
+        "die Berichterstatter"
       ]
     },
     {
-      "id": 85,
+      "id": 91,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-6159_words.xml",
       "variables": {
         "text": "See most_german_document.json"
       },
       "answer_type": "list",
       "answer": [
-        "Eine Kollegin",
-        "Unsere"
+        "Eine Kollegin"
       ]
     },
     {
-      "id": 86,
+      "id": 92,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-6159_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "unsere Landesregierung",
+        "die Regierung"
+      ]
+    },
+    {
+      "id": 93,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-8288_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1131,12 +1178,11 @@
       "answer_type": "list",
       "answer": [
         "das Havelstädtchen Pritzerbe",
-        "Pritzerbe",
-        "seiner"
+        "Pritzerbe"
       ]
     },
     {
-      "id": 87,
+      "id": 94,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-8981_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1150,7 +1196,7 @@
       ]
     },
     {
-      "id": 88,
+      "id": 95,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9207_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1163,7 +1209,7 @@
       ]
     },
     {
-      "id": 89,
+      "id": 96,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9335_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1172,12 +1218,11 @@
       "answer": [
         "des Rewe-Konzerns",
         "Der Konzern",
-        "seinen",
         "der neue Inhaber"
       ]
     },
     {
-      "id": 90,
+      "id": 97,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9650_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1185,12 +1230,11 @@
       "answer_type": "list",
       "answer": [
         "die Europäische Zentralbank",
-        "Die Währungshüter",
-        "ihren"
+        "Die Währungshüter"
       ]
     },
     {
-      "id": 91,
+      "id": 98,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9725_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1204,7 +1248,7 @@
       ]
     },
     {
-      "id": 92,
+      "id": 99,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-00002_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1217,7 +1261,18 @@
       ]
     },
     {
-      "id": 93,
+      "id": 100,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-00002_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "die regelmäßige Schulbucherneuerung"
+      ]
+    },
+    {
+      "id": 101,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-10175_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1229,19 +1284,18 @@
       ]
     },
     {
-      "id": 94,
+      "id": 102,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11280_words.xml",
       "variables": {
         "text": "See most_german_document.json"
       },
       "answer_type": "list",
       "answer": [
-        "der Bürger vom Görden",
-        "ihre"
+        "der Bürger vom Görden"
       ]
     },
     {
-      "id": 95,
+      "id": 103,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11766_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1253,7 +1307,18 @@
       ]
     },
     {
-      "id": 96,
+      "id": 104,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11766_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "das Projekt"
+      ]
+    },
+    {
+      "id": 105,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11916_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1265,7 +1330,19 @@
       ]
     },
     {
-      "id": 97,
+      "id": 106,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11916_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Deutschland",
+        "der Fiskus"
+      ]
+    },
+    {
+      "id": 107,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12188_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1277,7 +1354,18 @@
       ]
     },
     {
-      "id": 98,
+      "id": 108,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-13153_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Solche Aktivitäten"
+      ]
+    },
+    {
+      "id": 109,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14072_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1289,7 +1377,7 @@
       ]
     },
     {
-      "id": 99,
+      "id": 110,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14399_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1302,19 +1390,31 @@
       ]
     },
     {
-      "id": 100,
+      "id": 111,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14399_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "den Gegnern der Jägerei",
+        "die \" Initiative zur Abschaffung der Jagd \"",
+        "der Jagdgegner"
+      ]
+    },
+    {
+      "id": 112,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14841_words.xml",
       "variables": {
         "text": "See most_german_document.json"
       },
       "answer_type": "list",
       "answer": [
-        "Manche Geschäftsleute",
-        "ihre"
+        "Manche Geschäftsleute"
       ]
     },
     {
-      "id": 101,
+      "id": 113,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-15155_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1326,7 +1426,7 @@
       ]
     },
     {
-      "id": 102,
+      "id": 114,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-15545_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1338,7 +1438,20 @@
       ]
     },
     {
-      "id": 103,
+      "id": 115,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-15545_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "die Buslinie Bahnhof Falkensee - Dallgow",
+        "Der Bus",
+        "den Bus"
+      ]
+    },
+    {
+      "id": 116,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-16153_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1350,19 +1463,18 @@
       ]
     },
     {
-      "id": 104,
+      "id": 117,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-16177_words.xml",
       "variables": {
         "text": "See most_german_document.json"
       },
       "answer_type": "list",
       "answer": [
-        "Das erste Bündnis für Arbeit",
-        "sein"
+        "Das erste Bündnis für Arbeit"
       ]
     },
     {
-      "id": 105,
+      "id": 118,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-16590_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1370,12 +1482,22 @@
       "answer_type": "list",
       "answer": [
         "wochenlanges Tauziehen um 30 Mark mehr Kindergeld",
-        "darüber",
-        "dies"
+        "darüber"
       ]
     },
     {
-      "id": 106,
+      "id": 119,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-16590_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Eltern"
+      ]
+    },
+    {
+      "id": 120,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-16987_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1387,7 +1509,42 @@
       ]
     },
     {
-      "id": 107,
+      "id": 121,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-16987_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "nicht gegen sondern für den Bombenabwurfplatz",
+        "solch ein Schießplatz"
+      ]
+    },
+    {
+      "id": 122,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-16987_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Mario Neubauer von der CDU-Fraktion",
+        "Neubauer"
+      ]
+    },
+    {
+      "id": 123,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-16987_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "eine Erklärung"
+      ]
+    },
+    {
+      "id": 124,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17698_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1399,7 +1556,7 @@
       ]
     },
     {
-      "id": 108,
+      "id": 125,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-18480_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1410,7 +1567,7 @@
       ]
     },
     {
-      "id": 109,
+      "id": 126,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19150_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1418,23 +1575,55 @@
       "answer_type": "list",
       "answer": [
         "Tourismusverband",
-        "seinem"
+        "ein Tourismusverband Havelland"
       ]
     },
     {
-      "id": 110,
+      "id": 127,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19295_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "die CDU-Basis im Bundesland B."
+      ]
+    },
+    {
+      "id": 128,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-3277_words.xml",
       "variables": {
         "text": "See most_german_document.json"
       },
       "answer_type": "list",
       "answer": [
-        "die gelbe Post",
-        "ihrer"
+        "die gelbe Post"
       ]
     },
     {
-      "id": 111,
+      "id": 129,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-3277_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "die Schließung der Filiale am Rehfelder Weg"
+      ]
+    },
+    {
+      "id": 130,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-3277_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "die Älteren"
+      ]
+    },
+    {
+      "id": 131,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-3367_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1445,7 +1634,18 @@
       ]
     },
     {
-      "id": 112,
+      "id": 132,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-3367_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Sie"
+      ]
+    },
+    {
+      "id": 133,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-4031_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1457,7 +1657,7 @@
       ]
     },
     {
-      "id": 113,
+      "id": 134,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-4282_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1468,7 +1668,33 @@
       ]
     },
     {
-      "id": 114,
+      "id": 135,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-4282_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        ". Die Seeburger und einige",
+        "sollen",
+        "wie"
+      ]
+    },
+    {
+      "id": 136,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-4282_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "wenn die",
+        ",",
+        "dass"
+      ]
+    },
+    {
+      "id": 137,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-4472_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1480,7 +1706,20 @@
       ]
     },
     {
-      "id": 115,
+      "id": 138,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-4472_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "das Wasserstraßenneubauamt Berlin als Bauherr",
+        "das Wasserstraßenneubauamt",
+        "die Behörde"
+      ]
+    },
+    {
+      "id": 139,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-5039_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1491,7 +1730,18 @@
       ]
     },
     {
-      "id": 116,
+      "id": 140,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-5039_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Ein junger Mensch"
+      ]
+    },
+    {
+      "id": 141,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-5932_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1502,7 +1752,7 @@
       ]
     },
     {
-      "id": 117,
+      "id": 142,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-6046_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1514,19 +1764,76 @@
       ]
     },
     {
-      "id": 118,
+      "id": 143,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-6046_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Veronas Tränen"
+      ]
+    },
+    {
+      "id": 144,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-6046_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Veronas"
+      ]
+    },
+    {
+      "id": 145,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-6046_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "uns",
+        "wir"
+      ]
+    },
+    {
+      "id": 146,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-6046_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Veronas Tränen und Dieters Geschwätz",
+        "darüber",
+        "damit"
+      ]
+    },
+    {
+      "id": 147,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-6539_words.xml",
       "variables": {
         "text": "See most_german_document.json"
       },
       "answer_type": "list",
       "answer": [
-        "Der Kanzler",
-        "seinen"
+        "Der Kanzler"
       ]
     },
     {
-      "id": 119,
+      "id": 148,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-6539_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Israels"
+      ]
+    },
+    {
+      "id": 149,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-6728_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1537,7 +1844,7 @@
       ]
     },
     {
-      "id": 120,
+      "id": 150,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-7053_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1549,7 +1856,19 @@
       ]
     },
     {
-      "id": 121,
+      "id": 151,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-7053_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "diese Spanne",
+        "die Zahlen"
+      ]
+    },
+    {
+      "id": 152,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-7967_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1562,19 +1881,30 @@
       ]
     },
     {
-      "id": 122,
+      "id": 153,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-7967_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "des Bürgermeisters",
+        "Joachim Bienert"
+      ]
+    },
+    {
+      "id": 154,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-8563_words.xml",
       "variables": {
         "text": "See most_german_document.json"
       },
       "answer_type": "list",
       "answer": [
-        "264 Bauten",
-        "ihre"
+        "264 Bauten"
       ]
     },
     {
-      "id": 123,
+      "id": 155,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-8665_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1585,7 +1915,18 @@
       ]
     },
     {
-      "id": 124,
+      "id": 156,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-8665_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "die Leute"
+      ]
+    },
+    {
+      "id": 157,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-8727_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1597,7 +1938,19 @@
       ]
     },
     {
-      "id": 125,
+      "id": 158,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-8727_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "der Landesentwicklungsgesellschaft ( LEG )",
+        "die LEG"
+      ]
+    },
+    {
+      "id": 159,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-8838_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1609,7 +1962,7 @@
       ]
     },
     {
-      "id": 126,
+      "id": 160,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9782_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1620,7 +1973,7 @@
       ]
     },
     {
-      "id": 127,
+      "id": 161,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-10902_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1632,7 +1985,64 @@
       ]
     },
     {
-      "id": 128,
+      "id": 162,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-10902_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Eltern"
+      ]
+    },
+    {
+      "id": 163,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-10902_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "ein Eltern-Stammtisch des Jahn-Gymnasiums",
+        "Der Elternstammtisch des Jahn-Gymnasiums"
+      ]
+    },
+    {
+      "id": 164,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-10902_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "gemeinsam mit PIRA",
+        "PIRA"
+      ]
+    },
+    {
+      "id": 165,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-10902_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Zehnjährige"
+      ]
+    },
+    {
+      "id": 166,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-10902_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "es"
+      ]
+    },
+    {
+      "id": 167,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11670_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1643,7 +2053,86 @@
       ]
     },
     {
-      "id": 129,
+      "id": 168,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11670_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "des Zweiten Weltkriegs"
+      ]
+    },
+    {
+      "id": 169,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11670_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "auch die Kreissynode der Evangelischen Kirche"
+      ]
+    },
+    {
+      "id": 170,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11670_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "eine Resolution gegen den Krieg in Afghanistan",
+        "Das Papier"
+      ]
+    },
+    {
+      "id": 171,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11670_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "selbst High-Tech-Bomben"
+      ]
+    },
+    {
+      "id": 172,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11670_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Frauen und alte Männer",
+        "auch diese unschuldigen Opfer"
+      ]
+    },
+    {
+      "id": 173,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11670_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "afghanische Kinder"
+      ]
+    },
+    {
+      "id": 174,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11670_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "wir"
+      ]
+    },
+    {
+      "id": 175,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11735_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1655,7 +2144,30 @@
       ]
     },
     {
-      "id": 130,
+      "id": 176,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11735_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "eine Liste verdächtiger Gesellschaften"
+      ]
+    },
+    {
+      "id": 177,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11735_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "verdächtiger Gesellschaften",
+        "die selben Kandidaten vor denen die Uno schon seit Jahren warnt"
+      ]
+    },
+    {
+      "id": 178,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14881_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1667,7 +2179,29 @@
       ]
     },
     {
-      "id": 131,
+      "id": 179,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14881_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "die Verkehrsgesellschaft"
+      ]
+    },
+    {
+      "id": 180,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14881_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "der Schildbürger"
+      ]
+    },
+    {
+      "id": 181,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-15734_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1678,7 +2212,18 @@
       ]
     },
     {
-      "id": 132,
+      "id": 182,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-15734_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "der Fußgänger"
+      ]
+    },
+    {
+      "id": 183,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-3080_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1689,7 +2234,30 @@
       ]
     },
     {
-      "id": 133,
+      "id": 184,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-3080_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "der wachsame Deutsche"
+      ]
+    },
+    {
+      "id": 185,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-3080_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sein eigenes Bild des islamistischen Kämpfers",
+        "diesem Bild"
+      ]
+    },
+    {
+      "id": 186,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-5144_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1701,7 +2269,53 @@
       ]
     },
     {
-      "id": 134,
+      "id": 187,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-5144_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Menschen"
+      ]
+    },
+    {
+      "id": 188,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-5144_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "auch die Verantwortlichen des Landkreises",
+        "Der zuständige Stab"
+      ]
+    },
+    {
+      "id": 189,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-5144_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "des Landkreises",
+        "Der Landkreis"
+      ]
+    },
+    {
+      "id": 190,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-5144_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Landrat Christian Gilde"
+      ]
+    },
+    {
+      "id": 191,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-5709_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1713,7 +2327,40 @@
       ]
     },
     {
-      "id": 135,
+      "id": 192,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-5709_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Der Bauausschuss"
+      ]
+    },
+    {
+      "id": 193,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-5709_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "die neue Straße An der Parforceheide"
+      ]
+    },
+    {
+      "id": 194,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-5709_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Die Stadt"
+      ]
+    },
+    {
+      "id": 195,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-7220_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1724,7 +2371,52 @@
       ]
     },
     {
-      "id": 136,
+      "id": 196,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-7220_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Rumsfeld"
+      ]
+    },
+    {
+      "id": 197,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-7220_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "des Washingtoner Stabes"
+      ]
+    },
+    {
+      "id": 198,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-7220_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "dieses Krieges",
+        "des Afghanistan-Einsatzes"
+      ]
+    },
+    {
+      "id": 199,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-7220_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "solche Einlassungen"
+      ]
+    },
+    {
+      "id": 200,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-7969_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1736,7 +2428,51 @@
       ]
     },
     {
-      "id": 137,
+      "id": 201,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-7969_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "des 1950 gesprengten Schlosses"
+      ]
+    },
+    {
+      "id": 202,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-7969_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "ihre gute Stube"
+      ]
+    },
+    {
+      "id": 203,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-7969_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Hauptstadt"
+      ]
+    },
+    {
+      "id": 204,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-7969_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "die Berliner Stadtpolitik"
+      ]
+    },
+    {
+      "id": 205,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-8586_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1748,7 +2484,18 @@
       ]
     },
     {
-      "id": 138,
+      "id": 206,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-8586_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "andere Menschen"
+      ]
+    },
+    {
+      "id": 207,
       "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-10110_words.xml",
       "variables": {
         "text": "See most_german_document.json"
@@ -1756,6 +2503,160 @@
       "answer_type": "list",
       "answer": [
         "es"
+      ]
+    },
+    {
+      "id": 208,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-10110_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "wir"
+      ]
+    },
+    {
+      "id": 209,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-10110_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Trotzdem"
+      ]
+    },
+    {
+      "id": 210,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-10110_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "die Industrie- und Handelskammer Potsdam"
+      ]
+    },
+    {
+      "id": 211,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-10110_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Potsdam"
+      ]
+    },
+    {
+      "id": 212,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-10110_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "den Schulabgängern"
+      ]
+    },
+    {
+      "id": 213,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-10110_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Der Berufemarkt erstmals in der Aula der Gesamtschule Am Weinberg angeboten"
+      ]
+    },
+    {
+      "id": 214,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-10110_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "der Gesamtschule Am Weinberg"
+      ]
+    },
+    {
+      "id": 215,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-10110_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "das Interesse der Schülerinnen und Schüler"
+      ]
+    },
+    {
+      "id": 216,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-10110_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "der Schülerinnen und Schüler"
+      ]
+    },
+    {
+      "id": 217,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-10110_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "der Berufemarkt"
+      ]
+    },
+    {
+      "id": 218,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-10110_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Die Vertreter der Null-Bock-Generation"
+      ]
+    },
+    {
+      "id": 219,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-10110_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "der Null-Bock-Generation"
+      ]
+    },
+    {
+      "id": 220,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-10110_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "die meisten"
+      ]
+    },
+    {
+      "id": 221,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-10110_words.xml",
+      "variables": {
+        "text": "See most_german_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "der Zeitpunkt zu dem gute Facharbeiter ins Land geholt werden müssen um Lücken in Unternehmen zu füllen"
       ]
     }
   ]

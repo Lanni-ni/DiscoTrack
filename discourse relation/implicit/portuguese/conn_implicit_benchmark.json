@@ -8,7 +8,7 @@
       "doc": "talk_1971_pt_tok",
       "variables": {
         "arg1": "Não importa a alta qualidade de uma prótese",
-        "arg2": "Se o encaixe Da nossa prótese for desconfortável , não usaremos a perna"
+        "arg2": "Se o encaixe da nossa prótese for desconfortável , não usaremos a perna"
       },
       "answer_type": "string",
       "answer": "porque"
@@ -77,7 +77,7 @@
       "id": 8,
       "doc": "talk_1976_pt_tok",
       "variables": {
-        "arg1": "Tudo o que vemos é a imagem de grandes feixes Da estrela que é dez mil milhões de vezes mais brilhante do que o planeta , que deveria estar naquele pequeno círculo vermelho",
+        "arg1": "Tudo o que vemos é a imagem de grandes feixes da estrela que é dez mil milhões de vezes mais brilhante do que o planeta , que deveria estar naquele pequeno círculo vermelho",
         "arg2": "É o que queremos ver"
       },
       "answer_type": "string",
@@ -87,8 +87,8 @@
       "id": 9,
       "doc": "talk_1978_pt_tok",
       "variables": {
-        "arg1": "Na cultura navajo , alguns artesãos e mulheres punham deliberadamente uma qualquer imperfeição nos têxteis e nas cerâmicas . Chamavam -lhe uma linha de espírito , um defeito deliberado no desenho para dar Ao tecelão ou Ao artesão uma saída , mas também uma razão para continuar a trabalhar",
-        "arg2": "Os mestres não são especialistas por levar um tema Ao seu fim conceptual"
+        "arg1": "Na cultura navajo , alguns artesãos e mulheres punham deliberadamente uma qualquer imperfeição nos têxteis e nas cerâmicas . Chamavam -lhe uma linha de espírito , um defeito deliberado no desenho para dar ao tecelão ou ao artesão uma saída , mas também uma razão para continuar a trabalhar",
+        "arg2": "Os mestres não são especialistas por levar um tema ao seu fim conceptual"
       },
       "answer_type": "string",
       "answer": "em suma"
@@ -98,7 +98,7 @@
       "doc": "talk_1978_pt_tok",
       "variables": {
         "arg1": "Um dos exemplos mais vivos disso aparece quando olhamos para a diferença entre os \" medalhas de prata \" olímpicos e os \" medalhas de bronze \" depois de  uma competição",
-        "arg2": "Thomas Gilovich e a sua equipa Da Universidade de Cornell estudaram esta diferença e descobriram que a frustração que os \" medalhas de prata \" sentem . comparada com a dos \" de bronze \" , que normalmente se sentem mais felizes por não terem ficado em quarto lugar e não terem recebido nenhuma medalha , dá Aos \" medalhas de prata \" uma concentração na competição seguinte"
+        "arg2": "Thomas Gilovich e a sua equipa da Universidade de Cornell estudaram esta diferença e descobriram que a frustração que os \" medalhas de prata \" sentem . comparada com a dos \" de bronze \" , que normalmente se sentem mais felizes por não terem ficado em quarto lugar e não terem recebido nenhuma medalha , dá aos \" medalhas de prata \" uma concentração na competição seguinte"
       },
       "answer_type": "string",
       "answer": "de facto"
@@ -127,7 +127,7 @@
       "id": 13,
       "doc": "talk_1976_pt_tok",
       "variables": {
-        "arg1": "Coloca -se à frente Da estrela deste modo , criando uma sombra maravilhosa",
+        "arg1": "Coloca -se à frente da estrela deste modo , criando uma sombra maravilhosa",
         "arg2": "vemos os planetas a orbitar à sua volta"
       },
       "answer_type": "string",
@@ -138,7 +138,7 @@
       "doc": "talk_1927_pt_tok",
       "variables": {
         "arg1": "Eu também gosto",
-        "arg2": "Eu gosto porque faz troça dos dois lados Da questão Da alteração climática"
+        "arg2": "Eu gosto porque faz troça dos dois lados da questão da alteração climática"
       },
       "answer_type": "string",
       "answer": "e"
@@ -147,7 +147,7 @@
       "id": 15,
       "doc": "talk_1976_pt_tok",
       "variables": {
-        "arg1": "Construíamos uma tela grande , colocávamo# -la no espaço , em frente a uma estrela , bloqueávamos a maior parte Da luz , colocávamos um telescópio espacial em  essa sombra criada",
+        "arg1": "Construíamos uma tela grande , colocávamo# -la no espaço , em frente a uma estrela , bloqueávamos a maior parte da luz , colocávamos um telescópio espacial em  essa sombra criada",
         "arg2": "e zás , conseguíamos ver os planetas"
       },
       "answer_type": "string",
@@ -157,7 +157,7 @@
       "id": 16,
       "doc": "talk_1978_pt_tok",
       "variables": {
-        "arg1": "O pintor Paul Cézanne pensava tantas vezes que as suas obras estavam incompletas que as punha deliberadamente de lado com a intenção de pegar em  elas outra vez mas , no fim Da sua vida , o que aconteceu foi que ele só tinha assinado dez por cento Das suas pinturas",
+        "arg1": "O pintor Paul Cézanne pensava tantas vezes que as suas obras estavam incompletas que as punha deliberadamente de lado com a intenção de pegar em  elas outra vez mas , no fim da sua vida , o que aconteceu foi que ele só tinha assinado dez por cento das suas pinturas",
         "arg2": "O seu romance preferido era \" A Obra-Prima Desconhecida \" de Honoré de Balzac , e achava que o protagonista era o próprio pintor"
       },
       "answer_type": "string",
@@ -187,7 +187,7 @@
       "id": 19,
       "doc": "talk_1927_pt_tok",
       "variables": {
-        "arg1": ". Isto equivale a retirar Das ruas 21 mil carro",
+        "arg1": ". Isto equivale a retirar das ruas 21 mil carro",
         "arg2": ". É muito bom , não"
       },
       "answer_type": "string",
@@ -197,7 +197,7 @@
       "id": 20,
       "doc": "talk_1927_pt_tok",
       "variables": {
-        "arg1": "Estamos a criar uma cobertura , reduzindo o risco para o nosso planeta e para a nossa economia e , Ao mesmo tempo , a curto prazo , não estamos a sacrificar o nosso desempenho",
+        "arg1": "Estamos a criar uma cobertura , reduzindo o risco para o nosso planeta e para a nossa economia e , ao mesmo tempo , a curto prazo , não estamos a sacrificar o nosso desempenho",
         "arg2": "Ótimo , vocês gostaram"
       },
       "answer_type": "string",
@@ -237,7 +237,7 @@
       "id": 24,
       "doc": "talk_2150_pt_tok_inter",
       "variables": {
-        "arg1": "Vemos que a comunidade LGTB nem por isso se dá muito bem com a comunidade \" geek \" , com a comunidade Das artes , com a comunidade Da música",
+        "arg1": "Vemos que a comunidade LGTB nem por isso se dá muito bem com a comunidade \" geek \" , com a comunidade das artes , com a comunidade da música",
         "arg2": "Isso leva a coisas deste género"
       },
       "answer_type": "string",
@@ -278,7 +278,7 @@
       "doc": "talk_2150_pt_tok_inter",
       "variables": {
         "arg1": "Podemos ver isso aqui documentado",
-        "arg2": "Vemos que a comunidade LGTB nem por isso se dá muito bem com a comunidade \" geek \" , com a comunidade Das artes , com a comunidade Da música"
+        "arg2": "Vemos que a comunidade LGTB nem por isso se dá muito bem com a comunidade \" geek \" , com a comunidade das artes , com a comunidade da música"
       },
       "answer_type": "string",
       "answer": "além disso"
@@ -327,7 +327,7 @@
       "id": 33,
       "doc": "talk_1978_pt_tok",
       "variables": {
-        "arg1": "Acho que ela chega quando começamos a dar valor Ao dom de uma quase vitória",
+        "arg1": "Acho que ela chega quando começamos a dar valor ao dom de uma quase vitória",
         "arg2": "Comecei a perceber isso quando , num frio dia de Maio fui ver uma equipa de arqueiras universitárias , só mulheres , por coincidência , no extremo norte de Manhattan no Complexo Atlético Baker , na Colúmbia"
       },
       "answer_type": "string",
@@ -347,7 +347,7 @@
       "id": 35,
       "doc": "talk_2150_pt_tok_inter",
       "variables": {
-        "arg1": "O desporto atua como a única ponte entre estas duas pontas Da rede",
+        "arg1": "O desporto atua como a única ponte entre estas duas pontas da rede",
         "arg2": "Olhemos para São Francisco"
       },
       "answer_type": "string",
@@ -357,7 +357,7 @@
       "id": 36,
       "doc": "talk_1971_pt_tok",
       "variables": {
-        "arg1": "o encaixe Das próteses era doloroso por não ser um encaixe perfeito",
+        "arg1": "o encaixe das próteses era doloroso por não ser um encaixe perfeito",
         "arg2": "O encaixe de uma prótese é a parte em que o amputado insere o coto do membro , e que liga com a articulação prostética"
       },
       "answer_type": "string",
@@ -388,7 +388,7 @@
       "doc": "talk_1976_pt_tok",
       "variables": {
         "arg1": "afasta -se 50 000 quilómetros do telescópio",
-        "arg2": "Coloca -se à frente Da estrela deste modo , criando uma sombra maravilhosa"
+        "arg2": "Coloca -se à frente da estrela deste modo , criando uma sombra maravilhosa"
       },
       "answer_type": "string",
       "answer": "e"
@@ -428,7 +428,7 @@
       "doc": "talk_2009_pt_tok",
       "variables": {
         "arg1": "À noite , eles dormem sob as estrelas , amontoados com as suas matilhas de cães , gatos e ratos de companhia entre os seus corpos",
-        "arg2": "Alguns viajantes metem -se à estrada por opção , renunciam Ao materialismo , Aos empregos tradicionais e Aos graus universitários , em troca de um vislumbre de aventura"
+        "arg2": "Alguns viajantes metem -se à estrada por opção , renunciam ao materialismo , aos empregos tradicionais e aos graus universitários , em troca de um vislumbre de aventura"
       },
       "answer_type": "string",
       "answer": "no implicit connective"
@@ -448,7 +448,7 @@
       "doc": "talk_1927_pt_tok",
       "variables": {
         "arg1": "Quando investimos na sustentabilidade estamos a fazer duas coisas",
-        "arg2": "Estamos a criar uma cobertura , reduzindo o risco para o nosso planeta e para a nossa economia e , Ao mesmo tempo , a curto prazo , não estamos a sacrificar o nosso desempenho"
+        "arg2": "Estamos a criar uma cobertura , reduzindo o risco para o nosso planeta e para a nossa economia e , ao mesmo tempo , a curto prazo , não estamos a sacrificar o nosso desempenho"
       },
       "answer_type": "string",
       "answer": "isto é"
@@ -478,7 +478,7 @@
       "doc": "talk_2150_pt_tok_inter",
       "variables": {
         "arg1": "Temos pessoas representadas de todos os tipos diferentes de etnias por todo o mapa",
-        "arg2": "olhar apenas para a etnia não contribui muito para o desenvolvimento Da diversidade"
+        "arg2": "olhar apenas para a etnia não contribui muito para o desenvolvimento da diversidade"
       },
       "answer_type": "string",
       "answer": "portanto"
@@ -518,7 +518,7 @@
       "doc": "talk_1978_pt_tok",
       "variables": {
         "arg1": "fui ver uma equipa de arqueiras universitárias",
-        "arg2": "Eu queria ver aquilo a que se chama o paradoxo do arqueiro , a ideia de que , para acertar em cheio no alvo , é preciso visar um pouco Ao lado"
+        "arg2": "Eu queria ver aquilo a que se chama o paradoxo do arqueiro , a ideia de que , para acertar em cheio no alvo , é preciso visar um pouco ao lado"
       },
       "answer_type": "string",
       "answer": "pois"
@@ -568,7 +568,7 @@
       "doc": "talk_1976_pt_tok",
       "variables": {
         "arg1": "afastemo -nos de novo mais dez vezes",
-        "arg2": "Aqui estamos na Nuvem de Oort , fora do sistema solar , aqui começamos a ver o Sol a mover -se para o campo de visão e a sobrepor -se Ao planeta"
+        "arg2": "Aqui estamos na Nuvem de Oort , fora do sistema solar , aqui começamos a ver o Sol a mover -se para o campo de visão e a sobrepor -se ao planeta"
       },
       "answer_type": "string",
       "answer": "por conseguinte"
@@ -578,7 +578,7 @@
       "doc": "talk_1976_pt_tok",
       "variables": {
         "arg1": "Esperamos que seja outro sistema solar visto através de uma antepara , através de uma sombra estelar como esta",
-        "arg2": "Podemos ver Júpiter , podemos ver Saturno , Urano , Neptuno , e mesmo no centro , próximo Da luz residual está o ponto azul pálido"
+        "arg2": "Podemos ver Júpiter , podemos ver Saturno , Urano , Neptuno , e mesmo no centro , próximo da luz residual está o ponto azul pálido"
       },
       "answer_type": "string",
       "answer": "no implicit connective"
@@ -617,8 +617,8 @@
       "id": 62,
       "doc": "talk_1976_pt_tok",
       "variables": {
-        "arg1": "Esta é a famosa imagem Da NASA do ponto azul pálido",
-        "arg2": "Foi tirada pela nave Voyager em 1990 , quando a fizeram rodar Ao sair do sistema solar para tirar uma foto Da Terra à distância de seis mil milhões de quilómetros"
+        "arg1": "Esta é a famosa imagem da NASA do ponto azul pálido",
+        "arg2": "Foi tirada pela nave Voyager em 1990 , quando a fizeram rodar ao sair do sistema solar para tirar uma foto da Terra à distância de seis mil milhões de quilómetros"
       },
       "answer_type": "string",
       "answer": "no implicit connective"
@@ -627,7 +627,7 @@
       "id": 63,
       "doc": "talk_1976_pt_tok",
       "variables": {
-        "arg1": "A luz Da estrela sofre difracção",
+        "arg1": "A luz da estrela sofre difracção",
         "arg2": "Dispersa -se dentro do telescópio , criando esta imagem muito brilhante que ofusca o planeta"
       },
       "answer_type": "string",
@@ -647,8 +647,8 @@
       "id": 65,
       "doc": "talk_1978_pt_tok",
       "variables": {
-        "arg1": "a frustração que os \" medalhas de prata \" sentem . comparada com a dos \" de bronze \" , que normalmente se sentem mais felizes por não terem ficado em quarto lugar e não terem recebido nenhuma medalha , dá Aos \" medalhas de prata \" uma concentração na competição seguinte",
-        "arg2": "Vemos isso , até na indústria do jogo , que , em tempos , se apercebeu deste fenómeno Da quase vitória e criou aquelas raspadinhas que tinham uma taxa de quase vitórias mais alta do que a média e por isso levavam as pessoas a comprar mais raspadinhas a que chamavam \" heart-stoppers \" , e provocaram uma série de abusos na indústria do jogo na Grã-Bretanha , nos anos 70"
+        "arg1": "a frustração que os \" medalhas de prata \" sentem . comparada com a dos \" de bronze \" , que normalmente se sentem mais felizes por não terem ficado em quarto lugar e não terem recebido nenhuma medalha , dá aos \" medalhas de prata \" uma concentração na competição seguinte",
+        "arg2": "Vemos isso , até na indústria do jogo , que , em tempos , se apercebeu deste fenómeno da quase vitória e criou aquelas raspadinhas que tinham uma taxa de quase vitórias mais alta do que a média e por isso levavam as pessoas a comprar mais raspadinhas a que chamavam \" heart-stoppers \" , e provocaram uma série de abusos na indústria do jogo na Grã-Bretanha , nos anos 70"
       },
       "answer_type": "string",
       "answer": "por exemplo"
@@ -687,7 +687,7 @@
       "id": 69,
       "doc": "talk_1978_pt_tok",
       "variables": {
-        "arg1": "Sabemos que florescemos quando nos situamos na nossa própria vanguarda , e é por isso que o incompleto deliberado está entranhado nos mitos Da criação",
+        "arg1": "Sabemos que florescemos quando nos situamos na nossa própria vanguarda , e é por isso que o incompleto deliberado está entranhado nos mitos da criação",
         "arg2": "Na cultura navajo , alguns artesãos e mulheres punham deliberadamente uma qualquer imperfeição nos têxteis e nas cerâmicas"
       },
       "answer_type": "string",
@@ -698,7 +698,7 @@
       "doc": "talk_1927_pt_tok",
       "variables": {
         "arg1": "Ambiente inclui consumo de energia , disponibilidade de água , lixo e poluição . Trata do uso eficaz dos recursos",
-        "arg2": "O social inclui o capital humano , coisas como o envolvimento dos empregados e capacidade de inovação , assim como a gestão Da cadeia de fornecimento , direitos dos trabalhadores e direitos humanos"
+        "arg2": "O social inclui o capital humano , coisas como o envolvimento dos empregados e capacidade de inovação , assim como a gestão da cadeia de fornecimento , direitos dos trabalhadores e direitos humanos"
       },
       "answer_type": "string",
       "answer": "além do mais"
@@ -717,7 +717,7 @@
       "id": 72,
       "doc": "talk_2009_pt_tok",
       "variables": {
-        "arg1": "Na maioria Das nossas mentes , o vagabundo é uma criatura do passado",
+        "arg1": "Na maioria das nossas mentes , o vagabundo é uma criatura do passado",
         "arg2": "A palavra \" vagabundo \" evoca uma velha imagem a preto e branco , de um homem velho coberto com carvão , pernas para fora de uma carruagem de mercadorias"
       },
       "answer_type": "string",
@@ -777,7 +777,7 @@
       "id": 78,
       "doc": "talk_2150_pt_tok_inter",
       "variables": {
-        "arg1": "Uma Das coisas que ressaltou nesta cidade é que está tudo muito misturado",
+        "arg1": "Uma das coisas que ressaltou nesta cidade é que está tudo muito misturado",
         "arg2": "É uma cidade muito heterogénea , muito diferente de Baltimore ou São Francisco"
       },
       "answer_type": "string",
@@ -798,7 +798,7 @@
       "doc": "talk_1927_pt_tok",
       "variables": {
         "arg1": "em  alguns casos , pode haver um desempenho superior de ASG",
-        "arg2": "A azul , vemos o desempenho Das 500 maiores companhias mundiais e a dourado , vemos um subconjunto de companhias com as melhores práticas em estratégias de alteração climática e gestão de riscos"
+        "arg2": "A azul , vemos o desempenho das 500 maiores companhias mundiais e a dourado , vemos um subconjunto de companhias com as melhores práticas em estratégias de alteração climática e gestão de riscos"
       },
       "answer_type": "string",
       "answer": "por exemplo"
@@ -827,7 +827,7 @@
       "id": 83,
       "doc": "talk_1978_pt_tok",
       "variables": {
-        "arg1": "o meu primeiro trabalho foi trabalhar no Museu de Arte Moderna numa retrospetiva Da pintora Elizabeth Murray",
+        "arg1": "o meu primeiro trabalho foi trabalhar no Museu de Arte Moderna numa retrospetiva da pintora Elizabeth Murray",
         "arg2": "Aprendi muito com ela"
       },
       "answer_type": "string",
@@ -837,7 +837,7 @@
       "id": 84,
       "doc": "talk_1927_pt_tok",
       "variables": {
-        "arg1": "temos hoje sete mil milhões de almas a caminho dos 10 mil milhões até Ao final do século",
+        "arg1": "temos hoje sete mil milhões de almas a caminho dos 10 mil milhões até ao final do século",
         "arg2": "consumimos recursos naturais mais depressa do que eles podem ser repostos"
       },
       "answer_type": "string",
@@ -847,7 +847,7 @@
       "id": 85,
       "doc": "talk_1976_pt_tok",
       "variables": {
-        "arg1": "Efectuámos este teste 16 vezes , e Das 16 vezes voltou à posição exacta com a precisão de um décimo de milímetro",
+        "arg1": "Efectuámos este teste 16 vezes , e das 16 vezes voltou à posição exacta com a precisão de um décimo de milímetro",
         "arg2": "Isto tem que ser feito com grande precisão"
       },
       "answer_type": "string",
@@ -858,7 +858,7 @@
       "doc": "talk_1978_pt_tok",
       "variables": {
         "arg1": "O pintor Paul Cézanne pensava tantas vezes que as suas obras estavam incompletas que as punha deliberadamente de lado com a intenção de pegar em  elas outra vez",
-        "arg2": "mas , no fim Da sua vida , o que aconteceu foi que ele só tinha assinado dez por cento Das suas pinturas"
+        "arg2": "mas , no fim da sua vida , o que aconteceu foi que ele só tinha assinado dez por cento das suas pinturas"
       },
       "answer_type": "string",
       "answer": "por conseguinte"
@@ -867,7 +867,7 @@
       "id": 87,
       "doc": "talk_1927_pt_tok",
       "variables": {
-        "arg1": "Eu acho uma imprudência ignorar estas coisas , porque , Ao fazê# -lo , podemos comprometer retornos a longo prazo no futuro",
+        "arg1": "Eu acho uma imprudência ignorar estas coisas , porque , ao fazê# -lo , podemos comprometer retornos a longo prazo no futuro",
         "arg2": "Esta é uma coisa que vos pode surpreender : o equilíbrio do poder para influenciar a sustentabilidade está nas mãos dos investidores institucionais , os grandes investidores tais como os fundos de pensão , as fundações e as dotações"
       },
       "answer_type": "string",
@@ -888,7 +888,7 @@
       "doc": "talk_2150_pt_tok_inter",
       "variables": {
         "arg1": "Isto não é um mapa geográfico",
-        "arg2": "Isto é um mapa Das relações entre as pessoas na minha cidade de Baltimore , Maryland"
+        "arg2": "Isto é um mapa das relações entre as pessoas na minha cidade de Baltimore , Maryland"
       },
       "answer_type": "string",
       "answer": "pelo contrário"
@@ -907,8 +907,8 @@
       "id": 91,
       "doc": "talk_2150_pt_tok_inter",
       "variables": {
-        "arg1": "temos este grupo predominante de \" geeks \" e técnicos que parece ocuparem a metade superior Da rede",
-        "arg2": "Há mesmo um grupo tão distinto e nítido que podemos identificá# -lo como empregados do Twitter , Ao pé dos \" geeks \" , entre os jogadores e os \" geeks \" , na extremidade oposta do espetro do \" hip-hop \""
+        "arg1": "temos este grupo predominante de \" geeks \" e técnicos que parece ocuparem a metade superior da rede",
+        "arg2": "Há mesmo um grupo tão distinto e nítido que podemos identificá# -lo como empregados do Twitter , ao pé dos \" geeks \" , entre os jogadores e os \" geeks \" , na extremidade oposta do espetro do \" hip-hop \""
       },
       "answer_type": "string",
       "answer": "e"
@@ -918,7 +918,7 @@
       "doc": "talk_1927_pt_tok",
       "variables": {
         "arg1": ", venderam o seu principal negócio de ferramentas elétrica",
-        "arg2": "s e reinvestiram o que apuraram no negócio Da águ"
+        "arg2": "s e reinvestiram o que apuraram no negócio da águ"
       },
       "answer_type": "string",
       "answer": "a seguir"
@@ -958,7 +958,7 @@
       "doc": "talk_1927_pt_tok",
       "variables": {
         "arg1": "O que realmente me irrita é : \" Se quiserem fazer alguma coisa quanto a isso , \" ganhem dinheiro e deem os lucros para obras de caridade",
-        "arg2": "É de bradar Aos céus"
+        "arg2": "É de bradar aos céus"
       },
       "answer_type": "string",
       "answer": "no implicit connective"
@@ -977,7 +977,7 @@
       "id": 98,
       "doc": "talk_1978_pt_tok",
       "variables": {
-        "arg1": "Vemos isso até na vida do indomável explorador do Ártico , Ben Saunders , que me disse que os seus triunfos não são simplesmente resultado de uma grande façanha , mas Da propulsão de  uma série de quase vitórias",
+        "arg1": "Vemos isso até na vida do indomável explorador do Ártico , Ben Saunders , que me disse que os seus triunfos não são simplesmente resultado de uma grande façanha , mas da propulsão de  uma série de quase vitórias",
         "arg2": "Evoluímos quando nos mantemos na nossa vanguarda"
       },
       "answer_type": "string",
@@ -998,7 +998,7 @@
       "doc": "talk_1927_pt_tok",
       "variables": {
         "arg1": "Eles acreditam que é fundamental apoiar rendimentos de longo prazo sustentáveis , ponto final",
-        "arg2": "a criação de valor de longo prazo requer a gestão eficaz \" Das três formas de capital : financeiro , humano e físico"
+        "arg2": "a criação de valor de longo prazo requer a gestão eficaz \" das três formas de capital : financeiro , humano e físico"
       },
       "answer_type": "string",
       "answer": "isto é"
@@ -1007,7 +1007,7 @@
       "id": 101,
       "doc": "talk_1927_pt_tok",
       "variables": {
-        "arg1": "Eles acreditam que o ASG tem o potencial de criar impacto em riscos e receitas , assim , incorporar o ASG no processo de investimento é fundamental Ao seu dever de agir no melhor interesse dos membros do fundo , é fundamental Ao seu dever",
+        "arg1": "Eles acreditam que o ASG tem o potencial de criar impacto em riscos e receitas , assim , incorporar o ASG no processo de investimento é fundamental ao seu dever de agir no melhor interesse dos membros do fundo , é fundamental ao seu dever",
         "arg2": "Temos que gostar dos australianos , não é"
       },
       "answer_type": "string",
@@ -1018,7 +1018,7 @@
       "doc": "talk_1978_pt_tok",
       "variables": {
         "arg1": "Quantos inventores e empresários desconhecidos vivem este fenómeno",
-        "arg2": "Vemos isso até na vida do indomável explorador do Ártico , Ben Saunders , que me disse que os seus triunfos não são simplesmente resultado de uma grande façanha , mas Da propulsão de  uma série de quase vitórias"
+        "arg2": "Vemos isso até na vida do indomável explorador do Ártico , Ben Saunders , que me disse que os seus triunfos não são simplesmente resultado de uma grande façanha , mas da propulsão de  uma série de quase vitórias"
       },
       "answer_type": "string",
       "answer": "por exemplo"
@@ -1058,7 +1058,7 @@
       "doc": "talk_2009_pt_tok",
       "variables": {
         "arg1": "existem muitos aspetos desta vida que estão longe de ser idílicos",
-        "arg2": "Ninguém perde os seus demónios interiores Ao meter -se à estrada"
+        "arg2": "Ninguém perde os seus demónios interiores ao meter -se à estrada"
       },
       "answer_type": "string",
       "answer": "porque"
@@ -1077,7 +1077,7 @@
       "id": 108,
       "doc": "talk_2150_pt_tok_inter",
       "variables": {
-        "arg1": "olhar apenas para a etnia não contribui muito para o desenvolvimento Da diversidade",
+        "arg1": "olhar apenas para a etnia não contribui muito para o desenvolvimento da diversidade",
         "arg2": "Se tentarmos usar a diversidade como forma de resolver alguns dos problemas mais difíceis , precisamos de começar a pensar sobre a diversidade de forma diferente"
       },
       "answer_type": "string",
@@ -1097,7 +1097,7 @@
       "id": 110,
       "doc": "talk_1927_pt_tok",
       "variables": {
-        "arg1": "Há riscos e custos num programa de ação , \" mas eles são bem menores do que os riscos a longo prazo \" Da inação confortável",
+        "arg1": "Há riscos e custos num programa de ação , \" mas eles são bem menores do que os riscos a longo prazo \" da inação confortável",
         "arg2": "Reconheço que há nisso um risco calculado"
       },
       "answer_type": "string",
@@ -1127,7 +1127,7 @@
       "id": 113,
       "doc": "talk_1978_pt_tok",
       "variables": {
-        "arg1": "A razão por que a quase vitória tem propulsão é porque altera a nossa visão Da paisagem e coloca as nossas metas , que temos a tendência para pôr à distância , muito mais próximas de onde estamos",
+        "arg1": "A razão por que a quase vitória tem propulsão é porque altera a nossa visão da paisagem e coloca as nossas metas , que temos a tendência para pôr à distância , muito mais próximas de onde estamos",
         "arg2": "Se eu vos pedir para imaginarem como será um dia maravilhoso na próxima semana , poderão descrevê# -lo em termos muito gerais"
       },
       "answer_type": "string",
@@ -1148,7 +1148,7 @@
       "doc": "talk_2009_pt_tok",
       "variables": {
         "arg1": "Onde outros veem histórias de privação e fracasso económico",
-        "arg2": "os viajantes visualizam a sua própria existência através Da perspetiva Da libertação e liberdade"
+        "arg2": "os viajantes visualizam a sua própria existência através da perspetiva da libertação e liberdade"
       },
       "answer_type": "string",
       "answer": "pelo contrário"
@@ -1157,8 +1157,8 @@
       "id": 116,
       "doc": "talk_1927_pt_tok",
       "variables": {
-        "arg1": "O social inclui o capital humano , coisas como o envolvimento dos empregados e capacidade de inovação , assim como a gestão Da cadeia de fornecimento , direitos dos trabalhadores e direitos humanos",
-        "arg2": "Governação refere -se à supervisão Das empresas através dos conselhos e dos investidores"
+        "arg1": "O social inclui o capital humano , coisas como o envolvimento dos empregados e capacidade de inovação , assim como a gestão da cadeia de fornecimento , direitos dos trabalhadores e direitos humanos",
+        "arg2": "Governação refere -se à supervisão das empresas através dos conselhos e dos investidores"
       },
       "answer_type": "string",
       "answer": "e"
@@ -1178,7 +1178,7 @@
       "doc": "talk_1927_pt_tok",
       "variables": {
         "arg1": ". A Pentair é um conglomerado industrial dos EU",
-        "arg2": ". Há cerca de uma década , venderam o seu principal negócio de ferramentas elétricas e reinvestiram o que apuraram no negócio Da águ"
+        "arg2": ". Há cerca de uma década , venderam o seu principal negócio de ferramentas elétricas e reinvestiram o que apuraram no negócio da águ"
       },
       "answer_type": "string",
       "answer": "e"
@@ -1208,7 +1208,7 @@
       "doc": "talk_1927_pt_tok",
       "variables": {
         "arg1": "O mundo está a mudar de formas muito profundas",
-        "arg2": "Preocupa -me que os investidores não estejam a prestar suficiente atenção a algumas Das principais forças de mudança , especialmente no que se refere à sustentabilidade"
+        "arg2": "Preocupa -me que os investidores não estejam a prestar suficiente atenção a algumas das principais forças de mudança , especialmente no que se refere à sustentabilidade"
       },
       "answer_type": "string",
       "answer": "e"
@@ -1227,8 +1227,8 @@
       "id": 123,
       "doc": "talk_1927_pt_tok",
       "variables": {
-        "arg1": "Isso significa limitar o risco futuro minimizando os danos às pessoas e Ao planeta",
-        "arg2": "Isso significa providenciar capital Aos utilizadores que o aplicam para a obtenção de resultados produtivos e sustentáveis"
+        "arg1": "Isso significa limitar o risco futuro minimizando os danos às pessoas e ao planeta",
+        "arg2": "Isso significa providenciar capital aos utilizadores que o aplicam para a obtenção de resultados produtivos e sustentáveis"
       },
       "answer_type": "string",
       "answer": "e"
@@ -1237,7 +1237,7 @@
       "id": 124,
       "doc": "talk_1927_pt_tok",
       "variables": {
-        "arg1": "Ambiente inclui consumo de energia , disponibilidade de água , lixo e poluição . Trata do uso eficaz dos recursos . O social inclui o capital humano , coisas como o envolvimento dos empregados e capacidade de inovação , assim como a gestão Da cadeia de fornecimento , direitos dos trabalhadores e direitos humanos . Governação refere -se à supervisão Das empresas através dos conselhos e dos investidores",
+        "arg1": "Ambiente inclui consumo de energia , disponibilidade de água , lixo e poluição . Trata do uso eficaz dos recursos . O social inclui o capital humano , coisas como o envolvimento dos empregados e capacidade de inovação , assim como a gestão da cadeia de fornecimento , direitos dos trabalhadores e direitos humanos . Governação refere -se à supervisão das empresas através dos conselhos e dos investidores",
         "arg2": "Eu disse que isto é o que realmente interessa"
       },
       "answer_type": "string",
@@ -1257,7 +1257,7 @@
       "id": 126,
       "doc": "talk_1978_pt_tok",
       "variables": {
-        "arg1": "Parte Da razão por que a quase vitória está entranhada na mestria é porque , quanto maior for a nossa capacidade , mais claramente podemos ver que não sabemos tudo aquilo que julgávamos saber",
+        "arg1": "Parte da razão por que a quase vitória está entranhada na mestria é porque , quanto maior for a nossa capacidade , mais claramente podemos ver que não sabemos tudo aquilo que julgávamos saber",
         "arg2": "Chama -se o efeito Dunning-Kruger"
       },
       "answer_type": "string",
@@ -1277,7 +1277,7 @@
       "id": 128,
       "doc": "talk_1927_pt_tok",
       "variables": {
-        "arg1": "Estas são questões económicas , e isso torna -as relevantes quanto Ao risco e Ao retorno",
+        "arg1": "Estas são questões económicas , e isso torna -as relevantes quanto ao risco e ao retorno",
         "arg2": "São realmente complexas e podem parecer muito distantes"
       },
       "answer_type": "string",
@@ -1287,7 +1287,7 @@
       "id": 129,
       "doc": "talk_1978_pt_tok",
       "variables": {
-        "arg1": "a busca Da mestria , é quase de avanço perpétuo . \" Senhor , concedei -me que eu deseje \" mais do que aquilo que consigo realizar \" , implorava Miguel Ângelo , como se fosse àquele Deus do Antigo Testamento na Capela Sistina , e ele fosse aquele Adão com o dedo esticado e sem conseguir tocar na mão de  aquele Deus",
+        "arg1": "a busca da mestria , é quase de avanço perpétuo . \" Senhor , concedei -me que eu deseje \" mais do que aquilo que consigo realizar \" , implorava Miguel Ângelo , como se fosse àquele Deus do Antigo Testamento na Capela Sistina , e ele fosse aquele Adão com o dedo esticado e sem conseguir tocar na mão de  aquele Deus",
         "arg2": "A mestria está em atingir , não em chegar"
       },
       "answer_type": "string",
@@ -1297,7 +1297,7 @@
       "id": 130,
       "doc": "talk_1976_pt_tok",
       "variables": {
-        "arg1": "Tem cerca de metade do tamanho Da que viram antes",
+        "arg1": "Tem cerca de metade do tamanho da que viram antes",
         "arg2": "Podem ver as pétalas a desdobrar"
       },
       "answer_type": "string",
@@ -1308,7 +1308,7 @@
       "doc": "talk_2150_pt_tok_inter",
       "variables": {
         "arg1": "Têm na mesma o grupo de pessoas envolvidas no governo , na imprensa , os políticos , os colunistas",
-        "arg2": "TEDxRio está em baixo à direita , Ao pé dos bloguistas e escritores"
+        "arg2": "TEDxRio está em baixo à direita , ao pé dos bloguistas e escritores"
       },
       "answer_type": "string",
       "answer": "além disso"
@@ -1327,7 +1327,7 @@
       "id": 133,
       "doc": "talk_2009_pt_tok",
       "variables": {
-        "arg1": "os viajantes visualizam a sua própria existência através Da perspetiva Da libertação e liberdade",
+        "arg1": "os viajantes visualizam a sua própria existência através da perspetiva da libertação e liberdade",
         "arg2": "Preferem viver fora do excesso do que veem como uma sociedade de consumo e de desperdício , do que aprisionados numa possibilidade irrealista no sonho americano tradicional"
       },
       "answer_type": "string",
@@ -1378,7 +1378,7 @@
       "doc": "talk_1978_pt_tok",
       "variables": {
         "arg1": "É uma sabedoria que Duke Ellington percebia , quando disse que a canção preferida do seu repertório era sempre a seguinte , sempre aquela que ele ainda ia compor",
-        "arg2": "Parte Da razão por que a quase vitória está entranhada na mestria é porque , quanto maior for a nossa capacidade , mais claramente podemos ver que não sabemos tudo aquilo que julgávamos saber"
+        "arg2": "Parte da razão por que a quase vitória está entranhada na mestria é porque , quanto maior for a nossa capacidade , mais claramente podemos ver que não sabemos tudo aquilo que julgávamos saber"
       },
       "answer_type": "string",
       "answer": "no implicit connective"
@@ -1397,8 +1397,8 @@
       "id": 140,
       "doc": "talk_2009_pt_tok",
       "variables": {
-        "arg1": "Outros vêm Da parte inferior Da sociedade , nunca tiveram uma oportunidade de ascender : rejeitados de adoções , adolescentes fugitivos a escapar de abusos e de casas implacáveis",
-        "arg2": "Onde outros veem histórias de privação e fracasso económico , os viajantes visualizam a sua própria existência através Da perspetiva Da libertação e liberdade"
+        "arg1": "Outros vêm da parte inferior da sociedade , nunca tiveram uma oportunidade de ascender : rejeitados de adoções , adolescentes fugitivos a escapar de abusos e de casas implacáveis",
+        "arg2": "Onde outros veem histórias de privação e fracasso económico , os viajantes visualizam a sua própria existência através da perspetiva da libertação e liberdade"
       },
       "answer_type": "string",
       "answer": "no implicit connective"
@@ -1407,7 +1407,7 @@
       "id": 141,
       "doc": "talk_1927_pt_tok",
       "variables": {
-        "arg1": ". Há cerca de uma década , venderam o seu principal negócio de ferramentas elétricas e reinvestiram o que apuraram no negócio Da água . Foi uma aposta muito grand",
+        "arg1": ". Há cerca de uma década , venderam o seu principal negócio de ferramentas elétricas e reinvestiram o que apuraram no negócio da água . Foi uma aposta muito grand",
         "arg2": ". Porque é que fizeram iss"
       },
       "answer_type": "string",
@@ -1417,8 +1417,8 @@
       "id": 142,
       "doc": "talk_1976_pt_tok",
       "variables": {
-        "arg1": "Foi tirada pela nave Voyager em 1990 , quando a fizeram rodar Ao sair do sistema solar para tirar uma foto Da Terra à distância de seis mil milhões de quilómetros",
-        "arg2": "Gostaria de ter uma de um planeta do tipo Da Terra na órbita de outra estrela"
+        "arg1": "Foi tirada pela nave Voyager em 1990 , quando a fizeram rodar ao sair do sistema solar para tirar uma foto da Terra à distância de seis mil milhões de quilómetros",
+        "arg2": "Gostaria de ter uma de um planeta do tipo da Terra na órbita de outra estrela"
       },
       "answer_type": "string",
       "answer": "Da mesma forma"
@@ -1428,7 +1428,7 @@
       "doc": "talk_1976_pt_tok",
       "variables": {
         "arg1": "É uma sombra estelar em escala reduzida",
-        "arg2": "Tem cerca de metade do tamanho Da que viram antes"
+        "arg2": "Tem cerca de metade do tamanho da que viram antes"
       },
       "answer_type": "string",
       "answer": "e"
@@ -1458,7 +1458,7 @@
       "doc": "talk_2009_pt_tok",
       "variables": {
         "arg1": "Este é o sonho nómada , um tipo diferente de sonho americano vivido por jovens trabalhadores migratórios , viajantes , pedintes de boleia , vadios e vagabundos",
-        "arg2": "Na maioria Das nossas mentes , o vagabundo é uma criatura do passado"
+        "arg2": "Na maioria das nossas mentes , o vagabundo é uma criatura do passado"
       },
       "answer_type": "string",
       "answer": "no implicit connective"
@@ -1477,7 +1477,7 @@
       "id": 148,
       "doc": "talk_1978_pt_tok",
       "variables": {
-        "arg1": "o que o treinador Das arqueiras me disse no fim de  aquele treino , sem que as arqueiras ouvissem , que ele e os seus colegas nunca sentem que fazem tudo o que podem pela sua equipa , nunca sentem que há visualizações técnicas e treinos de postura suficientes para as ajudar a ultrapassar aquelas constantes quase vitórias",
+        "arg1": "o que o treinador das arqueiras me disse no fim de  aquele treino , sem que as arqueiras ouvissem , que ele e os seus colegas nunca sentem que fazem tudo o que podem pela sua equipa , nunca sentem que há visualizações técnicas e treinos de postura suficientes para as ajudar a ultrapassar aquelas constantes quase vitórias",
         "arg2": "Não parecia propriamente um lamento"
       },
       "answer_type": "string",
@@ -1537,8 +1537,8 @@
       "id": 154,
       "doc": "talk_2150_pt_tok_inter",
       "variables": {
-        "arg1": "chamamos Smalltimore à parte verde Da rede , Aos que ali moram , porque parece que vivemos numa cidade muito pequena . Estamos sempre a encontrar as mesmas pessoas , mas isso acontece porque não exploramos toda a profundidade e amplitude Da cidade",
-        "arg2": "Na outra extremidade Da rede , temos pessoas que se interessam por música \" hip-hop \" e até se identificam dizendo que vivem na área DC / Maryland / Virginia , em vez de dizerem na cidade de Baltimore , a designação apropriada"
+        "arg1": "chamamos Smalltimore à parte verde da rede , aos que ali moram , porque parece que vivemos numa cidade muito pequena . Estamos sempre a encontrar as mesmas pessoas , mas isso acontece porque não exploramos toda a profundidade e amplitude da cidade",
+        "arg2": "Na outra extremidade da rede , temos pessoas que se interessam por música \" hip-hop \" e até se identificam dizendo que vivem na área DC / Maryland / Virginia , em vez de dizerem na cidade de Baltimore , a designação apropriada"
       },
       "answer_type": "string",
       "answer": "por outro lado"
@@ -1567,8 +1567,8 @@
       "id": 157,
       "doc": "talk_1978_pt_tok",
       "variables": {
-        "arg1": "Construímos a partir Da ideia inacabada , mesmo que essa ideia seja o nosso antigo Eu",
-        "arg2": "É esta a dinâmica Da mestria"
+        "arg1": "Construímos a partir da ideia inacabada , mesmo que essa ideia seja o nosso antigo Eu",
+        "arg2": "É esta a dinâmica da mestria"
       },
       "answer_type": "string",
       "answer": "e"
@@ -1588,7 +1588,7 @@
       "doc": "talk_1927_pt_tok",
       "variables": {
         "arg1": "isto não é tudo",
-        "arg2": "Estas são questões económicas , e isso torna -as relevantes quanto Ao risco e Ao retorno"
+        "arg2": "Estas são questões económicas , e isso torna -as relevantes quanto ao risco e ao retorno"
       },
       "answer_type": "string",
       "answer": "além disso"
@@ -1617,7 +1617,7 @@
       "id": 162,
       "doc": "talk_1927_pt_tok",
       "variables": {
-        "arg1": "Em 2012 , o State Street migrou 54 aplicações para o ambiente Da nuvem , e retirámos outras 85",
+        "arg1": "Em 2012 , o State Street migrou 54 aplicações para o ambiente da nuvem , e retirámos outras 85",
         "arg2": "Virtualizámos os ambientes dos nossos sistemas operativos e completámos numerosos projetos de automação"
       },
       "answer_type": "string",
@@ -1627,7 +1627,7 @@
       "id": 163,
       "doc": "talk_1927_pt_tok",
       "variables": {
-        "arg1": "Eu gosto porque faz troça dos dois lados Da questão Da alteração climática",
+        "arg1": "Eu gosto porque faz troça dos dois lados da questão da alteração climática",
         "arg2": "Aposto que não adivinham de que lado estou"
       },
       "answer_type": "string",
@@ -1658,7 +1658,7 @@
       "doc": "talk_2150_pt_tok_inter",
       "variables": {
         "arg1": "Vemos uma coisa um pouco diferente a acontecer em São Francisco",
-        "arg2": "Por um lado , temos os \" media \" , a política e a imprensa , grupo que também existe em Baltimore e em  outras cidades , mas também temos este grupo predominante de \" geeks \" e técnicos que parece ocuparem a metade superior Da rede"
+        "arg2": "Por um lado , temos os \" media \" , a política e a imprensa , grupo que também existe em Baltimore e em  outras cidades , mas também temos este grupo predominante de \" geeks \" e técnicos que parece ocuparem a metade superior da rede"
       },
       "answer_type": "string",
       "answer": "de facto"
@@ -1707,7 +1707,7 @@
       "id": 171,
       "doc": "talk_1971_pt_tok",
       "variables": {
-        "arg1": "um lugar para começar a curar as almas Das pessoas afetadas por guerras e doenças é através Da criação de dispositivos confortáveis e acessíveis para os seus corpos",
+        "arg1": "um lugar para começar a curar as almas das pessoas afetadas por guerras e doenças é através da criação de dispositivos confortáveis e acessíveis para os seus corpos",
         "arg2": "Seja na Serra Leoa ou em Boston , espero que isso não só restaure mas que também transforme o seu senso de potencial humano"
       },
       "answer_type": "string",
@@ -1737,7 +1737,7 @@
       "id": 174,
       "doc": "talk_1978_pt_tok",
       "variables": {
-        "arg1": "Os mestres não são especialistas por levar um tema Ao seu fim conceptual",
+        "arg1": "Os mestres não são especialistas por levar um tema ao seu fim conceptual",
         "arg2": "São mestres porque percebem que ele não existe"
       },
       "answer_type": "string",
@@ -1748,7 +1748,7 @@
       "doc": "talk_1976_pt_tok",
       "variables": {
         "arg1": "Seria algo parecido com isto",
-        "arg2": "Aqui está a tela grande , e não há planetas , porque , infelizmente , não funciona lá muito bem por causa Das ondas luminosas e as ondas sofrem difracção à volta dessa tela tal como no telescópio"
+        "arg2": "Aqui está a tela grande , e não há planetas , porque , infelizmente , não funciona lá muito bem por causa das ondas luminosas e as ondas sofrem difracção à volta dessa tela tal como no telescópio"
       },
       "answer_type": "string",
       "answer": "no implicit connective"
@@ -1758,7 +1758,7 @@
       "doc": "talk_1971_pt_tok",
       "variables": {
         "arg1": "estamos a usar dados para fazer novos encaixes , rapidamente e com baixo custo",
-        "arg2": "num ensaio recente , que acabamos de concluir no Media Lab Da MIT , um dos nossos pacientes , um veterano de guerra americano , que foi amputado há cerca de 20 anos e já usou dezenas de próteses , disse que um dos nossos encaixes impressos , \" é tão macio quanto andar sobre almofadas , \" e é super sexy"
+        "arg2": "num ensaio recente , que acabamos de concluir no Media Lab da MIT , um dos nossos pacientes , um veterano de guerra americano , que foi amputado há cerca de 20 anos e já usou dezenas de próteses , disse que um dos nossos encaixes impressos , \" é tão macio quanto andar sobre almofadas , \" e é super sexy"
       },
       "answer_type": "string",
       "answer": "por exemplo"
@@ -1777,7 +1777,7 @@
       "id": 178,
       "doc": "talk_2150_pt_tok_inter",
       "variables": {
-        "arg1": "penso que uma cidade é a soma Das relações Das pessoas que lá vivem",
+        "arg1": "penso que uma cidade é a soma das relações das pessoas que lá vivem",
         "arg2": "Acho que , se começarmos a documentar essas relações de forma real talvez tenhamos uma hipótese para criar o tipo de cidades que gostaríamos de ter"
       },
       "answer_type": "string",
@@ -1797,7 +1797,7 @@
       "id": 180,
       "doc": "talk_1976_pt_tok",
       "variables": {
-        "arg1": "Isto é uma imagem de uma Das estrelas mais próximas de nós obtida com o Telescópio Espacial Hubble",
+        "arg1": "Isto é uma imagem de uma das estrelas mais próximas de nós obtida com o Telescópio Espacial Hubble",
         "arg2": "Se usarmos um telescópio semelhante , ligeiramente maior , se o colocarmos no espaço , se pusermos uma antepara à sua frente , o que poderemos ver é algo como isto — isto é um retrato de família do nosso sistema solar — mas não o nosso"
       },
       "answer_type": "string",
@@ -1838,7 +1838,7 @@
       "doc": "talk_1978_pt_tok",
       "variables": {
         "arg1": "Aprendi muito com ela",
-        "arg2": "Depois do curador Robert Storr ter escolhido todos os quadros entre o conjunto de obras Da vida dela , eu adorava olhar para as pinturas dos anos 70"
+        "arg2": "Depois do curador Robert Storr ter escolhido todos os quadros entre o conjunto de obras da vida dela , eu adorava olhar para as pinturas dos anos 70"
       },
       "answer_type": "string",
       "answer": "de facto"
@@ -1858,7 +1858,7 @@
       "doc": "talk_1978_pt_tok",
       "variables": {
         "arg1": "Há muito que faço a mim mesma esta pergunta",
-        "arg2": "Acho que ela chega quando começamos a dar valor Ao dom de uma quase vitória"
+        "arg2": "Acho que ela chega quando começamos a dar valor ao dom de uma quase vitória"
       },
       "answer_type": "string",
       "answer": "e"
@@ -1868,7 +1868,7 @@
       "doc": "talk_2150_pt_tok_inter",
       "variables": {
         "arg1": "Passei umas semanas a reunir dados sobre o Rio",
-        "arg2": "Uma Das coisas que ressaltou nesta cidade é que está tudo muito misturado"
+        "arg2": "Uma das coisas que ressaltou nesta cidade é que está tudo muito misturado"
       },
       "answer_type": "string",
       "answer": "e"
@@ -1877,7 +1877,7 @@
       "id": 188,
       "doc": "talk_1976_pt_tok",
       "variables": {
-        "arg1": "Gostaria de ter uma de um planeta do tipo Da Terra na órbita de outra estrela",
+        "arg1": "Gostaria de ter uma de um planeta do tipo da Terra na órbita de outra estrela",
         "arg2": "Porque ainda não o conseguimos"
       },
       "answer_type": "string",
@@ -1908,7 +1908,7 @@
       "doc": "talk_1971_pt_tok",
       "variables": {
         "arg1": "A minha esperança e desejo é que as ferramentas e os processos que desenvolvemos no nosso grupo de pesquisa possam ser usadas para criar próteses altamente funcionais para aqueles que precisam",
-        "arg2": "Para mim , um lugar para começar a curar as almas Das pessoas afetadas por guerras e doenças é através Da criação de dispositivos confortáveis e acessíveis para os seus corpos"
+        "arg2": "Para mim , um lugar para começar a curar as almas das pessoas afetadas por guerras e doenças é através da criação de dispositivos confortáveis e acessíveis para os seus corpos"
       },
       "answer_type": "string",
       "answer": "além disso"
@@ -1937,8 +1937,8 @@
       "id": 194,
       "doc": "talk_1927_pt_tok",
       "variables": {
-        "arg1": "A azul , vemos o desempenho Das 500 maiores companhias mundiais e a dourado , vemos um subconjunto de companhias com as melhores práticas em estratégias de alteração climática e gestão de riscos",
-        "arg2": "Ao fim de quase oito anos , elas superaram o seu desempenho em quase dois terços"
+        "arg1": "A azul , vemos o desempenho das 500 maiores companhias mundiais e a dourado , vemos um subconjunto de companhias com as melhores práticas em estratégias de alteração climática e gestão de riscos",
+        "arg2": "ao fim de quase oito anos , elas superaram o seu desempenho em quase dois terços"
       },
       "answer_type": "string",
       "answer": "isto é"
@@ -1997,8 +1997,8 @@
       "id": 200,
       "doc": "talk_1927_pt_tok",
       "variables": {
-        "arg1": "Preocupa -me que os investidores não estejam a prestar suficiente atenção a algumas Das principais forças de mudança , especialmente no que se refere à sustentabilidade .",
-        "arg2": "Por sustentabilidade , quero dizer as coisas que realmente interessam , tais como questões ambientais e sociais e a liderança Das corporações ."
+        "arg1": "Preocupa -me que os investidores não estejam a prestar suficiente atenção a algumas das principais forças de mudança , especialmente no que se refere à sustentabilidade .",
+        "arg2": "Por sustentabilidade , quero dizer as coisas que realmente interessam , tais como questões ambientais e sociais e a liderança das corporações ."
       },
       "answer_type": "string",
       "answer": "no implicit connective"
@@ -2007,7 +2007,7 @@
       "id": 201,
       "doc": "talk_1978_pt_tok",
       "variables": {
-        "arg1": "É esta a dinâmica Da mestria",
+        "arg1": "É esta a dinâmica da mestria",
         "arg2": "Aproximarmo -nos de  aquilo que pensávamos que queríamos pode ajudar -nos a alcançar mais do que o que jamais sonháramos poder"
       },
       "answer_type": "string",
@@ -2037,7 +2037,7 @@
       "id": 204,
       "doc": "talk_1971_pt_tok",
       "variables": {
-        "arg1": "para a minha tese de doutoramento no Media Lab Da MIT , desenvolvi encaixes de próteses por medida , de forma rápida e barata , que são mais confortáveis que as próteses convencionais",
+        "arg1": "para a minha tese de doutoramento no Media Lab da MIT , desenvolvi encaixes de próteses por medida , de forma rápida e barata , que são mais confortáveis que as próteses convencionais",
         "arg2": "Usei imagens de ressonância magnética para captar a real anatomia do paciente"
       },
       "answer_type": "string",
@@ -2067,7 +2067,7 @@
       "id": 207,
       "doc": "talk_1978_pt_tok",
       "variables": {
-        "arg1": "Eu queria ver aquilo a que se chama o paradoxo do arqueiro , a ideia de que , para acertar em cheio no alvo , é preciso visar um pouco Ao lado",
+        "arg1": "Eu queria ver aquilo a que se chama o paradoxo do arqueiro , a ideia de que , para acertar em cheio no alvo , é preciso visar um pouco ao lado",
         "arg2": "Fiquei a observar enquanto o treinador conduzia aquelas mulheres numa carrinha cinzenta e elas sairam com aquele ar de concentração descontraída"
       },
       "answer_type": "string",
@@ -2137,7 +2137,7 @@
       "id": 214,
       "doc": "talk_1978_pt_tok",
       "variables": {
-        "arg1": "No fim do treino , uma Das arqueiras estava tão exausta que se deitou no chão sem se poder mexer , a olhar para o céu , tentando encontrar o que T . S. Elliot podia ter chamado aquele \" ponto imóvel no mundo em rotação \"",
+        "arg1": "No fim do treino , uma das arqueiras estava tão exausta que se deitou no chão sem se poder mexer , a olhar para o céu , tentando encontrar o que T . S. Elliot podia ter chamado aquele \" ponto imóvel no mundo em rotação \"",
         "arg2": "É tão raro na cultura americana , já há tão pouca vocação em qualquer coisa , olhar para o que é a perseverança com este nível de exactidão , o que significa manter a postura do nosso corpo durante três horas , para atingir um alvo , procurando uma qualquer excelência na obscuridade"
       },
       "answer_type": "string",
@@ -2167,7 +2167,7 @@
       "id": 217,
       "doc": "talk_1927_pt_tok",
       "variables": {
-        "arg1": "É de bradar Aos céus",
+        "arg1": "É de bradar aos céus",
         "arg2": "Quero dizer , deixem -me esclarecer uma coisa"
       },
       "answer_type": "string",
@@ -2187,7 +2187,7 @@
       "id": 219,
       "doc": "talk_1976_pt_tok",
       "variables": {
-        "arg1": "Isto parece formidável , mas engenheiros brilhantes , colegas meus no LPJ , conseguiram um \" design \" fabuloso para o conseguir e é parecido com isto . De início está enrolado num eixo . Separa -se do telescópio . As pétalas desdobram -se , abrem -se , o telescópio vira -se . Então ele vira -se e afasta -se 50 000 quilómetros do telescópio . Coloca -se à frente Da estrela deste modo , criando uma sombra maravilhosa . Zás , vemos os planetas a orbitar à sua volta",
+        "arg1": "Isto parece formidável , mas engenheiros brilhantes , colegas meus no LPJ , conseguiram um \" design \" fabuloso para o conseguir e é parecido com isto . De início está enrolado num eixo . Separa -se do telescópio . As pétalas desdobram -se , abrem -se , o telescópio vira -se . Então ele vira -se e afasta -se 50 000 quilómetros do telescópio . Coloca -se à frente da estrela deste modo , criando uma sombra maravilhosa . Zás , vemos os planetas a orbitar à sua volta",
         "arg2": "Não é ficção científica"
       },
       "answer_type": "string",
@@ -2217,7 +2217,7 @@
       "id": 222,
       "doc": "talk_1927_pt_tok",
       "variables": {
-        "arg1": "Temos uma população que está a crescer e a envelhecer ; temos hoje sete mil milhões de almas a caminho dos 10 mil milhões até Ao final do século ; consumimos recursos naturais mais depressa do que eles podem ser repostos ; e as emissões , que são as principais responsáveis pela alteração climática , continuam a aumentar",
+        "arg1": "Temos uma população que está a crescer e a envelhecer ; temos hoje sete mil milhões de almas a caminho dos 10 mil milhões até ao final do século ; consumimos recursos naturais mais depressa do que eles podem ser repostos ; e as emissões , que são as principais responsáveis pela alteração climática , continuam a aumentar",
         "arg2": "estas são questões ambientais e sociais , mas isto não é tudo"
       },
       "answer_type": "string",
@@ -2238,7 +2238,7 @@
       "doc": "talk_1976_pt_tok",
       "variables": {
         "arg1": "fizemos um teste mesmo fixe na Califórnia , na Northrop Grumman",
-        "arg2": "São quatro pétalas . É uma sombra estelar em escala reduzida . Tem cerca de metade do tamanho Da que viram antes . Podem ver as pétalas a desdobrar . Essas quatro pétalas foram construídas por quatro estudantes universitários num curso de verão no LPJ . Agora podem vê# -la a desenrolar . As petalas têm que se colocar em posição . A base de  essas pétalas tem que se colocar sempre na mesma posição com a precisão de um décimo de milímetro"
+        "arg2": "São quatro pétalas . É uma sombra estelar em escala reduzida . Tem cerca de metade do tamanho da que viram antes . Podem ver as pétalas a desdobrar . Essas quatro pétalas foram construídas por quatro estudantes universitários num curso de verão no LPJ . Agora podem vê# -la a desenrolar . As petalas têm que se colocar em posição . A base de  essas pétalas tem que se colocar sempre na mesma posição com a precisão de um décimo de milímetro"
       },
       "answer_type": "string",
       "answer": "especificamente"
@@ -2248,7 +2248,7 @@
       "doc": "talk_1976_pt_tok",
       "variables": {
         "arg1": "Gostaria que , na próxima década , construíssemos um telescópio espacial que conseguisse a imagem de uma Terra na órbita de outra estrela e descobrisse se pode ter vida",
-        "arg2": "Eu e os meus colegas no Laboratório de Propulsão a Jacto Da NASA , em Princeton , estamos a trabalhar na tecnologia que fará isso mesmo nos próximos anos"
+        "arg2": "Eu e os meus colegas no Laboratório de Propulsão a Jacto da NASA , em Princeton , estamos a trabalhar na tecnologia que fará isso mesmo nos próximos anos"
       },
       "answer_type": "string",
       "answer": "por conseguinte"
@@ -2257,7 +2257,7 @@
       "id": 226,
       "doc": "talk_1976_pt_tok",
       "variables": {
-        "arg1": "Colocamos um telescópio ou uma câmara em  essa sombra , e olhamos para o Sol , e a maior parte Da luz foi removida e podemos ver essa ténue e fina estrutura na coroa",
+        "arg1": "Colocamos um telescópio ou uma câmara em  essa sombra , e olhamos para o Sol , e a maior parte da luz foi removida e podemos ver essa ténue e fina estrutura na coroa",
         "arg2": "A sugestão de Spitzer foi que o fizéssemos no espaço"
       },
       "answer_type": "string",
@@ -2278,7 +2278,7 @@
       "doc": "talk_1976_pt_tok",
       "variables": {
         "arg1": "A Lua colocou -se à frente do Sol",
-        "arg2": "Bloqueou a maior parte Da sua luz"
+        "arg2": "Bloqueou a maior parte da sua luz"
       },
       "answer_type": "string",
       "answer": "e"
@@ -2338,7 +2338,7 @@
       "doc": "talk_1927_pt_tok",
       "variables": {
         "arg1": "Isso significa limitar o risco futuro",
-        "arg2": "minimizando os danos às pessoas e Ao planeta"
+        "arg2": "minimizando os danos às pessoas e ao planeta"
       },
       "answer_type": "string",
       "answer": "assim"
@@ -2378,7 +2378,7 @@
       "doc": "talk_1927_pt_tok",
       "variables": {
         "arg1": "e esta companhia tem a visão direcionada para o que eles chamam de \" o novo Novo Mundo",
-        "arg2": ". São quatro mil milhões de pessoas Da classe média que precisam de comida , de energia e de águ"
+        "arg2": ". São quatro mil milhões de pessoas da classe média que precisam de comida , de energia e de águ"
       },
       "answer_type": "string",
       "answer": "porque"
@@ -2407,8 +2407,8 @@
       "id": 241,
       "doc": "talk_2150_pt_tok_inter",
       "variables": {
-        "arg1": "Isto é um mapa Das relações entre as pessoas na minha cidade de Baltimore , Maryland",
-        "arg2": "Como veem aqui , cada ponto representa uma pessoa , cada linha representa uma relação entre essas pessoas e cada cor representa uma comunidade dentro Da rede"
+        "arg1": "Isto é um mapa das relações entre as pessoas na minha cidade de Baltimore , Maryland",
+        "arg2": "Como veem aqui , cada ponto representa uma pessoa , cada linha representa uma relação entre essas pessoas e cada cor representa uma comunidade dentro da rede"
       },
       "answer_type": "string",
       "answer": "especificamente"
@@ -2417,7 +2417,7 @@
       "id": 242,
       "doc": "talk_1971_pt_tok",
       "variables": {
-        "arg1": "Se o encaixe Da nossa prótese for desconfortável , não usaremos a perna , e isso é inaceitável nos nossos tempos",
+        "arg1": "Se o encaixe da nossa prótese for desconfortável , não usaremos a perna , e isso é inaceitável nos nossos tempos",
         "arg2": "Um dia , quando conheci o Professor Hugh Herr , há cerca de dois anos e meio , ele perguntou -me se eu sabia como resolver esse problema"
       },
       "answer_type": "string",
@@ -2437,7 +2437,7 @@
       "id": 244,
       "doc": "talk_1976_pt_tok",
       "variables": {
-        "arg1": "A luz Da estrela sofre difracção . Dispersa -se dentro do telescópio , criando esta imagem muito brilhante que ofusca o planeta",
+        "arg1": "A luz da estrela sofre difracção . Dispersa -se dentro do telescópio , criando esta imagem muito brilhante que ofusca o planeta",
         "arg2": "Para vermos o planeta , temos que fazer algo em relação a toda esta luz"
       },
       "answer_type": "string",
@@ -2467,8 +2467,8 @@
       "id": 247,
       "doc": "talk_2009_pt_tok",
       "variables": {
-        "arg1": "Alguns viajantes metem -se à estrada por opção , renunciam Ao materialismo , Aos empregos tradicionais e Aos graus universitários , em troca de um vislumbre de aventura",
-        "arg2": "Outros vêm Da parte inferior Da sociedade , nunca tiveram uma oportunidade de ascender : rejeitados de adoções , adolescentes fugitivos a escapar de abusos e de casas implacáveis"
+        "arg1": "Alguns viajantes metem -se à estrada por opção , renunciam ao materialismo , aos empregos tradicionais e aos graus universitários , em troca de um vislumbre de aventura",
+        "arg2": "Outros vêm da parte inferior da sociedade , nunca tiveram uma oportunidade de ascender : rejeitados de adoções , adolescentes fugitivos a escapar de abusos e de casas implacáveis"
       },
       "answer_type": "string",
       "answer": "enquanto"
@@ -2508,7 +2508,7 @@
       "doc": "talk_1976_pt_tok",
       "variables": {
         "arg1": "Apenas os detectámos indirectamente",
-        "arg2": "Esta é a famosa imagem Da NASA do ponto azul pálido"
+        "arg2": "Esta é a famosa imagem da NASA do ponto azul pálido"
       },
       "answer_type": "string",
       "answer": "no implicit connective"
@@ -2517,7 +2517,7 @@
       "id": 252,
       "doc": "talk_2009_pt_tok",
       "variables": {
-        "arg1": "estas fotos são a cor e retratam uma comunidade que percorre todo o país , ferozmente viva e criativamente livre , observando lados Da América que mais ninguém consegue ver",
+        "arg1": "estas fotos são a cor e retratam uma comunidade que percorre todo o país , ferozmente viva e criativamente livre , observando lados da América que mais ninguém consegue ver",
         "arg2": "Tal como os seus antecessores , os nómadas de hoje viajam pelas estradas de aço e asfalto dos Estados Unidos"
       },
       "answer_type": "string",
@@ -2537,7 +2537,7 @@
       "id": 254,
       "doc": "talk_1927_pt_tok",
       "variables": {
-        "arg1": "Isso significa providenciar capital Aos utilizadores que o aplicam para a obtenção de resultados produtivos e sustentáveis",
+        "arg1": "Isso significa providenciar capital aos utilizadores que o aplicam para a obtenção de resultados produtivos e sustentáveis",
         "arg2": "Se a sustentabilidade hoje tem importância financeira , — e tudo indica que amanhã ainda será mais importante — será que o setor privado está a prestar atenção"
       },
       "answer_type": "string",
@@ -2557,8 +2557,8 @@
       "id": 256,
       "doc": "talk_1927_pt_tok",
       "variables": {
-        "arg1": "Por sustentabilidade , quero dizer as coisas que realmente interessam , tais como questões ambientais e sociais e a liderança Das corporações",
-        "arg2": "Eu acho uma imprudência ignorar estas coisas , porque , Ao fazê# -lo , podemos comprometer retornos a longo prazo no futuro"
+        "arg1": "Por sustentabilidade , quero dizer as coisas que realmente interessam , tais como questões ambientais e sociais e a liderança das corporações",
+        "arg2": "Eu acho uma imprudência ignorar estas coisas , porque , ao fazê# -lo , podemos comprometer retornos a longo prazo no futuro"
       },
       "answer_type": "string",
       "answer": "de facto"
@@ -2568,7 +2568,7 @@
       "doc": "talk_1976_pt_tok",
       "variables": {
         "arg1": "poderão ver algo assim",
-        "arg2": "Isto é uma imagem de uma Das estrelas mais próximas de nós obtida com o Telescópio Espacial Hubble"
+        "arg2": "Isto é uma imagem de uma das estrelas mais próximas de nós obtida com o Telescópio Espacial Hubble"
       },
       "answer_type": "string",
       "answer": "no implicit connective"
@@ -2608,7 +2608,7 @@
       "doc": "talk_1978_pt_tok",
       "variables": {
         "arg1": "São mestres porque percebem que ele não existe",
-        "arg2": "Ora bem , quando estava a pensar em  isto , recordei o que o treinador Das arqueiras me disse no fim de  aquele treino , sem que as arqueiras ouvissem , que ele e os seus colegas nunca sentem que fazem tudo o que podem pela sua equipa , nunca sentem que há visualizações técnicas e treinos de postura suficientes para as ajudar a ultrapassar aquelas constantes quase vitórias"
+        "arg2": "Ora bem , quando estava a pensar em  isto , recordei o que o treinador das arqueiras me disse no fim de  aquele treino , sem que as arqueiras ouvissem , que ele e os seus colegas nunca sentem que fazem tudo o que podem pela sua equipa , nunca sentem que há visualizações técnicas e treinos de postura suficientes para as ajudar a ultrapassar aquelas constantes quase vitórias"
       },
       "answer_type": "string",
       "answer": "no implicit connective"
@@ -2638,7 +2638,7 @@
       "doc": "talk_1976_pt_tok",
       "variables": {
         "arg1": "É por isso que é difícil",
-        "arg2": "A luz Da estrela sofre difracção"
+        "arg2": "A luz da estrela sofre difracção"
       },
       "answer_type": "string",
       "answer": "especificamente"
@@ -2727,7 +2727,7 @@
       "id": 273,
       "doc": "talk_1927_pt_tok",
       "variables": {
-        "arg1": ". São quatro mil milhões de pessoas Da classe média que precisam de comida , de energia e de águ",
+        "arg1": ". São quatro mil milhões de pessoas da classe média que precisam de comida , de energia e de águ",
         "arg2": "Vocês podem estar a perguntar -se : \" Estes casos são casos isolados"
       },
       "answer_type": "string",
@@ -2748,7 +2748,7 @@
       "doc": "talk_1976_pt_tok",
       "variables": {
         "arg1": "estamos na Alfa Centauri , a nossa estrela vizinha mais próxima , e o planeta desapareceu",
-        "arg2": "Tudo o que vemos é a imagem de grandes feixes Da estrela que é dez mil milhões de vezes mais brilhante do que o planeta"
+        "arg2": "Tudo o que vemos é a imagem de grandes feixes da estrela que é dez mil milhões de vezes mais brilhante do que o planeta"
       },
       "answer_type": "string",
       "answer": "e"
@@ -2757,7 +2757,7 @@
       "id": 276,
       "doc": "talk_1976_pt_tok",
       "variables": {
-        "arg1": "começamos a ver o Sol a mover -se para o campo de visão e a sobrepor -se Ao planeta",
+        "arg1": "começamos a ver o Sol a mover -se para o campo de visão e a sobrepor -se ao planeta",
         "arg2": "Mais uma vez , dez vezes mais distantes"
       },
       "answer_type": "string",
@@ -2768,7 +2768,7 @@
       "doc": "talk_1976_pt_tok",
       "variables": {
         "arg1": "A sugestão de Spitzer foi que o fizéssemos no espaço",
-        "arg2": "Construíamos uma tela grande , colocávamo# -la no espaço , em frente a uma estrela , bloqueávamos a maior parte Da luz , colocávamos um telescópio espacial em  essa sombra criada , e zás , conseguíamos ver os planetas"
+        "arg2": "Construíamos uma tela grande , colocávamo# -la no espaço , em frente a uma estrela , bloqueávamos a maior parte da luz , colocávamos um telescópio espacial em  essa sombra criada , e zás , conseguíamos ver os planetas"
       },
       "answer_type": "string",
       "answer": "especificamente"
@@ -2788,7 +2788,7 @@
       "doc": "talk_1927_pt_tok",
       "variables": {
         "arg1": "Temos uma população que está a crescer e a envelhecer",
-        "arg2": "temos hoje sete mil milhões de almas a caminho dos 10 mil milhões até Ao final do século"
+        "arg2": "temos hoje sete mil milhões de almas a caminho dos 10 mil milhões até ao final do século"
       },
       "answer_type": "string",
       "answer": "especificamente"
@@ -2928,7 +2928,7 @@
       "doc": "talk_1927_pt_tok",
       "variables": {
         "arg1": "Estas são questões económicas",
-        "arg2": "e isso torna -as relevantes quanto Ao risco e Ao retorno"
+        "arg2": "e isso torna -as relevantes quanto ao risco e ao retorno"
       },
       "answer_type": "string",
       "answer": "por conseguinte"
@@ -2957,8 +2957,8 @@
       "id": 296,
       "doc": "talk_1978_pt_tok",
       "variables": {
-        "arg1": "Vemos isso , até na indústria do jogo , que , em tempos , se apercebeu deste fenómeno Da quase vitória e criou aquelas raspadinhas que tinham uma taxa de quase vitórias mais alta do que a média e por isso levavam as pessoas a comprar mais raspadinhas a que chamavam \" heart-stoppers \" , e provocaram uma série de abusos na indústria do jogo na Grã-Bretanha , nos anos 70",
-        "arg2": "A razão por que a quase vitória tem propulsão é porque altera a nossa visão Da paisagem e coloca as nossas metas , que temos a tendência para pôr à distância , muito mais próximas de onde estamos"
+        "arg1": "Vemos isso , até na indústria do jogo , que , em tempos , se apercebeu deste fenómeno da quase vitória e criou aquelas raspadinhas que tinham uma taxa de quase vitórias mais alta do que a média e por isso levavam as pessoas a comprar mais raspadinhas a que chamavam \" heart-stoppers \" , e provocaram uma série de abusos na indústria do jogo na Grã-Bretanha , nos anos 70",
+        "arg2": "A razão por que a quase vitória tem propulsão é porque altera a nossa visão da paisagem e coloca as nossas metas , que temos a tendência para pôr à distância , muito mais próximas de onde estamos"
       },
       "answer_type": "string",
       "answer": "de facto"
@@ -2968,7 +2968,7 @@
       "doc": "talk_1976_pt_tok",
       "variables": {
         "arg1": "Colocamos um telescópio ou uma câmara em  essa sombra , e olhamos para o Sol",
-        "arg2": "e a maior parte Da luz foi removida"
+        "arg2": "e a maior parte da luz foi removida"
       },
       "answer_type": "string",
       "answer": "por conseguinte"
@@ -2977,7 +2977,7 @@
       "id": 298,
       "doc": "talk_2009_pt_tok",
       "variables": {
-        "arg1": "Ninguém perde os seus demónios interiores Ao meter -se à estrada",
+        "arg1": "Ninguém perde os seus demónios interiores ao meter -se à estrada",
         "arg2": "O vício é real , os elementos são reais , os comboios de mercadorias mutilam e matam"
       },
       "answer_type": "string",
@@ -2987,8 +2987,8 @@
       "id": 299,
       "doc": "talk_2009_pt_tok",
       "variables": {
-        "arg1": "muitas Das minhas primeiras memórias envolviam sonhar acordada e de forma elaborada onde passaria fronteiras , a recolher bagas e a conhecer todo o tipo de pessoas estranhas , com vidas fora do convencional , pela estrada fora",
-        "arg2": "Os anos passaram , mas muitas Das aventuras que fantasiava em criança , a viajar e a tecer o meu caminho entre mundos para além do meu próprio , tornaram -se realidade através do meu trabalho como fotógrafa documental"
+        "arg1": "muitas das minhas primeiras memórias envolviam sonhar acordada e de forma elaborada onde passaria fronteiras , a recolher bagas e a conhecer todo o tipo de pessoas estranhas , com vidas fora do convencional , pela estrada fora",
+        "arg2": "Os anos passaram , mas muitas das aventuras que fantasiava em criança , a viajar e a tecer o meu caminho entre mundos para além do meu próprio , tornaram -se realidade através do meu trabalho como fotógrafa documental"
       },
       "answer_type": "string",
       "answer": "depois"
@@ -3047,7 +3047,7 @@
       "id": 305,
       "doc": "talk_2150_pt_tok_inter",
       "variables": {
-        "arg1": "Como veem aqui , cada ponto representa uma pessoa , cada linha representa uma relação entre essas pessoas e cada cor representa uma comunidade dentro Da rede",
+        "arg1": "Como veem aqui , cada ponto representa uma pessoa , cada linha representa uma relação entre essas pessoas e cada cor representa uma comunidade dentro da rede",
         "arg2": "Eu estou aqui do lado verde , no extremo direito , onde estão os \" geeks \""
       },
       "answer_type": "string",
@@ -3058,7 +3058,7 @@
       "doc": "talk_1927_pt_tok",
       "variables": {
         "arg1": "Não façam isso lá em casa",
-        "arg2": "Mas isso faz -me pensar se as atuais regras de investimento são adequadas Aos objetivos de amanhã"
+        "arg2": "Mas isso faz -me pensar se as atuais regras de investimento são adequadas aos objetivos de amanhã"
       },
       "answer_type": "string",
       "answer": "no implicit connective"
@@ -3068,7 +3068,7 @@
       "doc": "talk_1978_pt_tok",
       "variables": {
         "arg1": "Aquilo continuou durante três horas",
-        "arg2": "No fim do treino , uma Das arqueiras estava tão exausta que se deitou no chão sem se poder mexer"
+        "arg2": "No fim do treino , uma das arqueiras estava tão exausta que se deitou no chão sem se poder mexer"
       },
       "answer_type": "string",
       "answer": "por conseguinte"
@@ -3078,7 +3078,7 @@
       "doc": "talk_1978_pt_tok",
       "variables": {
         "arg1": "Não parecia propriamente um lamento , mas apenas uma forma de me transmitir uma espécie de meigo reconhecimento , para me chamar a atenção de que ele sabia que estava empenhado num caminho voraz , inacabado que exigia sempre mais",
-        "arg2": "Construímos a partir Da ideia inacabada , mesmo que essa ideia seja o nosso antigo Eu"
+        "arg2": "Construímos a partir da ideia inacabada , mesmo que essa ideia seja o nosso antigo Eu"
       },
       "answer_type": "string",
       "answer": "no implicit connective"
@@ -3087,7 +3087,7 @@
       "id": 309,
       "doc": "talk_1927_pt_tok",
       "variables": {
-        "arg1": ". Há cerca de uma década , venderam o seu principal negócio de ferramentas elétricas e reinvestiram o que apuraram no negócio Da águ",
+        "arg1": ". Há cerca de uma década , venderam o seu principal negócio de ferramentas elétricas e reinvestiram o que apuraram no negócio da águ",
         "arg2": ". Foi uma aposta muito grand"
       },
       "answer_type": "string",
@@ -3098,7 +3098,7 @@
       "doc": "talk_1978_pt_tok",
       "variables": {
         "arg1": "Quantas vezes classificamos uma coisa como um clássico , uma obra-prima até , enquanto o seu criador a considera irremediavelmente incompleta , cheia de dificuldades e de falhas , por outras palavras , uma quase vitória",
-        "arg2": "Elizabeth Murray surpreendeu -me com o seu reconhecimento sobre as suas primeiras pinturas . O pintor Paul Cézanne pensava tantas vezes que as suas obras estavam incompletas que as punha deliberadamente de lado com a intenção de pegar em  elas outra vez mas , no fim Da sua vida , o que aconteceu foi que ele só tinha assinado dez por cento Das suas pinturas . O seu romance preferido era \" A Obra-Prima Desconhecida \" de Honoré de Balzac , e achava que o protagonista era o próprio pintor . Franz Kafka considerava incompleto o que outros consideravam obras dignas de elogio , de tal modo que queria que todos os seus diários , manuscritos , cartas e até mesmo rascunhos fossem queimados depois dele morrer . O seu amigo recusou -se a cumprir esse pedido e , por causa disso , temos todas as obras de Kafka que temos hoje : \" América \" , \" O Veredito \" e \" O Castelo \" , uma obra tão incompleta que até termina a meio"
+        "arg2": "Elizabeth Murray surpreendeu -me com o seu reconhecimento sobre as suas primeiras pinturas . O pintor Paul Cézanne pensava tantas vezes que as suas obras estavam incompletas que as punha deliberadamente de lado com a intenção de pegar em  elas outra vez mas , no fim da sua vida , o que aconteceu foi que ele só tinha assinado dez por cento das suas pinturas . O seu romance preferido era \" A Obra-Prima Desconhecida \" de Honoré de Balzac , e achava que o protagonista era o próprio pintor . Franz Kafka considerava incompleto o que outros consideravam obras dignas de elogio , de tal modo que queria que todos os seus diários , manuscritos , cartas e até mesmo rascunhos fossem queimados depois dele morrer . O seu amigo recusou -se a cumprir esse pedido e , por causa disso , temos todas as obras de Kafka que temos hoje : \" América \" , \" O Veredito \" e \" O Castelo \" , uma obra tão incompleta que até termina a meio"
       },
       "answer_type": "string",
       "answer": "nomeadamente"
@@ -3147,7 +3147,7 @@
       "id": 315,
       "doc": "talk_1976_pt_tok",
       "variables": {
-        "arg1": "Veríamos algo assim , Uma imagem algo difusa Da Terra , porque é um telescópio um pouco pequeno na órbita de Marte",
+        "arg1": "Veríamos algo assim , Uma imagem algo difusa da Terra , porque é um telescópio um pouco pequeno na órbita de Marte",
         "arg2": "Afastemo -nos dez vezes mais"
       },
       "answer_type": "string",

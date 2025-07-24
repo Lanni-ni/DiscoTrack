@@ -24,7 +24,10 @@
         "Dar yollarda koşarak giden Kerem'i",
         "onun son aşığı",
         "Son sevgilisi"
-      ]
+      ],
+      "variables": {
+        "text": "See most_turkish_document.json"
+      }
     },
     {
       "id": 2,
@@ -38,7 +41,10 @@
         "Abicim",
         "ağabeyisi",
         "oğlum"
-      ]
+      ],
+      "variables": {
+        "text": "See most_turkish_document.json"
+      }
     },
     {
       "id": 3,
@@ -47,7 +53,10 @@
       "answer": [
         "kendini bu kadar yerden yere vuran ve vurduran bir adamı",
         "Canım"
-      ]
+      ],
+      "variables": {
+        "text": "See most_turkish_document.json"
+      }
     },
     {
       "id": 4,
@@ -61,7 +70,10 @@
         "çamur lu su renginde ki saçlarınla bu kasanın başında oturduğunu tahmin edemeyeceği komik siyah peruk lu sana",
         "Sevgili Bayan Arvadak",
         "Bayan Arvadak"
-      ]
+      ],
+      "variables": {
+        "text": "See most_turkish_document.json"
+      }
     },
     {
       "id": 5,
@@ -70,7 +82,10 @@
       "answer": [
         "Bir o",
         "gencecik oğlunun"
-      ]
+      ],
+      "variables": {
+        "text": "See most_turkish_document.json"
+      }
     },
     {
       "id": 6,
@@ -78,7 +93,10 @@
       "answer_type": "list",
       "answer": [
         "dostum"
-      ]
+      ],
+      "variables": {
+        "text": "See most_turkish_document.json"
+      }
     },
     {
       "id": 7,
@@ -95,7 +113,10 @@
         "Ben im",
         "Müvekkilimin",
         "Davacı Saime Sezginler"
-      ]
+      ],
+      "variables": {
+        "text": "See most_turkish_document.json"
+      }
     },
     {
       "id": 8,
@@ -109,7 +130,10 @@
         "İbrahim",
         "bir karış çocuk",
         "bu çocuğu"
-      ]
+      ],
+      "variables": {
+        "text": "See most_turkish_document.json"
+      }
     },
     {
       "id": 9,
@@ -124,7 +148,10 @@
         "bir üret ici güç",
         "Sosyal bir kurum olarak bilim",
         "bilimi"
-      ]
+      ],
+      "variables": {
+        "text": "See most_turkish_document.json"
+      }
     },
     {
       "id": 10,
@@ -138,7 +165,10 @@
         "Milliyet'i arayan Arınç",
         "Arınç'ı",
         "Deşifre metnini dinleyen Arınç"
-      ]
+      ],
+      "variables": {
+        "text": "See most_turkish_document.json"
+      }
     },
     {
       "id": 11,
@@ -146,7 +176,10 @@
       "answer_type": "list",
       "answer": [
         "Timur"
-      ]
+      ],
+      "variables": {
+        "text": "See most_turkish_document.json"
+      }
     },
     {
       "id": 12,
@@ -154,7 +187,10 @@
       "answer_type": "list",
       "answer": [
         "Ben im"
-      ]
+      ],
+      "variables": {
+        "text": "See most_turkish_document.json"
+      }
     },
     {
       "id": 13,
@@ -179,7 +215,10 @@
         "Düşen uçağa",
         "Konya uçağının",
         "önce ki akşam düşen Konya uçağının"
-      ]
+      ],
+      "variables": {
+        "text": "See most_turkish_document.json"
+      }
     },
     {
       "id": 14,
@@ -188,7 +227,10 @@
       "answer": [
         "bilim",
         "bilimin"
-      ]
+      ],
+      "variables": {
+        "text": "See most_turkish_document.json"
+      }
     },
     {
       "id": 15,
@@ -204,7 +246,10 @@
         "evlerin",
         "evden",
         "evde"
-      ]
+      ],
+      "variables": {
+        "text": "See most_turkish_document.json"
+      }
     },
     {
       "id": 16,
@@ -216,7 +261,10 @@
         "Taşkın Türkler",
         "Biraz Türkler",
         "Kırmızı Türkler'in"
-      ]
+      ],
+      "variables": {
+        "text": "See most_turkish_document.json"
+      }
     },
     {
       "id": 17,
@@ -229,7 +277,10 @@
         "biz",
         "bizim",
         "siz"
-      ]
+      ],
+      "variables": {
+        "text": "See most_turkish_document.json"
+      }
     },
     {
       "id": 18,
@@ -243,7 +294,10 @@
         "Türkiye'nin",
         "Türkiye",
         "IMF'nin mali desteğinin sürdüğü ve NATO üyesi olan Türkiye'nin"
-      ]
+      ],
+      "variables": {
+        "text": "See most_turkish_document.json"
+      }
     },
     {
       "id": 19,
@@ -254,7 +308,10 @@
         "HADEP , EMEP ve SP'nin de çatısı altına girdiği Demokratik Halk Partisi",
         "DEHAP'ın",
         "partiye"
-      ]
+      ],
+      "variables": {
+        "text": "See most_turkish_document.json"
+      }
     },
     {
       "id": 20,
@@ -268,7 +325,10 @@
         "Müzisyenlerle birlikte sahneye çıkıp gitar 'çalar gibi yapan' Hüseyin Çağlan",
         "Hüseyin Çağlayan'ı",
         "son yılların en özgün yaratıcılarından biri"
-      ]
+      ],
+      "variables": {
+        "text": "See most_turkish_document.json"
+      }
     },
     {
       "id": 21,
@@ -280,7 +340,26 @@
         "Derviş",
         "Ekonomik konularda her kafadan bir ses çıktığına dikkat çeken Derviş",
         "Eşgüdüm eksikliğini sergileyen bir hava oluştuğunu kaydeden Derviş"
-      ]
+      ],
+      "variables": {
+        "text": "See most_turkish_document.json"
+      }
+    },
+    {
+      "id": 22,
+      "doc": "22080000",
+      "answer_type": "list",
+      "answer": [
+        "Almanya'da faaliyet gösteren iki şirketi izlediklerini açıklayan DemirDöküm Genel Müdürü Melih Batılı",
+        "Avrupa'da kendi sektöründe en büyük 10 şirketten biri olan DemirDöküm'ün yeni hedefini İlk beş arasına girmek şeklinde özetleyen Batılı",
+        "Yurtiçinde ve yurtdışında şirket almanın da bu stratejinin bir parçası olduğunu vurgulayan Batılı",
+        "Batılı'nın",
+        "York ile yapılan anlaşma gereği 2003'ten itibaren Türkiye'de DemirDöküm'ün York'un yetkili satıcısı olacağını hatırlatan Batılı",
+        "Demrad'da da kazan dilimleri üretildiğini , yurtdışına giden bu ürünlerin giydirilerek ithal ürün olarak yine Türkiye'ye geldiğini anlatan Batılı"
+      ],
+      "variables": {
+        "text": "See most_turkish_document.json"
+      }
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "task": "salience_binary",
-  "lang": "eng",
+  "lang": "english",
   "example_prompt": "Which entity is more salient in the document: {entity1} or {entity2}?",
   "instances": [
     {

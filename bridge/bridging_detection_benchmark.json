@@ -1,6 +1,6 @@
 {
   "task": "bridging_detection",
-  "lang": "eng",
+  "lang": "english",
   "example_prompt": "Read the following text and answer with \"yes\" or \"no\": Does it contain a bridging anaphor?\n\nBelow is an explanation of what bridging and bridging anaphora are:\n\nBridging is an anaphoric phenomena which occurs when the reference of one entity is dependent on a previous associated, non-identical entity for interpretation. An instance of bridging consists of an antecedent-anaphor pair.\n\nThe anaphor in this pair is referred to as the bridging anaphor. A bridging anaphor is a noun phrase that refers to something associated with, but not identical to, a previously mentioned entity. To understand a bridging anaphor, the reader must rely on their knowledge of the earlier entity.",
   "instances": [
     {

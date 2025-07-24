@@ -1,7 +1,7 @@
 {
   "task": "bridging_type",
-  "lang": "eng",
-  "example_prompt": "What is the bridging type between the anaphor and antecedent in the following text?\n\nIn the text, the antecedent is marked with curly braces `{}` and the anaphor is marked with double dollar signs `$$ $$`.\n\nBelow is an explanation of what bridging, bridging antecedents, and bridging anaphora are:\n\nBridging is an anaphoric phenomena which occurs when the reference of one entity is dependent on a previous associated, non-identical entity for interpretation. An instance of bridging consists of an antecedent-anaphor pair.\n\nThe anaphor in this pair is referred to as the bridging anaphor. A bridging anaphor is a noun phrase that refers to something associated with, but not identical to, a previously mentioned entity. To understand a bridging anaphor, the reader must rely on their knowledge of the earlier entity.\n\nThe bridging antecedent provides the contextual basis or background knowledge that allows the reader or hearer to infer the meaning of the anaphor.Here are the options and definitions:\n- comparison-ellipsis: The anaphor is preceded by a comparative marker (other, another, same, more, ordinal modifiers, etc.) which implies a comparison to the antecedent.\n- comparison-sense: The type of the anaphor is omitted but inferable via comparison to the antecedent.\n- comparison-time: The anaphor refers to a specific time/timeframe which is understandable with reference to the antecedent.\n- entity-associative: The anaphor is an attribute or closely associated entity of the antecedent.\n- entity-meronomy: The anaphor is a subunit of the antecedent (part-whole).\n- entity-property: The anaphor is a physical or intangible property of the antecedent.\n- entity-resultative: The anaphor is logically inferable from the antecedent (e.g., result, transformation, cause).\n- set-member: The anaphor is an element of the antecedent set.\n- set-subset: The anaphor is a subset of the antecedent set.\n- set-span-interval: The anaphor is a sub-span of a spatial or temporal interval defined by the antecedent.\n- other: Valid bridging pair but does not fall under the above types.",
+  "lang": "english",
+  "example_prompt": "What is the bridging type between the anaphor and antecedent in the following text?\n\nIn the text, the antecedent is marked with curly braces `{}` and the anaphor is marked with double dollar signs `$$ $$`.\n\nBelow is an explanation of what bridging, bridging antecedents, and bridging anaphora are:\n\nBridging is an anaphoric phenomena which occurs when the reference of one entity is dependent on a previous associated, non-identical entity for interpretation. An instance of bridging consists of an antecedent-anaphor pair.\n\nThe anaphor in this pair is referred to as the bridging anaphor. A bridging anaphor is a noun phrase that refers to something associated with, but not identical to, a previously mentioned entity. To understand a bridging anaphor, the reader must rely on their knowledge of the earlier entity.\n\nThe bridging antecedent provides the contextual basis or background knowledge that allows the reader or hearer to infer the meaning of the anaphor. Here are the options and definitions:\n- comparison-ellipsis: The anaphor is preceded by a comparative marker (other, another, same, more, ordinal modifiers, etc.) which implies a comparison to the antecedent.\n- comparison-sense: The type of the anaphor is omitted but inferable via comparison to the antecedent.\n- comparison-time: The anaphor refers to a specific time/timeframe which is understandable with reference to the antecedent.\n- entity-associative: The anaphor is an attribute or closely associated entity of the antecedent.\n- entity-meronymy: The anaphor is a subunit of the antecedent (part-whole).\n- entity-property: The anaphor is a physical or intangible property of the antecedent.\n- entity-resultative: The anaphor is logically inferable from the antecedent (e.g., result, transformation, cause).\n- set-member: The anaphor is an element of the antecedent set.\n- set-subset: The anaphor is a subset of the antecedent set.\n- set-span-interval: The anaphor is a sub-span of a spatial or temporal interval defined by the antecedent.\n- other: Valid bridging pair but does not fall under the above types.",
   "instances": [
     {
       "id": 1,
@@ -28,7 +28,7 @@
         "text": "Honestly , if I was redoing this from the beginning , I would have really liked to have a double bed in {this room} , but , unfortunately , with the space as you can probably see from that wall there till $$the door$$ , it 's basically just enough to fit a bed and a couch , and this is my couch over here ."
       },
       "answer_type": "string",
-      "answer": "entity-meronomy"
+      "answer": "entity-meronymy"
     },
     {
       "id": 4,
@@ -46,7 +46,7 @@
         "text": "I 've got an ironing board , all of my suitcases , socks , clothes that I do n't wear that often , anything that I need for fixing {the house} like screwdrivers , drills , nails , all these things that I definitely would n't want to have laid out in my room , but I still need somewhere in the house . I love that this room has floor - to - ceiling windows as well , it really lets the light come in , especially in the summer time . I know London does n't have that much light , but I 'll take as much as I can , and there 's also a small balcony out here , which is fairly rare for London . We have two chairs where we can sit down and sort of enjoy the weather when it is a little bit better , um but now it 's really cold so just gon na close it . And then a little behind the scenes that you probably will never see again in a video is that down here I keep all of the filming gear that does n't really fit anywhere else in $$the room$$ : two sets of tripods , I also have a c - stand ."
       },
       "answer_type": "string",
-      "answer": "entity-meronomy"
+      "answer": "entity-meronymy"
     },
     {
       "id": 6,
@@ -109,7 +109,7 @@
         "text": "I love them and they are definitely the right size because I have two other pairs of Vans that are this size , but one of {these ones} is like messed up or something . I think it 's like this part on $$the left foot$$ because my foot feels super tight in only the left side , so something 's up because they 're both the right size but I do n't know ."
       },
       "answer_type": "string",
-      "answer": "entity-meronomy"
+      "answer": "entity-meronymy"
     },
     {
       "id": 13,
@@ -118,7 +118,7 @@
         "text": "I think it 's like this part on the left foot because {my foot} feels super tight in only $$the left side$$ , so something 's up because they 're both the right size but I do n't know ."
       },
       "answer_type": "string",
-      "answer": "entity-meronomy"
+      "answer": "entity-meronymy"
     },
     {
       "id": 14,
@@ -901,7 +901,7 @@
         "text": "{We humans} have different functions in $$the brain$$ , and fear oftentimes bypasses logic ."
       },
       "answer_type": "string",
-      "answer": "entity-meronomy"
+      "answer": "entity-meronymy"
     },
     {
       "id": 101,
@@ -1009,7 +1009,7 @@
         "text": "{Vava’u} is a group of more than 50 islands in Tonga , about 150 miles north of Tongatapu . They are either raised coral limestone or coral atolls . The beautiful harbour opposite $$the main town of Neiafu$$ ( known as the Port of Refuge Harbour ) is a common destination for yachties sailing the South Pacific ."
       },
       "answer_type": "string",
-      "answer": "entity-meronomy"
+      "answer": "entity-meronymy"
     },
     {
       "id": 113,
@@ -1063,7 +1063,7 @@
         "text": "It is {a limestone island with heights up to 213 m in $$the west$$} ."
       },
       "answer_type": "string",
-      "answer": "entity-meronomy"
+      "answer": "entity-meronymy"
     },
     {
       "id": 119,
@@ -1081,7 +1081,7 @@
         "text": "Can I grow {some basil} ? From $$seed$$ ? Yes , that 's how I 've – I do n't have any this year , but I 've grown it other years ."
       },
       "answer_type": "string",
-      "answer": "entity-meronomy"
+      "answer": "entity-meronymy"
     },
     {
       "id": 121,
@@ -1117,7 +1117,7 @@
         "text": "You smoked {it} down into $$the cork$$ , did n't you ?"
       },
       "answer_type": "string",
-      "answer": "entity-meronomy"
+      "answer": "entity-meronymy"
     },
     {
       "id": 125,
@@ -1180,7 +1180,7 @@
         "text": "By inviting political decision - makers from both {Khartoum and Juba} to Vienna in recent years , Austria has managed to offer the two sides a platform for discussion . We are ready to continue to do so . $$The Sudan and South Sudan$$ have a shared past and must resolve their remaining problems peacefully ."
       },
       "answer_type": "string",
-      "answer": "entity-meronomy"
+      "answer": "entity-meronymy"
     },
     {
       "id": 132,
@@ -1270,7 +1270,7 @@
         "text": "Growing {Beavertail} can be done at any time of year by scattering seeds in a shady bed or , for faster results , planting $$cuttings$$ in a mix of soil and sand and ensuring that they have a bit of water and plenty of sun ."
       },
       "answer_type": "string",
-      "answer": "entity-meronomy"
+      "answer": "entity-meronymy"
     },
     {
       "id": 142,
@@ -1279,7 +1279,7 @@
         "text": "In {a shady garden bed} , simply scatter the seeds on $$the soil$$ ."
       },
       "answer_type": "string",
-      "answer": "entity-meronomy"
+      "answer": "entity-meronymy"
     },
     {
       "id": 143,
@@ -1297,7 +1297,7 @@
         "text": "To do this , choose pads ( the flat , oval - shaped sections that make up a cactus ) that are 6 months old or older and cut {them} at $$the base$$ . In order to form a callous and prevent rot , cure the cuttings by sitting the pad upright in a dry , dark place for 10 to 14 days ."
       },
       "answer_type": "string",
-      "answer": "entity-meronomy"
+      "answer": "entity-meronymy"
     },
     {
       "id": 145,
@@ -1315,7 +1315,7 @@
         "text": "If you live in an area with strong summer sun , position {the cuttings} so that the broad sides of the cuttings face east and west while $$the slim sides$$ face north and south ."
       },
       "answer_type": "string",
-      "answer": "entity-meronomy"
+      "answer": "entity-meronymy"
     },
     {
       "id": 147,
@@ -1459,7 +1459,7 @@
         "text": "You ’re on {the 236th - level Kaiserstrasse moving sidewalk} when you see her . You ’re leaning on $$the railing$$ , waiting to ask Derya about a job , watching the glittering stream of mites that arc over half the sky — flying up to rewind their nanosprings in the stratospheric sunlight , flying down to make Frankfurt run . You never get tired of watching them . She ’s on the Holbeinsteg bridge . Someone ’s hung it up here — a hundred meters of clean gray and green twentieth - century modernism , plucked up from the river Main and suspended in the chilly air 2,360 meters up , between a lump of wooded parkland and a cluster of antique subway cars . She ’s wearing a 1950s sundress and a broad - brimmed hat , and it ’s like an essay on the last century — the austere steel bridge , the bright blobs of subway graffiti , and her yellow dress , flapping against her legs as she climbs over the bridge ’s rail . A picture of elegance and style from the age of money , violence , and simplicity . She ’s a strawberry blonde , slim , her skin blank and virginal as new butter . She ’s beyond the rail now , hanging out over the mountain - high drop . Thin translucent shadows move across her — the shadows of the neosilk - and - nanotube filaments that hang the city from the hundreds of five - kilometer - high towers that encircle it . ( A civic agent notices you noticing , and attaches itself to your infospace , whispering statistics — “ Each object ’s suspension must weather a class 5 hurricane and the destruction of 80 % of the towers ” — “ Frankfurt ’s current population is stable at 53 million ” — “ Average age 62 , birth rate 0.22 , net immigration of half a million a year ” — “ Current personal squatright : 311 cubic meters per resident ” — until you brush it away . ) You ’re watching her lean out . The wind whips her hair , ruffles the skirt around her knees . She must be a tourist . You remember your first trip to the upper levels : leaning over the edge into the angry swarm of mites , whirring and buzzing warnings and shoving you back like a million mosquito chaperones . Everyone tries it once — Except that there are n’t any mites around her . You clutch the railing . Hot , animal fear surges in your chest . She looks up at you and , across the gap of forty meters , smiles a brilliant , heartbreaking smile . Then she lets go and falls . You scream . “ Fucking airsurfers , ” says Derya . He steps off the moving sidewalk near you : tall , hook - nosed , the fashionable whorls of pox and acne making constellations of his cheeks and chest ; the glowing , formal tattoos of his committees and lifebrands adorning his massive triceps . You swallow on a dry throat . Derya , of all people , hearing you scream ! He gives you a hooded look . “ They infect themselves with some designer virus - it lets them hack the city ’s person - recognition systems . So the mites do n’t see them when they jump . Watch — ” She ’s swept past the whalelike oval of the public pool on the 202nd , past the sloping mandala of the Google of offices on the 164th . At the 131st , below her , is the old Stock Exchange , hung upside - down now as a hipster den . Now the mites are finally closing in . A silver swarm coalesces around the 164th , and she vanishes into it , like a snip of scallion into cloudy miso soup . When the cloud disperses , she ’s standing on one of the Stock Exchange ’s upside - down overhangs . She waves , antlike , then crawls through a dormer window . “ It ’s not funny , ” Derya says . “ They ’re a huge drain on emergency preparedness . Ripple effects are causing project slowdowns ... ” “ Freeloaders drive systemic evolution , ” you find yourself saying . “ Do n’t you quote the founders at me , ” Derya snaps . “ The Free Society is fragile . The minute enough people find anticontributive behavior cool , the party ’s over — it ’s back to capitalist competition or state control . ” He stares until you meet his eye . “ You even talk to those people - are you paying attention ? — you even talk to them , your rep will be trashed on all the major servers . You wo n’t work , you wo n’t party , you ’ll be defriended by every one of your tribes . Got it ? ” Her broad - brimmed hat is still sailing on the wind . The mites missed it . It cuts between the towers of the 50th ."
       },
       "answer_type": "string",
-      "answer": "entity-meronomy"
+      "answer": "entity-meronymy"
     },
     {
       "id": 163,
@@ -1486,7 +1486,7 @@
         "text": "You remember your first trip to {the upper levels} : leaning over $$the edge$$ into the angry swarm of mites , whirring and buzzing warnings and shoving you back like a million mosquito chaperones . Everyone tries it once — Except that there are n’t any mites around her . You clutch the railing . Hot , animal fear surges in your chest . She looks up at you and , across the gap of forty meters , smiles a brilliant , heartbreaking smile . Then she lets go and falls . You scream . “ Fucking airsurfers , ” says Derya . He steps off the moving sidewalk near you : tall , hook - nosed , the fashionable whorls of pox and acne making constellations of his cheeks and chest ; the glowing , formal tattoos of his committees and lifebrands adorning his massive triceps . You swallow on a dry throat . Derya , of all people , hearing you scream ! He gives you a hooded look . “ They infect themselves with some designer virus - it lets them hack the city ’s person - recognition systems . So the mites do n’t see them when they jump ."
       },
       "answer_type": "string",
-      "answer": "entity-meronomy"
+      "answer": "entity-meronymy"
     },
     {
       "id": 166,
@@ -1495,7 +1495,7 @@
         "text": "When the cloud disperses , she ’s standing on one of {the Stock Exchange ’s} upside - down overhangs . She waves , antlike , then crawls through a dormer window . “ It ’s not funny , ” Derya says . “ They ’re a huge drain on emergency preparedness . Ripple effects are causing project slowdowns ... ” “ Freeloaders drive systemic evolution , ” you find yourself saying . “ Do n’t you quote the founders at me , ” Derya snaps . “ The Free Society is fragile . The minute enough people find anticontributive behavior cool , the party ’s over — it ’s back to capitalist competition or state control . ” He stares until you meet his eye . “ You even talk to those people - are you paying attention ? — you even talk to them , your rep will be trashed on all the major servers . You wo n’t work , you wo n’t party , you ’ll be defriended by every one of your tribes . Got it ? ” Her broad - brimmed hat is still sailing on the wind . The mites missed it . It cuts between the towers of the 50th . $$The upside - down trading floor$$ is deserted ."
       },
       "answer_type": "string",
-      "answer": "entity-meronomy"
+      "answer": "entity-meronymy"
     },
     {
       "id": 167,
@@ -1522,7 +1522,7 @@
         "text": "I can report to the House that they are currently in a stable and improving condition at {Auckland Hospital} . The good news in this instance is that the individual had limited contact with people upon their return to the country , and their family took all the appropriate measures when presenting at $$the emergency department$$ ."
       },
       "answer_type": "string",
-      "answer": "entity-meronomy"
+      "answer": "entity-meronymy"
     },
     {
       "id": 170,
@@ -1585,7 +1585,7 @@
         "text": "It recognises that while there are outbreaks in both countries , {they} also have well - developed health systems and the outbreaks are largely located in $$specific regions$$ ."
       },
       "answer_type": "string",
-      "answer": "entity-meronomy"
+      "answer": "entity-meronymy"
     },
     {
       "id": 177,
@@ -1621,7 +1621,7 @@
         "text": "You can get {peppermint oil} in most health food stores and even some major grocery stores . [ 2 ] Place $$a drop or two$$ on a cotton ball ."
       },
       "answer_type": "string",
-      "answer": "entity-meronomy"
+      "answer": "entity-meronymy"
     },
     {
       "id": 181,
@@ -1639,7 +1639,7 @@
         "text": "Place the cotton balls in areas where mice are likely to enter {your house} , by $$doorways$$ , or heat vents , etc. Peppermint oil cotton balls need to be replaced after 5 - 7 days , depending upon the quantity of oil you put on it . Try growing peppermint plants near the entryways ."
       },
       "answer_type": "string",
-      "answer": "entity-meronomy"
+      "answer": "entity-meronymy"
     },
     {
       "id": 183,
@@ -1648,7 +1648,7 @@
         "text": "Try growing {peppermint plants} near the entryways . You can use $$the mint$$ in cooking , as well as it serving a deterrent purpose ."
       },
       "answer_type": "string",
-      "answer": "entity-meronomy"
+      "answer": "entity-meronymy"
     },
     {
       "id": 184,
@@ -2008,7 +2008,7 @@
         "text": "{Figure 2.2} A pre-1982 copper penny ( left ) contains approximately 3 ×× 10 22 copper atoms ( several dozen are represented as brown spheres at $$the right$$ ) , each of which has the same chemical properties ."
       },
       "answer_type": "string",
-      "answer": "entity-meronomy"
+      "answer": "entity-meronymy"
     },
     {
       "id": 224,
@@ -2044,7 +2044,7 @@
         "text": "In {the following drawing} , $$the green spheres$$ represent atoms of a certain element . The purple spheres represent atoms of another element ."
       },
       "answer_type": "string",
-      "answer": "entity-meronomy"
+      "answer": "entity-meronymy"
     },
     {
       "id": 228,
@@ -2062,7 +2062,7 @@
         "text": "In {the following drawing} , $$the green spheres$$ represent atoms of a certain element . The purple spheres represent atoms of another element ."
       },
       "answer_type": "string",
-      "answer": "entity-meronomy"
+      "answer": "entity-meronymy"
     },
     {
       "id": 230,

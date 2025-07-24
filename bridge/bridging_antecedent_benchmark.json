@@ -1,6 +1,6 @@
 {
   "task": "bridging_antecedent",
-  "lang": "eng",
+  "lang": "english",
   "example_prompt": "In the following sentence, the bridging anaphora is marked with curly brackets. What is its antecedent(s)?\n\nBelow is an explanation of what bridging, bridging antecedents, and bridging anaphora are:\n\nBridging is an anaphoric phenomenon which occurs when the reference of one entity is dependent on a previous associated, non-identical entity for interpretation. An instance of bridging consists of an antecedent-anaphor pair.\n\nThe anaphor in this pair is referred to as the bridging anaphor. A bridging anaphor is a noun phrase that refers to something associated with, but not identical to, a previously mentioned entity. To understand a bridging anaphor, the reader must rely on their knowledge of the earlier entity.\n\nThe bridging antecedent provides the contextual basis or background knowledge that allows the reader or hearer to infer the meaning of the anaphor.",
   "instances": [
     {

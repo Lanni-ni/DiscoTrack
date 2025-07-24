@@ -86,18 +86,18 @@
     },
     {
       "id": 10,
-      "doc": "00105133",
+      "doc": "00053223",
       "variables": {
-        "entity": "gerilimim"
+        "entity": "sedirin"
       },
       "answer_type": "string",
-      "answer": "1"
+      "answer": "2"
     },
     {
       "id": 11,
-      "doc": "22280000",
+      "doc": "00032161",
       "variables": {
-        "entity": "Cem Uzan"
+        "entity": "yaz"
       },
       "answer_type": "string",
       "answer": "2"
@@ -131,9 +131,9 @@
     },
     {
       "id": 15,
-      "doc": "00142211",
+      "doc": "00016112",
       "variables": {
-        "entity": "ön mezeler"
+        "entity": "burjuvazi ile feodalizm"
       },
       "answer_type": "string",
       "answer": "2"
@@ -185,9 +185,9 @@
     },
     {
       "id": 21,
-      "doc": "20580000",
+      "doc": "20200000",
       "variables": {
-        "entity": "Ankara'da , İstanbul'da , deniz kenarı veya kimi tepelerde oturup DYP'ye icazetle başkan olma devrinin"
+        "entity": "sağlık"
       },
       "answer_type": "string",
       "answer": "2"
@@ -203,18 +203,18 @@
     },
     {
       "id": 23,
-      "doc": "22280000",
+      "doc": "00032161",
       "variables": {
-        "entity": "güvenlik , savunma amaçlı hibe ve yardımlara ilişkin uygulama boşluğu"
+        "entity": "beyin meyin"
       },
       "answer_type": "string",
       "answer": "2"
     },
     {
       "id": 24,
-      "doc": "21040000",
+      "doc": "00166271",
       "variables": {
-        "entity": "gerçek konut projelerine"
+        "entity": "küçük olmanın"
       },
       "answer_type": "string",
       "answer": "2"
@@ -266,9 +266,9 @@
     },
     {
       "id": 30,
-      "doc": "21040000",
+      "doc": "20200000",
       "variables": {
-        "entity": "birçok özelliklerinin"
+        "entity": "Alevi"
       },
       "answer_type": "string",
       "answer": "2"
@@ -635,12 +635,12 @@
     },
     {
       "id": 71,
-      "doc": "20200000",
+      "doc": "22080000",
       "variables": {
-        "entity": "Devletin ırkı olmaz"
+        "entity": "Yüzde _ 3'lük KKDF"
       },
       "answer_type": "string",
-      "answer": "2"
+      "answer": "1"
     },
     {
       "id": 72,
@@ -725,9 +725,9 @@
     },
     {
       "id": 81,
-      "doc": "20270000",
+      "doc": "00038121",
       "variables": {
-        "entity": "Verdiğim numaraların"
+        "entity": "yukarıda andığım gecekondu yapım sürecine benzer şekilde gerçekleştirebilme"
       },
       "answer_type": "string",
       "answer": "2"
@@ -779,9 +779,9 @@
     },
     {
       "id": 87,
-      "doc": "00016112",
+      "doc": "20580000",
       "variables": {
-        "entity": "vakit"
+        "entity": "Hükümet"
       },
       "answer_type": "string",
       "answer": "2"
@@ -1022,9 +1022,9 @@
     },
     {
       "id": 114,
-      "doc": "00002213",
+      "doc": "00105133",
       "variables": {
-        "entity": "İçki"
+        "entity": "potansiyel trajediler"
       },
       "answer_type": "string",
       "answer": "1"
@@ -1049,12 +1049,12 @@
     },
     {
       "id": 117,
-      "doc": "00105133",
+      "doc": "22280000",
       "variables": {
-        "entity": "bir yük"
+        "entity": "Cem Uzan"
       },
       "answer_type": "string",
-      "answer": "1"
+      "answer": "2"
     },
     {
       "id": 118,
@@ -1168,10 +1168,10 @@
       "id": 130,
       "doc": "20270000",
       "variables": {
-        "entity": "Yüksek topuğun"
+        "entity": "Deri ve kürk"
       },
       "answer_type": "string",
-      "answer": "2"
+      "answer": "1"
     },
     {
       "id": 131,
@@ -1310,9 +1310,9 @@
     },
     {
       "id": 146,
-      "doc": "00053223",
+      "doc": "21040000",
       "variables": {
-        "entity": "püsküllü uçlarını kesip attığım taze soğan"
+        "entity": "birçok özelliklerinin"
       },
       "answer_type": "string",
       "answer": "2"
@@ -1436,9 +1436,9 @@
     },
     {
       "id": 160,
-      "doc": "00032161",
+      "doc": "20580000",
       "variables": {
-        "entity": "cezan"
+        "entity": "AKP , Milli Görüş'ün devamıdır"
       },
       "answer_type": "string",
       "answer": "1"
@@ -1463,9 +1463,9 @@
     },
     {
       "id": 163,
-      "doc": "20710000",
+      "doc": "22280000",
       "variables": {
-        "entity": "Büyükşehir Belediyesi Su ve Kanalizasyon İdaresi ( DİSKİ ) Başkanlığı'nın su basan pompalarının"
+        "entity": "güvenlik , savunma amaçlı hibe ve yardımlara ilişkin uygulama boşluğu"
       },
       "answer_type": "string",
       "answer": "2"
@@ -1508,12 +1508,12 @@
     },
     {
       "id": 168,
-      "doc": "00038121",
+      "doc": "21040000",
       "variables": {
-        "entity": "değerli , uzun yazısının"
+        "entity": "Finnur Technologies'in payı"
       },
       "answer_type": "string",
-      "answer": "2"
+      "answer": "1"
     },
     {
       "id": 169,
@@ -1715,27 +1715,27 @@
     },
     {
       "id": 191,
-      "doc": "20200000",
+      "doc": "20270000",
       "variables": {
-        "entity": "iş"
+        "entity": "Tüm ünlü butikler , restoran ve barlar"
       },
       "answer_type": "string",
-      "answer": "2"
+      "answer": "1"
     },
     {
       "id": 192,
-      "doc": "00016112",
+      "doc": "20200000",
       "variables": {
-        "entity": "Siyasal devrimlerin"
+        "entity": "Türkiye'nin işi"
       },
       "answer_type": "string",
-      "answer": "2"
+      "answer": "1"
     },
     {
       "id": 193,
-      "doc": "00032161",
+      "doc": "00053223",
       "variables": {
-        "entity": "beyin meyin"
+        "entity": "püsküllü uçlarını kesip attığım taze soğan"
       },
       "answer_type": "string",
       "answer": "2"
@@ -1787,9 +1787,9 @@
     },
     {
       "id": 199,
-      "doc": "20270000",
+      "doc": "20710000",
       "variables": {
-        "entity": "babası Engincan Güre"
+        "entity": "bazı yakınları"
       },
       "answer_type": "string",
       "answer": "2"
@@ -1798,19 +1798,19 @@
       "id": 200,
       "doc": "20210000",
       "variables": {
-        "entity": "Japonya"
+        "entity": "annelerin bebek arabalarını rahat ça sürecek genişlikte koridorlar"
       },
       "answer_type": "string",
       "answer": "2"
     },
     {
       "id": 201,
-      "doc": "20270000",
+      "doc": "22080000",
       "variables": {
-        "entity": "akşam"
+        "entity": "Zammın sosyal yardımlar ve tazminat artışları ile yapılması"
       },
       "answer_type": "string",
-      "answer": "2"
+      "answer": "1"
     },
     {
       "id": 202,
@@ -1877,9 +1877,9 @@
     },
     {
       "id": 209,
-      "doc": "00105133",
+      "doc": "00142211",
       "variables": {
-        "entity": "Sırf sana olan kızgınlığımı birine anlatmam"
+        "entity": "Marul"
       },
       "answer_type": "string",
       "answer": "2"
@@ -1949,12 +1949,12 @@
     },
     {
       "id": 217,
-      "doc": "00032161",
+      "doc": "20210000",
       "variables": {
-        "entity": "anamın suçu"
+        "entity": "tüketim eğiliminin"
       },
       "answer_type": "string",
-      "answer": "1"
+      "answer": "2"
     },
     {
       "id": 218,
@@ -1994,9 +1994,9 @@
     },
     {
       "id": 222,
-      "doc": "00016112",
+      "doc": "20270000",
       "variables": {
-        "entity": "soyutlama"
+        "entity": "Canan"
       },
       "answer_type": "string",
       "answer": "2"
@@ -2039,12 +2039,12 @@
     },
     {
       "id": 227,
-      "doc": "00032161",
+      "doc": "00016112",
       "variables": {
-        "entity": "sol gözün"
+        "entity": "soyutlama"
       },
       "answer_type": "string",
-      "answer": "1"
+      "answer": "2"
     },
     {
       "id": 228,
@@ -2183,9 +2183,9 @@
     },
     {
       "id": 243,
-      "doc": "20270000",
+      "doc": "20210000",
       "variables": {
-        "entity": "meslek"
+        "entity": "borsacıların hayalinde ki hükümet"
       },
       "answer_type": "string",
       "answer": "2"
@@ -2291,18 +2291,18 @@
     },
     {
       "id": 255,
-      "doc": "00142211",
+      "doc": "20210000",
       "variables": {
-        "entity": "tazesi"
+        "entity": "22 Ocak tarih li Milliyet spor sayfasında ki Beşiktaşlı Zago ile ilgili haber"
       },
       "answer_type": "string",
       "answer": "2"
     },
     {
       "id": 256,
-      "doc": "00166271",
+      "doc": "00053223",
       "variables": {
-        "entity": "Niye bir tane yok ?"
+        "entity": "Kırım"
       },
       "answer_type": "string",
       "answer": "2"
@@ -2354,9 +2354,9 @@
     },
     {
       "id": 262,
-      "doc": "00044121",
+      "doc": "00111211",
       "variables": {
-        "entity": "tanrının istemi"
+        "entity": "Siz bu işin üzerine fazla gitmeyin dedi"
       },
       "answer_type": "string",
       "answer": "2"
@@ -2408,9 +2408,9 @@
     },
     {
       "id": 268,
-      "doc": "00053223",
+      "doc": "20200000",
       "variables": {
-        "entity": "harman yerlerinden kalkıp uçup gelen ve insanı hışır hışır kaşındıran yal tozlarını"
+        "entity": "İdare Mahkemesi'nin"
       },
       "answer_type": "string",
       "answer": "2"
@@ -2444,12 +2444,12 @@
     },
     {
       "id": 272,
-      "doc": "00044121",
+      "doc": "00016112",
       "variables": {
-        "entity": "Fizik"
+        "entity": "Bilimin ideoloji ile olan ilişkisi"
       },
       "answer_type": "string",
-      "answer": "2"
+      "answer": "1"
     },
     {
       "id": 273,
@@ -2507,12 +2507,12 @@
     },
     {
       "id": 279,
-      "doc": "20210000",
+      "doc": "00084111",
       "variables": {
-        "entity": "tüketim"
+        "entity": "Balıklar"
       },
       "answer_type": "string",
-      "answer": "2"
+      "answer": "1"
     },
     {
       "id": 280,
@@ -2570,9 +2570,9 @@
     },
     {
       "id": 286,
-      "doc": "22080000",
+      "doc": "00053223",
       "variables": {
-        "entity": "büyüme"
+        "entity": "Olur olmaz , kabul eder etmez , ister istemez"
       },
       "answer_type": "string",
       "answer": "2"
@@ -2642,18 +2642,18 @@
     },
     {
       "id": 294,
-      "doc": "20200000",
+      "doc": "00111211",
       "variables": {
-        "entity": "Türkiye'nin işi"
+        "entity": "Ankara Asliye Hukuk Mahkemesi'nde ki davanın selahiyeti"
       },
       "answer_type": "string",
-      "answer": "1"
+      "answer": "2"
     },
     {
       "id": 295,
-      "doc": "00105133",
+      "doc": "00038121",
       "variables": {
-        "entity": "Selahattin"
+        "entity": "standardizasyona uymaması gereken ilk yapı tipi"
       },
       "answer_type": "string",
       "answer": "1"
@@ -2678,36 +2678,36 @@
     },
     {
       "id": 298,
-      "doc": "20580000",
+      "doc": "00095233",
       "variables": {
-        "entity": "20 gün"
+        "entity": "Konuştuğum ailelerin de yanılgıları"
       },
       "answer_type": "string",
       "answer": "1"
     },
     {
       "id": 299,
-      "doc": "00111211",
+      "doc": "00095233",
       "variables": {
-        "entity": "kuşkularımızı çok yoğunlaştıran noktalar"
+        "entity": "mütevazi liğin"
       },
       "answer_type": "string",
-      "answer": "1"
+      "answer": "2"
     },
     {
       "id": 300,
-      "doc": "00038121",
+      "doc": "00166271",
       "variables": {
-        "entity": "başkaları"
+        "entity": "birini seviyorsan onunla beraber yaşamanın bedelini ödersin"
       },
       "answer_type": "string",
       "answer": "2"
     },
     {
       "id": 301,
-      "doc": "20200000",
+      "doc": "00038121",
       "variables": {
-        "entity": "TC yurttaşlığı"
+        "entity": "o yatak odasında"
       },
       "answer_type": "string",
       "answer": "2"
@@ -2822,9 +2822,9 @@
     },
     {
       "id": 314,
-      "doc": "00002213",
+      "doc": "00032161",
       "variables": {
-        "entity": "çakmağı"
+        "entity": "ondan uzunu"
       },
       "answer_type": "string",
       "answer": "1"
@@ -2894,9 +2894,9 @@
     },
     {
       "id": 322,
-      "doc": "00032161",
+      "doc": "00053223",
       "variables": {
-        "entity": "yemek götürecek kimse"
+        "entity": "Silah lı kuvvetler"
       },
       "answer_type": "string",
       "answer": "1"
@@ -2975,12 +2975,12 @@
     },
     {
       "id": 331,
-      "doc": "22080000",
+      "doc": "00044121",
       "variables": {
-        "entity": "Kuruluşların harcamaları"
+        "entity": "onanma"
       },
       "answer_type": "string",
-      "answer": "1"
+      "answer": "2"
     },
     {
       "id": 332,
@@ -3038,9 +3038,9 @@
     },
     {
       "id": 338,
-      "doc": "20200000",
+      "doc": "22080000",
       "variables": {
-        "entity": "isteyen lere"
+        "entity": "ücretlerin"
       },
       "answer_type": "string",
       "answer": "2"
@@ -3157,10 +3157,10 @@
       "id": 351,
       "doc": "20210000",
       "variables": {
-        "entity": "yüzde 8'i"
+        "entity": "yönün yukarı dönmesi"
       },
       "answer_type": "string",
-      "answer": "1"
+      "answer": "2"
     },
     {
       "id": 352,
@@ -3281,9 +3281,9 @@
     },
     {
       "id": 365,
-      "doc": "00053223",
+      "doc": "00016112",
       "variables": {
-        "entity": "sedirin"
+        "entity": "sınıf"
       },
       "answer_type": "string",
       "answer": "2"
@@ -3308,9 +3308,9 @@
     },
     {
       "id": 368,
-      "doc": "22080000",
+      "doc": "20200000",
       "variables": {
-        "entity": "Mali Barış'tan yararlanacakların"
+        "entity": "150 partilinin"
       },
       "answer_type": "string",
       "answer": "2"

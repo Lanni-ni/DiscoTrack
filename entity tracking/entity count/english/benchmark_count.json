@@ -1,330 +1,10 @@
 {
   "task": "entity_count",
-  "lang": "eng",
+  "lang": "english",
   "example_prompt": "How many times is the {entity} mentioned in the text?",
   "instances": [
     {
       "id": 1,
-      "doc": "GUM_textbook_stats",
-      "variables": {
-        "entity": "The first quartile",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "15"
-    },
-    {
-      "id": 2,
-      "doc": "GUM_podcast_pandemic",
-      "variables": {
-        "entity": "a candidate",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "11"
-    },
-    {
-      "id": 3,
-      "doc": "GUM_textbook_stats",
-      "variables": {
-        "entity": "your score",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "3"
-    },
-    {
-      "id": 4,
-      "doc": "GUM_textbook_cognition",
-      "variables": {
-        "entity": "concepts",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "16"
-    },
-    {
-      "id": 5,
-      "doc": "GUM_news_election",
-      "variables": {
-        "entity": "the polls",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "1"
-    },
-    {
-      "id": 6,
-      "doc": "GUM_news_iodine",
-      "variables": {
-        "entity": "an infant",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "6"
-    },
-    {
-      "id": 7,
-      "doc": "GUM_letter_flood",
-      "variables": {
-        "entity": "Legislation to increase the amount of a loan which does not have to be repaid",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "12"
-    },
-    {
-      "id": 8,
-      "doc": "GUM_voyage_sydfynske",
-      "variables": {
-        "entity": "Sydfynske Øhav",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "13"
-    },
-    {
-      "id": 9,
-      "doc": "GUM_bio_jerome",
-      "variables": {
-        "entity": "Rome",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "5"
-    },
-    {
-      "id": 10,
-      "doc": "GUM_fiction_beast",
-      "variables": {
-        "entity": "the pocket of his coat",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "3"
-    },
-    {
-      "id": 11,
-      "doc": "GUM_news_soccer",
-      "variables": {
-        "entity": "Marcus Berg",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "1"
-    },
-    {
-      "id": 12,
-      "doc": "GUM_academic_mutation",
-      "variables": {
-        "entity": "Mutation Operators for Testing Geographic Information Systems",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "9"
-    },
-    {
-      "id": 13,
-      "doc": "GUM_whow_procrastinating",
-      "variables": {
-        "entity": "a looming project that 's bogging you down and making you unproductive in other areas",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "9"
-    },
-    {
-      "id": 14,
-      "doc": "GUM_bio_gordon",
-      "variables": {
-        "entity": "Russia",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "8"
-    },
-    {
-      "id": 15,
-      "doc": "GUM_academic_replication",
-      "variables": {
-        "entity": "published replication studies",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "3"
-    },
-    {
-      "id": 16,
-      "doc": "GUM_textbook_alamo",
-      "variables": {
-        "entity": "Texas",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "20"
-    },
-    {
-      "id": 17,
-      "doc": "GUM_podcast_llms",
-      "variables": {
-        "entity": "AI",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "11"
-    },
-    {
-      "id": 18,
-      "doc": "GUM_whow_overalls",
-      "variables": {
-        "entity": "The straps on adults ’ overalls",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "14"
-    },
-    {
-      "id": 19,
-      "doc": "GUM_news_iodine",
-      "variables": {
-        "entity": "Australia",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "10"
-    },
-    {
-      "id": 20,
-      "doc": "GUM_vlog_covid",
-      "variables": {
-        "entity": "bed",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "2"
-    },
-    {
-      "id": 21,
-      "doc": "GUM_textbook_stats",
-      "variables": {
-        "entity": "1",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "3"
-    },
-    {
-      "id": 22,
-      "doc": "GUM_conversation_atoms",
-      "variables": {
-        "entity": "this",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "8"
-    },
-    {
-      "id": 23,
-      "doc": "GUM_conversation_artist",
-      "variables": {
-        "entity": "this fellow",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "11"
-    },
-    {
-      "id": 24,
-      "doc": "GUM_voyage_tulsa",
-      "variables": {
-        "entity": "Broken Arrow",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "5"
-    },
-    {
-      "id": 25,
-      "doc": "GUM_news_hackers",
-      "variables": {
-        "entity": "Internet",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "9"
-    },
-    {
-      "id": 26,
-      "doc": "GUM_whow_basil",
-      "variables": {
-        "entity": "Basil",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "19"
-    },
-    {
-      "id": 27,
-      "doc": "GUM_textbook_spacetime",
-      "variables": {
-        "entity": "Gravity",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "5"
-    },
-    {
-      "id": 28,
-      "doc": "GUM_essay_food",
-      "variables": {
-        "entity": "Central Lake",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "1"
-    },
-    {
-      "id": 29,
-      "doc": "GUM_news_flag",
-      "variables": {
-        "entity": "a new national flag",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "6"
-    },
-    {
-      "id": 30,
-      "doc": "GUM_essay_ghost",
-      "variables": {
-        "entity": "Motoko Kusanagi",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "16"
-    },
-    {
-      "id": 31,
-      "doc": "GUM_conversation_vet",
-      "variables": {
-        "entity": "about that much",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "3"
-    },
-    {
-      "id": 32,
-      "doc": "GUM_interview_cocktail",
-      "variables": {
-        "entity": "the santorum neologism coined in advice columnist Dan Savage 's column Savage Love in response to comments made by former Pennsylvania Senator Rick Santorum about homosexuality",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "16"
-    },
-    {
-      "id": 33,
       "doc": "GUM_fiction_garden",
       "variables": {
         "entity": "The Captain",
@@ -334,797 +14,37 @@
       "answer": "12"
     },
     {
-      "id": 34,
+      "id": 2,
       "doc": "GUM_bio_galois",
       "variables": {
-        "entity": "Pescheux d'Herbinville , [ 13 ] who was actually one of the nineteen artillery officers whose acquittal was celebrated at the banquet that occasioned Galois ' first arrest",
+        "entity": "Only Galois ' younger brother",
         "text": "See count_english_document.json"
       },
       "answer_type": "string",
       "answer": "4"
     },
     {
-      "id": 35,
-      "doc": "GUM_news_clock",
+      "id": 3,
+      "doc": "GUM_whow_skittles",
       "variables": {
-        "entity": "his school",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "3"
-    },
-    {
-      "id": 36,
-      "doc": "GUM_podcast_bangladesh",
-      "variables": {
-        "entity": "Mangal Shobhajatra",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "5"
-    },
-    {
-      "id": 37,
-      "doc": "GUM_bio_galois",
-      "variables": {
-        "entity": "Siméon Poisson",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "5"
-    },
-    {
-      "id": 38,
-      "doc": "GUM_textbook_history",
-      "variables": {
-        "entity": "a city",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "11"
-    },
-    {
-      "id": 39,
-      "doc": "GUM_essay_food",
-      "variables": {
-        "entity": "a certain percentage of projected yield that – either because of quality or short shelf life – will not sell on the fresh market",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "4"
-    },
-    {
-      "id": 40,
-      "doc": "GUM_bio_gordon",
-      "variables": {
-        "entity": "Auchleuchries",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "5"
-    },
-    {
-      "id": 41,
-      "doc": "GUM_letter_flood",
-      "variables": {
-        "entity": "legislation that would lower interest rates on rebuilding loans and provide that a major portion of these loans would not have to be repaid",
+        "entity": "5 x 700 ml / 23.6 fl oz bottles",
         "text": "See count_english_document.json"
       },
       "answer_type": "string",
       "answer": "8"
     },
     {
-      "id": 42,
-      "doc": "GUM_news_homeopathic",
-      "variables": {
-        "entity": "Parents",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "18"
-    },
-    {
-      "id": 43,
-      "doc": "GUM_essay_evolved",
-      "variables": {
-        "entity": "Arash Javanbakht",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "11"
-    },
-    {
-      "id": 44,
+      "id": 4,
       "doc": "GUM_conversation_christmas",
       "variables": {
-        "entity": "this",
+        "entity": "this sweater",
         "text": "See count_english_document.json"
       },
       "answer_type": "string",
       "answer": "18"
     },
     {
-      "id": 45,
-      "doc": "GUM_letter_flood",
-      "variables": {
-        "entity": "THE PEOPLE OF THE FLOOD AREA",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "18"
-    },
-    {
-      "id": 46,
-      "doc": "GUM_conversation_blacksmithing",
-      "variables": {
-        "entity": "a b- general idea , of kinda how to do it",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "1"
-    },
-    {
-      "id": 47,
-      "doc": "GUM_voyage_chatham",
-      "variables": {
-        "entity": "Port Hutt",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "6"
-    },
-    {
-      "id": 48,
-      "doc": "GUM_interview_stardust",
-      "variables": {
-        "entity": "samples",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "20"
-    },
-    {
-      "id": 49,
-      "doc": "GUM_news_korea",
-      "variables": {
-        "entity": "South Korea",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "8"
-    },
-    {
-      "id": 50,
-      "doc": "GUM_speech_trump",
-      "variables": {
-        "entity": "they have equipment that is 30 years old",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "5"
-    },
-    {
-      "id": 51,
-      "doc": "GUM_bio_gordon",
-      "variables": {
-        "entity": "Tsar Peter the Great",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "11"
-    },
-    {
-      "id": 52,
-      "doc": "GUM_news_election",
-      "variables": {
-        "entity": "the Democratic Party",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "8"
-    },
-    {
-      "id": 53,
-      "doc": "GUM_speech_trump",
-      "variables": {
-        "entity": "Iraq",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "9"
-    },
-    {
-      "id": 54,
-      "doc": "GUM_textbook_history",
-      "variables": {
-        "entity": "the Maya",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "12"
-    },
-    {
-      "id": 55,
-      "doc": "GUM_speech_school",
-      "variables": {
-        "entity": "ICT",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "20"
-    },
-    {
-      "id": 56,
-      "doc": "GUM_voyage_thailand",
-      "variables": {
-        "entity": "Monks",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "7"
-    },
-    {
-      "id": 57,
-      "doc": "GUM_letter_flood",
-      "variables": {
-        "entity": "all of us",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "18"
-    },
-    {
-      "id": 58,
-      "doc": "GUM_podcast_movie",
-      "variables": {
-        "entity": "a Kickstarter",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "1"
-    },
-    {
-      "id": 59,
-      "doc": "GUM_speech_floyd",
-      "variables": {
-        "entity": "the House of Representatives",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "5"
-    },
-    {
-      "id": 60,
-      "doc": "GUM_textbook_spacetime",
-      "variables": {
-        "entity": "Spacetime",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "14"
-    },
-    {
-      "id": 61,
-      "doc": "GUM_fiction_time",
-      "variables": {
-        "entity": "oppression",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "1"
-    },
-    {
-      "id": 62,
-      "doc": "GUM_voyage_guadeloupe",
-      "variables": {
-        "entity": "Terre de Bas",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "2"
-    },
-    {
-      "id": 63,
-      "doc": "GUM_conversation_family",
-      "variables": {
-        "entity": "Carolyn",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "15"
-    },
-    {
-      "id": 64,
-      "doc": "GUM_fiction_giants",
-      "variables": {
-        "entity": "The traveler",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "14"
-    },
-    {
-      "id": 65,
-      "doc": "GUM_news_imprisoned",
-      "variables": {
-        "entity": "Church of Scientology",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "15"
-    },
-    {
-      "id": 66,
-      "doc": "GUM_academic_art",
-      "variables": {
-        "entity": "Eye",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "7"
-    },
-    {
-      "id": 67,
-      "doc": "GUM_conversation_family",
-      "variables": {
-        "entity": "Barbara Jean",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "13"
-    },
-    {
-      "id": 68,
-      "doc": "GUM_academic_exposure",
-      "variables": {
-        "entity": "18",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "12"
-    },
-    {
-      "id": 69,
-      "doc": "GUM_textbook_stats",
-      "variables": {
-        "entity": "the median",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "16"
-    },
-    {
-      "id": 70,
-      "doc": "GUM_essay_sexlife",
-      "variables": {
-        "entity": "Forbes , Eaton , and Krueger",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "11"
-    },
-    {
-      "id": 71,
-      "doc": "GUM_academic_theropod",
-      "variables": {
-        "entity": "limb",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "14"
-    },
-    {
-      "id": 72,
-      "doc": "GUM_textbook_stats",
-      "variables": {
-        "entity": "two",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "3"
-    },
-    {
-      "id": 73,
-      "doc": "GUM_fiction_time",
-      "variables": {
-        "entity": "the sun",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "12"
-    },
-    {
-      "id": 74,
-      "doc": "GUM_podcast_bangladesh",
-      "variables": {
-        "entity": "Tagore",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "5"
-    },
-    {
-      "id": 75,
-      "doc": "GUM_news_iodine",
-      "variables": {
-        "entity": "Professor Cres Eastman",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "14"
-    },
-    {
-      "id": 76,
-      "doc": "GUM_letter_flood",
-      "variables": {
-        "entity": "the entire package of flood relief bills I have sponsored",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "7"
-    },
-    {
-      "id": 77,
-      "doc": "GUM_academic_economics",
-      "variables": {
-        "entity": "the Argentine Case",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "4"
-    },
-    {
-      "id": 78,
-      "doc": "GUM_textbook_evoethics",
-      "variables": {
-        "entity": "The philosopher",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "10"
-    },
-    {
-      "id": 79,
-      "doc": "GUM_academic_lighting",
-      "variables": {
-        "entity": "cheap and efficient segmented compact LED bulbs",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "4"
-    },
-    {
-      "id": 80,
-      "doc": "GUM_textbook_anthropology",
-      "variables": {
-        "entity": "a baby",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "18"
-    },
-    {
-      "id": 81,
-      "doc": "GUM_vlog_lipstick",
-      "variables": {
-        "entity": "Too Faced Melted Matte Liquid Lipstick",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "8"
-    },
-    {
-      "id": 82,
-      "doc": "GUM_textbook_spacetime",
-      "variables": {
-        "entity": "an extremely intelligent ant — a friend of the comic book superhero Ant - Man , perhaps — that has been trained to walk in a straight line",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "14"
-    },
-    {
-      "id": 83,
-      "doc": "GUM_interview_mcguire",
-      "variables": {
-        "entity": "LibriVox",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "11"
-    },
-    {
-      "id": 84,
-      "doc": "GUM_news_soccer",
-      "variables": {
-        "entity": "the last match of the day",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "8"
-    },
-    {
-      "id": 85,
-      "doc": "GUM_court_property",
-      "variables": {
-        "entity": "process due",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "13"
-    },
-    {
-      "id": 86,
-      "doc": "GUM_academic_games",
-      "variables": {
-        "entity": "Attention",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "16"
-    },
-    {
-      "id": 87,
-      "doc": "GUM_court_property",
-      "variables": {
-        "entity": "public lands",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "12"
-    },
-    {
-      "id": 88,
-      "doc": "GUM_interview_daly",
-      "variables": {
-        "entity": "Antarctica",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "7"
-    },
-    {
-      "id": 89,
-      "doc": "GUM_bio_emperor",
-      "variables": {
-        "entity": "the United States",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "18"
-    },
-    {
-      "id": 90,
-      "doc": "GUM_bio_theodorus",
-      "variables": {
-        "entity": "his predecessors",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "1"
-    },
-    {
-      "id": 91,
-      "doc": "GUM_bio_galois",
-      "variables": {
-        "entity": "the woman of romantic interest",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "12"
-    },
-    {
-      "id": 92,
-      "doc": "GUM_voyage_cuba",
-      "variables": {
-        "entity": "the Cuban Consulate",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "3"
-    },
-    {
-      "id": 93,
-      "doc": "GUM_whow_overalls",
-      "variables": {
-        "entity": "twist ties",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "3"
-    },
-    {
-      "id": 94,
-      "doc": "GUM_news_soccer",
-      "variables": {
-        "entity": "the first game of Group G",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "8"
-    },
-    {
-      "id": 95,
-      "doc": "GUM_news_hackers",
-      "variables": {
-        "entity": "Church of Scientology",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "19"
-    },
-    {
-      "id": 96,
-      "doc": "GUM_court_prince",
-      "variables": {
-        "entity": "Goldsmith",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "19"
-    },
-    {
-      "id": 97,
-      "doc": "GUM_conversation_grounded",
-      "variables": {
-        "entity": "Hantavirus",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "14"
-    },
-    {
-      "id": 98,
-      "doc": "GUM_voyage_isfahan",
-      "variables": {
-        "entity": "Naqsh-e Jahan Square",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "18"
-    },
-    {
-      "id": 99,
-      "doc": "GUM_textbook_entrepreneurship",
-      "variables": {
-        "entity": "One example of a disruptive technology",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "13"
-    },
-    {
-      "id": 100,
-      "doc": "GUM_bio_padalecki",
-      "variables": {
-        "entity": "Clay Miller",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "3"
-    },
-    {
-      "id": 101,
-      "doc": "GUM_vlog_college",
-      "variables": {
-        "entity": "this vlog",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "4"
-    },
-    {
-      "id": 102,
-      "doc": "GUM_academic_mutation",
-      "variables": {
-        "entity": "Suilen H. Alvarado",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "15"
-    },
-    {
-      "id": 103,
-      "doc": "GUM_interview_messina",
-      "variables": {
-        "entity": "Walt Whitman",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "14"
-    },
-    {
-      "id": 104,
-      "doc": "GUM_letter_wiki",
-      "variables": {
-        "entity": "wiki technology",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "6"
-    },
-    {
-      "id": 105,
-      "doc": "GUM_academic_games",
-      "variables": {
-        "entity": "the Escola do Cérebro",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "5"
-    },
-    {
-      "id": 106,
-      "doc": "GUM_academic_salinity",
-      "variables": {
-        "entity": "L - band",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "5"
-    },
-    {
-      "id": 107,
-      "doc": "GUM_news_hackers",
-      "variables": {
-        "entity": "a long game",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "9"
-    },
-    {
-      "id": 108,
-      "doc": "GUM_conversation_artist",
-      "variables": {
-        "entity": "that damn recorder",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "4"
-    },
-    {
-      "id": 109,
-      "doc": "GUM_news_homeopathic",
-      "variables": {
-        "entity": "Thomas Sam",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "12"
-    },
-    {
-      "id": 110,
-      "doc": "GUM_whow_quidditch",
-      "variables": {
-        "entity": "Muggle Quidditch",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "12"
-    },
-    {
-      "id": 111,
-      "doc": "GUM_voyage_chatham",
-      "variables": {
-        "entity": "New Zealand",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "9"
-    },
-    {
-      "id": 112,
-      "doc": "GUM_letter_wiki",
-      "variables": {
-        "entity": "a volunteer editor for the Wikimedia Foundation",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "16"
-    },
-    {
-      "id": 113,
+      "id": 5,
       "doc": "GUM_academic_librarians",
       "variables": {
         "entity": "Digital Humanities",
@@ -1134,857 +54,17 @@
       "answer": "17"
     },
     {
-      "id": 114,
-      "doc": "GUM_textbook_stats",
+      "id": 6,
+      "doc": "GUM_textbook_evoethics",
       "variables": {
-        "entity": "6.8",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "8"
-    },
-    {
-      "id": 115,
-      "doc": "GUM_bio_galois",
-      "variables": {
-        "entity": "7",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "1"
-    },
-    {
-      "id": 116,
-      "doc": "GUM_conversation_grounded",
-      "variables": {
-        "entity": "last night",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "16"
-    },
-    {
-      "id": 117,
-      "doc": "GUM_news_warhol",
-      "variables": {
-        "entity": "attendees",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "6"
-    },
-    {
-      "id": 118,
-      "doc": "GUM_academic_exposure",
-      "variables": {
-        "entity": "periods of 1 month to 50 years of limited L2 exposure",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "5"
-    },
-    {
-      "id": 119,
-      "doc": "GUM_speech_nixon",
-      "variables": {
-        "entity": "a quarter of a century",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "1"
-    },
-    {
-      "id": 120,
-      "doc": "GUM_interview_shalev",
-      "variables": {
-        "entity": "Mathematics",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "19"
-    },
-    {
-      "id": 121,
-      "doc": "GUM_podcast_collaboration",
-      "variables": {
-        "entity": "1 or 2 writers",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "1"
-    },
-    {
-      "id": 122,
-      "doc": "GUM_fiction_garden",
-      "variables": {
-        "entity": "mermaids",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "13"
-    },
-    {
-      "id": 123,
-      "doc": "GUM_whow_quidditch",
-      "variables": {
-        "entity": "JK Rowling",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "1"
-    },
-    {
-      "id": 124,
-      "doc": "GUM_academic_salinity",
-      "variables": {
-        "entity": "19",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "1"
-    },
-    {
-      "id": 125,
-      "doc": "GUM_conversation_erasmus",
-      "variables": {
-        "entity": "Pico de la Mirandela",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "1"
-    },
-    {
-      "id": 126,
-      "doc": "GUM_court_prince",
-      "variables": {
-        "entity": "the copyrights in the work",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "3"
-    },
-    {
-      "id": 127,
-      "doc": "GUM_voyage_chatham",
-      "variables": {
-        "entity": "the eastern corner of Rekohu",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "1"
-    },
-    {
-      "id": 128,
-      "doc": "GUM_fiction_giants",
-      "variables": {
-        "entity": "white linen shrouds",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "1"
-    },
-    {
-      "id": 129,
-      "doc": "GUM_fiction_time",
-      "variables": {
-        "entity": "The palpitating greyness",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "1"
-    },
-    {
-      "id": 130,
-      "doc": "GUM_speech_albania",
-      "variables": {
-        "entity": "the United Nations",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "9"
-    },
-    {
-      "id": 131,
-      "doc": "GUM_academic_replication",
-      "variables": {
-        "entity": "Jasny , Chin , Chong , & Vignieri , 2011",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "1"
-    },
-    {
-      "id": 132,
-      "doc": "GUM_conversation_blacksmithing",
-      "variables": {
-        "entity": "the hoof",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "10"
-    },
-    {
-      "id": 133,
-      "doc": "GUM_voyage_isfahan",
-      "variables": {
-        "entity": "a palace",
+        "entity": "moral realists",
         "text": "See count_english_document.json"
       },
       "answer_type": "string",
       "answer": "7"
     },
     {
-      "id": 134,
-      "doc": "GUM_conversation_toys",
-      "variables": {
-        "entity": "the Toys ' R ' Us catalog",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "15"
-    },
-    {
-      "id": 135,
-      "doc": "GUM_letter_roomers",
-      "variables": {
-        "entity": "the 4 - room",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "10"
-    },
-    {
-      "id": 136,
-      "doc": "GUM_conversation_artist",
-      "variables": {
-        "entity": "twenty - five paintings",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "6"
-    },
-    {
-      "id": 137,
-      "doc": "GUM_podcast_bangladesh",
-      "variables": {
-        "entity": "Rabindra Sangeet",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "7"
-    },
-    {
-      "id": 138,
-      "doc": "GUM_essay_food",
-      "variables": {
-        "entity": "producers",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "7"
-    },
-    {
-      "id": 139,
-      "doc": "GUM_textbook_alamo",
-      "variables": {
-        "entity": "the Mexican government",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "9"
-    },
-    {
-      "id": 140,
-      "doc": "GUM_podcast_brave",
-      "variables": {
-        "entity": "the fucking oddly cartoony Chuck Jonesy things",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "10"
-    },
-    {
-      "id": 141,
-      "doc": "GUM_speech_destiny",
-      "variables": {
-        "entity": "freedom",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "10"
-    },
-    {
-      "id": 142,
-      "doc": "GUM_interview_cyclone",
-      "variables": {
-        "entity": "all tropical cyclones",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "14"
-    },
-    {
-      "id": 143,
-      "doc": "GUM_whow_quinoa",
-      "variables": {
-        "entity": "medium - high heat",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "1"
-    },
-    {
-      "id": 144,
-      "doc": "GUM_interview_ants",
-      "variables": {
-        "entity": "wild colonies of Formica fusca",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "11"
-    },
-    {
-      "id": 145,
-      "doc": "GUM_podcast_brave",
-      "variables": {
-        "entity": "that bear",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "14"
-    },
-    {
-      "id": 146,
-      "doc": "GUM_podcast_bangladesh",
-      "variables": {
-        "entity": "That",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "8"
-    },
-    {
-      "id": 147,
-      "doc": "GUM_news_soccer",
-      "variables": {
-        "entity": "Romelu Lukaku",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "5"
-    },
-    {
-      "id": 148,
-      "doc": "GUM_fiction_claus",
-      "variables": {
-        "entity": "the blinds",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "1"
-    },
-    {
-      "id": 149,
-      "doc": "GUM_conversation_erasmus",
-      "variables": {
-        "entity": "a person",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "16"
-    },
-    {
-      "id": 150,
-      "doc": "GUM_whow_joke",
-      "variables": {
-        "entity": "the punchline",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "11"
-    },
-    {
-      "id": 151,
-      "doc": "GUM_whow_chicken",
-      "variables": {
-        "entity": "the breast",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "3"
-    },
-    {
-      "id": 152,
-      "doc": "GUM_whow_skittles",
-      "variables": {
-        "entity": "Single Serving",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "5"
-    },
-    {
-      "id": 153,
-      "doc": "GUM_academic_salinity",
-      "variables": {
-        "entity": "sea",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "14"
-    },
-    {
-      "id": 154,
-      "doc": "GUM_whow_quinoa",
-      "variables": {
-        "entity": "rice",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "8"
-    },
-    {
-      "id": 155,
-      "doc": "GUM_textbook_spacetime",
-      "variables": {
-        "entity": "space and time",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "9"
-    },
-    {
-      "id": 156,
-      "doc": "GUM_voyage_sydfynske",
-      "variables": {
-        "entity": "Denmark 's",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "8"
-    },
-    {
-      "id": 157,
-      "doc": "GUM_conversation_grounded",
-      "variables": {
-        "entity": "the volleyball",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "8"
-    },
-    {
-      "id": 158,
-      "doc": "GUM_whow_quidditch",
-      "variables": {
-        "entity": "the game",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "10"
-    },
-    {
-      "id": 159,
-      "doc": "GUM_academic_lighting",
-      "variables": {
-        "entity": "lighting",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "11"
-    },
-    {
-      "id": 160,
-      "doc": "GUM_interview_stardust",
-      "variables": {
-        "entity": "Stardust",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "14"
-    },
-    {
-      "id": 161,
-      "doc": "GUM_news_defector",
-      "variables": {
-        "entity": "the elite group",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "12"
-    },
-    {
-      "id": 162,
-      "doc": "GUM_essay_sexlife",
-      "variables": {
-        "entity": "Sex",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "18"
-    },
-    {
-      "id": 163,
-      "doc": "GUM_conversation_toys",
-      "variables": {
-        "entity": "something that Robbie may like",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "19"
-    },
-    {
-      "id": 164,
-      "doc": "GUM_academic_huh",
-      "variables": {
-        "entity": "a word like ‘ Huh ? ’ – used as a ‘ repair initiator ’ when , for example , one has not clearly heard what someone just said [ 5 ] , [ 6 ]",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "17"
-    },
-    {
-      "id": 165,
-      "doc": "GUM_voyage_sydfynske",
-      "variables": {
-        "entity": "the area",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "13"
-    },
-    {
-      "id": 166,
-      "doc": "GUM_interview_gaming",
-      "variables": {
-        "entity": "Wikinews",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "1"
-    },
-    {
-      "id": 167,
-      "doc": "GUM_news_korea",
-      "variables": {
-        "entity": "military",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "10"
-    },
-    {
-      "id": 168,
-      "doc": "GUM_academic_replication",
-      "variables": {
-        "entity": "Second Language",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "13"
-    },
-    {
-      "id": 169,
-      "doc": "GUM_letter_zora",
-      "variables": {
-        "entity": "my new home",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "18"
-    },
-    {
-      "id": 170,
-      "doc": "GUM_academic_exposure",
-      "variables": {
-        "entity": "adult - learned second language",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "18"
-    },
-    {
-      "id": 171,
-      "doc": "GUM_textbook_history",
-      "variables": {
-        "entity": "THE FIRST AMERICANS",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "18"
-    },
-    {
-      "id": 172,
-      "doc": "GUM_whow_joke",
-      "variables": {
-        "entity": "your audience",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "14"
-    },
-    {
-      "id": 173,
-      "doc": "GUM_conversation_vet",
-      "variables": {
-        "entity": "Richard",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "7"
-    },
-    {
-      "id": 174,
-      "doc": "GUM_conversation_zero",
-      "variables": {
-        "entity": "three",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "14"
-    },
-    {
-      "id": 175,
-      "doc": "GUM_conversation_blacksmithing",
-      "variables": {
-        "entity": "to do the feet",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "13"
-    },
-    {
-      "id": 176,
-      "doc": "GUM_letter_roomers",
-      "variables": {
-        "entity": "HONG - KONG",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "1"
-    },
-    {
-      "id": 177,
-      "doc": "GUM_court_property",
-      "variables": {
-        "entity": "plaintiffs '",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "15"
-    },
-    {
-      "id": 178,
-      "doc": "GUM_fiction_veronique",
-      "variables": {
-        "entity": "Earth",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "12"
-    },
-    {
-      "id": 179,
-      "doc": "GUM_textbook_alamo",
-      "variables": {
-        "entity": "Many Americans who migrated to Texas at the invitation of the Mexican government",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "11"
-    },
-    {
-      "id": 180,
-      "doc": "GUM_speech_nixon",
-      "variables": {
-        "entity": "the one quarter of the world 's people who live in the People 's Republic of China",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "1"
-    },
-    {
-      "id": 181,
-      "doc": "GUM_textbook_cognition",
-      "variables": {
-        "entity": "Cognitive psychology",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "3"
-    },
-    {
-      "id": 182,
-      "doc": "GUM_podcast_bangladesh",
-      "variables": {
-        "entity": "Shobhajatra",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "11"
-    },
-    {
-      "id": 183,
-      "doc": "GUM_whow_flirt",
-      "variables": {
-        "entity": "most people",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "7"
-    },
-    {
-      "id": 184,
-      "doc": "GUM_podcast_addiction",
-      "variables": {
-        "entity": "substance",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "3"
-    },
-    {
-      "id": 185,
-      "doc": "GUM_podcast_addiction",
-      "variables": {
-        "entity": "addiction",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "5"
-    },
-    {
-      "id": 186,
-      "doc": "GUM_letter_wiki",
-      "variables": {
-        "entity": "Pennsylvania",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "16"
-    },
-    {
-      "id": 187,
-      "doc": "GUM_academic_lighting",
-      "variables": {
-        "entity": "june 2016",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "1"
-    },
-    {
-      "id": 188,
-      "doc": "GUM_interview_stardust",
-      "variables": {
-        "entity": "NASA",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "4"
-    },
-    {
-      "id": 189,
-      "doc": "GUM_podcast_llms",
-      "variables": {
-        "entity": "information",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "6"
-    },
-    {
-      "id": 190,
-      "doc": "GUM_academic_librarians",
-      "variables": {
-        "entity": "to boost their knowledge level to where they feel comfortable providing information about DH projects , follow the literature and research , follow online tutorials and hopefully take up the challenge of finishing this professional development by engaging with the DH community",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "6"
-    },
-    {
-      "id": 191,
-      "doc": "GUM_court_fire",
-      "variables": {
-        "entity": "the theory",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "9"
-    },
-    {
-      "id": 192,
-      "doc": "GUM_vlog_college",
-      "variables": {
-        "entity": "massages",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "1"
-    },
-    {
-      "id": 193,
-      "doc": "GUM_news_soccer",
-      "variables": {
-        "entity": "Belgium",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "12"
-    },
-    {
-      "id": 194,
-      "doc": "GUM_court_negligence",
-      "variables": {
-        "entity": "waiver of tort",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "9"
-    },
-    {
-      "id": 195,
-      "doc": "GUM_academic_epistemic",
-      "variables": {
-        "entity": "expertise",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "12"
-    },
-    {
-      "id": 196,
-      "doc": "GUM_academic_thrones",
-      "variables": {
-        "entity": "the current project",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "7"
-    },
-    {
-      "id": 197,
-      "doc": "GUM_news_warhol",
-      "variables": {
-        "entity": "USI 's art gallery",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "9"
-    },
-    {
-      "id": 198,
-      "doc": "GUM_speech_maiden",
-      "variables": {
-        "entity": "today",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "7"
-    },
-    {
-      "id": 199,
+      "id": 7,
       "doc": "GUM_bio_holt",
       "variables": {
         "entity": "MLB",
@@ -1994,1087 +74,47 @@
       "answer": "11"
     },
     {
-      "id": 200,
-      "doc": "GUM_bio_emperor",
+      "id": 8,
+      "doc": "GUM_bio_padalecki",
       "variables": {
-        "entity": "San Francisco , California",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "13"
-    },
-    {
-      "id": 201,
-      "doc": "GUM_conversation_scientist",
-      "variables": {
-        "entity": "this",
+        "entity": "the TV series",
         "text": "See count_english_document.json"
       },
       "answer_type": "string",
       "answer": "11"
     },
     {
-      "id": 202,
-      "doc": "GUM_news_imprisoned",
+      "id": 9,
+      "doc": "GUM_academic_implicature",
       "variables": {
-        "entity": "her mother",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "9"
-    },
-    {
-      "id": 203,
-      "doc": "GUM_vlog_wine",
-      "variables": {
-        "entity": "the Chardonnay - Pinot Noir",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "11"
-    },
-    {
-      "id": 204,
-      "doc": "GUM_podcast_llms",
-      "variables": {
-        "entity": "the training corpora",
+        "entity": "this study",
         "text": "See count_english_document.json"
       },
       "answer_type": "string",
       "answer": "7"
     },
     {
-      "id": 205,
-      "doc": "GUM_voyage_merida",
+      "id": 10,
+      "doc": "GUM_whow_joke",
       "variables": {
-        "entity": "Mérida",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "14"
-    },
-    {
-      "id": 206,
-      "doc": "GUM_interview_shalev",
-      "variables": {
-        "entity": "fiction",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "1"
-    },
-    {
-      "id": 207,
-      "doc": "GUM_news_afghan",
-      "variables": {
-        "entity": "international robotics competition",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "16"
-    },
-    {
-      "id": 208,
-      "doc": "GUM_speech_school",
-      "variables": {
-        "entity": "School of Open – Africa",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "9"
-    },
-    {
-      "id": 209,
-      "doc": "GUM_textbook_alamo",
-      "variables": {
-        "entity": "Mexico 's",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "11"
-    },
-    {
-      "id": 210,
-      "doc": "GUM_letter_zora",
-      "variables": {
-        "entity": "The Saturday Evening Post photographer",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "3"
-    },
-    {
-      "id": 211,
-      "doc": "GUM_court_fire",
-      "variables": {
-        "entity": "the fire",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "17"
-    },
-    {
-      "id": 212,
-      "doc": "GUM_news_soccer",
-      "variables": {
-        "entity": "Group G",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "3"
-    },
-    {
-      "id": 213,
-      "doc": "GUM_vlog_lipstick",
-      "variables": {
-        "entity": "this",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "10"
-    },
-    {
-      "id": 214,
-      "doc": "GUM_court_loan",
-      "variables": {
-        "entity": "The states",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "9"
-    },
-    {
-      "id": 215,
-      "doc": "GUM_letter_marcie3",
-      "variables": {
-        "entity": "some reason",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "1"
-    },
-    {
-      "id": 216,
-      "doc": "GUM_bio_bernoulli",
-      "variables": {
-        "entity": "Johann Bernoulli",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "15"
-    },
-    {
-      "id": 217,
-      "doc": "GUM_court_loan",
-      "variables": {
-        "entity": "a separate legal person , MOHELA , that could sue in its own name but has chosen not to do so",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "3"
-    },
-    {
-      "id": 218,
-      "doc": "GUM_academic_lighting",
-      "variables": {
-        "entity": "most commonly and widely used bulb in the household",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "7"
-    },
-    {
-      "id": 219,
-      "doc": "GUM_academic_mutation",
-      "variables": {
-        "entity": "Mutation",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "15"
-    },
-    {
-      "id": 220,
-      "doc": "GUM_court_loan",
-      "variables": {
-        "entity": "the HEROES Act",
+        "entity": "a target",
         "text": "See count_english_document.json"
       },
       "answer_type": "string",
       "answer": "8"
     },
     {
-      "id": 221,
-      "doc": "GUM_whow_overalls",
+      "id": 11,
+      "doc": "GUM_textbook_history",
       "variables": {
-        "entity": "Overalls",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "11"
-    },
-    {
-      "id": 222,
-      "doc": "GUM_letter_wiki",
-      "variables": {
-        "entity": "one aspect of the proposal",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "6"
-    },
-    {
-      "id": 223,
-      "doc": "GUM_news_expo",
-      "variables": {
-        "entity": "Nick Moreau",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "11"
-    },
-    {
-      "id": 224,
-      "doc": "GUM_academic_games",
-      "variables": {
-        "entity": "2007",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "1"
-    },
-    {
-      "id": 225,
-      "doc": "GUM_news_clock",
-      "variables": {
-        "entity": "America",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "5"
-    },
-    {
-      "id": 226,
-      "doc": "GUM_bio_chao",
-      "variables": {
-        "entity": "China",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "9"
-    },
-    {
-      "id": 227,
-      "doc": "GUM_voyage_cuba",
-      "variables": {
-        "entity": "Visa",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "14"
-    },
-    {
-      "id": 228,
-      "doc": "GUM_bio_nida",
-      "variables": {
-        "entity": "other theories of correspondence in translating",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "1"
-    },
-    {
-      "id": 229,
-      "doc": "GUM_news_clock",
-      "variables": {
-        "entity": "a boy 's digital clock",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "6"
-    },
-    {
-      "id": 230,
-      "doc": "GUM_court_fire",
-      "variables": {
-        "entity": "the cause of the fire",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "7"
-    },
-    {
-      "id": 231,
-      "doc": "GUM_academic_replication",
-      "variables": {
-        "entity": "Second Language Research",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "10"
-    },
-    {
-      "id": 232,
-      "doc": "GUM_podcast_addiction",
-      "variables": {
-        "entity": "Problem gambling",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "5"
-    },
-    {
-      "id": 233,
-      "doc": "GUM_conversation_erasmus",
-      "variables": {
-        "entity": "salvation",
+        "entity": "the Western Hemisphere",
         "text": "See count_english_document.json"
       },
       "answer_type": "string",
       "answer": "3"
     },
     {
-      "id": 234,
-      "doc": "GUM_news_korea",
-      "variables": {
-        "entity": "North Korea",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "10"
-    },
-    {
-      "id": 235,
-      "doc": "GUM_letter_wiki",
-      "variables": {
-        "entity": "productive conversation with your office focusing on one aspect of the proposal",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "4"
-    },
-    {
-      "id": 236,
-      "doc": "GUM_podcast_pandemic",
-      "variables": {
-        "entity": "this",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "20"
-    },
-    {
-      "id": 237,
-      "doc": "GUM_conversation_atoms",
-      "variables": {
-        "entity": "something that 's hard , like this ice here , or a table , or a rock",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "9"
-    },
-    {
-      "id": 238,
-      "doc": "GUM_bio_galois",
-      "variables": {
-        "entity": "a duel",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "10"
-    },
-    {
-      "id": 239,
-      "doc": "GUM_podcast_collaboration",
-      "variables": {
-        "entity": "improv",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "3"
-    },
-    {
-      "id": 240,
-      "doc": "GUM_academic_salinity",
-      "variables": {
-        "entity": "global sea surface salinity",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "14"
-    },
-    {
-      "id": 241,
-      "doc": "GUM_court_loan",
-      "variables": {
-        "entity": "a measure of loan forgiveness",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "8"
-    },
-    {
-      "id": 242,
-      "doc": "GUM_academic_librarians",
-      "variables": {
-        "entity": "existing teaching material related to DH",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "1"
-    },
-    {
-      "id": 243,
-      "doc": "GUM_news_questionnaire",
-      "variables": {
-        "entity": "Thursday",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "7"
-    },
-    {
-      "id": 244,
-      "doc": "GUM_speech_impeachment",
-      "variables": {
-        "entity": "laws",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "4"
-    },
-    {
-      "id": 245,
-      "doc": "GUM_letter_zora",
-      "variables": {
-        "entity": "Eau Gallie , Fla.",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "9"
-    },
-    {
-      "id": 246,
-      "doc": "GUM_speech_destiny",
-      "variables": {
-        "entity": "14 August 1947",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "8"
-    },
-    {
-      "id": 247,
-      "doc": "GUM_academic_epistemic",
-      "variables": {
-        "entity": "Jeffrey Beall",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "3"
-    },
-    {
-      "id": 248,
-      "doc": "GUM_conversation_toys",
-      "variables": {
-        "entity": "the fun",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "16"
-    },
-    {
-      "id": 249,
-      "doc": "GUM_interview_licen",
-      "variables": {
-        "entity": "United States",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "10"
-    },
-    {
-      "id": 250,
-      "doc": "GUM_whow_procrastinating",
-      "variables": {
-        "entity": "everything , big and small , that you have to do for your entire day",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "6"
-    },
-    {
-      "id": 251,
-      "doc": "GUM_speech_telescope",
-      "variables": {
-        "entity": "Space",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "9"
-    },
-    {
-      "id": 252,
-      "doc": "GUM_essay_food",
-      "variables": {
-        "entity": "Cold , Hard Harvest",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "18"
-    },
-    {
-      "id": 253,
-      "doc": "GUM_academic_theropod",
-      "variables": {
-        "entity": "the ground reaction force",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "5"
-    },
-    {
-      "id": 254,
-      "doc": "GUM_letter_flood",
-      "variables": {
-        "entity": "interest rates on rebuilding loans",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "6"
-    },
-    {
-      "id": 255,
-      "doc": "GUM_voyage_cuba",
-      "variables": {
-        "entity": "Cuba",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "9"
-    },
-    {
-      "id": 256,
-      "doc": "GUM_news_lanterns",
-      "variables": {
-        "entity": "the Taipei lantern festival",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "12"
-    },
-    {
-      "id": 257,
-      "doc": "GUM_letter_flood",
-      "variables": {
-        "entity": "rebuilding loans",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "15"
-    },
-    {
-      "id": 258,
-      "doc": "GUM_whow_quidditch",
-      "variables": {
-        "entity": "The referee",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "7"
-    },
-    {
-      "id": 259,
-      "doc": "GUM_court_equality",
-      "variables": {
-        "entity": "a bouquet of rights that LGBTQ people are being denied post - Johar",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "5"
-    },
-    {
-      "id": 260,
-      "doc": "GUM_interview_herrick",
-      "variables": {
-        "entity": "eHow",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "7"
-    },
-    {
-      "id": 261,
-      "doc": "GUM_textbook_evoethics",
-      "variables": {
-        "entity": "morality",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "11"
-    },
-    {
-      "id": 262,
-      "doc": "GUM_fiction_oversite",
-      "variables": {
-        "entity": "The second night",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "3"
-    },
-    {
-      "id": 263,
-      "doc": "GUM_conversation_erasmus",
-      "variables": {
-        "entity": "God alone",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "13"
-    },
-    {
-      "id": 264,
-      "doc": "GUM_textbook_stats",
-      "variables": {
-        "entity": "7.2",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "8"
-    },
-    {
-      "id": 265,
-      "doc": "GUM_essay_sexlife",
-      "variables": {
-        "entity": "An exception to this pattern",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "14"
-    },
-    {
-      "id": 266,
-      "doc": "GUM_conversation_vet",
-      "variables": {
-        "entity": "that one",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "15"
-    },
-    {
-      "id": 267,
-      "doc": "GUM_news_expo",
-      "variables": {
-        "entity": "US team Cloud9 and Immortals , from Brazil",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "3"
-    },
-    {
-      "id": 268,
-      "doc": "GUM_news_iodine",
-      "variables": {
-        "entity": "iodine deficiency",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "19"
-    },
-    {
-      "id": 269,
-      "doc": "GUM_speech_destiny",
-      "variables": {
-        "entity": "his faith and strength and courage and humility",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "1"
-    },
-    {
-      "id": 270,
-      "doc": "GUM_whow_overalls",
-      "variables": {
-        "entity": "the strap adjusters",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "8"
-    },
-    {
-      "id": 271,
-      "doc": "GUM_court_fire",
-      "variables": {
-        "entity": "the smoke alarms",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "5"
-    },
-    {
-      "id": 272,
-      "doc": "GUM_textbook_stats",
-      "variables": {
-        "entity": "the following data",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "14"
-    },
-    {
-      "id": 273,
-      "doc": "GUM_essay_dividends",
-      "variables": {
-        "entity": "the best part",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "1"
-    },
-    {
-      "id": 274,
-      "doc": "GUM_podcast_llms",
-      "variables": {
-        "entity": "the companies building LLMs",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "12"
-    },
-    {
-      "id": 275,
-      "doc": "GUM_fiction_moon",
-      "variables": {
-        "entity": "the Moon",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "13"
-    },
-    {
-      "id": 276,
-      "doc": "GUM_fiction_oversite",
-      "variables": {
-        "entity": "a chip",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "6"
-    },
-    {
-      "id": 277,
-      "doc": "GUM_whow_chicken",
-      "variables": {
-        "entity": "How to Hypnotize a Chicken",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "4"
-    },
-    {
-      "id": 278,
-      "doc": "GUM_news_hackers",
-      "variables": {
-        "entity": "Church of Scientology website",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "14"
-    },
-    {
-      "id": 279,
-      "doc": "GUM_textbook_evoethics",
-      "variables": {
-        "entity": "Moral Facts",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "16"
-    },
-    {
-      "id": 280,
-      "doc": "GUM_whow_cupcakes",
-      "variables": {
-        "entity": "450 ml ( 1 - 3/4 cup ) unsweetened soy milk",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "4"
-    },
-    {
-      "id": 281,
-      "doc": "GUM_letter_roomers",
-      "variables": {
-        "entity": "Lucy Pope",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "19"
-    },
-    {
-      "id": 282,
-      "doc": "GUM_letter_marcie2",
-      "variables": {
-        "entity": "a good mark",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "1"
-    },
-    {
-      "id": 283,
-      "doc": "GUM_news_imprisoned",
-      "variables": {
-        "entity": "the Scientology - owned cruise ship",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "11"
-    },
-    {
-      "id": 284,
-      "doc": "GUM_news_lanterns",
-      "variables": {
-        "entity": "Lantern",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "5"
-    },
-    {
-      "id": 285,
-      "doc": "GUM_textbook_stats",
-      "variables": {
-        "entity": "The median",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "17"
-    },
-    {
-      "id": 286,
-      "doc": "GUM_textbook_sociology",
-      "variables": {
-        "entity": "Anthropologist Ken Barger",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "16"
-    },
-    {
-      "id": 287,
-      "doc": "GUM_letter_conference",
-      "variables": {
-        "entity": "the conference",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "6"
-    },
-    {
-      "id": 288,
-      "doc": "GUM_voyage_isfahan",
-      "variables": {
-        "entity": "Chehel Sotoun",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "8"
-    },
-    {
-      "id": 289,
-      "doc": "GUM_vlog_hiking",
-      "variables": {
-        "entity": "a grizzly bear and two babies that were hanging out up here",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "8"
-    },
-    {
-      "id": 290,
-      "doc": "GUM_interview_messina",
-      "variables": {
-        "entity": "a telegram telling him his brother was injured in the South",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "1"
-    },
-    {
-      "id": 291,
-      "doc": "GUM_bio_jerome",
-      "variables": {
-        "entity": "the catacombs",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "3"
-    },
-    {
-      "id": 292,
-      "doc": "GUM_court_property",
-      "variables": {
-        "entity": "the particular interest",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "3"
-    },
-    {
-      "id": 293,
-      "doc": "GUM_bio_bernoulli",
-      "variables": {
-        "entity": "two brothers",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "2"
-    },
-    {
-      "id": 294,
-      "doc": "GUM_news_warhol",
-      "variables": {
-        "entity": "Kristin Wilkins",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "14"
-    },
-    {
-      "id": 295,
-      "doc": "GUM_textbook_spacetime",
-      "variables": {
-        "entity": "a motorist driving east on a stretch of road in Kansas where the countryside is absolutely flat",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "11"
-    },
-    {
-      "id": 296,
-      "doc": "GUM_news_warming",
-      "variables": {
-        "entity": "soybean",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "3"
-    },
-    {
-      "id": 297,
-      "doc": "GUM_speech_floyd",
-      "variables": {
-        "entity": "the George Floyd Justice in Policing Act",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "20"
-    },
-    {
-      "id": 298,
-      "doc": "GUM_podcast_addiction",
-      "variables": {
-        "entity": "an addiction to sugar",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "14"
-    },
-    {
-      "id": 299,
-      "doc": "GUM_court_prince",
-      "variables": {
-        "entity": "the board",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "1"
-    },
-    {
-      "id": 300,
-      "doc": "GUM_bio_galois",
-      "variables": {
-        "entity": "his ideas",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "3"
-    },
-    {
-      "id": 301,
-      "doc": "GUM_fiction_giants",
-      "variables": {
-        "entity": "one granddaughter who survived the war",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "14"
-    },
-    {
-      "id": 302,
-      "doc": "GUM_letter_conference",
-      "variables": {
-        "entity": "Bill",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "17"
-    },
-    {
-      "id": 303,
-      "doc": "GUM_news_lanterns",
-      "variables": {
-        "entity": "Taipei",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "7"
-    },
-    {
-      "id": 304,
-      "doc": "GUM_textbook_spacetime",
-      "variables": {
-        "entity": "our rubber sheet",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "11"
-    },
-    {
-      "id": 305,
-      "doc": "GUM_letter_gorbachev",
-      "variables": {
-        "entity": "utility and other services that have marked economies of scale or density",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "14"
-    },
-    {
-      "id": 306,
-      "doc": "GUM_bio_chao",
-      "variables": {
-        "entity": "the Institute of History and Philology of Academia Sinica",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "1"
-    },
-    {
-      "id": 307,
-      "doc": "GUM_podcast_brave",
-      "variables": {
-        "entity": "the chicken on a stick",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "7"
-    },
-    {
-      "id": 308,
+      "id": 12,
       "doc": "GUM_voyage_tulsa",
       "variables": {
         "entity": "the Downtown area",
@@ -3084,587 +124,27 @@
       "answer": "10"
     },
     {
-      "id": 309,
-      "doc": "GUM_essay_dividends",
+      "id": 13,
+      "doc": "GUM_voyage_sydfynske",
       "variables": {
-        "entity": "American patriot Thomas Paine",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "11"
-    },
-    {
-      "id": 310,
-      "doc": "GUM_academic_mutation",
-      "variables": {
-        "entity": "Geographic Information Systems",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "12"
-    },
-    {
-      "id": 311,
-      "doc": "GUM_voyage_lodz",
-      "variables": {
-        "entity": "lofts",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "1"
-    },
-    {
-      "id": 312,
-      "doc": "GUM_news_afghan",
-      "variables": {
-        "entity": "the United States",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "14"
-    },
-    {
-      "id": 313,
-      "doc": "GUM_textbook_governments",
-      "variables": {
-        "entity": "minority rights",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "2"
-    },
-    {
-      "id": 314,
-      "doc": "GUM_bio_moreau",
-      "variables": {
-        "entity": "Katherine ( née Buckley )",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "8"
-    },
-    {
-      "id": 315,
-      "doc": "GUM_court_equality",
-      "variables": {
-        "entity": "Marriage",
+        "entity": "the area",
         "text": "See count_english_document.json"
       },
       "answer_type": "string",
       "answer": "13"
     },
     {
-      "id": 316,
-      "doc": "GUM_letter_gorbachev",
+      "id": 14,
+      "doc": "GUM_academic_theropod",
       "variables": {
-        "entity": "The rental value of land",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "6"
-    },
-    {
-      "id": 317,
-      "doc": "GUM_vlog_portland",
-      "variables": {
-        "entity": "Portland , Oregon",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "12"
-    },
-    {
-      "id": 318,
-      "doc": "GUM_news_warming",
-      "variables": {
-        "entity": "atmospheric ozone",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "13"
-    },
-    {
-      "id": 319,
-      "doc": "GUM_textbook_grit",
-      "variables": {
-        "entity": "motivation",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "5"
-    },
-    {
-      "id": 320,
-      "doc": "GUM_academic_epistemic",
-      "variables": {
-        "entity": "institutions with a credentialing function , such as universities , bar associations , or peer review bodies",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "7"
-    },
-    {
-      "id": 321,
-      "doc": "GUM_news_iodine",
-      "variables": {
-        "entity": "all edible salt",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "8"
-    },
-    {
-      "id": 322,
-      "doc": "GUM_letter_roomers",
-      "variables": {
-        "entity": "Dear 3 or 4 Roomers",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "11"
-    },
-    {
-      "id": 323,
-      "doc": "GUM_court_equality",
-      "variables": {
-        "entity": "much greater acceptance , say , of same - sex relationships",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "4"
-    },
-    {
-      "id": 324,
-      "doc": "GUM_conversation_christmas",
-      "variables": {
-        "entity": "Diana",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "10"
-    },
-    {
-      "id": 325,
-      "doc": "GUM_textbook_alamo",
-      "variables": {
-        "entity": "James Bowie",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "4"
-    },
-    {
-      "id": 326,
-      "doc": "GUM_vlog_radiology",
-      "variables": {
-        "entity": "home",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "7"
-    },
-    {
-      "id": 327,
-      "doc": "GUM_fiction_sneeze",
-      "variables": {
-        "entity": "a voice",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "9"
-    },
-    {
-      "id": 328,
-      "doc": "GUM_conversation_zero",
-      "variables": {
-        "entity": "the square root of one , over the square root of two",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "9"
-    },
-    {
-      "id": 329,
-      "doc": "GUM_textbook_evoethics",
-      "variables": {
-        "entity": "moral judgments",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "9"
-    },
-    {
-      "id": 330,
-      "doc": "GUM_whow_quidditch",
-      "variables": {
-        "entity": "the snitch",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "10"
-    },
-    {
-      "id": 331,
-      "doc": "GUM_textbook_entrepreneurship",
-      "variables": {
-        "entity": "The old method",
+        "entity": "walking",
         "text": "See count_english_document.json"
       },
       "answer_type": "string",
       "answer": "3"
     },
     {
-      "id": 332,
-      "doc": "GUM_letter_gorbachev",
-      "variables": {
-        "entity": "most of the rent of land",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "1"
-    },
-    {
-      "id": 333,
-      "doc": "GUM_letter_arendt",
-      "variables": {
-        "entity": "Prince of Spain , Alphonso , who is the son of King Alphonso 's deaf and mute son ( the second one )",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "9"
-    },
-    {
-      "id": 334,
-      "doc": "GUM_letter_arendt",
-      "variables": {
-        "entity": "Dear Hannah",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "16"
-    },
-    {
-      "id": 335,
-      "doc": "GUM_essay_distraction",
-      "variables": {
-        "entity": "20 minutes",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "8"
-    },
-    {
-      "id": 336,
-      "doc": "GUM_vlog_wine",
-      "variables": {
-        "entity": "Viognier",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "1"
-    },
-    {
-      "id": 337,
-      "doc": "GUM_academic_thrones",
-      "variables": {
-        "entity": "Game of Thrones",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "14"
-    },
-    {
-      "id": 338,
-      "doc": "GUM_letter_flood",
-      "variables": {
-        "entity": "$ 2,500 of the loan",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "7"
-    },
-    {
-      "id": 339,
-      "doc": "GUM_conversation_scientist",
-      "variables": {
-        "entity": "scientists",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "16"
-    },
-    {
-      "id": 340,
-      "doc": "GUM_conversation_family",
-      "variables": {
-        "entity": "lemon",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "7"
-    },
-    {
-      "id": 341,
-      "doc": "GUM_bio_marbles",
-      "variables": {
-        "entity": "season 2 of Epic Rap Battles of History",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "3"
-    },
-    {
-      "id": 342,
-      "doc": "GUM_voyage_chatham",
-      "variables": {
-        "entity": "Kopinga Marae",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "11"
-    },
-    {
-      "id": 343,
-      "doc": "GUM_essay_food",
-      "variables": {
-        "entity": "food",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "17"
-    },
-    {
-      "id": 344,
-      "doc": "GUM_academic_exposure",
-      "variables": {
-        "entity": "the neurocognition of L2 grammar",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "1"
-    },
-    {
-      "id": 345,
-      "doc": "GUM_interview_brotherhood",
-      "variables": {
-        "entity": "Magic",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "15"
-    },
-    {
-      "id": 346,
-      "doc": "GUM_whow_skittles",
-      "variables": {
-        "entity": "five bags of Skittles",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "3"
-    },
-    {
-      "id": 347,
-      "doc": "GUM_court_prince",
-      "variables": {
-        "entity": "the Orange Prince",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "12"
-    },
-    {
-      "id": 348,
-      "doc": "GUM_speech_maiden",
-      "variables": {
-        "entity": "The Senate",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "15"
-    },
-    {
-      "id": 349,
-      "doc": "GUM_essay_sexlife",
-      "variables": {
-        "entity": "life",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "10"
-    },
-    {
-      "id": 350,
-      "doc": "GUM_news_taxes",
-      "variables": {
-        "entity": "Local municipalities",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "3"
-    },
-    {
-      "id": 351,
-      "doc": "GUM_academic_lighting",
-      "variables": {
-        "entity": "household electrical energy",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "5"
-    },
-    {
-      "id": 352,
-      "doc": "GUM_court_prince",
-      "variables": {
-        "entity": "Factor 1 of the four - factor balancing test",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "16"
-    },
-    {
-      "id": 353,
-      "doc": "GUM_whow_overalls",
-      "variables": {
-        "entity": "the bib",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "5"
-    },
-    {
-      "id": 354,
-      "doc": "GUM_fiction_wedding",
-      "variables": {
-        "entity": "The Chemical Wedding by Christian Rosencreutz",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "13"
-    },
-    {
-      "id": 355,
-      "doc": "GUM_bio_hadid",
-      "variables": {
-        "entity": "London",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "3"
-    },
-    {
-      "id": 356,
-      "doc": "GUM_voyage_guadeloupe",
-      "variables": {
-        "entity": "Guadeloupe",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "15"
-    },
-    {
-      "id": 357,
-      "doc": "GUM_letter_arendt",
-      "variables": {
-        "entity": "Hannah , Martha and I",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "11"
-    },
-    {
-      "id": 358,
-      "doc": "GUM_podcast_wrestling",
-      "variables": {
-        "entity": "the Undertaker ’s career is over",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "14"
-    },
-    {
-      "id": 359,
-      "doc": "GUM_court_property",
-      "variables": {
-        "entity": "the case",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "13"
-    },
-    {
-      "id": 360,
-      "doc": "GUM_whow_parachute",
-      "variables": {
-        "entity": "a fellow jumper who has not yet deployed their chute",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "8"
-    },
-    {
-      "id": 361,
-      "doc": "GUM_bio_chao",
-      "variables": {
-        "entity": "1920",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "3"
-    },
-    {
-      "id": 362,
-      "doc": "GUM_essay_dividends",
-      "variables": {
-        "entity": "The reasons",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "1"
-    },
-    {
-      "id": 363,
-      "doc": "GUM_bio_marbles",
-      "variables": {
-        "entity": "Jenna and Julien",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "5"
-    },
-    {
-      "id": 364,
-      "doc": "GUM_academic_exposure",
-      "variables": {
-        "entity": "21",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "8"
-    },
-    {
-      "id": 365,
-      "doc": "GUM_whow_cupcakes",
-      "variables": {
-        "entity": "Basic Vanilla Vegan Cupcakes",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "10"
-    },
-    {
-      "id": 366,
-      "doc": "GUM_conversation_gossip",
-      "variables": {
-        "entity": "Gino",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "18"
-    },
-    {
-      "id": 367,
+      "id": 15,
       "doc": "GUM_news_warhol",
       "variables": {
         "entity": "the Andy Warhol exhibit of Polaroids and screen prints",
@@ -3674,137 +154,397 @@
       "answer": "17"
     },
     {
-      "id": 368,
-      "doc": "GUM_conversation_atoms",
+      "id": 16,
+      "doc": "GUM_academic_salinity",
       "variables": {
-        "entity": "some ice in a pan",
+        "entity": "global sea surface salinity",
         "text": "See count_english_document.json"
       },
       "answer_type": "string",
-      "answer": "6"
+      "answer": "14"
     },
     {
-      "id": 369,
-      "doc": "GUM_bio_theodorus",
+      "id": 17,
+      "doc": "GUM_vlog_hiking",
       "variables": {
-        "entity": "Tabennese",
+        "entity": "the uh – Going to the Sun Road",
         "text": "See count_english_document.json"
       },
       "answer_type": "string",
       "answer": "11"
     },
     {
-      "id": 370,
-      "doc": "GUM_voyage_merida",
+      "id": 18,
+      "doc": "GUM_news_iodine",
       "variables": {
-        "entity": "the Champs - Élysées in Paris",
+        "entity": "A new study documenting iodine nutritional status in Australian school children",
         "text": "See count_english_document.json"
       },
       "answer_type": "string",
-      "answer": "1"
+      "answer": "9"
     },
     {
-      "id": 371,
-      "doc": "GUM_conversation_grounded",
+      "id": 19,
+      "doc": "GUM_bio_byron",
       "variables": {
-        "entity": "Melanie 's",
+        "entity": "Harrow",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 20,
+      "doc": "GUM_news_defector",
+      "variables": {
+        "entity": "Los Angeles",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 21,
+      "doc": "GUM_textbook_alamo",
+      "variables": {
+        "entity": "James Bowie",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 22,
+      "doc": "GUM_podcast_llms",
+      "variables": {
+        "entity": "the free software complaint",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 23,
+      "doc": "GUM_speech_school",
+      "variables": {
+        "entity": "ICT",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "20"
+    },
+    {
+      "id": 24,
+      "doc": "GUM_court_fire",
+      "variables": {
+        "entity": "the theory",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 25,
+      "doc": "GUM_news_warhol",
+      "variables": {
+        "entity": "Kevin Allton",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 26,
+      "doc": "GUM_podcast_wrestling",
+      "variables": {
+        "entity": "the Undertaker ’s career is over",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 27,
+      "doc": "GUM_textbook_stats",
+      "variables": {
+        "entity": "the Data",
         "text": "See count_english_document.json"
       },
       "answer_type": "string",
       "answer": "12"
     },
     {
-      "id": 372,
-      "doc": "GUM_vlog_wine",
+      "id": 28,
+      "doc": "GUM_conversation_atoms",
       "variables": {
-        "entity": "this one",
+        "entity": "these three items",
         "text": "See count_english_document.json"
       },
       "answer_type": "string",
-      "answer": "5"
+      "answer": "7"
     },
     {
-      "id": 373,
-      "doc": "GUM_fiction_time",
+      "id": 29,
+      "doc": "GUM_podcast_addiction",
       "variables": {
-        "entity": "the sky",
+        "entity": "an addiction to sugar",
         "text": "See count_english_document.json"
       },
       "answer_type": "string",
-      "answer": "9"
+      "answer": "14"
     },
     {
-      "id": 374,
-      "doc": "GUM_news_clock",
+      "id": 30,
+      "doc": "GUM_textbook_sociology",
       "variables": {
-        "entity": "Twitter",
+        "entity": "Anthropologist Ken Barger",
         "text": "See count_english_document.json"
       },
       "answer_type": "string",
-      "answer": "9"
+      "answer": "16"
     },
     {
-      "id": 375,
-      "doc": "GUM_academic_epistemic",
+      "id": 31,
+      "doc": "GUM_academic_thrones",
       "variables": {
-        "entity": "the publishing giant",
+        "entity": "Game of Thrones",
         "text": "See count_english_document.json"
       },
       "answer_type": "string",
-      "answer": "6"
+      "answer": "14"
     },
     {
-      "id": 376,
-      "doc": "GUM_news_flag",
+      "id": 32,
+      "doc": "GUM_academic_salinity",
       "variables": {
-        "entity": "New Zealand",
+        "entity": "sea surface",
         "text": "See count_english_document.json"
       },
       "answer_type": "string",
       "answer": "11"
     },
     {
-      "id": 377,
-      "doc": "GUM_podcast_brave",
+      "id": 33,
+      "doc": "GUM_news_iodine",
       "variables": {
-        "entity": "going and killing that bear",
+        "entity": "Australia",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 34,
+      "doc": "GUM_news_crane",
+      "variables": {
+        "entity": "107",
         "text": "See count_english_document.json"
       },
       "answer_type": "string",
       "answer": "3"
     },
     {
-      "id": 378,
-      "doc": "GUM_textbook_cognition",
+      "id": 35,
+      "doc": "GUM_bio_holt",
       "variables": {
-        "entity": "cognition",
+        "entity": "the Pittsburgh Pirates",
         "text": "See count_english_document.json"
       },
       "answer_type": "string",
-      "answer": "9"
+      "answer": "11"
     },
     {
-      "id": 379,
-      "doc": "GUM_interview_stardust",
+      "id": 36,
+      "doc": "GUM_speech_trump",
       "variables": {
-        "entity": "volunteers",
+        "entity": "the real number",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 37,
+      "doc": "GUM_essay_ghost",
+      "variables": {
+        "entity": "Motoko Kusanagi",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "16"
+    },
+    {
+      "id": 38,
+      "doc": "GUM_bio_bernoulli",
+      "variables": {
+        "entity": "Johann Bernoulli",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 39,
+      "doc": "GUM_news_defector",
+      "variables": {
+        "entity": "a Scientology attorney",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 40,
+      "doc": "GUM_conversation_gossip",
+      "variables": {
+        "entity": "Gino",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "18"
+    },
+    {
+      "id": 41,
+      "doc": "GUM_fiction_wedding",
+      "variables": {
+        "entity": "The Chemical Wedding by Christian Rosencreutz",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 42,
+      "doc": "GUM_whow_languages",
+      "variables": {
+        "entity": "Vogelaviatiolaps",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 43,
+      "doc": "GUM_academic_mutation",
+      "variables": {
+        "entity": "Geographic Information Systems",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 44,
+      "doc": "GUM_news_warhol",
+      "variables": {
+        "entity": "Kristin Wilkins",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 45,
+      "doc": "GUM_fiction_veronique",
+      "variables": {
+        "entity": "Earth",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 46,
+      "doc": "GUM_essay_dividends",
+      "variables": {
+        "entity": "all players",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 47,
+      "doc": "GUM_conversation_blacksmithing",
+      "variables": {
+        "entity": "a horse",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 48,
+      "doc": "GUM_textbook_stats",
+      "variables": {
+        "entity": "The first quartile",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 49,
+      "doc": "GUM_court_negligence",
+      "variables": {
+        "entity": "today",
         "text": "See count_english_document.json"
       },
       "answer_type": "string",
       "answer": "3"
     },
     {
-      "id": 380,
-      "doc": "GUM_fiction_beast",
+      "id": 50,
+      "doc": "GUM_fiction_error",
       "variables": {
-        "entity": "it was drizzling",
+        "entity": "the memory of a certain visit from her",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 51,
+      "doc": "GUM_fiction_time",
+      "variables": {
+        "entity": "the machine",
         "text": "See count_english_document.json"
       },
       "answer_type": "string",
       "answer": "5"
     },
     {
-      "id": 381,
+      "id": 52,
+      "doc": "GUM_academic_thrones",
+      "variables": {
+        "entity": "the current project",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 53,
+      "doc": "GUM_textbook_history",
+      "variables": {
+        "entity": "THE FIRST AMERICANS",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "18"
+    },
+    {
+      "id": 54,
+      "doc": "GUM_conversation_scientist",
+      "variables": {
+        "entity": "scientists",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "16"
+    },
+    {
+      "id": 55,
       "doc": "GUM_speech_impeachment",
       "variables": {
         "entity": "Donald John Trump",
@@ -3814,167 +554,337 @@
       "answer": "12"
     },
     {
-      "id": 382,
-      "doc": "GUM_conversation_christmas",
+      "id": 56,
+      "doc": "GUM_academic_salinity",
       "variables": {
-        "entity": "this",
+        "entity": "foam",
         "text": "See count_english_document.json"
       },
       "answer_type": "string",
-      "answer": "8"
+      "answer": "3"
     },
     {
-      "id": 383,
-      "doc": "GUM_bio_marbles",
-      "variables": {
-        "entity": "her pseudonym Jenna Marbles",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "5"
-    },
-    {
-      "id": 384,
-      "doc": "GUM_voyage_tulsa",
-      "variables": {
-        "entity": "Tulsa International Airport",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "6"
-    },
-    {
-      "id": 385,
-      "doc": "GUM_news_iodine",
-      "variables": {
-        "entity": "brain damage",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "4"
-    },
-    {
-      "id": 386,
+      "id": 57,
       "doc": "GUM_voyage_chatham",
       "variables": {
-        "entity": "The original people of the islands",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "10"
-    },
-    {
-      "id": 387,
-      "doc": "GUM_podcast_addiction",
-      "variables": {
-        "entity": "Sexual addiction",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "9"
-    },
-    {
-      "id": 388,
-      "doc": "GUM_podcast_llms",
-      "variables": {
-        "entity": "avoiding talking about this particular topic",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "4"
-    },
-    {
-      "id": 389,
-      "doc": "GUM_voyage_isfahan",
-      "variables": {
-        "entity": "Shah Abbas I",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "5"
-    },
-    {
-      "id": 390,
-      "doc": "GUM_academic_art",
-      "variables": {
-        "entity": "17th Century Zurbarán paintings",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "5"
-    },
-    {
-      "id": 391,
-      "doc": "GUM_interview_stardust",
-      "variables": {
-        "entity": "Stardust @ home",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "11"
-    },
-    {
-      "id": 392,
-      "doc": "GUM_textbook_sociology",
-      "variables": {
-        "entity": "when confronted with all of the differences of a new culture , one may experience disorientation and frustration",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "5"
-    },
-    {
-      "id": 393,
-      "doc": "GUM_speech_data",
-      "variables": {
-        "entity": "their IoT devices",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "1"
-    },
-    {
-      "id": 394,
-      "doc": "GUM_podcast_addiction",
-      "variables": {
-        "entity": "substance use",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "1"
-    },
-    {
-      "id": 395,
-      "doc": "GUM_podcast_llms",
-      "variables": {
-        "entity": "large language model",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "16"
-    },
-    {
-      "id": 396,
-      "doc": "GUM_whow_basil",
-      "variables": {
-        "entity": "the plants",
+        "entity": "Tame Horomona Rehe",
         "text": "See count_english_document.json"
       },
       "answer_type": "string",
       "answer": "7"
     },
     {
-      "id": 397,
-      "doc": "GUM_textbook_cognition",
+      "id": 58,
+      "doc": "GUM_bio_galois",
       "variables": {
-        "entity": "a distinction between concepts that are functions of our direct experience with the world and those that are more artificial in nature",
+        "entity": "the reasons behind it",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 59,
+      "doc": "GUM_interview_shalev",
+      "variables": {
+        "entity": "Mathematics",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "19"
+    },
+    {
+      "id": 60,
+      "doc": "GUM_essay_evolved",
+      "variables": {
+        "entity": "Arash Javanbakht",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 61,
+      "doc": "GUM_interview_onion",
+      "variables": {
+        "entity": "Tuesday",
         "text": "See count_english_document.json"
       },
       "answer_type": "string",
       "answer": "1"
     },
     {
-      "id": 398,
+      "id": 62,
+      "doc": "GUM_textbook_alamo",
+      "variables": {
+        "entity": "empresario Haden Edwards",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 63,
+      "doc": "GUM_whow_skittles",
+      "variables": {
+        "entity": "Skittles",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 64,
+      "doc": "GUM_textbook_artwork",
+      "variables": {
+        "entity": "no quality",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 65,
+      "doc": "GUM_news_imprisoned",
+      "variables": {
+        "entity": "the Scientology - owned cruise ship",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 66,
+      "doc": "GUM_conversation_scientist",
+      "variables": {
+        "entity": "rubble",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 67,
+      "doc": "GUM_court_prince",
+      "variables": {
+        "entity": "the Orange Prince",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 68,
+      "doc": "GUM_interview_peres",
+      "variables": {
+        "entity": "peace",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 69,
+      "doc": "GUM_textbook_spacetime",
+      "variables": {
+        "entity": "Spacetime",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 70,
+      "doc": "GUM_court_prince",
+      "variables": {
+        "entity": "this case",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 71,
+      "doc": "GUM_voyage_isfahan",
+      "variables": {
+        "entity": "Naqsh-e Jahan Square",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "18"
+    },
+    {
+      "id": 72,
+      "doc": "GUM_fiction_giants",
+      "variables": {
+        "entity": "The traveler",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 73,
+      "doc": "GUM_bio_nida",
+      "variables": {
+        "entity": "the source text",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 74,
+      "doc": "GUM_essay_tools",
+      "variables": {
+        "entity": "David Noble",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 75,
+      "doc": "GUM_whow_quidditch",
+      "variables": {
+        "entity": "the snitch",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 76,
+      "doc": "GUM_textbook_alamo",
+      "variables": {
+        "entity": "Texas",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "20"
+    },
+    {
+      "id": 77,
+      "doc": "GUM_essay_evolved",
+      "variables": {
+        "entity": "you did not lose weight",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 78,
+      "doc": "GUM_news_hackers",
+      "variables": {
+        "entity": "Church of Scientology website",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 79,
+      "doc": "GUM_letter_wiki",
+      "variables": {
+        "entity": "wiki technology",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 80,
+      "doc": "GUM_conversation_family",
+      "variables": {
+        "entity": "Barbara Jean",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 81,
+      "doc": "GUM_voyage_guadeloupe",
+      "variables": {
+        "entity": "Guadeloupe",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 82,
+      "doc": "GUM_academic_lighting",
+      "variables": {
+        "entity": "lighting",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 83,
+      "doc": "GUM_bio_hadid",
+      "variables": {
+        "entity": "Elia Zenghelis",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 84,
+      "doc": "GUM_bio_theodorus",
+      "variables": {
+        "entity": "Tabennese",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 85,
+      "doc": "GUM_textbook_stats",
+      "variables": {
+        "entity": "The median",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "17"
+    },
+    {
+      "id": 86,
+      "doc": "GUM_news_soccer",
+      "variables": {
+        "entity": "Tunisia",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 87,
+      "doc": "GUM_interview_stardust",
+      "variables": {
+        "entity": "samples",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "20"
+    },
+    {
+      "id": 88,
+      "doc": "GUM_conversation_toys",
+      "variables": {
+        "entity": "the fun",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "16"
+    },
+    {
+      "id": 89,
       "doc": "GUM_conversation_erasmus",
       "variables": {
         "entity": "a page from Brendler",
@@ -3984,57 +894,1847 @@
       "answer": "10"
     },
     {
-      "id": 399,
-      "doc": "GUM_vlog_pregnant",
+      "id": 90,
+      "doc": "GUM_court_prince",
       "variables": {
-        "entity": "everyone craves that at this point",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "3"
-    },
-    {
-      "id": 400,
-      "doc": "GUM_essay_distraction",
-      "variables": {
-        "entity": "the Internet",
-        "text": "See count_english_document.json"
-      },
-      "answer_type": "string",
-      "answer": "9"
-    },
-    {
-      "id": 401,
-      "doc": "GUM_speech_maiden",
-      "variables": {
-        "entity": "two staunch segregationists",
+        "entity": "the First Amendment",
         "text": "See count_english_document.json"
       },
       "answer_type": "string",
       "answer": "1"
     },
     {
-      "id": 402,
-      "doc": "GUM_academic_epistemic",
+      "id": 91,
+      "doc": "GUM_academic_replication",
       "variables": {
-        "entity": "ordinary people ’s",
+        "entity": "the 50 or more calls for replication research in the field of second language ( L2 ) research alone",
         "text": "See count_english_document.json"
       },
       "answer_type": "string",
       "answer": "5"
     },
     {
-      "id": 403,
-      "doc": "GUM_textbook_evoethics",
+      "id": 92,
+      "doc": "GUM_essay_dividends",
       "variables": {
-        "entity": "evolution",
+        "entity": "American patriot Thomas Paine",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 93,
+      "doc": "GUM_news_defector",
+      "variables": {
+        "entity": "Mark Rathbun",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 94,
+      "doc": "GUM_conversation_blacksmithing",
+      "variables": {
+        "entity": "the hoof",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 95,
+      "doc": "GUM_news_korea",
+      "variables": {
+        "entity": "North Korea 's main news agency Korean Central News Agency",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 96,
+      "doc": "GUM_academic_census",
+      "variables": {
+        "entity": "faculty",
         "text": "See count_english_document.json"
       },
       "answer_type": "string",
       "answer": "1"
     },
     {
-      "id": 404,
+      "id": 97,
+      "doc": "GUM_bio_theodorus",
+      "variables": {
+        "entity": "his return to Sne",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 98,
+      "doc": "GUM_interview_stardust",
+      "variables": {
+        "entity": "the particle size",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 99,
+      "doc": "GUM_court_negligence",
+      "variables": {
+        "entity": "a cause of action that comprises a breach of a duty of care without causally linked loss or injury",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 100,
+      "doc": "GUM_whow_cupcakes",
+      "variables": {
+        "entity": "Basic Chocolate Vegan Cupcakes",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 101,
+      "doc": "GUM_academic_epistemic",
+      "variables": {
+        "entity": "the American College of Pediatricians",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 102,
+      "doc": "GUM_voyage_cuba",
+      "variables": {
+        "entity": "Visa",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 103,
+      "doc": "GUM_whow_chicken",
+      "variables": {
+        "entity": "the hypnotic effect",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 104,
+      "doc": "GUM_letter_flood",
+      "variables": {
+        "entity": "THE PEOPLE OF THE FLOOD AREA",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "18"
+    },
+    {
+      "id": 105,
+      "doc": "GUM_letter_roomers",
+      "variables": {
+        "entity": "Lucy Pope",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "19"
+    },
+    {
+      "id": 106,
+      "doc": "GUM_bio_higuchi",
+      "variables": {
+        "entity": "her brothers",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 107,
+      "doc": "GUM_fiction_claus",
+      "variables": {
+        "entity": "the ham",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 108,
+      "doc": "GUM_fiction_frankenstein",
+      "variables": {
+        "entity": "the lights",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 109,
+      "doc": "GUM_bio_jerome",
+      "variables": {
+        "entity": "his translation of most of the Bible into Latin",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 110,
+      "doc": "GUM_letter_zora",
+      "variables": {
+        "entity": "my new home",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "18"
+    },
+    {
+      "id": 111,
+      "doc": "GUM_conversation_atoms",
+      "variables": {
+        "entity": "count together",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 112,
+      "doc": "GUM_interview_chomsky",
+      "variables": {
+        "entity": "Russia",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 113,
+      "doc": "GUM_news_warming",
+      "variables": {
+        "entity": "atmospheric ozone",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 114,
+      "doc": "GUM_textbook_sociology",
+      "variables": {
+        "entity": "one ’s",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 115,
+      "doc": "GUM_court_equality",
+      "variables": {
+        "entity": "Marriage",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 116,
+      "doc": "GUM_interview_licen",
+      "variables": {
+        "entity": "Paralympic Games in Sochi in 2014",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 117,
+      "doc": "GUM_academic_librarians",
+      "variables": {
+        "entity": "a comparison of existing teaching material related to DH",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 118,
+      "doc": "GUM_court_property",
+      "variables": {
+        "entity": "process due",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 119,
+      "doc": "GUM_podcast_pandemic",
+      "variables": {
+        "entity": "a virus of a type called coronavirus",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "20"
+    },
+    {
+      "id": 120,
+      "doc": "GUM_conversation_artist",
+      "variables": {
+        "entity": "the , uh parks",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 121,
+      "doc": "GUM_letter_gorbachev",
+      "variables": {
+        "entity": "utility and other services that have marked economies of scale or density",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 122,
+      "doc": "GUM_fiction_wedding",
+      "variables": {
+        "entity": "Christian Rosencreutz",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 123,
+      "doc": "GUM_speech_remarks",
+      "variables": {
+        "entity": "new pressures",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 124,
+      "doc": "GUM_news_imprisoned",
+      "variables": {
+        "entity": "her mother",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 125,
+      "doc": "GUM_speech_impeachment",
+      "variables": {
+        "entity": "the case",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 126,
+      "doc": "GUM_conversation_gossip",
+      "variables": {
+        "entity": "brain",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 127,
+      "doc": "GUM_court_equality",
+      "variables": {
+        "entity": "a restrictive sense that only construe the Special Marriage Act",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 128,
+      "doc": "GUM_letter_arendt",
+      "variables": {
+        "entity": "Dear Hannah",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "16"
+    },
+    {
+      "id": 129,
+      "doc": "GUM_conversation_zero",
+      "variables": {
+        "entity": "the square root of one , over the square root of two",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 130,
+      "doc": "GUM_voyage_thailand",
+      "variables": {
+        "entity": "your shoulders",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 131,
+      "doc": "GUM_whow_parachute",
+      "variables": {
+        "entity": "a fellow jumper who has not yet deployed their chute",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 132,
+      "doc": "GUM_news_afghan",
+      "variables": {
+        "entity": "the United States",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 133,
+      "doc": "GUM_textbook_anthropology",
+      "variables": {
+        "entity": "humans everywhere",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 134,
+      "doc": "GUM_whow_ballet",
+      "variables": {
+        "entity": "the moves",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 135,
+      "doc": "GUM_voyage_sydfynske",
+      "variables": {
+        "entity": "Sydfynske Øhav",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 136,
+      "doc": "GUM_textbook_alamo",
+      "variables": {
+        "entity": "the Alamo",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 137,
+      "doc": "GUM_whow_basil",
+      "variables": {
+        "entity": "the plants",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 138,
+      "doc": "GUM_academic_salinity",
+      "variables": {
+        "entity": "L - band",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 139,
+      "doc": "GUM_court_property",
+      "variables": {
+        "entity": "plaintiffs '",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 140,
+      "doc": "GUM_academic_thrones",
+      "variables": {
+        "entity": "the “ transmedia fan ”",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 141,
+      "doc": "GUM_academic_thrones",
+      "variables": {
+        "entity": "Charmaz , 2006",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 142,
+      "doc": "GUM_textbook_alamo",
+      "variables": {
+        "entity": "General Antonio Lopez de Santa Anna",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 143,
+      "doc": "GUM_court_fire",
+      "variables": {
+        "entity": "the fire",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "17"
+    },
+    {
+      "id": 144,
+      "doc": "GUM_news_defector",
+      "variables": {
+        "entity": "the elite group",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 145,
+      "doc": "GUM_whow_packing",
+      "variables": {
+        "entity": "the store",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 146,
+      "doc": "GUM_news_taxes",
+      "variables": {
+        "entity": "the Italian Supreme Court of Cassation",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 147,
+      "doc": "GUM_essay_sexlife",
+      "variables": {
+        "entity": "Forbes , Eaton , and Krueger",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 148,
+      "doc": "GUM_conversation_family",
+      "variables": {
+        "entity": "Carolyn",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 149,
+      "doc": "GUM_textbook_history",
+      "variables": {
+        "entity": "The mother of Mesoamerican cultures",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 150,
+      "doc": "GUM_vlog_wine",
+      "variables": {
+        "entity": "instant coffee",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 151,
+      "doc": "GUM_interview_messina",
+      "variables": {
+        "entity": "Walt Whitman",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 152,
+      "doc": "GUM_vlog_college",
+      "variables": {
+        "entity": "roasted peppers",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 153,
+      "doc": "GUM_conversation_toys",
+      "variables": {
+        "entity": "here",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 154,
+      "doc": "GUM_podcast_pandemic",
+      "variables": {
+        "entity": "a candidate",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 155,
+      "doc": "GUM_textbook_stats",
+      "variables": {
+        "entity": "7.2",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 156,
+      "doc": "GUM_court_property",
+      "variables": {
+        "entity": "the case",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 157,
+      "doc": "GUM_academic_salinity",
+      "variables": {
+        "entity": "sea",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 158,
+      "doc": "GUM_conversation_erasmus",
+      "variables": {
+        "entity": "a person",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "16"
+    },
+    {
+      "id": 159,
+      "doc": "GUM_academic_replication",
+      "variables": {
+        "entity": "Second Language",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 160,
+      "doc": "GUM_essay_sexlife",
+      "variables": {
+        "entity": "Sex",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "18"
+    },
+    {
+      "id": 161,
+      "doc": "GUM_whow_packing",
+      "variables": {
+        "entity": "the box",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 162,
+      "doc": "GUM_whow_procrastinating",
+      "variables": {
+        "entity": "a to - do list",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 163,
+      "doc": "GUM_voyage_coron",
+      "variables": {
+        "entity": "Busuanga Island",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 164,
+      "doc": "GUM_textbook_alamo",
+      "variables": {
+        "entity": "American racial superiority",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 165,
+      "doc": "GUM_essay_food",
+      "variables": {
+        "entity": "Pandolfi",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 166,
+      "doc": "GUM_news_election",
+      "variables": {
+        "entity": "Civic Party",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 167,
+      "doc": "GUM_conversation_artist",
+      "variables": {
+        "entity": "paintings",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 168,
+      "doc": "GUM_news_soccer",
+      "variables": {
+        "entity": "Belgium",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 169,
+      "doc": "GUM_interview_herrick",
+      "variables": {
+        "entity": "Jack Herrick , wikiHow founder interviewed by Wikinews",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 170,
+      "doc": "GUM_conversation_christmas",
+      "variables": {
+        "entity": "a bread baking pan",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 171,
+      "doc": "GUM_academic_implicature",
+      "variables": {
+        "entity": "two - dimensional depictions",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 172,
+      "doc": "GUM_whow_quidditch",
+      "variables": {
+        "entity": "bludgers",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 173,
+      "doc": "GUM_speech_telescope",
+      "variables": {
+        "entity": "Space",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 174,
+      "doc": "GUM_conversation_artist",
+      "variables": {
+        "entity": "this fellow",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 175,
+      "doc": "GUM_interview_ants",
+      "variables": {
+        "entity": "ROS",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 176,
+      "doc": "GUM_podcast_llms",
+      "variables": {
+        "entity": "large language model",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "16"
+    },
+    {
+      "id": 177,
+      "doc": "GUM_podcast_collaboration",
+      "variables": {
+        "entity": "summer camp",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 178,
+      "doc": "GUM_textbook_stats",
+      "variables": {
+        "entity": "the following data",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 179,
+      "doc": "GUM_conversation_zero",
+      "variables": {
+        "entity": "x",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 180,
+      "doc": "GUM_bio_emperor",
+      "variables": {
+        "entity": "the United States Congress",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 181,
+      "doc": "GUM_news_afghan",
+      "variables": {
+        "entity": "girls",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 182,
+      "doc": "GUM_news_warhol",
+      "variables": {
+        "entity": "a major Warhol donor program",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 183,
+      "doc": "GUM_news_questionnaire",
+      "variables": {
+        "entity": "quicker and fairer asylum decisions",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 184,
+      "doc": "GUM_news_imprisoned",
+      "variables": {
+        "entity": "Church of Scientology",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 185,
+      "doc": "GUM_interview_shalev",
+      "variables": {
+        "entity": "a novel",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 186,
+      "doc": "GUM_whow_elevator",
+      "variables": {
+        "entity": "Push all the buttons",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 187,
+      "doc": "GUM_textbook_anthropology",
+      "variables": {
+        "entity": "a bunch of failures",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 188,
+      "doc": "GUM_academic_theropod",
+      "variables": {
+        "entity": "limb",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 189,
+      "doc": "GUM_conversation_toys",
+      "variables": {
+        "entity": "the Toys ' R ' Us catalog",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 190,
+      "doc": "GUM_voyage_sydfynske",
+      "variables": {
+        "entity": "Birkholm",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 191,
+      "doc": "GUM_textbook_spacetime",
+      "variables": {
+        "entity": "an extremely intelligent ant — a friend of the comic book superhero Ant - Man , perhaps — that has been trained to walk in a straight line",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 192,
+      "doc": "GUM_vlog_appearance",
+      "variables": {
+        "entity": "things",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 193,
+      "doc": "GUM_conversation_grounded",
+      "variables": {
+        "entity": "Melanie 's mom",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 194,
+      "doc": "GUM_whow_overalls",
+      "variables": {
+        "entity": "Overalls",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 195,
+      "doc": "GUM_essay_evolved",
+      "variables": {
+        "entity": "food",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 196,
+      "doc": "GUM_essay_food",
+      "variables": {
+        "entity": "food",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "17"
+    },
+    {
+      "id": 197,
+      "doc": "GUM_bio_bernoulli",
+      "variables": {
+        "entity": "A consequence of this law",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 198,
+      "doc": "GUM_textbook_governments",
+      "variables": {
+        "entity": "representative democracy",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 199,
+      "doc": "GUM_speech_albania",
+      "variables": {
+        "entity": "the respective peoples",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 200,
+      "doc": "GUM_news_afghan",
+      "variables": {
+        "entity": "one made up of refugees",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 201,
+      "doc": "GUM_bio_padalecki",
+      "variables": {
+        "entity": "The pair",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 202,
+      "doc": "GUM_textbook_spacetime",
+      "variables": {
+        "entity": "Gravity",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 203,
+      "doc": "GUM_textbook_entrepreneurship",
+      "variables": {
+        "entity": "disruptive technology , which are technologies that , once introduced , displace established patterns , processes , and systems previously accepted as normal or accepted",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 204,
+      "doc": "GUM_bio_galois",
+      "variables": {
+        "entity": "a duel",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 205,
+      "doc": "GUM_academic_mutation",
+      "variables": {
+        "entity": "Suilen H. Alvarado",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 206,
+      "doc": "GUM_bio_padalecki",
+      "variables": {
+        "entity": "his Supernatural co-star",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 207,
+      "doc": "GUM_speech_nixon",
+      "variables": {
+        "entity": "the challenges ahead",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 208,
+      "doc": "GUM_court_property",
+      "variables": {
+        "entity": "property",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 209,
+      "doc": "GUM_whow_procrastinating",
+      "variables": {
+        "entity": "a looming project that 's bogging you down and making you unproductive in other areas",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 210,
+      "doc": "GUM_essay_food",
+      "variables": {
+        "entity": "a well - documented multiplier effect that kicks in when dollars are spent at small independent businesses rather than national or transnational chains",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 211,
+      "doc": "GUM_fiction_honour",
+      "variables": {
+        "entity": "the last remaining pilots still standing on the flight deck",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 212,
+      "doc": "GUM_court_property",
+      "variables": {
+        "entity": "public lands",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 213,
+      "doc": "GUM_interview_herrick",
+      "variables": {
+        "entity": "the virtuous circle of wiki editing",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 214,
+      "doc": "GUM_voyage_sydfynske",
+      "variables": {
+        "entity": "Islands in the archipelago listed in east to west order",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 215,
+      "doc": "GUM_interview_brotherhood",
+      "variables": {
+        "entity": "Magic",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 216,
+      "doc": "GUM_academic_economics",
+      "variables": {
+        "entity": "a scenario with insecure property rights , asymmetric information , and a judicial system that acts as a lax enforcement mechanism , as discussed in the following sections",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 217,
+      "doc": "GUM_conversation_erasmus",
+      "variables": {
+        "entity": "The horse obeys .",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 218,
+      "doc": "GUM_letter_flood",
+      "variables": {
+        "entity": "all of us",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "18"
+    },
+    {
+      "id": 219,
+      "doc": "GUM_letter_arendt",
+      "variables": {
+        "entity": "Hannah , Martha and I",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 220,
+      "doc": "GUM_podcast_pandemic",
+      "variables": {
+        "entity": "vaccines",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 221,
+      "doc": "GUM_textbook_cognition",
+      "variables": {
+        "entity": "concepts",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "16"
+    },
+    {
+      "id": 222,
+      "doc": "GUM_academic_art",
+      "variables": {
+        "entity": "an artwork",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 223,
+      "doc": "GUM_bio_theodorus",
+      "variables": {
+        "entity": "the Koinonia",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 224,
+      "doc": "GUM_podcast_brave",
+      "variables": {
+        "entity": "that bear",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 225,
+      "doc": "GUM_interview_gaming",
+      "variables": {
+        "entity": "people like that",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 226,
+      "doc": "GUM_vlog_lipstick",
+      "variables": {
+        "entity": "Who",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 227,
+      "doc": "GUM_fiction_lunre",
+      "variables": {
+        "entity": "the company",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 228,
+      "doc": "GUM_news_iodine",
+      "variables": {
+        "entity": "brain",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 229,
+      "doc": "GUM_news_hackers",
+      "variables": {
+        "entity": "a long game",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 230,
+      "doc": "GUM_voyage_lodz",
+      "variables": {
+        "entity": "factory",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 231,
+      "doc": "GUM_whow_flirt",
+      "variables": {
+        "entity": "Flirting",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 232,
+      "doc": "GUM_essay_dividends",
+      "variables": {
+        "entity": "dividend",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 233,
+      "doc": "GUM_whow_quidditch",
+      "variables": {
+        "entity": "the quaffle",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 234,
+      "doc": "GUM_whow_glowstick",
+      "variables": {
+        "entity": "everything",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 235,
+      "doc": "GUM_conversation_grounded",
+      "variables": {
+        "entity": "Hantavirus",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 236,
+      "doc": "GUM_court_carpet",
+      "variables": {
+        "entity": "social security",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 237,
+      "doc": "GUM_podcast_llms",
+      "variables": {
+        "entity": "the companies building LLMs",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 238,
+      "doc": "GUM_interview_stardust",
+      "variables": {
+        "entity": "2006",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 239,
+      "doc": "GUM_textbook_spacetime",
+      "variables": {
+        "entity": "space and time",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 240,
+      "doc": "GUM_interview_stardust",
+      "variables": {
+        "entity": "Stardust @ home",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 241,
+      "doc": "GUM_podcast_brave",
+      "variables": {
+        "entity": "the chicken on a stick",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 242,
+      "doc": "GUM_podcast_pandemic",
+      "variables": {
+        "entity": "a vaccine",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 243,
+      "doc": "GUM_academic_exposure",
+      "variables": {
+        "entity": "limited exposure",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 244,
+      "doc": "GUM_academic_lighting",
+      "variables": {
+        "entity": "household electrical energy",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 245,
+      "doc": "GUM_conversation_gossip",
+      "variables": {
+        "entity": "Michael",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 246,
+      "doc": "GUM_bio_emperor",
+      "variables": {
+        "entity": "Emperor of the United States",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 247,
+      "doc": "GUM_academic_enjambment",
+      "variables": {
+        "entity": "Quilis",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 248,
+      "doc": "GUM_whow_quinoa",
+      "variables": {
+        "entity": "mushrooms , or any other type of desired vegetable or herb",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 249,
+      "doc": "GUM_textbook_stats",
+      "variables": {
+        "entity": "the upper half",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 250,
+      "doc": "GUM_conversation_atoms",
+      "variables": {
+        "entity": "Three",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 251,
+      "doc": "GUM_interview_ants",
+      "variables": {
+        "entity": "wild colonies of Formica fusca",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 252,
+      "doc": "GUM_academic_theropod",
+      "variables": {
+        "entity": "standing",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 253,
+      "doc": "GUM_court_negligence",
+      "variables": {
+        "entity": "waiver of tort",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 254,
+      "doc": "GUM_bio_higuchi",
+      "variables": {
+        "entity": "Takekurabe",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 255,
+      "doc": "GUM_court_property",
+      "variables": {
+        "entity": "Maui",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 256,
+      "doc": "GUM_whow_cupcakes",
+      "variables": {
+        "entity": "Basic Vanilla Vegan Cupcakes",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 257,
+      "doc": "GUM_news_expo",
+      "variables": {
+        "entity": "PlayStation",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 258,
+      "doc": "GUM_news_crane",
+      "variables": {
+        "entity": "the Hajj",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 259,
+      "doc": "GUM_bio_padalecki",
+      "variables": {
+        "entity": "13",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 260,
+      "doc": "GUM_whow_quinoa",
+      "variables": {
+        "entity": "time",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 261,
+      "doc": "GUM_podcast_addiction",
+      "variables": {
+        "entity": "functional alcoholics",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 262,
+      "doc": "GUM_whow_joke",
+      "variables": {
+        "entity": "the punchline",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 263,
+      "doc": "GUM_letter_flood",
+      "variables": {
+        "entity": "rebuilding loans",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 264,
+      "doc": "GUM_court_prince",
+      "variables": {
+        "entity": "Goldsmith",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "19"
+    },
+    {
+      "id": 265,
+      "doc": "GUM_bio_moreau",
+      "variables": {
+        "entity": "1958",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 266,
+      "doc": "GUM_academic_huh",
+      "variables": {
+        "entity": "a word like ‘ Huh ? ’ – used as a ‘ repair initiator ’ when , for example , one has not clearly heard what someone just said [ 5 ] , [ 6 ]",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "17"
+    },
+    {
+      "id": 267,
+      "doc": "GUM_whow_joke",
+      "variables": {
+        "entity": "your audience",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 268,
+      "doc": "GUM_academic_exposure",
+      "variables": {
+        "entity": "17",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 269,
+      "doc": "GUM_speech_school",
+      "variables": {
+        "entity": "William Fisher III",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 270,
+      "doc": "GUM_voyage_merida",
+      "variables": {
+        "entity": "Mérida",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 271,
+      "doc": "GUM_news_iodine",
+      "variables": {
+        "entity": "all edible salt",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 272,
+      "doc": "GUM_bio_moreau",
+      "variables": {
+        "entity": "Spouse(s)",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 273,
+      "doc": "GUM_conversation_vet",
+      "variables": {
+        "entity": "that one",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 274,
       "doc": "GUM_vlog_radiology",
       "variables": {
         "entity": "tomorrow",
@@ -4044,14 +2744,1314 @@
       "answer": "18"
     },
     {
-      "id": 405,
-      "doc": "GUM_textbook_governments",
+      "id": 275,
+      "doc": "GUM_conversation_blacksmithing",
       "variables": {
-        "entity": "Government",
+        "entity": "this class",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 276,
+      "doc": "GUM_news_questionnaire",
+      "variables": {
+        "entity": "English",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 277,
+      "doc": "GUM_conversation_family",
+      "variables": {
+        "entity": "outgrow it until she was five or something",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 278,
+      "doc": "GUM_news_soccer",
+      "variables": {
+        "entity": "FIFA World Cup 2018 day five",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 279,
+      "doc": "GUM_bio_chao",
+      "variables": {
+        "entity": "Hu Shih",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 280,
+      "doc": "GUM_textbook_entrepreneurship",
+      "variables": {
+        "entity": "’s",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 281,
+      "doc": "GUM_conversation_erasmus",
+      "variables": {
+        "entity": "God alone",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 282,
+      "doc": "GUM_interview_peres",
+      "variables": {
+        "entity": "a past",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 283,
+      "doc": "GUM_speech_school",
+      "variables": {
+        "entity": "School of Open – Africa",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 284,
+      "doc": "GUM_vlog_wine",
+      "variables": {
+        "entity": "the Chardonnay - Pinot Noir",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 285,
+      "doc": "GUM_voyage_thailand",
+      "variables": {
+        "entity": "Thais",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 286,
+      "doc": "GUM_vlog_pizzeria",
+      "variables": {
+        "entity": "a little twist",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 287,
+      "doc": "GUM_voyage_isfahan",
+      "variables": {
+        "entity": "Shah Mosque",
         "text": "See count_english_document.json"
       },
       "answer_type": "string",
       "answer": "10"
+    },
+    {
+      "id": 288,
+      "doc": "GUM_interview_mcguire",
+      "variables": {
+        "entity": "LibriVox",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 289,
+      "doc": "GUM_letter_wiki",
+      "variables": {
+        "entity": "a volunteer editor for the Wikimedia Foundation",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "16"
+    },
+    {
+      "id": 290,
+      "doc": "GUM_bio_emperor",
+      "variables": {
+        "entity": "San Francisco , California",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 291,
+      "doc": "GUM_news_imprisoned",
+      "variables": {
+        "entity": "midnight",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 292,
+      "doc": "GUM_court_fire",
+      "variables": {
+        "entity": "smoke",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 293,
+      "doc": "GUM_whow_ballet",
+      "variables": {
+        "entity": "shoes",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 294,
+      "doc": "GUM_conversation_scientist",
+      "variables": {
+        "entity": "Einstein",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 295,
+      "doc": "GUM_essay_sexlife",
+      "variables": {
+        "entity": "An exception to this pattern",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 296,
+      "doc": "GUM_bio_enfant",
+      "variables": {
+        "entity": "New York City",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 297,
+      "doc": "GUM_speech_maiden",
+      "variables": {
+        "entity": "The Senate",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 298,
+      "doc": "GUM_bio_hadid",
+      "variables": {
+        "entity": "England",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 299,
+      "doc": "GUM_conversation_zero",
+      "variables": {
+        "entity": "three",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 300,
+      "doc": "GUM_essay_food",
+      "variables": {
+        "entity": "Cold , Hard Harvest",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "18"
+    },
+    {
+      "id": 301,
+      "doc": "GUM_academic_huh",
+      "variables": {
+        "entity": "repair",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 302,
+      "doc": "GUM_bio_marbles",
+      "variables": {
+        "entity": "New York City",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 303,
+      "doc": "GUM_speech_destiny",
+      "variables": {
+        "entity": "freedom",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 304,
+      "doc": "GUM_bio_galois",
+      "variables": {
+        "entity": "Siméon Poisson",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 305,
+      "doc": "GUM_letter_conference",
+      "variables": {
+        "entity": "Bill",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "17"
+    },
+    {
+      "id": 306,
+      "doc": "GUM_whow_languages",
+      "variables": {
+        "entity": "your friends",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 307,
+      "doc": "GUM_whow_basil",
+      "variables": {
+        "entity": "Basil",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "19"
+    },
+    {
+      "id": 308,
+      "doc": "GUM_interview_cocktail",
+      "variables": {
+        "entity": "the santorum neologism coined in advice columnist Dan Savage 's column Savage Love in response to comments made by former Pennsylvania Senator Rick Santorum about homosexuality",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "16"
+    },
+    {
+      "id": 309,
+      "doc": "GUM_whow_quidditch",
+      "variables": {
+        "entity": "Muggle Quidditch",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 310,
+      "doc": "GUM_fiction_pag",
+      "variables": {
+        "entity": "the other",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 311,
+      "doc": "GUM_voyage_cleveland",
+      "variables": {
+        "entity": "the second largest performing arts center in the U.S.",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 312,
+      "doc": "GUM_textbook_entrepreneurship",
+      "variables": {
+        "entity": "One example of a disruptive technology",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 313,
+      "doc": "GUM_news_warhol",
+      "variables": {
+        "entity": "his role in the 1969 film Easy Rider",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 314,
+      "doc": "GUM_news_clock",
+      "variables": {
+        "entity": "Twitter",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 315,
+      "doc": "GUM_court_fire",
+      "variables": {
+        "entity": "In that northeast quadrant was Debbie 's smoking chair , as well as the entertaining center .",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 316,
+      "doc": "GUM_news_soccer",
+      "variables": {
+        "entity": "South Korea",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 317,
+      "doc": "GUM_academic_lighting",
+      "variables": {
+        "entity": "electricity",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 318,
+      "doc": "GUM_textbook_anthropology",
+      "variables": {
+        "entity": "a baby",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "18"
+    },
+    {
+      "id": 319,
+      "doc": "GUM_news_hackers",
+      "variables": {
+        "entity": "Matthew Ingram",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 320,
+      "doc": "GUM_speech_data",
+      "variables": {
+        "entity": "More than 2,000 people",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 321,
+      "doc": "GUM_interview_cyclone",
+      "variables": {
+        "entity": "all tropical cyclones",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 322,
+      "doc": "GUM_bio_galois",
+      "variables": {
+        "entity": "the woman of romantic interest",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 323,
+      "doc": "GUM_fiction_moon",
+      "variables": {
+        "entity": "the Moon",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 324,
+      "doc": "GUM_textbook_stats",
+      "variables": {
+        "entity": "the median",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "16"
+    },
+    {
+      "id": 325,
+      "doc": "GUM_conversation_blacksmithing",
+      "variables": {
+        "entity": "to do the feet",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 326,
+      "doc": "GUM_whow_basil",
+      "variables": {
+        "entity": "the leaves",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 327,
+      "doc": "GUM_news_stampede",
+      "variables": {
+        "entity": "Hajj",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 328,
+      "doc": "GUM_podcast_llms",
+      "variables": {
+        "entity": "Altman",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 329,
+      "doc": "GUM_conversation_zero",
+      "variables": {
+        "entity": "one",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 330,
+      "doc": "GUM_letter_gorbachev",
+      "variables": {
+        "entity": "a source of government revenue",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 331,
+      "doc": "GUM_bio_nida",
+      "variables": {
+        "entity": "Translation",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 332,
+      "doc": "GUM_conversation_toys",
+      "variables": {
+        "entity": "something that Robbie may like",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "19"
+    },
+    {
+      "id": 333,
+      "doc": "GUM_speech_floyd",
+      "variables": {
+        "entity": "the George Floyd Justice in Policing Act",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "20"
+    },
+    {
+      "id": 334,
+      "doc": "GUM_news_iodine",
+      "variables": {
+        "entity": "Professor Cres Eastman",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 335,
+      "doc": "GUM_vlog_mermaid",
+      "variables": {
+        "entity": "the Harry Potter and the Forbidden Journey ride",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 336,
+      "doc": "GUM_academic_librarians",
+      "variables": {
+        "entity": "the librarians",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 337,
+      "doc": "GUM_conversation_scientist",
+      "variables": {
+        "entity": "a naked man , and a naked woman , intertwined with each other , hugging each other , full frontal , and their arms wrapped around each other",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 338,
+      "doc": "GUM_textbook_history",
+      "variables": {
+        "entity": "a city",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 339,
+      "doc": "GUM_whow_packing",
+      "variables": {
+        "entity": "your new house",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 340,
+      "doc": "GUM_podcast_addiction",
+      "variables": {
+        "entity": "Sexual addiction",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 341,
+      "doc": "GUM_fiction_claus",
+      "variables": {
+        "entity": "The gingerbread batter bowl",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 342,
+      "doc": "GUM_conversation_grounded",
+      "variables": {
+        "entity": "last night",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "16"
+    },
+    {
+      "id": 343,
+      "doc": "GUM_news_lanterns",
+      "variables": {
+        "entity": "the Taipei lantern festival",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 344,
+      "doc": "GUM_speech_remarks",
+      "variables": {
+        "entity": "260,000 more Democrats",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 345,
+      "doc": "GUM_academic_lighting",
+      "variables": {
+        "entity": "most commonly and widely used bulb in the household",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 346,
+      "doc": "GUM_academic_art",
+      "variables": {
+        "entity": "our understanding of visual behaviours",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 347,
+      "doc": "GUM_textbook_history",
+      "variables": {
+        "entity": "a land bridge existed between Asia and North America that we now call Beringia",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 348,
+      "doc": "GUM_voyage_coron",
+      "variables": {
+        "entity": "a different , smaller island just offshore",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 349,
+      "doc": "GUM_textbook_anthropology",
+      "variables": {
+        "entity": "the instructor",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 350,
+      "doc": "GUM_whow_quinoa",
+      "variables": {
+        "entity": "Quinoa",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 351,
+      "doc": "GUM_whow_languages",
+      "variables": {
+        "entity": "the word",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 352,
+      "doc": "GUM_essay_distraction",
+      "variables": {
+        "entity": "the keyboard",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 353,
+      "doc": "GUM_podcast_collaboration",
+      "variables": {
+        "entity": "something",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 354,
+      "doc": "GUM_academic_mutation",
+      "variables": {
+        "entity": "Mutation",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "15"
+    },
+    {
+      "id": 355,
+      "doc": "GUM_fiction_giants",
+      "variables": {
+        "entity": "one granddaughter who survived the war",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 356,
+      "doc": "GUM_letter_roomers",
+      "variables": {
+        "entity": "the 4 - room",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 357,
+      "doc": "GUM_textbook_alamo",
+      "variables": {
+        "entity": "Mexico 's",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 358,
+      "doc": "GUM_news_iodine",
+      "variables": {
+        "entity": "iodine deficiency",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "19"
+    },
+    {
+      "id": 359,
+      "doc": "GUM_speech_floyd",
+      "variables": {
+        "entity": "America",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 360,
+      "doc": "GUM_academic_librarians",
+      "variables": {
+        "entity": "The aim of these clinics",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 361,
+      "doc": "GUM_academic_games",
+      "variables": {
+        "entity": "Attention",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "16"
+    },
+    {
+      "id": 362,
+      "doc": "GUM_textbook_evoethics",
+      "variables": {
+        "entity": "Moral Facts",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "16"
+    },
+    {
+      "id": 363,
+      "doc": "GUM_vlog_wine",
+      "variables": {
+        "entity": "open now , drink now wines",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 364,
+      "doc": "GUM_court_loan",
+      "variables": {
+        "entity": "whatever relief might be necessitated",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 365,
+      "doc": "GUM_interview_stardust",
+      "variables": {
+        "entity": "Stardust",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 366,
+      "doc": "GUM_news_homeopathic",
+      "variables": {
+        "entity": "Parents",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "18"
+    },
+    {
+      "id": 367,
+      "doc": "GUM_fiction_time",
+      "variables": {
+        "entity": "the sun",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 368,
+      "doc": "GUM_textbook_evoethics",
+      "variables": {
+        "entity": "The philosopher",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 369,
+      "doc": "GUM_academic_exposure",
+      "variables": {
+        "entity": "18",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 370,
+      "doc": "GUM_academic_epistemic",
+      "variables": {
+        "entity": "Agents",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 371,
+      "doc": "GUM_academic_theropod",
+      "variables": {
+        "entity": "7",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 372,
+      "doc": "GUM_whow_overalls",
+      "variables": {
+        "entity": "The straps on adults ’ overalls",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "14"
+    },
+    {
+      "id": 373,
+      "doc": "GUM_essay_dividends",
+      "variables": {
+        "entity": "everyone",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 374,
+      "doc": "GUM_voyage_york",
+      "variables": {
+        "entity": "England",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 375,
+      "doc": "GUM_news_afghan",
+      "variables": {
+        "entity": "international robotics competition",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "16"
+    },
+    {
+      "id": 376,
+      "doc": "GUM_news_hackers",
+      "variables": {
+        "entity": "Church of Scientology",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "19"
+    },
+    {
+      "id": 377,
+      "doc": "GUM_bio_byron",
+      "variables": {
+        "entity": "the younger John Edleston",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 378,
+      "doc": "GUM_court_loan",
+      "variables": {
+        "entity": "The states",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 379,
+      "doc": "GUM_speech_school",
+      "variables": {
+        "entity": "education",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 380,
+      "doc": "GUM_bio_emperor",
+      "variables": {
+        "entity": "the United States",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "18"
+    },
+    {
+      "id": 381,
+      "doc": "GUM_interview_licen",
+      "variables": {
+        "entity": "NBC as the broadcasting rights owner for the United States",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 382,
+      "doc": "GUM_bio_nida",
+      "variables": {
+        "entity": "the dynamic - equivalence Bible - translation theory",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "7"
+    },
+    {
+      "id": 383,
+      "doc": "GUM_academic_exposure",
+      "variables": {
+        "entity": "adult - learned second language",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "18"
+    },
+    {
+      "id": 384,
+      "doc": "GUM_court_prince",
+      "variables": {
+        "entity": "Factor 1 of the four - factor balancing test",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "16"
+    },
+    {
+      "id": 385,
+      "doc": "GUM_interview_peres",
+      "variables": {
+        "entity": "material",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 386,
+      "doc": "GUM_news_warhol",
+      "variables": {
+        "entity": "USI 's art gallery",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 387,
+      "doc": "GUM_conversation_family",
+      "variables": {
+        "entity": "the boys",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 388,
+      "doc": "GUM_whow_parachute",
+      "variables": {
+        "entity": "a solo jump",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 389,
+      "doc": "GUM_letter_wiki",
+      "variables": {
+        "entity": "Pennsylvania",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "16"
+    },
+    {
+      "id": 390,
+      "doc": "GUM_court_loan",
+      "variables": {
+        "entity": "a measure of loan forgiveness",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 391,
+      "doc": "GUM_fiction_garden",
+      "variables": {
+        "entity": "mermaids",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "13"
+    },
+    {
+      "id": 392,
+      "doc": "GUM_speech_trump",
+      "variables": {
+        "entity": "ISIS",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 393,
+      "doc": "GUM_interview_licen",
+      "variables": {
+        "entity": "society",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2"
+    },
+    {
+      "id": 394,
+      "doc": "GUM_news_asylum",
+      "variables": {
+        "entity": "Indonesia",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
+    },
+    {
+      "id": 395,
+      "doc": "GUM_speech_trump",
+      "variables": {
+        "entity": "people that have lots of problems",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6"
+    },
+    {
+      "id": 396,
+      "doc": "GUM_conversation_atoms",
+      "variables": {
+        "entity": "something that 's hard , like this ice here , or a table , or a rock",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 397,
+      "doc": "GUM_vlog_lipstick",
+      "variables": {
+        "entity": "Ofra",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 398,
+      "doc": "GUM_whow_quidditch",
+      "variables": {
+        "entity": "the game",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10"
+    },
+    {
+      "id": 399,
+      "doc": "GUM_voyage_tulsa",
+      "variables": {
+        "entity": "urban planning",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 400,
+      "doc": "GUM_letter_flood",
+      "variables": {
+        "entity": "legislation that would lower interest rates on rebuilding loans and provide that a major portion of these loans would not have to be repaid",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "8"
+    },
+    {
+      "id": 401,
+      "doc": "GUM_voyage_chatham",
+      "variables": {
+        "entity": "Kopinga Marae",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "11"
+    },
+    {
+      "id": 402,
+      "doc": "GUM_textbook_artwork",
+      "variables": {
+        "entity": "beauty",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12"
+    },
+    {
+      "id": 403,
+      "doc": "GUM_letter_conference",
+      "variables": {
+        "entity": "Thurday",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3"
+    },
+    {
+      "id": 404,
+      "doc": "GUM_voyage_cleveland",
+      "variables": {
+        "entity": "USA",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "9"
+    },
+    {
+      "id": 405,
+      "doc": "GUM_news_taxes",
+      "variables": {
+        "entity": "religious schools",
+        "text": "See count_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "4"
     }
   ]
 }
