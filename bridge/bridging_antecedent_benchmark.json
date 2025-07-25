@@ -1234,7 +1234,7 @@
         "text": "In order to examine potential bivariate associations , the adjusted F statistic ( design - based F ) was employed as it corrects for a complex sample design such as that used in the Add Health . [ 21 ] More specifically , when analyzing weighted sample data employing the svy suite of commands in Stata the conventional Pearson χ2 statistic test of independence is converted into “ an F statistic with noninteger degrees of freedom by using a second - order Rao and Scott ( 1981 [ 22 ] , 1984 [ 23 ] ) correction ” . [ 24 ] The p - value associated with the design - based F is thus more accurate ( than the associated with the χ2 statistic ) given the adjustments and calculations take into account the weighted nature of the data . This final step also included an examination of the relative distribution of racial categories across the various reported reasons for discrimination . As noted earlier , all analyses were weighted according to the survey weight provided by the Add Health research staff and standard errors were corrected for {the clustering and stratification that defined the sampling strategy} ."
       },
       "answer_type": "string",
-      "answer": ""
+      "answer": "a complete sample design"
     },
     {
       "id": 138,
