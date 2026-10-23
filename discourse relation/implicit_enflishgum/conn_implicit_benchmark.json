@@ -1,0 +1,5007 @@
+{
+  "task": "conn-implicit",
+  "lang": "english",
+  "example_prompt": "What is the implicit discourse connective between {arg1} and {arg2}? Implicit discourse connective refers to a logical connection between two discourse units (such as sentences or clauses) that is not explicitly marked by a discourse connective (e.g., “because”, “but”, “after”). Instead, the relation must be inferred by the reader or listener.\n\nHere are the options: accordingly, additionally, after, also, although, and, as, as a result, as a result of, as a result of being, at the same time, at the time, because, because of, before that, besides, but, by, by comparison, by contrast, during that time, earlier, finally, for example, for instance, further, furthermore, granted, however, if, in addition, in contrast, in fact, in order, in other words, in particular, in short, in the end, indeed, instead, insteadof, later, meanwhile, moreover, next, now, on account of, or, otherwise, previously, rather, since, so, specifically, subsequently, then, thereby, therefore, thus, when, whereas, while, with the purpose of\nIf there is no appropriate implicit connective, answer: no implicit connective\n\nArg1: {{arg1}}\nArg2: {{arg2}}",
+  "instances": [
+    {
+      "id": 1,
+      "doc": "GUM_bio_jespersen",
+      "variables": {
+        "arg1": "he returned to Copenhagen in August 1888",
+        "arg2": "and began work on his doctoral dissertation on the English case system ."
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 2,
+      "doc": "GUM_podcast_bezos",
+      "variables": {
+        "arg1": "Well , first of all , I 'm actually really happy that it 's not a government program where they 're forcing taxpayers to spend the billions of dollars on something like that .",
+        "arg2": "You know , my view , honestly , is if somebody 's been successful in creating a business and making money and the customers have rewarded them , so they 've become a billionaire , if they want to spend it on building a rocket to outer space , that 's their choice ."
+      },
+      "answer_type": "string",
+      "answer": "instead"
+    },
+    {
+      "id": 3,
+      "doc": "GUM_letter_mandela",
+      "variables": {
+        "arg1": "If the country 's leading statesmen fail to lead at this moment , then the worst is inevitable .",
+        "arg2": "It is time for you , Sir , and your Party , to speak out ."
+      },
+      "answer_type": "string",
+      "answer": "so"
+    },
+    {
+      "id": 4,
+      "doc": "GUM_textbook_union",
+      "variables": {
+        "arg1": "The French then moved",
+        "arg2": "to capture Mexico City ,"
+      },
+      "answer_type": "string",
+      "answer": "in order"
+    },
+    {
+      "id": 5,
+      "doc": "GUM_podcast_bezos",
+      "variables": {
+        "arg1": "They are all the undeserving recipients of corporate socialism , making their space tours .",
+        "arg2": "I 'm looking at you , Richard Branson ."
+      },
+      "answer_type": "string",
+      "answer": "for example"
+    },
+    {
+      "id": 6,
+      "doc": "GUM_bio_dvorak",
+      "variables": {
+        "arg1": "After Bedřich Smetana , he was the next Czech Romantic - era composer to achieve worldwide recognition .",
+        "arg2": "Following Smetana 's nationalist example , Dvořák frequently employed aspects , specifically rhythms , of the folk music of Moravia and his native Bohemia ."
+      },
+      "answer_type": "string",
+      "answer": "in addition"
+    },
+    {
+      "id": 7,
+      "doc": "GUM_podcast_bezos",
+      "variables": {
+        "arg1": "Not to mention , The Hill Online newspaper reported in late May that a US competitiveness bill , then being debated on the Senate floor , included ten billion for Bezos 's own space exploration company , Blue Origin .",
+        "arg2": "This was also around the time Bezos had bought MGM for nine billion ."
+      },
+      "answer_type": "string",
+      "answer": "in fact"
+    },
+    {
+      "id": 8,
+      "doc": "GUM_speech_austria",
+      "variables": {
+        "arg1": "An overwhelming number of young people were at the forefront of this enormous tide , which started in Tunisia and Egypt .",
+        "arg2": "We should pay tribute to their courage ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 9,
+      "doc": "GUM_letter_mandela",
+      "variables": {
+        "arg1": "Are you , therefore , for a National Convention ?",
+        "arg2": "We in South Africa , and the world outside expect an answer ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 10,
+      "doc": "GUM_bio_jespersen",
+      "variables": {
+        "arg1": "Modern English Grammar on Historical Principles ( 1909 – 1949 ) , concentrated on morphology and syntax , and Growth and Structure of the English Language ( 1905 ) is a comprehensive view of English by someone with another native language , and still in print , over 70 years after his death and more than 100 years after publication .",
+        "arg2": "Late in his life he published Analytic Syntax ( 1937 ) , in which he presents his views on syntactic structure using an idiosyncratic shorthand notation ."
+      },
+      "answer_type": "string",
+      "answer": "furthermore"
+    },
+    {
+      "id": 11,
+      "doc": "GUM_bio_jespersen",
+      "variables": {
+        "arg1": "in which he presents his views on syntactic structure",
+        "arg2": "using an idiosyncratic shorthand notation ."
+      },
+      "answer_type": "string",
+      "answer": "by"
+    },
+    {
+      "id": 12,
+      "doc": "GUM_textbook_union",
+      "variables": {
+        "arg1": "Ultimately , Great Britain , like France , disappointed the Confederacy ’s hope of an alliance ,",
+        "arg2": "leaving the outnumbered and out - resourced states that had left the Union to fend for themselves ."
+      },
+      "answer_type": "string",
+      "answer": "thus"
+    },
+    {
+      "id": 13,
+      "doc": "GUM_podcast_bezos",
+      "variables": {
+        "arg1": "And those that remain on Earth , the rest of us , continue working in what could realistically be a future Amazon warehouse .",
+        "arg2": "Later in the Democracy Now ! segment , the broadcast aired parts of an MSNBC interview with Bezos , who , in completely out of touch fashion , adamantly expressed that we should preserve our , quote , beautiful gem , end quote , also known as Earth , by transporting polluting industries to outer space , something he acknowledged would take , quote , decades to achieve , end quote ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 14,
+      "doc": "GUM_essay_fear",
+      "variables": {
+        "arg1": "Tribalism is the biological loophole that many politicians have banked on for a long time : tapping into our fears and tribal instincts .",
+        "arg2": "Some examples are Nazism , the Ku Klux Klan , religious wars and the Dark Ages ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 15,
+      "doc": "GUM_bio_jespersen",
+      "variables": {
+        "arg1": "He advanced the theories of Rank and Nexus in Danish in two papers : Sprogets logik ( 1913 ) and De to hovedarter af grammatiske forbindelser ( 1921 ) .",
+        "arg2": "Jespersen in this theory of ranks removes the parts of speech from the syntax , and differentiates between primaries , secondaries , and tertiaries ; e.g. in \" well honed phrase , \" \" phrase \" is a primary , this being defined by a secondary , \" honed \" , which again is defined by a tertiary \" well \" ."
+      },
+      "answer_type": "string",
+      "answer": "specifically"
+    },
+    {
+      "id": 16,
+      "doc": "GUM_vlog_studying",
+      "variables": {
+        "arg1": "I was literally in there for like 25 minutes",
+        "arg2": "all to just do a simple exchange for the exact same shoe ."
+      },
+      "answer_type": "string",
+      "answer": "in order"
+    },
+    {
+      "id": 17,
+      "doc": "GUM_court_mitigation",
+      "variables": {
+        "arg1": "Chief Justice Kennedy and may it please the Court .",
+        "arg2": "My name is Eric Levi and I 'm arguing for appellant Darnell Hurt ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 18,
+      "doc": "GUM_textbook_chemistry",
+      "variables": {
+        "arg1": "that the behavior of matter could be explained",
+        "arg2": "using an atomic theory ."
+      },
+      "answer_type": "string",
+      "answer": "by"
+    },
+    {
+      "id": 19,
+      "doc": "GUM_vlog_london",
+      "variables": {
+        "arg1": "Kharma Medic here and welcome back to another dose .",
+        "arg2": "So in today 's video , I 'm finally gon na be doing a room tour ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 20,
+      "doc": "GUM_podcast_bezos",
+      "variables": {
+        "arg1": "So we 're expected to forklift over , as a simple dinner fork wo n't cut it , the billions needed for him , again , arguably the richest man on Earth , to acquire more wealth , and as the cherry on top , deliver him one billion more .",
+        "arg2": "According to the report published by ProPublica last month , the median American household brings in around seventy thousand a year and pays fourteen percent in federal income taxes ."
+      },
+      "answer_type": "string",
+      "answer": "in contrast"
+    },
+    {
+      "id": 21,
+      "doc": "GUM_bio_dvorak",
+      "variables": {
+        "arg1": "Antonín Leopold Dvořák ( / d(ə)ˈvɔːrʒɑːk , -ʒæk / d(ə)-VOR-zha(h)k ; Czech : [ ˈantoɲiːn ˈlɛopolt ˈdvor̝aːk ] ; 8 September 1841 – 1 May 1904 ) was a Czech composer .",
+        "arg2": "After Bedřich Smetana , he was the next Czech Romantic - era composer to achieve worldwide recognition ."
+      },
+      "answer_type": "string",
+      "answer": "in fact"
+    },
+    {
+      "id": 22,
+      "doc": "GUM_speech_austria",
+      "variables": {
+        "arg1": "Pressure for change is driven by the wish of women and men to choose their own fate and to improve their chances for a better life .",
+        "arg2": "These are legitimate demands ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 23,
+      "doc": "GUM_speech_newzealand",
+      "variables": {
+        "arg1": "I have high confidence in our medical professionals .",
+        "arg2": "We have a strong public health system ."
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 24,
+      "doc": "GUM_bio_jespersen",
+      "variables": {
+        "arg1": "Jespersen received honorary degrees from Columbia University in New York ( 1910 ) , St. Andrews University in Scotland ( 1925 ) , and the Sorbonne in Paris ( 1927 ) .",
+        "arg2": "He was one of the first six international scholars to be elected as honorary members of the Linguistic Society of America ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 25,
+      "doc": "GUM_speech_newzealand",
+      "variables": {
+        "arg1": "Just yesterday , Cabinet decided to extend for another week the travel restrictions that have been in place for China since 3 February and for Iran since last Friday .",
+        "arg2": "These restrictions have played a key role in keeping COVID - 19 out of New Zealand for so long and have given us time to better understand the disease and ramp up our preparations ."
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 26,
+      "doc": "GUM_textbook_union",
+      "variables": {
+        "arg1": "Although many Black soldiers saw combat duty , these factors affected the types of tasks assigned to them .",
+        "arg2": "Many Black regiments were limited to hauling supplies , serving as cooks , digging trenches , and doing other types of labor , rather than serving on the battlefield ( Figure 15.16 ) ."
+      },
+      "answer_type": "string",
+      "answer": "for instance"
+    },
+    {
+      "id": 27,
+      "doc": "GUM_letter_mandela",
+      "variables": {
+        "arg1": "How shall the representatives be elected ?",
+        "arg2": "But these are not the issues now at stake ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 28,
+      "doc": "GUM_essay_fear",
+      "variables": {
+        "arg1": "We humans have different functions in the brain , and fear oftentimes bypasses logic .",
+        "arg2": "There are several reasons ."
+      },
+      "answer_type": "string",
+      "answer": "in fact"
+    },
+    {
+      "id": 29,
+      "doc": "GUM_vlog_studying",
+      "variables": {
+        "arg1": "and now I 'm about to go get some lunch ,",
+        "arg2": "and go to DSW and see if I can exchange those Vans ."
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 30,
+      "doc": "GUM_academic_discrimination",
+      "variables": {
+        "arg1": "This final step also included an examination of the relative distribution of racial categories across the various reported reasons for discrimination .",
+        "arg2": "As noted earlier , all analyses were weighted according to the survey weight provided by the Add Health research staff and standard errors were corrected for the clustering and stratification that defined the sampling strategy ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 31,
+      "doc": "GUM_speech_austria",
+      "variables": {
+        "arg1": "The international community and the United Nations have to support and assist the transition process in the Arab world as the United Nations does now in Libya .",
+        "arg2": "This period of change may last for some time and will be full of challenges ."
+      },
+      "answer_type": "string",
+      "answer": "however"
+    },
+    {
+      "id": 32,
+      "doc": "GUM_court_prince",
+      "variables": {
+        "arg1": "First , the precedent supports us .",
+        "arg2": "Campbell unambiguously requires an examination of meaning or message ."
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 33,
+      "doc": "GUM_voyage_fortlee",
+      "variables": {
+        "arg1": "Fort Lee is known and named for the story of how General George Washington was forced to evacuate the area in November of 1776 and begin his famous retreat through New Jersey during the winter of 1776 - 77 in the protection of \" Fort Lee \" .",
+        "arg2": "The Visitors ' Center provides information on the role of Fort Lee in the War ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 34,
+      "doc": "GUM_speech_destiny",
+      "variables": {
+        "arg1": "The appointed day has come - the day appointed by destiny - and India stands forth again , after long slumber and struggle , awake , vital , free and independent .",
+        "arg2": "The past clings on to us still in some measure and we have to do much before we redeem the pledges we have so often taken ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 35,
+      "doc": "GUM_court_negligence",
+      "variables": {
+        "arg1": "It was first suggested by the Ontario courts back in Sirhan ,",
+        "arg2": "and it 's the Newfoundland and Labrador Court of Appeal that , for the first time has affirmatively recognized that as a cause of action ."
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 36,
+      "doc": "GUM_interview_daly",
+      "variables": {
+        "arg1": "I used a dissecting scope",
+        "arg2": "to look at the animal 's external anatomy and overall body organization ( magnification of 60 X ) ."
+      },
+      "answer_type": "string",
+      "answer": "in order"
+    },
+    {
+      "id": 37,
+      "doc": "GUM_whow_quidditch",
+      "variables": {
+        "arg1": "Beaters try to peg players with their bludger .",
+        "arg2": "If a player is pegged they have to stop what they 're doing and pay a penalty ; i.e. ( drop the quaffle in the case of a chaser ) and run back to and touch their goal post or alternatively sit down for 10 seconds ."
+      },
+      "answer_type": "string",
+      "answer": "in particular"
+    },
+    {
+      "id": 38,
+      "doc": "GUM_essay_evolved",
+      "variables": {
+        "arg1": "walk a few dozen steps back to the car ,",
+        "arg2": "get drive - thru food ,"
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 39,
+      "doc": "GUM_essay_dividends",
+      "variables": {
+        "arg1": "Consider , for example , the immense value created by our legal , intellectual , and financial infrastructures , the Internet , and our economy as a whole .",
+        "arg2": "This value is n’t created by single individuals or corporations ; it ’s created collectively and hence belongs equally to all ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 40,
+      "doc": "GUM_podcast_wrestling",
+      "variables": {
+        "arg1": "Let it fucking die , please , just stop .",
+        "arg2": "Stop ."
+      },
+      "answer_type": "string",
+      "answer": "in other words"
+    },
+    {
+      "id": 41,
+      "doc": "GUM_academic_epistemic",
+      "variables": {
+        "arg1": "More recently , institutions of academic expertise have been subject to a large and growing outbreak of so - called predatory journals — journals that will publish almost anything for a fee .",
+        "arg2": "Once again , this phenomenon has the effect of making peer - reviewed journals appear less legitimate ."
+      },
+      "answer_type": "string",
+      "answer": "as a result"
+    },
+    {
+      "id": 42,
+      "doc": "GUM_news_crane",
+      "variables": {
+        "arg1": "\" Had it happened an hour later it would have been much worse , \" Khaled Al - Maeena , editor at large at the Saudi Gazette , said .",
+        "arg2": "\" Had it happened five hours earlier or four hours earlier , I think the death toll would have been more than a thousand . \""
+      },
+      "answer_type": "string",
+      "answer": "in fact"
+    },
+    {
+      "id": 43,
+      "doc": "GUM_conversation_grounded",
+      "variables": {
+        "arg1": "Hutter ?",
+        "arg2": "What 's that about ?"
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 44,
+      "doc": "GUM_fiction_falling",
+      "variables": {
+        "arg1": "She ’s on the Holbeinsteg bridge .",
+        "arg2": "Someone ’s hung it up here — a hundred meters of clean gray and green twentieth - century modernism , plucked up from the river Main and suspended in the chilly air 2,360 meters up , between a lump of wooded parkland and a cluster of antique subway cars ."
+      },
+      "answer_type": "string",
+      "answer": "before that"
+    },
+    {
+      "id": 45,
+      "doc": "GUM_textbook_anthropology",
+      "variables": {
+        "arg1": "that the instructor simply stands there after that announcement ,",
+        "arg2": "blinking calmly"
+      },
+      "answer_type": "string",
+      "answer": "by"
+    },
+    {
+      "id": 46,
+      "doc": "GUM_news_clock",
+      "variables": {
+        "arg1": "We should inspire more kids like you to like science .",
+        "arg2": "It 's what makes America great . \""
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 47,
+      "doc": "GUM_vlog_exams",
+      "variables": {
+        "arg1": "So I 'm going to do what I can and then maybe finish like one or two more lectures and then I will start taking a look at chem .",
+        "arg2": "I will be up for a little while longer ."
+      },
+      "answer_type": "string",
+      "answer": "so"
+    },
+    {
+      "id": 48,
+      "doc": "GUM_news_defector",
+      "variables": {
+        "arg1": "a detective for the Los Angeles Sheriff 's office was provided with material from Scientology",
+        "arg2": "to build a case against Montalvo ."
+      },
+      "answer_type": "string",
+      "answer": "in order"
+    },
+    {
+      "id": 49,
+      "doc": "GUM_essay_system",
+      "variables": {
+        "arg1": "If you have goals in life , you ’re probably going to need some sort of organization .",
+        "arg2": "Even if it ’s an organization of just you , it ’s still helpful to think of it as a kind of machine ."
+      },
+      "answer_type": "string",
+      "answer": "in fact"
+    },
+    {
+      "id": 50,
+      "doc": "GENTLE_medical_anemia",
+      "variables": {
+        "arg1": "The patient is a 72 - year - old gentleman who was diagnosed with chronic lymphocytic leukemia in May 2008 .",
+        "arg2": "He was noted to have autoimmune hemolytic anemia at the time of his CLL diagnosis ."
+      },
+      "answer_type": "string",
+      "answer": "also"
+    },
+    {
+      "id": 51,
+      "doc": "GUM_speech_humanitarian",
+      "variables": {
+        "arg1": "In the near term , the New START Treaty must be extended .",
+        "arg2": "We must work to address the heightened threat posed by ballistic missiles and ensure a successful 2020 Review Conference of the Parties to the Treaty on the Non-Proliferation of Nuclear Weapons ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 52,
+      "doc": "GUM_academic_mutation",
+      "variables": {
+        "arg1": "A Geofence is determined by a geographical location expressed in terms of latitude , longitude , and a radius around that location .",
+        "arg2": "By creating a Geofence with an erroneous location from its central location , the device will receive incorrect location notifications ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 53,
+      "doc": "GUM_bio_goode",
+      "variables": {
+        "arg1": "Goode has been in a relationship with Sophie Dymoke since 2005 .",
+        "arg2": "They married in 2014 . [ 17 ] [ 18 ] [ 19 ]"
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 54,
+      "doc": "GUM_vlog_lipstick",
+      "variables": {
+        "arg1": "It usually comes in that little box ?",
+        "arg2": "I 'm thinking that maybe Dose of Colors and Urban Decay have the shelf life printed on those boxes but who keeps their lipsticks in a box ?"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 55,
+      "doc": "GUM_voyage_chatham",
+      "variables": {
+        "arg1": "You should book or ensure accommodation before you board a flight for the Chathams , as during the popular months of the tourism season , between October and April , accommodation can be severely limited .",
+        "arg2": "There are no same - day return flights , so once there you have to stay at least one night ."
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 56,
+      "doc": "GUM_podcast_brave",
+      "variables": {
+        "arg1": "It 's like , no , she was going to make this movie .",
+        "arg2": "That 's what 's going to happen now ."
+      },
+      "answer_type": "string",
+      "answer": "in fact"
+    },
+    {
+      "id": 57,
+      "doc": "GUM_interview_peres",
+      "variables": {
+        "arg1": "How do you come to an understanding",
+        "arg2": "to make peace possible ?"
+      },
+      "answer_type": "string",
+      "answer": "in order"
+    },
+    {
+      "id": 58,
+      "doc": "GUM_academic_discrimination",
+      "variables": {
+        "arg1": "Because a race variable is not available from the Wave 4 interviews , we use the racial category reported by the respondent during the Wave 1 interview .",
+        "arg2": "Wave 1 race — rather than , say , Wave 3 race — was used to preserve case counts ."
+      },
+      "answer_type": "string",
+      "answer": "in particular"
+    },
+    {
+      "id": 59,
+      "doc": "GUM_conversation_zero",
+      "variables": {
+        "arg1": "Leah .",
+        "arg2": "She snoozing on the floor ?"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 60,
+      "doc": "GENTLE_syllabus_opensource",
+      "variables": {
+        "arg1": "In this course , collaboration in your project group ( 3 or 4 students ) is allowed , but should not be abused .",
+        "arg2": "Do not copy blindly ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 61,
+      "doc": "GUM_conversation_vet",
+      "variables": {
+        "arg1": "And to do a cast , um , with the anasthesia , and staying one more night in the hospital and stuff , and then the casting material , probably the —",
+        "arg2": "It 's gon na be about a hundred and fifty - three , total ."
+      },
+      "answer_type": "string",
+      "answer": "so"
+    },
+    {
+      "id": 62,
+      "doc": "GUM_voyage_thailand",
+      "variables": {
+        "arg1": "You will find that dressing appropriately means that you are shown more respect in return .",
+        "arg2": "This translates in many ways , even sometimes lowering initial offering prices at markets ."
+      },
+      "answer_type": "string",
+      "answer": "in fact"
+    },
+    {
+      "id": 63,
+      "doc": "GUM_fiction_oversite",
+      "variables": {
+        "arg1": "“ They ’re going to implant a chip .",
+        "arg2": "It will help them take care of you . ”"
+      },
+      "answer_type": "string",
+      "answer": "so"
+    },
+    {
+      "id": 64,
+      "doc": "GUM_essay_sexlife",
+      "variables": {
+        "arg1": "If we ask a group of people how satisfied they are with their sex life , and the younger people are more satisfied than the older people , does that mean that aging is responsible for this difference ?",
+        "arg2": "What if instead the apparent age difference is because people born in the 1930s have different attitudes toward sex than people who grew up after the sexual revolution of the '60's and '70's ?"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 65,
+      "doc": "GUM_conversation_grounded",
+      "variables": {
+        "arg1": "Do n't touch anything yellow .",
+        "arg2": "Okay ?"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 66,
+      "doc": "GUM_essay_ghost",
+      "variables": {
+        "arg1": "Kusanagi inhabits a world where human augmentation is commonplace , and is almost entirely machine .",
+        "arg2": "This technological augmentation provides her and others with super-human abilities ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 67,
+      "doc": "GUM_voyage_socotra",
+      "variables": {
+        "arg1": "Due to its remarkable biodiversity , with over a third of the local plant species found nowhere else , Socotra has been designated a UNESCO World Heritage Site .",
+        "arg2": "With over 40,000 inhabitants , though , it 's not just a nature reserve ."
+      },
+      "answer_type": "string",
+      "answer": "but"
+    },
+    {
+      "id": 68,
+      "doc": "GUM_vlog_wine",
+      "variables": {
+        "arg1": "because they are made",
+        "arg2": "to open now , drink now wines ."
+      },
+      "answer_type": "string",
+      "answer": "in order"
+    },
+    {
+      "id": 69,
+      "doc": "GUM_academic_eegimaa",
+      "variables": {
+        "arg1": "Names of the villages of Mof-Ávvi are written",
+        "arg2": "using the Eegimaa orthography"
+      },
+      "answer_type": "string",
+      "answer": "by"
+    },
+    {
+      "id": 70,
+      "doc": "GUM_whow_quidditch",
+      "variables": {
+        "arg1": "A ball flying in the air can hurt .",
+        "arg2": "If you 're playing quidditch you 're probably just having fun so play nicely ."
+      },
+      "answer_type": "string",
+      "answer": "so"
+    },
+    {
+      "id": 71,
+      "doc": "GUM_news_clock",
+      "variables": {
+        "arg1": "After news of the police response was reported , Mohamed received support online ranging from US President Barack Obama to Facebook creator Mark Zuckerberg .",
+        "arg2": "Yesterday Mohamed received VIP attention at Google headquarters in California at the Google Science Fair — and tomorrow he plans to meet international dignitaries at the United Nations headquarters in New York ."
+      },
+      "answer_type": "string",
+      "answer": "in fact"
+    },
+    {
+      "id": 72,
+      "doc": "GUM_vlog_exams",
+      "variables": {
+        "arg1": "so we have three hours 45 minutes",
+        "arg2": "to take it ."
+      },
+      "answer_type": "string",
+      "answer": "in order"
+    },
+    {
+      "id": 73,
+      "doc": "GUM_bio_padalecki",
+      "variables": {
+        "arg1": "He is best known for playing the role of Sam Winchester in the TV series Supernatural .",
+        "arg2": "He grew up in Texas and rose to fame in the early 2000s after appearing on the television series Gilmore Girls as well as the films New York Minute and House of Wax ."
+      },
+      "answer_type": "string",
+      "answer": "previously"
+    },
+    {
+      "id": 74,
+      "doc": "GUM_news_defector",
+      "variables": {
+        "arg1": "Daniel Montalvo in September 2010 , after having left the elite group within Scientology called the Sea Org .",
+        "arg2": "Montalvo is holding a copy of the book Blown for Good critical of Scientology , written by Marc Headley ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 75,
+      "doc": "GUM_vlog_appearance",
+      "variables": {
+        "arg1": "I think maybe in this video , this vlog , I 'm just in the mood to talk , you know , I do n't really have much to show .",
+        "arg2": "I 'm not really doing anything this week other than like hunkering down and doing as much work as possible ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 76,
+      "doc": "GUM_letter_mandela",
+      "variables": {
+        "arg1": "We have approached you and your Party before , and suggested that matters of difference be discussed .",
+        "arg2": "To date we have had no reply : Nevertheless we still hold the door open ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 77,
+      "doc": "GUM_conversation_artist",
+      "variables": {
+        "arg1": "Well any rate , my wife had fallen in love , with a , Mexican artist by the name of Nierman .",
+        "arg2": "Forgot his first name ."
+      },
+      "answer_type": "string",
+      "answer": "but"
+    },
+    {
+      "id": 78,
+      "doc": "GUM_interview_chomsky",
+      "variables": {
+        "arg1": "At the age of 40 he was credited with revolutionizing the field of modern linguistics .",
+        "arg2": "He was one of the first opponents of the Vietnam War , and is a self - described Libertarian Socialist ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 79,
+      "doc": "GUM_textbook_anthropology",
+      "variables": {
+        "arg1": "Then ,  the instructor calmly blinks one eye ,",
+        "arg2": "leaving the other eye open ."
+      },
+      "answer_type": "string",
+      "answer": "by"
+    },
+    {
+      "id": 80,
+      "doc": "GUM_podcast_wrestling",
+      "variables": {
+        "arg1": "We all drank a whole lot ta shit .",
+        "arg2": "Um , I did n’t get drunk at all despite literally shotgunning I think six or seven shots of … was it tequila ? .. yeah , I think it was like really really decent tequila , in a row ."
+      },
+      "answer_type": "string",
+      "answer": "so"
+    },
+    {
+      "id": 81,
+      "doc": "GUM_bio_fillmore",
+      "variables": {
+        "arg1": "He returned to the US ,",
+        "arg2": "receiving his doctorate at the University of Michigan and then teaching at The Ohio State University in Columbus ."
+      },
+      "answer_type": "string",
+      "answer": "specifically"
+    },
+    {
+      "id": 82,
+      "doc": "GUM_whow_parachute",
+      "variables": {
+        "arg1": "Prepare for deployment .",
+        "arg2": "After linking arms with your fellow jumper , you will need to hook your arms through their chest strap , or through both sides of the front of their harness , as far as you can , then grab onto your own strap ."
+      },
+      "answer_type": "string",
+      "answer": "specifically"
+    },
+    {
+      "id": 83,
+      "doc": "GUM_textbook_history",
+      "variables": {
+        "arg1": "Continually moving southward , the settlers eventually populated both North and South America , creating unique cultures that ranged from the highly complex and urban Aztec civilization in what is now Mexico City to the woodland tribes of eastern North America .",
+        "arg2": "Recent research along the west coast of South America suggests that migrant populations may have traveled down this coast by water as well as by land ."
+      },
+      "answer_type": "string",
+      "answer": "furthermore"
+    },
+    {
+      "id": 84,
+      "doc": "GUM_letter_zora",
+      "variables": {
+        "arg1": "I am up every morning at five oclock chopping down weeds and planting flowers and things .",
+        "arg2": "That is why I have been so long getting to my machine to write letters ."
+      },
+      "answer_type": "string",
+      "answer": "so"
+    },
+    {
+      "id": 85,
+      "doc": "GUM_whow_cupcakes",
+      "variables": {
+        "arg1": "Ice the cupcakes .",
+        "arg2": "The flavor of icing or frosting can be improved by adding a little of your favorite juice to it instead of soy milk or water ."
+      },
+      "answer_type": "string",
+      "answer": "in fact"
+    },
+    {
+      "id": 86,
+      "doc": "GUM_whow_flirt",
+      "variables": {
+        "arg1": "See Step 1 below",
+        "arg2": "to start flirting smartly and respectfully ."
+      },
+      "answer_type": "string",
+      "answer": "in order"
+    },
+    {
+      "id": 87,
+      "doc": "GUM_court_property",
+      "variables": {
+        "arg1": "Now , something that 's created a lot of confusion in this case is there are really two asserted interests here .",
+        "arg2": "First is the interest in property itself , and second is an interest in occupying and maintaining that property on public lands ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 88,
+      "doc": "GUM_letter_roomers",
+      "variables": {
+        "arg1": "CONSIDER THIS OFFER LATER WHEN MISS MUCK DEMANDS 30 SECTIONS IN ONE NIGHT .",
+        "arg2": "( I GOT AN A- and a B ! )"
+      },
+      "answer_type": "string",
+      "answer": "in fact"
+    },
+    {
+      "id": 89,
+      "doc": "GUM_conversation_blacksmithing",
+      "variables": {
+        "arg1": "See we did that too .",
+        "arg2": "We did — we did a lot of stuff ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 90,
+      "doc": "GUM_podcast_collaboration",
+      "variables": {
+        "arg1": "It feels like you have to get up and go to school .",
+        "arg2": "It was like a workday hours ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 91,
+      "doc": "GUM_fiction_honour",
+      "variables": {
+        "arg1": "Twenty ?",
+        "arg2": "Thirty ?"
+      },
+      "answer_type": "string",
+      "answer": "or"
+    },
+    {
+      "id": 92,
+      "doc": "GUM_fiction_lunre",
+      "variables": {
+        "arg1": "and strutted toward us ,",
+        "arg2": "grinning ."
+      },
+      "answer_type": "string",
+      "answer": "by"
+    },
+    {
+      "id": 93,
+      "doc": "GUM_vlog_pregnant",
+      "variables": {
+        "arg1": "And I just think it did n't help me seeing people at their worst at the very beginning , because all you hear is doom and gloom .",
+        "arg2": "I decided to wait a few weeks before I even started to talk about it , so I think I 'm about seven weeks ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 94,
+      "doc": "GUM_court_insanity",
+      "variables": {
+        "arg1": "Instead , he raised an insanity defense , claiming that because he was mentally ill at the time he tried to steal the coat he should not be blamed for his act .",
+        "arg2": "The Government did not contest this claim and the trial court found , after a stipulated trial , that the Petitioner was not guilty by reason of insanity ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 95,
+      "doc": "GUM_interview_peres",
+      "variables": {
+        "arg1": "Look , the new age is unprecedented .",
+        "arg2": "When something is unprecedented , it means it does n’t have a past , does n’t have a history ."
+      },
+      "answer_type": "string",
+      "answer": "in particular"
+    },
+    {
+      "id": 96,
+      "doc": "GENTLE_medical_anemia",
+      "variables": {
+        "arg1": "He was noted to have autoimmune hemolytic anemia at the time of his CLL diagnosis .",
+        "arg2": "He has been on chronic steroids to control his hemolysis and is currently on prednisone 5 mg every other day ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 97,
+      "doc": "GUM_voyage_york",
+      "variables": {
+        "arg1": "If you are only visiting for the day",
+        "arg2": "but staying until late evening ,"
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 98,
+      "doc": "GUM_whow_arrogant",
+      "variables": {
+        "arg1": "Do you always seem to cross paths with people who are stuck on themselves , intolerant of people different from them , rude or downright arrogant ?",
+        "arg2": "These people can be a great source of potential pain , and this article is here to help you sort the arrogant from the not - so - arrogant ."
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 99,
+      "doc": "GUM_academic_census",
+      "variables": {
+        "arg1": "Such surveys can provide valuable insight into trends and summary statistics on the scientific workforce but suffer from two key weaknesses .",
+        "arg2": "First , surveys are subject to variable response rates and the misinterpretation of questions or sample frames , which can inject bias into fine - grained analyses [ 21 , 22 ] ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 100,
+      "doc": "GUM_news_soccer",
+      "variables": {
+        "arg1": "In the 90th minute , Belgium made a change , as Nacer Chadli replaced Axel Witsel .",
+        "arg2": "The second half ended with the Belgians winning three points ."
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 101,
+      "doc": "GUM_vlog_exams",
+      "variables": {
+        "arg1": "Good morning , it is Monday May 3rd 10:38 a.m.",
+        "arg2": "I have a meeting at 10:45 so in a few minutes with one of my TFs about my project ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 102,
+      "doc": "GUM_interview_messina",
+      "variables": {
+        "arg1": "She handed me a shirt she bought at the stadium",
+        "arg2": "and she gave me a big hug ."
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 103,
+      "doc": "GUM_vlog_wine",
+      "variables": {
+        "arg1": "that what you pick up on the palette on the nose to the palate , spicy peppery flavor ,",
+        "arg2": "has lots of great fruits"
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 104,
+      "doc": "GUM_fiction_falling",
+      "variables": {
+        "arg1": "tall , hook - nosed , the fashionable whorls of pox and acne making constellations of his cheeks and chest ;",
+        "arg2": "the glowing , formal tattoos of his committees and lifebrands adorning his massive triceps ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 105,
+      "doc": "GUM_news_soccer",
+      "variables": {
+        "arg1": "Just two minutes in the second half , Dries Mertens scored a goal from a volley , putting the Belgians in the lead .",
+        "arg2": "Panama 's attempt in the 54th minute , by Michael Murillo , was saved by Thibaut Courtois ."
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 106,
+      "doc": "GUM_textbook_alamo",
+      "variables": {
+        "arg1": "Figure 1.4",
+        "arg2": "This portrait of General Antonio Lopez de Santa Anna depicts the Mexican president and general in full military regalia ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 107,
+      "doc": "GUM_conversation_grounded",
+      "variables": {
+        "arg1": "It 's f- like on Saturdays and Wednesdays .",
+        "arg2": "It 's for church ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 108,
+      "doc": "GUM_voyage_chatham",
+      "variables": {
+        "arg1": "Although flying to the Chathams and back is not cheap , it is worth it .",
+        "arg2": "Even the mainland school groups that fly there for school camps , and choose to stay at Kopinga Marae [ 1 ] get value for money by chartering a flight one way ."
+      },
+      "answer_type": "string",
+      "answer": "for instance"
+    },
+    {
+      "id": 109,
+      "doc": "GUM_conversation_christmas",
+      "variables": {
+        "arg1": "Uh , she can —",
+        "arg2": "She ca n't open em till she gets here ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 110,
+      "doc": "GUM_academic_thrones",
+      "variables": {
+        "arg1": "first used by Marsha Kinder ( 1991 )",
+        "arg2": "and popularized by Henry Jenkins ( 2006 ) , in which media - hopping networks of intertextualities extend the “ storyworld ” of an original production ."
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 111,
+      "doc": "GUM_vlog_lipstick",
+      "variables": {
+        "arg1": "Let 's see what the shelf life is .",
+        "arg2": "That 's interesting ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 112,
+      "doc": "GUM_textbook_history",
+      "variables": {
+        "arg1": "they built the city - states of Copan , Tikal , and Chichen Itza along their major trade routes , as well as temples , statues of gods , pyramids , and astronomical observatories",
+        "arg2": "Surrounded by farms relying on primitive agriculture ,"
+      },
+      "answer_type": "string",
+      "answer": "when"
+    },
+    {
+      "id": 113,
+      "doc": "GUM_conversation_artist",
+      "variables": {
+        "arg1": "And uh , we had a cab driver , uh , that was gon na take us to , wherever the place where the gold was .",
+        "arg2": "I ca n't remember , one of the roughest rides , and if you ever been to Mexico City , you made that ride ."
+      },
+      "answer_type": "string",
+      "answer": "but"
+    },
+    {
+      "id": 114,
+      "doc": "GUM_whow_cactus",
+      "variables": {
+        "arg1": "Make sure that the garden bed is in the shade .",
+        "arg2": "Beavertail cacti seeds need shade to grow , whereas cuttings need plenty of direct sunlight ."
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 115,
+      "doc": "GUM_whow_quinoa",
+      "variables": {
+        "arg1": "By tradition , the Inca emperor would sow the first seeds of the season",
+        "arg2": "using \" golden implements . \""
+      },
+      "answer_type": "string",
+      "answer": "by"
+    },
+    {
+      "id": 116,
+      "doc": "GUM_fiction_wedding",
+      "variables": {
+        "arg1": "The birds sang so beautifully ,",
+        "arg2": "the young deer skipped so happily ,"
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 117,
+      "doc": "GUM_whow_elevator",
+      "variables": {
+        "arg1": "Many elevators play music in the background , usually soft rock or smooth jazz .",
+        "arg2": "If you ’re in an elevator that is playing music , start to dance ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 118,
+      "doc": "GUM_conversation_zero",
+      "variables": {
+        "arg1": "Yeah .",
+        "arg2": "Over three ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 119,
+      "doc": "GUM_whow_overalls",
+      "variables": {
+        "arg1": "Take the 20 seconds to use a couple twist ties on the fasteners",
+        "arg2": "to make sure they do n’t come loose ."
+      },
+      "answer_type": "string",
+      "answer": "in order"
+    },
+    {
+      "id": 120,
+      "doc": "GUM_podcast_bangladesh",
+      "variables": {
+        "arg1": "It 's a vibrant , colorful , creative , open for all secular identity .",
+        "arg2": "Uh , a lot of fun is here ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 121,
+      "doc": "GUM_fiction_claus",
+      "variables": {
+        "arg1": "It was six o’clock .",
+        "arg2": "Santa had said he needed to leave at eight ."
+      },
+      "answer_type": "string",
+      "answer": "previously"
+    },
+    {
+      "id": 122,
+      "doc": "GUM_bio_higuchi",
+      "variables": {
+        "arg1": "She , her mother , and younger sister made ends meet by doing needlework , washing , and other jobs .",
+        "arg2": "In 1892 , after seeing the success of a classmate , Kaho Tanabe , who wrote a novel , Higuchi decided to become a novelist to support her family ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 123,
+      "doc": "GUM_conversation_zero",
+      "variables": {
+        "arg1": "You got the two ,",
+        "arg2": "and you take the square root of two ,"
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 124,
+      "doc": "GUM_voyage_sydfynske",
+      "variables": {
+        "arg1": "For easy reference ferries are listed under the individual islands .",
+        "arg2": "From Spodsbjerg on Langeland there is a ferry connection across the great belt to Tårs on Lolland ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 125,
+      "doc": "GUM_whow_procrastinating",
+      "variables": {
+        "arg1": "Yes , make yourself an old fashioned to - do list with check boxes and everything .",
+        "arg2": "List everything , big and small , that you have to do for your entire day ; break big activities into smaller bits if necessary ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 126,
+      "doc": "GUM_conversation_zero",
+      "variables": {
+        "arg1": "And I can always put those back up into the top and , and see if they check .",
+        "arg2": "Right ?"
+      },
+      "answer_type": "string",
+      "answer": "in other words"
+    },
+    {
+      "id": 127,
+      "doc": "GUM_interview_messina",
+      "variables": {
+        "arg1": "Walt Whitman , the first great American poet , wrote about the Civil War .",
+        "arg2": "He went looking for his brother , George Whitman , after he a telegram telling him his brother was injured in the South ."
+      },
+      "answer_type": "string",
+      "answer": "in particular"
+    },
+    {
+      "id": 128,
+      "doc": "GUM_whow_mice",
+      "variables": {
+        "arg1": "There are electronic units sold that emit an ultrasonic beeping sound that rodents hate .",
+        "arg2": "They should be available at your local home improvement store or online ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 129,
+      "doc": "GUM_bio_byron",
+      "variables": {
+        "arg1": "His voice first attracted my attention ,",
+        "arg2": "his countenance fixed it ,"
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 130,
+      "doc": "GUM_news_soccer",
+      "variables": {
+        "arg1": "Sweden had higher ball possession in the game .",
+        "arg2": "Korea 's Kim Shin-Wook was shown a yellow card early in the game ."
+      },
+      "answer_type": "string",
+      "answer": "meanwhile"
+    },
+    {
+      "id": 131,
+      "doc": "GUM_fiction_pixies",
+      "variables": {
+        "arg1": "I could n’t say I blamed her .",
+        "arg2": "She got the brunt of the pixies ’ odd sense of humor much more than I did , because she ’s the one who likes to take baths ."
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 132,
+      "doc": "GUM_letter_wiki",
+      "variables": {
+        "arg1": "In three letters submitted to the Office of University Relations and Division of Student Affairs , I defend wiki technology as a means to improve overall University communications .",
+        "arg2": "The letters outline faculty and student benefits , editing fundamentals , online legal protections , information quality and reliability , and promotion of free speech in an online setting ."
+      },
+      "answer_type": "string",
+      "answer": "in particular"
+    },
+    {
+      "id": 133,
+      "doc": "GUM_bio_moreau",
+      "variables": {
+        "arg1": "When a young girl , \" the family moved south to Vichy , spending vacations at the paternal ancestral village of Mazirat , a town of 30 houses in a valley in the Allier .",
+        "arg2": "\" It was wonderful there \" , Moreau said ."
+      },
+      "answer_type": "string",
+      "answer": "indeed"
+    },
+    {
+      "id": 134,
+      "doc": "GUM_voyage_thailand",
+      "variables": {
+        "arg1": "Objects or donations should be placed in front of a monk so he can pick it up , or place it on a special cloth he carries with him .",
+        "arg2": "Monks will sometimes be aided by a layman who will accept things from women merit - makers on their behalf ."
+      },
+      "answer_type": "string",
+      "answer": "in addition"
+    },
+    {
+      "id": 135,
+      "doc": "GUM_news_lanterns",
+      "variables": {
+        "arg1": "the Taipei lantern festival continues a 2000 year old tradition of light related festivals marking the end of the Chinese New Year celebrations .",
+        "arg2": "Started in 1990 ,"
+      },
+      "answer_type": "string",
+      "answer": "when"
+    },
+    {
+      "id": 136,
+      "doc": "GUM_vlog_mermaid",
+      "variables": {
+        "arg1": "Oh my god it ’s so peaceful .",
+        "arg2": "We ’re in Florida ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 137,
+      "doc": "GUM_whow_cactus",
+      "variables": {
+        "arg1": "The Beavertail Cactus ( Opunitia basilares ) , found primarily in the Mojave Desert and northwest Mexico ; can grow to be about 24 inches ( 60 cm ) high ; has pads that look like beavertails ; and yields red or purple flowers from spring to early summer .",
+        "arg2": "Growing Beavertail can be done at any time of year by scattering seeds in a shady bed or , for faster results , planting cuttings in a mix of soil and sand and ensuring that they have a bit of water and plenty of sun ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 138,
+      "doc": "GUM_voyage_merida",
+      "variables": {
+        "arg1": "To beat the heat , most people are busiest in the mornings .",
+        "arg2": "They have lunch and siesta , then go back to work for a few hours in the late afternoon ."
+      },
+      "answer_type": "string",
+      "answer": "furthermore"
+    },
+    {
+      "id": 139,
+      "doc": "GUM_vlog_college",
+      "variables": {
+        "arg1": "They 're probably looking at me",
+        "arg2": "and being like this bitch ."
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 140,
+      "doc": "GENTLE_legal_abortion",
+      "variables": {
+        "arg1": "A childless married couple ( the Does ) , the wife not being pregnant , separately attacked the laws ,",
+        "arg2": "basing alleged injury on the future possibilities of contraceptive failure , pregnancy , unpreparedness for parenthood , and impairment of the wife 's health ."
+      },
+      "answer_type": "string",
+      "answer": "specifically"
+    },
+    {
+      "id": 141,
+      "doc": "GUM_academic_art",
+      "variables": {
+        "arg1": "It has a long history in scholarship ( Baron & Beresford 2014 ) , but many key aspects of its production and significance have not yet been fully understood .",
+        "arg2": "In this study we used eye - tracking in the first stage of exploring audience experience of the extensive Spanish art collections of County Durham , of which the 13 Zurbarán artworks ( there are actually only 12 Zurbarán artworks , the 13th Benjamin , is a copy by Arthur Pond ) are a key part of , to investigate the ways in which audiences look at Spanish art , how aesthetic experience is evaluated and whether audiences can be encouraged to approach art in different ways ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 142,
+      "doc": "GUM_interview_peres",
+      "variables": {
+        "arg1": "They think that modernity may endanger their tradition .",
+        "arg2": "They are simply afraid and hate modernity ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 143,
+      "doc": "GUM_news_lanterns",
+      "variables": {
+        "arg1": "The commuting crowds can be avoided however by walking from NTU Hospital Station or Shandao Station .",
+        "arg2": "Both of these stops are only about a 20 minute walk from the event and have no crowds at all ."
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 144,
+      "doc": "GUM_fiction_beast",
+      "variables": {
+        "arg1": "On the floor was a wrapper from a French Chew .",
+        "arg2": "They were sold at eighth - grade basketball games on Friday nights ."
+      },
+      "answer_type": "string",
+      "answer": "indeed"
+    },
+    {
+      "id": 145,
+      "doc": "GUM_whow_cupcakes",
+      "variables": {
+        "arg1": "Put the cider vinegar into a small bowl",
+        "arg2": "and add the soy milk ."
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 146,
+      "doc": "GUM_bio_padalecki",
+      "variables": {
+        "arg1": "In March 2015 , Padalecki launched his Always Keep Fighting campaign through Represent.com .",
+        "arg2": "His first campaign raised funds for To Write Love On Her Arms , which supports people struggling with depression , addiction , self - injury , and suicide ."
+      },
+      "answer_type": "string",
+      "answer": "in particular"
+    },
+    {
+      "id": 147,
+      "doc": "GUM_voyage_athens",
+      "variables": {
+        "arg1": "The first pre-historic settlements was constructed in 3000 BC around the hill of Acropolis .",
+        "arg2": "The legend says that the King of Athens , Theseus unified the ten tribes of early Athens into one kingdom ( c. 1230 BC ) ."
+      },
+      "answer_type": "string",
+      "answer": "later"
+    },
+    {
+      "id": 148,
+      "doc": "GUM_academic_exposure",
+      "variables": {
+        "arg1": "We are aware of six studies designed to investigate the effects of a substantial period of limited exposure following adult L2 training [ 17 ] , [ 18 ] , [ 21 ] – [ 24 ] , all of which were restricted to the examination of behavioral ( performance ) outcomes .",
+        "arg2": "( Note that we do not consider case studies , purely observational data , or research on L2s acquired by children ; for a comprehensive review , see [ 16 ] ) ."
+      },
+      "answer_type": "string",
+      "answer": "however"
+    },
+    {
+      "id": 149,
+      "doc": "GENTLE_threat_kelly",
+      "variables": {
+        "arg1": "That is 3 to 5 years .",
+        "arg2": "I will tell a fucking detective ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 150,
+      "doc": "GUM_interview_cocktail",
+      "variables": {
+        "arg1": "Is the drink popular ?",
+        "arg2": "How many times do you suppose you ’ve served it at your establishment since its creation ?"
+      },
+      "answer_type": "string",
+      "answer": "in other words"
+    },
+    {
+      "id": 151,
+      "doc": "GUM_voyage_york",
+      "variables": {
+        "arg1": "Captured by the Vikings 866 , the city quickly took on a new identity as Jorvik ( pronounced \" Yor-vik \" ) and experienced a major urban revival as a centre of Viking trade and settlement in northern England .",
+        "arg2": "The Coppergate excavations of the 1970s revealed much of this Viking past ."
+      },
+      "answer_type": "string",
+      "answer": "as a result"
+    },
+    {
+      "id": 152,
+      "doc": "GUM_bio_goode",
+      "variables": {
+        "arg1": "His father , Anthony , was a geologist and his mother , Jennifer , is a nurse and amateur theatre director .",
+        "arg2": "Goode is the youngest of five children with a brother , two half - brothers , and a half - sister , television presenter Sally Meen , from his mother 's previous marriage ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 153,
+      "doc": "GUM_whow_mice",
+      "variables": {
+        "arg1": "Kittens typically have to be taught by the mother",
+        "arg2": "to easily become a mouser ."
+      },
+      "answer_type": "string",
+      "answer": "in order"
+    },
+    {
+      "id": 154,
+      "doc": "GUM_letter_marcie2",
+      "variables": {
+        "arg1": "We got up at 5:55",
+        "arg2": "and stumbled into our clothes ."
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 155,
+      "doc": "GUM_fiction_garden",
+      "variables": {
+        "arg1": "“ Is it him ? ” we asked each other ,",
+        "arg2": "nudging elbows and climbing onto the chairs ."
+      },
+      "answer_type": "string",
+      "answer": "by"
+    },
+    {
+      "id": 156,
+      "doc": "GUM_fiction_falling",
+      "variables": {
+        "arg1": "The wind whips her hair ,",
+        "arg2": "ruffles the skirt around her knees ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 157,
+      "doc": "GUM_vlog_hiking",
+      "variables": {
+        "arg1": "So that 's good !",
+        "arg2": "So I think we 're gon na start here at the loop trailhead which is the same highline – um , trail that we did the other day ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 158,
+      "doc": "GUM_fiction_rose",
+      "variables": {
+        "arg1": "and Rachel kissed him",
+        "arg2": "and smiled"
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 159,
+      "doc": "GUM_academic_economics",
+      "variables": {
+        "arg1": "In other words , it is critical that economic agents believe that their property rights will not be taken away by other public or private actors [ 15 ] .",
+        "arg2": "Achieving these objectives requires the creation of inclusive institutions , which guarantee the right to private property , incorporate an impartial legal system , and promote a society based on equality of conditions [ 16 ] ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 160,
+      "doc": "GUM_interview_messina",
+      "variables": {
+        "arg1": "Frank Messina : An Interview with the ' Mets Poet '",
+        "arg2": "Wednesday , October 3 , 2007"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 161,
+      "doc": "GUM_essay_sexlife",
+      "variables": {
+        "arg1": "While this fits with the messages we receive from popular culture , which tell us that sex is a young person 's domain , it is somewhat at odds with the fact that older adults continue to explore and enjoy sexuality well into old age .",
+        "arg2": "The majority of men and women over 60 in the U.S. are sexually active , most at least two to three times per month ( more often than many younger adults ) ."
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 162,
+      "doc": "GUM_letter_zora",
+      "variables": {
+        "arg1": "He caught me in my dungarees working outdoors , and naturally insisted on photographing me like that .",
+        "arg2": "He told me that Ben Hibbs likes the article very much and it will be in an early issue ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 163,
+      "doc": "GENTLE_medical_transplant",
+      "variables": {
+        "arg1": "He denies any nausea , vomiting , cough , shortness of breath , chest pain or fatigue .",
+        "arg2": "He denies any tingling or numbness in his fingers ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 164,
+      "doc": "GENTLE_dictionary_trust",
+      "variables": {
+        "arg1": "Verb",
+        "arg2": "trust ( third - person singular simple present trusts , present participle trusting , simple past and past participle trusted )"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 165,
+      "doc": "GUM_academic_huh",
+      "variables": {
+        "arg1": "Essentially , this method gives us a natural control over conversational data ,",
+        "arg2": "making possible systematic comparison across languages"
+      },
+      "answer_type": "string",
+      "answer": "thus"
+    },
+    {
+      "id": 166,
+      "doc": "GUM_academic_games",
+      "variables": {
+        "arg1": "the control group ( n = 40 ) was only evaluated",
+        "arg2": "using the test before and after the same time interval of interventions ."
+      },
+      "answer_type": "string",
+      "answer": "by"
+    },
+    {
+      "id": 167,
+      "doc": "GUM_essay_evolved",
+      "variables": {
+        "arg1": "Ten thousand years ago , if another human frowned at us , chances were high one of us would be dead in a couple minutes .",
+        "arg2": "In the tribal life of our ancestors , if other tribe members did not like you , you would be dead , or exiled and dead ."
+      },
+      "answer_type": "string",
+      "answer": "in fact"
+    },
+    {
+      "id": 168,
+      "doc": "GUM_fiction_rose",
+      "variables": {
+        "arg1": "He stood before Rachel in his plain white underwear and white socks ,",
+        "arg2": "gazing at her as if she were a mirror ."
+      },
+      "answer_type": "string",
+      "answer": "specifically"
+    },
+    {
+      "id": 169,
+      "doc": "GENTLE_esports_fortnite",
+      "variables": {
+        "arg1": "To see how things play out .",
+        "arg2": "90 players remaining ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 170,
+      "doc": "GUM_letter_conference",
+      "variables": {
+        "arg1": "Today is partly clear , and I hope I may be able to get out somewhere after the meeting which begins at 11 and will r until about 2 .",
+        "arg2": "I have gone over for one meeting this morning , and found it cancelled ."
+      },
+      "answer_type": "string",
+      "answer": "but"
+    },
+    {
+      "id": 171,
+      "doc": "GUM_podcast_wrestling",
+      "variables": {
+        "arg1": "Good evening everybody and welcome to Beyond the Mat !",
+        "arg2": "The Beyond the Mat show after WrestleMania ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 172,
+      "doc": "GUM_textbook_entrepreneurship",
+      "variables": {
+        "arg1": "The old method was to use chemical sprays to kill the insects , but today , the growing demand for organic foods and increased awareness of the impact of chemical sprays on our environment are changing this scenario .",
+        "arg2": "One new idea to solve this problem combines a vacuum cleaner with an agriculture product ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 173,
+      "doc": "GUM_interview_onion",
+      "variables": {
+        "arg1": "Then we assign a headline to a specific writer to execute .",
+        "arg2": "We go through a number of drafts and then have the editors pick it up and assign the photojournalism aspect of it to our graphic design team , who adds the visual aspect to it ."
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 174,
+      "doc": "GUM_textbook_history",
+      "variables": {
+        "arg1": "( credit : modification of work by Architect of the Capitol )",
+        "arg2": "Some scholars believe that between nine and fifteen thousand years ago , a land bridge existed between Asia and North America that we now call Beringia ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 175,
+      "doc": "GUM_whow_languages",
+      "variables": {
+        "arg1": "Use your language .",
+        "arg2": "Get used to using it yourself , and spread it to others ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 176,
+      "doc": "GUM_whow_parachute",
+      "variables": {
+        "arg1": "Expect impact .",
+        "arg2": "You are unlikely to have the time or ability to aim for a soft landing - spot , body of water , or other impact site that might improve your chances of survival ."
+      },
+      "answer_type": "string",
+      "answer": "in particular"
+    },
+    {
+      "id": 177,
+      "doc": "GUM_textbook_sociology",
+      "variables": {
+        "arg1": "People with the best intentions sometimes travel to a society to “ help ” its people , because they see them as uneducated or backward - essentially inferior .",
+        "arg2": "In reality , these travelers are guilty of cultural imperialism , the deliberate imposition of one ’s own cultural values on another culture ."
+      },
+      "answer_type": "string",
+      "answer": "but"
+    },
+    {
+      "id": 178,
+      "doc": "GUM_voyage_isfahan",
+      "variables": {
+        "arg1": "The mosque was designed",
+        "arg2": "to be a private mosque for the royal family"
+      },
+      "answer_type": "string",
+      "answer": "in order"
+    },
+    {
+      "id": 179,
+      "doc": "GUM_speech_data",
+      "variables": {
+        "arg1": "There 's no way the citizen scientists can install an AirBox there , even if they 're very good at drones and so on .",
+        "arg2": "It 's impossible to stay there forever ."
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 180,
+      "doc": "GUM_speech_austria",
+      "variables": {
+        "arg1": "The Quartet , in its statement yesterday , has shown a way to do that and has also proposed concrete timelines .",
+        "arg2": "Austria fully supports the Quartet statement ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 181,
+      "doc": "GUM_vlog_lipstick",
+      "variables": {
+        "arg1": "See what this says .",
+        "arg2": "This says twelve months ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 182,
+      "doc": "GUM_whow_quidditch",
+      "variables": {
+        "arg1": "Establish boundaries",
+        "arg2": "and have the seekers look for the snitch ."
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 183,
+      "doc": "GUM_fiction_pag",
+      "variables": {
+        "arg1": "I wondered how long it would be before it found reinforcements .",
+        "arg2": "I wondered if I should kill it before then ."
+      },
+      "answer_type": "string",
+      "answer": "so"
+    },
+    {
+      "id": 184,
+      "doc": "GUM_voyage_tulsa",
+      "variables": {
+        "arg1": "The city had about 391,000 people and the metro area had about 937,000 people as of 2010 from the US Census Bureau .",
+        "arg2": "The Tulsa Bartlesville Combined area had 988,000 in the 2010 census ."
+      },
+      "answer_type": "string",
+      "answer": "in fact"
+    },
+    {
+      "id": 185,
+      "doc": "GUM_voyage_cuba",
+      "variables": {
+        "arg1": "It can be purchased at the Airport in Cuba on arrival , however it should be noted that many airlines will require a valid tourist visa card before boarding flights .",
+        "arg2": "It is usually valid for 30 days and can be extended once for another 30 days at any immigration office in Cuba ( for 25 CUC ) - beyond this you would need a flight out of Cuba within the extended visa period ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 186,
+      "doc": "GUM_vlog_wine",
+      "variables": {
+        "arg1": "So the Pinotage is very aromatic , has lots of plum fruits , red fruit flavors .",
+        "arg2": "The tanins are full of high tanins , but they are quite soft ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 187,
+      "doc": "GUM_podcast_collaboration",
+      "variables": {
+        "arg1": "And we wrote together .",
+        "arg2": "Like during the day we were just two friends , usually hanging out , trying to make each other laugh ."
+      },
+      "answer_type": "string",
+      "answer": "in fact"
+    },
+    {
+      "id": 188,
+      "doc": "GUM_vlog_college",
+      "variables": {
+        "arg1": "because I got home",
+        "arg2": "and just completely knocked so ."
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 189,
+      "doc": "GENTLE_medical_transplant",
+      "variables": {
+        "arg1": "The patient is here for the sixth and final cycle of chemotherapy .",
+        "arg2": "He states he feels well ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 190,
+      "doc": "GUM_voyage_york",
+      "variables": {
+        "arg1": "It is situated in Yorkshire , North Yorkshire , England with some of the best preserved historical buildings and structures in Europe .",
+        "arg2": "As of the 2001 census , the population of York was 181,000 ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 191,
+      "doc": "GUM_vlog_pregnant",
+      "variables": {
+        "arg1": "So I 'm just about to tuck into a crisp sandwich .",
+        "arg2": "Salt vinegar squares are my crisp of choice ."
+      },
+      "answer_type": "string",
+      "answer": "in fact"
+    },
+    {
+      "id": 192,
+      "doc": "GUM_whow_elevator",
+      "variables": {
+        "arg1": "Announce every floor .",
+        "arg2": "At every floor , make a loud announcement telling everyone the floor number ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 193,
+      "doc": "GUM_speech_albania",
+      "variables": {
+        "arg1": "The regional policy of my Government is guided by the motto : ' the more integrated in the region , the more integrated in Europe . '",
+        "arg2": "In implementing this policy , Albania is cooperating as never before with all the countries of the region by making borders less relevant , opening up to one regional market the implementation of free trade agreements and free movement corridors , and stimulating foreign direct investment ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 194,
+      "doc": "GUM_podcast_brave",
+      "variables": {
+        "arg1": "And she worked on Prince of Egypt and she worked on this and Beauty and the Beast and she 's been around forever .",
+        "arg2": "She 's , she knows her shit ."
+      },
+      "answer_type": "string",
+      "answer": "so"
+    },
+    {
+      "id": 195,
+      "doc": "GUM_essay_system",
+      "variables": {
+        "arg1": "They had strikes all the time .",
+        "arg2": "It was just chaos constantly . ..."
+      },
+      "answer_type": "string",
+      "answer": "in short"
+    },
+    {
+      "id": 196,
+      "doc": "GUM_voyage_chatham",
+      "variables": {
+        "arg1": "massacred",
+        "arg2": "and enslaved the Moriori ."
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 197,
+      "doc": "GUM_voyage_thailand",
+      "variables": {
+        "arg1": "Buddhist monks are meant to avoid sexual temptations , and in particular they do not touch women or take things from women 's hands .",
+        "arg2": "Women should make every effort to make way for monks on the street and give them room so they do not have to make contact with you ."
+      },
+      "answer_type": "string",
+      "answer": "so"
+    },
+    {
+      "id": 198,
+      "doc": "GUM_court_property",
+      "variables": {
+        "arg1": "I think the problem has been that in many of the cases that are cited , the municipalities have stated that there 's no interest in the property because it 's maintained on public land .",
+        "arg2": "There 's no interest in the property because it 's maintained on land in violation of trespass statutes ."
+      },
+      "answer_type": "string",
+      "answer": "in particular"
+    },
+    {
+      "id": 199,
+      "doc": "GUM_speech_humanitarian",
+      "variables": {
+        "arg1": "Political dialogue in the Sudan and the peace process in the Central African Republic have brought renewed hope .",
+        "arg2": "A long - sought step forward has just been taken on the political path out of the tragedy in Syria , in line with Security Council resolution 2254 ( 2015 ) ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 200,
+      "doc": "GUM_news_lanterns",
+      "variables": {
+        "arg1": "Started in 1990 , the Taipei lantern festival continues a 2000 year old tradition of light related festivals marking the end of the Chinese New Year celebrations .",
+        "arg2": "This particular event grows in popularity every year ."
+      },
+      "answer_type": "string",
+      "answer": "in fact"
+    },
+    {
+      "id": 201,
+      "doc": "GUM_interview_peres",
+      "variables": {
+        "arg1": "It ’s not a geographic endeavor , it is an intellectual endeavor .",
+        "arg2": "They say you can be Muslim and modern ."
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 202,
+      "doc": "GUM_speech_destiny",
+      "variables": {
+        "arg1": "when we step out from the old to the new ,",
+        "arg2": "when an age ends ,"
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 203,
+      "doc": "GUM_vlog_hair",
+      "variables": {
+        "arg1": "Lots of ingredients in it that kinda like counteracts what you would typically want for your hair .",
+        "arg2": "But a lot of times we kinda , like , deal with it because , you know , the gel is what 's gon na keep our hair in place and make it actually last ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 204,
+      "doc": "GUM_news_expo",
+      "variables": {
+        "arg1": "Even in early rounds , the event was well attended , with the stands full of gamers , watching the matches with live colour commentary .",
+        "arg2": "The finals saw US team Cloud9 and Immortals , from Brazil , face off in Counter-Strike : Global Offensive ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 205,
+      "doc": "GUM_whow_basil",
+      "variables": {
+        "arg1": "Basil is easy to grow , and transforms ordinary meals into culinary treasures !",
+        "arg2": "Fresh basil not only tastes better than dried , it actually tastes different , almost as if it were not the same herb ."
+      },
+      "answer_type": "string",
+      "answer": "furthermore"
+    },
+    {
+      "id": 206,
+      "doc": "GUM_vlog_appearance",
+      "variables": {
+        "arg1": "And also , I 'm very proud to say that I have actually gone back to therapy , which is something that I have n't done since — I mean the last time I was in therapy , almost I was like 20 .",
+        "arg2": "I 'm 33 ."
+      },
+      "answer_type": "string",
+      "answer": "now"
+    },
+    {
+      "id": 207,
+      "doc": "GENTLE_proof_square",
+      "variables": {
+        "arg1": "Also DK ⋅ KM = MN2 .",
+        "arg2": "Thus from Lemma to Proposition 17 of Book X : Condition for Commensurability of Roots of Quadratic Equation : DM2 is greater than MG2 by the square on a straight line commensurable in length with DM ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 208,
+      "doc": "GUM_whow_quinoa",
+      "variables": {
+        "arg1": "Toast quinoa in a saucepan ( optional ) .",
+        "arg2": "Drizzle a bit of olive oil in a pan over medium - high heat ."
+      },
+      "answer_type": "string",
+      "answer": "specifically"
+    },
+    {
+      "id": 209,
+      "doc": "GUM_conversation_christmas",
+      "variables": {
+        "arg1": "I do n't know if he wanted to open that or not , or not right now .",
+        "arg2": "You wan na open this one from me ?"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 210,
+      "doc": "GUM_podcast_bezos",
+      "variables": {
+        "arg1": "I worry that we are getting closer and closer to the experience of the little people in the sci - fi film Elysium , starring Matt Damon .",
+        "arg2": "In the film , the rich , after exploiting the world to the point that it 's practically uninhabitable , have moved on to an artificial world , Elysium that might as well be on our moon ."
+      },
+      "answer_type": "string",
+      "answer": "indeed"
+    },
+    {
+      "id": 211,
+      "doc": "GUM_court_property",
+      "variables": {
+        "arg1": "There 's no interest in the property because it 's maintained on land in violation of trespass statutes .",
+        "arg2": "The distinction I 'm trying to draw is that we 're conflating two different issues ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 212,
+      "doc": "GUM_vlog_covid",
+      "variables": {
+        "arg1": "It was no longer a headache anymore .",
+        "arg2": "It was more like my like congestion like right up here , it was like a weird ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 213,
+      "doc": "GUM_vlog_exams",
+      "variables": {
+        "arg1": "Hello !",
+        "arg2": "It is 2:25 a.m."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 214,
+      "doc": "GUM_vlog_hair",
+      "variables": {
+        "arg1": "Um , it 's not like super cold w- where I am just yet , but it 's getting there , so ignore my hair right now .",
+        "arg2": "I know it looks kinda crazy ."
+      },
+      "answer_type": "string",
+      "answer": "although"
+    },
+    {
+      "id": 215,
+      "doc": "GUM_fiction_beast",
+      "variables": {
+        "arg1": "if anyone ever went back under the bleachers ,",
+        "arg2": "if there were crickets or mice there ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 216,
+      "doc": "GUM_podcast_bezos",
+      "variables": {
+        "arg1": "In the film , the rich , after exploiting the world to the point that it 's practically uninhabitable , have moved on to an artificial world , Elysium that might as well be on our moon .",
+        "arg2": "And those that remain on Earth , the rest of us , continue working in what could realistically be a future Amazon warehouse ."
+      },
+      "answer_type": "string",
+      "answer": "in contrast"
+    },
+    {
+      "id": 217,
+      "doc": "GUM_vlog_studying",
+      "variables": {
+        "arg1": "So while I was in the library one of you guys came up to me ,",
+        "arg2": "and said hi ."
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 218,
+      "doc": "GUM_news_nasa",
+      "variables": {
+        "arg1": "In a statement , Governor of Washington Chris Gregoire said , \" The Museum of Flight put a tremendous amount of effort into landing a retired shuttle in the Pacific Northwest .",
+        "arg2": "As the home of modern day air travel and the 747 , which has gracefully transported shuttles for the last 30 years , Seattle would have been a perfect fit ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 219,
+      "doc": "GUM_conversation_risk",
+      "variables": {
+        "arg1": "No I need like a little pin or something .",
+        "arg2": "You have a pencil ?"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 220,
+      "doc": "GUM_fiction_frankenstein",
+      "variables": {
+        "arg1": "I grab her hand and pull her behind me .",
+        "arg2": "She tries to sit down , but I just keep on tugging and she follows me , gulping and wailing ."
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 221,
+      "doc": "GUM_vlog_exams",
+      "variables": {
+        "arg1": "Oh my god , I 'm so tired .",
+        "arg2": "I accidentally posted a video I meant to schedule ."
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 222,
+      "doc": "GUM_conversation_retirement",
+      "variables": {
+        "arg1": "Can I grow some basil ?",
+        "arg2": "From seed ?"
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 223,
+      "doc": "GENTLE_esports_fortnite",
+      "variables": {
+        "arg1": "Interesting load , that gold combat very early .",
+        "arg2": "That 's a very solid pickup to start this match , single shockwave remaining , legendary grenade launcher drop gun and as well ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 224,
+      "doc": "GUM_news_asylum",
+      "variables": {
+        "arg1": "The rescued members included Bangladeshis and Rohingya , a stateless minority of Muslims from Myanmar .",
+        "arg2": "Myanmar is mainly Buddhist and the United Nations rates the Rohingya among the world 's most persecuted groups ."
+      },
+      "answer_type": "string",
+      "answer": "in fact"
+    },
+    {
+      "id": 225,
+      "doc": "GUM_vlog_covid",
+      "variables": {
+        "arg1": "Um day six was when I noticed like the my sinuses were feeling weird .",
+        "arg2": "It was no longer a headache anymore ."
+      },
+      "answer_type": "string",
+      "answer": "specifically"
+    },
+    {
+      "id": 226,
+      "doc": "GUM_essay_fear",
+      "variables": {
+        "arg1": "Its roots are deep in our core psychological and biological being , and it is one of our most intimate feelings .",
+        "arg2": "Danger and war are as old as human history , and so are politics and religion ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 227,
+      "doc": "GUM_news_korea",
+      "variables": {
+        "arg1": "\" War maniacs of the South Korean puppet military made another grave provocation to the DPRK in the central western sector of the front on Thursday afternoon .",
+        "arg2": "They perpetrated such reckless action as firing 36 shells at KPA civil police posts under the absurd pretext that the KPA fired one shell at the south side ."
+      },
+      "answer_type": "string",
+      "answer": "specifically"
+    },
+    {
+      "id": 228,
+      "doc": "GUM_speech_newzealand",
+      "variables": {
+        "arg1": "At every step , the Government has taken decisions in the interests of health and safety of the wider public , and so far we have been among the best at keeping COVID - 19 at bay .",
+        "arg2": "Just yesterday , Cabinet decided to extend for another week the travel restrictions that have been in place for China since 3 February and for Iran since last Friday ."
+      },
+      "answer_type": "string",
+      "answer": "for example"
+    },
+    {
+      "id": 229,
+      "doc": "GUM_conversation_family",
+      "variables": {
+        "arg1": "Otherwise he 'll starve .",
+        "arg2": "Right ?"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 230,
+      "doc": "GENTLE_threat_dillard",
+      "variables": {
+        "arg1": "You will lose your legitimate clientele , as no one bringing a baby into this world wants to be in the same facility where you are also killing them .",
+        "arg2": "You will have trouble keeping staff who are willing to participate in innocent blood - shedding and wo n't be able to keep the sanitary conditions necessary to maintain a healthy medical facility ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 231,
+      "doc": "GUM_whow_joke",
+      "variables": {
+        "arg1": "Make the joke your own .",
+        "arg2": "Lots of jokes rehash the same ground and sometimes they retell a story countless other jokes have told ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 232,
+      "doc": "GUM_fiction_claus",
+      "variables": {
+        "arg1": "Santa bent down to pick them up ,",
+        "arg2": "mumbling about “ emergency money . ”"
+      },
+      "answer_type": "string",
+      "answer": "specifically"
+    },
+    {
+      "id": 233,
+      "doc": "GUM_essay_evolved",
+      "variables": {
+        "arg1": "We evolved in a context of scarcity , and had to walk or run for miles and scavenge to find food ; we had to work for it .",
+        "arg2": "When we ate , we did not know when the next time would be ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 234,
+      "doc": "GUM_court_insanity",
+      "variables": {
+        "arg1": "I believe that the law in the United States Court of Appeals in Brown against the United States and in Wade v. Jacobs , in both of those cases the Court suggested that there is a relationship between the sentence that might have been imposed and the length that the commitment can persist without the Government proving , uh , proving commitability under civil commitment standards .",
+        "arg2": "I do n't think that this Court has , has uh , has addressed that question , and I then think this is the first case that raises it ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 235,
+      "doc": "GUM_podcast_brave",
+      "variables": {
+        "arg1": "I ’m starting to become as baffled as Mike was .",
+        "arg2": "Now I 'm starting to , I 'm starting to feel it ."
+      },
+      "answer_type": "string",
+      "answer": "in other words"
+    },
+    {
+      "id": 236,
+      "doc": "GUM_podcast_llms",
+      "variables": {
+        "arg1": "But Altman testified in front of Congress yesterday , said a whole bunch of things that AI should be regulated , that the models should be regulated etc. etc.",
+        "arg2": "He explicitly avoided this topic , which , given the amount of prep I 'm sure went into testifying in front of Congress for the first time -- him leaving that out was , I imagine , not an oversight ."
+      },
+      "answer_type": "string",
+      "answer": "but"
+    },
+    {
+      "id": 237,
+      "doc": "GUM_bio_enfant",
+      "variables": {
+        "arg1": "While L'Enfant was in New York City , he was initiated into Freemasonry .",
+        "arg2": "His initiation took place on April 17 , 1789 , at Holland Lodge No. 8 , F&AM , which the Grand Lodge of New York F&AM had chartered in 1787 ."
+      },
+      "answer_type": "string",
+      "answer": "specifically"
+    },
+    {
+      "id": 238,
+      "doc": "GUM_vlog_wine",
+      "variables": {
+        "arg1": "That 's crazy , right ?",
+        "arg2": "In South Africa I 'm drinking instant coffee that is from Bremen ."
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 239,
+      "doc": "GUM_fiction_falling",
+      "variables": {
+        "arg1": "“ They ’re a huge drain on emergency preparedness .",
+        "arg2": "Ripple effects are causing project slowdowns ... ”"
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 240,
+      "doc": "GUM_podcast_wrestling",
+      "variables": {
+        "arg1": "But uh , yeah , I put a video up on YouTube .",
+        "arg2": "We all drank a whole lot ta shit ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 241,
+      "doc": "GUM_textbook_artwork",
+      "variables": {
+        "arg1": "For instance , the evolutionary theory regards artistic beauty as “ fitness signal ” that displays desirable personal qualities that strengthen reproductive advantage , and our pleasant feeling caused by something beautiful , like sexual pleasure , is engraved in our minds by the process of evolution ,",
+        "arg2": "assisting us to make the “ the most adaptive decisions for survival and reproduction . ”"
+      },
+      "answer_type": "string",
+      "answer": "thus"
+    },
+    {
+      "id": 242,
+      "doc": "GUM_speech_austria",
+      "variables": {
+        "arg1": "We must build trust and we have to foster the belief among Israelis and Palestinians that a negotiated settlement can be achieved — a sustainable solution based on two States living side by side in a secure and peaceful neighbourhood within mutually recognized borders .",
+        "arg2": "We have no choice but to return to direct negotiations between the two parties ."
+      },
+      "answer_type": "string",
+      "answer": "so"
+    },
+    {
+      "id": 243,
+      "doc": "GUM_whow_skittles",
+      "variables": {
+        "arg1": "Place all of the bottles in the freezer until you are ready to drink .",
+        "arg2": "Do n't worry , the vodka wo n't freeze ."
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 244,
+      "doc": "GUM_fiction_falling",
+      "variables": {
+        "arg1": "Then she ’s there , in a doorway .",
+        "arg2": "Her eyes , bright blue , radiant ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 245,
+      "doc": "GUM_interview_shalev",
+      "variables": {
+        "arg1": "Many people , and many students , dislike math .",
+        "arg2": "Why do you think it is so ?"
+      },
+      "answer_type": "string",
+      "answer": "so"
+    },
+    {
+      "id": 246,
+      "doc": "GUM_voyage_cleveland",
+      "variables": {
+        "arg1": "Cleveland is a culturally diverse city on the shores of Lake Erie , one of the Great Lakes , in Cuyahoga County , Ohio , USA .",
+        "arg2": "Recreational , cultural and educational opportunities are abundant throughout Northeast Ohio ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 247,
+      "doc": "GUM_court_negligence",
+      "variables": {
+        "arg1": "So turning to the first point , which is the the incompatibility with the law of negligence , that law , of course , has been settled for close to 100 years , and it could n't be clearer that breach of a duty of care without loss or injury does not give rise to a cause of action .",
+        "arg2": "That 's set out in Moran and Pyle ."
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 248,
+      "doc": "GUM_vlog_mermaid",
+      "variables": {
+        "arg1": "We are currently in the car yet again and we ’re driving to Alexander Springs .",
+        "arg2": "Of course we ’re doing another mermaid photo shoot ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 249,
+      "doc": "GUM_whow_arrogant",
+      "variables": {
+        "arg1": "Do they have a general sense of ' coolness ? '",
+        "arg2": "Are they a chatterbox ?"
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 250,
+      "doc": "GUM_textbook_anthropology",
+      "variables": {
+        "arg1": "At some point in an English speaker ’s childhood , someone explicitly told them the difference between a question mark and an exclamation point .",
+        "arg2": "Most likely , they learned this distinction in school , a fundamental institution of enculturation in many societies ."
+      },
+      "answer_type": "string",
+      "answer": "in fact"
+    },
+    {
+      "id": 251,
+      "doc": "GUM_letter_marcie3",
+      "variables": {
+        "arg1": "So ^ Today I sent a box of stuff home regular ( parcel post ) mail .",
+        "arg2": "Mrs. B put the postage on ( 80 ¢ ) but I just know it ’s not going to be enough ."
+      },
+      "answer_type": "string",
+      "answer": "specifically"
+    },
+    {
+      "id": 252,
+      "doc": "GUM_whow_chicken",
+      "variables": {
+        "arg1": "Hold the bird down gently with one hand .",
+        "arg2": "Put one finger on your other hand just in front of its beak tip , without touching it ."
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 253,
+      "doc": "GUM_textbook_union",
+      "variables": {
+        "arg1": "Still , the Confederacy had great confidence that it would find an ally in Great Britain despite the antislavery sentiment there .",
+        "arg2": "Southerners hoped Britain ’s dependence on cotton for its textile mills would keep the country on their side ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 254,
+      "doc": "GUM_whow_procrastinating",
+      "variables": {
+        "arg1": "Make an ultimate to - do list for this single project , and have it placed somewhere you will see it on a regular basis .",
+        "arg2": "As you mark things off , you will be motivated to continue doing so , and seeing it on a regular basis will remind you that your project needs to be done ."
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 255,
+      "doc": "GUM_vlog_radiology",
+      "variables": {
+        "arg1": "For lymphoscintigraphies we basically inject technetium in skin surrounding a melanoma",
+        "arg2": "and after we inject we wait about 15 - 20 minutes , maybe up to an hour , and wait for that radio tracer to travel to the closest lymph node which we would call the sentinel lymph node ."
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 256,
+      "doc": "GUM_court_insanity",
+      "variables": {
+        "arg1": "On the basis of this acquittal and on this basis alone , the Petitier was -- Petitioner was ordered committed indefinitely to a mental hospital .",
+        "arg2": "That is , he was ordered confined until he could prove that he was not mentally ill and dangerous ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 257,
+      "doc": "GUM_court_mitigation",
+      "variables": {
+        "arg1": "Uh , attorney John Martin will be arguing the rebuttal , and we 'd reserve five minutes of time .",
+        "arg2": "Your honors , if I may , I 'd like to start by addressing proposition of law number three ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 258,
+      "doc": "GUM_vlog_studying",
+      "variables": {
+        "arg1": "just because I only have one week left",
+        "arg2": "to study ."
+      },
+      "answer_type": "string",
+      "answer": "in order"
+    },
+    {
+      "id": 259,
+      "doc": "GUM_fiction_giants",
+      "variables": {
+        "arg1": "But I followed the traveler , into the wet streets .",
+        "arg2": "The smell of fish oozed from the docks ."
+      },
+      "answer_type": "string",
+      "answer": "in particular"
+    },
+    {
+      "id": 260,
+      "doc": "GUM_academic_epistemic",
+      "variables": {
+        "arg1": "Once again , this phenomenon has the effect of making peer - reviewed journals appear less legitimate .",
+        "arg2": "At times , even those who work in academia may be unsure of a particular journal ’s legitimacy , and there are genuine borderline cases ."
+      },
+      "answer_type": "string",
+      "answer": "in fact"
+    },
+    {
+      "id": 261,
+      "doc": "GUM_voyage_thailand",
+      "variables": {
+        "arg1": "Many recommend that women wear only full length dresses and skirts ;",
+        "arg2": "you should make sure that your clothing covers at least your shoulders and your knees and some places may require that you wear ankle - length pants or skirts and long sleeved tops ."
+      },
+      "answer_type": "string",
+      "answer": "in particular"
+    },
+    {
+      "id": 262,
+      "doc": "GUM_whow_quinoa",
+      "variables": {
+        "arg1": "Some rice cooker will have different settings instead of a simple \" cook \" option .",
+        "arg2": "Try the \" white rice \" option if your rice cooker gives you several options ."
+      },
+      "answer_type": "string",
+      "answer": "in fact"
+    },
+    {
+      "id": 263,
+      "doc": "GUM_interview_messina",
+      "variables": {
+        "arg1": "You have a long career in poetry , but as of late the attention you have garnered is for the Mets - inspired work .",
+        "arg2": "How do you feel about having a lot of your work overshadowed by the Mets work ?"
+      },
+      "answer_type": "string",
+      "answer": "so"
+    },
+    {
+      "id": 264,
+      "doc": "GUM_academic_implicature",
+      "variables": {
+        "arg1": "Further , we posited that if our initial hypothesis was not supported , and in fact there was some non - adult - like performance , that there would be significant variability among the conditions , with cardinal numbers having the highest performance and some the weakest .",
+        "arg2": "On the surface , it does seem as if there is variability and perhaps a larger sample size or more items could lead to a significant finding ( see limitations below ) , but at least for this study , the only significant finding was the difference between cardinal numbers and some ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 265,
+      "doc": "GUM_essay_tools",
+      "variables": {
+        "arg1": "For one thing , there ’s the matter of agency .",
+        "arg2": "As David Noble observed in his book Forces of Production , technology is not an impersonal force ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 266,
+      "doc": "GUM_textbook_entrepreneurship",
+      "variables": {
+        "arg1": "Let ’s look at some other examples of entrepreneurial endeavors in specific industries",
+        "arg2": "to help you plan your own venture in your own industry ."
+      },
+      "answer_type": "string",
+      "answer": "in order"
+    },
+    {
+      "id": 267,
+      "doc": "GUM_speech_floyd",
+      "variables": {
+        "arg1": "Of course , we all – there 's not anyone on our side of the aisle who has advocated any policy in this body to defund the police , contrary to misrepresentations that are coming forth .",
+        "arg2": "All of us here , again , salute and profoundly grateful for our law enforcement heroes ."
+      },
+      "answer_type": "string",
+      "answer": "instead"
+    },
+    {
+      "id": 268,
+      "doc": "GUM_letter_gorbachev",
+      "variables": {
+        "arg1": "Requiring annual payments from the users of land allows each year 's population to claim that year 's rent .",
+        "arg2": "While the proceeds of sales could be invested for the benefit of future generations , not collecting the money in advance guarantees the heritage of the future against political excesses ."
+      },
+      "answer_type": "string",
+      "answer": "further"
+    },
+    {
+      "id": 269,
+      "doc": "GUM_letter_marcie",
+      "variables": {
+        "arg1": "Why do n't you just give me $ 130 in a lump or send me a monthly check .",
+        "arg2": "I prefer the latter ."
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 270,
+      "doc": "GENTLE_medical_screw",
+      "variables": {
+        "arg1": "On examination of his right foot , he is nontender to palpation of the metatarsal heads .",
+        "arg2": "He has 4 out of 5 strength in EHL , FHL , tibialis , and gastroc - soleus complex ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 271,
+      "doc": "GENTLE_threat_dillard",
+      "variables": {
+        "arg1": "You will be seen like all the other hacks that have stooped to doing abortions when they were n't good enough to maintain a real practice .",
+        "arg2": "You will lose your legitimate clientele , as no one bringing a baby into this world wants to be in the same facility where you are also killing them ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 272,
+      "doc": "GUM_essay_ghost",
+      "variables": {
+        "arg1": "Throughout Ghost , Major Kusanagi is plagued by doubts of who she is .",
+        "arg2": "Do her cybernetic augmentations make her less human , or having less worth ?"
+      },
+      "answer_type": "string",
+      "answer": "specifically"
+    },
+    {
+      "id": 273,
+      "doc": "GUM_essay_dividends",
+      "variables": {
+        "arg1": "The notion has been advanced by liberals such as James Tobin , John Kenneth Galbraith , and George McGovern , and by conservatives like Friedrich Hayek , Milton Friedman , and Richard Nixon .",
+        "arg2": "It ’s embedded in the board game Monopoly , in which all players get equal payments when they pass Go ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 274,
+      "doc": "GUM_news_warhol",
+      "variables": {
+        "arg1": "In fact , many people Wikinews observed took out their mobiles as they left for the evening and used their own phone cameras to make one further record of the moment - a photo of a photo .",
+        "arg2": "Perhaps they had learned an important lesson from the Warhol exhibit that cultural events like these were ripe for use and reuse ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 275,
+      "doc": "GUM_bio_theodorus",
+      "variables": {
+        "arg1": "After Theodorus had been assisting Pachomius at Tabennese for several years following his demotion , Pachomius became very ill and seemed to be on the verge of death .",
+        "arg2": "Pachomius had not named a successor , and several brothers pleaded with Theodorus to assert himself as head of the Koinonia when the sickly man died ."
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 276,
+      "doc": "GUM_bio_moreau",
+      "variables": {
+        "arg1": "In 1947 , Moreau made her theatrical debut at the Avignon Festival .",
+        "arg2": "She debuted at the Comédie - Française in Ivan Turgenev 's A Month in the Country [ 6 ] and , by her 20s , was already one of leading actresses in the theatre 's troupe . [ 2 ]"
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 277,
+      "doc": "GUM_voyage_fortlee",
+      "variables": {
+        "arg1": "one might suggest leaving a good 10 to 15 minutes",
+        "arg2": "to escape local traffic before hitting any major roadways ."
+      },
+      "answer_type": "string",
+      "answer": "in order"
+    },
+    {
+      "id": 278,
+      "doc": "GUM_speech_remarks",
+      "variables": {
+        "arg1": "And I am glad to be here with a mayor who follows two other distinguished mayors of this city , who carries on their tradition - Joe Clark , your United States Senator who was a great mayor of Philadelphia , and Dick Dilworth , who followed him , who was a great mayor of Philadelphia .",
+        "arg2": "That is the tradition of honest , progressive democratic government that Mayor Tate carries on ."
+      },
+      "answer_type": "string",
+      "answer": "indeed"
+    },
+    {
+      "id": 279,
+      "doc": "GUM_podcast_pandemic",
+      "variables": {
+        "arg1": "We know that this is a virus of a type called coronavirus , which makes it part of the family of viruses that include the common cold , SARS and MERS .",
+        "arg2": "Um , now , what distinguishes this new virus technically called SARS-CoV-2 ?"
+      },
+      "answer_type": "string",
+      "answer": "in particular"
+    },
+    {
+      "id": 280,
+      "doc": "GUM_court_property",
+      "variables": {
+        "arg1": "Now , as to the property itself , the Circuit Court correctly concluded that personal property is something that people have a due process interest in .",
+        "arg2": "The record is replete with case law that says exactly that , and I 'm not here to dispute that today ."
+      },
+      "answer_type": "string",
+      "answer": "indeed"
+    },
+    {
+      "id": 281,
+      "doc": "GUM_letter_wiki",
+      "variables": {
+        "arg1": "George Chriss :",
+        "arg2": "Student -- based class descriptions benefit Penn State two -- fold ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 282,
+      "doc": "GUM_bio_padalecki",
+      "variables": {
+        "arg1": "Their daughter , Odette Elliott Padalecki , was born on March 17 , 2017 . [ 17 ] [ 18 ]",
+        "arg2": "The couple resides in Austin , Texas with their three children ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 283,
+      "doc": "GUM_whow_quinoa",
+      "variables": {
+        "arg1": "Add 2 cups of liquid and 1/2 teaspoon of salt into the rice cooker .",
+        "arg2": "Water , chicken stock or broth , or vegetable stock all work ."
+      },
+      "answer_type": "string",
+      "answer": "for instance"
+    },
+    {
+      "id": 284,
+      "doc": "GUM_voyage_merida",
+      "variables": {
+        "arg1": "The city 's ambiance is colonial and the climate is tropical .",
+        "arg2": "The daytime temperature varies ; in January , it is about 24 ° C ( 75 ° F ) and in June , about 35 ° C ( 95 ° F ) ."
+      },
+      "answer_type": "string",
+      "answer": "for instance"
+    },
+    {
+      "id": 285,
+      "doc": "GUM_whow_joke",
+      "variables": {
+        "arg1": "Some jokes also have what is called a tag or topper , which is an additional punchline .",
+        "arg2": "The tag builds on the original punchline or twists back on it in a surprising way ."
+      },
+      "answer_type": "string",
+      "answer": "in particular"
+    },
+    {
+      "id": 286,
+      "doc": "GUM_fiction_oversite",
+      "variables": {
+        "arg1": "In the background ,  is Renata ,",
+        "arg2": "shining ,"
+      },
+      "answer_type": "string",
+      "answer": "by"
+    },
+    {
+      "id": 287,
+      "doc": "GUM_fiction_sneeze",
+      "variables": {
+        "arg1": "I was riding on me bike",
+        "arg2": "and I thought I ’d swallowed an insect or something ."
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 288,
+      "doc": "GENTLE_dictionary_school",
+      "variables": {
+        "arg1": "Influenced in some senses by Middle English schole ( “ group of persons , host , company ” ) , from Middle Dutch scole ( “ multitude , troop , band ” ) .",
+        "arg2": "See school 1 ."
+      },
+      "answer_type": "string",
+      "answer": "also"
+    },
+    {
+      "id": 289,
+      "doc": "GUM_vlog_pregnant",
+      "variables": {
+        "arg1": "at first I was like , I do n't need to copy it on YouTube but I definitely wanted to document this in some kind of video form , just because it 's such a huge thing .",
+        "arg2": "I do n't want this to be too , like , all over the place but I decided I do want to document this some way , whether I –"
+      },
+      "answer_type": "string",
+      "answer": "indeed"
+    },
+    {
+      "id": 290,
+      "doc": "GUM_court_fire",
+      "variables": {
+        "arg1": "My name is Amy Sells .",
+        "arg2": "I 'm with Tiffany and Bosco ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 291,
+      "doc": "GUM_letter_flood",
+      "variables": {
+        "arg1": "I feel that recreation facilities , which are vital to our tourist oriented economy , should also be restored with Federal help .",
+        "arg2": "I have introduced a bill that would permit this restoration ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 292,
+      "doc": "GUM_letter_gorbachev",
+      "variables": {
+        "arg1": "The movement of the Soviet Union to a market economy will greatly enhance the prosperity of your citizens .",
+        "arg2": "Your economists have learned much from the experience of nations with economies based in varying degrees on free markets ."
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 293,
+      "doc": "GUM_academic_exposure",
+      "variables": {
+        "arg1": "( Note that we do not consider case studies , purely observational data , or research on L2s acquired by children ; for a comprehensive review , see [ 16 ] ) .",
+        "arg2": "The six studies tested L2 learners after periods of 1 month to 50 years of limited L2 exposure , mainly on general language skills [ 17 ] , [ 18 ] , [ 21 ] , [ 23 ] , [ 24 ] , though also on more specific paradigms meant to target aspects of grammatical abilities [ 17 ] , [ 18 ] or lexical abilities [ 22 ] , [ 23 ] ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 294,
+      "doc": "GUM_court_prince",
+      "variables": {
+        "arg1": "Assume that it 's the creation .",
+        "arg2": "I understand your argument ."
+      },
+      "answer_type": "string",
+      "answer": "but"
+    },
+    {
+      "id": 295,
+      "doc": "GUM_news_soccer",
+      "variables": {
+        "arg1": "Dries Mertens 's attempt in the 18th minute failed .",
+        "arg2": "The first half ended with 0 – 0 on the scoreboard ."
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 296,
+      "doc": "GUM_court_property",
+      "variables": {
+        "arg1": "And plaintiffs have described their interests this way .",
+        "arg2": "Appellants in their notice of appeal stated they appealed from a final decision to , quote , \" execute the forced eviction and vacature of people and their belongings from punitive County of Maui property . \""
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 297,
+      "doc": "GUM_whow_cactus",
+      "variables": {
+        "arg1": "Read the following steps",
+        "arg2": "to find out how to grow Beavertail cactus ."
+      },
+      "answer_type": "string",
+      "answer": "in order"
+    },
+    {
+      "id": 298,
+      "doc": "GUM_court_fire",
+      "variables": {
+        "arg1": "Counsel , are you , arguing that the , um , that the , the specific mechanism of the fire 's origin is , is really the crux of , of the causation issue , that there 's a substantive difference in the decision to fight the cause about whether she stayed , whether she caused it or an electrical or there was a spark out of the entertainment system ?",
+        "arg2": "Is that what you 're arguing ?"
+      },
+      "answer_type": "string",
+      "answer": "in other words"
+    },
+    {
+      "id": 299,
+      "doc": "GUM_whow_arrogant",
+      "variables": {
+        "arg1": "If they have been saying bad things about you , they may simply not like you .",
+        "arg2": "If they 're nice to your face , but talk bad about you behind your back like it 's their favourite hobby , then they probably have a problem with pride ."
+      },
+      "answer_type": "string",
+      "answer": "but"
+    },
+    {
+      "id": 300,
+      "doc": "GUM_essay_evolved",
+      "variables": {
+        "arg1": "Our ancestors had to be active",
+        "arg2": "to survive in the wild ."
+      },
+      "answer_type": "string",
+      "answer": "in order"
+    },
+    {
+      "id": 301,
+      "doc": "GUM_fiction_beast",
+      "variables": {
+        "arg1": "I wondered if anyone ever went back under the bleachers , if there were crickets or mice there .",
+        "arg2": "The rustling might have been mice ."
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 302,
+      "doc": "GUM_speech_floyd",
+      "variables": {
+        "arg1": "That 's a long time .",
+        "arg2": "It 's a long time , as Congresswoman Dean said , calling out for his mother , extending love to his family ."
+      },
+      "answer_type": "string",
+      "answer": "in other words"
+    },
+    {
+      "id": 303,
+      "doc": "GUM_interview_stardust",
+      "variables": {
+        "arg1": "We 're right now using an automated microscope that we developed several years ago for nuclear astrophysics work to scan the collector in the Cosmic Dust Lab in Building 31 at Johnson Space Center .",
+        "arg2": "This is the ARES group that handles returned samples ( Moon Rocks , Genesis chips , Meteorites , and Interplanetary Dust Particles collected by U2 in the stratosphere ) ."
+      },
+      "answer_type": "string",
+      "answer": "in particular"
+    },
+    {
+      "id": 304,
+      "doc": "GUM_letter_zora",
+      "variables": {
+        "arg1": "I gather from reading the magazine that the SEP favors Taft , and so it probably falls right in with the plan .",
+        "arg2": "They never se m to miss a chance recently to mention him favorably ."
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 305,
+      "doc": "GUM_whow_packing",
+      "variables": {
+        "arg1": "Boxes should be marked \" Fragile \" and \" This side up \"",
+        "arg2": "to prevent mishandling ."
+      },
+      "answer_type": "string",
+      "answer": "in order"
+    },
+    {
+      "id": 306,
+      "doc": "GUM_conversation_artist",
+      "variables": {
+        "arg1": "And he said I tell you what I 'll do , make you a deal .",
+        "arg2": "He said I 'll — \" you take this painting , I want that recorder , I 'll take it . \""
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 307,
+      "doc": "GUM_speech_inauguration",
+      "variables": {
+        "arg1": "teach our children ,",
+        "arg2": "keep our homes ,"
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 308,
+      "doc": "GUM_textbook_entrepreneurship",
+      "variables": {
+        "arg1": "We can apply this idea to other unused resources such as vehicles and motor homes .",
+        "arg2": "We see this model reproduced in short - term car rental and bike - sharing programs ."
+      },
+      "answer_type": "string",
+      "answer": "as"
+    },
+    {
+      "id": 309,
+      "doc": "GUM_academic_exposure",
+      "variables": {
+        "arg1": "A period of limited exposure generally leads to attrition ( loss ) of L2 performance or knowledge [ 17 ] , [ 18 ] , [ 21 ] , [ 23 ] .",
+        "arg2": "Such loss has been observed after as little as a few months of limited exposure , e.g. , after a 1 - 7 month [ 23 ] or 6 month delay [ 21 ] , as well as after 2 years [ 18 ] , though in one case it was observed only by 3 - 5 years , and not earlier [ 17 ] ."
+      },
+      "answer_type": "string",
+      "answer": "in fact"
+    },
+    {
+      "id": 310,
+      "doc": "GUM_textbook_spacetime",
+      "variables": {
+        "arg1": "Say you want to fly from Chicago to Rome .",
+        "arg2": "Since an airplane ca n’t go through the solid body of the Earth , the shortest distance is not a straight line but the arc of a great circle ."
+      },
+      "answer_type": "string",
+      "answer": "instead"
+    },
+    {
+      "id": 311,
+      "doc": "GUM_fiction_claus",
+      "variables": {
+        "arg1": "“ Sorry , Mrs. Claus .",
+        "arg2": "Has Mr. Claus left yet ? ”"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 312,
+      "doc": "GENTLE_proof_wosets",
+      "variables": {
+        "arg1": "Also , x precedes every element of T , so Ix ≠ T .",
+        "arg2": "Thus there is an order isomorphism from T to all of S ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 313,
+      "doc": "GENTLE_legal_abortion",
+      "variables": {
+        "arg1": "BLACKMUN , J. , delivered the opinion of the Court , in which BURGER , C.J. , and DOUGLAS , BRENNAN , STEWART , MARSHALL , and POWELL , JJ. , joined .",
+        "arg2": "BURGER , C.J. , post , p. 207 , DOUGLAS , J. , post , p. 209 , and STEWART , J. , post , p. 167 , filed concurring opinions ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 314,
+      "doc": "GUM_fiction_sneeze",
+      "variables": {
+        "arg1": "“ What if we put something in your nose  then ?",
+        "arg2": "to catch it ,"
+      },
+      "answer_type": "string",
+      "answer": "in order"
+    },
+    {
+      "id": 315,
+      "doc": "GUM_essay_tools",
+      "variables": {
+        "arg1": "I am not suggesting that we all go back to bamboo huts , though a few weeks might not be the worst thing now and then .",
+        "arg2": "I am just questioning the techno - romantics who think technology by its very nature is enlarging and fulfilling ."
+      },
+      "answer_type": "string",
+      "answer": "but"
+    },
+    {
+      "id": 316,
+      "doc": "GUM_textbook_sociology",
+      "variables": {
+        "arg1": "In some Middle Eastern cultures , it is common to stand close to others in conversation .",
+        "arg2": "North Americans keep more distance and maintain a large “ personal space . ”"
+      },
+      "answer_type": "string",
+      "answer": "by contrast"
+    },
+    {
+      "id": 317,
+      "doc": "GUM_textbook_anthropology",
+      "variables": {
+        "arg1": "American cultural anthropologist Clifford Geertz ( 1973 ) used the example of winking",
+        "arg2": "to illustrate two important aspects of culture ."
+      },
+      "answer_type": "string",
+      "answer": "in order"
+    },
+    {
+      "id": 318,
+      "doc": "GUM_voyage_vavau",
+      "variables": {
+        "arg1": "It is sunny throughout the year .",
+        "arg2": "Between November and April , it is more humid and thunderstorms and cyclones do occur ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 319,
+      "doc": "GUM_vlog_lipstick",
+      "variables": {
+        "arg1": "I do n't know if you can actually tell by looking at it but she 's old .",
+        "arg2": "Let 's see what the shelf life is ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 320,
+      "doc": "GUM_bio_enfant",
+      "variables": {
+        "arg1": "He recovered",
+        "arg2": "and became a prisoner of war at surrender of Charleston , South Carolina on May 12 , 1780 ."
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 321,
+      "doc": "GUM_vlog_appearance",
+      "variables": {
+        "arg1": "And you know , my therapist , like the very first thing she said was , you know , you doing this takes a lot of courage .",
+        "arg2": "It 's like a lot of bravery involved to do something like this and to kind of want to better yourself and to take these steps for you and your mental health ."
+      },
+      "answer_type": "string",
+      "answer": "in particular"
+    },
+    {
+      "id": 322,
+      "doc": "GUM_interview_cocktail",
+      "variables": {
+        "arg1": "It is served in a cocktail glass and topped with Godiva chocolate flakes .",
+        "arg2": "The beverage is priced at US $ 8.00 , and upon an order for it , the bartender will recount for the customer the definition of the santorum neologism ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 323,
+      "doc": "GENTLE_medical_transplant",
+      "variables": {
+        "arg1": "Blood pressure 161 / 80 , pulse 65 , weight 71.5 kg , which is essentially unchanged from his prior visit .",
+        "arg2": "There is mild pallor noted ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 324,
+      "doc": "GUM_letter_zora",
+      "variables": {
+        "arg1": "It is beginning to be favorable to me .",
+        "arg2": "Several of my neighbors have stopped in the last week and remarked on the improvements I have made ."
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 325,
+      "doc": "GUM_interview_ants",
+      "variables": {
+        "arg1": "There 's not that much money in fundamental science at the moment , so I try to cut the costs wherever possible .",
+        "arg2": "We collected wild colonies of Formica fusca by searching through old tree - trunks in old logging sites in southern Finland ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 326,
+      "doc": "GUM_whow_languages",
+      "variables": {
+        "arg1": "in Arabic it 's right to left ,",
+        "arg2": "Chinese is in columns ,"
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 327,
+      "doc": "GUM_news_asylum",
+      "variables": {
+        "arg1": "the asylum seekers found in the water may have left the boat on purpose",
+        "arg2": "to be rescued"
+      },
+      "answer_type": "string",
+      "answer": "in order"
+    },
+    {
+      "id": 328,
+      "doc": "GUM_essay_system",
+      "variables": {
+        "arg1": "scratching cars ,",
+        "arg2": "loosening parts in hard - to - reach places ,"
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 329,
+      "doc": "GUM_interview_messina",
+      "variables": {
+        "arg1": "Last year in my section at the stadium I had a banner that read We Know ' .",
+        "arg2": "That 's all it said ."
+      },
+      "answer_type": "string",
+      "answer": "in other words"
+    },
+    {
+      "id": 330,
+      "doc": "GUM_voyage_athens",
+      "variables": {
+        "arg1": "Aside from the excellent transportation infrastructure that was completed in time for the 2004 Olympics ( from new freeways to light rail systems ) , the city 's historic center underwent serious renovation .",
+        "arg2": "Most notable among the city 's facelift projects are the Unification of Archaeological Sites - which connects the city 's classical - era ruins and monuments to each other through a network of pleasant pedestrianized streets - and the restoration of the picturesque neoclassical Thissio and Pláka districts ."
+      },
+      "answer_type": "string",
+      "answer": "in particular"
+    },
+    {
+      "id": 331,
+      "doc": "GUM_bio_dvorak",
+      "variables": {
+        "arg1": "In 1892 , Dvořák moved to the United States and became the director of the National Conservatory of Music of America in New York City .",
+        "arg2": "While in the United States , Dvořák wrote his two most successful orchestral works : the Symphony From the New World , which spread his reputation worldwide , [ 4 ] and his Cello Concerto , one of the most highly regarded of all cello concerti ."
+      },
+      "answer_type": "string",
+      "answer": "furthermore"
+    },
+    {
+      "id": 332,
+      "doc": "GUM_vlog_hair",
+      "variables": {
+        "arg1": "Um , it does have like a butter feel to it .",
+        "arg2": "It 's a cream , but it has a really buttery feel to it ."
+      },
+      "answer_type": "string",
+      "answer": "in other words"
+    },
+    {
+      "id": 333,
+      "doc": "GUM_fiction_wedding",
+      "variables": {
+        "arg1": "I felt my coat tugged at , and tugged again ,",
+        "arg2": "and at last I looked around ."
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 334,
+      "doc": "GUM_bio_holt",
+      "variables": {
+        "arg1": "On July 9 , 2014 , against the Chicago White Sox , Holt drove in Daniel Nava in the bottom of the 9th inning for the first walk - off hit of his career . [ 13 ]",
+        "arg2": "On June 1 , 2015 , while starting at first base for the first time in his career , Holt went 4 - for - 4 with four doubles , a walk , and two RBI against the Tampa Bay Rays to win 4 to 0 . [ 14 ]"
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 335,
+      "doc": "GUM_whow_mice",
+      "variables": {
+        "arg1": "Having mice in your home is both a nuisance and a health hazard .",
+        "arg2": "They can cause property damage , create a mess , and produce unpleasant smells ."
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 336,
+      "doc": "GUM_letter_zora",
+      "variables": {
+        "arg1": "It looked like a jungle three weeks ago , and it took a strong heart and an eye on the future for me to move in when I arrived .",
+        "arg2": "The place had run down so badly ."
+      },
+      "answer_type": "string",
+      "answer": "in other words"
+    },
+    {
+      "id": 337,
+      "doc": "GUM_letter_attorney",
+      "variables": {
+        "arg1": "The mental and heart suffering caused by this S.O.B to Isabelle is very deep , I can assure you , John .",
+        "arg2": "She is sick & in doctor 's continual observation and care ."
+      },
+      "answer_type": "string",
+      "answer": "so"
+    },
+    {
+      "id": 338,
+      "doc": "GUM_fiction_pag",
+      "variables": {
+        "arg1": "At the age of eight , he was my best and only friend .",
+        "arg2": "We were fellow outcasts , bound by complementary misfortune ."
+      },
+      "answer_type": "string",
+      "answer": "so"
+    },
+    {
+      "id": 339,
+      "doc": "GUM_interview_licen",
+      "variables": {
+        "arg1": "but we will have to wait until after the event",
+        "arg2": "to assess to what extent the broadcasters will meet these expectations ."
+      },
+      "answer_type": "string",
+      "answer": "in order"
+    },
+    {
+      "id": 340,
+      "doc": "GUM_podcast_bezos",
+      "variables": {
+        "arg1": "Mr. McIntosh , my question to you is , how does the space programs by these various millionaire -- billionaires --",
+        "arg2": "It shows the failure of trickle down economics upon which you base a lot of your , you know , your stances and everything ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 341,
+      "doc": "GUM_voyage_thailand",
+      "variables": {
+        "arg1": "Therefore , should you wish to donate to a monk , you should only offer food , and put your monetary donation in the appropriate donation box at the temple .",
+        "arg2": "Those monks that accept money are almost always fakes ."
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 342,
+      "doc": "GUM_textbook_labor",
+      "variables": {
+        "arg1": "In his observations of pin factories , Smith noticed that one worker alone might make 20 pins in a day , but that a small business of 10 workers ( some of whom would need to complete two or three of the 18 tasks involved with pin - making ) , could make 48,000 pins in a day .",
+        "arg2": "How can a group of workers , each specializing in certain tasks , produce so much more than the same number of workers who try to produce the entire good or service by themselves ?"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 343,
+      "doc": "GUM_textbook_grit",
+      "variables": {
+        "arg1": "you need",
+        "arg2": "to do well on the exam ."
+      },
+      "answer_type": "string",
+      "answer": "in order"
+    },
+    {
+      "id": 344,
+      "doc": "GUM_speech_telescope",
+      "variables": {
+        "arg1": "And the images we will see today are a testament to the amazing work done by the thousands of workers across our nation who dedicated years to this project .",
+        "arg2": "They embarked on this complex endeavor for the benefit of humankind , and in the process , accelerated American innovation , strengthened partnerships with our allies , and will undoubtedly inspire generations to look to the heavens with excitement and ambition ."
+      },
+      "answer_type": "string",
+      "answer": "in particular"
+    },
+    {
+      "id": 345,
+      "doc": "GUM_voyage_guadeloupe",
+      "variables": {
+        "arg1": "St François if you go at the eastern point of Guadeloupe , you will reach La Pointe des Chateaux , a scenery made of sand and rocks which have vaguely the shape of a castle .",
+        "arg2": "From there , you can look up at the islands La Désirade , Petite Terre , Marie Galante , Les Saintes , La Dominique but also have a perfect view of the islands Grande Terre and far away Basse Terre ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 346,
+      "doc": "GUM_interview_dungeon",
+      "variables": {
+        "arg1": "-- beautiful girls --",
+        "arg2": "-- and he 's in the end , he would say , \" Well , I wo n't hire them . \""
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 347,
+      "doc": "GUM_news_defector",
+      "variables": {
+        "arg1": "Whitmore told LA Weekly that on October 6 after traveling back from Florida , Montalvo \" walked into lobby of the East L.A. station and turned himself in \" , and told the police , \" everything he did \" .",
+        "arg2": "Whitmore stated to LA Weekly that the alleged crime involved five hard drives each of $ 200 in value ."
+      },
+      "answer_type": "string",
+      "answer": "also"
+    },
+    {
+      "id": 348,
+      "doc": "GUM_podcast_llms",
+      "variables": {
+        "arg1": "I mean , there i- there is a related conversation around searchability of information like how Google handles this with the search engine , but I do n't I do n't think we want to get into that because it 's got nothing to do with AI .",
+        "arg2": "Yeah , it 's kind of irrelevant ."
+      },
+      "answer_type": "string",
+      "answer": "in other words"
+    },
+    {
+      "id": 349,
+      "doc": "GUM_textbook_evoethics",
+      "variables": {
+        "arg1": "Accidentally true beliefs do not seem problematic in every case .",
+        "arg2": "The question for proponents of Street ’s argument is to show why the evolutionary influence on human moral beliefs makes for a particularly problematic case of coincidence ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 350,
+      "doc": "GUM_conversation_vet",
+      "variables": {
+        "arg1": "Well , I 'll call him probably late this afternoon ,",
+        "arg2": "to make sure he 's alright ."
+      },
+      "answer_type": "string",
+      "answer": "in order"
+    },
+    {
+      "id": 351,
+      "doc": "GUM_whow_parachute",
+      "variables": {
+        "arg1": "Entreat assistance .",
+        "arg2": "If both your primary and reserve chutes have malfunctioned , signal immediately to a fellow jumper who has not yet deployed their chute , waving your arms and signalling that your own is not functional ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 352,
+      "doc": "GUM_podcast_wrestling",
+      "variables": {
+        "arg1": "And I do n’t care , I ’m gon na call it like I see it , the rose colored glasses are off , the nostalgia is gone .",
+        "arg2": "Stop wanting the fucking 90s back , because the 90s are dead , get the fuck over it ."
+      },
+      "answer_type": "string",
+      "answer": "specifically"
+    },
+    {
+      "id": 353,
+      "doc": "GUM_fiction_pag",
+      "variables": {
+        "arg1": "In the end , propaganda worked where empathy failed .",
+        "arg2": "Back then I did n't so much think as observe , did n't deduce so much as remember — and what I remembered was a thousand inspirational stories lauding anyone who ever stuck up for the underdog ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 354,
+      "doc": "GUM_news_defector",
+      "variables": {
+        "arg1": "Rathbun wrote , \" Moxon proceeded to lie to Daniel that the hard drives were never returned , and made a convincing case ( not difficult to do with a 19 year old who does not even know the three branches of government ) that Daniel would be put behind iron bars for a good long time , UNLESS of course , he returned and cooperated with Moxon and routed out properly . \"",
+        "arg2": "To \" route out \" in Scientology jargon refers to the member who wishes to leave proceeding through a set of interrogative exit interviews while attached to the Scientology device called the E-meter ."
+      },
+      "answer_type": "string",
+      "answer": "specifically"
+    },
+    {
+      "id": 355,
+      "doc": "GUM_academic_thrones",
+      "variables": {
+        "arg1": "one for viewers familiar with the books ( i.e. , “ Experts ” ) and one for viewers unfamiliar with the books and averse to “ spoilers ” ( i.e. , “ Newbies ” ) .",
+        "arg2": "What results are two completely separate reviews of “ The Rains of Castamere ” which in turn document the fans ’ reactions to the episode in the form of user comment threads :"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 356,
+      "doc": "GUM_interview_shalev",
+      "variables": {
+        "arg1": "I called it Character , walks and words .",
+        "arg2": "There is a whole topic which is called asymptotic groups theory ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 357,
+      "doc": "GUM_court_equality",
+      "variables": {
+        "arg1": "I can not buy SCBA medical insurance .",
+        "arg2": "I am a member of the SCBA Bar ."
+      },
+      "answer_type": "string",
+      "answer": "in fact"
+    },
+    {
+      "id": 358,
+      "doc": "GUM_interview_onion",
+      "variables": {
+        "arg1": "It ’s this quiet experience where you are trying to soak in what the joke is , have we done anything like this , is it a unique take , what are other people doing .",
+        "arg2": "It ’s sort of like , \" Hmmm ... that ’s hilarious . That ’s really really funny \" rather than people falling off their chairs ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 359,
+      "doc": "GUM_essay_system",
+      "variables": {
+        "arg1": "Sure , you can try to get better at architecture ,",
+        "arg2": "develop a better design ,"
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 360,
+      "doc": "GUM_interview_herrick",
+      "variables": {
+        "arg1": "Our long term goal is to produce practical instructions on almost every topic in every language .",
+        "arg2": "We 're quite far from our goals currently , but we take comfort in the fact that every month wikiHow gets noticeably better and larger"
+      },
+      "answer_type": "string",
+      "answer": "in fact"
+    },
+    {
+      "id": 361,
+      "doc": "GUM_academic_economics",
+      "variables": {
+        "arg1": "Inclusive institutions guarantee the right to private property , to an impartial legal system and promote a society based on equal conditions .",
+        "arg2": "These institutions benefit not only the elites , but society as a whole ."
+      },
+      "answer_type": "string",
+      "answer": "so"
+    },
+    {
+      "id": 362,
+      "doc": "GUM_textbook_alamo",
+      "variables": {
+        "arg1": "Belief in their own superiority inspired some Texans to try to undermine the power of the Mexican government .",
+        "arg2": "When empresario Haden Edwards attempted to evict people who had settled his land grant before he gained title to it , the Mexican government nullified its agreement with him ."
+      },
+      "answer_type": "string",
+      "answer": "so"
+    },
+    {
+      "id": 363,
+      "doc": "GUM_textbook_cognition",
+      "variables": {
+        "arg1": "In order to organize this staggering amount of information , the brain has developed a file cabinet of sorts in the mind .",
+        "arg2": "The different files stored in the file cabinet are called concepts ."
+      },
+      "answer_type": "string",
+      "answer": "in particular"
+    },
+    {
+      "id": 364,
+      "doc": "GUM_letter_zora",
+      "variables": {
+        "arg1": "Several of my neighbors have stopped in the last week",
+        "arg2": "and remarked on the improvements I have made ."
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 365,
+      "doc": "GUM_fiction_veronique",
+      "variables": {
+        "arg1": "I fell asleep thinking about how I wished that the Scathalos outrunners were gone .",
+        "arg2": "I dreamed that I was at the offworlder 's home , where it was summer but no one was taking care of the stabros , and they were all glad , and so I was a hero - and I was startled awake by gunfire ."
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 366,
+      "doc": "GUM_interview_ants",
+      "variables": {
+        "arg1": "After a while I needed to start thinking about an internship for my M.Sc. studies , and decided to write a couple of professors .",
+        "arg2": "I ended up going to the Centre for Social Evolution at the University of Copenhagen where I did a project on learning in Ants under supervision of Prof. Patrizia d'Ettorre ."
+      },
+      "answer_type": "string",
+      "answer": "so"
+    },
+    {
+      "id": 367,
+      "doc": "GUM_bio_hadid",
+      "variables": {
+        "arg1": "who \" liberated architectural geometry ,",
+        "arg2": "giving it a whole new expressive identity . \""
+      },
+      "answer_type": "string",
+      "answer": "specifically"
+    },
+    {
+      "id": 368,
+      "doc": "GUM_vlog_college",
+      "variables": {
+        "arg1": "But yeah , I will just take you guys through another day in my life .",
+        "arg2": "I 'll take you guys to yoga with me and we 'll just see if things improve ."
+      },
+      "answer_type": "string",
+      "answer": "for instance"
+    },
+    {
+      "id": 369,
+      "doc": "GUM_speech_maiden",
+      "variables": {
+        "arg1": "Today , the threat to our democracy from the Presidency itself has ended , but the challenges we face as a nation remain .",
+        "arg2": "In the wake of violence and division , hatred and mistruth , in the shadow of disease and economic hardship , a warming planet and unequal society , we begin the work of the 117th Congress ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 370,
+      "doc": "GUM_vlog_covid",
+      "variables": {
+        "arg1": "For those of you who are new here and do n't know me , my name is Jasmine , and I 'm so glad you 're here on my channel .",
+        "arg2": "If you have n't already followed my social media , I 'll link it right here ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 371,
+      "doc": "GUM_academic_eegimaa",
+      "variables": {
+        "arg1": "Gútaamay ( from the village of Butam ) , Gulapaoray ( from the village Djilapaor ) and Gusiilay ( ISO 639-3 : bsl ) from the village of Thionk Essil are also other languages related to Eegimaa .",
+        "arg2": "They are located north of the Casamance River in the Jóola Búluf area ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 372,
+      "doc": "GUM_voyage_york",
+      "variables": {
+        "arg1": "Driving into the city centre itself is something to avoid .",
+        "arg2": "Traffic congestion on the main arterial roads serving the city ( especially the A19 on Bootham and the Inner Ring Road ) can get very bad , especially during the rush hours and on Saturday mornings ."
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 373,
+      "doc": "GUM_fiction_teeth",
+      "variables": {
+        "arg1": "Steven jiggled the handle that stuck out beyond your front teeth like some metallic duck ’s bill ,",
+        "arg2": "turning and twisting it most professionally and murmuring encouragements ."
+      },
+      "answer_type": "string",
+      "answer": "by"
+    },
+    {
+      "id": 374,
+      "doc": "GUM_voyage_sydfynske",
+      "variables": {
+        "arg1": "Completed in 2008 the trail is well marked with regular signs set on wooden poles .",
+        "arg2": "Allow 4 - 7 days for the whole trail depending on experience and your desired pace , but it is also possible do to day trips along the route ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 375,
+      "doc": "GUM_voyage_athens",
+      "variables": {
+        "arg1": "Whilst peak traffic hour can be a bit smoggy on the main roads , on most sunny days the skies are azure blue .",
+        "arg2": "The main reason attributed for the pollution of Athens is because the city is enclosed by mountains in a basin which does not let the smog leave ."
+      },
+      "answer_type": "string",
+      "answer": "furthermore"
+    },
+    {
+      "id": 376,
+      "doc": "GUM_fiction_claus",
+      "variables": {
+        "arg1": "“ Santa ca n’t reach it , and it ’s probably Ginny .",
+        "arg2": "Would you be a doll ? ”"
+      },
+      "answer_type": "string",
+      "answer": "so"
+    },
+    {
+      "id": 377,
+      "doc": "GENTLE_legal_abortion",
+      "variables": {
+        "arg1": "Ruling that declaratory , though not injunctive , relief was warranted , the court declared the abortion statutes void as vague and overbroadly infringing those plaintiffs ' Ninth and Fourteenth Amendment rights .",
+        "arg2": "The court ruled the Does ' complaint not justiciable ."
+      },
+      "answer_type": "string",
+      "answer": "further"
+    },
+    {
+      "id": 378,
+      "doc": "GUM_whow_arrogant",
+      "variables": {
+        "arg1": "In other words , how do they treat those with different beliefs , cultural backgrounds and ways of seeing the world ?",
+        "arg2": "If it 's inherently negative , then they 're either over - zealous , ignorant of other people or what to avoid those that contradict their fantasy land that caters to them and them only ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 379,
+      "doc": "GUM_interview_peres",
+      "variables": {
+        "arg1": "When something is unprecedented , it means it does n’t have a past , does n’t have a history .",
+        "arg2": "It ’s totally oriented on the future ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 380,
+      "doc": "GUM_fiction_wedding",
+      "variables": {
+        "arg1": "But now I had to get ready",
+        "arg2": "to go with him to the lion fountain , where most of the others were gathered ."
+      },
+      "answer_type": "string",
+      "answer": "in order"
+    },
+    {
+      "id": 381,
+      "doc": "GUM_interview_peres",
+      "variables": {
+        "arg1": "They consider modernity as their enemy , but then they have two problems .",
+        "arg2": "First of all , can they exist on tradition ?"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 382,
+      "doc": "GUM_whow_joke",
+      "variables": {
+        "arg1": "to ease tension ,",
+        "arg2": "make a new friend ,"
+      },
+      "answer_type": "string",
+      "answer": "or"
+    },
+    {
+      "id": 383,
+      "doc": "GUM_whow_parachute",
+      "variables": {
+        "arg1": "With a large and slow canopy , your chances are even better .",
+        "arg2": "The canopy must be steered away from power lines and similar obstructions ; try for a large body of water if you are confident your companion can save you from drowning ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 384,
+      "doc": "GUM_whow_quidditch",
+      "variables": {
+        "arg1": "Have someone throw something ( the snitch ) on a line into the pool at regular intervals .",
+        "arg2": "They can even use fake snitches ."
+      },
+      "answer_type": "string",
+      "answer": "in fact"
+    },
+    {
+      "id": 385,
+      "doc": "GUM_speech_humanitarian",
+      "variables": {
+        "arg1": "My Special Envoy just left Damascus after finalizing the last details with the Government and the opposition .",
+        "arg2": "The United Nations looks forward to convening the committee in Geneva in the coming weeks ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 386,
+      "doc": "GUM_textbook_spacetime",
+      "variables": {
+        "arg1": "Such a heavy object distorts or warps the rubber sheet very effectively , putting a good sag in it .",
+        "arg2": "From our point of view , we can see that the sheet near the paperweight is no longer straight ."
+      },
+      "answer_type": "string",
+      "answer": "in fact"
+    },
+    {
+      "id": 387,
+      "doc": "GUM_conversation_artist",
+      "variables": {
+        "arg1": "And they – they had these art shows everywhere .",
+        "arg2": "Well we bought a painting , uh , of a little Mexican woman , still got it , with a watermelon on her head , like it a lot ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 388,
+      "doc": "GUM_interview_cocktail",
+      "variables": {
+        "arg1": "The drink was mildly popular for the last few months , but of course has become a great deal more popular since getting all this publicity .",
+        "arg2": "We have no way to estimate how many times we 've served it overall , but we 're now pouring around ten a night ."
+      },
+      "answer_type": "string",
+      "answer": "as a result"
+    },
+    {
+      "id": 389,
+      "doc": "GUM_bio_goode",
+      "variables": {
+        "arg1": "He made his screen debut in 2002 with ABC 's TV film feature Confessions of an Ugly Stepsister .",
+        "arg2": "His breakthrough role was in the romantic comedy , Chasing Liberty ( 2004 ) , for which he received a nomination at Teen Choice Awards for Choice Breakout Movie Star - Male ."
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 390,
+      "doc": "GUM_voyage_phoenix",
+      "variables": {
+        "arg1": "The area that now encompasses Phoenix was a center of the Hohokam culture , which built large canal systems and a network of towns and villages , whose remains may be viewed in the city to this day .",
+        "arg2": "White settlers discovered the remnants of the Hohokam culture in the 19th century ."
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 391,
+      "doc": "GUM_textbook_chemistry",
+      "variables": {
+        "arg1": "Figure 2.4",
+        "arg2": "When the elements copper ( a shiny , red - brown solid , shown here as brown spheres ) and oxygen ( a clear and colorless gas , shown here as red spheres ) react , their atoms rearrange to form a compound containing copper and oxygen ( a powdery , black solid ) ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 392,
+      "doc": "GUM_speech_maiden",
+      "variables": {
+        "arg1": "and , two , it will take unity — unity of spirit , unity of purpose —",
+        "arg2": "to fulfill them ."
+      },
+      "answer_type": "string",
+      "answer": "in order"
+    },
+    {
+      "id": 393,
+      "doc": "GUM_vlog_lipstick",
+      "variables": {
+        "arg1": "But anyways , so on the bottom of this lipstick you can see where it says eighteen months is the shelf life so .",
+        "arg2": "Let me see if I can —"
+      },
+      "answer_type": "string",
+      "answer": "so"
+    },
+    {
+      "id": 394,
+      "doc": "GUM_textbook_evoethics",
+      "variables": {
+        "arg1": "So far , we have covered how evolutionary ethics relates to the question what we ought to do and why we are moral in the first place .",
+        "arg2": "A related set of questions about ethics are metaethical questions , which concern the meaning of moral terms , our ways of gaining knowledge of moral facts , and the nature of the moral facts ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 395,
+      "doc": "GUM_fiction_time",
+      "variables": {
+        "arg1": "And along the margin where the water sometimes broke was a thick incrustation of salt — pink under the lurid sky .",
+        "arg2": "There was a sense of oppression in my head , and I noticed that I was breathing very fast ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 396,
+      "doc": "GUM_fiction_claus",
+      "variables": {
+        "arg1": "From the wireless headset that dangled from her neck , her old marine buddies called to her with joyous profanity and the bass of digital gunfire .",
+        "arg2": "The Xbox was upstairs ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 397,
+      "doc": "GUM_news_hackers",
+      "variables": {
+        "arg1": "mailing lists have been shut down ,",
+        "arg2": "homes of discussion group participants have been raided"
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 398,
+      "doc": "GUM_fiction_teeth",
+      "variables": {
+        "arg1": "before poking the setting goo",
+        "arg2": "to check its consistency ."
+      },
+      "answer_type": "string",
+      "answer": "in order"
+    },
+    {
+      "id": 399,
+      "doc": "GUM_whow_quinoa",
+      "variables": {
+        "arg1": "Quinoa is known as the little rice of Peru .",
+        "arg2": "The Incas treated the crop as sacred and referred to quinoa as \" chisaya mama \" or \" mother of all grains . \" [ 1 ]"
+      },
+      "answer_type": "string",
+      "answer": "in fact"
+    },
+    {
+      "id": 400,
+      "doc": "GUM_voyage_sydfynske",
+      "variables": {
+        "arg1": "taking the time",
+        "arg2": "to explore Denmark outside the capital ."
+      },
+      "answer_type": "string",
+      "answer": "in order"
+    },
+    {
+      "id": 401,
+      "doc": "GENTLE_poetry_raven",
+      "variables": {
+        "arg1": "not a minute stopped or stayed he ;",
+        "arg2": "But , with mien of lord or lady , perched above my chamber door — Perched upon a bust of Pallas just above my chamber door —"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 402,
+      "doc": "GUM_essay_fear",
+      "variables": {
+        "arg1": "we often regress to illogical , tribal and aggressive human animals ,",
+        "arg2": "becoming weapons ourselves – weapons that politicians use for their own agenda ."
+      },
+      "answer_type": "string",
+      "answer": "thus"
+    },
+    {
+      "id": 403,
+      "doc": "GUM_speech_telescope",
+      "variables": {
+        "arg1": "Building on the legacy of Hubble , the James Webb Space Telescope allows us to see deeper into space than ever before and in stunning clarity .",
+        "arg2": "It will enhance what we know about the origins of our universe , our solar system , and possibly life itself ."
+      },
+      "answer_type": "string",
+      "answer": "so"
+    },
+    {
+      "id": 404,
+      "doc": "GUM_academic_economics",
+      "variables": {
+        "arg1": "The state must protect property rights ,",
+        "arg2": "provide public services ,"
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 405,
+      "doc": "GUM_whow_skittles",
+      "variables": {
+        "arg1": "Never drink",
+        "arg2": "and drive ."
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 406,
+      "doc": "GUM_academic_theropod",
+      "variables": {
+        "arg1": "Birds have relatively shorter , stouter femora than non-avian theropods , presumed to be associated with more horizontal orientation .",
+        "arg2": "Experimental manipulations of femoral orientation in chickens suggest that torsional loads increase as the femur becomes more horizontal [ 7 ] supporting the idea that postural differences could be reflected in differences in limb cross-sectional geometry ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 407,
+      "doc": "GENTLE_esports_fortnite",
+      "variables": {
+        "arg1": "Bandaging on the egg BlastR is just hanging out here .",
+        "arg2": "That player down below gon na see if he can take shots here in a second ."
+      },
+      "answer_type": "string",
+      "answer": "but"
+    },
+    {
+      "id": 408,
+      "doc": "GUM_textbook_evoethics",
+      "variables": {
+        "arg1": "Street starts with the premise that our moral judgments are influenced by evolutionary forces .",
+        "arg2": "This fact , Street claims , gives rise to a dilemma for moral realists concerning the relation of the evolutionary forces that influenced our moral judgments and the moral facts claimed to exist by moral realists ."
+      },
+      "answer_type": "string",
+      "answer": "so"
+    },
+    {
+      "id": 409,
+      "doc": "GUM_interview_herrick",
+      "variables": {
+        "arg1": "So I decided to sell eHow and use the proceeds",
+        "arg2": "to build wikiHow ."
+      },
+      "answer_type": "string",
+      "answer": "in order"
+    },
+    {
+      "id": 410,
+      "doc": "GUM_bio_moreau",
+      "variables": {
+        "arg1": "Moreau was born in Paris , the daughter of Katherine ( née Buckley ) , a dancer who performed at the Folies Bergère ( d. 1990 ) , and Anatole - Désiré Moreau , a restaurateur ( d. 1975 ) . [ 1 ] [ 2 ]",
+        "arg2": "Moreau 's father was French ; her mother was English , a native of Oldham , Lancashire , England [ 3 ] and of part Irish descent . [ 2 ] [ 4 ] [ 5 ]"
+      },
+      "answer_type": "string",
+      "answer": "in particular"
+    },
+    {
+      "id": 411,
+      "doc": "GUM_textbook_artwork",
+      "variables": {
+        "arg1": "The Hegelian definition of aesthetics as the philosophy of art that considers the issue of artistic beauty as its core concern is no more enchanting in our time .",
+        "arg2": "Many would agree that the question “ what makes an artwork beautiful ” plays a minor role in contemporary aesthetics and philosophy of art , where the question has been updated to “ what makes an artwork meaningful or valuable ? ”"
+      },
+      "answer_type": "string",
+      "answer": "as"
+    },
+    {
+      "id": 412,
+      "doc": "GUM_news_korea",
+      "variables": {
+        "arg1": "They perpetrated such reckless action as firing 36 shells at KPA civil police posts under the absurd pretext that the KPA fired one shell at the south side .",
+        "arg2": "Six shells of them hit the area near KPA civil police posts 542 and 543 and other 15 shells fell near KPA civil police posts 250 and 251 \" , said KCNA ."
+      },
+      "answer_type": "string",
+      "answer": "in particular"
+    },
+    {
+      "id": 413,
+      "doc": "GUM_textbook_alamo",
+      "variables": {
+        "arg1": "Fifty - five delegates from the Anglo - American settlements gathered in 1831 to demand the suspension of customs duties , the resumption of immigration from the United States , better protection from Indian tribes , the granting of promised land titles , and the creation of an independent state of Texas separate from Coahuila .",
+        "arg2": "Ordered to disband , the delegates reconvened in early April 1833 to write a constitution for an independent Texas ."
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 414,
+      "doc": "GUM_speech_newzealand",
+      "variables": {
+        "arg1": "We continue to work",
+        "arg2": "to keep COVID - 19 out ,"
+      },
+      "answer_type": "string",
+      "answer": "in order"
+    },
+    {
+      "id": 415,
+      "doc": "GUM_whow_packing",
+      "variables": {
+        "arg1": "Fill it halfway with books ,",
+        "arg2": "and fill it up with lighter stuff ."
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 416,
+      "doc": "GUM_academic_huh",
+      "variables": {
+        "arg1": "Therefore we collected data from recordings of naturally occurring informal conversations in a sample of 10 languages from 5 continents , varying fundamentally in terms of phonology , word structure , and grammar ( languages 1 – 10 in Figure 1 ) .",
+        "arg2": "For optimal comparability , we studied the exact same conversational environment across languages : that of other - initiated repair ( OIR ) , in which one participant produces a turn at talk , the other then signals some trouble with this turn , and finally the first produces a next turn which aims to solve the trouble , usually by means of repetition and / or modification ."
+      },
+      "answer_type": "string",
+      "answer": "further"
+    },
+    {
+      "id": 417,
+      "doc": "GUM_podcast_pandemic",
+      "variables": {
+        "arg1": "And in many parts of the world , particularly in 1918 , medical record keeping was not , uh , terribly good .",
+        "arg2": "Um , so you know that -- but that gives you an idea of what that could be , uh , so we could be talking about , uh , again , keeping the proportion the same , about 200 million people dying if it was the same as 1918 ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 418,
+      "doc": "GUM_letter_arendt",
+      "variables": {
+        "arg1": "Martha greatly enjoyed our stay in Mallorca at the villa of our friend Vane Ivanovic .",
+        "arg2": "Luncheons and dinners were crowded with guests , but in the evenings she played bridge constantly and gossiped with our hostess ."
+      },
+      "answer_type": "string",
+      "answer": "for instance"
+    },
+    {
+      "id": 419,
+      "doc": "GUM_podcast_pandemic",
+      "variables": {
+        "arg1": "it can be approved for medical use",
+        "arg2": "and move into production ."
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 420,
+      "doc": "GUM_essay_tools",
+      "variables": {
+        "arg1": "It would seem possible to design it in a way that made cars simpler and less expensive to repair .",
+        "arg2": "I do n’t really know , but it does seem reasonable ."
+      },
+      "answer_type": "string",
+      "answer": "in other words"
+    },
+    {
+      "id": 421,
+      "doc": "GUM_voyage_chatham",
+      "variables": {
+        "arg1": "Tommy Solomon Statue .",
+        "arg2": "Tame Horomona Rehe was the last known full - blooded Moriori and he passed away in 1933 ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 422,
+      "doc": "GUM_vlog_hiking",
+      "variables": {
+        "arg1": "They literally arrived on my doorstep the day before we left for the trip because I needed some new hiking shoes , and these have been absolutely the best hiking shoes I 've ever owned .",
+        "arg2": "So if you 're in a need for some new hiking shoes I definitely recommend these Adidas Terrex ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 423,
+      "doc": "GUM_vlog_college",
+      "variables": {
+        "arg1": "I 'm going to Saxby 's right after to just do all the work I need to do for the day , so yeah .",
+        "arg2": "Alright , I 'm heading out ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 424,
+      "doc": "GUM_conversation_erasmus",
+      "variables": {
+        "arg1": "And as you come — as Erasmus comes to this , he 's going to say , well let 's look at the Scriptures .",
+        "arg2": "Now , number one , we have to admit first – v- first off , that there seem to be passages , there are passages in the Scriptures ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 425,
+      "doc": "GUM_whow_packing",
+      "variables": {
+        "arg1": "Mark boxes .",
+        "arg2": "Boxes should be marked \" Fragile \" and \" This side up \" to prevent mishandling ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 426,
+      "doc": "GUM_vlog_wine",
+      "variables": {
+        "arg1": "In South Africa I 'm drinking instant coffee that is from Bremen .",
+        "arg2": "Not the best representation of my city I guess , because it 's instant coffee ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 427,
+      "doc": "GUM_voyage_cuba",
+      "variables": {
+        "arg1": "Canadians are the exception ,",
+        "arg2": "getting 90 days on arrival"
+      },
+      "answer_type": "string",
+      "answer": "specifically"
+    },
+    {
+      "id": 428,
+      "doc": "GUM_whow_basil",
+      "variables": {
+        "arg1": "If your plants show signs of mold growth , they may not be getting adequate sunlight , or they may be too close together .",
+        "arg2": "Weed out the smaller plants to give the larger ones more space ."
+      },
+      "answer_type": "string",
+      "answer": "so"
+    },
+    {
+      "id": 429,
+      "doc": "GUM_conversation_retirement",
+      "variables": {
+        "arg1": "No problem .",
+        "arg2": "It comes right up ."
+      },
+      "answer_type": "string",
+      "answer": "in other words"
+    },
+    {
+      "id": 430,
+      "doc": "GUM_news_ie9",
+      "variables": {
+        "arg1": "PC World 's recent analysis of its own web traffic statistics concluded , \" Usually , Internet Explorer is the # 2 browser after Firefox , but over the past 30 days it 's been # 3 , a couple of points behind Safari - and nearly tied with Chrome .",
+        "arg2": "It might be a statistical blip ."
+      },
+      "answer_type": "string",
+      "answer": "but"
+    },
+    {
+      "id": 431,
+      "doc": "GENTLE_proof_wosets",
+      "variables": {
+        "arg1": "Thus x = y from the antisymmetry of ⪯ S or ⪯ T .",
+        "arg2": "Conclude that ⪯ is a total ordering ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 432,
+      "doc": "GUM_speech_albania",
+      "variables": {
+        "arg1": "This universal forum has enabled the peoples of the world to coordinate and harmonize their efforts in preserving peace and security , in achieving prosperity and upholding the values of human civilization .",
+        "arg2": "I would like to congratulate you , Mr. President , on being elected to preside over this august body and to express my confidence in your successful leadership ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 433,
+      "doc": "GUM_academic_mutation",
+      "variables": {
+        "arg1": "The objective of the land reparcelling is to reunify the lands of an owner",
+        "arg2": "to facilitate their exploitation ."
+      },
+      "answer_type": "string",
+      "answer": "in order"
+    },
+    {
+      "id": 434,
+      "doc": "GUM_interview_ants",
+      "variables": {
+        "arg1": "Bos obtained his doctorate from the University of Copenhagen .",
+        "arg2": "He began postdoctoral research at Helsinki in 2012 ."
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 435,
+      "doc": "GUM_letter_flood",
+      "variables": {
+        "arg1": "One way you might help me is to look over the laws I have proposed",
+        "arg2": "and write me explaining in detail how they would help you or people you know ."
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 436,
+      "doc": "GUM_court_carpet",
+      "variables": {
+        "arg1": "So I went out",
+        "arg2": "and looked at the job —"
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 437,
+      "doc": "GUM_fiction_garden",
+      "variables": {
+        "arg1": "Pools erupted and overflowed along the edges of the lawn , cascading around the raspberry canes and over the flower beds .",
+        "arg2": "Earthworms rose up from the water - laden earth where they could no longer breath and wriggled and struggled fro air on the surface , writhing and swimming for a safe haven ."
+      },
+      "answer_type": "string",
+      "answer": "as a result"
+    },
+    {
+      "id": 438,
+      "doc": "GUM_whow_ballet",
+      "variables": {
+        "arg1": "Stretch your muscles thoroughly .",
+        "arg2": "Stretching is important to loosen muscles , strengthen muscles and to elongate your posture ."
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 439,
+      "doc": "GUM_voyage_cuba",
+      "variables": {
+        "arg1": "It is usually valid for 30 days and can be extended once for another 30 days at any immigration office in Cuba ( for 25 CUC ) - beyond this you would need a flight out of Cuba within the extended visa period .",
+        "arg2": "Canadians are the exception , getting 90 days on arrival and can apply for a 90 day extension ."
+      },
+      "answer_type": "string",
+      "answer": "however"
+    },
+    {
+      "id": 440,
+      "doc": "GUM_bio_holt",
+      "variables": {
+        "arg1": "He debuted for Boston after getting called up on July 6 in Anaheim .",
+        "arg2": "In 2013 , Holt played in 26 games , hitting .203 with 11 RBI ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 441,
+      "doc": "GENTLE_proof_five",
+      "variables": {
+        "arg1": "Call them y1 , y2 , y3 , y4 and y5 in clockwise order around x .",
+        "arg2": "Let y1 , y2 , y3 , y4 and y5 be colored respectively by colors c1 , c2 , c3 , c4 and c5 ."
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 442,
+      "doc": "GUM_conversation_artist",
+      "variables": {
+        "arg1": "They also had a lot of , uh , artist galleries down there .",
+        "arg2": "And I walked into this gallery , during one of our — we were down there maybe ten days ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 443,
+      "doc": "GUM_fiction_veronique",
+      "variables": {
+        "arg1": "It took my tired head a long time",
+        "arg2": "to sort that out ."
+      },
+      "answer_type": "string",
+      "answer": "in order"
+    },
+    {
+      "id": 444,
+      "doc": "GUM_interview_herrick",
+      "variables": {
+        "arg1": "We are much smaller .",
+        "arg2": "The English wikiHow has only 60 admins , compared to the 1000 + on English Wikipedia ."
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 445,
+      "doc": "GUM_voyage_sydfynske",
+      "variables": {
+        "arg1": "Pre arranged package tours are also available from Travel Heels in Taasinge or Vagabond Tours in Tranekær , in cooperation with the local tourist authority .",
+        "arg2": "If you choose to do the trek individually be mindful that substantial part of the trails crosses private property , so be considerate ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 446,
+      "doc": "GUM_conversation_blacksmithing",
+      "variables": {
+        "arg1": "I 'm gon na wait till like , early in the morning ,",
+        "arg2": "to do those ,"
+      },
+      "answer_type": "string",
+      "answer": "in order"
+    },
+    {
+      "id": 447,
+      "doc": "GUM_speech_humanitarian",
+      "variables": {
+        "arg1": "And I have listened .",
+        "arg2": "I have heard families in the South Pacific who fear their lives being swept away by rising seas ; young refugees in the Middle East yearning for a return to school and home ; Ebola survivors in North Kivu struggling to rebuild their lives ; women demanding equality and opportunity ; people of all beliefs and traditions who suffer simply because of who they are ; and so many others ."
+      },
+      "answer_type": "string",
+      "answer": "for instance"
+    },
+    {
+      "id": 448,
+      "doc": "GUM_whow_chicken",
+      "variables": {
+        "arg1": "its heart rate lowers",
+        "arg2": "and it stops moving ."
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 449,
+      "doc": "GUM_court_negligence",
+      "variables": {
+        "arg1": "Good morning to all .",
+        "arg2": "In the case of Atlantic Lottery Corporation , Inc. et al. against Douglas Babstock et al. , for the appellant , Atlantic Lottery Corporation , Inc. : Julie Rosenthal , Mike Eizenga , Sarah Stoddar- Stoddart , I 'm sorry , Jonathan Bell . [ … ]"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 450,
+      "doc": "GUM_news_afghan",
+      "variables": {
+        "arg1": "Teams from Morocco and Iran both had difficulties getting themselves or their robots across the U.S. border .",
+        "arg2": "Team Estonia had to rebuild their robot entirely after the original disappeared in transit ."
+      },
+      "answer_type": "string",
+      "answer": "in fact"
+    },
+    {
+      "id": 451,
+      "doc": "GUM_whow_quidditch",
+      "variables": {
+        "arg1": "One variation is Quarter Snitch Quidditch .",
+        "arg2": "Find a quarter or another small coin ."
+      },
+      "answer_type": "string",
+      "answer": "specifically"
+    },
+    {
+      "id": 452,
+      "doc": "GUM_textbook_union",
+      "variables": {
+        "arg1": "Confederate troops under Major General Nathan Bedford Forrest , the future founder of the Ku Klux Klan , quickly overran the fort , and the Union defenders surrendered .",
+        "arg2": "Instead of taking the African American soldiers prisoner , as they did the White soldiers , the Confederates executed them ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 453,
+      "doc": "GUM_vlog_lipstick",
+      "variables": {
+        "arg1": "I do n't know if this means that they just do n't expire or I do n't know .",
+        "arg2": "I do n't know what that means ."
+      },
+      "answer_type": "string",
+      "answer": "in fact"
+    },
+    {
+      "id": 454,
+      "doc": "GUM_conversation_artist",
+      "variables": {
+        "arg1": "Well , we looked at a lot of art , in in in the , in the , uh parks , and there at least it was , pleasant weather and , like that uh , it was sorta like , uh .",
+        "arg2": "What the hell they call the district in New York , where on Sunday , they put all the artists , put their paintings out ?"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 455,
+      "doc": "GUM_interview_libertarian",
+      "variables": {
+        "arg1": "Libertarians share many policy positions with each of the major parties .",
+        "arg2": "Working together with both Republicans and Democrats , we can get the good aspects of each party while rejecting the bad parts of both ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 456,
+      "doc": "GUM_interview_licen",
+      "variables": {
+        "arg1": "Sports in the United States largely reaffirm existing relations of power in society .",
+        "arg2": "It emphasizes consumerism , the belief that success always goes to people who merit it due to their abilities , dedication and qualifications , and reinforces , rather than changes , existing ideas related to gender , ethnicity and nationality ."
+      },
+      "answer_type": "string",
+      "answer": "in particular"
+    },
+    {
+      "id": 457,
+      "doc": "GUM_letter_zora",
+      "variables": {
+        "arg1": "He must go slow about selling it to me ,",
+        "arg2": "waiting on public reaction ."
+      },
+      "answer_type": "string",
+      "answer": "with the purpose of"
+    },
+    {
+      "id": 458,
+      "doc": "GUM_whow_basil",
+      "variables": {
+        "arg1": "Cover containers with clear plastic kitchen wrap , so they stay moist .",
+        "arg2": "Leave the containers in a sunny window ."
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 459,
+      "doc": "GUM_academic_mutation",
+      "variables": {
+        "arg1": "Suilen H. Alvarado Laboratorio de Bases de Datos Campus de Elviña , Centro de investigación CITIC , Universidade da Coruña , 15071 A Coruña , Spain ; s.hernandez@udc.es",
+        "arg2": "Presented at the 2nd XoveTIC Congress , A Coruña , Spain , 5 – 6 September 2019 ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 460,
+      "doc": "GUM_whow_glowstick",
+      "variables": {
+        "arg1": "Clean the containers and dry them thoroughly .",
+        "arg2": "It 's important to use sanitary , clean tubes for your glowsticks ."
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 461,
+      "doc": "GUM_fiction_honour",
+      "variables": {
+        "arg1": "Chalmers was feeling forced to accept the truth : they were all that was left of the Imperial Naval Forces .",
+        "arg2": "This was a battle that could not be won ; not now , not ever ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 462,
+      "doc": "GUM_fiction_frankenstein",
+      "variables": {
+        "arg1": "“ Uhhh , ” she says ,",
+        "arg2": "pointing to the store ."
+      },
+      "answer_type": "string",
+      "answer": "by"
+    },
+    {
+      "id": 463,
+      "doc": "GUM_interview_messina",
+      "variables": {
+        "arg1": "As one that 's battled hard through many a broken dream Let me say , \" in order to rise to the occasion you must be willing to go down with the ship \" ,",
+        "arg2": "Have no fear , no hesitation , for Winning shall be it's reward !"
+      },
+      "answer_type": "string",
+      "answer": "so"
+    },
+    {
+      "id": 464,
+      "doc": "GUM_whow_cactus",
+      "variables": {
+        "arg1": "The Beavertail Cactus ( Opunitia basilares ) , found primarily in the Mojave Desert and northwest Mexico ; can grow to be about 24 inches ( 60 cm ) high ;",
+        "arg2": "has pads that look like beavertails ;"
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 465,
+      "doc": "GUM_podcast_collaboration",
+      "variables": {
+        "arg1": "So Jimmy contacted me and was like , look , I got to go out on the road .",
+        "arg2": "And then during the day we 'll come up with a new act together ."
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 466,
+      "doc": "GUM_textbook_cognition",
+      "variables": {
+        "arg1": "Concepts are , in many ways , big ideas that are generated by observing details , and categorizing and combining these details into cognitive structures .",
+        "arg2": "You use concepts to see the relationships among the different elements of your experiences and to keep the information in your mind organized and accessible ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 467,
+      "doc": "GUM_whow_flirt",
+      "variables": {
+        "arg1": "So you want to flirt with a guy or gal on MSN , AIM , Facebook Chat , or any other instant messaging service and you do n't want to look like a creep ?",
+        "arg2": "Congratulations — by seeking help , you 've already demonstrated more self - awareness than the vast majority of online flirts ."
+      },
+      "answer_type": "string",
+      "answer": "but"
+    },
+    {
+      "id": 468,
+      "doc": "GENTLE_threat_malik",
+      "variables": {
+        "arg1": "What Pharoah Wished Was To Crush Them",
+        "arg2": "Is That What You Folks Trying to Do Me As And My Cases"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 469,
+      "doc": "GUM_news_warhol",
+      "variables": {
+        "arg1": "\" I thought that in real life it was really kind of magical , \" Allton said .",
+        "arg2": "\" I smacked them around . \""
+      },
+      "answer_type": "string",
+      "answer": "in fact"
+    },
+    {
+      "id": 470,
+      "doc": "GUM_conversation_artist",
+      "variables": {
+        "arg1": "Well before that , he took us around the city , still got his card somewhere .",
+        "arg2": "Slammed the damn door on this guy , poor guy 's hand one day , inadvertently ."
+      },
+      "answer_type": "string",
+      "answer": "in fact"
+    },
+    {
+      "id": 471,
+      "doc": "GUM_textbook_history",
+      "variables": {
+        "arg1": "and people were able to develop a more settled way of life ,",
+        "arg2": "building permanent settlements ."
+      },
+      "answer_type": "string",
+      "answer": "specifically"
+    },
+    {
+      "id": 472,
+      "doc": "GUM_conversation_erasmus",
+      "variables": {
+        "arg1": "And he wrote to Luther .",
+        "arg2": "Perhaps an Erasmus who writes against you , will do more for the Gospel , than certain dunderheads who support you ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 473,
+      "doc": "GUM_letter_marcie3",
+      "variables": {
+        "arg1": "What am I going to do about that coed school in the north ?",
+        "arg2": "There are n’t very many good ones around , ( that I could get into ) ."
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 474,
+      "doc": "GUM_bio_jespersen",
+      "variables": {
+        "arg1": "Following the advice of his mentor Vilhelm Thomsen , he returned to Copenhagen in August 1888 and began work on his doctoral dissertation on the English case system .",
+        "arg2": "He successfully defended his dissertation in 1891 ."
+      },
+      "answer_type": "string",
+      "answer": "then"
+    },
+    {
+      "id": 475,
+      "doc": "GUM_whow_elevator",
+      "variables": {
+        "arg1": "At every floor , make a loud announcement telling everyone the floor number .",
+        "arg2": "Say something like “ Everyone going to floor ten , get off now ! No time to dilly dally ! ” [ 4 ]"
+      },
+      "answer_type": "string",
+      "answer": "so"
+    },
+    {
+      "id": 476,
+      "doc": "GUM_court_carpet",
+      "variables": {
+        "arg1": "T- uh , during last uh August to September .",
+        "arg2": "Okay , and uh , just tell me about how you arrived at uh this claim ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 477,
+      "doc": "GUM_textbook_governments",
+      "variables": {
+        "arg1": "For example , a referendum or proposed law might be placed on the ballot",
+        "arg2": "for citizens to vote on directly during state or local elections"
+      },
+      "answer_type": "string",
+      "answer": "in order"
+    },
+    {
+      "id": 478,
+      "doc": "GUM_letter_zora",
+      "variables": {
+        "arg1": "The Saturday Evening Post photographer has been here and took a lot of pictures .",
+        "arg2": "He caught me in my dungarees working outdoors , and naturally insisted on photographing me like that ."
+      },
+      "answer_type": "string",
+      "answer": "for instance"
+    },
+    {
+      "id": 479,
+      "doc": "GUM_essay_distraction",
+      "variables": {
+        "arg1": "that leaps up on your screen",
+        "arg2": "to announce something new ,"
+      },
+      "answer_type": "string",
+      "answer": "in order"
+    },
+    {
+      "id": 480,
+      "doc": "GUM_textbook_governments",
+      "variables": {
+        "arg1": "Residents of Boxborough , Massachusetts , gather in a local hotel",
+        "arg2": "to discuss issues affecting their town ."
+      },
+      "answer_type": "string",
+      "answer": "in order"
+    },
+    {
+      "id": 481,
+      "doc": "GUM_vlog_college",
+      "variables": {
+        "arg1": "We 're making dinner .",
+        "arg2": "As you can see , we 're we 're actively making dinner ."
+      },
+      "answer_type": "string",
+      "answer": "in other words"
+    },
+    {
+      "id": 482,
+      "doc": "GUM_whow_cactus",
+      "variables": {
+        "arg1": "In a shady garden bed , simply scatter the seeds on the soil .",
+        "arg2": "There 's no need to cover them , unless you want to use netting to keep the birds off ."
+      },
+      "answer_type": "string",
+      "answer": "in fact"
+    },
+    {
+      "id": 483,
+      "doc": "GUM_interview_dungeon",
+      "variables": {
+        "arg1": "We hire the opposite of what you 'd think we would hire , what the average person would think we would hire .",
+        "arg2": "We hire educated , nice people ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 484,
+      "doc": "GUM_podcast_wrestling",
+      "variables": {
+        "arg1": "Let it fucking die ,",
+        "arg2": "please , just stop ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 485,
+      "doc": "GUM_fiction_sneeze",
+      "variables": {
+        "arg1": "“ S’ not my fault .",
+        "arg2": "You make me want to sneeze ! ”"
+      },
+      "answer_type": "string",
+      "answer": "because"
+    },
+    {
+      "id": 486,
+      "doc": "GUM_vlog_radiology",
+      "variables": {
+        "arg1": "So like I said , I 'm on my general nuclear medicine rotation this week .",
+        "arg2": "I get switched around -- moved around a few times to cover some residents who are on vacation , so I 'll be at other spots later this week ."
+      },
+      "answer_type": "string",
+      "answer": "but"
+    },
+    {
+      "id": 487,
+      "doc": "GUM_essay_food",
+      "variables": {
+        "arg1": "and even grow their production",
+        "arg2": "to meet new demand ."
+      },
+      "answer_type": "string",
+      "answer": "in order"
+    },
+    {
+      "id": 488,
+      "doc": "GUM_speech_maiden",
+      "variables": {
+        "arg1": "But , as President Biden said a few hours ago , today , democracy has prevailed , the will of the people was heeded , and the peaceful transfer of power fulfilled .",
+        "arg2": "It takes a lot more than a band of hooligans to bring our grand democracy down ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 489,
+      "doc": "GUM_voyage_isfahan",
+      "variables": {
+        "arg1": "It is registered as a UNESCO World Heritage Site .",
+        "arg2": "Its splendour is mainly due to the beauty of its seven - colour mosaic tiles and calligraphic inscriptions ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 490,
+      "doc": "GUM_interview_mcguire",
+      "variables": {
+        "arg1": "As far as I can tell , podiobooks.com features \" free as in beer \" content — material which you can download , but which is n't under a free content license .",
+        "arg2": "Instead of \" public domain \" , would n't \" free content \" work just as well , using something like the Free Content Definition to limit the scope ?"
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 491,
+      "doc": "GUM_essay_fear",
+      "variables": {
+        "arg1": "There are several reasons .",
+        "arg2": "One is that logic is slow ; fear is fast ."
+      },
+      "answer_type": "string",
+      "answer": "for instance"
+    },
+    {
+      "id": 492,
+      "doc": "GENTLE_poetry_death",
+      "variables": {
+        "arg1": "We passed the School , where Children strove At recess — in the ring —",
+        "arg2": "We passed the Fields of Gazing Grain —"
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 493,
+      "doc": "GENTLE_proof_wosets",
+      "variables": {
+        "arg1": "Also , every element of S strictly precedes x , as x is in T .",
+        "arg2": "Thus there is an order isomorphism from an initial segment of T to all of S ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 494,
+      "doc": "GUM_court_negligence",
+      "variables": {
+        "arg1": "In the case of Atlantic Lottery Corporation , Inc. et al. against Douglas Babstock et al. , for the appellant , Atlantic Lottery Corporation , Inc. : Julie Rosenthal , Mike Eizenga , Sarah Stoddar- Stoddart , I 'm sorry , Jonathan Bell . [ … ]",
+        "arg2": "For the intervener , British Columbia Lottery Corporation : K. Michael Stevens , Shannon Ramsey , and Aubin Calvert ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 495,
+      "doc": "GUM_speech_impeachment",
+      "variables": {
+        "arg1": "It is the oath created by Senators when they tried the first impeachment of a President in 1868 .",
+        "arg2": "It is an oath rooted in the Revolution fought by their grandparents to create a republic of laws , not kings ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 496,
+      "doc": "GUM_fiction_lunre",
+      "variables": {
+        "arg1": "The hectic screams of the children preceded the company into the village , so that they advanced like a festival ,",
+        "arg2": "drawing people out of their houses ."
+      },
+      "answer_type": "string",
+      "answer": "thus"
+    },
+    {
+      "id": 497,
+      "doc": "GUM_academic_theropod",
+      "variables": {
+        "arg1": "In addition , we reduced the total tail mass to 15 % body mass from the 20 % body mass used by Carrano and Biewener .",
+        "arg2": "Thus , our study seems to have generated a more gradual and less pronounced change in the moment of inertia produced by the artificial tail , allowing experimental subjects to adjust to the posterior mass by adopting a more vertical position of the femur while standing ."
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 498,
+      "doc": "GUM_voyage_isfahan",
+      "variables": {
+        "arg1": "this is the first Islamic building to adopt the four - courtyard layout of Sassanid palaces .",
+        "arg2": "Started in AD 842 ,"
+      },
+      "answer_type": "string",
+      "answer": "when"
+    },
+    {
+      "id": 499,
+      "doc": "GUM_textbook_grit",
+      "variables": {
+        "arg1": "Each of these has been proven to mean the difference between success and failure .",
+        "arg2": "You will find that each of these is a strong tool that will enable you to engage with learning material in a way that not only suits your needs , but also gives you ownership over your own learning processes ."
+      },
+      "answer_type": "string",
+      "answer": "and"
+    },
+    {
+      "id": 500,
+      "doc": "GUM_voyage_tulsa",
+      "variables": {
+        "arg1": "They do not run that often , especially to the outer towns like Broken Arrow .",
+        "arg2": "Unlike major cities in the Northeast , the city bus is not a major form of transportation in the city ."
+      },
+      "answer_type": "string",
+      "answer": "in fact"
+    }
+  ]
+}

@@ -1,0 +1,5507 @@
+{
+  "task": "entity_more",
+  "lang": "russian",
+  "example_prompt": "Which entity is mentioned more often in the text, {entity_a} or {entity_b}?",
+  "instances": [
+    {
+      "id": 1,
+      "doc": "134",
+      "variables": {
+        "entity_a": "индийской филологии",
+        "entity_b": "Щербатской ) и их ученики Е .",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "индийской филологии"
+    },
+    {
+      "id": 2,
+      "doc": "6",
+      "variables": {
+        "entity_a": "моей жене",
+        "entity_b": "Только один человек в курительной",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "моей жене"
+    },
+    {
+      "id": 3,
+      "doc": "99",
+      "variables": {
+        "entity_a": "аспирина",
+        "entity_b": "более 200�000 шести - и семилетних детей",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "аспирина"
+    },
+    {
+      "id": 4,
+      "doc": "336",
+      "variables": {
+        "entity_a": "Дима Липскеров",
+        "entity_b": "« Закрытый показ »",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Дима Липскеров"
+    },
+    {
+      "id": 5,
+      "doc": "342",
+      "variables": {
+        "entity_a": "премьер - министр Турции Реджеп Тайип Эрдоган",
+        "entity_b": "автономной республики Крым",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "премьер - министр Турции Реджеп Тайип Эрдоган"
+    },
+    {
+      "id": 6,
+      "doc": "288",
+      "variables": {
+        "entity_a": "Максим Шевченко",
+        "entity_b": "Тина Канделаки",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Максим Шевченко"
+    },
+    {
+      "id": 7,
+      "doc": "251",
+      "variables": {
+        "entity_a": "Сатурна",
+        "entity_b": "пара « спутников - пастухов »",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Сатурна"
+    },
+    {
+      "id": 8,
+      "doc": "253",
+      "variables": {
+        "entity_a": "Клюв",
+        "entity_b": "« птичий мех » или « гагарьи шейки »",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Клюв"
+    },
+    {
+      "id": 9,
+      "doc": "134",
+      "variables": {
+        "entity_a": "Петербурге",
+        "entity_b": "его собственной типографии",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Петербурге"
+    },
+    {
+      "id": 10,
+      "doc": "17",
+      "variables": {
+        "entity_a": "ребятишки",
+        "entity_b": "загнетке",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ребятишки"
+    },
+    {
+      "id": 11,
+      "doc": "61",
+      "variables": {
+        "entity_a": "Белоруссии",
+        "entity_b": "саммит по ядерной безопасности",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Белоруссии"
+    },
+    {
+      "id": 12,
+      "doc": "288",
+      "variables": {
+        "entity_a": "противоположная сторона",
+        "entity_b": "вопиющие мгновения",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "противоположная сторона"
+    },
+    {
+      "id": 13,
+      "doc": "211",
+      "variables": {
+        "entity_a": "России",
+        "entity_b": "Тольятти",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "России"
+    },
+    {
+      "id": 14,
+      "doc": "8",
+      "variables": {
+        "entity_a": "дорогие мои друзья",
+        "entity_b": "немного семян",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "дорогие мои друзья"
+    },
+    {
+      "id": 15,
+      "doc": "69",
+      "variables": {
+        "entity_a": "Россия",
+        "entity_b": "матча Россия — Уэльс",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Россия"
+    },
+    {
+      "id": 16,
+      "doc": "342",
+      "variables": {
+        "entity_a": "« Голоса Америки »",
+        "entity_b": "президентом Виктором Януковичем",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "« Голоса Америки »"
+    },
+    {
+      "id": 17,
+      "doc": "275",
+      "variables": {
+        "entity_a": "Голосование",
+        "entity_b": "Free Software Foundation",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Голосование"
+    },
+    {
+      "id": 18,
+      "doc": "13",
+      "variables": {
+        "entity_a": "мальчик",
+        "entity_b": "товарищ Отверстиев",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "мальчик"
+    },
+    {
+      "id": 19,
+      "doc": "340",
+      "variables": {
+        "entity_a": "Выкуп",
+        "entity_b": "его дочь Ним",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Выкуп"
+    },
+    {
+      "id": 20,
+      "doc": "342",
+      "variables": {
+        "entity_a": "лидер Меджлиса крымско - татарского народа , народный депутат Украины Мустафа Джемилев",
+        "entity_b": "Гагаузской автономии",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "лидер Меджлиса крымско - татарского народа , народный депутат Украины Мустафа Джемилев"
+    },
+    {
+      "id": 21,
+      "doc": "66",
+      "variables": {
+        "entity_a": "стендами с изображением Иосифа Сталина",
+        "entity_b": "столичных властей",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "стендами с изображением Иосифа Сталина"
+    },
+    {
+      "id": 22,
+      "doc": "19",
+      "variables": {
+        "entity_a": "архитектор - самоучка Дегтяренко",
+        "entity_b": "металлической рейсшиной",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "архитектор - самоучка Дегтяренко"
+    },
+    {
+      "id": 23,
+      "doc": "268",
+      "variables": {
+        "entity_a": "форма",
+        "entity_b": "Дэвид Бекхэм",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "форма"
+    },
+    {
+      "id": 24,
+      "doc": "67",
+      "variables": {
+        "entity_a": "Украины",
+        "entity_b": "известный американский сенатор - республиканец от штата Аризона Джон Маккейн",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Украины"
+    },
+    {
+      "id": 25,
+      "doc": "288",
+      "variables": {
+        "entity_a": "Тиной Канделаки",
+        "entity_b": "журналист Ольга Погодина",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Тиной Канделаки"
+    },
+    {
+      "id": 26,
+      "doc": "81",
+      "variables": {
+        "entity_a": "Джамаат - уд - Дава",
+        "entity_b": "всей Южной Азии",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Джамаат - уд - Дава"
+    },
+    {
+      "id": 27,
+      "doc": "251",
+      "variables": {
+        "entity_a": "частиц",
+        "entity_b": "λ",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "частиц"
+    },
+    {
+      "id": 28,
+      "doc": "71",
+      "variables": {
+        "entity_a": "репетиция",
+        "entity_b": "Легенда",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "репетиция"
+    },
+    {
+      "id": 29,
+      "doc": "18",
+      "variables": {
+        "entity_a": "Макара Долгорукого",
+        "entity_b": "Софья Андреева",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Макара Долгорукого"
+    },
+    {
+      "id": 30,
+      "doc": "340",
+      "variables": {
+        "entity_a": "Дракула – 2000",
+        "entity_b": "Дорогой Фрэнки",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Дракула – 2000"
+    },
+    {
+      "id": 31,
+      "doc": "93",
+      "variables": {
+        "entity_a": "мировые лидеры",
+        "entity_b": "Комитета по финансовой стабильности",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "мировые лидеры"
+    },
+    {
+      "id": 32,
+      "doc": "268",
+      "variables": {
+        "entity_a": "Первый дивизион",
+        "entity_b": "Кубка европейских чемпионов",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Первый дивизион"
+    },
+    {
+      "id": 33,
+      "doc": "342",
+      "variables": {
+        "entity_a": "официального Киева",
+        "entity_b": "лидер Меджлиса крымско - татарского народа , народный депутат Украины Мустафа Джемилев",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "официального Киева"
+    },
+    {
+      "id": 34,
+      "doc": "268",
+      "variables": {
+        "entity_a": "Первый дивизион",
+        "entity_b": "домашняя форма « Манчестер Юнайтед »",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Первый дивизион"
+    },
+    {
+      "id": 35,
+      "doc": "72",
+      "variables": {
+        "entity_a": "молодая женщина",
+        "entity_b": "красавицы Леоны",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "молодая женщина"
+    },
+    {
+      "id": 36,
+      "doc": "321",
+      "variables": {
+        "entity_a": "последним",
+        "entity_b": "jokermedia",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "последним"
+    },
+    {
+      "id": 37,
+      "doc": "93",
+      "variables": {
+        "entity_a": "министров финансов",
+        "entity_b": "четкий мандат",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "министров финансов"
+    },
+    {
+      "id": 38,
+      "doc": "301",
+      "variables": {
+        "entity_a": "внутренняя выставка",
+        "entity_b": "ведущего",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "внутренняя выставка"
+    },
+    {
+      "id": 39,
+      "doc": "288",
+      "variables": {
+        "entity_a": "Александр Гордон",
+        "entity_b": "Павлом Каплевичем",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Александр Гордон"
+    },
+    {
+      "id": 40,
+      "doc": "204",
+      "variables": {
+        "entity_a": "герой",
+        "entity_b": "персонажи",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "герой"
+    },
+    {
+      "id": 41,
+      "doc": "323",
+      "variables": {
+        "entity_a": "Ричард Райт",
+        "entity_b": "альбоме The Dark Side of the Moon",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Ричард Райт"
+    },
+    {
+      "id": 42,
+      "doc": "336",
+      "variables": {
+        "entity_a": "« Закрытый показ »",
+        "entity_b": "людей",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "« Закрытый показ »"
+    },
+    {
+      "id": 43,
+      "doc": "340",
+      "variables": {
+        "entity_a": "Гай Ричи",
+        "entity_b": "« Голая правда »",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Гай Ричи"
+    },
+    {
+      "id": 44,
+      "doc": "731",
+      "variables": {
+        "entity_a": "бриллиантовая брошь",
+        "entity_b": "своем изящном комсомольском носике",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "бриллиантовая брошь"
+    },
+    {
+      "id": 45,
+      "doc": "131",
+      "variables": {
+        "entity_a": "Солнцем",
+        "entity_b": "Луна",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Солнцем"
+    },
+    {
+      "id": 46,
+      "doc": "252",
+      "variables": {
+        "entity_a": "планшетный компьютер iPad",
+        "entity_b": "Инфотейнмент",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "планшетный компьютер iPad"
+    },
+    {
+      "id": 47,
+      "doc": "28",
+      "variables": {
+        "entity_a": "Эмилио",
+        "entity_b": "Бенедиктова",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Эмилио"
+    },
+    {
+      "id": 48,
+      "doc": "288",
+      "variables": {
+        "entity_a": "звезд",
+        "entity_b": "Максим Шевченко",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "звезд"
+    },
+    {
+      "id": 49,
+      "doc": "1",
+      "variables": {
+        "entity_a": "огромному обломку скалы",
+        "entity_b": "одинокую дачу",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "огромному обломку скалы"
+    },
+    {
+      "id": 50,
+      "doc": "279",
+      "variables": {
+        "entity_a": "AACM",
+        "entity_b": "пианист Сесил Тэйлор",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "AACM"
+    },
+    {
+      "id": 51,
+      "doc": "339",
+      "variables": {
+        "entity_a": "Елена",
+        "entity_b": "люди",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Елена"
+    },
+    {
+      "id": 52,
+      "doc": "321",
+      "variables": {
+        "entity_a": "романах Баяна Ширянова",
+        "entity_b": "быт наркоманов",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "романах Баяна Ширянова"
+    },
+    {
+      "id": 53,
+      "doc": "131",
+      "variables": {
+        "entity_a": "итальянский астроном Скиапарелли",
+        "entity_b": "зернистость изображения",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "итальянский астроном Скиапарелли"
+    },
+    {
+      "id": 54,
+      "doc": "323",
+      "variables": {
+        "entity_a": "Мэйсон",
+        "entity_b": "Сторм Торгерсон",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Мэйсон"
+    },
+    {
+      "id": 55,
+      "doc": "12",
+      "variables": {
+        "entity_a": "Катя",
+        "entity_b": "торговую баню",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Катя"
+    },
+    {
+      "id": 56,
+      "doc": "338",
+      "variables": {
+        "entity_a": "Нигер",
+        "entity_b": "Кот д’Ивуар",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Нигер"
+    },
+    {
+      "id": 57,
+      "doc": "270",
+      "variables": {
+        "entity_a": "отца",
+        "entity_b": "детьми",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "отца"
+    },
+    {
+      "id": 58,
+      "doc": "320",
+      "variables": {
+        "entity_a": "абхазов",
+        "entity_b": "Москвы",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "абхазов"
+    },
+    {
+      "id": 59,
+      "doc": "323",
+      "variables": {
+        "entity_a": "Рой Харпер",
+        "entity_b": "Джазовый скрипач Стефан Граппелли",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Рой Харпер"
+    },
+    {
+      "id": 60,
+      "doc": "88",
+      "variables": {
+        "entity_a": "его силовики",
+        "entity_b": "президентом Медведевым",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "его силовики"
+    },
+    {
+      "id": 61,
+      "doc": "16",
+      "variables": {
+        "entity_a": "барам",
+        "entity_b": "щегарем",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "барам"
+    },
+    {
+      "id": 62,
+      "doc": "67",
+      "variables": {
+        "entity_a": "Москва",
+        "entity_b": "известный американский сенатор - республиканец от штата Аризона Джон Маккейн",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Москва"
+    },
+    {
+      "id": 63,
+      "doc": "19",
+      "variables": {
+        "entity_a": "лампочка",
+        "entity_b": "природный дар",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "лампочка"
+    },
+    {
+      "id": 64,
+      "doc": "340",
+      "variables": {
+        "entity_a": "Джерри",
+        "entity_b": "Остров Ним",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Джерри"
+    },
+    {
+      "id": 65,
+      "doc": "92",
+      "variables": {
+        "entity_a": "кризиса",
+        "entity_b": "истинно мультиполярной валютной системы",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "кризиса"
+    },
+    {
+      "id": 66,
+      "doc": "15",
+      "variables": {
+        "entity_a": "кудрявой мяте",
+        "entity_b": "цветки",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "кудрявой мяте"
+    },
+    {
+      "id": 67,
+      "doc": "313",
+      "variables": {
+        "entity_a": "Пакистан",
+        "entity_b": "болезней",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Пакистан"
+    },
+    {
+      "id": 68,
+      "doc": "16",
+      "variables": {
+        "entity_a": "барину Саломирскову",
+        "entity_b": "главного приказчика",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "барину Саломирскову"
+    },
+    {
+      "id": 69,
+      "doc": "80",
+      "variables": {
+        "entity_a": "Тощие брошюрки общества \" Знание \"",
+        "entity_b": "ребятишки",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Тощие брошюрки общества \" Знание \""
+    },
+    {
+      "id": 70,
+      "doc": "321",
+      "variables": {
+        "entity_a": "dodger_37",
+        "entity_b": "область",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "dodger_37"
+    },
+    {
+      "id": 71,
+      "doc": "204",
+      "variables": {
+        "entity_a": "юноша",
+        "entity_b": "Главный герой « Заговора бумаг »",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "юноша"
+    },
+    {
+      "id": 72,
+      "doc": "268",
+      "variables": {
+        "entity_a": "Рона Аткинсона",
+        "entity_b": "Дохерти",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Рона Аткинсона"
+    },
+    {
+      "id": 73,
+      "doc": "288",
+      "variables": {
+        "entity_a": "Александр Гордон",
+        "entity_b": "Тина Канделаки",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Александр Гордон"
+    },
+    {
+      "id": 74,
+      "doc": "16",
+      "variables": {
+        "entity_a": "щегарем",
+        "entity_b": "барыня одна",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "щегарем"
+    },
+    {
+      "id": 75,
+      "doc": "339",
+      "variables": {
+        "entity_a": "службы « Работа.Ru »",
+        "entity_b": "Елена",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "службы « Работа.Ru »"
+    },
+    {
+      "id": 76,
+      "doc": "134",
+      "variables": {
+        "entity_a": "СССР",
+        "entity_b": "Первым печатным трудом этого рода является \" Rapports entre",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "СССР"
+    },
+    {
+      "id": 77,
+      "doc": "20",
+      "variables": {
+        "entity_a": "нянюшке",
+        "entity_b": "Дом княгини",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "нянюшке"
+    },
+    {
+      "id": 78,
+      "doc": "134",
+      "variables": {
+        "entity_a": "тверского купца Афанасия Никитина",
+        "entity_b": "Петербурге",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "тверского купца Афанасия Никитина"
+    },
+    {
+      "id": 79,
+      "doc": "7",
+      "variables": {
+        "entity_a": "вагона",
+        "entity_b": "короткий , ладно пошитый тулупчик",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "вагона"
+    },
+    {
+      "id": 80,
+      "doc": "738",
+      "variables": {
+        "entity_a": "гения",
+        "entity_b": "мороженым",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "гения"
+    },
+    {
+      "id": 81,
+      "doc": "67",
+      "variables": {
+        "entity_a": "Украины",
+        "entity_b": "трансатлантические партнеры",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Украины"
+    },
+    {
+      "id": 82,
+      "doc": "323",
+      "variables": {
+        "entity_a": "Мэйсон",
+        "entity_b": "альбоме The Dark Side of the Moon",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Мэйсон"
+    },
+    {
+      "id": 83,
+      "doc": "323",
+      "variables": {
+        "entity_a": "Великобритании",
+        "entity_b": "диска Roxy Music Country Life",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Великобритании"
+    },
+    {
+      "id": 84,
+      "doc": "93",
+      "variables": {
+        "entity_a": "G - 20",
+        "entity_b": "мировые лидеры",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "G - 20"
+    },
+    {
+      "id": 85,
+      "doc": "279",
+      "variables": {
+        "entity_a": "пианист Сесил Тэйлор",
+        "entity_b": "Звуки",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "пианист Сесил Тэйлор"
+    },
+    {
+      "id": 86,
+      "doc": "738",
+      "variables": {
+        "entity_a": "одинокий человек",
+        "entity_b": "Дворцовая площадь",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "одинокий человек"
+    },
+    {
+      "id": 87,
+      "doc": "313",
+      "variables": {
+        "entity_a": "Ирана",
+        "entity_b": "БРСД",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Ирана"
+    },
+    {
+      "id": 88,
+      "doc": "17",
+      "variables": {
+        "entity_a": "кучеру",
+        "entity_b": "синим огоньком",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "кучеру"
+    },
+    {
+      "id": 89,
+      "doc": "8",
+      "variables": {
+        "entity_a": "подружкой Зиной Колесовой",
+        "entity_b": "пилотку",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "подружкой Зиной Колесовой"
+    },
+    {
+      "id": 90,
+      "doc": "131",
+      "variables": {
+        "entity_a": "Земле",
+        "entity_b": "Луна",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Земле"
+    },
+    {
+      "id": 91,
+      "doc": "251",
+      "variables": {
+        "entity_a": "ещё два внешних кольца",
+        "entity_b": "Уильям Гершель",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ещё два внешних кольца"
+    },
+    {
+      "id": 92,
+      "doc": "288",
+      "variables": {
+        "entity_a": "ток - шоу",
+        "entity_b": "Николае Ускове",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ток - шоу"
+    },
+    {
+      "id": 93,
+      "doc": "323",
+      "variables": {
+        "entity_a": "Сторм Торгерсон",
+        "entity_b": "схожую чёрную или синюю оболочку",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Сторм Торгерсон"
+    },
+    {
+      "id": 94,
+      "doc": "114",
+      "variables": {
+        "entity_a": "нашей компании",
+        "entity_b": "главным аниматором",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "нашей компании"
+    },
+    {
+      "id": 95,
+      "doc": "211",
+      "variables": {
+        "entity_a": "России",
+        "entity_b": "модели автомобиля",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "России"
+    },
+    {
+      "id": 96,
+      "doc": "204",
+      "variables": {
+        "entity_a": "герой",
+        "entity_b": "романа Дэвида Лисса « Этичный убийца »",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "герой"
+    },
+    {
+      "id": 97,
+      "doc": "204",
+      "variables": {
+        "entity_a": "персонажи",
+        "entity_b": "отчимом",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "персонажи"
+    },
+    {
+      "id": 98,
+      "doc": "134",
+      "variables": {
+        "entity_a": "Академия Наук",
+        "entity_b": "санскрит",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Академия Наук"
+    },
+    {
+      "id": 99,
+      "doc": "8",
+      "variables": {
+        "entity_a": "Письмо",
+        "entity_b": "школы",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Письмо"
+    },
+    {
+      "id": 100,
+      "doc": "339",
+      "variables": {
+        "entity_a": "Елена",
+        "entity_b": "России",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Елена"
+    },
+    {
+      "id": 101,
+      "doc": "264",
+      "variables": {
+        "entity_a": "швейцарским франком",
+        "entity_b": "долларов",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "швейцарским франком"
+    },
+    {
+      "id": 102,
+      "doc": "92",
+      "variables": {
+        "entity_a": "развивающимся странам",
+        "entity_b": "развитых странах",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "развивающимся странам"
+    },
+    {
+      "id": 103,
+      "doc": "51",
+      "variables": {
+        "entity_a": "Сочи",
+        "entity_b": "экстремисты",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Сочи"
+    },
+    {
+      "id": 104,
+      "doc": "279",
+      "variables": {
+        "entity_a": "Джон Зорн",
+        "entity_b": "Джона Колтрейна",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Джон Зорн"
+    },
+    {
+      "id": 105,
+      "doc": "8",
+      "variables": {
+        "entity_a": "Машу Ракитину",
+        "entity_b": "Саньки Коншакова",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Машу Ракитину"
+    },
+    {
+      "id": 106,
+      "doc": "302",
+      "variables": {
+        "entity_a": "их выросших детей",
+        "entity_b": "Родители нынешних 35 — 45 - летних",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "их выросших детей"
+    },
+    {
+      "id": 107,
+      "doc": "131",
+      "variables": {
+        "entity_a": "Меркурия",
+        "entity_b": "Луна",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Меркурия"
+    },
+    {
+      "id": 108,
+      "doc": "288",
+      "variables": {
+        "entity_a": "Александр Гордон",
+        "entity_b": "Николае Ускове",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Александр Гордон"
+    },
+    {
+      "id": 109,
+      "doc": "254",
+      "variables": {
+        "entity_a": "генеральши Епанчиной",
+        "entity_b": "кофейные ламентации",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "генеральши Епанчиной"
+    },
+    {
+      "id": 110,
+      "doc": "72",
+      "variables": {
+        "entity_a": "муж",
+        "entity_b": "красавицы Леоны",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "муж"
+    },
+    {
+      "id": 111,
+      "doc": "279",
+      "variables": {
+        "entity_a": "Фэроу Сэндерс",
+        "entity_b": "Нью - Йорк",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Фэроу Сэндерс"
+    },
+    {
+      "id": 112,
+      "doc": "251",
+      "variables": {
+        "entity_a": "« Вояджером - 2 »",
+        "entity_b": "Корделию",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "« Вояджером - 2 »"
+    },
+    {
+      "id": 113,
+      "doc": "23",
+      "variables": {
+        "entity_a": "пятиэтажного дома",
+        "entity_b": "рубашку",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "пятиэтажного дома"
+    },
+    {
+      "id": 114,
+      "doc": "6",
+      "variables": {
+        "entity_a": "моей жене",
+        "entity_b": "дворецкий",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "моей жене"
+    },
+    {
+      "id": 115,
+      "doc": "323",
+      "variables": {
+        "entity_a": "Рой Харпер",
+        "entity_b": "Сторм Торгерсон",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Рой Харпер"
+    },
+    {
+      "id": 116,
+      "doc": "268",
+      "variables": {
+        "entity_a": "сэр Алекс Фергюсон",
+        "entity_b": "Эрика Кантона",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "сэр Алекс Фергюсон"
+    },
+    {
+      "id": 117,
+      "doc": "93",
+      "variables": {
+        "entity_a": "Комитета по финансовой стабильности",
+        "entity_b": "институт страхового типа",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Комитета по финансовой стабильности"
+    },
+    {
+      "id": 118,
+      "doc": "134",
+      "variables": {
+        "entity_a": "санскрит",
+        "entity_b": "Щербатской ) и их ученики Е .",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "санскрит"
+    },
+    {
+      "id": 119,
+      "doc": "88",
+      "variables": {
+        "entity_a": "Грузией",
+        "entity_b": "его силовики",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Грузией"
+    },
+    {
+      "id": 120,
+      "doc": "323",
+      "variables": {
+        "entity_a": "Columbia Records",
+        "entity_b": "сострадающего идеалиста и « хваткого , алчного , эгоистичного парнишки",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Columbia Records"
+    },
+    {
+      "id": 121,
+      "doc": "340",
+      "variables": {
+        "entity_a": "Призрак Оперы",
+        "entity_b": "брутального обаяния",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Призрак Оперы"
+    },
+    {
+      "id": 122,
+      "doc": "68",
+      "variables": {
+        "entity_a": "нашей страны",
+        "entity_b": "афганской стратегии",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "нашей страны"
+    },
+    {
+      "id": 123,
+      "doc": "251",
+      "variables": {
+        "entity_a": "« Вояджером - 2 »",
+        "entity_b": "1986U2R / ζ",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "« Вояджером - 2 »"
+    },
+    {
+      "id": 124,
+      "doc": "270",
+      "variables": {
+        "entity_a": "соседки",
+        "entity_b": "тот удар",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "соседки"
+    },
+    {
+      "id": 125,
+      "doc": "22",
+      "variables": {
+        "entity_a": "наш брат чиновник",
+        "entity_b": "один приятель",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "наш брат чиновник"
+    },
+    {
+      "id": 126,
+      "doc": "342",
+      "variables": {
+        "entity_a": "« Голоса Америки »",
+        "entity_b": "Гагаузской автономии",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "« Голоса Америки »"
+    },
+    {
+      "id": 127,
+      "doc": "279",
+      "variables": {
+        "entity_a": "саксофонист Орнетт Коулмэн",
+        "entity_b": "Джон Зорн",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "саксофонист Орнетт Коулмэн"
+    },
+    {
+      "id": 128,
+      "doc": "251",
+      "variables": {
+        "entity_a": "Уильям Гершель",
+        "entity_b": "1986U2R / ζ",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Уильям Гершель"
+    },
+    {
+      "id": 129,
+      "doc": "288",
+      "variables": {
+        "entity_a": "Тина Канделаки",
+        "entity_b": "Достоевском",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Тина Канделаки"
+    },
+    {
+      "id": 130,
+      "doc": "13",
+      "variables": {
+        "entity_a": "Марья Васильевна",
+        "entity_b": "таблицу",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Марья Васильевна"
+    },
+    {
+      "id": 131,
+      "doc": "8",
+      "variables": {
+        "entity_a": "письмо с пометкой \" срочное \" и с тремя марками на конверте",
+        "entity_b": "пустом поле",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "письмо с пометкой \" срочное \" и с тремя марками на конверте"
+    },
+    {
+      "id": 132,
+      "doc": "269",
+      "variables": {
+        "entity_a": "консерваторы",
+        "entity_b": "лейбористов",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "консерваторы"
+    },
+    {
+      "id": 133,
+      "doc": "268",
+      "variables": {
+        "entity_a": "Первый дивизион",
+        "entity_b": "его ассистента",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Первый дивизион"
+    },
+    {
+      "id": 134,
+      "doc": "275",
+      "variables": {
+        "entity_a": "других источников",
+        "entity_b": "жеребьёвка предварительных групп финальной стадии Чемпионата мира по футболу 2006 года",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "других источников"
+    },
+    {
+      "id": 135,
+      "doc": "288",
+      "variables": {
+        "entity_a": "ток - шоу",
+        "entity_b": "Александр Гордон",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ток - шоу"
+    },
+    {
+      "id": 136,
+      "doc": "268",
+      "variables": {
+        "entity_a": "прозвища команды",
+        "entity_b": "английский профессиональный футбольный клуб из Стретфорда , Большой Манчестер .",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "прозвища команды"
+    },
+    {
+      "id": 137,
+      "doc": "23",
+      "variables": {
+        "entity_a": "другая особа",
+        "entity_b": "окно",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "другая особа"
+    },
+    {
+      "id": 138,
+      "doc": "87",
+      "variables": {
+        "entity_a": "лидеры « Большой Двадцатки »",
+        "entity_b": "Такие Бреттон - Вудские учреждения",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "лидеры « Большой Двадцатки »"
+    },
+    {
+      "id": 139,
+      "doc": "288",
+      "variables": {
+        "entity_a": "Александр Гордон",
+        "entity_b": "Тиной Канделаки",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Александр Гордон"
+    },
+    {
+      "id": 140,
+      "doc": "2",
+      "variables": {
+        "entity_a": "Витька",
+        "entity_b": "Оскорбленное достоинство Мордатенковой",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Витька"
+    },
+    {
+      "id": 141,
+      "doc": "212",
+      "variables": {
+        "entity_a": "Агрессия НАТО против Югославии",
+        "entity_b": "F - 117А",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Агрессия НАТО против Югославии"
+    },
+    {
+      "id": 142,
+      "doc": "81",
+      "variables": {
+        "entity_a": "Индии",
+        "entity_b": "Лашкар - и - Тайба",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Индии"
+    },
+    {
+      "id": 143,
+      "doc": "340",
+      "variables": {
+        "entity_a": "Дракула – 2000",
+        "entity_b": "Рок - н - ролльщик",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Дракула – 2000"
+    },
+    {
+      "id": 144,
+      "doc": "56",
+      "variables": {
+        "entity_a": "раненом учителе",
+        "entity_b": "заложников",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "раненом учителе"
+    },
+    {
+      "id": 145,
+      "doc": "312",
+      "variables": {
+        "entity_a": "Советском Союзе",
+        "entity_b": "будущий лидер Абхазии Владислав Ардзинба",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Советском Союзе"
+    },
+    {
+      "id": 146,
+      "doc": "68",
+      "variables": {
+        "entity_a": "нашей страны",
+        "entity_b": "военную базу Форт Драм",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "нашей страны"
+    },
+    {
+      "id": 147,
+      "doc": "288",
+      "variables": {
+        "entity_a": "ток - шоу",
+        "entity_b": "Ксенией Собчак",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ток - шоу"
+    },
+    {
+      "id": 148,
+      "doc": "288",
+      "variables": {
+        "entity_a": "Тина Канделаки",
+        "entity_b": "журналист Ольга Погодина",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Тина Канделаки"
+    },
+    {
+      "id": 149,
+      "doc": "87",
+      "variables": {
+        "entity_a": "Всемирный банк",
+        "entity_b": "моделей распределения",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Всемирный банк"
+    },
+    {
+      "id": 150,
+      "doc": "268",
+      "variables": {
+        "entity_a": "тренеру резервной команды",
+        "entity_b": "чемпионата",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "тренеру резервной команды"
+    },
+    {
+      "id": 151,
+      "doc": "23",
+      "variables": {
+        "entity_a": "Ида Марковна",
+        "entity_b": "окно",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Ида Марковна"
+    },
+    {
+      "id": 152,
+      "doc": "93",
+      "variables": {
+        "entity_a": "мировые лидеры",
+        "entity_b": "кризиса",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "мировые лидеры"
+    },
+    {
+      "id": 153,
+      "doc": "288",
+      "variables": {
+        "entity_a": "журналист Ольга Погодина",
+        "entity_b": "Достоевском",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "журналист Ольга Погодина"
+    },
+    {
+      "id": 154,
+      "doc": "2",
+      "variables": {
+        "entity_a": "Оскорбленное достоинство Мордатенковой",
+        "entity_b": "Соседи",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Оскорбленное достоинство Мордатенковой"
+    },
+    {
+      "id": 155,
+      "doc": "20",
+      "variables": {
+        "entity_a": "Аполлон , Сережа и я",
+        "entity_b": "Дом княгини",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Аполлон , Сережа и я"
+    },
+    {
+      "id": 156,
+      "doc": "23",
+      "variables": {
+        "entity_a": "другая особа",
+        "entity_b": "Ида Марковна",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "другая особа"
+    },
+    {
+      "id": 157,
+      "doc": "134",
+      "variables": {
+        "entity_a": "России",
+        "entity_b": "Академия Наук",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "России"
+    },
+    {
+      "id": 158,
+      "doc": "67",
+      "variables": {
+        "entity_a": "Украины",
+        "entity_b": "Россией",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Украины"
+    },
+    {
+      "id": 159,
+      "doc": "9",
+      "variables": {
+        "entity_a": "тринадцатилетней Наташе Сатиной",
+        "entity_b": "жены Веры Павловны",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "тринадцатилетней Наташе Сатиной"
+    },
+    {
+      "id": 160,
+      "doc": "275",
+      "variables": {
+        "entity_a": "— Проекты фонда « лицензии CC",
+        "entity_b": "жеребьёвка предварительных групп финальной стадии Чемпионата мира по футболу 2006 года",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "— Проекты фонда « лицензии CC"
+    },
+    {
+      "id": 161,
+      "doc": "9",
+      "variables": {
+        "entity_a": "ее сестру",
+        "entity_b": "гувернантки Миссочки",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ее сестру"
+    },
+    {
+      "id": 162,
+      "doc": "340",
+      "variables": {
+        "entity_a": "тихого биолога Джека Русо",
+        "entity_b": "Майк Баркер",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "тихого биолога Джека Русо"
+    },
+    {
+      "id": 163,
+      "doc": "288",
+      "variables": {
+        "entity_a": "Максим Шевченко",
+        "entity_b": "ток - шоу",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Максим Шевченко"
+    },
+    {
+      "id": 164,
+      "doc": "67",
+      "variables": {
+        "entity_a": "Москва",
+        "entity_b": "Ирана",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Москва"
+    },
+    {
+      "id": 165,
+      "doc": "88",
+      "variables": {
+        "entity_a": "Российский премьер - министр Владимир Путин",
+        "entity_b": "Всемирную Торговую Организацию",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Российский премьер - министр Владимир Путин"
+    },
+    {
+      "id": 166,
+      "doc": "209",
+      "variables": {
+        "entity_a": "Вивека Кундру",
+        "entity_b": "его предвыборной программы",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Вивека Кундру"
+    },
+    {
+      "id": 167,
+      "doc": "9",
+      "variables": {
+        "entity_a": "гувернантки Миссочки",
+        "entity_b": "лето",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "гувернантки Миссочки"
+    },
+    {
+      "id": 168,
+      "doc": "270",
+      "variables": {
+        "entity_a": "учительница",
+        "entity_b": "селе Выползово",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "учительница"
+    },
+    {
+      "id": 169,
+      "doc": "288",
+      "variables": {
+        "entity_a": "Максим Шевченко",
+        "entity_b": "журналист Ольга Погодина",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Максим Шевченко"
+    },
+    {
+      "id": 170,
+      "doc": "313",
+      "variables": {
+        "entity_a": "Китай",
+        "entity_b": "КНДР",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Китай"
+    },
+    {
+      "id": 171,
+      "doc": "268",
+      "variables": {
+        "entity_a": "Первый дивизион",
+        "entity_b": "Дейв Секстон",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Первый дивизион"
+    },
+    {
+      "id": 172,
+      "doc": "131",
+      "variables": {
+        "entity_a": "итальянский астроном Скиапарелли",
+        "entity_b": "Фотография",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "итальянский астроном Скиапарелли"
+    },
+    {
+      "id": 173,
+      "doc": "16",
+      "variables": {
+        "entity_a": "барину Саломирскову",
+        "entity_b": "щегарем",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "барину Саломирскову"
+    },
+    {
+      "id": 174,
+      "doc": "725",
+      "variables": {
+        "entity_a": "поправки в Налоговый кодекс",
+        "entity_b": "номер социального страхования США",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "поправки в Налоговый кодекс"
+    },
+    {
+      "id": 175,
+      "doc": "251",
+      "variables": {
+        "entity_a": "« Вояджером - 2 »",
+        "entity_b": "λ",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "« Вояджером - 2 »"
+    },
+    {
+      "id": 176,
+      "doc": "288",
+      "variables": {
+        "entity_a": "Достоевском",
+        "entity_b": "фирм",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Достоевском"
+    },
+    {
+      "id": 177,
+      "doc": "212",
+      "variables": {
+        "entity_a": "Югославии",
+        "entity_b": "Агрессия НАТО против Югославии",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Югославии"
+    },
+    {
+      "id": 178,
+      "doc": "9",
+      "variables": {
+        "entity_a": "балетоманку Лелю",
+        "entity_b": "ивановские старожилы",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "балетоманку Лелю"
+    },
+    {
+      "id": 179,
+      "doc": "321",
+      "variables": {
+        "entity_a": "iukka",
+        "entity_b": "Блогер и шоумен Сергей Стиллавин",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "iukka"
+    },
+    {
+      "id": 180,
+      "doc": "12",
+      "variables": {
+        "entity_a": "Директор Груздев",
+        "entity_b": "Катя",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Директор Груздев"
+    },
+    {
+      "id": 181,
+      "doc": "134",
+      "variables": {
+        "entity_a": "тверского купца Афанасия Никитина",
+        "entity_b": "Л .",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "тверского купца Афанасия Никитина"
+    },
+    {
+      "id": 182,
+      "doc": "251",
+      "variables": {
+        "entity_a": "« Вояджером - 2 »",
+        "entity_b": "ν",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "« Вояджером - 2 »"
+    },
+    {
+      "id": 183,
+      "doc": "251",
+      "variables": {
+        "entity_a": "ширины кольца",
+        "entity_b": "Дугласом Минком",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ширины кольца"
+    },
+    {
+      "id": 184,
+      "doc": "251",
+      "variables": {
+        "entity_a": "« Вояджером - 2 »",
+        "entity_b": "Офелию",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "« Вояджером - 2 »"
+    },
+    {
+      "id": 185,
+      "doc": "268",
+      "variables": {
+        "entity_a": "Премьер - лигу",
+        "entity_b": "Дейв Секстон",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Премьер - лигу"
+    },
+    {
+      "id": 186,
+      "doc": "323",
+      "variables": {
+        "entity_a": "Ричард Райт",
+        "entity_b": "США",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Ричард Райт"
+    },
+    {
+      "id": 187,
+      "doc": "268",
+      "variables": {
+        "entity_a": "Кубков Англии",
+        "entity_b": "сэр Алекс Фергюсон",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Кубков Англии"
+    },
+    {
+      "id": 188,
+      "doc": "272",
+      "variables": {
+        "entity_a": "мужчины",
+        "entity_b": "женщины",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "мужчины"
+    },
+    {
+      "id": 189,
+      "doc": "323",
+      "variables": {
+        "entity_a": "США",
+        "entity_b": "Сторм Торгерсон",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "США"
+    },
+    {
+      "id": 190,
+      "doc": "84",
+      "variables": {
+        "entity_a": "радикальной джихадской группировки « Воины бога »",
+        "entity_b": "Аль - Каиды",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "радикальной джихадской группировки « Воины бога »"
+    },
+    {
+      "id": 191,
+      "doc": "91",
+      "variables": {
+        "entity_a": "Палестиной",
+        "entity_b": "Израилем",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Палестиной"
+    },
+    {
+      "id": 192,
+      "doc": "131",
+      "variables": {
+        "entity_a": "Каналы",
+        "entity_b": "Юпитера , Сатурна , Урана и Нептуна",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Каналы"
+    },
+    {
+      "id": 193,
+      "doc": "342",
+      "variables": {
+        "entity_a": "премьер - министр Турции Реджеп Тайип Эрдоган",
+        "entity_b": "официального Киева",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "премьер - министр Турции Реджеп Тайип Эрдоган"
+    },
+    {
+      "id": 194,
+      "doc": "255",
+      "variables": {
+        "entity_a": "США",
+        "entity_b": "лондонском Музее мадам Тюссо",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "США"
+    },
+    {
+      "id": 195,
+      "doc": "63",
+      "variables": {
+        "entity_a": "России",
+        "entity_b": "этого ужасного преступления",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "России"
+    },
+    {
+      "id": 196,
+      "doc": "204",
+      "variables": {
+        "entity_a": "персонажи",
+        "entity_b": "романа Дэвида Лисса « Этичный убийца »",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "персонажи"
+    },
+    {
+      "id": 197,
+      "doc": "323",
+      "variables": {
+        "entity_a": "Сторм Торгерсон",
+        "entity_b": "британского журнала Q",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Сторм Торгерсон"
+    },
+    {
+      "id": 198,
+      "doc": "68",
+      "variables": {
+        "entity_a": "нашей страны",
+        "entity_b": "5 тысяч военных",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "нашей страны"
+    },
+    {
+      "id": 199,
+      "doc": "6",
+      "variables": {
+        "entity_a": "моей жене",
+        "entity_b": "театр",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "моей жене"
+    },
+    {
+      "id": 200,
+      "doc": "56",
+      "variables": {
+        "entity_a": "молодого человека",
+        "entity_b": "школе номер 263",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "молодого человека"
+    },
+    {
+      "id": 201,
+      "doc": "92",
+      "variables": {
+        "entity_a": "развитых странах",
+        "entity_b": "истинно мультиполярной валютной системы",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "развитых странах"
+    },
+    {
+      "id": 202,
+      "doc": "133",
+      "variables": {
+        "entity_a": "основанные на наивном взгляде на мир представления",
+        "entity_b": "наивного сознания",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "основанные на наивном взгляде на мир представления"
+    },
+    {
+      "id": 203,
+      "doc": "7",
+      "variables": {
+        "entity_a": "пожилая колхозница",
+        "entity_b": "вагона",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "пожилая колхозница"
+    },
+    {
+      "id": 204,
+      "doc": "323",
+      "variables": {
+        "entity_a": "своего горящего двойника",
+        "entity_b": "Самое все фонограммы для песни « Shine On You Crazy Diamond",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "своего горящего двойника"
+    },
+    {
+      "id": 205,
+      "doc": "313",
+      "variables": {
+        "entity_a": "США",
+        "entity_b": "Израиля",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "США"
+    },
+    {
+      "id": 206,
+      "doc": "251",
+      "variables": {
+        "entity_a": "Уильям Гершель",
+        "entity_b": "μ",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Уильям Гершель"
+    },
+    {
+      "id": 207,
+      "doc": "91",
+      "variables": {
+        "entity_a": "Западного Берега",
+        "entity_b": "бывший премьер - министр Великобритании Тони Блэр",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Западного Берега"
+    },
+    {
+      "id": 208,
+      "doc": "204",
+      "variables": {
+        "entity_a": "собственного отца",
+        "entity_b": "Нидерланды",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "собственного отца"
+    },
+    {
+      "id": 209,
+      "doc": "28",
+      "variables": {
+        "entity_a": "Джемма",
+        "entity_b": "Эмилио",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Джемма"
+    },
+    {
+      "id": 210,
+      "doc": "268",
+      "variables": {
+        "entity_a": "Кубков Англии",
+        "entity_b": "Кубка европейских чемпионов",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Кубков Англии"
+    },
+    {
+      "id": 211,
+      "doc": "93",
+      "variables": {
+        "entity_a": "G - 20",
+        "entity_b": "кризиса",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "G - 20"
+    },
+    {
+      "id": 212,
+      "doc": "81",
+      "variables": {
+        "entity_a": "Лашкар - и - Тайба",
+        "entity_b": "организации Ахле Хадит",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Лашкар - и - Тайба"
+    },
+    {
+      "id": 213,
+      "doc": "67",
+      "variables": {
+        "entity_a": "Ирана",
+        "entity_b": "Грузию",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Ирана"
+    },
+    {
+      "id": 214,
+      "doc": "266",
+      "variables": {
+        "entity_a": "рынка ценных бумаг",
+        "entity_b": "сервис ( в духе популярного микроблога Twitter ) для нужд бизнеса и межкорпоративных коммуникаций",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "рынка ценных бумаг"
+    },
+    {
+      "id": 215,
+      "doc": "290",
+      "variables": {
+        "entity_a": "юриста Сергея Магнитского",
+        "entity_b": "президенту РФ",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "юриста Сергея Магнитского"
+    },
+    {
+      "id": 216,
+      "doc": "13",
+      "variables": {
+        "entity_a": "товарищ Отверстиев",
+        "entity_b": "Марья Васильевна",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "товарищ Отверстиев"
+    },
+    {
+      "id": 217,
+      "doc": "251",
+      "variables": {
+        "entity_a": "ν",
+        "entity_b": "короны Урана",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ν"
+    },
+    {
+      "id": 218,
+      "doc": "715",
+      "variables": {
+        "entity_a": "улице Грушевского",
+        "entity_b": "столкновения",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "улице Грушевского"
+    },
+    {
+      "id": 219,
+      "doc": "255",
+      "variables": {
+        "entity_a": "США",
+        "entity_b": "футболки с изображением нового хозяина Белого дома в образе ортодоксального еврея в кипе и с пейсами",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "США"
+    },
+    {
+      "id": 220,
+      "doc": "134",
+      "variables": {
+        "entity_a": "Академия Наук",
+        "entity_b": "Л .",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Академия Наук"
+    },
+    {
+      "id": 221,
+      "doc": "81",
+      "variables": {
+        "entity_a": "Индии",
+        "entity_b": "всей Южной Азии",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Индии"
+    },
+    {
+      "id": 222,
+      "doc": "279",
+      "variables": {
+        "entity_a": "группа Art Ensemble of Chicago",
+        "entity_b": "Джона Колтрейна",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "группа Art Ensemble of Chicago"
+    },
+    {
+      "id": 223,
+      "doc": "2",
+      "variables": {
+        "entity_a": "Витька",
+        "entity_b": "Соседи",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Витька"
+    },
+    {
+      "id": 224,
+      "doc": "266",
+      "variables": {
+        "entity_a": "Swype",
+        "entity_b": "микроблог для корпораций",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Swype"
+    },
+    {
+      "id": 225,
+      "doc": "342",
+      "variables": {
+        "entity_a": "автономной республики Крым",
+        "entity_b": "лидер Меджлиса крымско - татарского народа , народный депутат Украины Мустафа Джемилев",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "автономной республики Крым"
+    },
+    {
+      "id": 226,
+      "doc": "9",
+      "variables": {
+        "entity_a": "сердце Верочки",
+        "entity_b": "Буфетчику Адриану",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "сердце Верочки"
+    },
+    {
+      "id": 227,
+      "doc": "28",
+      "variables": {
+        "entity_a": "Джемма",
+        "entity_b": "Обе дамы",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Джемма"
+    },
+    {
+      "id": 228,
+      "doc": "7",
+      "variables": {
+        "entity_a": "грязный , согнутый человек в лохмотьях",
+        "entity_b": "пожилая колхозница",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "грязный , согнутый человек в лохмотьях"
+    },
+    {
+      "id": 229,
+      "doc": "53",
+      "variables": {
+        "entity_a": "националистической партии « Свобода »",
+        "entity_b": "Прокуратура Крымской автономии",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "националистической партии « Свобода »"
+    },
+    {
+      "id": 230,
+      "doc": "321",
+      "variables": {
+        "entity_a": "Блогер и шоумен Сергей Стиллавин",
+        "entity_b": "столичного Управления наркоконтроля",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Блогер и шоумен Сергей Стиллавин"
+    },
+    {
+      "id": 231,
+      "doc": "211",
+      "variables": {
+        "entity_a": "России",
+        "entity_b": "Renault",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "России"
+    },
+    {
+      "id": 232,
+      "doc": "268",
+      "variables": {
+        "entity_a": "Кубков Англии",
+        "entity_b": "Дейв Секстон",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Кубков Англии"
+    },
+    {
+      "id": 233,
+      "doc": "16",
+      "variables": {
+        "entity_a": "главного приказчика",
+        "entity_b": "Турчаниновские наследники",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "главного приказчика"
+    },
+    {
+      "id": 234,
+      "doc": "268",
+      "variables": {
+        "entity_a": "Кубков Англии",
+        "entity_b": "Эрика Кантона",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Кубков Англии"
+    },
+    {
+      "id": 235,
+      "doc": "134",
+      "variables": {
+        "entity_a": "Петербурге",
+        "entity_b": "лучшая в СССР востоковедная библиотека",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Петербурге"
+    },
+    {
+      "id": 236,
+      "doc": "94",
+      "variables": {
+        "entity_a": "стран",
+        "entity_b": "пять основных ядерных государств",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "стран"
+    },
+    {
+      "id": 237,
+      "doc": "84",
+      "variables": {
+        "entity_a": "Газы",
+        "entity_b": "радикальной джихадской группировки « Воины бога »",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Газы"
+    },
+    {
+      "id": 238,
+      "doc": "134",
+      "variables": {
+        "entity_a": "Индия",
+        "entity_b": "ряд работ",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Индия"
+    },
+    {
+      "id": 239,
+      "doc": "251",
+      "variables": {
+        "entity_a": "« Вояджером - 2 »",
+        "entity_b": "Нептуна",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "« Вояджером - 2 »"
+    },
+    {
+      "id": 240,
+      "doc": "323",
+      "variables": {
+        "entity_a": "альбоме The Dark Side of the Moon",
+        "entity_b": "Великобритании",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "альбоме The Dark Side of the Moon"
+    },
+    {
+      "id": 241,
+      "doc": "69",
+      "variables": {
+        "entity_a": "допинг",
+        "entity_b": "сборной Уэльса",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "допинг"
+    },
+    {
+      "id": 242,
+      "doc": "82",
+      "variables": {
+        "entity_a": "долине Сват",
+        "entity_b": "лидером Талибана Суфи Мохаммедом",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "долине Сват"
+    },
+    {
+      "id": 243,
+      "doc": "266",
+      "variables": {
+        "entity_a": "Swype",
+        "entity_b": "FitBit",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Swype"
+    },
+    {
+      "id": 244,
+      "doc": "302",
+      "variables": {
+        "entity_a": "« юных каннибалах »",
+        "entity_b": "Часкоре",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "« юных каннибалах »"
+    },
+    {
+      "id": 245,
+      "doc": "340",
+      "variables": {
+        "entity_a": "Великобритания",
+        "entity_b": "самая трогательная роль Батлера",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Великобритания"
+    },
+    {
+      "id": 246,
+      "doc": "88",
+      "variables": {
+        "entity_a": "Грузией",
+        "entity_b": "президентом Медведевым",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Грузией"
+    },
+    {
+      "id": 247,
+      "doc": "253",
+      "variables": {
+        "entity_a": "Самец",
+        "entity_b": "обыкновенной гаги",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Самец"
+    },
+    {
+      "id": 248,
+      "doc": "8",
+      "variables": {
+        "entity_a": "Андрея Иваныча",
+        "entity_b": "колхозный письмоносец Тимка Колечкин",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Андрея Иваныча"
+    },
+    {
+      "id": 249,
+      "doc": "713",
+      "variables": {
+        "entity_a": "« идентифицирующей учетной записью »",
+        "entity_b": "Израиле",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "« идентифицирующей учетной записью »"
+    },
+    {
+      "id": 250,
+      "doc": "132",
+      "variables": {
+        "entity_a": "фульгуриты",
+        "entity_b": "ТРО",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "фульгуриты"
+    },
+    {
+      "id": 251,
+      "doc": "268",
+      "variables": {
+        "entity_a": "Дохерти",
+        "entity_b": "чемпионата",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Дохерти"
+    },
+    {
+      "id": 252,
+      "doc": "323",
+      "variables": {
+        "entity_a": "Ричард Райт",
+        "entity_b": "Рой Харпер",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Ричард Райт"
+    },
+    {
+      "id": 253,
+      "doc": "323",
+      "variables": {
+        "entity_a": "Рой Харпер",
+        "entity_b": "сострадающего идеалиста и « хваткого , алчного , эгоистичного парнишки",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Рой Харпер"
+    },
+    {
+      "id": 254,
+      "doc": "92",
+      "variables": {
+        "entity_a": "Группы двадцати",
+        "entity_b": "крупных фондов",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Группы двадцати"
+    },
+    {
+      "id": 255,
+      "doc": "114",
+      "variables": {
+        "entity_a": "нашей компании",
+        "entity_b": "Отличный отель для бюджетного отдыха",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "нашей компании"
+    },
+    {
+      "id": 256,
+      "doc": "81",
+      "variables": {
+        "entity_a": "всей Южной Азии",
+        "entity_b": "Лашкар - и - Тайба",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "всей Южной Азии"
+    },
+    {
+      "id": 257,
+      "doc": "82",
+      "variables": {
+        "entity_a": "лидером Талибана Суфи Мохаммедом",
+        "entity_b": "Демократия",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "лидером Талибана Суфи Мохаммедом"
+    },
+    {
+      "id": 258,
+      "doc": "22",
+      "variables": {
+        "entity_a": "его дочка",
+        "entity_b": "наш брат чиновник",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "его дочка"
+    },
+    {
+      "id": 259,
+      "doc": "20",
+      "variables": {
+        "entity_a": "Аполлон , Сережа и я",
+        "entity_b": "Аполлон Павлович",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Аполлон , Сережа и я"
+    },
+    {
+      "id": 260,
+      "doc": "84",
+      "variables": {
+        "entity_a": "сектор Газа",
+        "entity_b": "мировому джихаду",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "сектор Газа"
+    },
+    {
+      "id": 261,
+      "doc": "268",
+      "variables": {
+        "entity_a": "Кубков Англии",
+        "entity_b": "клубной эмблемы",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Кубков Англии"
+    },
+    {
+      "id": 262,
+      "doc": "295",
+      "variables": {
+        "entity_a": "областью",
+        "entity_b": "компенсаций",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "областью"
+    },
+    {
+      "id": 263,
+      "doc": "268",
+      "variables": {
+        "entity_a": "Первый дивизион",
+        "entity_b": "Эрика Кантона",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Первый дивизион"
+    },
+    {
+      "id": 264,
+      "doc": "131",
+      "variables": {
+        "entity_a": "немецким физиком и физиологом Кюлем",
+        "entity_b": "белых облаков",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "немецким физиком и физиологом Кюлем"
+    },
+    {
+      "id": 265,
+      "doc": "279",
+      "variables": {
+        "entity_a": "саксофонист Орнетт Коулмэн",
+        "entity_b": "группа Art Ensemble of Chicago",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "саксофонист Орнетт Коулмэн"
+    },
+    {
+      "id": 266,
+      "doc": "733",
+      "variables": {
+        "entity_a": "Внука",
+        "entity_b": "Михайловскому",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Внука"
+    },
+    {
+      "id": 267,
+      "doc": "251",
+      "variables": {
+        "entity_a": "Сатурна",
+        "entity_b": "Кольца Урана",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Сатурна"
+    },
+    {
+      "id": 268,
+      "doc": "3",
+      "variables": {
+        "entity_a": "маленькая зеленая лягушка",
+        "entity_b": "большую размокшую корку",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "маленькая зеленая лягушка"
+    },
+    {
+      "id": 269,
+      "doc": "319",
+      "variables": {
+        "entity_a": "Сальвадора Дали",
+        "entity_b": "короткие рассказы барселонца Кима Мунзо",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Сальвадора Дали"
+    },
+    {
+      "id": 270,
+      "doc": "313",
+      "variables": {
+        "entity_a": "Китай",
+        "entity_b": "США",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Китай"
+    },
+    {
+      "id": 271,
+      "doc": "268",
+      "variables": {
+        "entity_a": "сэр Алекс Фергюсон",
+        "entity_b": "Дейв Секстон",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "сэр Алекс Фергюсон"
+    },
+    {
+      "id": 272,
+      "doc": "3",
+      "variables": {
+        "entity_a": "черный кот Степан",
+        "entity_b": "кривоногая такса Фунтик",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "черный кот Степан"
+    },
+    {
+      "id": 273,
+      "doc": "268",
+      "variables": {
+        "entity_a": "полностью серые формы",
+        "entity_b": "игроками из молодёжной академии « Юнайтед",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "полностью серые формы"
+    },
+    {
+      "id": 274,
+      "doc": "264",
+      "variables": {
+        "entity_a": "долларов",
+        "entity_b": "валюты",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "долларов"
+    },
+    {
+      "id": 275,
+      "doc": "67",
+      "variables": {
+        "entity_a": "Украины",
+        "entity_b": "Россией",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Украины"
+    },
+    {
+      "id": 276,
+      "doc": "323",
+      "variables": {
+        "entity_a": "Первые главную композицию « Shine On You Crazy Diamond",
+        "entity_b": "Дэвид Гилмор",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Первые главную композицию « Shine On You Crazy Diamond"
+    },
+    {
+      "id": 277,
+      "doc": "336",
+      "variables": {
+        "entity_a": "общественного движения « Образ будущего »",
+        "entity_b": "тот юношеский экзистенциализм",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "общественного движения « Образ будущего »"
+    },
+    {
+      "id": 278,
+      "doc": "279",
+      "variables": {
+        "entity_a": "саксофонист Орнетт Коулмэн",
+        "entity_b": "Энтони Брэкстон",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "саксофонист Орнетт Коулмэн"
+    },
+    {
+      "id": 279,
+      "doc": "332",
+      "variables": {
+        "entity_a": "героический блокбастер « Адмиралъ »",
+        "entity_b": "Константин Хабенский",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "героический блокбастер « Адмиралъ »"
+    },
+    {
+      "id": 280,
+      "doc": "134",
+      "variables": {
+        "entity_a": "Индия",
+        "entity_b": "санскрит",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Индия"
+    },
+    {
+      "id": 281,
+      "doc": "82",
+      "variables": {
+        "entity_a": "Северо - западной приграничной провинции",
+        "entity_b": "пакистанцы",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Северо - западной приграничной провинции"
+    },
+    {
+      "id": 282,
+      "doc": "733",
+      "variables": {
+        "entity_a": "Ее муж",
+        "entity_b": "Михайловскому",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Ее муж"
+    },
+    {
+      "id": 283,
+      "doc": "6",
+      "variables": {
+        "entity_a": "моей жене",
+        "entity_b": "Лондоне",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "моей жене"
+    },
+    {
+      "id": 284,
+      "doc": "251",
+      "variables": {
+        "entity_a": "Корделию",
+        "entity_b": "Джеймсом Элиотом",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Корделию"
+    },
+    {
+      "id": 285,
+      "doc": "9",
+      "variables": {
+        "entity_a": "гувернантки Миссочки",
+        "entity_b": "красивой горничной Марине",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "гувернантки Миссочки"
+    },
+    {
+      "id": 286,
+      "doc": "268",
+      "variables": {
+        "entity_a": "Премьер - лигу",
+        "entity_b": "главным тренером « Юнайтед",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Премьер - лигу"
+    },
+    {
+      "id": 287,
+      "doc": "268",
+      "variables": {
+        "entity_a": "Первый дивизион",
+        "entity_b": "финал Кубка европейских чемпионов",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Первый дивизион"
+    },
+    {
+      "id": 288,
+      "doc": "339",
+      "variables": {
+        "entity_a": "службы « Работа.Ru »",
+        "entity_b": "Надежда",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "службы « Работа.Ru »"
+    },
+    {
+      "id": 289,
+      "doc": "342",
+      "variables": {
+        "entity_a": "автономной республики Крым",
+        "entity_b": "« Голоса Америки »",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "автономной республики Крым"
+    },
+    {
+      "id": 290,
+      "doc": "7",
+      "variables": {
+        "entity_a": "один из пассажиров",
+        "entity_b": "пожилая колхозница",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "один из пассажиров"
+    },
+    {
+      "id": 291,
+      "doc": "67",
+      "variables": {
+        "entity_a": "Москва",
+        "entity_b": "Европы",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Москва"
+    },
+    {
+      "id": 292,
+      "doc": "81",
+      "variables": {
+        "entity_a": "организации Ахле Хадит",
+        "entity_b": "Региональный конфликт",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "организации Ахле Хадит"
+    },
+    {
+      "id": 293,
+      "doc": "321",
+      "variables": {
+        "entity_a": "zverek300",
+        "entity_b": "jokermedia",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "zverek300"
+    },
+    {
+      "id": 294,
+      "doc": "212",
+      "variables": {
+        "entity_a": "Югославии",
+        "entity_b": "Венгрия",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Югославии"
+    },
+    {
+      "id": 295,
+      "doc": "24",
+      "variables": {
+        "entity_a": "далекий берег",
+        "entity_b": "темное море",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "далекий берег"
+    },
+    {
+      "id": 296,
+      "doc": "301",
+      "variables": {
+        "entity_a": "Либрусек",
+        "entity_b": "тиражи",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Либрусек"
+    },
+    {
+      "id": 297,
+      "doc": "11",
+      "variables": {
+        "entity_a": "мать",
+        "entity_b": "новую хорошую школу",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "мать"
+    },
+    {
+      "id": 298,
+      "doc": "279",
+      "variables": {
+        "entity_a": "По мнению исследователя джаза Е .",
+        "entity_b": "Звуки",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "По мнению исследователя джаза Е ."
+    },
+    {
+      "id": 299,
+      "doc": "134",
+      "variables": {
+        "entity_a": "России",
+        "entity_b": "тверского купца Афанасия Никитина",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "России"
+    },
+    {
+      "id": 300,
+      "doc": "9",
+      "variables": {
+        "entity_a": "трем сестрам  Скалон",
+        "entity_b": "сердце Верочки",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "трем сестрам  Скалон"
+    },
+    {
+      "id": 301,
+      "doc": "8",
+      "variables": {
+        "entity_a": "колхозный письмоносец Тимка Колечкин",
+        "entity_b": "дорогие мои друзья",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "колхозный письмоносец Тимка Колечкин"
+    },
+    {
+      "id": 302,
+      "doc": "131",
+      "variables": {
+        "entity_a": "Каналы",
+        "entity_b": "Нептуна",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Каналы"
+    },
+    {
+      "id": 303,
+      "doc": "53",
+      "variables": {
+        "entity_a": "местного парламента",
+        "entity_b": "Прокуратура Крымской автономии",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "местного парламента"
+    },
+    {
+      "id": 304,
+      "doc": "1",
+      "variables": {
+        "entity_a": "двор таинственного жилища",
+        "entity_b": "голые уступы желтоватых скал",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "двор таинственного жилища"
+    },
+    {
+      "id": 305,
+      "doc": "207",
+      "variables": {
+        "entity_a": "Кредитный кризис",
+        "entity_b": "Эстония",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Кредитный кризис"
+    },
+    {
+      "id": 306,
+      "doc": "8",
+      "variables": {
+        "entity_a": "Письмо",
+        "entity_b": "Ученики",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Письмо"
+    },
+    {
+      "id": 307,
+      "doc": "83",
+      "variables": {
+        "entity_a": "Пакистана",
+        "entity_b": "Афганистане",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Пакистана"
+    },
+    {
+      "id": 308,
+      "doc": "323",
+      "variables": {
+        "entity_a": "Сторм Торгерсон",
+        "entity_b": "лондонской студии Эбби Роуд",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Сторм Торгерсон"
+    },
+    {
+      "id": 309,
+      "doc": "20",
+      "variables": {
+        "entity_a": "богатого старика",
+        "entity_b": "Аполлон , Сережа и я",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "богатого старика"
+    },
+    {
+      "id": 310,
+      "doc": "268",
+      "variables": {
+        "entity_a": "тренеру резервной команды",
+        "entity_b": "небольшом полуразрушенном поле « Норт Роуд »",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "тренеру резервной команды"
+    },
+    {
+      "id": 311,
+      "doc": "118",
+      "variables": {
+        "entity_a": "Старая мечеть",
+        "entity_b": "воспоминания",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Старая мечеть"
+    },
+    {
+      "id": 312,
+      "doc": "268",
+      "variables": {
+        "entity_a": "Премьер - лигу",
+        "entity_b": "футболки",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Премьер - лигу"
+    },
+    {
+      "id": 313,
+      "doc": "90",
+      "variables": {
+        "entity_a": "Монреальский протокол",
+        "entity_b": "многих из этих газов",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Монреальский протокол"
+    },
+    {
+      "id": 314,
+      "doc": "251",
+      "variables": {
+        "entity_a": "μ",
+        "entity_b": "ν",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "μ"
+    },
+    {
+      "id": 315,
+      "doc": "212",
+      "variables": {
+        "entity_a": "Милошевича",
+        "entity_b": "Граждане нашей страны",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Милошевича"
+    },
+    {
+      "id": 316,
+      "doc": "270",
+      "variables": {
+        "entity_a": "семьи Одиноковых",
+        "entity_b": "матери",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "семьи Одиноковых"
+    },
+    {
+      "id": 317,
+      "doc": "83",
+      "variables": {
+        "entity_a": "Южном Вазиристане",
+        "entity_b": "ее кампания",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Южном Вазиристане"
+    },
+    {
+      "id": 318,
+      "doc": "251",
+      "variables": {
+        "entity_a": "« Вояджером - 2 »",
+        "entity_b": "более развитой системой колец Сатурна",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "« Вояджером - 2 »"
+    },
+    {
+      "id": 319,
+      "doc": "87",
+      "variables": {
+        "entity_a": "Международный валютный фонд",
+        "entity_b": "кризиса",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Международный валютный фонд"
+    },
+    {
+      "id": 320,
+      "doc": "336",
+      "variables": {
+        "entity_a": "Володей Черняевым",
+        "entity_b": "резкий , трескучий звук",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Володей Черняевым"
+    },
+    {
+      "id": 321,
+      "doc": "288",
+      "variables": {
+        "entity_a": "Николае Ускове",
+        "entity_b": "Вся компания",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Николае Ускове"
+    },
+    {
+      "id": 322,
+      "doc": "288",
+      "variables": {
+        "entity_a": "Тина Канделаки",
+        "entity_b": "Николае Ускове",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Тина Канделаки"
+    },
+    {
+      "id": 323,
+      "doc": "84",
+      "variables": {
+        "entity_a": "радикальной джихадской группировки « Воины бога »",
+        "entity_b": "сектор Газа",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "радикальной джихадской группировки « Воины бога »"
+    },
+    {
+      "id": 324,
+      "doc": "8",
+      "variables": {
+        "entity_a": "Андрея Иваныча",
+        "entity_b": "Саньки Коншакова",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Андрея Иваныча"
+    },
+    {
+      "id": 325,
+      "doc": "270",
+      "variables": {
+        "entity_a": "детьми",
+        "entity_b": "матери",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "детьми"
+    },
+    {
+      "id": 326,
+      "doc": "93",
+      "variables": {
+        "entity_a": "Комитета по финансовой стабильности",
+        "entity_b": "министров финансов",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Комитета по финансовой стабильности"
+    },
+    {
+      "id": 327,
+      "doc": "9",
+      "variables": {
+        "entity_a": "жены Веры Павловны",
+        "entity_b": "ее сестру",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "жены Веры Павловны"
+    },
+    {
+      "id": 328,
+      "doc": "279",
+      "variables": {
+        "entity_a": "AACM",
+        "entity_b": "Джона Колтрейна",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "AACM"
+    },
+    {
+      "id": 329,
+      "doc": "268",
+      "variables": {
+        "entity_a": "Кубков Англии",
+        "entity_b": "Премьер - лигу",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Кубков Англии"
+    },
+    {
+      "id": 330,
+      "doc": "20",
+      "variables": {
+        "entity_a": "Аполлон Павлович",
+        "entity_b": "своих обожателей",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Аполлон Павлович"
+    },
+    {
+      "id": 331,
+      "doc": "251",
+      "variables": {
+        "entity_a": "ν",
+        "entity_b": "λ",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ν"
+    },
+    {
+      "id": 332,
+      "doc": "23",
+      "variables": {
+        "entity_a": "другая особа",
+        "entity_b": "Два человека",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "другая особа"
+    },
+    {
+      "id": 333,
+      "doc": "268",
+      "variables": {
+        "entity_a": "Басби",
+        "entity_b": "Премьер - лигу",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Басби"
+    },
+    {
+      "id": 334,
+      "doc": "134",
+      "variables": {
+        "entity_a": "Индия",
+        "entity_b": "Л .",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Индия"
+    },
+    {
+      "id": 335,
+      "doc": "205",
+      "variables": {
+        "entity_a": "Героиня фильма",
+        "entity_b": "английского кукольника и клоуна",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Героиня фильма"
+    },
+    {
+      "id": 336,
+      "doc": "313",
+      "variables": {
+        "entity_a": "КНДР",
+        "entity_b": "Ирана",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "КНДР"
+    },
+    {
+      "id": 337,
+      "doc": "81",
+      "variables": {
+        "entity_a": "всей Южной Азии",
+        "entity_b": "организации Ахле Хадит",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "всей Южной Азии"
+    },
+    {
+      "id": 338,
+      "doc": "306",
+      "variables": {
+        "entity_a": "религиозном квартале « Варшавских домов »",
+        "entity_b": "корреспондент « Маарив » Шломо Иерушалми",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "религиозном квартале « Варшавских домов »"
+    },
+    {
+      "id": 339,
+      "doc": "23",
+      "variables": {
+        "entity_a": "Ида Марковна",
+        "entity_b": "Два человека",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Ида Марковна"
+    },
+    {
+      "id": 340,
+      "doc": "288",
+      "variables": {
+        "entity_a": "Тина Канделаки",
+        "entity_b": "Вся компания",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Тина Канделаки"
+    },
+    {
+      "id": 341,
+      "doc": "268",
+      "variables": {
+        "entity_a": "Второй дивизион",
+        "entity_b": "португальскую « Бенфику »",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Второй дивизион"
+    },
+    {
+      "id": 342,
+      "doc": "270",
+      "variables": {
+        "entity_a": "отца",
+        "entity_b": "семьи Одиноковых",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "отца"
+    },
+    {
+      "id": 343,
+      "doc": "279",
+      "variables": {
+        "entity_a": "Энтони Брэкстон",
+        "entity_b": "писатель Ле - Руа Джонс",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Энтони Брэкстон"
+    },
+    {
+      "id": 344,
+      "doc": "251",
+      "variables": {
+        "entity_a": "более мелкие частицы",
+        "entity_b": "самого яркого кольца",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "более мелкие частицы"
+    },
+    {
+      "id": 345,
+      "doc": "254",
+      "variables": {
+        "entity_a": "людей",
+        "entity_b": "идея коллективной вины нации",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "людей"
+    },
+    {
+      "id": 346,
+      "doc": "266",
+      "variables": {
+        "entity_a": "технологическое шоу TechCrunch50",
+        "entity_b": "микроблог для корпораций",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "технологическое шоу TechCrunch50"
+    },
+    {
+      "id": 347,
+      "doc": "12",
+      "variables": {
+        "entity_a": "Богу",
+        "entity_b": "Катя",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Богу"
+    },
+    {
+      "id": 348,
+      "doc": "5",
+      "variables": {
+        "entity_a": "Ванька с Танькой",
+        "entity_b": "синеньком платочке",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Ванька с Танькой"
+    },
+    {
+      "id": 349,
+      "doc": "251",
+      "variables": {
+        "entity_a": "Уильям Гершель",
+        "entity_b": "« Вояджером - 2 »",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Уильям Гершель"
+    },
+    {
+      "id": 350,
+      "doc": "86",
+      "variables": {
+        "entity_a": "лидеры « Большой восьмерки »",
+        "entity_b": "новой модели развития",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "лидеры « Большой восьмерки »"
+    },
+    {
+      "id": 351,
+      "doc": "253",
+      "variables": {
+        "entity_a": "английским королём Альфредом Великим",
+        "entity_b": "гнездовья",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "английским королём Альфредом Великим"
+    },
+    {
+      "id": 352,
+      "doc": "316",
+      "variables": {
+        "entity_a": "тот стихийный языческий культ",
+        "entity_b": "эту телевселенную",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "тот стихийный языческий культ"
+    },
+    {
+      "id": 353,
+      "doc": "268",
+      "variables": {
+        "entity_a": "Басби",
+        "entity_b": "сэр Алекс Фергюсон",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Басби"
+    },
+    {
+      "id": 354,
+      "doc": "67",
+      "variables": {
+        "entity_a": "Москва",
+        "entity_b": "Россией",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Москва"
+    },
+    {
+      "id": 355,
+      "doc": "60",
+      "variables": {
+        "entity_a": "американскими властями",
+        "entity_b": "супруга , дочь и мама Виктора Бута",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "американскими властями"
+    },
+    {
+      "id": 356,
+      "doc": "313",
+      "variables": {
+        "entity_a": "Ирана",
+        "entity_b": "болезней",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Ирана"
+    },
+    {
+      "id": 357,
+      "doc": "93",
+      "variables": {
+        "entity_a": "таким разным странам",
+        "entity_b": "Китай",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "таким разным странам"
+    },
+    {
+      "id": 358,
+      "doc": "77",
+      "variables": {
+        "entity_a": "кризиса",
+        "entity_b": "экспериментальные проекты",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "кризиса"
+    },
+    {
+      "id": 359,
+      "doc": "301",
+      "variables": {
+        "entity_a": "внутренняя выставка",
+        "entity_b": "Либрусек",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "внутренняя выставка"
+    },
+    {
+      "id": 360,
+      "doc": "82",
+      "variables": {
+        "entity_a": "Члены Талибана",
+        "entity_b": "Южной Азии",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Члены Талибана"
+    },
+    {
+      "id": 361,
+      "doc": "251",
+      "variables": {
+        "entity_a": "Уильям Гершель",
+        "entity_b": "частиц",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Уильям Гершель"
+    },
+    {
+      "id": 362,
+      "doc": "268",
+      "variables": {
+        "entity_a": "Рона Аткинсона",
+        "entity_b": "клубной эмблемы",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Рона Аткинсона"
+    },
+    {
+      "id": 363,
+      "doc": "323",
+      "variables": {
+        "entity_a": "США",
+        "entity_b": "лондонской студии Эбби Роуд",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "США"
+    },
+    {
+      "id": 364,
+      "doc": "83",
+      "variables": {
+        "entity_a": "Афганскому Талибану",
+        "entity_b": "Пакистанской армии",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Афганскому Талибану"
+    },
+    {
+      "id": 365,
+      "doc": "13",
+      "variables": {
+        "entity_a": "таблицу",
+        "entity_b": "тт Отверстиева , Кускова , Имянинен , Шакальской и Башмакова",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "таблицу"
+    },
+    {
+      "id": 366,
+      "doc": "131",
+      "variables": {
+        "entity_a": "белое пятно",
+        "entity_b": "случай",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "белое пятно"
+    },
+    {
+      "id": 367,
+      "doc": "83",
+      "variables": {
+        "entity_a": "эта конфиденциальная информация",
+        "entity_b": "ГАЗА",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "эта конфиденциальная информация"
+    },
+    {
+      "id": 368,
+      "doc": "323",
+      "variables": {
+        "entity_a": "Columbia Records",
+        "entity_b": "некоторые люди",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Columbia Records"
+    },
+    {
+      "id": 369,
+      "doc": "134",
+      "variables": {
+        "entity_a": "Акад .",
+        "entity_b": "Петербурге",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Акад ."
+    },
+    {
+      "id": 370,
+      "doc": "3",
+      "variables": {
+        "entity_a": "кривоногая такса Фунтик",
+        "entity_b": "Сварливый голенастый петух",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "кривоногая такса Фунтик"
+    },
+    {
+      "id": 371,
+      "doc": "8",
+      "variables": {
+        "entity_a": "Саньки Коншакова",
+        "entity_b": "колхозный письмоносец Тимка Колечкин",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Саньки Коншакова"
+    },
+    {
+      "id": 372,
+      "doc": "323",
+      "variables": {
+        "entity_a": "альбоме The Dark Side of the Moon",
+        "entity_b": "Рой Харпер",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "альбоме The Dark Side of the Moon"
+    },
+    {
+      "id": 373,
+      "doc": "94",
+      "variables": {
+        "entity_a": "стран",
+        "entity_b": "страны",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "стран"
+    },
+    {
+      "id": 374,
+      "doc": "134",
+      "variables": {
+        "entity_a": "Толстой М .",
+        "entity_b": "Щербатской ) и их ученики Е .",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Толстой М ."
+    },
+    {
+      "id": 375,
+      "doc": "99",
+      "variables": {
+        "entity_a": "Международное исследование астмы и аллергии среди детей",
+        "entity_b": "рандомизированного контролируемого исследования долговременных эффектов неоднократного использования парацетамола",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Международное исследование астмы и аллергии среди детей"
+    },
+    {
+      "id": 376,
+      "doc": "265",
+      "variables": {
+        "entity_a": "Четверг",
+        "entity_b": "Меркурия",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Четверг"
+    },
+    {
+      "id": 377,
+      "doc": "279",
+      "variables": {
+        "entity_a": "каждый исполнитель",
+        "entity_b": "американским музыкантам",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "каждый исполнитель"
+    },
+    {
+      "id": 378,
+      "doc": "336",
+      "variables": {
+        "entity_a": "общественного движения « Образ будущего »",
+        "entity_b": "Коростель",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "общественного движения « Образ будущего »"
+    },
+    {
+      "id": 379,
+      "doc": "738",
+      "variables": {
+        "entity_a": "Санкт - Петербург",
+        "entity_b": "одинокий человек",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Санкт - Петербург"
+    },
+    {
+      "id": 380,
+      "doc": "342",
+      "variables": {
+        "entity_a": "официального Киева",
+        "entity_b": "« Голоса Америки »",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "официального Киева"
+    },
+    {
+      "id": 381,
+      "doc": "204",
+      "variables": {
+        "entity_a": "киллер",
+        "entity_b": "Главный герой « Заговора бумаг »",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "киллер"
+    },
+    {
+      "id": 382,
+      "doc": "83",
+      "variables": {
+        "entity_a": "Афганистане",
+        "entity_b": "Афганскому Талибану",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Афганистане"
+    },
+    {
+      "id": 383,
+      "doc": "268",
+      "variables": {
+        "entity_a": "Премьер - лигу",
+        "entity_b": "Кубка европейских чемпионов",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Премьер - лигу"
+    },
+    {
+      "id": 384,
+      "doc": "312",
+      "variables": {
+        "entity_a": "Грузинской ССР",
+        "entity_b": "Москвы",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Грузинской ССР"
+    },
+    {
+      "id": 385,
+      "doc": "268",
+      "variables": {
+        "entity_a": "Басби",
+        "entity_b": "Кубков Англии",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Басби"
+    },
+    {
+      "id": 386,
+      "doc": "270",
+      "variables": {
+        "entity_a": "Гринька",
+        "entity_b": "матери",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Гринька"
+    },
+    {
+      "id": 387,
+      "doc": "288",
+      "variables": {
+        "entity_a": "Максим Шевченко",
+        "entity_b": "противоположная сторона",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Максим Шевченко"
+    },
+    {
+      "id": 388,
+      "doc": "77",
+      "variables": {
+        "entity_a": "кризиса",
+        "entity_b": "Глава Google Эрик Шмидт",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "кризиса"
+    },
+    {
+      "id": 389,
+      "doc": "272",
+      "variables": {
+        "entity_a": "мужчины",
+        "entity_b": "ритуальный обмен подарками",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "мужчины"
+    },
+    {
+      "id": 390,
+      "doc": "340",
+      "variables": {
+        "entity_a": "Дракула – 2000",
+        "entity_b": "P .",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Дракула – 2000"
+    },
+    {
+      "id": 391,
+      "doc": "67",
+      "variables": {
+        "entity_a": "Москва",
+        "entity_b": "Украины",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Москва"
+    },
+    {
+      "id": 392,
+      "doc": "275",
+      "variables": {
+        "entity_a": "— Проекты фонда « лицензии CC",
+        "entity_b": "процессе перехода",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "— Проекты фонда « лицензии CC"
+    },
+    {
+      "id": 393,
+      "doc": "271",
+      "variables": {
+        "entity_a": "России",
+        "entity_b": "последнего исследования « Интернет в России »",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "России"
+    },
+    {
+      "id": 394,
+      "doc": "712",
+      "variables": {
+        "entity_a": "московского « Спартака »",
+        "entity_b": "Главный тренер мюнхенского футбольного клуба « Бавария » Хосеп Гвардиола",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "московского « Спартака »"
+    },
+    {
+      "id": 395,
+      "doc": "340",
+      "variables": {
+        "entity_a": "какого - то маньяка",
+        "entity_b": "Джоэл Шумахер",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "какого - то маньяка"
+    },
+    {
+      "id": 396,
+      "doc": "323",
+      "variables": {
+        "entity_a": "Ричард Райт",
+        "entity_b": "лондонской студии Эбби Роуд",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Ричард Райт"
+    },
+    {
+      "id": 397,
+      "doc": "295",
+      "variables": {
+        "entity_a": "Вопрос « Что делать ?",
+        "entity_b": "главы правительства",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Вопрос « Что делать ?"
+    },
+    {
+      "id": 398,
+      "doc": "212",
+      "variables": {
+        "entity_a": "Венгрия",
+        "entity_b": "стран альянса",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Венгрия"
+    },
+    {
+      "id": 399,
+      "doc": "336",
+      "variables": {
+        "entity_a": "Дима Липскеров",
+        "entity_b": "нашей огромной страны",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Дима Липскеров"
+    },
+    {
+      "id": 400,
+      "doc": "131",
+      "variables": {
+        "entity_a": "пар",
+        "entity_b": "густой слой белых облаков",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "пар"
+    },
+    {
+      "id": 401,
+      "doc": "20",
+      "variables": {
+        "entity_a": "нянюшке",
+        "entity_b": "Аполлон Павлович",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "нянюшке"
+    },
+    {
+      "id": 402,
+      "doc": "719",
+      "variables": {
+        "entity_a": "партии « Народный альянс »",
+        "entity_b": "Алексей Навальный",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "партии « Народный альянс »"
+    },
+    {
+      "id": 403,
+      "doc": "82",
+      "variables": {
+        "entity_a": "лидером Талибана Суфи Мохаммедом",
+        "entity_b": "всех разрушенных бомбежкой школ для девочек в Свате",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "лидером Талибана Суфи Мохаммедом"
+    },
+    {
+      "id": 404,
+      "doc": "323",
+      "variables": {
+        "entity_a": "альбоме The Dark Side of the Moon",
+        "entity_b": "Джазовый скрипач Стефан Граппелли",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "альбоме The Dark Side of the Moon"
+    },
+    {
+      "id": 405,
+      "doc": "83",
+      "variables": {
+        "entity_a": "Южном Вазиристане",
+        "entity_b": "Пакистане",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Южном Вазиристане"
+    },
+    {
+      "id": 406,
+      "doc": "270",
+      "variables": {
+        "entity_a": "Взрослые мужики",
+        "entity_b": "России",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Взрослые мужики"
+    },
+    {
+      "id": 407,
+      "doc": "16",
+      "variables": {
+        "entity_a": "барам",
+        "entity_b": "главного приказчика",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "барам"
+    },
+    {
+      "id": 408,
+      "doc": "13",
+      "variables": {
+        "entity_a": "Марья Васильевна",
+        "entity_b": "сослуживцев",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Марья Васильевна"
+    },
+    {
+      "id": 409,
+      "doc": "205",
+      "variables": {
+        "entity_a": "английского кукольника и клоуна",
+        "entity_b": "Петербург",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "английского кукольника и клоуна"
+    },
+    {
+      "id": 410,
+      "doc": "251",
+      "variables": {
+        "entity_a": "частичек в этом кольце",
+        "entity_b": "Дугласом Минком",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "частичек в этом кольце"
+    },
+    {
+      "id": 411,
+      "doc": "288",
+      "variables": {
+        "entity_a": "Александр Гордон",
+        "entity_b": "Достоевском",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Александр Гордон"
+    },
+    {
+      "id": 412,
+      "doc": "268",
+      "variables": {
+        "entity_a": "Первый дивизион",
+        "entity_b": "клубной эмблемы",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Первый дивизион"
+    },
+    {
+      "id": 413,
+      "doc": "725",
+      "variables": {
+        "entity_a": "Лидер оппозиционной партии УДАР",
+        "entity_b": "поправки в Налоговый кодекс",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Лидер оппозиционной партии УДАР"
+    },
+    {
+      "id": 414,
+      "doc": "81",
+      "variables": {
+        "entity_a": "Джамаат - уд - Дава",
+        "entity_b": "Индии",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Джамаат - уд - Дава"
+    },
+    {
+      "id": 415,
+      "doc": "132",
+      "variables": {
+        "entity_a": "жидкая ванна",
+        "entity_b": "очень низкие радиоактивные отходы",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "жидкая ванна"
+    },
+    {
+      "id": 416,
+      "doc": "57",
+      "variables": {
+        "entity_a": "кокаина",
+        "entity_b": "банду наркоторговцев",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "кокаина"
+    },
+    {
+      "id": 417,
+      "doc": "7",
+      "variables": {
+        "entity_a": "один из пассажиров",
+        "entity_b": "грязный , согнутый человек в лохмотьях",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "один из пассажиров"
+    },
+    {
+      "id": 418,
+      "doc": "301",
+      "variables": {
+        "entity_a": "издательства « Эксмо »",
+        "entity_b": "Этот рынок",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "издательства « Эксмо »"
+    },
+    {
+      "id": 419,
+      "doc": "71",
+      "variables": {
+        "entity_a": "Легендарный режиссёр",
+        "entity_b": "труппы",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Легендарный режиссёр"
+    },
+    {
+      "id": 420,
+      "doc": "78",
+      "variables": {
+        "entity_a": "программист Майкл Херф",
+        "entity_b": "программу",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "программист Майкл Херф"
+    },
+    {
+      "id": 421,
+      "doc": "6",
+      "variables": {
+        "entity_a": "моей жене",
+        "entity_b": "крепкой квадратной челюстью",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "моей жене"
+    },
+    {
+      "id": 422,
+      "doc": "11",
+      "variables": {
+        "entity_a": "мать",
+        "entity_b": "собственный класс мальчика",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "мать"
+    },
+    {
+      "id": 423,
+      "doc": "268",
+      "variables": {
+        "entity_a": "Рона Аткинсона",
+        "entity_b": "Первый дивизион",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Рона Аткинсона"
+    },
+    {
+      "id": 424,
+      "doc": "9",
+      "variables": {
+        "entity_a": "трем сестрам  Скалон",
+        "entity_b": "руки",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "трем сестрам  Скалон"
+    },
+    {
+      "id": 425,
+      "doc": "66",
+      "variables": {
+        "entity_a": "стендами с изображением Иосифа Сталина",
+        "entity_b": "борьбу плакатов",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "стендами с изображением Иосифа Сталина"
+    },
+    {
+      "id": 426,
+      "doc": "80",
+      "variables": {
+        "entity_a": "щука",
+        "entity_b": "деревянный полированный ящик",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "щука"
+    },
+    {
+      "id": 427,
+      "doc": "268",
+      "variables": {
+        "entity_a": "сэр Алекс Фергюсон",
+        "entity_b": "клубной эмблемы",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "сэр Алекс Фергюсон"
+    },
+    {
+      "id": 428,
+      "doc": "254",
+      "variables": {
+        "entity_a": "затаённое и несформулированное чувство вины",
+        "entity_b": "ток - шоу « Цена вопроса »",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "затаённое и несформулированное чувство вины"
+    },
+    {
+      "id": 429,
+      "doc": "205",
+      "variables": {
+        "entity_a": "Героиня фильма",
+        "entity_b": "Оксаны Бычковой",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Героиня фильма"
+    },
+    {
+      "id": 430,
+      "doc": "338",
+      "variables": {
+        "entity_a": "Африка",
+        "entity_b": "террористы « Аль - Каиды » с отнюдь не мирными намерениями",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Африка"
+    },
+    {
+      "id": 431,
+      "doc": "91",
+      "variables": {
+        "entity_a": "создание государства Палестины снизу вверх",
+        "entity_b": "Попытки воссоздания мирного процесса Осло",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "создание государства Палестины снизу вверх"
+    },
+    {
+      "id": 432,
+      "doc": "131",
+      "variables": {
+        "entity_a": "итальянский астроном Скиапарелли",
+        "entity_b": "температура",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "итальянский астроном Скиапарелли"
+    },
+    {
+      "id": 433,
+      "doc": "257",
+      "variables": {
+        "entity_a": "Административный суд Кёльна последнего альбома немецкой индастриал - метал группы Rammstein « Liebe",
+        "entity_b": "немецкой индастриал - метал группы Rammstein",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Административный суд Кёльна последнего альбома немецкой индастриал - метал группы Rammstein « Liebe"
+    },
+    {
+      "id": 434,
+      "doc": "288",
+      "variables": {
+        "entity_a": "Максим Шевченко",
+        "entity_b": "Александр Гордон",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Максим Шевченко"
+    },
+    {
+      "id": 435,
+      "doc": "265",
+      "variables": {
+        "entity_a": "новолуния",
+        "entity_b": "этот день",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "новолуния"
+    },
+    {
+      "id": 436,
+      "doc": "53",
+      "variables": {
+        "entity_a": "Прокуратура Крымской автономии",
+        "entity_b": "правящей Партии регионов",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Прокуратура Крымской автономии"
+    },
+    {
+      "id": 437,
+      "doc": "94",
+      "variables": {
+        "entity_a": "ядерного топлива",
+        "entity_b": "Другие ключевые шаги",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ядерного топлива"
+    },
+    {
+      "id": 438,
+      "doc": "91",
+      "variables": {
+        "entity_a": "Израилем",
+        "entity_b": "создание государства Палестины снизу вверх",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Израилем"
+    },
+    {
+      "id": 439,
+      "doc": "251",
+      "variables": {
+        "entity_a": "ещё два внешних кольца",
+        "entity_b": "μ",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ещё два внешних кольца"
+    },
+    {
+      "id": 440,
+      "doc": "6",
+      "variables": {
+        "entity_a": "моей жене",
+        "entity_b": "талантом",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "моей жене"
+    },
+    {
+      "id": 441,
+      "doc": "13",
+      "variables": {
+        "entity_a": "сослуживцев",
+        "entity_b": "Башмакова",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "сослуживцев"
+    },
+    {
+      "id": 442,
+      "doc": "131",
+      "variables": {
+        "entity_a": "американский астроном Лоуелл",
+        "entity_b": "белое пятно",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "американский астроном Лоуелл"
+    },
+    {
+      "id": 443,
+      "doc": "251",
+      "variables": {
+        "entity_a": "ν",
+        "entity_b": "более развитой системой колец Сатурна",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ν"
+    },
+    {
+      "id": 444,
+      "doc": "18",
+      "variables": {
+        "entity_a": "тетушка",
+        "entity_b": "Макара Долгорукого",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "тетушка"
+    },
+    {
+      "id": 445,
+      "doc": "323",
+      "variables": {
+        "entity_a": "Мэйсон",
+        "entity_b": "Джазовый скрипач Стефан Граппелли",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Мэйсон"
+    },
+    {
+      "id": 446,
+      "doc": "134",
+      "variables": {
+        "entity_a": "тверского купца Афанасия Никитина",
+        "entity_b": "Индия",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "тверского купца Афанасия Никитина"
+    },
+    {
+      "id": 447,
+      "doc": "268",
+      "variables": {
+        "entity_a": "Премьер - лигу",
+        "entity_b": "тренеру резервной команды",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Премьер - лигу"
+    },
+    {
+      "id": 448,
+      "doc": "733",
+      "variables": {
+        "entity_a": "Ее муж",
+        "entity_b": "Внука",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Ее муж"
+    },
+    {
+      "id": 449,
+      "doc": "252",
+      "variables": {
+        "entity_a": "Ассоциация распространителей печатной продукции",
+        "entity_b": "потребителями",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Ассоциация распространителей печатной продукции"
+    },
+    {
+      "id": 450,
+      "doc": "323",
+      "variables": {
+        "entity_a": "Рой Харпер",
+        "entity_b": "сладостей",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Рой Харпер"
+    },
+    {
+      "id": 451,
+      "doc": "738",
+      "variables": {
+        "entity_a": "Невском",
+        "entity_b": "гения",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Невском"
+    },
+    {
+      "id": 452,
+      "doc": "83",
+      "variables": {
+        "entity_a": "Пакистанской армии",
+        "entity_b": "65 % населения",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Пакистанской армии"
+    },
+    {
+      "id": 453,
+      "doc": "718",
+      "variables": {
+        "entity_a": "Дебютный сольный альбом Деймона Албарна",
+        "entity_b": "Деймона Албарна",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Дебютный сольный альбом Деймона Албарна"
+    },
+    {
+      "id": 454,
+      "doc": "323",
+      "variables": {
+        "entity_a": "Мэйсон",
+        "entity_b": "Ричард Райт",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Мэйсон"
+    },
+    {
+      "id": 455,
+      "doc": "340",
+      "variables": {
+        "entity_a": "лондонского антиквара Ван Хельсинга",
+        "entity_b": "её бывший возлюбленный Терри Шеридан",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "лондонского антиквара Ван Хельсинга"
+    },
+    {
+      "id": 456,
+      "doc": "279",
+      "variables": {
+        "entity_a": "документальный фильм о фри - джазе « Imagine the Sound »",
+        "entity_b": "Нью - Йорк",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "документальный фильм о фри - джазе « Imagine the Sound »"
+    },
+    {
+      "id": 457,
+      "doc": "134",
+      "variables": {
+        "entity_a": "Академия Наук",
+        "entity_b": "Акад .",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Академия Наук"
+    },
+    {
+      "id": 458,
+      "doc": "288",
+      "variables": {
+        "entity_a": "Тина Канделаки",
+        "entity_b": "певец Александр Скляр",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Тина Канделаки"
+    },
+    {
+      "id": 459,
+      "doc": "8",
+      "variables": {
+        "entity_a": "немного семян",
+        "entity_b": "письмо с пометкой \" срочное \" и с тремя марками на конверте",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "немного семян"
+    },
+    {
+      "id": 460,
+      "doc": "268",
+      "variables": {
+        "entity_a": "сэр Алекс Фергюсон",
+        "entity_b": "Премьер - лигу",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "сэр Алекс Фергюсон"
+    },
+    {
+      "id": 461,
+      "doc": "323",
+      "variables": {
+        "entity_a": "Ричард Райт",
+        "entity_b": "Брайаном Хамфрисом",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Ричард Райт"
+    },
+    {
+      "id": 462,
+      "doc": "323",
+      "variables": {
+        "entity_a": "Мэйсон",
+        "entity_b": "Брайаном Хамфрисом",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Мэйсон"
+    },
+    {
+      "id": 463,
+      "doc": "313",
+      "variables": {
+        "entity_a": "Израиля",
+        "entity_b": "исламская ядерная бомба",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Израиля"
+    },
+    {
+      "id": 464,
+      "doc": "205",
+      "variables": {
+        "entity_a": "английского кукольника и клоуна",
+        "entity_b": "фильм Оксаны Бычковой « Плюс один »",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "английского кукольника и клоуна"
+    },
+    {
+      "id": 465,
+      "doc": "268",
+      "variables": {
+        "entity_a": "тренеру резервной команды",
+        "entity_b": "ключевых футболистов",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "тренеру резервной команды"
+    },
+    {
+      "id": 466,
+      "doc": "8",
+      "variables": {
+        "entity_a": "письмо с пометкой \" срочное \" и с тремя марками на конверте",
+        "entity_b": "Ученики",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "письмо с пометкой \" срочное \" и с тремя марками на конверте"
+    },
+    {
+      "id": 467,
+      "doc": "270",
+      "variables": {
+        "entity_a": "отца",
+        "entity_b": "матери",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "отца"
+    },
+    {
+      "id": 468,
+      "doc": "6",
+      "variables": {
+        "entity_a": "моей жене",
+        "entity_b": "альмохадесских кинжалах",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "моей жене"
+    },
+    {
+      "id": 469,
+      "doc": "253",
+      "variables": {
+        "entity_a": "Самец",
+        "entity_b": "монахом и епископом Кутбертом Линдисфарнским",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Самец"
+    },
+    {
+      "id": 470,
+      "doc": "114",
+      "variables": {
+        "entity_a": "аниматор Настя",
+        "entity_b": "Остальным девочкам - аниматорам",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "аниматор Настя"
+    },
+    {
+      "id": 471,
+      "doc": "338",
+      "variables": {
+        "entity_a": "Кот д’Ивуар",
+        "entity_b": "Африка",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Кот д’Ивуар"
+    },
+    {
+      "id": 472,
+      "doc": "268",
+      "variables": {
+        "entity_a": "Басби",
+        "entity_b": "Первый дивизион",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Басби"
+    },
+    {
+      "id": 473,
+      "doc": "30",
+      "variables": {
+        "entity_a": "организацию ICANN",
+        "entity_b": "Компания Google",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "организацию ICANN"
+    },
+    {
+      "id": 474,
+      "doc": "11",
+      "variables": {
+        "entity_a": "мать",
+        "entity_b": "классом этого друга",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "мать"
+    },
+    {
+      "id": 475,
+      "doc": "81",
+      "variables": {
+        "entity_a": "всей Южной Азии",
+        "entity_b": "Нападавшие",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "всей Южной Азии"
+    },
+    {
+      "id": 476,
+      "doc": "134",
+      "variables": {
+        "entity_a": "Акад .",
+        "entity_b": "Л .",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Акад ."
+    },
+    {
+      "id": 477,
+      "doc": "730",
+      "variables": {
+        "entity_a": "ходиков",
+        "entity_b": "тарелки с голубой каемочкойи непочатой порцией консервированых в масле сардин",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ходиков"
+    },
+    {
+      "id": 478,
+      "doc": "251",
+      "variables": {
+        "entity_a": "μ",
+        "entity_b": "λ",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "μ"
+    },
+    {
+      "id": 479,
+      "doc": "323",
+      "variables": {
+        "entity_a": "Ронни Ронделл",
+        "entity_b": "Эта сцена",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Ронни Ронделл"
+    },
+    {
+      "id": 480,
+      "doc": "288",
+      "variables": {
+        "entity_a": "Николае Ускове",
+        "entity_b": "гостей нашей телестудии",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Николае Ускове"
+    },
+    {
+      "id": 481,
+      "doc": "288",
+      "variables": {
+        "entity_a": "ток - шоу",
+        "entity_b": "Тина Канделаки",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ток - шоу"
+    },
+    {
+      "id": 482,
+      "doc": "212",
+      "variables": {
+        "entity_a": "Югославии",
+        "entity_b": "F - 117А",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Югославии"
+    },
+    {
+      "id": 483,
+      "doc": "16",
+      "variables": {
+        "entity_a": "нашем заводе",
+        "entity_b": "гору золота",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "нашем заводе"
+    },
+    {
+      "id": 484,
+      "doc": "99",
+      "variables": {
+        "entity_a": "использование парацетамола",
+        "entity_b": "более 200�000 шести - и семилетних детей",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "использование парацетамола"
+    },
+    {
+      "id": 485,
+      "doc": "94",
+      "variables": {
+        "entity_a": "низко - обогащенный уран",
+        "entity_b": "Договор о нераспространении ядерного оружия",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "низко - обогащенный уран"
+    },
+    {
+      "id": 486,
+      "doc": "323",
+      "variables": {
+        "entity_a": "Брайаном Хамфрисом",
+        "entity_b": "сладостей",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Брайаном Хамфрисом"
+    },
+    {
+      "id": 487,
+      "doc": "313",
+      "variables": {
+        "entity_a": "США",
+        "entity_b": "КНДР",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "США"
+    },
+    {
+      "id": 488,
+      "doc": "67",
+      "variables": {
+        "entity_a": "Ирана",
+        "entity_b": "известный американский сенатор - республиканец от штата Аризона Джон Маккейн",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Ирана"
+    },
+    {
+      "id": 489,
+      "doc": "6",
+      "variables": {
+        "entity_a": "лорд Сэннокс",
+        "entity_b": "небезызвестной леди Сэннокс",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "лорд Сэннокс"
+    },
+    {
+      "id": 490,
+      "doc": "272",
+      "variables": {
+        "entity_a": "харассмента",
+        "entity_b": "подобное поведение со стороны мужчин",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "харассмента"
+    },
+    {
+      "id": 491,
+      "doc": "9",
+      "variables": {
+        "entity_a": "тринадцатилетней Наташе Сатиной",
+        "entity_b": "ее сестру",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "тринадцатилетней Наташе Сатиной"
+    },
+    {
+      "id": 492,
+      "doc": "323",
+      "variables": {
+        "entity_a": "Великобритании",
+        "entity_b": "Wish You Were Here",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Великобритании"
+    },
+    {
+      "id": 493,
+      "doc": "131",
+      "variables": {
+        "entity_a": "белое пятно",
+        "entity_b": "ее атмосфера",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "белое пятно"
+    },
+    {
+      "id": 494,
+      "doc": "83",
+      "variables": {
+        "entity_a": "Пакистанской армии",
+        "entity_b": "Пакистане",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Пакистанской армии"
+    },
+    {
+      "id": 495,
+      "doc": "8",
+      "variables": {
+        "entity_a": "дорогие мои друзья",
+        "entity_b": "Письмо",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "дорогие мои друзья"
+    },
+    {
+      "id": 496,
+      "doc": "134",
+      "variables": {
+        "entity_a": "свои записки",
+        "entity_b": "Эти два крупных ученых",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "свои записки"
+    },
+    {
+      "id": 497,
+      "doc": "270",
+      "variables": {
+        "entity_a": "отца",
+        "entity_b": "Гринька",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "отца"
+    },
+    {
+      "id": 498,
+      "doc": "28",
+      "variables": {
+        "entity_a": "Джемма",
+        "entity_b": "знаменитом теноре Гарсиа",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Джемма"
+    },
+    {
+      "id": 499,
+      "doc": "215",
+      "variables": {
+        "entity_a": "член правления правозащитной комиссии « Мемориал » Эрнест Мезак",
+        "entity_b": "эксперты ОБСЕ",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "член правления правозащитной комиссии « Мемориал » Эрнест Мезак"
+    },
+    {
+      "id": 500,
+      "doc": "205",
+      "variables": {
+        "entity_a": "Оксаны Бычковой",
+        "entity_b": "Петербург",
+        "text": "more_russian_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Оксаны Бычковой"
+    }
+  ]
+}

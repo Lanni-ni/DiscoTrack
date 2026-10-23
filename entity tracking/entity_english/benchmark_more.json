@@ -1,0 +1,5507 @@
+{
+  "task": "entity_more",
+  "lang": "english",
+  "example_prompt": "Which entity is mentioned more often in the text, {entity_a} or {entity_b}? Ignore speaker labels (e.g., [Kendra], [Sabrina]). They are not entities and should not be counted.",
+  "instances": [
+    {
+      "id": 1,
+      "doc": "GUM_essay_privatization",
+      "variables": {
+        "entity_a": "barbie",
+        "entity_b": "ASCAP",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "barbie"
+    },
+    {
+      "id": 2,
+      "doc": "GUM_court_property",
+      "variables": {
+        "entity_a": "process due",
+        "entity_b": "the specific interest at issue in this case",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "process due"
+    },
+    {
+      "id": 3,
+      "doc": "GUM_letter_srilanka",
+      "variables": {
+        "entity_a": "the LTTE",
+        "entity_b": "Sri Lanka",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the LTTE"
+    },
+    {
+      "id": 4,
+      "doc": "GUM_letter_cricket",
+      "variables": {
+        "entity_a": "Mr Barton",
+        "entity_b": "February 11",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Mr Barton"
+    },
+    {
+      "id": 5,
+      "doc": "GUM_bio_gordon",
+      "variables": {
+        "entity_a": "Tsar Aleksei I",
+        "entity_b": "military employment",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Tsar Aleksei I"
+    },
+    {
+      "id": 6,
+      "doc": "GUM_textbook_alamo",
+      "variables": {
+        "entity_a": "empresario Haden Edwards",
+        "entity_b": "Mexico 's prohibition on the public practice of other religions upset them",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "empresario Haden Edwards"
+    },
+    {
+      "id": 7,
+      "doc": "GUM_conversation_erasmus",
+      "variables": {
+        "entity_a": "Erasmus",
+        "entity_b": "a person",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Erasmus"
+    },
+    {
+      "id": 8,
+      "doc": "GUM_essay_ghost",
+      "variables": {
+        "entity_a": "two prosthetic legs",
+        "entity_b": "artificial intelligence research",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "two prosthetic legs"
+    },
+    {
+      "id": 9,
+      "doc": "GUM_speech_telescope",
+      "variables": {
+        "entity_a": "NASA",
+        "entity_b": "international cooperation",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "NASA"
+    },
+    {
+      "id": 10,
+      "doc": "GUM_conversation_zero",
+      "variables": {
+        "entity_a": "Leah",
+        "entity_b": "square root of three",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Leah"
+    },
+    {
+      "id": 11,
+      "doc": "GUM_court_equality",
+      "variables": {
+        "entity_a": "the Hindu Marriage Act",
+        "entity_b": "My Lord",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the Hindu Marriage Act"
+    },
+    {
+      "id": 12,
+      "doc": "GUM_textbook_evoethics",
+      "variables": {
+        "entity_a": "Moral Facts",
+        "entity_b": "morality",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Moral Facts"
+    },
+    {
+      "id": 13,
+      "doc": "GUM_vlog_wine",
+      "variables": {
+        "entity_a": "all of us",
+        "entity_b": "open now , drink now wines",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "all of us"
+    },
+    {
+      "id": 14,
+      "doc": "GUM_podcast_addiction",
+      "variables": {
+        "entity_a": "video game addiction",
+        "entity_b": "addiction",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "video game addiction"
+    },
+    {
+      "id": 15,
+      "doc": "GUM_bio_holt",
+      "variables": {
+        "entity_a": "the Boston Red Sox",
+        "entity_b": "Pittsburgh",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the Boston Red Sox"
+    },
+    {
+      "id": 16,
+      "doc": "GUM_podcast_collaboration",
+      "variables": {
+        "entity_a": "your collaborator",
+        "entity_b": "the discussion at the time",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "your collaborator"
+    },
+    {
+      "id": 17,
+      "doc": "GUM_bio_galois",
+      "variables": {
+        "entity_a": "the woman of romantic interest",
+        "entity_b": "a duel",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the woman of romantic interest"
+    },
+    {
+      "id": 18,
+      "doc": "GUM_conversation_grounded",
+      "variables": {
+        "entity_a": "Hantavirus",
+        "entity_b": "That insulation out there with the mice shit in it",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Hantavirus"
+    },
+    {
+      "id": 19,
+      "doc": "GUM_textbook_stats",
+      "variables": {
+        "entity_a": "1",
+        "entity_b": "the idea",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 20,
+      "doc": "GUM_podcast_muskoka",
+      "variables": {
+        "entity_a": "these people",
+        "entity_b": "man",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "these people"
+    },
+    {
+      "id": 21,
+      "doc": "GUM_news_nasa",
+      "variables": {
+        "entity_a": "the hangar , known as Orbiter Processing Facility - 1",
+        "entity_b": "Visitors",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the hangar , known as Orbiter Processing Facility - 1"
+    },
+    {
+      "id": 22,
+      "doc": "GUM_court_loan",
+      "variables": {
+        "entity_a": "Secretary Cardona",
+        "entity_b": "The states",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Secretary Cardona"
+    },
+    {
+      "id": 23,
+      "doc": "GUM_academic_epistemic",
+      "variables": {
+        "entity_a": "expertise",
+        "entity_b": "the American College of Pediatricians",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "expertise"
+    },
+    {
+      "id": 24,
+      "doc": "GUM_news_warhol",
+      "variables": {
+        "entity_a": "Opening night , January 23 , 2014 , of the Andy Warhol exhibit of Polaroids and screen prints at the University of Southern Indiana",
+        "entity_b": "Silver Clouds",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Opening night , January 23 , 2014 , of the Andy Warhol exhibit of Polaroids and screen prints at the University of Southern Indiana"
+    },
+    {
+      "id": 25,
+      "doc": "GUM_court_nullification",
+      "variables": {
+        "entity_a": "the opening",
+        "entity_b": "the cross-examination",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the opening"
+    },
+    {
+      "id": 26,
+      "doc": "GUM_textbook_stats",
+      "variables": {
+        "entity_a": "percentiles",
+        "entity_b": "6.8 , 7.2",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "percentiles"
+    },
+    {
+      "id": 27,
+      "doc": "GUM_letter_sacco",
+      "variables": {
+        "entity_a": "a review of Russell ’s book , in which I uncovered other misstatements of his",
+        "entity_b": "date of Oct. 7 , 1960",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "a review of Russell ’s book , in which I uncovered other misstatements of his"
+    },
+    {
+      "id": 28,
+      "doc": "GUM_news_sensitive",
+      "variables": {
+        "entity_a": "Sensitive Canadian document found on rainy streets",
+        "entity_b": "2008",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Sensitive Canadian document found on rainy streets"
+    },
+    {
+      "id": 29,
+      "doc": "GUM_court_way",
+      "variables": {
+        "entity_a": "32A",
+        "entity_b": "1924",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "32A"
+    },
+    {
+      "id": 30,
+      "doc": "GUM_conversation_family",
+      "variables": {
+        "entity_a": "Bill",
+        "entity_b": "Barbara Jean",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Bill"
+    },
+    {
+      "id": 31,
+      "doc": "GUM_letter_wiki",
+      "variables": {
+        "entity_a": "Undergraduate Student Government",
+        "entity_b": "wiki technology",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Undergraduate Student Government"
+    },
+    {
+      "id": 32,
+      "doc": "GUM_interview_cyclone",
+      "variables": {
+        "entity_a": "all tropical cyclones",
+        "entity_b": "the Indian government",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "all tropical cyclones"
+    },
+    {
+      "id": 33,
+      "doc": "GUM_letter_conference",
+      "variables": {
+        "entity_a": "the conference",
+        "entity_b": "the foreground",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the conference"
+    },
+    {
+      "id": 34,
+      "doc": "GUM_essay_system",
+      "variables": {
+        "entity_a": "Swartz",
+        "entity_b": "management history",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Swartz"
+    },
+    {
+      "id": 35,
+      "doc": "GUM_bio_gordon",
+      "variables": {
+        "entity_a": "1699",
+        "entity_b": "his service",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1699"
+    },
+    {
+      "id": 36,
+      "doc": "GUM_interview_stardust",
+      "variables": {
+        "entity_a": "order of micron in size",
+        "entity_b": "most browsers",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "order of micron in size"
+    },
+    {
+      "id": 37,
+      "doc": "GUM_speech_telescope",
+      "variables": {
+        "entity_a": "Our NASA Administrator",
+        "entity_b": "Space",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Our NASA Administrator"
+    },
+    {
+      "id": 38,
+      "doc": "GUM_vlog_portland",
+      "variables": {
+        "entity_a": "Portland , Oregon",
+        "entity_b": "one of the biggest things that you should check",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Portland , Oregon"
+    },
+    {
+      "id": 39,
+      "doc": "GUM_academic_thrones",
+      "variables": {
+        "entity_a": "two critical reviews for each episode",
+        "entity_b": "rap",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "two critical reviews for each episode"
+    },
+    {
+      "id": 40,
+      "doc": "GUM_whow_ballet",
+      "variables": {
+        "entity_a": "your positioning",
+        "entity_b": "the guidance of a good instructor , who will be able to correct your positioning and make sure that you 're dancing properly",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "your positioning"
+    },
+    {
+      "id": 41,
+      "doc": "GUM_news_soccer",
+      "variables": {
+        "entity_a": "Belgium",
+        "entity_b": "debutants Panama",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Belgium"
+    },
+    {
+      "id": 42,
+      "doc": "GUM_textbook_stats",
+      "variables": {
+        "entity_a": "the following data",
+        "entity_b": "the Data",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the following data"
+    },
+    {
+      "id": 43,
+      "doc": "GUM_letter_srilanka",
+      "variables": {
+        "entity_a": "the Human Rights situation in Sri Lanka",
+        "entity_b": "interesting reading",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the Human Rights situation in Sri Lanka"
+    },
+    {
+      "id": 44,
+      "doc": "GUM_whow_quidditch",
+      "variables": {
+        "entity_a": "Muggle Quidditch",
+        "entity_b": "the snitch",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Muggle Quidditch"
+    },
+    {
+      "id": 45,
+      "doc": "GUM_essay_ghost",
+      "variables": {
+        "entity_a": "Motoko Kusanagi",
+        "entity_b": "a talented hacker — aka the “ Puppet Master ”",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Motoko Kusanagi"
+    },
+    {
+      "id": 46,
+      "doc": "GUM_voyage_lodz",
+      "variables": {
+        "entity_a": "textile",
+        "entity_b": "the industrial era",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "textile"
+    },
+    {
+      "id": 47,
+      "doc": "GUM_podcast_llms",
+      "variables": {
+        "entity_a": "AI",
+        "entity_b": "people who create LLMs",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "AI"
+    },
+    {
+      "id": 48,
+      "doc": "GUM_academic_lighting",
+      "variables": {
+        "entity_a": "the demand for electricity in the residential",
+        "entity_b": "the incandescent bulb",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the demand for electricity in the residential"
+    },
+    {
+      "id": 49,
+      "doc": "GUM_interview_stardust",
+      "variables": {
+        "entity_a": "Andrew Westphal",
+        "entity_b": "Stardust @ home",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Andrew Westphal"
+    },
+    {
+      "id": 50,
+      "doc": "GUM_essay_sexlife",
+      "variables": {
+        "entity_a": "Aging",
+        "entity_b": "practice",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Aging"
+    },
+    {
+      "id": 51,
+      "doc": "GUM_letter_critique",
+      "variables": {
+        "entity_a": "O. A. BROWNSON D.D. LL.D.",
+        "entity_b": "those of the North",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "O. A. BROWNSON D.D. LL.D."
+    },
+    {
+      "id": 52,
+      "doc": "GUM_voyage_thailand",
+      "variables": {
+        "entity_a": "The wai",
+        "entity_b": "most Theravada Buddhist cultures",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "The wai"
+    },
+    {
+      "id": 53,
+      "doc": "GUM_bio_jespersen",
+      "variables": {
+        "entity_a": "Copenhagen",
+        "entity_b": "Henry Sweet",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Copenhagen"
+    },
+    {
+      "id": 54,
+      "doc": "GUM_speech_maiden",
+      "variables": {
+        "entity_a": "SENATE",
+        "entity_b": "the United States",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "SENATE"
+    },
+    {
+      "id": 55,
+      "doc": "GUM_court_property",
+      "variables": {
+        "entity_a": "plaintiffs '",
+        "entity_b": "process due",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "plaintiffs '"
+    },
+    {
+      "id": 56,
+      "doc": "GUM_conversation_erasmus",
+      "variables": {
+        "entity_a": "salvation",
+        "entity_b": "England",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "salvation"
+    },
+    {
+      "id": 57,
+      "doc": "GUM_court_negligence",
+      "variables": {
+        "entity_a": "waiver of tort",
+        "entity_b": "The first",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "waiver of tort"
+    },
+    {
+      "id": 58,
+      "doc": "GUM_conversation_toys",
+      "variables": {
+        "entity_a": "something that Robbie may like",
+        "entity_b": "the fun",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "something that Robbie may like"
+    },
+    {
+      "id": 59,
+      "doc": "GUM_academic_lighting",
+      "variables": {
+        "entity_a": "mercury",
+        "entity_b": "household electrical energy",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "mercury"
+    },
+    {
+      "id": 60,
+      "doc": "GUM_letter_srilanka",
+      "variables": {
+        "entity_a": "Government",
+        "entity_b": "the main opposition party",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Government"
+    },
+    {
+      "id": 61,
+      "doc": "GUM_conversation_family",
+      "variables": {
+        "entity_a": "Carolyn",
+        "entity_b": "Barbara Jean",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Carolyn"
+    },
+    {
+      "id": 62,
+      "doc": "GUM_academic_enjambment",
+      "variables": {
+        "entity_a": "the following strongly connected elements",
+        "entity_b": "specific syntactic units",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the following strongly connected elements"
+    },
+    {
+      "id": 63,
+      "doc": "GUM_letter_flood",
+      "variables": {
+        "entity_a": "FLOOD",
+        "entity_b": "the entire package of flood relief bills I have sponsored",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "FLOOD"
+    },
+    {
+      "id": 64,
+      "doc": "GUM_essay_fracking",
+      "variables": {
+        "entity_a": "100,000 small fishers",
+        "entity_b": "coughing",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "100,000 small fishers"
+    },
+    {
+      "id": 65,
+      "doc": "GUM_fiction_sneeze",
+      "variables": {
+        "entity_a": "Pete ’s",
+        "entity_b": "a voice",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Pete ’s"
+    },
+    {
+      "id": 66,
+      "doc": "GUM_essay_privatization",
+      "variables": {
+        "entity_a": "copyrights and patents",
+        "entity_b": "patents",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "copyrights and patents"
+    },
+    {
+      "id": 67,
+      "doc": "GUM_podcast_movie",
+      "variables": {
+        "entity_a": "Ian",
+        "entity_b": "Branson Anderson",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Ian"
+    },
+    {
+      "id": 68,
+      "doc": "GUM_court_crash",
+      "variables": {
+        "entity_a": "ladies and gentlemen",
+        "entity_b": "Ken Lorraine",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ladies and gentlemen"
+    },
+    {
+      "id": 69,
+      "doc": "GUM_news_questionnaire",
+      "variables": {
+        "entity_a": "questionnaire for five nationalities",
+        "entity_b": "Braverman",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "questionnaire for five nationalities"
+    },
+    {
+      "id": 70,
+      "doc": "GUM_speech_impeachment",
+      "variables": {
+        "entity_a": "the House",
+        "entity_b": "Americans",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the House"
+    },
+    {
+      "id": 71,
+      "doc": "GUM_essay_sexlife",
+      "variables": {
+        "entity_a": "Sex",
+        "entity_b": "An exception to this pattern",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Sex"
+    },
+    {
+      "id": 72,
+      "doc": "GUM_letter_conference",
+      "variables": {
+        "entity_a": "the Flying Dutchman",
+        "entity_b": "safety",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the Flying Dutchman"
+    },
+    {
+      "id": 73,
+      "doc": "GUM_conversation_family",
+      "variables": {
+        "entity_a": "Barbara Jean",
+        "entity_b": "Kathy",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Barbara Jean"
+    },
+    {
+      "id": 74,
+      "doc": "GUM_news_iodine",
+      "variables": {
+        "entity_a": "all edible salt",
+        "entity_b": "an infant",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "all edible salt"
+    },
+    {
+      "id": 75,
+      "doc": "GUM_textbook_sociology",
+      "variables": {
+        "entity_a": "when confronted with all of the differences of a new culture , one may experience disorientation and frustration",
+        "entity_b": "a local snowshoe race",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "when confronted with all of the differences of a new culture , one may experience disorientation and frustration"
+    },
+    {
+      "id": 76,
+      "doc": "GUM_fiction_garden",
+      "variables": {
+        "entity_a": "a cloudless blue sky",
+        "entity_b": "the rooftops",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "a cloudless blue sky"
+    },
+    {
+      "id": 77,
+      "doc": "GUM_letter_attorney",
+      "variables": {
+        "entity_a": "the letters",
+        "entity_b": "the both of us",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the letters"
+    },
+    {
+      "id": 78,
+      "doc": "GUM_fiction_time",
+      "variables": {
+        "entity_a": "the machine",
+        "entity_b": "the margin",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the machine"
+    },
+    {
+      "id": 79,
+      "doc": "GUM_court_mountain",
+      "variables": {
+        "entity_a": "rentals",
+        "entity_b": "their property",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "rentals"
+    },
+    {
+      "id": 80,
+      "doc": "GUM_textbook_stats",
+      "variables": {
+        "entity_a": "The median",
+        "entity_b": "The first quartile",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "The median"
+    },
+    {
+      "id": 81,
+      "doc": "GUM_court_nullification",
+      "variables": {
+        "entity_a": "counsel 's",
+        "entity_b": "the opening",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "counsel 's"
+    },
+    {
+      "id": 82,
+      "doc": "GUM_podcast_brave",
+      "variables": {
+        "entity_a": "dad",
+        "entity_b": "the whole pour in vial three if you 'd like to hear the the",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "dad"
+    },
+    {
+      "id": 83,
+      "doc": "GUM_news_soccer",
+      "variables": {
+        "entity_a": "South Korea",
+        "entity_b": "both sides",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "South Korea"
+    },
+    {
+      "id": 84,
+      "doc": "GUM_bio_byron",
+      "variables": {
+        "entity_a": "Mary Chaworth , whom he met while at school",
+        "entity_b": "21",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Mary Chaworth , whom he met while at school"
+    },
+    {
+      "id": 85,
+      "doc": "GUM_news_taxes",
+      "variables": {
+        "entity_a": "the Italian municipal tax discipline",
+        "entity_b": "Undersecretary for Education Mr. Toccafondi",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the Italian municipal tax discipline"
+    },
+    {
+      "id": 86,
+      "doc": "GUM_academic_art",
+      "variables": {
+        "entity_a": "Jacob",
+        "entity_b": "c.l.h.warwick@durham.ac.uk",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Jacob"
+    },
+    {
+      "id": 87,
+      "doc": "GUM_conversation_grounded",
+      "variables": {
+        "entity_a": "last night",
+        "entity_b": "Hantavirus",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "last night"
+    },
+    {
+      "id": 88,
+      "doc": "GUM_essay_evolved",
+      "variables": {
+        "entity_a": "Arash Javanbakht",
+        "entity_b": "food",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Arash Javanbakht"
+    },
+    {
+      "id": 89,
+      "doc": "GUM_textbook_history",
+      "variables": {
+        "entity_a": "the Maya",
+        "entity_b": "Mesoamerica",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the Maya"
+    },
+    {
+      "id": 90,
+      "doc": "GUM_essay_walking",
+      "variables": {
+        "entity_a": "Secretary of Transportation",
+        "entity_b": "two cars",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Secretary of Transportation"
+    },
+    {
+      "id": 91,
+      "doc": "GUM_vlog_appearance",
+      "variables": {
+        "entity_a": "my appearance",
+        "entity_b": "guys",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "my appearance"
+    },
+    {
+      "id": 92,
+      "doc": "GUM_bio_holt",
+      "variables": {
+        "entity_a": "the Pittsburgh Pirates",
+        "entity_b": "the Boston Red Sox",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the Pittsburgh Pirates"
+    },
+    {
+      "id": 93,
+      "doc": "GUM_letter_cricket",
+      "variables": {
+        "entity_a": "the pavilion",
+        "entity_b": "I implored Gregory , as a friend , and for the sake of the NSW Cricket Association , which I warned him would be the sufferer by it , not to raise the objection , but he refused to take my view of the case .",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the pavilion"
+    },
+    {
+      "id": 94,
+      "doc": "GUM_court_crash",
+      "variables": {
+        "entity_a": "gentlemen",
+        "entity_b": "the party guests",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "gentlemen"
+    },
+    {
+      "id": 95,
+      "doc": "GUM_vlog_hiking",
+      "variables": {
+        "entity_a": "our shoes",
+        "entity_b": "you guys",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "you guys"
+    },
+    {
+      "id": 96,
+      "doc": "GUM_essay_sexlife",
+      "variables": {
+        "entity_a": "Forbes , Eaton , and Krueger",
+        "entity_b": "age",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Forbes , Eaton , and Krueger"
+    },
+    {
+      "id": 97,
+      "doc": "GUM_speech_open",
+      "variables": {
+        "entity_a": "today",
+        "entity_b": "the teaching staff",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "today"
+    },
+    {
+      "id": 98,
+      "doc": "GUM_vlog_mermaid",
+      "variables": {
+        "entity_a": "Harry Potter",
+        "entity_b": "this little corner store",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Harry Potter"
+    },
+    {
+      "id": 99,
+      "doc": "GUM_conversation_artist",
+      "variables": {
+        "entity_a": "a display guy at the time , by the name of Ben Money",
+        "entity_b": "Albert and Marcia",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "a display guy at the time , by the name of Ben Money"
+    },
+    {
+      "id": 100,
+      "doc": "GUM_fiction_sneeze",
+      "variables": {
+        "entity_a": "a trick",
+        "entity_b": "Yes he has ,",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "a trick"
+    },
+    {
+      "id": 101,
+      "doc": "GUM_letter_flood",
+      "variables": {
+        "entity_a": "I could have introduced a bill to provide grants even though it could not have passed , but I feel very strongly that to have done this would have simply raised false hopes where real help is what is needed .",
+        "entity_b": "a lady",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "I could have introduced a bill to provide grants even though it could not have passed , but I feel very strongly that to have done this would have simply raised false hopes where real help is what is needed ."
+    },
+    {
+      "id": 102,
+      "doc": "GUM_academic_exposure",
+      "variables": {
+        "entity_a": "21",
+        "entity_b": "performance",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "21"
+    },
+    {
+      "id": 103,
+      "doc": "GUM_essay_fracking",
+      "variables": {
+        "entity_a": "U.S.",
+        "entity_b": "a necessary building block of plastic",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "U.S."
+    },
+    {
+      "id": 104,
+      "doc": "GUM_news_warhol",
+      "variables": {
+        "entity_a": "a major Warhol donor program",
+        "entity_b": "many people Wikinews observed",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "a major Warhol donor program"
+    },
+    {
+      "id": 105,
+      "doc": "GUM_essay_dividends",
+      "variables": {
+        "entity_a": "Alaska",
+        "entity_b": "natural property",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Alaska"
+    },
+    {
+      "id": 106,
+      "doc": "GUM_court_nullification",
+      "variables": {
+        "entity_a": "Attorney",
+        "entity_b": "a forceful curative instruction",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Attorney"
+    },
+    {
+      "id": 107,
+      "doc": "GUM_conversation_atoms",
+      "variables": {
+        "entity_a": "some ice in a pan",
+        "entity_b": "Ocho",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "some ice in a pan"
+    },
+    {
+      "id": 108,
+      "doc": "GUM_conversation_artist",
+      "variables": {
+        "entity_a": "the s- first painting I ever bought",
+        "entity_b": "this guy 's",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the s- first painting I ever bought"
+    },
+    {
+      "id": 109,
+      "doc": "GUM_interview_ants",
+      "variables": {
+        "entity_a": "Beauveria bassiana",
+        "entity_b": "a recently - accepted Evolution paper",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Beauveria bassiana"
+    },
+    {
+      "id": 110,
+      "doc": "GUM_letter_flood",
+      "variables": {
+        "entity_a": "all of us",
+        "entity_b": "rebuilding loans",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "all of us"
+    },
+    {
+      "id": 111,
+      "doc": "GUM_essay_fracking",
+      "variables": {
+        "entity_a": "a necessary building block of plastic",
+        "entity_b": "fracking",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "a necessary building block of plastic"
+    },
+    {
+      "id": 112,
+      "doc": "GUM_court_insanity",
+      "variables": {
+        "entity_a": "arguable justifications for that initial commitment",
+        "entity_b": "certain , uh , rationales for a commitment",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "arguable justifications for that initial commitment"
+    },
+    {
+      "id": 113,
+      "doc": "GUM_conversation_grounded",
+      "variables": {
+        "entity_a": "last night",
+        "entity_b": "Melanie 's",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "last night"
+    },
+    {
+      "id": 114,
+      "doc": "GUM_textbook_governments",
+      "variables": {
+        "entity_a": "atheists",
+        "entity_b": "the United States",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "atheists"
+    },
+    {
+      "id": 115,
+      "doc": "GUM_whow_skittles",
+      "variables": {
+        "entity_a": "A handle ( 1.75 liters",
+        "entity_b": "intoxication",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "A handle ( 1.75 liters"
+    },
+    {
+      "id": 116,
+      "doc": "GUM_essay_dividends",
+      "variables": {
+        "entity_a": "dividend",
+        "entity_b": "natural property",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "dividend"
+    },
+    {
+      "id": 117,
+      "doc": "GUM_textbook_spacetime",
+      "variables": {
+        "entity_a": "an extremely intelligent ant — a friend of the comic book superhero Ant - Man , perhaps",
+        "entity_b": "time",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "an extremely intelligent ant — a friend of the comic book superhero Ant - Man , perhaps"
+    },
+    {
+      "id": 118,
+      "doc": "GUM_speech_destiny",
+      "variables": {
+        "entity_a": "his message",
+        "entity_b": "disaster",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "his message"
+    },
+    {
+      "id": 119,
+      "doc": "GUM_voyage_oakland",
+      "variables": {
+        "entity_a": "West Oakland",
+        "entity_b": "Jack London Square",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "West Oakland"
+    },
+    {
+      "id": 120,
+      "doc": "GUM_interview_onion",
+      "variables": {
+        "entity_a": "When you are going through the headlines",
+        "entity_b": "The Onion",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "When you are going through the headlines"
+    },
+    {
+      "id": 121,
+      "doc": "GUM_fiction_time",
+      "variables": {
+        "entity_a": "what I had taken to be a reddish mass of rock",
+        "entity_b": "the sun",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "what I had taken to be a reddish mass of rock"
+    },
+    {
+      "id": 122,
+      "doc": "GUM_court_crash",
+      "variables": {
+        "entity_a": "People",
+        "entity_b": "Mariah Dodds",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "People"
+    },
+    {
+      "id": 123,
+      "doc": "GUM_court_way",
+      "variables": {
+        "entity_a": "the Court",
+        "entity_b": "1924",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the Court"
+    },
+    {
+      "id": 124,
+      "doc": "GUM_academic_art",
+      "variables": {
+        "entity_a": "Zurbarán",
+        "entity_b": "museum and gallery practice",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Zurbarán"
+    },
+    {
+      "id": 125,
+      "doc": "GUM_voyage_socotra",
+      "variables": {
+        "entity_a": "tourists",
+        "entity_b": "Wednesday afternoon",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "tourists"
+    },
+    {
+      "id": 126,
+      "doc": "GUM_news_soccer",
+      "variables": {
+        "entity_a": "debutants Panama",
+        "entity_b": "the first game of the day",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "debutants Panama"
+    },
+    {
+      "id": 127,
+      "doc": "GUM_vlog_college",
+      "variables": {
+        "entity_a": "today",
+        "entity_b": "friends",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "today"
+    },
+    {
+      "id": 128,
+      "doc": "GUM_court_loan",
+      "variables": {
+        "entity_a": "Secretary Cardona",
+        "entity_b": "General Prelogar",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Secretary Cardona"
+    },
+    {
+      "id": 129,
+      "doc": "GUM_essay_ghost",
+      "variables": {
+        "entity_a": "the company",
+        "entity_b": "the perspectives that movies like Ghost in the Shell and others reveal",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the company"
+    },
+    {
+      "id": 130,
+      "doc": "GUM_speech_impeachment",
+      "variables": {
+        "entity_a": "Donald John Trump",
+        "entity_b": "the House managers",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Donald John Trump"
+    },
+    {
+      "id": 131,
+      "doc": "GUM_court_insanity",
+      "variables": {
+        "entity_a": "Mr. Wasserstrom",
+        "entity_b": "Petitioner was ordered committed indefinitely to a mental hospital",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Mr. Wasserstrom"
+    },
+    {
+      "id": 132,
+      "doc": "GUM_academic_replication",
+      "variables": {
+        "entity_a": "Second Language",
+        "entity_b": "Second Language Research",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Second Language"
+    },
+    {
+      "id": 133,
+      "doc": "GUM_speech_floyd",
+      "variables": {
+        "entity_a": "Justice in Policing",
+        "entity_b": "nearly one year ago",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Justice in Policing"
+    },
+    {
+      "id": 134,
+      "doc": "GUM_podcast_bezos",
+      "variables": {
+        "entity_a": "the world 's richest man",
+        "entity_b": "the little people",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the world 's richest man"
+    },
+    {
+      "id": 135,
+      "doc": "GUM_interview_ants",
+      "variables": {
+        "entity_a": "Biologist Nick Bos",
+        "entity_b": "Bos and colleagues",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Biologist Nick Bos"
+    },
+    {
+      "id": 136,
+      "doc": "GUM_speech_maiden",
+      "variables": {
+        "entity_a": "The hope she spoke about",
+        "entity_b": "no choice",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "The hope she spoke about"
+    },
+    {
+      "id": 137,
+      "doc": "GUM_letter_conference",
+      "variables": {
+        "entity_a": "Bert and I",
+        "entity_b": "the conference",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Bert and I"
+    },
+    {
+      "id": 138,
+      "doc": "GUM_court_mental",
+      "variables": {
+        "entity_a": "Montana",
+        "entity_b": "the court",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Montana"
+    },
+    {
+      "id": 139,
+      "doc": "GUM_textbook_alamo",
+      "variables": {
+        "entity_a": "the Mexican government",
+        "entity_b": "General Antonio Lopez de Santa Anna",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the Mexican government"
+    },
+    {
+      "id": 140,
+      "doc": "GUM_interview_onion",
+      "variables": {
+        "entity_a": "When you are going through the headlines",
+        "entity_b": "writers",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "When you are going through the headlines"
+    },
+    {
+      "id": 141,
+      "doc": "GUM_conversation_grounded",
+      "variables": {
+        "entity_a": "last night",
+        "entity_b": "Kim",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "last night"
+    },
+    {
+      "id": 142,
+      "doc": "GUM_vlog_college",
+      "variables": {
+        "entity_a": "today",
+        "entity_b": "couple",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "today"
+    },
+    {
+      "id": 143,
+      "doc": "GUM_vlog_lipstick",
+      "variables": {
+        "entity_a": "'s",
+        "entity_b": "the shelf life symbol",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "'s"
+    },
+    {
+      "id": 144,
+      "doc": "GUM_speech_floyd",
+      "variables": {
+        "entity_a": "law enforcement",
+        "entity_b": "fairness",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "law enforcement"
+    },
+    {
+      "id": 145,
+      "doc": "GUM_conversation_toys",
+      "variables": {
+        "entity_a": "a movie",
+        "entity_b": "his birthday",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "a movie"
+    },
+    {
+      "id": 146,
+      "doc": "GUM_news_warming",
+      "variables": {
+        "entity_a": "Climate",
+        "entity_b": "global food supply",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Climate"
+    },
+    {
+      "id": 147,
+      "doc": "GUM_news_crane",
+      "variables": {
+        "entity_a": "A storm yesterday caused a crane to fall into Mecca 's Grand Mosque , killing 107 or more and wounding 238",
+        "entity_b": "the Hajj",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "A storm yesterday caused a crane to fall into Mecca 's Grand Mosque , killing 107 or more and wounding 238"
+    },
+    {
+      "id": 148,
+      "doc": "GUM_vlog_exams",
+      "variables": {
+        "entity_a": "yours",
+        "entity_b": "my friend",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "yours"
+    },
+    {
+      "id": 149,
+      "doc": "GUM_conversation_blacksmithing",
+      "variables": {
+        "entity_a": "a white line , that you go by",
+        "entity_b": "this class",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "this class"
+    },
+    {
+      "id": 150,
+      "doc": "GUM_essay_fear",
+      "variables": {
+        "entity_a": "Tribalism",
+        "entity_b": "Javanbakht",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Tribalism"
+    },
+    {
+      "id": 151,
+      "doc": "GUM_court_way",
+      "variables": {
+        "entity_a": "Middlesex County",
+        "entity_b": "the Middlesex County Commissioners",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Middlesex County"
+    },
+    {
+      "id": 152,
+      "doc": "GUM_court_prince",
+      "variables": {
+        "entity_a": "an example of any follow - on work that fails your test",
+        "entity_b": "Factor 1 of the four - factor balancing test",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Factor 1 of the four - factor balancing test"
+    },
+    {
+      "id": 153,
+      "doc": "GUM_news_clock",
+      "variables": {
+        "entity_a": "police",
+        "entity_b": "2015",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "police"
+    },
+    {
+      "id": 154,
+      "doc": "GUM_letter_attorney",
+      "variables": {
+        "entity_a": "the both of us",
+        "entity_b": "Isabelle",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the both of us"
+    },
+    {
+      "id": 155,
+      "doc": "GUM_speech_impeachment",
+      "variables": {
+        "entity_a": "the House managers",
+        "entity_b": "Madam Speaker",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the House managers"
+    },
+    {
+      "id": 156,
+      "doc": "GUM_whow_cupcakes",
+      "variables": {
+        "entity_a": "cupcake",
+        "entity_b": "cupcake holders / cases",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "cupcake"
+    },
+    {
+      "id": 157,
+      "doc": "GUM_news_questionnaire",
+      "variables": {
+        "entity_a": "UK",
+        "entity_b": "questionnaire for five nationalities",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "UK"
+    },
+    {
+      "id": 158,
+      "doc": "GUM_podcast_llms",
+      "variables": {
+        "entity_a": "large language model",
+        "entity_b": "AI",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "large language model"
+    },
+    {
+      "id": 159,
+      "doc": "GUM_fiction_giants",
+      "variables": {
+        "entity_a": "our farmland",
+        "entity_b": "a dark room",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "our farmland"
+    },
+    {
+      "id": 160,
+      "doc": "GUM_podcast_movie",
+      "variables": {
+        "entity_a": "Jen",
+        "entity_b": "Ian",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Jen"
+    },
+    {
+      "id": 161,
+      "doc": "GUM_speech_open",
+      "variables": {
+        "entity_a": "Kenya",
+        "entity_b": "the Chief Guest",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Kenya"
+    },
+    {
+      "id": 162,
+      "doc": "GUM_conversation_toys",
+      "variables": {
+        "entity_a": "the fun",
+        "entity_b": "the Toys ' R ' Us catalog",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the fun"
+    },
+    {
+      "id": 163,
+      "doc": "GUM_essay_walking",
+      "variables": {
+        "entity_a": "cars",
+        "entity_b": "our new book",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "cars"
+    },
+    {
+      "id": 164,
+      "doc": "GUM_essay_evolved",
+      "variables": {
+        "entity_a": "my patients",
+        "entity_b": "Sedentary lifestyles",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "my patients"
+    },
+    {
+      "id": 165,
+      "doc": "GUM_conversation_erasmus",
+      "variables": {
+        "entity_a": "a person",
+        "entity_b": "God alone",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "a person"
+    },
+    {
+      "id": 166,
+      "doc": "GUM_bio_galois",
+      "variables": {
+        "entity_a": "17",
+        "entity_b": "7",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "17"
+    },
+    {
+      "id": 167,
+      "doc": "GUM_news_imprisoned",
+      "variables": {
+        "entity_a": "the Scientology - owned cruise ship",
+        "entity_b": "her mother",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the Scientology - owned cruise ship"
+    },
+    {
+      "id": 168,
+      "doc": "GUM_court_fire",
+      "variables": {
+        "entity_a": "the theory",
+        "entity_b": "Debbie 's smoking chair",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the theory"
+    },
+    {
+      "id": 169,
+      "doc": "GUM_news_sensitive",
+      "variables": {
+        "entity_a": "rainy streets",
+        "entity_b": "the government 's",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "rainy streets"
+    },
+    {
+      "id": 170,
+      "doc": "GUM_textbook_union",
+      "variables": {
+        "entity_a": "African Americans serving in the Civil War",
+        "entity_b": "the Civil War",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "African Americans serving in the Civil War"
+    },
+    {
+      "id": 171,
+      "doc": "GUM_letter_attorney",
+      "variables": {
+        "entity_a": "Williamson",
+        "entity_b": "your mother 's",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Williamson"
+    },
+    {
+      "id": 172,
+      "doc": "GUM_voyage_oakland",
+      "variables": {
+        "entity_a": "Downtown",
+        "entity_b": "Oakland 's famous Chinatown",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Downtown"
+    },
+    {
+      "id": 173,
+      "doc": "GUM_news_asylum",
+      "variables": {
+        "entity_a": "The US State Department",
+        "entity_b": "his concern",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "The US State Department"
+    },
+    {
+      "id": 174,
+      "doc": "GUM_speech_telescope",
+      "variables": {
+        "entity_a": "the American people",
+        "entity_b": "Vice President Harris",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the American people"
+    },
+    {
+      "id": 175,
+      "doc": "GUM_essay_privatization",
+      "variables": {
+        "entity_a": "barbie",
+        "entity_b": "summer camps",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "barbie"
+    },
+    {
+      "id": 176,
+      "doc": "GUM_court_loan",
+      "variables": {
+        "entity_a": "a measure of loan forgiveness",
+        "entity_b": "Title IV",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "a measure of loan forgiveness"
+    },
+    {
+      "id": 177,
+      "doc": "GUM_bio_holt",
+      "variables": {
+        "entity_a": "Boston",
+        "entity_b": "Stolmy Pimentel",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Boston"
+    },
+    {
+      "id": 178,
+      "doc": "GUM_academic_huh",
+      "variables": {
+        "entity_a": "unrelated languages",
+        "entity_b": "American English",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "unrelated languages"
+    },
+    {
+      "id": 179,
+      "doc": "GUM_court_crash",
+      "variables": {
+        "entity_a": "the Swan Boat Club in Berlin Township , Newport , State of Michigan",
+        "entity_b": "Zane , and Alanah Phillips",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the Swan Boat Club in Berlin Township , Newport , State of Michigan"
+    },
+    {
+      "id": 180,
+      "doc": "GUM_speech_telescope",
+      "variables": {
+        "entity_a": "Vice President Harris",
+        "entity_b": "our nation",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Vice President Harris"
+    },
+    {
+      "id": 181,
+      "doc": "GUM_conversation_blacksmithing",
+      "variables": {
+        "entity_a": "to do the feet",
+        "entity_b": "a horse",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "to do the feet"
+    },
+    {
+      "id": 182,
+      "doc": "GUM_court_nullification",
+      "variables": {
+        "entity_a": "the cross-examination",
+        "entity_b": "no prejudice to the Commonwealth",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the cross-examination"
+    },
+    {
+      "id": 183,
+      "doc": "GUM_news_questionnaire",
+      "variables": {
+        "entity_a": "Sunak",
+        "entity_b": "English",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Sunak"
+    },
+    {
+      "id": 184,
+      "doc": "GUM_podcast_library",
+      "variables": {
+        "entity_a": "the new Cyberpunk Librarian page on Facebook",
+        "entity_b": "stuff",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the new Cyberpunk Librarian page on Facebook"
+    },
+    {
+      "id": 185,
+      "doc": "GUM_essay_fear",
+      "variables": {
+        "entity_a": "the U.S. media",
+        "entity_b": "U.S.",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the U.S. media"
+    },
+    {
+      "id": 186,
+      "doc": "GUM_voyage_sydfynske",
+      "variables": {
+        "entity_a": "the area",
+        "entity_b": "The archipelago trail",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the area"
+    },
+    {
+      "id": 187,
+      "doc": "GUM_podcast_mealprep",
+      "variables": {
+        "entity_a": "Meal prep",
+        "entity_b": "I will prep for the week",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Meal prep"
+    },
+    {
+      "id": 188,
+      "doc": "GUM_bio_gordon",
+      "variables": {
+        "entity_a": "Auchleuchries",
+        "entity_b": "Azov",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Auchleuchries"
+    },
+    {
+      "id": 189,
+      "doc": "GUM_textbook_governments",
+      "variables": {
+        "entity_a": "Government",
+        "entity_b": "representative democracy",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Government"
+    },
+    {
+      "id": 190,
+      "doc": "GUM_letter_sacco",
+      "variables": {
+        "entity_a": "Sacco",
+        "entity_b": "a review of Russell ’s book , in which I uncovered other misstatements of his",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Sacco"
+    },
+    {
+      "id": 191,
+      "doc": "GUM_court_loan",
+      "variables": {
+        "entity_a": "the HEROES Act",
+        "entity_b": "student - loan borrowers",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the HEROES Act"
+    },
+    {
+      "id": 192,
+      "doc": "GUM_academic_thrones",
+      "variables": {
+        "entity_a": "Transmedia systems , like that exemplified by Game of Thrones",
+        "entity_b": "fans of the show unfamiliar with Martin ’s narrative",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Transmedia systems , like that exemplified by Game of Thrones"
+    },
+    {
+      "id": 193,
+      "doc": "GUM_academic_salinity",
+      "variables": {
+        "entity_a": "sea surface",
+        "entity_b": "brightness",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sea surface"
+    },
+    {
+      "id": 194,
+      "doc": "GUM_news_election",
+      "variables": {
+        "entity_a": "Civic Party",
+        "entity_b": "Alvin Yeung from the Civic Party",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Civic Party"
+    },
+    {
+      "id": 195,
+      "doc": "GUM_podcast_movie",
+      "variables": {
+        "entity_a": "mine",
+        "entity_b": "Ian",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "mine"
+    },
+    {
+      "id": 196,
+      "doc": "GUM_letter_cricket",
+      "variables": {
+        "entity_a": "your friends",
+        "entity_b": "Coulthard",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "your friends"
+    },
+    {
+      "id": 197,
+      "doc": "GUM_interview_peres",
+      "variables": {
+        "entity_a": "peace",
+        "entity_b": "the land",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "peace"
+    },
+    {
+      "id": 198,
+      "doc": "GUM_court_crash",
+      "variables": {
+        "entity_a": "a birthday party for her three year old son Stetson",
+        "entity_b": "People",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "a birthday party for her three year old son Stetson"
+    },
+    {
+      "id": 199,
+      "doc": "GUM_essay_fracking",
+      "variables": {
+        "entity_a": "U.S.",
+        "entity_b": "Oil",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "U.S."
+    },
+    {
+      "id": 200,
+      "doc": "GUM_whow_cupcakes",
+      "variables": {
+        "entity_a": "2 3/4 cups ( 345 g",
+        "entity_b": "2 teaspoons baking soda",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2 3/4 cups ( 345 g"
+    },
+    {
+      "id": 201,
+      "doc": "GUM_interview_stardust",
+      "variables": {
+        "entity_a": "samples",
+        "entity_b": "Andrew Westphal",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "samples"
+    },
+    {
+      "id": 202,
+      "doc": "GUM_letter_gorbachev",
+      "variables": {
+        "entity_a": "utility and other services that have marked economies of scale or density",
+        "entity_b": "Mikhail Gorbachev",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "utility and other services that have marked economies of scale or density"
+    },
+    {
+      "id": 203,
+      "doc": "GUM_conversation_gossip",
+      "variables": {
+        "entity_a": "Doctor Kevin",
+        "entity_b": "kids",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Doctor Kevin"
+    },
+    {
+      "id": 204,
+      "doc": "GUM_court_mountain",
+      "variables": {
+        "entity_a": "cause number DA 23-0716",
+        "entity_b": "Montana",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "cause number DA 23-0716"
+    },
+    {
+      "id": 205,
+      "doc": "GUM_conversation_zero",
+      "variables": {
+        "entity_a": "three",
+        "entity_b": "Leah",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "three"
+    },
+    {
+      "id": 206,
+      "doc": "GUM_fiction_time",
+      "variables": {
+        "entity_a": "the sun",
+        "entity_b": "the sky",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the sun"
+    },
+    {
+      "id": 207,
+      "doc": "GUM_whow_basil",
+      "variables": {
+        "entity_a": "a mixture of equal parts perlite , vermiculite , and peat",
+        "entity_b": "year",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "a mixture of equal parts perlite , vermiculite , and peat"
+    },
+    {
+      "id": 208,
+      "doc": "GUM_court_nullification",
+      "variables": {
+        "entity_a": "Attorney",
+        "entity_b": "counsel 's",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Attorney"
+    },
+    {
+      "id": 209,
+      "doc": "GUM_speech_impeachment",
+      "variables": {
+        "entity_a": "Americans",
+        "entity_b": "the House managers",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Americans"
+    },
+    {
+      "id": 210,
+      "doc": "GUM_essay_sexlife",
+      "variables": {
+        "entity_a": "life",
+        "entity_b": "age",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "life"
+    },
+    {
+      "id": 211,
+      "doc": "GUM_interview_peres",
+      "variables": {
+        "entity_a": "peace",
+        "entity_b": "the terrorists",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "peace"
+    },
+    {
+      "id": 212,
+      "doc": "GUM_speech_maiden",
+      "variables": {
+        "entity_a": "SENATE",
+        "entity_b": "KAMALA HARRIS",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "SENATE"
+    },
+    {
+      "id": 213,
+      "doc": "GUM_textbook_stats",
+      "variables": {
+        "entity_a": "the third quartile",
+        "entity_b": "the median",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the third quartile"
+    },
+    {
+      "id": 214,
+      "doc": "GUM_speech_impeachment",
+      "variables": {
+        "entity_a": "I solemnly swear that in all things appertaining to the trial of the impeachment of Donald John Trump , President of the United States , now pending , I will do impartial justice according to the Constitution and laws .",
+        "entity_b": "the House managers",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "I solemnly swear that in all things appertaining to the trial of the impeachment of Donald John Trump , President of the United States , now pending , I will do impartial justice according to the Constitution and laws ."
+    },
+    {
+      "id": 215,
+      "doc": "GUM_conversation_zero",
+      "variables": {
+        "entity_a": "three",
+        "entity_b": "the square root of two",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "three"
+    },
+    {
+      "id": 216,
+      "doc": "GUM_speech_humanitarian",
+      "variables": {
+        "entity_a": "people",
+        "entity_b": "gilded meeting rooms",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "people"
+    },
+    {
+      "id": 217,
+      "doc": "GUM_news_soccer",
+      "variables": {
+        "entity_a": "Sweden",
+        "entity_b": "the first game of the day",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Sweden"
+    },
+    {
+      "id": 218,
+      "doc": "GUM_voyage_cuba",
+      "variables": {
+        "entity_a": "Visa",
+        "entity_b": "Cuba",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Visa"
+    },
+    {
+      "id": 219,
+      "doc": "GUM_fiction_moon",
+      "variables": {
+        "entity_a": "old spires that the waves almost uncovered",
+        "entity_b": "the arched , carven bridge",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "old spires that the waves almost uncovered"
+    },
+    {
+      "id": 220,
+      "doc": "GUM_whow_quidditch",
+      "variables": {
+        "entity_a": "the snitch",
+        "entity_b": "players",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the snitch"
+    },
+    {
+      "id": 221,
+      "doc": "GUM_court_way",
+      "variables": {
+        "entity_a": "Middlesex County",
+        "entity_b": "1932",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Middlesex County"
+    },
+    {
+      "id": 222,
+      "doc": "GUM_whow_basil",
+      "variables": {
+        "entity_a": "seed",
+        "entity_b": "decoration",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "seed"
+    },
+    {
+      "id": 223,
+      "doc": "GUM_court_property",
+      "variables": {
+        "entity_a": "public lands",
+        "entity_b": "the specific interest at issue in this case",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "public lands"
+    },
+    {
+      "id": 224,
+      "doc": "GUM_interview_messina",
+      "variables": {
+        "entity_a": "Walt Whitman",
+        "entity_b": "2007",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Walt Whitman"
+    },
+    {
+      "id": 225,
+      "doc": "GUM_interview_hill",
+      "variables": {
+        "entity_a": "our responsibility",
+        "entity_b": "the \" Top of the Spear . \"",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "our responsibility"
+    },
+    {
+      "id": 226,
+      "doc": "GUM_textbook_chemistry",
+      "variables": {
+        "entity_a": "ancient Greek philosophers",
+        "entity_b": "a certain element",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ancient Greek philosophers"
+    },
+    {
+      "id": 227,
+      "doc": "GUM_vlog_wine",
+      "variables": {
+        "entity_a": "the Cab",
+        "entity_b": "pencil shavings aromas",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the Cab"
+    },
+    {
+      "id": 228,
+      "doc": "GUM_academic_art",
+      "variables": {
+        "entity_a": "17th Century Zurbarán paintings",
+        "entity_b": "individual works",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "17th Century Zurbarán paintings"
+    },
+    {
+      "id": 229,
+      "doc": "GUM_speech_telescope",
+      "variables": {
+        "entity_a": "the American people",
+        "entity_b": "JULY 11 , 2022",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the American people"
+    },
+    {
+      "id": 230,
+      "doc": "GUM_whow_skittles",
+      "variables": {
+        "entity_a": "Skittles",
+        "entity_b": "Skittles Vodka",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Skittles"
+    },
+    {
+      "id": 231,
+      "doc": "GUM_vlog_wine",
+      "variables": {
+        "entity_a": "the Chardonnay - Pinot Noir",
+        "entity_b": "the Cab",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the Chardonnay - Pinot Noir"
+    },
+    {
+      "id": 232,
+      "doc": "GUM_letter_flood",
+      "variables": {
+        "entity_a": "The task that lies ahead",
+        "entity_b": "Government expense",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "The task that lies ahead"
+    },
+    {
+      "id": 233,
+      "doc": "GUM_interview_messina",
+      "variables": {
+        "entity_a": "somebody",
+        "entity_b": "no hesitation",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "somebody"
+    },
+    {
+      "id": 234,
+      "doc": "GUM_fiction_garden",
+      "variables": {
+        "entity_a": "Water",
+        "entity_b": "our way",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Water"
+    },
+    {
+      "id": 235,
+      "doc": "GUM_interview_cocktail",
+      "variables": {
+        "entity_a": "New York bar",
+        "entity_b": "Google",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "New York bar"
+    },
+    {
+      "id": 236,
+      "doc": "GUM_news_iodine",
+      "variables": {
+        "entity_a": "Professor Cres Eastman",
+        "entity_b": "A new study documenting iodine nutritional status in Australian school children",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Professor Cres Eastman"
+    },
+    {
+      "id": 237,
+      "doc": "GUM_letter_attorney",
+      "variables": {
+        "entity_a": "John K. Bartram , Esquire",
+        "entity_b": "the both of us",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "John K. Bartram , Esquire"
+    },
+    {
+      "id": 238,
+      "doc": "GUM_news_defector",
+      "variables": {
+        "entity_a": "Scientology officials",
+        "entity_b": "a taste of freedom and the world",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Scientology officials"
+    },
+    {
+      "id": 239,
+      "doc": "GUM_court_nullification",
+      "variables": {
+        "entity_a": "jury",
+        "entity_b": "the opening",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "jury"
+    },
+    {
+      "id": 240,
+      "doc": "GUM_speech_trump",
+      "variables": {
+        "entity_a": "ISIS",
+        "entity_b": "Iraq",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ISIS"
+    },
+    {
+      "id": 241,
+      "doc": "GUM_speech_humanitarian",
+      "variables": {
+        "entity_a": "two separate and competing worlds",
+        "entity_b": "demagogues",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "two separate and competing worlds"
+    },
+    {
+      "id": 242,
+      "doc": "GUM_speech_impeachment",
+      "variables": {
+        "entity_a": "nearly all Republican Senators",
+        "entity_b": "witnesses with pertinent information",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "nearly all Republican Senators"
+    },
+    {
+      "id": 243,
+      "doc": "GUM_fiction_lunre",
+      "variables": {
+        "entity_a": "Master Lunre",
+        "entity_b": "one another",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Master Lunre"
+    },
+    {
+      "id": 244,
+      "doc": "GUM_academic_theropod",
+      "variables": {
+        "entity_a": "5",
+        "entity_b": "Carrano and Biewener 's experimental subjects",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "5"
+    },
+    {
+      "id": 245,
+      "doc": "GUM_conversation_erasmus",
+      "variables": {
+        "entity_a": "God alone",
+        "entity_b": "a page from Brendler",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "God alone"
+    },
+    {
+      "id": 246,
+      "doc": "GUM_interview_stardust",
+      "variables": {
+        "entity_a": "a fantastic launch video",
+        "entity_b": "1999",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "a fantastic launch video"
+    },
+    {
+      "id": 247,
+      "doc": "GUM_textbook_stats",
+      "variables": {
+        "entity_a": "the median",
+        "entity_b": "the Data",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the median"
+    },
+    {
+      "id": 248,
+      "doc": "GUM_court_carpet",
+      "variables": {
+        "entity_a": "labor installing a carpet",
+        "entity_b": "sir",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "labor installing a carpet"
+    },
+    {
+      "id": 249,
+      "doc": "GUM_conversation_blacksmithing",
+      "variables": {
+        "entity_a": "the hoof",
+        "entity_b": "to trim it",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the hoof"
+    },
+    {
+      "id": 250,
+      "doc": "GUM_court_nullification",
+      "variables": {
+        "entity_a": "a forceful curative instruction",
+        "entity_b": "jury",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "a forceful curative instruction"
+    },
+    {
+      "id": 251,
+      "doc": "GUM_textbook_evoethics",
+      "variables": {
+        "entity_a": "Sharon Street",
+        "entity_b": "moral judgments",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Sharon Street"
+    },
+    {
+      "id": 252,
+      "doc": "GUM_court_prince",
+      "variables": {
+        "entity_a": "Factor 1 of the four - factor balancing test",
+        "entity_b": "the Orange Prince",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Factor 1 of the four - factor balancing test"
+    },
+    {
+      "id": 253,
+      "doc": "GUM_speech_impeachment",
+      "variables": {
+        "entity_a": "I solemnly swear that in all things appertaining to the trial of the impeachment of Donald John Trump , President of the United States , now pending , I will do impartial justice according to the Constitution and laws .",
+        "entity_b": "the House",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the House"
+    },
+    {
+      "id": 254,
+      "doc": "GUM_conversation_christmas",
+      "variables": {
+        "entity_a": "That one",
+        "entity_b": "Mom",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Mom"
+    },
+    {
+      "id": 255,
+      "doc": "GUM_textbook_spacetime",
+      "variables": {
+        "entity_a": "Spacetime",
+        "entity_b": "space",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Spacetime"
+    },
+    {
+      "id": 256,
+      "doc": "GUM_vlog_hair",
+      "variables": {
+        "entity_a": "the next product , which is my curl defining jelly",
+        "entity_b": "new products",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the next product , which is my curl defining jelly"
+    },
+    {
+      "id": 257,
+      "doc": "GUM_textbook_governments",
+      "variables": {
+        "entity_a": "Residents of Boxborough , Massachusetts",
+        "entity_b": "meetings of the Assembly",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Residents of Boxborough , Massachusetts"
+    },
+    {
+      "id": 258,
+      "doc": "GUM_fiction_oversite",
+      "variables": {
+        "entity_a": "Sonia",
+        "entity_b": "The doctor",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Sonia"
+    },
+    {
+      "id": 259,
+      "doc": "GUM_speech_data",
+      "variables": {
+        "entity_a": "Bio Taiwan",
+        "entity_b": "the Taiwan network",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Bio Taiwan"
+    },
+    {
+      "id": 260,
+      "doc": "GUM_court_crash",
+      "variables": {
+        "entity_a": "Mariah Dodds",
+        "entity_b": "Zane",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Mariah Dodds"
+    },
+    {
+      "id": 261,
+      "doc": "GUM_court_insanity",
+      "variables": {
+        "entity_a": "attempted petty larceny",
+        "entity_b": "September of 1976",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "attempted petty larceny"
+    },
+    {
+      "id": 262,
+      "doc": "GUM_vlog_wine",
+      "variables": {
+        "entity_a": "the Chardonnay - Pinot Noir",
+        "entity_b": "open now , drink now wines",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the Chardonnay - Pinot Noir"
+    },
+    {
+      "id": 263,
+      "doc": "GUM_conversation_family",
+      "variables": {
+        "entity_a": "Bill",
+        "entity_b": "Carolyn",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Bill"
+    },
+    {
+      "id": 264,
+      "doc": "GUM_academic_lighting",
+      "variables": {
+        "entity_a": "lighting",
+        "entity_b": "mercury",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "lighting"
+    },
+    {
+      "id": 265,
+      "doc": "GUM_whow_cupcakes",
+      "variables": {
+        "entity_a": "Basic Vanilla Vegan Cupcakes",
+        "entity_b": "the oven",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Basic Vanilla Vegan Cupcakes"
+    },
+    {
+      "id": 266,
+      "doc": "GUM_court_mental",
+      "variables": {
+        "entity_a": "Miss Peterson",
+        "entity_b": "Zoom",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Miss Peterson"
+    },
+    {
+      "id": 267,
+      "doc": "GUM_court_mountain",
+      "variables": {
+        "entity_a": "the provision regarding commercial use",
+        "entity_b": "Montana",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the provision regarding commercial use"
+    },
+    {
+      "id": 268,
+      "doc": "GUM_podcast_brave",
+      "variables": {
+        "entity_a": "dad",
+        "entity_b": "that bear",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "dad"
+    },
+    {
+      "id": 269,
+      "doc": "GUM_textbook_history",
+      "variables": {
+        "entity_a": "Beringia",
+        "entity_b": "The fact that Asians and American Indians share genetic markers on a Y chromosome",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Beringia"
+    },
+    {
+      "id": 270,
+      "doc": "GUM_speech_impeachment",
+      "variables": {
+        "entity_a": "I solemnly swear that in all things appertaining to the trial of the impeachment of Donald John Trump , President of the United States , now pending , I will do impartial justice according to the Constitution and laws .",
+        "entity_b": "Americans",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "I solemnly swear that in all things appertaining to the trial of the impeachment of Donald John Trump , President of the United States , now pending , I will do impartial justice according to the Constitution and laws ."
+    },
+    {
+      "id": 271,
+      "doc": "GUM_court_nullification",
+      "variables": {
+        "entity_a": "a forceful curative instruction",
+        "entity_b": "the opening",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "a forceful curative instruction"
+    },
+    {
+      "id": 272,
+      "doc": "GUM_news_afghan",
+      "variables": {
+        "entity_a": "visa",
+        "entity_b": "travel",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "visa"
+    },
+    {
+      "id": 273,
+      "doc": "GUM_essay_evolved",
+      "variables": {
+        "entity_a": "my patients",
+        "entity_b": "anxiety",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "my patients"
+    },
+    {
+      "id": 274,
+      "doc": "GUM_court_fire",
+      "variables": {
+        "entity_a": "the theory",
+        "entity_b": "the house",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the theory"
+    },
+    {
+      "id": 275,
+      "doc": "GUM_conversation_christmas",
+      "variables": {
+        "entity_a": "That one",
+        "entity_b": "it .",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "That one"
+    },
+    {
+      "id": 276,
+      "doc": "GUM_academic_theropod",
+      "variables": {
+        "entity_a": "excessive displacement of the CoM",
+        "entity_b": "22",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "excessive displacement of the CoM"
+    },
+    {
+      "id": 277,
+      "doc": "GUM_court_negligence",
+      "variables": {
+        "entity_a": "Atlantic Lottery Corporation , Inc.",
+        "entity_b": "no wrong",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Atlantic Lottery Corporation , Inc."
+    },
+    {
+      "id": 278,
+      "doc": "GUM_court_crash",
+      "variables": {
+        "entity_a": "The first group",
+        "entity_b": "the crash",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "The first group"
+    },
+    {
+      "id": 279,
+      "doc": "GUM_whow_quidditch",
+      "variables": {
+        "entity_a": "the game",
+        "entity_b": "the quaffle",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the game"
+    },
+    {
+      "id": 280,
+      "doc": "GUM_bio_holt",
+      "variables": {
+        "entity_a": "MLB",
+        "entity_b": "Pittsburgh",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "MLB"
+    },
+    {
+      "id": 281,
+      "doc": "GUM_essay_fear",
+      "variables": {
+        "entity_a": "U.S.",
+        "entity_b": "several reasons",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "U.S."
+    },
+    {
+      "id": 282,
+      "doc": "GUM_speech_telescope",
+      "variables": {
+        "entity_a": "Our NASA Administrator",
+        "entity_b": "the American people",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Our NASA Administrator"
+    },
+    {
+      "id": 283,
+      "doc": "GUM_academic_lighting",
+      "variables": {
+        "entity_a": "the 2011 Household Energy Consumption Survey",
+        "entity_b": "the world",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the 2011 Household Energy Consumption Survey"
+    },
+    {
+      "id": 284,
+      "doc": "GUM_news_sensitive",
+      "variables": {
+        "entity_a": "Sensitive Canadian document",
+        "entity_b": "Sensitive Canadian document found on rainy streets",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Sensitive Canadian document"
+    },
+    {
+      "id": 285,
+      "doc": "GUM_podcast_bezos",
+      "variables": {
+        "entity_a": "the space programs by these various millionaire -- billionaires --",
+        "entity_b": "welfare",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the space programs by these various millionaire -- billionaires --"
+    },
+    {
+      "id": 286,
+      "doc": "GUM_vlog_london",
+      "variables": {
+        "entity_a": "the bed",
+        "entity_b": "anything that I need for fixing the house like screwdrivers , drills , nails ,",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the bed"
+    },
+    {
+      "id": 287,
+      "doc": "GUM_bio_nida",
+      "variables": {
+        "entity_a": "the form",
+        "entity_b": "gloss",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the form"
+    },
+    {
+      "id": 288,
+      "doc": "GUM_news_nasa",
+      "variables": {
+        "entity_a": "a very difficult decision",
+        "entity_b": "the first space shuttle",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "a very difficult decision"
+    },
+    {
+      "id": 289,
+      "doc": "GUM_conversation_zero",
+      "variables": {
+        "entity_a": "square root of three",
+        "entity_b": "x squared",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "square root of three"
+    },
+    {
+      "id": 290,
+      "doc": "GUM_news_afghan",
+      "variables": {
+        "entity_a": "international robotics competition",
+        "entity_b": "the United States",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "international robotics competition"
+    },
+    {
+      "id": 291,
+      "doc": "GUM_vlog_college",
+      "variables": {
+        "entity_a": "friends",
+        "entity_b": "dinner",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "friends"
+    },
+    {
+      "id": 292,
+      "doc": "GUM_court_mental",
+      "variables": {
+        "entity_a": "Miss Peterson",
+        "entity_b": "the court",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Miss Peterson"
+    },
+    {
+      "id": 293,
+      "doc": "GUM_speech_impeachment",
+      "variables": {
+        "entity_a": "Americans",
+        "entity_b": "Donald John Trump",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Americans"
+    },
+    {
+      "id": 294,
+      "doc": "GUM_vlog_portland",
+      "variables": {
+        "entity_a": "one of the biggest things that you should check",
+        "entity_b": "Crater Lake",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "one of the biggest things that you should check"
+    },
+    {
+      "id": 295,
+      "doc": "GUM_court_property",
+      "variables": {
+        "entity_a": "the case",
+        "entity_b": "public lands",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the case"
+    },
+    {
+      "id": 296,
+      "doc": "GUM_letter_cricket",
+      "variables": {
+        "entity_a": "the ground",
+        "entity_b": "My Dear E.",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the ground"
+    },
+    {
+      "id": 297,
+      "doc": "GUM_vlog_wine",
+      "variables": {
+        "entity_a": "this one",
+        "entity_b": "the Chardonnay - Pinot Noir",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "this one"
+    },
+    {
+      "id": 298,
+      "doc": "GUM_essay_food",
+      "variables": {
+        "entity_a": "Cold , Hard Harvest",
+        "entity_b": "food",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Cold , Hard Harvest"
+    },
+    {
+      "id": 299,
+      "doc": "GUM_letter_critique",
+      "variables": {
+        "entity_a": "O. A. BROWNSON D.D. LL.D.",
+        "entity_b": "Samuel A. Mudd , M.D.",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "O. A. BROWNSON D.D. LL.D."
+    },
+    {
+      "id": 300,
+      "doc": "GUM_speech_impeachment",
+      "variables": {
+        "entity_a": "the case",
+        "entity_b": "the odds were slim that Senate Republicans would set aside partisanship and hear the case as impartial jurors",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the case"
+    },
+    {
+      "id": 301,
+      "doc": "GUM_court_crash",
+      "variables": {
+        "entity_a": "a birthday party for her three year old son Stetson",
+        "entity_b": "the crash",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "a birthday party for her three year old son Stetson"
+    },
+    {
+      "id": 302,
+      "doc": "GUM_speech_newzealand",
+      "variables": {
+        "entity_a": "New Zealand",
+        "entity_b": "COVID - 19",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "New Zealand"
+    },
+    {
+      "id": 303,
+      "doc": "GUM_bio_emperor",
+      "variables": {
+        "entity_a": "the United States",
+        "entity_b": "San Francisco , California",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the United States"
+    },
+    {
+      "id": 304,
+      "doc": "GUM_academic_epistemic",
+      "variables": {
+        "entity_a": "the American College of Pediatricians",
+        "entity_b": "Epistemic pollution",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the American College of Pediatricians"
+    },
+    {
+      "id": 305,
+      "doc": "GUM_podcast_bangladesh",
+      "variables": {
+        "entity_a": "Bangladesh 's",
+        "entity_b": "Bangladesh 's capital city",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Bangladesh 's"
+    },
+    {
+      "id": 306,
+      "doc": "GUM_news_election",
+      "variables": {
+        "entity_a": "Hong Kong",
+        "entity_b": "the candidates elected in this constituency",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Hong Kong"
+    },
+    {
+      "id": 307,
+      "doc": "GUM_vlog_appearance",
+      "variables": {
+        "entity_a": "everybody",
+        "entity_b": "my appearance",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "everybody"
+    },
+    {
+      "id": 308,
+      "doc": "GUM_court_way",
+      "variables": {
+        "entity_a": "a public way",
+        "entity_b": "1932",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "a public way"
+    },
+    {
+      "id": 309,
+      "doc": "GUM_fiction_time",
+      "variables": {
+        "entity_a": "what I had taken to be a reddish mass of rock",
+        "entity_b": "the sky",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "what I had taken to be a reddish mass of rock"
+    },
+    {
+      "id": 310,
+      "doc": "GUM_textbook_stats",
+      "variables": {
+        "entity_a": "the median",
+        "entity_b": "The first quartile",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the median"
+    },
+    {
+      "id": 311,
+      "doc": "GUM_bio_hadid",
+      "variables": {
+        "entity_a": "31 October 1950",
+        "entity_b": "a bridge",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "31 October 1950"
+    },
+    {
+      "id": 312,
+      "doc": "GUM_letter_mandela",
+      "variables": {
+        "entity_a": "the Verwoerd Government",
+        "entity_b": "an elected National Convention of representatives of all races",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the Verwoerd Government"
+    },
+    {
+      "id": 313,
+      "doc": "GUM_whow_cupcakes",
+      "variables": {
+        "entity_a": "cupcake",
+        "entity_b": "320 g ( 1 - 2/3 cups",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "cupcake"
+    },
+    {
+      "id": 314,
+      "doc": "GUM_speech_impeachment",
+      "variables": {
+        "entity_a": "the Constitution",
+        "entity_b": "Senators",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the Constitution"
+    },
+    {
+      "id": 315,
+      "doc": "GUM_speech_floyd",
+      "variables": {
+        "entity_a": "All of us here",
+        "entity_b": "Mr. Chair",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "All of us here"
+    },
+    {
+      "id": 316,
+      "doc": "GUM_court_mountain",
+      "variables": {
+        "entity_a": "Justice Gustafson",
+        "entity_b": "residential covenants that apply to them",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Justice Gustafson"
+    },
+    {
+      "id": 317,
+      "doc": "GUM_letter_flood",
+      "variables": {
+        "entity_a": "$ 2,500 of the loan",
+        "entity_b": "the human spirit",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "$ 2,500 of the loan"
+    },
+    {
+      "id": 318,
+      "doc": "GUM_podcast_mealprep",
+      "variables": {
+        "entity_a": "Meal",
+        "entity_b": "meal prepping and meal plans",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Meal"
+    },
+    {
+      "id": 319,
+      "doc": "GUM_bio_padalecki",
+      "variables": {
+        "entity_a": "1",
+        "entity_b": "candles",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1"
+    },
+    {
+      "id": 320,
+      "doc": "GUM_speech_maiden",
+      "variables": {
+        "entity_a": "Mr. President",
+        "entity_b": "KAMALA HARRIS",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Mr. President"
+    },
+    {
+      "id": 321,
+      "doc": "GUM_court_crash",
+      "variables": {
+        "entity_a": "Ken Lorraine",
+        "entity_b": "a birthday party for her three year old son Stetson",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Ken Lorraine"
+    },
+    {
+      "id": 322,
+      "doc": "GUM_letter_cricket",
+      "variables": {
+        "entity_a": "D. Gregory",
+        "entity_b": "My Dear E.",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "D. Gregory"
+    },
+    {
+      "id": 323,
+      "doc": "GUM_news_afghan",
+      "variables": {
+        "entity_a": "visa",
+        "entity_b": "transit",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "visa"
+    },
+    {
+      "id": 324,
+      "doc": "GUM_news_hackers",
+      "variables": {
+        "entity_a": "a long game",
+        "entity_b": "Scientologist Tom Cruise",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "a long game"
+    },
+    {
+      "id": 325,
+      "doc": "GUM_conversation_vet",
+      "variables": {
+        "entity_a": "that one",
+        "entity_b": "'s",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "that one"
+    },
+    {
+      "id": 326,
+      "doc": "GUM_speech_floyd",
+      "variables": {
+        "entity_a": "Baltimore",
+        "entity_b": "George 's name",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Baltimore"
+    },
+    {
+      "id": 327,
+      "doc": "GUM_speech_telescope",
+      "variables": {
+        "entity_a": "the James Webb Space Telescope",
+        "entity_b": "Our NASA Administrator",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the James Webb Space Telescope"
+    },
+    {
+      "id": 328,
+      "doc": "GUM_textbook_spacetime",
+      "variables": {
+        "entity_a": "Spacetime",
+        "entity_b": "time",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Spacetime"
+    },
+    {
+      "id": 329,
+      "doc": "GUM_letter_travel",
+      "variables": {
+        "entity_a": "Donna Giulia Bassi is arranging “ combinazioni ” with infinite amiability",
+        "entity_b": "anyone else of like affiliations",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Donna Giulia Bassi is arranging “ combinazioni ” with infinite amiability"
+    },
+    {
+      "id": 330,
+      "doc": "GUM_vlog_hiking",
+      "variables": {
+        "entity_a": "today",
+        "entity_b": "you guys",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "today"
+    },
+    {
+      "id": 331,
+      "doc": "GUM_textbook_labor",
+      "variables": {
+        "entity_a": "workers who specialize in certain tasks",
+        "entity_b": "to attract enough customers to operate a successful dry cleaning business or movie theater",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "workers who specialize in certain tasks"
+    },
+    {
+      "id": 332,
+      "doc": "GUM_fiction_oversite",
+      "variables": {
+        "entity_a": "The doctor",
+        "entity_b": "an implant that will let them know where you are , and how you are",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "The doctor"
+    },
+    {
+      "id": 333,
+      "doc": "GUM_voyage_fortlee",
+      "variables": {
+        "entity_a": "New York",
+        "entity_b": "somewhere",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "New York"
+    },
+    {
+      "id": 334,
+      "doc": "GUM_court_loan",
+      "variables": {
+        "entity_a": "General Prelogar",
+        "entity_b": "The states",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "General Prelogar"
+    },
+    {
+      "id": 335,
+      "doc": "GUM_bio_galois",
+      "variables": {
+        "entity_a": "the night before he died",
+        "entity_b": "advanced algebra",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the night before he died"
+    },
+    {
+      "id": 336,
+      "doc": "GUM_news_soccer",
+      "variables": {
+        "entity_a": "the lead",
+        "entity_b": "the 28th minute of the game",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the lead"
+    },
+    {
+      "id": 337,
+      "doc": "GUM_whow_basil",
+      "variables": {
+        "entity_a": "the basil",
+        "entity_b": "the leaves",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the basil"
+    },
+    {
+      "id": 338,
+      "doc": "GUM_podcast_brave",
+      "variables": {
+        "entity_a": "dad",
+        "entity_b": "Brenda Chapman",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Brenda Chapman"
+    },
+    {
+      "id": 339,
+      "doc": "GUM_academic_thrones",
+      "variables": {
+        "entity_a": "the current project",
+        "entity_b": "a book series with a pre-existing fandom",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the current project"
+    },
+    {
+      "id": 340,
+      "doc": "GUM_fiction_pag",
+      "variables": {
+        "entity_a": "Most people",
+        "entity_b": "the Fireflies",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Most people"
+    },
+    {
+      "id": 341,
+      "doc": "GUM_interview_hill",
+      "variables": {
+        "entity_a": "president",
+        "entity_b": "U.S. Republican Party",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "president"
+    },
+    {
+      "id": 342,
+      "doc": "GUM_essay_evolved",
+      "variables": {
+        "entity_a": "Arash Javanbakht",
+        "entity_b": "this body",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Arash Javanbakht"
+    },
+    {
+      "id": 343,
+      "doc": "GUM_speech_floyd",
+      "variables": {
+        "entity_a": "All of us here",
+        "entity_b": "these people",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "All of us here"
+    },
+    {
+      "id": 344,
+      "doc": "GUM_essay_walking",
+      "variables": {
+        "entity_a": "Americans",
+        "entity_b": "other causes",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Americans"
+    },
+    {
+      "id": 345,
+      "doc": "GUM_vlog_hiking",
+      "variables": {
+        "entity_a": "our shoes",
+        "entity_b": "Glacier",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "our shoes"
+    },
+    {
+      "id": 346,
+      "doc": "GUM_textbook_evoethics",
+      "variables": {
+        "entity_a": "moral judgments",
+        "entity_b": "moral realists",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "moral judgments"
+    },
+    {
+      "id": 347,
+      "doc": "GUM_court_crash",
+      "variables": {
+        "entity_a": "Ken Lorraine",
+        "entity_b": "The first group",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Ken Lorraine"
+    },
+    {
+      "id": 348,
+      "doc": "GUM_textbook_evoethics",
+      "variables": {
+        "entity_a": "morality",
+        "entity_b": "The philosopher",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "morality"
+    },
+    {
+      "id": 349,
+      "doc": "GUM_speech_nixon",
+      "variables": {
+        "entity_a": "all Americans",
+        "entity_b": "the past 5 1/2 years",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "all Americans"
+    },
+    {
+      "id": 350,
+      "doc": "GUM_speech_open",
+      "variables": {
+        "entity_a": "ICT",
+        "entity_b": "the Chief Guest",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ICT"
+    },
+    {
+      "id": 351,
+      "doc": "GUM_court_mitigation",
+      "variables": {
+        "entity_a": "the jury 's",
+        "entity_b": "provocation",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the jury 's"
+    },
+    {
+      "id": 352,
+      "doc": "GUM_vlog_college",
+      "variables": {
+        "entity_a": "friends",
+        "entity_b": "couple",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "friends"
+    },
+    {
+      "id": 353,
+      "doc": "GUM_news_warhol",
+      "variables": {
+        "entity_a": "attendees",
+        "entity_b": "Silver Clouds",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "attendees"
+    },
+    {
+      "id": 354,
+      "doc": "GUM_letter_critique",
+      "variables": {
+        "entity_a": "those of the North",
+        "entity_b": "Samuel A. Mudd , M.D.",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "those of the North"
+    },
+    {
+      "id": 355,
+      "doc": "GUM_academic_games",
+      "variables": {
+        "entity_a": "this study",
+        "entity_b": "involvement in school activities",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "this study"
+    },
+    {
+      "id": 356,
+      "doc": "GUM_academic_exposure",
+      "variables": {
+        "entity_a": "18",
+        "entity_b": "17",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "18"
+    },
+    {
+      "id": 357,
+      "doc": "GUM_conversation_blacksmithing",
+      "variables": {
+        "entity_a": "to do the feet",
+        "entity_b": "the knowledge of knowing the bones and ligaments",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "to do the feet"
+    },
+    {
+      "id": 358,
+      "doc": "GUM_textbook_evoethics",
+      "variables": {
+        "entity_a": "morality",
+        "entity_b": "Sharon Street",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "morality"
+    },
+    {
+      "id": 359,
+      "doc": "GUM_court_mountain",
+      "variables": {
+        "entity_a": "Miss Baucus",
+        "entity_b": "Justice Gustafson",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Miss Baucus"
+    },
+    {
+      "id": 360,
+      "doc": "GUM_interview_mckenzie",
+      "variables": {
+        "entity_a": "Tina McKenzie",
+        "entity_b": "the Australia women 's national wheelchair basketball team , known as the Gliders",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Tina McKenzie"
+    },
+    {
+      "id": 361,
+      "doc": "GUM_speech_nixon",
+      "variables": {
+        "entity_a": "the Congress",
+        "entity_b": "our entire focus",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the Congress"
+    },
+    {
+      "id": 362,
+      "doc": "GUM_voyage_sydfynske",
+      "variables": {
+        "entity_a": "Sydfynske Øhav",
+        "entity_b": "Birkholm",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Sydfynske Øhav"
+    },
+    {
+      "id": 363,
+      "doc": "GUM_letter_gorbachev",
+      "variables": {
+        "entity_a": "utility and other services that have marked economies of scale or density",
+        "entity_b": "the rent of land",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "utility and other services that have marked economies of scale or density"
+    },
+    {
+      "id": 364,
+      "doc": "GUM_textbook_artwork",
+      "variables": {
+        "entity_a": "realism",
+        "entity_b": "“ art ” itself",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "realism"
+    },
+    {
+      "id": 365,
+      "doc": "GUM_news_sensitive",
+      "variables": {
+        "entity_a": "Sensitive Canadian document found on rainy streets",
+        "entity_b": "the government 's",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Sensitive Canadian document found on rainy streets"
+    },
+    {
+      "id": 366,
+      "doc": "GUM_court_nullification",
+      "variables": {
+        "entity_a": "counsel 's",
+        "entity_b": "jury",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "counsel 's"
+    },
+    {
+      "id": 367,
+      "doc": "GUM_voyage_chatham",
+      "variables": {
+        "entity_a": "Kopinga Marae",
+        "entity_b": "Port Hutt",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Kopinga Marae"
+    },
+    {
+      "id": 368,
+      "doc": "GUM_court_negligence",
+      "variables": {
+        "entity_a": "action",
+        "entity_b": "a cause of action that comprises a breach of a duty of care without causally linked loss or injury",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "action"
+    },
+    {
+      "id": 369,
+      "doc": "GUM_podcast_bangladesh",
+      "variables": {
+        "entity_a": "masks",
+        "entity_b": "Mangal Shobhajatra",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "masks"
+    },
+    {
+      "id": 370,
+      "doc": "GUM_conversation_erasmus",
+      "variables": {
+        "entity_a": "passages",
+        "entity_b": "his disciples",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "passages"
+    },
+    {
+      "id": 371,
+      "doc": "GUM_bio_chao",
+      "variables": {
+        "entity_a": "China 's New Culture generation",
+        "entity_b": "1960",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "China 's New Culture generation"
+    },
+    {
+      "id": 372,
+      "doc": "GUM_court_fire",
+      "variables": {
+        "entity_a": "the theory",
+        "entity_b": "the appellants",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the appellants"
+    },
+    {
+      "id": 373,
+      "doc": "GUM_court_loan",
+      "variables": {
+        "entity_a": "the relevant and operative language",
+        "entity_b": "a waiver",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the relevant and operative language"
+    },
+    {
+      "id": 374,
+      "doc": "GUM_letter_arendt",
+      "variables": {
+        "entity_a": "Mary",
+        "entity_b": "the hectic spending and living here that seems to obtain amongst moneyed people and even the middle classes in London , where I was amazed to discover that the shops are full and places of entertainment are crowed",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Mary"
+    },
+    {
+      "id": 375,
+      "doc": "GUM_whow_basil",
+      "variables": {
+        "entity_a": "Three Methods",
+        "entity_b": "most other varieties",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Three Methods"
+    },
+    {
+      "id": 376,
+      "doc": "GUM_letter_flood",
+      "variables": {
+        "entity_a": "THE PEOPLE OF THE FLOOD AREA",
+        "entity_b": "rebuilding loans",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "THE PEOPLE OF THE FLOOD AREA"
+    },
+    {
+      "id": 377,
+      "doc": "GUM_podcast_bezos",
+      "variables": {
+        "entity_a": "somebody",
+        "entity_b": "these various millionaire -- billionaires --",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "somebody"
+    },
+    {
+      "id": 378,
+      "doc": "GUM_letter_trade",
+      "variables": {
+        "entity_a": "Trade",
+        "entity_b": "United States",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Trade"
+    },
+    {
+      "id": 379,
+      "doc": "GUM_podcast_brave",
+      "variables": {
+        "entity_a": "that bear",
+        "entity_b": "the whole pour in vial three if you 'd like to hear the the",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "that bear"
+    },
+    {
+      "id": 380,
+      "doc": "GUM_textbook_stats",
+      "variables": {
+        "entity_a": "The first quartile",
+        "entity_b": "the following data",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "The first quartile"
+    },
+    {
+      "id": 381,
+      "doc": "GUM_court_crash",
+      "variables": {
+        "entity_a": "a young mother named Kristen Sigler",
+        "entity_b": "Zane , and Alanah Phillips",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "a young mother named Kristen Sigler"
+    },
+    {
+      "id": 382,
+      "doc": "GUM_news_hackers",
+      "variables": {
+        "entity_a": "Church of Scientology",
+        "entity_b": "Church of Scientology website",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Church of Scientology"
+    },
+    {
+      "id": 383,
+      "doc": "GUM_news_warhol",
+      "variables": {
+        "entity_a": "Wikinews",
+        "entity_b": "United States",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Wikinews"
+    },
+    {
+      "id": 384,
+      "doc": "GUM_letter_cricket",
+      "variables": {
+        "entity_a": "the pavilion",
+        "entity_b": "some ' larrikin '",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the pavilion"
+    },
+    {
+      "id": 385,
+      "doc": "GUM_speech_impeachment",
+      "variables": {
+        "entity_a": "Donald John Trump",
+        "entity_b": "the Constitution",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Donald John Trump"
+    },
+    {
+      "id": 386,
+      "doc": "GUM_news_warhol",
+      "variables": {
+        "entity_a": "the Andy Warhol exhibit of Polaroids and screen prints at the University of Southern Indiana",
+        "entity_b": "Kristin Wilkins",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the Andy Warhol exhibit of Polaroids and screen prints at the University of Southern Indiana"
+    },
+    {
+      "id": 387,
+      "doc": "GUM_fiction_honour",
+      "variables": {
+        "entity_a": "the Enemy 's",
+        "entity_b": "A starfighter",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the Enemy 's"
+    },
+    {
+      "id": 388,
+      "doc": "GUM_vlog_london",
+      "variables": {
+        "entity_a": "guys",
+        "entity_b": "This coffee table over here",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "guys"
+    },
+    {
+      "id": 389,
+      "doc": "GUM_conversation_gossip",
+      "variables": {
+        "entity_a": "my fault",
+        "entity_b": "other kids who go , na-na-na-na-za-ba-da",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "my fault"
+    },
+    {
+      "id": 390,
+      "doc": "GUM_interview_licen",
+      "variables": {
+        "entity_a": "academic Simon Ličen",
+        "entity_b": "Paralympic Games in Sochi in 2014",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Paralympic Games in Sochi in 2014"
+    },
+    {
+      "id": 391,
+      "doc": "GUM_academic_huh",
+      "variables": {
+        "entity_a": "the form",
+        "entity_b": "sound systems of the world 's language",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the form"
+    },
+    {
+      "id": 392,
+      "doc": "GUM_essay_system",
+      "variables": {
+        "entity_a": "another student ’s",
+        "entity_b": "the problem",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "another student ’s"
+    },
+    {
+      "id": 393,
+      "doc": "GUM_podcast_bangladesh",
+      "variables": {
+        "entity_a": "Bangladesh 's",
+        "entity_b": "Mangal Shobhajatra",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Bangladesh 's"
+    },
+    {
+      "id": 394,
+      "doc": "GUM_letter_mandela",
+      "variables": {
+        "entity_a": "We have called on the Government to convene an elected National Convention of representatives of all races without delay , and to charge that Convention with the task of drawing up a new Constitution for this country which would be acceptable to all racial groups .",
+        "entity_b": "Verwoerd",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "We have called on the Government to convene an elected National Convention of representatives of all races without delay , and to charge that Convention with the task of drawing up a new Constitution for this country which would be acceptable to all racial groups ."
+    },
+    {
+      "id": 395,
+      "doc": "GUM_court_crash",
+      "variables": {
+        "entity_a": "The first group",
+        "entity_b": "a young mother named Kristen Sigler",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "The first group"
+    },
+    {
+      "id": 396,
+      "doc": "GUM_court_fire",
+      "variables": {
+        "entity_a": "Amy Sells",
+        "entity_b": "the fire",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Amy Sells"
+    },
+    {
+      "id": 397,
+      "doc": "GUM_textbook_alamo",
+      "variables": {
+        "entity_a": "the mission was taken",
+        "entity_b": "October 2",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the mission was taken"
+    },
+    {
+      "id": 398,
+      "doc": "GUM_podcast_brave",
+      "variables": {
+        "entity_a": "movie",
+        "entity_b": "that bear",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "that bear"
+    },
+    {
+      "id": 399,
+      "doc": "GUM_whow_joke",
+      "variables": {
+        "entity_a": "your audience",
+        "entity_b": "the punchline",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "your audience"
+    },
+    {
+      "id": 400,
+      "doc": "GUM_podcast_llms",
+      "variables": {
+        "entity_a": "the three of us",
+        "entity_b": "large language model",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the three of us"
+    },
+    {
+      "id": 401,
+      "doc": "GUM_court_carpet",
+      "variables": {
+        "entity_a": "a letter",
+        "entity_b": "ABC Builders Interiors",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ABC Builders Interiors"
+    },
+    {
+      "id": 402,
+      "doc": "GUM_essay_privatization",
+      "variables": {
+        "entity_a": "Floyd Abrams",
+        "entity_b": "his campaign ads",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Floyd Abrams"
+    },
+    {
+      "id": 403,
+      "doc": "GUM_podcast_brave",
+      "variables": {
+        "entity_a": "that bear",
+        "entity_b": "Pixar",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "that bear"
+    },
+    {
+      "id": 404,
+      "doc": "GUM_letter_arendt",
+      "variables": {
+        "entity_a": "Spain",
+        "entity_b": "prices",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Spain"
+    },
+    {
+      "id": 405,
+      "doc": "GUM_vlog_wine",
+      "variables": {
+        "entity_a": "open now , drink now wines",
+        "entity_b": "instant coffee",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "open now , drink now wines"
+    },
+    {
+      "id": 406,
+      "doc": "GUM_podcast_pandemic",
+      "variables": {
+        "entity_a": "the proportion",
+        "entity_b": "every year",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the proportion"
+    },
+    {
+      "id": 407,
+      "doc": "GUM_letter_attorney",
+      "variables": {
+        "entity_a": "the letters",
+        "entity_b": "John K. Bartram , Esquire",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the letters"
+    },
+    {
+      "id": 408,
+      "doc": "GUM_conversation_toys",
+      "variables": {
+        "entity_a": "the Toys ' R ' Us catalog",
+        "entity_b": "Robbie 's",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the Toys ' R ' Us catalog"
+    },
+    {
+      "id": 409,
+      "doc": "GUM_essay_dividends",
+      "variables": {
+        "entity_a": "Alaska",
+        "entity_b": "dividend",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Alaska"
+    },
+    {
+      "id": 410,
+      "doc": "GUM_court_mountain",
+      "variables": {
+        "entity_a": "Miss Baucus",
+        "entity_b": "the Palmers",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Miss Baucus"
+    },
+    {
+      "id": 411,
+      "doc": "GUM_essay_fracking",
+      "variables": {
+        "entity_a": "Oil",
+        "entity_b": "the Philippines",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Oil"
+    },
+    {
+      "id": 412,
+      "doc": "GUM_conversation_christmas",
+      "variables": {
+        "entity_a": "hon",
+        "entity_b": "Mom",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "hon"
+    },
+    {
+      "id": 413,
+      "doc": "GUM_court_property",
+      "variables": {
+        "entity_a": "plaintiffs '",
+        "entity_b": "the case",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "plaintiffs '"
+    },
+    {
+      "id": 414,
+      "doc": "GUM_textbook_stats",
+      "variables": {
+        "entity_a": "The median",
+        "entity_b": "the following data",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "The median"
+    },
+    {
+      "id": 415,
+      "doc": "GUM_interview_stardust",
+      "variables": {
+        "entity_a": "Stardust",
+        "entity_b": "interstellar dust",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Stardust"
+    },
+    {
+      "id": 416,
+      "doc": "GUM_court_crash",
+      "variables": {
+        "entity_a": "Ken Lorraine",
+        "entity_b": "People",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Ken Lorraine"
+    },
+    {
+      "id": 417,
+      "doc": "GUM_interview_stardust",
+      "variables": {
+        "entity_a": "Stardust @ home",
+        "entity_b": "Stardust",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Stardust @ home"
+    },
+    {
+      "id": 418,
+      "doc": "GUM_speech_austria",
+      "variables": {
+        "entity_a": "the Arab world",
+        "entity_b": "Israelis",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the Arab world"
+    },
+    {
+      "id": 419,
+      "doc": "GUM_podcast_pandemic",
+      "variables": {
+        "entity_a": "flu",
+        "entity_b": "stuff like that",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "flu"
+    },
+    {
+      "id": 420,
+      "doc": "GUM_vlog_covid",
+      "variables": {
+        "entity_a": "My sister",
+        "entity_b": "that night",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "My sister"
+    },
+    {
+      "id": 421,
+      "doc": "GUM_court_mitigation",
+      "variables": {
+        "entity_a": "provocation mitigator",
+        "entity_b": "provocation",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "provocation mitigator"
+    },
+    {
+      "id": 422,
+      "doc": "GUM_news_warhol",
+      "variables": {
+        "entity_a": "Kathryn Waters",
+        "entity_b": "many people Wikinews observed",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Kathryn Waters"
+    },
+    {
+      "id": 423,
+      "doc": "GUM_academic_games",
+      "variables": {
+        "entity_a": "a D2 Test of attention that measures selective and sustained attention , as well as visual scanning accuracy and speed",
+        "entity_b": "improvement of cognitive processes",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "a D2 Test of attention that measures selective and sustained attention , as well as visual scanning accuracy and speed"
+    },
+    {
+      "id": 424,
+      "doc": "GUM_podcast_bangladesh",
+      "variables": {
+        "entity_a": "Rabindra Sangeet",
+        "entity_b": "the UK 's vote to leave the European Union",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Rabindra Sangeet"
+    },
+    {
+      "id": 425,
+      "doc": "GUM_speech_maiden",
+      "variables": {
+        "entity_a": "the first New York - born majority leader in American history",
+        "entity_b": "Mr. President",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the first New York - born majority leader in American history"
+    },
+    {
+      "id": 426,
+      "doc": "GUM_interview_messina",
+      "variables": {
+        "entity_a": "2007",
+        "entity_b": "permission",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2007"
+    },
+    {
+      "id": 427,
+      "doc": "GUM_textbook_stats",
+      "variables": {
+        "entity_a": "the Data",
+        "entity_b": "percentiles",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the Data"
+    },
+    {
+      "id": 428,
+      "doc": "GUM_speech_floyd",
+      "variables": {
+        "entity_a": "these people",
+        "entity_b": "Policing",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "these people"
+    },
+    {
+      "id": 429,
+      "doc": "GUM_court_property",
+      "variables": {
+        "entity_a": "County of Maui",
+        "entity_b": "possession of personal property",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "County of Maui"
+    },
+    {
+      "id": 430,
+      "doc": "GUM_vlog_wine",
+      "variables": {
+        "entity_a": "all of us",
+        "entity_b": "the Cab",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "all of us"
+    },
+    {
+      "id": 431,
+      "doc": "GUM_speech_impeachment",
+      "variables": {
+        "entity_a": "the House managers",
+        "entity_b": "the Constitution",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the House managers"
+    },
+    {
+      "id": 432,
+      "doc": "GUM_textbook_evoethics",
+      "variables": {
+        "entity_a": "our moral beliefs",
+        "entity_b": "moral realists",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "our moral beliefs"
+    },
+    {
+      "id": 433,
+      "doc": "GUM_textbook_union",
+      "variables": {
+        "entity_a": "the Confederacy",
+        "entity_b": "African Americans serving in the Civil War",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the Confederacy"
+    },
+    {
+      "id": 434,
+      "doc": "GUM_podcast_multitasking",
+      "variables": {
+        "entity_a": "Strayer",
+        "entity_b": "We all",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Strayer"
+    },
+    {
+      "id": 435,
+      "doc": "GUM_fiction_lunre",
+      "variables": {
+        "entity_a": "Master Lunre",
+        "entity_b": "the only “ yellow man ” I had ever seen",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Master Lunre"
+    },
+    {
+      "id": 436,
+      "doc": "GUM_fiction_veronique",
+      "variables": {
+        "entity_a": "People from Earth",
+        "entity_b": "the bed",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "People from Earth"
+    },
+    {
+      "id": 437,
+      "doc": "GUM_interview_messina",
+      "variables": {
+        "entity_a": "Mets",
+        "entity_b": "a woman",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Mets"
+    },
+    {
+      "id": 438,
+      "doc": "GUM_podcast_movie",
+      "variables": {
+        "entity_a": "mine",
+        "entity_b": "Jen",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "mine"
+    },
+    {
+      "id": 439,
+      "doc": "GUM_speech_floyd",
+      "variables": {
+        "entity_a": "Policing",
+        "entity_b": "the family of George Floyd that came here when the bill was being reviewed by your committee",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Policing"
+    },
+    {
+      "id": 440,
+      "doc": "GUM_court_mental",
+      "variables": {
+        "entity_a": "the district court",
+        "entity_b": "jury",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the district court"
+    },
+    {
+      "id": 441,
+      "doc": "GUM_conversation_atoms",
+      "variables": {
+        "entity_a": "Eight",
+        "entity_b": "water",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Eight"
+    },
+    {
+      "id": 442,
+      "doc": "GUM_speech_telescope",
+      "variables": {
+        "entity_a": "the James Webb Space Telescope",
+        "entity_b": "everyone",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the James Webb Space Telescope"
+    },
+    {
+      "id": 443,
+      "doc": "GUM_speech_open",
+      "variables": {
+        "entity_a": "open education resources",
+        "entity_b": "Creative Commons",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "open education resources"
+    },
+    {
+      "id": 444,
+      "doc": "GUM_bio_holt",
+      "variables": {
+        "entity_a": "2012",
+        "entity_b": "Minor leagues",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2012"
+    },
+    {
+      "id": 445,
+      "doc": "GUM_podcast_addiction",
+      "variables": {
+        "entity_a": "addiction",
+        "entity_b": "thoughts that appear extreme in frequency",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "addiction"
+    },
+    {
+      "id": 446,
+      "doc": "GUM_letter_sacco",
+      "variables": {
+        "entity_a": "the statement by Francis Russell in your correspondence column of March 23 that “ James Cannon who organized the International Labor Defense to aid Sacco and Vanzetti admitted privately that he thought Sacco was guilty",
+        "entity_b": "Mr. Russell ’s book Tragedy in Dedham",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the statement by Francis Russell in your correspondence column of March 23 that “ James Cannon who organized the International Labor Defense to aid Sacco and Vanzetti admitted privately that he thought Sacco was guilty"
+    },
+    {
+      "id": 447,
+      "doc": "GUM_conversation_blacksmithing",
+      "variables": {
+        "entity_a": "to do the feet",
+        "entity_b": "the hoof",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "to do the feet"
+    },
+    {
+      "id": 448,
+      "doc": "GUM_essay_fracking",
+      "variables": {
+        "entity_a": "Myrna Dominguez",
+        "entity_b": "Indian labor organizer Lakshmi Narayan",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Myrna Dominguez"
+    },
+    {
+      "id": 449,
+      "doc": "GUM_speech_maiden",
+      "variables": {
+        "entity_a": "the first New York - born majority leader in American history",
+        "entity_b": "SENATE",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the first New York - born majority leader in American history"
+    },
+    {
+      "id": 450,
+      "doc": "GUM_textbook_stats",
+      "variables": {
+        "entity_a": "the median",
+        "entity_b": "the following data",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the median"
+    },
+    {
+      "id": 451,
+      "doc": "GUM_speech_open",
+      "variables": {
+        "entity_a": "ICT",
+        "entity_b": "Kenya",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ICT"
+    },
+    {
+      "id": 452,
+      "doc": "GUM_academic_games",
+      "variables": {
+        "entity_a": "the intervention",
+        "entity_b": "The sample",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the intervention"
+    },
+    {
+      "id": 453,
+      "doc": "GUM_essay_sexlife",
+      "variables": {
+        "entity_a": "An exception to this pattern",
+        "entity_b": "Forbes , Eaton , and Krueger",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "An exception to this pattern"
+    },
+    {
+      "id": 454,
+      "doc": "GUM_court_property",
+      "variables": {
+        "entity_a": "plaintiffs '",
+        "entity_b": "public lands",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "plaintiffs '"
+    },
+    {
+      "id": 455,
+      "doc": "GUM_news_defector",
+      "variables": {
+        "entity_a": "the elite group",
+        "entity_b": "Mark Rathbun",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the elite group"
+    },
+    {
+      "id": 456,
+      "doc": "GUM_court_crash",
+      "variables": {
+        "entity_a": "The first group",
+        "entity_b": "People",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "The first group"
+    },
+    {
+      "id": 457,
+      "doc": "GUM_fiction_frankenstein",
+      "variables": {
+        "entity_a": "the store",
+        "entity_b": "garage",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the store"
+    },
+    {
+      "id": 458,
+      "doc": "GUM_court_mountain",
+      "variables": {
+        "entity_a": "cause number DA 23-0716",
+        "entity_b": "residential covenants that apply to them",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "cause number DA 23-0716"
+    },
+    {
+      "id": 459,
+      "doc": "GUM_letter_mandela",
+      "variables": {
+        "entity_a": "Sir de Villiers Graaff",
+        "entity_b": "the Verwoerd Government",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Sir de Villiers Graaff"
+    },
+    {
+      "id": 460,
+      "doc": "GUM_vlog_studying",
+      "variables": {
+        "entity_a": "guys",
+        "entity_b": "these Vans",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "guys"
+    },
+    {
+      "id": 461,
+      "doc": "GUM_speech_floyd",
+      "variables": {
+        "entity_a": "the George Floyd Justice in Policing Act",
+        "entity_b": "All of us here",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the George Floyd Justice in Policing Act"
+    },
+    {
+      "id": 462,
+      "doc": "GUM_news_nasa",
+      "variables": {
+        "entity_a": "JSC",
+        "entity_b": "the first space shuttle",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "JSC"
+    },
+    {
+      "id": 463,
+      "doc": "GUM_textbook_stats",
+      "variables": {
+        "entity_a": "the third quartile",
+        "entity_b": "The median",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the third quartile"
+    },
+    {
+      "id": 464,
+      "doc": "GUM_conversation_grounded",
+      "variables": {
+        "entity_a": "Kim",
+        "entity_b": "That insulation out there with the mice shit in it",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Kim"
+    },
+    {
+      "id": 465,
+      "doc": "GUM_conversation_christmas",
+      "variables": {
+        "entity_a": "hon",
+        "entity_b": "That one",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "hon"
+    },
+    {
+      "id": 466,
+      "doc": "GUM_podcast_bangladesh",
+      "variables": {
+        "entity_a": "Shobhajatra",
+        "entity_b": "Lauren",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Shobhajatra"
+    },
+    {
+      "id": 467,
+      "doc": "GUM_academic_discrimination",
+      "variables": {
+        "entity_a": "discrimination",
+        "entity_b": "All respondents who indicated they were discriminated against",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "discrimination"
+    },
+    {
+      "id": 468,
+      "doc": "GUM_news_iodine",
+      "variables": {
+        "entity_a": "Australia",
+        "entity_b": "an infant",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Australia"
+    },
+    {
+      "id": 469,
+      "doc": "GUM_conversation_toys",
+      "variables": {
+        "entity_a": "something that Robbie may like",
+        "entity_b": "the Toys ' R ' Us catalog",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "something that Robbie may like"
+    },
+    {
+      "id": 470,
+      "doc": "GUM_podcast_bezos",
+      "variables": {
+        "entity_a": "David McIntosh of the Club for Growth",
+        "entity_b": "the little people",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "David McIntosh of the Club for Growth"
+    },
+    {
+      "id": 471,
+      "doc": "GUM_conversation_lambada",
+      "variables": {
+        "entity_a": "this guy in his fifties , out there dancing , by himself",
+        "entity_b": "two women",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "this guy in his fifties , out there dancing , by himself"
+    },
+    {
+      "id": 472,
+      "doc": "GUM_whow_cupcakes",
+      "variables": {
+        "entity_a": "cupcake",
+        "entity_b": "320 ml ( 1 - 1/4 cups",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "cupcake"
+    },
+    {
+      "id": 473,
+      "doc": "GUM_academic_eegimaa",
+      "variables": {
+        "entity_a": "Jóola",
+        "entity_b": "a different language",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Jóola"
+    },
+    {
+      "id": 474,
+      "doc": "GUM_court_nullification",
+      "variables": {
+        "entity_a": "counsel 's",
+        "entity_b": "a forceful curative instruction",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "a forceful curative instruction"
+    },
+    {
+      "id": 475,
+      "doc": "GUM_textbook_alamo",
+      "variables": {
+        "entity_a": "Mexico 's",
+        "entity_b": "General Antonio Lopez de Santa Anna",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Mexico 's"
+    },
+    {
+      "id": 476,
+      "doc": "GUM_academic_theropod",
+      "variables": {
+        "entity_a": "experimental animals",
+        "entity_b": "this study",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "experimental animals"
+    },
+    {
+      "id": 477,
+      "doc": "GUM_fiction_oversite",
+      "variables": {
+        "entity_a": "The doctor",
+        "entity_b": "My sixteen - year - old daughter",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "The doctor"
+    },
+    {
+      "id": 478,
+      "doc": "GUM_speech_albania",
+      "variables": {
+        "entity_a": "Mr. President",
+        "entity_b": "the seventh consecutive year",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Mr. President"
+    },
+    {
+      "id": 479,
+      "doc": "GUM_voyage_coron",
+      "variables": {
+        "entity_a": "a different , smaller island just offshore",
+        "entity_b": "the mining camps",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "a different , smaller island just offshore"
+    },
+    {
+      "id": 480,
+      "doc": "GUM_speech_maiden",
+      "variables": {
+        "entity_a": "Mr. President",
+        "entity_b": "the United States",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Mr. President"
+    },
+    {
+      "id": 481,
+      "doc": "GUM_bio_holt",
+      "variables": {
+        "entity_a": "the Boston Red Sox",
+        "entity_b": "2013",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the Boston Red Sox"
+    },
+    {
+      "id": 482,
+      "doc": "GUM_court_mountain",
+      "variables": {
+        "entity_a": "the Palmers",
+        "entity_b": "residential covenants that apply to them",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the Palmers"
+    },
+    {
+      "id": 483,
+      "doc": "GUM_news_nasa",
+      "variables": {
+        "entity_a": "the Kennedy Space Center",
+        "entity_b": "the Smithsonian 's",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the Kennedy Space Center"
+    },
+    {
+      "id": 484,
+      "doc": "GUM_letter_srilanka",
+      "variables": {
+        "entity_a": "Government",
+        "entity_b": "the LTTE",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Government"
+    },
+    {
+      "id": 485,
+      "doc": "GUM_news_warhol",
+      "variables": {
+        "entity_a": "Kiara Perkins",
+        "entity_b": "second year",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Kiara Perkins"
+    },
+    {
+      "id": 486,
+      "doc": "GUM_news_hackers",
+      "variables": {
+        "entity_a": "Church of Scientology website",
+        "entity_b": "Internet",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Church of Scientology website"
+    },
+    {
+      "id": 487,
+      "doc": "GUM_court_mountain",
+      "variables": {
+        "entity_a": "Rodney Brandt and others",
+        "entity_b": "the provision regarding commercial use",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Rodney Brandt and others"
+    },
+    {
+      "id": 488,
+      "doc": "GUM_textbook_union",
+      "variables": {
+        "entity_a": "the Civil War",
+        "entity_b": "Great Britain",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the Civil War"
+    },
+    {
+      "id": 489,
+      "doc": "GUM_academic_mutation",
+      "variables": {
+        "entity_a": "Geographic Information Systems",
+        "entity_b": "Mutation Operators for Testing Geographic Information Systems",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Geographic Information Systems"
+    },
+    {
+      "id": 490,
+      "doc": "GUM_court_prince",
+      "variables": {
+        "entity_a": "Your Honor",
+        "entity_b": "Goldsmith",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Your Honor"
+    },
+    {
+      "id": 491,
+      "doc": "GUM_whow_quidditch",
+      "variables": {
+        "entity_a": "Muggle Quidditch",
+        "entity_b": "the game",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Muggle Quidditch"
+    },
+    {
+      "id": 492,
+      "doc": "GUM_academic_lighting",
+      "variables": {
+        "entity_a": "electricity",
+        "entity_b": "the residential",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "electricity"
+    },
+    {
+      "id": 493,
+      "doc": "GUM_textbook_stats",
+      "variables": {
+        "entity_a": "6.8",
+        "entity_b": "Quartiles",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "6.8"
+    },
+    {
+      "id": 494,
+      "doc": "GUM_textbook_evoethics",
+      "variables": {
+        "entity_a": "Sharon Street",
+        "entity_b": "an evolutionary account of morality",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Sharon Street"
+    },
+    {
+      "id": 495,
+      "doc": "GUM_academic_theropod",
+      "variables": {
+        "entity_a": "Biewener 's",
+        "entity_b": "CoM position",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Biewener 's"
+    },
+    {
+      "id": 496,
+      "doc": "GUM_podcast_blackholes",
+      "variables": {
+        "entity_a": "every single theory about black holes seem to come with controversy",
+        "entity_b": "black holes",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "every single theory about black holes seem to come with controversy"
+    },
+    {
+      "id": 497,
+      "doc": "GUM_conversation_erasmus",
+      "variables": {
+        "entity_a": "Luther",
+        "entity_b": "a person",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Luther"
+    },
+    {
+      "id": 498,
+      "doc": "GUM_fiction_oversite",
+      "variables": {
+        "entity_a": "Sonia",
+        "entity_b": "My sixteen - year - old daughter",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Sonia"
+    },
+    {
+      "id": 499,
+      "doc": "GUM_speech_telescope",
+      "variables": {
+        "entity_a": "Vice President Harris",
+        "entity_b": "JULY 11 , 2022",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Vice President Harris"
+    },
+    {
+      "id": 500,
+      "doc": "GUM_academic_theropod",
+      "variables": {
+        "entity_a": "the CoM",
+        "entity_b": "Biewener 's",
+        "text": "more_english_document.json"
+      },
+      "answer_type": "string",
+      "answer": "the CoM"
+    }
+  ]
+}

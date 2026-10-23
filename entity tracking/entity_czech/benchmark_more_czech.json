@@ -1,0 +1,5507 @@
+{
+  "task": "entity_more",
+  "lang": "czech",
+  "example_prompt": "Which entity is mentioned more often in the text, {entity_a} or {entity_b}?",
+  "instances": [
+    {
+      "id": 1,
+      "doc": "wsj0946",
+      "variables": {
+        "entity_a": "jako \" válku mezi pohlavími",
+        "entity_b": "prezident",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "jako \" válku mezi pohlavími"
+    },
+    {
+      "id": 2,
+      "doc": "wsj2433",
+      "variables": {
+        "entity_a": "Federální odvolací soud v San Franciscu",
+        "entity_b": "NFL _",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Federální odvolací soud v San Franciscu"
+    },
+    {
+      "id": 3,
+      "doc": "wsj2041",
+      "variables": {
+        "entity_a": "jeho vládnoucí Kongresovou stranu",
+        "entity_b": "na opozici , volném seskupení regionálních a ideologických stran vedených bývalým ministrem Gándhího vlády Vishwanathem Pratapem Singhem",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "jeho vládnoucí Kongresovou stranu"
+    },
+    {
+      "id": 4,
+      "doc": "wsj1154",
+      "variables": {
+        "entity_a": "Spojené národy , rozdávající zemědělské nástroje vracejícím se uprchlíkům v Namibii",
+        "entity_b": "mezi španělským ministerským předsedou Felipem Gonzalezem",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Spojené národy , rozdávající zemědělské nástroje vracejícím se uprchlíkům v Namibii"
+    },
+    {
+      "id": 5,
+      "doc": "wsj1936",
+      "variables": {
+        "entity_a": "básník Richard Wilbur",
+        "entity_b": "o Alcestovi , muži , který vidí ve všech kromě sebe faleš a marnivost",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "básník Richard Wilbur"
+    },
+    {
+      "id": 6,
+      "doc": "wsj1971",
+      "variables": {
+        "entity_a": "Steve Jobs",
+        "entity_b": "Next Inc",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Steve Jobs"
+    },
+    {
+      "id": 7,
+      "doc": "wsj0934",
+      "variables": {
+        "entity_a": "v zemi",
+        "entity_b": "zahraniční turisté a obchodníci",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "v zemi"
+    },
+    {
+      "id": 8,
+      "doc": "wsj1266",
+      "variables": {
+        "entity_a": "FRANKLINOVA NÁRODNÍ BANKA",
+        "entity_b": "Michele Sindona - italský finančník , který v červenci 1972 koupil 22 % blok cenných papírů Franklinovy banky od společnosti Loews Corp . vedené Laurencem A . Tischem",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "FRANKLINOVA NÁRODNÍ BANKA"
+    },
+    {
+      "id": 9,
+      "doc": "wsj1567",
+      "variables": {
+        "entity_a": "Barbara Roper , která monitoruje otázky finančního plánování pro Americkou federaci spotřebitelů , organizaci se sídlem ve Washingtonu zastupující spotřebitele",
+        "entity_b": "lidé",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Barbara Roper , která monitoruje otázky finančního plánování pro Americkou federaci spotřebitelů , organizaci se sídlem ve Washingtonu zastupující spotřebitele"
+    },
+    {
+      "id": 10,
+      "doc": "wsj0781",
+      "variables": {
+        "entity_a": "na problémy způsobující chybné výsledky procesů u některých matematických výpočtů",
+        "entity_b": "společnosti Compaq",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "na problémy způsobující chybné výsledky procesů u některých matematických výpočtů"
+    },
+    {
+      "id": 11,
+      "doc": "wsj0562",
+      "variables": {
+        "entity_a": "společnosti Federal Express",
+        "entity_b": "ze stanice Pozemních provozů společnosti Federal Express ve městě Natick v Massachussetts",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "společnosti Federal Express"
+    },
+    {
+      "id": 12,
+      "doc": "wsj0267",
+      "variables": {
+        "entity_a": "velké poroty",
+        "entity_b": "okresu Cambria",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "velké poroty"
+    },
+    {
+      "id": 13,
+      "doc": "wsj0632",
+      "variables": {
+        "entity_a": "společnost GM",
+        "entity_b": "Společnost Ford",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "společnost GM"
+    },
+    {
+      "id": 14,
+      "doc": "wsj0349",
+      "variables": {
+        "entity_a": "další makléřská firma na Wall Street",
+        "entity_b": "nový produkt \" jednoho koše \" , který institucím dovoluje nakupovat nebo prodávat všechny akcie v indexu Standard & Poor ' s 500 najednou",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "další makléřská firma na Wall Street"
+    },
+    {
+      "id": 15,
+      "doc": "wsj0819",
+      "variables": {
+        "entity_a": "režisér Gregory Boyd",
+        "entity_b": "Claudiova sestra Isabella , novicka v klášteře",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "režisér Gregory Boyd"
+    },
+    {
+      "id": 16,
+      "doc": "wsj0617",
+      "variables": {
+        "entity_a": "IMELDA MARCOSOVÁ",
+        "entity_b": "společnosti General Motors Corp .",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "IMELDA MARCOSOVÁ"
+    },
+    {
+      "id": 17,
+      "doc": "wsj2040",
+      "variables": {
+        "entity_a": "společnost Citicorp",
+        "entity_b": "Banka Wells Fargo & Co . ze San Franciska",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "společnost Citicorp"
+    },
+    {
+      "id": 18,
+      "doc": "wsj1904",
+      "variables": {
+        "entity_a": "společnosti Rhone - Poulenc S . A .",
+        "entity_b": "Britská Komise pro monopoly a fúze",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "společnosti Rhone - Poulenc S . A ."
+    },
+    {
+      "id": 19,
+      "doc": "wsj1388",
+      "variables": {
+        "entity_a": "Henrik Schwarzenberger , maďarský emigrant , který vyučoval na státní střední škole v Maconu",
+        "entity_b": "Cho - Liang Lin , který se v 18 letech dostal na seznam organizace ICM Artists Inc .",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Henrik Schwarzenberger , maďarský emigrant , který vyučoval na státní střední škole v Maconu"
+    },
+    {
+      "id": 20,
+      "doc": "wsj1506",
+      "variables": {
+        "entity_a": "v Bílém domě",
+        "entity_b": "že oni dozví - li se o plánovaných státních převratech , jsou ony povinny o tom informovat zahraniční diktátory , kteří by se tak ocitli v ohrožení života",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "v Bílém domě"
+    },
+    {
+      "id": 21,
+      "doc": "wsj0988",
+      "variables": {
+        "entity_a": "společnost K mart Corp . sídlící ve městě Troy v Michiganu",
+        "entity_b": "17 obchodních center",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "společnost K mart Corp . sídlící ve městě Troy v Michiganu"
+    },
+    {
+      "id": 22,
+      "doc": "wsj1387",
+      "variables": {
+        "entity_a": "z ne zcela přijatelného herního odvětví pačinko",
+        "entity_b": "na organizace občanů Severní nebo Jižní Koreje",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "z ne zcela přijatelného herního odvětví pačinko"
+    },
+    {
+      "id": 23,
+      "doc": "wsj1844",
+      "variables": {
+        "entity_a": "světa",
+        "entity_b": "společnosti Eurocom a společnosti WCRS",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "světa"
+    },
+    {
+      "id": 24,
+      "doc": "wsj0445",
+      "variables": {
+        "entity_a": "společnost NEC Corp .",
+        "entity_b": "_ USA",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "společnost NEC Corp ."
+    },
+    {
+      "id": 25,
+      "doc": "wsj0426",
+      "variables": {
+        "entity_a": "pozměňovací návrh , který obžalovanému umožňuje vyhnout se rozsudku smrti v soudních okresech , kde je o popravách rozhodováno prokazatelně rasistickým způsobem",
+        "entity_b": "Nejvyšším soudem",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "pozměňovací návrh , který obžalovanému umožňuje vyhnout se rozsudku smrti v soudních okresech , kde je o popravách rozhodováno prokazatelně rasistickým způsobem"
+    },
+    {
+      "id": 26,
+      "doc": "wsj1366",
+      "variables": {
+        "entity_a": "Danny Wall , předseda Úřadu pro dohled nad spořitelnami a úvěrovými sdruženími",
+        "entity_b": "spořitelního a úvěrového sdružení Lincoln Savings & Loan Association",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Danny Wall , předseda Úřadu pro dohled nad spořitelnami a úvěrovými sdruženími"
+    },
+    {
+      "id": 27,
+      "doc": "wsj1178",
+      "variables": {
+        "entity_a": "společnost Farmers Group Inc .",
+        "entity_b": "společnosti Axa - Midi Assurances",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "společnost Farmers Group Inc ."
+    },
+    {
+      "id": 28,
+      "doc": "wsj0956",
+      "variables": {
+        "entity_a": "General Motors Corp .",
+        "entity_b": "společnost Honda Motor Co .",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "General Motors Corp ."
+    },
+    {
+      "id": 29,
+      "doc": "wsj1615",
+      "variables": {
+        "entity_a": "Heidi Ehmanová",
+        "entity_b": "New Jersey",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Heidi Ehmanová"
+    },
+    {
+      "id": 30,
+      "doc": "wsj1208",
+      "variables": {
+        "entity_a": "UAL , mateřská společnost United Airlines",
+        "entity_b": "Dow Jonesův průmyslový index",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "UAL , mateřská společnost United Airlines"
+    },
+    {
+      "id": 31,
+      "doc": "wsj0118",
+      "variables": {
+        "entity_a": "v Chicagu",
+        "entity_b": "Stará garda na Wall Street",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "v Chicagu"
+    },
+    {
+      "id": 32,
+      "doc": "wsj1366",
+      "variables": {
+        "entity_a": "Danny Wall , předseda Úřadu pro dohled nad spořitelnami a úvěrovými sdruženími",
+        "entity_b": "jejich",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Danny Wall , předseda Úřadu pro dohled nad spořitelnami a úvěrovými sdruženími"
+    },
+    {
+      "id": 33,
+      "doc": "wsj0664",
+      "variables": {
+        "entity_a": "Newyorská obchodní burza , hlavní světový trh s termínovanými obchody s ropou",
+        "entity_b": "zdejší burzy",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Newyorská obchodní burza , hlavní světový trh s termínovanými obchody s ropou"
+    },
+    {
+      "id": 34,
+      "doc": "wsj1915",
+      "variables": {
+        "entity_a": "San Francisku",
+        "entity_b": "na mimoburzovním trhu",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "San Francisku"
+    },
+    {
+      "id": 35,
+      "doc": "wsj0617",
+      "variables": {
+        "entity_a": "bývalého vlastníka Krétské banky George Koskotase",
+        "entity_b": "státní advokátní komora",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "bývalého vlastníka Krétské banky George Koskotase"
+    },
+    {
+      "id": 36,
+      "doc": "wsj1447",
+      "variables": {
+        "entity_a": "společnost Wells Rich Greene Inc",
+        "entity_b": "Společnost Philip Morris Cos . , jejíž značka cigaret Benson & Hedges ztrácí podíl na trhu",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "společnost Wells Rich Greene Inc"
+    },
+    {
+      "id": 37,
+      "doc": "wsj1190",
+      "variables": {
+        "entity_a": "společnosti Tele - Communications Inc .",
+        "entity_b": "společnosti Viacom Inc .",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "společnosti Tele - Communications Inc ."
+    },
+    {
+      "id": 38,
+      "doc": "wsj0036",
+      "variables": {
+        "entity_a": "v říjnu , což už je šestý měsíc v řadě",
+        "entity_b": "údaje z jednoho měsíce",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "v říjnu , což už je šestý měsíc v řadě"
+    },
+    {
+      "id": 39,
+      "doc": "wsj1915",
+      "variables": {
+        "entity_a": "na mimoburzovním trhu",
+        "entity_b": "Palo Altu",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "na mimoburzovním trhu"
+    },
+    {
+      "id": 40,
+      "doc": "wsj0664",
+      "variables": {
+        "entity_a": "jedním ze svých manažerů , 40 letým R . Patrickem Thompsonem",
+        "entity_b": "zdejší burzy",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "jedním ze svých manažerů , 40 letým R . Patrickem Thompsonem"
+    },
+    {
+      "id": 41,
+      "doc": "wsj0610",
+      "variables": {
+        "entity_a": "Battle Creeku",
+        "entity_b": "kukuřičných lupínků Corn Flakes",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Battle Creeku"
+    },
+    {
+      "id": 42,
+      "doc": "wsj1267",
+      "variables": {
+        "entity_a": "Amitai Etzioni",
+        "entity_b": "právníci",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Amitai Etzioni"
+    },
+    {
+      "id": 43,
+      "doc": "wsj1915",
+      "variables": {
+        "entity_a": "v oblasti zátoky",
+        "entity_b": "na mimoburzovním trhu",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "v oblasti zátoky"
+    },
+    {
+      "id": 44,
+      "doc": "wsj0704",
+      "variables": {
+        "entity_a": "1989",
+        "entity_b": "1993",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1989"
+    },
+    {
+      "id": 45,
+      "doc": "wsj0617",
+      "variables": {
+        "entity_a": "IMELDA MARCOSOVÁ",
+        "entity_b": "Generální poradce společnosti General Motors Corp .",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "IMELDA MARCOSOVÁ"
+    },
+    {
+      "id": 46,
+      "doc": "wsj1996",
+      "variables": {
+        "entity_a": "Richard Miller , nový ředitel počítačové společnosti Lowell v Massachusetts",
+        "entity_b": "univerzity Bostonu",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Richard Miller , nový ředitel počítačové společnosti Lowell v Massachusetts"
+    },
+    {
+      "id": 47,
+      "doc": "wsj1860",
+      "variables": {
+        "entity_a": "od společnosti Ford Motor Co",
+        "entity_b": "Předseda společnosti Jaguar PLC",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "od společnosti Ford Motor Co"
+    },
+    {
+      "id": 48,
+      "doc": "wsj1171",
+      "variables": {
+        "entity_a": "Jacobson",
+        "entity_b": "47 letý Robert J . Jacobson jr . , vnuk zakladatele společnosti",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Jacobson"
+    },
+    {
+      "id": 49,
+      "doc": "wsj0045",
+      "variables": {
+        "entity_a": "přípravných příruček k testům Jak dosáhnout vysokého skóre",
+        "entity_b": "s sebou",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "přípravných příruček k testům Jak dosáhnout vysokého skóre"
+    },
+    {
+      "id": 50,
+      "doc": "wsj1649",
+      "variables": {
+        "entity_a": "Raymond Chandler , který v dopise v roce 1950 obhajoval slabou Hemingwayovu knihu",
+        "entity_b": "soukromý detektiv Philip Marlowe",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Raymond Chandler , který v dopise v roce 1950 obhajoval slabou Hemingwayovu knihu"
+    },
+    {
+      "id": 51,
+      "doc": "wsj2172",
+      "variables": {
+        "entity_a": "ohledně své nabídky na AMR Corp . , mateřskou firmu American Airlines",
+        "entity_b": "piloti UAL",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ohledně své nabídky na AMR Corp . , mateřskou firmu American Airlines"
+    },
+    {
+      "id": 52,
+      "doc": "wsj0049",
+      "variables": {
+        "entity_a": "TEXASKÉHO SOUDCE",
+        "entity_b": "společnost Writers Guild of America East",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "TEXASKÉHO SOUDCE"
+    },
+    {
+      "id": 53,
+      "doc": "wsj1631",
+      "variables": {
+        "entity_a": "Kouzelně proměnění brokeři",
+        "entity_b": "Její jazyk",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Kouzelně proměnění brokeři"
+    },
+    {
+      "id": 54,
+      "doc": "wsj2033",
+      "variables": {
+        "entity_a": "IRS ( Federální daňový úřad )",
+        "entity_b": "obětem",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "IRS ( Federální daňový úřad )"
+    },
+    {
+      "id": 55,
+      "doc": "wsj2172",
+      "variables": {
+        "entity_a": "na AMR Corp . , mateřskou firmu American Airlines",
+        "entity_b": "mateřskou firmu United UAL Corp .",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "na AMR Corp . , mateřskou firmu American Airlines"
+    },
+    {
+      "id": 56,
+      "doc": "wsj0112",
+      "variables": {
+        "entity_a": "několik neuvěřitelných pokusů kongresu o přepsání ústavy pod záminkou , že on chrání peníze veřejnosti",
+        "entity_b": "druhý článek",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "několik neuvěřitelných pokusů kongresu o přepsání ústavy pod záminkou , že on chrání peníze veřejnosti"
+    },
+    {
+      "id": 57,
+      "doc": "wsj1634",
+      "variables": {
+        "entity_a": "mimo Hollywood",
+        "entity_b": "předseda představenstva společnosti Warner Communications Inc . Steven Ross",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "mimo Hollywood"
+    },
+    {
+      "id": 58,
+      "doc": "wsj1572",
+      "variables": {
+        "entity_a": "on a jeho manželka Lily",
+        "entity_b": "Majitel společnosti Stephen Smith , který tváří v tvář státním a federálním někoho obviněním z podvodů prohlásil , že je on vinen",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "on a jeho manželka Lily"
+    },
+    {
+      "id": 59,
+      "doc": "wsj1617",
+      "variables": {
+        "entity_a": "Asociace sjednoceného lyžování , obchodní skupiny , která kampaň sponzoruje",
+        "entity_b": "přitáhnout tolik nových lyžařů",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Asociace sjednoceného lyžování , obchodní skupiny , která kampaň sponzoruje"
+    },
+    {
+      "id": 60,
+      "doc": "wsj0994",
+      "variables": {
+        "entity_a": "Na slavném bulváru Strip",
+        "entity_b": "Ellen Cokelyová , turistka z Altonu z Illinois",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Na slavném bulváru Strip"
+    },
+    {
+      "id": 61,
+      "doc": "wsj0799",
+      "variables": {
+        "entity_a": "ministerstvo obrany",
+        "entity_b": "Společnost TransTechnology Corp . ze Sherman Oaks v Kalifornii , dodavatel ministerstva obrany , který měl v roce 1988 výdělky ve výši 9.2 milionu dolarů při obratu 235.2 milionu dolarů",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ministerstvo obrany"
+    },
+    {
+      "id": 62,
+      "doc": "wsj0509",
+      "variables": {
+        "entity_a": "D . Joseph Corr , předseda aerolinií , šéf exekutivy a prezident , jmenovaný teprve v minulém prosinci",
+        "entity_b": "společnost Continental Airlines",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "D . Joseph Corr , předseda aerolinií , šéf exekutivy a prezident , jmenovaný teprve v minulém prosinci"
+    },
+    {
+      "id": 63,
+      "doc": "wsj0448",
+      "variables": {
+        "entity_a": "skupina organizující výkup , vedená odborovou organizací pilotů ze společnosti United a předsedou společnosti UAL , Stephenem Wolfem",
+        "entity_b": "společnosti UAL Corp . , mateřské společnosti společnosti United Airlines",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "skupina organizující výkup , vedená odborovou organizací pilotů ze společnosti United a předsedou společnosti UAL , Stephenem Wolfem"
+    },
+    {
+      "id": 64,
+      "doc": "wsj0979",
+      "variables": {
+        "entity_a": "společnosti Qintex Entertainment Inc .",
+        "entity_b": "společnosti Qintex Australia Ltd .",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "společnosti Qintex Entertainment Inc ."
+    },
+    {
+      "id": 65,
+      "doc": "wsj1996",
+      "variables": {
+        "entity_a": "Richard Miller , nový ředitel počítačové společnosti Lowell v Massachusetts",
+        "entity_b": "William Tait , někdejší vedoucí prodeje v Indianapolis",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Richard Miller , nový ředitel počítačové společnosti Lowell v Massachusetts"
+    },
+    {
+      "id": 66,
+      "doc": "wsj0214",
+      "variables": {
+        "entity_a": "Will McEnaney , kdysi stoper Velké červené mašiny z Cincinnati",
+        "entity_b": "Můj",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Will McEnaney , kdysi stoper Velké červené mašiny z Cincinnati"
+    },
+    {
+      "id": 67,
+      "doc": "wsj2265",
+      "variables": {
+        "entity_a": "po pátečním propadu burzy",
+        "entity_b": "Jeden z analytiků , Peter Cardillo z newyorské společnosti Josephthal & Co .",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "po pátečním propadu burzy"
+    },
+    {
+      "id": 68,
+      "doc": "wsj1493",
+      "variables": {
+        "entity_a": "včetně společnosti Interpublic Group",
+        "entity_b": "společnosti Prudential",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "včetně společnosti Interpublic Group"
+    },
+    {
+      "id": 69,
+      "doc": "wsj0909",
+      "variables": {
+        "entity_a": "poslance Johna Jenrettea , obviněného v aféře Abscam",
+        "entity_b": "dobročinná akce na počest bývalého kongresmana Tonyho Coelhoa , který si sehnal milionové zaměstnání na Wall Street poté , co loni v létě on rezignoval kvůli kontroverzní investici do rizikových obligací",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "poslance Johna Jenrettea , obviněného v aféře Abscam"
+    },
+    {
+      "id": 70,
+      "doc": "wsj1525",
+      "variables": {
+        "entity_a": "její vláda",
+        "entity_b": "filipínské vládní Nadace pro privatizaci majetku",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "její vláda"
+    },
+    {
+      "id": 71,
+      "doc": "wsj0961",
+      "variables": {
+        "entity_a": "Předseda Federální rezervní banky Alan Greenspan",
+        "entity_b": "Federální rezervní banky",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Předseda Federální rezervní banky Alan Greenspan"
+    },
+    {
+      "id": 72,
+      "doc": "wsj0429",
+      "variables": {
+        "entity_a": "její jednotka Lone Star Steel Co .",
+        "entity_b": "Společnost Lone Star Technologies Inc .",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "její jednotka Lone Star Steel Co ."
+    },
+    {
+      "id": 73,
+      "doc": "wsj1022",
+      "variables": {
+        "entity_a": "_ FBI",
+        "entity_b": "se společností Drexel Burnham Lambert Inc .",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "_ FBI"
+    },
+    {
+      "id": 74,
+      "doc": "wsj0278",
+      "variables": {
+        "entity_a": "společnosti Warner",
+        "entity_b": "Peteru Guberovi a Jonu Petersovi",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "společnosti Warner"
+    },
+    {
+      "id": 75,
+      "doc": "wsj0485",
+      "variables": {
+        "entity_a": "Richard Kurnit , newyorský právník v oblasti reklamy",
+        "entity_b": "charakteristický hlas profesionálního zpěváka",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Richard Kurnit , newyorský právník v oblasti reklamy"
+    },
+    {
+      "id": 76,
+      "doc": "wsj0469",
+      "variables": {
+        "entity_a": "ORGANIZOVANÝ ZLOČIN stíhající zásahové jednotky",
+        "entity_b": "ministra spravedlnosti USA Dicka Thornburgha",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ORGANIZOVANÝ ZLOČIN stíhající zásahové jednotky"
+    },
+    {
+      "id": 77,
+      "doc": "wsj2454",
+      "variables": {
+        "entity_a": "Walter Sisulu a Africký národní kongres",
+        "entity_b": "Vláda",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Walter Sisulu a Africký národní kongres"
+    },
+    {
+      "id": 78,
+      "doc": "wsj1037",
+      "variables": {
+        "entity_a": "do Spojených států",
+        "entity_b": "někteří ekonomové a zástupci vlády",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "do Spojených států"
+    },
+    {
+      "id": 79,
+      "doc": "wsj2058",
+      "variables": {
+        "entity_a": "Mluvčí _ NASA Charles Redmond",
+        "entity_b": "jednoduchá hesla , která uživateli poskytují větší práva",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Mluvčí _ NASA Charles Redmond"
+    },
+    {
+      "id": 80,
+      "doc": "wsj0469",
+      "variables": {
+        "entity_a": "ORGANIZOVANÝ ZLOČIN stíhající zásahové jednotky",
+        "entity_b": "ženu obviněnou z někým řízení v opilosti",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ORGANIZOVANÝ ZLOČIN stíhající zásahové jednotky"
+    },
+    {
+      "id": 81,
+      "doc": "wsj0090",
+      "variables": {
+        "entity_a": "Steven G . Einhorn , spolupředseda výboru pro investiční politiku ve společnosti Goldman , Sachs & Co",
+        "entity_b": "oba , Coxon ze společnosti Cigna i Einhorn ze společnosti Goldman Sachs",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Steven G . Einhorn , spolupředseda výboru pro investiční politiku ve společnosti Goldman , Sachs & Co"
+    },
+    {
+      "id": 82,
+      "doc": "wsj0745",
+      "variables": {
+        "entity_a": "Společnost General Motors Corp .",
+        "entity_b": "vládu Konzervativní strany",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Společnost General Motors Corp ."
+    },
+    {
+      "id": 83,
+      "doc": "wsj2417",
+      "variables": {
+        "entity_a": "z krachu z roku 1987",
+        "entity_b": "Howard Dubnow , nezávislý senzál a správce Merc",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "z krachu z roku 1987"
+    },
+    {
+      "id": 84,
+      "doc": "wsj0062",
+      "variables": {
+        "entity_a": "mluvčí společnosti Campbell Soup",
+        "entity_b": "SPOLEČNOSTI AT & T",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "mluvčí společnosti Campbell Soup"
+    },
+    {
+      "id": 85,
+      "doc": "wsj1735",
+      "variables": {
+        "entity_a": "Eugene Sit , prezident investiční společnosti Sit v Minneapolisu",
+        "entity_b": "Ač je to dost zvláštní , akciím to však přináší problémy",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Eugene Sit , prezident investiční společnosti Sit v Minneapolisu"
+    },
+    {
+      "id": 86,
+      "doc": "wsj0681",
+      "variables": {
+        "entity_a": "společnosti UAL",
+        "entity_b": "Dvakrát během dvou týdnů porazil burzu rozpad nepravidelného odkupování společnosti UAL",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "společnosti UAL"
+    },
+    {
+      "id": 87,
+      "doc": "wsj1397",
+      "variables": {
+        "entity_a": "Mancusův šéf",
+        "entity_b": "Proč , když zmizí klíčová svědkyně , Mancuso rozbíjí její byt , strhává závěsy a mlátí do zdí",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Mancusův šéf"
+    },
+    {
+      "id": 88,
+      "doc": "wsj0781",
+      "variables": {
+        "entity_a": "Nejvýkonnější počítačový čip společnosti Intel Corp .",
+        "entity_b": "společnosti Intel Corp .",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Nejvýkonnější počítačový čip společnosti Intel Corp ."
+    },
+    {
+      "id": 89,
+      "doc": "wsj1768",
+      "variables": {
+        "entity_a": "Společnost Canadian Pacific Ltd .",
+        "entity_b": "společnosti Soo Line Corp .",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Společnost Canadian Pacific Ltd ."
+    },
+    {
+      "id": 90,
+      "doc": "wsj0108",
+      "variables": {
+        "entity_a": "text toho , co Hlas šíří mezi těch 130 milionů lidí z celého světa , kteří si ho každý týden naladí",
+        "entity_b": "Informační agentura Spojených Států , která řídí Hlas",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "text toho , co Hlas šíří mezi těch 130 milionů lidí z celého světa , kteří si ho každý týden naladí"
+    },
+    {
+      "id": 91,
+      "doc": "wsj0700",
+      "variables": {
+        "entity_a": "novou smlouvu o termínových obchodech s úrokovými sazbami",
+        "entity_b": "Hongkongské burzy termínových obchodů",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "novou smlouvu o termínových obchodech s úrokovými sazbami"
+    },
+    {
+      "id": 92,
+      "doc": "wsj0413",
+      "variables": {
+        "entity_a": "Warren , který má na vizitce uvedeno \" démonolog",
+        "entity_b": "Hyman z Oregonu",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Warren , který má na vizitce uvedeno \" démonolog"
+    },
+    {
+      "id": 93,
+      "doc": "wsj0590",
+      "variables": {
+        "entity_a": "prezident Bush",
+        "entity_b": "mezi Kongresem",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "prezident Bush"
+    },
+    {
+      "id": 94,
+      "doc": "wsj1143",
+      "variables": {
+        "entity_a": "smlouvu o protiraketových střelách",
+        "entity_b": "vědců , kteří se loni setkali se svými sovětskými protějšky ve Washingtonu",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "smlouvu o protiraketových střelách"
+    },
+    {
+      "id": 95,
+      "doc": "wsj0043",
+      "variables": {
+        "entity_a": "státy jihovýchodní Asie",
+        "entity_b": "Od Tchaj - wanu a Jižní Koreje",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "státy jihovýchodní Asie"
+    },
+    {
+      "id": 96,
+      "doc": "wsj1623",
+      "variables": {
+        "entity_a": "Když přicházejí horší časy , investoři si dělají starosti , zda společnosti budou mít dost peněz , aby by své dluhy ony platily",
+        "entity_b": "místo toho",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Když přicházejí horší časy , investoři si dělají starosti , zda společnosti budou mít dost peněz , aby by své dluhy ony platily"
+    },
+    {
+      "id": 97,
+      "doc": "wsj0239",
+      "variables": {
+        "entity_a": "naším",
+        "entity_b": "váš",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "naším"
+    },
+    {
+      "id": 98,
+      "doc": "wsj0278",
+      "variables": {
+        "entity_a": "prezidenta firmy Warner Stevena J . Rosse",
+        "entity_b": "ohledně hollywoodských producentů Jona Peterse",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "prezidenta firmy Warner Stevena J . Rosse"
+    },
+    {
+      "id": 99,
+      "doc": "wsj2058",
+      "variables": {
+        "entity_a": "Národní úřad pro letectví a kosmonautiku ( NASA )",
+        "entity_b": "vesmírné sondy Galileo , která má být dnes vypuštěna",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Národní úřad pro letectví a kosmonautiku ( NASA )"
+    },
+    {
+      "id": 100,
+      "doc": "wsj1022",
+      "variables": {
+        "entity_a": "na Ivana F . Boeskyho",
+        "entity_b": "se společností Drexel Burnham Lambert Inc .",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "na Ivana F . Boeskyho"
+    },
+    {
+      "id": 101,
+      "doc": "wsj1331",
+      "variables": {
+        "entity_a": "pro společnost A . H . Robins , která prostředek vyráběla",
+        "entity_b": "vlády",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "pro společnost A . H . Robins , která prostředek vyráběla"
+    },
+    {
+      "id": 102,
+      "doc": "wsj0766",
+      "variables": {
+        "entity_a": "budovy , která kdysi byla majestátním viktoriánským domem",
+        "entity_b": "při zemětřesení v minulém týdnu",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "budovy , která kdysi byla majestátním viktoriánským domem"
+    },
+    {
+      "id": 103,
+      "doc": "wsj1331",
+      "variables": {
+        "entity_a": "Společnost GAF",
+        "entity_b": "Charles A . Donohoo , jediný vlastník demoliční společnosti z Louisville v Kentucky",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Společnost GAF"
+    },
+    {
+      "id": 104,
+      "doc": "wsj1203",
+      "variables": {
+        "entity_a": "David Threlkeld , prezident Threlkeld & Co . , mezinárodní společnosti zabývající se kovy",
+        "entity_b": "William Kaiser , prezident chicagské skupiny Kaiser Financial Group",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "David Threlkeld , prezident Threlkeld & Co . , mezinárodní společnosti zabývající se kovy"
+    },
+    {
+      "id": 105,
+      "doc": "wsj0761",
+      "variables": {
+        "entity_a": "Y . J . Parková a její rodina",
+        "entity_b": "na 10 % celkové hodnoty aktiv",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Y . J . Parková a její rodina"
+    },
+    {
+      "id": 106,
+      "doc": "wsj0305",
+      "variables": {
+        "entity_a": "firma American Brands Inc .",
+        "entity_b": "společnost pana Wathena",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "firma American Brands Inc ."
+    },
+    {
+      "id": 107,
+      "doc": "wsj0819",
+      "variables": {
+        "entity_a": "Ve zdejším divadle Alley Theater",
+        "entity_b": "mladíka Claudia",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Ve zdejším divadle Alley Theater"
+    },
+    {
+      "id": 108,
+      "doc": "wsj1146",
+      "variables": {
+        "entity_a": "Czeslaw Pyszkiewicz",
+        "entity_b": "Solidarity",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Czeslaw Pyszkiewicz"
+    },
+    {
+      "id": 109,
+      "doc": "wsj0426",
+      "variables": {
+        "entity_a": "Zákon , který senátor Thurmond prosazuje",
+        "entity_b": "Nejvyšším soudem",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Zákon , který senátor Thurmond prosazuje"
+    },
+    {
+      "id": 110,
+      "doc": "wsj1673",
+      "variables": {
+        "entity_a": "pět hlavních pojišťoven zabývajících se pojištěním práv vlastníka",
+        "entity_b": "firmu Safeco",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "pět hlavních pojišťoven zabývajících se pojištěním práv vlastníka"
+    },
+    {
+      "id": 111,
+      "doc": "wsj1946",
+      "variables": {
+        "entity_a": "FEDERÁLNÍ SOUDCE",
+        "entity_b": "muž zapletený do útoku na izraelský autobus v roce 1986",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "FEDERÁLNÍ SOUDCE"
+    },
+    {
+      "id": 112,
+      "doc": "wsj2154",
+      "variables": {
+        "entity_a": "metodu ušlých zisků",
+        "entity_b": "Obě společnosti",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "metodu ušlých zisků"
+    },
+    {
+      "id": 113,
+      "doc": "wsj1778",
+      "variables": {
+        "entity_a": "ve čtvrti Marina v San Francisku",
+        "entity_b": "jeden z počítačů",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ve čtvrti Marina v San Francisku"
+    },
+    {
+      "id": 114,
+      "doc": "wsj0578",
+      "variables": {
+        "entity_a": "Hubert de la Bouillaire , jeden ze střihačů filmu",
+        "entity_b": "společnosti Guber - Peters Entertainment Co .",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Hubert de la Bouillaire , jeden ze střihačů filmu"
+    },
+    {
+      "id": 115,
+      "doc": "wsj0745",
+      "variables": {
+        "entity_a": "vládu Konzervativní strany",
+        "entity_b": "proti společnosti Ford Motor Co .",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "vládu Konzervativní strany"
+    },
+    {
+      "id": 116,
+      "doc": "wsj0814",
+      "variables": {
+        "entity_a": "předsedu řetězce Bloomingdale ' s Marvina Trauba",
+        "entity_b": "bývalý prezident Richard Nixon",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "předsedu řetězce Bloomingdale ' s Marvina Trauba"
+    },
+    {
+      "id": 117,
+      "doc": "wsj0922",
+      "variables": {
+        "entity_a": "západní Evropy",
+        "entity_b": "Francouzský prezident Francois Mitterrand",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "západní Evropy"
+    },
+    {
+      "id": 118,
+      "doc": "wsj2433",
+      "variables": {
+        "entity_a": "zaniklé lize",
+        "entity_b": "Fulbright & Jaworski z Houstonu a Fenerty , Robertson , Fraser & Hatch z Calgary , stát Alberta",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "zaniklé lize"
+    },
+    {
+      "id": 119,
+      "doc": "wsj2112",
+      "variables": {
+        "entity_a": "Capa Weinbergera",
+        "entity_b": "tři nové armádní divize",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Capa Weinbergera"
+    },
+    {
+      "id": 120,
+      "doc": "wsj1446",
+      "variables": {
+        "entity_a": "kongresmana",
+        "entity_b": "Tom Hutton , Sam Ingram , Dean Yuzek , Daniel Carroll a Ernest Bertolotti",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "kongresmana"
+    },
+    {
+      "id": 121,
+      "doc": "wsj0515",
+      "variables": {
+        "entity_a": "tato rozpustná vláknina",
+        "entity_b": "Nahradí - li psylium ovesné otruby",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "tato rozpustná vláknina"
+    },
+    {
+      "id": 122,
+      "doc": "wsj0742",
+      "variables": {
+        "entity_a": "Mario Gabelli , další hvězda v investičním světě",
+        "entity_b": "portfolio",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Mario Gabelli , další hvězda v investičním světě"
+    },
+    {
+      "id": 123,
+      "doc": "wsj1368",
+      "variables": {
+        "entity_a": "v Sovětském svazu",
+        "entity_b": "James H . Giffen , který stojí v čele nejctižádostivějšího pokusu amerických firem proniknout na sovětský trh , zahrnujícího investice více než 5 miliard amerických dolarů v přibližně dvou tuctech podniků se společnou majetkovou účastí",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "v Sovětském svazu"
+    },
+    {
+      "id": 124,
+      "doc": "wsj1376",
+      "variables": {
+        "entity_a": "Beauregard Houston - Montgomery , spisovatel z New Yorku , který se jmenoval William Stretch , než si v roce 1980 on změnil jméno",
+        "entity_b": "Len Kessler , finanční komentátor v New Yorku",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Beauregard Houston - Montgomery , spisovatel z New Yorku , který se jmenoval William Stretch , než si v roce 1980 on změnil jméno"
+    },
+    {
+      "id": 125,
+      "doc": "wsj0149",
+      "variables": {
+        "entity_a": "jeho firmy Reliance Group Holdings Inc .",
+        "entity_b": "Newyorský finančník Saul Steinberg",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "jeho firmy Reliance Group Holdings Inc ."
+    },
+    {
+      "id": 126,
+      "doc": "wsj2431",
+      "variables": {
+        "entity_a": "PASOK ( Papandreouova strana )",
+        "entity_b": "George Koskotas , bývalý majitel Bank of Crete a defraudant dle vlastního někoho někým doznání , nyní pobývající ve vězeňské cele v Salemu , Massachusetts , odkud také on vede spor v procesu o extradici , která by ho vrátila do Řecka",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "PASOK ( Papandreouova strana )"
+    },
+    {
+      "id": 127,
+      "doc": "wsj1366",
+      "variables": {
+        "entity_a": "Danny Wall , předseda Úřadu pro dohled nad spořitelnami a úvěrovými sdruženími",
+        "entity_b": "Senátor Alan Cranston",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Danny Wall , předseda Úřadu pro dohled nad spořitelnami a úvěrovými sdruženími"
+    },
+    {
+      "id": 128,
+      "doc": "wsj0128",
+      "variables": {
+        "entity_a": "firmou CS First Boston Inc . , mateřskou společností firmy First Boston Corp .",
+        "entity_b": "firma Shearson Lehman Hutton Holdings Inc .",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "firmou CS First Boston Inc . , mateřskou společností firmy First Boston Corp ."
+    },
+    {
+      "id": 129,
+      "doc": "wsj2272",
+      "variables": {
+        "entity_a": "Společnost Memotec Data Inc .",
+        "entity_b": "se společností ISI Systems Inc .",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Společnost Memotec Data Inc ."
+    },
+    {
+      "id": 130,
+      "doc": "wsj0118",
+      "variables": {
+        "entity_a": "v Chicagu",
+        "entity_b": "pravidlu nárůstu \" , reformě zavedené po velkém krachu v roce 1929 , která chrání akcie před bezohledným srážením ceny těmi , kteří chtějí těžit z nižších cen , konkrétně spekulačními prodejci",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "v Chicagu"
+    },
+    {
+      "id": 131,
+      "doc": "wsj0771",
+      "variables": {
+        "entity_a": "ohledně Panamy",
+        "entity_b": "taktiku , podle níž by měly Spojené státy varovat Manuela Noriegu před jakýmkoli komplotem plánovaným proti němu",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ohledně Panamy"
+    },
+    {
+      "id": 132,
+      "doc": "wsj1625",
+      "variables": {
+        "entity_a": "Matek proti řízení v opilosti ( MADD )",
+        "entity_b": "že on použil klamnou loterijní inzerci k někým získání darů pro Americkou nadaci srdečních chorob a Americký fond pro rakovinu",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Matek proti řízení v opilosti ( MADD )"
+    },
+    {
+      "id": 133,
+      "doc": "wsj2112",
+      "variables": {
+        "entity_a": "základna , kterou nám slíbil on v Berbeře",
+        "entity_b": "těch nových sedm pozemních divizí a tři námořní brigády",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "základna , kterou nám slíbil on v Berbeře"
+    },
+    {
+      "id": 134,
+      "doc": "wsj1218",
+      "variables": {
+        "entity_a": "NAFTAŘSKÁ SPOLEČNOST",
+        "entity_b": "Na začátku 70 . let , kdy byla hlavní obavou \" světová potravinová krize",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "NAFTAŘSKÁ SPOLEČNOST"
+    },
+    {
+      "id": 135,
+      "doc": "wsj1047",
+      "variables": {
+        "entity_a": "Společnost Campeau Corp . , která je majitelkou tohoto řetězce",
+        "entity_b": "obchodního řetězce Bloomingdale ' s",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Společnost Campeau Corp . , která je majitelkou tohoto řetězce"
+    },
+    {
+      "id": 136,
+      "doc": "wsj0158",
+      "variables": {
+        "entity_a": "Michael Reupke",
+        "entity_b": "Firma Reuters Holdings PLC",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Michael Reupke"
+    },
+    {
+      "id": 137,
+      "doc": "wsj0239",
+      "variables": {
+        "entity_a": "naším",
+        "entity_b": "na nás",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "naším"
+    },
+    {
+      "id": 138,
+      "doc": "wsj2201",
+      "variables": {
+        "entity_a": "Společnost PaineWebber Inc .",
+        "entity_b": "Firma Fidelity Investments",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Společnost PaineWebber Inc ."
+    },
+    {
+      "id": 139,
+      "doc": "wsj0288",
+      "variables": {
+        "entity_a": "ani on , ani prezident Gorbačov",
+        "entity_b": "Oba vedoucí představitelé se setkají 2 . a 3 . prosince",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ani on , ani prezident Gorbačov"
+    },
+    {
+      "id": 140,
+      "doc": "wsj1875",
+      "variables": {
+        "entity_a": "Jedna ze dvou britských společností , které stále vyrábějí tvrdý toaletní papír",
+        "entity_b": "Nejvyšší inflace",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Jedna ze dvou britských společností , které stále vyrábějí tvrdý toaletní papír"
+    },
+    {
+      "id": 141,
+      "doc": "wsj0258",
+      "variables": {
+        "entity_a": "Společnost Mips Computer Systems Inc .",
+        "entity_b": "nový počítač k všeobecnému použití , který bude soupeřit s dražšími stroji společností , jako je Sun Microsystems Inc . a Digital Equipment Corp",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Společnost Mips Computer Systems Inc ."
+    },
+    {
+      "id": 142,
+      "doc": "wsj0819",
+      "variables": {
+        "entity_a": "režisér Gregory Boyd",
+        "entity_b": "Ve zdejším divadle Alley Theater",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "režisér Gregory Boyd"
+    },
+    {
+      "id": 143,
+      "doc": "wsj1844",
+      "variables": {
+        "entity_a": "jejíž agentura Della Femina McNamee WCRS",
+        "entity_b": "rozsáhlou restrukturalizaci , která ji do velké míry stáhne z reklamní sféry a jež zahrnuje prodej větší části její reklamní jednotky pařížské společnosti Eurocom",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "jejíž agentura Della Femina McNamee WCRS"
+    },
+    {
+      "id": 144,
+      "doc": "wsj0278",
+      "variables": {
+        "entity_a": "společnosti Warner",
+        "entity_b": "Firma Sony",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "společnosti Warner"
+    },
+    {
+      "id": 145,
+      "doc": "wsj0044",
+      "variables": {
+        "entity_a": "Joe Watson , žalobce v případu , který je také prezidentem asociace absolventů Greenvillské střední školy",
+        "entity_b": "Cathryn Riceová",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Joe Watson , žalobce v případu , který je také prezidentem asociace absolventů Greenvillské střední školy"
+    },
+    {
+      "id": 146,
+      "doc": "wsj1387",
+      "variables": {
+        "entity_a": "vládnoucí strany",
+        "entity_b": "Japonskem",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "vládnoucí strany"
+    },
+    {
+      "id": 147,
+      "doc": "wsj2136",
+      "variables": {
+        "entity_a": "tři kasina",
+        "entity_b": "ohledně plánů , zda se toto italské město , staré 1200 let , má v roce 2000 stát dějištěm celosvětové výstavy",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "tři kasina"
+    },
+    {
+      "id": 148,
+      "doc": "wsj0286",
+      "variables": {
+        "entity_a": "Jedna skupina mužů středního věku z výroby ze závodu Zama mimo Tokio",
+        "entity_b": "mezi hojně zveřejňovanými slevami , které nabízí detroitská velká trojka",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Jedna skupina mužů středního věku z výroby ze závodu Zama mimo Tokio"
+    },
+    {
+      "id": 149,
+      "doc": "wsj0156",
+      "variables": {
+        "entity_a": "Rodič firmy Younkers",
+        "entity_b": "firmy Younkers",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Rodič firmy Younkers"
+    },
+    {
+      "id": 150,
+      "doc": "wsj1549",
+      "variables": {
+        "entity_a": "východních Němců , kteří se v posledních týdnech vydali po tisících do ulic , aby by oni požadovali demokratické změny",
+        "entity_b": "mnoho věcí , které jej oddělují od jeho stranických soudruhů",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "východních Němců , kteří se v posledních týdnech vydali po tisících do ulic , aby by oni požadovali demokratické změny"
+    },
+    {
+      "id": 151,
+      "doc": "wsj1121",
+      "variables": {
+        "entity_a": "muži mávající lopatami a kartáči - potupně nazývaní \" čističi podloží \" , kteří se pachtí v brázdách za rypadly",
+        "entity_b": "společnosti De Beers Consolidated Mines Ltd . , diamantovému vládci světa",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "muži mávající lopatami a kartáči - potupně nazývaní \" čističi podloží \" , kteří se pachtí v brázdách za rypadly"
+    },
+    {
+      "id": 152,
+      "doc": "wsj2053",
+      "variables": {
+        "entity_a": "Kongres",
+        "entity_b": "Mitchell Daniels , bývalý Reaganův poradce z Bílého domu , který je nyní prezidentem Houston Institutu",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Kongres"
+    },
+    {
+      "id": 153,
+      "doc": "wsj1760",
+      "variables": {
+        "entity_a": "Hendrik Verwoerd ml . , syn bývalého premiéra a vůdce _ Oranžských pracujících , založených v roce 1980",
+        "entity_b": "ve městě",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Hendrik Verwoerd ml . , syn bývalého premiéra a vůdce _ Oranžských pracujících , založených v roce 1980"
+    },
+    {
+      "id": 154,
+      "doc": "wsj1447",
+      "variables": {
+        "entity_a": "společnost Wells Rich Greene Inc",
+        "entity_b": "jejíž značka cigaret Benson & Hedges",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "společnost Wells Rich Greene Inc"
+    },
+    {
+      "id": 155,
+      "doc": "wsj0374",
+      "variables": {
+        "entity_a": "V pátek",
+        "entity_b": "dalším faktorem , který ovlivnil frankfurtskou burzu",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "V pátek"
+    },
+    {
+      "id": 156,
+      "doc": "wsj0128",
+      "variables": {
+        "entity_a": "firmou CS First Boston Inc . , mateřskou společností firmy First Boston Corp .",
+        "entity_b": "společností Moody ' s Investors Service Inc .",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "firmou CS First Boston Inc . , mateřskou společností firmy First Boston Corp ."
+    },
+    {
+      "id": 157,
+      "doc": "wsj1122",
+      "variables": {
+        "entity_a": "Pár , kterému budeme říkat Blandingovi",
+        "entity_b": "jeden důchodce",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Pár , kterému budeme říkat Blandingovi"
+    },
+    {
+      "id": 158,
+      "doc": "wsj1394",
+      "variables": {
+        "entity_a": "společně se společností Tiger International Inc .",
+        "entity_b": "Ralph Brown",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "společně se společností Tiger International Inc ."
+    },
+    {
+      "id": 159,
+      "doc": "wsj2431",
+      "variables": {
+        "entity_a": "PASOK ( Papandreouova strana )",
+        "entity_b": "Řecka pod autokratickým pseudosocialismem",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "PASOK ( Papandreouova strana )"
+    },
+    {
+      "id": 160,
+      "doc": "wsj1440",
+      "variables": {
+        "entity_a": "Společnost Raymond Corp .",
+        "entity_b": "společnost Groundwater Technology , kterou chabé vyhlídky na zisk snížily o 6 1 / 4 na 24",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Společnost Raymond Corp ."
+    },
+    {
+      "id": 161,
+      "doc": "wsj1692",
+      "variables": {
+        "entity_a": "Thomas M . Gaubert , v minulosti pověřený někým získáváním finančních prostředků pro Demokratickou stranu , jemuž federální regulátoři záložen násilím odňali kontrolu nad spořitelní a úvěrovou společností",
+        "entity_b": "restauraci",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Thomas M . Gaubert , v minulosti pověřený někým získáváním finančních prostředků pro Demokratickou stranu , jemuž federální regulátoři záložen násilím odňali kontrolu nad spořitelní a úvěrovou společností"
+    },
+    {
+      "id": 162,
+      "doc": "wsj1269",
+      "variables": {
+        "entity_a": "24 zemí",
+        "entity_b": "George Bush",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "24 zemí"
+    },
+    {
+      "id": 163,
+      "doc": "wsj0037",
+      "variables": {
+        "entity_a": "ve společnosti Sony",
+        "entity_b": "v Československu",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ve společnosti Sony"
+    },
+    {
+      "id": 164,
+      "doc": "wsj1875",
+      "variables": {
+        "entity_a": "pro Západ",
+        "entity_b": "východoněmecká tisková agentura ADN",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "pro Západ"
+    },
+    {
+      "id": 165,
+      "doc": "wsj1311",
+      "variables": {
+        "entity_a": "Společnost Exxon Corp .",
+        "entity_b": "společnost Ashland Oil Inc .",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Společnost Exxon Corp ."
+    },
+    {
+      "id": 166,
+      "doc": "wsj0464",
+      "variables": {
+        "entity_a": "Podle Davida Millse , staršího viceprezidenta společnosti Boston Company Advisers",
+        "entity_b": "kompozitního indexu Nasdaq",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Podle Davida Millse , staršího viceprezidenta společnosti Boston Company Advisers"
+    },
+    {
+      "id": 167,
+      "doc": "wsj1669",
+      "variables": {
+        "entity_a": "balík pomoci ve výši 837.5 milionu dolarů , který je více než dvojnásobkem částky , o kterou někoho žádal prezident Bush",
+        "entity_b": "v zemích východního bloku stále ovládaných stalinistickými zpátečníky",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "balík pomoci ve výši 837.5 milionu dolarů , který je více než dvojnásobkem částky , o kterou někoho žádal prezident Bush"
+    },
+    {
+      "id": 168,
+      "doc": "wsj0112",
+      "variables": {
+        "entity_a": "zákona",
+        "entity_b": "senátu",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "zákona"
+    },
+    {
+      "id": 169,
+      "doc": "wsj2428",
+      "variables": {
+        "entity_a": "Michael McNamara , ředitel výzkumu investic s pevným příjmem společnosti Kemper Financial Services",
+        "entity_b": "na 9 % kupónové obligace Government National Mortgage Association , nejlikvidnější emisi hypoték",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Michael McNamara , ředitel výzkumu investic s pevným příjmem společnosti Kemper Financial Services"
+    },
+    {
+      "id": 170,
+      "doc": "wsj2172",
+      "variables": {
+        "entity_a": "skupinu , která se snaží koupit mateřskou firmu United UAL Corp .",
+        "entity_b": "dozorčí rady UAL",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "skupinu , která se snaží koupit mateřskou firmu United UAL Corp ."
+    },
+    {
+      "id": 171,
+      "doc": "wsj1699",
+      "variables": {
+        "entity_a": "Jedna z bank ve městě , Americká banka",
+        "entity_b": "Úřad pro řízení a rozpočet",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Jedna z bank ve městě , Americká banka"
+    },
+    {
+      "id": 172,
+      "doc": "wsj0799",
+      "variables": {
+        "entity_a": "Společnost Telos Corp . , sídlící v Santa Monica v Kalifornii , která poskytuje vojákům služby ve vývoji softwaru a údržbě hardwaru",
+        "entity_b": "do loňského roku",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Společnost Telos Corp . , sídlící v Santa Monica v Kalifornii , která poskytuje vojákům služby ve vývoji softwaru a údržbě hardwaru"
+    },
+    {
+      "id": 173,
+      "doc": "wsj0619",
+      "variables": {
+        "entity_a": "Jednotka Gulf Power Co . společnosti Southern Co .",
+        "entity_b": "společnosti Southern Co .",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Jednotka Gulf Power Co . společnosti Southern Co ."
+    },
+    {
+      "id": 174,
+      "doc": "wsj0983",
+      "variables": {
+        "entity_a": "investorům",
+        "entity_b": "několik spekulačních fondů",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "investorům"
+    },
+    {
+      "id": 175,
+      "doc": "wsj1446",
+      "variables": {
+        "entity_a": "SPOLEČNOST DREXEL BURNHAM LAMBERT Inc .",
+        "entity_b": "kongresmana",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "SPOLEČNOST DREXEL BURNHAM LAMBERT Inc ."
+    },
+    {
+      "id": 176,
+      "doc": "wsj0578",
+      "variables": {
+        "entity_a": "společnost Sony Corp .",
+        "entity_b": "Stevenu J . Rossovi , předsedovi správní rady společnosti Warner Communications Inc .",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "společnost Sony Corp ."
+    },
+    {
+      "id": 177,
+      "doc": "wsj1570",
+      "variables": {
+        "entity_a": "New York",
+        "entity_b": "Floridy , kde se daň z příjmu fyzických osob neplatí",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "New York"
+    },
+    {
+      "id": 178,
+      "doc": "wsj1037",
+      "variables": {
+        "entity_a": "Japonsko",
+        "entity_b": "společnost Toshiba Corp .",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Japonsko"
+    },
+    {
+      "id": 179,
+      "doc": "wsj1603",
+      "variables": {
+        "entity_a": "jeden týdeník",
+        "entity_b": "ze společnosti Hochiminh City Food Co .",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "jeden týdeník"
+    },
+    {
+      "id": 180,
+      "doc": "wsj1062",
+      "variables": {
+        "entity_a": "Kongres",
+        "entity_b": "daně z kapitálových zisků",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Kongres"
+    },
+    {
+      "id": 181,
+      "doc": "wsj1137",
+      "variables": {
+        "entity_a": "Město New York",
+        "entity_b": "městskou radu",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Město New York"
+    },
+    {
+      "id": 182,
+      "doc": "wsj1149",
+      "variables": {
+        "entity_a": "Ministerstvo spravedlnosti",
+        "entity_b": "Drexela Burnhama Lamberta",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Ministerstvo spravedlnosti"
+    },
+    {
+      "id": 183,
+      "doc": "wsj0819",
+      "variables": {
+        "entity_a": "režisér Gregory Boyd",
+        "entity_b": "mladíka Claudia",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "režisér Gregory Boyd"
+    },
+    {
+      "id": 184,
+      "doc": "wsj0020",
+      "variables": {
+        "entity_a": "země s nedostatečnou ochranou práv duševního vlastnictví",
+        "entity_b": "Tchaj - wan",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "země s nedostatečnou ochranou práv duševního vlastnictví"
+    },
+    {
+      "id": 185,
+      "doc": "wsj1297",
+      "variables": {
+        "entity_a": "Společnost Time Warner Inc .",
+        "entity_b": "ve společnosti Warner Communications Inc .",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Společnost Time Warner Inc ."
+    },
+    {
+      "id": 186,
+      "doc": "wsj1875",
+      "variables": {
+        "entity_a": "Čínu",
+        "entity_b": "že cihly byly někým použity na výstavbu domů a pecí",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Čínu"
+    },
+    {
+      "id": 187,
+      "doc": "wsj1528",
+      "variables": {
+        "entity_a": "společnosti Eagle s ústředím v Bristolu",
+        "entity_b": "Eagle Financial Corp . a Webster Financial Corp . , dvě spořitelní holdingové společnosti ze státu Connecticut",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "společnosti Eagle s ústředím v Bristolu"
+    },
+    {
+      "id": 188,
+      "doc": "wsj0214",
+      "variables": {
+        "entity_a": "Bert Campaneris , kdysi mistr někým kradení met z Oaklandu , přikrčený na spojce",
+        "entity_b": "hráčů , které si živě já pamatuji z jejich aktivních dnů",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Bert Campaneris , kdysi mistr někým kradení met z Oaklandu , přikrčený na spojce"
+    },
+    {
+      "id": 189,
+      "doc": "wsj0286",
+      "variables": {
+        "entity_a": "svým větším rivalem , firmou Toyota Motor Corp .",
+        "entity_b": "Jutaka Kume , který v červnu 1985 převzal kormidlo prezidenta firmy Nissan",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "svým větším rivalem , firmou Toyota Motor Corp ."
+    },
+    {
+      "id": 190,
+      "doc": "wsj0109",
+      "variables": {
+        "entity_a": "R . Gordon McGovern",
+        "entity_b": "Herbert M . Baum , třiapadesátiletý prezident jednotky Cambell U . S . A . z této společnosti , a Edwin L . Harper , 47 , šéf finančních pracovníků",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "R . Gordon McGovern"
+    },
+    {
+      "id": 191,
+      "doc": "wsj2053",
+      "variables": {
+        "entity_a": "Kongres",
+        "entity_b": "silnou řeč , ve které on vyjmenoval \" pádné důvody \" k pokračování s plánem SDI",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Kongres"
+    },
+    {
+      "id": 192,
+      "doc": "wsj0778",
+      "variables": {
+        "entity_a": "v Newarku ve státě New Jersey , kde federální prokurátoři varovali právní zástupce Eddieho Antara , že pokud bude tento zakladatel a bývalý předseda společnosti Crazy Eddie Inc . obviněn , vláda se může rozhodnout k tomu , že on zabaví peníze , z nichž Antar právníky platí",
+        "entity_b": "Gerald Lefcourt , obhájce trestných činů , který uvádí , že on odmítl řadu případů , aby by se on vyhnul možnému někým zkonfiskování svých poplatků",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "v Newarku ve státě New Jersey , kde federální prokurátoři varovali právní zástupce Eddieho Antara , že pokud bude tento zakladatel a bývalý předseda společnosti Crazy Eddie Inc . obviněn , vláda se může rozhodnout k tomu , že on zabaví peníze , z nichž Antar právníky platí"
+    },
+    {
+      "id": 193,
+      "doc": "wsj0118",
+      "variables": {
+        "entity_a": "předsedovi Newyorské burzy cenných papírů Johnu J . Phelanu ml",
+        "entity_b": "dominantní síla Wall Street - Nová garda - sestávající z mágů vyspělých počítačových technologií , které zaměstnávají hlavní makléřské společnosti , jejich klientů - penzijních fondů s nezměrnými zásobami peněz a obchodníků na rychle rostoucích chicagských burzách s termínovými obchody",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "předsedovi Newyorské burzy cenných papírů Johnu J . Phelanu ml"
+    },
+    {
+      "id": 194,
+      "doc": "wsj0112",
+      "variables": {
+        "entity_a": "druhý článek",
+        "entity_b": "senátu",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "druhý článek"
+    },
+    {
+      "id": 195,
+      "doc": "wsj0187",
+      "variables": {
+        "entity_a": "nové společnosti",
+        "entity_b": "zkrachovalé loděnice Waertsilae Marine Industries Oy",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "nové společnosti"
+    },
+    {
+      "id": 196,
+      "doc": "wsj1366",
+      "variables": {
+        "entity_a": "spořitelního a úvěrového sdružení Lincoln Savings & Loan Association",
+        "entity_b": "jejich",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "spořitelního a úvěrového sdružení Lincoln Savings & Loan Association"
+    },
+    {
+      "id": 197,
+      "doc": "wsj1037",
+      "variables": {
+        "entity_a": "Japonsko",
+        "entity_b": "ve společnosti Daikin Industries Ltd . , japonském největším výrobci průmyslových klimatizací",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Japonsko"
+    },
+    {
+      "id": 198,
+      "doc": "wsj0060",
+      "variables": {
+        "entity_a": "Pořad \" Cosby Show ( Show Billa Cosbyho )",
+        "entity_b": "distributor tohoto pořadu , společnost Viacom Inc .",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Pořad \" Cosby Show ( Show Billa Cosbyho )"
+    },
+    {
+      "id": 199,
+      "doc": "wsj1163",
+      "variables": {
+        "entity_a": "od postav , které oni hrají",
+        "entity_b": "Řeči",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "od postav , které oni hrají"
+    },
+    {
+      "id": 200,
+      "doc": "wsj2112",
+      "variables": {
+        "entity_a": "nejhoršího a nejhanebnějšího ducha ze všech - ducha Íránského šáha",
+        "entity_b": "prezident Carter",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "nejhoršího a nejhanebnějšího ducha ze všech - ducha Íránského šáha"
+    },
+    {
+      "id": 201,
+      "doc": "wsj0938",
+      "variables": {
+        "entity_a": "Drabinsky a místopředseda Myron Gottlieb",
+        "entity_b": "mezi majoritním akcionářem firmy Cineplex , společností MCA Inc",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Drabinsky a místopředseda Myron Gottlieb"
+    },
+    {
+      "id": 202,
+      "doc": "wsj1267",
+      "variables": {
+        "entity_a": "každé straně",
+        "entity_b": "názory lidí",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "každé straně"
+    },
+    {
+      "id": 203,
+      "doc": "wsj0927",
+      "variables": {
+        "entity_a": "společnosti U . S . Trust Corp , firmy osobního bankovnictví se spravovanými aktivy v přibližné výši 17 miliard dolarů",
+        "entity_b": "H . Marshall Schwarz",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "společnosti U . S . Trust Corp , firmy osobního bankovnictví se spravovanými aktivy v přibližné výši 17 miliard dolarů"
+    },
+    {
+      "id": 204,
+      "doc": "wsj0037",
+      "variables": {
+        "entity_a": "od Garyho Katzensteina",
+        "entity_b": "do Japonska",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "od Garyho Katzensteina"
+    },
+    {
+      "id": 205,
+      "doc": "wsj1740",
+      "variables": {
+        "entity_a": "Společnost PPG Industries Inc . , zasažená sníženou poptávkou v americkém automobilovém a stavebním průmyslu",
+        "entity_b": "tabulového skla , které tato společnost vyrábí",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Společnost PPG Industries Inc . , zasažená sníženou poptávkou v americkém automobilovém a stavebním průmyslu"
+    },
+    {
+      "id": 206,
+      "doc": "wsj1870",
+      "variables": {
+        "entity_a": "zálivu",
+        "entity_b": "společnosti Fireman ' s Fund Corp . , která sídlí ve městě Novoto v Kalifornii",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "zálivu"
+    },
+    {
+      "id": 207,
+      "doc": "wsj1464",
+      "variables": {
+        "entity_a": "společnost Donaldson Lufkin & Jenrette Securities Corp .",
+        "entity_b": "James Kochan , hlavní stratég pro obligace s pevným příjmem ve společnosti Merrill Lynch",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "společnost Donaldson Lufkin & Jenrette Securities Corp ."
+    },
+    {
+      "id": 208,
+      "doc": "wsj1780",
+      "variables": {
+        "entity_a": "Ministr dopravy Samuel Skinner",
+        "entity_b": "ministerstvu dopravy",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Ministr dopravy Samuel Skinner"
+    },
+    {
+      "id": 209,
+      "doc": "wsj0278",
+      "variables": {
+        "entity_a": "Peteru Guberovi a Jonu Petersovi",
+        "entity_b": "Firma Sony",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Peteru Guberovi a Jonu Petersovi"
+    },
+    {
+      "id": 210,
+      "doc": "wsj0082",
+      "variables": {
+        "entity_a": "mezi oběma zeměmi",
+        "entity_b": "Tokio",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "mezi oběma zeměmi"
+    },
+    {
+      "id": 211,
+      "doc": "wsj0470",
+      "variables": {
+        "entity_a": "o hollywoodské producenty Petera Gubera a Jona Peterse",
+        "entity_b": "Společnosti Warner Communications Inc .",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "o hollywoodské producenty Petera Gubera a Jona Peterse"
+    },
+    {
+      "id": 212,
+      "doc": "wsj0088",
+      "variables": {
+        "entity_a": "Chicagská obchodní burza",
+        "entity_b": "John Phelan",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Chicagská obchodní burza"
+    },
+    {
+      "id": 213,
+      "doc": "wsj1154",
+      "variables": {
+        "entity_a": "v Metropolitní opeře",
+        "entity_b": "v nové Verdiho produkci \" La Traviata",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "v Metropolitní opeře"
+    },
+    {
+      "id": 214,
+      "doc": "wsj2417",
+      "variables": {
+        "entity_a": "z krachu z roku 1987",
+        "entity_b": "V květnu 1988",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "z krachu z roku 1987"
+    },
+    {
+      "id": 215,
+      "doc": "wsj0044",
+      "variables": {
+        "entity_a": "z Greenvillské střední školy",
+        "entity_b": "státu Jižní Karolína",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "z Greenvillské střední školy"
+    },
+    {
+      "id": 216,
+      "doc": "wsj1698",
+      "variables": {
+        "entity_a": "Kongres",
+        "entity_b": "Arkansaský demokrat David Pryor",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Kongres"
+    },
+    {
+      "id": 217,
+      "doc": "wsj1572",
+      "variables": {
+        "entity_a": "on a jeho manželka Lily",
+        "entity_b": "Paul Wenz , právní zástupce z Phoenixu v Arizoně",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "on a jeho manželka Lily"
+    },
+    {
+      "id": 218,
+      "doc": "wsj0128",
+      "variables": {
+        "entity_a": "Firma Drexel",
+        "entity_b": "firmou CS First Boston Inc . , mateřskou společností firmy First Boston Corp .",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Firma Drexel"
+    },
+    {
+      "id": 219,
+      "doc": "wsj0617",
+      "variables": {
+        "entity_a": "od 15 členů představenstva společnosti",
+        "entity_b": "ve Filadelfii",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "od 15 členů představenstva společnosti"
+    },
+    {
+      "id": 220,
+      "doc": "wsj1172",
+      "variables": {
+        "entity_a": "David Wigglesworth , předseda ekonomického výboru této průmyslové skupiny",
+        "entity_b": "jen 28 %",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "David Wigglesworth , předseda ekonomického výboru této průmyslové skupiny"
+    },
+    {
+      "id": 221,
+      "doc": "wsj2230",
+      "variables": {
+        "entity_a": "společnosti Yasuda Trust & Banking Co",
+        "entity_b": "že tyto regionální burzy reagovaly na páteční propad na burze Wall Street , přestože pokles byl zapříčiněn lokálními faktory , jako jsou neúspěšné odkupy firem a zhoršující se trh s rizikovými obligacemi",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "společnosti Yasuda Trust & Banking Co"
+    },
+    {
+      "id": 222,
+      "doc": "wsj1677",
+      "variables": {
+        "entity_a": "Nový produkt , NewsEdge",
+        "entity_b": "Jeden z prvních uživatelů , David Semmel , chicagský rizikový obchodní investor , který investoval i do společnosti Desktop Data",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Nový produkt , NewsEdge"
+    },
+    {
+      "id": 223,
+      "doc": "wsj0946",
+      "variables": {
+        "entity_a": "Elizabeth Morganové , plastické chiruržky z Washingtonu DC , uvězněné v případě péče o dítě za to , že ona odmítla prozradit místo pobytu své dcery",
+        "entity_b": "i v případě Elizabeth Morganové , plastické chiruržky z Washingtonu DC , uvězněné v případě péče o dítě za to , že ona odmítla prozradit místo pobytu své dcery",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Elizabeth Morganové , plastické chiruržky z Washingtonu DC , uvězněné v případě péče o dítě za to , že ona odmítla prozradit místo pobytu své dcery"
+    },
+    {
+      "id": 224,
+      "doc": "wsj1625",
+      "variables": {
+        "entity_a": "Pár z illinoiského Rockfordu",
+        "entity_b": "našeho",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Pár z illinoiského Rockfordu"
+    },
+    {
+      "id": 225,
+      "doc": "wsj1875",
+      "variables": {
+        "entity_a": "Sovětský vůdce Michail Gorbačov",
+        "entity_b": "1988",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Sovětský vůdce Michail Gorbačov"
+    },
+    {
+      "id": 226,
+      "doc": "wsj0976",
+      "variables": {
+        "entity_a": "na stanici PBS",
+        "entity_b": "5 . listopadu",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "na stanici PBS"
+    },
+    {
+      "id": 227,
+      "doc": "wsj0288",
+      "variables": {
+        "entity_a": "sovětský vůdce Michail Gorbačov",
+        "entity_b": "Oba vedoucí představitelé se setkají 2 . a 3 . prosince",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sovětský vůdce Michail Gorbačov"
+    },
+    {
+      "id": 228,
+      "doc": "wsj1915",
+      "variables": {
+        "entity_a": "včera",
+        "entity_b": "San Francisku",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "včera"
+    },
+    {
+      "id": 229,
+      "doc": "wsj0584",
+      "variables": {
+        "entity_a": "společnosti Moran Asset Management Inc . , která vlastní 500000 akcií firmy LIN",
+        "entity_b": "své nabídky na koupi 22 milionů akcií společnosti LIN za 125 dolarů za kus",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "společnosti Moran Asset Management Inc . , která vlastní 500000 akcií firmy LIN"
+    },
+    {
+      "id": 230,
+      "doc": "wsj0039",
+      "variables": {
+        "entity_a": "postavy , která by se i pod tím nejshovívavějším úhlem pohledu jevila jako nepříjemná",
+        "entity_b": "Charles Lane",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "postavy , která by se i pod tím nejshovívavějším úhlem pohledu jevila jako nepříjemná"
+    },
+    {
+      "id": 231,
+      "doc": "wsj0326",
+      "variables": {
+        "entity_a": "listiny základních lidských práv",
+        "entity_b": "Jestliže oni mají dobré někým mínění o společnosti díky její podpoře listiny základních lidských práv",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "listiny základních lidských práv"
+    },
+    {
+      "id": 232,
+      "doc": "wsj0116",
+      "variables": {
+        "entity_a": "Společnost American Express Co .",
+        "entity_b": "sužovaná divize Buick společnosti General Motors Corp . ( GM )",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Společnost American Express Co ."
+    },
+    {
+      "id": 233,
+      "doc": "wsj0723",
+      "variables": {
+        "entity_a": "Evropské komise",
+        "entity_b": "svazu zaměstnavatelů Unice",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Evropské komise"
+    },
+    {
+      "id": 234,
+      "doc": "wsj0305",
+      "variables": {
+        "entity_a": "' s , největší firmu v oboru , která přijala jméno Pinkerton",
+        "entity_b": "firma American Brands Inc .",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "' s , největší firmu v oboru , která přijala jméno Pinkerton"
+    },
+    {
+      "id": 235,
+      "doc": "wsj0990",
+      "variables": {
+        "entity_a": "do Japonska",
+        "entity_b": "v roce 1985",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "do Japonska"
+    },
+    {
+      "id": 236,
+      "doc": "wsj0037",
+      "variables": {
+        "entity_a": "v románu \" A Wild Sheep Chase ( Hon na divokou ovci ) \" Harukiho Murakamiho ( nakladatelství Kodansha , 320 stran , 18.95 dolaru )",
+        "entity_b": "Jižní Korea",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "v románu \" A Wild Sheep Chase ( Hon na divokou ovci ) \" Harukiho Murakamiho ( nakladatelství Kodansha , 320 stran , 18.95 dolaru )"
+    },
+    {
+      "id": 237,
+      "doc": "wsj2013",
+      "variables": {
+        "entity_a": "přes Noriegova nevlastního bratra Luise Carlose Noriegu Hurtada , který byl panamským diplomatem v Limě",
+        "entity_b": "státního zástupce _ USA",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "přes Noriegova nevlastního bratra Luise Carlose Noriegu Hurtada , který byl panamským diplomatem v Limě"
+    },
+    {
+      "id": 238,
+      "doc": "wsj2031",
+      "variables": {
+        "entity_a": "William Seidman , předseda Federální korporace pro pojištění vkladů",
+        "entity_b": "spořitelní a úvěrové sdružení Lincoln",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "William Seidman , předseda Federální korporace pro pojištění vkladů"
+    },
+    {
+      "id": 239,
+      "doc": "wsj1915",
+      "variables": {
+        "entity_a": "v Oaklandu",
+        "entity_b": "DAYTON HUDSON CORP . , maloobchodní společnost v Minneapolisu s ročním obratem 12.2 miliardy dolarů , registrovaná na Newyorské burze cenných papírů",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "v Oaklandu"
+    },
+    {
+      "id": 240,
+      "doc": "wsj0466",
+      "variables": {
+        "entity_a": "mého",
+        "entity_b": "Právníci společnosti",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "mého"
+    },
+    {
+      "id": 241,
+      "doc": "wsj0288",
+      "variables": {
+        "entity_a": "se Sovětským svazem",
+        "entity_b": "Spojených států",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "se Sovětským svazem"
+    },
+    {
+      "id": 242,
+      "doc": "wsj1831",
+      "variables": {
+        "entity_a": "s bratry Bakerovými",
+        "entity_b": "Jennifer Tillyové",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "s bratry Bakerovými"
+    },
+    {
+      "id": 243,
+      "doc": "wsj0617",
+      "variables": {
+        "entity_a": "1987",
+        "entity_b": "vědci",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1987"
+    },
+    {
+      "id": 244,
+      "doc": "wsj0449",
+      "variables": {
+        "entity_a": "společnost Merrill Lynch & Co .",
+        "entity_b": "Wall Street",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "společnost Merrill Lynch & Co ."
+    },
+    {
+      "id": 245,
+      "doc": "wsj0037",
+      "variables": {
+        "entity_a": "na přehradu na Dunaji , kterou staví rakouské firmy",
+        "entity_b": "Obraz Augusta Strindberga",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "na přehradu na Dunaji , kterou staví rakouské firmy"
+    },
+    {
+      "id": 246,
+      "doc": "wsj1677",
+      "variables": {
+        "entity_a": "Individual Inc . , nová společnost z Brooklineu v Massachusetts",
+        "entity_b": "systémy , které zůstávají v osobních počítačích a sbírají zprávy o vybraných tématech z informačních kanálů",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Individual Inc . , nová společnost z Brooklineu v Massachusetts"
+    },
+    {
+      "id": 247,
+      "doc": "wsj0423",
+      "variables": {
+        "entity_a": "Robert Gates , zástupce poradce pro národní bezpečnost a odborník na Sovětský svaz",
+        "entity_b": "s perestrojkou",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Robert Gates , zástupce poradce pro národní bezpečnost a odborník na Sovětský svaz"
+    },
+    {
+      "id": 248,
+      "doc": "wsj1932",
+      "variables": {
+        "entity_a": "Indie",
+        "entity_b": "dolu na měď ve městě Cananea v Mexiku , který byl mimo provoz od konce srpna , kdy mexická vláda oznámila jeho krach",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Indie"
+    },
+    {
+      "id": 249,
+      "doc": "wsj0118",
+      "variables": {
+        "entity_a": "Velký investor",
+        "entity_b": "akciový index Standard & Poor ' s 500",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Velký investor"
+    },
+    {
+      "id": 250,
+      "doc": "wsj2418",
+      "variables": {
+        "entity_a": "Lewis H . Eslinger , právní zástupce Sony , který dříve chránil Rubikovu kostku",
+        "entity_b": "jistý Steven B . Iken",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Lewis H . Eslinger , právní zástupce Sony , který dříve chránil Rubikovu kostku"
+    },
+    {
+      "id": 251,
+      "doc": "wsj0483",
+      "variables": {
+        "entity_a": "od floridského investora Roberta I . Greena",
+        "entity_b": "Společnost Bancroft Convertible Fund Inc . z New Yorku",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "od floridského investora Roberta I . Greena"
+    },
+    {
+      "id": 252,
+      "doc": "wsj2112",
+      "variables": {
+        "entity_a": "Capa Weinbergera",
+        "entity_b": "nejhoršího a nejhanebnějšího ducha ze všech - ducha Íránského šáha",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Capa Weinbergera"
+    },
+    {
+      "id": 253,
+      "doc": "wsj1446",
+      "variables": {
+        "entity_a": "člena americké Sněmovny reprezentantů Roberta Garciu ( demokrata za New York ) a jeho ženu Jane Lee Garciovou",
+        "entity_b": "zakladatel služby Telelawyer Michael Cane",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "člena americké Sněmovny reprezentantů Roberta Garciu ( demokrata za New York ) a jeho ženu Jane Lee Garciovou"
+    },
+    {
+      "id": 254,
+      "doc": "wsj1844",
+      "variables": {
+        "entity_a": "jejíž agentura Della Femina McNamee WCRS",
+        "entity_b": "společnosti Carat Holding S . A . , jednoho z největších evropských mediálních nákupčích , kterou již on nevlastní",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "jejíž agentura Della Femina McNamee WCRS"
+    },
+    {
+      "id": 255,
+      "doc": "wsj0979",
+      "variables": {
+        "entity_a": "společnosti Qintex Entertainment Inc .",
+        "entity_b": "David Evans , který minulý týden \" z osobních důvodů \" odstoupil z pozice prezidenta a výkonného ředitele společnosti Qintex Entertainment Inc . , a to právě ve chvíli , kdy společnost zažádala o ochranu před věřiteli podle konkurzního zákona",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "společnosti Qintex Entertainment Inc ."
+    },
+    {
+      "id": 256,
+      "doc": "wsj1844",
+      "variables": {
+        "entity_a": "pařížské společnosti Eurocom",
+        "entity_b": "nově sloučenou celosvětovou reklamní agenturu spravovanou společností Eurocom a společně řízenou newyorským reklamním ředitelem Jerrym Dellou Feminou a dvěma vedoucími pracovníky společnosti WCRS",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "pařížské společnosti Eurocom"
+    },
+    {
+      "id": 257,
+      "doc": "wsj2041",
+      "variables": {
+        "entity_a": "se společností AB Bofors , jednotkou společnosti Nobel Industries Sweden AB",
+        "entity_b": "jeho vládnoucí Kongresovou stranu",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "se společností AB Bofors , jednotkou společnosti Nobel Industries Sweden AB"
+    },
+    {
+      "id": 258,
+      "doc": "wsj0453",
+      "variables": {
+        "entity_a": "Z důvodu zemětřesení v San Francisku",
+        "entity_b": "John Philip Jones , vedoucí katedry reklamy na Newhousově fakultě veřejné komunikace na Univerzitě města Syrakusy",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Z důvodu zemětřesení v San Francisku"
+    },
+    {
+      "id": 259,
+      "doc": "wsj0317",
+      "variables": {
+        "entity_a": "Nevyžádaná nabídka v hodnotě 3.19 miliardy dolarů od firmy Georgia - Pacific Corp . za firmu Great Northern Nekoosa Corp .",
+        "entity_b": "papírenského průmyslu",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Nevyžádaná nabídka v hodnotě 3.19 miliardy dolarů od firmy Georgia - Pacific Corp . za firmu Great Northern Nekoosa Corp ."
+    },
+    {
+      "id": 260,
+      "doc": "wsj1756",
+      "variables": {
+        "entity_a": "společnosti LIN Broadcasting Corp .",
+        "entity_b": "Společnost McCaw Cellular Communications Inc .",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "společnosti LIN Broadcasting Corp ."
+    },
+    {
+      "id": 261,
+      "doc": "wsj0633",
+      "variables": {
+        "entity_a": "Rekonstrukce událostí",
+        "entity_b": "Bill Cosby , nebo dokonce Connie Chungová ( která dostává 1.6 milionu dolarů ročně a nedávno ona vystoupila jako vlastní host v situační komedii \" Murphy Brown",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Rekonstrukce událostí"
+    },
+    {
+      "id": 262,
+      "doc": "wsj1377",
+      "variables": {
+        "entity_a": "Bulvár prodejců automobilů na tomto vzkvétajícím předměstí",
+        "entity_b": "společnosti General Motors Corp",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Bulvár prodejců automobilů na tomto vzkvétajícím předměstí"
+    },
+    {
+      "id": 263,
+      "doc": "wsj0105",
+      "variables": {
+        "entity_a": "203 obchodních pracovníků , možná i včetně některých z vašeho vlastního štábu",
+        "entity_b": "výzkum nás a šesti našich kolegů , o kterém informovalo vydání Žurnálu Americké lékařské asociace z 8 . září",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "203 obchodních pracovníků , možná i včetně některých z vašeho vlastního štábu"
+    },
+    {
+      "id": 264,
+      "doc": "wsj2448",
+      "variables": {
+        "entity_a": "Čína",
+        "entity_b": "z Hongkongu",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Čína"
+    },
+    {
+      "id": 265,
+      "doc": "wsj0629",
+      "variables": {
+        "entity_a": "premiér Rajiv Gándhí",
+        "entity_b": "Největší emise letošního roku , konvertibilní dluhopisy strojírenské společnosti Larsen & Toubro Ltd . v hodnotě 570 milionů dolarů",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "premiér Rajiv Gándhí"
+    },
+    {
+      "id": 266,
+      "doc": "wsj1659",
+      "variables": {
+        "entity_a": "společnosti Paramount",
+        "entity_b": "společný podnik s názvem Premier Advertiser Sales , který prodává reklamu v programech vysílaných oběma společnostmi , jako jsou například \" Star Trek : the Next Generation \" ( Star Trek : nová generace ) , \" Charles in Charge \" ( Karel to má na starosti ) a \" Friday the 13 th : the Series \" ( Pátek třináctého : seriál )",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "společnosti Paramount"
+    },
+    {
+      "id": 267,
+      "doc": "wsj1506",
+      "variables": {
+        "entity_a": "že oni dozví - li se o plánovaných státních převratech , jsou ony povinny o tom informovat zahraniční diktátory , kteří by se tak ocitli v ohrožení života",
+        "entity_b": "Jak on oni uvedli , prezident připustil , že oznamovací povinnost neovlivnila jeho rozhodnutí poskytnout pokusu o státní převrat v Panamě , k němuž došlo tento měsíc , pouze zanedbatelnou podporu",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "že oni dozví - li se o plánovaných státních převratech , jsou ony povinny o tom informovat zahraniční diktátory , kteří by se tak ocitli v ohrožení života"
+    },
+    {
+      "id": 268,
+      "doc": "wsj2413",
+      "variables": {
+        "entity_a": "ministr Nicholas Brady",
+        "entity_b": "Federální rezervní banky",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ministr Nicholas Brady"
+    },
+    {
+      "id": 269,
+      "doc": "wsj0240",
+      "variables": {
+        "entity_a": "Náměstek ministra financí David Mulford",
+        "entity_b": "ministerstvo financí v září a začátkem října nezasáhlo na devizových trzích a nesnížilo cenu dolaru",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Náměstek ministra financí David Mulford"
+    },
+    {
+      "id": 270,
+      "doc": "wsj1137",
+      "variables": {
+        "entity_a": "Ministerstvem spravedlnosti",
+        "entity_b": "městskou radu",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Ministerstvem spravedlnosti"
+    },
+    {
+      "id": 271,
+      "doc": "wsj2161",
+      "variables": {
+        "entity_a": "Ta další paní byla starší a já jsem se bál na ní sáhnout",
+        "entity_b": "konejšivé ruce Sabiny Vidunasové",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Ta další paní byla starší a já jsem se bál na ní sáhnout"
+    },
+    {
+      "id": 272,
+      "doc": "wsj2041",
+      "variables": {
+        "entity_a": "Indie",
+        "entity_b": "všeobecných voleb",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Indie"
+    },
+    {
+      "id": 273,
+      "doc": "wsj1856",
+      "variables": {
+        "entity_a": "společnost Campbell Soup Co .",
+        "entity_b": "intenzivně sledovaná , avšak vysoce nepředvídatelná početná generace z doby populační exploze",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "společnost Campbell Soup Co ."
+    },
+    {
+      "id": 274,
+      "doc": "wsj0239",
+      "variables": {
+        "entity_a": "s naším balónem , který se usadil na špinavé cestě sevřený hloučkem obyvatelů Épinalu , kteří nás sledovali , jak my rozebíráme naše plavidlo - další půlhodina neletecké činnosti - což zahrnovalo přesný obvyklý postup spočívající ve někým strhnutí balónu na zem , vyhnání veškerého vzduchu z balónu , sbalení balónu a nacpání balónu a koše do auta",
+        "entity_b": "v Épinalu , šedivém městě na řece ze 16 . století na kraji francouzské horské oblasti Vosges",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "s naším balónem , který se usadil na špinavé cestě sevřený hloučkem obyvatelů Épinalu , kteří nás sledovali , jak my rozebíráme naše plavidlo - další půlhodina neletecké činnosti - což zahrnovalo přesný obvyklý postup spočívající ve někým strhnutí balónu na zem , vyhnání veškerého vzduchu z balónu , sbalení balónu a nacpání balónu a koše do auta"
+    },
+    {
+      "id": 275,
+      "doc": "wsj0317",
+      "variables": {
+        "entity_a": "Nevyžádaná nabídka v hodnotě 3.19 miliardy dolarů od firmy Georgia - Pacific Corp . za firmu Great Northern Nekoosa Corp .",
+        "entity_b": "Převzetí firmy Nekoosa firmou Georgia - Pacific",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Nevyžádaná nabídka v hodnotě 3.19 miliardy dolarů od firmy Georgia - Pacific Corp . za firmu Great Northern Nekoosa Corp ."
+    },
+    {
+      "id": 276,
+      "doc": "wsj0465",
+      "variables": {
+        "entity_a": "John Minna",
+        "entity_b": "proteiny potlačující jejich růst",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "John Minna"
+    },
+    {
+      "id": 277,
+      "doc": "wsj0112",
+      "variables": {
+        "entity_a": "výkonná moc",
+        "entity_b": "senátu",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "výkonná moc"
+    },
+    {
+      "id": 278,
+      "doc": "wsj0409",
+      "variables": {
+        "entity_a": "pro Richarda Cottrella , taxikáře ze San Franciska , který dvakrát týdně hraje bowling ve dvou týmech",
+        "entity_b": "z Prezidentské rady pro tělesné zdraví a sport",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "pro Richarda Cottrella , taxikáře ze San Franciska , který dvakrát týdně hraje bowling ve dvou týmech"
+    },
+    {
+      "id": 279,
+      "doc": "wsj0203",
+      "variables": {
+        "entity_a": "změny pravidel navržené letos v létě",
+        "entity_b": "investoři , kteří jsou proti navrhovaným změnám",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "změny pravidel navržené letos v létě"
+    },
+    {
+      "id": 280,
+      "doc": "wsj0629",
+      "variables": {
+        "entity_a": "na kapitálový trh",
+        "entity_b": "průmysl",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "na kapitálový trh"
+    },
+    {
+      "id": 281,
+      "doc": "wsj1915",
+      "variables": {
+        "entity_a": "dnes",
+        "entity_b": "v oblasti zátoky",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "dnes"
+    },
+    {
+      "id": 282,
+      "doc": "wsj1556",
+      "variables": {
+        "entity_a": "Protože prodejny hamburgerů a pizzy sytí jednu oblast za druhou , poskytovatelé licencí se zoufale snaží získat podíl na trhu , snižují ceny a zintenzivňují nákladnou reklamní kampaň",
+        "entity_b": "Řetězce",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Protože prodejny hamburgerů a pizzy sytí jednu oblast za druhou , poskytovatelé licencí se zoufale snaží získat podíl na trhu , snižují ceny a zintenzivňují nákladnou reklamní kampaň"
+    },
+    {
+      "id": 283,
+      "doc": "wsj2275",
+      "variables": {
+        "entity_a": "Jak odbory , tak regionální telefonní společnost",
+        "entity_b": "až na jednu",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Jak odbory , tak regionální telefonní společnost"
+    },
+    {
+      "id": 284,
+      "doc": "wsj0083",
+      "variables": {
+        "entity_a": "společnosti Candela Laser Corp . se sídlem ve Waylandu v Massachusetts , jež vyrábí nejmodernější lékařské přístroje a která se před třemi roky zaměřila na Japonsko jakožto exportní trh",
+        "entity_b": "společnost Mitsubishi International Corp . , newyorská pobočka společnosti Mitsubishi Corp .",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "společnosti Candela Laser Corp . se sídlem ve Waylandu v Massachusetts , jež vyrábí nejmodernější lékařské přístroje a která se před třemi roky zaměřila na Japonsko jakožto exportní trh"
+    },
+    {
+      "id": 285,
+      "doc": "wsj2112",
+      "variables": {
+        "entity_a": "tři nové armádní divize",
+        "entity_b": "prezident Carter",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "tři nové armádní divize"
+    },
+    {
+      "id": 286,
+      "doc": "wsj1824",
+      "variables": {
+        "entity_a": "kalifornského zemětřesení",
+        "entity_b": "v oblasti zálivu",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "kalifornského zemětřesení"
+    },
+    {
+      "id": 287,
+      "doc": "wsj1428",
+      "variables": {
+        "entity_a": "v Ženevě",
+        "entity_b": "ze strany těch , kteří mají obrovskou dodatečnou kapacitu a rezervy",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "v Ženevě"
+    },
+    {
+      "id": 288,
+      "doc": "wsj0409",
+      "variables": {
+        "entity_a": "Nancy Igdaloffová , která pracuje v oddělení podnikových plateb v Americké bance v San Francisku",
+        "entity_b": "pro Richarda Cottrella , taxikáře ze San Franciska , který dvakrát týdně hraje bowling ve dvou týmech",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Nancy Igdaloffová , která pracuje v oddělení podnikových plateb v Americké bance v San Francisku"
+    },
+    {
+      "id": 289,
+      "doc": "wsj0453",
+      "variables": {
+        "entity_a": "společnost Nissan",
+        "entity_b": "společnosti Burger King Grand Metropolitan PLC",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "společnost Nissan"
+    },
+    {
+      "id": 290,
+      "doc": "wsj1305",
+      "variables": {
+        "entity_a": "společnosti UAL Corp .",
+        "entity_b": "předseda společnosti UAL , Stephen M . Wolf",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "společnosti UAL Corp ."
+    },
+    {
+      "id": 291,
+      "doc": "wsj0617",
+      "variables": {
+        "entity_a": "Generální poradce společnosti General Motors Corp .",
+        "entity_b": "bývalého vlastníka Krétské banky George Koskotase",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Generální poradce společnosti General Motors Corp ."
+    },
+    {
+      "id": 292,
+      "doc": "wsj2040",
+      "variables": {
+        "entity_a": "Banka Wells Fargo & Co . ze San Franciska",
+        "entity_b": "společnost Manufacturers Hanover Corp .",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Banka Wells Fargo & Co . ze San Franciska"
+    },
+    {
+      "id": 293,
+      "doc": "wsj0617",
+      "variables": {
+        "entity_a": "Marcosová a její poslední manžel , bývalý filipínský prezident Ferdinand Marcos",
+        "entity_b": "do této země",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Marcosová a její poslední manžel , bývalý filipínský prezident Ferdinand Marcos"
+    },
+    {
+      "id": 294,
+      "doc": "wsj1780",
+      "variables": {
+        "entity_a": "návrh zákona , který by dal ministerstvu dopravy právo blokovat zadlužené odkupy aerolinek",
+        "entity_b": "Ministr dopravy Samuel Skinner",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "návrh zákona , který by dal ministerstvu dopravy právo blokovat zadlužené odkupy aerolinek"
+    },
+    {
+      "id": 295,
+      "doc": "wsj1331",
+      "variables": {
+        "entity_a": "pro společnost A . H . Robins , která prostředek vyráběla",
+        "entity_b": "proti reorganizačnímu plánu",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "pro společnost A . H . Robins , která prostředek vyráběla"
+    },
+    {
+      "id": 296,
+      "doc": "wsj1743",
+      "variables": {
+        "entity_a": "Japonský největší výrobce dámského spodního prádla , Wacoal Corp .",
+        "entity_b": "studie , která udává , že ukazatel ročního ekonomického růstu Japonska bude pouze 0.8 procent , pokud emise oxidu uhličitého zůstanou na letošní úrovni 300 milionů tun",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Japonský největší výrobce dámského spodního prádla , Wacoal Corp ."
+    },
+    {
+      "id": 297,
+      "doc": "wsj0656",
+      "variables": {
+        "entity_a": "ve společnosti Deb Shops Corp .",
+        "entity_b": "s prodejem svého 15.2 % podílu ve společnosti Deb Shops Corp . společnosti Petrie Stores",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ve společnosti Deb Shops Corp ."
+    },
+    {
+      "id": 298,
+      "doc": "wsj0224",
+      "variables": {
+        "entity_a": "Společnost GM",
+        "entity_b": "Britská vláda",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Společnost GM"
+    },
+    {
+      "id": 299,
+      "doc": "wsj0931",
+      "variables": {
+        "entity_a": "proti Pekingu",
+        "entity_b": "George Bush",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "proti Pekingu"
+    },
+    {
+      "id": 300,
+      "doc": "wsj0284",
+      "variables": {
+        "entity_a": "Ashurst Morfia Crisp , středně velká londýnská advokátní firma",
+        "entity_b": "právo Marcosové , které vyplývá z Pátého dodatku a zaručuje , že nesmí být někomu nucena k sebeobvinění vlastní výpovědí",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Ashurst Morfia Crisp , středně velká londýnská advokátní firma"
+    },
+    {
+      "id": 301,
+      "doc": "wsj1692",
+      "variables": {
+        "entity_a": "federální regulátoři záložen",
+        "entity_b": "nemovitým majetkem v hodnotě 25 milionů dolarů přidaným k aktivům společnosti Independent American",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "federální regulátoři záložen"
+    },
+    {
+      "id": 302,
+      "doc": "wsj1504",
+      "variables": {
+        "entity_a": "vaše",
+        "entity_b": "k \" firemnímu soudu",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "vaše"
+    },
+    {
+      "id": 303,
+      "doc": "wsj0112",
+      "variables": {
+        "entity_a": "výkonná moc",
+        "entity_b": "druhý článek",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "výkonná moc"
+    },
+    {
+      "id": 304,
+      "doc": "wsj0561",
+      "variables": {
+        "entity_a": "Světové série",
+        "entity_b": "v sedmé směně čtvrté hry , kdy za stavu 8 : 2 oni skórovali čtyřikrát a na metu k odpalu s jedním outem a běžcem postavili svá esa , Willa Clarka a Kevina Mitchella",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Světové série"
+    },
+    {
+      "id": 305,
+      "doc": "wsj1567",
+      "variables": {
+        "entity_a": "First Meridian Corp . , albanské společnosti pro finanční plánování , která jménem téměř 1000 investorů investovala 55 milionů dolarů",
+        "entity_b": "u Komise pro regulaci prodeje cenných papírů ( SEC )",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "First Meridian Corp . , albanské společnosti pro finanční plánování , která jménem téměř 1000 investorů investovala 55 milionů dolarů"
+    },
+    {
+      "id": 306,
+      "doc": "wsj0296",
+      "variables": {
+        "entity_a": "pro Japonsko",
+        "entity_b": "Singapuru",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "pro Japonsko"
+    },
+    {
+      "id": 307,
+      "doc": "wsj1870",
+      "variables": {
+        "entity_a": "v oblasti zálivu",
+        "entity_b": "společnosti Fireman ' s Fund Corp . , která sídlí ve městě Novoto v Kalifornii",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "v oblasti zálivu"
+    },
+    {
+      "id": 308,
+      "doc": "wsj0994",
+      "variables": {
+        "entity_a": "hotel s kasinem Bally Grand , který patří společnosti Bally Manufacturing Corp",
+        "entity_b": "Někteří majitelé kasin",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "hotel s kasinem Bally Grand , který patří společnosti Bally Manufacturing Corp"
+    },
+    {
+      "id": 309,
+      "doc": "wsj1698",
+      "variables": {
+        "entity_a": "Arkansaský demokrat David Pryor",
+        "entity_b": "prezidentovi",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Arkansaský demokrat David Pryor"
+    },
+    {
+      "id": 310,
+      "doc": "wsj0911",
+      "variables": {
+        "entity_a": "herec Dennis Price",
+        "entity_b": "_ první , kdo bude souhlasit s tím , že v moderní filmařině _ lze nalézt mnoho špatného",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "herec Dennis Price"
+    },
+    {
+      "id": 311,
+      "doc": "wsj0470",
+      "variables": {
+        "entity_a": "Společnosti Warner Communications Inc .",
+        "entity_b": "Společnosti Sony Corp .",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Společnosti Warner Communications Inc ."
+    },
+    {
+      "id": 312,
+      "doc": "wsj1000",
+      "variables": {
+        "entity_a": "Wall Street",
+        "entity_b": "Společnost Kemper Financial Services Inc .",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Wall Street"
+    },
+    {
+      "id": 313,
+      "doc": "wsj1915",
+      "variables": {
+        "entity_a": "společnosti IBM",
+        "entity_b": "v oblasti zátoky",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "společnosti IBM"
+    },
+    {
+      "id": 314,
+      "doc": "wsj1870",
+      "variables": {
+        "entity_a": "město",
+        "entity_b": "společnosti Fireman ' s Fund Corp . , která sídlí ve městě Novoto v Kalifornii",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "město"
+    },
+    {
+      "id": 315,
+      "doc": "wsj0687",
+      "variables": {
+        "entity_a": "delty",
+        "entity_b": "lidi , za nimiž nikdo nestál a kteří měli omezený přístup ke vzdělání nebo k někoho vyučení , aby by oni mohli žít lépe",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "delty"
+    },
+    {
+      "id": 316,
+      "doc": "wsj0810",
+      "variables": {
+        "entity_a": "nabídku společnosti Cie . Financiere de Paribas na někým zvýšení podílu ve společnosti Navigation Mixte na 66.7 % za 1.77 miliardy dolarů",
+        "entity_b": "jeho rada",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "nabídku společnosti Cie . Financiere de Paribas na někým zvýšení podílu ve společnosti Navigation Mixte na 66.7 % za 1.77 miliardy dolarů"
+    },
+    {
+      "id": 317,
+      "doc": "wsj2402",
+      "variables": {
+        "entity_a": "s Maxem , nejvíce okázalou postavou mezi obchodníky na parketu",
+        "entity_b": "Michelle , mladší obchodnice s dluhopisy",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "s Maxem , nejvíce okázalou postavou mezi obchodníky na parketu"
+    },
+    {
+      "id": 318,
+      "doc": "wsj1216",
+      "variables": {
+        "entity_a": "Ministři obrany _ NATO",
+        "entity_b": "500 členného parlamentu",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Ministři obrany _ NATO"
+    },
+    {
+      "id": 319,
+      "doc": "wsj1394",
+      "variables": {
+        "entity_a": "Dlouholetý pilot David Sanders",
+        "entity_b": "do dne někým sloučení , kdy byla velká část jejich odborů automaticky zrušena",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Dlouholetý pilot David Sanders"
+    },
+    {
+      "id": 320,
+      "doc": "wsj1317",
+      "variables": {
+        "entity_a": "ve společnosti American Express Co",
+        "entity_b": "50 letý Graham Phillips , který byl prezidentem provozů v severní Americe a který je , stejně jako Sorrell , Brit",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ve společnosti American Express Co"
+    },
+    {
+      "id": 321,
+      "doc": "wsj1602",
+      "variables": {
+        "entity_a": "americké vlády",
+        "entity_b": "nějakého názorového \" kotrmelce \" , k němuž jsem já došel na základě někým čtení výsledků výzkumů veřejného mínění",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "americké vlády"
+    },
+    {
+      "id": 322,
+      "doc": "wsj1824",
+      "variables": {
+        "entity_a": "Kongres",
+        "entity_b": "100 domů , na něž poskytuje _ HUD půjčku",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Kongres"
+    },
+    {
+      "id": 323,
+      "doc": "wsj2053",
+      "variables": {
+        "entity_a": "sen o vybudování vesmírného obranného štítu pro zneškodnění sovětských nukleárních střel",
+        "entity_b": "za Reaganova upřednostňovaného následníka , prezidenta Bushe",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sen o vybudování vesmírného obranného štítu pro zneškodnění sovětských nukleárních střel"
+    },
+    {
+      "id": 324,
+      "doc": "wsj1962",
+      "variables": {
+        "entity_a": "mnoho individuálních investorů",
+        "entity_b": "technika stelážování , kterou dobře znají hráči na akciovém a opčním trhu",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "mnoho individuálních investorů"
+    },
+    {
+      "id": 325,
+      "doc": "wsj0990",
+      "variables": {
+        "entity_a": "za hlavní senátní návrh",
+        "entity_b": "Vůdce senátní většiny George Mitchell ( demokrat za Maine )",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "za hlavní senátní návrh"
+    },
+    {
+      "id": 326,
+      "doc": "wsj1394",
+      "variables": {
+        "entity_a": "společně se společností Tiger International Inc .",
+        "entity_b": "vedení společnosti Federal",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "společně se společností Tiger International Inc ."
+    },
+    {
+      "id": 327,
+      "doc": "wsj1203",
+      "variables": {
+        "entity_a": "Betty Raptopoulosová , samostatná analytička kovů společnosti Prudential - Bache Securities v New Yorku",
+        "entity_b": "William Kaiser , prezident chicagské skupiny Kaiser Financial Group",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Betty Raptopoulosová , samostatná analytička kovů společnosti Prudential - Bache Securities v New Yorku"
+    },
+    {
+      "id": 328,
+      "doc": "wsj1657",
+      "variables": {
+        "entity_a": "Spojených států",
+        "entity_b": "prezident Bush",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Spojených států"
+    },
+    {
+      "id": 329,
+      "doc": "wsj0681",
+      "variables": {
+        "entity_a": "se společností First Hospital",
+        "entity_b": "krátkodobí hráči",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "se společností First Hospital"
+    },
+    {
+      "id": 330,
+      "doc": "wsj2213",
+      "variables": {
+        "entity_a": "Skupina institucionálních investorů ve společnosti Telerate Inc .",
+        "entity_b": "ve společnosti Telerate Inc .",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Skupina institucionálních investorů ve společnosti Telerate Inc ."
+    },
+    {
+      "id": 331,
+      "doc": "wsj0664",
+      "variables": {
+        "entity_a": "jedním ze svých manažerů , 40 letým R . Patrickem Thompsonem",
+        "entity_b": "Newyorská obchodní burza , hlavní světový trh s termínovanými obchody s ropou",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "jedním ze svých manažerů , 40 letým R . Patrickem Thompsonem"
+    },
+    {
+      "id": 332,
+      "doc": "wsj1366",
+      "variables": {
+        "entity_a": "Senátor Alan Cranston",
+        "entity_b": "jejich přítelem a politickým dobrodincem Charlesem Keatingem ml . , hlavním akcionářem společnosti American Continental z Phoenixu v Arizoně , mateřské společnosti společnosti Lincoln",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Senátor Alan Cranston"
+    },
+    {
+      "id": 333,
+      "doc": "wsj2053",
+      "variables": {
+        "entity_a": "nikaragujským rebelům Contras",
+        "entity_b": "Ronalda Reagana",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "nikaragujským rebelům Contras"
+    },
+    {
+      "id": 334,
+      "doc": "wsj0445",
+      "variables": {
+        "entity_a": "obr , společnost International Business Machines Corp . ( IBM )",
+        "entity_b": "Společnost Apple Computer Inc .",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "obr , společnost International Business Machines Corp . ( IBM )"
+    },
+    {
+      "id": 335,
+      "doc": "wsj0910",
+      "variables": {
+        "entity_a": "do Organizace amerických států ( OAS ) , což je regionální orgán sídlící ve Washingtonu",
+        "entity_b": "Spojených států",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "do Organizace amerických států ( OAS ) , což je regionální orgán sídlící ve Washingtonu"
+    },
+    {
+      "id": 336,
+      "doc": "wsj1743",
+      "variables": {
+        "entity_a": "Japonský největší výrobce dámského spodního prádla , Wacoal Corp .",
+        "entity_b": "Britský satirický časopis , Private Eye",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Japonský největší výrobce dámského spodního prádla , Wacoal Corp ."
+    },
+    {
+      "id": 337,
+      "doc": "wsj1797",
+      "variables": {
+        "entity_a": "největší legislativní nepřítel potratů , poslanec republikánské strany Stephen Freind z Delaware County",
+        "entity_b": "Nejvyšší soud",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "největší legislativní nepřítel potratů , poslanec republikánské strany Stephen Freind z Delaware County"
+    },
+    {
+      "id": 338,
+      "doc": "wsj2207",
+      "variables": {
+        "entity_a": "ministru dopravy",
+        "entity_b": "finančník Donald Trump , který včera stáhl svou nabídku na někoho převzetí společnosti AMR Corp . , mateřské společnosti American Airlines",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ministru dopravy"
+    },
+    {
+      "id": 339,
+      "doc": "wsj0781",
+      "variables": {
+        "entity_a": "společnosti Intel Corp .",
+        "entity_b": "na problémy způsobující chybné výsledky procesů u některých matematických výpočtů",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "společnosti Intel Corp ."
+    },
+    {
+      "id": 340,
+      "doc": "wsj1128",
+      "variables": {
+        "entity_a": "odrůda Fuji",
+        "entity_b": "Grady Auvil , pěstitel z Oronda ve státě Washington , který jabloně Fuji vysazuje a šíří jejich dobré jméno",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "odrůda Fuji"
+    },
+    {
+      "id": 341,
+      "doc": "wsj0998",
+      "variables": {
+        "entity_a": "Japonci",
+        "entity_b": "ostatní realitní profesionálové , kteří jsou na nebezpečí kalifornských zemětřesení zvyklí",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Japonci"
+    },
+    {
+      "id": 342,
+      "doc": "wsj1154",
+      "variables": {
+        "entity_a": "Violetty Valery",
+        "entity_b": "Edity Gruberové",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Violetty Valery"
+    },
+    {
+      "id": 343,
+      "doc": "wsj1784",
+      "variables": {
+        "entity_a": "Pfizer Inc . se sídlem v New Yorku",
+        "entity_b": "Schering - Plough Corp . se sídlem v Madisonu v New Jersey",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Pfizer Inc . se sídlem v New Yorku"
+    },
+    {
+      "id": 344,
+      "doc": "wsj0036",
+      "variables": {
+        "entity_a": "v září",
+        "entity_b": "Ministerstvo obchodu",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "v září"
+    },
+    {
+      "id": 345,
+      "doc": "wsj1797",
+      "variables": {
+        "entity_a": "hnutí za právo na potrat",
+        "entity_b": "Nejvyšší soud",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "hnutí za právo na potrat"
+    },
+    {
+      "id": 346,
+      "doc": "wsj2113",
+      "variables": {
+        "entity_a": "Guterman , newyorský developer , který sbírku prodával",
+        "entity_b": "s pomocí George Wachtera , experta Sotheby ' s na staré mistry , kterého on potkal na výstavě obrazů z Gutermanovy sbírky",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Guterman , newyorský developer , který sbírku prodával"
+    },
+    {
+      "id": 347,
+      "doc": "wsj0013",
+      "variables": {
+        "entity_a": "Společnost New England Electric System",
+        "entity_b": "svou",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Společnost New England Electric System"
+    },
+    {
+      "id": 348,
+      "doc": "wsj1984",
+      "variables": {
+        "entity_a": "Na \" Mastergate \" , novou komedii Larryho Gelbarta uváděnou v divadle Criterion Center",
+        "entity_b": "viceprezidenta",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Na \" Mastergate \" , novou komedii Larryho Gelbarta uváděnou v divadle Criterion Center"
+    },
+    {
+      "id": 349,
+      "doc": "wsj2403",
+      "variables": {
+        "entity_a": "Sira Jamese Goldsmitha",
+        "entity_b": "společnosti B . A . T Industries PLC , britského tabákového , papírenského , maloobchodního a finančního koncernu , který je mateřskou společností společnosti Farmers působící v Los Angeles",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Sira Jamese Goldsmitha"
+    },
+    {
+      "id": 350,
+      "doc": "wsj0526",
+      "variables": {
+        "entity_a": "násilníka",
+        "entity_b": "Josh ( Jeffrey DeMunn ) , místní lékař , který Kate vždy miloval",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "násilníka"
+    },
+    {
+      "id": 351,
+      "doc": "wsj2276",
+      "variables": {
+        "entity_a": "Dow - Jonesova indexu akcií průmyslových společností",
+        "entity_b": "Wall Street",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Dow - Jonesova indexu akcií průmyslových společností"
+    },
+    {
+      "id": 352,
+      "doc": "wsj0039",
+      "variables": {
+        "entity_a": "o pouličním kreslíři",
+        "entity_b": "Charles Lane",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "o pouličním kreslíři"
+    },
+    {
+      "id": 353,
+      "doc": "wsj1699",
+      "variables": {
+        "entity_a": "Město",
+        "entity_b": "v zemětřesením zpustošené Kalifornii",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Město"
+    },
+    {
+      "id": 354,
+      "doc": "wsj0413",
+      "variables": {
+        "entity_a": "Robert Baker , osmašedesátiletý profesor psychologie na univerzitě v Kentucky , který je částečně v důchodu a jehož husté šedé obočí se při pouhé zmínce o duchovi pozvedne",
+        "entity_b": "Kathleen Stinnettovou , ženu z Lexingtonu , která telefonovala na univerzitu v Kentucky a ohlásila záhadné události ve svém domě",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Robert Baker , osmašedesátiletý profesor psychologie na univerzitě v Kentucky , který je částečně v důchodu a jehož husté šedé obočí se při pouhé zmínce o duchovi pozvedne"
+    },
+    {
+      "id": 355,
+      "doc": "wsj0745",
+      "variables": {
+        "entity_a": "Společnost General Motors Corp .",
+        "entity_b": "proti společnosti Ford Motor Co .",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Společnost General Motors Corp ."
+    },
+    {
+      "id": 356,
+      "doc": "wsj0936",
+      "variables": {
+        "entity_a": "Carter Glass , bývalý ministr financí , který se pak vrátil do Kongresu",
+        "entity_b": "snaha dovést devizové kurzy na nějakou žádoucí úroveň",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Carter Glass , bývalý ministr financí , který se pak vrátil do Kongresu"
+    },
+    {
+      "id": 357,
+      "doc": "wsj0254",
+      "variables": {
+        "entity_a": "v srpnu",
+        "entity_b": "mezi 53 vedoucími pracovníky sdruženými ve svazu",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "v srpnu"
+    },
+    {
+      "id": 358,
+      "doc": "wsj0155",
+      "variables": {
+        "entity_a": "Judith Ganes , analytička pro firmu Shearson Lehman Hutton v New Yorku",
+        "entity_b": "při relativně lehkém někoho obchodování",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Judith Ganes , analytička pro firmu Shearson Lehman Hutton v New Yorku"
+    },
+    {
+      "id": 359,
+      "doc": "wsj1373",
+      "variables": {
+        "entity_a": "alespoň jedna japonská společnost",
+        "entity_b": "na americkou společnost Motorola Inc .",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "alespoň jedna japonská společnost"
+    },
+    {
+      "id": 360,
+      "doc": "wsj0207",
+      "variables": {
+        "entity_a": "Billa Douglase , pianistu , hráče na fagot , skladatele a starého přítele z Yale",
+        "entity_b": "nejpodstatnější hudbu večera : \" Kontrapunkt New York \" Steva Reicha , jedno z řady Reichových děl , která vedle sebe kladou živého hráče s nahrávkami jeho hraní",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Billa Douglase , pianistu , hráče na fagot , skladatele a starého přítele z Yale"
+    },
+    {
+      "id": 361,
+      "doc": "wsj0559",
+      "variables": {
+        "entity_a": "Walter Sisulu , bývalý generální tajemník ANC , který si společně se svými pěti kolegy odpykával 26 let ve věznici předtím , než byl on propuštěn před dvěma týdny",
+        "entity_b": "v Jižní Africe",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Walter Sisulu , bývalý generální tajemník ANC , který si společně se svými pěti kolegy odpykával 26 let ve věznici předtím , než byl on propuštěn před dvěma týdny"
+    },
+    {
+      "id": 362,
+      "doc": "wsj1641",
+      "variables": {
+        "entity_a": "o společnost Connaught BioSciences Inc .",
+        "entity_b": "francouzský Institut Merieux S . A .",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "o společnost Connaught BioSciences Inc ."
+    },
+    {
+      "id": 363,
+      "doc": "wsj0818",
+      "variables": {
+        "entity_a": "z roku 1988",
+        "entity_b": "Robert S . Miller , finanční ředitel společnosti Chrysler",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "z roku 1988"
+    },
+    {
+      "id": 364,
+      "doc": "wsj1446",
+      "variables": {
+        "entity_a": "SPOLEČNOST DREXEL BURNHAM LAMBERT Inc .",
+        "entity_b": "člena americké Sněmovny reprezentantů Roberta Garciu ( demokrata za New York ) a jeho ženu Jane Lee Garciovou",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "SPOLEČNOST DREXEL BURNHAM LAMBERT Inc ."
+    },
+    {
+      "id": 365,
+      "doc": "wsj0942",
+      "variables": {
+        "entity_a": "Ameriky",
+        "entity_b": "návrh Spojených států na liberalizaci světového obchodu a omezení dotací na zemědělské produkty",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Ameriky"
+    },
+    {
+      "id": 366,
+      "doc": "wsj1330",
+      "variables": {
+        "entity_a": "ve své velké realitní jednotce Kalifornskému penzijnímu fondu státních zaměstnanců",
+        "entity_b": "Kalifornskému penzijnímu fondu státních zaměstnanců",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ve své velké realitní jednotce Kalifornskému penzijnímu fondu státních zaměstnanců"
+    },
+    {
+      "id": 367,
+      "doc": "wsj1146",
+      "variables": {
+        "entity_a": "po celé zemi",
+        "entity_b": "Edward Chojnowski",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "po celé zemi"
+    },
+    {
+      "id": 368,
+      "doc": "wsj0105",
+      "variables": {
+        "entity_a": "bezdomovců",
+        "entity_b": "nedávné demonstrace ve Washingtonu za bezdomovce",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "bezdomovců"
+    },
+    {
+      "id": 369,
+      "doc": "wsj2201",
+      "variables": {
+        "entity_a": "Firma Fidelity Investments",
+        "entity_b": "Společnost Shearson Lehman Hutton Inc .",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Firma Fidelity Investments"
+    },
+    {
+      "id": 370,
+      "doc": "wsj0049",
+      "variables": {
+        "entity_a": "SE SPOLEČNOSTÍ GAF",
+        "entity_b": "takové položky , jako je jméno klienta , číslo sociálního někoho zabezpečení , číslo pasu a detailní popis služeb poskytovaných za danou platbu",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "SE SPOLEČNOSTÍ GAF"
+    },
+    {
+      "id": 371,
+      "doc": "wsj1122",
+      "variables": {
+        "entity_a": "BERNÍ ÚŘAD",
+        "entity_b": "Pár , kterému budeme říkat Blandingovi",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "BERNÍ ÚŘAD"
+    },
+    {
+      "id": 372,
+      "doc": "wsj0990",
+      "variables": {
+        "entity_a": "senátor William Roth ( republikán za Delaware )",
+        "entity_b": "demokraté",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "senátor William Roth ( republikán za Delaware )"
+    },
+    {
+      "id": 373,
+      "doc": "wsj0677",
+      "variables": {
+        "entity_a": "soukromé a církevní školy v obou státech",
+        "entity_b": "kanál Classroom Channel , který bude obsahovat naučné vysílání bez reklam , podobné některým pořadům veřejných televizí , a kanál Educator ' s Channel , který bude někomu nabízet vzdělávací vysílání pro učitele a vedení školy a bude obsahovat reklamu",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "soukromé a církevní školy v obou státech"
+    },
+    {
+      "id": 374,
+      "doc": "wsj0465",
+      "variables": {
+        "entity_a": "genu s názvem p 53 , který při někoho poškození přemění zdravé buňky tlustého střeva v rakovinné",
+        "entity_b": "pediatr Alfred G . Knudson jr",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "genu s názvem p 53 , který při někoho poškození přemění zdravé buňky tlustého střeva v rakovinné"
+    },
+    {
+      "id": 375,
+      "doc": "wsj1146",
+      "variables": {
+        "entity_a": "za komunistickým úředníkem , označovaným \" naczelnik",
+        "entity_b": "Edward Chojnowski",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "za komunistickým úředníkem , označovaným \" naczelnik"
+    },
+    {
+      "id": 376,
+      "doc": "wsj0112",
+      "variables": {
+        "entity_a": "několik neuvěřitelných pokusů kongresu o přepsání ústavy pod záminkou , že on chrání peníze veřejnosti",
+        "entity_b": "výkonná moc",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "několik neuvěřitelných pokusů kongresu o přepsání ústavy pod záminkou , že on chrání peníze veřejnosti"
+    },
+    {
+      "id": 377,
+      "doc": "wsj2431",
+      "variables": {
+        "entity_a": "Řecka pod autokratickým pseudosocialismem",
+        "entity_b": "George Koskotas , bývalý majitel Bank of Crete a defraudant dle vlastního někoho někým doznání , nyní pobývající ve vězeňské cele v Salemu , Massachusetts , odkud také on vede spor v procesu o extradici , která by ho vrátila do Řecka",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Řecka pod autokratickým pseudosocialismem"
+    },
+    {
+      "id": 378,
+      "doc": "wsj1934",
+      "variables": {
+        "entity_a": "nový lék , který zabraňuje odmítnutí transplantovaných orgánů",
+        "entity_b": "výzkumní pracovníci",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "nový lék , který zabraňuje odmítnutí transplantovaných orgánů"
+    },
+    {
+      "id": 379,
+      "doc": "wsj2232",
+      "variables": {
+        "entity_a": "Johna J . Phelana jr . , předsedy Newyorské burzy , který před samotným obchodováním řekl , že páteční debakl trhu byl \" abnormální stav , nikoliv katastrofa",
+        "entity_b": "Instituce",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Johna J . Phelana jr . , předsedy Newyorské burzy , který před samotným obchodováním řekl , že páteční debakl trhu byl \" abnormální stav , nikoliv katastrofa"
+    },
+    {
+      "id": 380,
+      "doc": "wsj2433",
+      "variables": {
+        "entity_a": "zaniklé lize",
+        "entity_b": "Federální odvolací soud v San Franciscu",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "zaniklé lize"
+    },
+    {
+      "id": 381,
+      "doc": "wsj1390",
+      "variables": {
+        "entity_a": "Robert A . Brawer , 52 letý nedávno jmenovaný prezident , nastupující po Beatrice Colemanové , své tchyni , která zůstává předsedkyní",
+        "entity_b": "po Beatrice Colemanové , své tchyni , která zůstává předsedkyní",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Robert A . Brawer , 52 letý nedávno jmenovaný prezident , nastupující po Beatrice Colemanové , své tchyni , která zůstává předsedkyní"
+    },
+    {
+      "id": 382,
+      "doc": "wsj0922",
+      "variables": {
+        "entity_a": "Evropského společenství",
+        "entity_b": "pro Evropu",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Evropského společenství"
+    },
+    {
+      "id": 383,
+      "doc": "wsj0692",
+      "variables": {
+        "entity_a": "pětiletý obranný plán pro roky 1990 - 1994",
+        "entity_b": "pro Kongres",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "pětiletý obranný plán pro roky 1990 - 1994"
+    },
+    {
+      "id": 384,
+      "doc": "wsj0296",
+      "variables": {
+        "entity_a": "Amerika",
+        "entity_b": "v Číně",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Amerika"
+    },
+    {
+      "id": 385,
+      "doc": "wsj0210",
+      "variables": {
+        "entity_a": "svému",
+        "entity_b": "mezi japonským odvětvím cenných papírů a bankovním sektorem",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "svému"
+    },
+    {
+      "id": 386,
+      "doc": "wsj0765",
+      "variables": {
+        "entity_a": "nad starostou Edwardem I . Kochem",
+        "entity_b": "O jednom členovi výboru , správci Bronxu Ferdinandu Ferrerovi",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "nad starostou Edwardem I . Kochem"
+    },
+    {
+      "id": 387,
+      "doc": "wsj0909",
+      "variables": {
+        "entity_a": "svou",
+        "entity_b": "Anne Burfordová , bývalá vedoucí Agentury na ochranu životního prostředí ( EPA ) , která rezignovala pod tlakem v roce 1983 během slovní přestřelky s Kongresem",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "svou"
+    },
+    {
+      "id": 388,
+      "doc": "wsj1195",
+      "variables": {
+        "entity_a": "společnosti Bond Corp . Holdings Ltd .",
+        "entity_b": "Alan Bond , předseda a většinový akcionář tohoto australského koncernu bez peněz , který se zabývá médii , pivovarnictvím a správou nemovitostí",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "společnosti Bond Corp . Holdings Ltd ."
+    },
+    {
+      "id": 389,
+      "doc": "wsj0118",
+      "variables": {
+        "entity_a": "předsedovi Newyorské burzy cenných papírů Johnu J . Phelanu ml",
+        "entity_b": "dne 13 . října",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "předsedovi Newyorské burzy cenných papírů Johnu J . Phelanu ml"
+    },
+    {
+      "id": 390,
+      "doc": "wsj2086",
+      "variables": {
+        "entity_a": "Společnost Ford Motor",
+        "entity_b": "její konkurent společnost General Motors ( GM )",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Společnost Ford Motor"
+    },
+    {
+      "id": 391,
+      "doc": "wsj0039",
+      "variables": {
+        "entity_a": "o pouličním kreslíři",
+        "entity_b": "postavy , která by se i pod tím nejshovívavějším úhlem pohledu jevila jako nepříjemná",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "o pouličním kreslíři"
+    },
+    {
+      "id": 392,
+      "doc": "wsj0041",
+      "variables": {
+        "entity_a": "reklamu , v níž se objevila kresba Pinocchia a fotografie Floriova soupeře , republikánského poslance Jima Courtera",
+        "entity_b": "Letošek",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "reklamu , v níž se objevila kresba Pinocchia a fotografie Floriova soupeře , republikánského poslance Jima Courtera"
+    },
+    {
+      "id": 393,
+      "doc": "wsj1525",
+      "variables": {
+        "entity_a": "filipínské vládní Nadace pro privatizaci majetku",
+        "entity_b": "největší papírny v zemi",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "filipínské vládní Nadace pro privatizaci majetku"
+    },
+    {
+      "id": 394,
+      "doc": "wsj1844",
+      "variables": {
+        "entity_a": "nově sloučenou celosvětovou reklamní agenturu spravovanou společností Eurocom a společně řízenou newyorským reklamním ředitelem Jerrym Dellou Feminou a dvěma vedoucími pracovníky společnosti WCRS",
+        "entity_b": "jejíž agentura Della Femina McNamee WCRS",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "nově sloučenou celosvětovou reklamní agenturu spravovanou společností Eurocom a společně řízenou newyorským reklamním ředitelem Jerrym Dellou Feminou a dvěma vedoucími pracovníky společnosti WCRS"
+    },
+    {
+      "id": 395,
+      "doc": "wsj0335",
+      "variables": {
+        "entity_a": "hlavního federálního regulátora Dannyho Walla",
+        "entity_b": "skartovaného papíru naloženého na tento vůz",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "hlavního federálního regulátora Dannyho Walla"
+    },
+    {
+      "id": 396,
+      "doc": "wsj1691",
+      "variables": {
+        "entity_a": "v korporaci Atlantic Richfield Co . v Los Angeles",
+        "entity_b": "v Kalifornii",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "v korporaci Atlantic Richfield Co . v Los Angeles"
+    },
+    {
+      "id": 397,
+      "doc": "wsj1707",
+      "variables": {
+        "entity_a": "Investiční skupina TransAtlantic Holdings PLC , zabývající se finančními službami , která je řízená z Jižní Afriky s ústředím ve Velké Británii",
+        "entity_b": "ohledně společnosti Sun Life Assurance Society PLC",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Investiční skupina TransAtlantic Holdings PLC , zabývající se finančními službami , která je řízená z Jižní Afriky s ústředím ve Velké Británii"
+    },
+    {
+      "id": 398,
+      "doc": "wsj0112",
+      "variables": {
+        "entity_a": "několik neuvěřitelných pokusů kongresu o přepsání ústavy pod záminkou , že on chrání peníze veřejnosti",
+        "entity_b": "zákona",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "několik neuvěřitelných pokusů kongresu o přepsání ústavy pod záminkou , že on chrání peníze veřejnosti"
+    },
+    {
+      "id": 399,
+      "doc": "wsj0819",
+      "variables": {
+        "entity_a": "puritánskému Angelovi , o kterém on doufá , že věci on napraví",
+        "entity_b": "Claudiova sestra Isabella , novicka v klášteře",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "puritánskému Angelovi , o kterém on doufá , že věci on napraví"
+    },
+    {
+      "id": 400,
+      "doc": "wsj1128",
+      "variables": {
+        "entity_a": "odrůda Fuji",
+        "entity_b": "Ve srovnání s odrůdou Červený Delicious",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "odrůda Fuji"
+    },
+    {
+      "id": 401,
+      "doc": "wsj2053",
+      "variables": {
+        "entity_a": "nikaragujským rebelům Contras",
+        "entity_b": "Bushova administrativa",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "nikaragujským rebelům Contras"
+    },
+    {
+      "id": 402,
+      "doc": "wsj0082",
+      "variables": {
+        "entity_a": "Tokio",
+        "entity_b": "Washington",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Tokio"
+    },
+    {
+      "id": 403,
+      "doc": "wsj0426",
+      "variables": {
+        "entity_a": "před brutálními a krutými jedinci , kteří tyto zločiny páchají",
+        "entity_b": "teroristů , kteří zabijí Američany v zahraničí",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "před brutálními a krutými jedinci , kteří tyto zločiny páchají"
+    },
+    {
+      "id": 404,
+      "doc": "wsj1856",
+      "variables": {
+        "entity_a": "společnost Campbell Soup Co .",
+        "entity_b": "Kathie Huffová , respondentka průzkumu deníku Wall Street Journal ze Spokane ve státě Washington",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "společnost Campbell Soup Co ."
+    },
+    {
+      "id": 405,
+      "doc": "wsj1567",
+      "variables": {
+        "entity_a": "dva muži",
+        "entity_b": "newyorského generálního prokurátora",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "dva muži"
+    },
+    {
+      "id": 406,
+      "doc": "wsj1525",
+      "variables": {
+        "entity_a": "její vláda",
+        "entity_b": "největší papírny v zemi",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "její vláda"
+    },
+    {
+      "id": 407,
+      "doc": "wsj0799",
+      "variables": {
+        "entity_a": "ministerstvo obrany",
+        "entity_b": "Společnost ERC International Inc . , která poskytuje vojákům profesionální a technické služby",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ministerstvo obrany"
+    },
+    {
+      "id": 408,
+      "doc": "wsj0553",
+      "variables": {
+        "entity_a": "sir Alan Walterse , osobní poradce premiérky Thatcherové , který s ministrem tyto těžkosti sdílí a který také odstoupil z funkce",
+        "entity_b": "britské měny",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sir Alan Walterse , osobní poradce premiérky Thatcherové , který s ministrem tyto těžkosti sdílí a který také odstoupil z funkce"
+    },
+    {
+      "id": 409,
+      "doc": "wsj2433",
+      "variables": {
+        "entity_a": "RICHARD P . MAGURNO , původně přední právník společnosti Eastern Airlines",
+        "entity_b": "počítače Lisa představeného v roce 1983",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "RICHARD P . MAGURNO , původně přední právník společnosti Eastern Airlines"
+    },
+    {
+      "id": 410,
+      "doc": "wsj1171",
+      "variables": {
+        "entity_a": "na Newyorské burze cenných papírů",
+        "entity_b": "společně s 33 letým Christopherem Batesem , energickým obyvatelem Long Islandu , který je dokonalým dvojníkem herce Nicolase Cage",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "na Newyorské burze cenných papírů"
+    },
+    {
+      "id": 411,
+      "doc": "wsj0578",
+      "variables": {
+        "entity_a": "Terry Semel",
+        "entity_b": "společnost Sony Corp .",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Terry Semel"
+    },
+    {
+      "id": 412,
+      "doc": "wsj1915",
+      "variables": {
+        "entity_a": "San Francisku",
+        "entity_b": "v oblasti zátoky",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "San Francisku"
+    },
+    {
+      "id": 413,
+      "doc": "wsj0469",
+      "variables": {
+        "entity_a": "stát New York",
+        "entity_b": "plán ministra spravedlnosti USA Dicka Thornburgha na zrušení 14 oblastních zásahových jednotek proti organizovanému zločinu",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "stát New York"
+    },
+    {
+      "id": 414,
+      "doc": "wsj0295",
+      "variables": {
+        "entity_a": "přímo Carlu Spielvogelovi , předsedovi a generálnímu řediteli",
+        "entity_b": "Společnost Backer Spielvogel Bates Worldwide",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "přímo Carlu Spielvogelovi , předsedovi a generálnímu řediteli"
+    },
+    {
+      "id": 415,
+      "doc": "wsj1146",
+      "variables": {
+        "entity_a": "Solidarity",
+        "entity_b": "státem",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Solidarity"
+    },
+    {
+      "id": 416,
+      "doc": "wsj0909",
+      "variables": {
+        "entity_a": "Jima Wrighta",
+        "entity_b": "svou",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Jima Wrighta"
+    },
+    {
+      "id": 417,
+      "doc": "wsj0910",
+      "variables": {
+        "entity_a": "Kanada",
+        "entity_b": "Spojených států",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Kanada"
+    },
+    {
+      "id": 418,
+      "doc": "wsj0533",
+      "variables": {
+        "entity_a": "o firmu Connaught BioSciences",
+        "entity_b": "která nabídla 942 miliony kanadských dolarů ( 801.2 milionu amerických dolarů ) , čili 37 kanadských dolarů za akcii firmy Connaught",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "o firmu Connaught BioSciences"
+    },
+    {
+      "id": 419,
+      "doc": "wsj0814",
+      "variables": {
+        "entity_a": "u společnosti Mitsukoshi Ltd . , jednoho z předních japonských obchodních domů",
+        "entity_b": "skupiny Bloomingdale ' s se 17 prodejnami",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "u společnosti Mitsukoshi Ltd . , jednoho z předních japonských obchodních domů"
+    },
+    {
+      "id": 420,
+      "doc": "wsj0819",
+      "variables": {
+        "entity_a": "Claudiova sestra Isabella , novicka v klášteře",
+        "entity_b": "dramatu \" Něco za něco",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Claudiova sestra Isabella , novicka v klášteře"
+    },
+    {
+      "id": 421,
+      "doc": "wsj0367",
+      "variables": {
+        "entity_a": "40 letý Mike Sinyard",
+        "entity_b": "Erik Eidsmo , bývalý vedoucí pracovník v lyžařském průmyslu , kterého Sinyard přetáhl ze společnosti Citicorp , aby by on řídil marketing a obchod",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "40 letý Mike Sinyard"
+    },
+    {
+      "id": 422,
+      "doc": "wsj1044",
+      "variables": {
+        "entity_a": "Východoněmecký státník Krenz",
+        "entity_b": "90 % devalvaci rublu oproti dolaru při soukromých transakcích",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Východoněmecký státník Krenz"
+    },
+    {
+      "id": 423,
+      "doc": "wsj1146",
+      "variables": {
+        "entity_a": "Solidarity",
+        "entity_b": "za komunistickým úředníkem , označovaným \" naczelnik",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Solidarity"
+    },
+    {
+      "id": 424,
+      "doc": "wsj0814",
+      "variables": {
+        "entity_a": "u společnosti Mitsukoshi Ltd . , jednoho z předních japonských obchodních domů",
+        "entity_b": "bývalý prezident Richard Nixon",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "u společnosti Mitsukoshi Ltd . , jednoho z předních japonských obchodních domů"
+    },
+    {
+      "id": 425,
+      "doc": "wsj1737",
+      "variables": {
+        "entity_a": "nový trh",
+        "entity_b": "Chicagská obchodní komora",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "nový trh"
+    },
+    {
+      "id": 426,
+      "doc": "wsj1267",
+      "variables": {
+        "entity_a": "své klienty",
+        "entity_b": "konzultanti",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "své klienty"
+    },
+    {
+      "id": 427,
+      "doc": "wsj1844",
+      "variables": {
+        "entity_a": "newyorským reklamním ředitelem Jerrym Dellou Feminou",
+        "entity_b": "Timu Breenemu , bývalému výkonnému řediteli společnosti WCRS , který bude v nové agentuře výkonným ředitelem",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "newyorským reklamním ředitelem Jerrym Dellou Feminou"
+    },
+    {
+      "id": 428,
+      "doc": "wsj0116",
+      "variables": {
+        "entity_a": "Kupec , který se rozhodne , že na místo určení on poletí",
+        "entity_b": "při maloobchodních prodejích , kde společnost očekává většinu svého budoucího růstu",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Kupec , který se rozhodne , že na místo určení on poletí"
+    },
+    {
+      "id": 429,
+      "doc": "wsj2112",
+      "variables": {
+        "entity_a": "našeho",
+        "entity_b": "Capa Weinbergera",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "našeho"
+    },
+    {
+      "id": 430,
+      "doc": "wsj0666",
+      "variables": {
+        "entity_a": "Společnost International Paper",
+        "entity_b": "spotřebitelsky orientované papírenské společnosti , které nakupují celulózu od výrobců tohoto polotovaru a měly by těžit z očekávaného snížení cen celulózy",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Společnost International Paper"
+    },
+    {
+      "id": 431,
+      "doc": "wsj2013",
+      "variables": {
+        "entity_a": "do Washingtonu",
+        "entity_b": "Dříve jsme mu na ministerstvu zahraničí říkali plukovník k pronájmu",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "do Washingtonu"
+    },
+    {
+      "id": 432,
+      "doc": "wsj0278",
+      "variables": {
+        "entity_a": "Společnosti Time Warner Inc . a Sony Corp .",
+        "entity_b": "společnosti Warner",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Společnosti Time Warner Inc . a Sony Corp ."
+    },
+    {
+      "id": 433,
+      "doc": "wsj0328",
+      "variables": {
+        "entity_a": "byl jako konečný termín někým stanoven 30 . listopad , po kterém by se jejich návrh zákona stal posledním slovem v tom , jak budou finanční prostředky někým přerozděleny",
+        "entity_b": "návrh zákona na fiskální rok 1990 na téměř 67 miliard dolarů , který zahrnuje první finanční prostředky na výstavbu orbitální stanice",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "byl jako konečný termín někým stanoven 30 . listopad , po kterém by se jejich návrh zákona stal posledním slovem v tom , jak budou finanční prostředky někým přerozděleny"
+    },
+    {
+      "id": 434,
+      "doc": "wsj2112",
+      "variables": {
+        "entity_a": "Ducha George Marshalla",
+        "entity_b": "tři nové armádní divize",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Ducha George Marshalla"
+    },
+    {
+      "id": 435,
+      "doc": "wsj0455",
+      "variables": {
+        "entity_a": "rozhodnutí newyorského soudu o tom , že výrobci léku , který byl kdysi používán jako prevence samovolných potratů , musí sdílet zodpovědnost za újmu na zdraví či úmrtí , pokud není známo , kdo zhotovil danou dávku",
+        "entity_b": "Johna Laveryho , bývalého viceprezidenta společnosti Beech - Nut Nutrition Corp . , jednotky společnosti Nestle S . A .",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "rozhodnutí newyorského soudu o tom , že výrobci léku , který byl kdysi používán jako prevence samovolných potratů , musí sdílet zodpovědnost za újmu na zdraví či úmrtí , pokud není známo , kdo zhotovil danou dávku"
+    },
+    {
+      "id": 436,
+      "doc": "wsj0987",
+      "variables": {
+        "entity_a": "Předseda Komise pro regulaci prodeje cenných papírů ( SEC ) Richard Breeden",
+        "entity_b": "Komise pro regulaci prodeje cenných papírů ( SEC )",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Předseda Komise pro regulaci prodeje cenných papírů ( SEC ) Richard Breeden"
+    },
+    {
+      "id": 437,
+      "doc": "wsj2112",
+      "variables": {
+        "entity_a": "prezident Carter",
+        "entity_b": "námořnictva",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "prezident Carter"
+    },
+    {
+      "id": 438,
+      "doc": "wsj0640",
+      "variables": {
+        "entity_a": "na západě",
+        "entity_b": "Obchody , které prodávají luxusnější zboží dlouhodobé spotřeby",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "na západě"
+    },
+    {
+      "id": 439,
+      "doc": "wsj1831",
+      "variables": {
+        "entity_a": "mladšího bratra Jacka , který si připadá trochu jako buřičský umělec , on žije v podkroví se svým nemocným psem a občas jej navštěvuje malé děvče z horního poschodí , které slézá po požárním schodišti",
+        "entity_b": "Mladý spisovatel a režisér Steve Kloves ( ještě mu není 30 let )",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "mladšího bratra Jacka , který si připadá trochu jako buřičský umělec , on žije v podkroví se svým nemocným psem a občas jej navštěvuje malé děvče z horního poschodí , které slézá po požárním schodišti"
+    },
+    {
+      "id": 440,
+      "doc": "wsj1946",
+      "variables": {
+        "entity_a": "projektu za 2.5 miliardy plánovanému na manhattanské 42 . ulici",
+        "entity_b": "Důsledkem nemoci , jak Beebeovi on uvedli , oni přišli na mzdách a výdělcích o 1.8 milionu dolarů",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "projektu za 2.5 miliardy plánovanému na manhattanské 42 . ulici"
+    },
+    {
+      "id": 441,
+      "doc": "wsj0280",
+      "variables": {
+        "entity_a": "společnosti Borden Inc . , největšího národního producenta mléka",
+        "entity_b": "obchod s dámskými módními šperky",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "společnosti Borden Inc . , největšího národního producenta mléka"
+    },
+    {
+      "id": 442,
+      "doc": "wsj1307",
+      "variables": {
+        "entity_a": "ono vládní nařízení , které zakazuje nájemné vraždy",
+        "entity_b": "Prezident Spojených států",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ono vládní nařízení , které zakazuje nájemné vraždy"
+    },
+    {
+      "id": 443,
+      "doc": "wsj1512",
+      "variables": {
+        "entity_a": "Michael K . Evans , prezident společnosti Evans Economics Inc . ve Washingtonu",
+        "entity_b": "daným regionům",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Michael K . Evans , prezident společnosti Evans Economics Inc . ve Washingtonu"
+    },
+    {
+      "id": 444,
+      "doc": "wsj1827",
+      "variables": {
+        "entity_a": "společnosti Northrop",
+        "entity_b": "společnost General Dynamics",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "společnosti Northrop"
+    },
+    {
+      "id": 445,
+      "doc": "wsj0224",
+      "variables": {
+        "entity_a": "Společnost GM",
+        "entity_b": "Společnost Ford , která již drží nevítaný podíl 13.2 %",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Společnost GM"
+    },
+    {
+      "id": 446,
+      "doc": "wsj2207",
+      "variables": {
+        "entity_a": "návrh zákona , který by ministru dopravy dával právo posuzovat a schvalovat zadlužené odkupy velkých amerických aerolinek",
+        "entity_b": "ministru dopravy",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "návrh zákona , který by ministru dopravy dával právo posuzovat a schvalovat zadlužené odkupy velkých amerických aerolinek"
+    },
+    {
+      "id": 447,
+      "doc": "wsj1531",
+      "variables": {
+        "entity_a": "k odkupu",
+        "entity_b": "finanční ředitel John Pope , vedoucí pracovník společnosti UAL , který je nejtěsněji spojován s neúspěšným někým získáním bankovního financování",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "k odkupu"
+    },
+    {
+      "id": 448,
+      "doc": "wsj1743",
+      "variables": {
+        "entity_a": "ve Všeobecné dohodě o cenách a obchodu ( GATT )",
+        "entity_b": "Britský satirický časopis , Private Eye",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ve Všeobecné dohodě o cenách a obchodu ( GATT )"
+    },
+    {
+      "id": 449,
+      "doc": "wsj0972",
+      "variables": {
+        "entity_a": "Bruce Willise",
+        "entity_b": "drama , které se odehrává v každé domácnosti",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Bruce Willise"
+    },
+    {
+      "id": 450,
+      "doc": "wsj2043",
+      "variables": {
+        "entity_a": "trh s dluhopisy",
+        "entity_b": "po krátké přestávce , kdy byly nabídnuty dvě nové emise REMIC za celkem 850 milionů dolarů a hovořilo se o dalších dvou emisích , které by mohly být oceněny dnes",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "trh s dluhopisy"
+    },
+    {
+      "id": 451,
+      "doc": "wsj0449",
+      "variables": {
+        "entity_a": "Kidder , Peabody & Co . , jednotka společnosti General Electric Co . ( GE )",
+        "entity_b": "Wall Street",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Kidder , Peabody & Co . , jednotka společnosti General Electric Co . ( GE )"
+    },
+    {
+      "id": 452,
+      "doc": "wsj2205",
+      "variables": {
+        "entity_a": "hlavní ukazatel londýnského trhu - akciový index Financial Times - Stock Exchange 100",
+        "entity_b": "do kanceláře",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "hlavní ukazatel londýnského trhu - akciový index Financial Times - Stock Exchange 100"
+    },
+    {
+      "id": 453,
+      "doc": "wsj1022",
+      "variables": {
+        "entity_a": "UVĚZNĚNÝ AFROAMERICKÝ aktivista",
+        "entity_b": "na Ivana F . Boeskyho",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "UVĚZNĚNÝ AFROAMERICKÝ aktivista"
+    },
+    {
+      "id": 454,
+      "doc": "wsj0944",
+      "variables": {
+        "entity_a": "od Russella Millera",
+        "entity_b": "Hubbard , který zemřel v roce 1986",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "od Russella Millera"
+    },
+    {
+      "id": 455,
+      "doc": "wsj1057",
+      "variables": {
+        "entity_a": "NBC",
+        "entity_b": "Jeho strategie \" Velkých událostí",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "NBC"
+    },
+    {
+      "id": 456,
+      "doc": "wsj0450",
+      "variables": {
+        "entity_a": "bývalý kurátor Muzea kresleného umění ve městě Rye Brook ve státu New York",
+        "entity_b": "35 letý Robert Lawrence Trotter z Kennett Square ze státu Pensylvánie",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "bývalý kurátor Muzea kresleného umění ve městě Rye Brook ve státu New York"
+    },
+    {
+      "id": 457,
+      "doc": "wsj1506",
+      "variables": {
+        "entity_a": "pokynů stanovených pro případ řešení státních převratů a navržených v rámci tajné výměny dopisů mezi Reaganovou vládou a Senátním zpravodajským výborem v roce 1988",
+        "entity_b": "prezident Bush",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "pokynů stanovených pro případ řešení státních převratů a navržených v rámci tajné výměny dopisů mezi Reaganovou vládou a Senátním zpravodajským výborem v roce 1988"
+    },
+    {
+      "id": 458,
+      "doc": "wsj0629",
+      "variables": {
+        "entity_a": "strojírenské společnosti Larsen & Toubro Ltd .",
+        "entity_b": "premiér Rajiv Gándhí",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "strojírenské společnosti Larsen & Toubro Ltd ."
+    },
+    {
+      "id": 459,
+      "doc": "wsj1415",
+      "variables": {
+        "entity_a": "Komisi pro regulaci prodeje cenných papírů ( SEC )",
+        "entity_b": "Wall Street",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Komisi pro regulaci prodeje cenných papírů ( SEC )"
+    },
+    {
+      "id": 460,
+      "doc": "wsj1626",
+      "variables": {
+        "entity_a": "svaz pilotů",
+        "entity_b": "nabídku pro mateřskou firmu United Airlines",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "svaz pilotů"
+    },
+    {
+      "id": 461,
+      "doc": "wsj0931",
+      "variables": {
+        "entity_a": "čínští představitelé",
+        "entity_b": "po masakru demonstrantů za demokracii v Pekingu 4 . června",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "čínští představitelé"
+    },
+    {
+      "id": 462,
+      "doc": "wsj0532",
+      "variables": {
+        "entity_a": "firmy MTM Entertainment Inc . , losangelské produkční společnosti , na kterou dopadly těžké časy",
+        "entity_b": "Arthur Price",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "firmy MTM Entertainment Inc . , losangelské produkční společnosti , na kterou dopadly těžké časy"
+    },
+    {
+      "id": 463,
+      "doc": "wsj1154",
+      "variables": {
+        "entity_a": "českou sopranistku Gabrielu Beňačkovou",
+        "entity_b": "Japonsko",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "českou sopranistku Gabrielu Beňačkovou"
+    },
+    {
+      "id": 464,
+      "doc": "wsj0109",
+      "variables": {
+        "entity_a": "Herbert M . Baum , třiapadesátiletý prezident jednotky Cambell U . S . A . z této společnosti",
+        "entity_b": "Edwin L . Harper , 47 , šéf finančních pracovníků",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Herbert M . Baum , třiapadesátiletý prezident jednotky Cambell U . S . A . z této společnosti"
+    },
+    {
+      "id": 465,
+      "doc": "wsj0766",
+      "variables": {
+        "entity_a": "moje",
+        "entity_b": "pár důchodců v Oaklandu",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "moje"
+    },
+    {
+      "id": 466,
+      "doc": "wsj1692",
+      "variables": {
+        "entity_a": "nad spořitelní a úvěrovou společností",
+        "entity_b": "VRCHNÍ ČÍŠNICE ŽALUJE restauraci , že ji kvůli jejímu těhotenství oni propustili z práce",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "nad spořitelní a úvěrovou společností"
+    },
+    {
+      "id": 467,
+      "doc": "wsj0109",
+      "variables": {
+        "entity_a": "Správní rada",
+        "entity_b": "jednotky Cambell U . S . A . z této společnosti",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Správní rada"
+    },
+    {
+      "id": 468,
+      "doc": "wsj2167",
+      "variables": {
+        "entity_a": "právník obhajoby Tom Alexander",
+        "entity_b": "Houstonský advokát Dale Friend , který reprezentuje navrhovatele ve škodním případu",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "právník obhajoby Tom Alexander"
+    },
+    {
+      "id": 469,
+      "doc": "wsj0445",
+      "variables": {
+        "entity_a": "_ USA",
+        "entity_b": "Společnost Apple Computer Inc .",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "_ USA"
+    },
+    {
+      "id": 470,
+      "doc": "wsj0550",
+      "variables": {
+        "entity_a": "Whitley Strieber , jehož nový román \" Majestátní \" ( Putnam , 317 stran , 18.95 dolaru ) , se zaobírá havárií UFA hlášenou v roce 1947 blízko Roswellovy armádní letecké základny v poušti Nového Mexika",
+        "entity_b": "Jimmy Carter",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Whitley Strieber , jehož nový román \" Majestátní \" ( Putnam , 317 stran , 18.95 dolaru ) , se zaobírá havárií UFA hlášenou v roce 1947 blízko Roswellovy armádní letecké základny v poušti Nového Mexika"
+    },
+    {
+      "id": 471,
+      "doc": "wsj0283",
+      "variables": {
+        "entity_a": "Brazilský finančník Naji Nahas , který byl v pondělí dopaden po 102 dnech skrývání",
+        "entity_b": "zákon , který ukládá britským fotbalovým fanouškům nosit na stadiony průkazky",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Brazilský finančník Naji Nahas , který byl v pondělí dopaden po 102 dnech skrývání"
+    },
+    {
+      "id": 472,
+      "doc": "wsj1446",
+      "variables": {
+        "entity_a": "SPOLEČNOST DREXEL BURNHAM LAMBERT Inc .",
+        "entity_b": "zakladatel služby Telelawyer Michael Cane",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "SPOLEČNOST DREXEL BURNHAM LAMBERT Inc ."
+    },
+    {
+      "id": 473,
+      "doc": "wsj0465",
+      "variables": {
+        "entity_a": "genu s názvem p 53 , který při někoho poškození přemění zdravé buňky tlustého střeva v rakovinné",
+        "entity_b": "Bert Vogelstein , výzkumník na Univerzitě Johnse Hopkinse , který právě objevil klíčový gen pro vyvolání rakoviny tlustého střeva",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "genu s názvem p 53 , který při někoho poškození přemění zdravé buňky tlustého střeva v rakovinné"
+    },
+    {
+      "id": 474,
+      "doc": "wsj0589",
+      "variables": {
+        "entity_a": "společnost Procter & Gamble Co .",
+        "entity_b": "společnosti P & G a Unilever",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "společnost Procter & Gamble Co ."
+    },
+    {
+      "id": 475,
+      "doc": "wsj1376",
+      "variables": {
+        "entity_a": "nedávno zesnulého Andyho Warhola",
+        "entity_b": "nedávno zesnulá herečka Margaret Hamiltonová , která hrála zlou čarodějnici v \" Čaroději ze země Oz",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "nedávno zesnulého Andyho Warhola"
+    },
+    {
+      "id": 476,
+      "doc": "wsj2433",
+      "variables": {
+        "entity_a": "Fulbright & Jaworski z Houstonu a Fenerty , Robertson , Fraser & Hatch z Calgary , stát Alberta",
+        "entity_b": "Apple Computer Inc .",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Fulbright & Jaworski z Houstonu a Fenerty , Robertson , Fraser & Hatch z Calgary , stát Alberta"
+    },
+    {
+      "id": 477,
+      "doc": "wsj1692",
+      "variables": {
+        "entity_a": "nad spořitelní a úvěrovou společností",
+        "entity_b": "federální regulátoři záložen",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "nad spořitelní a úvěrovou společností"
+    },
+    {
+      "id": 478,
+      "doc": "wsj1331",
+      "variables": {
+        "entity_a": "Charles A . Donohoo , jediný vlastník demoliční společnosti z Louisville v Kentucky",
+        "entity_b": "tři obžalovaní",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Charles A . Donohoo , jediný vlastník demoliční společnosti z Louisville v Kentucky"
+    },
+    {
+      "id": 479,
+      "doc": "wsj1654",
+      "variables": {
+        "entity_a": "především v prosinci",
+        "entity_b": "obchodům",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "především v prosinci"
+    },
+    {
+      "id": 480,
+      "doc": "wsj0569",
+      "variables": {
+        "entity_a": "Dennis O ' Brien , finanční ředitel společnosti Commonwealth Edison Co . z Chicaga",
+        "entity_b": "obor předpovědí",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Dennis O ' Brien , finanční ředitel společnosti Commonwealth Edison Co . z Chicaga"
+    },
+    {
+      "id": 481,
+      "doc": "wsj0475",
+      "variables": {
+        "entity_a": "Podle jednoho zdroje",
+        "entity_b": "oni zvážili i jiné možnosti",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Podle jednoho zdroje"
+    },
+    {
+      "id": 482,
+      "doc": "wsj1550",
+      "variables": {
+        "entity_a": "do \" těžké \" vody , ve které se nachází atomy vodíku ve dvojnásobně těžké formě , která je známá jako deuterium",
+        "entity_b": "nadbytečné teplo",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "do \" těžké \" vody , ve které se nachází atomy vodíku ve dvojnásobně těžké formě , která je známá jako deuterium"
+    },
+    {
+      "id": 483,
+      "doc": "wsj0003",
+      "variables": {
+        "entity_a": "před více než 30 lety",
+        "entity_b": "dovezeného materiálu",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "před více než 30 lety"
+    },
+    {
+      "id": 484,
+      "doc": "wsj2151",
+      "variables": {
+        "entity_a": "letiště v Shannon",
+        "entity_b": "Stanislava Ovcharenka , který zde zastupuje Sovětskou leteckou společnost Aeroflot",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "letiště v Shannon"
+    },
+    {
+      "id": 485,
+      "doc": "wsj1065",
+      "variables": {
+        "entity_a": "na rok 1989 , který je velmi bouřlivý",
+        "entity_b": "Peter Lieb , asistent státního zástupce , který případ šetřil",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "na rok 1989 , který je velmi bouřlivý"
+    },
+    {
+      "id": 486,
+      "doc": "wsj1457",
+      "variables": {
+        "entity_a": "pro starostu Edwarda Kocha , poraženého Dinkinsem v demokratických primárkách 12 . září",
+        "entity_b": "jako starosta obvodu Manhattan",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "pro starostu Edwarda Kocha , poraženého Dinkinsem v demokratických primárkách 12 . září"
+    },
+    {
+      "id": 487,
+      "doc": "wsj1696",
+      "variables": {
+        "entity_a": "z poplatků , které bude Federálnímu úřadu pro vyšetřování platit za služby někým snímání otisků prstů v občanskoprávních případech - změna , která téměř jistě zvýší náklady Pentagonu na zpracovávání personálních a bezpečnostních povolení",
+        "entity_b": "New Hampshire",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "z poplatků , které bude Federálnímu úřadu pro vyšetřování platit za služby někým snímání otisků prstů v občanskoprávních případech - změna , která téměř jistě zvýší náklady Pentagonu na zpracovávání personálních a bezpečnostních povolení"
+    },
+    {
+      "id": 488,
+      "doc": "wsj2112",
+      "variables": {
+        "entity_a": "Ikův duch",
+        "entity_b": "s Rusy",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Ikův duch"
+    },
+    {
+      "id": 489,
+      "doc": "wsj0118",
+      "variables": {
+        "entity_a": "v Chicagu",
+        "entity_b": "Obchodníci , zabývající se programovým obchodováním",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "v Chicagu"
+    },
+    {
+      "id": 490,
+      "doc": "wsj1831",
+      "variables": {
+        "entity_a": "Mladý spisovatel a režisér Steve Kloves ( ještě mu není 30 let )",
+        "entity_b": "Beau",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Mladý spisovatel a režisér Steve Kloves ( ještě mu není 30 let )"
+    },
+    {
+      "id": 491,
+      "doc": "wsj1057",
+      "variables": {
+        "entity_a": "sportovní televizní stanice ESPN",
+        "entity_b": "Ano , oni někoho jsou",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sportovní televizní stanice ESPN"
+    },
+    {
+      "id": 492,
+      "doc": "wsj0633",
+      "variables": {
+        "entity_a": "nepravidelně vysílaného seriálu , který vytváří Sid Feders a on jmenuje se \" Yesterday , Today and Tomorrow ( Včera , dnes a zítra ) \" , kde září Maria Shriverová , Chuck Scarborough a Mary Alice Williamsová a který také dává hercům práci",
+        "entity_b": "sestřih sestavený z kousků rozhovorů , který sestavila společnost CBS News , aby by ona mohla rekonstruovat tuto událost , kde herec dramaticky ztvárnil Hoffmannův neúspěšný zápas s depresí v závěru života",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "nepravidelně vysílaného seriálu , který vytváří Sid Feders a on jmenuje se \" Yesterday , Today and Tomorrow ( Včera , dnes a zítra ) \" , kde září Maria Shriverová , Chuck Scarborough a Mary Alice Williamsová a který také dává hercům práci"
+    },
+    {
+      "id": 493,
+      "doc": "wsj1819",
+      "variables": {
+        "entity_a": "Společnost Bally Manufacturing Corp .",
+        "entity_b": "Saula Steinberga",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Společnost Bally Manufacturing Corp ."
+    },
+    {
+      "id": 494,
+      "doc": "wsj0971",
+      "variables": {
+        "entity_a": "Společnost Brooks Armored Car Service Inc .",
+        "entity_b": "mince v hodnotě 4 miliony dolarů",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Společnost Brooks Armored Car Service Inc ."
+    },
+    {
+      "id": 495,
+      "doc": "wsj1626",
+      "variables": {
+        "entity_a": "navrhovaného odkupu společnosti UAL Corp .",
+        "entity_b": "společnosti UAL Corp .",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "navrhovaného odkupu společnosti UAL Corp ."
+    },
+    {
+      "id": 496,
+      "doc": "wsj2232",
+      "variables": {
+        "entity_a": "z pátečního propadu o 190.58 bodu",
+        "entity_b": "z pátku , kdy termínové obchody akciového indexu Standard & Poor ' s 500 uzavíraly na nižší ceně než akcie",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "z pátečního propadu o 190.58 bodu"
+    },
+    {
+      "id": 497,
+      "doc": "wsj2406",
+      "variables": {
+        "entity_a": "Maďarského rádia",
+        "entity_b": "jeden spisovatel",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Maďarského rádia"
+    },
+    {
+      "id": 498,
+      "doc": "wsj0267",
+      "variables": {
+        "entity_a": "okresu Cambria",
+        "entity_b": "v 80 stránkové zprávě velké poroty , která byla někým předána státnímu zástupci",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "okresu Cambria"
+    },
+    {
+      "id": 499,
+      "doc": "wsj0617",
+      "variables": {
+        "entity_a": "společnost General Electric Co .",
+        "entity_b": "státní advokátní komora",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "společnost General Electric Co ."
+    },
+    {
+      "id": 500,
+      "doc": "wsj0296",
+      "variables": {
+        "entity_a": "Amerika",
+        "entity_b": "pro Japonsko",
+        "text": "more_czech_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Amerika"
+    }
+  ]
+}

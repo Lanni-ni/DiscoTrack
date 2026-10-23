@@ -1,0 +1,5507 @@
+{
+  "task": "entity_more",
+  "lang": "spanish",
+  "example_prompt": "Which entity is mentioned more often in the text, {entity_a} or {entity_b}?",
+  "instances": [
+    {
+      "id": 1,
+      "doc": "CESS-CAST-AA-20000411-8725",
+      "variables": {
+        "entity_a": "las reformas políticas de el presidente , Ricardo Lagos ,",
+        "entity_b": "presidente , Ricardo Lagos ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "las reformas políticas de el presidente , Ricardo Lagos ,"
+    },
+    {
+      "id": 2,
+      "doc": "CESS-CAST-AA-20001025-20686",
+      "variables": {
+        "entity_a": "el naufragado submarino nuclear \" Kursk \"",
+        "entity_b": "Los buzos ocupados en el rescate de los marinos muertos en el naufragado submarino nuclear \" Kursk \"",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el naufragado submarino nuclear \" Kursk \""
+    },
+    {
+      "id": 3,
+      "doc": "CESS-CAST-AA-20001025-20686",
+      "variables": {
+        "entity_a": "Los buzos ocupados en el rescate de los marinos muertos en el naufragado submarino nuclear \" Kursk \"",
+        "entity_b": "Un submarinista ruso",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Los buzos ocupados en el rescate de los marinos muertos en el naufragado submarino nuclear \" Kursk \""
+    },
+    {
+      "id": 4,
+      "doc": "CESS-CAST-AA-20000911-7726",
+      "variables": {
+        "entity_a": "la ministra de Comercio Exterior de Colombia , Marta Lucía Ramírez , quien señaló que su país esperará los 90 días con los que cuenta Venezuela para acatar el fallo de el máximo tribunal regional , que vence a mediados de noviembre",
+        "entity_b": "el fallo de el Tribunal Andino de Justicia que declaró ilegal la decisión que Venezuela adoptó para restringir el transporte internacional de carga por carretera",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la ministra de Comercio Exterior de Colombia , Marta Lucía Ramírez , quien señaló que su país esperará los 90 días con los que cuenta Venezuela para acatar el fallo de el máximo tribunal regional , que vence a mediados de noviembre"
+    },
+    {
+      "id": 5,
+      "doc": "CESS-CAST-P-20020501-137",
+      "variables": {
+        "entity_a": "Ernest Lluch , ex ministro socialista asesinado por ETA el 20 de noviembre de el 2000",
+        "entity_b": "El pianista Joaquín Achúcarro",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Ernest Lluch , ex ministro socialista asesinado por ETA el 20 de noviembre de el 2000"
+    },
+    {
+      "id": 6,
+      "doc": "CESS-CAST-A-20000322-18381",
+      "variables": {
+        "entity_a": "Los dobles campeones de la Serie Mundial , los Yanquis de Nueva York ,",
+        "entity_b": "el todopoderoso dueño de los Yanquis , George Steinbrenner ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Los dobles campeones de la Serie Mundial , los Yanquis de Nueva York ,"
+    },
+    {
+      "id": 7,
+      "doc": "CESS-CAST-P-20000903-36",
+      "variables": {
+        "entity_a": "Josep Piqué",
+        "entity_b": "el noveno congreso de el partido , que se celebrará los próximos días 16 y 17 en Barcelona ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Josep Piqué"
+    },
+    {
+      "id": 8,
+      "doc": "CESS-CAST-AA-20000209-7453",
+      "variables": {
+        "entity_a": "la corona británica",
+        "entity_b": "el ex ministro principal Joe Bossano",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la corona británica"
+    },
+    {
+      "id": 9,
+      "doc": "CESS-CAST-A-20000216-13241",
+      "variables": {
+        "entity_a": "El jefe de la diplomacia alemana , el verde Joschka Fischer ,",
+        "entity_b": "la \" gran Europa",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El jefe de la diplomacia alemana , el verde Joschka Fischer ,"
+    },
+    {
+      "id": 10,
+      "doc": "CESS-CAST-A-20001121-16182",
+      "variables": {
+        "entity_a": "FC Barcelona",
+        "entity_b": "El entrenador de el FC Barcelona , el mallorquín Llorenc Serra Ferrer ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "FC Barcelona"
+    },
+    {
+      "id": 11,
+      "doc": "CESS-CAST-P-20010701-38",
+      "variables": {
+        "entity_a": "los Rolling Stones",
+        "entity_b": "su propio grupo , los modestos The Rhythm Kings ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "los Rolling Stones"
+    },
+    {
+      "id": 12,
+      "doc": "CESS-CAST-A-20000918-13853",
+      "variables": {
+        "entity_a": "el Hamburgo",
+        "entity_b": "Deportivo",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el Hamburgo"
+    },
+    {
+      "id": 13,
+      "doc": "CESS-CAST-AA-20000630-25185",
+      "variables": {
+        "entity_a": "el aeropuerto de Palma , donde los chicos esperaron trece horas hasta que la empresa fletó otra aeronave",
+        "entity_b": "uno de ellos , Israel Jarabo ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el aeropuerto de Palma , donde los chicos esperaron trece horas hasta que la empresa fletó otra aeronave"
+    },
+    {
+      "id": 14,
+      "doc": "CESS-CAST-A-20000620-15780",
+      "variables": {
+        "entity_a": "Rusia",
+        "entity_b": "los líderes de la UE",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Rusia"
+    },
+    {
+      "id": 15,
+      "doc": "CESS-CAST-AA-20000525-20070",
+      "variables": {
+        "entity_a": "el entonces presidente y candidato a la reelección , José Luís Núñez ,",
+        "entity_b": "las firmas de socios",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el entonces presidente y candidato a la reelección , José Luís Núñez ,"
+    },
+    {
+      "id": 16,
+      "doc": "CESS-CAST-A-20000923-19111",
+      "variables": {
+        "entity_a": "El jefe de la Oficina de Seguridad Nacional y ministro de la Presidencia polaca , Marek Siwiec ,",
+        "entity_b": "presidente de la República Aleksander Kwasniewski , a el que acompañó el ministro Siwiec",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El jefe de la Oficina de Seguridad Nacional y ministro de la Presidencia polaca , Marek Siwiec ,"
+    },
+    {
+      "id": 17,
+      "doc": "CESS-CAST-AA-20000207-5606",
+      "variables": {
+        "entity_a": "la Compañía Riograndense de Telecomunicaciones ( CRT )",
+        "entity_b": "Telefónica",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la Compañía Riograndense de Telecomunicaciones ( CRT )"
+    },
+    {
+      "id": 18,
+      "doc": "CESS-CAST-A-20000923-18964",
+      "variables": {
+        "entity_a": "Barbara Blatter , que regresará a Suiza con una medalla de plata",
+        "entity_b": "la italiana Paola Pezzo , ganadora en Atlanta ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Barbara Blatter , que regresará a Suiza con una medalla de plata"
+    },
+    {
+      "id": 19,
+      "doc": "CESS-CAST-A-20000416-12803",
+      "variables": {
+        "entity_a": "Deportivo de La Coruña",
+        "entity_b": "Real Madrid",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Deportivo de La Coruña"
+    },
+    {
+      "id": 20,
+      "doc": "CESS-CAST-AA-20001025-20686",
+      "variables": {
+        "entity_a": "los primeros tres cadáveres de tripulantes",
+        "entity_b": "octavo compartimento de el submarino",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "los primeros tres cadáveres de tripulantes"
+    },
+    {
+      "id": 21,
+      "doc": "CESS-CAST-AA-20000706-4398",
+      "variables": {
+        "entity_a": "las autoridades colombianas",
+        "entity_b": "la efectividad de ese hongo herbicida",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "las autoridades colombianas"
+    },
+    {
+      "id": 22,
+      "doc": "CESS-CAST-P-19990701-7",
+      "variables": {
+        "entity_a": "Partido Andalucista ( PA )",
+        "entity_b": "El Pueblo de Ceuta",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Partido Andalucista ( PA )"
+    },
+    {
+      "id": 23,
+      "doc": "CESS-CAST-P-19991202-121_a",
+      "variables": {
+        "entity_a": "Carlos Sainz",
+        "entity_b": "Carlos Sainz y Didier Auriol",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Carlos Sainz"
+    },
+    {
+      "id": 24,
+      "doc": "CESS-CAST-A-20000320-15776",
+      "variables": {
+        "entity_a": "El Gobierno chino",
+        "entity_b": "independentista Chen Shui-bian",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El Gobierno chino"
+    },
+    {
+      "id": 25,
+      "doc": "CESS-CAST-A-20000416-12803",
+      "variables": {
+        "entity_a": "Real Madrid",
+        "entity_b": "el Athletic",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Real Madrid"
+    },
+    {
+      "id": 26,
+      "doc": "CESS-CAST-P-19991202-3",
+      "variables": {
+        "entity_a": "las calles de el centro de la ciudad , en especial un amplio perímetro alrededor de el centro de congresos",
+        "entity_b": "posibles sanciones comerciales por motivos laborales",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "las calles de el centro de la ciudad , en especial un amplio perímetro alrededor de el centro de congresos"
+    },
+    {
+      "id": 27,
+      "doc": "CESS-CAST-A-20000719-14827",
+      "variables": {
+        "entity_a": "el aumento de el precio externo , que va directamente a los productores ,",
+        "entity_b": "los mercados internacionales",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el aumento de el precio externo , que va directamente a los productores ,"
+    },
+    {
+      "id": 28,
+      "doc": "CESS-CAST-AA-20000407-5786",
+      "variables": {
+        "entity_a": "los críticos , parlamentarios liberales , conservadores e independientes ,",
+        "entity_b": "el ministro de el Interior , Néstor Martínez",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "los críticos , parlamentarios liberales , conservadores e independientes ,"
+    },
+    {
+      "id": 29,
+      "doc": "CESS-CAST-P-19991001-118",
+      "variables": {
+        "entity_a": "el monolítico equipo de Van Gaal",
+        "entity_b": "Arsenal",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el monolítico equipo de Van Gaal"
+    },
+    {
+      "id": 30,
+      "doc": "CESS-CAST-AA-20000309-7054",
+      "variables": {
+        "entity_a": "Honda",
+        "entity_b": "las escuderías McLaren-Mercedees y Ferrari",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Honda"
+    },
+    {
+      "id": 31,
+      "doc": "CESS-CAST-AA-20001004-2505",
+      "variables": {
+        "entity_a": "Belgrado",
+        "entity_b": "la policía",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Belgrado"
+    },
+    {
+      "id": 32,
+      "doc": "CESS-CAST-AA-20000207-5332",
+      "variables": {
+        "entity_a": "el Deportivo de La Coruña",
+        "entity_b": "El jugador de el Real Madrid Michel Salgado",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el Deportivo de La Coruña"
+    },
+    {
+      "id": 33,
+      "doc": "CESS-CAST-A-20000416-12432",
+      "variables": {
+        "entity_a": "La empresa Iber-X , que ha implantado en España una \" bolsa \" de telecomunicaciones a través de Internet ,",
+        "entity_b": "una \" bolsa \" de telecomunicaciones",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "La empresa Iber-X , que ha implantado en España una \" bolsa \" de telecomunicaciones a través de Internet ,"
+    },
+    {
+      "id": 34,
+      "doc": "CESS-CAST-P-20020202-1",
+      "variables": {
+        "entity_a": "la mujer rescatada bajo un sofá nueve horas después",
+        "entity_b": "la goma de la cocina de el 2° 1ª de el número 92 de la calle de Eduard Toda",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la mujer rescatada bajo un sofá nueve horas después"
+    },
+    {
+      "id": 35,
+      "doc": "CESS-CAST-P-20001202-166",
+      "variables": {
+        "entity_a": "la Orquestra Simfònica de Barcelona i Nacional de Catalunya ( OBC )",
+        "entity_b": "el poema sinfónico de el mismo título que Richard Strauss compuso inspirando se en el legendario personaje de Cervantes que la Orquestra Simfònica de Barcelona i Nacional de Catalunya ( OBC ) ofrece este fin de semana en el Auditori ( hoy , a las siete de la tarde , y el domingo , a las once de la mañana )",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la Orquestra Simfònica de Barcelona i Nacional de Catalunya ( OBC )"
+    },
+    {
+      "id": 36,
+      "doc": "CESS-CAST-P-19990501-125",
+      "variables": {
+        "entity_a": "técnico que más partidos ha dirigido en Primera División",
+        "entity_b": "Deportivo",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "técnico que más partidos ha dirigido en Primera División"
+    },
+    {
+      "id": 37,
+      "doc": "CESS-CAST-AA-20000629-23978",
+      "variables": {
+        "entity_a": "El alemán Michael Schumacher",
+        "entity_b": "los puntos",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El alemán Michael Schumacher"
+    },
+    {
+      "id": 38,
+      "doc": "CESS-CAST-P-20010302-155",
+      "variables": {
+        "entity_a": "San Martín de Elines , un pequeño pueblo de 27 habitantes de Cantabria - - en el que nació el productor - - , donde _ rodaron esta producción",
+        "entity_b": "las relaciones que _ tienen con una mujer de el lugar , con una prostituta rusa y dos forasteros que llegan a el pueblo y siembran la discordia",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "San Martín de Elines , un pequeño pueblo de 27 habitantes de Cantabria - - en el que nació el productor - - , donde _ rodaron esta producción"
+    },
+    {
+      "id": 39,
+      "doc": "CESS-CAST-AA-20000309-7642",
+      "variables": {
+        "entity_a": "Valencia",
+        "entity_b": "el Deportivo",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Valencia"
+    },
+    {
+      "id": 40,
+      "doc": "CESS-CAST-AA-20001025-20305",
+      "variables": {
+        "entity_a": "su Partido Socialista Serbio ( SPS )",
+        "entity_b": "ex presidente federal yugoslavo Slobodan Milosevic",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "su Partido Socialista Serbio ( SPS )"
+    },
+    {
+      "id": 41,
+      "doc": "CESS-CAST-P-19990701-130",
+      "variables": {
+        "entity_a": "Josep Puigbó , editor de el Telenotícies migdia de TV-3 , noticiario que _ copresenta con Montse Jené ,",
+        "entity_b": "la cadena de radio Ona Catalana , de la que _ es uno de sus directivos",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Josep Puigbó , editor de el Telenotícies migdia de TV-3 , noticiario que _ copresenta con Montse Jené ,"
+    },
+    {
+      "id": 42,
+      "doc": "CESS-CAST-AA-20000310-8222",
+      "variables": {
+        "entity_a": "el margen minorista",
+        "entity_b": "el precio en origen",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el margen minorista"
+    },
+    {
+      "id": 43,
+      "doc": "CESS-CAST-A-20000522-17235",
+      "variables": {
+        "entity_a": "Canadá",
+        "entity_b": "( OMC )",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Canadá"
+    },
+    {
+      "id": 44,
+      "doc": "CESS-CAST-AA-20000930-26133",
+      "variables": {
+        "entity_a": "la oposición",
+        "entity_b": "Vojislav Kostunica",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la oposición"
+    },
+    {
+      "id": 45,
+      "doc": "CESS-CAST-A-20000217-13959",
+      "variables": {
+        "entity_a": "Espanyol",
+        "entity_b": "las semifinales",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Espanyol"
+    },
+    {
+      "id": 46,
+      "doc": "CESS-CAST-A-20000516-11811",
+      "variables": {
+        "entity_a": "su cédula de identidad",
+        "entity_b": "Wilfredo Alemany , portavoz de la JCE , organizadora de los comicios ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "su cédula de identidad"
+    },
+    {
+      "id": 47,
+      "doc": "CESS-CAST-A-20000322-18381",
+      "variables": {
+        "entity_a": "el todopoderoso dueño de los Yanquis , George Steinbrenner ,",
+        "entity_b": "la joven promesa Ed Yarnall , el lanzador zurdo de 24 años , que llegó para ser el quinto abridor de el equipo después de la marcha de el japonés Hideki Irabu y _ ha fallado",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el todopoderoso dueño de los Yanquis , George Steinbrenner ,"
+    },
+    {
+      "id": 48,
+      "doc": "CESS-CAST-P-20010502-149",
+      "variables": {
+        "entity_a": "Valencia",
+        "entity_b": "Héctor Cúper",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Valencia"
+    },
+    {
+      "id": 49,
+      "doc": "CESS-CAST-AA-20001025-20305",
+      "variables": {
+        "entity_a": "nuevo Gobierno de transición pactado el Martes por las tres principales fuerzas políticas serbias",
+        "entity_b": "Serbia",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "nuevo Gobierno de transición pactado el Martes por las tres principales fuerzas políticas serbias"
+    },
+    {
+      "id": 50,
+      "doc": "CESS-CAST-P-19981201-117",
+      "variables": {
+        "entity_a": "el entrenador",
+        "entity_b": "Núñez",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el entrenador"
+    },
+    {
+      "id": 51,
+      "doc": "CESS-CAST-A-20001120-15355",
+      "variables": {
+        "entity_a": "este nuevo escrutinio , que puede prolongar se hasta el próximo 1 de diciembre , según las autoridades electorales de el condado",
+        "entity_b": "Miami-Dade , Broward y Palm Beach",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "este nuevo escrutinio , que puede prolongar se hasta el próximo 1 de diciembre , según las autoridades electorales de el condado"
+    },
+    {
+      "id": 52,
+      "doc": "CESS-CAST-A-20000121-14635",
+      "variables": {
+        "entity_a": "el Gobierno",
+        "entity_b": "el 9 de enero , cuando se anunció esta medida ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el Gobierno"
+    },
+    {
+      "id": 53,
+      "doc": "CESS-CAST-P-19990201-30",
+      "variables": {
+        "entity_a": "partido",
+        "entity_b": "Aznar",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "partido"
+    },
+    {
+      "id": 54,
+      "doc": "CESS-CAST-P-20000903-36",
+      "variables": {
+        "entity_a": "Catalunya",
+        "entity_b": "centro catalanista",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Catalunya"
+    },
+    {
+      "id": 55,
+      "doc": "CESS-CAST-P-20000801-73",
+      "variables": {
+        "entity_a": "inminentes recursos ante los tribunales administrativos",
+        "entity_b": "ocho compañías petrolíferas",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "inminentes recursos ante los tribunales administrativos"
+    },
+    {
+      "id": 56,
+      "doc": "CESS-CAST-A-20000313-10646",
+      "variables": {
+        "entity_a": "El nuevo presidente chileno , Ricardo Lagos ,",
+        "entity_b": "José María Aznar",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El nuevo presidente chileno , Ricardo Lagos ,"
+    },
+    {
+      "id": 57,
+      "doc": "CESS-CAST-P-20000102-17",
+      "variables": {
+        "entity_a": "el Parlament",
+        "entity_b": "grupo PSC-Ciutadans pel Canvi",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el Parlament"
+    },
+    {
+      "id": 58,
+      "doc": "CESS-CAST-AA-20000427-19695",
+      "variables": {
+        "entity_a": "las políticas de ajuste",
+        "entity_b": "Fondo Monetario Internacional ( FMI ) que exige profundos ajustes fiscales y reformas estructurales",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "las políticas de ajuste"
+    },
+    {
+      "id": 59,
+      "doc": "CESS-CAST-P-20020801-17",
+      "variables": {
+        "entity_a": "el PNV",
+        "entity_b": "Xabier Arzalluz",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el PNV"
+    },
+    {
+      "id": 60,
+      "doc": "CESS-CAST-A-20000416-12803",
+      "variables": {
+        "entity_a": "Deportivo de La Coruña",
+        "entity_b": "campeonato",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Deportivo de La Coruña"
+    },
+    {
+      "id": 61,
+      "doc": "CESS-CAST-AA-20000627-21758",
+      "variables": {
+        "entity_a": "La ministra mexicana de Asuntos Exteriores , Rosario Green ,",
+        "entity_b": "anexo de el código , en el que se señalaba que los Estados firmantes se comprometían a hacer cumplir todos los puntos de el documento de las directrices , más \" las materias relacionadas con las directrices \"",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "La ministra mexicana de Asuntos Exteriores , Rosario Green ,"
+    },
+    {
+      "id": 62,
+      "doc": "CESS-CAST-A-20000518-13973",
+      "variables": {
+        "entity_a": "la Catedral de San Bavón",
+        "entity_b": "mundo",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la Catedral de San Bavón"
+    },
+    {
+      "id": 63,
+      "doc": "CESS-CAST-AA-20000226-21954",
+      "variables": {
+        "entity_a": "El Deportivo",
+        "entity_b": "el Mallorca , un rival que según su técnico Javier Irureta , \" tiene en Diego Tristán un hombre que le está resolviendo los partidos \" , aunque _ negó que _ tenga pensado un marcaje individual para frenar lo",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El Deportivo"
+    },
+    {
+      "id": 64,
+      "doc": "CESS-CAST-A-20001013-10127",
+      "variables": {
+        "entity_a": "el naufragio de el submarino nuclear \" Kursk \"",
+        "entity_b": "Iliá Klebánov , viceprimer ministro y presidente de la comisión gubernamental ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el naufragio de el submarino nuclear \" Kursk \""
+    },
+    {
+      "id": 65,
+      "doc": "CESS-CAST-AA-20000327-21717",
+      "variables": {
+        "entity_a": "club",
+        "entity_b": "el presidente donostiarra , Luis Uranga",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "club"
+    },
+    {
+      "id": 66,
+      "doc": "CESS-CAST-AA-20000309-7642",
+      "variables": {
+        "entity_a": "El defensa de el Valencia Joachim Bjorklund",
+        "entity_b": "Valencia",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El defensa de el Valencia Joachim Bjorklund"
+    },
+    {
+      "id": 67,
+      "doc": "CESS-CAST-AA-20000428-20613",
+      "variables": {
+        "entity_a": "el candidato presidencial Alejandro Toledo , quien dejó abierta la posibilidad de que en un gobierno suyo se revise el proceso judicial contra la terrorista estadounidense Lori Berenson",
+        "entity_b": "la terrorista estadounidense Lori Berenson",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el candidato presidencial Alejandro Toledo , quien dejó abierta la posibilidad de que en un gobierno suyo se revise el proceso judicial contra la terrorista estadounidense Lori Berenson"
+    },
+    {
+      "id": 68,
+      "doc": "CESS-CAST-A-20000518-13973",
+      "variables": {
+        "entity_a": "el Ayuntamiento de esta ciudad medieval",
+        "entity_b": "la primera visita de Estado que hicieron Don Juan Carlos y Doña Sofía a Bélgica en 1977",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el Ayuntamiento de esta ciudad medieval"
+    },
+    {
+      "id": 69,
+      "doc": "CESS-CAST-A-20000618-14332",
+      "variables": {
+        "entity_a": "las Fuerzas Armadas de Estados Unidos",
+        "entity_b": "el director de el experimento , Shane Deichman ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "las Fuerzas Armadas de Estados Unidos"
+    },
+    {
+      "id": 70,
+      "doc": "CESS-CAST-A-20000215-11977",
+      "variables": {
+        "entity_a": "el Gobierno",
+        "entity_b": "los planes de el BBVA y Telefónica de firmar una alianza estratégica",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el Gobierno"
+    },
+    {
+      "id": 71,
+      "doc": "CESS-CAST-AA-20000604-2970",
+      "variables": {
+        "entity_a": "El Getafe",
+        "entity_b": "su equipo",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El Getafe"
+    },
+    {
+      "id": 72,
+      "doc": "CESS-CAST-A-20000518-13973",
+      "variables": {
+        "entity_a": "Carlos V",
+        "entity_b": "los laboratorios Innogenetics , una empresa puntera que desarrolla vacunas contra la hepatitis C , trabaja en desórdenes genéticos , así como en reconstrucciones de tejido y en la detección de enfermedades neurodegenerativas como el Alzheimer",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Carlos V"
+    },
+    {
+      "id": 73,
+      "doc": "CESS-CAST-A-20000816-10242",
+      "variables": {
+        "entity_a": "candidato de el partido a el que tradicionalmente pertenece su familia",
+        "entity_b": "la convención demócrata de Los Angeles , donde su hija Caroline apostó por renovar la \" nueva frontera \"",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "candidato de el partido a el que tradicionalmente pertenece su familia"
+    },
+    {
+      "id": 74,
+      "doc": "CESS-CAST-P-19991202-42",
+      "variables": {
+        "entity_a": "ETA",
+        "entity_b": "ambos presidentes",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ETA"
+    },
+    {
+      "id": 75,
+      "doc": "CESS-CAST-P-19990302-79",
+      "variables": {
+        "entity_a": "coche",
+        "entity_b": "La sentencia de la juez de instrucción número 21 , María de el Carmen Suárez ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "coche"
+    },
+    {
+      "id": 76,
+      "doc": "CESS-CAST-AA-20000606-4842",
+      "variables": {
+        "entity_a": "Molinos",
+        "entity_b": "su entusiasta alcalde , Mateo Andrés ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Molinos"
+    },
+    {
+      "id": 77,
+      "doc": "CESS-CAST-AA-20000127-20018",
+      "variables": {
+        "entity_a": "Chile",
+        "entity_b": "el consorcio Aguas Metropolitanas",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Chile"
+    },
+    {
+      "id": 78,
+      "doc": "CESS-CAST-AA-20000525-20070",
+      "variables": {
+        "entity_a": "Sixte Cambra",
+        "entity_b": "La historia",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Sixte Cambra"
+    },
+    {
+      "id": 79,
+      "doc": "CESS-CAST-AA-20001030-24537",
+      "variables": {
+        "entity_a": "el Ayuntamiento",
+        "entity_b": "cambios y modificaciones sobre el expediente conocido \" por este órgano que no se mencionan ni quedan justificadas y que , a el no haber sido tramitadas , carecen de los informes preceptivos",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el Ayuntamiento"
+    },
+    {
+      "id": 80,
+      "doc": "CESS-CAST-P-20020202-1",
+      "variables": {
+        "entity_a": "la cocina de el 2° 1ª de el número 92 de la calle de Eduard Toda",
+        "entity_b": "las 24 afectadas",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la cocina de el 2° 1ª de el número 92 de la calle de Eduard Toda"
+    },
+    {
+      "id": 81,
+      "doc": "CESS-CAST-AA-20000626-21176",
+      "variables": {
+        "entity_a": "El estadounidense Pete Sampras",
+        "entity_b": "los españoles Alex Corretja y Albert Costa , que a su juicio se ha comportado como niños a el abandonar el torneo por discrepar de el sistema de elección de los cabezas de serie",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El estadounidense Pete Sampras"
+    },
+    {
+      "id": 82,
+      "doc": "CESS-CAST-A-20000418-14479",
+      "variables": {
+        "entity_a": "el ministro de Economía , José Luis Machinea",
+        "entity_b": "que los precios suban de acuerdo con la inflación de los Estados Unidos",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el ministro de Economía , José Luis Machinea"
+    },
+    {
+      "id": 83,
+      "doc": "CESS-CAST-A-20001019-15624",
+      "variables": {
+        "entity_a": "su proyecto de fusión",
+        "entity_b": "Iberdrola",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "su proyecto de fusión"
+    },
+    {
+      "id": 84,
+      "doc": "CESS-CAST-A-20000221-17317",
+      "variables": {
+        "entity_a": "la propuesta de aumentar de dos por mil a cuatro por mil el impuesto sobre transacciones bancarias , ya descartado por el Gobierno ,",
+        "entity_b": "Consejo Superior de Política Fiscal ( CONFIS )",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la propuesta de aumentar de dos por mil a cuatro por mil el impuesto sobre transacciones bancarias , ya descartado por el Gobierno ,"
+    },
+    {
+      "id": 85,
+      "doc": "CESS-CAST-A-20000416-12803",
+      "variables": {
+        "entity_a": "Real Madrid",
+        "entity_b": "Atlético de Madrid",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Real Madrid"
+    },
+    {
+      "id": 86,
+      "doc": "CESS-CAST-AA-20000510-7089",
+      "variables": {
+        "entity_a": "El meta internacional sueco de el Barcelona , Tomas Svensson , talismán de el Bidasoa en su etapa con el equipo de Irún , con el que _ logró la Copa de Europa y la Liga ASOBAL ( 1994/95 ) y \" bestia negra \" de el que hoy es su equipo ,",
+        "entity_b": "Bidasoa",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El meta internacional sueco de el Barcelona , Tomas Svensson , talismán de el Bidasoa en su etapa con el equipo de Irún , con el que _ logró la Copa de Europa y la Liga ASOBAL ( 1994/95 ) y \" bestia negra \" de el que hoy es su equipo ,"
+    },
+    {
+      "id": 87,
+      "doc": "CESS-CAST-A-20001203-1592",
+      "variables": {
+        "entity_a": "Spanair",
+        "entity_b": "El presidente de Spanair , Gonzalo Pascual ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Spanair"
+    },
+    {
+      "id": 88,
+      "doc": "CESS-CAST-A-20000413-10409",
+      "variables": {
+        "entity_a": "la Sociedad Estatal de Participaciones Industriales ( SEPI )",
+        "entity_b": "la Federación de el Metal de CCOO",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la Sociedad Estatal de Participaciones Industriales ( SEPI )"
+    },
+    {
+      "id": 89,
+      "doc": "CESS-CAST-P-20011002-168",
+      "variables": {
+        "entity_a": "la ciénaga ponzoñosa",
+        "entity_b": "mujeres",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la ciénaga ponzoñosa"
+    },
+    {
+      "id": 90,
+      "doc": "CESS-CAST-A-20001019-14943",
+      "variables": {
+        "entity_a": "La OTAN",
+        "entity_b": "un responsable aliado",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "La OTAN"
+    },
+    {
+      "id": 91,
+      "doc": "CESS-CAST-P-19990601-94",
+      "variables": {
+        "entity_a": "el primer trimestre de el año",
+        "entity_b": "Banco Central Europeo ( BCE )",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el primer trimestre de el año"
+    },
+    {
+      "id": 92,
+      "doc": "CESS-CAST-A-20000816-10242",
+      "variables": {
+        "entity_a": "su patriarca , el senador Edward Kennedy , hermano de John y de Robert Kennedy , también asesinado",
+        "entity_b": "John F. Kennedy",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "su patriarca , el senador Edward Kennedy , hermano de John y de Robert Kennedy , también asesinado"
+    },
+    {
+      "id": 93,
+      "doc": "CESS-CAST-A-20000522-17235",
+      "variables": {
+        "entity_a": "ambos países",
+        "entity_b": "los acuerdos bilaterales y multilaterales",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ambos países"
+    },
+    {
+      "id": 94,
+      "doc": "CESS-CAST-AA-20000209-7453",
+      "variables": {
+        "entity_a": "el Partido Social Demócrata ( GSD ) de Peter Caruana , que gobierna desde 1996",
+        "entity_b": "el denominado \" Plan Matutes \" ( en referencia a el ministro español de Exteriores , Abel Matutes ) , la oferta española de reconocer una autonomía especial a Gibraltar tras una etapa de soberanía compartida entre España y el Reino Unido",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el Partido Social Demócrata ( GSD ) de Peter Caruana , que gobierna desde 1996"
+    },
+    {
+      "id": 95,
+      "doc": "CESS-CAST-A-20000313-10646",
+      "variables": {
+        "entity_a": "El nuevo presidente chileno , Ricardo Lagos ,",
+        "entity_b": "el \" nítido \" resultado de las elecciones generales celebradas ayer , domingo , en España",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El nuevo presidente chileno , Ricardo Lagos ,"
+    },
+    {
+      "id": 96,
+      "doc": "CESS-CAST-A-20001013-10127",
+      "variables": {
+        "entity_a": "el naufragio de el submarino nuclear \" Kursk \"",
+        "entity_b": "una operación para rescatar los cadáveres",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el naufragio de el submarino nuclear \" Kursk \""
+    },
+    {
+      "id": 97,
+      "doc": "CESS-CAST-A-20001118-14149",
+      "variables": {
+        "entity_a": "Bill Clinton",
+        "entity_b": "la guerra",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Bill Clinton"
+    },
+    {
+      "id": 98,
+      "doc": "CESS-CAST-P-20010502-34",
+      "variables": {
+        "entity_a": "la coordinadora para el Desarrollo de los Pueblos Indígenas , Xóchitl Gálvez , la única funcionaria que había criticado la iniciativa",
+        "entity_b": "los legisladores",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la coordinadora para el Desarrollo de los Pueblos Indígenas , Xóchitl Gálvez , la única funcionaria que había criticado la iniciativa"
+    },
+    {
+      "id": 99,
+      "doc": "CESS-CAST-AA-20000310-8105",
+      "variables": {
+        "entity_a": "El candidato socialista , Joaquín Almunia ,",
+        "entity_b": "El candidato de el PP , José María Aznar ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El candidato socialista , Joaquín Almunia ,"
+    },
+    {
+      "id": 100,
+      "doc": "CESS-CAST-AA-20000427-20121",
+      "variables": {
+        "entity_a": "FC Barcelona",
+        "entity_b": "la Copa de el Rey",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "FC Barcelona"
+    },
+    {
+      "id": 101,
+      "doc": "CESS-CAST-AA-20000203-2698",
+      "variables": {
+        "entity_a": "El portavoz de el PSOE en la Comisión de Internet de el Senado , Josep Módol ,",
+        "entity_b": "una autoridad europea que arbitre y permita a la UE competir con los Estados Unidos",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El portavoz de el PSOE en la Comisión de Internet de el Senado , Josep Módol ,"
+    },
+    {
+      "id": 102,
+      "doc": "CESS-CAST-A-20000126-18483",
+      "variables": {
+        "entity_a": "Rusia",
+        "entity_b": "El ministro de Relaciones Exteriores de Cuba , Felipe Pérez Roque ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Rusia"
+    },
+    {
+      "id": 103,
+      "doc": "CESS-CAST-AA-20000128-20751",
+      "variables": {
+        "entity_a": "la empresa Chupa Chups , que lo adquirió ayer en subasta",
+        "entity_b": "PATSA , la filial de Grand Tibidabo que ha sido despojada de los activos ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la empresa Chupa Chups , que lo adquirió ayer en subasta"
+    },
+    {
+      "id": 104,
+      "doc": "CESS-CAST-P-20020402-101",
+      "variables": {
+        "entity_a": "equipo griego",
+        "entity_b": "Barça",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "equipo griego"
+    },
+    {
+      "id": 105,
+      "doc": "CESS-CAST-P-20000903-30",
+      "variables": {
+        "entity_a": "PSOE",
+        "entity_b": "Juan José Ibarretxe",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "PSOE"
+    },
+    {
+      "id": 106,
+      "doc": "CESS-CAST-P-20000701-134",
+      "variables": {
+        "entity_a": "Admiradores , familiares , políticos y representantes de la cultura",
+        "entity_b": "las numerosas flores y notas con todo tipo de mensajes que los visitantes dejaron a su paso",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Admiradores , familiares , políticos y representantes de la cultura"
+    },
+    {
+      "id": 107,
+      "doc": "CESS-CAST-P-19981202-78",
+      "variables": {
+        "entity_a": "los vehículos que _ robaba para perpetrar sus delitos",
+        "entity_b": "un barranco de el barrio barcelonés de el Carmel",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "los vehículos que _ robaba para perpetrar sus delitos"
+    },
+    {
+      "id": 108,
+      "doc": "CESS-CAST-A-20000416-12803",
+      "variables": {
+        "entity_a": "el Athletic",
+        "entity_b": "el Betis , ahora tercero por la cola",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el Athletic"
+    },
+    {
+      "id": 109,
+      "doc": "CESS-CAST-P-20011202-21",
+      "variables": {
+        "entity_a": "Habituar nos",
+        "entity_b": "que _ ayudemos en la tarea de cambiar la moneda , dando el cambio en euros",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Habituar nos"
+    },
+    {
+      "id": 110,
+      "doc": "CESS-CAST-AA-20000910-6697",
+      "variables": {
+        "entity_a": "Mariscal Antonio José de Sucre con quien _ organizó las batallas de independencia americana",
+        "entity_b": "un reducido ejército de curiosos y nostálgicos que se resistían a la desaparición de la moneda sustituida por el dólar",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Mariscal Antonio José de Sucre con quien _ organizó las batallas de independencia americana"
+    },
+    {
+      "id": 111,
+      "doc": "CESS-CAST-A-20001014-11084",
+      "variables": {
+        "entity_a": "la competición activa",
+        "entity_b": "1999 , una etapa que _ consideró única en todos los aspectos",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la competición activa"
+    },
+    {
+      "id": 112,
+      "doc": "CESS-CAST-A-20000423-17069",
+      "variables": {
+        "entity_a": "El Deportivo",
+        "entity_b": "la derrota de el Real Madrid frente a el Racing de Santander",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El Deportivo"
+    },
+    {
+      "id": 113,
+      "doc": "CESS-CAST-A-20000816-10242",
+      "variables": {
+        "entity_a": "John F. Kennedy",
+        "entity_b": "Bill Bradley , que luchó sin éxito por la candidatura demócrata a la presidencia",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "John F. Kennedy"
+    },
+    {
+      "id": 114,
+      "doc": "CESS-CAST-P-19981101-2",
+      "variables": {
+        "entity_a": "la Viagra",
+        "entity_b": "La Federación Nacional de Asociaciones de Lesionados Medulares ( Aspaym )",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la Viagra"
+    },
+    {
+      "id": 115,
+      "doc": "CESS-CAST-AA-20001107-4738",
+      "variables": {
+        "entity_a": "los trabajadores de los países candidatos con un empleo legal en un Estado miembro",
+        "entity_b": "el pronunciamiento sobre la contratación de jugadores nacionales de países candidatos a la adhesión a la Comunidad Europea emitido por la titular de Trabajo de la Comisión Europea , la griega Anna Diamantoupoulou ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "los trabajadores de los países candidatos con un empleo legal en un Estado miembro"
+    },
+    {
+      "id": 116,
+      "doc": "CESS-CAST-P-20000501-36",
+      "variables": {
+        "entity_a": "CiU",
+        "entity_b": "Catalunya",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "CiU"
+    },
+    {
+      "id": 117,
+      "doc": "CESS-CAST-AA-20000627-21758",
+      "variables": {
+        "entity_a": "el código de conducta para las multinacionales",
+        "entity_b": "México",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el código de conducta para las multinacionales"
+    },
+    {
+      "id": 118,
+      "doc": "CESS-CAST-AA-20000806-3818",
+      "variables": {
+        "entity_a": "Diego Alonso , delantero uruguayo de el Valencia ,",
+        "entity_b": "Héctor Cúper",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Diego Alonso , delantero uruguayo de el Valencia ,"
+    },
+    {
+      "id": 119,
+      "doc": "CESS-CAST-P-19990601-123",
+      "variables": {
+        "entity_a": "Pep Tosar",
+        "entity_b": "El montaje",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Pep Tosar"
+    },
+    {
+      "id": 120,
+      "doc": "CESS-CAST-P-19990202-102",
+      "variables": {
+        "entity_a": "país latinoamericano",
+        "entity_b": "El real",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "país latinoamericano"
+    },
+    {
+      "id": 121,
+      "doc": "CESS-CAST-P-20000903-34",
+      "variables": {
+        "entity_a": "El desafío de el Ejecutivo central",
+        "entity_b": "La incesante presión de el Ejecutivo",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El desafío de el Ejecutivo central"
+    },
+    {
+      "id": 122,
+      "doc": "CESS-CAST-P-19990201-17",
+      "variables": {
+        "entity_a": "esta licenciada en Ciencias Políticas",
+        "entity_b": "la búsqueda de empleo",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "esta licenciada en Ciencias Políticas"
+    },
+    {
+      "id": 123,
+      "doc": "CESS-CAST-AA-20000525-20070",
+      "variables": {
+        "entity_a": "el candidato que aglutinó a toda la oposición , Angel Fernández ,",
+        "entity_b": "las firmas de socios",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el candidato que aglutinó a toda la oposición , Angel Fernández ,"
+    },
+    {
+      "id": 124,
+      "doc": "CESS-CAST-A-20000220-16182",
+      "variables": {
+        "entity_a": "el Orange Bowl de Miami",
+        "entity_b": "un planteamiento de partido muy serio , con un juego muy ordenado en el centro de el campo que le permitió llegar con claridad a las inmediaciones de la portería hondureña",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el Orange Bowl de Miami"
+    },
+    {
+      "id": 125,
+      "doc": "CESS-CAST-AA-20000114-8907",
+      "variables": {
+        "entity_a": "El ex presidente de Costa de Marfil Henri Konan Bédié , destituido el pasado 24 de diciembre por un golpe de Estado militar ,",
+        "entity_b": "Francia",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El ex presidente de Costa de Marfil Henri Konan Bédié , destituido el pasado 24 de diciembre por un golpe de Estado militar ,"
+    },
+    {
+      "id": 126,
+      "doc": "CESS-CAST-A-20000321-17278",
+      "variables": {
+        "entity_a": "el PSOE",
+        "entity_b": "un congreso en el que se elija una nueva Ejecutiva",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el PSOE"
+    },
+    {
+      "id": 127,
+      "doc": "CESS-CAST-P-19990401-31",
+      "variables": {
+        "entity_a": "la OTAN",
+        "entity_b": "Mediterráneo , de el que _ se habían retirado tras la caída de la URSS",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la OTAN"
+    },
+    {
+      "id": 128,
+      "doc": "CESS-CAST-AA-20000608-5988",
+      "variables": {
+        "entity_a": "cerca de 20 millones de sacas de 60 kilos , de los que _ guardará un máximo de 4 millones de sacas , que _ no destinará ni siquiera para consumo interno",
+        "entity_b": "El grano retenido",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "cerca de 20 millones de sacas de 60 kilos , de los que _ guardará un máximo de 4 millones de sacas , que _ no destinará ni siquiera para consumo interno"
+    },
+    {
+      "id": 129,
+      "doc": "CESS-CAST-A-20000413-10017",
+      "variables": {
+        "entity_a": "El grupo estatal Electricité de France ( EDF )",
+        "entity_b": "la empresa mexicana Electricidad Águila de Altamira ( EAA ) , creada por el japonés Mitsubishi Corporation para poner en marcha una central de gas de 495 megavatios",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El grupo estatal Electricité de France ( EDF )"
+    },
+    {
+      "id": 130,
+      "doc": "CESS-CAST-A-20001220-15392",
+      "variables": {
+        "entity_a": "grupo español Endesa",
+        "entity_b": "el fin de las actividades mineras de Francia",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "grupo español Endesa"
+    },
+    {
+      "id": 131,
+      "doc": "CESS-CAST-P-20020302-48",
+      "variables": {
+        "entity_a": "Javier de la Rosa",
+        "entity_b": "La juez de la Audiencia Nacional Teresa Palacios , instructora de el caso KIO ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Javier de la Rosa"
+    },
+    {
+      "id": 132,
+      "doc": "CESS-CAST-P-19981202-141",
+      "variables": {
+        "entity_a": "' El extranjero loco ' , que cierra su trilogía sobre los gitanos ,",
+        "entity_b": "una cantante zíngara",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "' El extranjero loco ' , que cierra su trilogía sobre los gitanos ,"
+    },
+    {
+      "id": 133,
+      "doc": "CESS-CAST-P-19981202-112",
+      "variables": {
+        "entity_a": "club azulgrana",
+        "entity_b": "El presidente de el Barça",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "club azulgrana"
+    },
+    {
+      "id": 134,
+      "doc": "CESS-CAST-AA-20000206-5003",
+      "variables": {
+        "entity_a": "el Alavés",
+        "entity_b": "un FC Barcelona que fracasó en el Nou Camp ante el Alavés ( 0-1 )",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el Alavés"
+    },
+    {
+      "id": 135,
+      "doc": "CESS-CAST-AA-20001104-2690",
+      "variables": {
+        "entity_a": "Honduras",
+        "entity_b": "los V Juegos Deportivos Centroamericanos que se disputaron en 1994 en El Salvador , donde Honduras se coronó campeón ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Honduras"
+    },
+    {
+      "id": 136,
+      "doc": "CESS-CAST-AA-20000427-20121",
+      "variables": {
+        "entity_a": "Joan Gaspart , vicepresidente de el FC Barcelona ,",
+        "entity_b": "la Real Federación Española de Fútbol ( RFEF )",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Joan Gaspart , vicepresidente de el FC Barcelona ,"
+    },
+    {
+      "id": 137,
+      "doc": "CESS-CAST-P-20000301-75",
+      "variables": {
+        "entity_a": "la estrella profesional de hockey sobre hielo Pavel Bure , también ruso",
+        "entity_b": "el pasado viernes",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la estrella profesional de hockey sobre hielo Pavel Bure , también ruso"
+    },
+    {
+      "id": 138,
+      "doc": "CESS-CAST-AA-20001108-6036",
+      "variables": {
+        "entity_a": "Finlandia",
+        "entity_b": "La lesión de Nano en el minuto 65 obligó a el equipo español , que ya no disponía de más jugadores de campo en el banquillo a jugar en inferioridad numérica el resto de el encuentro , lo que limitó el juego de el equipo , que se fue enfriando como la noche .",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Finlandia"
+    },
+    {
+      "id": 139,
+      "doc": "CESS-CAST-P-19991001-130",
+      "variables": {
+        "entity_a": "la Copa de el Mundo",
+        "entity_b": "las tres grandes potencias mundiales : Rusia , Ucrania y Bielorrusia",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la Copa de el Mundo"
+    },
+    {
+      "id": 140,
+      "doc": "CESS-CAST-AA-20000510-7637",
+      "variables": {
+        "entity_a": "periodista José Luis López de Lacalle",
+        "entity_b": "el Congreso",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "periodista José Luis López de Lacalle"
+    },
+    {
+      "id": 141,
+      "doc": "CESS-CAST-AA-20001006-4723",
+      "variables": {
+        "entity_a": "la cuarta , y última , etapa de el Giro de la Provincia de Lucca ( Toscana ) , que se ha disputado entre las localidades de Marina di Carrara y Lucca , sobre 152 kilómetros",
+        "entity_b": "el español Oscar Freire , vigente campeón de el mundo y que inició la jornada en la segunda plaza de la general ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la cuarta , y última , etapa de el Giro de la Provincia de Lucca ( Toscana ) , que se ha disputado entre las localidades de Marina di Carrara y Lucca , sobre 152 kilómetros"
+    },
+    {
+      "id": 142,
+      "doc": "CESS-CAST-P-20020103-122",
+      "variables": {
+        "entity_a": "una idea",
+        "entity_b": "ambas industrias",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "una idea"
+    },
+    {
+      "id": 143,
+      "doc": "CESS-CAST-P-19990701-26_a",
+      "variables": {
+        "entity_a": "Churchill",
+        "entity_b": "los centristas",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Churchill"
+    },
+    {
+      "id": 144,
+      "doc": "CESS-CAST-AA-20000206-5003",
+      "variables": {
+        "entity_a": "el Zaragoza , que empató frente a el Atlético de Madrid ( 2-2 ) en el Vicente Calderón",
+        "entity_b": "RIAZOR",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el Zaragoza , que empató frente a el Atlético de Madrid ( 2-2 ) en el Vicente Calderón"
+    },
+    {
+      "id": 145,
+      "doc": "CESS-CAST-AA-20001025-20686",
+      "variables": {
+        "entity_a": "el naufragado submarino nuclear \" Kursk \"",
+        "entity_b": "el rescate de los marinos muertos en el naufragado submarino nuclear \" Kursk \"",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el naufragado submarino nuclear \" Kursk \""
+    },
+    {
+      "id": 146,
+      "doc": "CESS-CAST-P-20011202-122",
+      "variables": {
+        "entity_a": "una muralla centenaria de casi dos metros de anchura",
+        "entity_b": "Bagdad",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "una muralla centenaria de casi dos metros de anchura"
+    },
+    {
+      "id": 147,
+      "doc": "CESS-CAST-P-20001201-199",
+      "variables": {
+        "entity_a": "las candidatas",
+        "entity_b": "jurado",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "las candidatas"
+    },
+    {
+      "id": 148,
+      "doc": "CESS-CAST-AA-20000712-9155",
+      "variables": {
+        "entity_a": "El técnico de la selección colombiana de fútbol , Luis Augusto García ,",
+        "entity_b": "la selección colombiana de fútbol",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El técnico de la selección colombiana de fútbol , Luis Augusto García ,"
+    },
+    {
+      "id": 149,
+      "doc": "CESS-CAST-A-20000320-15776",
+      "variables": {
+        "entity_a": "El Gobierno chino",
+        "entity_b": "Taiwán",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El Gobierno chino"
+    },
+    {
+      "id": 150,
+      "doc": "CESS-CAST-AA-20000712-9155",
+      "variables": {
+        "entity_a": "Iván Córdoba , de el Inter de Italia , quien dijo que _ no jugará como lateral izquierdo para que el seleccionado cafetero pueda actuar con cuatro defensores sin sacrificar a Bermúdez ni a Yepes",
+        "entity_b": "Jorge Bermúdez de el Boca Juniors o Mario Yepes de el River Plate de Argentina",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Iván Córdoba , de el Inter de Italia , quien dijo que _ no jugará como lateral izquierdo para que el seleccionado cafetero pueda actuar con cuatro defensores sin sacrificar a Bermúdez ni a Yepes"
+    },
+    {
+      "id": 151,
+      "doc": "CESS-CAST-P-19990102-30",
+      "variables": {
+        "entity_a": "su esposa , Biljana ,",
+        "entity_b": "Radovan Karadzic , ex líder serbobosnio acusado de genocidio y de crímenes de guerra por el Tribunal Penal Internacional de La Haya ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "su esposa , Biljana ,"
+    },
+    {
+      "id": 152,
+      "doc": "CESS-CAST-AA-20000807-4675",
+      "variables": {
+        "entity_a": "la campaña",
+        "entity_b": "ambos",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la campaña"
+    },
+    {
+      "id": 153,
+      "doc": "CESS-CAST-P-20020801-27_c",
+      "variables": {
+        "entity_a": "Este barcelonés y dos amigos suyos , que habían llegado el pasado viernes a Ciutadella ,",
+        "entity_b": "el aeropuerto de Maó",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Este barcelonés y dos amigos suyos , que habían llegado el pasado viernes a Ciutadella ,"
+    },
+    {
+      "id": 154,
+      "doc": "CESS-CAST-AA-20000407-5786",
+      "variables": {
+        "entity_a": "la guerrilla",
+        "entity_b": "el presidente colombiano , Andrés Pastrana",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la guerrilla"
+    },
+    {
+      "id": 155,
+      "doc": "CESS-CAST-A-20001116-12812",
+      "variables": {
+        "entity_a": "La organización humanitaria Handicap International ( HI )",
+        "entity_b": "ese tipo de armas",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "La organización humanitaria Handicap International ( HI )"
+    },
+    {
+      "id": 156,
+      "doc": "CESS-CAST-P-19990501-49",
+      "variables": {
+        "entity_a": "el fiscal general de Kuwait",
+        "entity_b": "su puesta en libertad",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el fiscal general de Kuwait"
+    },
+    {
+      "id": 157,
+      "doc": "CESS-CAST-A-20000216-13241",
+      "variables": {
+        "entity_a": "Viena",
+        "entity_b": "líder de los socialcristianos de Baviera ( CSU , el ala bávara de la CDU ) , Edmund Stoiber ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Viena"
+    },
+    {
+      "id": 158,
+      "doc": "CESS-CAST-P-19981202-34",
+      "variables": {
+        "entity_a": "el presidente Bill Clinton",
+        "entity_b": "Comité Judicial de el Congreso",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el presidente Bill Clinton"
+    },
+    {
+      "id": 159,
+      "doc": "CESS-CAST-P-20000301-91",
+      "variables": {
+        "entity_a": "El grupo energético multinacional ABB Alstom Power",
+        "entity_b": "el plan , que apenas afecta a España",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El grupo energético multinacional ABB Alstom Power"
+    },
+    {
+      "id": 160,
+      "doc": "CESS-CAST-AA-20001129-22863",
+      "variables": {
+        "entity_a": "El príncipe de Asturias , don Felipe de Borbón ,",
+        "entity_b": "Spanish Institute neoyorquino",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El príncipe de Asturias , don Felipe de Borbón ,"
+    },
+    {
+      "id": 161,
+      "doc": "CESS-CAST-A-20001120-15355",
+      "variables": {
+        "entity_a": "Tribunal Supremo de Florida que hoy celebra una audiencia crucial para decidir sobre la validez de los recuentos manuales en estos tres condados de el estado",
+        "entity_b": "ningún agujero que indique preferencia por uno de los candidatos a presidente",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Tribunal Supremo de Florida que hoy celebra una audiencia crucial para decidir sobre la validez de los recuentos manuales en estos tres condados de el estado"
+    },
+    {
+      "id": 162,
+      "doc": "CESS-CAST-P-19990701-26_a",
+      "variables": {
+        "entity_a": "A la pregunta de por qué _ se había alistado voluntaria _ respondió que _ lo había hecho por una cosa que los europeos no sienten : la patria .",
+        "entity_b": "Si esto se cuenta",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "A la pregunta de por qué _ se había alistado voluntaria _ respondió que _ lo había hecho por una cosa que los europeos no sienten : la patria ."
+    },
+    {
+      "id": 163,
+      "doc": "CESS-CAST-AA-20000606-4842",
+      "variables": {
+        "entity_a": "la provincia de Teruel , en donde _ conoció las vías abiertas por sus habitantes para superar el desequilibrio económico y social que sufre la provincia",
+        "entity_b": "la capital turolense",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la provincia de Teruel , en donde _ conoció las vías abiertas por sus habitantes para superar el desequilibrio económico y social que sufre la provincia"
+    },
+    {
+      "id": 164,
+      "doc": "CESS-CAST-AA-20000207-5332",
+      "variables": {
+        "entity_a": "Real Madrid",
+        "entity_b": "El jugador de el Real Madrid Michel Salgado",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Real Madrid"
+    },
+    {
+      "id": 165,
+      "doc": "CESS-CAST-A-20001122-17231",
+      "variables": {
+        "entity_a": "un hospital de Praga",
+        "entity_b": "estado muy grave de el que _ ya no se recuperó",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un hospital de Praga"
+    },
+    {
+      "id": 166,
+      "doc": "CESS-CAST-AA-20000912-8058",
+      "variables": {
+        "entity_a": "don Juan Carlos",
+        "entity_b": "la Asamblea Nacional reunida en sesión solemne",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "don Juan Carlos"
+    },
+    {
+      "id": 167,
+      "doc": "CESS-CAST-P-20020501-3",
+      "variables": {
+        "entity_a": "El ministro de Asuntos Exteriores , Josep Piqué ,",
+        "entity_b": "los gibraltareños , a cuyo ministro principal , Peter Caruana , _ invitó de nuevo a sumar se a el diálogo",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El ministro de Asuntos Exteriores , Josep Piqué ,"
+    },
+    {
+      "id": 168,
+      "doc": "CESS-CAST-P-20011002-168",
+      "variables": {
+        "entity_a": "La ciénaga , primer filme de la realizadora Lucrecia Martel",
+        "entity_b": "mujeres",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "La ciénaga , primer filme de la realizadora Lucrecia Martel"
+    },
+    {
+      "id": 169,
+      "doc": "CESS-CAST-AA-20000407-5786",
+      "variables": {
+        "entity_a": "referendo propuesto por el presidente colombiano , Andrés Pastrana , que disolvería el Congreso ,",
+        "entity_b": "el presidente colombiano , Andrés Pastrana",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "referendo propuesto por el presidente colombiano , Andrés Pastrana , que disolvería el Congreso ,"
+    },
+    {
+      "id": 170,
+      "doc": "CESS-CAST-AA-20001129-22863",
+      "variables": {
+        "entity_a": "una cena de gala a la que asistieron más de 250 invitados de el mundo de los negocios , la cultura y la comunicación",
+        "entity_b": "México",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "una cena de gala a la que asistieron más de 250 invitados de el mundo de los negocios , la cultura y la comunicación"
+    },
+    {
+      "id": 171,
+      "doc": "CESS-CAST-A-20000817-11317",
+      "variables": {
+        "entity_a": "La empresa española ACESA adquirió el 48,60 por ciento de el Grupo Concesionario de el Oeste ( CGO ) , que explota la autopista de peaje que une Buenos Aires con la ciudad de Luján , a 70 kilómetros de la capital argentina .",
+        "entity_b": "La empresa española ACESA",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "La empresa española ACESA adquirió el 48,60 por ciento de el Grupo Concesionario de el Oeste ( CGO ) , que explota la autopista de peaje que une Buenos Aires con la ciudad de Luján , a 70 kilómetros de la capital argentina ."
+    },
+    {
+      "id": 172,
+      "doc": "CESS-CAST-AA-20000705-2916",
+      "variables": {
+        "entity_a": "la productora Endemol",
+        "entity_b": "El director general de Telefónica Media , Eduardo Alonso ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la productora Endemol"
+    },
+    {
+      "id": 173,
+      "doc": "CESS-CAST-A-20000416-12803",
+      "variables": {
+        "entity_a": "Atlético de Madrid",
+        "entity_b": "la Real Sociedad",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Atlético de Madrid"
+    },
+    {
+      "id": 174,
+      "doc": "CESS-CAST-P-20010801-34",
+      "variables": {
+        "entity_a": "José Antonio Urrutikoetxea , Josu Ternera , a quien _ considera el máximo cargo de Ekin en el interior de España ,",
+        "entity_b": "Tribunal Superior de Justicia de Euskadi",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "José Antonio Urrutikoetxea , Josu Ternera , a quien _ considera el máximo cargo de Ekin en el interior de España ,"
+    },
+    {
+      "id": 175,
+      "doc": "CESS-CAST-P-20000602-47",
+      "variables": {
+        "entity_a": "El presidente de el Parlamento vasco , Juan María Atutxa ,",
+        "entity_b": "que su nombre aparecía en documentación incautada a ETA",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El presidente de el Parlamento vasco , Juan María Atutxa ,"
+    },
+    {
+      "id": 176,
+      "doc": "CESS-CAST-P-19990701-26_a",
+      "variables": {
+        "entity_a": "burguesía",
+        "entity_b": "los ingleses",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "burguesía"
+    },
+    {
+      "id": 177,
+      "doc": "CESS-CAST-P-20000402-68",
+      "variables": {
+        "entity_a": "un joven de 17 años , vecino de Murcia ,",
+        "entity_b": "el domicilio",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un joven de 17 años , vecino de Murcia ,"
+    },
+    {
+      "id": 178,
+      "doc": "CESS-CAST-P-20000302-34",
+      "variables": {
+        "entity_a": "Izaskun Ugarte , viuda de el etarra Mikel Goicoetxea , Txapela , asesinado por el GAL en diciembre de 1983 , que declaró que José Antonio Lasa y José Ignacio Zabala eran de las pocas personas que conocían su domicilio",
+        "entity_b": "etarra Mikel Goicoetxea , Txapela , asesinado por el GAL en diciembre de 1983",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Izaskun Ugarte , viuda de el etarra Mikel Goicoetxea , Txapela , asesinado por el GAL en diciembre de 1983 , que declaró que José Antonio Lasa y José Ignacio Zabala eran de las pocas personas que conocían su domicilio"
+    },
+    {
+      "id": 179,
+      "doc": "CESS-CAST-P-20020601-51",
+      "variables": {
+        "entity_a": "la hermosa , joven y cautivadora Senegal",
+        "entity_b": "la FIFA , convaleciente de una cruenta batalla interna , salpicada por la plaga de la corrupción ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la hermosa , joven y cautivadora Senegal"
+    },
+    {
+      "id": 180,
+      "doc": "CESS-CAST-AA-20000412-8873",
+      "variables": {
+        "entity_a": "plomo",
+        "entity_b": "España",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "plomo"
+    },
+    {
+      "id": 181,
+      "doc": "CESS-CAST-AA-20001025-20686",
+      "variables": {
+        "entity_a": "octavo compartimento de el submarino",
+        "entity_b": "la lista oficial",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "octavo compartimento de el submarino"
+    },
+    {
+      "id": 182,
+      "doc": "CESS-CAST-A-20000522-17451",
+      "variables": {
+        "entity_a": "el Comité Nacional Gallego",
+        "entity_b": "Gilberto Vila , un militante de base de Gondomar",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el Comité Nacional Gallego"
+    },
+    {
+      "id": 183,
+      "doc": "CESS-CAST-AA-20000909-6304",
+      "variables": {
+        "entity_a": "mi objetivo",
+        "entity_b": "el mayor rival que podría tener en su empeño de colgar se a el cuello el metal dorado",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "mi objetivo"
+    },
+    {
+      "id": 184,
+      "doc": "CESS-CAST-P-19981201-109",
+      "variables": {
+        "entity_a": "London Electricity",
+        "entity_b": "La compañía pública francesa Electricité de France ( EDF )",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "London Electricity"
+    },
+    {
+      "id": 185,
+      "doc": "CESS-CAST-A-20000516-11811",
+      "variables": {
+        "entity_a": "un veterano caudillo reformista ciego",
+        "entity_b": "el director de Migración , Danilo Díaz ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un veterano caudillo reformista ciego"
+    },
+    {
+      "id": 186,
+      "doc": "CESS-CAST-AA-20000409-6635",
+      "variables": {
+        "entity_a": "El alemán Michael Schumacher",
+        "entity_b": "el finlandés Mika Hakkinen ( McLaren MP4/15 Mercedes ) en pista a el que _ le ha superado por un segundo y una décima , a el imponer se esta tarde en el Gran Premio de San Marino , disputado en un abarrotado Autódromo Enzo y Dino Ferrari de Imola",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El alemán Michael Schumacher"
+    },
+    {
+      "id": 187,
+      "doc": "CESS-CAST-A-20000426-19061",
+      "variables": {
+        "entity_a": "Un juez de Barcelona",
+        "entity_b": "la ley",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Un juez de Barcelona"
+    },
+    {
+      "id": 188,
+      "doc": "CESS-CAST-AA-20001109-6296",
+      "variables": {
+        "entity_a": "Filipinas",
+        "entity_b": "la provincia de Ilocos de el Sur",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Filipinas"
+    },
+    {
+      "id": 189,
+      "doc": "CESS-CAST-AA-20000326-21333_i",
+      "variables": {
+        "entity_a": "Racing",
+        "entity_b": "Real Sociedad",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Racing"
+    },
+    {
+      "id": 190,
+      "doc": "CESS-CAST-P-19981201-109",
+      "variables": {
+        "entity_a": "Entergy Londres",
+        "entity_b": "La compañía pública francesa Electricité de France ( EDF ) ha adquirido la empresa británica London Electricity ( LE ) por 335.000 millones de pesetas , según anunció ayer la sociedad propietaria de LE , la norteamericana Entergy .",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Entergy Londres"
+    },
+    {
+      "id": 191,
+      "doc": "CESS-CAST-AA-20000203-2698",
+      "variables": {
+        "entity_a": "Internet",
+        "entity_b": "una red de alta capacidad",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Internet"
+    },
+    {
+      "id": 192,
+      "doc": "CESS-CAST-A-20000416-12803",
+      "variables": {
+        "entity_a": "Deportivo de La Coruña",
+        "entity_b": "el Athletic",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Deportivo de La Coruña"
+    },
+    {
+      "id": 193,
+      "doc": "CESS-CAST-P-19990701-26_a",
+      "variables": {
+        "entity_a": "burguesía",
+        "entity_b": "el estamento militar",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "burguesía"
+    },
+    {
+      "id": 194,
+      "doc": "CESS-CAST-AA-20000307-5522",
+      "variables": {
+        "entity_a": "Río de Janeiro",
+        "entity_b": "el carnaval de la ciudad de Sao Paulo",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Río de Janeiro"
+    },
+    {
+      "id": 195,
+      "doc": "CESS-CAST-A-20000722-17116",
+      "variables": {
+        "entity_a": "la multinacional holandesa Heineken , propietaria de la planta ,",
+        "entity_b": "la fábrica textil Cellatex de Givet ( noreste ) , cuyos obreros vertieron ácido sulfúrico a un río y _ habían amenazado con volar la planta , en liquidación judicial , si fracasaban las negociaciones con el Gobierno",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la multinacional holandesa Heineken , propietaria de la planta ,"
+    },
+    {
+      "id": 196,
+      "doc": "CESS-CAST-A-20001013-10127",
+      "variables": {
+        "entity_a": "Rusia",
+        "entity_b": "una operación para rescatar los cadáveres",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Rusia"
+    },
+    {
+      "id": 197,
+      "doc": "CESS-CAST-A-20000217-13959",
+      "variables": {
+        "entity_a": "Barcelona",
+        "entity_b": "las semifinales",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Barcelona"
+    },
+    {
+      "id": 198,
+      "doc": "CESS-CAST-AA-20000427-19695",
+      "variables": {
+        "entity_a": "las políticas de ajuste",
+        "entity_b": "la población",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "las políticas de ajuste"
+    },
+    {
+      "id": 199,
+      "doc": "CESS-CAST-P-20010702-43",
+      "variables": {
+        "entity_a": "México",
+        "entity_b": "este déficit - - que contrasta con la fuerte inversión que España realiza en México - -",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "México"
+    },
+    {
+      "id": 200,
+      "doc": "CESS-CAST-A-20000320-15776",
+      "variables": {
+        "entity_a": "Taiwán",
+        "entity_b": "Pekín",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Taiwán"
+    },
+    {
+      "id": 201,
+      "doc": "CESS-CAST-A-20001214-10656",
+      "variables": {
+        "entity_a": "Arabia Saudí",
+        "entity_b": "una reunión de el comité bilateral de coordinación de Arabia Saudí y Yemen celebrada en Yeda , en la costa saudí de el Mar Rojo",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Arabia Saudí"
+    },
+    {
+      "id": 202,
+      "doc": "CESS-CAST-P-19990103-29",
+      "variables": {
+        "entity_a": "todas las cualidades inherentes a la infancia , esas que están siempre presentes en la obra de los grandes genios",
+        "entity_b": "una línea debajo que empieza en la erre y que sigue hasta pasada la a",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "todas las cualidades inherentes a la infancia , esas que están siempre presentes en la obra de los grandes genios"
+    },
+    {
+      "id": 203,
+      "doc": "CESS-CAST-P-19981101-3",
+      "variables": {
+        "entity_a": "la impotencia masculina",
+        "entity_b": "médicos",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la impotencia masculina"
+    },
+    {
+      "id": 204,
+      "doc": "CESS-CAST-P-20010402-10_b",
+      "variables": {
+        "entity_a": "los servicios de ayuda a la familia - - escuelas de infancia y servicios domiciliarios - -",
+        "entity_b": "unos porcentajes mayores de población anciana ( 7% , 8% y 9% , respectivamente )",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "los servicios de ayuda a la familia - - escuelas de infancia y servicios domiciliarios - -"
+    },
+    {
+      "id": 205,
+      "doc": "CESS-CAST-AA-20001108-5808",
+      "variables": {
+        "entity_a": "el Gobierno",
+        "entity_b": "tomar el pulso a la opinión pública en general , y a su partido y a su electorado , en particular , para saber qué hacer en este momento de crisis",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el Gobierno"
+    },
+    {
+      "id": 206,
+      "doc": "CESS-CAST-P-20000701-69",
+      "variables": {
+        "entity_a": "Josefa",
+        "entity_b": "Un cura",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Josefa"
+    },
+    {
+      "id": 207,
+      "doc": "CESS-CAST-P-20000601-41",
+      "variables": {
+        "entity_a": "Esquerra Republicana de Catalunya ( ERC )",
+        "entity_b": "los dos partidos necesarios para asegurar la gobernabilidad de la Generalitat y la estabilidad deseada para llegar en condiciones a las próximas elecciones autonómicas de el 2003",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Esquerra Republicana de Catalunya ( ERC )"
+    },
+    {
+      "id": 208,
+      "doc": "CESS-CAST-AA-20000428-21423",
+      "variables": {
+        "entity_a": "huelga de hambre",
+        "entity_b": "Otro dirigente de la Facultad de Derecho de la USAC , Gustavo Blanco ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "huelga de hambre"
+    },
+    {
+      "id": 209,
+      "doc": "CESS-CAST-AA-20000604-2970",
+      "variables": {
+        "entity_a": ": Último encuentro de liga de Segunda División , jugado en el Estadio Carlos Belmonte ante unos 8.000 espectadores",
+        "entity_b": "Parrado",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": ": Último encuentro de liga de Segunda División , jugado en el Estadio Carlos Belmonte ante unos 8.000 espectadores"
+    },
+    {
+      "id": 210,
+      "doc": "CESS-CAST-P-20000501-21",
+      "variables": {
+        "entity_a": "los veteranos de la guerra",
+        "entity_b": "Mugabe",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "los veteranos de la guerra"
+    },
+    {
+      "id": 211,
+      "doc": "CESS-CAST-A-20001116-12812",
+      "variables": {
+        "entity_a": "ese tipo de armas",
+        "entity_b": "Estados Unidos",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ese tipo de armas"
+    },
+    {
+      "id": 212,
+      "doc": "CESS-CAST-AA-20001107-4738",
+      "variables": {
+        "entity_a": "la titular de Trabajo de la Comisión Europea , la griega Anna Diamantoupoulou ,",
+        "entity_b": "países candidatos a la adhesión a la Comunidad Europea",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la titular de Trabajo de la Comisión Europea , la griega Anna Diamantoupoulou ,"
+    },
+    {
+      "id": 213,
+      "doc": "CESS-CAST-A-20001020-16223",
+      "variables": {
+        "entity_a": "El secretario general de el PSPV-PSOE , Joan Ignasi Pla ,",
+        "entity_b": "la Comunidad Valenciana",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El secretario general de el PSPV-PSOE , Joan Ignasi Pla ,"
+    },
+    {
+      "id": 214,
+      "doc": "CESS-CAST-P-20000301-17",
+      "variables": {
+        "entity_a": "el fútbol",
+        "entity_b": "las bandas urbanas organizadas",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el fútbol"
+    },
+    {
+      "id": 215,
+      "doc": "CESS-CAST-AA-20001025-20686",
+      "variables": {
+        "entity_a": "el interior de el \" Kursk \" , hundido en el Artico el 12 de agosto pasado con 118 marinos a bordo",
+        "entity_b": "los diez que tenía el submarino naufragado",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el interior de el \" Kursk \" , hundido en el Artico el 12 de agosto pasado con 118 marinos a bordo"
+    },
+    {
+      "id": 216,
+      "doc": "CESS-CAST-P-20000401-114",
+      "variables": {
+        "entity_a": "Núñez",
+        "entity_b": "un mes terrible en el que se juega a el todo o nada",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Núñez"
+    },
+    {
+      "id": 217,
+      "doc": "CESS-CAST-A-20000217-13959",
+      "variables": {
+        "entity_a": "el mes de abril",
+        "entity_b": "nuestros posibles rivales , que por esas fechas estarán jugando competiciones europeas",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el mes de abril"
+    },
+    {
+      "id": 218,
+      "doc": "CESS-CAST-P-20000202-21_b",
+      "variables": {
+        "entity_a": "el cura y el juez",
+        "entity_b": "mi condición de economista",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el cura y el juez"
+    },
+    {
+      "id": 219,
+      "doc": "CESS-CAST-P-19990601-23",
+      "variables": {
+        "entity_a": "Javier Solana",
+        "entity_b": "Carlos Westendorp , Alto Representante Civil en Bosnia",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Javier Solana"
+    },
+    {
+      "id": 220,
+      "doc": "CESS-CAST-A-20001120-15355",
+      "variables": {
+        "entity_a": "Partido Republicano",
+        "entity_b": "el recuento manual de más de 650.000 votos emitidos en las elecciones generales estadounidenses de el pasado 7 de noviembre",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Partido Republicano"
+    },
+    {
+      "id": 221,
+      "doc": "CESS-CAST-A-20000416-12803",
+      "variables": {
+        "entity_a": "Barcelona",
+        "entity_b": "Real Madrid",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Barcelona"
+    },
+    {
+      "id": 222,
+      "doc": "CESS-CAST-A-20000816-10242",
+      "variables": {
+        "entity_a": "su patriarca , el senador Edward Kennedy , hermano de John y de Robert Kennedy , también asesinado",
+        "entity_b": "Joseph Lieberman , que mañana , miércoles , será proclamado el primer judío candidato a la vicepresidencia de los Estados Unidos",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "su patriarca , el senador Edward Kennedy , hermano de John y de Robert Kennedy , también asesinado"
+    },
+    {
+      "id": 223,
+      "doc": "CESS-CAST-AA-20001010-7674",
+      "variables": {
+        "entity_a": "eje tecnológico que iría desde el campus de la UAB , en Cerdanyola de el Vallés , hasta las nuevas instalaciones de la UPC en Castelldefels",
+        "entity_b": "las dos próximas reuniones anuales de transferencia de tecnología , que convocan cada año a 8.000 técnicos y que tendrán lugar a finales de los años 2001 y 2002",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "eje tecnológico que iría desde el campus de la UAB , en Cerdanyola de el Vallés , hasta las nuevas instalaciones de la UPC en Castelldefels"
+    },
+    {
+      "id": 224,
+      "doc": "CESS-CAST-A-20000217-13959",
+      "variables": {
+        "entity_a": "la final de la Copa de el Rey",
+        "entity_b": "nuestros posibles rivales , que por esas fechas estarán jugando competiciones europeas",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la final de la Copa de el Rey"
+    },
+    {
+      "id": 225,
+      "doc": "CESS-CAST-AA-20000608-6170",
+      "variables": {
+        "entity_a": "El presidente de la Región de Murcia , Ramón Luis Valcárcel ,",
+        "entity_b": "agua",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El presidente de la Región de Murcia , Ramón Luis Valcárcel ,"
+    },
+    {
+      "id": 226,
+      "doc": "CESS-CAST-P-19981202-10",
+      "variables": {
+        "entity_a": "El primer ministro de la provincia canadiense de Quebec , Lucient Bouchard ,",
+        "entity_b": "Partido Quebequés",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El primer ministro de la provincia canadiense de Quebec , Lucient Bouchard ,"
+    },
+    {
+      "id": 227,
+      "doc": "CESS-CAST-P-19990301-50",
+      "variables": {
+        "entity_a": "Poblenou",
+        "entity_b": "último tramo de la Diagonal",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Poblenou"
+    },
+    {
+      "id": 228,
+      "doc": "CESS-CAST-A-20000119-12375",
+      "variables": {
+        "entity_a": "Partido Socioliberal Croata ( HSLS )",
+        "entity_b": ", problemas que , según ambos , eran característicos de el antiguo presidente",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Partido Socioliberal Croata ( HSLS )"
+    },
+    {
+      "id": 229,
+      "doc": "CESS-CAST-A-20001220-15392",
+      "variables": {
+        "entity_a": "la eléctrica francesa SNET , filial de Charbonnages de France ( CdF ) ,",
+        "entity_b": "el presidente de esta última empresa , Philippe Ladoucette",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la eléctrica francesa SNET , filial de Charbonnages de France ( CdF ) ,"
+    },
+    {
+      "id": 230,
+      "doc": "CESS-CAST-AA-20000427-20121",
+      "variables": {
+        "entity_a": "la junta directiva de la Real Federación Española de Fútbol ( RFEF )",
+        "entity_b": "la Copa de el Rey",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la junta directiva de la Real Federación Española de Fútbol ( RFEF )"
+    },
+    {
+      "id": 231,
+      "doc": "CESS-CAST-AA-20000331-25330",
+      "variables": {
+        "entity_a": "El último en entrar en la carrera",
+        "entity_b": "primer ministro francés , Lionel Jospin ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El último en entrar en la carrera"
+    },
+    {
+      "id": 232,
+      "doc": "CESS-CAST-P-20000401-34",
+      "variables": {
+        "entity_a": "Su hijo",
+        "entity_b": "Los padres de la joven , que vive en Uruguay ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Su hijo"
+    },
+    {
+      "id": 233,
+      "doc": "CESS-CAST-P-19990601-66",
+      "variables": {
+        "entity_a": "su tren",
+        "entity_b": "metro de Madrid",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "su tren"
+    },
+    {
+      "id": 234,
+      "doc": "CESS-CAST-P-20000701-92",
+      "variables": {
+        "entity_a": "Pimecsefes",
+        "entity_b": "el Gobierno de el PP",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Pimecsefes"
+    },
+    {
+      "id": 235,
+      "doc": "CESS-CAST-P-20020601-51",
+      "variables": {
+        "entity_a": "África",
+        "entity_b": "Mundial más exótico",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "África"
+    },
+    {
+      "id": 236,
+      "doc": "CESS-CAST-AA-20001209-6582",
+      "variables": {
+        "entity_a": "primer ministro israelí , Benjamin Netanyahu , líder de el bloque derechista Likud ,",
+        "entity_b": "12 de julio . - El Parlamento israelí rechaza la primera moción de censura presentada por el Likud contra Barak por su decisión de ampliar el Ejecutivo de 18 a 24 ministros .",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "primer ministro israelí , Benjamin Netanyahu , líder de el bloque derechista Likud ,"
+    },
+    {
+      "id": 237,
+      "doc": "CESS-CAST-P-20020601-23",
+      "variables": {
+        "entity_a": "un retén de 72 agentes",
+        "entity_b": "Los funcionarios de la prisión",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un retén de 72 agentes"
+    },
+    {
+      "id": 238,
+      "doc": "CESS-CAST-A-20001203-1592",
+      "variables": {
+        "entity_a": "Grupo Turístico Teinver",
+        "entity_b": "pasajeros que _ hemos transportado",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Grupo Turístico Teinver"
+    },
+    {
+      "id": 239,
+      "doc": "CESS-CAST-A-20001220-15392",
+      "variables": {
+        "entity_a": "el presidente de esta última empresa , Philippe Ladoucette",
+        "entity_b": "grupo español Endesa",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el presidente de esta última empresa , Philippe Ladoucette"
+    },
+    {
+      "id": 240,
+      "doc": "CESS-CAST-A-20000120-14013",
+      "variables": {
+        "entity_a": "Las excavaciones en cuatro fincas en la frontera con EEUU , donde agentes mexicanos y de el FBI hallaron nueve cadáveres en noviembre pasado ,",
+        "entity_b": "FBI",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Las excavaciones en cuatro fincas en la frontera con EEUU , donde agentes mexicanos y de el FBI hallaron nueve cadáveres en noviembre pasado ,"
+    },
+    {
+      "id": 241,
+      "doc": "CESS-CAST-A-20000722-17116",
+      "variables": {
+        "entity_a": "la fábrica de cerveza Adelshoffen de Schiltigheim , en un suburbio de Estrasburgo ( este ) ,",
+        "entity_b": "la multinacional holandesa Heineken , propietaria de la planta ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la fábrica de cerveza Adelshoffen de Schiltigheim , en un suburbio de Estrasburgo ( este ) ,"
+    },
+    {
+      "id": 242,
+      "doc": "CESS-CAST-A-20000322-18381",
+      "variables": {
+        "entity_a": "la joven promesa Ed Yarnall , el lanzador zurdo de 24 años , que llegó para ser el quinto abridor de el equipo después de la marcha de el japonés Hideki Irabu y _ ha fallado",
+        "entity_b": "el manejador de los Yanquis , Joe Torre ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la joven promesa Ed Yarnall , el lanzador zurdo de 24 años , que llegó para ser el quinto abridor de el equipo después de la marcha de el japonés Hideki Irabu y _ ha fallado"
+    },
+    {
+      "id": 243,
+      "doc": "CESS-CAST-A-20001013-10127",
+      "variables": {
+        "entity_a": "el naufragio de el submarino nuclear \" Kursk \"",
+        "entity_b": "la Armada rusa",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el naufragio de el submarino nuclear \" Kursk \""
+    },
+    {
+      "id": 244,
+      "doc": "CESS-CAST-P-20010502-122",
+      "variables": {
+        "entity_a": "la Colla de Sabadell - - que Oliver lideró junto a Francesc Trabal y Armand Obiols - -",
+        "entity_b": "la Casa de el Marquet de La Roca , situada en Sant Llorenç Savall , que _ planea convertir en un museo literario y centro cultural",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la Colla de Sabadell - - que Oliver lideró junto a Francesc Trabal y Armand Obiols - -"
+    },
+    {
+      "id": 245,
+      "doc": "CESS-CAST-P-20000501-21",
+      "variables": {
+        "entity_a": "las tierras de los hacendados blancos",
+        "entity_b": "los veteranos de la guerra",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "las tierras de los hacendados blancos"
+    },
+    {
+      "id": 246,
+      "doc": "CESS-CAST-P-20000301-17",
+      "variables": {
+        "entity_a": "el fútbol",
+        "entity_b": "que los 10 miembros de la banda ultra que acompañaban a el presunto autor material de el homicidio , sean juzgados por la comisión de un delito de asociación ilícita y no - - como así sostenían el juez instructor y el fiscal - - por la comisión de un delito de desórdenes públicos",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el fútbol"
+    },
+    {
+      "id": 247,
+      "doc": "CESS-CAST-P-20000601-41",
+      "variables": {
+        "entity_a": "Después de haber lanzado cantos de sirena por parte de Pere Esteve hacia los republicanos y de que éstos movieran ficha con las declaraciones de Josep Lluís Carod-Rovira y la presentación de un documento de mínimos , ahora el grupo de los jóvenes leones convergentes liderados por Artur Mas tiene sus dudas .",
+        "entity_b": "Convergència Democràtica de Catalunya ( CDC )",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Después de haber lanzado cantos de sirena por parte de Pere Esteve hacia los republicanos y de que éstos movieran ficha con las declaraciones de Josep Lluís Carod-Rovira y la presentación de un documento de mínimos , ahora el grupo de los jóvenes leones convergentes liderados por Artur Mas tiene sus dudas ."
+    },
+    {
+      "id": 248,
+      "doc": "CESS-CAST-A-20001220-15209",
+      "variables": {
+        "entity_a": "el desierto occidental egipcio",
+        "entity_b": "la Segunda Guerra Mundial",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el desierto occidental egipcio"
+    },
+    {
+      "id": 249,
+      "doc": "CESS-CAST-A-20000221-16686",
+      "variables": {
+        "entity_a": "Torneo de Apertura chileno",
+        "entity_b": ", problemas que con toda seguridad influyeron en el magro resultado de hoy , domingo",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Torneo de Apertura chileno"
+    },
+    {
+      "id": 250,
+      "doc": "CESS-CAST-P-20000103-35",
+      "variables": {
+        "entity_a": "Eduard Rius",
+        "entity_b": "los hospitales",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Eduard Rius"
+    },
+    {
+      "id": 251,
+      "doc": "CESS-CAST-A-20000221-16730",
+      "variables": {
+        "entity_a": "su correligionario George W. Bush",
+        "entity_b": "Michigan",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "su correligionario George W. Bush"
+    },
+    {
+      "id": 252,
+      "doc": "CESS-CAST-AA-20000505-3286",
+      "variables": {
+        "entity_a": "el Santiago Bernabéu",
+        "entity_b": "un partido fundamental",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el Santiago Bernabéu"
+    },
+    {
+      "id": 253,
+      "doc": "CESS-CAST-P-19990302-79",
+      "variables": {
+        "entity_a": "La juez",
+        "entity_b": "La sentencia de la juez de instrucción número 21 , María de el Carmen Suárez ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "La juez"
+    },
+    {
+      "id": 254,
+      "doc": "CESS-CAST-P-20000302-93",
+      "variables": {
+        "entity_a": "El equipo de Cúper",
+        "entity_b": "El jugador montenegrino",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El equipo de Cúper"
+    },
+    {
+      "id": 255,
+      "doc": "CESS-CAST-AA-20000307-5830",
+      "variables": {
+        "entity_a": "la exposición dedicada a la obra de Antoni Tápies que abrirá sus puertas a el público a partir de mañana en el Centro de Arte Reina Sofía",
+        "entity_b": "Antoni Tápies",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la exposición dedicada a la obra de Antoni Tápies que abrirá sus puertas a el público a partir de mañana en el Centro de Arte Reina Sofía"
+    },
+    {
+      "id": 256,
+      "doc": "CESS-CAST-P-20020102-112",
+      "variables": {
+        "entity_a": "la segunda de las frutas",
+        "entity_b": "las huellas de los pasos que _ debían haber dado anteriormente",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la segunda de las frutas"
+    },
+    {
+      "id": 257,
+      "doc": "CESS-CAST-P-20001201-176",
+      "variables": {
+        "entity_a": "una cantidad cercana a los 100 millones de pesetas",
+        "entity_b": "La comisión jurídica de el club",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "una cantidad cercana a los 100 millones de pesetas"
+    },
+    {
+      "id": 258,
+      "doc": "CESS-CAST-A-20000119-12375",
+      "variables": {
+        "entity_a": "Partido Socioliberal Croata ( HSLS )",
+        "entity_b": "otras cuatro fuerzas políticas , que cuentan con el 16 por ciento de los sufragios y que han presentado en estas presidenciales la candidatura de Mesic",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Partido Socioliberal Croata ( HSLS )"
+    },
+    {
+      "id": 259,
+      "doc": "CESS-CAST-AA-20000712-9155",
+      "variables": {
+        "entity_a": "Iván Córdoba , de el Inter de Italia , quien dijo que _ no jugará como lateral izquierdo para que el seleccionado cafetero pueda actuar con cuatro defensores sin sacrificar a Bermúdez ni a Yepes",
+        "entity_b": "sistema de cuatro defensas",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Iván Córdoba , de el Inter de Italia , quien dijo que _ no jugará como lateral izquierdo para que el seleccionado cafetero pueda actuar con cuatro defensores sin sacrificar a Bermúdez ni a Yepes"
+    },
+    {
+      "id": 260,
+      "doc": "CESS-CAST-A-20000221-16730",
+      "variables": {
+        "entity_a": "su correligionario George W. Bush",
+        "entity_b": "Arizona",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "su correligionario George W. Bush"
+    },
+    {
+      "id": 261,
+      "doc": "CESS-CAST-P-19991202-42",
+      "variables": {
+        "entity_a": "EH",
+        "entity_b": "ETA",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "EH"
+    },
+    {
+      "id": 262,
+      "doc": "CESS-CAST-A-20000216-13241",
+      "variables": {
+        "entity_a": "El jefe de la diplomacia alemana , el verde Joschka Fischer ,",
+        "entity_b": "líder de los socialcristianos de Baviera ( CSU , el ala bávara de la CDU ) , Edmund Stoiber ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El jefe de la diplomacia alemana , el verde Joschka Fischer ,"
+    },
+    {
+      "id": 263,
+      "doc": "CESS-CAST-P-20010301-132",
+      "variables": {
+        "entity_a": "España",
+        "entity_b": "Inglaterra",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "España"
+    },
+    {
+      "id": 264,
+      "doc": "CESS-CAST-P-20010502-149",
+      "variables": {
+        "entity_a": "Valencia",
+        "entity_b": "el Leeds , un equipo lleno de juventud y ambición que se ha erigido en la revelación de la temporada",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Valencia"
+    },
+    {
+      "id": 265,
+      "doc": "CESS-CAST-A-20000916-12406",
+      "variables": {
+        "entity_a": "El jefe de el Gobierno bávaro , Edmund Stoiber ,",
+        "entity_b": "la UE",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El jefe de el Gobierno bávaro , Edmund Stoiber ,"
+    },
+    {
+      "id": 266,
+      "doc": "CESS-CAST-AA-20000409-6635",
+      "variables": {
+        "entity_a": "pista",
+        "entity_b": "motor",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "pista"
+    },
+    {
+      "id": 267,
+      "doc": "CESS-CAST-P-20020501-3",
+      "variables": {
+        "entity_a": "El ministro de Asuntos Exteriores , Josep Piqué ,",
+        "entity_b": "un acuerdo",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El ministro de Asuntos Exteriores , Josep Piqué ,"
+    },
+    {
+      "id": 268,
+      "doc": "CESS-CAST-AA-20000304-3224",
+      "variables": {
+        "entity_a": "el Delegado de el Gobierno en la Comunidad Valenciana , Carlos González Cepeda ,",
+        "entity_b": "la Comunidad Valenciana",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el Delegado de el Gobierno en la Comunidad Valenciana , Carlos González Cepeda ,"
+    },
+    {
+      "id": 269,
+      "doc": "CESS-CAST-AA-20001129-22863",
+      "variables": {
+        "entity_a": "la cultura",
+        "entity_b": "los mejores amigos que _ tengo",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la cultura"
+    },
+    {
+      "id": 270,
+      "doc": "CESS-CAST-AA-20000608-6170",
+      "variables": {
+        "entity_a": "el tren de alta velocidad a Levante",
+        "entity_b": "Valcárcel y Aznar",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el tren de alta velocidad a Levante"
+    },
+    {
+      "id": 271,
+      "doc": "CESS-CAST-A-20000218-15021",
+      "variables": {
+        "entity_a": "EH",
+        "entity_b": "el pacto de legislatura con EH",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "EH"
+    },
+    {
+      "id": 272,
+      "doc": "CESS-CAST-AA-20001024-19378",
+      "variables": {
+        "entity_a": "una nutrida representación de estudiantes de Derecho de la Universidad de Deusto , a los que _ explicó el desempeño diario de sus funciones y quienes , por invitación suya , visitaron a continuación el Palacio Real de Madrid",
+        "entity_b": "El Príncipe de Asturias",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "una nutrida representación de estudiantes de Derecho de la Universidad de Deusto , a los que _ explicó el desempeño diario de sus funciones y quienes , por invitación suya , visitaron a continuación el Palacio Real de Madrid"
+    },
+    {
+      "id": 273,
+      "doc": "CESS-CAST-P-19991002-41",
+      "variables": {
+        "entity_a": "el ministro de Comunicación , Mohamed Messari ,",
+        "entity_b": "( Ceuta )",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el ministro de Comunicación , Mohamed Messari ,"
+    },
+    {
+      "id": 274,
+      "doc": "CESS-CAST-AA-20001108-5808",
+      "variables": {
+        "entity_a": "la pérdida de apoyo popular de el FPOE , que coinciden en apuntar todas las encuestas y que se debería a el desgaste de el poder de un partido que ha acostumbrado a su electorado a actuar desde la oposición en las últimas décadas y las medidas impopulares que , como integrante de el Gobierno , _ se ha visto obligado a tomar , de lo que es ejemplo la subida de los impuestos",
+        "entity_b": "El editor de los semanarios \" Profil \" y \" Trend \" , Christian Rainer ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la pérdida de apoyo popular de el FPOE , que coinciden en apuntar todas las encuestas y que se debería a el desgaste de el poder de un partido que ha acostumbrado a su electorado a actuar desde la oposición en las últimas décadas y las medidas impopulares que , como integrante de el Gobierno , _ se ha visto obligado a tomar , de lo que es ejemplo la subida de los impuestos"
+    },
+    {
+      "id": 275,
+      "doc": "CESS-CAST-A-20000426-19061",
+      "variables": {
+        "entity_a": "un cuadriciclo ligero ( vehículo que no puede desarrollar más de 45 km/h , de chasis ligero y con una potencia no superior a 50 centímetros cúbicos )",
+        "entity_b": "La sentencia subraya que \" el índice estadístico anual de accidentes de tráfico causados por ciclomotores en el interior de núcleo urbano resulta aterrador , según las cifras de el Instituto Catalán de Seguridad Viaria \" .",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un cuadriciclo ligero ( vehículo que no puede desarrollar más de 45 km/h , de chasis ligero y con una potencia no superior a 50 centímetros cúbicos )"
+    },
+    {
+      "id": 276,
+      "doc": "CESS-CAST-P-19991101-35",
+      "variables": {
+        "entity_a": "presidente de Eusko Arkatasuna ( EA ) , Carlos Garaikoetxea ,",
+        "entity_b": "el secretario general , Inazio Oliveri , que presentó su dimisión",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "presidente de Eusko Arkatasuna ( EA ) , Carlos Garaikoetxea ,"
+    },
+    {
+      "id": 277,
+      "doc": "CESS-CAST-AA-20001104-2418",
+      "variables": {
+        "entity_a": "el arzobispo de Manila , cardenal Jaime Sin",
+        "entity_b": "la Presidencia , que se ha convertido para él en una \" ocasión de pecado \"",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el arzobispo de Manila , cardenal Jaime Sin"
+    },
+    {
+      "id": 278,
+      "doc": "CESS-CAST-P-20000903-36",
+      "variables": {
+        "entity_a": "CiU",
+        "entity_b": "Josep Piqué",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "CiU"
+    },
+    {
+      "id": 279,
+      "doc": "CESS-CAST-P-20000903-34",
+      "variables": {
+        "entity_a": "Gobierno",
+        "entity_b": "el Pacto de Lizarra",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Gobierno"
+    },
+    {
+      "id": 280,
+      "doc": "CESS-CAST-P-20011201-52",
+      "variables": {
+        "entity_a": "El ministro de Hacienda , Cristóbal Montoro ,",
+        "entity_b": "El lehendakari , Juan José Ibarretxe ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El ministro de Hacienda , Cristóbal Montoro ,"
+    },
+    {
+      "id": 281,
+      "doc": "CESS-CAST-P-19991101-32",
+      "variables": {
+        "entity_a": "los marroquís",
+        "entity_b": "La democracia",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "los marroquís"
+    },
+    {
+      "id": 282,
+      "doc": "CESS-CAST-A-20000320-16577",
+      "variables": {
+        "entity_a": "el puertorriqueño Félix \" Tito \" Trinidad",
+        "entity_b": "El estadounidense , de origen mexicano , Oscar De La Hoya ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el puertorriqueño Félix \" Tito \" Trinidad"
+    },
+    {
+      "id": 283,
+      "doc": "CESS-CAST-P-19991201-135_a",
+      "variables": {
+        "entity_a": "Giulia Lazzarini",
+        "entity_b": "aquellos días , cuando estaba Giorgio Strehler",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Giulia Lazzarini"
+    },
+    {
+      "id": 284,
+      "doc": "CESS-CAST-P-20000701-134",
+      "variables": {
+        "entity_a": "el féretro de el actor",
+        "entity_b": "Alberto Sordi",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el féretro de el actor"
+    },
+    {
+      "id": 285,
+      "doc": "CESS-CAST-P-20010102-28",
+      "variables": {
+        "entity_a": "el presidente estadounidense , Bill Clinton , quien probablemente le presente algunas modificaciones en su propuesta de paz",
+        "entity_b": "que un jefe de Gobierno que presentó su dimisión tiene plenos poderes",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el presidente estadounidense , Bill Clinton , quien probablemente le presente algunas modificaciones en su propuesta de paz"
+    },
+    {
+      "id": 286,
+      "doc": "CESS-CAST-P-20011001-133",
+      "variables": {
+        "entity_a": "el proyecto de la Ciutat de el Teatre que el Ayuntamiento de Barcelona encargó a el director Lluís Pasqual",
+        "entity_b": "el Plan Director de Infraestructuras ( PDI ) aprobado recientemente",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el proyecto de la Ciutat de el Teatre que el Ayuntamiento de Barcelona encargó a el director Lluís Pasqual"
+    },
+    {
+      "id": 287,
+      "doc": "CESS-CAST-A-20000320-16577",
+      "variables": {
+        "entity_a": "querer le",
+        "entity_b": "El estadounidense , de origen mexicano , Oscar De La Hoya ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "querer le"
+    },
+    {
+      "id": 288,
+      "doc": "CESS-CAST-AA-20001025-20686",
+      "variables": {
+        "entity_a": "los primeros tres cadáveres de tripulantes",
+        "entity_b": "el rescate de los marinos muertos en el naufragado submarino nuclear \" Kursk \"",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "los primeros tres cadáveres de tripulantes"
+    },
+    {
+      "id": 289,
+      "doc": "CESS-CAST-AA-20001025-20686",
+      "variables": {
+        "entity_a": "el naufragado submarino nuclear \" Kursk \"",
+        "entity_b": "los primeros tres cadáveres de tripulantes",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el naufragado submarino nuclear \" Kursk \""
+    },
+    {
+      "id": 290,
+      "doc": "CESS-CAST-AA-20000312-9698",
+      "variables": {
+        "entity_a": "el Celta",
+        "entity_b": "Coira",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el Celta"
+    },
+    {
+      "id": 291,
+      "doc": "CESS-CAST-AA-20000908-5244",
+      "variables": {
+        "entity_a": "La portavoz de la Asociación de Consumidores Australianos ( ACA ) , Gayle Kennedy ,",
+        "entity_b": "las mascotas , camisetas y otras mercaderías con motivos olímpicos",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "La portavoz de la Asociación de Consumidores Australianos ( ACA ) , Gayle Kennedy ,"
+    },
+    {
+      "id": 292,
+      "doc": "CESS-CAST-P-19981202-141",
+      "variables": {
+        "entity_a": "una pequeña comunidad zíngara en Rumanía",
+        "entity_b": "Izidore Serban",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "una pequeña comunidad zíngara en Rumanía"
+    },
+    {
+      "id": 293,
+      "doc": "CESS-CAST-P-20000802-52",
+      "variables": {
+        "entity_a": "el presidente de el Cabildo de La Palma , José Luis Perestelo ,",
+        "entity_b": "el frente de Tijarafe , el último activo ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el presidente de el Cabildo de La Palma , José Luis Perestelo ,"
+    },
+    {
+      "id": 294,
+      "doc": "CESS-CAST-A-20000416-12803",
+      "variables": {
+        "entity_a": "Atlético de Madrid",
+        "entity_b": "su victoria en Zaragoza ( 0-1 ) , con un gol de penalti de Raúl",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Atlético de Madrid"
+    },
+    {
+      "id": 295,
+      "doc": "CESS-CAST-P-20000701-107",
+      "variables": {
+        "entity_a": "Pantani",
+        "entity_b": "los favoritos",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Pantani"
+    },
+    {
+      "id": 296,
+      "doc": "CESS-CAST-P-20000103-35",
+      "variables": {
+        "entity_a": "áreas de atención inmediata",
+        "entity_b": "que _ establezcan junto a las áreas de urgencias unas consultas que atiendan de forma inmediata a las personas que sufran gripe u otros procesos leves",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "áreas de atención inmediata"
+    },
+    {
+      "id": 297,
+      "doc": "CESS-CAST-AA-20000428-20613",
+      "variables": {
+        "entity_a": "el proceso judicial contra la terrorista estadounidense Lori Berenson",
+        "entity_b": "algunos contactos que en Europa estos señores ( Toledo y su esposa ) habrían tenido con familiares políticos de el señor Abimael Guzmán ( el líder preso de la banda Sendero Luminoso )",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el proceso judicial contra la terrorista estadounidense Lori Berenson"
+    },
+    {
+      "id": 298,
+      "doc": "CESS-CAST-P-19990302-68",
+      "variables": {
+        "entity_a": "el prestigioso catedrático y hepatólogo de el Clínic Joan Rodés",
+        "entity_b": "el \" deficiente \" sistema de I+D en España",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el prestigioso catedrático y hepatólogo de el Clínic Joan Rodés"
+    },
+    {
+      "id": 299,
+      "doc": "CESS-CAST-P-19990601-66",
+      "variables": {
+        "entity_a": "su tren",
+        "entity_b": "El conductor",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "su tren"
+    },
+    {
+      "id": 300,
+      "doc": "CESS-CAST-P-20010701-38",
+      "variables": {
+        "entity_a": "Einstein",
+        "entity_b": "mucha gente de su generación",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Einstein"
+    },
+    {
+      "id": 301,
+      "doc": "CESS-CAST-P-19990601-108",
+      "variables": {
+        "entity_a": "Roger Esteller , uno de los jugadores con los que el club negocia un nuevo contrato , junto a el estadounidense Derrick Alston",
+        "entity_b": "una posibilidad",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Roger Esteller , uno de los jugadores con los que el club negocia un nuevo contrato , junto a el estadounidense Derrick Alston"
+    },
+    {
+      "id": 302,
+      "doc": "CESS-CAST-AA-20001107-5005",
+      "variables": {
+        "entity_a": "Internet",
+        "entity_b": "Telefónica",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Internet"
+    },
+    {
+      "id": 303,
+      "doc": "CESS-CAST-A-20000216-13241",
+      "variables": {
+        "entity_a": "la \" gran Europa",
+        "entity_b": "nuevo gobierno austriaco de tinte ultraderechista",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la \" gran Europa"
+    },
+    {
+      "id": 304,
+      "doc": "CESS-CAST-P-20020402-101",
+      "variables": {
+        "entity_a": "Barça",
+        "entity_b": "los mayores peligros con que _ se encontrará en Atenas",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Barça"
+    },
+    {
+      "id": 305,
+      "doc": "CESS-CAST-AA-20000704-2137",
+      "variables": {
+        "entity_a": "los grandes almacenes Sogo , firma privada en quiebra técnica a la que el gobierno nipón perdonará obligaciones por 97.000 millones de yenes ( 915 millones de dólares )",
+        "entity_b": "la controvertida condonación de las deudas a los grandes almacenes Sogo , firma privada en quiebra técnica a la que el gobierno nipón perdonará obligaciones por 97.000 millones de yenes ( 915 millones de dólares )",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "los grandes almacenes Sogo , firma privada en quiebra técnica a la que el gobierno nipón perdonará obligaciones por 97.000 millones de yenes ( 915 millones de dólares )"
+    },
+    {
+      "id": 306,
+      "doc": "CESS-CAST-P-19991001-118",
+      "variables": {
+        "entity_a": "Arsenal",
+        "entity_b": "Van Gaal",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Arsenal"
+    },
+    {
+      "id": 307,
+      "doc": "CESS-CAST-A-20001121-15871",
+      "variables": {
+        "entity_a": "sus autoridades",
+        "entity_b": "estos terroristas que han sido finalmente arrestados",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sus autoridades"
+    },
+    {
+      "id": 308,
+      "doc": "CESS-CAST-A-20000217-13738",
+      "variables": {
+        "entity_a": "1998",
+        "entity_b": "China , que presenta la ventaja competitiva de los bajos precios y , por tanto , de donde proceden los productos más baratos",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "1998"
+    },
+    {
+      "id": 309,
+      "doc": "CESS-CAST-P-20000501-21",
+      "variables": {
+        "entity_a": "los veteranos de la guerra",
+        "entity_b": "la ocupación de las tierras de los hacendados blancos",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "los veteranos de la guerra"
+    },
+    {
+      "id": 310,
+      "doc": "CESS-CAST-AA-20000525-20070",
+      "variables": {
+        "entity_a": "La gran dificultad que históricamente se ha dado en la recogida de las firmas de socios para avalar las candidaturas",
+        "entity_b": "la plataforma de oposición El Elefante Azul",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "La gran dificultad que históricamente se ha dado en la recogida de las firmas de socios para avalar las candidaturas"
+    },
+    {
+      "id": 311,
+      "doc": "CESS-CAST-P-19990701-26_a",
+      "variables": {
+        "entity_a": "burguesía",
+        "entity_b": "Ojo , yo te he contado esta historia ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "burguesía"
+    },
+    {
+      "id": 312,
+      "doc": "CESS-CAST-P-19990802-20",
+      "variables": {
+        "entity_a": "cócteles molotov",
+        "entity_b": "El portavoz de el PP en el Parlamento vasco , Leopoldo Barreda ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "cócteles molotov"
+    },
+    {
+      "id": 313,
+      "doc": "CESS-CAST-P-20000401-126",
+      "variables": {
+        "entity_a": "' Todo sobre mi madre '",
+        "entity_b": "Hollywood",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "' Todo sobre mi madre '"
+    },
+    {
+      "id": 314,
+      "doc": "CESS-CAST-P-20010502-122",
+      "variables": {
+        "entity_a": "un libro conmemorativo de la exposición La Colla de Sabadell , entre el noucentisme i l'avantguarda , organizada en el mes de noviembre de 1999 en el Casal Pere Quart de Sabadell con motivo de el centenario de el nacimiento de Oliver y Trabal",
+        "entity_b": "Joan Oliver , Pere Quart",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un libro conmemorativo de la exposición La Colla de Sabadell , entre el noucentisme i l'avantguarda , organizada en el mes de noviembre de 1999 en el Casal Pere Quart de Sabadell con motivo de el centenario de el nacimiento de Oliver y Trabal"
+    },
+    {
+      "id": 315,
+      "doc": "CESS-CAST-AA-20000910-6874",
+      "variables": {
+        "entity_a": "Los camioneros británicos",
+        "entity_b": "la Organización de Países Exportadores de Petróleo ( OPEP )",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Los camioneros británicos"
+    },
+    {
+      "id": 316,
+      "doc": "CESS-CAST-P-19991101-32",
+      "variables": {
+        "entity_a": "un profundo proceso de reformas con el que modernizar Marruecos",
+        "entity_b": "su padre",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un profundo proceso de reformas con el que modernizar Marruecos"
+    },
+    {
+      "id": 317,
+      "doc": "CESS-CAST-P-20020502-38",
+      "variables": {
+        "entity_a": "la localidad de Rafah , situada en el sur de la franja de Gaza ,",
+        "entity_b": "otros dos de 10 y 12",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la localidad de Rafah , situada en el sur de la franja de Gaza ,"
+    },
+    {
+      "id": 318,
+      "doc": "CESS-CAST-AA-20001025-20686",
+      "variables": {
+        "entity_a": "el ciclón que azota la zona de el naufragio",
+        "entity_b": "los compartimentos octavo y noveno de los diez que tenía el submarino naufragado , ambos situados en la popa",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el ciclón que azota la zona de el naufragio"
+    },
+    {
+      "id": 319,
+      "doc": "CESS-CAST-P-20000302-93",
+      "variables": {
+        "entity_a": "El equipo de Cúper",
+        "entity_b": "la Fiorentina",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El equipo de Cúper"
+    },
+    {
+      "id": 320,
+      "doc": "CESS-CAST-AA-20000908-5244",
+      "variables": {
+        "entity_a": "los organizadores",
+        "entity_b": "Las autoridades australianas , conscientes de los posibles abusos que pueden cometer los dueños de los comercios ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "los organizadores"
+    },
+    {
+      "id": 321,
+      "doc": "CESS-CAST-AA-20000908-5244",
+      "variables": {
+        "entity_a": "los organizadores",
+        "entity_b": "aquellas personas que cancelen sus reservas o que no cumplan con el horario fijado",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "los organizadores"
+    },
+    {
+      "id": 322,
+      "doc": "CESS-CAST-P-20010502-122",
+      "variables": {
+        "entity_a": "Bartomeu Cruells , portavoz de La Mirada ,",
+        "entity_b": "Joan Oliver , Pere Quart",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Bartomeu Cruells , portavoz de La Mirada ,"
+    },
+    {
+      "id": 323,
+      "doc": "CESS-CAST-P-20010701-182",
+      "variables": {
+        "entity_a": "la Copa América",
+        "entity_b": "Colombia",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la Copa América"
+    },
+    {
+      "id": 324,
+      "doc": "CESS-CAST-AA-20000128-20443",
+      "variables": {
+        "entity_a": "Cuba",
+        "entity_b": "canciller cubano , Felipe Pérez Roque , que hizo escala en España dentro de su gira por diversos países europeos",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Cuba"
+    },
+    {
+      "id": 325,
+      "doc": "CESS-CAST-A-20001013-10127",
+      "variables": {
+        "entity_a": "la Armada rusa",
+        "entity_b": "El almirante Vladímir Kuroyédov , comandante de la Armada rusa ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la Armada rusa"
+    },
+    {
+      "id": 326,
+      "doc": "CESS-CAST-AA-20000525-20070",
+      "variables": {
+        "entity_a": "Jaume Llauradó",
+        "entity_b": "El que lo tendrá más fácil , en caso de decidir presentar se finalmente ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Jaume Llauradó"
+    },
+    {
+      "id": 327,
+      "doc": "CESS-CAST-A-20000918-13853",
+      "variables": {
+        "entity_a": "el Hamburgo",
+        "entity_b": "El entrenador de el Deportivo , Javier Irureta ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el Hamburgo"
+    },
+    {
+      "id": 328,
+      "doc": "CESS-CAST-AA-20000806-3818",
+      "variables": {
+        "entity_a": "el próximo miércoles",
+        "entity_b": "los compañeros",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el próximo miércoles"
+    },
+    {
+      "id": 329,
+      "doc": "CESS-CAST-A-20001114-10150",
+      "variables": {
+        "entity_a": "la democracia",
+        "entity_b": "I Cumbre ( Guadalajara , México , 1991 ) .",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la democracia"
+    },
+    {
+      "id": 330,
+      "doc": "CESS-CAST-P-19981202-141",
+      "variables": {
+        "entity_a": "' El extranjero loco ' , que cierra su trilogía sobre los gitanos ,",
+        "entity_b": "Gatlif",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "' El extranjero loco ' , que cierra su trilogía sobre los gitanos ,"
+    },
+    {
+      "id": 331,
+      "doc": "CESS-CAST-AA-20000906-4020",
+      "variables": {
+        "entity_a": "Un total de 3.007.296 personas , un 49,74 por ciento de la población de El Salvador ,",
+        "entity_b": "Si la mitad de la población vive en situación de pobreza y de ella 1,3 millones en extrema pobreza",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Un total de 3.007.296 personas , un 49,74 por ciento de la población de El Salvador ,"
+    },
+    {
+      "id": 332,
+      "doc": "CESS-CAST-P-20020202-17",
+      "variables": {
+        "entity_a": "el ministro de Exteriores argentino , Carlos Ruckauf",
+        "entity_b": "el corralito financiero , el bloqueo de las cuentas salariales y de ahorro decretado por el EX expresidente Fernando de la Rúa y su ministro de Economía , Domingo Cavallo , y ratificado por el presidente Eduardo Duhalde mediante una ley aprobada en el Parlamento",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el ministro de Exteriores argentino , Carlos Ruckauf"
+    },
+    {
+      "id": 333,
+      "doc": "CESS-CAST-A-20000221-16686",
+      "variables": {
+        "entity_a": "El Universidad Católica",
+        "entity_b": "la jornada inaugural de el fútbol nacional",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El Universidad Católica"
+    },
+    {
+      "id": 334,
+      "doc": "CESS-CAST-AA-20000108-3976",
+      "variables": {
+        "entity_a": "el apoyo de su colega estadounidense , Bill Clinton , quien se mostró dispuesto a solicitar a los organismos multilaterales que _ agilicen las ayudas ofrecidas a el gobernante , acosado por las peticiones de dimisión",
+        "entity_b": "los dos políticos",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el apoyo de su colega estadounidense , Bill Clinton , quien se mostró dispuesto a solicitar a los organismos multilaterales que _ agilicen las ayudas ofrecidas a el gobernante , acosado por las peticiones de dimisión"
+    },
+    {
+      "id": 335,
+      "doc": "CESS-CAST-P-19981201-24",
+      "variables": {
+        "entity_a": "dictador chileno",
+        "entity_b": "Madrid",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "dictador chileno"
+    },
+    {
+      "id": 336,
+      "doc": "CESS-CAST-A-20000416-12803",
+      "variables": {
+        "entity_a": "Barcelona",
+        "entity_b": "el Athletic",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Barcelona"
+    },
+    {
+      "id": 337,
+      "doc": "CESS-CAST-P-20010701-193",
+      "variables": {
+        "entity_a": "( Federico Luppi )",
+        "entity_b": "Antón Reixa",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "( Federico Luppi )"
+    },
+    {
+      "id": 338,
+      "doc": "CESS-CAST-A-20000318-14966",
+      "variables": {
+        "entity_a": "Escocia",
+        "entity_b": "un torneo que _ no gana desde 1995",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Escocia"
+    },
+    {
+      "id": 339,
+      "doc": "CESS-CAST-A-20000922-18375",
+      "variables": {
+        "entity_a": "palacio Brongniart , sede simbólica de la Bolsa parisiense , que amaneció cubierto con los colores de Euronext , el amarillo y el azul , en forma de bandas situadas entre las catorce columnas de la fachada de el edificio",
+        "entity_b": "Euronext , fruto de su fusión con las plazas financieras de Amsterdam y Bruselas",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "palacio Brongniart , sede simbólica de la Bolsa parisiense , que amaneció cubierto con los colores de Euronext , el amarillo y el azul , en forma de bandas situadas entre las catorce columnas de la fachada de el edificio"
+    },
+    {
+      "id": 340,
+      "doc": "CESS-CAST-P-19990901-75",
+      "variables": {
+        "entity_a": "( Carrefour )",
+        "entity_b": "La Asociación Nacional de Centrales y Grupos de Compra ( Anceco )",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "( Carrefour )"
+    },
+    {
+      "id": 341,
+      "doc": "CESS-CAST-AA-20001105-2921",
+      "variables": {
+        "entity_a": "Estado",
+        "entity_b": "los recursos que los Presupuestos destinan a la realización de inversiones reales en el territorio de las Comunidades Autónomas y que se canalizan a través de Fondo de Compensación Interterritorial , dotado este año con 146.564 millones",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Estado"
+    },
+    {
+      "id": 342,
+      "doc": "CESS-CAST-AA-20001209-6582",
+      "variables": {
+        "entity_a": "el Parlamento israelí ( Kneset )",
+        "entity_b": "El Shas , miembro de la coalición de Gobierno y tercera fuerza política , con 17 parlamentarios ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el Parlamento israelí ( Kneset )"
+    },
+    {
+      "id": 343,
+      "doc": "CESS-CAST-A-20000522-17235",
+      "variables": {
+        "entity_a": "( OMC )",
+        "entity_b": "dos fallos que declaran ilegales sus subsidios a la industria aeronáutica",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "( OMC )"
+    },
+    {
+      "id": 344,
+      "doc": "CESS-CAST-P-20000602-47",
+      "variables": {
+        "entity_a": "Jaime Mayor",
+        "entity_b": "Ministerio de el Interior",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Jaime Mayor"
+    },
+    {
+      "id": 345,
+      "doc": "CESS-CAST-P-20001002-71_b",
+      "variables": {
+        "entity_a": "la aerolínea Spantax",
+        "entity_b": "Rodolfo Bay Wright , fundador de la aerolínea Spantax",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la aerolínea Spantax"
+    },
+    {
+      "id": 346,
+      "doc": "CESS-CAST-AA-20000908-5405",
+      "variables": {
+        "entity_a": "la \" E \" de España",
+        "entity_b": ", con el objetivo de facilitar un mayor dinamismo en el mercado de ocasión",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la \" E \" de España"
+    },
+    {
+      "id": 347,
+      "doc": "CESS-CAST-P-20011202-66",
+      "variables": {
+        "entity_a": "El Deutsche Bank",
+        "entity_b": "el grupo japonés Sogo ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El Deutsche Bank"
+    },
+    {
+      "id": 348,
+      "doc": "CESS-CAST-P-20020702-21_b",
+      "variables": {
+        "entity_a": "Júcar",
+        "entity_b": "Valencia",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Júcar"
+    },
+    {
+      "id": 349,
+      "doc": "CESS-CAST-AA-20000807-4675",
+      "variables": {
+        "entity_a": "el abridor Denny Neagle , que había llenado las bases en la sexta entrada con Jay Buhner , David Bell y Rickey Henderson",
+        "entity_b": "los Yanquis",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el abridor Denny Neagle , que había llenado las bases en la sexta entrada con Jay Buhner , David Bell y Rickey Henderson"
+    },
+    {
+      "id": 350,
+      "doc": "CESS-CAST-AA-20000328-23195",
+      "variables": {
+        "entity_a": "La portavoz de el Servicio de Inmigración y Naturalización ( INS ) , de Miami ( sureste de EEUU ) , María Elena García ,",
+        "entity_b": "aeropuerto internacional",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "La portavoz de el Servicio de Inmigración y Naturalización ( INS ) , de Miami ( sureste de EEUU ) , María Elena García ,"
+    },
+    {
+      "id": 351,
+      "doc": "CESS-CAST-P-19990202-102",
+      "variables": {
+        "entity_a": "el financiero norteamericano George Soros",
+        "entity_b": "El ministro de Hacienda de Brasil , Pedro Malan ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el financiero norteamericano George Soros"
+    },
+    {
+      "id": 352,
+      "doc": "CESS-CAST-A-20000315-12633",
+      "variables": {
+        "entity_a": "Brasil",
+        "entity_b": "Latinoamérica",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Brasil"
+    },
+    {
+      "id": 353,
+      "doc": "CESS-CAST-P-19990802-20",
+      "variables": {
+        "entity_a": "el episodio",
+        "entity_b": "Cuarenta encapuchados",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el episodio"
+    },
+    {
+      "id": 354,
+      "doc": "CESS-CAST-P-20000903-72",
+      "variables": {
+        "entity_a": "El equipo de Rubio",
+        "entity_b": "el Eibar",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El equipo de Rubio"
+    },
+    {
+      "id": 355,
+      "doc": "CESS-CAST-AA-20000525-20070",
+      "variables": {
+        "entity_a": "las firmas de socios",
+        "entity_b": "El que lo tendrá más fácil , en caso de decidir presentar se finalmente ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "las firmas de socios"
+    },
+    {
+      "id": 356,
+      "doc": "CESS-CAST-P-19990301-6",
+      "variables": {
+        "entity_a": "jóvenes prisioneras de el modelo social que prima la delgadez de el cuerpo",
+        "entity_b": "La anorexia y la bulimia",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "jóvenes prisioneras de el modelo social que prima la delgadez de el cuerpo"
+    },
+    {
+      "id": 357,
+      "doc": "CESS-CAST-P-20001001-93",
+      "variables": {
+        "entity_a": "Los burdeles",
+        "entity_b": "El Gobierno",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Los burdeles"
+    },
+    {
+      "id": 358,
+      "doc": "CESS-CAST-P-20020801-27_c",
+      "variables": {
+        "entity_a": "un pasajero de el Turbocat , Joel Manrique ,",
+        "entity_b": "Las desventuras que un pasajero de el Turbocat , Joel Manrique , comenzó a narrar a este diario el pasado Martes",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un pasajero de el Turbocat , Joel Manrique ,"
+    },
+    {
+      "id": 359,
+      "doc": "CESS-CAST-A-20000620-15780",
+      "variables": {
+        "entity_a": "Rusia",
+        "entity_b": "La Unión Europea ( UE )",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Rusia"
+    },
+    {
+      "id": 360,
+      "doc": "CESS-CAST-A-20001120-15630",
+      "variables": {
+        "entity_a": "un entendimiento de fondo",
+        "entity_b": "Gobierno español",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un entendimiento de fondo"
+    },
+    {
+      "id": 361,
+      "doc": "CESS-CAST-P-20020401-79",
+      "variables": {
+        "entity_a": "teatro",
+        "entity_b": "su padre , con quien _ sigue viviendo ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "teatro"
+    },
+    {
+      "id": 362,
+      "doc": "CESS-CAST-A-20000722-17116",
+      "variables": {
+        "entity_a": "el ultimátum dado a la dirección para explotar las bombonas de gas que alimentan la planta si se cierran las instalaciones",
+        "entity_b": "El contencioso de Adelshoffen",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el ultimátum dado a la dirección para explotar las bombonas de gas que alimentan la planta si se cierran las instalaciones"
+    },
+    {
+      "id": 363,
+      "doc": "CESS-CAST-P-20000903-39",
+      "variables": {
+        "entity_a": "El barco apresado cerca de Canarias",
+        "entity_b": "5.000 kilos de droga",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El barco apresado cerca de Canarias"
+    },
+    {
+      "id": 364,
+      "doc": "CESS-CAST-AA-20000706-3682",
+      "variables": {
+        "entity_a": "El director general de ANFAC , Luis Valero ,",
+        "entity_b": "enero-junio de 1999",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El director general de ANFAC , Luis Valero ,"
+    },
+    {
+      "id": 365,
+      "doc": "CESS-CAST-AA-20000713-9246",
+      "variables": {
+        "entity_a": "El delantero panameño Julio César Dely Valdés",
+        "entity_b": "Oviedo",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El delantero panameño Julio César Dely Valdés"
+    },
+    {
+      "id": 366,
+      "doc": "CESS-CAST-AA-20001025-20686",
+      "variables": {
+        "entity_a": "el naufragado submarino nuclear \" Kursk \"",
+        "entity_b": "Un submarinista ruso",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el naufragado submarino nuclear \" Kursk \""
+    },
+    {
+      "id": 367,
+      "doc": "CESS-CAST-A-20000416-12803",
+      "variables": {
+        "entity_a": "Real Madrid",
+        "entity_b": "Zaragoza",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Real Madrid"
+    },
+    {
+      "id": 368,
+      "doc": "CESS-CAST-P-19990302-141",
+      "variables": {
+        "entity_a": "la realización de un piercing en el pene de un vasco residente en Catalunya , que había escrito a el programa solicitando esta sensación a la carta",
+        "entity_b": "El programa de TV-3 Les 1.000 i una",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la realización de un piercing en el pene de un vasco residente en Catalunya , que había escrito a el programa solicitando esta sensación a la carta"
+    },
+    {
+      "id": 369,
+      "doc": "CESS-CAST-P-19990202-122",
+      "variables": {
+        "entity_a": "Comité Olímpico Internacional ( COI )",
+        "entity_b": "una nota de 12 puntos",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Comité Olímpico Internacional ( COI )"
+    },
+    {
+      "id": 370,
+      "doc": "CESS-CAST-P-19990601-66",
+      "variables": {
+        "entity_a": "El conductor",
+        "entity_b": "Madrid",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El conductor"
+    },
+    {
+      "id": 371,
+      "doc": "CESS-CAST-A-20000413-10268",
+      "variables": {
+        "entity_a": "Barcelona , a el que _ jamás había podido derrotar a pesar de sus numerosos partidos con el Espanyol",
+        "entity_b": "uno de sus sueños previstos para la presente temporada",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Barcelona , a el que _ jamás había podido derrotar a pesar de sus numerosos partidos con el Espanyol"
+    },
+    {
+      "id": 372,
+      "doc": "CESS-CAST-AA-20000912-8058",
+      "variables": {
+        "entity_a": "don Juan Carlos",
+        "entity_b": "Estoril y Cascais , dos nombres que están marcados con letras mayúsculas en la historia personal de Juan Carlos , puesto que _ son lugares en los que transcurrieron buena parte de la infancia y la juventud de el monarca español",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "don Juan Carlos"
+    },
+    {
+      "id": 373,
+      "doc": "CESS-CAST-A-20000322-18381",
+      "variables": {
+        "entity_a": "el todopoderoso dueño de los Yanquis , George Steinbrenner ,",
+        "entity_b": "el manejador de los Yanquis , Joe Torre ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el todopoderoso dueño de los Yanquis , George Steinbrenner ,"
+    },
+    {
+      "id": 374,
+      "doc": "CESS-CAST-A-20001018-13809",
+      "variables": {
+        "entity_a": "demócrata , Albert Gore ,",
+        "entity_b": "republicano , George W. Bush ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "demócrata , Albert Gore ,"
+    },
+    {
+      "id": 375,
+      "doc": "CESS-CAST-AA-20000505-3260",
+      "variables": {
+        "entity_a": "Consejo Nacional Electoral venezolano",
+        "entity_b": "El Centro Carter",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Consejo Nacional Electoral venezolano"
+    },
+    {
+      "id": 376,
+      "doc": "CESS-CAST-AA-20000911-7726",
+      "variables": {
+        "entity_a": "el fallo de el Tribunal Andino de Justicia que declaró ilegal la decisión que Venezuela adoptó para restringir el transporte internacional de carga por carretera",
+        "entity_b": "la comisión de la Comunidad Andina ( CAN )",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el fallo de el Tribunal Andino de Justicia que declaró ilegal la decisión que Venezuela adoptó para restringir el transporte internacional de carga por carretera"
+    },
+    {
+      "id": 377,
+      "doc": "CESS-CAST-AA-20001025-20686",
+      "variables": {
+        "entity_a": "los primeros tres cadáveres de tripulantes",
+        "entity_b": "Un submarinista ruso",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "los primeros tres cadáveres de tripulantes"
+    },
+    {
+      "id": 378,
+      "doc": "CESS-CAST-AA-20000904-2005",
+      "variables": {
+        "entity_a": "la OPEP",
+        "entity_b": "El presidente de la OPEP y ministro de Energía de Venezuela , Alí Rodríguez ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la OPEP"
+    },
+    {
+      "id": 379,
+      "doc": "CESS-CAST-A-20001017-13710",
+      "variables": {
+        "entity_a": "El número uno de el mundo , el ruso Gari Kasparov ,",
+        "entity_b": "su compatriota Vladimir Kramnik",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El número uno de el mundo , el ruso Gari Kasparov ,"
+    },
+    {
+      "id": 380,
+      "doc": "CESS-CAST-A-20000516-11811",
+      "variables": {
+        "entity_a": "las elecciones presidenciales en el país , en las que compiten tres candidatos principales : un veterano caudillo reformista ciego y dos jóvenes líderes liberales",
+        "entity_b": "mujeres",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "las elecciones presidenciales en el país , en las que compiten tres candidatos principales : un veterano caudillo reformista ciego y dos jóvenes líderes liberales"
+    },
+    {
+      "id": 381,
+      "doc": "CESS-CAST-AA-20000911-7726",
+      "variables": {
+        "entity_a": "la ministra de Comercio Exterior de Colombia , Marta Lucía Ramírez , quien señaló que su país esperará los 90 días con los que cuenta Venezuela para acatar el fallo de el máximo tribunal regional , que vence a mediados de noviembre",
+        "entity_b": "Colombia",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la ministra de Comercio Exterior de Colombia , Marta Lucía Ramírez , quien señaló que su país esperará los 90 días con los que cuenta Venezuela para acatar el fallo de el máximo tribunal regional , que vence a mediados de noviembre"
+    },
+    {
+      "id": 382,
+      "doc": "CESS-CAST-A-20000222-17909",
+      "variables": {
+        "entity_a": "El ministro de Economía , Rodrigo Rato ,",
+        "entity_b": "el Ejecutivo",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El ministro de Economía , Rodrigo Rato ,"
+    },
+    {
+      "id": 383,
+      "doc": "CESS-CAST-P-19990202-117",
+      "variables": {
+        "entity_a": "Caja San Fernando",
+        "entity_b": "El equipo de Scariolo",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Caja San Fernando"
+    },
+    {
+      "id": 384,
+      "doc": "CESS-CAST-P-20000501-70",
+      "variables": {
+        "entity_a": "Maximus , el protagonista",
+        "entity_b": "El actor australiano Russell Crowe",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Maximus , el protagonista"
+    },
+    {
+      "id": 385,
+      "doc": "CESS-CAST-A-20001120-15630",
+      "variables": {
+        "entity_a": "Gobierno español",
+        "entity_b": "la banda terrorista ETA",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Gobierno español"
+    },
+    {
+      "id": 386,
+      "doc": "CESS-CAST-AA-20000630-25185",
+      "variables": {
+        "entity_a": "Los 240 niños y sus monitores",
+        "entity_b": "la zona de embarque de la terminal B de Son Sant Joan , en la que _ permanecían desde que a las 3.00 horas _ bajaron de el avión",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Los 240 niños y sus monitores"
+    },
+    {
+      "id": 387,
+      "doc": "CESS-CAST-AA-20000511-8193",
+      "variables": {
+        "entity_a": "el País Vasco",
+        "entity_b": "la paz",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el País Vasco"
+    },
+    {
+      "id": 388,
+      "doc": "CESS-CAST-P-20000302-93",
+      "variables": {
+        "entity_a": "Toldo",
+        "entity_b": "La Segunda parte",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Toldo"
+    },
+    {
+      "id": 389,
+      "doc": "CESS-CAST-P-20000801-65",
+      "variables": {
+        "entity_a": "El importe total de las obras , que suma expropiaciones , servicios y supresión de barreras arquitectónicas en la estación de Horta ,",
+        "entity_b": "Los accesos a la estación de Vall d'Hebron para la línea 5",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El importe total de las obras , que suma expropiaciones , servicios y supresión de barreras arquitectónicas en la estación de Horta ,"
+    },
+    {
+      "id": 390,
+      "doc": "CESS-CAST-P-20000301-17",
+      "variables": {
+        "entity_a": "asociación ilícita",
+        "entity_b": "un aficionado rival",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "asociación ilícita"
+    },
+    {
+      "id": 391,
+      "doc": "CESS-CAST-P-19990302-85",
+      "variables": {
+        "entity_a": "un solar de 10.000 metros cuadrados que no cumple los requisitos que le marca el Plan General Metropolitano ( PGM )",
+        "entity_b": "un plan especial de reforma interior ( PERI ) que adecuará la parcela afectada a la normativa urbanística",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un solar de 10.000 metros cuadrados que no cumple los requisitos que le marca el Plan General Metropolitano ( PGM )"
+    },
+    {
+      "id": 392,
+      "doc": "CESS-CAST-A-20001121-15871",
+      "variables": {
+        "entity_a": "el pueblo panameño",
+        "entity_b": "estos terroristas que han sido finalmente arrestados",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el pueblo panameño"
+    },
+    {
+      "id": 393,
+      "doc": "CESS-CAST-P-20010701-193",
+      "variables": {
+        "entity_a": "Antón Reixa",
+        "entity_b": "Daniel , un médico de ideas republicanas ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Antón Reixa"
+    },
+    {
+      "id": 394,
+      "doc": "CESS-CAST-AA-20000309-7054",
+      "variables": {
+        "entity_a": "el alemán Michael Schumacher",
+        "entity_b": "( Ferrari F1-2000 )",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el alemán Michael Schumacher"
+    },
+    {
+      "id": 395,
+      "doc": "CESS-CAST-AA-20001025-20686",
+      "variables": {
+        "entity_a": "los primeros tres cadáveres de tripulantes",
+        "entity_b": "Los buzos ocupados en el rescate de los marinos muertos en el naufragado submarino nuclear \" Kursk \"",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "los primeros tres cadáveres de tripulantes"
+    },
+    {
+      "id": 396,
+      "doc": "CESS-CAST-A-20000217-13959",
+      "variables": {
+        "entity_a": "Espanyol",
+        "entity_b": "Barcelona",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Espanyol"
+    },
+    {
+      "id": 397,
+      "doc": "CESS-CAST-AA-20000327-21717",
+      "variables": {
+        "entity_a": "el presidente donostiarra , Luis Uranga",
+        "entity_b": "suprimir el \" día de ayuda a el club \" contra el Athletic club de Bilbao que _ había programado para el 16 de abril",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el presidente donostiarra , Luis Uranga"
+    },
+    {
+      "id": 398,
+      "doc": "CESS-CAST-AA-20000411-8725",
+      "variables": {
+        "entity_a": "las reformas políticas de el presidente , Ricardo Lagos ,",
+        "entity_b": "el senador institucional y ex comandante en jefe de la Armada , Jorge Martínez Busch .",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "las reformas políticas de el presidente , Ricardo Lagos ,"
+    },
+    {
+      "id": 399,
+      "doc": "CESS-CAST-AA-20001010-7674",
+      "variables": {
+        "entity_a": "Microsoft",
+        "entity_b": "el campus de la UAB , en Cerdanyola de el Vallés ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Microsoft"
+    },
+    {
+      "id": 400,
+      "doc": "CESS-CAST-AA-20000930-26133",
+      "variables": {
+        "entity_a": "Vojislav Kostunica",
+        "entity_b": "El presidente yugoslavo Slobodan Milosevic",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Vojislav Kostunica"
+    },
+    {
+      "id": 401,
+      "doc": "CESS-CAST-P-20010202-39",
+      "variables": {
+        "entity_a": "Vasili Kolmogorov",
+        "entity_b": "NTV , la cadena de televisión propiedad de el magnate Vladimir Gusinski",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Vasili Kolmogorov"
+    },
+    {
+      "id": 402,
+      "doc": "CESS-CAST-A-20001122-17231",
+      "variables": {
+        "entity_a": "atleta Emil Zatopek , que falleció esta madrugada , miércoles , en un hospital de Praga a la edad de 78 años a consecuencias de un derrame cerebral",
+        "entity_b": "El presidente de el Comité Olímpico Checo , Milan Jirasek ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "atleta Emil Zatopek , que falleció esta madrugada , miércoles , en un hospital de Praga a la edad de 78 años a consecuencias de un derrame cerebral"
+    },
+    {
+      "id": 403,
+      "doc": "CESS-CAST-AA-20000109-4496",
+      "variables": {
+        "entity_a": "España",
+        "entity_b": "Gobierno",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "España"
+    },
+    {
+      "id": 404,
+      "doc": "CESS-CAST-AA-20000929-25091",
+      "variables": {
+        "entity_a": "El secretario general de el PCE y candidato a Coordinador General de Izquierda Unida , Francisco Frutos ,",
+        "entity_b": "los socialistas",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El secretario general de el PCE y candidato a Coordinador General de Izquierda Unida , Francisco Frutos ,"
+    },
+    {
+      "id": 405,
+      "doc": "CESS-CAST-P-20010201-78",
+      "variables": {
+        "entity_a": "la normativa sobre el mal de las vacas locas",
+        "entity_b": "La Delegación de el Gobierno en Melilla",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la normativa sobre el mal de las vacas locas"
+    },
+    {
+      "id": 406,
+      "doc": "CESS-CAST-AA-20001107-4901",
+      "variables": {
+        "entity_a": "10.000 libras ( unos 14.000 dólares )",
+        "entity_b": "Blair",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "10.000 libras ( unos 14.000 dólares )"
+    },
+    {
+      "id": 407,
+      "doc": "CESS-CAST-P-19991001-118",
+      "variables": {
+        "entity_a": "el monolítico equipo de Van Gaal",
+        "entity_b": "Van Gaal",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el monolítico equipo de Van Gaal"
+    },
+    {
+      "id": 408,
+      "doc": "CESS-CAST-A-20000620-16545",
+      "variables": {
+        "entity_a": "El presidente venezolano , Hugo Chávez ,",
+        "entity_b": "espacio aéreo nacional",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El presidente venezolano , Hugo Chávez ,"
+    },
+    {
+      "id": 409,
+      "doc": "CESS-CAST-AA-20000509-6627",
+      "variables": {
+        "entity_a": "El finlandés Mika Hakkinen",
+        "entity_b": "el que más se acercó a su mejor tiempo",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El finlandés Mika Hakkinen"
+    },
+    {
+      "id": 410,
+      "doc": "CESS-CAST-P-20000903-36",
+      "variables": {
+        "entity_a": "el noveno congreso de el partido , que se celebrará los próximos días 16 y 17 en Barcelona ,",
+        "entity_b": "PP",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el noveno congreso de el partido , que se celebrará los próximos días 16 y 17 en Barcelona ,"
+    },
+    {
+      "id": 411,
+      "doc": "CESS-CAST-P-19991202-121_a",
+      "variables": {
+        "entity_a": "Carlos Sainz y Didier Auriol",
+        "entity_b": "Didier Auriol",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Carlos Sainz y Didier Auriol"
+    },
+    {
+      "id": 412,
+      "doc": "CESS-CAST-P-19990701-26_a",
+      "variables": {
+        "entity_a": "Churchill",
+        "entity_b": "se ha de estar contra ellas ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Churchill"
+    },
+    {
+      "id": 413,
+      "doc": "CESS-CAST-A-20001018-13809",
+      "variables": {
+        "entity_a": "republicano , George W. Bush ,",
+        "entity_b": "Los candidatos demócrata , Albert Gore , y republicano , George W. Bush ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "republicano , George W. Bush ,"
+    },
+    {
+      "id": 414,
+      "doc": "CESS-CAST-A-20000522-17704",
+      "variables": {
+        "entity_a": "El jefe de el Estado Mayor de las Fuerzas Armadas de Sudáfrica , el general Sywo Nyanda ,",
+        "entity_b": "el vecino Congo",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El jefe de el Estado Mayor de las Fuerzas Armadas de Sudáfrica , el general Sywo Nyanda ,"
+    },
+    {
+      "id": 415,
+      "doc": "CESS-CAST-P-20010902-73",
+      "variables": {
+        "entity_a": "Ricard Fisas",
+        "entity_b": "Natura Bissé , una empresa sólida con una facturación que ronda los 2.000 millones de pesetas y un marcado carácter internacional : _ está presente en 24 países",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Ricard Fisas"
+    },
+    {
+      "id": 416,
+      "doc": "CESS-CAST-A-20000521-16468",
+      "variables": {
+        "entity_a": "el número dos \" ( de el partido )",
+        "entity_b": "que _ no optará a la reelección para que Artur Mas asuma esa responsabilidad y _ sea el número dos de CDC , tras Jordi Pujol , lo que le situaría como líder de el partido en el futuro",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el número dos \" ( de el partido )"
+    },
+    {
+      "id": 417,
+      "doc": "CESS-CAST-A-20000216-13241",
+      "variables": {
+        "entity_a": "El jefe de la diplomacia alemana , el verde Joschka Fischer ,",
+        "entity_b": "Viena",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El jefe de la diplomacia alemana , el verde Joschka Fischer ,"
+    },
+    {
+      "id": 418,
+      "doc": "CESS-CAST-AA-20000128-20751",
+      "variables": {
+        "entity_a": "parque de atracciones de el Tibidabo",
+        "entity_b": "la empresa Chupa Chups , que lo adquirió ayer en subasta",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "parque de atracciones de el Tibidabo"
+    },
+    {
+      "id": 419,
+      "doc": "CESS-CAST-A-20000816-10242",
+      "variables": {
+        "entity_a": "su hija Caroline",
+        "entity_b": "su patriarca , el senador Edward Kennedy , hermano de John y de Robert Kennedy , también asesinado",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "su hija Caroline"
+    },
+    {
+      "id": 420,
+      "doc": "CESS-CAST-AA-20000207-5332",
+      "variables": {
+        "entity_a": "Real Madrid",
+        "entity_b": "el Deportivo de La Coruña",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Real Madrid"
+    },
+    {
+      "id": 421,
+      "doc": "CESS-CAST-P-19990501-113_a",
+      "variables": {
+        "entity_a": "Primero de Mayo",
+        "entity_b": "Antonio Gutiérrez",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Primero de Mayo"
+    },
+    {
+      "id": 422,
+      "doc": "CESS-CAST-AA-20000525-20070",
+      "variables": {
+        "entity_a": "La gran dificultad que históricamente se ha dado en la recogida de las firmas de socios para avalar las candidaturas",
+        "entity_b": "El que lo tendrá más fácil , en caso de decidir presentar se finalmente ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "La gran dificultad que históricamente se ha dado en la recogida de las firmas de socios para avalar las candidaturas"
+    },
+    {
+      "id": 423,
+      "doc": "CESS-CAST-AA-20000209-7380",
+      "variables": {
+        "entity_a": "los malos tratos",
+        "entity_b": "Gobierno",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "los malos tratos"
+    },
+    {
+      "id": 424,
+      "doc": "CESS-CAST-A-20000416-12803",
+      "variables": {
+        "entity_a": "Barcelona",
+        "entity_b": "Deportivo de La Coruña",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Barcelona"
+    },
+    {
+      "id": 425,
+      "doc": "CESS-CAST-P-19990601-123",
+      "variables": {
+        "entity_a": "Blai Bonet",
+        "entity_b": "Pep Tosar",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Blai Bonet"
+    },
+    {
+      "id": 426,
+      "doc": "CESS-CAST-A-20000816-10242",
+      "variables": {
+        "entity_a": "candidato de el partido a el que tradicionalmente pertenece su familia",
+        "entity_b": "Bill Bradley , que luchó sin éxito por la candidatura demócrata a la presidencia",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "candidato de el partido a el que tradicionalmente pertenece su familia"
+    },
+    {
+      "id": 427,
+      "doc": "CESS-CAST-AA-20000428-20613",
+      "variables": {
+        "entity_a": "la presidenta de la Comisión de Defensa de el Congreso , Martha Chávez",
+        "entity_b": "conferencia de prensa que _ ofreció hoy tras asistir a un multitudinario acto en Nueva York",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la presidenta de la Comisión de Defensa de el Congreso , Martha Chávez"
+    },
+    {
+      "id": 428,
+      "doc": "CESS-CAST-P-20011202-66",
+      "variables": {
+        "entity_a": "El mayor rascacielos de Barcelona",
+        "entity_b": "El Deutsche Bank",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El mayor rascacielos de Barcelona"
+    },
+    {
+      "id": 429,
+      "doc": "CESS-CAST-A-20001120-15355",
+      "variables": {
+        "entity_a": "Florida",
+        "entity_b": "El condado de Miami-Dade , en Florida ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Florida"
+    },
+    {
+      "id": 430,
+      "doc": "CESS-CAST-A-20000417-12967",
+      "variables": {
+        "entity_a": "el embargo petrolero impuesto a Yugoslavia",
+        "entity_b": "El secretario general de la Asociación Nacional de Exportadores e Importadores , Mihai Ionescu ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el embargo petrolero impuesto a Yugoslavia"
+    },
+    {
+      "id": 431,
+      "doc": "CESS-CAST-A-20001016-12584",
+      "variables": {
+        "entity_a": "el mercado de valores",
+        "entity_b": "En 1990 , agregó _ , las tasas de interés se situaban en el 15,15 por ciento , con un nivel de inflación real de el 5,8 por ciento , lo que empujaba a los inversores a canalizar el ahorro hacia instrumentos bancarios y de renta pública .",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el mercado de valores"
+    },
+    {
+      "id": 432,
+      "doc": "CESS-CAST-P-19990301-50",
+      "variables": {
+        "entity_a": "último tramo de la Diagonal",
+        "entity_b": "Josep y Angel Ortiz",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "último tramo de la Diagonal"
+    },
+    {
+      "id": 433,
+      "doc": "CESS-CAST-AA-20000328-23195",
+      "variables": {
+        "entity_a": "Inmigración",
+        "entity_b": "Miami",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Inmigración"
+    },
+    {
+      "id": 434,
+      "doc": "CESS-CAST-P-20020601-23",
+      "variables": {
+        "entity_a": "la cárcel de Quatre Camins , en La Roca de el Vallès ( Vallès Oriental )",
+        "entity_b": "convenio",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la cárcel de Quatre Camins , en La Roca de el Vallès ( Vallès Oriental )"
+    },
+    {
+      "id": 435,
+      "doc": "CESS-CAST-AA-20001109-6296",
+      "variables": {
+        "entity_a": "millones de dólares procedentes de el juego ilegal",
+        "entity_b": "el gobernador que le acusó de haber se embolsado millones de dólares procedentes de el juego ilegal",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "millones de dólares procedentes de el juego ilegal"
+    },
+    {
+      "id": 436,
+      "doc": "CESS-CAST-AA-20000525-20428",
+      "variables": {
+        "entity_a": "el presidente de la Sociedad Rural Brasileña ( SRB ) , Luis Haffers",
+        "entity_b": "café",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el presidente de la Sociedad Rural Brasileña ( SRB ) , Luis Haffers"
+    },
+    {
+      "id": 437,
+      "doc": "CESS-CAST-P-20000301-25",
+      "variables": {
+        "entity_a": "Miró",
+        "entity_b": "la Fundació Miró",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Miró"
+    },
+    {
+      "id": 438,
+      "doc": "CESS-CAST-P-19991101-32",
+      "variables": {
+        "entity_a": "un profundo proceso de reformas con el que modernizar Marruecos",
+        "entity_b": "el damnificado nivel de vida de los marroquís",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un profundo proceso de reformas con el que modernizar Marruecos"
+    },
+    {
+      "id": 439,
+      "doc": "CESS-CAST-AA-20000206-5003",
+      "variables": {
+        "entity_a": "el Alavés",
+        "entity_b": "una espectacular goleada ( 5-2 )",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el Alavés"
+    },
+    {
+      "id": 440,
+      "doc": "CESS-CAST-P-20000102-17",
+      "variables": {
+        "entity_a": "el líder de la principal alternativa de gobierno , que está a el frente de un grupo de 50 diputados ilusionados y con ganas de trabajar ,",
+        "entity_b": "la necesidad de un cambio de estilo que beneficiará a todos",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el líder de la principal alternativa de gobierno , que está a el frente de un grupo de 50 diputados ilusionados y con ganas de trabajar ,"
+    },
+    {
+      "id": 441,
+      "doc": "CESS-CAST-AA-20000525-20428",
+      "variables": {
+        "entity_a": "el presidente de la Sociedad Rural Brasileña ( SRB ) , Luis Haffers",
+        "entity_b": "El acuerdo de retención de exportaciones de café aprobado por los miembros de la Asociación de Países Productores de Café ( APC )",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el presidente de la Sociedad Rural Brasileña ( SRB ) , Luis Haffers"
+    },
+    {
+      "id": 442,
+      "doc": "CESS-CAST-P-20000401-114",
+      "variables": {
+        "entity_a": "El equipo",
+        "entity_b": "Rivaldo",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El equipo"
+    },
+    {
+      "id": 443,
+      "doc": "CESS-CAST-AA-20000303-2938",
+      "variables": {
+        "entity_a": "el PP",
+        "entity_b": "El ministro de Trabajo , Juan Carlos Aparicio ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el PP"
+    },
+    {
+      "id": 444,
+      "doc": "CESS-CAST-A-20001220-15392",
+      "variables": {
+        "entity_a": "la eléctrica francesa SNET , filial de Charbonnages de France ( CdF ) ,",
+        "entity_b": "grupo español Endesa",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la eléctrica francesa SNET , filial de Charbonnages de France ( CdF ) ,"
+    },
+    {
+      "id": 445,
+      "doc": "CESS-CAST-P-19990302-79",
+      "variables": {
+        "entity_a": "La juez",
+        "entity_b": "sus dos compañeros , Mauro G. y Alvaro G. ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "La juez"
+    },
+    {
+      "id": 446,
+      "doc": "CESS-CAST-P-20020301-125",
+      "variables": {
+        "entity_a": "los asociados",
+        "entity_b": "la movida que está montando  el sector renovador",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "los asociados"
+    },
+    {
+      "id": 447,
+      "doc": "CESS-CAST-AA-20001114-9923",
+      "variables": {
+        "entity_a": "Timor Oriental",
+        "entity_b": "Chile",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Timor Oriental"
+    },
+    {
+      "id": 448,
+      "doc": "CESS-CAST-A-20000516-11811",
+      "variables": {
+        "entity_a": "la propia Junta Central Electoral ( JCE )",
+        "entity_b": "hombres y mujeres",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la propia Junta Central Electoral ( JCE )"
+    },
+    {
+      "id": 449,
+      "doc": "CESS-CAST-A-20001214-10872",
+      "variables": {
+        "entity_a": "los presos de La Tablada",
+        "entity_b": "La Tablada",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "los presos de La Tablada"
+    },
+    {
+      "id": 450,
+      "doc": "CESS-CAST-P-19990902-38_a",
+      "variables": {
+        "entity_a": "Jordi Pujol",
+        "entity_b": "su política informativa",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Jordi Pujol"
+    },
+    {
+      "id": 451,
+      "doc": "CESS-CAST-P-19990202-117",
+      "variables": {
+        "entity_a": "la final de la Liga ACB",
+        "entity_b": "el título de Copa , el segundo de su historia ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la final de la Liga ACB"
+    },
+    {
+      "id": 452,
+      "doc": "CESS-CAST-AA-20000131-22292",
+      "variables": {
+        "entity_a": "la empresa pública Saturno",
+        "entity_b": "Gobierno canario",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la empresa pública Saturno"
+    },
+    {
+      "id": 453,
+      "doc": "CESS-CAST-P-19991202-42",
+      "variables": {
+        "entity_a": "José María Aznar",
+        "entity_b": "ambos presidentes",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "José María Aznar"
+    },
+    {
+      "id": 454,
+      "doc": "CESS-CAST-A-20000221-16730",
+      "variables": {
+        "entity_a": "Michigan",
+        "entity_b": "Arizona",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Michigan"
+    },
+    {
+      "id": 455,
+      "doc": "CESS-CAST-A-20000320-15776",
+      "variables": {
+        "entity_a": "Pekín",
+        "entity_b": "el sábado",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Pekín"
+    },
+    {
+      "id": 456,
+      "doc": "CESS-CAST-A-20000521-16468",
+      "variables": {
+        "entity_a": "CDC",
+        "entity_b": "el número dos \" ( de el partido )",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "CDC"
+    },
+    {
+      "id": 457,
+      "doc": "CESS-CAST-A-20000218-15021",
+      "variables": {
+        "entity_a": "el pacto de legislatura con EH",
+        "entity_b": "El portavoz de el PSE-EE , Fernando Buesa ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el pacto de legislatura con EH"
+    },
+    {
+      "id": 458,
+      "doc": "CESS-CAST-P-20010701-38",
+      "variables": {
+        "entity_a": "su propio grupo , los modestos The Rhythm Kings ,",
+        "entity_b": "otro viejo conocido , George Harrison",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "su propio grupo , los modestos The Rhythm Kings ,"
+    },
+    {
+      "id": 459,
+      "doc": "CESS-CAST-A-20000918-13853",
+      "variables": {
+        "entity_a": "Deportivo",
+        "entity_b": "el partido de mañana ante el Hamburgo",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Deportivo"
+    },
+    {
+      "id": 460,
+      "doc": "CESS-CAST-A-20000823-15197",
+      "variables": {
+        "entity_a": "el NK Zagreb",
+        "entity_b": "Werder Bremen",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el NK Zagreb"
+    },
+    {
+      "id": 461,
+      "doc": "CESS-CAST-P-20020202-17",
+      "variables": {
+        "entity_a": "el presidente Eduardo Duhalde",
+        "entity_b": "todos los ciudadanos argentinos",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el presidente Eduardo Duhalde"
+    },
+    {
+      "id": 462,
+      "doc": "CESS-CAST-A-20001018-13809",
+      "variables": {
+        "entity_a": "demócrata , Albert Gore ,",
+        "entity_b": "Los candidatos demócrata , Albert Gore , y republicano , George W. Bush ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "demócrata , Albert Gore ,"
+    },
+    {
+      "id": 463,
+      "doc": "CESS-CAST-P-20000102-17",
+      "variables": {
+        "entity_a": "los ciudadanos",
+        "entity_b": "el Partido Popular",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "los ciudadanos"
+    },
+    {
+      "id": 464,
+      "doc": "CESS-CAST-A-20001121-15871",
+      "variables": {
+        "entity_a": "presidente cubano , Fidel Castro ,",
+        "entity_b": "sus autoridades",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "presidente cubano , Fidel Castro ,"
+    },
+    {
+      "id": 465,
+      "doc": "CESS-CAST-AA-20001209-6582",
+      "variables": {
+        "entity_a": "el Parlamento israelí ( Kneset )",
+        "entity_b": "Gobierno más corto y accidentado de la historia de el país",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el Parlamento israelí ( Kneset )"
+    },
+    {
+      "id": 466,
+      "doc": "CESS-CAST-AA-20001105-2921",
+      "variables": {
+        "entity_a": "el 2000",
+        "entity_b": "compras centralizadas en el lugar sede de el organismo que _ las hace independientemente de donde _ vayan a utilizar se",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el 2000"
+    },
+    {
+      "id": 467,
+      "doc": "CESS-CAST-AA-20000923-19559",
+      "variables": {
+        "entity_a": "El presidente de la Junta de Extremadura , Juan Carlos Rodríguez Ibarra ,",
+        "entity_b": "ETA",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El presidente de la Junta de Extremadura , Juan Carlos Rodríguez Ibarra ,"
+    },
+    {
+      "id": 468,
+      "doc": "CESS-CAST-P-20020103-122",
+      "variables": {
+        "entity_a": "El actor y director",
+        "entity_b": "' Zoolander ' , una parodia sobre el mundo de la moda",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El actor y director"
+    },
+    {
+      "id": 469,
+      "doc": "CESS-CAST-AA-20000630-25185",
+      "variables": {
+        "entity_a": "Spanair",
+        "entity_b": "el aeropuerto de Palma , donde los chicos esperaron trece horas hasta que la empresa fletó otra aeronave",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Spanair"
+    },
+    {
+      "id": 470,
+      "doc": "CESS-CAST-P-20000801-32",
+      "variables": {
+        "entity_a": "el asesinato , a manos de ETA , de el ex gobernador civil de Guipúzcoa Juan María Jáuregui",
+        "entity_b": "Madrid",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el asesinato , a manos de ETA , de el ex gobernador civil de Guipúzcoa Juan María Jáuregui"
+    },
+    {
+      "id": 471,
+      "doc": "CESS-CAST-A-20000321-17070",
+      "variables": {
+        "entity_a": "la ciudad mexicana de Villahermosa",
+        "entity_b": "la mayor de Venezuela",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la ciudad mexicana de Villahermosa"
+    },
+    {
+      "id": 472,
+      "doc": "CESS-CAST-P-19991101-32",
+      "variables": {
+        "entity_a": "un profundo proceso de reformas con el que modernizar Marruecos",
+        "entity_b": "los marroquís",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un profundo proceso de reformas con el que modernizar Marruecos"
+    },
+    {
+      "id": 473,
+      "doc": "CESS-CAST-P-19990501-108",
+      "variables": {
+        "entity_a": "El secretario general de el Gobierno chileno , Jorge Arrate ,",
+        "entity_b": "La norteamericana Duke Energy",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El secretario general de el Gobierno chileno , Jorge Arrate ,"
+    },
+    {
+      "id": 474,
+      "doc": "CESS-CAST-P-19991001-130",
+      "variables": {
+        "entity_a": "Hungría",
+        "entity_b": "España",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Hungría"
+    },
+    {
+      "id": 475,
+      "doc": "CESS-CAST-A-20001013-10127",
+      "variables": {
+        "entity_a": "Rusia",
+        "entity_b": "la empresa Rubin , que diseñó el submarino ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Rusia"
+    },
+    {
+      "id": 476,
+      "doc": "CESS-CAST-A-20000317-13968",
+      "variables": {
+        "entity_a": "los frutos de la bonanza económica",
+        "entity_b": "recortes de impuestos",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "los frutos de la bonanza económica"
+    },
+    {
+      "id": 477,
+      "doc": "CESS-CAST-AA-20000225-20993",
+      "variables": {
+        "entity_a": "el PSOE",
+        "entity_b": "presidente de la Generalitat , Jordi Pujol ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el PSOE"
+    },
+    {
+      "id": 478,
+      "doc": "CESS-CAST-AA-20000206-5003",
+      "variables": {
+        "entity_a": "El Deportivo , de el que muchos dudaban que _ pudiera ganar la Liga tras su mal comienzo de año ,",
+        "entity_b": "la Liga",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El Deportivo , de el que muchos dudaban que _ pudiera ganar la Liga tras su mal comienzo de año ,"
+    },
+    {
+      "id": 479,
+      "doc": "CESS-CAST-A-20000314-11714",
+      "variables": {
+        "entity_a": "PP catalán",
+        "entity_b": "El presidente de el PP catalán , Alberto Fernández Díaz ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "PP catalán"
+    },
+    {
+      "id": 480,
+      "doc": "CESS-CAST-A-20000923-19111",
+      "variables": {
+        "entity_a": "El jefe de la Oficina de Seguridad Nacional y ministro de la Presidencia polaca , Marek Siwiec ,",
+        "entity_b": "en las que _ se burla de el papa Juan Pablo II , imitando los gestos de el Sumo Pontífice cuando _ llega a un país en peregrinación",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "El jefe de la Oficina de Seguridad Nacional y ministro de la Presidencia polaca , Marek Siwiec ,"
+    },
+    {
+      "id": 481,
+      "doc": "CESS-CAST-AA-20000608-6170",
+      "variables": {
+        "entity_a": "Plan Hidrológico Nacional ( PHN )",
+        "entity_b": "que el borrador de el Plan Hidrológico Nacional ( PHN ) entrará en el Consejo Nacional de el Agua ( CNA ) a primeros de julio para ser debatido",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Plan Hidrológico Nacional ( PHN )"
+    },
+    {
+      "id": 482,
+      "doc": "CESS-CAST-P-19990701-18",
+      "variables": {
+        "entity_a": ", la MIR ,",
+        "entity_b": "los MIR",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": ", la MIR ,"
+    },
+    {
+      "id": 483,
+      "doc": "CESS-CAST-P-19990702-11",
+      "variables": {
+        "entity_a": "los países europeos",
+        "entity_b": "los islamistas",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "los países europeos"
+    },
+    {
+      "id": 484,
+      "doc": "CESS-CAST-AA-20001025-20305",
+      "variables": {
+        "entity_a": "su Partido Socialista Serbio ( SPS )",
+        "entity_b": "la Oposición Democrática de Serbia ( DOS ) de Kostunica",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "su Partido Socialista Serbio ( SPS )"
+    },
+    {
+      "id": 485,
+      "doc": "CESS-CAST-AA-20001026-21441",
+      "variables": {
+        "entity_a": "un calendario fijo de adhesiones",
+        "entity_b": "el denominado \" modelo regata \" , que da prioridad de entrada a aquellos países que \" mejor están preparados \" por encima de grupos preseleccionados",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un calendario fijo de adhesiones"
+    },
+    {
+      "id": 486,
+      "doc": "CESS-CAST-AA-20000929-24844",
+      "variables": {
+        "entity_a": "el resultado negativo de el referéndum sobre la integración de Dinamarca en el euro",
+        "entity_b": "euro",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "el resultado negativo de el referéndum sobre la integración de Dinamarca en el euro"
+    },
+    {
+      "id": 487,
+      "doc": "CESS-CAST-P-19990701-18",
+      "variables": {
+        "entity_a": "médicos",
+        "entity_b": "los MIR",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "médicos"
+    },
+    {
+      "id": 488,
+      "doc": "CESS-CAST-P-19990701-26_a",
+      "variables": {
+        "entity_a": "la siesta",
+        "entity_b": "los espías",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la siesta"
+    },
+    {
+      "id": 489,
+      "doc": "CESS-CAST-A-20000121-14635",
+      "variables": {
+        "entity_a": "que se \" dolarizará \" la economía",
+        "entity_b": "la Cámara de la Primera Zona de Agricultura de Ecuador , que advirtió sobre el peligro de un colapso en el aparato productivo nacional si el Ejecutivo elimina los aranceles a las importaciones",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "que se \" dolarizará \" la economía"
+    },
+    {
+      "id": 490,
+      "doc": "CESS-CAST-P-19991101-32",
+      "variables": {
+        "entity_a": "Marruecos",
+        "entity_b": "un profundo proceso de reformas con el que modernizar Marruecos",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Marruecos"
+    },
+    {
+      "id": 491,
+      "doc": "CESS-CAST-AA-20000525-20120",
+      "variables": {
+        "entity_a": "euro",
+        "entity_b": "la curva de inflación",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "euro"
+    },
+    {
+      "id": 492,
+      "doc": "CESS-CAST-A-20001122-17231",
+      "variables": {
+        "entity_a": "atleta Emil Zatopek , que falleció esta madrugada , miércoles , en un hospital de Praga a la edad de 78 años a consecuencias de un derrame cerebral",
+        "entity_b": "El máximo representante de el atletismo checo , el presidente de esa Unión , Karel Pilny ,",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "atleta Emil Zatopek , que falleció esta madrugada , miércoles , en un hospital de Praga a la edad de 78 años a consecuencias de un derrame cerebral"
+    },
+    {
+      "id": 493,
+      "doc": "CESS-CAST-A-20000426-19061",
+      "variables": {
+        "entity_a": "una sentencia",
+        "entity_b": "la ley",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "una sentencia"
+    },
+    {
+      "id": 494,
+      "doc": "CESS-CAST-AA-20000930-26133",
+      "variables": {
+        "entity_a": "los líderes opositores",
+        "entity_b": "las presidenciales",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "los líderes opositores"
+    },
+    {
+      "id": 495,
+      "doc": "CESS-CAST-P-19990701-26_a",
+      "variables": {
+        "entity_a": "plena guerra mundial",
+        "entity_b": "cosas",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "plena guerra mundial"
+    },
+    {
+      "id": 496,
+      "doc": "CESS-CAST-A-20000817-11317",
+      "variables": {
+        "entity_a": "Grupo Concesionario de el Oeste ( CGO ) , que explota la autopista de peaje que une Buenos Aires con la ciudad de Luján , a 70 kilómetros de la capital argentina",
+        "entity_b": "La empresa española ACESA",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Grupo Concesionario de el Oeste ( CGO ) , que explota la autopista de peaje que une Buenos Aires con la ciudad de Luján , a 70 kilómetros de la capital argentina"
+    },
+    {
+      "id": 497,
+      "doc": "CESS-CAST-A-20000816-10242",
+      "variables": {
+        "entity_a": "su patriarca , el senador Edward Kennedy , hermano de John y de Robert Kennedy , también asesinado",
+        "entity_b": "candidato de el partido a el que tradicionalmente pertenece su familia",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "su patriarca , el senador Edward Kennedy , hermano de John y de Robert Kennedy , también asesinado"
+    },
+    {
+      "id": 498,
+      "doc": "CESS-CAST-P-19990301-50",
+      "variables": {
+        "entity_a": "Poblenou",
+        "entity_b": "Josep y Angel Ortiz",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Poblenou"
+    },
+    {
+      "id": 499,
+      "doc": "CESS-CAST-A-20001220-15392",
+      "variables": {
+        "entity_a": "Charbonnages de France ( CdF )",
+        "entity_b": "grupo español Endesa",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Charbonnages de France ( CdF )"
+    },
+    {
+      "id": 500,
+      "doc": "CESS-CAST-A-20000722-17116",
+      "variables": {
+        "entity_a": "la multinacional holandesa Heineken , propietaria de la planta ,",
+        "entity_b": "cuyos obreros",
+        "text": "more_spanish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la multinacional holandesa Heineken , propietaria de la planta ,"
+    }
+  ]
+}

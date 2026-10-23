@@ -1,0 +1,2365 @@
+{
+  "task": "conn-explicit",
+  "lang": "italian",
+  "example_prompt": "An explicit discourse connective is a word or phrase which indicates the presence of a discourse relation between two segments, such as contrast, elaboration or temporal sequence. These connectives provide strong cues and allow us to classify discourse relations with high accuracy.\n\nMark all explicit discourse connectives in the sentence using curly brackets. If there is no explicit discourse connective, answer with 'no explicit connective'.\nHere are the options: a meno che, a parte che, a sua volta, ad esempio, adesso, al limite, allora, almeno, altrimenti, anche, anche perchè, anche se, anzi, appena, caso mai, che, cioè, come, come se, comunque, così, da che, da quando, dato che, dopo, dopo di che, e, e allora, e poi, ecco perchè, ed, eventualmente, gia, giusto per, già, in maniera che, in modo, in modo che, in pratica, in quanto, in quel caso, in realtà, infatti, insomma, intanto, invece, ma, mentre, nel frattempo, nel senso che, non appena, o, oltretutto, oppure, per cui, per quello, perche, perchè, perché, pertanto, però, più che altro, poi, praticamente, prima adesso, proprio quello, quando, quanto meno, questo, quindi, se, se mai, se non che, siccome, siccome che, solo, soltanto, soltanto che, tanto, tanto per dirne una, tra l' altro, una volta che, visto che\nHere is the text:\n{{text}}",
+  "instances": [
+    {
+      "id": 1,
+      "doc": "0704000029",
+      "variables": {
+        "text": "sì soltanto che io mi devo staccare dal telefono perchè è leggermente distante"
+      },
+      "answer_type": "string",
+      "answer": "sì {soltanto che} io mi devo staccare dal telefono {perchè} è leggermente distante"
+    },
+    {
+      "id": 2,
+      "doc": "0704000031",
+      "variables": {
+        "text": "allora vuol dire che mi sa che è proprio il monitor al può solo dare uno sguardo dietro se il cavo che collega il monitor col computer è"
+      },
+      "answer_type": "string",
+      "answer": "{allora} vuol dire che mi sa che è proprio il monitor al può solo dare uno sguardo dietro se il cavo che collega il monitor col computer è"
+    },
+    {
+      "id": 3,
+      "doc": "0704000007",
+      "variables": {
+        "text": "aspetto richiamo perchè"
+      },
+      "answer_type": "string",
+      "answer": "aspetto richiamo {perchè}"
+    },
+    {
+      "id": 4,
+      "doc": "0703000005",
+      "variables": {
+        "text": "po' non sono entrata sul dominio sono entrata sul sul sul sul PC non non non sono entrata non s non ho acceduto come per cui non l' unica cosa strana che è successa è quella"
+      },
+      "answer_type": "string",
+      "answer": "po' non sono entrata sul dominio sono entrata sul sul sul sul PC non non non sono entrata non s non ho acceduto come {per cui} non l' unica cosa strana che è successa è quella"
+    },
+    {
+      "id": 5,
+      "doc": "0703000006",
+      "variables": {
+        "text": "tutti gli altri PC dell' ufficio però funzionano"
+      },
+      "answer_type": "string",
+      "answer": "tutti gli altri PC dell' ufficio {però} funzionano"
+    },
+    {
+      "id": 6,
+      "doc": "0704000031",
+      "variables": {
+        "text": "sì ma il il monitor è buio"
+      },
+      "answer_type": "string",
+      "answer": "sì {ma} il il monitor è buio"
+    },
+    {
+      "id": 7,
+      "doc": "0704000017",
+      "variables": {
+        "text": "no perchè praticamente mi hanno collegato in modo da poter leggere la la posta dell' ufficio anche dalla mia postazione di casa purtroppo niente ho ma so che questo problema si è verificato anche per altri colleghi quindi non so"
+      },
+      "answer_type": "string",
+      "answer": "no {perchè} praticamente mi hanno collegato in modo da poter leggere la la posta dell' ufficio anche dalla mia postazione di casa purtroppo niente ho {ma} so che questo problema si è verificato anche per altri colleghi {quindi} non so"
+    },
+    {
+      "id": 8,
+      "doc": "0704000057",
+      "variables": {
+        "text": "che veda se funziona perché se no"
+      },
+      "answer_type": "string",
+      "answer": "{che} veda se funziona perché se no"
+    },
+    {
+      "id": 9,
+      "doc": "0704000052",
+      "variables": {
+        "text": "la remedy invece dice allora si abbiamo reinoltrato la dopo la mail che ci è stata mandata dall' ufficio commesse abbiamo mandato una mail al suo responsabile e al dirigente"
+      },
+      "answer_type": "string",
+      "answer": "la remedy {invece} dice allora si abbiamo reinoltrato la dopo la mail che ci è stata mandata dall' ufficio commesse abbiamo mandato una mail al suo responsabile e al dirigente"
+    },
+    {
+      "id": 10,
+      "doc": "0704000052",
+      "variables": {
+        "text": "se è si si visto che il contratto di lavoro anche presumo è stato rinnovato"
+      },
+      "answer_type": "string",
+      "answer": "se è si si {visto che} il contratto di lavoro anche presumo è stato rinnovato"
+    },
+    {
+      "id": 11,
+      "doc": "0704000032",
+      "variables": {
+        "text": "e poi ho messo anche il numero di matricola"
+      },
+      "answer_type": "string",
+      "answer": "{e} {poi} ho messo anche il numero di matricola"
+    },
+    {
+      "id": 12,
+      "doc": "0704000040",
+      "variables": {
+        "text": "esatto cioè nel senso che noi abbiamo le quattro timbrature giornaliere quindi"
+      },
+      "answer_type": "string",
+      "answer": "esatto {cioè} {nel senso che} noi abbiamo le quattro timbrature giornaliere quindi"
+    },
+    {
+      "id": 13,
+      "doc": "0704000003",
+      "variables": {
+        "text": "devo entrare però per poter vedere le timbrature quanto prima"
+      },
+      "answer_type": "string",
+      "answer": "devo entrare {però} per poter vedere le timbrature quanto prima"
+    },
+    {
+      "id": 14,
+      "doc": "0704000012",
+      "variables": {
+        "text": "ma sempre mi ha dato così"
+      },
+      "answer_type": "string",
+      "answer": "{ma} sempre mi ha dato così"
+    },
+    {
+      "id": 15,
+      "doc": "0704000007",
+      "variables": {
+        "text": "sì allora ci"
+      },
+      "answer_type": "string",
+      "answer": "sì {allora} ci"
+    },
+    {
+      "id": 16,
+      "doc": "0703000003",
+      "variables": {
+        "text": "e ciao <PER> sono una collega del di <LOC> <LOC> e ho un problema con la tastiera del mio computer che improvvisamente si è messa a fare a fare quello che vuole praticamente io schiaccio un tasto ma in realtà il comando non corrisponde a quello che"
+      },
+      "answer_type": "string",
+      "answer": "e ciao <PER> sono una collega del di <LOC> <LOC> {e} ho un problema con la tastiera del mio computer che improvvisamente si è messa a fare a fare quello che vuole {praticamente} io schiaccio un tasto {ma} in realtà il comando non corrisponde a quello che"
+    },
+    {
+      "id": 17,
+      "doc": "0704000040",
+      "variables": {
+        "text": "della mia direzione ma lì non mi compare nulla"
+      },
+      "answer_type": "string",
+      "answer": "della mia direzione {ma} lì non mi compare nulla"
+    },
+    {
+      "id": 18,
+      "doc": "0704000005",
+      "variables": {
+        "text": "quindi inceppa proprio i fogli all'"
+      },
+      "answer_type": "string",
+      "answer": "{quindi} inceppa proprio i fogli all'"
+    },
+    {
+      "id": 19,
+      "doc": "0704000044",
+      "variables": {
+        "text": "e adesso può chiudere in <SW> <SW> e provi un pò a collegarsi alla seduta del consiglio"
+      },
+      "answer_type": "string",
+      "answer": "{e} adesso può chiudere in <SW> <SW> {e} provi un pò a collegarsi alla seduta del consiglio"
+    },
+    {
+      "id": 20,
+      "doc": "0703000002",
+      "variables": {
+        "text": "no più che altro adesso devo un attimino correggere la richiesta perchè è stata aperta come reset password <SW> <SW> ma so già che i sistemisti mi dicono che è sbagliato aprirla così perchè non non è resettabile"
+      },
+      "answer_type": "string",
+      "answer": "no {più che altro} adesso devo un attimino correggere la richiesta {perchè} è stata aperta come reset password <SW> <SW> {ma} so già che i sistemisti mi dicono che è sbagliato aprirla così {perchè} non non è resettabile"
+    },
+    {
+      "id": 21,
+      "doc": "0704000029",
+      "variables": {
+        "text": "solo il nome del tecnico così io gli faccio assegnare la chiamata"
+      },
+      "answer_type": "string",
+      "answer": "solo il nome del tecnico {così} io gli faccio assegnare la chiamata"
+    },
+    {
+      "id": 22,
+      "doc": "0704000034",
+      "variables": {
+        "text": "nel pomeriggio poi"
+      },
+      "answer_type": "string",
+      "answer": "nel pomeriggio {poi}"
+    },
+    {
+      "id": 23,
+      "doc": "0703000001",
+      "variables": {
+        "text": "a cambiare il video visto che qua ne abbiamo qualcuno è uguale quindi immagino che ci sia qualche cosa che non va al PC"
+      },
+      "answer_type": "string",
+      "answer": "a cambiare il video {visto che} qua ne abbiamo qualcuno è uguale {quindi} immagino che ci sia qualche cosa che non va al PC"
+    },
+    {
+      "id": 24,
+      "doc": "0704000036",
+      "variables": {
+        "text": "noi siamo in <LOC> <LOC> <NUM> questa è la mia sede però abbiamo un computer ancora delle della vecchia guardia non gli <BRAND> che sono stati messi adesso"
+      },
+      "answer_type": "string",
+      "answer": "noi siamo in <LOC> <LOC> <NUM> questa è la mia sede {però} abbiamo un computer ancora delle della vecchia guardia non gli <BRAND> che sono stati messi adesso"
+    },
+    {
+      "id": 25,
+      "doc": "0704000032",
+      "variables": {
+        "text": "anche il riferimento di un collega se ci fosse necessità di informazione in più"
+      },
+      "answer_type": "string",
+      "answer": "anche il riferimento di un collega {se} ci fosse necessità di informazione in più"
+    },
+    {
+      "id": 26,
+      "doc": "0704000016",
+      "variables": {
+        "text": "comunque perchè se"
+      },
+      "answer_type": "string",
+      "answer": "comunque {perchè} {se}"
+    },
+    {
+      "id": 27,
+      "doc": "0704000040",
+      "variables": {
+        "text": "e sulla procedura delle timbrature"
+      },
+      "answer_type": "string",
+      "answer": "{e} sulla procedura delle timbrature"
+    },
+    {
+      "id": 28,
+      "doc": "0704000041",
+      "variables": {
+        "text": "sì in modo"
+      },
+      "answer_type": "string",
+      "answer": "sì {in modo}"
+    },
+    {
+      "id": 29,
+      "doc": "0704000050",
+      "variables": {
+        "text": "okay perchè a volte signora non parte in automatico quando lei avvia una procedura che sia delibera che sia determine questo componente qua lo <SW> <SW> vede questo qui"
+      },
+      "answer_type": "string",
+      "answer": "okay {perchè} a volte signora non parte in automatico {quando} lei avvia una procedura che sia delibera che sia determine questo componente qua lo <SW> <SW> vede questo qui"
+    },
+    {
+      "id": 30,
+      "doc": "0704000001",
+      "variables": {
+        "text": "allora mi mi può dire il suo cognome per cortesia allora <PER> <PER> <PER> <PER> okay in quale sede da quale sede ci chiama <LOC> <LOC> <LOC>"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 31,
+      "doc": "0704000001",
+      "variables": {
+        "text": "allora mi mi può dire il suo cognome per cortesia allora <PER> <PER> <PER> <PER> okay in quale sede da quale sede ci chiama <LOC> <LOC> <LOC> <LOC> <LOC> <LOC> perfetto uno sì allora quindi non ricorda il PIN per per l' accesso alla procedura per autenticarmi perfetto ha già visto che la intranet è cambiata"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 32,
+      "doc": "0704000001",
+      "variables": {
+        "text": "allora mi mi può dire il suo cognome per cortesia allora <PER> <PER> <PER> <PER> okay in quale sede da quale sede ci chiama <LOC> <LOC> <LOC> <LOC> <LOC> <LOC> perfetto uno sì allora quindi non ricorda il PIN per per l' accesso alla procedura per autenticarmi perfetto ha già visto che la intranet è cambiata sì sì sì ho visto un attimino okay che ci sono diverse diciamo modifiche nel nelle interfacce okay insomma allora mi dà i dati della sua macchina ascolti e qua ci ci sono dei"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 33,
+      "doc": "0704000016",
+      "variables": {
+        "text": "certo certo ecco no io noi di darla e pertanto deve deve sentire il proprio re"
+      },
+      "answer_type": "string",
+      "answer": "certo certo ecco no io noi di darla {e} {pertanto} deve deve sentire il proprio re"
+    },
+    {
+      "id": 34,
+      "doc": "0704000057",
+      "variables": {
+        "text": "comunque <PER> è il cognome aspetti che aspetti che"
+      },
+      "answer_type": "string",
+      "answer": "comunque <PER> è il cognome aspetti {che} aspetti {che}"
+    },
+    {
+      "id": 35,
+      "doc": "0704000028",
+      "variables": {
+        "text": "dunque non mi riconosce la password allora è possibile che abbia fatto dei pasticci ma non mi sembra"
+      },
+      "answer_type": "string",
+      "answer": "dunque non mi riconosce la password {allora} è possibile che abbia fatto dei pasticci {ma} non mi sembra"
+    },
+    {
+      "id": 36,
+      "doc": "0704000050",
+      "variables": {
+        "text": "e mi diceva che aveva ha problemi ad aprire le libere"
+      },
+      "answer_type": "string",
+      "answer": "{e} mi diceva che aveva ha problemi ad aprire le libere"
+    },
+    {
+      "id": 37,
+      "doc": "0704000047",
+      "variables": {
+        "text": "computer e la presa collegata che dovrebbe essere collegata al gruppo di continuità non funziona quindi stiamo collegando la macchina alla presa normale con i problemi conseguenti"
+      },
+      "answer_type": "string",
+      "answer": "computer {e} la presa collegata che dovrebbe essere collegata al gruppo di continuità non funziona {quindi} stiamo collegando la macchina alla presa normale con i problemi conseguenti"
+    },
+    {
+      "id": 38,
+      "doc": "0704000043",
+      "variables": {
+        "text": "quindi non abbiamo la possibilità di"
+      },
+      "answer_type": "string",
+      "answer": "{quindi} non abbiamo la possibilità di"
+    },
+    {
+      "id": 39,
+      "doc": "0703000004",
+      "variables": {
+        "text": "spero che comunque se no rimango fermo"
+      },
+      "answer_type": "string",
+      "answer": "spero che comunque {se} no rimango fermo"
+    },
+    {
+      "id": 40,
+      "doc": "0704000020",
+      "variables": {
+        "text": "infatti è per quello che le dico che la chiamano in fretta perchè sappiamo come cioè il problema è risolvibile abbastanza in fretta semplicemente facendoglielo sbloccare"
+      },
+      "answer_type": "string",
+      "answer": "{infatti} è per quello che le dico che la chiamano in fretta {perchè} sappiamo come cioè il problema è risolvibile abbastanza in fretta semplicemente facendoglielo sbloccare"
+    },
+    {
+      "id": 41,
+      "doc": "0704000061",
+      "variables": {
+        "text": "perchè sono fermo adesso accidenti"
+      },
+      "answer_type": "string",
+      "answer": "{perchè} sono fermo adesso accidenti"
+    },
+    {
+      "id": 42,
+      "doc": "0704000044",
+      "variables": {
+        "text": "se guarda verso il basso"
+      },
+      "answer_type": "string",
+      "answer": "{se} guarda verso il basso"
+    },
+    {
+      "id": 43,
+      "doc": "0704000014",
+      "variables": {
+        "text": "due chiamate due richieste diverse okay e questo è per il dirigente l' altro mi ha detto che si chiama il suo collega"
+      },
+      "answer_type": "string",
+      "answer": "due chiamate due richieste diverse okay {e} questo è per il dirigente l' altro mi ha detto che si chiama il suo collega"
+    },
+    {
+      "id": 44,
+      "doc": "0704000032",
+      "variables": {
+        "text": "un pò urgente perchè abbiamo un pò di consegne da fare presso gli utenti se non ci funziona il plotter c' è un pò di problema"
+      },
+      "answer_type": "string",
+      "answer": "un pò urgente {perchè} abbiamo un pò di consegne da fare presso gli utenti {se} non ci funziona il plotter c' è un pò di problema"
+    },
+    {
+      "id": 45,
+      "doc": "0704000036",
+      "variables": {
+        "text": "non è ancora stata fisicamente collegata però ha il cavetto che è un cavetto di rete non una porta seriale eccetera ma un cavetto di quelli tipo telefonici"
+      },
+      "answer_type": "string",
+      "answer": "non è ancora stata fisicamente collegata {però} ha il cavetto che è un cavetto di rete non una porta seriale eccetera {ma} un cavetto di quelli tipo telefonici"
+    },
+    {
+      "id": 46,
+      "doc": "0704000033",
+      "variables": {
+        "text": "scritto tutto in inglese quindi non riusciamo a capire"
+      },
+      "answer_type": "string",
+      "answer": "scritto tutto in inglese {quindi} non riusciamo a capire"
+    },
+    {
+      "id": 47,
+      "doc": "0704000043",
+      "variables": {
+        "text": "di farmelo e mi ha detto quando sei una volta a <LOC> mi telefoni"
+      },
+      "answer_type": "string",
+      "answer": "di farmelo {e} mi ha detto {quando} sei una volta a <LOC> mi telefoni"
+    },
+    {
+      "id": 48,
+      "doc": "0703000005",
+      "variables": {
+        "text": "invece <SW>"
+      },
+      "answer_type": "string",
+      "answer": "{invece} <SW>"
+    },
+    {
+      "id": 49,
+      "doc": "0704000041",
+      "variables": {
+        "text": "allora ci siamo quasi è sì mi dà un' immagine un pò strana però sì okay okay"
+      },
+      "answer_type": "string",
+      "answer": "allora ci siamo quasi è sì mi dà un' immagine un pò strana {però} sì okay okay"
+    },
+    {
+      "id": 50,
+      "doc": "0704000005",
+      "variables": {
+        "text": "allora sul display"
+      },
+      "answer_type": "string",
+      "answer": "{allora} sul display"
+    },
+    {
+      "id": 51,
+      "doc": "0703000002",
+      "variables": {
+        "text": "quindi devo aspettareli di nuovo"
+      },
+      "answer_type": "string",
+      "answer": "{quindi} devo aspettareli di nuovo"
+    },
+    {
+      "id": 52,
+      "doc": "0704000043",
+      "variables": {
+        "text": "e poi vediamo l' altro"
+      },
+      "answer_type": "string",
+      "answer": "{e} {poi} vediamo l' altro"
+    },
+    {
+      "id": 53,
+      "doc": "0704000029",
+      "variables": {
+        "text": "okay allora io gli faccio assegnare la chiamata visto che sta verificando"
+      },
+      "answer_type": "string",
+      "answer": "okay allora io gli faccio assegnare la chiamata {visto che} sta verificando"
+    },
+    {
+      "id": 54,
+      "doc": "0704000041",
+      "variables": {
+        "text": "e dovrebbe bastare questo provi solo a chiudere"
+      },
+      "answer_type": "string",
+      "answer": "{e} dovrebbe bastare questo provi {solo} a chiudere"
+    },
+    {
+      "id": 55,
+      "doc": "0704000041",
+      "variables": {
+        "text": "però se non le dà l' errore siamo già sulla buona"
+      },
+      "answer_type": "string",
+      "answer": "{però} {se} non le dà l' errore siamo già sulla buona"
+    },
+    {
+      "id": 56,
+      "doc": "0704000044",
+      "variables": {
+        "text": "dev' esserci il segno di spunto e poi dia pure okay"
+      },
+      "answer_type": "string",
+      "answer": "dev' esserci il segno di spunto {e} {poi} dia pure okay"
+    },
+    {
+      "id": 57,
+      "doc": "0704000001",
+      "variables": {
+        "text": "allora mi mi può dire il suo cognome per cortesia allora <PER> <PER> <PER> <PER> okay in quale sede da quale sede ci chiama <LOC> <LOC> <LOC> <LOC> <LOC> <LOC> perfetto uno sì allora quindi non ricorda il PIN per per l' accesso alla procedura per autenticarmi"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 58,
+      "doc": "0703000001",
+      "variables": {
+        "text": "sì sì sì no no sembra tutto normale ma in realtà non arriva niente però"
+      },
+      "answer_type": "string",
+      "answer": "sì sì sì no no sembra tutto normale {ma} in realtà non arriva niente {però}"
+    },
+    {
+      "id": 59,
+      "doc": "0704000047",
+      "variables": {
+        "text": "allora signora le lascio il numero di intervento"
+      },
+      "answer_type": "string",
+      "answer": "{allora} signora le lascio il numero di intervento"
+    },
+    {
+      "id": 60,
+      "doc": "0704000043",
+      "variables": {
+        "text": "almeno lui poi ce la ce la chiude e ci fa pervenire la sua"
+      },
+      "answer_type": "string",
+      "answer": "almeno lui {poi} ce la ce la chiude {e} ci fa pervenire la sua"
+    },
+    {
+      "id": 61,
+      "doc": "0704000012",
+      "variables": {
+        "text": "lo usa solo lei però potrei provare"
+      },
+      "answer_type": "string",
+      "answer": "lo usa solo lei {però} potrei provare"
+    },
+    {
+      "id": 62,
+      "doc": "0704000016",
+      "variables": {
+        "text": "ma non le accetta però le credenziali a questo punto è diversa la cosa perchè qua qua non dobbiamo ancora scaricare nulla qua dobbiamo semplicemente entrare nell' area riservata"
+      },
+      "answer_type": "string",
+      "answer": "{ma} non le accetta {però} le credenziali a questo punto è diversa la cosa {perchè} qua qua non dobbiamo ancora scaricare nulla qua dobbiamo semplicemente entrare nell' area riservata"
+    },
+    {
+      "id": 63,
+      "doc": "0704000004",
+      "variables": {
+        "text": "invece quella che si chiama <NUM> <NUM> <NUM>"
+      },
+      "answer_type": "string",
+      "answer": "{invece} quella che si chiama <NUM> <NUM> <NUM>"
+    },
+    {
+      "id": 64,
+      "doc": "0704000012",
+      "variables": {
+        "text": "sì e poi la la pro"
+      },
+      "answer_type": "string",
+      "answer": "sì e {poi} la la pro"
+    },
+    {
+      "id": 65,
+      "doc": "0703000005",
+      "variables": {
+        "text": "prima c' era la <NUM> <NUM> ho messo l' <NUM> ho provato a mettere la <NUM> ma non è cambiato niente"
+      },
+      "answer_type": "string",
+      "answer": "prima c' era la <NUM> <NUM> ho messo l' <NUM> ho provato a mettere la <NUM> {ma} non è cambiato niente"
+    },
+    {
+      "id": 66,
+      "doc": "0704000001",
+      "variables": {
+        "text": "allora mi mi può dire il suo cognome per cortesia allora <PER> <PER> <PER> <PER> okay in quale sede da quale sede ci chiama <LOC> <LOC> <LOC> <LOC> <LOC> <LOC> perfetto uno sì allora quindi non ricorda il PIN per per l' accesso alla procedura per autenticarmi perfetto ha già visto che la intranet è cambiata sì sì sì ho visto un attimino okay che ci sono diverse diciamo modifiche nel nelle interfacce okay insomma allora mi dà i dati della sua macchina"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 67,
+      "doc": "0704000025",
+      "variables": {
+        "text": "allora m' ha detto che non riusciva ad accedere al computer e le manca la procedura <SW>"
+      },
+      "answer_type": "string",
+      "answer": "allora m' ha detto che non riusciva ad accedere al computer {e} le manca la procedura <SW>"
+    },
+    {
+      "id": 68,
+      "doc": "0704000014",
+      "variables": {
+        "text": "sì ed è un sollecito proprio urgente perchè come dirigente deve entrare nelle procedure"
+      },
+      "answer_type": "string",
+      "answer": "sì {ed} è un sollecito proprio urgente {perchè} come dirigente deve entrare nelle procedure"
+    },
+    {
+      "id": 69,
+      "doc": "0704000029",
+      "variables": {
+        "text": "in pratica non si acce io questa mattino lo ho acceso"
+      },
+      "answer_type": "string",
+      "answer": "{in pratica} non si acce io questa mattino lo ho acceso"
+    },
+    {
+      "id": 70,
+      "doc": "0703000005",
+      "variables": {
+        "text": "e però da da <SW>"
+      },
+      "answer_type": "string",
+      "answer": "e {però} da da <SW>"
+    },
+    {
+      "id": 71,
+      "doc": "0704000001",
+      "variables": {
+        "text": "allora mi mi può dire il suo cognome per cortesia allora <PER> <PER> <PER> <PER> okay in quale sede da quale sede ci chiama <LOC> <LOC> <LOC> <LOC> <LOC> <LOC>"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 72,
+      "doc": "0704000001",
+      "variables": {
+        "text": "allora mi mi può dire il suo cognome per cortesia allora <PER> <PER> <PER> <PER> okay in quale sede da quale sede ci chiama <LOC> <LOC> <LOC> <LOC> <LOC> <LOC> perfetto uno sì allora quindi non ricorda il PIN per"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 73,
+      "doc": "0703000003",
+      "variables": {
+        "text": "la tastiera però <WD>"
+      },
+      "answer_type": "string",
+      "answer": "la tastiera {però} <WD>"
+    },
+    {
+      "id": 74,
+      "doc": "0704000022",
+      "variables": {
+        "text": "fosse un pò più semplice invece l' unica cosa che le"
+      },
+      "answer_type": "string",
+      "answer": "fosse un pò più semplice {invece} l' unica cosa che le"
+    },
+    {
+      "id": 75,
+      "doc": "0704000025",
+      "variables": {
+        "text": "e in questo momento sì perchè le colleghe l' hanno risolto ieri appunto"
+      },
+      "answer_type": "string",
+      "answer": "e in questo momento sì {perchè} le colleghe l' hanno risolto ieri appunto"
+    },
+    {
+      "id": 76,
+      "doc": "0703000005",
+      "variables": {
+        "text": "forbiddend you do n't have permission okay come se non ci fosse il"
+      },
+      "answer_type": "string",
+      "answer": "forbiddend you do n't have permission okay {come se} non ci fosse il"
+    },
+    {
+      "id": 77,
+      "doc": "0704000036",
+      "variables": {
+        "text": "però la capito"
+      },
+      "answer_type": "string",
+      "answer": "{però} la capito"
+    },
+    {
+      "id": 78,
+      "doc": "0704000039",
+      "variables": {
+        "text": "e provare nuovamente ad accedere alla diretta video"
+      },
+      "answer_type": "string",
+      "answer": "{e} provare nuovamente ad accedere alla diretta video"
+    },
+    {
+      "id": 79,
+      "doc": "0704000019",
+      "variables": {
+        "text": "sulle macchine allora la richiesta è la numero <NUM>"
+      },
+      "answer_type": "string",
+      "answer": "sulle macchine {allora} la richiesta è la numero <NUM>"
+    },
+    {
+      "id": 80,
+      "doc": "0704000040",
+      "variables": {
+        "text": "esatto io questa cosa qui l' avevo già segnalata anche al nostro nostro settore che si occupa dello stato giuridico rile rilevamento badge mi han detto che avrebbero provveduto a a informare il <ORG> ma questo le dico a inizio mese e non è successo ancora nulla e adesso non so se è un problema magari appunto ci state lavorando e questo problema non è stato risolto oppure"
+      },
+      "answer_type": "string",
+      "answer": "esatto io questa cosa qui l' avevo già segnalata anche al nostro nostro settore che si occupa dello stato giuridico rile rilevamento badge mi han detto che avrebbero provveduto a a informare il <ORG> ma questo le dico a inizio mese {e} non è successo ancora nulla {e} adesso non so se è un problema magari appunto ci state lavorando {e} questo problema non è stato risolto oppure"
+    },
+    {
+      "id": 81,
+      "doc": "0703000002",
+      "variables": {
+        "text": "infatti mi è sembrato lo chiedesse ricreano l' ID che va a sovrascriversi"
+      },
+      "answer_type": "string",
+      "answer": "{infatti} mi è sembrato lo chiedesse ricreano l' ID che va a sovrascriversi"
+    },
+    {
+      "id": 82,
+      "doc": "0703000006",
+      "variables": {
+        "text": "sembra che sia tutto collegato però in PC non si accende"
+      },
+      "answer_type": "string",
+      "answer": "sembra che sia tutto collegato {però} in PC non si accende"
+    },
+    {
+      "id": 83,
+      "doc": "0704000014",
+      "variables": {
+        "text": "è sì se non è abilitato alle di abilitazione al protocollo ad esempio"
+      },
+      "answer_type": "string",
+      "answer": "è sì {se} non è abilitato alle di abilitazione al protocollo ad esempio"
+    },
+    {
+      "id": 84,
+      "doc": "0704000016",
+      "variables": {
+        "text": "senta la referente perchè noi non ci occupiamo di di dare le chiavi per questo"
+      },
+      "answer_type": "string",
+      "answer": "senta la referente {perchè} noi non ci occupiamo di di dare le chiavi per questo"
+    },
+    {
+      "id": 85,
+      "doc": "0704000033",
+      "variables": {
+        "text": "sì sì sì così vediamo l' errore che vi dà"
+      },
+      "answer_type": "string",
+      "answer": "sì sì sì {così} vediamo l' errore che vi dà"
+    },
+    {
+      "id": 86,
+      "doc": "0704000025",
+      "variables": {
+        "text": "se ce l' ha aspetti un attimo"
+      },
+      "answer_type": "string",
+      "answer": "{se} ce l' ha aspetti un attimo"
+    },
+    {
+      "id": 87,
+      "doc": "0703000002",
+      "variables": {
+        "text": "sicuro glielo faccio certo si grazie perchè se no non"
+      },
+      "answer_type": "string",
+      "answer": "sicuro glielo faccio certo si grazie {perchè} {se} no non"
+    },
+    {
+      "id": 88,
+      "doc": "0704000047",
+      "variables": {
+        "text": "nell' ufficio <CHAR> <NUM> <CHAR> e che numero è la torretta"
+      },
+      "answer_type": "string",
+      "answer": "nell' ufficio <CHAR> <NUM> <CHAR> {e} che numero è la torretta"
+    },
+    {
+      "id": 89,
+      "doc": "0703000002",
+      "variables": {
+        "text": "non è proprio così infatti mi era venuto il dubbio"
+      },
+      "answer_type": "string",
+      "answer": "non è proprio così {infatti} mi era venuto il dubbio"
+    },
+    {
+      "id": 90,
+      "doc": "0703000005",
+      "variables": {
+        "text": "mi dai l' indirizzo IP così mi collego un attimo"
+      },
+      "answer_type": "string",
+      "answer": "mi dai l' indirizzo IP {così} mi collego un attimo"
+    },
+    {
+      "id": 91,
+      "doc": "0704000010",
+      "variables": {
+        "text": "io adesso devo fare un sollecito perchè vedo che non hanno ancora presa in carico"
+      },
+      "answer_type": "string",
+      "answer": "io adesso devo fare un sollecito {perchè} vedo che non hanno ancora presa in carico"
+    },
+    {
+      "id": 92,
+      "doc": "0704000036",
+      "variables": {
+        "text": "sì ma in questo momento non ho sotto mano il il numero"
+      },
+      "answer_type": "string",
+      "answer": "sì {ma} in questo momento non ho sotto mano il il numero"
+    },
+    {
+      "id": 93,
+      "doc": "0704000043",
+      "variables": {
+        "text": "sì ho ho un' accesso <SW> anche è che mi era stato fatto come accesso ospite diciamo perchè io utilizzo sempre la stessa macchina"
+      },
+      "answer_type": "string",
+      "answer": "sì ho ho un' accesso <SW> anche è che mi era stato fatto come accesso ospite diciamo {perchè} io utilizzo sempre la stessa macchina"
+    },
+    {
+      "id": 94,
+      "doc": "0704000061",
+      "variables": {
+        "text": "sì sicuramente allora il numero di chiamata è <DIGIT> <DIGIT> <DIGIT>"
+      },
+      "answer_type": "string",
+      "answer": "sì sicuramente {allora} il numero di chiamata è <DIGIT> <DIGIT> <DIGIT>"
+    },
+    {
+      "id": 95,
+      "doc": "0704000029",
+      "variables": {
+        "text": "ma se già intervenendo lui mi"
+      },
+      "answer_type": "string",
+      "answer": "{ma} se già intervenendo lui mi"
+    },
+    {
+      "id": 96,
+      "doc": "0704000031",
+      "variables": {
+        "text": "visto che mi risponde in rete volevo vedere se segnalava qualche errore visto che io comunque riesco a vedere eventuali messaggi no in effetti ce l' ho qua su premere control alt canc quindi il computer è a posto"
+      },
+      "answer_type": "string",
+      "answer": "{visto che} mi risponde in rete volevo vedere se segnalava qualche errore {visto che} io comunque riesco a vedere eventuali messaggi no in effetti ce l' ho qua su premere control alt canc {quindi} il computer è a posto"
+    },
+    {
+      "id": 97,
+      "doc": "0704000014",
+      "variables": {
+        "text": "adesso ha quello nuovo e ha urgente bisogno di avere di nuovo il PIN e il PUC"
+      },
+      "answer_type": "string",
+      "answer": "adesso ha quello nuovo {e} ha urgente bisogno di avere di nuovo il PIN e il PUC"
+    },
+    {
+      "id": 98,
+      "doc": "0704000015",
+      "variables": {
+        "text": "ma quello non ciò provato"
+      },
+      "answer_type": "string",
+      "answer": "{ma} quello non ciò provato"
+    },
+    {
+      "id": 99,
+      "doc": "0704000015",
+      "variables": {
+        "text": "proviamo magari a impostare questa cosa e vediamo se se funziona tra l' altro però io non riesco a collegarmi sull' RWS ha mica l' indirizzo I P anche"
+      },
+      "answer_type": "string",
+      "answer": "proviamo magari a impostare questa cosa {e} vediamo se se funziona tra l' altro {però} io non riesco a collegarmi sull' RWS ha mica l' indirizzo I P anche"
+    },
+    {
+      "id": 100,
+      "doc": "0704000016",
+      "variables": {
+        "text": "e allora parlo il problema"
+      },
+      "answer_type": "string",
+      "answer": "e {allora} parlo il problema"
+    },
+    {
+      "id": 101,
+      "doc": "0704000031",
+      "variables": {
+        "text": "allora <DIGIT> <DIGIT> <DIGIT> <DIGIT> <DIGIT> <DIGIT> okay allora siccome riesco a collegarmi volevo solo provare a riavviarle un attimo il"
+      },
+      "answer_type": "string",
+      "answer": "allora <DIGIT> <DIGIT> <DIGIT> <DIGIT> <DIGIT> <DIGIT> okay allora {siccome} riesco a collegarmi volevo solo provare a riavviarle un attimo il"
+    },
+    {
+      "id": 102,
+      "doc": "0704000008",
+      "variables": {
+        "text": "allora verifichiamo sul server allora <DIGIT> <DIGIT> <DIGIT> qua pare <PER> invece la <DIGIT> mi ha detto giusto"
+      },
+      "answer_type": "string",
+      "answer": "allora verifichiamo sul server allora <DIGIT> <DIGIT> <DIGIT> qua pare <PER> {invece} la <DIGIT> mi ha detto giusto"
+    },
+    {
+      "id": 103,
+      "doc": "0704000001",
+      "variables": {
+        "text": "allora mi mi può dire il suo cognome per cortesia allora <PER> <PER> <PER> <PER> okay in quale sede da quale sede ci chiama <LOC> <LOC> <LOC> <LOC> <LOC> <LOC> perfetto uno sì allora quindi non ricorda il PIN per per l' accesso alla procedura per autenticarmi perfetto ha già visto che la intranet è cambiata sì sì sì ho visto un attimino okay che ci sono diverse diciamo modifiche nel nelle interfacce"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 104,
+      "doc": "0704000014",
+      "variables": {
+        "text": "okay e il"
+      },
+      "answer_type": "string",
+      "answer": "okay {e} il"
+    },
+    {
+      "id": 105,
+      "doc": "0704000016",
+      "variables": {
+        "text": "poi presumo che sia <DIGIT> <DIGIT> però non c' è il taglietto c' è una coso c' è un <DIGIT> <CHAR> presumo che sia comunque <DIGIT> <DIGIT> poi <DIGIT>"
+      },
+      "answer_type": "string",
+      "answer": "{poi} presumo che sia <DIGIT> <DIGIT> {però} non c' è il taglietto c' è una coso c' è un <DIGIT> <CHAR> presumo che sia {comunque} <DIGIT> <DIGIT> poi <DIGIT>"
+    },
+    {
+      "id": 106,
+      "doc": "0703000006",
+      "variables": {
+        "text": "però"
+      },
+      "answer_type": "string",
+      "answer": "{però}"
+    },
+    {
+      "id": 107,
+      "doc": "0704000001",
+      "variables": {
+        "text": "quindi sto usando quella dei colleghi insomma"
+      },
+      "answer_type": "string",
+      "answer": "{quindi} sto usando quella dei colleghi insomma"
+    },
+    {
+      "id": 108,
+      "doc": "0704000001",
+      "variables": {
+        "text": "siccome qua siamo ci siamo riorganizzando sono finito in un ufficio d' appoggio e adesso il mio computer e ho avuto problemi già a recuperarlo e farlo risistemare"
+      },
+      "answer_type": "string",
+      "answer": "{siccome} qua siamo ci siamo riorganizzando sono finito in un ufficio d' appoggio {e} adesso il mio computer e ho avuto problemi già a recuperarlo e farlo risistemare"
+    },
+    {
+      "id": 109,
+      "doc": "0704000007",
+      "variables": {
+        "text": "siamo dimmi tutto allora mi chiedevi informazioni su una richiesta che avevi aperto"
+      },
+      "answer_type": "string",
+      "answer": "siamo dimmi tutto {allora} mi chiedevi informazioni su una richiesta che avevi aperto"
+    },
+    {
+      "id": 110,
+      "doc": "0704000001",
+      "variables": {
+        "text": "sì e lui"
+      },
+      "answer_type": "string",
+      "answer": "sì {e} lui"
+    },
+    {
+      "id": 111,
+      "doc": "0703000002",
+      "variables": {
+        "text": "sì più che altro ritorno in poche parole"
+      },
+      "answer_type": "string",
+      "answer": "sì {più che altro} ritorno in poche parole"
+    },
+    {
+      "id": 112,
+      "doc": "0704000015",
+      "variables": {
+        "text": "il contenuto in cui è contenuto il file e quindi riprovare a riprodurre i file ma io non ho mai"
+      },
+      "answer_type": "string",
+      "answer": "il contenuto in cui è contenuto il file {e} {quindi} riprovare a riprodurre i file {ma} io non ho mai"
+    },
+    {
+      "id": 113,
+      "doc": "0704000008",
+      "variables": {
+        "text": "ecco questa stampante qua mi risulta essere al <ORD> piano dove in effetti sono io però dovrebbe esser nell' ufficio di questa persona <PER>"
+      },
+      "answer_type": "string",
+      "answer": "ecco questa stampante qua mi risulta essere al <ORD> piano dove in effetti sono io {però} dovrebbe esser nell' ufficio di questa persona <PER>"
+    },
+    {
+      "id": 114,
+      "doc": "0704000033",
+      "variables": {
+        "text": "e cosa le le serve praticamente l' indirizzo IP"
+      },
+      "answer_type": "string",
+      "answer": "{e} cosa le le serve praticamente l' indirizzo IP"
+    },
+    {
+      "id": 115,
+      "doc": "0703000006",
+      "variables": {
+        "text": "perchè sono da un' altra parte dunque il censimento è <NUM> è quello col codice a barre"
+      },
+      "answer_type": "string",
+      "answer": "{perchè} sono da un' altra parte dunque il censimento è <NUM> è quello col codice a barre"
+    },
+    {
+      "id": 116,
+      "doc": "0704000014",
+      "variables": {
+        "text": "sì ma okay allora niente allora faccio prima la richiesta prima va fatta la richiesta di abilitazione per questa persona"
+      },
+      "answer_type": "string",
+      "answer": "sì ma okay {allora} niente {allora} faccio prima la richiesta prima va fatta la richiesta di abilitazione per questa persona"
+    },
+    {
+      "id": 117,
+      "doc": "0704000036",
+      "variables": {
+        "text": "sì perchè per me io devo fare tutto un' altra serie di cose di scadenze e questi sono degli intoppi"
+      },
+      "answer_type": "string",
+      "answer": "sì {perchè} per me io devo fare tutto un' altra serie di cose di scadenze {e} questi sono degli intoppi"
+    },
+    {
+      "id": 118,
+      "doc": "0704000061",
+      "variables": {
+        "text": "ho capito e poi ci saranno"
+      },
+      "answer_type": "string",
+      "answer": "ho capito {e} {poi} ci saranno"
+    },
+    {
+      "id": 119,
+      "doc": "0703000002",
+      "variables": {
+        "text": "quindi devo aspettare che torni a <PER> <PER> un punto ID nuovo"
+      },
+      "answer_type": "string",
+      "answer": "{quindi} devo aspettare che torni a <PER> <PER> un punto ID nuovo"
+    },
+    {
+      "id": 120,
+      "doc": "0703000003",
+      "variables": {
+        "text": "quando ha iniziato a da a fare le bizze però e però poi non mi faceva neanche più inserire la password"
+      },
+      "answer_type": "string",
+      "answer": "{quando} ha iniziato a da a fare le bizze {però} e {però} {poi} non mi faceva neanche più inserire la password"
+    },
+    {
+      "id": 121,
+      "doc": "0704000012",
+      "variables": {
+        "text": "io ho da ho lanciato ho trasmetto ho cercato di trasmettere una determina come diciamo ultimo passaggio poi sono uscita e mi è mi è venuto fuori che non non poteva essere trasmessa trasmessa di ritrasmetterla io però sono uscita da tutto perchè ho detto ancora qui e ho provato a ricercarla e e rimane tutto bloccato"
+      },
+      "answer_type": "string",
+      "answer": "io ho da ho lanciato ho trasmetto ho cercato di trasmettere una determina come diciamo ultimo passaggio {poi} sono uscita {e} mi è mi è venuto fuori che non non poteva essere trasmessa trasmessa di ritrasmetterla io {però} sono uscita da tutto {perchè} ho detto ancora qui {e} ho provato a ricercarla {e} e rimane tutto bloccato"
+    },
+    {
+      "id": 122,
+      "doc": "0704000005",
+      "variables": {
+        "text": "ce l' ha allora"
+      },
+      "answer_type": "string",
+      "answer": "ce l' ha {allora}"
+    },
+    {
+      "id": 123,
+      "doc": "0704000031",
+      "variables": {
+        "text": "allora quindi tutto collegato bene mi sa che è il monitor lì che"
+      },
+      "answer_type": "string",
+      "answer": "{allora} {quindi} tutto collegato bene mi sa che è il monitor lì che"
+    },
+    {
+      "id": 124,
+      "doc": "0703000001",
+      "variables": {
+        "text": "se avete"
+      },
+      "answer_type": "string",
+      "answer": "{se} avete"
+    },
+    {
+      "id": 125,
+      "doc": "0704000017",
+      "variables": {
+        "text": "se mi dà il settore informatica è meglio"
+      },
+      "answer_type": "string",
+      "answer": "{se} mi dà il settore informatica è meglio"
+    },
+    {
+      "id": 126,
+      "doc": "0704000020",
+      "variables": {
+        "text": "le lascio solo il numero di richiesta signora almeno se lo tenga magari"
+      },
+      "answer_type": "string",
+      "answer": "le lascio solo il numero di richiesta signora {almeno} se lo tenga magari"
+    },
+    {
+      "id": 127,
+      "doc": "0704000031",
+      "variables": {
+        "text": "che sono in giro nei laboratori okay perfetto"
+      },
+      "answer_type": "string",
+      "answer": "{che} sono in giro nei laboratori okay perfetto"
+    },
+    {
+      "id": 128,
+      "doc": "0704000061",
+      "variables": {
+        "text": "no però gli arriva l' alimentazione sì sì sì si è acceso sì la luce c' è perchè"
+      },
+      "answer_type": "string",
+      "answer": "no {però} gli arriva l' alimentazione sì sì sì si è acceso sì la luce c' è perchè"
+    },
+    {
+      "id": 129,
+      "doc": "0704000033",
+      "variables": {
+        "text": "okay PC però c' è anche"
+      },
+      "answer_type": "string",
+      "answer": "okay PC {però} c' è anche"
+    },
+    {
+      "id": 130,
+      "doc": "0704000012",
+      "variables": {
+        "text": "questo qua è quello vecchio infatti"
+      },
+      "answer_type": "string",
+      "answer": "questo qua è quello vecchio {infatti}"
+    },
+    {
+      "id": 131,
+      "doc": "0704000051",
+      "variables": {
+        "text": "okay allora intanto verifichiamo solo che non ci siano connessioni anomale okay allora allora perchè il problema"
+      },
+      "answer_type": "string",
+      "answer": "okay allora {intanto} verifichiamo solo che non ci siano connessioni anomale okay allora allora {perchè} il problema"
+    },
+    {
+      "id": 132,
+      "doc": "0704000054",
+      "variables": {
+        "text": "e poi la password però io non ce l' ho"
+      },
+      "answer_type": "string",
+      "answer": "e poi la password {però} io non ce l' ho"
+    },
+    {
+      "id": 133,
+      "doc": "0704000005",
+      "variables": {
+        "text": "ogni tanto dà anche errore <CHAR> <NUM> però quando è venuto il tecnico mi aveva spiegato come come sbloccarlo questo qua invece non so"
+      },
+      "answer_type": "string",
+      "answer": "ogni tanto dà anche errore <CHAR> <NUM> {però} {quando} è venuto il tecnico mi aveva spiegato come come sbloccarlo questo qua {invece} non so"
+    },
+    {
+      "id": 134,
+      "doc": "0703000005",
+      "variables": {
+        "text": "e il proxy c' è se vai da <SW>"
+      },
+      "answer_type": "string",
+      "answer": "{e} il proxy c' è {se} vai da <SW>"
+    },
+    {
+      "id": 135,
+      "doc": "0703000001",
+      "variables": {
+        "text": "perché ho acceso dà un segnale sul video tipo televisore senza antenna ho"
+      },
+      "answer_type": "string",
+      "answer": "{perché} ho acceso dà un segnale sul video tipo televisore senza antenna ho"
+    },
+    {
+      "id": 136,
+      "doc": "0704000029",
+      "variables": {
+        "text": "le dico allora solo cosa fare"
+      },
+      "answer_type": "string",
+      "answer": "le dico {allora} solo cosa fare"
+    },
+    {
+      "id": 137,
+      "doc": "0704000040",
+      "variables": {
+        "text": "nella settimana successiva ad esempio sono state inserite altre codifiche e anche lì queste non appaiono e e oggi stesso ieri stesso ad esempio o alle timbrature non c' è comunque una"
+      },
+      "answer_type": "string",
+      "answer": "nella settimana successiva {ad esempio} sono state inserite altre codifiche {e} anche lì queste non appaiono {e} e oggi stesso ieri stesso {ad esempio} o alle timbrature non c' è comunque una"
+    },
+    {
+      "id": 138,
+      "doc": "0704000014",
+      "variables": {
+        "text": "allora sì devro dovete fare richiesta di"
+      },
+      "answer_type": "string",
+      "answer": "{allora} sì devro dovete fare richiesta di"
+    },
+    {
+      "id": 139,
+      "doc": "0704000051",
+      "variables": {
+        "text": "no magari ho fatto qualche casino io così almeno vi rendete conto che casino faccio"
+      },
+      "answer_type": "string",
+      "answer": "no magari ho fatto qualche casino io {così} almeno vi rendete conto che casino faccio"
+    },
+    {
+      "id": 140,
+      "doc": "0704000041",
+      "variables": {
+        "text": "okay allora se va su strumenti opzioni"
+      },
+      "answer_type": "string",
+      "answer": "okay allora {se} va su strumenti opzioni"
+    },
+    {
+      "id": 141,
+      "doc": "0704000022",
+      "variables": {
+        "text": "ho bisogno allora di"
+      },
+      "answer_type": "string",
+      "answer": "ho bisogno {allora} di"
+    },
+    {
+      "id": 142,
+      "doc": "0704000052",
+      "variables": {
+        "text": "che no perchè erano i primi che mi bloccavano di solito alla scaden"
+      },
+      "answer_type": "string",
+      "answer": "che no {perchè} erano i primi che mi bloccavano di solito alla scaden"
+    },
+    {
+      "id": 143,
+      "doc": "0704000020",
+      "variables": {
+        "text": "cosa che mi avete mandato e mi dice il PIN non è corretto riprova"
+      },
+      "answer_type": "string",
+      "answer": "cosa che mi avete mandato {e} mi dice il PIN non è corretto riprova"
+    },
+    {
+      "id": 144,
+      "doc": "0704000043",
+      "variables": {
+        "text": "quindi adesso"
+      },
+      "answer_type": "string",
+      "answer": "{quindi} adesso"
+    },
+    {
+      "id": 145,
+      "doc": "0704000001",
+      "variables": {
+        "text": "allora mi mi può dire il suo cognome per cortesia allora <PER> <PER> <PER> <PER> okay in quale sede da quale sede ci chiama <LOC> <LOC> <LOC> <LOC> <LOC> <LOC> perfetto uno sì allora quindi non ricorda il PIN per per l' accesso alla procedura per autenticarmi perfetto ha già visto che la intranet è cambiata sì sì sì ho visto un attimino okay che ci sono diverse diciamo modifiche nel nelle interfacce okay insomma allora mi dà i dati della sua macchina ascolti e qua ci ci sono dei problemi"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 146,
+      "doc": "0704000040",
+      "variables": {
+        "text": "così ad esempio il <WD> se lei vede non c' è il totale delle ore giornaliere così anche il <WD>"
+      },
+      "answer_type": "string",
+      "answer": "{così} {ad esempio} il <WD> se lei vede non c' è il totale delle ore giornaliere così anche il <WD>"
+    },
+    {
+      "id": 147,
+      "doc": "0704000054",
+      "variables": {
+        "text": "no perchè non ho ancora il PC"
+      },
+      "answer_type": "string",
+      "answer": "no {perchè} non ho ancora il PC"
+    },
+    {
+      "id": 148,
+      "doc": "0704000061",
+      "variables": {
+        "text": "fa uno strano rumore quando schiaccio il pulsante però non parte la macchina quindi proprio <CHARS>"
+      },
+      "answer_type": "string",
+      "answer": "fa uno strano rumore {quando} schiaccio il pulsante {però} non parte la macchina {quindi} proprio <CHARS>"
+    },
+    {
+      "id": 149,
+      "doc": "0704000017",
+      "variables": {
+        "text": "sì perfetto quindi ecco perchè non"
+      },
+      "answer_type": "string",
+      "answer": "sì perfetto quindi {ecco perchè} non"
+    },
+    {
+      "id": 150,
+      "doc": "0704000023",
+      "variables": {
+        "text": "è ma però mi apre l' altra pagina"
+      },
+      "answer_type": "string",
+      "answer": "è {ma} {però} mi apre l' altra pagina"
+    },
+    {
+      "id": 151,
+      "doc": "0704000016",
+      "variables": {
+        "text": "è allora ci vuole proprio l' autorizzazione allora devo parla con"
+      },
+      "answer_type": "string",
+      "answer": "è {allora} ci vuole proprio l' autorizzazione allora devo parla con"
+    },
+    {
+      "id": 152,
+      "doc": "0704000034",
+      "variables": {
+        "text": "tra quanto perchè io tra mezz' ora esco"
+      },
+      "answer_type": "string",
+      "answer": "tra quanto {perchè} io tra mezz' ora esco"
+    },
+    {
+      "id": 153,
+      "doc": "0704000025",
+      "variables": {
+        "text": "mi sa che però quel PC è fuori rete"
+      },
+      "answer_type": "string",
+      "answer": "mi sa che {però} quel PC è fuori rete"
+    },
+    {
+      "id": 154,
+      "doc": "0704000034",
+      "variables": {
+        "text": "io vedo di fare una cosa urgente se se ci va bene tra mezz' ora la la contattano"
+      },
+      "answer_type": "string",
+      "answer": "io vedo di fare una cosa urgente se {se} ci va bene tra mezz' ora la la contattano"
+    },
+    {
+      "id": 155,
+      "doc": "0704000034",
+      "variables": {
+        "text": "no perche io non ho accesso alla procedura per quello devo per forza farla richiamare"
+      },
+      "answer_type": "string",
+      "answer": "no {perche} io non ho accesso alla procedura {per quello} devo per forza farla richiamare"
+    },
+    {
+      "id": 156,
+      "doc": "0704000001",
+      "variables": {
+        "text": "perfetto allora loro manderanno il codice PIN a lui a sua volta glielo consegnerà con la busta chiusa e sigillata con il nuovo codice va bene"
+      },
+      "answer_type": "string",
+      "answer": "perfetto {allora} loro manderanno il codice PIN a lui {a sua volta} glielo consegnerà con la busta chiusa e sigillata con il nuovo codice va bene"
+    },
+    {
+      "id": 157,
+      "doc": "0703000001",
+      "variables": {
+        "text": "okay vediamo un po' quindi mi hai detto diamoci"
+      },
+      "answer_type": "string",
+      "answer": "okay vediamo un po' {quindi} mi hai detto diamoci"
+    },
+    {
+      "id": 158,
+      "doc": "0703000005",
+      "variables": {
+        "text": "allora aspetta aspetta perché un mio collega"
+      },
+      "answer_type": "string",
+      "answer": "allora aspetta aspetta {perché} un mio collega"
+    },
+    {
+      "id": 159,
+      "doc": "0704000008",
+      "variables": {
+        "text": "okay allora sta venendo"
+      },
+      "answer_type": "string",
+      "answer": "okay {allora} sta venendo"
+    },
+    {
+      "id": 160,
+      "doc": "0704000004",
+      "variables": {
+        "text": "è sì sì tra l' altro è solo un numero da modificare <NUM> anche perchè vedo che non è ancora stato preso in carico quindi"
+      },
+      "answer_type": "string",
+      "answer": "è sì sì {tra l' altro} è solo un numero da modificare <NUM> {anche perchè} vedo che non è ancora stato preso in carico quindi"
+    },
+    {
+      "id": 161,
+      "doc": "0704000008",
+      "variables": {
+        "text": "perché"
+      },
+      "answer_type": "string",
+      "answer": "{perché}"
+    },
+    {
+      "id": 162,
+      "doc": "0704000044",
+      "variables": {
+        "text": "allora per sia la ripresa del file allora dovrebbe essere una cosa abbastanza semplice provi a andare sul menù strumenti"
+      },
+      "answer_type": "string",
+      "answer": "allora per sia la ripresa del file {allora} dovrebbe essere una cosa abbastanza semplice provi a andare sul menù strumenti"
+    },
+    {
+      "id": 163,
+      "doc": "0703000004",
+      "variables": {
+        "text": "non lo sappiamo comunque è abbastanza"
+      },
+      "answer_type": "string",
+      "answer": "non lo sappiamo {comunque} è abbastanza"
+    },
+    {
+      "id": 164,
+      "doc": "0704000040",
+      "variables": {
+        "text": "il <WD> <NUM> tanto per dirne una io lì avevo"
+      },
+      "answer_type": "string",
+      "answer": "il <WD> <NUM> {tanto per dirne una} io lì avevo"
+    },
+    {
+      "id": 165,
+      "doc": "0704000043",
+      "variables": {
+        "text": "non me lo ricordo più guardi era stato fatto per la postazione di <LOC> avevo precedentemente chiesto di installare <SW> <SW> nuova versione perchè altrimenti non mi funzionavano poi non andava allora poi io ho chiesto mentre ero qui a <LOC> ho chiesto a"
+      },
+      "answer_type": "string",
+      "answer": "non me lo ricordo più guardi era stato fatto per la postazione di <LOC> avevo precedentemente chiesto di installare <SW> <SW> nuova versione {perchè} {altrimenti} non mi funzionavano {poi} non andava {allora} {poi} io ho chiesto {mentre} ero qui a <LOC> ho chiesto a"
+    },
+    {
+      "id": 166,
+      "doc": "0704000031",
+      "variables": {
+        "text": "quindi lei ha visualizzato solo <BRAND> e basta mi sa che allora devo mandarle lì l' assistenza lei per non ha per caso la possibilità di provare a collegare un altro monitor"
+      },
+      "answer_type": "string",
+      "answer": "{quindi} lei ha visualizzato solo <BRAND> e basta mi sa che {allora} devo mandarle lì l' assistenza lei per non ha per caso la possibilità di provare a collegare un altro monitor"
+    },
+    {
+      "id": 167,
+      "doc": "0703000005",
+      "variables": {
+        "text": "no no no ma è giusto"
+      },
+      "answer_type": "string",
+      "answer": "no no no {ma} è giusto"
+    },
+    {
+      "id": 168,
+      "doc": "0704000031",
+      "variables": {
+        "text": "ma faccia un attimo perché"
+      },
+      "answer_type": "string",
+      "answer": "{ma} faccia un attimo {perché}"
+    },
+    {
+      "id": 169,
+      "doc": "0703000002",
+      "variables": {
+        "text": "praticamente l' ID di posta che va a sovrascriversi all' altro poi"
+      },
+      "answer_type": "string",
+      "answer": "praticamente l' ID di posta che va a sovrascriversi all' altro {poi}"
+    },
+    {
+      "id": 170,
+      "doc": "0704000039",
+      "variables": {
+        "text": "okay allora è"
+      },
+      "answer_type": "string",
+      "answer": "okay {allora} è"
+    },
+    {
+      "id": 171,
+      "doc": "0704000054",
+      "variables": {
+        "text": "però comunque okay"
+      },
+      "answer_type": "string",
+      "answer": "{però} {comunque} okay"
+    },
+    {
+      "id": 172,
+      "doc": "0704000003",
+      "variables": {
+        "text": "e dato questo necessita per poter vedere le timbrature"
+      },
+      "answer_type": "string",
+      "answer": "{e} dato questo necessita per poter vedere le timbrature"
+    },
+    {
+      "id": 173,
+      "doc": "0704000017",
+      "variables": {
+        "text": "che poi me lo segno"
+      },
+      "answer_type": "string",
+      "answer": "che {poi} me lo segno"
+    },
+    {
+      "id": 174,
+      "doc": "0703000006",
+      "variables": {
+        "text": "perchè attiverò una ditta esterna"
+      },
+      "answer_type": "string",
+      "answer": "{perchè} attiverò una ditta esterna"
+    },
+    {
+      "id": 175,
+      "doc": "0704000043",
+      "variables": {
+        "text": "allora le posso dare o il cellulare o altrimenti <NUM> <NUM> come interno"
+      },
+      "answer_type": "string",
+      "answer": "{allora} le posso dare o il cellulare o altrimenti <NUM> <NUM> come interno"
+    },
+    {
+      "id": 176,
+      "doc": "0704000028",
+      "variables": {
+        "text": "no allora praticamente io penso questa cosina qua anche se non abbiamo ancora avuto ad oggi la certezza di quanto le sto per dire io presumo che fino alla scorsa settimana praticamente vi avessero concesso la possibilità di entrare in due modi o con l' iniziale del nome con attaccato il cognome"
+      },
+      "answer_type": "string",
+      "answer": "no {allora} praticamente io penso questa cosina qua {anche se} non abbiamo ancora avuto ad oggi la certezza di quanto le sto per dire io presumo che fino alla scorsa settimana praticamente vi avessero concesso la possibilità di entrare in due modi o con l' iniziale del nome con attaccato il cognome"
+    },
+    {
+      "id": 177,
+      "doc": "0703000004",
+      "variables": {
+        "text": "mi puoi solo dire quali sono i tempi perchè se no rimango bloccato"
+      },
+      "answer_type": "string",
+      "answer": "mi puoi solo dire quali sono i tempi {perchè} {se} no rimango bloccato"
+    },
+    {
+      "id": 178,
+      "doc": "0704000040",
+      "variables": {
+        "text": "ad esempio dal <DIGIT> in avanti fino a tutta la settimana del <NUM> io ho preso ferie e dovrebbe con quanto meno comparire quel <NUM> che lei ha visto non so al <WD> <NUM> che è stato sicuramente inserito a conferma della"
+      },
+      "answer_type": "string",
+      "answer": "{ad esempio} dal <DIGIT> in avanti fino a tutta la settimana del <NUM> io ho preso ferie {e} dovrebbe con quanto meno comparire quel <NUM> che lei ha visto non so al <WD> <NUM> che è stato sicuramente inserito a conferma della"
+    },
+    {
+      "id": 179,
+      "doc": "0703000004",
+      "variables": {
+        "text": "non riesce a fare nulla col senza monitor per cui"
+      },
+      "answer_type": "string",
+      "answer": "non riesce a fare nulla col senza monitor {per cui}"
+    },
+    {
+      "id": 180,
+      "doc": "0704000041",
+      "variables": {
+        "text": "da qualche gior da qualche giorno vabbè poi ci sono state le vacanze dalle sedute immediatamente precedenti la pausa pasquale"
+      },
+      "answer_type": "string",
+      "answer": "da qualche gior da qualche giorno vabbè {poi} ci sono state le vacanze dalle sedute immediatamente precedenti la pausa pasquale"
+    },
+    {
+      "id": 181,
+      "doc": "0704000036",
+      "variables": {
+        "text": "o chiedo poi a lei l' hanno appena"
+      },
+      "answer_type": "string",
+      "answer": "{o} chiedo poi a lei l' hanno appena"
+    },
+    {
+      "id": 182,
+      "doc": "0704000023",
+      "variables": {
+        "text": "e poi danno fastidio perchè chiedono sempre se voglio possono stare come pagine iniziale oppure le aprono anche tante tante pagine di <SW> <SW> in contemporanea"
+      },
+      "answer_type": "string",
+      "answer": "{e} {poi} danno fastidio {perchè} chiedono sempre se voglio possono stare come pagine iniziale {oppure} le aprono anche tante tante pagine di <SW> <SW> in contemporanea"
+    },
+    {
+      "id": 183,
+      "doc": "0704000056",
+      "variables": {
+        "text": "tra l' altro anche un mio collega qui a fianco non"
+      },
+      "answer_type": "string",
+      "answer": "{tra l' altro} anche un mio collega qui a fianco non"
+    },
+    {
+      "id": 184,
+      "doc": "0704000058",
+      "variables": {
+        "text": "okay poi guardi se già qui in questa directory c' è una cartella che si chiama <SW> se non c' è andiamo dentro programmi"
+      },
+      "answer_type": "string",
+      "answer": "okay {poi} guardi se già qui in questa directory c' è una cartella che si chiama <SW> {se} non c' è andiamo dentro programmi"
+    },
+    {
+      "id": 185,
+      "doc": "0703000005",
+      "variables": {
+        "text": "che ha finito allora proviamo a chiudere e riaprire"
+      },
+      "answer_type": "string",
+      "answer": "che ha finito {allora} proviamo a chiudere e riaprire"
+    },
+    {
+      "id": 186,
+      "doc": "0704000029",
+      "variables": {
+        "text": "mi ha chiesto appunto di aprire la chiamata che però siccome che si trova praticamente da noi sarebbe venuto immediatamente a vederlo"
+      },
+      "answer_type": "string",
+      "answer": "mi ha chiesto appunto di aprire la chiamata che {però} {siccome che} si trova praticamente da noi sarebbe venuto immediatamente a vederlo"
+    },
+    {
+      "id": 187,
+      "doc": "0704000020",
+      "variables": {
+        "text": "no appunto no ma poi comunque all' in qualunque caso adesso digitando il codice PIN per accesso a procedure informatiche le direbbe che è sbagliato sia dal vecchio accesso che da che da quello nuovo allora"
+      },
+      "answer_type": "string",
+      "answer": "no appunto no ma poi comunque all' in qualunque caso adesso digitando il codice PIN per accesso a procedure informatiche le direbbe che è sbagliato sia dal vecchio accesso che da che da quello nuovo {allora}"
+    },
+    {
+      "id": 188,
+      "doc": "0704000016",
+      "variables": {
+        "text": "è e poi la chiave <SW> mi è stato dato l' user e il password"
+      },
+      "answer_type": "string",
+      "answer": "è e {poi} la chiave <SW> mi è stato dato l' user e il password"
+    },
+    {
+      "id": 189,
+      "doc": "0703000001",
+      "variables": {
+        "text": "ma il il un buon segnale"
+      },
+      "answer_type": "string",
+      "answer": "{ma} il il un buon segnale"
+    },
+    {
+      "id": 190,
+      "doc": "0704000061",
+      "variables": {
+        "text": "no allora c' è proprio qualche qualche problema di tipo hardware invece il monitor si accende correttamente"
+      },
+      "answer_type": "string",
+      "answer": "no {allora} c' è proprio qualche qualche problema di tipo hardware {invece} il monitor si accende correttamente"
+    },
+    {
+      "id": 191,
+      "doc": "0703000003",
+      "variables": {
+        "text": "infatti il okay"
+      },
+      "answer_type": "string",
+      "answer": "{infatti} il okay"
+    },
+    {
+      "id": 192,
+      "doc": "0704000054",
+      "variables": {
+        "text": "non è detto perchè nessuno m' ha detto niente"
+      },
+      "answer_type": "string",
+      "answer": "non è detto {perchè} nessuno m' ha detto niente"
+    },
+    {
+      "id": 193,
+      "doc": "0704000012",
+      "variables": {
+        "text": "sì ho anche provato a spegnere e riaccendere ma no niente"
+      },
+      "answer_type": "string",
+      "answer": "sì ho {anche} provato a spegnere e riaccendere {ma} no niente"
+    },
+    {
+      "id": 194,
+      "doc": "0704000043",
+      "variables": {
+        "text": "faccio un test anche da un' altra macchina così almeno vedo se se"
+      },
+      "answer_type": "string",
+      "answer": "faccio un test anche da un' altra macchina {così} almeno vedo se se"
+    },
+    {
+      "id": 195,
+      "doc": "0704000051",
+      "variables": {
+        "text": "no ma sarà sicuramente una una stupidaggine"
+      },
+      "answer_type": "string",
+      "answer": "no {ma} sarà sicuramente una una stupidaggine"
+    },
+    {
+      "id": 196,
+      "doc": "0703000001",
+      "variables": {
+        "text": "allora mi lasci per caso il censimento del computer così"
+      },
+      "answer_type": "string",
+      "answer": "{allora} mi lasci per caso il censimento del computer {così}"
+    },
+    {
+      "id": 197,
+      "doc": "0704000023",
+      "variables": {
+        "text": "provo solo ad uscire <CHAR> sì sì casetta funziona ma molto probabilmente è successo questo succede che navigando su internet si possono trovare delle pubblicità"
+      },
+      "answer_type": "string",
+      "answer": "provo solo ad uscire <CHAR> sì sì casetta funziona {ma} molto probabilmente è successo {questo} succede che navigando su internet si possono trovare delle pubblicità"
+    },
+    {
+      "id": 198,
+      "doc": "0704000056",
+      "variables": {
+        "text": "che ricevo quindi da oggi a questo punto e come al solito fanno i lavori e non lo segnalano"
+      },
+      "answer_type": "string",
+      "answer": "che ricevo quindi da oggi a questo punto e come al solito fanno i lavori {e} non lo segnalano"
+    },
+    {
+      "id": 199,
+      "doc": "0704000001",
+      "variables": {
+        "text": "allora mi mi può dire il suo cognome per cortesia allora <PER> <PER> <PER> <PER> okay in quale sede da quale sede ci chiama <LOC> <LOC> <LOC> <LOC> <LOC> <LOC> perfetto uno sì allora quindi non ricorda il PIN per per l' accesso alla procedura per autenticarmi perfetto ha già visto che la intranet è cambiata sì sì sì ho visto un attimino okay che ci sono diverse diciamo modifiche nel nelle interfacce okay insomma"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 200,
+      "doc": "0704000022",
+      "variables": {
+        "text": "non appena ho finito"
+      },
+      "answer_type": "string",
+      "answer": "{non appena} ho finito"
+    },
+    {
+      "id": 201,
+      "doc": "0704000001",
+      "variables": {
+        "text": "allora mi mi può dire il suo cognome per cortesia allora <PER> <PER> <PER> <PER> okay in quale sede da quale sede ci chiama <LOC> <LOC> <LOC> <LOC> <LOC> <LOC> perfetto uno sì allora quindi non ricorda il PIN per per l' accesso alla procedura per autenticarmi perfetto ha già visto che la intranet è cambiata sì sì sì ho visto un attimino okay"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 202,
+      "doc": "0704000036",
+      "variables": {
+        "text": "quindi è è questa stampante è dotata è sicuramente di una scheda di rete è"
+      },
+      "answer_type": "string",
+      "answer": "{quindi} è è questa stampante è dotata è sicuramente di una scheda di rete è"
+    },
+    {
+      "id": 203,
+      "doc": "0704000040",
+      "variables": {
+        "text": "è ad esempio non so lei se adesso vedo che lei è"
+      },
+      "answer_type": "string",
+      "answer": "è {ad esempio} non so lei se adesso vedo che lei è"
+    },
+    {
+      "id": 204,
+      "doc": "0704000022",
+      "variables": {
+        "text": "se no mi lascia la macchina ci lavoro sopra un attimo"
+      },
+      "answer_type": "string",
+      "answer": "{se} no mi lascia la macchina ci lavoro sopra un attimo"
+    },
+    {
+      "id": 205,
+      "doc": "0704000020",
+      "variables": {
+        "text": "si blocca dopo due o tre tentativi errati poi magari da quant' è che non lo utilizza"
+      },
+      "answer_type": "string",
+      "answer": "si blocca dopo due o tre tentativi errati {poi} magari da quant' è che non lo utilizza"
+    },
+    {
+      "id": 206,
+      "doc": "0704000014",
+      "variables": {
+        "text": "allora cancelli"
+      },
+      "answer_type": "string",
+      "answer": "{allora} cancelli"
+    },
+    {
+      "id": 207,
+      "doc": "0704000035",
+      "variables": {
+        "text": "e pro è proprio scollegata nel senso che è ancora impacchettata"
+      },
+      "answer_type": "string",
+      "answer": "e pro è proprio scollegata {nel senso che} è ancora impacchettata"
+    },
+    {
+      "id": 208,
+      "doc": "0704000061",
+      "variables": {
+        "text": "quindi devono essere registrate delle"
+      },
+      "answer_type": "string",
+      "answer": "{quindi} devono essere registrate delle"
+    },
+    {
+      "id": 209,
+      "doc": "0704000001",
+      "variables": {
+        "text": "okay no giusto per almeno fare riferimento a una macchina che poi"
+      },
+      "answer_type": "string",
+      "answer": "okay no {giusto per} almeno fare riferimento a una macchina che {poi}"
+    },
+    {
+      "id": 210,
+      "doc": "0704000025",
+      "variables": {
+        "text": "sì è vero c' era anche problemi sulle stampanti di rete se non sbaglio ieri"
+      },
+      "answer_type": "string",
+      "answer": "sì è vero c' era {anche} problemi sulle stampanti di rete se non sbaglio ieri"
+    },
+    {
+      "id": 211,
+      "doc": "0704000054",
+      "variables": {
+        "text": "io non ho nel senso l' utente visto che le regole sono di mettere nome e cognome"
+      },
+      "answer_type": "string",
+      "answer": "io non ho nel senso l' utente {visto che} le regole sono di mettere nome e cognome"
+    },
+    {
+      "id": 212,
+      "doc": "0704000035",
+      "variables": {
+        "text": "<NUM> <DIGIT> <DIGIT> mi conferma solo il telefono signora così"
+      },
+      "answer_type": "string",
+      "answer": "<NUM> <DIGIT> <DIGIT> mi conferma solo il telefono signora {così}"
+    },
+    {
+      "id": 213,
+      "doc": "0704000001",
+      "variables": {
+        "text": "<DIGIT> <DIGIT> tanto per l' intervento non ci interessa particolarmente"
+      },
+      "answer_type": "string",
+      "answer": "<DIGIT> <DIGIT> {tanto} per l' intervento non ci interessa particolarmente"
+    },
+    {
+      "id": 214,
+      "doc": "0704000022",
+      "variables": {
+        "text": "sì e poi la richiamo"
+      },
+      "answer_type": "string",
+      "answer": "sì {e} {poi} la richiamo"
+    },
+    {
+      "id": 215,
+      "doc": "0704000033",
+      "variables": {
+        "text": "del gateway il il dispositivo che vi fa uscire sulla rete allora se riesco perché lì ci mette"
+      },
+      "answer_type": "string",
+      "answer": "del gateway il il dispositivo che vi fa uscire sulla rete allora se riesco {perché} lì ci mette"
+    },
+    {
+      "id": 216,
+      "doc": "0704000008",
+      "variables": {
+        "text": "però nella realtà io adesso se non so se lei la sta già vedendo"
+      },
+      "answer_type": "string",
+      "answer": "{però} nella realtà io adesso se non so se lei la sta già vedendo"
+    },
+    {
+      "id": 217,
+      "doc": "0704000003",
+      "variables": {
+        "text": "allora mi la manderanno in sede quindi"
+      },
+      "answer_type": "string",
+      "answer": "{allora} mi la manderanno in sede quindi"
+    },
+    {
+      "id": 218,
+      "doc": "0704000012",
+      "variables": {
+        "text": "ecco poi sì ecco poi viene fuori okay area personale okay poi apriamo le"
+      },
+      "answer_type": "string",
+      "answer": "ecco poi sì ecco {poi} viene fuori okay area personale okay {poi} apriamo le"
+    },
+    {
+      "id": 219,
+      "doc": "0703000001",
+      "variables": {
+        "text": "e il tuo interno è telefono"
+      },
+      "answer_type": "string",
+      "answer": "{e} il tuo interno è telefono"
+    },
+    {
+      "id": 220,
+      "doc": "0703000002",
+      "variables": {
+        "text": "ad esempio lei sai co cos' è la possibilità di vedere la casella di posta via internet"
+      },
+      "answer_type": "string",
+      "answer": "{ad esempio} lei sai co cos' è la possibilità di vedere la casella di posta via internet"
+    },
+    {
+      "id": 221,
+      "doc": "0704000025",
+      "variables": {
+        "text": "al limite provare a scollegarlo e ricollegarlo"
+      },
+      "answer_type": "string",
+      "answer": "{al limite} provare a scollegarlo e ricollegarlo"
+    },
+    {
+      "id": 222,
+      "doc": "0703000004",
+      "variables": {
+        "text": "comunque c' è qualcuno"
+      },
+      "answer_type": "string",
+      "answer": "{comunque} c' è qualcuno"
+    },
+    {
+      "id": 223,
+      "doc": "0703000004",
+      "variables": {
+        "text": "provato non so se è un problema di alimentatore perchè non si accende neanche il LED dell' al dell' alimentatore per cui ho provato comunque a cambiare un paio di prese"
+      },
+      "answer_type": "string",
+      "answer": "provato non so se è un problema di alimentatore {perchè} non si accende neanche il LED dell' al dell' alimentatore {per cui} ho provato {comunque} a cambiare un paio di prese"
+    },
+    {
+      "id": 224,
+      "doc": "0704000025",
+      "variables": {
+        "text": "e allora devo vedere di mandare qualcuno lì mi riesce solo a recuperare il numero della della presa di rete della torretta"
+      },
+      "answer_type": "string",
+      "answer": "{e} {allora} devo vedere di mandare qualcuno lì mi riesce solo a recuperare il numero della della presa di rete della torretta"
+    },
+    {
+      "id": 225,
+      "doc": "0704000015",
+      "variables": {
+        "text": "allora facciamo così mi dà solo l' RWS del computer provo a collegarmi un attimo così"
+      },
+      "answer_type": "string",
+      "answer": "allora facciamo così mi dà solo l' RWS del computer provo a collegarmi un attimo {così}"
+    },
+    {
+      "id": 226,
+      "doc": "0704000057",
+      "variables": {
+        "text": "allora di invece di <PER> <PER> quello è sicuro che non c' è"
+      },
+      "answer_type": "string",
+      "answer": "allora di {invece} di <PER> <PER> quello è sicuro che non c' è"
+    },
+    {
+      "id": 227,
+      "doc": "0704000034",
+      "variables": {
+        "text": "no fino a <WD> poi non ci sono"
+      },
+      "answer_type": "string",
+      "answer": "no fino a <WD> {poi} non ci sono"
+    },
+    {
+      "id": 228,
+      "doc": "0704000014",
+      "variables": {
+        "text": "PIN e PUC e quindi chiediamo appunto il reinvio dei dati"
+      },
+      "answer_type": "string",
+      "answer": "PIN e PUC e {quindi} chiediamo appunto il reinvio dei dati"
+    },
+    {
+      "id": 229,
+      "doc": "0704000035",
+      "variables": {
+        "text": "no non non no perchè ho già provato una volta ho fatto un casino allora è per quello che vi ho chiamato"
+      },
+      "answer_type": "string",
+      "answer": "no non non no {perchè} ho già provato una volta ho fatto un casino {allora} è per quello che vi ho chiamato"
+    },
+    {
+      "id": 230,
+      "doc": "0704000005",
+      "variables": {
+        "text": "adesso ho tolto tutti i fogli però mi dà comunque errore <NUM> e non riesco proprio più a lavorare"
+      },
+      "answer_type": "string",
+      "answer": "adesso ho tolto tutti i fogli {però} mi dà comunque errore <NUM> {e} non riesco proprio più a lavorare"
+    },
+    {
+      "id": 231,
+      "doc": "0704000061",
+      "variables": {
+        "text": "però non va perchè"
+      },
+      "answer_type": "string",
+      "answer": "{però} non va {perchè}"
+    },
+    {
+      "id": 232,
+      "doc": "0704000020",
+      "variables": {
+        "text": "ma non ci riesco perchè io infilo il badge"
+      },
+      "answer_type": "string",
+      "answer": "{ma} non ci riesco {perchè} io infilo il badge"
+    },
+    {
+      "id": 233,
+      "doc": "0704000057",
+      "variables": {
+        "text": "cioè il le bollature le le vedeva comunque perché entravi nella smart bastava che sapesse il numero invece di entrare nel protoco mi può attendere un attimo che mi"
+      },
+      "answer_type": "string",
+      "answer": "cioè il le bollature le le vedeva comunque {perché} entravi nella smart bastava che sapesse il numero invece di entrare nel protoco mi può attendere un attimo {che} mi"
+    },
+    {
+      "id": 234,
+      "doc": "0704000058",
+      "variables": {
+        "text": "ma dovrebbe vederlo da entrambi sia"
+      },
+      "answer_type": "string",
+      "answer": "{ma} dovrebbe vederlo da entrambi sia"
+    },
+    {
+      "id": 235,
+      "doc": "0704000039",
+      "variables": {
+        "text": "e basta allora se fa clic col tasto destro su proprio sulla barra dove c' è scritto <SW> <SW> <SW>"
+      },
+      "answer_type": "string",
+      "answer": "e basta {allora} {se} fa clic col tasto destro su proprio sulla barra dove c' è scritto <SW> <SW> <SW>"
+    },
+    {
+      "id": 236,
+      "doc": "0704000016",
+      "variables": {
+        "text": "quindi cioè devo essere accreditata e poi si può fare lo"
+      },
+      "answer_type": "string",
+      "answer": "{quindi} {cioè} devo essere accreditata {e} {poi} si può fare lo"
+    },
+    {
+      "id": 237,
+      "doc": "0704000058",
+      "variables": {
+        "text": "la richiamo io non appena mi comunicano l' avvenuta ricertificazione e proviamo poi a effettua a effettuare accesso"
+      },
+      "answer_type": "string",
+      "answer": "la richiamo io {non appena} mi comunicano l' avvenuta ricertificazione {e} proviamo {poi} a effettua a effettuare accesso"
+    },
+    {
+      "id": 238,
+      "doc": "0704000028",
+      "variables": {
+        "text": "provi provi un pò a entrare così vediamo subito se è giusto o meno quindi <PER> spazio <PER> e poi la password solita allora"
+      },
+      "answer_type": "string",
+      "answer": "provi provi un pò a entrare {così} vediamo subito se è giusto o meno quindi <PER> spazio <PER> e poi la password solita allora"
+    },
+    {
+      "id": 239,
+      "doc": "0704000021",
+      "variables": {
+        "text": "ho un problema al computer praticamente lo accendo parte e poi dopo un po che che è acceso non arriva più nessun segnale al monitor il monitor funziona perfettamente bon rimane lì tutto buio ho provato a collegarlo a altri monitor ma"
+      },
+      "answer_type": "string",
+      "answer": "ho un problema al computer {praticamente} lo accendo parte {e} {poi} {dopo} un po che che è acceso non arriva più nessun segnale al monitor il monitor funziona perfettamente bon rimane lì tutto buio ho provato a collegarlo a altri monitor {ma}"
+    },
+    {
+      "id": 240,
+      "doc": "0704000016",
+      "variables": {
+        "text": "senta la referente e poi eventualmente una volta che riesce a accedere alla sezione dove può scaricare l' applicativo allora se ci fossero dei problemi lì ci sentiamo e vediamo di insomma di darle tutta l' assistenza del caso purtroppo la chiave di utera di utenza la password per l' accesso all' area riservata non ci occupiamo direttamente"
+      },
+      "answer_type": "string",
+      "answer": "senta la referente {e} {poi} eventualmente una volta che riesce a accedere alla sezione dove può scaricare l' applicativo allora {se} ci fossero dei problemi lì ci sentiamo {e} vediamo di insomma di darle tutta l' assistenza del caso purtroppo la chiave di utera di utenza la password per l' accesso all' area riservata non ci occupiamo direttamente"
+    },
+    {
+      "id": 241,
+      "doc": "0704000001",
+      "variables": {
+        "text": "allora mi mi può dire il suo cognome per cortesia allora <PER> <PER> <PER> <PER> okay in quale sede da quale sede ci chiama <LOC> <LOC> <LOC> <LOC> <LOC> <LOC> perfetto uno sì"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 242,
+      "doc": "0704000008",
+      "variables": {
+        "text": "ma in teoria io questa con connessione l' avrei"
+      },
+      "answer_type": "string",
+      "answer": "{ma} in teoria io questa con connessione l' avrei"
+    },
+    {
+      "id": 243,
+      "doc": "0704000043",
+      "variables": {
+        "text": "allora io chiamo chi di dovere e la faccio assegnare a lui"
+      },
+      "answer_type": "string",
+      "answer": "{allora} io chiamo chi di dovere {e} la faccio assegnare a lui"
+    },
+    {
+      "id": 244,
+      "doc": "0704000036",
+      "variables": {
+        "text": "la chiamata è fatta a mio nome perchè il computer comunque è registrato a mio nome come dipendente regionale"
+      },
+      "answer_type": "string",
+      "answer": "la chiamata è fatta a mio nome {perchè} il computer comunque è registrato a mio nome come dipendente regionale"
+    },
+    {
+      "id": 245,
+      "doc": "0704000003",
+      "variables": {
+        "text": "sì sì sì caso mai avessi bisogno di chiamarla per qualche motivo"
+      },
+      "answer_type": "string",
+      "answer": "sì sì sì {caso mai} avessi bisogno di chiamarla per qualche motivo"
+    },
+    {
+      "id": 246,
+      "doc": "0704000014",
+      "variables": {
+        "text": "nel senso che è la giornata dei PIN e PUC"
+      },
+      "answer_type": "string",
+      "answer": "{nel senso che} è la giornata dei PIN e PUC"
+    },
+    {
+      "id": 247,
+      "doc": "0704000022",
+      "variables": {
+        "text": "va bene lavorarci un attimino perchè pensavo"
+      },
+      "answer_type": "string",
+      "answer": "va bene lavorarci un attimino {perchè} pensavo"
+    },
+    {
+      "id": 248,
+      "doc": "0703000003",
+      "variables": {
+        "text": "allora solo un attimo che recupero i tuoi dati allora <PER> <PER> okay mi dai anche il censimento della tua macchina per"
+      },
+      "answer_type": "string",
+      "answer": "allora solo un attimo che recupero i tuoi dati allora <PER> <PER> okay mi dai {anche} il censimento della tua macchina per"
+    },
+    {
+      "id": 249,
+      "doc": "0704000016",
+      "variables": {
+        "text": "ma probabilmente è stato fatto ma una questioni di scarico"
+      },
+      "answer_type": "string",
+      "answer": "{ma} probabilmente è stato fatto {ma} una questioni di scarico"
+    },
+    {
+      "id": 250,
+      "doc": "0704000020",
+      "variables": {
+        "text": "però subito il numero corretto non ho inserito un altro"
+      },
+      "answer_type": "string",
+      "answer": "{però} subito il numero corretto non ho inserito un altro"
+    },
+    {
+      "id": 251,
+      "doc": "0704000022",
+      "variables": {
+        "text": "è un pò lento oggi se no mi lascia un' a è vedo"
+      },
+      "answer_type": "string",
+      "answer": "è un pò lento oggi {se} no mi lascia un' a è vedo"
+    },
+    {
+      "id": 252,
+      "doc": "0704000056",
+      "variables": {
+        "text": "allora provi"
+      },
+      "answer_type": "string",
+      "answer": "{allora} provi"
+    },
+    {
+      "id": 253,
+      "doc": "0704000039",
+      "variables": {
+        "text": "allora provi solo a fare questo poi al limite se"
+      },
+      "answer_type": "string",
+      "answer": "{allora} provi solo a fare questo {poi} al limite se"
+    },
+    {
+      "id": 254,
+      "doc": "0704000008",
+      "variables": {
+        "text": "sì allora provo a lanciare una stampa"
+      },
+      "answer_type": "string",
+      "answer": "sì {allora} provo a lanciare una stampa"
+    },
+    {
+      "id": 255,
+      "doc": "0704000054",
+      "variables": {
+        "text": "i sistemisti te ne impostano una e poi ti mettono l' obbligo di cambio al primo accesso così tu"
+      },
+      "answer_type": "string",
+      "answer": "i sistemisti te ne impostano una {e} {poi} ti mettono l' obbligo di cambio al primo accesso {così} tu"
+    },
+    {
+      "id": 256,
+      "doc": "0703000005",
+      "variables": {
+        "text": "allora questo qua è il messaggio che ho mandato adesso prova ad andare da <SW> dalla iconcina sotto io ce l' ho tutte due <SW> e <SW>"
+      },
+      "answer_type": "string",
+      "answer": "allora questo qua è il messaggio che ho mandato {adesso} prova ad andare da <SW> dalla iconcina sotto io ce l' ho tutte due <SW> e <SW>"
+    },
+    {
+      "id": 257,
+      "doc": "0704000014",
+      "variables": {
+        "text": "però guardi le dico io mi mi è capitato in passato di aprire delle chiamate di questo tipo nel"
+      },
+      "answer_type": "string",
+      "answer": "{però} guardi le dico io mi mi è capitato in passato di aprire delle chiamate di questo tipo nel"
+    },
+    {
+      "id": 258,
+      "doc": "0704000029",
+      "variables": {
+        "text": "avevate ma avevate già fatto una chiamata per"
+      },
+      "answer_type": "string",
+      "answer": "avevate {ma} avevate già fatto una chiamata per"
+    },
+    {
+      "id": 259,
+      "doc": "0703000005",
+      "variables": {
+        "text": "prova un attimo almeno provo aspetta a rimettertele e vedere se c' era quell' unica eccezione allora vediamo se reimpostandotele perché stranamente appunto c' era un' altra persona con lo stesso problema adesso te l' ho ripreso adesso funziona"
+      },
+      "answer_type": "string",
+      "answer": "prova un attimo almeno provo aspetta a rimettertele {e} vedere se c' era quell' unica eccezione allora vediamo se reimpostandotele {perché} stranamente appunto c' era un' altra persona con lo stesso problema adesso te l' ho ripreso adesso funziona"
+    },
+    {
+      "id": 260,
+      "doc": "0704000036",
+      "variables": {
+        "text": "è possibile se vuol stampare"
+      },
+      "answer_type": "string",
+      "answer": "è possibile {se} vuol stampare"
+    },
+    {
+      "id": 261,
+      "doc": "0703000003",
+      "variables": {
+        "text": "allora dovresti farmi la cortesia di spegnere la macchina"
+      },
+      "answer_type": "string",
+      "answer": "{allora} dovresti farmi la cortesia di spegnere la macchina"
+    },
+    {
+      "id": 262,
+      "doc": "0704000016",
+      "variables": {
+        "text": "penso di sì io ho provato a inserire <PER> e la password che mi è stata data ma proprio non accede a"
+      },
+      "answer_type": "string",
+      "answer": "penso di sì io ho provato a inserire <PER> e la password che mi è stata data {ma} proprio non accede a"
+    }
+  ]
+}

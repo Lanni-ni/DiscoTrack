@@ -1,0 +1,6493 @@
+{
+  "task": "entity_most",
+  "lang": "polish",
+  "example_prompt": "Which entity is mentioned the most times in the text? Ignore speaker labels (e.g., [Speaker: Kendra], [Speaker: Sabrina]).They are not entities and should not be considered as the answer. Answer with exactly the entity that appears verbatim in the text. Do not return pronouns",
+  "instances": [
+    {
+      "id": 1,
+      "doc": "input_data/PCC-1.5-MMAX/short/3095_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "panie Lituńczak",
+        "Lituńczak"
+      ]
+    },
+    {
+      "id": 2,
+      "doc": "input_data/PCC-1.5-MMAX/short/251_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Dziecko",
+        "dziecka"
+      ]
+    },
+    {
+      "id": 3,
+      "doc": "input_data/PCC-1.5-MMAX/short/2484_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Właściciel _",
+        "Łukasz Sitarski , który remontowane mieszkanie _ chciał przeznaczyć na przedszkole",
+        "pan Łukasz",
+        "własną",
+        "Czytelnika"
+      ]
+    },
+    {
+      "id": 4,
+      "doc": "input_data/PCC-1.5-MMAX/short/2140_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "zdecydowana większość z tych osób"
+      ]
+    },
+    {
+      "id": 5,
+      "doc": "input_data/PCC-1.5-MMAX/short/88_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Pani Słaba",
+        "sama"
+      ]
+    },
+    {
+      "id": 6,
+      "doc": "input_data/PCC-1.5-MMAX/short/803_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Łukaszenki",
+        "Aleksandrem",
+        "boi się",
+        "nie będzie miał",
+        "Łukaszenka"
+      ]
+    },
+    {
+      "id": 7,
+      "doc": "input_data/PCC-1.5-MMAX/short/2422_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "wicepremiera , który w końcu wybuchnął",
+        "Jerzy Hausner",
+        "wicepremier Hausner"
+      ]
+    },
+    {
+      "id": 8,
+      "doc": "input_data/PCC-1.5-MMAX/short/357_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "rodziny zrekonstruowanej",
+        "rodzinie zrekonstruowanej",
+        "rodziny"
+      ]
+    },
+    {
+      "id": 9,
+      "doc": "input_data/PCC-1.5-MMAX/short/198_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "mnie",
+        "mi"
+      ]
+    },
+    {
+      "id": 10,
+      "doc": "input_data/PCC-1.5-MMAX/short/3633_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "wsi i przysiółków"
+      ]
+    },
+    {
+      "id": 11,
+      "doc": "input_data/PCC-1.5-MMAX/short/573_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "omawianych dedykacji",
+        "tych wypowiedzi"
+      ]
+    },
+    {
+      "id": 12,
+      "doc": "input_data/PCC-1.5-MMAX/short/3337_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Mugabe",
+        "Prezydent",
+        "Prezydent , który zarzekał się , że nie ma nic wspólnego z atakami na farmy"
+      ]
+    },
+    {
+      "id": 13,
+      "doc": "input_data/PCC-1.5-MMAX/short/2118_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Ja"
+      ]
+    },
+    {
+      "id": 14,
+      "doc": "input_data/PCC-1.5-MMAX/short/3448_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Firma Inter - Groclin z Grodziska Wlkp . produkująca poszycia foteli samochodowych m . in . dla Volvo , Audi i Renault",
+        "zakładzie",
+        "przedsiębiorstwie",
+        "firma",
+        "własny",
+        "Inter - Groclin"
+      ]
+    },
+    {
+      "id": 15,
+      "doc": "input_data/PCC-1.5-MMAX/short/2419_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Ochojnik sosnowy"
+      ]
+    },
+    {
+      "id": 16,
+      "doc": "input_data/PCC-1.5-MMAX/short/603_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "czynszu",
+        "czynsz"
+      ]
+    },
+    {
+      "id": 17,
+      "doc": "input_data/PCC-1.5-MMAX/short/25_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Edward Klejndinst , selekcjoner kadry",
+        "szkoleniowiec",
+        "Trener Klejndinst"
+      ]
+    },
+    {
+      "id": 18,
+      "doc": "input_data/PCC-1.5-MMAX/short/2491_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Dr Ven . Tenzin Jangchub"
+      ]
+    },
+    {
+      "id": 19,
+      "doc": "input_data/PCC-1.5-MMAX/short/2522_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Andrzej , mieszkaniec jednej z podkieleckich miejscowości"
+      ]
+    },
+    {
+      "id": 20,
+      "doc": "input_data/PCC-1.5-MMAX/short/579_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Zgierzu"
+      ]
+    },
+    {
+      "id": 21,
+      "doc": "input_data/PCC-1.5-MMAX/short/3367_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "lekarze",
+        "lekarzom",
+        "lekarzami"
+      ]
+    },
+    {
+      "id": 22,
+      "doc": "input_data/PCC-1.5-MMAX/short/2816_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "senacka Komisja do Spraw Wywiadu"
+      ]
+    },
+    {
+      "id": 23,
+      "doc": "input_data/PCC-1.5-MMAX/short/3208_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp1",
+        "pan",
+        "pański",
+        "pana"
+      ]
+    },
+    {
+      "id": 24,
+      "doc": "input_data/PCC-1.5-MMAX/short/1802_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "pisarz",
+        "Nowakowski"
+      ]
+    },
+    {
+      "id": 25,
+      "doc": "input_data/PCC-1.5-MMAX/short/3565_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "16-bitową magistralę danych",
+        "magistrali danych",
+        "16-bitowej magistrali danych",
+        "magistrali",
+        "szyny danych"
+      ]
+    },
+    {
+      "id": 26,
+      "doc": "input_data/PCC-1.5-MMAX/short/2875_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "my",
+        "nas"
+      ]
+    },
+    {
+      "id": 27,
+      "doc": "input_data/PCC-1.5-MMAX/short/3506_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "ogólnie przyjęte zasady dawania napiwków",
+        "• 10 proc . za mierną obsługę , • 15 proc . za obsługę średniej jakości , • 18-20 proc . za dobrą obsługę , • ponad 20 proc . za obsługę nadzwyczajną",
+        "tej niepisanej umowy"
+      ]
+    },
+    {
+      "id": 28,
+      "doc": "input_data/PCC-1.5-MMAX/short/3159_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp0",
+        "by m",
+        "chciał em",
+        "chuju",
+        "mógł by ś",
+        "widział em"
+      ]
+    },
+    {
+      "id": 29,
+      "doc": "input_data/PCC-1.5-MMAX/short/3469_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "do dziś tam usytuowanego dworca",
+        "dworzec",
+        "dworca",
+        "dworca autobusowego"
+      ]
+    },
+    {
+      "id": 30,
+      "doc": "input_data/PCC-1.5-MMAX/short/3529_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Wartak",
+        "mi , prostemu górnikowi"
+      ]
+    },
+    {
+      "id": 31,
+      "doc": "input_data/PCC-1.5-MMAX/short/2502_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "euro"
+      ]
+    },
+    {
+      "id": 32,
+      "doc": "input_data/PCC-1.5-MMAX/short/2664_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Obowiązujący dziś kodeks karny wykonawczy",
+        "nowego kodeksu karnego wykonawczego",
+        "kodeksie"
+      ]
+    },
+    {
+      "id": 33,
+      "doc": "input_data/PCC-1.5-MMAX/short/3484_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "miejskich spółkach",
+        "spółkach",
+        "spółkami",
+        "firm komunalnych"
+      ]
+    },
+    {
+      "id": 34,
+      "doc": "input_data/PCC-1.5-MMAX/short/3004_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "dziecka",
+        "młody",
+        "Damiana",
+        "Damian"
+      ]
+    },
+    {
+      "id": 35,
+      "doc": "input_data/PCC-1.5-MMAX/short/62_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Schronisko PTTK na Przełęczy Przegibek",
+        "schronisko turystyczne położone w południowo - zachodniej części Beskidu Żywieckiego , na wysokości 1000 m n . p . m .",
+        "budynku",
+        "schronisko",
+        "schroniskiem",
+        "schroniska"
+      ]
+    },
+    {
+      "id": 36,
+      "doc": "input_data/PCC-1.5-MMAX/short/268_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "AGATA",
+        "wezwę",
+        "Julio",
+        "Agatę"
+      ]
+    },
+    {
+      "id": 37,
+      "doc": "input_data/PCC-1.5-MMAX/short/327_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "córka znanego pisarza , która w dorosłym wieku próbuje odzyskać stracone dzieciństwo",
+        "dziecko",
+        "\" garderoby \"",
+        "autorka",
+        "córka"
+      ]
+    },
+    {
+      "id": 38,
+      "doc": "input_data/PCC-1.5-MMAX/short/301_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "pani Danusiu",
+        "pan Danusiu"
+      ]
+    },
+    {
+      "id": 39,
+      "doc": "input_data/PCC-1.5-MMAX/short/969_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "świadczeń zdrowotnych",
+        "świadczeń"
+      ]
+    },
+    {
+      "id": 40,
+      "doc": "input_data/PCC-1.5-MMAX/short/504_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp3",
+        "mama"
+      ]
+    },
+    {
+      "id": 41,
+      "doc": "input_data/PCC-1.5-MMAX/short/996_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "mnie",
+        "mi"
+      ]
+    },
+    {
+      "id": 42,
+      "doc": "input_data/PCC-1.5-MMAX/short/3512_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "wspólny"
+      ]
+    },
+    {
+      "id": 43,
+      "doc": "input_data/PCC-1.5-MMAX/short/2968_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Szerucki",
+        "ty skurwysynie"
+      ]
+    },
+    {
+      "id": 44,
+      "doc": "input_data/PCC-1.5-MMAX/short/3307_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Andrzej Spałek , inspektor nadzoru wysłany przez dyrekcję katowickiego PKP",
+        "inspektor",
+        "inspektora",
+        "inspektor Spałek"
+      ]
+    },
+    {
+      "id": 45,
+      "doc": "input_data/PCC-1.5-MMAX/short/1808_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "niezależne pisma lokalne",
+        "pisma te",
+        "niezależne gazety lokalne",
+        "prasa lokalna",
+        "samodzielnych pism"
+      ]
+    },
+    {
+      "id": 46,
+      "doc": "input_data/PCC-1.5-MMAX/short/3286_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "FOZZ",
+        "Funduszu Obsługi Zadłużenia Zagranicznego"
+      ]
+    },
+    {
+      "id": 47,
+      "doc": "input_data/PCC-1.5-MMAX/short/3417_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Państwa Choczyńskich z Żywca"
+      ]
+    },
+    {
+      "id": 48,
+      "doc": "input_data/PCC-1.5-MMAX/short/409_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "yay",
+        "mam",
+        "byłes",
+        "czułes"
+      ]
+    },
+    {
+      "id": 49,
+      "doc": "input_data/PCC-1.5-MMAX/short/3388_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Druga premiera"
+      ]
+    },
+    {
+      "id": 50,
+      "doc": "input_data/PCC-1.5-MMAX/short/478_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Matka Gwiazdy",
+        "mama",
+        "nasiłowałam"
+      ]
+    },
+    {
+      "id": 51,
+      "doc": "input_data/PCC-1.5-MMAX/short/1361_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Pijanych"
+      ]
+    },
+    {
+      "id": 52,
+      "doc": "input_data/PCC-1.5-MMAX/short/2933_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "mi",
+        "Mnie"
+      ]
+    },
+    {
+      "id": 53,
+      "doc": "input_data/PCC-1.5-MMAX/short/2511_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "związkowcy"
+      ]
+    },
+    {
+      "id": 54,
+      "doc": "input_data/PCC-1.5-MMAX/short/3310_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "przeciwstawioną Telimenie Zosię z \" Pana Tadeusza \"",
+        "nasza Zosia"
+      ]
+    },
+    {
+      "id": 55,
+      "doc": "input_data/PCC-1.5-MMAX/short/2598_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Właścicielka sklepu z akcesoriami ślubnymi"
+      ]
+    },
+    {
+      "id": 56,
+      "doc": "input_data/PCC-1.5-MMAX/short/0_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Zdzisław Maj , prezes krakowskiego Bractwa Kurkowego , panujący Król Kurkowy",
+        "Zdzisław Maj"
+      ]
+    },
+    {
+      "id": 57,
+      "doc": "input_data/PCC-1.5-MMAX/short/395_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Bazyliki Świętego Piotra",
+        "Bazyliki"
+      ]
+    },
+    {
+      "id": 58,
+      "doc": "input_data/PCC-1.5-MMAX/short/3343_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "detoks",
+        "detoksie",
+        "detoksy",
+        "detoksach"
+      ]
+    },
+    {
+      "id": 59,
+      "doc": "input_data/PCC-1.5-MMAX/short/989_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Jarzyna , absolwent wydziału reżyserii krakowskiej PWST",
+        "Jarzyna , utalentowany uczeń Lupy",
+        "Grzegorza Jarzyny"
+      ]
+    },
+    {
+      "id": 60,
+      "doc": "input_data/PCC-1.5-MMAX/short/2664_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "człowieka , który już kiedyś odpowiadał za zgwałcenie ze szczególnym okrucieństwem",
+        "Sprawca",
+        "Gwałciciel"
+      ]
+    },
+    {
+      "id": 61,
+      "doc": "input_data/PCC-1.5-MMAX/short/267_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "TERESA",
+        "Teresie",
+        "Kochana",
+        "Teresy"
+      ]
+    },
+    {
+      "id": 62,
+      "doc": "input_data/PCC-1.5-MMAX/short/2783_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Sweet girl",
+        "sweet",
+        "mysle",
+        "mine"
+      ]
+    },
+    {
+      "id": 63,
+      "doc": "input_data/PCC-1.5-MMAX/short/139_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Centrum"
+      ]
+    },
+    {
+      "id": 64,
+      "doc": "input_data/PCC-1.5-MMAX/short/644_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "W _ Miciński",
+        "pan"
+      ]
+    },
+    {
+      "id": 65,
+      "doc": "input_data/PCC-1.5-MMAX/short/2787_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "KARP",
+        "karpia",
+        "karpik"
+      ]
+    },
+    {
+      "id": 66,
+      "doc": "input_data/PCC-1.5-MMAX/short/474_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "STOMIL",
+        "własnego ojca",
+        "Ojciec",
+        "ojca",
+        "Stomilu"
+      ]
+    },
+    {
+      "id": 67,
+      "doc": "input_data/PCC-1.5-MMAX/short/469_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "języka , który zdaniem Niemca umożliwia projektowaną przez niego interakcję między podmiotami",
+        "tym języku",
+        "język",
+        "języka"
+      ]
+    },
+    {
+      "id": 68,
+      "doc": "input_data/PCC-1.5-MMAX/short/2861_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Nie wypada zestarzeć się , zanim nie nabierze się rozumu  .",
+        "tym jednym zdaniu",
+        "Te słowa Szekspira",
+        "słowa zrozumiałe"
+      ]
+    },
+    {
+      "id": 69,
+      "doc": "input_data/PCC-1.5-MMAX/short/2778_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "kobieta",
+        "bala"
+      ]
+    },
+    {
+      "id": 70,
+      "doc": "input_data/PCC-1.5-MMAX/short/3421_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Mikołaj Dzierzgowski , herbu Jastrzębiec",
+        "duchownego",
+        "Dzierzgowskiego",
+        "Mikołaj",
+        "biskup Dzierzgowski , bliski współpracownik zmarłego"
+      ]
+    },
+    {
+      "id": 71,
+      "doc": "input_data/PCC-1.5-MMAX/short/3050_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Skorom",
+        "Wacławie",
+        "Waszmość",
+        "bądź"
+      ]
+    },
+    {
+      "id": 72,
+      "doc": "input_data/PCC-1.5-MMAX/short/2779_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "mlodape"
+      ]
+    },
+    {
+      "id": 73,
+      "doc": "input_data/PCC-1.5-MMAX/long/199801310037_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Sądu Najwyższego",
+        "Sąd Najwyższy",
+        "SN",
+        "tutaj"
+      ]
+    },
+    {
+      "id": 74,
+      "doc": "input_data/PCC-1.5-MMAX/short/502_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "zmarłego",
+        "zmarła osoba",
+        "osoby zmarłej",
+        "człowieka który już sam nie stanie w swojej obronie"
+      ]
+    },
+    {
+      "id": 75,
+      "doc": "input_data/PCC-1.5-MMAX/short/527_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Funduszu św . Jerzego",
+        "funduszowi",
+        "spółki",
+        "fundusz",
+        "funduszu"
+      ]
+    },
+    {
+      "id": 76,
+      "doc": "input_data/PCC-1.5-MMAX/short/813_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Picia",
+        "Piotr Lato",
+        "mozesz"
+      ]
+    },
+    {
+      "id": 77,
+      "doc": "input_data/PCC-1.5-MMAX/short/3037_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Pan"
+      ]
+    },
+    {
+      "id": 78,
+      "doc": "input_data/PCC-1.5-MMAX/short/2728_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "pluskwy GPS ( Data Logger",
+        "Urządzenia te",
+        "Data Loggerów",
+        "Data Loggery",
+        "pluskwy GPS"
+      ]
+    },
+    {
+      "id": 79,
+      "doc": "input_data/PCC-1.5-MMAX/short/2729_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Międzynarodowy Dom Spotkań Młodzieży",
+        "Placówka przy ulicy Legionów",
+        "naszym Domu",
+        "MDSM",
+        "\" kolejny obiekt związany z martyrologią \"",
+        "Dom"
+      ]
+    },
+    {
+      "id": 80,
+      "doc": "input_data/PCC-1.5-MMAX/short/3376_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "mieszkańcy pewnych wysp na Pacyfiku"
+      ]
+    },
+    {
+      "id": 81,
+      "doc": "input_data/PCC-1.5-MMAX/short/505_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Jamrozy",
+        "pan",
+        "prezesa PZU"
+      ]
+    },
+    {
+      "id": 82,
+      "doc": "input_data/PCC-1.5-MMAX/short/3066_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "gruntu",
+        "ten grunt"
+      ]
+    },
+    {
+      "id": 83,
+      "doc": "input_data/PCC-1.5-MMAX/short/2900_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "psy"
+      ]
+    },
+    {
+      "id": 84,
+      "doc": "input_data/PCC-1.5-MMAX/short/3456_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "pana",
+        "wolę",
+        "pan"
+      ]
+    },
+    {
+      "id": 85,
+      "doc": "input_data/PCC-1.5-MMAX/short/2941_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "małoletnią Karolinę",
+        "Oleńki",
+        "dziecka , które przyjdzie na świat",
+        "Oleńka",
+        "Karolina Maria",
+        "dziecka",
+        "małoletniej",
+        "Karolina",
+        "małej"
+      ]
+    },
+    {
+      "id": 86,
+      "doc": "input_data/PCC-1.5-MMAX/short/3420_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "nam"
+      ]
+    },
+    {
+      "id": 87,
+      "doc": "input_data/PCC-1.5-MMAX/short/541_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "SenatorStefanSniezko"
+      ]
+    },
+    {
+      "id": 88,
+      "doc": "input_data/PCC-1.5-MMAX/short/2656_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "nas"
+      ]
+    },
+    {
+      "id": 89,
+      "doc": "input_data/PCC-1.5-MMAX/short/3422_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "swemu dawnemu koledze z zespołu Paolo Bonolisowi",
+        "najpopularniejszym showmanem",
+        "Bonolisowi",
+        "Bonolisa"
+      ]
+    },
+    {
+      "id": 90,
+      "doc": "input_data/PCC-1.5-MMAX/short/2981_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "MARIA",
+        "pani"
+      ]
+    },
+    {
+      "id": 91,
+      "doc": "input_data/PCC-1.5-MMAX/short/537_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "SenatorPiotrAndrzejewski",
+        "pan senator",
+        "Panie Senatorze"
+      ]
+    },
+    {
+      "id": 92,
+      "doc": "input_data/PCC-1.5-MMAX/short/804_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Sturmgewehr",
+        "karabin szturmowy zasilany amunicją pośrednią 7 , 92x33 mm Kurz ( Kurzpatrone )",
+        "broni"
+      ]
+    },
+    {
+      "id": 93,
+      "doc": "input_data/PCC-1.5-MMAX/short/2962_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "mnie"
+      ]
+    },
+    {
+      "id": 94,
+      "doc": "input_data/PCC-1.5-MMAX/short/3334_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "nam"
+      ]
+    },
+    {
+      "id": 95,
+      "doc": "input_data/PCC-1.5-MMAX/short/666_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "komisji",
+        "komisja egzaminacyjna"
+      ]
+    },
+    {
+      "id": 96,
+      "doc": "input_data/PCC-1.5-MMAX/short/2937_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Morawica",
+        "Panie"
+      ]
+    },
+    {
+      "id": 97,
+      "doc": "input_data/PCC-1.5-MMAX/short/2437_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Luchino Visconti di Modrone",
+        "Visconti",
+        "Viscontiego",
+        "młody Luchino",
+        "Viscontim",
+        "artysty"
+      ]
+    },
+    {
+      "id": 98,
+      "doc": "input_data/PCC-1.5-MMAX/short/581_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "siatkarzy",
+        "Siatkarze",
+        "polskiej reprezentacji"
+      ]
+    },
+    {
+      "id": 99,
+      "doc": "input_data/PCC-1.5-MMAX/short/2567_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "wójt Juszczak",
+        "wójt Ludwik Juszczak"
+      ]
+    },
+    {
+      "id": 100,
+      "doc": "input_data/PCC-1.5-MMAX/short/3479_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "podczerwieni",
+        "promieniowania podczerwonego"
+      ]
+    },
+    {
+      "id": 101,
+      "doc": "input_data/PCC-1.5-MMAX/short/697_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Halina Dąbrowska , która podpisała się pod petycją do radnych miejskich",
+        "kobieta",
+        "Halina Dąbrowska"
+      ]
+    },
+    {
+      "id": 102,
+      "doc": "input_data/PCC-1.5-MMAX/short/3342_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "antygen",
+        "ten antygen",
+        "antygenu"
+      ]
+    },
+    {
+      "id": 103,
+      "doc": "input_data/PCC-1.5-MMAX/short/3058_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Kuba",
+        "współczuł by",
+        "pomyślał by",
+        "Uścisnął by",
+        "zamknął by",
+        "Kuby",
+        "ofiara tamtej katastrofy",
+        "Ocalały pielgrzym",
+        "Kubę"
+      ]
+    },
+    {
+      "id": 104,
+      "doc": "input_data/PCC-1.5-MMAX/short/2513_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "piłkę",
+        "piłka"
+      ]
+    },
+    {
+      "id": 105,
+      "doc": "input_data/PCC-1.5-MMAX/short/731_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "kupujący"
+      ]
+    },
+    {
+      "id": 106,
+      "doc": "input_data/PCC-1.5-MMAX/short/3460_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Radka",
+        "drugi"
+      ]
+    },
+    {
+      "id": 107,
+      "doc": "input_data/PCC-1.5-MMAX/short/2370_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "stylu standard",
+        "stylu standardowym",
+        "standardzie",
+        "tym samym stylu"
+      ]
+    },
+    {
+      "id": 108,
+      "doc": "input_data/PCC-1.5-MMAX/short/2963_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Puzon",
+        "Torba",
+        "Puzona"
+      ]
+    },
+    {
+      "id": 109,
+      "doc": "input_data/PCC-1.5-MMAX/short/733_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "tymczasowo aresztowanego",
+        "tymczasowo aresztowany",
+        "tymczasowo aresztowanemu"
+      ]
+    },
+    {
+      "id": 110,
+      "doc": "input_data/PCC-1.5-MMAX/short/490_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp0"
+      ]
+    },
+    {
+      "id": 111,
+      "doc": "input_data/PCC-1.5-MMAX/short/702_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "CCC Aquapark Polkowice",
+        "Aquapark",
+        "polkowiczanki",
+        "Aquaparku"
+      ]
+    },
+    {
+      "id": 112,
+      "doc": "input_data/PCC-1.5-MMAX/short/3294_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "prezydenta - elekta Baracka Obamy",
+        "Barack",
+        "Obamy"
+      ]
+    },
+    {
+      "id": 113,
+      "doc": "input_data/PCC-1.5-MMAX/short/182_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "książka WWag [ nera ]",
+        "ta książka",
+        "tę książkę"
+      ]
+    },
+    {
+      "id": 114,
+      "doc": "input_data/PCC-1.5-MMAX/short/3374_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "MEN"
+      ]
+    },
+    {
+      "id": 115,
+      "doc": "input_data/PCC-1.5-MMAX/short/429_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "mężczyzną",
+        "mężczyznę",
+        "mężczyzna",
+        "MĘŻCZYŹNIE"
+      ]
+    },
+    {
+      "id": 116,
+      "doc": "input_data/PCC-1.5-MMAX/short/3111_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Harry",
+        "Harry ’ emu",
+        "zbiegły więzień"
+      ]
+    },
+    {
+      "id": 117,
+      "doc": "input_data/PCC-1.5-MMAX/short/3575_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "danych",
+        "danych GIS",
+        "dane",
+        "wprowadzanych danych"
+      ]
+    },
+    {
+      "id": 118,
+      "doc": "input_data/PCC-1.5-MMAX/short/389_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "terytorium Rzeczypospolitej Polskiej"
+      ]
+    },
+    {
+      "id": 119,
+      "doc": "input_data/PCC-1.5-MMAX/short/1801_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "firmy"
+      ]
+    },
+    {
+      "id": 120,
+      "doc": "input_data/PCC-1.5-MMAX/short/398_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "funduszu inwestycyjnego",
+        "funduszu",
+        "fundusz inwestycyjny",
+        "fundusz"
+      ]
+    },
+    {
+      "id": 121,
+      "doc": "input_data/PCC-1.5-MMAX/short/3545_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "PoselRyszardStanibula"
+      ]
+    },
+    {
+      "id": 122,
+      "doc": "input_data/PCC-1.5-MMAX/short/2965_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Pani Sabina",
+        "mamo",
+        "pani Sabiny"
+      ]
+    },
+    {
+      "id": 123,
+      "doc": "input_data/PCC-1.5-MMAX/short/538_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Senator Zbigniew Kulak",
+        "SenatorZbigniewKulak",
+        "moją osobę",
+        "mojej osoby"
+      ]
+    },
+    {
+      "id": 124,
+      "doc": "input_data/PCC-1.5-MMAX/short/3230_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "głosowania",
+        "referendum"
+      ]
+    },
+    {
+      "id": 125,
+      "doc": "input_data/PCC-1.5-MMAX/short/2543_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "analitycy Expandera",
+        "analitycy"
+      ]
+    },
+    {
+      "id": 126,
+      "doc": "input_data/PCC-1.5-MMAX/short/3633_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "naturalny krajobraz",
+        "Rodzimy krajobraz"
+      ]
+    },
+    {
+      "id": 127,
+      "doc": "input_data/PCC-1.5-MMAX/short/322_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Jadźki",
+        "Jadźka",
+        "Jadźce"
+      ]
+    },
+    {
+      "id": 128,
+      "doc": "input_data/PCC-1.5-MMAX/short/224_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Elblągu",
+        "mieście"
+      ]
+    },
+    {
+      "id": 129,
+      "doc": "input_data/PCC-1.5-MMAX/short/3399_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Ameryka",
+        "Ameryce",
+        "USA",
+        "dominująca wojskowo Ameryka"
+      ]
+    },
+    {
+      "id": 130,
+      "doc": "input_data/PCC-1.5-MMAX/short/325_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Tanich biletów",
+        "tanie bilety"
+      ]
+    },
+    {
+      "id": 131,
+      "doc": "input_data/PCC-1.5-MMAX/short/3013_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Robert",
+        "Roberta"
+      ]
+    },
+    {
+      "id": 132,
+      "doc": "input_data/PCC-1.5-MMAX/short/94_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Juan"
+      ]
+    },
+    {
+      "id": 133,
+      "doc": "input_data/PCC-1.5-MMAX/short/2612_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "ciekawą ekspozycję pn . „ Grodno i Wołkowysk w II Rzeczypospolitej ”",
+        "wystawy",
+        "Elbląska edycja wystawy",
+        "Wystawa",
+        "Podzielona na dwie części ekspozycja",
+        "wystawie",
+        "tutaj"
+      ]
+    },
+    {
+      "id": 134,
+      "doc": "input_data/PCC-1.5-MMAX/short/691_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "tytułu",
+        "pismo"
+      ]
+    },
+    {
+      "id": 135,
+      "doc": "input_data/PCC-1.5-MMAX/short/2532_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "polskich dzieci ze Wschodu",
+        "takich dzieci",
+        "3 tys . małych Polaków",
+        "naszej pomocy",
+        "3 tys . dzieci z ubogich rodzin , których samodzielnie nie stać nie tylko na kolonie w naszym kraju , ale na wakacje w ogóle"
+      ]
+    },
+    {
+      "id": 136,
+      "doc": "input_data/PCC-1.5-MMAX/short/2739_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "samorządowych instytucjach kultury , których wykaz określi , w drodze rozporządzenia , minister właściwy do spraw kultury i ochrony dziedzictwa narodowego , biorąc pod uwagę ich znaczenie dla kultury narodowej",
+        "tej instytucji kultury",
+        "instytucji kultury",
+        "tej instytucji",
+        "instytucją"
+      ]
+    },
+    {
+      "id": 137,
+      "doc": "input_data/PCC-1.5-MMAX/short/3328_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Dr Aleksander Proksa",
+        "Prezes RCL"
+      ]
+    },
+    {
+      "id": 138,
+      "doc": "input_data/PCC-1.5-MMAX/short/2966_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Dzidzia",
+        "Gdzieś"
+      ]
+    },
+    {
+      "id": 139,
+      "doc": "input_data/PCC-1.5-MMAX/short/2119_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Janusz Czerwiński , prezes firmy Astra Tech",
+        "Sam"
+      ]
+    },
+    {
+      "id": 140,
+      "doc": "input_data/PCC-1.5-MMAX/short/3599_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Zastanów się"
+      ]
+    },
+    {
+      "id": 141,
+      "doc": "input_data/PCC-1.5-MMAX/short/2979_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Wyweron",
+        "bratu"
+      ]
+    },
+    {
+      "id": 142,
+      "doc": "input_data/PCC-1.5-MMAX/short/2441_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "państwa"
+      ]
+    },
+    {
+      "id": 143,
+      "doc": "input_data/PCC-1.5-MMAX/short/57_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Duncan MacDougall"
+      ]
+    },
+    {
+      "id": 144,
+      "doc": "input_data/PCC-1.5-MMAX/short/3432_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "public relations",
+        "branży",
+        "PR",
+        "branży PR"
+      ]
+    },
+    {
+      "id": 145,
+      "doc": "input_data/PCC-1.5-MMAX/short/3235_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "końcu maja",
+        "koniec maja"
+      ]
+    },
+    {
+      "id": 146,
+      "doc": "input_data/PCC-1.5-MMAX/short/1357_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Autorowi"
+      ]
+    },
+    {
+      "id": 147,
+      "doc": "input_data/PCC-1.5-MMAX/short/586_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Sundaya Ibrahima",
+        "Sundaya"
+      ]
+    },
+    {
+      "id": 148,
+      "doc": "input_data/PCC-1.5-MMAX/short/1803_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "gęsi",
+        "gąsek",
+        "gąski"
+      ]
+    },
+    {
+      "id": 149,
+      "doc": "input_data/PCC-1.5-MMAX/short/2899_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "ja",
+        "cię"
+      ]
+    },
+    {
+      "id": 150,
+      "doc": "input_data/PCC-1.5-MMAX/short/3633_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "krajobrazu"
+      ]
+    },
+    {
+      "id": 151,
+      "doc": "input_data/PCC-1.5-MMAX/short/2730_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "kundelków",
+        "Kundle"
+      ]
+    },
+    {
+      "id": 152,
+      "doc": "input_data/PCC-1.5-MMAX/short/2428_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "mieszkań",
+        "te mieszkania"
+      ]
+    },
+    {
+      "id": 153,
+      "doc": "input_data/PCC-1.5-MMAX/short/1806_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Bieli",
+        "Profesor",
+        "Biela",
+        "posła"
+      ]
+    },
+    {
+      "id": 154,
+      "doc": "input_data/PCC-1.5-MMAX/short/3046_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Tato"
+      ]
+    },
+    {
+      "id": 155,
+      "doc": "input_data/PCC-1.5-MMAX/short/2680_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "biżuteria nazębna",
+        "tych ozdób"
+      ]
+    },
+    {
+      "id": 156,
+      "doc": "input_data/PCC-1.5-MMAX/short/241_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sprzeniewieżyłaś",
+        "Edervenne"
+      ]
+    },
+    {
+      "id": 157,
+      "doc": "input_data/PCC-1.5-MMAX/short/179_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "pamięci"
+      ]
+    },
+    {
+      "id": 158,
+      "doc": "input_data/PCC-1.5-MMAX/short/3365_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "wydawnictwem Amber",
+        "Amberem"
+      ]
+    },
+    {
+      "id": 159,
+      "doc": "input_data/PCC-1.5-MMAX/short/441_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "GOŚKA",
+        "misiu"
+      ]
+    },
+    {
+      "id": 160,
+      "doc": "input_data/PCC-1.5-MMAX/short/2386_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Krzysztof Przytuła",
+        "Przytuła"
+      ]
+    },
+    {
+      "id": 161,
+      "doc": "input_data/PCC-1.5-MMAX/short/509_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "my",
+        "nas",
+        "nam"
+      ]
+    },
+    {
+      "id": 162,
+      "doc": "input_data/PCC-1.5-MMAX/short/3206_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp3",
+        "pan poseł Piechociński"
+      ]
+    },
+    {
+      "id": 163,
+      "doc": "input_data/PCC-1.5-MMAX/short/3078_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "jej",
+        "nią",
+        "ona",
+        "niej"
+      ]
+    },
+    {
+      "id": 164,
+      "doc": "input_data/PCC-1.5-MMAX/short/3395_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "lekarstw",
+        "leki",
+        "stosowanych lekarstw",
+        "lekarstwa"
+      ]
+    },
+    {
+      "id": 165,
+      "doc": "input_data/PCC-1.5-MMAX/short/3615_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "nas",
+        "nam"
+      ]
+    },
+    {
+      "id": 166,
+      "doc": "input_data/PCC-1.5-MMAX/short/2646_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "starszy pan",
+        "pan",
+        "mężczyzna"
+      ]
+    },
+    {
+      "id": 167,
+      "doc": "input_data/PCC-1.5-MMAX/short/3034_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Pan Cedzyna",
+        "gościa",
+        "pan Cedzyna z Kozikowa",
+        "pana",
+        "pan dobrodziej",
+        "pan Dominik"
+      ]
+    },
+    {
+      "id": 168,
+      "doc": "input_data/PCC-1.5-MMAX/short/3081_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "zaskoczony własną reakcją Anglik",
+        "własną",
+        "Anglik"
+      ]
+    },
+    {
+      "id": 169,
+      "doc": "input_data/PCC-1.5-MMAX/short/3475_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "państwo",
+        "państwa"
+      ]
+    },
+    {
+      "id": 170,
+      "doc": "input_data/PCC-1.5-MMAX/short/970_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "programowi „ Edukacja bez Granic ”",
+        "Program „ Edukacja bez Granic ”",
+        "Przedsięwzięcie",
+        "programie",
+        "akcji",
+        "program",
+        "programu"
+      ]
+    },
+    {
+      "id": 171,
+      "doc": "input_data/PCC-1.5-MMAX/short/667_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Komisja kontrolna powołana przez Radę Gminy w Brzeźnicy",
+        "komisja rewizyjna rady",
+        "komisji rewizyjnej",
+        "komisji",
+        "komisja"
+      ]
+    },
+    {
+      "id": 172,
+      "doc": "input_data/PCC-1.5-MMAX/short/2657_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Czytelnicy",
+        "Czytelników",
+        "klientów"
+      ]
+    },
+    {
+      "id": 173,
+      "doc": "input_data/PCC-1.5-MMAX/short/3518_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "ograniczają się",
+        "amerykańskich liderów antynarkotykowej krucjaty optujących za karną represją i strategią zakazów",
+        "nasi rygoryści"
+      ]
+    },
+    {
+      "id": 174,
+      "doc": "input_data/PCC-1.5-MMAX/short/289_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "adaptator",
+        "adaptatora",
+        "broni"
+      ]
+    },
+    {
+      "id": 175,
+      "doc": "input_data/PCC-1.5-MMAX/short/2738_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Twój Ojciec"
+      ]
+    },
+    {
+      "id": 176,
+      "doc": "input_data/PCC-1.5-MMAX/short/3198_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp1",
+        "Ola"
+      ]
+    },
+    {
+      "id": 177,
+      "doc": "input_data/PCC-1.5-MMAX/short/3455_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "nasza kapitan , Kinga Baran",
+        "„ Baletce ”",
+        "K . Baran",
+        "Kingą",
+        "Kingi Baran"
+      ]
+    },
+    {
+      "id": 178,
+      "doc": "input_data/PCC-1.5-MMAX/short/965_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "projektu „ Naucz mnie , a zacznę samodzielnie pracować – aktywizacja zawodowo – społeczna osób niepełnosprawnych intelektualnie ”",
+        "Projekt",
+        "projektu"
+      ]
+    },
+    {
+      "id": 179,
+      "doc": "input_data/PCC-1.5-MMAX/short/481_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Władysław",
+        "Turkowski",
+        "Panie Władysławie",
+        "Pan",
+        "pan Władysław",
+        "panu"
+      ]
+    },
+    {
+      "id": 180,
+      "doc": "input_data/PCC-1.5-MMAX/short/3436_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "autor Lon Witter",
+        "Autor",
+        "ten analityk"
+      ]
+    },
+    {
+      "id": 181,
+      "doc": "input_data/PCC-1.5-MMAX/short/697_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Młodzi jeleniogórzanie",
+        "radę młodych",
+        "młodzi działacze WM"
+      ]
+    },
+    {
+      "id": 182,
+      "doc": "input_data/PCC-1.5-MMAX/short/153_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "TARAF DE HAIDOUKS"
+      ]
+    },
+    {
+      "id": 183,
+      "doc": "input_data/PCC-1.5-MMAX/short/2575_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "siebie"
+      ]
+    },
+    {
+      "id": 184,
+      "doc": "input_data/PCC-1.5-MMAX/short/3389_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Mieszkańców",
+        "Państwa",
+        "Mieszkańcom Cekcyna"
+      ]
+    },
+    {
+      "id": 185,
+      "doc": "input_data/PCC-1.5-MMAX/short/493_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp1",
+        "tego dzieciaka"
+      ]
+    },
+    {
+      "id": 186,
+      "doc": "input_data/PCC-1.5-MMAX/short/3235_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "maja"
+      ]
+    },
+    {
+      "id": 187,
+      "doc": "input_data/PCC-1.5-MMAX/short/3212_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "polityka",
+        "polityki"
+      ]
+    },
+    {
+      "id": 188,
+      "doc": "input_data/PCC-1.5-MMAX/short/67_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "ukształtowania się w wielu państwach , zwłaszcza _ najbardziej rozwiniętych , takiego modelu politycznego , w którym dominantą jest szerokie CENTRUM , kierujące się bardziej pragmatyzmem i nagromadzonym doświadczeniem niż jakąkolwiek konkretną doktryną społeczną",
+        "Zjawisko to"
+      ]
+    },
+    {
+      "id": 189,
+      "doc": "input_data/PCC-1.5-MMAX/short/344_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "wielu konstruktorów"
+      ]
+    },
+    {
+      "id": 190,
+      "doc": "input_data/PCC-1.5-MMAX/short/3447_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Ja",
+        "mi"
+      ]
+    },
+    {
+      "id": 191,
+      "doc": "input_data/PCC-1.5-MMAX/short/2700_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "obrońcy środowiska",
+        "ekolodzy",
+        "Obrońcy przyrody",
+        "obrońców środowiska"
+      ]
+    },
+    {
+      "id": 192,
+      "doc": "input_data/PCC-1.5-MMAX/short/2988_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "mi",
+        "mnie",
+        "ja"
+      ]
+    },
+    {
+      "id": 193,
+      "doc": "input_data/PCC-1.5-MMAX/short/734_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "opinii",
+        "opinię"
+      ]
+    },
+    {
+      "id": 194,
+      "doc": "input_data/PCC-1.5-MMAX/short/2503_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Terroryzm"
+      ]
+    },
+    {
+      "id": 195,
+      "doc": "input_data/PCC-1.5-MMAX/short/3616_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "badania",
+        "badaniu",
+        "całego badania"
+      ]
+    },
+    {
+      "id": 196,
+      "doc": "input_data/PCC-1.5-MMAX/short/3311_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Andrzeja Gołąba , który w znanej sztuce Gabrieli Zapolskiej był jakoby prototypem Felicjana Dulskiego",
+        "Andrzej Gołąb",
+        "Andrzeja Gołąba",
+        "Andrzeja"
+      ]
+    },
+    {
+      "id": 197,
+      "doc": "input_data/PCC-1.5-MMAX/short/3315_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "CELEX",
+        "tej bazy",
+        "Baza ta",
+        "bazę CELEX",
+        "bazie CELEX"
+      ]
+    },
+    {
+      "id": 198,
+      "doc": "input_data/PCC-1.5-MMAX/short/3235_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Londynu",
+        "Londyn"
+      ]
+    },
+    {
+      "id": 199,
+      "doc": "input_data/PCC-1.5-MMAX/short/1798_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Komisja Etyki Reklamy",
+        "Komisji Etyki Reklamy",
+        "Komisja Etyki"
+      ]
+    },
+    {
+      "id": 200,
+      "doc": "input_data/PCC-1.5-MMAX/short/3354_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Michał Rzepkowski",
+        "rolnika",
+        "Michał",
+        "Młody gospodarz",
+        "gospodarzy",
+        "Rolnik",
+        "Rzepkowski",
+        "Rzepkowskiemu"
+      ]
+    },
+    {
+      "id": 201,
+      "doc": "input_data/PCC-1.5-MMAX/short/3025_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "ANDRZEJ",
+        "chłopie",
+        "ANDRZEJA",
+        "Jędruś",
+        "Synku"
+      ]
+    },
+    {
+      "id": 202,
+      "doc": "input_data/PCC-1.5-MMAX/short/2896_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "mnie",
+        "Ja",
+        "mi",
+        "mną"
+      ]
+    },
+    {
+      "id": 203,
+      "doc": "input_data/PCC-1.5-MMAX/short/18_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "specjalnym pojemniku",
+        "pojemnika"
+      ]
+    },
+    {
+      "id": 204,
+      "doc": "input_data/PCC-1.5-MMAX/short/3072_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "małym szczeniaczkiem , który boi się obcych , boi się pojazdów i przez większość czasu musi być niesiony na rękach",
+        "Kani",
+        "Kani , zaszczepiony , z książeczką zdrowia psa ( coś jak psi paszport )",
+        "tego nieskoordynowanego , połślepego szczeniaka , który całym sobą odwzajemniał moją miłość"
+      ]
+    },
+    {
+      "id": 205,
+      "doc": "input_data/PCC-1.5-MMAX/short/57_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Badania",
+        "badania na umierających ludziach i zwierzętach w stanie agonii",
+        "eksperymentu"
+      ]
+    },
+    {
+      "id": 206,
+      "doc": "input_data/PCC-1.5-MMAX/short/3055_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "przezroczystości serca",
+        "przezroczystością",
+        "przezroczystość",
+        "pojawiła się",
+        "zdaje się",
+        "przejrzystości",
+        "przejrzystość , transparence , transparencia"
+      ]
+    },
+    {
+      "id": 207,
+      "doc": "input_data/PCC-1.5-MMAX/short/63_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "nowym rozkładzie jazdy pociągów 2009 / 2010",
+        "rozkładzie jazdy pociągów regionalnych",
+        "rozkładzie jazdy połączeń regionalnych",
+        "rozkładzie",
+        "Nowy rozkład jazdy PKP"
+      ]
+    },
+    {
+      "id": 208,
+      "doc": "input_data/PCC-1.5-MMAX/short/3290_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "agentów",
+        "agenci",
+        "agenturze"
+      ]
+    },
+    {
+      "id": 209,
+      "doc": "input_data/PCC-1.5-MMAX/short/979_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "zajmował się",
+        "zajmuje się",
+        "Pełni"
+      ]
+    },
+    {
+      "id": 210,
+      "doc": "input_data/PCC-1.5-MMAX/short/2501_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Pan profesor",
+        "profesora",
+        "On sam",
+        "pana profesora",
+        "panem profesorem",
+        "Mistrzu",
+        "Piotr Dobrowolski ( urodzony 26 kwietnia 1938 roku , zmarły 6 sierpnia 2005 roku ) , profesor zwyczajny dr hab . nauk politycznych , nauczyciel akademicki Wydziału Nauk Społecznych Uniwersytetu Śląskiego w Katowicach i prodziekan tego wydziału"
+      ]
+    },
+    {
+      "id": 211,
+      "doc": "input_data/PCC-1.5-MMAX/short/3071_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Robert"
+      ]
+    },
+    {
+      "id": 212,
+      "doc": "input_data/PCC-1.5-MMAX/short/3042_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "DONA",
+        "pani"
+      ]
+    },
+    {
+      "id": 213,
+      "doc": "input_data/PCC-1.5-MMAX/short/2878_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "podopiecznych",
+        "niepełnosprawni"
+      ]
+    },
+    {
+      "id": 214,
+      "doc": "input_data/PCC-1.5-MMAX/short/389_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Rzeczypospolitej Polskiej"
+      ]
+    },
+    {
+      "id": 215,
+      "doc": "input_data/PCC-1.5-MMAX/short/3538_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "budżetu naszego państwa",
+        "Uchwalony budżet",
+        "budżetu",
+        "ustawie budżetowej"
+      ]
+    },
+    {
+      "id": 216,
+      "doc": "input_data/PCC-1.5-MMAX/short/2684_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "„ Smoczej Krwi “",
+        "„ sangra de dragon ”",
+        "„ Smocza Krew ”",
+        "„ sangre de dragon ”",
+        "„ sagre de dragon ”"
+      ]
+    },
+    {
+      "id": 217,
+      "doc": "input_data/PCC-1.5-MMAX/short/3628_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "jadu",
+        "jadem żmii",
+        "jadem"
+      ]
+    },
+    {
+      "id": 218,
+      "doc": "input_data/PCC-1.5-MMAX/short/3560_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "dziecka",
+        "Dziecko"
+      ]
+    },
+    {
+      "id": 219,
+      "doc": "input_data/PCC-1.5-MMAX/short/2919_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Robert"
+      ]
+    },
+    {
+      "id": 220,
+      "doc": "input_data/PCC-1.5-MMAX/short/2745_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "jurysdykcji krajowej",
+        "Jurysdykcja krajowa",
+        "jurysdykcji sądu polskiego"
+      ]
+    },
+    {
+      "id": 221,
+      "doc": "input_data/PCC-1.5-MMAX/short/202_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Sandra Walter",
+        "Sandra , córka znanej prezenterki i dziennikarki Bożeny Walter oraz Mariusza Waltera , niegdyś gwiazdy TVP , a teraz szefa TVN",
+        "córkę",
+        "Sandra"
+      ]
+    },
+    {
+      "id": 222,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704210012_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "grupa wojskowych",
+        "pułkowników",
+        "grupa wysokich rangą wojskowych",
+        "Sprawcy tych nieszczęść",
+        "Pułkownicy",
+        "winnych",
+        "sprawców zamachu",
+        "władzy",
+        "Junta",
+        "juntę",
+        "junty",
+        "Pięciu z nich",
+        "Całej piątce",
+        "Sami"
+      ]
+    },
+    {
+      "id": 223,
+      "doc": "input_data/PCC-1.5-MMAX/short/3484_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "spółka"
+      ]
+    },
+    {
+      "id": 224,
+      "doc": "input_data/PCC-1.5-MMAX/short/3486_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "księdza Popiełuszki",
+        "księdza Jerzego",
+        "księdza"
+      ]
+    },
+    {
+      "id": 225,
+      "doc": "input_data/PCC-1.5-MMAX/short/2516_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "ELBLĄG",
+        "Elblągu"
+      ]
+    },
+    {
+      "id": 226,
+      "doc": "input_data/PCC-1.5-MMAX/short/2591_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "kina \" Pasaż \"",
+        "Niewielki budynek w Pasażu Bielaka",
+        "kina",
+        "przybytek X Muzy",
+        "\" Pasaż \"",
+        "\" Pasażu \"",
+        "tam",
+        "kino"
+      ]
+    },
+    {
+      "id": 227,
+      "doc": "input_data/PCC-1.5-MMAX/short/2520_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "rekordu",
+        "rekordów"
+      ]
+    },
+    {
+      "id": 228,
+      "doc": "input_data/PCC-1.5-MMAX/short/2409_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "piłkarska Proszowianka",
+        "drużyna",
+        "Proszowiankę",
+        "własnych",
+        "proszowickich",
+        "Proszowiance",
+        "nasz klub"
+      ]
+    },
+    {
+      "id": 229,
+      "doc": "input_data/PCC-1.5-MMAX/short/3430_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "generatorów neuronalnych odpowiedzialnych za automatyczne wytwarzanie rytmów lokomocji i oddychania",
+        "Generatory neuronalne",
+        "obu generatorów"
+      ]
+    },
+    {
+      "id": 230,
+      "doc": "input_data/PCC-1.5-MMAX/short/4_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Leśniczy , od którego pan Ernest przywozi choinkę",
+        "Gabriel Grobelny , nadleśniczy wałbrzyski",
+        "Pan Gabriel",
+        "nadleśniczego",
+        "nadleśniczy",
+        "Grobelnego"
+      ]
+    },
+    {
+      "id": 231,
+      "doc": "input_data/PCC-1.5-MMAX/short/3316_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "prominentnego artysty nowojorskiej sceny rockowej Lou Reeda",
+        "Lou Reed"
+      ]
+    },
+    {
+      "id": 232,
+      "doc": "input_data/PCC-1.5-MMAX/short/2903_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Papieża",
+        "Papież",
+        "Ojciec Święty"
+      ]
+    },
+    {
+      "id": 233,
+      "doc": "input_data/PCC-1.5-MMAX/short/207_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Akcji Wyborczej Solidarność",
+        "AWS",
+        "AWS-u"
+      ]
+    },
+    {
+      "id": 234,
+      "doc": "input_data/PCC-1.5-MMAX/short/3150_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp0"
+      ]
+    },
+    {
+      "id": 235,
+      "doc": "input_data/PCC-1.5-MMAX/short/2665_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Wiśle",
+        "Wisła",
+        "rzeki",
+        "Wisły"
+      ]
+    },
+    {
+      "id": 236,
+      "doc": "input_data/PCC-1.5-MMAX/short/573_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Kpiarskie sprzeniewierzanie się zastanym autorytetom"
+      ]
+    },
+    {
+      "id": 237,
+      "doc": "input_data/PCC-1.5-MMAX/short/2451_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "starsza , skromnie ubrana pani z siatką",
+        "usprawiedliwia się",
+        "Kobieta"
+      ]
+    },
+    {
+      "id": 238,
+      "doc": "input_data/PCC-1.5-MMAX/short/466_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "białaczki szpikowej",
+        "białaczce szpikowej"
+      ]
+    },
+    {
+      "id": 239,
+      "doc": "input_data/PCC-1.5-MMAX/short/401_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "ten chlopak",
+        "dostal",
+        "zrezygnowal",
+        "poszedl",
+        "mogł",
+        "facet",
+        "bedzie",
+        "zapomnial"
+      ]
+    },
+    {
+      "id": 240,
+      "doc": "input_data/PCC-1.5-MMAX/short/579_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "niecałe sześć pielęgniarek",
+        "pielęgniarki"
+      ]
+    },
+    {
+      "id": 241,
+      "doc": "input_data/PCC-1.5-MMAX/short/3358_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Pascal",
+        "Pascala"
+      ]
+    },
+    {
+      "id": 242,
+      "doc": "input_data/PCC-1.5-MMAX/short/528_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "preparatu erytropoetyny",
+        "preparat",
+        "Erytropoetyna",
+        "erytropoetyny"
+      ]
+    },
+    {
+      "id": 243,
+      "doc": "input_data/PCC-1.5-MMAX/short/195_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Piotr Łuszczki , pracownik jednej z firm przy ul . Ruskiej"
+      ]
+    },
+    {
+      "id": 244,
+      "doc": "input_data/PCC-1.5-MMAX/short/3191_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp0",
+        "podgłoszę"
+      ]
+    },
+    {
+      "id": 245,
+      "doc": "input_data/PCC-1.5-MMAX/short/87_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "nowy , mądry dziedzic"
+      ]
+    },
+    {
+      "id": 246,
+      "doc": "input_data/PCC-1.5-MMAX/short/2483_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "naukę"
+      ]
+    },
+    {
+      "id": 247,
+      "doc": "input_data/PCC-1.5-MMAX/short/3591_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "klienta",
+        "swoim klientom"
+      ]
+    },
+    {
+      "id": 248,
+      "doc": "input_data/PCC-1.5-MMAX/short/2794_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "napisałas",
+        "kochana",
+        "wika141",
+        "boje się",
+        "się boję",
+        "się martwię"
+      ]
+    },
+    {
+      "id": 249,
+      "doc": "input_data/PCC-1.5-MMAX/short/3576_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "koprocesora arytmetycznego",
+        "układu współpracującego z mikroprocesorem , wyspecjalizowanego w wykonywaniu obliczeń na liczbach rzeczywistych , a przez to znacznie je przyspieszającym )"
+      ]
+    },
+    {
+      "id": 250,
+      "doc": "input_data/PCC-1.5-MMAX/short/2694_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "parku",
+        "park",
+        "parku ratajskiego"
+      ]
+    },
+    {
+      "id": 251,
+      "doc": "input_data/PCC-1.5-MMAX/short/3254_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Polsce",
+        "Polski"
+      ]
+    },
+    {
+      "id": 252,
+      "doc": "input_data/PCC-1.5-MMAX/short/3533_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Poprzedni prezydent Alberto Fujimori , pochodzenia japońskiego",
+        "Fujimori , bliżej nieznany inżynier , który wygrał wybory ze światowej sławy pisarzem Mario Vargasem Llosą",
+        "Fujimori"
+      ]
+    },
+    {
+      "id": 253,
+      "doc": "input_data/PCC-1.5-MMAX/short/2432_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Sygnału Włosienicy",
+        "klubu",
+        "Sygnał",
+        "własnej",
+        "LKS Sygnał Włosienica",
+        "Sygnału",
+        "Włosienicy",
+        "Włosienica"
+      ]
+    },
+    {
+      "id": 254,
+      "doc": "input_data/PCC-1.5-MMAX/short/200_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "dziesięcioletnią dziewczynkę",
+        "rannemu dziecku",
+        "Sanda",
+        "dziecka",
+        "córkę",
+        "dziewczynki",
+        "moje dziecko",
+        "Sandę",
+        "dziewczynkę",
+        "dziesięciolatka",
+        "pogryzione dziecko"
+      ]
+    },
+    {
+      "id": 255,
+      "doc": "input_data/PCC-1.5-MMAX/short/2642_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "czteroletnie indeksowane oszczędnościowe obligacje skarbowe ( COI0709",
+        "czterolatek",
+        "obligacji czteroletnich COI0709"
+      ]
+    },
+    {
+      "id": 256,
+      "doc": "input_data/PCC-1.5-MMAX/short/3607_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "trafień",
+        "rezultaty wyszukiwania",
+        "znalezione pozycje",
+        "wyszukanych pozycji",
+        "wyszukanych dokumentów",
+        "rezultatów wyszukiwania"
+      ]
+    },
+    {
+      "id": 257,
+      "doc": "input_data/PCC-1.5-MMAX/short/3387_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Polaków"
+      ]
+    },
+    {
+      "id": 258,
+      "doc": "input_data/PCC-1.5-MMAX/short/2707_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Polonia",
+        "Polonii Rokiciny",
+        "Polonia Rokiciny",
+        "rokicinianie , którzy komplet punktów zapewnili sobie już po 45 minutach",
+        "miejscowych"
+      ]
+    },
+    {
+      "id": 259,
+      "doc": "input_data/PCC-1.5-MMAX/short/230_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Muzeum Rybackie",
+        "tu",
+        "muzeum"
+      ]
+    },
+    {
+      "id": 260,
+      "doc": "input_data/PCC-1.5-MMAX/short/2406_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "PO"
+      ]
+    },
+    {
+      "id": 261,
+      "doc": "input_data/PCC-1.5-MMAX/short/3269_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Kubańczykami mieszkającymi na Florydzie",
+        "600 tys . osób wracających do ojczyzny",
+        "przybyszów",
+        "wracających gusanos ( robaków )"
+      ]
+    },
+    {
+      "id": 262,
+      "doc": "input_data/PCC-1.5-MMAX/short/3142_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "on",
+        "sobie",
+        "mi",
+        "niego"
+      ]
+    },
+    {
+      "id": 263,
+      "doc": "input_data/PCC-1.5-MMAX/short/3379_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Sękowej",
+        "wsi"
+      ]
+    },
+    {
+      "id": 264,
+      "doc": "input_data/PCC-1.5-MMAX/short/3200_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "państwo",
+        "państwa"
+      ]
+    },
+    {
+      "id": 265,
+      "doc": "input_data/PCC-1.5-MMAX/short/2600_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "kontyngent",
+        "kontyngentu"
+      ]
+    },
+    {
+      "id": 266,
+      "doc": "input_data/PCC-1.5-MMAX/short/234_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "siedzibę"
+      ]
+    },
+    {
+      "id": 267,
+      "doc": "input_data/PCC-1.5-MMAX/short/2482_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "dziewczyny",
+        "Rutki",
+        "zagłębiowska anna frank",
+        "Rutkę Laskier"
+      ]
+    },
+    {
+      "id": 268,
+      "doc": "input_data/PCC-1.5-MMAX/short/334_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "studentka"
+      ]
+    },
+    {
+      "id": 269,
+      "doc": "input_data/PCC-1.5-MMAX/short/3590_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sterowników",
+        "sterowniki",
+        "różnych sterowników"
+      ]
+    },
+    {
+      "id": 270,
+      "doc": "input_data/PCC-1.5-MMAX/short/745_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Polaków za granicą",
+        "Polakom za granicą",
+        "nasi Rodacy"
+      ]
+    },
+    {
+      "id": 271,
+      "doc": "input_data/PCC-1.5-MMAX/short/485_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Natalka"
+      ]
+    },
+    {
+      "id": 272,
+      "doc": "input_data/PCC-1.5-MMAX/short/442_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "ludzkości",
+        "ludzi",
+        "całej ludzkości"
+      ]
+    },
+    {
+      "id": 273,
+      "doc": "input_data/PCC-1.5-MMAX/short/3349_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "zamku Ogrodzieniec",
+        "zamek",
+        "założeniami zamkowymi",
+        "Budowlę",
+        "tu",
+        "twierdzy Ogrodzieniec",
+        "ogrodzienieckiego zamku"
+      ]
+    },
+    {
+      "id": 274,
+      "doc": "input_data/PCC-1.5-MMAX/short/2890_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "niedźwiedziem",
+        "Solidny niedźwiedź",
+        "miś",
+        "misia",
+        "niedźwiedź"
+      ]
+    },
+    {
+      "id": 275,
+      "doc": "input_data/PCC-1.5-MMAX/short/3248_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Antoniego Gucwińskiego",
+        "dyrektor",
+        "mogł em",
+        "Gucwiński",
+        "Antoni Gucwiński"
+      ]
+    },
+    {
+      "id": 276,
+      "doc": "input_data/PCC-1.5-MMAX/short/587_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "policjanci",
+        "Panowie"
+      ]
+    },
+    {
+      "id": 277,
+      "doc": "input_data/PCC-1.5-MMAX/short/2500_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "dodatku",
+        "pieniądze",
+        "Pomoc państwa",
+        "Dodatek",
+        "ten dodatek"
+      ]
+    },
+    {
+      "id": 278,
+      "doc": "input_data/PCC-1.5-MMAX/short/353_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "podniesienie ręki"
+      ]
+    },
+    {
+      "id": 279,
+      "doc": "input_data/PCC-1.5-MMAX/short/85_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "mi",
+        "mnie",
+        "wy",
+        "wam",
+        "was"
+      ]
+    },
+    {
+      "id": 280,
+      "doc": "input_data/PCC-1.5-MMAX/short/2892_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Człowieka , który wkrótce miał zostać prezydentem Azerbejdżanu",
+        "Elczibej , pan ambasador",
+        "Elczibeja , który trzeci już tydzień prowadził głodówkę",
+        "Elczibej"
+      ]
+    },
+    {
+      "id": 281,
+      "doc": "input_data/PCC-1.5-MMAX/short/250_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Mickiewicza"
+      ]
+    },
+    {
+      "id": 282,
+      "doc": "input_data/PCC-1.5-MMAX/short/2532_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Caritas",
+        "Caritas Archidiecezji Krakowskiej",
+        "własną",
+        "własnym"
+      ]
+    },
+    {
+      "id": 283,
+      "doc": "input_data/PCC-1.5-MMAX/short/3030_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "drugi samuraj",
+        "ostatniego uczestnika",
+        "uczestnik ten",
+        "by"
+      ]
+    },
+    {
+      "id": 284,
+      "doc": "input_data/PCC-1.5-MMAX/short/700_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "podsądnego",
+        "oskarżony",
+        "skazanemu",
+        "Ten człowiek",
+        "ten pan"
+      ]
+    },
+    {
+      "id": 285,
+      "doc": "input_data/PCC-1.5-MMAX/short/1800_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "dwie nieznajome , młode damy , które oznajmiły , że _ są obywatelkami Czech i _ przywiozły paczkę dla sąsiada starszej pani",
+        "„ cudzoziemki ”",
+        "„ Czeszki ”",
+        "przestępczyń",
+        "„ cudzoziemek ”"
+      ]
+    },
+    {
+      "id": 286,
+      "doc": "input_data/PCC-1.5-MMAX/short/3361_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Wiktora Coja , lidera grupy Kino"
+      ]
+    },
+    {
+      "id": 287,
+      "doc": "input_data/PCC-1.5-MMAX/short/3419_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "dzisiejszej Polski",
+        "Polski",
+        "Polsce",
+        "Polska"
+      ]
+    },
+    {
+      "id": 288,
+      "doc": "input_data/PCC-1.5-MMAX/short/3446_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "tradycyjne Sztafetowe Biegi Przełajowe",
+        "miejskich zmaganiach , które odbyły się 30 września",
+        "rywalizacji",
+        "sztafetowych biegach"
+      ]
+    },
+    {
+      "id": 289,
+      "doc": "input_data/PCC-1.5-MMAX/short/3225_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Turkmeni , stanowiący 15 proc . ludności"
+      ]
+    },
+    {
+      "id": 290,
+      "doc": "input_data/PCC-1.5-MMAX/short/984_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Wilków",
+        "zespołu",
+        "zespołu Wilki",
+        "ich ulubionej grupy"
+      ]
+    },
+    {
+      "id": 291,
+      "doc": "input_data/PCC-1.5-MMAX/short/405_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Białorusini"
+      ]
+    },
+    {
+      "id": 292,
+      "doc": "input_data/PCC-1.5-MMAX/short/329_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "rachunku",
+        "rachunku bieżącego",
+        "rachunek"
+      ]
+    },
+    {
+      "id": 293,
+      "doc": "input_data/PCC-1.5-MMAX/short/3317_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Myslovitz"
+      ]
+    },
+    {
+      "id": 294,
+      "doc": "input_data/PCC-1.5-MMAX/long/200004290022_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "maja"
+      ]
+    },
+    {
+      "id": 295,
+      "doc": "input_data/PCC-1.5-MMAX/short/3027_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "premier",
+        "premier , łysawy pan po czterdziestce"
+      ]
+    },
+    {
+      "id": 296,
+      "doc": "input_data/PCC-1.5-MMAX/short/3074_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Boskiego",
+        "Stary",
+        "Boski",
+        "małżonek"
+      ]
+    },
+    {
+      "id": 297,
+      "doc": "input_data/PCC-1.5-MMAX/short/194_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "konferencji organizowanej przez Małopolskie Centrum Biznesu",
+        "konferencję dla przedsiębiorców , którzy nie są obojętni na zmiany w ustawodawstwie i ciekawi nowinek",
+        "spotkania",
+        "konferencji",
+        "konferencję Forum Biznesu",
+        "Wtorkowe spotkanie"
+      ]
+    },
+    {
+      "id": 298,
+      "doc": "input_data/PCC-1.5-MMAX/short/2804_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "J . P . II",
+        "Papież",
+        "ten autorytet",
+        "Jana Pawła II , który w krytycznych chwilach pokazywał Kościołowi w Polsce drogę , którą ten ma kroczyć",
+        "Jana Pawła II",
+        "papieża"
+      ]
+    },
+    {
+      "id": 299,
+      "doc": "input_data/PCC-1.5-MMAX/short/2482_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Odnaleziony pamiętnik",
+        "Taki pamiętnik",
+        "Dziennik Rutki",
+        "pamiętnika"
+      ]
+    },
+    {
+      "id": 300,
+      "doc": "input_data/PCC-1.5-MMAX/short/2618_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "gminie wiejskiej Głogów",
+        "gminy",
+        "gmina"
+      ]
+    },
+    {
+      "id": 301,
+      "doc": "input_data/PCC-1.5-MMAX/short/340_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Mariusz Suchecki",
+        "Suchecki"
+      ]
+    },
+    {
+      "id": 302,
+      "doc": "input_data/PCC-1.5-MMAX/short/2866_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "mnie",
+        "mi"
+      ]
+    },
+    {
+      "id": 303,
+      "doc": "input_data/PCC-1.5-MMAX/short/2849_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Bąka",
+        "kol . Bąk",
+        "człowieka chorego psychicznie i szkodnika",
+        "Bąk"
+      ]
+    },
+    {
+      "id": 304,
+      "doc": "input_data/PCC-1.5-MMAX/short/673_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "łowicki szpital",
+        "łowickiego szpitala",
+        "łowickim szpitalu",
+        "szpitala",
+        "szpitala w Łowiczu",
+        "szpitala łowickiego"
+      ]
+    },
+    {
+      "id": 305,
+      "doc": "input_data/PCC-1.5-MMAX/short/3207_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp2"
+      ]
+    },
+    {
+      "id": 306,
+      "doc": "input_data/PCC-1.5-MMAX/short/73_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "nasze dzieci",
+        "naszych dzieci"
+      ]
+    },
+    {
+      "id": 307,
+      "doc": "input_data/PCC-1.5-MMAX/short/2975_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "pani",
+        "noszę"
+      ]
+    },
+    {
+      "id": 308,
+      "doc": "input_data/PCC-1.5-MMAX/short/3589_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "decydujesz się",
+        "sprzedasz _ kupisz _ tzw . \" square \" lub \" close \""
+      ]
+    },
+    {
+      "id": 309,
+      "doc": "input_data/PCC-1.5-MMAX/short/3633_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "skraju Rezerwatu Marismas de Guadalquivir , obejmującego ochroną jedno z najcenniejszych bagien w Europie",
+        "regionu"
+      ]
+    },
+    {
+      "id": 310,
+      "doc": "input_data/PCC-1.5-MMAX/short/2448_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Marcina",
+        "Marcin",
+        "studenta"
+      ]
+    },
+    {
+      "id": 311,
+      "doc": "input_data/PCC-1.5-MMAX/short/366_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Załączniki",
+        "Wszystkie wykresy , mapki , tabele , rysunki itp .",
+        "załączniki te",
+        "załączników"
+      ]
+    },
+    {
+      "id": 312,
+      "doc": "input_data/PCC-1.5-MMAX/short/3500_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Goodbye Bafana",
+        "Produkcja międzynarodowa",
+        "Film",
+        "\" Goodbye Bafana \"",
+        "filmie",
+        "\" Bafanę \""
+      ]
+    },
+    {
+      "id": 313,
+      "doc": "input_data/PCC-1.5-MMAX/short/564_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "inteligencji",
+        "ta pierwsza",
+        "inteligencja",
+        "naszej inteligencji"
+      ]
+    },
+    {
+      "id": 314,
+      "doc": "input_data/PCC-1.5-MMAX/short/3254_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Inteligencja w Polsce",
+        "Inteligencja",
+        "środowiska intelektualne"
+      ]
+    },
+    {
+      "id": 315,
+      "doc": "input_data/PCC-1.5-MMAX/short/2237_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "północnej części Wyżyny Śląsko - Krakowskiej",
+        "omawianego terenu"
+      ]
+    },
+    {
+      "id": 316,
+      "doc": "input_data/PCC-1.5-MMAX/short/2589_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Zgadzam się",
+        "prof . Józef Musielok , rektor Uniwersytetu Opolskiego",
+        "Rektor",
+        "prof . Musielok",
+        "liczy się"
+      ]
+    },
+    {
+      "id": 317,
+      "doc": "input_data/PCC-1.5-MMAX/short/648_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "strażaków , którzy brali udział w akcji ratowania ofiar wybuchu gazu",
+        "Państwowej Straży Pożarnej",
+        "Ratownicy",
+        "Strażacy",
+        "Państwowej Straży Pożarnej w Malborku"
+      ]
+    },
+    {
+      "id": 318,
+      "doc": "input_data/PCC-1.5-MMAX/short/3487_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Atradius",
+        "spółka",
+        "spółki",
+        "spółce Atradius",
+        "światowych liderów ubezpieczycieli wierzytelności",
+        "Firma",
+        "firmie",
+        "firmie Atradius"
+      ]
+    },
+    {
+      "id": 319,
+      "doc": "input_data/PCC-1.5-MMAX/short/2419_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Larwy _",
+        "Larwy"
+      ]
+    },
+    {
+      "id": 320,
+      "doc": "input_data/PCC-1.5-MMAX/short/2148_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "własnych"
+      ]
+    },
+    {
+      "id": 321,
+      "doc": "input_data/PCC-1.5-MMAX/short/3464_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Gerling Polska Towarzystwo Ubezpieczeń na Życie SA",
+        "naszej firmy"
+      ]
+    },
+    {
+      "id": 322,
+      "doc": "input_data/PCC-1.5-MMAX/short/71_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "mi",
+        "mnie"
+      ]
+    },
+    {
+      "id": 323,
+      "doc": "input_data/PCC-1.5-MMAX/short/3020_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "starego Adamiaka , co po całych dniach na ławce sterczał",
+        "psem",
+        "Sam"
+      ]
+    },
+    {
+      "id": 324,
+      "doc": "input_data/PCC-1.5-MMAX/short/557_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "myśli",
+        "jego myśli",
+        "myśl człowieka"
+      ]
+    },
+    {
+      "id": 325,
+      "doc": "input_data/PCC-1.5-MMAX/short/18_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "kilkaset badań nieniszczących tak zwanej radiografii przemysłowej , polegających na prześwietleniu metalowych konstrukcji za pomocą przenikliwego promieniowania w celu wytworzenia na kliszy fotograficznej obrazu wewnętrznej struktury badanego elementu",
+        "Badania takie",
+        "kilkaset wykonywanych badań w ciągu roku"
+      ]
+    },
+    {
+      "id": 326,
+      "doc": "input_data/PCC-1.5-MMAX/short/3235_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "promocja",
+        "oferta"
+      ]
+    },
+    {
+      "id": 327,
+      "doc": "input_data/PCC-1.5-MMAX/short/201_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "nas"
+      ]
+    },
+    {
+      "id": 328,
+      "doc": "input_data/PCC-1.5-MMAX/short/2573_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Syndyk",
+        "syndyk masy upadłościowej zakładów Paweł Marciniak"
+      ]
+    },
+    {
+      "id": 329,
+      "doc": "input_data/PCC-1.5-MMAX/short/2655_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "pylicy azbestowej",
+        "choroby",
+        "pylicę azbestową",
+        "azbestozę"
+      ]
+    },
+    {
+      "id": 330,
+      "doc": "input_data/PCC-1.5-MMAX/short/488_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp1"
+      ]
+    },
+    {
+      "id": 331,
+      "doc": "input_data/PCC-1.5-MMAX/short/352_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Sejmu",
+        "Sejm",
+        "Sejmu Rzeczypospolitej Polskiej"
+      ]
+    },
+    {
+      "id": 332,
+      "doc": "input_data/PCC-1.5-MMAX/short/639_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Magda Hłasko z Kielc , która w tym roku wrzuciła do puszek 400 zł"
+      ]
+    },
+    {
+      "id": 333,
+      "doc": "input_data/PCC-1.5-MMAX/short/3445_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "dwór polski",
+        "jeszcze jeden dwór - ale niepodobny do tego z Soplicowa ani do tego z Nawłoci",
+        "_ Skazany już na zagładę",
+        "podupadłym dworku polskim",
+        "tutaj"
+      ]
+    },
+    {
+      "id": 334,
+      "doc": "input_data/PCC-1.5-MMAX/short/3514_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "prezes SPZ R . Nowak"
+      ]
+    },
+    {
+      "id": 335,
+      "doc": "input_data/PCC-1.5-MMAX/short/283_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Renatki",
+        "Renatka"
+      ]
+    },
+    {
+      "id": 336,
+      "doc": "input_data/PCC-1.5-MMAX/short/691_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "informatory telewizyjne : , Super TV' , , Tele Tydzień' i , Telemagazyn'"
+      ]
+    },
+    {
+      "id": 337,
+      "doc": "input_data/PCC-1.5-MMAX/short/3116_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "tamtejszego pastora , który podobno umiał poskramiać nieczyste siły",
+        "Pastorowi",
+        "pastora",
+        "pastor"
+      ]
+    },
+    {
+      "id": 338,
+      "doc": "input_data/PCC-1.5-MMAX/short/1803_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "latach trzydziestych",
+        "tamtych czasów",
+        "lat dwudziestych"
+      ]
+    },
+    {
+      "id": 339,
+      "doc": "input_data/PCC-1.5-MMAX/short/46_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "pielęgniarek i położnych"
+      ]
+    },
+    {
+      "id": 340,
+      "doc": "input_data/PCC-1.5-MMAX/short/3241_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Polskę",
+        "Polsce",
+        "Polska",
+        "Polski",
+        "Polacy",
+        "całkowicie mocny , pełen życia , ucywilizowany naród"
+      ]
+    },
+    {
+      "id": 341,
+      "doc": "input_data/PCC-1.5-MMAX/short/2373_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "wypadki",
+        "tragedii",
+        "ostatnich wydarzeniach"
+      ]
+    },
+    {
+      "id": 342,
+      "doc": "input_data/PCC-1.5-MMAX/short/3235_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "lipca",
+        "lipcu"
+      ]
+    },
+    {
+      "id": 343,
+      "doc": "input_data/PCC-1.5-MMAX/short/3527_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "fundacji",
+        "fundacja",
+        "Fundacji PZU",
+        "Fundacja PZU"
+      ]
+    },
+    {
+      "id": 344,
+      "doc": "input_data/PCC-1.5-MMAX/short/2828_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "programu",
+        "programie",
+        "projektu „ Edukacja bez Granic ”",
+        "programu „ Edukacja bez Granic ”",
+        "program",
+        "programie „ Edukacja bez Granic ”",
+        "program „ Edukacja bez Granic ”"
+      ]
+    },
+    {
+      "id": 345,
+      "doc": "input_data/PCC-1.5-MMAX/long/199912180034_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Andrzeja Wajdy",
+        "Andrzej Wajda , którego film \" Pan Tadeusz \" jest polskim kandydatem do Oscara w kategorii obrazów nieangielskojęzycznych",
+        "Wajdy",
+        "polskiego reżysera Andrzeja Wajdy",
+        "Pan Wajda",
+        "tego artysty",
+        "polskiego mistrza",
+        "Andrzej Wajda",
+        "Wajda",
+        "mistrza polskiego kina"
+      ]
+    },
+    {
+      "id": 346,
+      "doc": "input_data/PCC-1.5-MMAX/short/2541_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "pan",
+        "syna"
+      ]
+    },
+    {
+      "id": 347,
+      "doc": "input_data/PCC-1.5-MMAX/short/3451_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "mnie",
+        "mi"
+      ]
+    },
+    {
+      "id": 348,
+      "doc": "input_data/PCC-1.5-MMAX/short/1137_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Nalepą",
+        "Tadeusz"
+      ]
+    },
+    {
+      "id": 349,
+      "doc": "input_data/PCC-1.5-MMAX/short/571_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "elektroda szklana",
+        "elektrody szklanej",
+        "szklanej",
+        "elektrodę szklaną",
+        "wysokooporowej elektrody szklanej"
+      ]
+    },
+    {
+      "id": 350,
+      "doc": "input_data/PCC-1.5-MMAX/short/3150_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp1"
+      ]
+    },
+    {
+      "id": 351,
+      "doc": "input_data/PCC-1.5-MMAX/short/186_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "XII wieku",
+        "XII w .",
+        "XII wiek"
+      ]
+    },
+    {
+      "id": 352,
+      "doc": "input_data/PCC-1.5-MMAX/short/583_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "kolędy",
+        "kolęd"
+      ]
+    },
+    {
+      "id": 353,
+      "doc": "input_data/PCC-1.5-MMAX/short/2580_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Aleksandrem Jakowienko , Konsulem Generalnym Federacji Rosyjskiej",
+        "pan"
+      ]
+    },
+    {
+      "id": 354,
+      "doc": "input_data/PCC-1.5-MMAX/short/0_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "tytuł Europejskiego Króla Kurkowego",
+        "taki tytuł"
+      ]
+    },
+    {
+      "id": 355,
+      "doc": "input_data/PCC-1.5-MMAX/short/3008_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Ta moja"
+      ]
+    },
+    {
+      "id": 356,
+      "doc": "input_data/PCC-1.5-MMAX/short/2151_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Wycieraczki reflektorów",
+        "takie usprawnienie",
+        "wycieraczki"
+      ]
+    },
+    {
+      "id": 357,
+      "doc": "input_data/PCC-1.5-MMAX/short/572_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "nam",
+        "nas"
+      ]
+    },
+    {
+      "id": 358,
+      "doc": "input_data/PCC-1.5-MMAX/short/2576_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Marta",
+        "dziewczynki",
+        "dziewczynka",
+        "tego dziecka"
+      ]
+    },
+    {
+      "id": 359,
+      "doc": "input_data/PCC-1.5-MMAX/short/993_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "ADAM MOKRUS – znakomity , polski skrzypek młodego pokolenia",
+        "zajmuje się"
+      ]
+    },
+    {
+      "id": 360,
+      "doc": "input_data/PCC-1.5-MMAX/short/2149_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "błędy",
+        "popełnione błędy"
+      ]
+    },
+    {
+      "id": 361,
+      "doc": "input_data/PCC-1.5-MMAX/short/3129_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "My"
+      ]
+    },
+    {
+      "id": 362,
+      "doc": "input_data/PCC-1.5-MMAX/short/279_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Faceci",
+        "się wynosili"
+      ]
+    },
+    {
+      "id": 363,
+      "doc": "input_data/PCC-1.5-MMAX/short/75_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "same starsze panie z kulistymi kokami na czubkach głowy",
+        "Jakieś smętne te niewiasty"
+      ]
+    },
+    {
+      "id": 364,
+      "doc": "input_data/PCC-1.5-MMAX/short/3520_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "prezydent Kwaśniewski",
+        "pan Aleksander",
+        "pana Aleksandra",
+        "Olek"
+      ]
+    },
+    {
+      "id": 365,
+      "doc": "input_data/PCC-1.5-MMAX/short/807_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Wezak",
+        "zrobilem",
+        "uzyskalem",
+        "pomyslalem",
+        "mam",
+        "moge",
+        "przejolem sie",
+        "wkrecilem",
+        "mysle",
+        "mialem",
+        "Stary",
+        "by ś"
+      ]
+    },
+    {
+      "id": 366,
+      "doc": "input_data/PCC-1.5-MMAX/short/3290_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "delegatów",
+        "uczestników zjazdu",
+        "obecnych na sali"
+      ]
+    },
+    {
+      "id": 367,
+      "doc": "input_data/PCC-1.5-MMAX/short/3559_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sukces",
+        "sukcesu",
+        "samego sukcesu"
+      ]
+    },
+    {
+      "id": 368,
+      "doc": "input_data/PCC-1.5-MMAX/short/2590_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "zdrowia",
+        "zdrowia _",
+        "swoje zdrowie"
+      ]
+    },
+    {
+      "id": 369,
+      "doc": "input_data/PCC-1.5-MMAX/short/553_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "najlepszemu z francuskich kryptoanalityków - Georges'owi Painvinowi",
+        "Painvina",
+        "francuski kryptoanalityk",
+        "Painvin"
+      ]
+    },
+    {
+      "id": 370,
+      "doc": "input_data/PCC-1.5-MMAX/short/3065_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Dzieciaki",
+        "te dwa diabelskie nasienia",
+        "swoich dzieciach",
+        "Aciego i Maciego",
+        "bracia Wernerowie"
+      ]
+    },
+    {
+      "id": 371,
+      "doc": "input_data/PCC-1.5-MMAX/short/407_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Blackowa",
+        "weszlam"
+      ]
+    },
+    {
+      "id": 372,
+      "doc": "input_data/PCC-1.5-MMAX/short/519_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "promocja",
+        "promocją",
+        "Promocji Ziemi Kłodzkiej",
+        "promocji",
+        "zadań promocyjnych"
+      ]
+    },
+    {
+      "id": 373,
+      "doc": "input_data/PCC-1.5-MMAX/short/530_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "SenatorRajmundSzwonder"
+      ]
+    },
+    {
+      "id": 374,
+      "doc": "input_data/PCC-1.5-MMAX/short/324_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "szwoleżerowie",
+        "tych szwoleżerów",
+        "chłopców"
+      ]
+    },
+    {
+      "id": 375,
+      "doc": "input_data/PCC-1.5-MMAX/short/629_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "rząd",
+        "rządu"
+      ]
+    },
+    {
+      "id": 376,
+      "doc": "input_data/PCC-1.5-MMAX/short/3477_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Drobni hodowcy i przetwórcy"
+      ]
+    },
+    {
+      "id": 377,
+      "doc": "input_data/PCC-1.5-MMAX/short/3274_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Basia",
+        "uśmiechnięta kobieta po czterdziestce",
+        "zdecydowała się",
+        "zajmowała się"
+      ]
+    },
+    {
+      "id": 378,
+      "doc": "input_data/PCC-1.5-MMAX/short/3597_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "płyty",
+        "płycie kompaktowej",
+        "płyty kompaktowej",
+        "płytę kompaktową"
+      ]
+    },
+    {
+      "id": 379,
+      "doc": "input_data/PCC-1.5-MMAX/short/151_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "projektu Młodzieżowi Animatorzy Lokalni - Odciśnij Swój Ślad",
+        "MAL",
+        "projekt MAL",
+        "projektu \" Młodzieżowi Animatorzy Lokalni \"",
+        "projektu"
+      ]
+    },
+    {
+      "id": 380,
+      "doc": "input_data/PCC-1.5-MMAX/short/720_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Rzeczypospolitej Polskiej",
+        "Rzeczpospolitą Polską"
+      ]
+    },
+    {
+      "id": 381,
+      "doc": "input_data/PCC-1.5-MMAX/short/3039_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "mnie"
+      ]
+    },
+    {
+      "id": 382,
+      "doc": "input_data/PCC-1.5-MMAX/short/212_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "NFZ",
+        "publicznego płatnika"
+      ]
+    },
+    {
+      "id": 383,
+      "doc": "input_data/PCC-1.5-MMAX/short/293_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "MP",
+        "grupy",
+        "Monty Python"
+      ]
+    },
+    {
+      "id": 384,
+      "doc": "input_data/PCC-1.5-MMAX/short/2519_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "nowotarżanki Anety Tworek , dla której jest to już 13 . wystawa od ukończenia studiów w Instytucie Sztuki Akademii Pedagogicznej w Krakowie",
+        "Anetkę",
+        "Nowotarżanka",
+        "malarki , która uprawia także fotografię , a _ pracuje – jako nauczyciel sztuki – w nowotarskim Gimnazjum nr 1",
+        "artystka",
+        "nowotarżanki",
+        "malarką"
+      ]
+    },
+    {
+      "id": 385,
+      "doc": "input_data/PCC-1.5-MMAX/short/3255_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Unia Wolności",
+        "UW"
+      ]
+    },
+    {
+      "id": 386,
+      "doc": "input_data/PCC-1.5-MMAX/short/236_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sam",
+        "twój kochający J Iwasz [ kiewicz ]"
+      ]
+    },
+    {
+      "id": 387,
+      "doc": "input_data/PCC-1.5-MMAX/short/186_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Bizancjum"
+      ]
+    },
+    {
+      "id": 388,
+      "doc": "input_data/PCC-1.5-MMAX/short/3593_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "10 % ludzi",
+        "10 %"
+      ]
+    },
+    {
+      "id": 389,
+      "doc": "input_data/PCC-1.5-MMAX/short/408_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Październik"
+      ]
+    },
+    {
+      "id": 390,
+      "doc": "input_data/PCC-1.5-MMAX/short/724_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "RZYMIE",
+        "miasta",
+        "Rzymu",
+        "Rzym"
+      ]
+    },
+    {
+      "id": 391,
+      "doc": "input_data/PCC-1.5-MMAX/short/2996_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Zenkowi",
+        "Zenona",
+        "Zenon"
+      ]
+    },
+    {
+      "id": 392,
+      "doc": "input_data/PCC-1.5-MMAX/short/2942_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "znajduję się",
+        "stanę się"
+      ]
+    },
+    {
+      "id": 393,
+      "doc": "input_data/PCC-1.5-MMAX/short/2433_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "na Tuwima",
+        "przy ul . Tuwima",
+        "tym miejscu"
+      ]
+    },
+    {
+      "id": 394,
+      "doc": "input_data/PCC-1.5-MMAX/short/2392_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Edward Kania",
+        "Edward Kania , tegoroczny król kurkowy"
+      ]
+    },
+    {
+      "id": 395,
+      "doc": "input_data/PCC-1.5-MMAX/short/2745_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Polsce"
+      ]
+    },
+    {
+      "id": 396,
+      "doc": "input_data/PCC-1.5-MMAX/short/2658_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Czyżycki",
+        "myśleniczaninem",
+        "Bogdan"
+      ]
+    },
+    {
+      "id": 397,
+      "doc": "input_data/PCC-1.5-MMAX/short/49_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "pracy",
+        "pracy nakładczej"
+      ]
+    },
+    {
+      "id": 398,
+      "doc": "input_data/PCC-1.5-MMAX/short/2927_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "syna",
+        "mój syn",
+        "Jan Boloński",
+        "Jasiu , synku",
+        "Jan",
+        "Gospodarz"
+      ]
+    },
+    {
+      "id": 399,
+      "doc": "input_data/PCC-1.5-MMAX/short/315_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "nam",
+        "nas"
+      ]
+    },
+    {
+      "id": 400,
+      "doc": "input_data/PCC-1.5-MMAX/short/571_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Miareczkowanie potencjometryczne",
+        "miareczkowaniem potencjometrycznym",
+        "potencjometrycznej",
+        "miareczkowania",
+        "miareczkowaniu potencjometrycznym"
+      ]
+    },
+    {
+      "id": 401,
+      "doc": "input_data/PCC-1.5-MMAX/short/2521_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "mnie",
+        "mi"
+      ]
+    },
+    {
+      "id": 402,
+      "doc": "input_data/PCC-1.5-MMAX/short/3560_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "dzieci"
+      ]
+    },
+    {
+      "id": 403,
+      "doc": "input_data/PCC-1.5-MMAX/short/3485_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Fantom  Ingmara Villqista w krakowskim Starym",
+        "pierwszym przypadku",
+        "inscenizacja krakowska",
+        "jednym spektaklu"
+      ]
+    },
+    {
+      "id": 404,
+      "doc": "input_data/PCC-1.5-MMAX/short/698_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Mysią Wieżą w Kruszwicy",
+        "tej starej zamkowej baszty",
+        "Mysią Wieżą",
+        "Mysiej Wieży",
+        "zamkowej baszty",
+        "Mysią Wieżę"
+      ]
+    },
+    {
+      "id": 405,
+      "doc": "input_data/PCC-1.5-MMAX/short/973_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "dużego obszaru geograficznego zwanego Wyżyną Lubelską",
+        "tej wyżyny",
+        "Wyżyny Lubelskiej"
+      ]
+    },
+    {
+      "id": 406,
+      "doc": "input_data/PCC-1.5-MMAX/short/3010_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Gadajże",
+        "Ja sam"
+      ]
+    },
+    {
+      "id": 407,
+      "doc": "input_data/PCC-1.5-MMAX/short/460_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "nasza córka",
+        "Cecylka"
+      ]
+    },
+    {
+      "id": 408,
+      "doc": "input_data/PCC-1.5-MMAX/short/226_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "katowickim Osiedlu Ptasim",
+        "Osiedlu Ptasim",
+        "tu"
+      ]
+    },
+    {
+      "id": 409,
+      "doc": "input_data/PCC-1.5-MMAX/short/3462_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Luksemburg",
+        "całego księstwa",
+        "tu",
+        "Luksemburga",
+        "księstwie",
+        "najbogatszy kraj UE"
+      ]
+    },
+    {
+      "id": 410,
+      "doc": "input_data/PCC-1.5-MMAX/short/379_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Adam Małysz",
+        "Polaka",
+        "Adamem Małyszem"
+      ]
+    },
+    {
+      "id": 411,
+      "doc": "input_data/PCC-1.5-MMAX/short/128_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Chorzy",
+        "my , pacjenci",
+        "Protestujący"
+      ]
+    },
+    {
+      "id": 412,
+      "doc": "input_data/PCC-1.5-MMAX/short/234_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "ustawy"
+      ]
+    },
+    {
+      "id": 413,
+      "doc": "input_data/PCC-1.5-MMAX/short/1817_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Chleba"
+      ]
+    },
+    {
+      "id": 414,
+      "doc": "input_data/PCC-1.5-MMAX/short/3249_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "spółce Med-Serwis",
+        "Med-Serwis",
+        "spółki",
+        "Med-Serwisie",
+        "własnych"
+      ]
+    },
+    {
+      "id": 415,
+      "doc": "input_data/PCC-1.5-MMAX/short/2620_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "zdjęciu",
+        "portrecie",
+        "Fotografia ślubna"
+      ]
+    },
+    {
+      "id": 416,
+      "doc": "input_data/PCC-1.5-MMAX/short/2791_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Gnome"
+      ]
+    },
+    {
+      "id": 417,
+      "doc": "input_data/PCC-1.5-MMAX/short/2469_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Nasza redakcyjna ekipa pod nazwą „ Wieczór o poranku ”",
+        "ekipy „ Wieczoru Wybrzeża ”"
+      ]
+    },
+    {
+      "id": 418,
+      "doc": "input_data/PCC-1.5-MMAX/short/531_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "WicemarszalekKrzysztofPutra",
+        "Panie Marszałku"
+      ]
+    },
+    {
+      "id": 419,
+      "doc": "input_data/PCC-1.5-MMAX/short/2730_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Śliczna Greta , w krwi której na pewno płynie odrobina krwi cocker-spaniela"
+      ]
+    },
+    {
+      "id": 420,
+      "doc": "input_data/PCC-1.5-MMAX/short/3123_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Kobieta II",
+        "Pani",
+        "pami ? tam"
+      ]
+    },
+    {
+      "id": 421,
+      "doc": "input_data/PCC-1.5-MMAX/short/2918_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "chory",
+        "pan",
+        "Turek"
+      ]
+    },
+    {
+      "id": 422,
+      "doc": "input_data/PCC-1.5-MMAX/short/2934_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "samym sobą",
+        "Drogi kolego"
+      ]
+    },
+    {
+      "id": 423,
+      "doc": "input_data/PCC-1.5-MMAX/short/2850_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Postaw",
+        "A . S ."
+      ]
+    },
+    {
+      "id": 424,
+      "doc": "input_data/PCC-1.5-MMAX/short/2137_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Książę",
+        "dziecka",
+        "księcia"
+      ]
+    },
+    {
+      "id": 425,
+      "doc": "input_data/PCC-1.5-MMAX/short/2778_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "osoba taka",
+        "bedzie"
+      ]
+    },
+    {
+      "id": 426,
+      "doc": "input_data/PCC-1.5-MMAX/short/3327_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "prezydent",
+        "Putina"
+      ]
+    },
+    {
+      "id": 427,
+      "doc": "input_data/PCC-1.5-MMAX/short/456_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "król Franków , Teodory",
+        "Król",
+        "król Teodoryk"
+      ]
+    },
+    {
+      "id": 428,
+      "doc": "input_data/PCC-1.5-MMAX/short/103_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "samą sobą"
+      ]
+    },
+    {
+      "id": 429,
+      "doc": "input_data/PCC-1.5-MMAX/short/3213_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp1",
+        "Marku"
+      ]
+    },
+    {
+      "id": 430,
+      "doc": "input_data/PCC-1.5-MMAX/short/1822_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Zakład Utylizacji Odpadów Malex w Zgierzu",
+        "Zakład",
+        "Maleksu",
+        "firmie",
+        "Malex",
+        "firmie Malex"
+      ]
+    },
+    {
+      "id": 431,
+      "doc": "input_data/PCC-1.5-MMAX/short/3260_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Drogowcy",
+        "drogowców"
+      ]
+    },
+    {
+      "id": 432,
+      "doc": "input_data/PCC-1.5-MMAX/short/2110_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "pewien chłopiec"
+      ]
+    },
+    {
+      "id": 433,
+      "doc": "input_data/PCC-1.5-MMAX/short/501_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "ich państwa",
+        "Rosji",
+        "Rosja"
+      ]
+    },
+    {
+      "id": 434,
+      "doc": "input_data/PCC-1.5-MMAX/short/155_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "profesorem Karolem Koranyim"
+      ]
+    },
+    {
+      "id": 435,
+      "doc": "input_data/PCC-1.5-MMAX/short/252_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Gustaw Herling - Grudziński",
+        "on , który swe dzieło wywodził z bezsennego czuwania",
+        "on , który uważał , że prawda ludzkich doznań , namiętności i nadziei objawia się w czas walki światła z cieniem , „ drżącego , konwulsyjnego niemal splotu tego , co widzialne i niewidzialne ”",
+        "Herlinga"
+      ]
+    },
+    {
+      "id": 436,
+      "doc": "input_data/PCC-1.5-MMAX/short/1364_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "spacerujące po ścianie winniczki",
+        "ślimaków",
+        "tłuste , czarne ciała",
+        "winniczków , które czepiały się chropawej ściany podmurówki , _ właziły na siebie , produkowały jeszcze więcej śluzu i wzajemnie strącały się w trawę"
+      ]
+    },
+    {
+      "id": 437,
+      "doc": "input_data/PCC-1.5-MMAX/short/3217_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp1"
+      ]
+    },
+    {
+      "id": 438,
+      "doc": "input_data/PCC-1.5-MMAX/short/2766_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "węzeł gordyjski",
+        "skomplikowanym węzłem",
+        "ów węzeł"
+      ]
+    },
+    {
+      "id": 439,
+      "doc": "input_data/PCC-1.5-MMAX/short/53_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "moge",
+        "Pozdrawiem",
+        "spedzisz"
+      ]
+    },
+    {
+      "id": 440,
+      "doc": "input_data/PCC-1.5-MMAX/short/3066_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Upragniony stały ląd , twardy grunt czasu przeszłego , na którym może się oprzeć stopa narratora"
+      ]
+    },
+    {
+      "id": 441,
+      "doc": "input_data/PCC-1.5-MMAX/short/2744_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "jego",
+        "nim"
+      ]
+    },
+    {
+      "id": 442,
+      "doc": "input_data/PCC-1.5-MMAX/short/256_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "król",
+        "króla",
+        "Sam Jagiełło",
+        "Jagiełło"
+      ]
+    },
+    {
+      "id": 443,
+      "doc": "input_data/PCC-1.5-MMAX/short/1811_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "harmonii",
+        "Harmonia"
+      ]
+    },
+    {
+      "id": 444,
+      "doc": "input_data/PCC-1.5-MMAX/short/3011_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "kierowcy"
+      ]
+    },
+    {
+      "id": 445,
+      "doc": "input_data/PCC-1.5-MMAX/short/166_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "osób zajmujących kierownicze stanowiska państwowe",
+        "Osobom zajmującym kierownicze stanowiska państwowe , wymienionym w art . 2",
+        "tych osób"
+      ]
+    },
+    {
+      "id": 446,
+      "doc": "input_data/PCC-1.5-MMAX/short/2826_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Punktu Aktywności Lokalnej",
+        "PAL"
+      ]
+    },
+    {
+      "id": 447,
+      "doc": "input_data/PCC-1.5-MMAX/short/2149_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Przyjaciel",
+        "Przyjacielowi"
+      ]
+    },
+    {
+      "id": 448,
+      "doc": "input_data/PCC-1.5-MMAX/short/2678_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "obcokrajowca",
+        "Duńczyka",
+        "zagraniczny turysta",
+        "Turysta z Danii",
+        "jej duński podopieczny",
+        "Obcokrajowiec",
+        "mężczyzna",
+        "turysta"
+      ]
+    },
+    {
+      "id": 449,
+      "doc": "input_data/PCC-1.5-MMAX/short/3047_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Janka",
+        "Janiku",
+        "Janek",
+        "mmam",
+        "mały"
+      ]
+    },
+    {
+      "id": 450,
+      "doc": "input_data/PCC-1.5-MMAX/short/390_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "pracy",
+        "pracę",
+        "pracą"
+      ]
+    },
+    {
+      "id": 451,
+      "doc": "input_data/PCC-1.5-MMAX/short/168_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "pana senatora"
+      ]
+    },
+    {
+      "id": 452,
+      "doc": "input_data/PCC-1.5-MMAX/long/199901190115_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Niemczech",
+        "Niemiec",
+        "jego kraju",
+        "Niemcy",
+        "państwa"
+      ]
+    },
+    {
+      "id": 453,
+      "doc": "input_data/PCC-1.5-MMAX/short/286_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Tomek",
+        "nie miał",
+        "Przyglądał się",
+        "Zrywał się",
+        "Puszczał się"
+      ]
+    },
+    {
+      "id": 454,
+      "doc": "input_data/PCC-1.5-MMAX/short/653_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Iran",
+        "Iranu",
+        "własnej",
+        "Iranem"
+      ]
+    },
+    {
+      "id": 455,
+      "doc": "input_data/PCC-1.5-MMAX/short/3228_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Rafała Blechacza , który - oczywiście - zablokuje wszystkie inne nominacje",
+        "tego pianistę",
+        "Blechaczem",
+        "Rafał Blechacz",
+        "Student Akademii Muzycznej w Bydgoszczy",
+        "Zdobywca m . in . II nagrody na IV Międzynarodowym Konkursie Pianistycznym w Hamamatsu w Japonii I nagrody na IV Międzynarodowym Konkursie Pianistycznym w Maroku"
+      ]
+    },
+    {
+      "id": 456,
+      "doc": "input_data/PCC-1.5-MMAX/short/614_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Margot Kluczycka , matka pani Marii",
+        "Leżę",
+        "Pani Margot"
+      ]
+    },
+    {
+      "id": 457,
+      "doc": "input_data/PCC-1.5-MMAX/short/2713_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "pana Aleksandra Wysoczańskiego",
+        "hodowca",
+        "specjalizuję się",
+        "pan Aleksander",
+        "legniczanina"
+      ]
+    },
+    {
+      "id": 458,
+      "doc": "input_data/PCC-1.5-MMAX/short/2557_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Ludzie"
+      ]
+    },
+    {
+      "id": 459,
+      "doc": "input_data/PCC-1.5-MMAX/short/2672_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "bajki",
+        "„ Shrek 2 ”",
+        "drugiej części",
+        "„ Shreka 2 ”",
+        "drugiej części , , Shreka ’ ’"
+      ]
+    },
+    {
+      "id": 460,
+      "doc": "input_data/PCC-1.5-MMAX/short/2225_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "polem magnetycznym",
+        "pola magnetycznego",
+        "polu magnetycznym",
+        "magnetycznego",
+        "pole magnetyczne"
+      ]
+    },
+    {
+      "id": 461,
+      "doc": "input_data/PCC-1.5-MMAX/short/3094_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "pani Ignacowej"
+      ]
+    },
+    {
+      "id": 462,
+      "doc": "input_data/PCC-1.5-MMAX/short/2478_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "zdenerwowany mężczyzna , którego spotykamy w chwili , gdy _ wychodzi z jednej z bardziej znanych warszawskich agencji towarzyskich"
+      ]
+    },
+    {
+      "id": 463,
+      "doc": "input_data/PCC-1.5-MMAX/short/347_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Mazowieckie Święto Chleba",
+        "Imprezę",
+        "święto Chleba",
+        "Mazowieckiego Święta Chleba",
+        "Święta Chleba",
+        "Impreza",
+        "uroczystościach",
+        "tegorocznego Mazowieckiego Święta Chleba w Węgrowie"
+      ]
+    },
+    {
+      "id": 464,
+      "doc": "input_data/PCC-1.5-MMAX/short/2452_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Willie Banks , rekordzista świata i były mistrz olimpijski w trójskoku",
+        "Banks",
+        "Banksie"
+      ]
+    },
+    {
+      "id": 465,
+      "doc": "input_data/PCC-1.5-MMAX/short/2793_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Zamyślona",
+        "moge",
+        "jestes",
+        "dostalas",
+        "zrobilas"
+      ]
+    },
+    {
+      "id": 466,
+      "doc": "input_data/PCC-1.5-MMAX/short/2371_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "szatni",
+        "przebieralni",
+        "Nowe"
+      ]
+    },
+    {
+      "id": 467,
+      "doc": "input_data/PCC-1.5-MMAX/short/2156_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sobie",
+        "Cię",
+        "siebie"
+      ]
+    },
+    {
+      "id": 468,
+      "doc": "input_data/PCC-1.5-MMAX/short/579_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "tygodniu"
+      ]
+    },
+    {
+      "id": 469,
+      "doc": "input_data/PCC-1.5-MMAX/short/2513_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Hutnikiem Kraków",
+        "Hutnika",
+        "krakowian",
+        "Hutnik"
+      ]
+    },
+    {
+      "id": 470,
+      "doc": "input_data/PCC-1.5-MMAX/short/588_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "rządowego Tu-154M",
+        "samolotu",
+        "Tu-154M",
+        "samolocie",
+        "rządowego samolotu"
+      ]
+    },
+    {
+      "id": 471,
+      "doc": "input_data/PCC-1.5-MMAX/short/1134_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "nas"
+      ]
+    },
+    {
+      "id": 472,
+      "doc": "input_data/PCC-1.5-MMAX/short/3180_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp1",
+        "pani",
+        "kochanie"
+      ]
+    },
+    {
+      "id": 473,
+      "doc": "input_data/PCC-1.5-MMAX/short/185_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Krakowskie MPK",
+        "miejskiego przewoźnika",
+        "krakowskiego MPK"
+      ]
+    },
+    {
+      "id": 474,
+      "doc": "input_data/PCC-1.5-MMAX/short/3145_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sp3"
+      ]
+    },
+    {
+      "id": 475,
+      "doc": "input_data/PCC-1.5-MMAX/short/2377_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "znajomego",
+        "właściciela baru",
+        "Właściciel",
+        "Pan Mikołajczak",
+        "własną",
+        "Mikołajczak"
+      ]
+    },
+    {
+      "id": 476,
+      "doc": "input_data/PCC-1.5-MMAX/short/3633_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "wielkich hoteli",
+        "obiekty noclegowe"
+      ]
+    },
+    {
+      "id": 477,
+      "doc": "input_data/PCC-1.5-MMAX/short/2774_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Karolina Pilewska"
+      ]
+    },
+    {
+      "id": 478,
+      "doc": "input_data/PCC-1.5-MMAX/short/561_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "deuteronie",
+        "deuteronu"
+      ]
+    },
+    {
+      "id": 479,
+      "doc": "input_data/PCC-1.5-MMAX/short/2551_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Tadeusz Klebba",
+        "Ja , Tadeusz Klebba"
+      ]
+    },
+    {
+      "id": 480,
+      "doc": "input_data/PCC-1.5-MMAX/short/46_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "pielęgniarek"
+      ]
+    },
+    {
+      "id": 481,
+      "doc": "input_data/PCC-1.5-MMAX/short/265_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "mi",
+        "mnie"
+      ]
+    },
+    {
+      "id": 482,
+      "doc": "input_data/PCC-1.5-MMAX/short/2629_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "nas"
+      ]
+    },
+    {
+      "id": 483,
+      "doc": "input_data/PCC-1.5-MMAX/short/3493_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Krakon",
+        "Krakonu",
+        "\" Krakon \"",
+        "\" Krakonu \""
+      ]
+    },
+    {
+      "id": 484,
+      "doc": "input_data/PCC-1.5-MMAX/short/2574_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "miasto",
+        "własnym",
+        "Poznań",
+        "Poznania"
+      ]
+    },
+    {
+      "id": 485,
+      "doc": "input_data/PCC-1.5-MMAX/short/1938_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "WicemarszalekAndrzejChronowski"
+      ]
+    },
+    {
+      "id": 486,
+      "doc": "input_data/PCC-1.5-MMAX/short/2518_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Karola Jączkowskiego",
+        "Karol",
+        "Karolowi",
+        "Karola"
+      ]
+    },
+    {
+      "id": 487,
+      "doc": "input_data/PCC-1.5-MMAX/short/623_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "czescy leśnicy",
+        "leśnicy czescy",
+        "Czescy sąsiedzi"
+      ]
+    },
+    {
+      "id": 488,
+      "doc": "input_data/PCC-1.5-MMAX/short/946_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Rybniczanie",
+        "kadry ratowniczej",
+        "rybnicka drużyna"
+      ]
+    },
+    {
+      "id": 489,
+      "doc": "input_data/PCC-1.5-MMAX/short/251_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Jezusa",
+        "Jezus"
+      ]
+    },
+    {
+      "id": 490,
+      "doc": "input_data/PCC-1.5-MMAX/short/695_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Bombowy młody chemik",
+        "Wiktor W . , uczeń szkoły średniej w Radomsku",
+        "młodego radomszczanina",
+        "Uczeń szkoły średniej",
+        "chemika",
+        "Ich właściciela , ucznia Zespołu Szkół Drzewnych i Ochrony Środowiska",
+        "18-letni Wiktor W ."
+      ]
+    },
+    {
+      "id": 491,
+      "doc": "input_data/PCC-1.5-MMAX/short/185_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "poznańskich kontrolerów",
+        "Pracownicy MPK , którzy zajmują się sprawdzaniem biletów w poznańskich pojazdach",
+        "kontrolerów MPK"
+      ]
+    },
+    {
+      "id": 492,
+      "doc": "input_data/PCC-1.5-MMAX/short/3247_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Koszykarki RMKS UTEX",
+        "podopieczne trenera Mirosława Orczyka , które w turnieju finałowym o awans do ekstraklasy nie przegrały żadnego meczu i w przyszłym sezonie rywalizować będą w najwyższej klasie rozgrywkowej koszykówki kobiet",
+        "Dziewczyny z charakterem",
+        "jego podopieczne",
+        "rybniczankom , które musiały się napracować , żeby wygrać to spotkanie",
+        "zupełnie odmieniony zespół RMKS-u",
+        "RMKS UTEX Rybnik"
+      ]
+    },
+    {
+      "id": 493,
+      "doc": "input_data/PCC-1.5-MMAX/short/2121_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "dysk CD-R",
+        "dysk CD",
+        "dysk",
+        "dysku CD-RW",
+        "dysku"
+      ]
+    },
+    {
+      "id": 494,
+      "doc": "input_data/PCC-1.5-MMAX/short/591_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "swoich mieszkań",
+        "mieszkań",
+        "mieszkania"
+      ]
+    },
+    {
+      "id": 495,
+      "doc": "input_data/PCC-1.5-MMAX/short/3537_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "wiele autorytetów",
+        "tak zwanych autorytetów",
+        "autorytetów"
+      ]
+    },
+    {
+      "id": 496,
+      "doc": "input_data/PCC-1.5-MMAX/short/2611_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sześciu uczniów kursu nauki jazdy razem ze swoim instruktorem"
+      ]
+    },
+    {
+      "id": 497,
+      "doc": "input_data/PCC-1.5-MMAX/short/3343_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Dziewczyn"
+      ]
+    },
+    {
+      "id": 498,
+      "doc": "input_data/PCC-1.5-MMAX/short/2433_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Gabinety",
+        "gabinety , jakimi dysponujemy"
+      ]
+    },
+    {
+      "id": 499,
+      "doc": "input_data/PCC-1.5-MMAX/short/3436_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "kredytobiorcę",
+        "kredytobiorcy"
+      ]
+    },
+    {
+      "id": 500,
+      "doc": "input_data/PCC-1.5-MMAX/short/2489_words.xml",
+      "variables": {
+        "text": "most_polish_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "kadry",
+        "zespołu",
+        "zespół",
+        "kadra"
+      ]
+    }
+  ]
+}

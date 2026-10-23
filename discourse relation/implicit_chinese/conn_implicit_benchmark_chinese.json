@@ -1,0 +1,5007 @@
+{
+  "task": "conn-implicit",
+  "lang": "chinese",
+  "example_prompt": "Implicit discourse connective refers to a logical connection between two discourse units (such as sentences or clauses) that is not explicitly marked by a discourse connective (e.g., “because”, “but”, “after”). Instead, the relation must be inferred by the reader or listener using contextual cues and general world knowledge.\n\nWhat is the most appropriate implicit discourse connective to link the following segments?\nHere are the options: and, 不过, 为了, 之后, 也, 也就是, 也就是说, 于是, 以后, 以至于, 以致于, 会导致, 但是, 例如, 具体来说, 即, 即使, 去, 反而, 另外, 只是, 可是, 后, 和, 因为, 因此, 如果, 导致了, 就是, 并, 并且, 当, 当时, 总之, 总的来说, 或者, 所以, 接着然后, 比如, 比如说, 然后, 然而, 甚至, 的时候, 相反, 确实, 结果, 而, 而且, 而是, 虽然, 这, 通过, 那一次, 那个时候, 那么, 那就是\nIf there is no appropriate implicit connective, answer: no implicit connective\n\nArg1: {{arg1}}\nArg2: {{arg2}}",
+  "instances": [
+    {
+      "id": 1,
+      "doc": "7",
+      "variables": {
+        "arg1": "不见得 每 张 报纸 都 是 说 你 的 好话 ， 也 有 非常 严厉 的 批评",
+        "arg2": "我的 家人 对我来说 是 一 个 很 大 的 支持"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 2,
+      "doc": "5",
+      "variables": {
+        "arg1": "你 怎么 能够 出乎 对方 意料 之外",
+        "arg2": "怎么 能够 争取 到 那个 “ 绝对 的 先 ”"
+      },
+      "answer_type": "string",
+      "answer": "也就是说"
+    },
+    {
+      "id": 3,
+      "doc": "1978",
+      "variables": {
+        "arg1": "她 一次 又 一次 地 射箭",
+        "arg2": "三 小时 就 这样 过去 了"
+      },
+      "answer_type": "string",
+      "answer": "然后"
+    },
+    {
+      "id": 4,
+      "doc": "7",
+      "variables": {
+        "arg1": "从 那天 开始 ， 那 是 我 的 第一 个 勇敢",
+        "arg2": "我 再 也 不怕 试镜 ， 我 再 也 不 怕 失败 ， 我 再 也 不 怕 被 刷掉"
+      },
+      "answer_type": "string",
+      "answer": "之后"
+    },
+    {
+      "id": 5,
+      "doc": "3",
+      "variables": {
+        "arg1": "试想 ， 一 个 从来 没有 失去 过 的 人 ， 他 对于 “ 拥有 ” 这 两 个 字 的 体会 ， 也 会 比较 有限",
+        "arg2": "我们 与生俱来 ， 有 这么 多 不 一样 的 情绪"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 6,
+      "doc": "1756",
+      "variables": {
+        "arg1": "我的 问题 是 ， 我们 是 如何 实现 这 种 态度 的 转变",
+        "arg2": "曾经 的 疾病 是 如何 成为 现在 的 一 种 身份 认同"
+      },
+      "answer_type": "string",
+      "answer": "就是"
+    },
+    {
+      "id": 7,
+      "doc": "824",
+      "variables": {
+        "arg1": "它 是 一 个 很 大 的 ， 很 酷 的 ， 很 TED 的 机器",
+        "arg2": "它 是 一 个 时间 机器"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 8,
+      "doc": "7",
+      "variables": {
+        "arg1": "这 已经 不 是 权力 ， 不 是 背景 ， 不 是 任何 一切 可以 帮助 的",
+        "arg2": "唯一 可以 帮助 我 的 人 就是 我 自己"
+      },
+      "answer_type": "string",
+      "answer": "而"
+    },
+    {
+      "id": 9,
+      "doc": "12",
+      "variables": {
+        "arg1": "我 跟 你 讲 ， 那个 7 、 13 、 5 留 下来 ， 那 是 王牌",
+        "arg2": "小朋友 没 什么 ， 他们 的 悄悄 话 超级 大声 的"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 10,
+      "doc": "10",
+      "variables": {
+        "arg1": "前院 跟 后院 都 有 草坪",
+        "arg2": "爸爸 要 给 草坪 施肥 之前 ， 都 会 先 把 杂草 拔掉"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 11,
+      "doc": "1978",
+      "variables": {
+        "arg1": "10 环 在 75 码 之外 ， 看上去 和 一 臂 以外 的 火柴 头 一般 大小 ，\n而且 每次 发射 都 要 发力 50 磅",
+        "arg2": "那个 弓箭手 第 一次 射中 了 7 环 ， 我 记得 接下来 是 个 9 环 ， 然后 是 2 个 10 环 ， 接下来 的 那支 箭 却 没有 射到 靶上"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 12,
+      "doc": "5",
+      "variables": {
+        "arg1": "当 你 遇到 一 个 人生 难关 的 时候 ， 请 相信 我 ， 你 绝对 不 是 历史 上 第一 个 碰到 这个 难题 的 人 吧",
+        "arg2": "在 你 过去 有 无数 人 面对 和 你 一样 的 难关 ， 他们 用 什么 心态 去 面对 ， 他们 如何 解决 他们 的 问题"
+      },
+      "answer_type": "string",
+      "answer": "也就是说"
+    },
+    {
+      "id": 13,
+      "doc": "6",
+      "variables": {
+        "arg1": "他 很 爱 他 的 父母亲 。\n他 知道 身体 发肤 受之 父母",
+        "arg2": "只有 一 个 真的 爱 父母亲 ， 真的 敬畏 父母亲 的 时候 ， 知道 他们 一生 的 辛苦 ， 知道 他们 一生 的 辛劳 ， 知道 多么 不容易 把 生命 传给 了 我们"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 14,
+      "doc": "1756",
+      "variables": {
+        "arg1": "有 垂直 身份 认同",
+        "arg2": "从 父母 到 孩子 ， 代代相传 。\n也 有 像 是 种族 ， 国际 ， 语言 ， 宗教"
+      },
+      "answer_type": "string",
+      "answer": "比如"
+    },
+    {
+      "id": 15,
+      "doc": "769",
+      "variables": {
+        "arg1": "诗 的 作者 是 十四 世纪 的 波斯 诗人 哈菲斯",
+        "arg2": "这 首 诗 是 我 的 一 个 朋友 ， 雅克 • 邓波 讲给 我 的"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 16,
+      "doc": "6",
+      "variables": {
+        "arg1": "当 我 自己 走在 婚姻 的 道路 上 的 时候 ， 我 才 看见 原来 我 在 那个 冰山 的 底层 ， 有 多 大 一 部分 的 我 是 我 不 认识 的",
+        "arg2": "当 我 发起 怒 来 的 时候 ， 我 讲起 那个 话 真的 很 难听"
+      },
+      "answer_type": "string",
+      "answer": "以至于"
+    },
+    {
+      "id": 17,
+      "doc": "7",
+      "variables": {
+        "arg1": "我 冲到 楼下",
+        "arg2": "打 公共 电话 给 我 的 老师 Ross Parkers"
+      },
+      "answer_type": "string",
+      "answer": "去"
+    },
+    {
+      "id": 18,
+      "doc": "1756",
+      "variables": {
+        "arg1": "我 丈夫 和 我 有 个 儿子 ， 和 我们 一起 生活 ， 我 是 他 的 生父",
+        "arg2": "为 我们 代孕 的 女士 是 劳拉"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 19,
+      "doc": "824",
+      "variables": {
+        "arg1": "不久 之后 ， 我 写 了 一 个 关于 转基因 食物 的 文章",
+        "arg2": "又是 收到 了 大量 的 反对 ，"
+      },
+      "answer_type": "string",
+      "answer": "然后"
+    },
+    {
+      "id": 20,
+      "doc": "6",
+      "variables": {
+        "arg1": "到底 我 发生 了 什么",
+        "arg2": "因此 ， 这 在 过去 的 30年 里面 , 我 刚刚 在 讲 ， 我 发现 回家 才 是 觉醒 的 第一 步"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 21,
+      "doc": "5",
+      "variables": {
+        "arg1": "大汉 四百 年 的 帝业 就 来自于 老父 教给 张良 “ 忍 ” 和 “ 先 ” 的 应用",
+        "arg2": "我们 回到 一 开始 的 问题 吧 ， 帝王 和 领袖们 为什么 要 学 历史"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 22,
+      "doc": "5",
+      "variables": {
+        "arg1": "当 我 深入 思考 这个 问题 以后 ， 我 突然 发现 一 件 很 有趣 的 问题",
+        "arg2": "在 古代 ， 帝王 和 精英们 都 要 学 历史 ， 而且 他们 都 觉得 学 历史 很 有用 。\n到了 今天 ， 我们 所有 人 从 小学 就 开始 学 历史 ， 可是 我们 往往 都 不 知道 学 历史 有 什么 用"
+      },
+      "answer_type": "string",
+      "answer": "就是"
+    },
+    {
+      "id": 23,
+      "doc": "824",
+      "variables": {
+        "arg1": "这 也 是 一 个 愚蠢 的 争辩",
+        "arg2": "我们 必须 停止 这样 的 争辩 了"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 24,
+      "doc": "7",
+      "variables": {
+        "arg1": "你 会 非常 专注 的 学习 ， 透过 你 的 视觉 ， 透过 你 的 听觉 ， 虽然 你 听不懂 不 知道 那 是 什么",
+        "arg2": "在 纽约 ， 对 我 来讲 ， 有 一 个 很 温暖 的 事情 就是 每天 的 早餐车"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 25,
+      "doc": "824",
+      "variables": {
+        "arg1": "我 也 是 花 了 一 段 时间 才 领悟 出来 的",
+        "arg2": "大约 十 年 前 ， 我 给 《 纽约客 》 写 了 一 个 故事 ， 一 个 关于 疫苗 小 故事"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 26,
+      "doc": "1978",
+      "variables": {
+        "arg1": "其中 一 幅 ， 事实上 ， 远 没有 满足 她 的 要求",
+        "arg2": "她 把 它 扔进 了 公寓 的 垃圾箱 里"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 27,
+      "doc": "1",
+      "variables": {
+        "arg1": "我 相信 每 一 个 人 心中 都 有 一 把 尺",
+        "arg2": "这 把 尺 为 你 的 品德 做 导航"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 28,
+      "doc": "3",
+      "variables": {
+        "arg1": "所有 的 感觉 都 是 OK 的",
+        "arg2": "并 不 是 所有 的 认知 都 是 正确 的 、 所有 的 行为 都 是 可以 接受 的"
+      },
+      "answer_type": "string",
+      "answer": "虽然"
+    },
+    {
+      "id": 29,
+      "doc": "1756",
+      "variables": {
+        "arg1": "该 机构 发展 为 库克 中心",
+        "arg2": "现在 有 成千上万 的 智障 儿童 在 这里 接受 教育"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 30,
+      "doc": "837",
+      "variables": {
+        "arg1": "他们 讨论 一阵",
+        "arg2": "勾勒 出 结果 会 是 什么 样子"
+      },
+      "answer_type": "string",
+      "answer": "然后"
+    },
+    {
+      "id": 31,
+      "doc": "824",
+      "variables": {
+        "arg1": "人类 的 想象力 还给 地球 带来 了 巨大 的 垃圾",
+        "arg2": "饮用水 、 可 耕地 、 热带 雨林 、 石油 、 天然气 ， 这些 资源 都 在 消失"
+      },
+      "answer_type": "string",
+      "answer": "而且"
+    },
+    {
+      "id": 32,
+      "doc": "1971",
+      "variables": {
+        "arg1": "在 这个 国家 ， 战争 和 残害 他人 不再 是 夺取 权力 的 策略",
+        "arg2": "当 我 看到 我 认识 、 关心 的 人们 ， 从 战争 的 废墟 中 恢复 生气 ， 有 一 件 事 令 我 非常 烦恼 ， 那就是 ， 国内 很多 被 截肢 者 ， 无法 使用 他们 的 假肢"
+      },
+      "answer_type": "string",
+      "answer": "但是"
+    },
+    {
+      "id": 33,
+      "doc": "1978",
+      "variables": {
+        "arg1": "其中 一 个 弓箭手 精疲力竭 地 躺在 地上 ， 像 只 海星",
+        "arg2": "她 仰头 望 天 ， 试图 寻找 艾略特 所 说 的 ， 转动 不息 的 世界 里 的 静止 点"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 34,
+      "doc": "769",
+      "variables": {
+        "arg1": "当 我们 让 孩子们 觉得 自己 没有 适应 环境 的 能力 时 ， 我们 实际上 伤害 了 他们",
+        "arg2": "从 医学 的 角度 客观地 判断 我 是否 是 一 个 残疾人 ， 从 社会 的 角度 主观 地 去 考虑 我 是否 是 一 个 “ 残疾人 ” ， 这 两 者 间 有 很 大 的 差别"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 35,
+      "doc": "3",
+      "variables": {
+        "arg1": "好像 就 变成 了 二 等 公民",
+        "arg2": "讲的 话 再 有 理 也 没有 用了"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 36,
+      "doc": "5",
+      "variables": {
+        "arg1": "不好意思 ， 只有 十八 分钟 ， 没有 太 多 时间",
+        "arg2": "想 清楚 了 ， 我们 现在 看 张良 怎么办"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 37,
+      "doc": "1971",
+      "variables": {
+        "arg1": "残疾 ， 在 这个 时代 ， 不 能 阻挡 任何 人 过 有意义 的 生活",
+        "arg2": "我的 追求 和 理想 是 ， 我们 研究组 所 开发 的 工具 和 加工 方法 ， 可以 为 那些 有 需求 的 人们 带来 高 功能性 的 假肢"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 38,
+      "doc": "824",
+      "variables": {
+        "arg1": "要 问 几 个 问题",
+        "arg2": "要 索求 证明 和 证据"
+      },
+      "answer_type": "string",
+      "answer": "并且"
+    },
+    {
+      "id": 39,
+      "doc": "837",
+      "variables": {
+        "arg1": "我 相信 ， 最 根本 的 教意 是 ： 设计 其实 是 一 种 接触 型 运动",
+        "arg2": "它 要求 我们 把 我们 所有 的 神志 都 放到 任务 中"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 40,
+      "doc": "1756",
+      "variables": {
+        "arg1": "当 我 问 儿科 医生 这 是 怎么 回 事 ， 她 说 ， 她 觉得 早上 他 可能 抽筋 了",
+        "arg2": "我 认为 我 的 母亲 是 正确 的"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 41,
+      "doc": "1",
+      "variables": {
+        "arg1": "结果 呢 ， 我们 那 一 次 呢 就 再接再厉 ， 我们 分享 了 世界 经验 的 一些 小册子 ， 然后 跟 客户 提供 一些 怎么样 ， 怎么样 去 抵抗 这 种 经济 衰退 的 一些 行销 的 诀窍 ， 然后 跟 顾客 渡过 难关",
+        "arg2": "我 记得 啊 ， Peter Druckers 管理 大师 讲过 ， 人生 必须 经过 三次 全球 不 景气 ， 各位 才 算 成熟"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 42,
+      "doc": "1971",
+      "variables": {
+        "arg1": "我 在 塞拉利昂 出生 长大",
+        "arg2": "这 是 一 个 小 而 美丽 的 国家 ， 位于 非洲 的 西部 ， 这里 有 丰富 的 物产 资源 和 富有 创造力 的 人才"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 43,
+      "doc": "7",
+      "variables": {
+        "arg1": "我 有 一 个 弟弟 在 晚了 十三 年 之后 才 到 我们 家 报到",
+        "arg2": "我 的 爸爸 妈妈 都 不 是 受过 非常 高等 教育 的 父母亲"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 44,
+      "doc": "3",
+      "variables": {
+        "arg1": "更 没有 这 样子 的 机会 ， 让 她 在 大脑 当中 ， 重新 建立 这样 的 回路",
+        "arg2": "这 是 一 张 大脑 的 图 ， 刚刚 之前 你们 已经 看 过 了"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 45,
+      "doc": "12",
+      "variables": {
+        "arg1": "我 就 永远 记得 那 时候",
+        "arg2": "我 的 谢师宴 的 时候 ， 老师 跟 我 讲 这 一 句 ， 他 说 ， “ 花圃 中 的 草 ， 长得 比较 高 的 那个 ， 总是 被 割掉 的 那个 。 ” \n我"
+      },
+      "answer_type": "string",
+      "answer": "然后"
+    },
+    {
+      "id": 46,
+      "doc": "1756",
+      "variables": {
+        "arg1": "他 达到 了 他 家庭 内 任何 成员 都 从未 达到 过 的 高度",
+        "arg2": "他 是 他 的 家庭 成员 里 第一 个 去 上 大学 的 人"
+      },
+      "answer_type": "string",
+      "answer": "那就是"
+    },
+    {
+      "id": 47,
+      "doc": "769",
+      "variables": {
+        "arg1": "因为 正值 夏天 ，\n我 穿 的 是 短裤",
+        "arg2": "在 我 的 身后 传来 了 一 个 男子 的 声音 ， “ 唉 ？ 这 不 是 艾米 • 慕林斯 么 ？ ”"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 48,
+      "doc": "824",
+      "variables": {
+        "arg1": "这 是 个 很 了不起 的 事实 啊",
+        "arg2": "为什么 会 出现 这样 的 事实 呢"
+      },
+      "answer_type": "string",
+      "answer": "但是"
+    },
+    {
+      "id": 49,
+      "doc": "12",
+      "variables": {
+        "arg1": "长大 做 错事 只是 换个 名字 ， 换个 处室",
+        "arg2": "我 就 走 进去"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 50,
+      "doc": "1971",
+      "variables": {
+        "arg1": "我 和 休·海恩 教授 见面",
+        "arg2": "那 是 在 大约 两 年 半 前"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 51,
+      "doc": "824",
+      "variables": {
+        "arg1": "我们 也 不 想 让 大 公司 垄断 种子",
+        "arg2": "你 能 猜想 我 对 这些 反对 意见 的 回应 吗"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 52,
+      "doc": "2150",
+      "variables": {
+        "arg1": "如此 我们 拥有 这些 数据",
+        "arg2": "这 是 非常 丰富 的 数据集 ， 我们 现在 针对 城市 所 拥有 的 ， 甚至 比 我们 过往 拥有 的 任何 数据集 更 丰富"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 53,
+      "doc": "3",
+      "variables": {
+        "arg1": "海马回 负责 记忆",
+        "arg2": "就 会 下载 跟 这些 情境 相关 的 一些 记忆"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 54,
+      "doc": "3",
+      "variables": {
+        "arg1": "就 会 下载 跟 这些 情境 相关 的 一些 记忆 ， 把 它 送到 杏仁 核 去 做 比对",
+        "arg2": "杏仁核 里面 所 储存 的 是 我们 过去 紧急 跟 害怕 的 经验"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 55,
+      "doc": "3",
+      "variables": {
+        "arg1": "这 是 每 一 个 人 ， 经常性 都会 有的",
+        "arg2": "你们 看到 这 六 种 情绪 ， 能够 回答 我 ， 甚至 回答 你 自己 ， 你 最近 一 次 经历 这个 情绪 ， 是 什么 时候 吗"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 56,
+      "doc": "824",
+      "variables": {
+        "arg1": "人们 总是 喜欢 把 自己 放在 自己 的 理念 框架 里 ， 他们 把 自己 包 得 那么 死",
+        "arg2": "往往 无法 脱身"
+      },
+      "answer_type": "string",
+      "answer": "以至于"
+    },
+    {
+      "id": 57,
+      "doc": "1756",
+      "variables": {
+        "arg1": "在 得知 他们 第一 个 孩子 患有 唐氏 综合症 时 大为 惊讶",
+        "arg2": "他们 认为 儿子 并 未 得到 应有 的 教育"
+      },
+      "answer_type": "string",
+      "answer": "然后"
+    },
+    {
+      "id": 58,
+      "doc": "12",
+      "variables": {
+        "arg1": "嗨 ， 大家 好 ， 没 想到 还是 被 破梗",
+        "arg2": "我 相信 所有 人 站到 这 台 上 ， 第一 件 事 都 是 满满 的 感谢"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 59,
+      "doc": "5",
+      "variables": {
+        "arg1": "老师 教 会 了 我 什么 是 中国 真正 的 学问",
+        "arg2": "教会 了 我 原来 帝王 之 家 给 自己 子弟 的 教育 和 给 平民 子弟 的 教育 ， 是 完全 不 一样 的"
+      },
+      "answer_type": "string",
+      "answer": "并且"
+    },
+    {
+      "id": 60,
+      "doc": "769",
+      "variables": {
+        "arg1": "今天 ， 我 常常 在 思考 ， P 医生 当年 的 视野 ， 以及 他 给 我 的 “ 强壮 的 小姑娘 ” 这 一 称谓 ， 对 我 自我 认知 的 影响 有 多么 大 ， 现如今 ， 我 已经 能 认识 到 我的 内在 是 强壮有力 的 ， 我 的 未来 一 片 光明",
+        "arg2": "P 医生 的 这个 例子 就 很 好 的 说明 了 ， 一 位 拥有 力量 的 成年人 能够 点燃 一 个 孩子 的 潜能"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 61,
+      "doc": "2150",
+      "variables": {
+        "arg1": "在 网络 上 的 另 一 端 ， 主要 为 非洲裔 和 拉丁裔 人",
+        "arg2": "他们 真正 关心 的 东西 与 怪才 关心 的 不同"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 62,
+      "doc": "12",
+      "variables": {
+        "arg1": "我们 老师 是 不 是 应该 尝试 新 东西",
+        "arg2": "如果 我们 老师 都 不 愿意 去 尝试 ， 我们 怎么 教会 小 朋友 创意"
+      },
+      "answer_type": "string",
+      "answer": "因为"
+    },
+    {
+      "id": 63,
+      "doc": "5",
+      "variables": {
+        "arg1": "他 是 长 跪 履 之",
+        "arg2": "张良 为什么 要 长跪 履之"
+      },
+      "answer_type": "string",
+      "answer": "但是"
+    },
+    {
+      "id": 64,
+      "doc": "6",
+      "variables": {
+        "arg1": "在 亲密 关系 当中 ， 我们 两 个 也 放下 了 输赢",
+        "arg2": "我 每次 有 争执 的 时候 ， 我 就 说 好 ， 算 你 赢 好 了 ， 他 就 闭嘴 了"
+      },
+      "answer_type": "string",
+      "answer": "具体来说"
+    },
+    {
+      "id": 65,
+      "doc": "3",
+      "variables": {
+        "arg1": "就 像 痛 的 感觉 一样",
+        "arg2": "之前 ， 我 在 做 紧急 救护 人员 ， 就是 在 救护车 上面 的 EMT ， emergency medical technician"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 66,
+      "doc": "1756",
+      "variables": {
+        "arg1": "我们 的 社会 进步 了 ， 医学 也 发展 了",
+        "arg2": "我 认同 这 两 方 面的 进步"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 67,
+      "doc": "1",
+      "variables": {
+        "arg1": "其实 这 两 个 没有 什么 对错 ， 就 不同 的 选择",
+        "arg2": "你 也 可以 先 当 宰相 再 去 当 国王"
+      },
+      "answer_type": "string",
+      "answer": "但是"
+    },
+    {
+      "id": 68,
+      "doc": "769",
+      "variables": {
+        "arg1": "面临 挑战 不失为 一 件 好事",
+        "arg2": "面对 逆境 ， 我们 不 应 把 它 当成 障碍 绕过 它 ， 从而 继续 我们 的 生活"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 69,
+      "doc": "10",
+      "variables": {
+        "arg1": "所以 ， 不要 为了 多 赢 ， 而 忘 了 自身 的 安危 ， 而 陷入 困境",
+        "arg2": "希望 大家 以后 有空 的 时候 也 可以 多多 认识 围棋"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 70,
+      "doc": "2150",
+      "variables": {
+        "arg1": "每 种 颜色 代表 网络 内 的 社区",
+        "arg2": "现在 ， 我 在 绿色 那 面 ， 也就是 ‘ 怪才 ’ 的 区域 ， 而 TEDx 也 在 最 右边"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 71,
+      "doc": "2150",
+      "variables": {
+        "arg1": "这 是 一 个 非常 异端 的 城市",
+        "arg2": "在 这里 有 为 政府 、 报纸 、 政治 或 专栏 工作 的 人们 。\nEDxRio 位 于 右下角 ， 在 博客 博主 和 作家 的 旁边 。\n在 这里 ， 不同 的 人 对 不同 类型 的 音乐 有 着 兴趣 。\n甚至 贾斯汀 • 比伯 的 粉丝 也 在 这里 。\n其他 男子 乐队 、 乡村 歌手 、 福音 音乐 、 放克 和 说唱 和 单口相声 ， 甚至 还 有 一 整 节 是 关于 毒品 和 笑话 。\n真的 很 酷 吧 ？\n然后 弗拉门戈 足球队 也 在 这里 。\n你们 能 有 同样 的 各 种 运动 ， 公民 ， 艺术 和 音乐 ， 但 它 以 一 个 非常 不同 的 方式 代表 ， 我 认为 ， 这 也许 与 我们 对 里约 的 理解 相符 ， 其为 一 个 文化 多元化 ， 音乐 多元化 的 城市"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 72,
+      "doc": "837",
+      "variables": {
+        "arg1": "Peter Skillman 介绍 了 一 个 设计 挑战",
+        "arg2": "叫做 “ 棉花糖 挑战 ”"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 73,
+      "doc": "5",
+      "variables": {
+        "arg1": "我的 第一 个 老师 是 毓老师",
+        "arg2": "毓老师 降生 于 满清 末年 ， 降生 于 帝王 之家 ， 从小 在 皇宫 读书"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 74,
+      "doc": "10",
+      "variables": {
+        "arg1": "因为 网络 无 国界 ， 我 得以 在 网上 和 亚洲 的 高手们 对弈 磨练",
+        "arg2": "在 我 14 岁 那 一 年 ， 我 做 了 一 件 比 读书 更 重要 的 事情"
+      },
+      "answer_type": "string",
+      "answer": "然后"
+    },
+    {
+      "id": 75,
+      "doc": "2150",
+      "variables": {
+        "arg1": "我们 能够 认出 他们 是 Twitter 的 员工",
+        "arg2": "就 在 怪才 的 旁边 ， 游戏 玩家 和 怪才 两 者 之间 ， 与 嘻哈族 相对 的 位置"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 76,
+      "doc": "5",
+      "variables": {
+        "arg1": "他 三 岁 死 了 爸爸",
+        "arg2": "十几 岁 死 了 妈妈"
+      },
+      "answer_type": "string",
+      "answer": "然后"
+    },
+    {
+      "id": 77,
+      "doc": "1978",
+      "variables": {
+        "arg1": "他 会 故意 把 它们 丢在 一边",
+        "arg2": "心里 想 着 一会 再 捡 回来"
+      },
+      "answer_type": "string",
+      "answer": "并且"
+    },
+    {
+      "id": 78,
+      "doc": "2009",
+      "variables": {
+        "arg1": "他们 跳上 运货 火车 ， 伸出 大拇指",
+        "arg2": "在 高速 路上 随便 找人 搭便车"
+      },
+      "answer_type": "string",
+      "answer": "或者"
+    },
+    {
+      "id": 79,
+      "doc": "7",
+      "variables": {
+        "arg1": "我 就 不断 地 默背 “ cinnamon raisin ”",
+        "arg2": "我 在 家里 背 好 了"
+      },
+      "answer_type": "string",
+      "answer": "然后"
+    },
+    {
+      "id": 80,
+      "doc": "1756",
+      "variables": {
+        "arg1": "有时候 你 看 着 孩子 ， 心里 想 ， 你 从 哪里 来",
+        "arg2": "尽管 他们 各自 面对 不同 的 境况 ， 只有 一些 家庭 有 精神 分裂症 患者 ， 只有 一些 家庭 的 孩子 做 了 变性 手术 ， 只有 一些 家庭 出现 神童 ， 在 许多 方面 也 面临 着 相似 的 挑战 ， 每个 类别 也 仅有 一些 家庭 ， 但 如果 你 开始 思考 ， 那些 处理 家 人间 分歧 的 经验 ， 是 出现 在 每 个 人 生活 中的 ， 然后 你 发现 这 是 一 个 普遍 的 现象"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 81,
+      "doc": "1",
+      "variables": {
+        "arg1": "我 现在 十 张 名片 有 七 张",
+        "arg2": "那个 脸蛋 都 很 年轻 ， 挂 的 都 CEO 总裁"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 82,
+      "doc": "12",
+      "variables": {
+        "arg1": "因为 这 句 话 我 站在 这个 舞台 上",
+        "arg2": "我 觉得 我们 的 教育 是 应该 有 不一 样 的 方式"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 83,
+      "doc": "2150",
+      "variables": {
+        "arg1": "也许 是 时候 整顿 一下 座位表",
+        "arg2": "我们 开始 意识 到 另 一 件 事 ， “ 种族 划分 ” 并 不 能 很好 地 表现 出 多样性"
+      },
+      "answer_type": "string",
+      "answer": "但是"
+    },
+    {
+      "id": 84,
+      "doc": "3",
+      "variables": {
+        "arg1": "情绪 ， 可以 主导 我们 的 行为 ， 决定 行为 的 后果",
+        "arg2": "正确 的 辨识 情绪 ， 是 可以 救命 的"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 85,
+      "doc": "10",
+      "variables": {
+        "arg1": "我 说 ， “我们 以后 还是 要 回 澳洲 ， 那 回 澳洲 以后 想要 学 钢琴 ， 找 老师 很 容易 ， 但 想要 学 琵琶 ， 找 老师 就 不太 好 找 了 。”",
+        "arg2": "妈妈 听到 以后 ， 觉得 很 有 道理 ， 所以 她 就 帮 我 买了 一 把 新 琵琶"
+      },
+      "answer_type": "string",
+      "answer": "然后"
+    },
+    {
+      "id": 86,
+      "doc": "1",
+      "variables": {
+        "arg1": "科技 呢 ， 也 制造 了 很多 年轻 的 CEO",
+        "arg2": "我 现在 十 张 名片 有 七 张 ， 那个 脸蛋 都 很 年轻 ， 挂 的 都 CEO 总裁"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 87,
+      "doc": "5",
+      "variables": {
+        "arg1": "实际 说 有 多 老实",
+        "arg2": "“ 为 其 老 ， 强忍 ”"
+      },
+      "answer_type": "string",
+      "answer": "只是"
+    },
+    {
+      "id": 88,
+      "doc": "1756",
+      "variables": {
+        "arg1": "我 和 她 生 了 一 个 女儿",
+        "arg2": "她俩 都 居住 在 德克萨斯州"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 89,
+      "doc": "1756",
+      "variables": {
+        "arg1": "我 朋友 的 朋友 有 个 女儿",
+        "arg2": "是 个 小 矮人"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 90,
+      "doc": "769",
+      "variables": {
+        "arg1": "但是 ， 在 更 前面 提到 的 那个 同义词 词典 的 例子 中 ， 我们 的 语言 并 没能 让 我们 把 我们 所 希望 看到 的 事物 变成 现实 ， 并 没能 让 残疾人 意识 到 他们 自己 实际上 是 有能力 的",
+        "arg2": "科技 的 发展 带动 社会 的 发展 ， 而 我们 的 语言 并 没有 随着 社会 与时俱进"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 91,
+      "doc": "5",
+      "variables": {
+        "arg1": "为什么 古今 会 有 这么 大 的 差别",
+        "arg2": "难道 这些 古人 都 是 笨蛋"
+      },
+      "answer_type": "string",
+      "answer": "因为"
+    },
+    {
+      "id": 92,
+      "doc": "6",
+      "variables": {
+        "arg1": "我们 只有 一 条 路 要 回家",
+        "arg2": "也许 有些 人 的 功课 比较 难 一点"
+      },
+      "answer_type": "string",
+      "answer": "但是"
+    },
+    {
+      "id": 93,
+      "doc": "7",
+      "variables": {
+        "arg1": "那 句 “ 非常 有 潜力 ” 对 我 来 讲 是 一 个 很 大 很 大 的 希望",
+        "arg2": "我 偷偷 在 我 心里 告诉 我 自己 ， 我 说 ： 我 不 想 让 老师 失望"
+      },
+      "answer_type": "string",
+      "answer": "然后"
+    },
+    {
+      "id": 94,
+      "doc": "1756",
+      "variables": {
+        "arg1": "他 是 他 的 家庭 成员 里 第一 个 去 上 大学 的 人 ， 他 住在 学校 宿舍 并且 自己 开车 ， 一 辆 为 他 身体 状况 特别 制造 的 汽车",
+        "arg2": "他 的 母亲 告诉 我 一 个 故事"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 95,
+      "doc": "5",
+      "variables": {
+        "arg1": "从 在场 举手 的 人数 就 可以 看出 ， 大多数 人 对 学 历史 的 印象 到底 是 什么",
+        "arg2": "多 年 以前 当 联考 发榜 以后 ， 大家 问 我 考上 哪 一 间 大学"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 96,
+      "doc": "3",
+      "variables": {
+        "arg1": "可以 主导 我们 的 行为",
+        "arg2": "决定 行为 的 后果"
+      },
+      "answer_type": "string",
+      "answer": "然后"
+    },
+    {
+      "id": 97,
+      "doc": "1756",
+      "variables": {
+        "arg1": "我 大学 时期 有 一 个 亲密 的 朋友",
+        "arg2": "她 离了 婚 却 也 想要 孩子"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 98,
+      "doc": "824",
+      "variables": {
+        "arg1": "现在 人们 不 需要 去 畏惧 患上 这 一 疾病 了 ， 也 不 会 有 患病 带来 的 痛楚",
+        "arg2": "小儿麻痹症 消失 了"
+      },
+      "answer_type": "string",
+      "answer": "因为"
+    },
+    {
+      "id": 99,
+      "doc": "5",
+      "variables": {
+        "arg1": "我 始终 深信 教育 的 目的 是 让 人 做 知识 的 主人 ， 不 是 为了 让 人 做 知识 的 奴仆",
+        "arg2": "要 不 做 知识 的 主人 ， 就 要 懂得 启发 自己 的 智慧"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 100,
+      "doc": "7",
+      "variables": {
+        "arg1": "那 是 我 的 演出",
+        "arg2": "我 要 让 大家 因为 看到 我 在 台上 而 感到 骄傲"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 101,
+      "doc": "5",
+      "variables": {
+        "arg1": "张良 长 跪 履 之 ， 是 张良 要 惊 老父 而 老父 不 惊",
+        "arg2": "老父 以 足 受 ， 笑 而 去"
+      },
+      "answer_type": "string",
+      "answer": "然后"
+    },
+    {
+      "id": 102,
+      "doc": "824",
+      "variables": {
+        "arg1": "我 就 只 做 自己 该 做 的",
+        "arg2": "故事 写完 ， 我 就 做 别的 事"
+      },
+      "answer_type": "string",
+      "answer": "然后"
+    },
+    {
+      "id": 103,
+      "doc": "1756",
+      "variables": {
+        "arg1": "当 我 做 这个 项目 的 时候 ， 我 决定 要 孩子",
+        "arg2": "很多 人 对此 感到 惊奇"
+      },
+      "answer_type": "string",
+      "answer": "但是"
+    },
+    {
+      "id": 104,
+      "doc": "5",
+      "variables": {
+        "arg1": "大家 扪心自问 从小 就 学 历史",
+        "arg2": "学 历史 到底 有 什么 用"
+      },
+      "answer_type": "string",
+      "answer": "但是"
+    },
+    {
+      "id": 105,
+      "doc": "7",
+      "variables": {
+        "arg1": "这 张 报纸 下面 被 剪掉 了",
+        "arg2": "它 是 整个 纽约 时报 的 旁边 一 大 版"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 106,
+      "doc": "6",
+      "variables": {
+        "arg1": "赖佩霞 你 是 不 是 在 做 瑜珈",
+        "arg2": "你 是 不 是 在 教 瑜珈"
+      },
+      "answer_type": "string",
+      "answer": "或者"
+    },
+    {
+      "id": 107,
+      "doc": "10",
+      "variables": {
+        "arg1": "找到 了 台北市 唯一 一 家 的 儿童 体操 推广 中心",
+        "arg2": "我 也 如愿以偿 地 玩 了 两 三 年 的 体操"
+      },
+      "answer_type": "string",
+      "answer": "因此"
+    },
+    {
+      "id": 108,
+      "doc": "1978",
+      "variables": {
+        "arg1": "塞尚 最 喜欢 的 小说 是 巴尔扎克 的 《 不为人知 的 杰作 》",
+        "arg2": "他 觉得 自己 就 是 那个 画家 主角"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 109,
+      "doc": "2009",
+      "variables": {
+        "arg1": "我 的 大部分 童年 记忆 都 和 复杂 的 白日梦 有关",
+        "arg2": "幻想 自己 会 越过 边境 ， 采寻 野果 ， 与 路上 各 种 陌生人 邂逅 ， 他们 都 过 着 自由 的 生活"
+      },
+      "answer_type": "string",
+      "answer": "比如"
+    },
+    {
+      "id": 110,
+      "doc": "824",
+      "variables": {
+        "arg1": "我们 对于 民间 机构 ， 对 政府 ， 有时 甚至 是 对 科学 ， 已经 失去 了 信任",
+        "arg2": "也许 我们 确实 有 不信任 的 理由"
+      },
+      "answer_type": "string",
+      "answer": "并且"
+    },
+    {
+      "id": 111,
+      "doc": "5",
+      "variables": {
+        "arg1": "对 他 说 : “ 孺子可教 矣 。 ”",
+        "arg2": "五 天 以后 ， 天亮 的 时候 和 我 在 这里 相会"
+      },
+      "answer_type": "string",
+      "answer": "然后"
+    },
+    {
+      "id": 112,
+      "doc": "5",
+      "variables": {
+        "arg1": "何况 老父 并 没有 比 张良 早到",
+        "arg2": "有顷 ， 父 亦 来 ， 喜 曰 ： “ 当 如 是 。 ”"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 113,
+      "doc": "7",
+      "variables": {
+        "arg1": "我们 宜兰 有 一 个 台塑 工厂",
+        "arg2": "将来 你 的 前途 就是 去 当 女工"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 114,
+      "doc": "10",
+      "variables": {
+        "arg1": "无论 你 想 学习 什么 项目 ， 它 都 有 一定 的 基本功",
+        "arg2": "这些 基本功 在 养成 之前 ， 一定 要 花 大量 的 时间 去 练习"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 115,
+      "doc": "5",
+      "variables": {
+        "arg1": "当 你 觉得 人生 被 人家 利用 的 时候 ， 请 你 记得 有 一 个 部族 被 人家 当成 炮灰 三百 年 ， 无数 的 国军 和 国人 死 在 战场 上 ， 而 他们 始终 相信 能够 改变 自己 的 命运",
+        "arg2": "当 他们 有 七百 士兵 的 时候 ， 就 敢 对 天 宣誓 ， 秦国 绝对 不再 让 任何 人 主宰 我们 的 命运 ， 秦国 终究 要 并吞 天下 ， 而 最后 他们 统一 了 战国 ， 成为 中国 第一 个 皇帝"
+      },
+      "answer_type": "string",
+      "answer": "而"
+    },
+    {
+      "id": 116,
+      "doc": "10",
+      "variables": {
+        "arg1": "， 我 问 妈妈 , “ 钢琴 还 剩下 几 堂 课 就 要 缴 学费 ？ ”\n那个 时候 还 剩 2 堂",
+        "arg2": "我 就 问 她 ，“ 可不可以 这 2 堂 课 上 完 之后 ， 把 钢琴 停了 ， 然后 继续 上 琵琶 。”"
+      },
+      "answer_type": "string",
+      "answer": "然后"
+    },
+    {
+      "id": 117,
+      "doc": "824",
+      "variables": {
+        "arg1": "只有 在 那个 年代 ， 才 有 人 要 抵抗 进步 ， 才 会 有 人 比 我们 今天 更加 猛烈 地 去 反抗 科技 的 进步",
+        "arg2": "人们 总是 喜欢 把 自己 放在 自己 的 理念 框架 里 ， 他们 把 自己 包 得 那么 死 ， 往往 无法 脱身"
+      },
+      "answer_type": "string",
+      "answer": "但是"
+    },
+    {
+      "id": 118,
+      "doc": "837",
+      "variables": {
+        "arg1": "叫做 “ 棉花糖 挑战 ”",
+        "arg2": "是 个 非常 简单 的 主意"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 119,
+      "doc": "2009",
+      "variables": {
+        "arg1": "这些 图片 都 是 彩色 的",
+        "arg2": "它们 描绘 出 一 个 周旋 在 这个 国家 的 一 个 群体 ， 生命力 顽强 ， 奔放 不羁"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 120,
+      "doc": "1756",
+      "variables": {
+        "arg1": "我 是 同性恋",
+        "arg2": "我 不 会 走 那 条 路"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 121,
+      "doc": "6",
+      "variables": {
+        "arg1": "有 没 有 讲过",
+        "arg2": "它 很 危险 ， 因为 我 骂 你 是 因为 我 爱 你"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 122,
+      "doc": "1",
+      "variables": {
+        "arg1": "古人 说 啊 ， 立德 ， 立功 ， 立言 ， 对 吧 ， 德 是 做人 的 根本 ， 只要 有 品德 就是 堂堂正正 的 人",
+        "arg2": "所有 的 立功 、 立言 ， 如果 没有 立德 当 基础 ， 它 其实 就是 海市蜃楼 ， 没有 办法 持久"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 123,
+      "doc": "769",
+      "variables": {
+        "arg1": "老人们 从来 不 会 被 视作 无用 的 ， 相反 ， 他们 被 视为 非常 珍贵 的",
+        "arg2": "几 年 前 的 一 天 ， 我 正在 故乡 的 菜市场 ， 就是 宾州 东北部 的 那 片 红区 ， 我 当时 正 站在 一 筐 西红柿 旁边"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 124,
+      "doc": "769",
+      "variables": {
+        "arg1": "他 的 名字 叫 Pizzutillo",
+        "arg2": "是 一 位 意大利 裔 美国人"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 125,
+      "doc": "6",
+      "variables": {
+        "arg1": "了解 心理学 的 朋友 ， 大概 对 这个 图案 都 还 蛮 清楚 的",
+        "arg2": "它 是 一 个 冰山 理论"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 126,
+      "doc": "824",
+      "variables": {
+        "arg1": "让 我们 设想 这里 有 一 台 机器 ， 它 是 一 个 很 大 的 ， 很 酷 的 ， 很 TED 的 机器 ， 它 是 一 个 时间 机器",
+        "arg2": "这里 每个 人 都 要 走进 这个 时间 机器"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 127,
+      "doc": "7",
+      "variables": {
+        "arg1": "很多 人 都 有 巴掌脸 ， 可是 我 有 巴掌额",
+        "arg2": "以前 我 对 自己 的 长相 有 很 大 的 挫折感"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 128,
+      "doc": "5",
+      "variables": {
+        "arg1": "进行 一 场 网络 教学 实验",
+        "arg2": "我 想 知道 旧 的 学问 能 不 能 被 今天 的 人 所 接受"
+      },
+      "answer_type": "string",
+      "answer": "因为"
+    },
+    {
+      "id": 129,
+      "doc": "769",
+      "variables": {
+        "arg1": "当 我 念 到 “ 被 损毁 了 ” 的 时候 ， 我 哽咽 了 ， 我 不得不 停 下来 ， 让 自己 被 这些 词汇 打击 与 侮辱 后 恢复 情绪",
+        "arg2": "是的 ， 我 的 这 本 老 同义词 词典 很 破旧 了"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 130,
+      "doc": "6",
+      "variables": {
+        "arg1": "回家 这 条 道路 没有 任何 人 可以 帮 你 走",
+        "arg2": "这 是 我 父亲 ， 这 是 我 母亲"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 131,
+      "doc": "1756",
+      "variables": {
+        "arg1": "她 突然 发现 她 要 面对 很多 问题",
+        "arg2": "这些 问题 使 我 产生 共鸣"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 132,
+      "doc": "837",
+      "variables": {
+        "arg1": "这个 挑战 提供 了 可以 分享 的 经验 ， 一 种 共同 的 语言 ， 处理 问题 的 通用 方法",
+        "arg2": "就是 这个 简单 的 练习 可以 给 我们 提供 的 有价值 的 经验"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 133,
+      "doc": "1",
+      "variables": {
+        "arg1": "好好 珍惜",
+        "arg2": "看到 喜欢 的"
+      },
+      "answer_type": "string",
+      "answer": "如果"
+    },
+    {
+      "id": 134,
+      "doc": "1978",
+      "variables": {
+        "arg1": "10 环 在 75 码 之外",
+        "arg2": "看上去 和 一 臂 以外 的 火柴 头 一般 大小"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 135,
+      "doc": "5",
+      "variables": {
+        "arg1": "他 面对 人生 一 个 重要 的 关头",
+        "arg2": "他 需要 下 一 个 决定"
+      },
+      "answer_type": "string",
+      "answer": "并且"
+    },
+    {
+      "id": 136,
+      "doc": "1756",
+      "variables": {
+        "arg1": "我的 丈夫 是 两 个 孩子 的 亲生 父亲 ， 这 两 个 孩子 的 母亲 是 ， 他 在 明尼阿波利斯市 的 女 同性恋 朋友",
+        "arg2": "我 大学 时期 有 一 个 亲密 的 朋友 ， 她 离了 婚 却 也 想要 孩子"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 137,
+      "doc": "10",
+      "variables": {
+        "arg1": "就 差点 没 昏倒",
+        "arg2": "妈妈  听到"
+      },
+      "answer_type": "string",
+      "answer": "后"
+    },
+    {
+      "id": 138,
+      "doc": "1971",
+      "variables": {
+        "arg1": "我 下定 决心 ， 要 尽 我 所 能 来 确保 我 的 孩子们 不 会 再 历经 过去 的 经历",
+        "arg2": "事实上 ， 他们 将是 塞拉利昂 的 一 员"
+      },
+      "answer_type": "string",
+      "answer": "但是"
+    },
+    {
+      "id": 139,
+      "doc": "7",
+      "variables": {
+        "arg1": "这 就 叫 现实",
+        "arg2": "老师 说 的 现实 ， 其实 就是说 这 是 真实 的 人生"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 140,
+      "doc": "769",
+      "variables": {
+        "arg1": "就是 这样 ， 我 再 重申 一 遍 ， 人类 最 伟大 的 能力 ， 是 转变 和 适应",
+        "arg2": "也许 ， 在 我们 接受 考验 之前 ， 我们 不 知道 自己 会 是 什么 样子"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 141,
+      "doc": "12",
+      "variables": {
+        "arg1": "他们 可能 要 调 一下",
+        "arg2": "他们 发现 好像 不 是 用力 搥 就 有用"
+      },
+      "answer_type": "string",
+      "answer": "然后"
+    },
+    {
+      "id": 142,
+      "doc": "1756",
+      "variables": {
+        "arg1": "大多数 同性恋者 的 父母 是 异性恋",
+        "arg2": "那些 异性恋 父母 常常 希望 ， 他们 的 孩子 表现 得 如 他们 认为 的 主流 世界 所 期望 的 那样"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 143,
+      "doc": "1756",
+      "variables": {
+        "arg1": "我们 带他 做 核磁 共振 ， 带 他 做 计算机化 X 射线 轴 向 分层 造影 ， 我们 带着 这个 出生 仅 一 天 的 孩子 做 动脉 抽血",
+        "arg2": "我们 感到 无助"
+      },
+      "answer_type": "string",
+      "answer": "的时候"
+    },
+    {
+      "id": 144,
+      "doc": "10",
+      "variables": {
+        "arg1": "我 想 跟 大家 介绍 围棋 十 诀 中 的 第一 条",
+        "arg2": "不得 贪胜 ， 不 要 一味 地 贪图 求胜"
+      },
+      "answer_type": "string",
+      "answer": "那就是"
+    },
+    {
+      "id": 145,
+      "doc": "6",
+      "variables": {
+        "arg1": "我 亢奋",
+        "arg2": "我 的 肾上腺素 开始 会 上升"
+      },
+      "answer_type": "string",
+      "answer": "然后"
+    },
+    {
+      "id": 146,
+      "doc": "5",
+      "variables": {
+        "arg1": "五日 鸡叫 的 时候",
+        "arg2": "来 问 各位 鸡 叫 的 时候 ， 天亮 了 没有"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 147,
+      "doc": "7",
+      "variables": {
+        "arg1": "我 来自 一 个 全世界 最 美丽 的 地方 ， 它 叫 台湾",
+        "arg2": "我 不 知道 怎么 告诉 你 ， 我 的 心跳 真的 很 快"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 148,
+      "doc": "1756",
+      "variables": {
+        "arg1": "我的 弟弟 想要 一 个 红色 的 气球",
+        "arg2": "我 想 要 粉色 的 气球"
+      },
+      "answer_type": "string",
+      "answer": "然而"
+    },
+    {
+      "id": 149,
+      "doc": "5",
+      "variables": {
+        "arg1": "受 的 是 当时 第一 流 的 教育",
+        "arg2": "在 他 过去 的 人生 之中 ， 只有 他 压着 别人 打的 时候"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 150,
+      "doc": "824",
+      "variables": {
+        "arg1": "后来 我 才 知道",
+        "arg2": "那些 曾经 把 我 逼疯 的 狂热 分子 ， 事实上 并 非 狂热 分子"
+      },
+      "answer_type": "string",
+      "answer": "那就是"
+    },
+    {
+      "id": 151,
+      "doc": "824",
+      "variables": {
+        "arg1": "这 就 是 世界 的 事实",
+        "arg2": "我们 地球 的 事实 就是 这样 的"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 152,
+      "doc": "5",
+      "variables": {
+        "arg1": "这 一 套 现代 教育 从 小学 中学 开始 教起 ， 诞生 在 工业 革命 以后",
+        "arg2": "它 当时 的 目的 就是 为了 填补 工业 革命 产生 大量 的 专业 人力 的 空缺"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 153,
+      "doc": "10",
+      "variables": {
+        "arg1": "老师 觉得 我 平常 上课 也 蛮 认真 的 ， 这么 简单 的 题目 怎么 会 写错 呢",
+        "arg2": "老师 问 我 是 怎么 想 的"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 154,
+      "doc": "6",
+      "variables": {
+        "arg1": "但 我们 很 容易 找到 不 爱 与 不 慈悲",
+        "arg2": "当 我们 自己 处于 不 爱 与 不 慈悲 的 时候 ， 你 就 知道 那条 路 走 错 了"
+      },
+      "answer_type": "string",
+      "answer": "并且"
+    },
+    {
+      "id": 155,
+      "doc": "1756",
+      "variables": {
+        "arg1": "人们 有 自己 的 生活",
+        "arg2": "他们 不 想要 被 治愈 ， 或 改变 或 消灭"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 156,
+      "doc": "7",
+      "variables": {
+        "arg1": "我 要 在 这 两 场 做到 我 的 最好",
+        "arg2": "那 如何 做到 我 的 最好"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 157,
+      "doc": "7",
+      "variables": {
+        "arg1": "我 再 也 不 怕 失败",
+        "arg2": "我 再 也 不 怕 被 刷掉"
+      },
+      "answer_type": "string",
+      "answer": "并且"
+    },
+    {
+      "id": 158,
+      "doc": "1",
+      "variables": {
+        "arg1": "你 也 可以 先 当 宰相 再 去 当 国王",
+        "arg2": "我 想 ， 这 几 年 ， 科技 呢 强迫 很多 行业 转型 ， 包括 广告业"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 159,
+      "doc": "1756",
+      "variables": {
+        "arg1": "很多 时候 ， 这样 的 人 很 易怒 ， 因为 他们 觉得 ， 他们 的 父母 并 不 爱 他们 ， 真实 的 情况 是 ， 他们 的 父母 不 接受 他们",
+        "arg2": "最 理想 的 爱 就 是 父母 和 孩子 之间 那 种 无 条件 的 爱"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 160,
+      "doc": "3",
+      "variables": {
+        "arg1": "在 这个 害怕 经历 的 时候 呢 ， 其实 我们 的 身体 ， 是 经由 我们 五官 ， 眼睛 看到 的 、 耳朵 听到 的 等等 ， 把 周围 相关 的 资讯 ， 经过 我们 的 视丘 ， 传到 我们 的 感觉 皮质 去 做 处理",
+        "arg2": "海马回 负责 记忆 ， 就 会 下载 跟 这些 情境 相关 的 一些 记忆"
+      },
+      "answer_type": "string",
+      "answer": "然后"
+    },
+    {
+      "id": 161,
+      "doc": "5",
+      "variables": {
+        "arg1": "， 非凡 之 人 做事 要 就 不做 ， 要 做 就 必要 做到 干净 漂亮",
+        "arg2": "忍耐 就 不要 忍个 半调子"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 162,
+      "doc": "1978",
+      "variables": {
+        "arg1": "那 是 一 个 寒冷 的 五月天 ， 我 在 曼哈顿 的 北角 ， 哥伦比亚 大学 的 贝克 田径 综合楼 里 ， 观看 校队 弓箭手 比赛",
+        "arg2": "碰巧 的 是 选手 全 是 女性"
+      },
+      "answer_type": "string",
+      "answer": "并且"
+    },
+    {
+      "id": 163,
+      "doc": "824",
+      "variables": {
+        "arg1": "这些 东西 实际上 是 无效 的",
+        "arg2": "数据 就是 这么 说的"
+      },
+      "answer_type": "string",
+      "answer": "因为"
+    },
+    {
+      "id": 164,
+      "doc": "1756",
+      "variables": {
+        "arg1": "带着 光环 的 天使 突然 从 客厅 天花板 降落",
+        "arg2": "提议 要 带走 我 的 孩子"
+      },
+      "answer_type": "string",
+      "answer": "然后"
+    },
+    {
+      "id": 165,
+      "doc": "6",
+      "variables": {
+        "arg1": "在 我们 之间 的 和平 里 ， 创造 了 两 个 快乐 幸福 的 孩子",
+        "arg2": "来 , 可以 请 你们 站起来 吗"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 166,
+      "doc": "769",
+      "variables": {
+        "arg1": "当 人们 用 那 种 消极 的 词汇 形容 残疾人 的 时候 ， 实际上 反映 出来 的 是 人们 对 残疾人 的 看法",
+        "arg2": "值得 注意 的 是 描述 残疾人 的 那些 词汇 的 背后 所 体现 的 人们 内心 的 价值观 ， 以及 这 种 价值观 形成 的 过程"
+      },
+      "answer_type": "string",
+      "answer": "并且"
+    },
+    {
+      "id": 167,
+      "doc": "12",
+      "variables": {
+        "arg1": "如果 我们 老师 都 不 愿意 去 尝试 ， 我们 怎么 教会 小 朋友 创意",
+        "arg2": "福禄贝尔 有说 ， 教育 无他 ， 唯 爱 和 什么"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 168,
+      "doc": "3",
+      "variables": {
+        "arg1": "一 种 属于 我们 个人 主观 的 感受",
+        "arg2": "它 会 被 很多 东西 影响"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 169,
+      "doc": "6",
+      "variables": {
+        "arg1": "我 发现 回家 才 是 觉醒 的 第一 步",
+        "arg2": "很多 人 在 问 说 ： “ 赖佩霞 你 是 不 是 在 做 瑜珈 ? 你 是 不 是 在 教 瑜珈 ? ”"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 170,
+      "doc": "7",
+      "variables": {
+        "arg1": "因为 ， 我 觉得 从来 没有 人 对 我 有期待",
+        "arg2": "那 句 “ 非常 有 潜力 ” 对 我 来 讲 是 一 个 很 大 很 大 的 希望"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 171,
+      "doc": "1971",
+      "variables": {
+        "arg1": "我们 使用 数据 来 制作 新型 的 接受腔 ， 过程 快速 并且 价格 低廉",
+        "arg2": "最近 我们 在 媒体 实验室 验收 试验 结果"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 172,
+      "doc": "3",
+      "variables": {
+        "arg1": "这 是 一 张 大脑 的 图 ， 刚刚 之前 你们 已经 看 过 了",
+        "arg2": "在 这个 害怕 经历 的 时候 呢 ， 其实 我们 的 身体 ， 是 经由 我们 五官 ， 眼睛 看到 的 、 耳朵 听到 的 等等 ， 把 周围 相关 的 资讯 ， 经过 我们 的 视丘 ， 传到 我们 的 感觉 皮质 去 做 处理"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 173,
+      "doc": "5",
+      "variables": {
+        "arg1": "泼妇 骂街 ， 那 是 最下 等 人 做 的 事情",
+        "arg2": "高手 跟 高手 之间 挤 个 眼神 、 几 句 话 、 几 个 动作 ， 双方 就 明白 彼此 是 什么 等级"
+      },
+      "answer_type": "string",
+      "answer": "而"
+    },
+    {
+      "id": 174,
+      "doc": "10",
+      "variables": {
+        "arg1": "希望 大家 以后 有空 的 时候 也 可以 多多 认识 围棋",
+        "arg2": "今天 非常 高兴 能 和 大家 分享 我 的 故事"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 175,
+      "doc": "7",
+      "variables": {
+        "arg1": "我 应该 是 家中 从小 最 没有 让 父母亲 有所 期待 的",
+        "arg2": "我 从小 我 的 功课 一直 不 好"
+      },
+      "answer_type": "string",
+      "answer": "因为"
+    },
+    {
+      "id": 176,
+      "doc": "9",
+      "variables": {
+        "arg1": "跟 你 右边 的 人 讲 说 “ 你 可以 做到 的 ” ， 跟 你 左边 的 人 说 “ 你 可以 做到 的 ”",
+        "arg2": "现在 你 相信 你 可以 做到 吗"
+      },
+      "answer_type": "string",
+      "answer": "然后"
+    },
+    {
+      "id": 177,
+      "doc": "1756",
+      "variables": {
+        "arg1": "我 不 是 合格 的 好 母亲",
+        "arg2": "从来 不 知道 他 的 脑袋 里 想 的 是 些 什么"
+      },
+      "answer_type": "string",
+      "answer": "因为"
+    },
+    {
+      "id": 178,
+      "doc": "3",
+      "variables": {
+        "arg1": "我 曾经 有 一 个 病人",
+        "arg2": "是 纽约 华尔街 上 的 女 强人"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 179,
+      "doc": "7",
+      "variables": {
+        "arg1": "我 遇到 了 Ross Parkers 老师 ， Ross Parkers 老师 是 第一 位 ， 真的 ， 我 觉得 是 改变 我 生命 很 重要 很 重要 的 一 位 老师",
+        "arg2": "这 位 老师 在 我 上 他 的 第一 堂 课 的 时候 ， 他 说 ： “ 这个 学生 很 有 潜力 。 ”"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 180,
+      "doc": "7",
+      "variables": {
+        "arg1": "我 心里 有 很多 的 不甘心",
+        "arg2": "我 有 很多 的 怨恨 ， 我 有 很多 的 愤怒 ， 很多 的 委屈 ， 很多 的 觉得 不 公平"
+      },
+      "answer_type": "string",
+      "answer": "并且"
+    },
+    {
+      "id": 181,
+      "doc": "1756",
+      "variables": {
+        "arg1": "同性恋 不 值得 同情 ， 也 不 值得 治疗",
+        "arg2": "因为 只有 少数 人 为此 受难 ， 同性恋 只 值得 被 视为 一 种 有害 的 疾病"
+      },
+      "answer_type": "string",
+      "answer": "并且"
+    },
+    {
+      "id": 182,
+      "doc": "1978",
+      "variables": {
+        "arg1": "她们 不 出声 地 彼此 交流 ， 我 猜 是 用 数字 、 角度 之类 来 谈论 她们 可能 计划 好的 射击 位置",
+        "arg2": "我 当时 站在 一 个 弓箭手 后面"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 183,
+      "doc": "7",
+      "variables": {
+        "arg1": "爸爸 白手起家 ， 很 幸运 到 了 我 的 年代 的 时候 ， 我们 家 已经 算是 衣食 不 缺",
+        "arg2": "我们 家 就是 ， 我 必须 说 ， 我 看过 我 爸爸 和 妈妈 他们 很 年轻 时候 的 照片 ， 我 的 爸爸 很 帅 ， 我 的 妈妈 也 很 美丽"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 184,
+      "doc": "6",
+      "variables": {
+        "arg1": "想说 怎么 会 变 这样",
+        "arg2": "可以 请 您 站 起来 吗"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 185,
+      "doc": "5",
+      "variables": {
+        "arg1": "人生 要 就 不忍 ， 不然 就 请 你 一 忍 到底",
+        "arg2": "非凡 之 人 做事 要 就 不做 ， 要 做 就 必要 做到 干净 漂亮"
+      },
+      "answer_type": "string",
+      "answer": "因为"
+    },
+    {
+      "id": 186,
+      "doc": "5",
+      "variables": {
+        "arg1": "这个 想法 是 我 在 台湾 的 二 位 老师 而 来",
+        "arg2": "我的 第一 个 老师 是 毓老师"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 187,
+      "doc": "7",
+      "variables": {
+        "arg1": "我 也 想 做梦",
+        "arg2": "我 也 想 有 梦想"
+      },
+      "answer_type": "string",
+      "answer": "并且"
+    },
+    {
+      "id": 188,
+      "doc": "1756",
+      "variables": {
+        "arg1": "我 朋友 的 朋友 有 个 女儿 ， 是 个 小 矮人",
+        "arg2": "当 她 女儿 出生 的 时候 ， 她 突然 发现 她 要 面对 很多 问题"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 189,
+      "doc": "1978",
+      "variables": {
+        "arg1": "她们 走向 场地 的 时候 打量 了 我 一下",
+        "arg2": "她们 不 出声 地 彼此 交流"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 190,
+      "doc": "824",
+      "variables": {
+        "arg1": "那些 曾经 把 我 逼疯 的 狂热 分子 ， 事实上 并 非 狂热 分子 。\n他们 都 是 有 想法 的 人 ， 受过 良好 教育 的 人 ， 正直 的 公民 。\n他们 就 像 这个 房间 里 的 人们",
+        "arg2": "这 确实 让 我 十分 头疼"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 191,
+      "doc": "1756",
+      "variables": {
+        "arg1": "我 问 他们 ： “ 你们 会 遗憾 吗 ？\n你们 希望 自己 的 孩子 没有 唐氏 综合症 吗 ？\n是否 希望 从未 听说 过 这 种 病症 ? ”",
+        "arg2": "有趣 的 是 这 位 父亲 说 ， “ 嗯 ， 从 我们 的 儿子 大卫 角度 来看 ， 我 感到 遗憾 ， 因为 对于 大卫 来说 ， 这个 世界 里 唐氏 患儿 的 路 走得 非常 艰辛 ， 我 想要 给 大卫 更 轻松 的 生活 。\n但 我 认为 ， 如果 世界上 不再 有 唐氏症 患儿 ， 会 是 很 大 的 损失 。 ”"
+      },
+      "answer_type": "string",
+      "answer": "然后"
+    },
+    {
+      "id": 192,
+      "doc": "1756",
+      "variables": {
+        "arg1": "真正 的 内疚 只 源于 侵犯人 ， 而 唐氏 综合症 患者 不 是 人",
+        "arg2": "关于 同性恋者 处境 的 大幅度 进步 ， 已经 有 很多 文章 就 此 发表 观点"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 193,
+      "doc": "5",
+      "variables": {
+        "arg1": "他 成功 了 还是 失败了",
+        "arg2": "他 付出 了 什么 又 得到 了 什么"
+      },
+      "answer_type": "string",
+      "answer": "并且"
+    },
+    {
+      "id": 194,
+      "doc": "1756",
+      "variables": {
+        "arg1": "他 的 父亲 说 ， “ 当然 ，\n我 想 问问 他 究竟 为什么 这样 做",
+        "arg2": "苏 望着 地板 ， 思考 了 一会儿"
+      },
+      "answer_type": "string",
+      "answer": "然后"
+    },
+    {
+      "id": 195,
+      "doc": "6",
+      "variables": {
+        "arg1": "你们 如果 不 是 先驱 ， 你 不 会 来",
+        "arg2": "你 必须 要 让 自己 快乐 起来"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 196,
+      "doc": "1756",
+      "variables": {
+        "arg1": "我 认同 这 两 方 面的 进步",
+        "arg2": "我 认为 社会 的 进步 是 了不起 的"
+      },
+      "answer_type": "string",
+      "answer": "并且"
+    },
+    {
+      "id": 197,
+      "doc": "10",
+      "variables": {
+        "arg1": "课本 的 标准 答案 是 ： 插秧 ， 施肥 ， 除草 ， 割稻 。\n而 我 写的 答案 是 ： 插秧 ， 除草 ， 施肥 ， 割稻",
+        "arg2": "老师 觉得 我 平常 上课 也 蛮 认真 的 ， 这么 简单 的 题目 怎么 会 写错 呢"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 198,
+      "doc": "824",
+      "variables": {
+        "arg1": "之前 从来 没有 人 这么 说的",
+        "arg2": "她 说 她 不 打算 给 孩子 接种 小儿麻痹症 疫苗"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 199,
+      "doc": "5",
+      "variables": {
+        "arg1": "制 人和 受制于 人 是 天壤之别",
+        "arg2": "到 目前 为止， 两 次 相会 张良 还是 被 老父 压 着 打"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 200,
+      "doc": "1978",
+      "variables": {
+        "arg1": "杰西·乔伊娜 - 柯西 在 1984年 以 三分之一 秒 的 差距 和 七 项 全能 金牌 失之交臂",
+        "arg2": "她 的 丈夫 预测 说 ， 这个 经历 会 带给 她 在 后续 比赛 中 所 需要 的 韧性"
+      },
+      "answer_type": "string",
+      "answer": "但是"
+    },
+    {
+      "id": 201,
+      "doc": "1756",
+      "variables": {
+        "arg1": "作者 是 知名 的 生物 伦理学 专家",
+        "arg2": "他 说 ， “ 对于 遗弃 唐氏 综合症 的 婴孩 我们 不 必 感到 内疚 ， 无论 是 将其 送到 疗养院 去 或者 用 更 负责 也 更 致命 的 方式"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 202,
+      "doc": "9",
+      "variables": {
+        "arg1": "你 今天 在 这里 就 可以 改变 世界",
+        "arg2": "大家 应该 都 有 拿到 一 张 器官 捐赠 同意 书"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 203,
+      "doc": "1978",
+      "variables": {
+        "arg1": "我们 不 是 在 一切 完工 之后 再 突破 ， 而是 当 我们 还有 更 多 作为 的 时候",
+        "arg2": "我 站在 这里 思索 和 想象 每 一 种 方法 ， 让 我们 有可能 在 这个 房间 里 达到 哪怕 一 项 差一点 的 成功"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 204,
+      "doc": "769",
+      "variables": {
+        "arg1": "逆境 不 是 用来 “ 克服 ” 的",
+        "arg2": "我们 应该 坦然 面对 它 、 拥抱 它 ， 与 它 摔打"
+      },
+      "answer_type": "string",
+      "answer": "反而"
+    },
+    {
+      "id": 205,
+      "doc": "824",
+      "variables": {
+        "arg1": "这 仅仅 是 移动 了 一些 基因组 ，\n跟 添加 化学 物质 没有 任何 关联 ，\n跟 荷尔蒙 也 没有 关系",
+        "arg2": "我们 总是 希望 获得 更 大 的 食物 ， 更 好 的 食物 ， 更 有 特色 的 食物"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 206,
+      "doc": "6",
+      "variables": {
+        "arg1": "我 现在 要 问 各位 一 个 很 重要 的 问题",
+        "arg2": "如果 你 母亲 过 得 很 哀伤 的话 ， 你 敢 快乐 吗"
+      },
+      "answer_type": "string",
+      "answer": "那就是"
+    },
+    {
+      "id": 207,
+      "doc": "1978",
+      "variables": {
+        "arg1": "卓越 和 优异 不尽相同 ，\n也 和 成功 不 一样",
+        "arg2": "成功 在 我 看来 是 一次 事件 ， 一 个 时刻 ， 一 个 世界 赋予 你 的 标签 。\n卓越 不 是 对 某个 目标 的 承诺 ， 而是 一 个 持续 的 追求"
+      },
+      "answer_type": "string",
+      "answer": "因为"
+    },
+    {
+      "id": 208,
+      "doc": "769",
+      "variables": {
+        "arg1": "我 在 写作 的 时候 总是 把 同义词 词典 放在 手边 ， 我 当时 已经 把 文章 编辑 完 了 ， 才 意识 到 我 一生 中 还 从来 没有 在 字典 中 查找 “ 残疾 的 ” 的 具体 意思",
+        "arg2": "让 我 把 这个 词条 念 给 大家 听"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 209,
+      "doc": "769",
+      "variables": {
+        "arg1": "我 在 写作 的 时候 总是 把 同义词 词典 放在 手边",
+        "arg2": "我 当时 已经 把 文章 编辑 完 了 ， 才 意识 到 我 一生 中 还 从来 没有 在 字典 中 查找 “ 残疾 的 ” 的 具体 意思"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 210,
+      "doc": "9",
+      "variables": {
+        "arg1": "我 十一 个 月 大 的 时候 ， 我 换 过 肝",
+        "arg2": "那 在 我 妈妈 肚子 里 的 时候 ， 医生 发现 我 有 严重 的 小肠 闭锁"
+      },
+      "answer_type": "string",
+      "answer": "因为"
+    },
+    {
+      "id": 211,
+      "doc": "7",
+      "variables": {
+        "arg1": "在 那 之前 ， 我 的 父母 其实 非常 ， 怎么 说 ， 反对 呢",
+        "arg2": "他们 其实 不 是 这么 希望 我 可以 继续 跳舞"
+      },
+      "answer_type": "string",
+      "answer": "也就是"
+    },
+    {
+      "id": 212,
+      "doc": "1978",
+      "variables": {
+        "arg1": "这样 会 促使 人们 去 买 更 多 的 彩票",
+        "arg2": "这些 人 被 称作 “ 心脏 骤停者"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 213,
+      "doc": "824",
+      "variables": {
+        "arg1": "从来 没有 过 这么 好 的 时代",
+        "arg2": "我的 曾祖父母 在 60 岁 的 时候 就 死去 了"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 214,
+      "doc": "1756",
+      "variables": {
+        "arg1": "大约 二十年 前 ， 《 纽约 时报 》 主编 让 我 写 一 篇 关于 聋人 文化 的 文章",
+        "arg2": "我 感到 很 惊讶"
+      },
+      "answer_type": "string",
+      "answer": "当时"
+    },
+    {
+      "id": 215,
+      "doc": "837",
+      "variables": {
+        "arg1": "如果 你 有 10 个 队 参加 这个 活动 ， 其中 大概 有 6 个 队 可以 搭建 可以 直立 的 结构",
+        "arg2": "我 做 了 一 个 有趣 的 尝试"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 216,
+      "doc": "1756",
+      "variables": {
+        "arg1": "我 觉得 我 太 爱 孩子们 了",
+        "arg2": "我 不 愿 想象 没有 他们 的 生活"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 217,
+      "doc": "1756",
+      "variables": {
+        "arg1": "我 想起 我 见 过 的 一 个 残疾 孩子 的 母亲",
+        "arg2": "她 有 个 严重 残疾 的 孩子"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 218,
+      "doc": "1978",
+      "variables": {
+        "arg1": "永远 是 他 还没有 写好 的 那 首",
+        "arg2": "差一点 的 胜利 是 卓越 的 内涵"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 219,
+      "doc": "1971",
+      "variables": {
+        "arg1": "对 我 来说 ， 想要 开始 抚平 那些 被 战争 和 疾病 伤害 的 人们 的 心灵 的 创伤 ， 就是 要 先为 他们 的 身体 创造 出 舒适 并且 价格 低廉 的 接口",
+        "arg2": "无论 是 在 塞拉利昂 ， 还是 在 波士顿 ， 我 希望 ， 这 不仅仅 是 使 他们 恢复 ， 而是 真正 地 激发 他们 的 潜能"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 220,
+      "doc": "5",
+      "variables": {
+        "arg1": "我们 知道 刚刚 短短 的 时间 内 双方 已 交手 了 三 次 ， 结果 是 老父 大获全胜 ， 张良 一败涂地",
+        "arg2": "老父 为什么 要 这样 对待 张良"
+      },
+      "answer_type": "string",
+      "answer": "但是"
+    },
+    {
+      "id": 221,
+      "doc": "1971",
+      "variables": {
+        "arg1": "这 在 我们 这个 时代 是 难以 接受 的",
+        "arg2": "某天 ， 我 和 休·海恩 教授 见面"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 222,
+      "doc": "1756",
+      "variables": {
+        "arg1": "克林顿 一直 都 有 这样 的 光芒",
+        "arg2": "他 的 父亲 和 我 很 幸运 ， 最早 看见 了 他 的 光芒"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 223,
+      "doc": "6",
+      "variables": {
+        "arg1": "很 开心 今天 有 这个 机会 能 在 这里 和 大家 见面",
+        "arg2": "很多 人 对 赖佩霞 的 认识 呢 ， 大概 就 是 好 几十 年 前 ， 大概 30 年 前 看 台 视 新闻 ， 每 天 晚上 有 个 珍重 今夜 ， 每 天 晚上 我 唱 两 首 歌"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 224,
+      "doc": "1756",
+      "variables": {
+        "arg1": "他 的 残疾 非常 严重",
+        "arg2": "他 的 父母 被 告知 ， 他 永久 丧失 行走 能力 和 语言 能力"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 225,
+      "doc": "824",
+      "variables": {
+        "arg1": "假如 我们 不 这么 做 ， 而 是 坚持 现在 的 做法 ， 我们 未来 将 会 因为 一些 我们 不 希望 发生 的 事情 而 有 负罪感 ， 那 将 是 高科技 的 殖民主义",
+        "arg2": "没有 其他 别的 词语 更 合适 于 描述 这 一 状况 了"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 226,
+      "doc": "7",
+      "variables": {
+        "arg1": "翻译机 基本上 是 我 的 生命 ， 我 必须 带着 它 到 每 一 个 地方",
+        "arg2": "前 三 个 月 ， 我 实在 没 办法 跟 任何 一 个 人 沟通"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 227,
+      "doc": "769",
+      "variables": {
+        "arg1": "当然 ， 最后 我 想 起来 了",
+        "arg2": "这个 人 就是 基恩 大夫"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 228,
+      "doc": "1971",
+      "variables": {
+        "arg1": "患者 也 常 需要 等待 三周 到 数年 的 时间 ， 才 能 获得 一 个 舒适 的 假肢 接受腔",
+        "arg2": "修复 学家们 仍 使用 传统 的 制造 方法"
+      },
+      "answer_type": "string",
+      "answer": "而且"
+    },
+    {
+      "id": 229,
+      "doc": "3",
+      "variables": {
+        "arg1": "我们 与生俱来 ， 有 这么 多 不 一样 的 情绪",
+        "arg2": "就 像 画 盘 中 的 色彩 一样 ， 如果 我们 愿意 去 多 用 一点 颜色 ， 用心 去 经历 每 一 种 感受 ， 或许 ， 只是 或许 ， 我们 可以 创造 出 更 多彩多姿 ， 更 丰富 的 人生"
+      },
+      "answer_type": "string",
+      "answer": "但是"
+    },
+    {
+      "id": 230,
+      "doc": "769",
+      "variables": {
+        "arg1": "从 医学 的 角度 客观地 判断 我 是否 是 一 个 残疾人 ， 从 社会 的 角度 主观 地 去 考虑 我 是否 是 一 个 “ 残疾人 ” ， 这 两 者 间 有 很 大 的 差别",
+        "arg2": "实际上 ， 我 自始至终 所要 面对 的 唯一 的 一 个 问题 ， 是 这个 世界 对 我 的 种种 不公 的 看法 和 描述"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 231,
+      "doc": "837",
+      "variables": {
+        "arg1": "要求 一 组 四 人 的 团队 搭建 一 个 独立 的 最高 建筑",
+        "arg2": "材料 是 20 根 意大利 面条 ， 一 段 胶带 ， 一 段 绳子 ， 一 块 棉花糖"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 232,
+      "doc": "6",
+      "variables": {
+        "arg1": "那个 公道 是 什么",
+        "arg2": "因为 我 赖佩霞 今天 可以 站 在 这里 ， 有 三 个 元素"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 233,
+      "doc": "1756",
+      "variables": {
+        "arg1": "患 唐氏 综合症 的 人 有些 是 演员 、 作家",
+        "arg2": "有些 在 成年 后 能 完全 独立 生活"
+      },
+      "answer_type": "string",
+      "answer": "或者"
+    },
+    {
+      "id": 234,
+      "doc": "2150",
+      "variables": {
+        "arg1": "这 也许 与 我们 对 里约 的 理解 相符 ， 其为 一 个 文化 多元化 ， 音乐 多元化 的 城市",
+        "arg2": "如此 我们 拥有 这些 数据"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 235,
+      "doc": "1756",
+      "variables": {
+        "arg1": "这 不 是 我 的 文化 ， 我 也 没想 冲 过去 加入 这 种 文化 ， 但 我 欣赏 它 是 一 种 文化 ， 对 其中 的 成员 而言 ， 它 的 价值 就 如同 拉美 文化 ， 同性恋 文化 或 犹太 文化 ，\n它 甚至 可以 和 美国 文化 相 媲美",
+        "arg2": "我 朋友 的 朋友 有 个 女儿 ， 是 个 小 矮人"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 236,
+      "doc": "1978",
+      "variables": {
+        "arg1": "艾灵顿 公爵 领悟 了 这 一 智慧",
+        "arg2": "他 说 在 自己 的 作品 中 ， 最 喜欢 的 永远 是 下 一 首"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 237,
+      "doc": "1",
+      "variables": {
+        "arg1": "我 觉得 它 比 钱 更 重要 ， 更 无价 ， 就是 moral ， 品格",
+        "arg2": "古人 说 啊 ， 立德 ， 立功 ， 立言 ， 对 吧 ， 德 是 做人 的 根本 ， 只要 有 品德 就是 堂堂正正 的 人"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 238,
+      "doc": "12",
+      "variables": {
+        "arg1": "我 分享 一 个 字 我 自己 创 的",
+        "arg2": "我 还去 谷歌 了 一下 ， 发现 没有 人 用 过 ， 叫 Teacheative"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 239,
+      "doc": "7",
+      "variables": {
+        "arg1": "我的 名字 叫 许芳宜 ， 我 是 一 个 舞者",
+        "arg2": "我 来自 一 个 全世界 最 美丽 的 地方"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 240,
+      "doc": "5",
+      "variables": {
+        "arg1": "结果 拿 了 钱 贿赂 他 以后 ， 刘邦 很 高兴 以为 没有 问题 了 ， 张良 说 不 行 ， 我们 立刻 偷袭",
+        "arg2": "刘邦 说 为什么"
+      },
+      "answer_type": "string",
+      "answer": "然后"
+    },
+    {
+      "id": 241,
+      "doc": "7",
+      "variables": {
+        "arg1": "纽约 时报 很 厉害 耶",
+        "arg2": "不 是 大家 不 是 有钱 就 可以 买 的"
+      },
+      "answer_type": "string",
+      "answer": "因为"
+    },
+    {
+      "id": 242,
+      "doc": "837",
+      "variables": {
+        "arg1": "这个 真是 很 神奇",
+        "arg2": "正 如 PETER 告诉 我们 的 ， 他们 不但 造出 了 最高 的 建筑 ， 而且 他们 搭建 的 结构 也 是 最 有趣 的"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 243,
+      "doc": "837",
+      "variables": {
+        "arg1": "最 糟 的 是 新 毕业 的 商学院 学生",
+        "arg2": "他们 说谎 ， 欺骗 ， 易受 干扰 , 并且 他们 的 建筑 构造 非常 蹩脚"
+      },
+      "answer_type": "string",
+      "answer": "因为"
+    },
+    {
+      "id": 244,
+      "doc": "7",
+      "variables": {
+        "arg1": "我 功课 不 好",
+        "arg2": "英文 当然 也 不 好"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 245,
+      "doc": "7",
+      "variables": {
+        "arg1": "我 在 纽约 ， 我 要 上 飞机 、 要 过 海关 我 也 很 怕",
+        "arg2": "试镜 我 也 很 怕"
+      },
+      "answer_type": "string",
+      "answer": "并且"
+    },
+    {
+      "id": 246,
+      "doc": "824",
+      "variables": {
+        "arg1": "人们 总是 喜欢 把 自己 放在 自己 的 理念 框架 里 ， 他们 把 自己 包 得 那么 死 ， 往往 无法 脱身",
+        "arg2": "即使 是 听到 了 真理 ， 也 不 能 使 他们 产生 动摇"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 247,
+      "doc": "1",
+      "variables": {
+        "arg1": "在 这个 云端 大 数据 里 ， 凡 走过 必 留 痕迹",
+        "arg2": "好的 品德 造就 好的 口碑"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 248,
+      "doc": "1",
+      "variables": {
+        "arg1": "我 觉得 我们 每 一 个 人 都 要 把握 底线 ， 不 越界 ， 有所为 有所不为",
+        "arg2": "今天 呢 , 我 跟 大家 分享 了 我 的 ATM ： And 为 你 联结 ， Target 让 你 跳高 ， M ， Moral 呢 造 你 口碑"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 249,
+      "doc": "1756",
+      "variables": {
+        "arg1": "当 她 告诉 我 这些 事情 的 时候 ， 我 觉得 我 的 身体 要 倒下去 似的",
+        "arg2": "我 花 很多 年 写 的 关于 人们 养育 残疾 子女 的 经验 的 书 ， 给 他们 带来 了 怎样 的 意义 ， 但 我 还是 不 想 加入 他们"
+      },
+      "answer_type": "string",
+      "answer": "因为"
+    },
+    {
+      "id": 250,
+      "doc": "3",
+      "variables": {
+        "arg1": "前一阵子 我 在 美国 ， 走进 一 家 药妆店",
+        "arg2": "那边 的 药妆店 就 有点 像 台湾 的 屈臣氏"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 251,
+      "doc": "769",
+      "variables": {
+        "arg1": "， 这 首 诗 是 我 的 一 个 朋友 ， 雅克 • 邓波 讲给 我 的",
+        "arg2": "诗 的 名字 叫 《 一 个 只 知道 四 个 字 的 神 》"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 252,
+      "doc": "1",
+      "variables": {
+        "arg1": "里面 有 一 句 话 ： 人 的 品格 是 在 别人 看不到 的 时候 形成 的",
+        "arg2": "我 相信 每 一 个 人 心中 都 有 一 把 尺 ， 这 把 尺 为 你 的 品德 做 导航"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 253,
+      "doc": "5",
+      "variables": {
+        "arg1": "就是 “ 先 ” 和 “ 后 ”",
+        "arg2": "为什么 要 强调 “ 先 ” 和 “ 后 ”"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 254,
+      "doc": "824",
+      "variables": {
+        "arg1": "它 是 一 个 过程",
+        "arg2": "这样 的 过程 有时候 取得 成功 ， 有时候 失败"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 255,
+      "doc": "3",
+      "variables": {
+        "arg1": "又 学到 “ 专业 ” 这 两 个 字 的 定义",
+        "arg2": "很 重要 的 一 部分 是 没有 情绪"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 256,
+      "doc": "12",
+      "variables": {
+        "arg1": "一 个 是 尺",
+        "arg2": "一 个 是 橡皮擦"
+      },
+      "answer_type": "string",
+      "answer": "而"
+    },
+    {
+      "id": 257,
+      "doc": "12",
+      "variables": {
+        "arg1": "分享 一 个 非常 热血 的 故事",
+        "arg2": "为什么 非常 热血 呢"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 258,
+      "doc": "5",
+      "variables": {
+        "arg1": "他 的 定义 绝对 不 是 告诉 各位 对 老人家 要 有 礼貌 约会 不要 迟到",
+        "arg2": "如果 只是 为了 告诉 这个 ， 我 不 能 不说 中国 的 智能 绝对 没有 这么 浅薄"
+      },
+      "answer_type": "string",
+      "answer": "但是"
+    },
+    {
+      "id": 259,
+      "doc": "824",
+      "variables": {
+        "arg1": "媒体 曝光 了 一 则 消息",
+        "arg2": "那 是 一 个 非常 可怕 的 消息"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 260,
+      "doc": "3",
+      "variables": {
+        "arg1": "当然 这 是 个 比较 极端 的 例子",
+        "arg2": "在 比较 不 极端 的 一 方面 ， 我们 过去 的 研究 不断 的 显示 ， 情绪 跟 我们 的 身体 、 心理 健康 ， 跟 我们 的 学习 、 工作 表现 、 领导力 、 创造力 ， 都 有 密切 直接 的 关系"
+      },
+      "answer_type": "string",
+      "answer": "而"
+    },
+    {
+      "id": 261,
+      "doc": "3",
+      "variables": {
+        "arg1": "它们 可以 预警 ， 让 我们 知道 ， 如果 你 再 不 做 一些 改变 ， 可能 会 有 危险 啊",
+        "arg2": "很 可惜 的 是 ， 在 现在 ， 特别 是 已开发 的 国家 ， 有 一 个 趋势 ， 大家 都 很 努力 的 抗拒 ， 经历 这些 负面 的 感受"
+      },
+      "answer_type": "string",
+      "answer": "但是"
+    },
+    {
+      "id": 262,
+      "doc": "3",
+      "variables": {
+        "arg1": "你 忽略 了 它们 的 存在 ， 甚至 压抑 或 转移 了 它们",
+        "arg2": "我们 再 看到 这 六 种 的 基本 情绪 ， 其中 只有 一 种 是 正向 的 ， 就是 快乐"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 263,
+      "doc": "824",
+      "variables": {
+        "arg1": "你们 知道 这些 名字 是 什么 意思 吗",
+        "arg2": "疫苗 和 现代 医学 以及 人类 为 数百万 人 提供 食品 的 能力 ， 这些 都 是 科学 方法 的 胜利"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 264,
+      "doc": "1978",
+      "variables": {
+        "arg1": "在 她 生命 的 后期 ， 一些 主题 和 元素 得到 重现",
+        "arg2": "我 记得 自己 问她 ， 她 对 那些 早期 作品 的 想法 是 什么"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 265,
+      "doc": "12",
+      "variables": {
+        "arg1": "不过 那 好像 有点 久 ， 不过 没 关系",
+        "arg2": "我 第一 次 走进 教室 ， 这 是 看起来 很 可爱 的 小朋友 ， 看起来 很 可爱"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 266,
+      "doc": "1756",
+      "variables": {
+        "arg1": "在 那些 方面 的 改变 ， 几乎 同样 激进 ， 我们 却 未 给予 更 多 的 重视",
+        "arg2": "我 采访 过 罗巴兹 家族 的 汤姆 和 凯伦 夫妇 ， 他们 当年 是 年轻 有为 的 纽约人"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 267,
+      "doc": "837",
+      "variables": {
+        "arg1": "你们 如果 有 兴趣 可以 去 marshmallowchallenge.com 网站",
+        "arg2": "这 是 一 个 你 可以 阅读 的 博客"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 268,
+      "doc": "769",
+      "variables": {
+        "arg1": "我们 不 应 把 它 当成 障碍 绕过 它 ， 从而 继续 我们 的 生活",
+        "arg2": "其实 ， 逆境 是 我们 生活 的 一 部分"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 269,
+      "doc": "12",
+      "variables": {
+        "arg1": "所有 的 故事 就 是 为了 讲 这个 字",
+        "arg2": "老师 是 不 是 要 教 一 个 有 创意 的 方式 ， 跟 有 创意 的 东西"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 270,
+      "doc": "1756",
+      "variables": {
+        "arg1": "他们 的 父母 并 不 爱 他们",
+        "arg2": "真实 的 情况 是 ， 他们 的 父母 不 接受 他们"
+      },
+      "answer_type": "string",
+      "answer": "但是"
+    },
+    {
+      "id": 271,
+      "doc": "5",
+      "variables": {
+        "arg1": "那 前面 所 讲 的 东西 都 只是 原则 和 方法 而已 ， 不 能 没有 实例",
+        "arg2": "接下来 ， 我 就 要 用 这个 实例 来 跟 各位 示范 古代 帝王 是 怎么 学习 历史 的"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 272,
+      "doc": "7",
+      "variables": {
+        "arg1": "所以 ， 从此以后， 我 就 非常 喜欢 我 的 额头",
+        "arg2": "很多 很多 的 不 一样"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 273,
+      "doc": "3",
+      "variables": {
+        "arg1": "我 曾经 有 一 个 病人 ， 是 纽约 华尔街 上 的 女 强人",
+        "arg2": "她 一 开始 来 找 我 ， 是 希望 能够 更 认识 自己 ， 能够 发展 她 的 领导 能力 ， 使 她 成为 一 个 更 好 的 领导者"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 274,
+      "doc": "769",
+      "variables": {
+        "arg1": "三 个 月 的 实验 结束 的 时候 ，\n他们 中 的 很多 人 已经 辍学 了",
+        "arg2": "这个 实验 的 一 个 要点 就是 ， 参与 实验 的 老师们 也 是 不 知情 的"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 275,
+      "doc": "7",
+      "variables": {
+        "arg1": "你 长得 真的 很 奇怪",
+        "arg2": "所有 看到 你 的 人 应该 很 难得 会 忘记 你"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 276,
+      "doc": "769",
+      "variables": {
+        "arg1": "这个 实验 为期 三 个 月",
+        "arg2": "按照 成绩 应该 被 归为 D等 的 学生 被 告知 他们 是 A 等 的 学生 ， 他们 被 告知 自己 是 非常 聪明 的"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 277,
+      "doc": "837",
+      "variables": {
+        "arg1": "所以 我 就 提供 了 价值 10万 美元 的 软件 给 获胜 的 小组 。",
+        "arg2": "你 猜猜 那些 学 设计 的 学生们 会 有 什么样 的 反应"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 278,
+      "doc": "12",
+      "variables": {
+        "arg1": "我 就 觉得 很 爽 很 开心",
+        "arg2": "在 旁边 看 ， 帮 他们 拍照 这 样子"
+      },
+      "answer_type": "string",
+      "answer": "当时"
+    },
+    {
+      "id": 279,
+      "doc": "5",
+      "variables": {
+        "arg1": "良往",
+        "arg2": "父 又 先在"
+      },
+      "answer_type": "string",
+      "answer": "然而"
+    },
+    {
+      "id": 280,
+      "doc": "1756",
+      "variables": {
+        "arg1": "它 指出 了 一 个 现实",
+        "arg2": "人们 有 自己 的 生活 ， 他们 不 想要 被 治愈 ， 或 改变 或 消灭"
+      },
+      "answer_type": "string",
+      "answer": "就是"
+    },
+    {
+      "id": 281,
+      "doc": "3",
+      "variables": {
+        "arg1": "， 她 跟 我 说 当时 她 很 生气 ， 看 着 他 ， 犹豫 了 好几 秒 钟 ， 但是 因为 我们 练习 了 好几 次 ， 最终 她 还是 打了 电话 给 911 。\n还好 警察 在 七 分钟 之内 ， 就 到达 了 现场 。\n避免 了 一 个 悲剧 的 发生",
+        "arg2": "情绪 ， 可以 主导 我们 的 行为 ， 决定 行为 的 后果"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 282,
+      "doc": "769",
+      "variables": {
+        "arg1": "我们 的 责任 不 是 简简单单 地 让 我们 关心 的 人 生活 在 温床 里 ， 而 是 让 他们 能够 形成 从容 应对 逆境 的 能力",
+        "arg2": "当 我们 让 孩子们 觉得 自己 没有 适应 环境 的 能力 时 ， 我们 实际上 伤害 了 他们"
+      },
+      "answer_type": "string",
+      "answer": "并且"
+    },
+    {
+      "id": 283,
+      "doc": "5",
+      "variables": {
+        "arg1": "因为 他 扶佐 汉 高祖 刘邦",
+        "arg2": "刘邦 为什么 能够 取得 天下"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 284,
+      "doc": "1971",
+      "variables": {
+        "arg1": "他 问 我 是否 知道 ， 如何 解决 这个 问题",
+        "arg2": "那 是 在 大约 两 年 半 前"
+      },
+      "answer_type": "string",
+      "answer": "的时候"
+    },
+    {
+      "id": 285,
+      "doc": "6",
+      "variables": {
+        "arg1": "我 开始 学会 爱 自己 ， 什么 叫 爱 自己",
+        "arg2": "刚 开始 的 时候 ， 并 不 容易"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 286,
+      "doc": "824",
+      "variables": {
+        "arg1": "我 这里 带来 了 各种各样 的 样品",
+        "arg2": "它们 当中 没有 一 样 是 有效 的"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 287,
+      "doc": "3",
+      "variables": {
+        "arg1": "这样 你 有 比较 健康 吗",
+        "arg2": "都 是 悲伤 ， 并 不 是 每 一 个 人 ， 每 一 次 感受 到 悲伤 的 时候 ， 都 一定 会 流泪 、 甚至 大哭"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 288,
+      "doc": "6",
+      "variables": {
+        "arg1": "第一 个 ， 肾上腺素 的 上升",
+        "arg2": "当 我 要 争 对 的 时候 ， 我 亢奋 ， 我 的 肾上腺素 开始 会 上升"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 289,
+      "doc": "1756",
+      "variables": {
+        "arg1": "你 对 自己 孩子 的 爱 ， 是 不同于 世界上 任何 其他 感觉 的",
+        "arg2": "直 到 你 有 孩子 ， 你 才 知道 那 是 什么样 的 感觉"
+      },
+      "answer_type": "string",
+      "answer": "而且"
+    },
+    {
+      "id": 290,
+      "doc": "10",
+      "variables": {
+        "arg1": "那 不如 把 琵琶 还给 老师",
+        "arg2": "反正 我们 家有 钢琴 ， 那 就 继续 学 钢琴 好 了"
+      },
+      "answer_type": "string",
+      "answer": "因为"
+    },
+    {
+      "id": 291,
+      "doc": "5",
+      "variables": {
+        "arg1": "学 历史 的 目的 是 为了 了解 人性",
+        "arg2": "学 历史 的 目的 是 为了 启发 智慧"
+      },
+      "answer_type": "string",
+      "answer": "并且"
+    },
+    {
+      "id": 292,
+      "doc": "6",
+      "variables": {
+        "arg1": "也许 你 的 路 走 起 来 比较 辛苦 ， 但是 你 没有 别的 道路",
+        "arg2": "只有 当 我们 真的 能够 跟 父母 祥和 ， 和平 的 时候 ， 你 才 有 可能 真正 的 喜欢 自己"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 293,
+      "doc": "1971",
+      "variables": {
+        "arg1": "就是 要 先为 他们 的 身体 创造 出 舒适 并且 价格 低廉 的 接口",
+        "arg2": "想要 开始 抚平 那些 被 战争 和 疾病 伤害 的 人们 的 心灵 的 创伤"
+      },
+      "answer_type": "string",
+      "answer": "如果"
+    },
+    {
+      "id": 294,
+      "doc": "769",
+      "variables": {
+        "arg1": "也许 ， 如果 我们 能 把 逆境 看成 是 自然 的 、 不间断 的 、 对人 有用 的 东西 ， 它 的 存在 对 我们 来说 就 不 再 是 负担 了",
+        "arg2": "今年 我们 庆祝 了 达尔文 的 200 周年 诞辰 ， 当 达尔文 在 150 年 前 写 物种 进化论 的 时候 ， 他 阐明 了 一 个 关于 人类 特征 的 真理"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 295,
+      "doc": "12",
+      "variables": {
+        "arg1": "放学 第八 节 课 ， 身为 一 个 很 有 创意 的 老师 ， 同时 也 要 很 诚实 ， 不然 怎么 教会 小 朋友 诚实",
+        "arg2": "我 就 带 他们 玩"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 296,
+      "doc": "10",
+      "variables": {
+        "arg1": "老师 听完 之后 觉得 很 有 道理",
+        "arg2": "隔天 他 告诉 我们 插秧 到 割稻 之间 ， 施肥 和 除草 是 一直 重复 地 进行"
+      },
+      "answer_type": "string",
+      "answer": "然后"
+    },
+    {
+      "id": 297,
+      "doc": "7",
+      "variables": {
+        "arg1": "我 再 花 了 十九 年 ， 确定 我 真的 要 继续 跳舞",
+        "arg2": "这 是 一 张 我 自己 从来 不 敢 梦想 ， 有 个 杂志 上 可以 看到 我 自己 的 名字 ， 在 这 本 杂志 特别 的 专辑 报道"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 298,
+      "doc": "3",
+      "variables": {
+        "arg1": "很 可能 原因 之一 ， 因为 他们 长期 的 压抑 负面 情绪 所 给 他们 的 警讯",
+        "arg2": "其实 负面 情绪 很 重要"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 299,
+      "doc": "12",
+      "variables": {
+        "arg1": "出 到 没有 牌 为止",
+        "arg2": "第二 个 人 没 牌 的话 可以 出 因子"
+      },
+      "answer_type": "string",
+      "answer": "然后"
+    },
+    {
+      "id": 300,
+      "doc": "5",
+      "variables": {
+        "arg1": "因为 后面 就 会 说 老父 要 传 张良 兵法",
+        "arg2": "兵法 讲 的 就是 先发制人 ， 后 发 受制 于人"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 301,
+      "doc": "3",
+      "variables": {
+        "arg1": "我 曾经 有 个 同事",
+        "arg2": "他 是 儿童 心理学家 ， 也是 一 个 很 典型 的 美国人"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 302,
+      "doc": "1978",
+      "variables": {
+        "arg1": "我 从 她 那里 学到 很多",
+        "arg2": "在 馆长 罗伯特·斯托 从 她 一生 的 作品 中 选取 了 画作 之后 ， 我 爱上 了 欣赏 这些 20世纪 70年代 的 画作"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 303,
+      "doc": "10",
+      "variables": {
+        "arg1": "孩子 与 你们 同在 ， 但 并 不 属于 你们",
+        "arg2": "你们 可以 努力 成全 ， 造就 他们 ， 但 不 能 企图 将 他们 复制 成 你们 自己 ， 或者 将 你们 自己 未 能 完成 的 梦想 加诸 在 他们 身上"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 304,
+      "doc": "2150",
+      "variables": {
+        "arg1": "这 是 我 的 家乡 马里兰州 巴尔的摩 人 与 人 之间 的 关系 图",
+        "arg2": "你 在 这里 看到 的 是 ， 每 点 代表 着 一 个 人 ， 而 每 条 线 代表 那些 人 之间 的 关系 ， 而 每 种 颜色 代表 网络 内 的 社区"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 305,
+      "doc": "3",
+      "variables": {
+        "arg1": "结果 真的 有一次 ， 他们 又 吵架 了",
+        "arg2": "这 一 次 ， 他 先生 拿 出来 的 就是 一 把 刀"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 306,
+      "doc": "7",
+      "variables": {
+        "arg1": "我 遇到 了 Ross Parkers 老师",
+        "arg2": "Ross Parkers 老师 是 第一 位 ， 真的 ， 我 觉得 是 改变 我 生命 很 重要 很 重要 的 一 位 老师"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 307,
+      "doc": "6",
+      "variables": {
+        "arg1": "这 是 我 母亲 最后 在 病床 上 一 个 礼拜 的 时间",
+        "arg2": "我 母亲 后来 癌症 过世"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 308,
+      "doc": "12",
+      "variables": {
+        "arg1": "当时 我 觉得 蛮 难过 的",
+        "arg2": "我 就 永远 记得 那 时候"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 309,
+      "doc": "7",
+      "variables": {
+        "arg1": "我 永远 到 那里 的 时候 ， 我 永远 都 是 “ 这个 、 这个 ”",
+        "arg2": "我 就 一直 这样 指 ， 一直 这样 指"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 310,
+      "doc": "769",
+      "variables": {
+        "arg1": "只要 一 个 灵魂 仍然 具备 上述 的 那些 品质 ， 那么 它 就 能 创造 无限 可能 ， 以及 新 的 生活 方式",
+        "arg2": "我 想 在 最后 送给 大家 一 首 诗 ， 诗 的 作者 是 十四 世纪 的 波斯 诗人 哈菲斯 ， 这 首 诗 是 我 的 一 个 朋友 ， 雅克 • 邓波 讲给 我 的"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 311,
+      "doc": "1756",
+      "variables": {
+        "arg1": "总 有 一 天 我们 将 不复 存在",
+        "arg2": "和 我们 长着 相同 面孔 的 陌生人 将 会 取代 我们 ， 得到 你们 所有 的 爱"
+      },
+      "answer_type": "string",
+      "answer": "而"
+    },
+    {
+      "id": 312,
+      "doc": "3",
+      "variables": {
+        "arg1": "负面 的 感觉 也 是 一样 的",
+        "arg2": "当 你 去 逃避 它 ， 当你 去 忽略 或 压抑 它 的 时候 ， 问题 不见得 就 不见了 ， 它 可能 累积 得 更 严重"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 313,
+      "doc": "1978",
+      "variables": {
+        "arg1": "差一点 的 成功 之所以 有 推动力 ， 是 因为 它 改变 了 我们 观察 的 角度 ， 同时 ， 把 我们 的 目标 从 我们 认为 的 那个 距离 拉近 到 我们 所在 的 地方",
+        "arg2": "如果 我 请 你 想象 下 周 一 个 美好 的 日子 ， 你 可能 会 更 笼统 地 描述 。\n然而 ， 如果 我 请 你 描述 一下 明天 在 TED ， 美好 的 一 天 是 什么样 的 ， 你 也许 会 说 得 很 清晰 又 真实"
+      },
+      "answer_type": "string",
+      "answer": "比如"
+    },
+    {
+      "id": 314,
+      "doc": "1",
+      "variables": {
+        "arg1": "我 寄 了 很多 履历表 ， 到处 去 考试",
+        "arg2": "都 铩羽而归"
+      },
+      "answer_type": "string",
+      "answer": "但是"
+    },
+    {
+      "id": 315,
+      "doc": "1756",
+      "variables": {
+        "arg1": "我们 要 全盘 考量 对于 治愈 的 态度",
+        "arg2": "父母 常常 面对 的 问题 是 ， 孩子 在 哪些 方面 值得 肯定 ， 哪些 方面 需要 治愈"
+      },
+      "answer_type": "string",
+      "answer": "因为"
+    },
+    {
+      "id": 316,
+      "doc": "10",
+      "variables": {
+        "arg1": "老师 每 天 都 规定 我 要 练 轮 指 还有 音阶",
+        "arg2": "这 段 时间 可能 枯燥 乏味"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 317,
+      "doc": "1756",
+      "variables": {
+        "arg1": "对 我 来说 ， 这样 的 经验 是 世界上 任何 其他 东西 都 换 不 来 的",
+        "arg2": "现代 社会 对 这样 那样 的 病症 的 接受 程度 越来越 高"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 318,
+      "doc": "6",
+      "variables": {
+        "arg1": "是 嘛 ! 好",
+        "arg2": "所以 ， 在 这个 基础 上 ， 很多 的 父母亲 都 不 一样 ， 每 一 个 人 背景 都 不 一样"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 319,
+      "doc": "769",
+      "variables": {
+        "arg1": "很多 孩子 的 潜能 都会 被 更 好 的 激发",
+        "arg2": "他们 将 会 充分 运用 他们 独一无二 的 宝贵 的 能力 ， 为 他们 的 社区 做 贡献"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 320,
+      "doc": "5",
+      "variables": {
+        "arg1": "到 目前 为止， 两 次 相会 张良 还是 被 老父 压 着 打",
+        "arg2": "如果 你 是 张良， 你 该 怎么办"
+      },
+      "answer_type": "string",
+      "answer": "那么"
+    },
+    {
+      "id": 321,
+      "doc": "824",
+      "variables": {
+        "arg1": "这 足以 让 我们 感到 羞辱 ， 我们 应当 为此 感到 惭愧",
+        "arg2": "这 是 很 可怕 的 事情"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 322,
+      "doc": "769",
+      "variables": {
+        "arg1": "你们 所 需要 的 就 是 这样 一 个 人",
+        "arg2": "他 能 向 你 展示 你 自己 的 力量 ， 人类 的 灵魂 是 包容 的"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 323,
+      "doc": "6",
+      "variables": {
+        "arg1": "我 回到 自己 开始 看看 问题 到底 出 在 哪里",
+        "arg2": "我 开始 学会 爱 自己"
+      },
+      "answer_type": "string",
+      "answer": "然后"
+    },
+    {
+      "id": 324,
+      "doc": "1756",
+      "variables": {
+        "arg1": "他 是 他 的 家庭 成员 里 第一 个 去 上 大学 的 人",
+        "arg2": "他 住在 学校 宿舍 并且 自己 开车 ， 一 辆 为 他 身体 状况 特别 制造 的 汽车"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 325,
+      "doc": "10",
+      "variables": {
+        "arg1": "要 做到 这点 ， 首先 要 学会 4 种 能力",
+        "arg2": "1 . 耐住 寂寞\n2 . 抵住 诱惑\n3 . 学会 选择\n4 . 懂得 放弃"
+      },
+      "answer_type": "string",
+      "answer": "就是"
+    },
+    {
+      "id": 326,
+      "doc": "6",
+      "variables": {
+        "arg1": "我 多么 不 喜欢 愤怒",
+        "arg2": "不 喜欢 吵架"
+      },
+      "answer_type": "string",
+      "answer": "并且"
+    },
+    {
+      "id": 327,
+      "doc": "6",
+      "variables": {
+        "arg1": "这 是 我 先生",
+        "arg2": "他 是 我 所 看 过 全世界 最爱 自己 的 人"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 328,
+      "doc": "6",
+      "variables": {
+        "arg1": "重点 不 在 这里",
+        "arg2": "重点 是 我 希望 你们 也 可以 走到 回家 的 道路"
+      },
+      "answer_type": "string",
+      "answer": "而"
+    },
+    {
+      "id": 329,
+      "doc": "3",
+      "variables": {
+        "arg1": "那边 的 药妆店 就 有点 像 台湾 的 屈臣氏",
+        "arg2": "不 只 卖 的 是 药 ， 很多 生活 的 用品 都 在 那边 卖"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 330,
+      "doc": "1",
+      "variables": {
+        "arg1": "不管 你 在 什么 行业 ， 面对 任何 工作 ， 再 微小 ， 都 不 要 拒绝 ， 因为 你 不 知道 那个 工作 后面 带来 的 机会",
+        "arg2": "事情 再 困难 ， 也 不 要 退缩 ， 因为 困难 的 事情 可以 拓展 你 全面 的 能量"
+      },
+      "answer_type": "string",
+      "answer": "并且"
+    },
+    {
+      "id": 331,
+      "doc": "9",
+      "variables": {
+        "arg1": "台湾 有 近 八千 人 需要 器官 捐赠",
+        "arg2": "捐赠者 的 人数 135 人"
+      },
+      "answer_type": "string",
+      "answer": "但是"
+    },
+    {
+      "id": 332,
+      "doc": "5",
+      "variables": {
+        "arg1": "这 就 是 老父 要 告诉 张良 “ 忍 ” 的 重要性 到底 是 什么",
+        "arg2": "老父 为什么 要 教 张良"
+      },
+      "answer_type": "string",
+      "answer": "但是"
+    },
+    {
+      "id": 333,
+      "doc": "1978",
+      "variables": {
+        "arg1": "如果 人们 起先 不 知道 ， 也许 就 猜 不到 这些 是 她 的 作品 了",
+        "arg2": "她 告诉 我 ， 一些 作品 并 没有 达到 她 所 希望 的 水准"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 334,
+      "doc": "769",
+      "variables": {
+        "arg1": "下面 我 给 大家 读 “ 残疾 的 ” 这 一 词 新 版本 的 解释",
+        "arg2": "很 不幸 ， 词条 的 解释 没 比 当年 强 多少"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 335,
+      "doc": "1756",
+      "variables": {
+        "arg1": "我 花 了 很长 的 时间 说服 他们 跟 我 对话",
+        "arg2": "他们 同意 了"
+      },
+      "answer_type": "string",
+      "answer": "然后"
+    },
+    {
+      "id": 336,
+      "doc": "824",
+      "variables": {
+        "arg1": "这 导致 了 40万 人 因为 感染 艾滋病 而 死亡",
+        "arg2": "成千上万 的 本 不 必要 死亡 的 人们 因此 而 死"
+      },
+      "answer_type": "string",
+      "answer": "并且"
+    },
+    {
+      "id": 337,
+      "doc": "1",
+      "variables": {
+        "arg1": "都 是 八八八 ， 大家 发现 ， 一路 顺 的 啊",
+        "arg2": "这 张 提款 卡 有 个 密码 ， 就 是 叫 ATM"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 338,
+      "doc": "10",
+      "variables": {
+        "arg1": "故事 4 ， 答案 真的 只 有 一 个 而已 吗",
+        "arg2": "有 一 回 ， 大概 是 我 3 年级 的 时候 吧 ， 考试 考 重组 。 分别 有 4 张 图片 ， 插秧 ， 割稻 ， 除草 ， 施肥"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 339,
+      "doc": "7",
+      "variables": {
+        "arg1": "用 做梦 ， 把 “ 做 ” 这个 字 变成 一 个 动词 去 做 梦",
+        "arg2": "我 觉得 我 最 大 的 幸运 是 也许 是 从小 的 家庭 教育 吧"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 340,
+      "doc": "12",
+      "variables": {
+        "arg1": "你们 会 把 橡皮擦 放在 中间",
+        "arg2": "尺 就 放在 上面"
+      },
+      "answer_type": "string",
+      "answer": "并且"
+    },
+    {
+      "id": 341,
+      "doc": "12",
+      "variables": {
+        "arg1": "下 一 件 事 就是 ， “ 韦嘉 老师 ， 韦嘉 老师 ， 请到 大 办公室 。 ”",
+        "arg2": "我 觉得 很多 事情 没 什么 不 一样 ， 小时候 做 错事 就 被 叫到 训导处 。\n长大 做 错事 只是 换个 名字 ， 换个 处室"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 342,
+      "doc": "2150",
+      "variables": {
+        "arg1": "几 个 星期 前 有 人 给 我 发 了 这 张 照片",
+        "arg2": "这 反映 了 在 旧金山 正 发生 什么 事情 ， 我 认为 你 可以 实际 地 通过 这样 的 地图 去 理解"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 343,
+      "doc": "1978",
+      "variables": {
+        "arg1": "塞尚 最 喜欢 的 小说 是 巴尔扎克 的 《 不为人知 的 杰作 》 ， 他 觉得 自己 就 是 那个 画家 主角",
+        "arg2": "弗兰兹·卡夫卡 能 看到 缺点 ， 而 其他 人 只 找到 赞美 的 作品 ， 以至于 他 想 把 他 所有 的 日记 、 手稿 、 信件 和 草稿 ， 死后 全部 焚烧"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 344,
+      "doc": "1756",
+      "variables": {
+        "arg1": "聋人 世界 中 的 人 也 说 ， “ 我们 不 是 听力 不 健全 ， 我们 是 一 种 文化 ， ”",
+        "arg2": "这 不 是 我 的 文化"
+      },
+      "answer_type": "string",
+      "answer": "但是"
+    },
+    {
+      "id": 345,
+      "doc": "12",
+      "variables": {
+        "arg1": "有时候 ， 很 大 声 ， 高 分贝 ， 加大 怒吼 ， 不见得 很 有用",
+        "arg2": "有时候 用 他们 的 语言 跟 他们 沟通 很 有效"
+      },
+      "answer_type": "string",
+      "answer": "但是"
+    },
+    {
+      "id": 346,
+      "doc": "1978",
+      "variables": {
+        "arg1": "卓越 是 追求 的 过程 ， 而 不 是 结果",
+        "arg2": "它 要 持续不断 地 缩小 现实 的 自己 和 理想 的 自己 之间 的 差距"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 347,
+      "doc": "1978",
+      "variables": {
+        "arg1": "在 美国 文化 里 ， 这 种 现象 很 少见",
+        "arg2": "已经 很少 有 如此 专业 的 事情 ， 看上去 这么 傻 ， 还 要 如此 精确"
+      },
+      "answer_type": "string",
+      "answer": "因为"
+    },
+    {
+      "id": 348,
+      "doc": "6",
+      "variables": {
+        "arg1": "肾上腺素 的 上升 会 是 一 个 瘾",
+        "arg2": "它 就 像 酒瘾 一样"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 349,
+      "doc": "1",
+      "variables": {
+        "arg1": "我的 第一 次 “ 大 爆炸 ” 是 在 我 学生 时代",
+        "arg2": "啊 ， 家里 发生 财务 危机 ， 我 差一点点 辍学"
+      },
+      "answer_type": "string",
+      "answer": "那个时候"
+    },
+    {
+      "id": 350,
+      "doc": "7",
+      "variables": {
+        "arg1": "打开 书本 ， 可是 后来 我 都 发现 是 它 在 看 我 ， 不 是 我 在 看 它",
+        "arg2": "那 我 功课 一直 不 好"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 351,
+      "doc": "1756",
+      "variables": {
+        "arg1": "让 自己 踏上 给 不 知 感恩 的 孩子们 一生 为奴 的 旅程",
+        "arg2": "试图 从 痛苦 中 获得 身份 认同"
+      },
+      "answer_type": "string",
+      "answer": "并且"
+    },
+    {
+      "id": 352,
+      "doc": "12",
+      "variables": {
+        "arg1": "我 突然 很 想 要 讲 ， 一 个 我 很 敬佩 的 老师",
+        "arg2": "他 叫 肯 罗宾森 ， 就是 Youtube 上 的"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 353,
+      "doc": "7",
+      "variables": {
+        "arg1": "最 丢脸 的 是 当 你 不 学 ， 不愿意 面对 的 时候",
+        "arg2": "那 才 叫 丢脸"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 354,
+      "doc": "1756",
+      "variables": {
+        "arg1": "那些 异性恋 父母 常常 希望 ， 他们 的 孩子 表现 得 如 他们 认为 的 主流 世界 所 期望 的 那样",
+        "arg2": "那些 同性恋者 不得不 长大 后 才 寻找 身份 认同"
+      },
+      "answer_type": "string",
+      "answer": "以致于"
+    },
+    {
+      "id": 355,
+      "doc": "12",
+      "variables": {
+        "arg1": "另外 一 个 橡皮擦 放上 去 的 时候 就 碰",
+        "arg2": "它 就 被 搥 起来 了"
+      },
+      "answer_type": "string",
+      "answer": "然后"
+    },
+    {
+      "id": 356,
+      "doc": "1",
+      "variables": {
+        "arg1": "我 1985年 的 时候 踏进 台湾 奥美",
+        "arg2": "1990年 到 伦敦 奥美 工作"
+      },
+      "answer_type": "string",
+      "answer": "然后"
+    },
+    {
+      "id": 357,
+      "doc": "769",
+      "variables": {
+        "arg1": "人们 经常 想 让 我 就 “ 克服 逆境 ” 这 一 话题 讲 一 讲",
+        "arg2": "今天 我 想 做 一点 声明 ， “ 克服 逆境 ” 这 一 说法 对 我 来说 根本 不 成立"
+      },
+      "answer_type": "string",
+      "answer": "但是"
+    },
+    {
+      "id": 358,
+      "doc": "769",
+      "variables": {
+        "arg1": "P 医生 总是 打着 色彩 鲜艳 的 领结",
+        "arg2": "他 为人 的 修养 、 气质 使得 他 和 孩子们 相处 得 很 好"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 359,
+      "doc": "10",
+      "variables": {
+        "arg1": "我 当时 学的 是 钢琴 和 琵琶",
+        "arg2": "我 使用 的 琵琶 是 学校 乐团 老师 借给 我的"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 360,
+      "doc": "7",
+      "variables": {
+        "arg1": "最 丢脸 的 是 当 你 不 学 ， 不愿意 面对 的 时候 ， 那 才 叫 丢脸",
+        "arg2": "从 那天 开始 ， 那 是 我 的 第一 个 勇敢"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 361,
+      "doc": "1978",
+      "variables": {
+        "arg1": "有 多少 次 我们 将 一些 作品 定义 为 经典 之作 ， 甚至 是 大师级 作品 ， 即使 作者 认为 它 根本 无望 完成 ， 充满 了 困难 和 瑕疵 ， 换言之 ， 是 一 个 “ 差一点 的 成功 ”",
+        "arg2": "伊丽莎白 · 默里 让 我 感到 惊讶 ， 她 接受 了 自己 早期 的 画作"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 362,
+      "doc": "769",
+      "variables": {
+        "arg1": "他 把 我 的 这些 故事 叫做 他 课程 中 的 X 因素 ， 叫做 人类 意志 所 激发 的 无穷 潜力",
+        "arg2": "没有 任何 医疗 诊断 能够 解释 这 种 意志 的 威力 有 多么 巨大 ， 意志 能 影响 一 个 人 的 生活 质量"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 363,
+      "doc": "1756",
+      "variables": {
+        "arg1": "母亲 还 重提 此 事",
+        "arg2": "我 感到 很 恼火"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 364,
+      "doc": "3",
+      "variables": {
+        "arg1": "他 说 ： “ 哈 ？ ！ 那 超 不 健康 耶 ！ ”",
+        "arg2": "我 说 ， “ 那 你 一 年 哭 多少 次 啊 ？ ”"
+      },
+      "answer_type": "string",
+      "answer": "然后"
+    },
+    {
+      "id": 365,
+      "doc": "2009",
+      "variables": {
+        "arg1": "裹着 毯子 睡 是 不合法 的",
+        "arg2": "在 自己 车 里 睡 是 不合法 的"
+      },
+      "answer_type": "string",
+      "answer": "并且"
+    },
+    {
+      "id": 366,
+      "doc": "1978",
+      "variables": {
+        "arg1": "他 跟 我 说起 自己 的 辉煌 不仅仅 是 一次 伟大 成功 的 结果 ， 而是 由 一 系列 “ 差一点 的 成功 ” 推动 的",
+        "arg2": "当 我们 处于 领先 优势 时 ， 我们 就 能 成长"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 367,
+      "doc": "1756",
+      "variables": {
+        "arg1": "我 希望 你 不要 再 说 那些 话 了",
+        "arg2": "大约 二十年 前 ， 《 纽约 时报 》 主编 让 我 写 一 篇 关于 聋人 文化 的 文章"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 368,
+      "doc": "2150",
+      "variables": {
+        "arg1": "我们 要 有 能力 干预 ， 以 一 种 新 的 方式 重塑 我们 的 城市 ， 我 相信 ， 如果 我们 有 能力 的话 ， 我们 甚至 会 承担 一些 责任",
+        "arg2": "那么 什么 是 城市"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 369,
+      "doc": "1756",
+      "variables": {
+        "arg1": "这 很 可悲 ， 也 很 可怕 ，\n但 不 需要 有 罪恶感",
+        "arg2": "真正 的 内疚 只 源于 侵犯人 ， 而 唐氏 综合症 患者 不 是 人"
+      },
+      "answer_type": "string",
+      "answer": "因为"
+    },
+    {
+      "id": 370,
+      "doc": "7",
+      "variables": {
+        "arg1": "我 再 也 不怕 试镜",
+        "arg2": "我 再 也 不 怕 失败"
+      },
+      "answer_type": "string",
+      "answer": "并且"
+    },
+    {
+      "id": 371,
+      "doc": "7",
+      "variables": {
+        "arg1": "我 看着 那个 贩卖 百奇饼 的 人",
+        "arg2": "我 跟 他 说 : “ Cinnamon raisin bagel with cream cheese and coffee , please . ”"
+      },
+      "answer_type": "string",
+      "answer": "然后"
+    },
+    {
+      "id": 372,
+      "doc": "1",
+      "variables": {
+        "arg1": "接下来 是 M ， 可能 第三 个 密码",
+        "arg2": "可能 有 人 会 想到 钱 ， 也 没错"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 373,
+      "doc": "5",
+      "variables": {
+        "arg1": "那 我 就 要 问 各位 什么 叫做 “ 先 ”",
+        "arg2": "你 不 明白 这个 ， 你 还是 不 懂 啊"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 374,
+      "doc": "6",
+      "variables": {
+        "arg1": "很多 的 父母亲 都 不 一样",
+        "arg2": "每 一 个 人 背景 都 不 一样"
+      },
+      "answer_type": "string",
+      "answer": "并且"
+    },
+    {
+      "id": 375,
+      "doc": "824",
+      "variables": {
+        "arg1": "世界上 有 5000万 人 是 靠吃 木薯 为生 的 。\n那 是 跟 马铃薯 比较 像 的 一 种 作物 。\n就 只有 卡路里 ，\n味道 也 不 好",
+        "arg2": "它 既 没有 营养 ， 也 没有 蛋白质"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 376,
+      "doc": "769",
+      "variables": {
+        "arg1": "艰辛 的 奋斗 岁月 是 不 该 被 贬低 、 否定 的 ， 这 不 是 什么 我们 要 避免 或者 掩盖 的 事 ， 恰恰 相反 ， 我们 应该 在 逆境 中 寻找 机遇",
+        "arg2": "我 想 说明 的 道理 就是 ， 逆境 不 是 用来 “ 克服 ” 的"
+      },
+      "answer_type": "string",
+      "answer": "总之"
+    },
+    {
+      "id": 377,
+      "doc": "6",
+      "variables": {
+        "arg1": "这 是 我 父亲",
+        "arg2": "我 父亲 今天 早上 从 美国 飞来 支持 我"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 378,
+      "doc": "1756",
+      "variables": {
+        "arg1": "我 第一 次 和 他们 共度 周末",
+        "arg2": "我 录 了 20多 个 小时 的 谈话 内容"
+      },
+      "answer_type": "string",
+      "answer": "当时"
+    },
+    {
+      "id": 379,
+      "doc": "1978",
+      "variables": {
+        "arg1": "杰西·乔伊娜 - 柯西 在 1984年 以 三分之一 秒 的 差距 和 七 项 全能 金牌 失之交臂",
+        "arg2": "1988年 ， 她 获得 了 七 项 全能 金牌"
+      },
+      "answer_type": "string",
+      "answer": "然后"
+    },
+    {
+      "id": 380,
+      "doc": "1756",
+      "variables": {
+        "arg1": "我 说 我 想 要 的 毫无疑问 是 粉色 的 气球",
+        "arg2": "她 提醒 我 ， 我 最 喜欢 的 颜色 是 蓝色"
+      },
+      "answer_type": "string",
+      "answer": "然而"
+    },
+    {
+      "id": 381,
+      "doc": "3",
+      "variables": {
+        "arg1": "我 是 可以 生气 ， 但 不 能 打人",
+        "arg2": "我们 教导 小学生 情绪 智商 ， 这 也 是 很 重要 的 一 环"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 382,
+      "doc": "837",
+      "variables": {
+        "arg1": "这 是 一 个 你 可以 阅读 的 博客",
+        "arg2": "告诉 你 怎样 搭建 棉花糖 建筑 。\n那里 有 具体 的 步骤 说明"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 383,
+      "doc": "1971",
+      "variables": {
+        "arg1": "我 了解 到 这 其中 的 原因 是 他们 由于 假肢 接受腔 无法 与 残肢 适配 而 感到 疼痛",
+        "arg2": "假肢 接受腔 是 一 个 插孔 ， 被 截肢 者 将 他们 的 残肢 插入 其中 ， 假肢 接受腔 就 和 踝关节 假体 连接 在一起"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 384,
+      "doc": "5",
+      "variables": {
+        "arg1": "想 清楚 了",
+        "arg2": "我们 看 张良 怎么 做"
+      },
+      "answer_type": "string",
+      "answer": "然后"
+    },
+    {
+      "id": 385,
+      "doc": "824",
+      "variables": {
+        "arg1": "我 想 大家 可以 在 自己 心中 把 这样 一 个 清单 列 出来",
+        "arg2": "我们 过去 完全 信任 的 永远 是 对 的 ， 现在 都 出 问题 了"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 386,
+      "doc": "12",
+      "variables": {
+        "arg1": "我 分享 一 个 字 我 自己 创 的 ， 我 还去 谷歌 了 一下 ， 发现 没有 人 用 过 ， 叫 Teacheative",
+        "arg2": "我 想要 试着 说 ， 教 创意 的 过程 ， 帮 大家 回顾 一下"
+      },
+      "answer_type": "string",
+      "answer": "因为"
+    },
+    {
+      "id": 387,
+      "doc": "5",
+      "variables": {
+        "arg1": "天 是 黑 的",
+        "arg2": "良往"
+      },
+      "answer_type": "string",
+      "answer": "的时候"
+    },
+    {
+      "id": 388,
+      "doc": "1756",
+      "variables": {
+        "arg1": "他 一直 待 在 医院 里 ， 而 正 是 这些 治疗 过程 ， 让 他 现在 有 了 行走 的 能力",
+        "arg2": "他 在 住院 期间 ， 医院 请 了 家庭 教师 来 指导 他 的 功课"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 389,
+      "doc": "769",
+      "variables": {
+        "arg1": "我 自始至终 所要 面对 的 唯一 的 一 个 问题 ， 是 这个 世界 对 我 的 种种 不公 的 看法 和 描述",
+        "arg2": "我们 希望 能够 保护 那些 我们 在意 的 人们 ， 我们 把 关于 他们 的 医师 诊断 报告 上 冰冷 又 残酷 的 事实 告诉 他们 ， 或者 有时候 ， 为 他们 未来 的 生活 状态 做 预测 ， 但是 我们 一定 要 注意 我们 的 所做所为 ， 是否 会 摧毁 这些 人们"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 390,
+      "doc": "837",
+      "variables": {
+        "arg1": "要求 一 组 四 人 的 团队 搭建 一 个 独立 的 最高 建筑 ， 材料 是 20 根 意大利 面条 ， 一 段 胶带 ， 一 段 绳子 ， 一 块 棉花糖",
+        "arg2": "棉花糖 必须 放 在 最 上面"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 391,
+      "doc": "1756",
+      "variables": {
+        "arg1": "要 带走 我 的 孩子",
+        "arg2": "还给 我 一 个 更 好 的 孩子"
+      },
+      "answer_type": "string",
+      "answer": "但是"
+    },
+    {
+      "id": 392,
+      "doc": "1756",
+      "variables": {
+        "arg1": "当 我 看到 社会 的 进步 和 医学 的 进步 这 两 个 方面 像 我 刚才 描述 的 三 个 病例 中 不 同步 的 时候 ， 我 有时 觉得 这 就 像 那些 悲壮 的 歌剧 ， 当 英雄 意识 到 他 爱上 女 主角 的 时候 ， 就是 女 主角 躺在 长沙 发上 奄奄一息",
+        "arg2": "我们 要 全盘 考量 对于 治愈 的 态度"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 393,
+      "doc": "1978",
+      "variables": {
+        "arg1": "神情 自若",
+        "arg2": "有 个 人 的 右手 还 拿 着 一 个 吃 了 一半 的 甜筒 冰淇淋 ， 左手 拿 着 黄色 箭羽 的 箭"
+      },
+      "answer_type": "string",
+      "answer": "并且"
+    },
+    {
+      "id": 394,
+      "doc": "3",
+      "variables": {
+        "arg1": "长期 下来 ， 会 需要 压抑 这 方面 的 情绪",
+        "arg2": "在 我们 咨商 的 过程 当中 ， 她 的 婚姻 起 了 变化 ， 跟 先生 的 感情 ， 变得 不 稳定"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 395,
+      "doc": "824",
+      "variables": {
+        "arg1": "这 是 自私 的 ， 肮脏 的 ， 这么 做 只 会 降低 我们 的 尊严 ， 我们 必须 停止 这么 做",
+        "arg2": "好了 ， 这样 一 场 非常 有趣 的 对话 之后 ， 你 也许 会 说 ， “ 你 还 会 走进 这 一 时间 机器 ， 并且 驶向 未来 吗 ？ ”"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 396,
+      "doc": "10",
+      "variables": {
+        "arg1": "11 岁 到 美国",
+        "arg2": "15 岁 在 北京 训练 一 年"
+      },
+      "answer_type": "string",
+      "answer": "然后"
+    },
+    {
+      "id": 397,
+      "doc": "12",
+      "variables": {
+        "arg1": "他们 在 一次次 的 过程 中 发现 ， 橡皮擦 的 位置 可能 有 点 关键 ， 是 不 是 要 放 前面 一点 ， 放后 面 一点",
+        "arg2": "在 那边 搥"
+      },
+      "answer_type": "string",
+      "answer": "的时候"
+    },
+    {
+      "id": 398,
+      "doc": "2150",
+      "variables": {
+        "arg1": "但 其实 ， 制作 城市 地图 时 ， 还有 其他 思维 角度 以及 绘制 方法",
+        "arg2": "今天 我 要 给 大家 展示 一 种 新 的 地图"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 399,
+      "doc": "9",
+      "variables": {
+        "arg1": "其实 这 不 是 结束",
+        "arg2": "换肝 并 不 代表 痊愈 ， 并 不 代表 我 的 健康 从此 安好"
+      },
+      "answer_type": "string",
+      "answer": "因为"
+    },
+    {
+      "id": 400,
+      "doc": "12",
+      "variables": {
+        "arg1": "因为 它 就 是 我 现在 正在 做 的 事情",
+        "arg2": "我 是 实习 老师 ， 我 是 Leo"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 401,
+      "doc": "1756",
+      "variables": {
+        "arg1": "父母 常常 面对 的 问题 是 ， 孩子 在 哪些 方面 值得 肯定 ， 哪些 方面 需要 治愈",
+        "arg2": "当 父母 说 ‘ 我 希望 我 的 孩子 没有 自闭症 ， ’ 他们 真正 的 意思 是 ‘ 我 希望 我 的 孩子 并 不 存在 ， 而 希望 有 一 个 没有 自闭症 的 孩子"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 402,
+      "doc": "1756",
+      "variables": {
+        "arg1": "当 我 成为 一 个 青少年 的 时候 ， 我 想 我 是 同性恋 ， 所以 我 可能 不 会 有 自己 的 家庭",
+        "arg2": "当 母亲 说 那些 话 的 时候 ， 我 就 会 感到 很 焦虑"
+      },
+      "answer_type": "string",
+      "answer": "但是"
+    },
+    {
+      "id": 403,
+      "doc": "10",
+      "variables": {
+        "arg1": "我 要 讲 的 这个 故事 发生 在 我 姐姐 身上",
+        "arg2": "某天 老师 在 教 七 位 数字 的 减法 ， 比方说 100万 减 75万5555 。\n我姐 心想 ： 如果 用 99万9999 去 减 的话 ， 这样 的话 最后 再加1 ， 这样 的话 就 不用 所谓 的 借位 ， 比较 简单 也 比较 快 。\n但是 ， 姐姐 的 老师 并 不 认同"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 404,
+      "doc": "3",
+      "variables": {
+        "arg1": "显然 你们 不 这么 觉得 对 不对",
+        "arg2": "那 你 一 年 哭 多少 次 啊"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 405,
+      "doc": "3",
+      "variables": {
+        "arg1": "我 曾经 有 个 同事 ， 他 是 儿童 心理学家 ， 也是 一 个 很 典型 的 美国人",
+        "arg2": "讲到 这个 他 就 问 我 ， “ 欸 ， 你 多久 哭 一 次 啊 ？ ”"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 406,
+      "doc": "1",
+      "variables": {
+        "arg1": "公司 有 一 个 五 年 计划",
+        "arg2": "定了 三 倍 成长 的 目标"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 407,
+      "doc": "1978",
+      "variables": {
+        "arg1": "我 意识 到 成功 是 一 个 瞬间 ， 然而 我们 总是 在 庆祝 创新 和 卓越",
+        "arg2": "问题 来 了 ： 我们 如何 将 一次 成功 转化 为 卓越 的 成就 呢"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 408,
+      "doc": "7",
+      "variables": {
+        "arg1": "我 看着 那个 贩卖 百奇饼 的 人 ， 我 跟 他 说 : “ Cinnamon raisin bagel with cream cheese and coffee , please . ”",
+        "arg2": "我 讲完 之后 ， 我 自己 眼泪 都 要 掉下来 了"
+      },
+      "answer_type": "string",
+      "answer": "然后"
+    },
+    {
+      "id": 409,
+      "doc": "7",
+      "variables": {
+        "arg1": "知道 我 的 人生 的 第一 个 梦想",
+        "arg2": "想要 当 职业 舞者"
+      },
+      "answer_type": "string",
+      "answer": "就是"
+    },
+    {
+      "id": 410,
+      "doc": "5",
+      "variables": {
+        "arg1": "其实 我 的 目的 是 为了 进行 一 场 网络 教学 实验 ， 我 想 知道 旧 的 学问 能 不 能 被 今天 的 人 所 接受 ， 结果 出乎 我 意料 之外 ， 有 超过 四万三千 个 同学 来 修 这 门 课",
+        "arg2": "前面 所 讲 的 东西 都 只是 原则 和 方法 而已 ， 不 能 没有 实例"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 411,
+      "doc": "769",
+      "variables": {
+        "arg1": "我 恨透 它们 了。",
+        "arg2": "当时 我 还是 个 五 岁 的 孩子 ， 便 和 P 医生 讨价还价 ， 求 他 别 再 让 我 做 那些 体能 训练 了"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 412,
+      "doc": "824",
+      "variables": {
+        "arg1": "饮用水 、 可 耕地 、 热带 雨林 、 石油 、 天然气 ， 这些 资源 都 在 消失 ， 并且 消失 的 速度 也 很 快",
+        "arg2": "除非 我们 懂得 去 创新 ， 否则 我们 就 没有 任何 希望 了"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 413,
+      "doc": "769",
+      "variables": {
+        "arg1": "基恩 大夫 继续 对 我 说 ， “ 根据 我 的 经验 ， 除非 孩子们 被 反复 告知 不 可以 ， 那么 就算 给 他们 微乎其微 的 支持 或者 任由 他们 自己 发展 ， 他们 都 会 有所 成就 的 。 ”",
+        "arg2": "看吧 ， 基恩 大夫 的 想法 改变 了"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 414,
+      "doc": "5",
+      "variables": {
+        "arg1": "对于 人 之所以 为人 的 道理 ， 对于 你 如何 解决 人生 的 难题 ， 基本上 是 不关心 的",
+        "arg2": "那 这 种 方法 到 历史 教育 上 就 会 要求 同学 记忆 大量 的 历史 知识 ， 可 从来 不 告诉 你 这 和 你 的 人生 有 什么 关系"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 415,
+      "doc": "1978",
+      "variables": {
+        "arg1": "我 很 幸运 ， 我 的 第一 份 工作 是 在 现代 艺术 博物馆 里 ， 给 画家 伊丽莎白 · 默里 办 一 个 回顾展",
+        "arg2": "我 从 她 那里 学到 很多"
+      },
+      "answer_type": "string",
+      "answer": "因为"
+    },
+    {
+      "id": 416,
+      "doc": "6",
+      "variables": {
+        "arg1": "有些 人 你 就 会 觉得 很 奇怪",
+        "arg2": "小小 的 事情 ， 他 为什么 暴跳如雷"
+      },
+      "answer_type": "string",
+      "answer": "因为"
+    },
+    {
+      "id": 417,
+      "doc": "3",
+      "variables": {
+        "arg1": "这个 人 ， 当初 我 嫁给 他 的 时候 ， 不 是 这个 样子 的",
+        "arg2": "有 没 有 哪 一些 情绪 ， 是 你们 认为 在 这样 的 情境 底下 ， 应该 有 ， 而 她 没有 讲到 的"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 418,
+      "doc": "1756",
+      "variables": {
+        "arg1": "她 提醒 我 ， 我 最 喜欢 的 颜色 是 蓝色",
+        "arg2": "我 现在 最 喜欢 的 颜色 是 蓝色 ， 但 我 依旧 是 个 同性恋者"
+      },
+      "answer_type": "string",
+      "answer": "但是"
+    },
+    {
+      "id": 419,
+      "doc": "6",
+      "variables": {
+        "arg1": "我 真 以 你们 为傲",
+        "arg2": "上面 这 句 话 也就是 为什么 我 一定 要 爱 我 自己"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 420,
+      "doc": "5",
+      "variables": {
+        "arg1": "我 跟着 老师 的 私塾 读 了 快 二十年",
+        "arg2": "老师 教 会 了 我 什么 是 中国 真正 的 学问 ， 教会 了 我 原来 帝王 之 家 给 自己 子弟 的 教育 和 给 平民 子弟 的 教育 ， 是 完全 不 一样 的"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 421,
+      "doc": "1756",
+      "variables": {
+        "arg1": "这 三 种 是 ， 自我 接受 ， 家庭 接纳 ， 社会 接纳",
+        "arg2": "它们 并 不 一定 同步 发生"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 422,
+      "doc": "7",
+      "variables": {
+        "arg1": "我 拿 了 两 个 行李箱 去 到 纽约",
+        "arg2": "我 功课 不 好 ， 英文 当然 也 不 好"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 423,
+      "doc": "10",
+      "variables": {
+        "arg1": "老师 问 我 是 怎么 想 的",
+        "arg2": "我 跟 老师 说 ， 我 说 我 小时候 住在 澳洲 ， 前院 跟 后院 都 有 草坪 ， 爸爸 要 给 草坪 施肥 之前 ， 都 会 先 把 杂草 拔掉 ， 他 说 这样 一 来 杂草 就 不 会 吸收 到 肥料"
+      },
+      "answer_type": "string",
+      "answer": "然后"
+    },
+    {
+      "id": 424,
+      "doc": "1978",
+      "variables": {
+        "arg1": "虽然 我们 创作 出了 乌托邦 ， 我 相信 我 仍旧 有 未 完成 的 追求",
+        "arg2": "完满 是 一 种 目标 ， 但 我们 希望 它 永无止境"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 425,
+      "doc": "6",
+      "variables": {
+        "arg1": "我们 经常 在 争 的 时候 ， 事实 上 在 争 我们 原来 认为 的 价值观",
+        "arg2": "那 我 现在 想要 请教 各位 一下 ， 你们 来 思考 一下 ， 也 就是 谈到 家庭 价值观 ， 这 无 关乎 对错"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 426,
+      "doc": "769",
+      "variables": {
+        "arg1": "我的 生命 中 就 有 这样 一 个 人 ， 为 我 开启 了 心灵 之门",
+        "arg2": "他 是 在 我 小时候 照顾 我 的 一 位 医生 ， 他 在 德拉华州 威尔明顿 的 A.I.Dupont 研究院 工作"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 427,
+      "doc": "6",
+      "variables": {
+        "arg1": "它 就 像 酒瘾 一样 , 它 就 像 烟瘾 一样",
+        "arg2": "有些 人 你 就 会 觉得 很 奇怪 ， 小小 的 事情 ， 他 为什么 暴跳如雷 。\n事实上 是 ， 你 现在 就 知道 了 ， 是 肾上腺素 的 关系"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 428,
+      "doc": "5",
+      "variables": {
+        "arg1": "历史 是 无穷 智慧 的 宝库",
+        "arg2": "是 无穷 力量 的 来源"
+      },
+      "answer_type": "string",
+      "answer": "并且"
+    },
+    {
+      "id": 429,
+      "doc": "1",
+      "variables": {
+        "arg1": "看 我们 的 五 年 计划",
+        "arg2": "他 觉得 这 是 一 个 中国 特色 的 乐观 主义"
+      },
+      "answer_type": "string",
+      "answer": "然后"
+    },
+    {
+      "id": 430,
+      "doc": "6",
+      "variables": {
+        "arg1": "我 父亲 今天 早上 从 美国 飞来 支持 我",
+        "arg2": "你们 转 过头 看到 他 的 时候 ， 想说 怎么 会 变 这样"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 431,
+      "doc": "2009",
+      "variables": {
+        "arg1": "他们 在 大 垃圾箱 里 和 垃圾 桶 里 觅 寻 完好 无损 的 食物",
+        "arg2": "他们 放弃 了 物质 享受 ， 为的是 换取 时间 和 空间 去 发掘 一 个 创意 的 自我 ， 去 想像 ， 去 阅读 ， 去 创造 音乐 ， 艺术 和 写作"
+      },
+      "answer_type": "string",
+      "answer": "但是"
+    },
+    {
+      "id": 432,
+      "doc": "824",
+      "variables": {
+        "arg1": "你 可以 选择 返回 过去 或 走到 未来 ， 就是 不 能 停在 当下",
+        "arg2": "我 在 想 你们 会 怎么 选 ， 近来 我 问 了 我 的 朋友 很多 次 这个 问题 ， 他们 的 回答 都 是 “ 回到 过去 ”"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 433,
+      "doc": "1",
+      "variables": {
+        "arg1": "我 觉得 它 比 钱 更 重要 ， 更 无价",
+        "arg2": "就是 moral ， 品格"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 434,
+      "doc": "769",
+      "variables": {
+        "arg1": "他 的 名字 叫 Pizzutillo ，\n是 一 位 意大利 裔 美国人",
+        "arg2": "很 显然 ， 他 的 名字 很多 美国人 念 出来 都 很 困难 ， 下面 不妨 就 叫 他 P 医生 好 了"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 435,
+      "doc": "769",
+      "variables": {
+        "arg1": "这 不仅仅 是 几 个 单词 的 事",
+        "arg2": "当 人们 用 那 种 消极 的 词汇 形容 残疾人 的 时候 ， 实际上 反映 出来 的 是 人们 对 残疾人 的 看法"
+      },
+      "answer_type": "string",
+      "answer": "因为"
+    },
+    {
+      "id": 436,
+      "doc": "1756",
+      "variables": {
+        "arg1": "我 丈夫 和 我 有 个 儿子 ， 和 我们 一起 生活",
+        "arg2": "我 是 他 的 生父"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 437,
+      "doc": "2009",
+      "variables": {
+        "arg1": "他们 能 看到 常人 所 看 不 到 的 美国 的 另 一 面",
+        "arg2": "和 以前 的 人 一样 ， 今天 的 流浪者 走遍 了 美国 大地 的 铁路 和 柏油 马路"
+      },
+      "answer_type": "string",
+      "answer": "因为"
+    },
+    {
+      "id": 438,
+      "doc": "9",
+      "variables": {
+        "arg1": "未来 就是 现在",
+        "arg2": "让 我们 一起 改变 它 吧"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 439,
+      "doc": "5",
+      "variables": {
+        "arg1": "在 古代 ， 帝王 和 精英们 都 要 学 历史 ， 而且 他们 都 觉得 学 历史 很 有用",
+        "arg2": "到了 今天 ， 我们 所有 人 从 小学 就 开始 学 历史 ， 可是 我们 往往 都 不 知道 学 历史 有 什么 用"
+      },
+      "answer_type": "string",
+      "answer": "然而"
+    },
+    {
+      "id": 440,
+      "doc": "1978",
+      "variables": {
+        "arg1": "这 听 上去 真 不 像 什么 抱怨 ， 而 是 一 种 告知 我 的 方式 ， 一 种 软性 的 承认 ， 提示 我 ， 他 知道 自己 全身 心地 投入 了 这 条 没有 止境 的 征程 ， 这 条 路 还 将 不停 地 延伸",
+        "arg2": "我们 挖掘 未 完成 的 想法 ， 即使 它们 就是 过去 的 自己"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 441,
+      "doc": "5",
+      "variables": {
+        "arg1": "我 的 第二 个 老师 是 我 的 史学 老师",
+        "arg2": "台大 的 阮芝生 教授 ， 他 毕生 研究 史记 ， 他 教会 了 我 如何 读懂 中国 历史 书 ， 也 教会 了 我 在 历史 上 如何 分析 和 观察 这些 帝王 和 精英们 的 心态 和 行为"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 442,
+      "doc": "6",
+      "variables": {
+        "arg1": "他们 需要 榜样",
+        "arg2": "他们 需要 知道 什么 叫 快乐"
+      },
+      "answer_type": "string",
+      "answer": "并且"
+    },
+    {
+      "id": 443,
+      "doc": "1",
+      "variables": {
+        "arg1": "那 像 我 一 个 这么 平凡 ， 没有 什么 背景 的 人 ， 我 可以 一路 克服 那么 多 不景气 、 困难",
+        "arg2": "我 相信 在座 的 每 一 个 人 都 可以"
+      },
+      "answer_type": "string",
+      "answer": "因此"
+    },
+    {
+      "id": 444,
+      "doc": "2009",
+      "variables": {
+        "arg1": "他们 就 在 星空 下 过夜",
+        "arg2": "和 许多 猫猫狗狗 ， 还有 宠物 老鼠 抱 在一起 入眠"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 445,
+      "doc": "1",
+      "variables": {
+        "arg1": "我 自己 创 了 一 个 ATM ， 然后 呢 也 提供 了 一 张 提款 卡 ， 叫做 人生 财富 提款 卡",
+        "arg2": "都 是 八八八 ， 大家 发现 ， 一路 顺 的 啊"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 446,
+      "doc": "7",
+      "variables": {
+        "arg1": "这 是 在 有一次 在 纽约 季 的 时候",
+        "arg2": "纽约 季 是 所有 的 舞者 ， 所有 的 表演者 非常 重视 的 一 个 季节 ， 非常 重视 的 一 个 时间点"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 447,
+      "doc": "824",
+      "variables": {
+        "arg1": "中间 那个 男人 就 不 是 那么 风光 了",
+        "arg2": "他 叫 Paul Offit"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 448,
+      "doc": "769",
+      "variables": {
+        "arg1": "呵呵 ， 我 遇到 的 就 是 这么 一 个 人",
+        "arg2": "当然 ， 最后 我 想 起来 了"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 449,
+      "doc": "1756",
+      "variables": {
+        "arg1": "曾经 的 疾病 是 如何 成为 现在 的 一 种 身份 认同",
+        "arg2": "当 我 差不多 六 岁 的 时候 ， 我 和 妈妈 还有 弟弟 去 一 家 鞋店"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 450,
+      "doc": "1756",
+      "variables": {
+        "arg1": "当 他 伸腿 时 ， 又 很 不 对称 ， 她 以为 这 可能 意味 着 有 某 种 类型 的 肿瘤",
+        "arg2": "他 的 头 非常 大 ， 她 认为 这 可能 意味 着 他 有 脑积水"
+      },
+      "answer_type": "string",
+      "answer": "而且"
+    },
+    {
+      "id": 451,
+      "doc": "6",
+      "variables": {
+        "arg1": "它 是 一 个 冰山 理论",
+        "arg2": "这个 理论 在 讲的 是 什么"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 452,
+      "doc": "824",
+      "variables": {
+        "arg1": "其中 一 个 就是 ， 虽然 我们 取得 了 巨大 的 进步 ， 但是 现在 世界 上 还有 10亿 人 吃不饱 肚子 ， 每天 ， 他们 都 在 忍受 饥饿 的 折磨",
+        "arg2": "这 一 数字 还 在 上升 ， 并且 上升 的 速度 很 快"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 453,
+      "doc": "6",
+      "variables": {
+        "arg1": "这 世界上 有钱人 很多 ， 但是 ， 幸福 快乐 的 人 实在 是 太 少 了",
+        "arg2": "各位 ， 今天 能够 在 这里 ， 我们 都 是 先驱"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 454,
+      "doc": "1756",
+      "variables": {
+        "arg1": "你们 希望 自己 的 孩子 没有 唐氏 综合症 吗",
+        "arg2": "是否 希望 从未 听说 过 这 种 病症"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 455,
+      "doc": "1978",
+      "variables": {
+        "arg1": "我 很 想 看看 所谓 的 “ 弓箭手 悖论 ”",
+        "arg2": "我 站在 那里"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 456,
+      "doc": "10",
+      "variables": {
+        "arg1": "一直 学到 离开 台湾 之前",
+        "arg2": "我 现在 有空 的 时候 ， 还是 会 回去 找 琵琶 老师 上课"
+      },
+      "answer_type": "string",
+      "answer": "然后"
+    },
+    {
+      "id": 457,
+      "doc": "5",
+      "variables": {
+        "arg1": "目的 不 一样 ， 方法 当然 不 一样",
+        "arg2": "古代 要 培养 帝王 精英 ， 所以 他们 要求 用 思辨 来 学 历史 。\n今天 要 培养 的 是 专业 工匠 ， 所以 他们 要求 背诵 来 学 历史"
+      },
+      "answer_type": "string",
+      "answer": "也就是说"
+    },
+    {
+      "id": 458,
+      "doc": "1756",
+      "variables": {
+        "arg1": "她 有 个 严重 残疾 的 孩子 ， 因为 照料 不周 而 去世",
+        "arg2": "当 他 的 骨灰 被 安葬 的 时候 ， 他 的 母亲 说 ， “ 我 在 这里 祈祷 宽恕 ， 我 失去 了 两 个 孩子 ， 一 个 是 我 想要 的 孩子 ， 一 个 是 我 所爱 着 的 儿子"
+      },
+      "answer_type": "string",
+      "answer": "然后"
+    },
+    {
+      "id": 459,
+      "doc": "1",
+      "variables": {
+        "arg1": "那个 脸蛋 都 很 年轻",
+        "arg2": "挂 的 都 CEO 总裁"
+      },
+      "answer_type": "string",
+      "answer": "但是"
+    },
+    {
+      "id": 460,
+      "doc": "1",
+      "variables": {
+        "arg1": "很多 人 点头 ， 对不对",
+        "arg2": "小国 呢 ， 你 就是 创业 ， 你 就是 老板 ， 你 可以 决定 一切"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 461,
+      "doc": "5",
+      "variables": {
+        "arg1": "你 不 明白 这个 ， 你 还是 不 懂 啊",
+        "arg2": "什么 叫做 “ 先 ” 呢"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 462,
+      "doc": "1756",
+      "variables": {
+        "arg1": "我 想到 的 是 疾病",
+        "arg2": "就 像 所有 的 父母 那样 ， 从 孩子 出生 那 刻 起 ， 我 想要 我 的 孩子 健康 ，\n同时 我 也 想 自己 远离 疾病"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 463,
+      "doc": "2150",
+      "variables": {
+        "arg1": "Under Armour 是 一 间 位于 巴尔的摩 的 公司 ， 或许 你 听过 ， 而 各式各样 运动 的 社区 成为 网络 两 端 之间 的 唯一 桥梁",
+        "arg2": "让 我们 看看 旧金山"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 464,
+      "doc": "12",
+      "variables": {
+        "arg1": "大家 老实 就 在 自己 的 房间 里面 ， 什么 事情 都 不 会 发生",
+        "arg2": "你 要 打开 这个 去 尝试"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 465,
+      "doc": "10",
+      "variables": {
+        "arg1": "故事 2 ， 钢琴 vs 琵琶",
+        "arg2": "我 小时候 ， 三 年级 的 时候 考进 秀朗 小学 的 游泳 班 ， 这个 班 每 天 的 游泳 训练 量 高 达 3000 米 ， 我 发现 这样 的 训练 量 ， 使 我 无法 同时 兼顾 两 种 乐器"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 466,
+      "doc": "824",
+      "variables": {
+        "arg1": "我们 的 医保 体制 很 烂",
+        "arg2": "对于 数百万 的 国民 来讲 ， 那 是 一 个 残酷 体制"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 467,
+      "doc": "3",
+      "variables": {
+        "arg1": "它 是 好 还是 不 好",
+        "arg2": "你 会 想要 拥有 它 吗"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 468,
+      "doc": "1756",
+      "variables": {
+        "arg1": "现在 美国 新生 的 耳聋 婴儿 ， 都 会 接受 人工 耳蜗 植入 手术 ， 将 人工 耳蜗 植入 大脑 并 连上 接收器 ， 通过 接收 信号 ， 让 他们 具有 听说 的 能力",
+        "arg2": "有 一 种 叫 BMN-111 的 化合物 ， 经 老鼠 实验 ， 在 抑制 软骨 发育 不全 基因 方面 非常 有效"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 469,
+      "doc": "10",
+      "variables": {
+        "arg1": "我 跟 老师 说 ， 我 说 我 小时候 住在 澳洲 ， 前院 跟 后院 都 有 草坪 ， 爸爸 要 给 草坪 施肥 之前 ， 都 会 先 把 杂草 拔掉 ， 他 说 这样 一 来 杂草 就 不 会 吸收 到 肥料",
+        "arg2": "老师 听完 之后 觉得 很 有 道理"
+      },
+      "answer_type": "string",
+      "answer": "然后"
+    },
+    {
+      "id": 470,
+      "doc": "5",
+      "variables": {
+        "arg1": "古代 要 培养 帝王 精英 ， 所以 他们 要求 用 思辨 来 学 历史 。\n今天 要 培养 的 是 专业 工匠 ， 所以 他们 要求 背诵 来 学 历史",
+        "arg2": "目的 不 一样 ， 方法 当然 不 一样"
+      },
+      "answer_type": "string",
+      "answer": "总之"
+    },
+    {
+      "id": 471,
+      "doc": "1978",
+      "variables": {
+        "arg1": "在 馆长 罗伯特·斯托 从 她 一生 的 作品 中 选取 了 画作 之后 ， 我 爱上 了 欣赏 这些 20世纪 70年代 的 画作",
+        "arg2": "在 她 生命 的 后期 ， 一些 主题 和 元素 得到 重现"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 472,
+      "doc": "2009",
+      "variables": {
+        "arg1": "不 愿 依靠 不 真实 的 希望 而 埋头 苦干",
+        "arg2": "不 愿 依靠 传统 的 美国 梦"
+      },
+      "answer_type": "string",
+      "answer": "也"
+    },
+    {
+      "id": 473,
+      "doc": "7",
+      "variables": {
+        "arg1": "我 可以 很 努力 地 跳 放羊 的 孩子 ， 就 这样 跑 啊 跑 啊",
+        "arg2": "把 嘴巴 张 得 很 大"
+      },
+      "answer_type": "string",
+      "answer": "并且"
+    },
+    {
+      "id": 474,
+      "doc": "769",
+      "variables": {
+        "arg1": "基恩 大夫 不得不 传达 两 个 坏 消息",
+        "arg2": "他 对 我 说 , “ 我 当年 把 诊断 报告 告诉 了 你 父母 ， 我 说 ， 你 将 永远 不 会 行走 ， 你 也 永远 不 会 像 其他 孩子 那样 跑跑 跳跳 ， 你 将 永远 无法 独立 的 生活 ， 可 从 那 以后 ， 你 却 通过 你 的 努力 把 我 变成 了 一 个 大 骗子 。 ”"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 475,
+      "doc": "5",
+      "variables": {
+        "arg1": "老父 没 料到 你 会 夜半 就 到 ， 所以 你 到 了 才 能 争 那个 “ 先 ”",
+        "arg2": "你 怎么 才 能 出乎 对方 意料 之外"
+      },
+      "answer_type": "string",
+      "answer": "但是"
+    },
+    {
+      "id": 476,
+      "doc": "1",
+      "variables": {
+        "arg1": "这样子 你 可以 集 跨度 、 高度 还有 深度 于 一身",
+        "arg2": "我 不 知道 我 的 人生 长廊 还 有 多少 门 要 去 敲 ， 但是 我 决定 我 还是 英勇地 要 去 敲门"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 477,
+      "doc": "1756",
+      "variables": {
+        "arg1": "这个 孩子 就 不 会 存在",
+        "arg2": "这 可怕 的 惨案 就 不 会 发生"
+      },
+      "answer_type": "string",
+      "answer": "如果"
+    },
+    {
+      "id": 478,
+      "doc": "1756",
+      "variables": {
+        "arg1": "而 有些 身份 较 难 识别 ， 但 并 不 需要 尝试 去 改变",
+        "arg2": "你 可以 争辩 说 ， 在 美国 作为 有色 人种 生存 艰难"
+      },
+      "answer_type": "string",
+      "answer": "虽然"
+    },
+    {
+      "id": 479,
+      "doc": "5",
+      "variables": {
+        "arg1": "我 就 回答 : “ 历史 。 ”",
+        "arg2": "大家 反应 是 : “ 喔 。 ”"
+      },
+      "answer_type": "string",
+      "answer": "然后"
+    },
+    {
+      "id": 480,
+      "doc": "6",
+      "variables": {
+        "arg1": "不是 赚钱 ， 看 数字 就 可以 快乐",
+        "arg2": "他 真的 需要 一 个 看到 榜样 ， 快快乐乐 的 人"
+      },
+      "answer_type": "string",
+      "answer": "相反"
+    },
+    {
+      "id": 481,
+      "doc": "824",
+      "variables": {
+        "arg1": "我 还是 只 做 我 该 做 的",
+        "arg2": "故事 写完 后 ， 我 就 不管 它 了"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 482,
+      "doc": "5",
+      "variables": {
+        "arg1": "兵法 讲 的 就是 先发制人 ， 后 发 受制 于人",
+        "arg2": "制 人和 受制于 人 是 天壤之别"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 483,
+      "doc": "5",
+      "variables": {
+        "arg1": "这 一 刻 闭上 眼睛",
+        "arg2": "如果 你 是 张良 碰到 这样 得寸进尺 的 老 先生 ， 你 会 怎么办"
+      },
+      "answer_type": "string",
+      "answer": "然后"
+    },
+    {
+      "id": 484,
+      "doc": "837",
+      "variables": {
+        "arg1": "建筑师 和 工程师 ， 谢天谢地",
+        "arg2": "我 见 过 的 最高 的 塔 是 39 英寸"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 485,
+      "doc": "824",
+      "variables": {
+        "arg1": "我们 不 希望 数百 亩 的 地 都 是 生产 同样 的 作物",
+        "arg2": "那样 不 好"
+      },
+      "answer_type": "string",
+      "answer": "因为"
+    },
+    {
+      "id": 486,
+      "doc": "10",
+      "variables": {
+        "arg1": "我 小时候 住在 澳洲",
+        "arg2": "前院 跟 后院 都 有 草坪"
+      },
+      "answer_type": "string",
+      "answer": "当时"
+    },
+    {
+      "id": 487,
+      "doc": "5",
+      "variables": {
+        "arg1": "目的 不 一样",
+        "arg2": "方法 当然 不 一样"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 488,
+      "doc": "6",
+      "variables": {
+        "arg1": "当 我 要 争 对 的 时候 ， 我 亢奋 ， 我 的 肾上腺素 开始 会 上升 。\n所以 ， 你 会 发现 有 一些 人 ， 比方说 我 老公 ， 他 经常 会 说 ： “ 我 真的 不 喜欢 吵架 , 我 也 不 喜欢 争 。 ”\n但是 ， 只要 他 看到 不平 事情 的 时候 ， 他 冲 第一 个 。\n所以 ， 我 就 跟 他 讲 ， 我 说 ： “ 你 知道 什么 叫 不喜欢 吵架 吗 ? ”\n不 喜欢 吵架 不 是 用 愤怒 去 告诉 对方 ， 我 多么 不 喜欢 愤怒 ， 不 喜欢 吵架 ， 是 要 处于 那个 和平 里",
+        "arg2": "这 是 我 多年来 学习 ， 肾上腺素 的 上升 会 是 一 个 瘾"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 489,
+      "doc": "824",
+      "variables": {
+        "arg1": "很 丢脸",
+        "arg2": "那里 的 人 需要 这些 ， 但 我们 偏偏 不 给"
+      },
+      "answer_type": "string",
+      "answer": "因为"
+    },
+    {
+      "id": 490,
+      "doc": "10",
+      "variables": {
+        "arg1": "故事 1 ， 知 不 知道 什么 是 体操  故事 2 ， 钢琴 vs 琵琶",
+        "arg2": "从 以上 两 个 小 故事 中 大家 可能 会 发现 ， 我 小时候 想 要 学 什么 ， 父母 还是 蛮 尊重 我 的 意愿"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 491,
+      "doc": "1971",
+      "variables": {
+        "arg1": "假肢 接受腔 是 一 个 插孔 ， 被 截肢 者 将 他们 的 残肢 插入 其中 ， 假肢 接受腔 就 和 踝关节 假体 连接 在一起",
+        "arg2": "即使 在 发达 国家 ， 患者 也 常 需要 等待 三周 到 数年 的 时间 ， 才 能 获得 一 个 舒适 的 假肢 接受腔"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 492,
+      "doc": "769",
+      "variables": {
+        "arg1": "我 出生 的 时候 就 没有 腓骨 ， 我 的 脚 、 脚趾 都 错位 了",
+        "arg2": "基恩 大夫 不得不 传达 两 个 坏 消息"
+      },
+      "answer_type": "string",
+      "answer": "然后"
+    },
+    {
+      "id": 493,
+      "doc": "824",
+      "variables": {
+        "arg1": "未来 的 50 年 ， 我们 需要 比 现在 种植 多 70% 的 粮食",
+        "arg2": "这 是 我们 过去 30年 在 非洲 投资 的 总计"
+      },
+      "answer_type": "string",
+      "answer": "但是"
+    },
+    {
+      "id": 494,
+      "doc": "12",
+      "variables": {
+        "arg1": "下 一 件 事 就是 ， “ 韦嘉 老师 ， 韦嘉 老师 ， 请到 大 办公室 。 ”",
+        "arg2": "我 就 走 进去"
+      },
+      "answer_type": "string",
+      "answer": "然后"
+    },
+    {
+      "id": 495,
+      "doc": "1756",
+      "variables": {
+        "arg1": "她 让 克林顿 接受 治疗",
+        "arg2": "他 的 童年 经历 了 30 次 重大 外科 手术"
+      },
+      "answer_type": "string",
+      "answer": "然后"
+    },
+    {
+      "id": 496,
+      "doc": "10",
+      "variables": {
+        "arg1": "4 岁 回到 台湾",
+        "arg2": "11 岁 到 美国"
+      },
+      "answer_type": "string",
+      "answer": "之后"
+    },
+    {
+      "id": 497,
+      "doc": "824",
+      "variables": {
+        "arg1": "我 是 个 记者",
+        "arg2": "我们 的 工作 就 是 写 文章 ， 发表 ， 吃饭"
+      },
+      "answer_type": "string",
+      "answer": "no implicit connective"
+    },
+    {
+      "id": 498,
+      "doc": "5",
+      "variables": {
+        "arg1": "帝王 和 领袖们 为什么 要 学 历史",
+        "arg2": "学 历史 到底 有 什么 用"
+      },
+      "answer_type": "string",
+      "answer": "就是"
+    },
+    {
+      "id": 499,
+      "doc": "5",
+      "variables": {
+        "arg1": "他 小的 时候 家里 很 穷",
+        "arg2": "他 年轻 的 时候 根本 没有 接受 过 任何 正规 的 教育"
+      },
+      "answer_type": "string",
+      "answer": "所以"
+    },
+    {
+      "id": 500,
+      "doc": "1978",
+      "variables": {
+        "arg1": "我 站在 这里 思索 和 想象 每 一 种 方法 ， 让 我们 有可能 在 这个 房间 里 达到 哪怕 一 项 差一点 的 成功",
+        "arg2": "你 的 生命 可能 如何 去 实现 这 一切"
+      },
+      "answer_type": "string",
+      "answer": "因为"
+    }
+  ]
+}

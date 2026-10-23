@@ -1,0 +1,5507 @@
+{
+  "task": "entity_more",
+  "lang": "german",
+  "example_prompt": "Which entity is mentioned more often in the text, {entity_a} or {entity_b}?",
+  "instances": [
+    {
+      "id": 1,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19501_words.xml",
+      "variables": {
+        "entity_a": "dieses Geld",
+        "entity_b": "die Zeit",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "dieses Geld"
+    },
+    {
+      "id": 2,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9852_words.xml",
+      "variables": {
+        "entity_a": "Heranwachsende",
+        "entity_b": "Zudem",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Heranwachsende"
+    },
+    {
+      "id": 3,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-3377_words.xml",
+      "variables": {
+        "entity_a": "eine Fraktion",
+        "entity_b": "das Wie der Eingemeindung",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "eine Fraktion"
+    },
+    {
+      "id": 4,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9884_words.xml",
+      "variables": {
+        "entity_a": "Fischer",
+        "entity_b": "die preußische Oberrechnungskammer",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Fischer"
+    },
+    {
+      "id": 5,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14055_words.xml",
+      "variables": {
+        "entity_a": "Gerhard Schröders",
+        "entity_b": "seine Minister",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Gerhard Schröders"
+    },
+    {
+      "id": 6,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11279_words.xml",
+      "variables": {
+        "entity_a": "Das FX-Center",
+        "entity_b": "dem Förderzweck",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Das FX-Center"
+    },
+    {
+      "id": 7,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-13153_words.xml",
+      "variables": {
+        "entity_a": "Solche Aktivitäten",
+        "entity_b": "der seit Jahren obwaltenden rechtsradikalen Umtriebe",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Solche Aktivitäten"
+    },
+    {
+      "id": 8,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11279_words.xml",
+      "variables": {
+        "entity_a": "der CDU-Wirtschaftsminister",
+        "entity_b": "des Hauses",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der CDU-Wirtschaftsminister"
+    },
+    {
+      "id": 9,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14813_words.xml",
+      "variables": {
+        "entity_a": "ein Lichtspieltheaterchef",
+        "entity_b": "Der Verleih Warner Bros",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ein Lichtspieltheaterchef"
+    },
+    {
+      "id": 10,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-4181_words.xml",
+      "variables": {
+        "entity_a": "sich auf die",
+        "entity_b": "eventuell das",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sich auf die"
+    },
+    {
+      "id": 11,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-13015_words.xml",
+      "variables": {
+        "entity_a": "die Brandenburger",
+        "entity_b": "dieses Sinnbild für Ignoranz Unfähigkeit und Inkompetenz",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die Brandenburger"
+    },
+    {
+      "id": 12,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-3367_words.xml",
+      "variables": {
+        "entity_a": "Schulsport",
+        "entity_b": "Die Sprunganlagen am Schwedendamm",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Schulsport"
+    },
+    {
+      "id": 13,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-18912_words.xml",
+      "variables": {
+        "entity_a": "sein Essay über Georg Trakls Dichtung",
+        "entity_b": "Franz Fühmann",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sein Essay über Georg Trakls Dichtung"
+    },
+    {
+      "id": 14,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14792_words.xml",
+      "variables": {
+        "entity_a": "Die Bösen",
+        "entity_b": "die Finanzsituation",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Die Bösen"
+    },
+    {
+      "id": 15,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-3377_words.xml",
+      "variables": {
+        "entity_a": "die SPD-Fraktion",
+        "entity_b": "Die anderen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die SPD-Fraktion"
+    },
+    {
+      "id": 16,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17254_words.xml",
+      "variables": {
+        "entity_a": "Götzer",
+        "entity_b": "der Verwaltungseinheit",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Götzer"
+    },
+    {
+      "id": 17,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17242_words.xml",
+      "variables": {
+        "entity_a": "eure Jette",
+        "entity_b": "der Standheizungsbauer",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "eure Jette"
+    },
+    {
+      "id": 18,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-18354_words.xml",
+      "variables": {
+        "entity_a": "der Klosteraner",
+        "entity_b": "Minister Meyer",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der Klosteraner"
+    },
+    {
+      "id": 19,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17673_words.xml",
+      "variables": {
+        "entity_a": "Die Rathenower Polizeibeamten",
+        "entity_b": "gewaltbereite Jugendliche",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Die Rathenower Polizeibeamten"
+    },
+    {
+      "id": 20,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12666_words.xml",
+      "variables": {
+        "entity_a": "Rüdiger Kadatz",
+        "entity_b": "die letzten Gespräche mit Rogner",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Rüdiger Kadatz"
+    },
+    {
+      "id": 21,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14071_words.xml",
+      "variables": {
+        "entity_a": "der Kommune",
+        "entity_b": "Die soziale Lage der Betroffenen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der Kommune"
+    },
+    {
+      "id": 22,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19501_words.xml",
+      "variables": {
+        "entity_a": "Berlin",
+        "entity_b": "die bis 1945 existierende Bahnstrecke",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Berlin"
+    },
+    {
+      "id": 23,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-8981_words.xml",
+      "variables": {
+        "entity_a": "der Landkreis Teltow-Fläming",
+        "entity_b": "die rund 100 Kilometer langen Rad- und Skatewege im Süden des Kreises",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der Landkreis Teltow-Fläming"
+    },
+    {
+      "id": 24,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11766_words.xml",
+      "variables": {
+        "entity_a": "der Noch-Finanzbeigeordnete Hans-Joachim Bosse",
+        "entity_b": "der Versuch das Projekt sterben zu lassen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der Noch-Finanzbeigeordnete Hans-Joachim Bosse"
+    },
+    {
+      "id": 25,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-16360_words.xml",
+      "variables": {
+        "entity_a": "Der Kyritzer Bäckermeister Thomas Haupt",
+        "entity_b": "Fretzdorfer",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Der Kyritzer Bäckermeister Thomas Haupt"
+    },
+    {
+      "id": 26,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12666_words.xml",
+      "variables": {
+        "entity_a": "Rüdiger Kadatz",
+        "entity_b": "des einzigen anderen Bades",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Rüdiger Kadatz"
+    },
+    {
+      "id": 27,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-10205_words.xml",
+      "variables": {
+        "entity_a": "Schröder",
+        "entity_b": "der Altgedienten",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Schröder"
+    },
+    {
+      "id": 28,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14055_words.xml",
+      "variables": {
+        "entity_a": "Gerhard Schröders",
+        "entity_b": "die Verunsicherung der Verbraucher seit dem 11. September den verschärften Konjunktureinbruch den noch vor einem Jahr kein Wirtschaftsinstitut so vorausgesehen hatte",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Gerhard Schröders"
+    },
+    {
+      "id": 29,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9884_words.xml",
+      "variables": {
+        "entity_a": "der Regierenden",
+        "entity_b": "Genscher",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der Regierenden"
+    },
+    {
+      "id": 30,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-15702_words.xml",
+      "variables": {
+        "entity_a": "Justizminister Schelter",
+        "entity_b": "die Gesamtzahl",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Justizminister Schelter"
+    },
+    {
+      "id": 31,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-15609_words.xml",
+      "variables": {
+        "entity_a": "Die Blankenfelder Gemeindevertreter",
+        "entity_b": "der Unfälle",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Die Blankenfelder Gemeindevertreter"
+    },
+    {
+      "id": 32,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-16360_words.xml",
+      "variables": {
+        "entity_a": "Der Kyritzer Bäckermeister Thomas Haupt",
+        "entity_b": "Auch die anderen Bäckermeister",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Der Kyritzer Bäckermeister Thomas Haupt"
+    },
+    {
+      "id": 33,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-18333_words.xml",
+      "variables": {
+        "entity_a": "die Ortsumgehung",
+        "entity_b": "gerade auch Investoren",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die Ortsumgehung"
+    },
+    {
+      "id": 34,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-4636_words.xml",
+      "variables": {
+        "entity_a": "die Rettungskräfte",
+        "entity_b": "damit wie sie die Bürger vor Katastrophen schützen können",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die Rettungskräfte"
+    },
+    {
+      "id": 35,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-3110_words.xml",
+      "variables": {
+        "entity_a": "das Neubauwohngebiet",
+        "entity_b": "dagegen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "das Neubauwohngebiet"
+    },
+    {
+      "id": 36,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-4031_words.xml",
+      "variables": {
+        "entity_a": "Brandenburgs Kulturministerin Wanka und ihre Berliner Kollegin Goehler",
+        "entity_b": "Brandenburgs",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Brandenburgs Kulturministerin Wanka und ihre Berliner Kollegin Goehler"
+    },
+    {
+      "id": 37,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-1423_words.xml",
+      "variables": {
+        "entity_a": "Wittstocker",
+        "entity_b": "Die Gäste aus nah und fern",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Wittstocker"
+    },
+    {
+      "id": 38,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12976_words.xml",
+      "variables": {
+        "entity_a": "So schonungslose Offenheit",
+        "entity_b": "die realpolitische Schmutzarbeit",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "So schonungslose Offenheit"
+    },
+    {
+      "id": 39,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-16153_words.xml",
+      "variables": {
+        "entity_a": "die rot-roten Verhandlungspartner",
+        "entity_b": "der Verweis auf die desolate Haushaltslage",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die rot-roten Verhandlungspartner"
+    },
+    {
+      "id": 40,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11279_words.xml",
+      "variables": {
+        "entity_a": "Artemedia",
+        "entity_b": "der ersten Betreibergesellschaft",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Artemedia"
+    },
+    {
+      "id": 41,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17673_words.xml",
+      "variables": {
+        "entity_a": "Drei hochmoderne Videokameras",
+        "entity_b": "ihrer Aggression",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Drei hochmoderne Videokameras"
+    },
+    {
+      "id": 42,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-13015_words.xml",
+      "variables": {
+        "entity_a": "Rosco",
+        "entity_b": "Der Coup den die CDU-OB-Kandidatin Dietlind Tiemann mit dem Verfüllen des Neustädtischen Marktes landet",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Rosco"
+    },
+    {
+      "id": 43,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12473_words.xml",
+      "variables": {
+        "entity_a": "auch die Unternehmer",
+        "entity_b": "die subjektiven die individuellen Erwartungen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "auch die Unternehmer"
+    },
+    {
+      "id": 44,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9207_words.xml",
+      "variables": {
+        "entity_a": "das brandenburgische Umweltministerium",
+        "entity_b": "Die Zeiten da die Literatur Aufklärungs- und Bekenntnisarbeit mitleisten musste",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "das brandenburgische Umweltministerium"
+    },
+    {
+      "id": 45,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9612_words.xml",
+      "variables": {
+        "entity_a": "der Region",
+        "entity_b": "die Aussage",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der Region"
+    },
+    {
+      "id": 46,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-3277_words.xml",
+      "variables": {
+        "entity_a": "Der Vorteil",
+        "entity_b": "die Öffnungszeiten",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Der Vorteil"
+    },
+    {
+      "id": 47,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17062_words.xml",
+      "variables": {
+        "entity_a": "des jetzt ausgelaufenen Urban-Programmes",
+        "entity_b": "die Zis-Macher",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "des jetzt ausgelaufenen Urban-Programmes"
+    },
+    {
+      "id": 48,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-16360_words.xml",
+      "variables": {
+        "entity_a": "eine Tafel auf der von dieser Begebenheit berichtet wird",
+        "entity_b": "die Elbwelle von Wolfgang Grünberg aus Lenzen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "eine Tafel auf der von dieser Begebenheit berichtet wird"
+    },
+    {
+      "id": 49,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9884_words.xml",
+      "variables": {
+        "entity_a": "Die Geschichte",
+        "entity_b": "deshalb",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Die Geschichte"
+    },
+    {
+      "id": 50,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-15702_words.xml",
+      "variables": {
+        "entity_a": "einen Häftling",
+        "entity_b": "die Frau des eigentlich zu Entlassenden",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "einen Häftling"
+    },
+    {
+      "id": 51,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-18750_words.xml",
+      "variables": {
+        "entity_a": "viele Menschen",
+        "entity_b": "die Gelegenheit",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "viele Menschen"
+    },
+    {
+      "id": 52,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9650_words.xml",
+      "variables": {
+        "entity_a": "der Zinsentscheidung",
+        "entity_b": "Die Verunsicherung von Verbrauchern und Unternehmern",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der Zinsentscheidung"
+    },
+    {
+      "id": 53,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17664_words.xml",
+      "variables": {
+        "entity_a": "Ein Mann in der Sparkasse",
+        "entity_b": "Erst zum Märzbeginn 2002",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Ein Mann in der Sparkasse"
+    },
+    {
+      "id": 54,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11916_words.xml",
+      "variables": {
+        "entity_a": "eine Bauabzugssteuer",
+        "entity_b": "die Bearbeitungszeiten für Steuersachen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "eine Bauabzugssteuer"
+    },
+    {
+      "id": 55,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-13507_words.xml",
+      "variables": {
+        "entity_a": "der einstige Kanzlerkandidat",
+        "entity_b": "die Meinung von 220_000 Menschen in meinem Wahlkreis",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der einstige Kanzlerkandidat"
+    },
+    {
+      "id": 56,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11279_words.xml",
+      "variables": {
+        "entity_a": "Das FX-Center",
+        "entity_b": "wie sein Leumund mit dem Technik-Inventar absolut auf der Höhe der Zeit zu sein",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Das FX-Center"
+    },
+    {
+      "id": 57,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14813_words.xml",
+      "variables": {
+        "entity_a": "Der Herr der Ringe",
+        "entity_b": "ein Frodo oder eine Elbenkönigin",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Der Herr der Ringe"
+    },
+    {
+      "id": 58,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11299_words.xml",
+      "variables": {
+        "entity_a": "Die Jugendlichen in Zossen",
+        "entity_b": "dazu",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Die Jugendlichen in Zossen"
+    },
+    {
+      "id": 59,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9891_words.xml",
+      "variables": {
+        "entity_a": "die Zehdenicker",
+        "entity_b": "das Bauvorhaben",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die Zehdenicker"
+    },
+    {
+      "id": 60,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-18912_words.xml",
+      "variables": {
+        "entity_a": "Werbestrategen",
+        "entity_b": "Rostocker",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Werbestrategen"
+    },
+    {
+      "id": 61,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9335_words.xml",
+      "variables": {
+        "entity_a": "15 feste Mitarbeiter",
+        "entity_b": "Pritzwalker",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "15 feste Mitarbeiter"
+    },
+    {
+      "id": 62,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12666_words.xml",
+      "variables": {
+        "entity_a": "den die Lielje-Gruppe",
+        "entity_b": "Ein paar vage mündliche Finanzierungs-Versprechen die Skizze des einzigen anderen Bades das",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "den die Lielje-Gruppe"
+    },
+    {
+      "id": 63,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14841_words.xml",
+      "variables": {
+        "entity_a": "Manche Geschäftsleute",
+        "entity_b": "des Zulieferers",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Manche Geschäftsleute"
+    },
+    {
+      "id": 64,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-16153_words.xml",
+      "variables": {
+        "entity_a": "die rot-roten Verhandlungspartner",
+        "entity_b": "Olympia",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die rot-roten Verhandlungspartner"
+    },
+    {
+      "id": 65,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19442_words.xml",
+      "variables": {
+        "entity_a": "seinen Briefkasten",
+        "entity_b": "Manche netten Mitmenschen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "seinen Briefkasten"
+    },
+    {
+      "id": 66,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9852_words.xml",
+      "variables": {
+        "entity_a": "Heranwachsende",
+        "entity_b": "der Verein Jugendrechtshaus",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Heranwachsende"
+    },
+    {
+      "id": 67,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-8563_words.xml",
+      "variables": {
+        "entity_a": "264 Bauten",
+        "entity_b": "der Glücksspirale",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "264 Bauten"
+    },
+    {
+      "id": 68,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-3367_words.xml",
+      "variables": {
+        "entity_a": "Leichtathleten aus Rathenow und Premnitz",
+        "entity_b": "das Gebiet vor der Kaufhalle Ost",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Leichtathleten aus Rathenow und Premnitz"
+    },
+    {
+      "id": 69,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11299_words.xml",
+      "variables": {
+        "entity_a": "Die Jugendlichen",
+        "entity_b": "Karola Andrae",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Die Jugendlichen"
+    },
+    {
+      "id": 70,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12473_words.xml",
+      "variables": {
+        "entity_a": "auch die Unternehmer",
+        "entity_b": "ihre Investitionen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "auch die Unternehmer"
+    },
+    {
+      "id": 71,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12188_words.xml",
+      "variables": {
+        "entity_a": "Hohenstückens",
+        "entity_b": "Die drei Grundschulen Hohenstückens",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Hohenstückens"
+    },
+    {
+      "id": 72,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19436_words.xml",
+      "variables": {
+        "entity_a": "der Flughafenausbau",
+        "entity_b": "die Chance der PDS zum Mitregieren in der Bundeshauptstadt",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der Flughafenausbau"
+    },
+    {
+      "id": 73,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-4282_words.xml",
+      "variables": {
+        "entity_a": "wenn die",
+        "entity_b": "Gefahr fürs Dallgower",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "wenn die"
+    },
+    {
+      "id": 74,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-1423_words.xml",
+      "variables": {
+        "entity_a": "die neue Wittstocker Stadthalle",
+        "entity_b": "Die Betriebskosten",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die neue Wittstocker Stadthalle"
+    },
+    {
+      "id": 75,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19501_words.xml",
+      "variables": {
+        "entity_a": "Berlin",
+        "entity_b": "des Schallschutzes für betroffene Anwohner in Kleinmachnow und Berlin",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Berlin"
+    },
+    {
+      "id": 76,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17953_words.xml",
+      "variables": {
+        "entity_a": "damit",
+        "entity_b": "Gesellschaft",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "damit"
+    },
+    {
+      "id": 77,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17254_words.xml",
+      "variables": {
+        "entity_a": "Groß Kreutz",
+        "entity_b": "die Groß-Kreutzer Problemlage",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Groß Kreutz"
+    },
+    {
+      "id": 78,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17254_words.xml",
+      "variables": {
+        "entity_a": "Götzer",
+        "entity_b": "den Weg",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Götzer"
+    },
+    {
+      "id": 79,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-18750_words.xml",
+      "variables": {
+        "entity_a": "sein Weihnachtsfest",
+        "entity_b": "solcher Vergesslichkeit",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sein Weihnachtsfest"
+    },
+    {
+      "id": 80,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-1757_words.xml",
+      "variables": {
+        "entity_a": "die Umgehungsstraßen und das Verkehrsprojekt Deutsche Einheit Nr. 17 - der Havelausbau",
+        "entity_b": "die Umgehungsstraßen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die Umgehungsstraßen und das Verkehrsprojekt Deutsche Einheit Nr. 17 - der Havelausbau"
+    },
+    {
+      "id": 81,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-1423_words.xml",
+      "variables": {
+        "entity_a": "die neue Wittstocker Stadthalle",
+        "entity_b": "der Stadthaushalt",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die neue Wittstocker Stadthalle"
+    },
+    {
+      "id": 82,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-16360_words.xml",
+      "variables": {
+        "entity_a": "Der Kyritzer Bäckermeister Thomas Haupt",
+        "entity_b": "der Prignitzer Bäcker-Innung",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Der Kyritzer Bäckermeister Thomas Haupt"
+    },
+    {
+      "id": 83,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-15155_words.xml",
+      "variables": {
+        "entity_a": "das Beispiel des Senioren-Hauses im Bornstedter Feld",
+        "entity_b": "die Form der WG",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "das Beispiel des Senioren-Hauses im Bornstedter Feld"
+    },
+    {
+      "id": 84,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12976_words.xml",
+      "variables": {
+        "entity_a": "Außenminister Joschka Fischer",
+        "entity_b": "Den Einsatz",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Außenminister Joschka Fischer"
+    },
+    {
+      "id": 85,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-15545_words.xml",
+      "variables": {
+        "entity_a": "Die Falkenseer Verwaltung und Havelbus",
+        "entity_b": "Die Ablehnung",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Die Falkenseer Verwaltung und Havelbus"
+    },
+    {
+      "id": 86,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14792_words.xml",
+      "variables": {
+        "entity_a": "der Landesgartenschau",
+        "entity_b": "Der Bürgermeister",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der Landesgartenschau"
+    },
+    {
+      "id": 87,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-13311_words.xml",
+      "variables": {
+        "entity_a": "die gebührenfinanzierten Programme",
+        "entity_b": "ihren Auftrag die fernsehpublizistische und politische Grundversorgung zu sichern",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die gebührenfinanzierten Programme"
+    },
+    {
+      "id": 88,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12976_words.xml",
+      "variables": {
+        "entity_a": "Außenminister Joschka Fischer",
+        "entity_b": "die Vorzeichen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Außenminister Joschka Fischer"
+    },
+    {
+      "id": 89,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-18454_words.xml",
+      "variables": {
+        "entity_a": "Zühlke",
+        "entity_b": "die Frage",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Zühlke"
+    },
+    {
+      "id": 90,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-18354_words.xml",
+      "variables": {
+        "entity_a": "Jüterbog",
+        "entity_b": "Der euphorischen Stimmung",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Jüterbog"
+    },
+    {
+      "id": 91,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17254_words.xml",
+      "variables": {
+        "entity_a": "Groß Kreutz",
+        "entity_b": "die rigorose Absage des Landes",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Groß Kreutz"
+    },
+    {
+      "id": 92,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-16153_words.xml",
+      "variables": {
+        "entity_a": "Olympia",
+        "entity_b": "die Bedenken",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Olympia"
+    },
+    {
+      "id": 93,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14071_words.xml",
+      "variables": {
+        "entity_a": "Die obdachlosen Wittstocker",
+        "entity_b": "der Unterkünfte",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Die obdachlosen Wittstocker"
+    },
+    {
+      "id": 94,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9884_words.xml",
+      "variables": {
+        "entity_a": "Genscher",
+        "entity_b": "des Datums",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Genscher"
+    },
+    {
+      "id": 95,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19074_words.xml",
+      "variables": {
+        "entity_a": "Jassir Arafat",
+        "entity_b": "Ein Schachspiel mit Konsequenzen für Leben und Tod .",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Jassir Arafat"
+    },
+    {
+      "id": 96,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19501_words.xml",
+      "variables": {
+        "entity_a": "dieses Geld",
+        "entity_b": "Der Klärung",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "dieses Geld"
+    },
+    {
+      "id": 97,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-18912_words.xml",
+      "variables": {
+        "entity_a": "Engel",
+        "entity_b": "der Region",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Engel"
+    },
+    {
+      "id": 98,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-15609_words.xml",
+      "variables": {
+        "entity_a": "Die Blankenfelder Gemeindevertreter",
+        "entity_b": "Blankenfelder",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Die Blankenfelder Gemeindevertreter"
+    },
+    {
+      "id": 99,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17242_words.xml",
+      "variables": {
+        "entity_a": "eure Jette",
+        "entity_b": "die Hompage der Standheizungsbauer",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "eure Jette"
+    },
+    {
+      "id": 100,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14172_words.xml",
+      "variables": {
+        "entity_a": "Dietmar Zigan",
+        "entity_b": "dem Vorwurf",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Dietmar Zigan"
+    },
+    {
+      "id": 101,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-18912_words.xml",
+      "variables": {
+        "entity_a": "den Titel Vor Feuerschlünden",
+        "entity_b": "die wunderbaren Boten",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "den Titel Vor Feuerschlünden"
+    },
+    {
+      "id": 102,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17091_words.xml",
+      "variables": {
+        "entity_a": "Firmenchef Klaus Kesting",
+        "entity_b": "Der Verkauf des Wohngebiets",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Firmenchef Klaus Kesting"
+    },
+    {
+      "id": 103,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12188_words.xml",
+      "variables": {
+        "entity_a": "die Marktplatz-Schule",
+        "entity_b": "den endgültigen Standort",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die Marktplatz-Schule"
+    },
+    {
+      "id": 104,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11279_words.xml",
+      "variables": {
+        "entity_a": "Artemedia",
+        "entity_b": "ihre Beiträge",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Artemedia"
+    },
+    {
+      "id": 105,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-3367_words.xml",
+      "variables": {
+        "entity_a": "Leichtathleten aus Rathenow und Premnitz",
+        "entity_b": "Jahn-Sportpark",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Leichtathleten aus Rathenow und Premnitz"
+    },
+    {
+      "id": 106,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-3110_words.xml",
+      "variables": {
+        "entity_a": "die Menschen",
+        "entity_b": "wie ihr Ruf",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die Menschen"
+    },
+    {
+      "id": 107,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17254_words.xml",
+      "variables": {
+        "entity_a": "Groß Kreutz",
+        "entity_b": "Die jüngste Entwicklung in Groß Kreutz und Götz",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Groß Kreutz"
+    },
+    {
+      "id": 108,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-1423_words.xml",
+      "variables": {
+        "entity_a": "Wittstocker",
+        "entity_b": "Die Diskussion",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Wittstocker"
+    },
+    {
+      "id": 109,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-13125_words.xml",
+      "variables": {
+        "entity_a": "des Volkes",
+        "entity_b": "der Krieg in Afghanistan",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "des Volkes"
+    },
+    {
+      "id": 110,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11318_words.xml",
+      "variables": {
+        "entity_a": "Werner Fresdorf",
+        "entity_b": "das Fressen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Werner Fresdorf"
+    },
+    {
+      "id": 111,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17254_words.xml",
+      "variables": {
+        "entity_a": "Groß Kreutz",
+        "entity_b": "den Weg",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Groß Kreutz"
+    },
+    {
+      "id": 112,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-18750_words.xml",
+      "variables": {
+        "entity_a": "viele Menschen",
+        "entity_b": "seinen Lieben",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "viele Menschen"
+    },
+    {
+      "id": 113,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-4181_words.xml",
+      "variables": {
+        "entity_a": "sich auf die",
+        "entity_b": ". Der Umrechnungskurs für den",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sich auf die"
+    },
+    {
+      "id": 114,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-6193_words.xml",
+      "variables": {
+        "entity_a": "das halbfertige Hotel",
+        "entity_b": "Grebser",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "das halbfertige Hotel"
+    },
+    {
+      "id": 115,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-15155_words.xml",
+      "variables": {
+        "entity_a": "Teens und Twens",
+        "entity_b": "seine eigene Wohnung mit Bad und Küche",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Teens und Twens"
+    },
+    {
+      "id": 116,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19501_words.xml",
+      "variables": {
+        "entity_a": "Stammbahn",
+        "entity_b": "Der Klärung",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Stammbahn"
+    },
+    {
+      "id": 117,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14384_words.xml",
+      "variables": {
+        "entity_a": "Mitglieder des Pritzwalker Bauausschusses",
+        "entity_b": "des Pritzwalker Bauausschusses",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Mitglieder des Pritzwalker Bauausschusses"
+    },
+    {
+      "id": 118,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9725_words.xml",
+      "variables": {
+        "entity_a": "Rund 15 grüne Bundestagsabgeordnete",
+        "entity_b": "der Kosovo-Krieg",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Rund 15 grüne Bundestagsabgeordnete"
+    },
+    {
+      "id": 119,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-18377_words.xml",
+      "variables": {
+        "entity_a": "Die Klärwerke",
+        "entity_b": "den Weg zur Verbandsversammlung",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Die Klärwerke"
+    },
+    {
+      "id": 120,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12188_words.xml",
+      "variables": {
+        "entity_a": "Doppelschulen",
+        "entity_b": "die Verwaltung",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Doppelschulen"
+    },
+    {
+      "id": 121,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-8981_words.xml",
+      "variables": {
+        "entity_a": "der Landkreis Teltow-Fläming",
+        "entity_b": "Dieser Anspruch",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der Landkreis Teltow-Fläming"
+    },
+    {
+      "id": 122,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9884_words.xml",
+      "variables": {
+        "entity_a": "der Regierenden",
+        "entity_b": "Schmidt , Kohl und Genscher",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der Regierenden"
+    },
+    {
+      "id": 123,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19442_words.xml",
+      "variables": {
+        "entity_a": "seinen Briefkasten",
+        "entity_b": "der Druck beim Explodieren pyrotechnischer Erzeugnisse",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "seinen Briefkasten"
+    },
+    {
+      "id": 124,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19436_words.xml",
+      "variables": {
+        "entity_a": "Gysi",
+        "entity_b": "darauf",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Gysi"
+    },
+    {
+      "id": 125,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12084_words.xml",
+      "variables": {
+        "entity_a": "Gunnar Lade",
+        "entity_b": "seinen Job",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Gunnar Lade"
+    },
+    {
+      "id": 126,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9335_words.xml",
+      "variables": {
+        "entity_a": "des Rewe-Konzerns",
+        "entity_b": "Die Stimmung im Pritzwalker Minimal-Markt",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "des Rewe-Konzerns"
+    },
+    {
+      "id": 127,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17254_words.xml",
+      "variables": {
+        "entity_a": "das Amt Emster-Havel",
+        "entity_b": "Bürgermeister Detlef Lemke",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "das Amt Emster-Havel"
+    },
+    {
+      "id": 128,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14590_words.xml",
+      "variables": {
+        "entity_a": "Rheinsberg",
+        "entity_b": "der dortigen Kammeroper",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Rheinsberg"
+    },
+    {
+      "id": 129,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-2669_words.xml",
+      "variables": {
+        "entity_a": "Grüne und Christdemokraten",
+        "entity_b": "die Seinen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Grüne und Christdemokraten"
+    },
+    {
+      "id": 130,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9884_words.xml",
+      "variables": {
+        "entity_a": "Kohl",
+        "entity_b": "die preußische Oberrechnungskammer",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Kohl"
+    },
+    {
+      "id": 131,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14047_words.xml",
+      "variables": {
+        "entity_a": "des Kreistages",
+        "entity_b": "die betriebswirtschaftliche und medizinische Qualität des Paracelsus-Krankenhauses",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "des Kreistages"
+    },
+    {
+      "id": 132,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-10652_words.xml",
+      "variables": {
+        "entity_a": "die Mainzelmänner",
+        "entity_b": "die Quoten",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die Mainzelmänner"
+    },
+    {
+      "id": 133,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19372_words.xml",
+      "variables": {
+        "entity_a": "Der Streit um den Schießplatz",
+        "entity_b": "den Schießplatzgemeinden",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Der Streit um den Schießplatz"
+    },
+    {
+      "id": 134,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14654_words.xml",
+      "variables": {
+        "entity_a": "das bisher beste Ergebnis für die PDS",
+        "entity_b": "die erste Wahl",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "das bisher beste Ergebnis für die PDS"
+    },
+    {
+      "id": 135,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9884_words.xml",
+      "variables": {
+        "entity_a": "Genscher",
+        "entity_b": "die Republik",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Genscher"
+    },
+    {
+      "id": 136,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11299_words.xml",
+      "variables": {
+        "entity_a": "Die Jugendlichen in Zossen",
+        "entity_b": "Damit",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Die Jugendlichen in Zossen"
+    },
+    {
+      "id": 137,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11670_words.xml",
+      "variables": {
+        "entity_a": "eine Resolution gegen den Krieg in Afghanistan",
+        "entity_b": "ihr Ziel",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "eine Resolution gegen den Krieg in Afghanistan"
+    },
+    {
+      "id": 138,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-1423_words.xml",
+      "variables": {
+        "entity_a": "Wittstocker",
+        "entity_b": "die neue Wittstocker Stadthalle",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Wittstocker"
+    },
+    {
+      "id": 139,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11279_words.xml",
+      "variables": {
+        "entity_a": "Das FX-Center",
+        "entity_b": "der Steuerzahler",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Das FX-Center"
+    },
+    {
+      "id": 140,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19442_words.xml",
+      "variables": {
+        "entity_a": "seinen Briefkasten",
+        "entity_b": "des alten Jahres",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "seinen Briefkasten"
+    },
+    {
+      "id": 141,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11177_words.xml",
+      "variables": {
+        "entity_a": "des Landes Brandenburg",
+        "entity_b": "das jahrelange Ringen um hohe Millionen-Schulden",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "des Landes Brandenburg"
+    },
+    {
+      "id": 142,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9884_words.xml",
+      "variables": {
+        "entity_a": "Schmidt",
+        "entity_b": "der Macht",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Schmidt"
+    },
+    {
+      "id": 143,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-15155_words.xml",
+      "variables": {
+        "entity_a": "Teens und Twens",
+        "entity_b": "die Wahrscheinlichkeit dass sich Teens und Twens auf eine gemeinsame Bude einlassen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Teens und Twens"
+    },
+    {
+      "id": 144,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17242_words.xml",
+      "variables": {
+        "entity_a": "eure Jette",
+        "entity_b": "die miesen Grade",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "eure Jette"
+    },
+    {
+      "id": 145,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14172_words.xml",
+      "variables": {
+        "entity_a": "Dietmar Zigan",
+        "entity_b": "dem gleichen Anliegen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Dietmar Zigan"
+    },
+    {
+      "id": 146,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-1423_words.xml",
+      "variables": {
+        "entity_a": "Wittstocker",
+        "entity_b": "Die Einnahmen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Wittstocker"
+    },
+    {
+      "id": 147,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-13311_words.xml",
+      "variables": {
+        "entity_a": "die gebührenfinanzierten Programme",
+        "entity_b": "Das ganze Leben",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die gebührenfinanzierten Programme"
+    },
+    {
+      "id": 148,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12666_words.xml",
+      "variables": {
+        "entity_a": "Rheinsbergs Favorit Rogner",
+        "entity_b": "die letzten Gespräche mit Rogner",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Rheinsbergs Favorit Rogner"
+    },
+    {
+      "id": 149,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19074_words.xml",
+      "variables": {
+        "entity_a": "Jassir Arafat",
+        "entity_b": "Ariel Scharon",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Jassir Arafat"
+    },
+    {
+      "id": 150,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17254_words.xml",
+      "variables": {
+        "entity_a": "Götzer",
+        "entity_b": "die Schwächung des Amtes Groß Kreutz",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Götzer"
+    },
+    {
+      "id": 151,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-1423_words.xml",
+      "variables": {
+        "entity_a": "Wittstocker",
+        "entity_b": "Gymnasium",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Wittstocker"
+    },
+    {
+      "id": 152,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19012_words.xml",
+      "variables": {
+        "entity_a": "sogar über die Feiertage hinaus",
+        "entity_b": "die Wetterunbilden auf den Straßen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sogar über die Feiertage hinaus"
+    },
+    {
+      "id": 153,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-4181_words.xml",
+      "variables": {
+        "entity_a": "sich auf die",
+        "entity_b": ".",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sich auf die"
+    },
+    {
+      "id": 154,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-8838_words.xml",
+      "variables": {
+        "entity_a": "bereits die zweite Sammelbox für restliches Urlaubsgeld aus aller Herren Länder",
+        "entity_b": "Osteuropas",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "bereits die zweite Sammelbox für restliches Urlaubsgeld aus aller Herren Länder"
+    },
+    {
+      "id": 155,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-16250_words.xml",
+      "variables": {
+        "entity_a": "die Strategen von der Bundeswehr",
+        "entity_b": "die Gefahr für den Tourismus",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die Strategen von der Bundeswehr"
+    },
+    {
+      "id": 156,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-15545_words.xml",
+      "variables": {
+        "entity_a": "den Personennahverkehr",
+        "entity_b": "der tatsächlichen Mehrheit",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "den Personennahverkehr"
+    },
+    {
+      "id": 157,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9884_words.xml",
+      "variables": {
+        "entity_a": "den Kritikern",
+        "entity_b": "Bismarck",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "den Kritikern"
+    },
+    {
+      "id": 158,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17242_words.xml",
+      "variables": {
+        "entity_a": "eure Jette",
+        "entity_b": "der Wetterkarten",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "eure Jette"
+    },
+    {
+      "id": 159,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-18160_words.xml",
+      "variables": {
+        "entity_a": "des Innenministers und Parteivorsitzenden Jörg Schönbohm",
+        "entity_b": "CDU-Amtsinhaber Werner Große",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "des Innenministers und Parteivorsitzenden Jörg Schönbohm"
+    },
+    {
+      "id": 160,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-18354_words.xml",
+      "variables": {
+        "entity_a": "der Klosteraner",
+        "entity_b": "der neuen Bundesstraße",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der Klosteraner"
+    },
+    {
+      "id": 161,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14047_words.xml",
+      "variables": {
+        "entity_a": "des Kreistages",
+        "entity_b": "die wohnortnahe Versorgung von Patienten in Rathenow",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "des Kreistages"
+    },
+    {
+      "id": 162,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12084_words.xml",
+      "variables": {
+        "entity_a": "Gunnar Lade",
+        "entity_b": "die Frage wer es hier wem recht machen will",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Gunnar Lade"
+    },
+    {
+      "id": 163,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9852_words.xml",
+      "variables": {
+        "entity_a": "Heranwachsende",
+        "entity_b": "die Arbeit",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Heranwachsende"
+    },
+    {
+      "id": 164,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14172_words.xml",
+      "variables": {
+        "entity_a": "Dietmar Zigan",
+        "entity_b": "seine Wiederwahl",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Dietmar Zigan"
+    },
+    {
+      "id": 165,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12473_words.xml",
+      "variables": {
+        "entity_a": "auch die Unternehmer",
+        "entity_b": "Auch für das dritte Quartal dessen Ergebnisse heute vorgestellt werden",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "auch die Unternehmer"
+    },
+    {
+      "id": 166,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9884_words.xml",
+      "variables": {
+        "entity_a": "Schröder",
+        "entity_b": "das Wie",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Schröder"
+    },
+    {
+      "id": 167,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14590_words.xml",
+      "variables": {
+        "entity_a": "Rheinsberg",
+        "entity_b": "des Rheinsberger Schlosstheaters",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Rheinsberg"
+    },
+    {
+      "id": 168,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11177_words.xml",
+      "variables": {
+        "entity_a": "des AZV",
+        "entity_b": "Lehniner",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "des AZV"
+    },
+    {
+      "id": 169,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17062_words.xml",
+      "variables": {
+        "entity_a": "des jetzt ausgelaufenen Urban-Programmes",
+        "entity_b": "ihr Gesicht",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "des jetzt ausgelaufenen Urban-Programmes"
+    },
+    {
+      "id": 170,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-2669_words.xml",
+      "variables": {
+        "entity_a": "Bigalke und die Seinen",
+        "entity_b": "diese wichtige Personalie",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Bigalke und die Seinen"
+    },
+    {
+      "id": 171,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-18354_words.xml",
+      "variables": {
+        "entity_a": "Kloster Zinnaer",
+        "entity_b": "die Mienen der Klosteraner",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Kloster Zinnaer"
+    },
+    {
+      "id": 172,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-16177_words.xml",
+      "variables": {
+        "entity_a": "Das erste Bündnis für Arbeit",
+        "entity_b": "der IG Metall",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Das erste Bündnis für Arbeit"
+    },
+    {
+      "id": 173,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19501_words.xml",
+      "variables": {
+        "entity_a": "dieses Geld",
+        "entity_b": "die Einführung der Gleise in den Berliner Tiergartentunnel",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "dieses Geld"
+    },
+    {
+      "id": 174,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14813_words.xml",
+      "variables": {
+        "entity_a": "ein Lichtspieltheaterchef",
+        "entity_b": "die gebeutelten Kinos",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ein Lichtspieltheaterchef"
+    },
+    {
+      "id": 175,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11299_words.xml",
+      "variables": {
+        "entity_a": "Vertreter von PDS und Gewerbeverein",
+        "entity_b": "die Politiker",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Vertreter von PDS und Gewerbeverein"
+    },
+    {
+      "id": 176,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19442_words.xml",
+      "variables": {
+        "entity_a": "seinen Briefkasten",
+        "entity_b": "seine künstlerische Ader",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "seinen Briefkasten"
+    },
+    {
+      "id": 177,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-2611_words.xml",
+      "variables": {
+        "entity_a": "auch die CDU-Fraktion",
+        "entity_b": "das Verhalten von Bürgermeister Lünser",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "auch die CDU-Fraktion"
+    },
+    {
+      "id": 178,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17664_words.xml",
+      "variables": {
+        "entity_a": "die ersten blanken Münzen",
+        "entity_b": "Erst zum Märzbeginn 2002",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die ersten blanken Münzen"
+    },
+    {
+      "id": 179,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17062_words.xml",
+      "variables": {
+        "entity_a": "Die 13 Projektbündel mit ihren insgesamt 140 Einzelvorhaben",
+        "entity_b": "des Zis-Programmes",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Die 13 Projektbündel mit ihren insgesamt 140 Einzelvorhaben"
+    },
+    {
+      "id": 180,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17706_words.xml",
+      "variables": {
+        "entity_a": "der Kreisverwaltung",
+        "entity_b": "der Kreistag",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der Kreisverwaltung"
+    },
+    {
+      "id": 181,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12473_words.xml",
+      "variables": {
+        "entity_a": "auch die Unternehmer",
+        "entity_b": "der Export der traditionell die deutsche Konjunktur beflügelt hat",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "auch die Unternehmer"
+    },
+    {
+      "id": 182,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-13015_words.xml",
+      "variables": {
+        "entity_a": "Der SPD-OB-Kandidat Helmut Schmidt",
+        "entity_b": "der Selbsthass mit dem sich die Brandenburger ob ihrer hässlichen Mitte geißeln und wegen dem sie sich schämen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Der SPD-OB-Kandidat Helmut Schmidt"
+    },
+    {
+      "id": 183,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19012_words.xml",
+      "variables": {
+        "entity_a": "sogar über die Feiertage hinaus",
+        "entity_b": "der Vergangenheit",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sogar über die Feiertage hinaus"
+    },
+    {
+      "id": 184,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14792_words.xml",
+      "variables": {
+        "entity_a": "der Landesgartenschau",
+        "entity_b": "die Finanzsituation",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der Landesgartenschau"
+    },
+    {
+      "id": 185,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19012_words.xml",
+      "variables": {
+        "entity_a": "die weiße Weihnacht",
+        "entity_b": "den Menschen in diesen Regionen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die weiße Weihnacht"
+    },
+    {
+      "id": 186,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14841_words.xml",
+      "variables": {
+        "entity_a": "Manche Geschäftsleute",
+        "entity_b": "Die Gasversorgung Zehdenick",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Manche Geschäftsleute"
+    },
+    {
+      "id": 187,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19012_words.xml",
+      "variables": {
+        "entity_a": "sogar über die Feiertage hinaus",
+        "entity_b": "dem Polizeibericht",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sogar über die Feiertage hinaus"
+    },
+    {
+      "id": 188,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11279_words.xml",
+      "variables": {
+        "entity_a": "Das FX-Center",
+        "entity_b": "das Recht im Interesse der Steuerzahler die Pflicht ihre Beiträge zurückzufordern",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Das FX-Center"
+    },
+    {
+      "id": 189,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-13758_words.xml",
+      "variables": {
+        "entity_a": "die Stadt",
+        "entity_b": "die Eigenanteile für bestimmte Vorhaben",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die Stadt"
+    },
+    {
+      "id": 190,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14047_words.xml",
+      "variables": {
+        "entity_a": "des Kreistages",
+        "entity_b": "der der die wohnortnahe Versorgung von Patienten in Rathenow sicherstellen kann und darüberhinaus die betriebswirtschaftliche und medizinische Qualität des Paracelsus-Krankenhauses nicht nur erhält sondern stabilisiert",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "des Kreistages"
+    },
+    {
+      "id": 191,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17254_words.xml",
+      "variables": {
+        "entity_a": "Groß Kreutz",
+        "entity_b": "Gollwitz",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Groß Kreutz"
+    },
+    {
+      "id": 192,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14071_words.xml",
+      "variables": {
+        "entity_a": "der Kommune",
+        "entity_b": "der Sozialfürsorgepflicht der Kommune",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der Kommune"
+    },
+    {
+      "id": 193,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17673_words.xml",
+      "variables": {
+        "entity_a": "Drei hochmoderne Videokameras",
+        "entity_b": "die Zeiten in denen ein Einsatzbus mit mehreren Beamten auf dem Parkplatz stundenlang Position beziehen musste um mögliche Gewalttäter von ihrem Tun abzuhalten",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Drei hochmoderne Videokameras"
+    },
+    {
+      "id": 194,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-18160_words.xml",
+      "variables": {
+        "entity_a": "des Innenministers und Parteivorsitzenden Jörg Schönbohm",
+        "entity_b": "die Situation",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "des Innenministers und Parteivorsitzenden Jörg Schönbohm"
+    },
+    {
+      "id": 195,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12666_words.xml",
+      "variables": {
+        "entity_a": "Rheinsberger",
+        "entity_b": "Ein paar vage mündliche Finanzierungs-Versprechen die Skizze des einzigen anderen Bades das",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Rheinsberger"
+    },
+    {
+      "id": 196,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-4282_words.xml",
+      "variables": {
+        "entity_a": ". Die Seeburger und einige",
+        "entity_b": "verzagt wie die deutsche Abwehrreihe der",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": ". Die Seeburger und einige"
+    },
+    {
+      "id": 197,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-15545_words.xml",
+      "variables": {
+        "entity_a": "der Bewohner",
+        "entity_b": "Doch das Angebot , nahe der Haustür den Personennahverkehr nutzen zu können",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der Bewohner"
+    },
+    {
+      "id": 198,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12976_words.xml",
+      "variables": {
+        "entity_a": "Außenminister Joschka Fischer",
+        "entity_b": "Dazwischen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Außenminister Joschka Fischer"
+    },
+    {
+      "id": 199,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-13507_words.xml",
+      "variables": {
+        "entity_a": "Politik",
+        "entity_b": "die Meinung von 220_000 Menschen in meinem Wahlkreis",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Politik"
+    },
+    {
+      "id": 200,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12666_words.xml",
+      "variables": {
+        "entity_a": "Rüdiger Kadatz",
+        "entity_b": "die Skizze des einzigen anderen Bades",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Rüdiger Kadatz"
+    },
+    {
+      "id": 201,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-2669_words.xml",
+      "variables": {
+        "entity_a": "Jürgen Bigalke",
+        "entity_b": "der 1. Beigeordneten stellvertretende Bürgermeisterin",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Jürgen Bigalke"
+    },
+    {
+      "id": 202,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14172_words.xml",
+      "variables": {
+        "entity_a": "Dietmar Zigan",
+        "entity_b": "Petrys Haupttrumpfkarte",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Dietmar Zigan"
+    },
+    {
+      "id": 203,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14654_words.xml",
+      "variables": {
+        "entity_a": "das bisher beste Ergebnis für die PDS",
+        "entity_b": "Hans-Jürgen Akuloff",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "das bisher beste Ergebnis für die PDS"
+    },
+    {
+      "id": 204,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19501_words.xml",
+      "variables": {
+        "entity_a": "Die Deutsche Bahn AG",
+        "entity_b": "Der Klärung",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Die Deutsche Bahn AG"
+    },
+    {
+      "id": 205,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-15970_words.xml",
+      "variables": {
+        "entity_a": "Weihnachten",
+        "entity_b": "des unverbindlichen Ich-versuch's-einfach-mal\"-Typen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Weihnachten"
+    },
+    {
+      "id": 206,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9335_words.xml",
+      "variables": {
+        "entity_a": "Wohl die wenigsten",
+        "entity_b": "Pritzwalker",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Wohl die wenigsten"
+    },
+    {
+      "id": 207,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17242_words.xml",
+      "variables": {
+        "entity_a": "eure Jette",
+        "entity_b": "dabei",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "eure Jette"
+    },
+    {
+      "id": 208,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11279_words.xml",
+      "variables": {
+        "entity_a": "Das FX-Center",
+        "entity_b": "der Zeit",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Das FX-Center"
+    },
+    {
+      "id": 209,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-7690_words.xml",
+      "variables": {
+        "entity_a": "der Deutschen",
+        "entity_b": "den Schrecken",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der Deutschen"
+    },
+    {
+      "id": 210,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11299_words.xml",
+      "variables": {
+        "entity_a": "Zossener",
+        "entity_b": "Karola Andrae",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Zossener"
+    },
+    {
+      "id": 211,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17254_words.xml",
+      "variables": {
+        "entity_a": "Götzer",
+        "entity_b": "die rigorose Absage des Landes",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Götzer"
+    },
+    {
+      "id": 212,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-3277_words.xml",
+      "variables": {
+        "entity_a": "die Älteren",
+        "entity_b": "die Verlagerung an einen neuen Standort mit den längeren Öffnungszeiten",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die Älteren"
+    },
+    {
+      "id": 213,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19012_words.xml",
+      "variables": {
+        "entity_a": "sogar über die Feiertage hinaus",
+        "entity_b": "die Folgen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sogar über die Feiertage hinaus"
+    },
+    {
+      "id": 214,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-13015_words.xml",
+      "variables": {
+        "entity_a": "das Trauerspiel Loch dieses Sinnbild für Ignoranz Unfähigkeit und Inkompetenz",
+        "entity_b": "der Selbsthass mit dem sich die Brandenburger ob ihrer hässlichen Mitte geißeln und wegen dem sie sich schämen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "das Trauerspiel Loch dieses Sinnbild für Ignoranz Unfähigkeit und Inkompetenz"
+    },
+    {
+      "id": 215,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9650_words.xml",
+      "variables": {
+        "entity_a": "die Europäische Zentralbank",
+        "entity_b": "die Verantwortung",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die Europäische Zentralbank"
+    },
+    {
+      "id": 216,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-13507_words.xml",
+      "variables": {
+        "entity_a": "der einstige Kanzlerkandidat",
+        "entity_b": "die Summe",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der einstige Kanzlerkandidat"
+    },
+    {
+      "id": 217,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11766_words.xml",
+      "variables": {
+        "entity_a": "der Noch-Finanzbeigeordnete Hans-Joachim Bosse",
+        "entity_b": "die Verwaltung",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der Noch-Finanzbeigeordnete Hans-Joachim Bosse"
+    },
+    {
+      "id": 218,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-3367_words.xml",
+      "variables": {
+        "entity_a": "Leichtathleten aus Rathenow und Premnitz",
+        "entity_b": "Die Brücke über den Stadtkanal",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Leichtathleten aus Rathenow und Premnitz"
+    },
+    {
+      "id": 219,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17062_words.xml",
+      "variables": {
+        "entity_a": "der Innenstadt",
+        "entity_b": "dabei",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der Innenstadt"
+    },
+    {
+      "id": 220,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12666_words.xml",
+      "variables": {
+        "entity_a": "Rüdiger Kadatz",
+        "entity_b": "Rheinsberger",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Rüdiger Kadatz"
+    },
+    {
+      "id": 221,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-16360_words.xml",
+      "variables": {
+        "entity_a": "Der Kyritzer Bäckermeister Thomas Haupt",
+        "entity_b": "die Elbwelle von Wolfgang Grünberg aus Lenzen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Der Kyritzer Bäckermeister Thomas Haupt"
+    },
+    {
+      "id": 222,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14047_words.xml",
+      "variables": {
+        "entity_a": "des Paracelsus-Krankenhauses",
+        "entity_b": "die betriebswirtschaftliche und medizinische Qualität des Paracelsus-Krankenhauses",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "des Paracelsus-Krankenhauses"
+    },
+    {
+      "id": 223,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17254_words.xml",
+      "variables": {
+        "entity_a": "Götzer",
+        "entity_b": "Bürgermeister Detlef Lemke",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Götzer"
+    },
+    {
+      "id": 224,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14172_words.xml",
+      "variables": {
+        "entity_a": "Dietmar Zigan",
+        "entity_b": "Wittenberger",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Dietmar Zigan"
+    },
+    {
+      "id": 225,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17242_words.xml",
+      "variables": {
+        "entity_a": "eure Jette",
+        "entity_b": "die Zeit",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "eure Jette"
+    },
+    {
+      "id": 226,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-16177_words.xml",
+      "variables": {
+        "entity_a": "der Unternehmer",
+        "entity_b": "Das Wenige das Tarifparteien und Bundesregierung vereinbarten",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der Unternehmer"
+    },
+    {
+      "id": 227,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11766_words.xml",
+      "variables": {
+        "entity_a": "Millionen",
+        "entity_b": "die sicher notwendigen Investitionen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Millionen"
+    },
+    {
+      "id": 228,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-18912_words.xml",
+      "variables": {
+        "entity_a": "den Titel Vor Feuerschlünden",
+        "entity_b": "die wunderbaren Boten die Musen und Heilsbringer",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "den Titel Vor Feuerschlünden"
+    },
+    {
+      "id": 229,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11280_words.xml",
+      "variables": {
+        "entity_a": "der Bürger vom Görden",
+        "entity_b": "der Weg mit dem gelben Sack vor die Haustür",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der Bürger vom Görden"
+    },
+    {
+      "id": 230,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12976_words.xml",
+      "variables": {
+        "entity_a": "So schonungslose Offenheit",
+        "entity_b": "der Gipfel parteipolitischer Bigotterie",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "So schonungslose Offenheit"
+    },
+    {
+      "id": 231,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-18354_words.xml",
+      "variables": {
+        "entity_a": "der Klosteraner",
+        "entity_b": "Hildegard Uebe",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der Klosteraner"
+    },
+    {
+      "id": 232,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14047_words.xml",
+      "variables": {
+        "entity_a": "des Kreistages",
+        "entity_b": "Landrat Burkhard Schröder",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "des Kreistages"
+    },
+    {
+      "id": 233,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-16360_words.xml",
+      "variables": {
+        "entity_a": "Der Kyritzer Bäckermeister Thomas Haupt",
+        "entity_b": "nur am Mut mit diesen Schätzen an die Öffentlichkeit zu gehen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Der Kyritzer Bäckermeister Thomas Haupt"
+    },
+    {
+      "id": 234,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17706_words.xml",
+      "variables": {
+        "entity_a": "Der Landrat",
+        "entity_b": "daran",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Der Landrat"
+    },
+    {
+      "id": 235,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-18912_words.xml",
+      "variables": {
+        "entity_a": "Der Westleser",
+        "entity_b": "der Sympathie",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Der Westleser"
+    },
+    {
+      "id": 236,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-18750_words.xml",
+      "variables": {
+        "entity_a": "sein Weihnachtsfest",
+        "entity_b": "das eigene Glück",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sein Weihnachtsfest"
+    },
+    {
+      "id": 237,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17673_words.xml",
+      "variables": {
+        "entity_a": "Provokateuren",
+        "entity_b": "die Möglichkeit die Lage nüchtern und mit klarem Kopf einzuschätzen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Provokateuren"
+    },
+    {
+      "id": 238,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19501_words.xml",
+      "variables": {
+        "entity_a": "Berlin",
+        "entity_b": "der Stammbahn von Potsdam nach Berlin",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Berlin"
+    },
+    {
+      "id": 239,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11279_words.xml",
+      "variables": {
+        "entity_a": "Das FX-Center",
+        "entity_b": "die Pflicht",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Das FX-Center"
+    },
+    {
+      "id": 240,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19436_words.xml",
+      "variables": {
+        "entity_a": "der Flughafenausbau",
+        "entity_b": "die Macht",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der Flughafenausbau"
+    },
+    {
+      "id": 241,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-1423_words.xml",
+      "variables": {
+        "entity_a": "die neue Wittstocker Stadthalle",
+        "entity_b": "Die Einnahmen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die neue Wittstocker Stadthalle"
+    },
+    {
+      "id": 242,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17664_words.xml",
+      "variables": {
+        "entity_a": "Ein Mann in der Sparkasse",
+        "entity_b": "der lammfellgefütterten Hosenträger",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Ein Mann in der Sparkasse"
+    },
+    {
+      "id": 243,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-8981_words.xml",
+      "variables": {
+        "entity_a": "darauf",
+        "entity_b": "den Touristen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "darauf"
+    },
+    {
+      "id": 244,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-00001_words.xml",
+      "variables": {
+        "entity_a": "das Bildungsressort",
+        "entity_b": "des vorzeitigen Ausstiegs",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "das Bildungsressort"
+    },
+    {
+      "id": 245,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17673_words.xml",
+      "variables": {
+        "entity_a": "Drei hochmoderne Videokameras",
+        "entity_b": "die Möglichkeit die Lage nüchtern und mit klarem Kopf einzuschätzen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Drei hochmoderne Videokameras"
+    },
+    {
+      "id": 246,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-16360_words.xml",
+      "variables": {
+        "entity_a": "Der Kyritzer Bäckermeister Thomas Haupt",
+        "entity_b": "Raubritter Bassewitz",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Der Kyritzer Bäckermeister Thomas Haupt"
+    },
+    {
+      "id": 247,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14399_words.xml",
+      "variables": {
+        "entity_a": "Ein Lehrer aus Baden-Württemberg",
+        "entity_b": "des Zentralorgans der deutschen Jäger",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Ein Lehrer aus Baden-Württemberg"
+    },
+    {
+      "id": 248,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9884_words.xml",
+      "variables": {
+        "entity_a": "Genscher",
+        "entity_b": "ihr Gewissen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Genscher"
+    },
+    {
+      "id": 249,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-10205_words.xml",
+      "variables": {
+        "entity_a": "die meisten jüngeren Autoren",
+        "entity_b": "die großen Namen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die meisten jüngeren Autoren"
+    },
+    {
+      "id": 250,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14055_words.xml",
+      "variables": {
+        "entity_a": "Gerhard Schröders",
+        "entity_b": "Die Probe aufs Exempel",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Gerhard Schröders"
+    },
+    {
+      "id": 251,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19012_words.xml",
+      "variables": {
+        "entity_a": "die weiße Weihnacht",
+        "entity_b": "Der Traum vieler Menschen von der weißen Weihnacht",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die weiße Weihnacht"
+    },
+    {
+      "id": 252,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14853_words.xml",
+      "variables": {
+        "entity_a": "Elisabeth Herzog",
+        "entity_b": "Luckenwaldes",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Elisabeth Herzog"
+    },
+    {
+      "id": 253,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-16250_words.xml",
+      "variables": {
+        "entity_a": "die Strategen von der Bundeswehr",
+        "entity_b": "die beste Verteidigung",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die Strategen von der Bundeswehr"
+    },
+    {
+      "id": 254,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-4282_words.xml",
+      "variables": {
+        "entity_a": "dass die Groß-Glienicker",
+        "entity_b": "verzagt wie die deutsche Abwehrreihe der",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "dass die Groß-Glienicker"
+    },
+    {
+      "id": 255,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11280_words.xml",
+      "variables": {
+        "entity_a": "Die Rethmann-Mitarbeiter",
+        "entity_b": "das Sammelsystem",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Die Rethmann-Mitarbeiter"
+    },
+    {
+      "id": 256,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-3377_words.xml",
+      "variables": {
+        "entity_a": "Die anderen",
+        "entity_b": "Dallgows",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Die anderen"
+    },
+    {
+      "id": 257,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14813_words.xml",
+      "variables": {
+        "entity_a": "ein Lichtspieltheaterchef",
+        "entity_b": "das zweite Mega-Kinoereignis Der Herr der Ringe",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ein Lichtspieltheaterchef"
+    },
+    {
+      "id": 258,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17254_words.xml",
+      "variables": {
+        "entity_a": "Götzer",
+        "entity_b": "der eigenen Haushaltsnot der Landesregierung",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Götzer"
+    },
+    {
+      "id": 259,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-13015_words.xml",
+      "variables": {
+        "entity_a": "die CDU-OB-Kandidatin Dietlind Tiemann",
+        "entity_b": "der Selbsthass mit dem sich die Brandenburger ob ihrer hässlichen Mitte geißeln und wegen dem sie sich schämen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die CDU-OB-Kandidatin Dietlind Tiemann"
+    },
+    {
+      "id": 260,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-16360_words.xml",
+      "variables": {
+        "entity_a": "Der Kyritzer Bäckermeister Thomas Haupt",
+        "entity_b": "damit",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Der Kyritzer Bäckermeister Thomas Haupt"
+    },
+    {
+      "id": 261,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17664_words.xml",
+      "variables": {
+        "entity_a": "Zahlungsprobleme",
+        "entity_b": "die Widersprüchlichkeit",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Zahlungsprobleme"
+    },
+    {
+      "id": 262,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9884_words.xml",
+      "variables": {
+        "entity_a": "Kohl , Genscher und Kinkel",
+        "entity_b": "ihr Gewissen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Kohl , Genscher und Kinkel"
+    },
+    {
+      "id": 263,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-8981_words.xml",
+      "variables": {
+        "entity_a": "darauf",
+        "entity_b": "die gesamte Infrastruktur",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "darauf"
+    },
+    {
+      "id": 264,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-18160_words.xml",
+      "variables": {
+        "entity_a": "ein CDU-Stadtverordneter",
+        "entity_b": "der Golmer",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ein CDU-Stadtverordneter"
+    },
+    {
+      "id": 265,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11280_words.xml",
+      "variables": {
+        "entity_a": "der Bürger vom Görden",
+        "entity_b": "Viele Menschen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der Bürger vom Görden"
+    },
+    {
+      "id": 266,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12084_words.xml",
+      "variables": {
+        "entity_a": "Gunnar Lade",
+        "entity_b": "des Hauptausschusses",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Gunnar Lade"
+    },
+    {
+      "id": 267,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14071_words.xml",
+      "variables": {
+        "entity_a": "Die obdachlosen Wittstocker",
+        "entity_b": "der Sozialfürsorgepflicht der Kommune",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Die obdachlosen Wittstocker"
+    },
+    {
+      "id": 268,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-4181_words.xml",
+      "variables": {
+        "entity_a": "sich auf die",
+        "entity_b": "ja der abgerundete",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sich auf die"
+    },
+    {
+      "id": 269,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19150_words.xml",
+      "variables": {
+        "entity_a": "Das Thema Tourismus",
+        "entity_b": "Das jüngste Kapitel",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Das Thema Tourismus"
+    },
+    {
+      "id": 270,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19442_words.xml",
+      "variables": {
+        "entity_a": "seinen Briefkasten",
+        "entity_b": "den Gang zur Polizei",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "seinen Briefkasten"
+    },
+    {
+      "id": 271,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-15702_words.xml",
+      "variables": {
+        "entity_a": "die Frau des eigentlich zu Entlassenden",
+        "entity_b": "der besonderen Art",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die Frau des eigentlich zu Entlassenden"
+    },
+    {
+      "id": 272,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11279_words.xml",
+      "variables": {
+        "entity_a": "Artemedia",
+        "entity_b": "das Recht im Interesse der Steuerzahler die Pflicht ihre Beiträge zurückzufordern",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Artemedia"
+    },
+    {
+      "id": 273,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17664_words.xml",
+      "variables": {
+        "entity_a": "Zahlungsprobleme",
+        "entity_b": "der Kaffeetasse für Linkshänder",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Zahlungsprobleme"
+    },
+    {
+      "id": 274,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17706_words.xml",
+      "variables": {
+        "entity_a": "der Kreisverwaltung",
+        "entity_b": "Deshalb",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der Kreisverwaltung"
+    },
+    {
+      "id": 275,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14172_words.xml",
+      "variables": {
+        "entity_a": "Dietmar Zigan",
+        "entity_b": "dabei",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Dietmar Zigan"
+    },
+    {
+      "id": 276,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-15609_words.xml",
+      "variables": {
+        "entity_a": "Die Blankenfelder Gemeindevertreter",
+        "entity_b": "die Fragen der Unfälle und der Haftung",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Die Blankenfelder Gemeindevertreter"
+    },
+    {
+      "id": 277,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14654_words.xml",
+      "variables": {
+        "entity_a": "das bisher beste Ergebnis für die PDS",
+        "entity_b": "Deshalb",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "das bisher beste Ergebnis für die PDS"
+    },
+    {
+      "id": 278,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-1757_words.xml",
+      "variables": {
+        "entity_a": "ihr direkter politischer Ansprechpartner",
+        "entity_b": "die Haltung der Wahlkreiskandidaten",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ihr direkter politischer Ansprechpartner"
+    },
+    {
+      "id": 279,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-3367_words.xml",
+      "variables": {
+        "entity_a": "Schulsport",
+        "entity_b": "Das Erneuern der Wege auf dem Weinberg",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Schulsport"
+    },
+    {
+      "id": 280,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9884_words.xml",
+      "variables": {
+        "entity_a": "Fischer",
+        "entity_b": "das Dilemma der Regierenden",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Fischer"
+    },
+    {
+      "id": 281,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11766_words.xml",
+      "variables": {
+        "entity_a": "das Projekt",
+        "entity_b": "den Stadtverordneten",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "das Projekt"
+    },
+    {
+      "id": 282,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-2611_words.xml",
+      "variables": {
+        "entity_a": "Bürgermeister Lünsers",
+        "entity_b": "das Verhalten von Bürgermeister Lünser",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Bürgermeister Lünsers"
+    },
+    {
+      "id": 283,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9612_words.xml",
+      "variables": {
+        "entity_a": "ihre geplanten Aktivitäten aus der Luft",
+        "entity_b": "der Kyritz-Ruppiner Heide",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ihre geplanten Aktivitäten aus der Luft"
+    },
+    {
+      "id": 284,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-00001_words.xml",
+      "variables": {
+        "entity_a": "Das Land",
+        "entity_b": "Der große Einbruch der Schülerzahlen an den weiterführenden Schulen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Das Land"
+    },
+    {
+      "id": 285,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-13125_words.xml",
+      "variables": {
+        "entity_a": "des Volkes",
+        "entity_b": "Der Reichstagsbrand im Jahre 1933",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "des Volkes"
+    },
+    {
+      "id": 286,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11299_words.xml",
+      "variables": {
+        "entity_a": "Die Jugendlichen in Zossen",
+        "entity_b": "SPD",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Die Jugendlichen in Zossen"
+    },
+    {
+      "id": 287,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19436_words.xml",
+      "variables": {
+        "entity_a": "Gysi",
+        "entity_b": "der Parteibasis",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Gysi"
+    },
+    {
+      "id": 288,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-3110_words.xml",
+      "variables": {
+        "entity_a": "die Menschen",
+        "entity_b": "den besser Verdienenden",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die Menschen"
+    },
+    {
+      "id": 289,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19295_words.xml",
+      "variables": {
+        "entity_a": "ein Legitimationsproblem",
+        "entity_b": "den falschen Frontmann",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ein Legitimationsproblem"
+    },
+    {
+      "id": 290,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12976_words.xml",
+      "variables": {
+        "entity_a": "So schonungslose Offenheit",
+        "entity_b": "die Vorzeichen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "So schonungslose Offenheit"
+    },
+    {
+      "id": 291,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14384_words.xml",
+      "variables": {
+        "entity_a": "Pritzwalker",
+        "entity_b": "des Pritzwalker Bauausschusses",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Pritzwalker"
+    },
+    {
+      "id": 292,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14590_words.xml",
+      "variables": {
+        "entity_a": "Rheinsberg",
+        "entity_b": "Leiterin der Bundesmusikakademie Rheinsberg",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Rheinsberg"
+    },
+    {
+      "id": 293,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12666_words.xml",
+      "variables": {
+        "entity_a": "Rheinsbergs Favorit Rogner",
+        "entity_b": "den die Lielje-Gruppe",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Rheinsbergs Favorit Rogner"
+    },
+    {
+      "id": 294,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17664_words.xml",
+      "variables": {
+        "entity_a": "die ersten blanken Münzen",
+        "entity_b": "der lammfellgefütterten Hosenträger",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die ersten blanken Münzen"
+    },
+    {
+      "id": 295,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9650_words.xml",
+      "variables": {
+        "entity_a": "die Europäische Zentralbank",
+        "entity_b": "Außerdem",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die Europäische Zentralbank"
+    },
+    {
+      "id": 296,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11299_words.xml",
+      "variables": {
+        "entity_a": "Vertreter von PDS und Gewerbeverein",
+        "entity_b": "dazu",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Vertreter von PDS und Gewerbeverein"
+    },
+    {
+      "id": 297,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17698_words.xml",
+      "variables": {
+        "entity_a": "die Falkenseer Stadtverwaltung",
+        "entity_b": "der Gedanke daran",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die Falkenseer Stadtverwaltung"
+    },
+    {
+      "id": 298,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11177_words.xml",
+      "variables": {
+        "entity_a": "des Landes Brandenburg",
+        "entity_b": "Manfred Meske",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "des Landes Brandenburg"
+    },
+    {
+      "id": 299,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12666_words.xml",
+      "variables": {
+        "entity_a": "Rheinsbergs Favorit Rogner",
+        "entity_b": "Rheinsberger",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Rheinsbergs Favorit Rogner"
+    },
+    {
+      "id": 300,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-10205_words.xml",
+      "variables": {
+        "entity_a": "der Altgedienten",
+        "entity_b": "die von Normalbürgern",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der Altgedienten"
+    },
+    {
+      "id": 301,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17254_words.xml",
+      "variables": {
+        "entity_a": "Götzer",
+        "entity_b": "Die jüngste Entwicklung in Groß Kreutz und Götz",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Götzer"
+    },
+    {
+      "id": 302,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-3377_words.xml",
+      "variables": {
+        "entity_a": "die SPD-Fraktion",
+        "entity_b": "der Eingemeindung",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die SPD-Fraktion"
+    },
+    {
+      "id": 303,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9612_words.xml",
+      "variables": {
+        "entity_a": "der Region",
+        "entity_b": "der Kyritz-Ruppiner Heide",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der Region"
+    },
+    {
+      "id": 304,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12976_words.xml",
+      "variables": {
+        "entity_a": "So schonungslose Offenheit",
+        "entity_b": "die Moral",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "So schonungslose Offenheit"
+    },
+    {
+      "id": 305,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14590_words.xml",
+      "variables": {
+        "entity_a": "Rheinsberg",
+        "entity_b": "Leiter der dortigen Kammeroper",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Rheinsberg"
+    },
+    {
+      "id": 306,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17664_words.xml",
+      "variables": {
+        "entity_a": "die ersten blanken Münzen",
+        "entity_b": "die Schlangen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die ersten blanken Münzen"
+    },
+    {
+      "id": 307,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-18354_words.xml",
+      "variables": {
+        "entity_a": "der Klosteraner",
+        "entity_b": "Wünsdorf",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der Klosteraner"
+    },
+    {
+      "id": 308,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14055_words.xml",
+      "variables": {
+        "entity_a": "Gerhard Schröders",
+        "entity_b": "dem Mittelstand",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Gerhard Schröders"
+    },
+    {
+      "id": 309,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14055_words.xml",
+      "variables": {
+        "entity_a": "der Kanzler und seine Minister",
+        "entity_b": "der Verbraucher",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der Kanzler und seine Minister"
+    },
+    {
+      "id": 310,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9207_words.xml",
+      "variables": {
+        "entity_a": "den mit 10_000 Mark dotierten Erwin-Strittmatter-Preis",
+        "entity_b": "die rätselhafte Welt der Pflanzen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "den mit 10_000 Mark dotierten Erwin-Strittmatter-Preis"
+    },
+    {
+      "id": 311,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-6159_words.xml",
+      "variables": {
+        "entity_a": "Eine Kollegin",
+        "entity_b": "Debatte",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Eine Kollegin"
+    },
+    {
+      "id": 312,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14841_words.xml",
+      "variables": {
+        "entity_a": "Manche Geschäftsleute",
+        "entity_b": "Die schwierige Wirtschaftslage",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Manche Geschäftsleute"
+    },
+    {
+      "id": 313,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17062_words.xml",
+      "variables": {
+        "entity_a": "der Innenstadt",
+        "entity_b": "der Mark",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der Innenstadt"
+    },
+    {
+      "id": 314,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-18333_words.xml",
+      "variables": {
+        "entity_a": "Luckenwalde",
+        "entity_b": "des Urban-Projektes",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Luckenwalde"
+    },
+    {
+      "id": 315,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12383_words.xml",
+      "variables": {
+        "entity_a": "Drogen",
+        "entity_b": "die Augen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Drogen"
+    },
+    {
+      "id": 316,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12383_words.xml",
+      "variables": {
+        "entity_a": "Drogen",
+        "entity_b": "die Schließung",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Drogen"
+    },
+    {
+      "id": 317,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-16360_words.xml",
+      "variables": {
+        "entity_a": "Prignitzer",
+        "entity_b": "den Ansprüchen gesunder Ernährung",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Prignitzer"
+    },
+    {
+      "id": 318,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-3377_words.xml",
+      "variables": {
+        "entity_a": "die SPD-Fraktion",
+        "entity_b": "Dallgows",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die SPD-Fraktion"
+    },
+    {
+      "id": 319,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17062_words.xml",
+      "variables": {
+        "entity_a": "Die 13 Projektbündel mit ihren insgesamt 140 Einzelvorhaben",
+        "entity_b": "ihr Gesicht",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Die 13 Projektbündel mit ihren insgesamt 140 Einzelvorhaben"
+    },
+    {
+      "id": 320,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9884_words.xml",
+      "variables": {
+        "entity_a": "Genscher",
+        "entity_b": "das Wie",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Genscher"
+    },
+    {
+      "id": 321,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17254_words.xml",
+      "variables": {
+        "entity_a": "Groß Kreutz",
+        "entity_b": "die Schwächung des Amtes Groß Kreutz",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Groß Kreutz"
+    },
+    {
+      "id": 322,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17254_words.xml",
+      "variables": {
+        "entity_a": "Götzer",
+        "entity_b": "Groß Kreutz",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Götzer"
+    },
+    {
+      "id": 323,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-16153_words.xml",
+      "variables": {
+        "entity_a": "die rot-roten Verhandlungspartner",
+        "entity_b": "die Bedenken",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die rot-roten Verhandlungspartner"
+    },
+    {
+      "id": 324,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-13153_words.xml",
+      "variables": {
+        "entity_a": "die Bemühungen um die Integration hier lebender Nicht-Deutscher und Aussiedler",
+        "entity_b": "der Brandenburgischen Sportjugend",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die Bemühungen um die Integration hier lebender Nicht-Deutscher und Aussiedler"
+    },
+    {
+      "id": 325,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-18454_words.xml",
+      "variables": {
+        "entity_a": "Der Verein Brandenburger Vorstadt",
+        "entity_b": "Zühlke",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Der Verein Brandenburger Vorstadt"
+    },
+    {
+      "id": 326,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-15155_words.xml",
+      "variables": {
+        "entity_a": "Oldies",
+        "entity_b": "das Ziel",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Oldies"
+    },
+    {
+      "id": 327,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14654_words.xml",
+      "variables": {
+        "entity_a": "das bisher beste Ergebnis für die PDS",
+        "entity_b": "PDS",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "das bisher beste Ergebnis für die PDS"
+    },
+    {
+      "id": 328,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9884_words.xml",
+      "variables": {
+        "entity_a": "Schmidt , Kohl und Genscher",
+        "entity_b": "das Dilemma der Regierenden",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Schmidt , Kohl und Genscher"
+    },
+    {
+      "id": 329,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14047_words.xml",
+      "variables": {
+        "entity_a": "Rathenower",
+        "entity_b": "die wohnortnahe Versorgung von Patienten in Rathenow",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Rathenower"
+    },
+    {
+      "id": 330,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19442_words.xml",
+      "variables": {
+        "entity_a": "seinen Briefkasten",
+        "entity_b": "der Spaß daran anderen Menschen Sach-Schaden zuzufügen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "seinen Briefkasten"
+    },
+    {
+      "id": 331,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-4282_words.xml",
+      "variables": {
+        "entity_a": "dass die Groß-Glienicker",
+        "entity_b": "wäre in der jetzigen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "dass die Groß-Glienicker"
+    },
+    {
+      "id": 332,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17664_words.xml",
+      "variables": {
+        "entity_a": "die ersten blanken Münzen",
+        "entity_b": "Dieser Zusatz",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die ersten blanken Münzen"
+    },
+    {
+      "id": 333,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14172_words.xml",
+      "variables": {
+        "entity_a": "Wittenberger",
+        "entity_b": "Die UBG",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Wittenberger"
+    },
+    {
+      "id": 334,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-10652_words.xml",
+      "variables": {
+        "entity_a": "der Sendung selbst",
+        "entity_b": "die Emanze Alice Schwarzer",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der Sendung selbst"
+    },
+    {
+      "id": 335,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9891_words.xml",
+      "variables": {
+        "entity_a": "historische Orte",
+        "entity_b": "die Ansicht der Denkmalpfleger",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "historische Orte"
+    },
+    {
+      "id": 336,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-18333_words.xml",
+      "variables": {
+        "entity_a": "Luckenwalde",
+        "entity_b": "die B 101",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Luckenwalde"
+    },
+    {
+      "id": 337,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-4181_words.xml",
+      "variables": {
+        "entity_a": ".",
+        "entity_b": "Fingerspitzengefühl Der",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "."
+    },
+    {
+      "id": 338,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14813_words.xml",
+      "variables": {
+        "entity_a": "Harry Potter",
+        "entity_b": "Außerdem",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Harry Potter"
+    },
+    {
+      "id": 339,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14813_words.xml",
+      "variables": {
+        "entity_a": "ein Lichtspieltheaterchef",
+        "entity_b": "Außerdem",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ein Lichtspieltheaterchef"
+    },
+    {
+      "id": 340,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14055_words.xml",
+      "variables": {
+        "entity_a": "der Kanzler und seine Minister",
+        "entity_b": "den Wahlspot der CDU",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der Kanzler und seine Minister"
+    },
+    {
+      "id": 341,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9207_words.xml",
+      "variables": {
+        "entity_a": "den mit 10_000 Mark dotierten Erwin-Strittmatter-Preis",
+        "entity_b": "Deshalb",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "den mit 10_000 Mark dotierten Erwin-Strittmatter-Preis"
+    },
+    {
+      "id": 342,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11177_words.xml",
+      "variables": {
+        "entity_a": "des Landes Brandenburg",
+        "entity_b": "der Lehniner Trink- und Abwasserzweckverband",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "des Landes Brandenburg"
+    },
+    {
+      "id": 343,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9884_words.xml",
+      "variables": {
+        "entity_a": "der Regierenden",
+        "entity_b": "Schröder",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der Regierenden"
+    },
+    {
+      "id": 344,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19012_words.xml",
+      "variables": {
+        "entity_a": "die Landschaft",
+        "entity_b": "Der Traum vieler Menschen von der weißen Weihnacht",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die Landschaft"
+    },
+    {
+      "id": 345,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14813_words.xml",
+      "variables": {
+        "entity_a": "ein Lichtspieltheaterchef",
+        "entity_b": "Frodo",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ein Lichtspieltheaterchef"
+    },
+    {
+      "id": 346,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-6488_words.xml",
+      "variables": {
+        "entity_a": "Radeweger",
+        "entity_b": "die Anlage",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Radeweger"
+    },
+    {
+      "id": 347,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17664_words.xml",
+      "variables": {
+        "entity_a": "die ersten blanken Münzen",
+        "entity_b": "die die sie schon immer hatten",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die ersten blanken Münzen"
+    },
+    {
+      "id": 348,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11766_words.xml",
+      "variables": {
+        "entity_a": "das Projekt",
+        "entity_b": "die Verwaltung",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "das Projekt"
+    },
+    {
+      "id": 349,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14841_words.xml",
+      "variables": {
+        "entity_a": "Manche Geschäftsleute",
+        "entity_b": "Die Stadtwerke",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Manche Geschäftsleute"
+    },
+    {
+      "id": 350,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9335_words.xml",
+      "variables": {
+        "entity_a": "des Rewe-Konzerns",
+        "entity_b": "Frauen mit Kindern die im Einzelhandel arbeiten",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "des Rewe-Konzerns"
+    },
+    {
+      "id": 351,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14384_words.xml",
+      "variables": {
+        "entity_a": "des Stadtforstes",
+        "entity_b": "als Jungs und mit der Clique",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "des Stadtforstes"
+    },
+    {
+      "id": 352,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9207_words.xml",
+      "variables": {
+        "entity_a": "den mit 10_000 Mark dotierten Erwin-Strittmatter-Preis",
+        "entity_b": "Volker Braun",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "den mit 10_000 Mark dotierten Erwin-Strittmatter-Preis"
+    },
+    {
+      "id": 353,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19012_words.xml",
+      "variables": {
+        "entity_a": "die Landschaft",
+        "entity_b": "den Menschen in diesen Regionen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die Landschaft"
+    },
+    {
+      "id": 354,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12383_words.xml",
+      "variables": {
+        "entity_a": "Die Polizei",
+        "entity_b": "des Wegschauens",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Die Polizei"
+    },
+    {
+      "id": 355,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-1679_words.xml",
+      "variables": {
+        "entity_a": "die Innenstadt",
+        "entity_b": "der Putz",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die Innenstadt"
+    },
+    {
+      "id": 356,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-16590_words.xml",
+      "variables": {
+        "entity_a": "der Abschaffung des Haushaltsfreibetrages bis 2005",
+        "entity_b": "des Haushaltsfreibetrages",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der Abschaffung des Haushaltsfreibetrages bis 2005"
+    },
+    {
+      "id": 357,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14654_words.xml",
+      "variables": {
+        "entity_a": "das bisher beste Ergebnis für die PDS",
+        "entity_b": "Die Parteienlandschaft in Luckenwalde",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "das bisher beste Ergebnis für die PDS"
+    },
+    {
+      "id": 358,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17953_words.xml",
+      "variables": {
+        "entity_a": "damit",
+        "entity_b": "Den Hut von Marlowe",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "damit"
+    },
+    {
+      "id": 359,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-6165_words.xml",
+      "variables": {
+        "entity_a": "die Feuerwehr",
+        "entity_b": "Berliner Straße",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die Feuerwehr"
+    },
+    {
+      "id": 360,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11766_words.xml",
+      "variables": {
+        "entity_a": "das Projekt",
+        "entity_b": "ihrer Wochenendklausur",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "das Projekt"
+    },
+    {
+      "id": 361,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19372_words.xml",
+      "variables": {
+        "entity_a": "Der Streit um den Schießplatz",
+        "entity_b": "Die Bürgerinitiative Freie Heide",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Der Streit um den Schießplatz"
+    },
+    {
+      "id": 362,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19442_words.xml",
+      "variables": {
+        "entity_a": "die Polizei",
+        "entity_b": "dem einen oder anderen Knallfrosch",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die Polizei"
+    },
+    {
+      "id": 363,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12976_words.xml",
+      "variables": {
+        "entity_a": "So schonungslose Offenheit",
+        "entity_b": "Außenminister Joschka Fischer",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "So schonungslose Offenheit"
+    },
+    {
+      "id": 364,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-00002_words.xml",
+      "variables": {
+        "entity_a": "Brandenburgs",
+        "entity_b": "Das Büchergeld",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Brandenburgs"
+    },
+    {
+      "id": 365,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19372_words.xml",
+      "variables": {
+        "entity_a": "Der Streit um den Schießplatz",
+        "entity_b": "der gleiche Kommentar",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Der Streit um den Schießplatz"
+    },
+    {
+      "id": 366,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14172_words.xml",
+      "variables": {
+        "entity_a": "Dietmar Zigan",
+        "entity_b": "Horst Jaruczewski",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Dietmar Zigan"
+    },
+    {
+      "id": 367,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-13015_words.xml",
+      "variables": {
+        "entity_a": "sein stärkstes Faustpfand das Loch",
+        "entity_b": "der Selbsthass mit dem sich die Brandenburger ob ihrer hässlichen Mitte geißeln und wegen dem sie sich schämen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sein stärkstes Faustpfand das Loch"
+    },
+    {
+      "id": 368,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17673_words.xml",
+      "variables": {
+        "entity_a": "Die Rathenower Polizeibeamten",
+        "entity_b": "der Videoüberwachung",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Die Rathenower Polizeibeamten"
+    },
+    {
+      "id": 369,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14172_words.xml",
+      "variables": {
+        "entity_a": "Dietmar Zigan",
+        "entity_b": "Damit",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Dietmar Zigan"
+    },
+    {
+      "id": 370,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17242_words.xml",
+      "variables": {
+        "entity_a": "eure Jette",
+        "entity_b": "die anderen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "eure Jette"
+    },
+    {
+      "id": 371,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9612_words.xml",
+      "variables": {
+        "entity_a": "der Region",
+        "entity_b": "ihre geplanten Aktivitäten aus der Luft",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der Region"
+    },
+    {
+      "id": 372,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-3110_words.xml",
+      "variables": {
+        "entity_a": "das Neubauwohngebiet",
+        "entity_b": "den besser Verdienenden",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "das Neubauwohngebiet"
+    },
+    {
+      "id": 373,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-1757_words.xml",
+      "variables": {
+        "entity_a": "ihr direkter politischer Ansprechpartner",
+        "entity_b": "die Umgehungsstraßen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ihr direkter politischer Ansprechpartner"
+    },
+    {
+      "id": 374,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14071_words.xml",
+      "variables": {
+        "entity_a": "der Kommune",
+        "entity_b": "Die Haushaltsdiskussion in Wittstock",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der Kommune"
+    },
+    {
+      "id": 375,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12383_words.xml",
+      "variables": {
+        "entity_a": "Drogen",
+        "entity_b": "die Schule",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Drogen"
+    },
+    {
+      "id": 376,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-16250_words.xml",
+      "variables": {
+        "entity_a": "der Schießplatz-Gegner",
+        "entity_b": "der Hauptargumente der Schießplatz-Gegner",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der Schießplatz-Gegner"
+    },
+    {
+      "id": 377,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-18333_words.xml",
+      "variables": {
+        "entity_a": "Luckenwalde",
+        "entity_b": "die neue B 101",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Luckenwalde"
+    },
+    {
+      "id": 378,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-13507_words.xml",
+      "variables": {
+        "entity_a": "Ernst Bahr",
+        "entity_b": "Politik",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Ernst Bahr"
+    },
+    {
+      "id": 379,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-10652_words.xml",
+      "variables": {
+        "entity_a": "der Sendung selbst",
+        "entity_b": "Die staunenden Zuschauer",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der Sendung selbst"
+    },
+    {
+      "id": 380,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11766_words.xml",
+      "variables": {
+        "entity_a": "der Noch-Finanzbeigeordnete Hans-Joachim Bosse",
+        "entity_b": "Dieses Problem und das Haushaltsloch",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der Noch-Finanzbeigeordnete Hans-Joachim Bosse"
+    },
+    {
+      "id": 381,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14813_words.xml",
+      "variables": {
+        "entity_a": "Der Herr der Ringe",
+        "entity_b": "die gebeutelten Kinos",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Der Herr der Ringe"
+    },
+    {
+      "id": 382,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-13507_words.xml",
+      "variables": {
+        "entity_a": "Politiker",
+        "entity_b": "der Kosovo- und Mazedonien-Einsätze der Bundeswehr",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Politiker"
+    },
+    {
+      "id": 383,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11299_words.xml",
+      "variables": {
+        "entity_a": "Vertreter von PDS und Gewerbeverein",
+        "entity_b": "Bürgerbündnis/FDP",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Vertreter von PDS und Gewerbeverein"
+    },
+    {
+      "id": 384,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12976_words.xml",
+      "variables": {
+        "entity_a": "Außenminister Joschka Fischer",
+        "entity_b": "Brandenburgs",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Außenminister Joschka Fischer"
+    },
+    {
+      "id": 385,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19372_words.xml",
+      "variables": {
+        "entity_a": "Der Streit um den Schießplatz",
+        "entity_b": "der Bundeswehr",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Der Streit um den Schießplatz"
+    },
+    {
+      "id": 386,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9335_words.xml",
+      "variables": {
+        "entity_a": "des Rewe-Konzerns",
+        "entity_b": "auch die Löhne im Einzelhandel",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "des Rewe-Konzerns"
+    },
+    {
+      "id": 387,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-18454_words.xml",
+      "variables": {
+        "entity_a": "Zühlke",
+        "entity_b": "der Streit",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Zühlke"
+    },
+    {
+      "id": 388,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-4636_words.xml",
+      "variables": {
+        "entity_a": "die Rettungskräfte",
+        "entity_b": "die Bürger",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die Rettungskräfte"
+    },
+    {
+      "id": 389,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-18912_words.xml",
+      "variables": {
+        "entity_a": "den Titel Vor Feuerschlünden",
+        "entity_b": "die Musen und Heilsbringer",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "den Titel Vor Feuerschlünden"
+    },
+    {
+      "id": 390,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17254_words.xml",
+      "variables": {
+        "entity_a": "Groß Kreutz",
+        "entity_b": "Damsdorf",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Groß Kreutz"
+    },
+    {
+      "id": 391,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17664_words.xml",
+      "variables": {
+        "entity_a": "die ersten blanken Münzen",
+        "entity_b": "der einen Währung",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die ersten blanken Münzen"
+    },
+    {
+      "id": 392,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-18160_words.xml",
+      "variables": {
+        "entity_a": "des Innenministers und Parteivorsitzenden Jörg Schönbohm",
+        "entity_b": "die Weigerung des Innenministers und Parteivorsitzenden Jörg Schönbohm , dem eindeutigen Bürgerwillen der Golmer nach Eingliederung in die Stadt Werder nachzukommen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "des Innenministers und Parteivorsitzenden Jörg Schönbohm"
+    },
+    {
+      "id": 393,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-4282_words.xml",
+      "variables": {
+        "entity_a": ". Die Seeburger und einige",
+        "entity_b": "dass oder Groß-Glienicker",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": ". Die Seeburger und einige"
+    },
+    {
+      "id": 394,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11280_words.xml",
+      "variables": {
+        "entity_a": "Containerplätze",
+        "entity_b": "das Sammelsystem",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Containerplätze"
+    },
+    {
+      "id": 395,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-00001_words.xml",
+      "variables": {
+        "entity_a": "Dagmar Ziegler",
+        "entity_b": "das Bildungsressort",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Dagmar Ziegler"
+    },
+    {
+      "id": 396,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-6165_words.xml",
+      "variables": {
+        "entity_a": "die Feuerwehr",
+        "entity_b": "Schnelligkeit",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die Feuerwehr"
+    },
+    {
+      "id": 397,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-2611_words.xml",
+      "variables": {
+        "entity_a": "auch die CDU-Fraktion",
+        "entity_b": "Rathenower",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "auch die CDU-Fraktion"
+    },
+    {
+      "id": 398,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9852_words.xml",
+      "variables": {
+        "entity_a": "Heranwachsende",
+        "entity_b": "Eltern die selbst um ihr Gleichgewicht kämpfen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Heranwachsende"
+    },
+    {
+      "id": 399,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-3377_words.xml",
+      "variables": {
+        "entity_a": "die SPD-Fraktion",
+        "entity_b": "den vorausgehenden Verhandlungen mit den südlichen Nachbarn",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die SPD-Fraktion"
+    },
+    {
+      "id": 400,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14399_words.xml",
+      "variables": {
+        "entity_a": "Ein Lehrer aus Baden-Württemberg",
+        "entity_b": "Solche martialischen Töne einzelner Weidmänner",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Ein Lehrer aus Baden-Württemberg"
+    },
+    {
+      "id": 401,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19442_words.xml",
+      "variables": {
+        "entity_a": "seinen Briefkasten",
+        "entity_b": "die Entleerungsklappe",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "seinen Briefkasten"
+    },
+    {
+      "id": 402,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12666_words.xml",
+      "variables": {
+        "entity_a": "Rheinsbergs Favorit Rogner",
+        "entity_b": "des einzigen anderen Bades",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Rheinsbergs Favorit Rogner"
+    },
+    {
+      "id": 403,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9612_words.xml",
+      "variables": {
+        "entity_a": "der Region",
+        "entity_b": "des ehemaligen Kreises Kyritz",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der Region"
+    },
+    {
+      "id": 404,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-2669_words.xml",
+      "variables": {
+        "entity_a": "Jürgen Bigalke",
+        "entity_b": "die Seinen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Jürgen Bigalke"
+    },
+    {
+      "id": 405,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-18912_words.xml",
+      "variables": {
+        "entity_a": "sein Essay über Georg Trakls Dichtung",
+        "entity_b": "die wunderbaren Boten",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sein Essay über Georg Trakls Dichtung"
+    },
+    {
+      "id": 406,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17706_words.xml",
+      "variables": {
+        "entity_a": "der Kreisverwaltung",
+        "entity_b": "Zudem",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der Kreisverwaltung"
+    },
+    {
+      "id": 407,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11177_words.xml",
+      "variables": {
+        "entity_a": "Die Region",
+        "entity_b": "Manfred Meske",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Die Region"
+    },
+    {
+      "id": 408,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-13015_words.xml",
+      "variables": {
+        "entity_a": "sein stärkstes Faustpfand das Loch",
+        "entity_b": "die Volksseele",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sein stärkstes Faustpfand das Loch"
+    },
+    {
+      "id": 409,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-16250_words.xml",
+      "variables": {
+        "entity_a": "die Strategen von der Bundeswehr",
+        "entity_b": "dabei",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die Strategen von der Bundeswehr"
+    },
+    {
+      "id": 410,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-10575_words.xml",
+      "variables": {
+        "entity_a": "die Arbeiten",
+        "entity_b": "das Ergebnis",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die Arbeiten"
+    },
+    {
+      "id": 411,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11299_words.xml",
+      "variables": {
+        "entity_a": "Die Jugendlichen in Zossen",
+        "entity_b": "ihren Weg ins Rathaus",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Die Jugendlichen in Zossen"
+    },
+    {
+      "id": 412,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9884_words.xml",
+      "variables": {
+        "entity_a": "Kohl",
+        "entity_b": "Bismarck",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Kohl"
+    },
+    {
+      "id": 413,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-4428_words.xml",
+      "variables": {
+        "entity_a": "Westernreiter",
+        "entity_b": "die zurzeit noch katastrophale Parkfläche an der Graf-von-Lindenau-Halle",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Westernreiter"
+    },
+    {
+      "id": 414,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-15609_words.xml",
+      "variables": {
+        "entity_a": "Die Blankenfelder Gemeindevertreter",
+        "entity_b": "des jeweiligen Abholetages",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Die Blankenfelder Gemeindevertreter"
+    },
+    {
+      "id": 415,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12666_words.xml",
+      "variables": {
+        "entity_a": "Rüdiger Kadatz",
+        "entity_b": "Ein paar vage mündliche Finanzierungs-Versprechen die Skizze des einzigen anderen Bades das",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Rüdiger Kadatz"
+    },
+    {
+      "id": 416,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-13125_words.xml",
+      "variables": {
+        "entity_a": "des Volkes",
+        "entity_b": "der Machthaber",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "des Volkes"
+    },
+    {
+      "id": 417,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19501_words.xml",
+      "variables": {
+        "entity_a": "Berlin",
+        "entity_b": "der Kleinmachnower Initiative Stammbahn",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Berlin"
+    },
+    {
+      "id": 418,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11318_words.xml",
+      "variables": {
+        "entity_a": "eines Vierbeiners",
+        "entity_b": "den schleichenden Tod eines Vierbeiners",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "eines Vierbeiners"
+    },
+    {
+      "id": 419,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-18912_words.xml",
+      "variables": {
+        "entity_a": "Franz Fühmann",
+        "entity_b": "Werbestrategen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Franz Fühmann"
+    },
+    {
+      "id": 420,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14071_words.xml",
+      "variables": {
+        "entity_a": "Die obdachlosen Wittstocker",
+        "entity_b": "Die Haushaltsdiskussion in Wittstock",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Die obdachlosen Wittstocker"
+    },
+    {
+      "id": 421,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-13125_words.xml",
+      "variables": {
+        "entity_a": "des Volkes",
+        "entity_b": "unsere Regierung",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "des Volkes"
+    },
+    {
+      "id": 422,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14047_words.xml",
+      "variables": {
+        "entity_a": "des Paracelsus-Krankenhauses",
+        "entity_b": "Nauener",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "des Paracelsus-Krankenhauses"
+    },
+    {
+      "id": 423,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17242_words.xml",
+      "variables": {
+        "entity_a": "eure Jette",
+        "entity_b": "Jedenfalls im Winter",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "eure Jette"
+    },
+    {
+      "id": 424,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-3377_words.xml",
+      "variables": {
+        "entity_a": "die CDU",
+        "entity_b": "Dallgower",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die CDU"
+    },
+    {
+      "id": 425,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-7071_words.xml",
+      "variables": {
+        "entity_a": "dieser Stadt",
+        "entity_b": "die Bürger dieser Stadt",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "dieser Stadt"
+    },
+    {
+      "id": 426,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17706_words.xml",
+      "variables": {
+        "entity_a": "Klaus-Peter Appel",
+        "entity_b": "die Wahl",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Klaus-Peter Appel"
+    },
+    {
+      "id": 427,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-4282_words.xml",
+      "variables": {
+        "entity_a": "Spieler aus den verschiedenen",
+        "entity_b": "dass oder Groß-Glienicker",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Spieler aus den verschiedenen"
+    },
+    {
+      "id": 428,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-00001_words.xml",
+      "variables": {
+        "entity_a": "eine seit mehr als einem Jahr erarbeitete Kabinettsvorlage",
+        "entity_b": "Der Rückzieher der Finanzministerin",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "eine seit mehr als einem Jahr erarbeitete Kabinettsvorlage"
+    },
+    {
+      "id": 429,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17953_words.xml",
+      "variables": {
+        "entity_a": "das Aushorchen unseligen Angedenkens",
+        "entity_b": "der Traum von der Gerechtigkeit",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "das Aushorchen unseligen Angedenkens"
+    },
+    {
+      "id": 430,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-18354_words.xml",
+      "variables": {
+        "entity_a": "der Klosteraner",
+        "entity_b": "der Zorn der Klosteraner",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der Klosteraner"
+    },
+    {
+      "id": 431,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-15702_words.xml",
+      "variables": {
+        "entity_a": "einen Häftling",
+        "entity_b": "des eigentlich zu Entlassenden",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "einen Häftling"
+    },
+    {
+      "id": 432,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-5715_words.xml",
+      "variables": {
+        "entity_a": "Bundesagrarministerin Renate Künast",
+        "entity_b": "das Halten der Tiere in engen Legebatterien",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Bundesagrarministerin Renate Künast"
+    },
+    {
+      "id": 433,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-18377_words.xml",
+      "variables": {
+        "entity_a": "Die übrigen Fehrbelliner Verbandgemeinden",
+        "entity_b": "ihr Bürgermeister",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Die übrigen Fehrbelliner Verbandgemeinden"
+    },
+    {
+      "id": 434,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11766_words.xml",
+      "variables": {
+        "entity_a": "das Projekt",
+        "entity_b": "Die PDS",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "das Projekt"
+    },
+    {
+      "id": 435,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11766_words.xml",
+      "variables": {
+        "entity_a": "Millionen",
+        "entity_b": "der Kooperationsvereinbarung mit der CDU",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Millionen"
+    },
+    {
+      "id": 436,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19501_words.xml",
+      "variables": {
+        "entity_a": "der Wirtschaftlichkeitsrechnung",
+        "entity_b": "der Stammbahn von Potsdam nach Berlin",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der Wirtschaftlichkeitsrechnung"
+    },
+    {
+      "id": 437,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12666_words.xml",
+      "variables": {
+        "entity_a": "Rüdiger Kadatz",
+        "entity_b": "den die Lielje-Gruppe",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Rüdiger Kadatz"
+    },
+    {
+      "id": 438,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12383_words.xml",
+      "variables": {
+        "entity_a": "Drogen",
+        "entity_b": "der Jugendlichen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Drogen"
+    },
+    {
+      "id": 439,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17254_words.xml",
+      "variables": {
+        "entity_a": "das Amt Emster-Havel",
+        "entity_b": "Gollwitz",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "das Amt Emster-Havel"
+    },
+    {
+      "id": 440,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-1423_words.xml",
+      "variables": {
+        "entity_a": "Wittstocker",
+        "entity_b": "die Stadtverordneten",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Wittstocker"
+    },
+    {
+      "id": 441,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-18750_words.xml",
+      "variables": {
+        "entity_a": "viele Menschen",
+        "entity_b": "Die Erinnerung",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "viele Menschen"
+    },
+    {
+      "id": 442,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17254_words.xml",
+      "variables": {
+        "entity_a": "Groß Kreutz",
+        "entity_b": "Bürgermeister Detlef Lemke",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Groß Kreutz"
+    },
+    {
+      "id": 443,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12473_words.xml",
+      "variables": {
+        "entity_a": "auch die Unternehmer",
+        "entity_b": "der nächsten sechs Monate",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "auch die Unternehmer"
+    },
+    {
+      "id": 444,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12473_words.xml",
+      "variables": {
+        "entity_a": "auch die Unternehmer",
+        "entity_b": "des laufenden Jahres",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "auch die Unternehmer"
+    },
+    {
+      "id": 445,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17664_words.xml",
+      "variables": {
+        "entity_a": "die ersten blanken Münzen",
+        "entity_b": "der Kaffeetasse für Linkshänder",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die ersten blanken Münzen"
+    },
+    {
+      "id": 446,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17673_words.xml",
+      "variables": {
+        "entity_a": "ein Einsatzbus mit mehreren Beamten",
+        "entity_b": "Rathenower",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ein Einsatzbus mit mehreren Beamten"
+    },
+    {
+      "id": 447,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19501_words.xml",
+      "variables": {
+        "entity_a": "Berlin",
+        "entity_b": "den neuesten Verlautbarungen des Bahnsprechers",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Berlin"
+    },
+    {
+      "id": 448,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-16153_words.xml",
+      "variables": {
+        "entity_a": "der Ausbau Schönefelds",
+        "entity_b": "das andere",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der Ausbau Schönefelds"
+    },
+    {
+      "id": 449,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17254_words.xml",
+      "variables": {
+        "entity_a": "Groß-Kreutzer Amtsdirektor Meske",
+        "entity_b": "Damsdorf",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Groß-Kreutzer Amtsdirektor Meske"
+    },
+    {
+      "id": 450,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11916_words.xml",
+      "variables": {
+        "entity_a": "eine Bauabzugssteuer",
+        "entity_b": "die vielen Freunde die schwarzen Schafen unter den Bauherren offiziell nur helfen tatsächlich aber unversteuertes Geld in die Hand kassieren",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "eine Bauabzugssteuer"
+    },
+    {
+      "id": 451,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17664_words.xml",
+      "variables": {
+        "entity_a": "die ersten blanken Münzen",
+        "entity_b": "Zahlungsprobleme",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die ersten blanken Münzen"
+    },
+    {
+      "id": 452,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-18912_words.xml",
+      "variables": {
+        "entity_a": "Engel",
+        "entity_b": "Werbestrategen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Engel"
+    },
+    {
+      "id": 453,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11279_words.xml",
+      "variables": {
+        "entity_a": "Artemedia",
+        "entity_b": "der Zeit",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Artemedia"
+    },
+    {
+      "id": 454,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-16250_words.xml",
+      "variables": {
+        "entity_a": "die Strategen von der Bundeswehr",
+        "entity_b": "Ruppiner See",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die Strategen von der Bundeswehr"
+    },
+    {
+      "id": 455,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9884_words.xml",
+      "variables": {
+        "entity_a": "Schmidt",
+        "entity_b": "deshalb",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Schmidt"
+    },
+    {
+      "id": 456,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14055_words.xml",
+      "variables": {
+        "entity_a": "Gerhard Schröders",
+        "entity_b": "den Arbeitsmarkt",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Gerhard Schröders"
+    },
+    {
+      "id": 457,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-8134_words.xml",
+      "variables": {
+        "entity_a": "Die Ortsteile",
+        "entity_b": "zwei Ortsbürgermeister",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Die Ortsteile"
+    },
+    {
+      "id": 458,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17254_words.xml",
+      "variables": {
+        "entity_a": "Götzer",
+        "entity_b": "Gollwitz",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Götzer"
+    },
+    {
+      "id": 459,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-2611_words.xml",
+      "variables": {
+        "entity_a": "die Spenden",
+        "entity_b": "damit",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die Spenden"
+    },
+    {
+      "id": 460,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14654_words.xml",
+      "variables": {
+        "entity_a": "das bisher beste Ergebnis für die PDS",
+        "entity_b": "die Vorentscheidung die jetzt durch die Stichwahl nur noch bestätigt wurde",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "das bisher beste Ergebnis für die PDS"
+    },
+    {
+      "id": 461,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-4181_words.xml",
+      "variables": {
+        "entity_a": "Doch",
+        "entity_b": "sie von der",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Doch"
+    },
+    {
+      "id": 462,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-16987_words.xml",
+      "variables": {
+        "entity_a": "eine Erklärung",
+        "entity_b": "Stadtverordnetenvorsitzender Thomas Settgast",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "eine Erklärung"
+    },
+    {
+      "id": 463,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12473_words.xml",
+      "variables": {
+        "entity_a": "auch die Unternehmer",
+        "entity_b": "der im ersten Halbjahr noch starke private Konsum",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "auch die Unternehmer"
+    },
+    {
+      "id": 464,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12473_words.xml",
+      "variables": {
+        "entity_a": "auch die Unternehmer",
+        "entity_b": "die Aussichten der nächsten sechs Monate",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "auch die Unternehmer"
+    },
+    {
+      "id": 465,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-16360_words.xml",
+      "variables": {
+        "entity_a": "der Fretzdorfer Thomas Hausbalk",
+        "entity_b": "Raubritter Bassewitz",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der Fretzdorfer Thomas Hausbalk"
+    },
+    {
+      "id": 466,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-13311_words.xml",
+      "variables": {
+        "entity_a": "eine gesunde Mischung von Unterhaltung und Information",
+        "entity_b": "Der Anteil politischer Sendungen am Programm",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "eine gesunde Mischung von Unterhaltung und Information"
+    },
+    {
+      "id": 467,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19012_words.xml",
+      "variables": {
+        "entity_a": "die Landschaft",
+        "entity_b": "dem Polizeibericht",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die Landschaft"
+    },
+    {
+      "id": 468,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14172_words.xml",
+      "variables": {
+        "entity_a": "Dietmar Zigan",
+        "entity_b": "Die UBG",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Dietmar Zigan"
+    },
+    {
+      "id": 469,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-15609_words.xml",
+      "variables": {
+        "entity_a": "Die Blankenfelder Gemeindevertreter",
+        "entity_b": "der Vertrag mit Edis",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Die Blankenfelder Gemeindevertreter"
+    },
+    {
+      "id": 470,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12473_words.xml",
+      "variables": {
+        "entity_a": "auch die Unternehmer",
+        "entity_b": "die Aussichten",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "auch die Unternehmer"
+    },
+    {
+      "id": 471,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14590_words.xml",
+      "variables": {
+        "entity_a": "Rheinsberg",
+        "entity_b": "ihr Einsatz für den Wiederaufbau des Rheinsberger Schlosstheaters die Entdeckung preußischer Komponisten das zeitgenössische Musiktheater und den Musikstandort Rheinsberg",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Rheinsberg"
+    },
+    {
+      "id": 472,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14047_words.xml",
+      "variables": {
+        "entity_a": "des Kreistages",
+        "entity_b": "Rathenower",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "des Kreistages"
+    },
+    {
+      "id": 473,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-11318_words.xml",
+      "variables": {
+        "entity_a": "eines Vierbeiners",
+        "entity_b": "Doch die Reaktionen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "eines Vierbeiners"
+    },
+    {
+      "id": 474,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12383_words.xml",
+      "variables": {
+        "entity_a": "Drogen",
+        "entity_b": "der Tochter",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Drogen"
+    },
+    {
+      "id": 475,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-19012_words.xml",
+      "variables": {
+        "entity_a": "sogar über die Feiertage hinaus",
+        "entity_b": "den Menschen in diesen Regionen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sogar über die Feiertage hinaus"
+    },
+    {
+      "id": 476,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-16360_words.xml",
+      "variables": {
+        "entity_a": "eine Tafel auf der von dieser Begebenheit berichtet wird",
+        "entity_b": "Raubritter Bassewitz",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "eine Tafel auf der von dieser Begebenheit berichtet wird"
+    },
+    {
+      "id": 477,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-18912_words.xml",
+      "variables": {
+        "entity_a": "den Titel Vor Feuerschlünden",
+        "entity_b": "Georg Trakls",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "den Titel Vor Feuerschlünden"
+    },
+    {
+      "id": 478,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9852_words.xml",
+      "variables": {
+        "entity_a": "Heranwachsende",
+        "entity_b": "Eltern",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Heranwachsende"
+    },
+    {
+      "id": 479,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-10652_words.xml",
+      "variables": {
+        "entity_a": "Johannes B. Kerner",
+        "entity_b": "Die emanzipierte Verona Feldbusch und die Emanze Alice Schwarzer",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Johannes B. Kerner"
+    },
+    {
+      "id": 480,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17062_words.xml",
+      "variables": {
+        "entity_a": "die Bahnhofsvorstadt",
+        "entity_b": "die Zis-Macher",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die Bahnhofsvorstadt"
+    },
+    {
+      "id": 481,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17242_words.xml",
+      "variables": {
+        "entity_a": "eure Jette",
+        "entity_b": "die einen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "eure Jette"
+    },
+    {
+      "id": 482,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-6539_words.xml",
+      "variables": {
+        "entity_a": "Israels",
+        "entity_b": "als möglichen Koalitionspartner",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Israels"
+    },
+    {
+      "id": 483,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-9884_words.xml",
+      "variables": {
+        "entity_a": "der Regierenden",
+        "entity_b": "Die Geschichte",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der Regierenden"
+    },
+    {
+      "id": 484,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-4181_words.xml",
+      "variables": {
+        "entity_a": "auch die \" richtige \" Umrechnung von Mark in",
+        "entity_b": "damit das Vertrauen seiner",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "auch die \" richtige \" Umrechnung von Mark in"
+    },
+    {
+      "id": 485,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-4181_words.xml",
+      "variables": {
+        "entity_a": "sich auf die",
+        "entity_b": "nur die",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sich auf die"
+    },
+    {
+      "id": 486,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-8981_words.xml",
+      "variables": {
+        "entity_a": "der Landkreis Teltow-Fläming",
+        "entity_b": "Außerdem",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "der Landkreis Teltow-Fläming"
+    },
+    {
+      "id": 487,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-13311_words.xml",
+      "variables": {
+        "entity_a": "die gebührenfinanzierten Programme",
+        "entity_b": "das öffentliche Mandat",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die gebührenfinanzierten Programme"
+    },
+    {
+      "id": 488,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-1679_words.xml",
+      "variables": {
+        "entity_a": "die Innenstadt",
+        "entity_b": "sein Haus",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die Innenstadt"
+    },
+    {
+      "id": 489,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14172_words.xml",
+      "variables": {
+        "entity_a": "Petry",
+        "entity_b": "Dietmar Zigan",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Petry"
+    },
+    {
+      "id": 490,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14055_words.xml",
+      "variables": {
+        "entity_a": "Gerhard Schröders",
+        "entity_b": "der Kanzler und seine Minister",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Gerhard Schröders"
+    },
+    {
+      "id": 491,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14071_words.xml",
+      "variables": {
+        "entity_a": "Die obdachlosen Wittstocker",
+        "entity_b": "die Randgruppe der Obdachlosen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Die obdachlosen Wittstocker"
+    },
+    {
+      "id": 492,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14047_words.xml",
+      "variables": {
+        "entity_a": "des Paracelsus-Krankenhauses",
+        "entity_b": "der der die wohnortnahe Versorgung von Patienten in Rathenow sicherstellen kann und darüberhinaus die betriebswirtschaftliche und medizinische Qualität des Paracelsus-Krankenhauses nicht nur erhält sondern stabilisiert",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "des Paracelsus-Krankenhauses"
+    },
+    {
+      "id": 493,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12188_words.xml",
+      "variables": {
+        "entity_a": "die Marktplatz-Schule",
+        "entity_b": "der jeweiligen Gebäude-Mitnutzer",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "die Marktplatz-Schule"
+    },
+    {
+      "id": 494,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-15609_words.xml",
+      "variables": {
+        "entity_a": "Die Blankenfelder Gemeindevertreter",
+        "entity_b": "den unseligen Beschluss",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Die Blankenfelder Gemeindevertreter"
+    },
+    {
+      "id": 495,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12383_words.xml",
+      "variables": {
+        "entity_a": "Drogen",
+        "entity_b": "des Wegschauens",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Drogen"
+    },
+    {
+      "id": 496,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-12976_words.xml",
+      "variables": {
+        "entity_a": "So schonungslose Offenheit",
+        "entity_b": "Dazwischen",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "So schonungslose Offenheit"
+    },
+    {
+      "id": 497,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-13015_words.xml",
+      "variables": {
+        "entity_a": "sein stärkstes Faustpfand das Loch",
+        "entity_b": "des Stillstands",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sein stärkstes Faustpfand das Loch"
+    },
+    {
+      "id": 498,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-17242_words.xml",
+      "variables": {
+        "entity_a": "eure Jette",
+        "entity_b": "der Surfer",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "eure Jette"
+    },
+    {
+      "id": 499,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-16177_words.xml",
+      "variables": {
+        "entity_a": "das Bündnis für Arbeit",
+        "entity_b": "IG-Metall-Vize Jürgen Peters",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "das Bündnis für Arbeit"
+    },
+    {
+      "id": 500,
+      "doc": "input_data/PotsdamCommentaryCorpus/coreference-mmax//basedata/maz-14172_words.xml",
+      "variables": {
+        "entity_a": "Dietmar Zigan",
+        "entity_b": "die CDU",
+        "text": "more_german_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Dietmar Zigan"
+    }
+  ]
+}

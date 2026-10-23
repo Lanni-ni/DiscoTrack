@@ -1,0 +1,2460 @@
+{
+  "task": "entity_most",
+  "lang": "turkish",
+  "example_prompt": "Which entity is mentioned the most times in the text?",
+  "instances": [
+    {
+      "id": 1,
+      "doc": "00002213_seg0",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Osman"
+      ]
+    },
+    {
+      "id": 2,
+      "doc": "00002213_seg1",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "gençten bir erkek",
+        "genç erkek",
+        "kıraathaneye gelen bu yabancıya",
+        "Yeni gelen"
+      ]
+    },
+    {
+      "id": 3,
+      "doc": "00002213_seg2",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "beye",
+        "Genç erkek",
+        "Kerem"
+      ]
+    },
+    {
+      "id": 4,
+      "doc": "00002213_seg3",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Kerem"
+      ]
+    },
+    {
+      "id": 5,
+      "doc": "00002213_seg4",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Kerem"
+      ]
+    },
+    {
+      "id": 6,
+      "doc": "00002213_seg5",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Kerem'in",
+        "Kerem"
+      ]
+    },
+    {
+      "id": 7,
+      "doc": "00002213_seg6",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Kerem",
+        "çocuk"
+      ]
+    },
+    {
+      "id": 8,
+      "doc": "00002213_seg7",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Kerem"
+      ]
+    },
+    {
+      "id": 9,
+      "doc": "00002213_seg8",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Kerem",
+        "bir uyuşturucu bağımlısı",
+        "Uyuşturucusu",
+        "kesilmiş bir bağımlı"
+      ]
+    },
+    {
+      "id": 10,
+      "doc": "00002213_seg9",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "oğlum",
+        "Kerem"
+      ]
+    },
+    {
+      "id": 11,
+      "doc": "00002213_seg10",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "kapana kısılmış bir hayvan",
+        "oğlum"
+      ]
+    },
+    {
+      "id": 12,
+      "doc": "00002213_seg11",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "oğlum",
+        "Kerem"
+      ]
+    },
+    {
+      "id": 13,
+      "doc": "00002213_seg12",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Kerem",
+        "oğlum"
+      ]
+    },
+    {
+      "id": 14,
+      "doc": "00002213_seg13",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Dar yollarda koşarak giden Kerem'i",
+        "Kerem"
+      ]
+    },
+    {
+      "id": 15,
+      "doc": "00002213_seg14",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "nasıl bir kadın",
+        "güzel",
+        "çok güzel"
+      ]
+    },
+    {
+      "id": 16,
+      "doc": "00002213_seg15",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "geçmişte kiler",
+        "ki erkekler",
+        "Gördüğü",
+        ", tanıdığı",
+        ", rastladığı",
+        "erkekler",
+        "Eski aşıkları",
+        ", kocaları"
+      ]
+    },
+    {
+      "id": 17,
+      "doc": "00002213_seg16",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "ilk kocası"
+      ]
+    },
+    {
+      "id": 18,
+      "doc": "00002213_seg17",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Terk ettiği bir aşığıyla"
+      ]
+    },
+    {
+      "id": 19,
+      "doc": "00002213_seg18",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Tuhaf bir kadın"
+      ]
+    },
+    {
+      "id": 20,
+      "doc": "00002213_seg19",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Kerem",
+        "Son sevgilisi"
+      ]
+    },
+    {
+      "id": 21,
+      "doc": "00002213_seg20",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Kadının eski kocası",
+        "kır saç lı , lacivert takım elbise li bir adam",
+        "Lacivert takım elbise li adam"
+      ]
+    },
+    {
+      "id": 22,
+      "doc": "00016112_seg0",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "bilim",
+        "bilimin",
+        "üret ici güçlerin bir parçası",
+        "bir etkinlik olması",
+        "sosyal bir kurum",
+        "bir üret ici güç",
+        "Sosyal bir kurum olarak bilim"
+      ]
+    },
+    {
+      "id": 23,
+      "doc": "00016112_seg1",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "bilginin doğruluğunun",
+        "ölçütünün",
+        "pratik olması",
+        "ilkesini"
+      ]
+    },
+    {
+      "id": 24,
+      "doc": "00016112_seg2",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Bilim",
+        "bilimi",
+        "bilimin"
+      ]
+    },
+    {
+      "id": 25,
+      "doc": "00016112_seg3",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "bilgilerin soyutlama yoluyla",
+        "sistemleştirilmesi",
+        "diye tanımladığımız teori",
+        "teori",
+        "teoriyi",
+        "vakit kaybından",
+        "başka bir işe yaramayan bir etkinlik"
+      ]
+    },
+    {
+      "id": 26,
+      "doc": "00016112_seg4",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "bilim",
+        "bilimi",
+        "bilimin"
+      ]
+    },
+    {
+      "id": 27,
+      "doc": "00032161_seg0",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "ağzında",
+        "ciklet , ayağında",
+        "takunyalar , basma entari li bir kız",
+        "kız",
+        "Dondurma almaya çıkan kız",
+        "Dört külah dondurmayı iki eliyle",
+        "tutan kız"
+      ]
+    },
+    {
+      "id": 28,
+      "doc": "00032161_seg1",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Ramiz'i",
+        "Ramiz",
+        "Ramiz'in"
+      ]
+    },
+    {
+      "id": 29,
+      "doc": "00032161_seg2",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Ramiz",
+        "Ramiz'in"
+      ]
+    },
+    {
+      "id": 30,
+      "doc": "00032161_seg3",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Katana"
+      ]
+    },
+    {
+      "id": 31,
+      "doc": "00032161_seg4",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Ramiz"
+      ]
+    },
+    {
+      "id": 32,
+      "doc": "00032161_seg5",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Ramiz",
+        "Ramiz'in",
+        "Ramiz'i",
+        "Naci Bey",
+        "Öğretmenim"
+      ]
+    },
+    {
+      "id": 33,
+      "doc": "00032161_seg6",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Naci Bey",
+        "Naci Beyin",
+        "öğretmenim"
+      ]
+    },
+    {
+      "id": 34,
+      "doc": "00032161_seg7",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "büyük ablam"
+      ]
+    },
+    {
+      "id": 35,
+      "doc": "00032161_seg8",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "büyük amcam",
+        "büyük amcan",
+        "büyük adam",
+        "herifin"
+      ]
+    },
+    {
+      "id": 36,
+      "doc": "00032161_seg9",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "aynı ortamı paylaşmış olan lar",
+        "Herkes",
+        "bıyıklarına",
+        "kır düşmüş emekli sarhoşlara"
+      ]
+    },
+    {
+      "id": 37,
+      "doc": "00032161_seg10",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Ceza",
+        "Ceza'nın",
+        "sırtında",
+        "lanetini",
+        "taşıyan adam"
+      ]
+    },
+    {
+      "id": 38,
+      "doc": "00032161_seg12",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "üçümüzün"
+      ]
+    },
+    {
+      "id": 39,
+      "doc": "00038121_seg0",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "evi",
+        "Ev",
+        "orada"
+      ]
+    },
+    {
+      "id": 40,
+      "doc": "00038121_seg1",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "çadır",
+        "çocuklarla birlikte aileyi barındıran bir mekan",
+        "çadırın",
+        "çadırlar",
+        "birer çadır",
+        "çadırda"
+      ]
+    },
+    {
+      "id": 41,
+      "doc": "00038121_seg2",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "ev",
+        "evi",
+        "Evin",
+        "Duvar",
+        "ilk akla gelen",
+        "bir iç bir de dış duvarları",
+        "Bütün duvarları",
+        "alan geniş cam yüzeylerin yarattığı şeffaflık",
+        "şeffaflık"
+      ]
+    },
+    {
+      "id": 42,
+      "doc": "00038121_seg3",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Ünlü Fransız mimar Le Corbusier'nin",
+        "Ünlü mimar",
+        "Le Corbusier"
+      ]
+    },
+    {
+      "id": 43,
+      "doc": "00038121_seg5",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "işçiler",
+        "işçilerin",
+        "en yararlı insanlar",
+        "İşçiler"
+      ]
+    },
+    {
+      "id": 44,
+      "doc": "00044121_seg0",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "tanrının",
+        "tanrı"
+      ]
+    },
+    {
+      "id": 45,
+      "doc": "00044121_seg1",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "matematik",
+        "matematiğin",
+        "Matematikte",
+        "bir bilim dalı",
+        "olmayan matematikte"
+      ]
+    },
+    {
+      "id": 46,
+      "doc": "00044121_seg2",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "soyut bir kavram olan mutlak doğruya yaklaştırmalar dizisi",
+        "Dizinin",
+        "Mutlak doğruya giden bir dizinin"
+      ]
+    },
+    {
+      "id": 47,
+      "doc": "00044121_seg3",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "otobüsün altında",
+        "ezilen kişinin",
+        "kazada ki kişiye",
+        "kazada ki adam",
+        "Kazada ki adamın"
+      ]
+    },
+    {
+      "id": 48,
+      "doc": "00044121_seg4",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sözünü",
+        "ettiğiniz şey",
+        "virtual parçacıklar",
+        "kuantum kuramının",
+        "öngörülerinden",
+        "Sanal parçacıklar",
+        "öngörüsü",
+        "olan sanal parçacıklar",
+        "metafizik dünyanın öğeleri"
+      ]
+    },
+    {
+      "id": 49,
+      "doc": "00044121_seg5",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Big bang'in",
+        "big bang",
+        "yaradılışın",
+        "yaradılış",
+        "yaratılışı"
+      ]
+    },
+    {
+      "id": 50,
+      "doc": "00053223_seg0",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "bir ben"
+      ]
+    },
+    {
+      "id": 51,
+      "doc": "00053223_seg2",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "dükkan",
+        "koca atölye",
+        "Başörtülerini",
+        "yanaklarının",
+        "kenarlarına",
+        "kıvırıp hamarat elleriyle",
+        "hızları",
+        "günden güne artan ev kadınlarının",
+        ", iki çift laf etmeye vakit bulamadan kan ter içinde",
+        "çalıştıkları",
+        "atölyeden"
+      ]
+    },
+    {
+      "id": 52,
+      "doc": "00053223_seg3",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "gencecik oğlunun"
+      ]
+    },
+    {
+      "id": 53,
+      "doc": "00058111_seg3",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "kel kafalı bir fahişe",
+        "Bayan",
+        "çamur lu su renginde",
+        "ki saçlarınla",
+        "oturduğunu",
+        "tahmin edemeyeceği",
+        "komik siyah peruk lu sana"
+      ]
+    },
+    {
+      "id": 54,
+      "doc": "00058111_seg8",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "duygusal ve cinsel ilişkileri",
+        "İçlerinden",
+        "Orta yaşlı morg görevlisi"
+      ]
+    },
+    {
+      "id": 55,
+      "doc": "00058111_seg9",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "asistanımı",
+        "asistanım"
+      ]
+    },
+    {
+      "id": 56,
+      "doc": "00084111_seg1",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "dostum"
+      ]
+    },
+    {
+      "id": 57,
+      "doc": "00084111_seg2",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Recep"
+      ]
+    },
+    {
+      "id": 58,
+      "doc": "00084111_seg3",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Recep",
+        "Recep Ağabey"
+      ]
+    },
+    {
+      "id": 59,
+      "doc": "00084111_seg4",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "çocuk",
+        "Oğlan",
+        "oğlum",
+        "çocuğun",
+        "sıpa",
+        "oğlana"
+      ]
+    },
+    {
+      "id": 60,
+      "doc": "00084111_seg5",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "çocuk",
+        "Oğlan",
+        "oğlanın",
+        "oğlana"
+      ]
+    },
+    {
+      "id": 61,
+      "doc": "00084111_seg6",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Saffet",
+        "Saffet'ten"
+      ]
+    },
+    {
+      "id": 62,
+      "doc": "00084111_seg7",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "balıkçılar",
+        "balıkçıların",
+        "üstleri",
+        "başları",
+        "dökülen bu üç beş balıkçının"
+      ]
+    },
+    {
+      "id": 63,
+      "doc": "00084111_seg8",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "oğlum",
+        "Recep'le Ömer",
+        "kalabalık bir yerli turist grubuyla",
+        "oturan sekiz , dokuz yaşlarında , sarışın , mavi göz lü , aydınlık yüzlü bir çocuğun",
+        "Recep'in biraz önce gördüğü darbuka lı çocukta",
+        "İlk birkaç notayı duyan çocuğun",
+        "oğlum"
+      ]
+    },
+    {
+      "id": 64,
+      "doc": "00084111_seg9",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "çocuk",
+        "Çocuğun",
+        "küçük sarışın çocuk"
+      ]
+    },
+    {
+      "id": 65,
+      "doc": "00095233_seg0",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Yasal Valium , Diazem gibi haplardan eroine geçen ler arasında",
+        "yetmiş yaşlarında",
+        "şık giyim li bir kadın",
+        "Ailesinden",
+        "kalan , harcasa",
+        "harcasa",
+        "bitiremeyeceği",
+        "kadar çok parası",
+        "olan bu kadınla",
+        "Hiç evlenmemiş",
+        ", tek başına",
+        "yaşayan bu kadın",
+        "Anne",
+        "yaşlı kadın"
+      ]
+    },
+    {
+      "id": 66,
+      "doc": "00095233_seg1",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Mantık",
+        "çocuk"
+      ]
+    },
+    {
+      "id": 67,
+      "doc": "00095233_seg2",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "oğluna",
+        "Oğlunun",
+        "oğlunu",
+        "çocuğa",
+        "Çocuk",
+        "delikanlıya",
+        "baba ilgisi",
+        "açlığı",
+        "çeken delikanlı",
+        "Delikanlı",
+        "delikanlının"
+      ]
+    },
+    {
+      "id": 68,
+      "doc": "00095233_seg3",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "eroinden",
+        "Eroin",
+        "eroini",
+        "Delikanlı",
+        "Delikanlıyı",
+        "üniversite bitirmiş , iş hayatına",
+        "atıl mış delikanlı"
+      ]
+    },
+    {
+      "id": 69,
+      "doc": "00095233_seg4",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Timur"
+      ]
+    },
+    {
+      "id": 70,
+      "doc": "00095233_seg5",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Timur"
+      ]
+    },
+    {
+      "id": 71,
+      "doc": "00095233_seg6",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Çocukluğunda",
+        "duygularını",
+        "bastırmak zorunda kalmış , uyuşturucu alırken",
+        "öldürmüş yetişkin çocuk"
+      ]
+    },
+    {
+      "id": 72,
+      "doc": "00095233_seg7",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Bağımlılar",
+        "Bağımlı kişi",
+        "onlarla"
+      ]
+    },
+    {
+      "id": 73,
+      "doc": "00105133_seg0",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Günah çıkarmaya gitmiş bir birey"
+      ]
+    },
+    {
+      "id": 74,
+      "doc": "00105133_seg1",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Öyle bir şey",
+        "insanın kaptırıp gidebileceği",
+        "bir şey",
+        "Tehlike li bir oyun",
+        "Tehlike li Oyunlar'ın"
+      ]
+    },
+    {
+      "id": 75,
+      "doc": "00105133_seg3",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Kemal",
+        "Kemal'in"
+      ]
+    },
+    {
+      "id": 76,
+      "doc": "00105133_seg4",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Kemal",
+        "Kemal'in"
+      ]
+    },
+    {
+      "id": 77,
+      "doc": "00105133_seg7",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Canım"
+      ]
+    },
+    {
+      "id": 78,
+      "doc": "00111211_seg0",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Saime Sezginler",
+        "Saime Sezginler'in"
+      ]
+    },
+    {
+      "id": 79,
+      "doc": "00111211_seg1",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Sezginler"
+      ]
+    },
+    {
+      "id": 80,
+      "doc": "00111211_seg2",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Saime Sezginler'in avukatı",
+        "ve daha sonra ki yıllarda Eşref Bitlis'in düşen uçağı",
+        "ile ilgili davalarda en önem li yoldaşı",
+        "Nusret Senem",
+        "Senem"
+      ]
+    },
+    {
+      "id": 81,
+      "doc": "00111211_seg3",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Nusret Senem",
+        "Senem'e",
+        "Senem"
+      ]
+    },
+    {
+      "id": 82,
+      "doc": "00111211_seg4",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Saime Sezginler"
+      ]
+    },
+    {
+      "id": 83,
+      "doc": "00111211_seg6",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Amerikalı şirket aleyhine",
+        "bir dava",
+        "Şirket aleyhine",
+        "bir tazminat davası",
+        "Dava",
+        "düşen uçaktan Amerikalı şirketin sorumlu olup olmadığının",
+        "araştırılmasına",
+        "yönelik bir tazminat davası",
+        "bir askeri uçak kazası",
+        "ile ilgili dava",
+        "Ankara Asliye Hukuk Mahkemesi'nde ki davanın"
+      ]
+    },
+    {
+      "id": 84,
+      "doc": "00111211_seg7",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Davacı taraf"
+      ]
+    },
+    {
+      "id": 85,
+      "doc": "00111211_seg8",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Saime Sezginler",
+        "olayı",
+        "kazanın",
+        "gelişmelerini",
+        "yakından izlediği olayda",
+        "Olayın",
+        "olay"
+      ]
+    },
+    {
+      "id": 86,
+      "doc": "00111211_seg9",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "uçağın",
+        "uçak"
+      ]
+    },
+    {
+      "id": 87,
+      "doc": "00142211_seg0",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Leblebicilik"
+      ]
+    },
+    {
+      "id": 88,
+      "doc": "00142211_seg1",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "leblebi"
+      ]
+    },
+    {
+      "id": 89,
+      "doc": "00142211_seg2",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Atatürk'ün",
+        "Gazi",
+        "Atatürk"
+      ]
+    },
+    {
+      "id": 90,
+      "doc": "00142211_seg3",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Leblebi beyliğinin",
+        "üç başkenti",
+        "Çorum , Çankırı , Tavşanlı",
+        "Dil üzerinde",
+        "ki küçük pürtüklerin",
+        "Papilla Lingua denen bu dil memecikleri"
+      ]
+    },
+    {
+      "id": 91,
+      "doc": "00142211_seg4",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Beyaz peynir",
+        "Rakı sofrasının",
+        "baş misafiri",
+        "en kral meze",
+        "beyaz peynirin"
+      ]
+    },
+    {
+      "id": 92,
+      "doc": "00142211_seg5",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Fransız"
+      ]
+    },
+    {
+      "id": 93,
+      "doc": "00142211_seg6",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "tuzsuz peynirlerimiz",
+        "Lor , dil gibi"
+      ]
+    },
+    {
+      "id": 94,
+      "doc": "00142211_seg7",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "genç bir çoban"
+      ]
+    },
+    {
+      "id": 95,
+      "doc": "00142211_seg8",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "yeşillikler",
+        "Salata ve sebzeler",
+        "yeşillik"
+      ]
+    },
+    {
+      "id": 96,
+      "doc": "00142211_seg10",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "domates"
+      ]
+    },
+    {
+      "id": 97,
+      "doc": "00142211_seg11",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Tabbule"
+      ]
+    },
+    {
+      "id": 98,
+      "doc": "00142211_seg12",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Lahana"
+      ]
+    },
+    {
+      "id": 99,
+      "doc": "00142211_seg13",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "İsveç Kra lı",
+        "Demirbaş Şarl"
+      ]
+    },
+    {
+      "id": 100,
+      "doc": "00142211_seg14",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Karl"
+      ]
+    },
+    {
+      "id": 101,
+      "doc": "00142211_seg15",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "imam"
+      ]
+    },
+    {
+      "id": 102,
+      "doc": "00142211_seg16",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "imam efendi",
+        "Hoca",
+        "Hoca efendinin"
+      ]
+    },
+    {
+      "id": 103,
+      "doc": "00142211_seg17",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Musakka'nın",
+        "Musakka",
+        "Eleni Musakka"
+      ]
+    },
+    {
+      "id": 104,
+      "doc": "00142211_seg18",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Patlıcan"
+      ]
+    },
+    {
+      "id": 105,
+      "doc": "00142211_seg19",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "patlıcanı",
+        "Patlıcanın",
+        "Patlıcan"
+      ]
+    },
+    {
+      "id": 106,
+      "doc": "00142211_seg20",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Patlıcan"
+      ]
+    },
+    {
+      "id": 107,
+      "doc": "00142211_seg21",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Piyaz"
+      ]
+    },
+    {
+      "id": 108,
+      "doc": "00166271_seg0",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Abi",
+        "ağabeyleri",
+        "büyük olan"
+      ]
+    },
+    {
+      "id": 109,
+      "doc": "00166271_seg1",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Esin",
+        "Esinciğim",
+        "Esin'in",
+        "Esin'le",
+        "Prensesi"
+      ]
+    },
+    {
+      "id": 110,
+      "doc": "00166271_seg2",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Köpeğim"
+      ]
+    },
+    {
+      "id": 111,
+      "doc": "00166271_seg3",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Köpek",
+        "köpeğin"
+      ]
+    },
+    {
+      "id": 112,
+      "doc": "00166271_seg5",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Ali'ye",
+        "Ali",
+        "Ali'yi"
+      ]
+    },
+    {
+      "id": 113,
+      "doc": "00166271_seg6",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "oğlum"
+      ]
+    },
+    {
+      "id": 114,
+      "doc": "00166271_seg7",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Kahve",
+        "Kahve'yi",
+        "Kahve'ye",
+        "Kahve'nin"
+      ]
+    },
+    {
+      "id": 115,
+      "doc": "00166271_seg9",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Kahve'nin",
+        "Kahve",
+        "hayvancağızın",
+        "Kahve'yi",
+        "Kahve'ye"
+      ]
+    },
+    {
+      "id": 116,
+      "doc": "20200000_seg0",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "DEHAP",
+        "HADEP , EMEP ve SP'nin de çatısı",
+        "altına",
+        "girdiği Demokratik Halk Partisi",
+        "DEHAP'ın",
+        "partiye"
+      ]
+    },
+    {
+      "id": 117,
+      "doc": "20200000_seg1",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "1936'dan sonra tüm mülklerinin",
+        "mahkeme kararıyla",
+        "ellerinden",
+        "alındığını",
+        "söyleyen İstanbul Protestan Kilisesi Vakfı Başkanı Ağabaloğlu"
+      ]
+    },
+    {
+      "id": 118,
+      "doc": "20200000_seg2",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Bakır Çağlar",
+        "Türkiye'nin Güneydoğu'da ki çatışmalarda , devletin sorumluluğunu",
+        "yerine getirmediği",
+        "gerekçesiyle onlarca davada AİHM tarafından",
+        "mahkûm edildiğini",
+        "ve zor duruma düştüğünü",
+        "anımsatan Çağlar"
+      ]
+    },
+    {
+      "id": 119,
+      "doc": "20200000_seg3",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "YTP Genel Başkanı İsmail Cem",
+        "iktidara geldikleri zaman seçilme yaşını 25'e indireceklerini",
+        "söyleyen Cem",
+        "Gençlerle görüşmede 'çok şey öğrendiğini",
+        ", bildiği",
+        "şeylerin detaylarını",
+        "birinci ağızdan aldığını'",
+        "belirten Cem"
+      ]
+    },
+    {
+      "id": 120,
+      "doc": "20200000_seg4",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Sandık",
+        "oy kullanılacak sandıklar",
+        "Bakü - Tiflis - Ceyhan boru hattının",
+        "BTC",
+        "Hat",
+        "boru hattı",
+        "Hattın",
+        "30 ay sürecek Hat"
+      ]
+    },
+    {
+      "id": 121,
+      "doc": "20200000_seg5",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Bakü'de başlangıç terminali",
+        "ve Ceyhan'da da bitiş terminali",
+        "temeli",
+        "atılan BTC'nin",
+        "Boru hattının",
+        "Hattın"
+      ]
+    },
+    {
+      "id": 122,
+      "doc": "20200000_seg6",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "alışveriş",
+        "alışverişte"
+      ]
+    },
+    {
+      "id": 123,
+      "doc": "20210000_seg0",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Müşteriler",
+        "müşteri"
+      ]
+    },
+    {
+      "id": 124,
+      "doc": "20210000_seg1",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "1975 yılında Vassar College'dan mezun olan Paco Underhill",
+        "merkezi",
+        "New York'ta bulunan Envirosell firmasının",
+        "kurucusu",
+        "ve yönetim kurulu",
+        "başkanı",
+        "Perakendecilikte araştırmaları",
+        "ve metodoljik çalışmalarıyla",
+        "tanınan Underhill",
+        "Underhill'i",
+        "Perakendecilerin Sherlock Holmes'ü",
+        "Alışverişi bir bilim olarak inceleyen Underhill",
+        "perakende sektöründe",
+        "ki tek antropolog"
+      ]
+    },
+    {
+      "id": 125,
+      "doc": "20210000_seg2",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "borsada",
+        "borsa",
+        "borsanın",
+        "Irak",
+        "Irak'ta"
+      ]
+    },
+    {
+      "id": 126,
+      "doc": "20210000_seg3",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Hüseyin Çağlayan",
+        "Adını",
+        "önce İngiltere ve Amerika'da duyuran Çağlayan",
+        "Karl Lagerfeld , Emmanuel Ungaro , Guy Laroche gibi moda devleri arasından",
+        "sıyrılan Çağlayan'dan",
+        "Pek çok büyük modacının , dünya basını ve Fransız , İngiliz , Japon alıcılarla birlikte seyrettiği Hüseyin Çağlayan",
+        "Müzisyenlerle birlikte sahneye çıkıp gitar 'çalar gibi yapan' Hüseyin Çağlan"
+      ]
+    },
+    {
+      "id": 127,
+      "doc": "20210000_seg4",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "SON dönemde hakkında",
+        "çıkan aşk dedikoduları",
+        "yüzünden",
+        "gergin anlar yaşayan Çağla Şıkel",
+        "Yanına",
+        "annesini",
+        "de alan Şıkel"
+      ]
+    },
+    {
+      "id": 128,
+      "doc": "20210000_seg5",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Oktay Sarıtop",
+        "Sarıtop'un"
+      ]
+    },
+    {
+      "id": 129,
+      "doc": "20210000_seg6",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Konya'dan gelen habere",
+        "Haber",
+        "haberin",
+        "haberi",
+        "gazeteciye verilen bilgilerle alakasız bir haberin"
+      ]
+    },
+    {
+      "id": 130,
+      "doc": "20270000_seg0",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "ünlü reklamcı Alinur Velidedeoğlu'nun ayrıldığı",
+        "söylenen Amerikalı dünya güzeli",
+        "eşi",
+        "Sarah'ı"
+      ]
+    },
+    {
+      "id": 131,
+      "doc": "20270000_seg1",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "kadın",
+        "hanımların",
+        "hanımlar"
+      ]
+    },
+    {
+      "id": 132,
+      "doc": "20270000_seg3",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Çiftler",
+        "gayet normal hareket eden insanların"
+      ]
+    },
+    {
+      "id": 133,
+      "doc": "20270000_seg5",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "babası",
+        "Engincan Güre adına",
+        "Esenler'de yaptırdığı okulun",
+        "Okulun",
+        "okul",
+        "okula",
+        "SİBEL Can'ın okulunun"
+      ]
+    },
+    {
+      "id": 134,
+      "doc": "20270000_seg6",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "ŞAHMERAN Efsanesi'nin anlatıldığı Melek ad lı dizinin başrolünde",
+        "oynayan Begüm Kütük",
+        "belirten Kütük",
+        "KÜTÜK"
+      ]
+    },
+    {
+      "id": 135,
+      "doc": "20270000_seg7",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "ARKA arkaya iki operasyon geçiren Akkaya'nın",
+        "Amerikan otomotiv endüstrisinin",
+        "buluşu",
+        "tüm ülkede satılan araçların neredeyse yarısına",
+        "yakınını ( 3.3 milyon adet ) oluşturan dev arazi araçları",
+        "SUV",
+        "Spor Aktivite Araçları"
+      ]
+    },
+    {
+      "id": 136,
+      "doc": "20270000_seg8",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Benzin tüketimleri",
+        ", ortalama bir otomobilden neredeyse 3 kat daha fazla olan ( 100 kilometrede 15 - 20 lt .'nin lafı",
+        "olmuyor",
+        ") SUV'lara",
+        "böyle bir aracı",
+        "SUV",
+        "Lincoln Navigator , Chevrolet Taheo , Ford Excursion gibi araçlara",
+        "SUV'ları"
+      ]
+    },
+    {
+      "id": 137,
+      "doc": "20580000_seg0",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Komutanlar",
+        "Kuzey Kıbrıs'ın , askeri açıdan Türkiye'nin güneyden kuşatılması",
+        "sonucunu",
+        "doğuracak bir konuma getirilmesinin",
+        "kabul edilemeyeceğini",
+        "söyleyen komutanlar",
+        "Türban konusunu",
+        "da açan komutanlar"
+      ]
+    },
+    {
+      "id": 138,
+      "doc": "20580000_seg1",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Başbakan Yardımcısı",
+        "Mehmet Ali Şahin",
+        "Şahin",
+        "Sezer'in karşı çıktığı , doğrudan başbakanlık getirecek 109 . madde yerine",
+        "ara seçimi düzenleyen 78. madde üzerinde",
+        "değişiklik yapacaklarını",
+        "belirten Şahin"
+      ]
+    },
+    {
+      "id": 139,
+      "doc": "20580000_seg2",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Arınç",
+        "Arınç'ın"
+      ]
+    },
+    {
+      "id": 140,
+      "doc": "20580000_seg3",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Arınç'ın",
+        "Milliyet'i arayan Arınç",
+        "Arınç'ı",
+        "Deşifre metnini dinleyen Arınç",
+        "Arınç"
+      ]
+    },
+    {
+      "id": 141,
+      "doc": "20580000_seg4",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "AKp 'li ler",
+        "Akp 'li milletvekilleri",
+        "Akp 'li milletvekillerinin"
+      ]
+    },
+    {
+      "id": 142,
+      "doc": "20580000_seg6",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "CHP Genel Başkanı",
+        "Deniz Baykal",
+        "Sarıgül'ün Ramazan Bayramı sonrası partiye katılacağı mesajını veren Baykal",
+        "Baykal"
+      ]
+    },
+    {
+      "id": 143,
+      "doc": "20580000_seg7",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Başbakanlık'ta gazeteciler ile sohbet eden Şahin",
+        "Şahin",
+        "İş Güvencesi Yasasında ki uygulama tarihini ileri atmak gibi bir planları",
+        "olmadığını da vurgulayan Şahin",
+        "Kamu Personeli Seçme Sınavı Sistemini",
+        "değiştireceklerini",
+        "kaydeden Şahin"
+      ]
+    },
+    {
+      "id": 144,
+      "doc": "20710000_seg0",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Uçağın Kaptan Pilotu",
+        "Alaattin Yunak'ın",
+        "Henüz dokuz aylık evli olan Yunak'ın",
+        "Oğlum",
+        "Pilot Yunak'ın",
+        "Oğlunun",
+        "Yunak'ın",
+        "Kaptan Pilot Alaattin Yunak'ın"
+      ]
+    },
+    {
+      "id": 145,
+      "doc": "20710000_seg1",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "7 yıl baba olma hasretiyle yanan Murat Öğretmen",
+        "Öğretmen Murat Karamutlu",
+        "Kardeşinin"
+      ]
+    },
+    {
+      "id": 146,
+      "doc": "20710000_seg2",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Elvan Ayran'ın",
+        "yeğeninin",
+        "Ayran'ın"
+      ]
+    },
+    {
+      "id": 147,
+      "doc": "20710000_seg3",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Rallici Behzat Külür",
+        "Türkiye pist şampiyonlarından ünlü rallici Behzat Külür",
+        "Yollara meydan okuyan ve yarışmalarda sayısız ödül alan Külür",
+        "Külür'ün",
+        "Behzat",
+        "Arkadaşımı"
+      ]
+    },
+    {
+      "id": 148,
+      "doc": "20710000_seg4",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Diyarbakır'da yaşamını",
+        "yitiren Aktan Tuncer'in",
+        "Kolordu Komutanlığı'nda görevli kurmay binbaşı",
+        "15 günlük iznini",
+        "ABD'den gelen kardeşi",
+        ", annesi",
+        "ve babasıyla",
+        "İstanbul'da geçiren Tuncer'in",
+        "Aktan",
+        "Kimliği",
+        ", askeri künyesinden",
+        "saptanan Tuncer"
+      ]
+    },
+    {
+      "id": 149,
+      "doc": "20710000_seg5",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Hostes abla",
+        "Düşen Konya uçağında kabin görevlisi olan Deniz Karasu'nun hostes ablası",
+        "Gaye Karasu",
+        "Abla Gaye Karasu",
+        "Kardeşinin",
+        "cesedinin",
+        "olduğu Diyarbakır Devlet Hastanesi'ne giden Gaye Karasu",
+        "Karasu"
+      ]
+    },
+    {
+      "id": 150,
+      "doc": "20710000_seg6",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Düşen uçağa",
+        "uçağın",
+        "uçak",
+        "Konya uçağının"
+      ]
+    },
+    {
+      "id": 151,
+      "doc": "20710000_seg7",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "ILS",
+        "Tüm kötü hava şartlarında uçakların güvenle iniş yapmasını sağlayan ILS sisteminin",
+        "sistemin",
+        "Konya uçağının Diyarbakır'da düşmesiyle",
+        "gündeme gelen ILS",
+        "Norveç'ten ithal edilen ILS cihazının"
+      ]
+    },
+    {
+      "id": 152,
+      "doc": "21040000_seg0",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Demiray",
+        "Kredi kartlarında",
+        "yaşanan rekabetin Avrupa çapında",
+        "ses getirdiğini",
+        "belirten Demiray",
+        "Taksit li kartların bu kadar yaygınlaşmasının",
+        "olduğunu belirten Demiray",
+        "Temerrüt ( gecikme ) faizinin",
+        "özellikle kriz dönemlerinde",
+        "sorun haline geldiğini",
+        "söyleyen Demiray",
+        "Bankanın , cari faizin yüzde 25 fazlası",
+        "temerrüt faizi",
+        "aldığını",
+        "bildiren Demiray",
+        "Türkiye'de birçok alanda olduğu gibi bankacılıkta da zaman zaman haksız rekabet yaşandığına dikkat çeken Demiray",
+        "öyle bir izlenim yarattı",
+        "ki sanki verilen hizmetler hava , su gibi ücret siz olabilir",
+        "diyen Demiray",
+        "Sektörde kar marjlarının",
+        "daraldığına",
+        "dikkat çeken Demiray"
+      ]
+    },
+    {
+      "id": 153,
+      "doc": "21040000_seg1",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "süreç",
+        "Irak meselesi",
+        "harekat",
+        "Harekatın",
+        "Irak konusunun",
+        "bir savaş",
+        "sürecin"
+      ]
+    },
+    {
+      "id": 154,
+      "doc": "21040000_seg2",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Hazine'nin",
+        "Hazine"
+      ]
+    },
+    {
+      "id": 155,
+      "doc": "21040000_seg3",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "A tipi fonlar",
+        "2000 yılının zirvesinde yüzde 32 olan A - Tipi fonların",
+        "A tipi fonların",
+        "İMKB endekslerine",
+        "paralel seyir göstermeyi hedefleyen A tipi endeks fonlar",
+        "A tipi fon"
+      ]
+    },
+    {
+      "id": 156,
+      "doc": "21040000_seg4",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sır",
+        "sır kavramı",
+        "askeri , ticari , bankacılık ve benzeri alanlarda ki sırların",
+        "3 kanun ve 2 mevzuat",
+        "mevzuatta ki sır kavramı"
+      ]
+    },
+    {
+      "id": 157,
+      "doc": "21040000_seg5",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Arçelik Genel Müdürü",
+        "Nedim Esgin",
+        "Ihracatta ki olumlu gelişmeleri devam ettirmenin öncelik li hedeflerinden",
+        "olduğunu",
+        "belirten Esgin"
+      ]
+    },
+    {
+      "id": 158,
+      "doc": "21040000_seg6",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "'Kırmızı",
+        "Kırmızı Türkler'i",
+        "Taşkın Türkler",
+        "Biraz Türkler",
+        "Kırmızı Türkler'in"
+      ]
+    },
+    {
+      "id": 159,
+      "doc": "22080000_seg0",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Devlet eski Bakanı Derviş",
+        "Avrupa Konvansiyonu'nda Türkiye'yi temsil eden heyette yeralan Devlet eski Bakanı Kemal Derviş",
+        "Derviş",
+        "Ekonomik konularda her kafadan bir ses çıktığına dikkat çeken Derviş",
+        "Eşgüdüm eksikliğini",
+        "sergileyen bir hava oluştuğunu kaydeden Derviş"
+      ]
+    },
+    {
+      "id": 160,
+      "doc": "22080000_seg1",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "mükellef",
+        "Mükelleflerin"
+      ]
+    },
+    {
+      "id": 161,
+      "doc": "22080000_seg2",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Rekortmenler",
+        "430 trilyon ciroyla Türkiye'nin en büyük 23'üncü kuruluşu",
+        "olan TPAO ve 2001 yılı vergi rekortmeni Kıyı Emniyeti",
+        "Türkiye'nin vergi rekortmenleri",
+        "arasında yer alan Türkiye Petrolleri Anonim Ortaklığı ( TPAO ) ile Kıyı Emniyeti'nin",
+        "Kıyı Emniyeti ile TPAO"
+      ]
+    },
+    {
+      "id": 162,
+      "doc": "22080000_seg3",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Almanya'da faaliyet gösteren iki şirketi izlediklerini",
+        "açıklayan DemirDöküm Genel Müdürü",
+        "Melih Batılı",
+        "Avrupa'da kendi sektöründe",
+        "en büyük 10 şirketten biri olan DemirDöküm'ün yeni hedefini",
+        "İlk beş arasına",
+        "girmek şeklinde özetleyen Batılı",
+        "Yurtiçinde ve yurtdışında şirket almanın da bu stratejinin bir parçası",
+        "olduğunu",
+        "vurgulayan Batılı",
+        "Batılı'nın",
+        "York ile yapılan anlaşma gereği 2003'ten itibaren Türkiye'de DemirDöküm'ün York'un yetkili satıcısı",
+        "olacağını",
+        "hatırlatan Batılı"
+      ]
+    },
+    {
+      "id": 163,
+      "doc": "22080000_seg4",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "ATO Başkanı",
+        "Sinan Aygün",
+        "Ankara Ticaret Odası ( ATO ) Başkanı",
+        "Aygün",
+        "Görüşmede , KDV oranlarında",
+        "ki eşitsizliği ifade ettiklerini",
+        "de kaydeden Aygün"
+      ]
+    },
+    {
+      "id": 164,
+      "doc": "22080000_seg5",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Memur maaş zammında",
+        "Bakanlar Kurulu'nun yetkisine",
+        "bırakılan memur zammında",
+        "Zammın",
+        "memur maaş artışını",
+        "yapılacak kademeli zammın",
+        "maaş artışının",
+        "Kademeli zammın",
+        "nisan sonrası zamların"
+      ]
+    },
+    {
+      "id": 165,
+      "doc": "22080000_seg6",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "SİAD Zirvesi'nde konuşan TÜSİAD Başkanı",
+        "Özilhan",
+        "Türk Sanayicileri ve İşadamları Derneği ( TÜSİAD ) Yönetim Kurulu",
+        "Başkanı Tuncay Özilhan",
+        "Türkiye SİAD Platformu'nun Trabzon'da Zorlu Grand Otel'de gerçekleştirdiği 6. SİAD Zirvesi'nde",
+        "TÜSİAD Başkanı"
+      ]
+    },
+    {
+      "id": 166,
+      "doc": "22280000_seg0",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "yemeğe",
+        "Genelkurmay Başkanı eşlerinin",
+        "YAŞ üyelerinin",
+        "eşlerine",
+        "geleneksel olarak verdikleri",
+        "öğle yemeği",
+        "YAŞ toplantılarında",
+        "yıllar dır tekrarlanan uygulamaya",
+        "bir kuvvet komutanının",
+        "verdiği",
+        "öğle yemeğinde",
+        "geleneği"
+      ]
+    },
+    {
+      "id": 167,
+      "doc": "22280000_seg1",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Fadıl Akgündüz'ün",
+        "Siirt'te ki seçimin iptaliyle",
+        "milletvekilliği düştükten sonra gıyabi tutuklama kararı vicahiye çevrilerek cezaevine konulan Fadıl Akgündüz",
+        "Akgündüz",
+        "Akgündüz'ün",
+        "JetPa'nın patronu",
+        "Fadıl Akgündüz",
+        "Seçimden önce dosyası",
+        "Yargıtay'a gönderilen Akgündüz'ün"
+      ]
+    },
+    {
+      "id": 168,
+      "doc": "22280000_seg2",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Denktaş'ı",
+        "Denktaş'ın",
+        "Denktaş",
+        "KKTC Cumhurbaşkanı",
+        "Rauf Denktaş"
+      ]
+    },
+    {
+      "id": 169,
+      "doc": "22280000_seg3",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Anayasa",
+        "veto lu yasa",
+        "AKP lideri",
+        "Erdoğan'a milletvekilliği ve Başbakanlık yolunu açan , Cumhurbaşkanı'nca , kişisel olduğu gerekçesiyle Meclis'e geri gönderilen Anayasa değişikliği",
+        "paketi",
+        "Anayasa paketinin"
+      ]
+    },
+    {
+      "id": 170,
+      "doc": "22280000_seg4",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Olası Irak operasyonunda",
+        "Türkiye'den taleplere ilişkin son kararın alınacağı MGK öncesinde Ankara'ya gelen ABD'nin iki bakan yardımcısı",
+        "Ankara'ya gelen ABD Dışişleri Bakan Yardımcısı Marc Grossman ve Hazine Bakan Yardımcısı John Taylor",
+        "sürpriz bir heyet",
+        "Grossman ve Taylor'ın",
+        "Amerikan heyeti"
+      ]
+    },
+    {
+      "id": 171,
+      "doc": "22280000_seg5",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Türkiye'nin",
+        "Türkiye",
+        "Türkiye'ye",
+        "Türkiye'den",
+        "Türkiye'de",
+        "IMF'nin mali desteğinin",
+        "sürdüğü ve NATO üyesi",
+        "olan Türkiye'nin"
+      ]
+    },
+    {
+      "id": 172,
+      "doc": "22280000_seg6",
+      "variables": {
+        "text": "most_turkish_document_B.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Gecikme faizini",
+        "gecikme faizi",
+        "Artırım",
+        "tüketici kredisi kullananlara taksitlerini",
+        "vadesinde",
+        "ödeyememeleri",
+        "durumunda uygulanan gecikme faizi",
+        "Kredi kartı faiz oranı artırımının"
+      ]
+    }
+  ]
+}

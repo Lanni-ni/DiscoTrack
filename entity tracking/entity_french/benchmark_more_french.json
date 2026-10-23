@@ -1,0 +1,5507 @@
+{
+  "task": "entity_more",
+  "lang": "french",
+  "example_prompt": "Which entity is mentioned more often in the text, {entity_a} or {entity_b}?",
+  "instances": [
+    {
+      "id": 1,
+      "doc": "sarrasine",
+      "variables": {
+        "entity_a": "Tous les membres de cette famille",
+        "entity_b": "une femme de théâtre",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Tous les membres de cette famille"
+    },
+    {
+      "id": 2,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity_a": "les portraits enfumés",
+        "entity_b": "la cheminée",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "les portraits enfumés"
+    },
+    {
+      "id": 3,
+      "doc": "madamedehautefort",
+      "variables": {
+        "entity_a": "une petite cour intime",
+        "entity_b": "des ombrages",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "une petite cour intime"
+    },
+    {
+      "id": 4,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity_a": "Mme Sadler",
+        "entity_b": "le ciel",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Mme Sadler"
+    },
+    {
+      "id": 5,
+      "doc": "articleswiki_girafe",
+      "variables": {
+        "entity_a": "2016",
+        "entity_b": "près de deux mètres de haut",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2016"
+    },
+    {
+      "id": 6,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity_a": "une comédie nouvelle",
+        "entity_b": "le milieu",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "une comédie nouvelle"
+    },
+    {
+      "id": 7,
+      "doc": "sarrasine",
+      "variables": {
+        "entity_a": "sa mère",
+        "entity_b": "deux yeux sans chaleur",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sa mère"
+    },
+    {
+      "id": 8,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity_a": "Mes frères",
+        "entity_b": "les gens agréables",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Mes frères"
+    },
+    {
+      "id": 9,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "le néophyte",
+        "entity_b": "les sophistes",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "le néophyte"
+    },
+    {
+      "id": 10,
+      "doc": "bouvardetpecuchet",
+      "variables": {
+        "entity_a": "Le plus gros de le bagage",
+        "entity_b": "les mêmes compagnons",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Le plus gros de le bagage"
+    },
+    {
+      "id": 11,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity_a": "la rue Pirouette",
+        "entity_b": "l' homme",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la rue Pirouette"
+    },
+    {
+      "id": 12,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity_a": "feu son père , mort depuis quelques années",
+        "entity_b": "les portraits enfumés",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "feu son père , mort depuis quelques années"
+    },
+    {
+      "id": 13,
+      "doc": "aden",
+      "variables": {
+        "entity_a": "l' ironie",
+        "entity_b": "Massaouah",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "l' ironie"
+    },
+    {
+      "id": 14,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity_a": "Mes parents",
+        "entity_b": "une petite fille",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Mes parents"
+    },
+    {
+      "id": 15,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "entity_a": "notre chauffeur",
+        "entity_b": "la maison",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "notre chauffeur"
+    },
+    {
+      "id": 16,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "entity_a": "un homme",
+        "entity_b": "toutes deux",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un homme"
+    },
+    {
+      "id": 17,
+      "doc": "nemoville",
+      "variables": {
+        "entity_a": "la mer",
+        "entity_b": "un curé de ses amis",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la mer"
+    },
+    {
+      "id": 18,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "l' esprit",
+        "entity_b": "Origène",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "l' esprit"
+    },
+    {
+      "id": 19,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity_a": "toutes ses ténèbres",
+        "entity_b": "des œufs",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "toutes ses ténèbres"
+    },
+    {
+      "id": 20,
+      "doc": "morteamoureuse",
+      "variables": {
+        "entity_a": "Satan",
+        "entity_b": "son âme",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Satan"
+    },
+    {
+      "id": 21,
+      "doc": "sarrasine",
+      "variables": {
+        "entity_a": "cet hôtel",
+        "entity_b": "une voix",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "cet hôtel"
+    },
+    {
+      "id": 22,
+      "doc": "madamedehautefort",
+      "variables": {
+        "entity_a": "la princesse de Conti",
+        "entity_b": "Richelieu et de Mazarin",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la princesse de Conti"
+    },
+    {
+      "id": 23,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity_a": "une pièce",
+        "entity_b": "la cuisine",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "une pièce"
+    },
+    {
+      "id": 24,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "entity_a": "notre chauffeur",
+        "entity_b": "son petit garçon",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "notre chauffeur"
+    },
+    {
+      "id": 25,
+      "doc": "sarrasine",
+      "variables": {
+        "entity_a": "Le cardinal Cicognara",
+        "entity_b": "tous deux",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Le cardinal Cicognara"
+    },
+    {
+      "id": 26,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity_a": "Élisabeth et cette jeune fille",
+        "entity_b": "la fièvre jaune",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Élisabeth et cette jeune fille"
+    },
+    {
+      "id": 27,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity_a": "Henri IV",
+        "entity_b": "le mur",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Henri IV"
+    },
+    {
+      "id": 28,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity_a": "un serviteur",
+        "entity_b": "un de les gardiens de notre chambre",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un serviteur"
+    },
+    {
+      "id": 29,
+      "doc": "madamedehautefort",
+      "variables": {
+        "entity_a": "l' histoire",
+        "entity_b": "vos services",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "l' histoire"
+    },
+    {
+      "id": 30,
+      "doc": "madamedehautefort",
+      "variables": {
+        "entity_a": "l' échafaud",
+        "entity_b": "ses amis et sa cause",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "l' échafaud"
+    },
+    {
+      "id": 31,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity_a": "son cœur",
+        "entity_b": "Mme Sadler",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "son cœur"
+    },
+    {
+      "id": 32,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity_a": "son ami Marjolin",
+        "entity_b": "une large rue",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "son ami Marjolin"
+    },
+    {
+      "id": 33,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity_a": "leur chambre à coucher",
+        "entity_b": "l' école",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "leur chambre à coucher"
+    },
+    {
+      "id": 34,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "entity_a": "un mal atroce",
+        "entity_b": "les leurs",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un mal atroce"
+    },
+    {
+      "id": 35,
+      "doc": "madamedehautefort",
+      "variables": {
+        "entity_a": "sa grand mère",
+        "entity_b": "son cadet Gilles de Hautefort",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sa grand mère"
+    },
+    {
+      "id": 36,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "la rédemption",
+        "entity_b": "la nature",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la rédemption"
+    },
+    {
+      "id": 37,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "entity_a": "un homme",
+        "entity_b": "la nouvelle femme de ménage",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un homme"
+    },
+    {
+      "id": 38,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity_a": "un coquemar de fonte pendu à la crémaillère",
+        "entity_b": "L' Isabelle , donna Sérafina , et même la soubrette",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un coquemar de fonte pendu à la crémaillère"
+    },
+    {
+      "id": 39,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "ce jeune enfant",
+        "entity_b": "les sophistes",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ce jeune enfant"
+    },
+    {
+      "id": 40,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "ses dogmes",
+        "entity_b": "la chair",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ses dogmes"
+    },
+    {
+      "id": 41,
+      "doc": "madamedehautefort",
+      "variables": {
+        "entity_a": "La troisième",
+        "entity_b": "la princesse de Conti",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "La troisième"
+    },
+    {
+      "id": 42,
+      "doc": "mademoisellefifi-1",
+      "variables": {
+        "entity_a": "La pluie",
+        "entity_b": "sa cloche",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "La pluie"
+    },
+    {
+      "id": 43,
+      "doc": "madamedehautefort",
+      "variables": {
+        "entity_a": "ce cœur mélancolique et chaste",
+        "entity_b": "l' Espagne",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ce cœur mélancolique et chaste"
+    },
+    {
+      "id": 44,
+      "doc": "aden",
+      "variables": {
+        "entity_a": "le monde",
+        "entity_b": "Les combattants vidés de toute leur guerre",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "le monde"
+    },
+    {
+      "id": 45,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity_a": "son estomac",
+        "entity_b": "des signes de tête",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "son estomac"
+    },
+    {
+      "id": 46,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "entity_a": "le moulin",
+        "entity_b": "la douleur de ma hanche",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "le moulin"
+    },
+    {
+      "id": 47,
+      "doc": "morteamoureuse",
+      "variables": {
+        "entity_a": "deux chevaux noirs comme la nuit",
+        "entity_b": "la mienne",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "deux chevaux noirs comme la nuit"
+    },
+    {
+      "id": 48,
+      "doc": "nemoville",
+      "variables": {
+        "entity_a": "tous trois",
+        "entity_b": "cette épave",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "tous trois"
+    },
+    {
+      "id": 49,
+      "doc": "madamedehautefort",
+      "variables": {
+        "entity_a": "l' attrayant visage",
+        "entity_b": "ses pendans d' oreilles",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "l' attrayant visage"
+    },
+    {
+      "id": 50,
+      "doc": "bouvardetpecuchet",
+      "variables": {
+        "entity_a": "Barberou , un de ses amis",
+        "entity_b": "La vieille femme",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Barberou , un de ses amis"
+    },
+    {
+      "id": 51,
+      "doc": "nemoville",
+      "variables": {
+        "entity_a": "leurs compagnons",
+        "entity_b": "le capitaine Nemo",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "leurs compagnons"
+    },
+    {
+      "id": 52,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity_a": "la rue Pirouette",
+        "entity_b": "son ami Marjolin",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la rue Pirouette"
+    },
+    {
+      "id": 53,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity_a": "se tenaient",
+        "entity_b": "de loi",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "se tenaient"
+    },
+    {
+      "id": 54,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity_a": "une seconde fille",
+        "entity_b": "Mme de Vermenoux",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "une seconde fille"
+    },
+    {
+      "id": 55,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity_a": "Jésus",
+        "entity_b": "ses enfants",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Jésus"
+    },
+    {
+      "id": 56,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "entity_a": "L' amour",
+        "entity_b": "ma complète guérison",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "L' amour"
+    },
+    {
+      "id": 57,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity_a": "La solitude",
+        "entity_b": "le mur et le tissu détendu",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "La solitude"
+    },
+    {
+      "id": 58,
+      "doc": "morteamoureuse",
+      "variables": {
+        "entity_a": "mon cœur",
+        "entity_b": "la cure de C ...",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "mon cœur"
+    },
+    {
+      "id": 59,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity_a": "feu son père , mort depuis quelques années",
+        "entity_b": "la cheminée",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "feu son père , mort depuis quelques années"
+    },
+    {
+      "id": 60,
+      "doc": "mademoisellefifi-1",
+      "variables": {
+        "entity_a": "Le curé",
+        "entity_b": "une famille",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Le curé"
+    },
+    {
+      "id": 61,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity_a": "les beaux légumes",
+        "entity_b": "Balthazar",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "les beaux légumes"
+    },
+    {
+      "id": 62,
+      "doc": "mademoisellefifi-1",
+      "variables": {
+        "entity_a": "Médor",
+        "entity_b": "une famille",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Médor"
+    },
+    {
+      "id": 63,
+      "doc": "mademoisellefifi-1",
+      "variables": {
+        "entity_a": "le râle",
+        "entity_b": "un nouveau sous-préfet",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "le râle"
+    },
+    {
+      "id": 64,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity_a": "Mes frères",
+        "entity_b": "Mes parents",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Mes frères"
+    },
+    {
+      "id": 65,
+      "doc": "morteamoureuse",
+      "variables": {
+        "entity_a": "deux chevaux noirs comme la nuit",
+        "entity_b": "Le sang",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "deux chevaux noirs comme la nuit"
+    },
+    {
+      "id": 66,
+      "doc": "morteamoureuse",
+      "variables": {
+        "entity_a": "son corps",
+        "entity_b": "le lit",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "son corps"
+    },
+    {
+      "id": 67,
+      "doc": "doucelumiere",
+      "variables": {
+        "entity_a": "Marguerite Dupré",
+        "entity_b": "la sapinière voisine",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Marguerite Dupré"
+    },
+    {
+      "id": 68,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "la force",
+        "entity_b": "le désert",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la force"
+    },
+    {
+      "id": 69,
+      "doc": "aden",
+      "variables": {
+        "entity_a": "vingt ans",
+        "entity_b": "la confiance",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "vingt ans"
+    },
+    {
+      "id": 70,
+      "doc": "madamedehautefort",
+      "variables": {
+        "entity_a": "sa grand mère",
+        "entity_b": "état",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sa grand mère"
+    },
+    {
+      "id": 71,
+      "doc": "bouvardetpecuchet",
+      "variables": {
+        "entity_a": "la charmille",
+        "entity_b": "ses angles",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la charmille"
+    },
+    {
+      "id": 72,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity_a": "un panier",
+        "entity_b": "ses parents",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un panier"
+    },
+    {
+      "id": 73,
+      "doc": "doucelumiere",
+      "variables": {
+        "entity_a": "les trois amis",
+        "entity_b": "les Barray",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "les trois amis"
+    },
+    {
+      "id": 74,
+      "doc": "aden",
+      "variables": {
+        "entity_a": "Dieu",
+        "entity_b": "le carré",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Dieu"
+    },
+    {
+      "id": 75,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity_a": "Élisabeth et cette jeune fille",
+        "entity_b": "Notre chère maison",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Élisabeth et cette jeune fille"
+    },
+    {
+      "id": 76,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity_a": "Ces pauvres gens",
+        "entity_b": "la vie",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Ces pauvres gens"
+    },
+    {
+      "id": 77,
+      "doc": "morteamoureuse",
+      "variables": {
+        "entity_a": "un page nègre",
+        "entity_b": "mon conducteur et moi",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un page nègre"
+    },
+    {
+      "id": 78,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "MYSTèRES SACREMENS",
+        "entity_b": "l' empereur Julien",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "MYSTèRES SACREMENS"
+    },
+    {
+      "id": 79,
+      "doc": "nemoville",
+      "variables": {
+        "entity_a": "tous trois",
+        "entity_b": "la terre avec toutes ses misères",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "tous trois"
+    },
+    {
+      "id": 80,
+      "doc": "sarrasine",
+      "variables": {
+        "entity_a": "Filippo",
+        "entity_b": "une toile magnifiquement encadrée",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Filippo"
+    },
+    {
+      "id": 81,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "MYSTèRES SACREMENS",
+        "entity_b": "la terre",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "MYSTèRES SACREMENS"
+    },
+    {
+      "id": 82,
+      "doc": "nemoville",
+      "variables": {
+        "entity_a": "chaque sous-marin",
+        "entity_b": "mon intention",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "chaque sous-marin"
+    },
+    {
+      "id": 83,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity_a": "le monde",
+        "entity_b": "Un chirurgien de Staten Island",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "le monde"
+    },
+    {
+      "id": 84,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "la nature",
+        "entity_b": "M De Voltaire",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la nature"
+    },
+    {
+      "id": 85,
+      "doc": "sarrasine",
+      "variables": {
+        "entity_a": "Paris",
+        "entity_b": "sa mère",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Paris"
+    },
+    {
+      "id": 86,
+      "doc": "mademoisellefifi-3",
+      "variables": {
+        "entity_a": "une jeune fille noble et pauvre comme lui",
+        "entity_b": "son grand cheval",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "une jeune fille noble et pauvre comme lui"
+    },
+    {
+      "id": 87,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity_a": "Ma mère",
+        "entity_b": "les gens agréables",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Ma mère"
+    },
+    {
+      "id": 88,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity_a": "la procession de les cordons bleus",
+        "entity_b": "Mesdames de France",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la procession de les cordons bleus"
+    },
+    {
+      "id": 89,
+      "doc": "pauline",
+      "variables": {
+        "entity_a": "Sa mère",
+        "entity_b": "La mairesse",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Sa mère"
+    },
+    {
+      "id": 90,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity_a": "Un lit à colonnes en quenouille",
+        "entity_b": "Tout cela",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Un lit à colonnes en quenouille"
+    },
+    {
+      "id": 91,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity_a": "ses frères",
+        "entity_b": "Marli",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ses frères"
+    },
+    {
+      "id": 92,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity_a": "une femme",
+        "entity_b": "l' âme",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "une femme"
+    },
+    {
+      "id": 93,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "entity_a": "la douleur de ma hanche",
+        "entity_b": "un homme",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la douleur de ma hanche"
+    },
+    {
+      "id": 94,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity_a": "une petite fille",
+        "entity_b": "la petite chambre",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "une petite fille"
+    },
+    {
+      "id": 95,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity_a": "Mes frères",
+        "entity_b": "Ma mère",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Mes frères"
+    },
+    {
+      "id": 96,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "le genre humain",
+        "entity_b": "l' église",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "le genre humain"
+    },
+    {
+      "id": 97,
+      "doc": "ungroupped-estrepublicain-2-029",
+      "variables": {
+        "entity_a": "les petits Barisiens",
+        "entity_b": "une montagne de vœux",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "les petits Barisiens"
+    },
+    {
+      "id": 98,
+      "doc": "sarrasine",
+      "variables": {
+        "entity_a": "Filippo",
+        "entity_b": "un homme",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Filippo"
+    },
+    {
+      "id": 99,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity_a": "la liberté",
+        "entity_b": "jamais",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la liberté"
+    },
+    {
+      "id": 100,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "entity_a": "La batteuse même",
+        "entity_b": "l' espoir",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "La batteuse même"
+    },
+    {
+      "id": 101,
+      "doc": "morteamoureuse",
+      "variables": {
+        "entity_a": "sa tête",
+        "entity_b": "toutes les circonstances de cette nuit fatale",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sa tête"
+    },
+    {
+      "id": 102,
+      "doc": "doucelumiere",
+      "variables": {
+        "entity_a": "Jacob",
+        "entity_b": "ses sabots",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Jacob"
+    },
+    {
+      "id": 103,
+      "doc": "morteamoureuse",
+      "variables": {
+        "entity_a": "son corps",
+        "entity_b": "un gentilhomme",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "son corps"
+    },
+    {
+      "id": 104,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity_a": "ses consolations",
+        "entity_b": "l' âme",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ses consolations"
+    },
+    {
+      "id": 105,
+      "doc": "mademoisellefifi-1",
+      "variables": {
+        "entity_a": "sa femme",
+        "entity_b": "la plus grande",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sa femme"
+    },
+    {
+      "id": 106,
+      "doc": "mademoisellefifi-1",
+      "variables": {
+        "entity_a": "une inapaisable passion",
+        "entity_b": "les deux femmes",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "une inapaisable passion"
+    },
+    {
+      "id": 107,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity_a": "le carreau",
+        "entity_b": "le cadran lumineux de Saint-Eustache",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "le carreau"
+    },
+    {
+      "id": 108,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity_a": "Henri IV",
+        "entity_b": "son mariage",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Henri IV"
+    },
+    {
+      "id": 109,
+      "doc": "nemoville",
+      "variables": {
+        "entity_a": "leurs compagnons",
+        "entity_b": "le bord de la mer",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "leurs compagnons"
+    },
+    {
+      "id": 110,
+      "doc": "mademoisellefifi-3",
+      "variables": {
+        "entity_a": "M. Lelièvre",
+        "entity_b": "son mari",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "M. Lelièvre"
+    },
+    {
+      "id": 111,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity_a": "des vitres bouillonnées",
+        "entity_b": "une divinité mythologique , Flore ou Pomone",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "des vitres bouillonnées"
+    },
+    {
+      "id": 112,
+      "doc": "sarrasine",
+      "variables": {
+        "entity_a": "un homme",
+        "entity_b": "Les observateurs",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un homme"
+    },
+    {
+      "id": 113,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity_a": "Marli",
+        "entity_b": "toutes vos lettres",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Marli"
+    },
+    {
+      "id": 114,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity_a": "ses légumes",
+        "entity_b": "quelque ville étrange",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ses légumes"
+    },
+    {
+      "id": 115,
+      "doc": "jeanchristophe-2",
+      "variables": {
+        "entity_a": "la tête",
+        "entity_b": "des génies malheureux",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la tête"
+    },
+    {
+      "id": 116,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity_a": "ses amis",
+        "entity_b": "la guerre civile",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ses amis"
+    },
+    {
+      "id": 117,
+      "doc": "madamedehautefort",
+      "variables": {
+        "entity_a": "La troisième",
+        "entity_b": "La lettre",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "La troisième"
+    },
+    {
+      "id": 118,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "entity_a": "Manine et moi",
+        "entity_b": "la route",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Manine et moi"
+    },
+    {
+      "id": 119,
+      "doc": "pauline",
+      "variables": {
+        "entity_a": "le salon",
+        "entity_b": "la joie",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "le salon"
+    },
+    {
+      "id": 120,
+      "doc": "mademoisellefifi-3",
+      "variables": {
+        "entity_a": "Un médecin",
+        "entity_b": "la bonne",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Un médecin"
+    },
+    {
+      "id": 121,
+      "doc": "sarrasine",
+      "variables": {
+        "entity_a": "les emportements fougueux",
+        "entity_b": "un de ces vents coulis",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "les emportements fougueux"
+    },
+    {
+      "id": 122,
+      "doc": "mademoisellefifi-1",
+      "variables": {
+        "entity_a": "Uville",
+        "entity_b": "des folles",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Uville"
+    },
+    {
+      "id": 123,
+      "doc": "sarrasine",
+      "variables": {
+        "entity_a": "une statue de femme",
+        "entity_b": "une toile magnifiquement encadrée",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "une statue de femme"
+    },
+    {
+      "id": 124,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity_a": "le pavillon",
+        "entity_b": "les revendeuses de ce pavillon",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "le pavillon"
+    },
+    {
+      "id": 125,
+      "doc": "madamedehautefort",
+      "variables": {
+        "entity_a": "la princesse de Conti",
+        "entity_b": "cette inclination nouvelle",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la princesse de Conti"
+    },
+    {
+      "id": 126,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "entity_a": "la dinde",
+        "entity_b": "mon corps",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la dinde"
+    },
+    {
+      "id": 127,
+      "doc": "madamedehautefort",
+      "variables": {
+        "entity_a": "deux jeunes filles",
+        "entity_b": "les destinées de la France",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "deux jeunes filles"
+    },
+    {
+      "id": 128,
+      "doc": "aden",
+      "variables": {
+        "entity_a": "vingt ans",
+        "entity_b": "des réalités déchirantes",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "vingt ans"
+    },
+    {
+      "id": 129,
+      "doc": "bouvardetpecuchet",
+      "variables": {
+        "entity_a": "une luzerne",
+        "entity_b": "les graines de plusieurs variétés",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "une luzerne"
+    },
+    {
+      "id": 130,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "le lecteur",
+        "entity_b": "le but",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "le lecteur"
+    },
+    {
+      "id": 131,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity_a": "ces dames",
+        "entity_b": "leurs échauguettes en poivrière et leurs girouettes à queue d' aronde",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ces dames"
+    },
+    {
+      "id": 132,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "entity_a": "notre chauffeur",
+        "entity_b": "la nouvelle femme de ménage",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "notre chauffeur"
+    },
+    {
+      "id": 133,
+      "doc": "mademoisellefifi-1",
+      "variables": {
+        "entity_a": "le comte Fernand d' Amoys d' Uville",
+        "entity_b": "ses inférieurs",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "le comte Fernand d' Amoys d' Uville"
+    },
+    {
+      "id": 134,
+      "doc": "pauline",
+      "variables": {
+        "entity_a": "son serin",
+        "entity_b": "les lieux",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "son serin"
+    },
+    {
+      "id": 135,
+      "doc": "mademoisellefifi-3",
+      "variables": {
+        "entity_a": "une jeune fille noble et pauvre comme lui",
+        "entity_b": "M. Lelièvre",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "une jeune fille noble et pauvre comme lui"
+    },
+    {
+      "id": 136,
+      "doc": "nemoville",
+      "variables": {
+        "entity_a": "cette épave",
+        "entity_b": "le cadeau de Noël de Némoville",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "cette épave"
+    },
+    {
+      "id": 137,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "l' empereur Julien",
+        "entity_b": "l' évangile",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "l' empereur Julien"
+    },
+    {
+      "id": 138,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity_a": "Une petite paysanne de seize ans",
+        "entity_b": "des tas gigantesques de choux-fleurs",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Une petite paysanne de seize ans"
+    },
+    {
+      "id": 139,
+      "doc": "pauline",
+      "variables": {
+        "entity_a": "le salon",
+        "entity_b": "le courage de Pauline",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "le salon"
+    },
+    {
+      "id": 140,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity_a": "une large rue",
+        "entity_b": "Balthazar",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "une large rue"
+    },
+    {
+      "id": 141,
+      "doc": "articleswiki_zebre",
+      "variables": {
+        "entity_a": "plusieurs espèces différentes d' herbivores de la famille de les équidés , et de le genre Equus , vivant en Afrique",
+        "entity_b": "des chevaux",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "plusieurs espèces différentes d' herbivores de la famille de les équidés , et de le genre Equus , vivant en Afrique"
+    },
+    {
+      "id": 142,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity_a": "Mes sœurs",
+        "entity_b": "le mur",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Mes sœurs"
+    },
+    {
+      "id": 143,
+      "doc": "sarrasine",
+      "variables": {
+        "entity_a": "la famille de Lanty",
+        "entity_b": "le théâtre d' Argentina",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la famille de Lanty"
+    },
+    {
+      "id": 144,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "M De Voltaire",
+        "entity_b": "la mort",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "M De Voltaire"
+    },
+    {
+      "id": 145,
+      "doc": "morteamoureuse",
+      "variables": {
+        "entity_a": "des mains patriciennes d' une délicatesse infinie",
+        "entity_b": "aucun étonnement d' une aventure aussi extraordinaire",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "des mains patriciennes d' une délicatesse infinie"
+    },
+    {
+      "id": 146,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "ses richesses",
+        "entity_b": "les souvenirs de le passé",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ses richesses"
+    },
+    {
+      "id": 147,
+      "doc": "nemoville",
+      "variables": {
+        "entity_a": "la terre avec toutes ses misères",
+        "entity_b": "cette épave",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la terre avec toutes ses misères"
+    },
+    {
+      "id": 148,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "le genre humain",
+        "entity_b": "L' innocence",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "le genre humain"
+    },
+    {
+      "id": 149,
+      "doc": "madamedehautefort",
+      "variables": {
+        "entity_a": "sa grand mère",
+        "entity_b": "sa femme",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sa grand mère"
+    },
+    {
+      "id": 150,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity_a": "les becs de gaz",
+        "entity_b": "les pavés",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "les becs de gaz"
+    },
+    {
+      "id": 151,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity_a": "tes tablettes",
+        "entity_b": "ses parents",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "tes tablettes"
+    },
+    {
+      "id": 152,
+      "doc": "jeanchristophe-2",
+      "variables": {
+        "entity_a": "sa plaie secrète",
+        "entity_b": "des génies malheureux",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sa plaie secrète"
+    },
+    {
+      "id": 153,
+      "doc": "morteamoureuse",
+      "variables": {
+        "entity_a": "la ville",
+        "entity_b": "L' évêque , vieillard vénérable",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la ville"
+    },
+    {
+      "id": 154,
+      "doc": "jeanchristophe-2",
+      "variables": {
+        "entity_a": "la tête",
+        "entity_b": "Les Krafft",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la tête"
+    },
+    {
+      "id": 155,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity_a": "Charles",
+        "entity_b": "ses frères",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Charles"
+    },
+    {
+      "id": 156,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity_a": "Charles",
+        "entity_b": "Le Dauphin",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Charles"
+    },
+    {
+      "id": 157,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity_a": "la comtesse de Provence",
+        "entity_b": "Adélaïde",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la comtesse de Provence"
+    },
+    {
+      "id": 158,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity_a": "les toiles rembrunies de les portraits enfumés",
+        "entity_b": "une muraille verdie et salpêtrée",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "les toiles rembrunies de les portraits enfumés"
+    },
+    {
+      "id": 159,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity_a": "ses aquarelles",
+        "entity_b": "les troubles",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ses aquarelles"
+    },
+    {
+      "id": 160,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity_a": "l' envie terrible",
+        "entity_b": "le pas",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "l' envie terrible"
+    },
+    {
+      "id": 161,
+      "doc": "doucelumiere",
+      "variables": {
+        "entity_a": "l' école",
+        "entity_b": "le vieil harmonium",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "l' école"
+    },
+    {
+      "id": 162,
+      "doc": "articleswiki_girafe",
+      "variables": {
+        "entity_a": "Les femelles girafes",
+        "entity_b": "l' on",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Les femelles girafes"
+    },
+    {
+      "id": 163,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "le baptême",
+        "entity_b": "les sophistes",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "le baptême"
+    },
+    {
+      "id": 164,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "les sophistes",
+        "entity_b": "l' empereur Julien",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "les sophistes"
+    },
+    {
+      "id": 165,
+      "doc": "madamedehautefort",
+      "variables": {
+        "entity_a": "Richelieu et de Mazarin",
+        "entity_b": "sa main",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Richelieu et de Mazarin"
+    },
+    {
+      "id": 166,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity_a": "la rue Pirouette",
+        "entity_b": "une large rue",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la rue Pirouette"
+    },
+    {
+      "id": 167,
+      "doc": "aden",
+      "variables": {
+        "entity_a": "Tous ces marins",
+        "entity_b": "les idées",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Tous ces marins"
+    },
+    {
+      "id": 168,
+      "doc": "sarrasine",
+      "variables": {
+        "entity_a": "son maître à chanter",
+        "entity_b": "un ornement",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "son maître à chanter"
+    },
+    {
+      "id": 169,
+      "doc": "aden",
+      "variables": {
+        "entity_a": "Tous ces marins",
+        "entity_b": "un an",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Tous ces marins"
+    },
+    {
+      "id": 170,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity_a": "Les femmes , enveloppées de leurs manteaux",
+        "entity_b": "la porte , encadrée d' un linteau de pierre",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Les femmes , enveloppées de leurs manteaux"
+    },
+    {
+      "id": 171,
+      "doc": "aden",
+      "variables": {
+        "entity_a": "Aden",
+        "entity_b": "le monde",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Aden"
+    },
+    {
+      "id": 172,
+      "doc": "morteamoureuse",
+      "variables": {
+        "entity_a": "la mienne",
+        "entity_b": "toute la chambre",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la mienne"
+    },
+    {
+      "id": 173,
+      "doc": "morteamoureuse",
+      "variables": {
+        "entity_a": "Le sang",
+        "entity_b": "un gentilhomme",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Le sang"
+    },
+    {
+      "id": 174,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "MYSTèRES SACREMENS",
+        "entity_b": "la chûte",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "MYSTèRES SACREMENS"
+    },
+    {
+      "id": 175,
+      "doc": "mademoisellefifi-1",
+      "variables": {
+        "entity_a": "La pluie",
+        "entity_b": "les deux femmes",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "La pluie"
+    },
+    {
+      "id": 176,
+      "doc": "aden",
+      "variables": {
+        "entity_a": "les femmes",
+        "entity_b": "Les plus clairvoyants de les voyageurs",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "les femmes"
+    },
+    {
+      "id": 177,
+      "doc": "sarrasine",
+      "variables": {
+        "entity_a": "Bouchardon",
+        "entity_b": "nous -mêmes",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Bouchardon"
+    },
+    {
+      "id": 178,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity_a": "leur villa",
+        "entity_b": "le mensonge de le téléphone",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "leur villa"
+    },
+    {
+      "id": 179,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity_a": "Mme Denis",
+        "entity_b": "Lausanne",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Mme Denis"
+    },
+    {
+      "id": 180,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity_a": "le chariot de Thespis",
+        "entity_b": "son pourpoint",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "le chariot de Thespis"
+    },
+    {
+      "id": 181,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "le péché originel",
+        "entity_b": "L' innocence",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "le péché originel"
+    },
+    {
+      "id": 182,
+      "doc": "sarrasine",
+      "variables": {
+        "entity_a": "Paris",
+        "entity_b": "cette voix",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Paris"
+    },
+    {
+      "id": 183,
+      "doc": "aden",
+      "variables": {
+        "entity_a": "plus simples vagabonds humains",
+        "entity_b": "un grand penseur",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "plus simples vagabonds humains"
+    },
+    {
+      "id": 184,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity_a": "un premier fils",
+        "entity_b": "la Bastille",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un premier fils"
+    },
+    {
+      "id": 185,
+      "doc": "bouvardetpecuchet",
+      "variables": {
+        "entity_a": "Barberou , un de ses amis",
+        "entity_b": "l' autre",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Barberou , un de ses amis"
+    },
+    {
+      "id": 186,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity_a": "Saint-Eustache",
+        "entity_b": "une jeune femme",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Saint-Eustache"
+    },
+    {
+      "id": 187,
+      "doc": "morteamoureuse",
+      "variables": {
+        "entity_a": "ma vie",
+        "entity_b": "ses longs cheveux dénoués",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ma vie"
+    },
+    {
+      "id": 188,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "les fidèles",
+        "entity_b": "MYSTèRES SACREMENS",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "les fidèles"
+    },
+    {
+      "id": 189,
+      "doc": "jeanchristophe-2",
+      "variables": {
+        "entity_a": "Ernst",
+        "entity_b": "la main",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Ernst"
+    },
+    {
+      "id": 190,
+      "doc": "doucelumiere",
+      "variables": {
+        "entity_a": "les trois amis",
+        "entity_b": "des yeux immenses",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "les trois amis"
+    },
+    {
+      "id": 191,
+      "doc": "doucelumiere",
+      "variables": {
+        "entity_a": "sa large et forte grille",
+        "entity_b": "la sapinière voisine",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sa large et forte grille"
+    },
+    {
+      "id": 192,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity_a": "celui que l' on appelle ici Monsieur le capitano",
+        "entity_b": "le catholicisme",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "celui que l' on appelle ici Monsieur le capitano"
+    },
+    {
+      "id": 193,
+      "doc": "madamedehautefort",
+      "variables": {
+        "entity_a": "sa femme",
+        "entity_b": "La troisième",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sa femme"
+    },
+    {
+      "id": 194,
+      "doc": "pauline",
+      "variables": {
+        "entity_a": "La soif",
+        "entity_b": "les cheveux épars",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "La soif"
+    },
+    {
+      "id": 195,
+      "doc": "sarrasine",
+      "variables": {
+        "entity_a": "Son âme",
+        "entity_b": "La toile",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Son âme"
+    },
+    {
+      "id": 196,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity_a": "leur chambre à coucher",
+        "entity_b": "la petite chambre",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "leur chambre à coucher"
+    },
+    {
+      "id": 197,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "le genre humain",
+        "entity_b": "le péché originel",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "le genre humain"
+    },
+    {
+      "id": 198,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "la religion",
+        "entity_b": "Origène",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la religion"
+    },
+    {
+      "id": 199,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity_a": "Mme de le Baril",
+        "entity_b": "un premier fils",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Mme de le Baril"
+    },
+    {
+      "id": 200,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity_a": "ses nobles aïeux",
+        "entity_b": "La solitude",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ses nobles aïeux"
+    },
+    {
+      "id": 201,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity_a": "son ami Marjolin",
+        "entity_b": "les beaux légumes",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "son ami Marjolin"
+    },
+    {
+      "id": 202,
+      "doc": "morteamoureuse",
+      "variables": {
+        "entity_a": "l' aloès",
+        "entity_b": "un pacte",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "l' aloès"
+    },
+    {
+      "id": 203,
+      "doc": "morteamoureuse",
+      "variables": {
+        "entity_a": "un lac intérieur",
+        "entity_b": "Mon existence",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un lac intérieur"
+    },
+    {
+      "id": 204,
+      "doc": "bouvardetpecuchet",
+      "variables": {
+        "entity_a": "le râteleur anglais",
+        "entity_b": "le prix de le fermage",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "le râteleur anglais"
+    },
+    {
+      "id": 205,
+      "doc": "mademoisellefifi-1",
+      "variables": {
+        "entity_a": "La pluie",
+        "entity_b": "France",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "La pluie"
+    },
+    {
+      "id": 206,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "les sophistes",
+        "entity_b": "la confession",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "les sophistes"
+    },
+    {
+      "id": 207,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "la rédemption",
+        "entity_b": "le genre humain",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la rédemption"
+    },
+    {
+      "id": 208,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "la chûte",
+        "entity_b": "le péché originel",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la chûte"
+    },
+    {
+      "id": 209,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity_a": "Les femmes , enveloppées de leurs manteaux",
+        "entity_b": "des vitres bouillonnées",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Les femmes , enveloppées de leurs manteaux"
+    },
+    {
+      "id": 210,
+      "doc": "sarrasine",
+      "variables": {
+        "entity_a": "cette voix",
+        "entity_b": "le théâtre d' Argentina",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "cette voix"
+    },
+    {
+      "id": 211,
+      "doc": "jeanchristophe-2",
+      "variables": {
+        "entity_a": "sa plaie secrète",
+        "entity_b": "cette pensée",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sa plaie secrète"
+    },
+    {
+      "id": 212,
+      "doc": "sarrasine",
+      "variables": {
+        "entity_a": "Leurs yeux séduisants",
+        "entity_b": "cils fournis",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Leurs yeux séduisants"
+    },
+    {
+      "id": 213,
+      "doc": "sarrasine",
+      "variables": {
+        "entity_a": "la famille de Lanty",
+        "entity_b": "une statue de femme",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la famille de Lanty"
+    },
+    {
+      "id": 214,
+      "doc": "pauline",
+      "variables": {
+        "entity_a": "d' autres",
+        "entity_b": "son serin",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "d' autres"
+    },
+    {
+      "id": 215,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity_a": "les Maréchaud",
+        "entity_b": "ses parents",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "les Maréchaud"
+    },
+    {
+      "id": 216,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity_a": "Mme Denis",
+        "entity_b": "une seconde fille",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Mme Denis"
+    },
+    {
+      "id": 217,
+      "doc": "jeanchristophe-2",
+      "variables": {
+        "entity_a": "la tête",
+        "entity_b": "le veston",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la tête"
+    },
+    {
+      "id": 218,
+      "doc": "mademoisellefifi-3",
+      "variables": {
+        "entity_a": "M. Lelièvre",
+        "entity_b": "ma bonne",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "M. Lelièvre"
+    },
+    {
+      "id": 219,
+      "doc": "mademoisellefifi-3",
+      "variables": {
+        "entity_a": "sa bonne",
+        "entity_b": "Un agent envoyé à les renseignements",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sa bonne"
+    },
+    {
+      "id": 220,
+      "doc": "sarrasine",
+      "variables": {
+        "entity_a": "sa loge",
+        "entity_b": "un coup de poignard",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sa loge"
+    },
+    {
+      "id": 221,
+      "doc": "sarrasine",
+      "variables": {
+        "entity_a": "Son père",
+        "entity_b": "lui et la Zambinella",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Son père"
+    },
+    {
+      "id": 222,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity_a": "la duègne",
+        "entity_b": "Les femmes , enveloppées de leurs manteaux",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la duègne"
+    },
+    {
+      "id": 223,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "le péché originel",
+        "entity_b": "l' esprit",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "le péché originel"
+    },
+    {
+      "id": 224,
+      "doc": "aden",
+      "variables": {
+        "entity_a": "plus simples vagabonds humains",
+        "entity_b": "Aden",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "plus simples vagabonds humains"
+    },
+    {
+      "id": 225,
+      "doc": "bouvardetpecuchet",
+      "variables": {
+        "entity_a": "le soleil",
+        "entity_b": "les émotions naïves",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "le soleil"
+    },
+    {
+      "id": 226,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "l' hérésie",
+        "entity_b": "La chûte ainsi avérée par la tradition générale , par la transmission ou la génération de le mal moral et physique",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "l' hérésie"
+    },
+    {
+      "id": 227,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity_a": "l' Isabelle",
+        "entity_b": "la cuisine",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "l' Isabelle"
+    },
+    {
+      "id": 228,
+      "doc": "mademoisellefifi-1",
+      "variables": {
+        "entity_a": "Les deux derniers",
+        "entity_b": "La pluie",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Les deux derniers"
+    },
+    {
+      "id": 229,
+      "doc": "jeanchristophe-2",
+      "variables": {
+        "entity_a": "Deux autres",
+        "entity_b": "un garçon",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Deux autres"
+    },
+    {
+      "id": 230,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "entity_a": "mes frères et sœurs",
+        "entity_b": "la douleur de ma hanche",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "mes frères et sœurs"
+    },
+    {
+      "id": 231,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity_a": "feu son père , mort depuis quelques années",
+        "entity_b": "la famille maintenant déchue",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "feu son père , mort depuis quelques années"
+    },
+    {
+      "id": 232,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "l' évangile",
+        "entity_b": "la religion",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "l' évangile"
+    },
+    {
+      "id": 233,
+      "doc": "doucelumiere",
+      "variables": {
+        "entity_a": "sa large et forte grille",
+        "entity_b": "Juliette Force",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sa large et forte grille"
+    },
+    {
+      "id": 234,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity_a": "Une de ces tapisseries de Flandre appelées « verdures",
+        "entity_b": "la patte",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Une de ces tapisseries de Flandre appelées « verdures"
+    },
+    {
+      "id": 235,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "la communion",
+        "entity_b": "les choses mystérieuses",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la communion"
+    },
+    {
+      "id": 236,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity_a": "Un chirurgien de Staten Island",
+        "entity_b": "le coin d' une immense prison",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Un chirurgien de Staten Island"
+    },
+    {
+      "id": 237,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity_a": "la première cour",
+        "entity_b": "des croix",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la première cour"
+    },
+    {
+      "id": 238,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity_a": "Anna et moi",
+        "entity_b": "Notre chère maison",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Anna et moi"
+    },
+    {
+      "id": 239,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity_a": "les beaux légumes",
+        "entity_b": "ses légumes",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "les beaux légumes"
+    },
+    {
+      "id": 240,
+      "doc": "jeanchristophe-2",
+      "variables": {
+        "entity_a": "la rue",
+        "entity_b": "étoffes raides",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la rue"
+    },
+    {
+      "id": 241,
+      "doc": "aden",
+      "variables": {
+        "entity_a": "Les voyageurs",
+        "entity_b": "Aden",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Les voyageurs"
+    },
+    {
+      "id": 242,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity_a": "les Parisiens",
+        "entity_b": "les porteurs posées à terre",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "les Parisiens"
+    },
+    {
+      "id": 243,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity_a": "les Filicchi",
+        "entity_b": "tous les enfants d' alentour",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "les Filicchi"
+    },
+    {
+      "id": 244,
+      "doc": "nemoville",
+      "variables": {
+        "entity_a": "le presbytère",
+        "entity_b": "localité",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "le presbytère"
+    },
+    {
+      "id": 245,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity_a": "le bonheur de M. et Mme Seton",
+        "entity_b": "une poignante inquiétude",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "le bonheur de M. et Mme Seton"
+    },
+    {
+      "id": 246,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity_a": "Cette défroque hétéroclite",
+        "entity_b": "la famille maintenant déchue",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Cette défroque hétéroclite"
+    },
+    {
+      "id": 247,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity_a": "la pointe Saint-Eustache",
+        "entity_b": "toutes ses ténèbres",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la pointe Saint-Eustache"
+    },
+    {
+      "id": 248,
+      "doc": "nemoville",
+      "variables": {
+        "entity_a": "cette épave",
+        "entity_b": "le capitaine Nemo",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "cette épave"
+    },
+    {
+      "id": 249,
+      "doc": "nemoville",
+      "variables": {
+        "entity_a": "le capitaine Nemo",
+        "entity_b": "une ville sous-marine",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "le capitaine Nemo"
+    },
+    {
+      "id": 250,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "entity_a": "ces petites tablettes",
+        "entity_b": "la fin de juillet",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ces petites tablettes"
+    },
+    {
+      "id": 251,
+      "doc": "sarrasine",
+      "variables": {
+        "entity_a": "Bouchardon",
+        "entity_b": "tous deux",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Bouchardon"
+    },
+    {
+      "id": 252,
+      "doc": "morteamoureuse",
+      "variables": {
+        "entity_a": "mon cœur",
+        "entity_b": "mon lit",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "mon cœur"
+    },
+    {
+      "id": 253,
+      "doc": "mademoisellefifi-1",
+      "variables": {
+        "entity_a": "les Prussiens",
+        "entity_b": "une noble dame à poitrine serrée",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "les Prussiens"
+    },
+    {
+      "id": 254,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity_a": "une table en poirier noirci",
+        "entity_b": "Cinq ou six chaises recouvertes de velours",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "une table en poirier noirci"
+    },
+    {
+      "id": 255,
+      "doc": "sarrasine",
+      "variables": {
+        "entity_a": "tous deux",
+        "entity_b": "Paris",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "tous deux"
+    },
+    {
+      "id": 256,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity_a": "la cuisine",
+        "entity_b": "la cheminée",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la cuisine"
+    },
+    {
+      "id": 257,
+      "doc": "doucelumiere",
+      "variables": {
+        "entity_a": "Marguerite Dupré",
+        "entity_b": "sa large et forte grille",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Marguerite Dupré"
+    },
+    {
+      "id": 258,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity_a": "Lausanne",
+        "entity_b": "une seconde fille",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Lausanne"
+    },
+    {
+      "id": 259,
+      "doc": "bouvardetpecuchet",
+      "variables": {
+        "entity_a": "des raies fines",
+        "entity_b": "les nimbus",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "des raies fines"
+    },
+    {
+      "id": 260,
+      "doc": "morteamoureuse",
+      "variables": {
+        "entity_a": "le séminaire",
+        "entity_b": "la cure de C ...",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "le séminaire"
+    },
+    {
+      "id": 261,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity_a": "les gens agréables",
+        "entity_b": "mes frères et moi",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "les gens agréables"
+    },
+    {
+      "id": 262,
+      "doc": "articleswiki_zebre",
+      "variables": {
+        "entity_a": "les zèbres de Grévy",
+        "entity_b": "plusieurs espèces différentes d' herbivores de la famille de les équidés , et de le genre Equus , vivant en Afrique",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "les zèbres de Grévy"
+    },
+    {
+      "id": 263,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity_a": "la duègne",
+        "entity_b": "feu son père , mort depuis quelques années",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la duègne"
+    },
+    {
+      "id": 264,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity_a": "St-Jean",
+        "entity_b": "les rois de France et leurs familles",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "St-Jean"
+    },
+    {
+      "id": 265,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "entity_a": "la maison",
+        "entity_b": "la dinde",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la maison"
+    },
+    {
+      "id": 266,
+      "doc": "sarrasine",
+      "variables": {
+        "entity_a": "Le cardinal Cicognara",
+        "entity_b": "la famille de Lanty",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Le cardinal Cicognara"
+    },
+    {
+      "id": 267,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity_a": "des vitres bouillonnées",
+        "entity_b": "un homme",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "des vitres bouillonnées"
+    },
+    {
+      "id": 268,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity_a": "sa fille Rebecca",
+        "entity_b": "New-York",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sa fille Rebecca"
+    },
+    {
+      "id": 269,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "Origène",
+        "entity_b": "le dix-septième siècle",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Origène"
+    },
+    {
+      "id": 270,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity_a": "les sciences",
+        "entity_b": "veste d' or",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "les sciences"
+    },
+    {
+      "id": 271,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "la mort",
+        "entity_b": "l' on",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la mort"
+    },
+    {
+      "id": 272,
+      "doc": "jeanchristophe-2",
+      "variables": {
+        "entity_a": "la petite ville princière",
+        "entity_b": "les mains",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la petite ville princière"
+    },
+    {
+      "id": 273,
+      "doc": "madamedehautefort",
+      "variables": {
+        "entity_a": "son cadet Gilles de Hautefort",
+        "entity_b": "le marquis de Hautefort",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "son cadet Gilles de Hautefort"
+    },
+    {
+      "id": 274,
+      "doc": "aden",
+      "variables": {
+        "entity_a": "la liberté",
+        "entity_b": "vingt ans",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la liberté"
+    },
+    {
+      "id": 275,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity_a": "toute la maison",
+        "entity_b": "son mariage",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "toute la maison"
+    },
+    {
+      "id": 276,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity_a": "tes tablettes",
+        "entity_b": "Adélaïde",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "tes tablettes"
+    },
+    {
+      "id": 277,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity_a": "une femme penchée sur ses navets",
+        "entity_b": "son ami Marjolin",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "une femme penchée sur ses navets"
+    },
+    {
+      "id": 278,
+      "doc": "jeanchristophe-2",
+      "variables": {
+        "entity_a": "sa petite observation",
+        "entity_b": "une chaise",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sa petite observation"
+    },
+    {
+      "id": 279,
+      "doc": "morteamoureuse",
+      "variables": {
+        "entity_a": "ma vie",
+        "entity_b": "le lit",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ma vie"
+    },
+    {
+      "id": 280,
+      "doc": "mademoisellefifi-3",
+      "variables": {
+        "entity_a": "amour",
+        "entity_b": "la chair froide",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "amour"
+    },
+    {
+      "id": 281,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity_a": "tes tablettes",
+        "entity_b": "Lalex",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "tes tablettes"
+    },
+    {
+      "id": 282,
+      "doc": "sarrasine",
+      "variables": {
+        "entity_a": "Le cardinal Cicognara",
+        "entity_b": "Paris",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Le cardinal Cicognara"
+    },
+    {
+      "id": 283,
+      "doc": "sarrasine",
+      "variables": {
+        "entity_a": "ses camarades",
+        "entity_b": "son caractère bizarre",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ses camarades"
+    },
+    {
+      "id": 284,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "S Justin",
+        "entity_b": "la vie",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "S Justin"
+    },
+    {
+      "id": 285,
+      "doc": "mademoisellefifi-3",
+      "variables": {
+        "entity_a": "son mari",
+        "entity_b": "Un médecin",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "son mari"
+    },
+    {
+      "id": 286,
+      "doc": "jeanchristophe-2",
+      "variables": {
+        "entity_a": "la petite ville princière",
+        "entity_b": "Clara Sartorius",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la petite ville princière"
+    },
+    {
+      "id": 287,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity_a": "les lèvres de Marthe",
+        "entity_b": "un jour",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "les lèvres de Marthe"
+    },
+    {
+      "id": 288,
+      "doc": "nemoville",
+      "variables": {
+        "entity_a": "tous trois",
+        "entity_b": "leurs compagnons",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "tous trois"
+    },
+    {
+      "id": 289,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "entity_a": "la douleur de ma hanche",
+        "entity_b": "notre chauffeur",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la douleur de ma hanche"
+    },
+    {
+      "id": 290,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "la nature",
+        "entity_b": "L' esprit",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la nature"
+    },
+    {
+      "id": 291,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "la rédemption",
+        "entity_b": "le péché originel",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la rédemption"
+    },
+    {
+      "id": 292,
+      "doc": "nemoville",
+      "variables": {
+        "entity_a": "sa fille",
+        "entity_b": "tous trois",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sa fille"
+    },
+    {
+      "id": 293,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity_a": "un de nos voisins",
+        "entity_b": "les gens agréables",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un de nos voisins"
+    },
+    {
+      "id": 294,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "entity_a": "un homme",
+        "entity_b": "son petit garçon",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un homme"
+    },
+    {
+      "id": 295,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity_a": "Ma mère",
+        "entity_b": "Mes parents",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Ma mère"
+    },
+    {
+      "id": 296,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity_a": "ses légumes",
+        "entity_b": "l' avenue",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ses légumes"
+    },
+    {
+      "id": 297,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity_a": "Lausanne",
+        "entity_b": "Le Dauphin",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Lausanne"
+    },
+    {
+      "id": 298,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity_a": "une large rue",
+        "entity_b": "ses légumes",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "une large rue"
+    },
+    {
+      "id": 299,
+      "doc": "nemoville",
+      "variables": {
+        "entity_a": "une vieille servante",
+        "entity_b": "une ville sous-marine",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "une vieille servante"
+    },
+    {
+      "id": 300,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity_a": "douceur",
+        "entity_b": "l' âme et pour le corps de mon William",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "douceur"
+    },
+    {
+      "id": 301,
+      "doc": "mademoisellefifi-1",
+      "variables": {
+        "entity_a": "un lieutenant",
+        "entity_b": "les Prussiens",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un lieutenant"
+    },
+    {
+      "id": 302,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity_a": "son cœur",
+        "entity_b": "sa fille Rebecca",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "son cœur"
+    },
+    {
+      "id": 303,
+      "doc": "madamedehautefort",
+      "variables": {
+        "entity_a": "quelque brouillerie",
+        "entity_b": "quelque embarras",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "quelque brouillerie"
+    },
+    {
+      "id": 304,
+      "doc": "doucelumiere",
+      "variables": {
+        "entity_a": "sa maison",
+        "entity_b": "les arbres",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sa maison"
+    },
+    {
+      "id": 305,
+      "doc": "madamedehautefort",
+      "variables": {
+        "entity_a": "la reine-mère",
+        "entity_b": "le marquis de Hautefort",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la reine-mère"
+    },
+    {
+      "id": 306,
+      "doc": "sarrasine",
+      "variables": {
+        "entity_a": "tous deux",
+        "entity_b": "une statue de femme",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "tous deux"
+    },
+    {
+      "id": 307,
+      "doc": "pauline",
+      "variables": {
+        "entity_a": "son serin",
+        "entity_b": "la servante",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "son serin"
+    },
+    {
+      "id": 308,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity_a": "un de nos voisins",
+        "entity_b": "Mes parents",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un de nos voisins"
+    },
+    {
+      "id": 309,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "ce jeune enfant",
+        "entity_b": "MYSTèRES SACREMENS",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ce jeune enfant"
+    },
+    {
+      "id": 310,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity_a": "celui que l' on appelle ici Monsieur le capitano",
+        "entity_b": "Anna et moi",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "celui que l' on appelle ici Monsieur le capitano"
+    },
+    {
+      "id": 311,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity_a": "un premier fils",
+        "entity_b": "ses frères",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un premier fils"
+    },
+    {
+      "id": 312,
+      "doc": "madamedehautefort",
+      "variables": {
+        "entity_a": "sa femme",
+        "entity_b": "état",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sa femme"
+    },
+    {
+      "id": 313,
+      "doc": "doucelumiere",
+      "variables": {
+        "entity_a": "le soleil",
+        "entity_b": "le corps",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "le soleil"
+    },
+    {
+      "id": 314,
+      "doc": "jeanchristophe-2",
+      "variables": {
+        "entity_a": "la tête",
+        "entity_b": "la musique",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la tête"
+    },
+    {
+      "id": 315,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity_a": "les charretiers",
+        "entity_b": "ton Jules",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "les charretiers"
+    },
+    {
+      "id": 316,
+      "doc": "pauline",
+      "variables": {
+        "entity_a": "une dame en chaise de poste",
+        "entity_b": "La mairesse",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "une dame en chaise de poste"
+    },
+    {
+      "id": 317,
+      "doc": "morteamoureuse",
+      "variables": {
+        "entity_a": "les mains jointes",
+        "entity_b": "la coupe de vin épicé",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "les mains jointes"
+    },
+    {
+      "id": 318,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "ses dogmes",
+        "entity_b": "L' enfance",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ses dogmes"
+    },
+    {
+      "id": 319,
+      "doc": "bouvardetpecuchet",
+      "variables": {
+        "entity_a": "le fermier",
+        "entity_b": "l' autre",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "le fermier"
+    },
+    {
+      "id": 320,
+      "doc": "mademoisellefifi-1",
+      "variables": {
+        "entity_a": "sa cloche",
+        "entity_b": "L' autre monsieur",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sa cloche"
+    },
+    {
+      "id": 321,
+      "doc": "doucelumiere",
+      "variables": {
+        "entity_a": "le verger",
+        "entity_b": "sa large et forte grille",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "le verger"
+    },
+    {
+      "id": 322,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity_a": "un premier fils",
+        "entity_b": "une seconde fille",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un premier fils"
+    },
+    {
+      "id": 323,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "entity_a": "toute ma famille",
+        "entity_b": "la douleur de ma hanche",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "toute ma famille"
+    },
+    {
+      "id": 324,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity_a": "un de les hommes",
+        "entity_b": "quelques bottes de carottes",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un de les hommes"
+    },
+    {
+      "id": 325,
+      "doc": "bouvardetpecuchet",
+      "variables": {
+        "entity_a": "le conducteur et le charretier",
+        "entity_b": "Les bœufs",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "le conducteur et le charretier"
+    },
+    {
+      "id": 326,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity_a": "la duègne",
+        "entity_b": "la famille maintenant déchue",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la duègne"
+    },
+    {
+      "id": 327,
+      "doc": "doucelumiere",
+      "variables": {
+        "entity_a": "un clair matin",
+        "entity_b": "ces yeux baissés",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un clair matin"
+    },
+    {
+      "id": 328,
+      "doc": "sarrasine",
+      "variables": {
+        "entity_a": "cette voix",
+        "entity_b": "ces femmes",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "cette voix"
+    },
+    {
+      "id": 329,
+      "doc": "articleswiki_zebre",
+      "variables": {
+        "entity_a": "les équidés primitifs",
+        "entity_b": "le zèbre de Burchell",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "les équidés primitifs"
+    },
+    {
+      "id": 330,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity_a": "moi et mes camarades",
+        "entity_b": "la duègne",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "moi et mes camarades"
+    },
+    {
+      "id": 331,
+      "doc": "jeanchristophe-2",
+      "variables": {
+        "entity_a": "ses parents",
+        "entity_b": "un garçon",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ses parents"
+    },
+    {
+      "id": 332,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "Quadrat et Aristide",
+        "entity_b": "les premières fleurs de l' année",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Quadrat et Aristide"
+    },
+    {
+      "id": 333,
+      "doc": "mademoisellefifi-3",
+      "variables": {
+        "entity_a": "son grand cheval",
+        "entity_b": "ma bonne",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "son grand cheval"
+    },
+    {
+      "id": 334,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "entity_a": "ses enfants",
+        "entity_b": "les rires",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ses enfants"
+    },
+    {
+      "id": 335,
+      "doc": "madamedehautefort",
+      "variables": {
+        "entity_a": "un jeune homme de la tournure la plus agréable",
+        "entity_b": "sa grand mère",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un jeune homme de la tournure la plus agréable"
+    },
+    {
+      "id": 336,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity_a": "l' homme",
+        "entity_b": "les beaux légumes",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "l' homme"
+    },
+    {
+      "id": 337,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "le genre humain",
+        "entity_b": "la mort",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "le genre humain"
+    },
+    {
+      "id": 338,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity_a": "la duègne",
+        "entity_b": "Cette défroque hétéroclite",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la duègne"
+    },
+    {
+      "id": 339,
+      "doc": "aden",
+      "variables": {
+        "entity_a": "le fameux secret caché dans les navires",
+        "entity_b": "des os",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "le fameux secret caché dans les navires"
+    },
+    {
+      "id": 340,
+      "doc": "bouvardetpecuchet",
+      "variables": {
+        "entity_a": "Chavignolles",
+        "entity_b": "le beurre",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Chavignolles"
+    },
+    {
+      "id": 341,
+      "doc": "madamedehautefort",
+      "variables": {
+        "entity_a": "La troisième",
+        "entity_b": "ce cœur mélancolique et chaste",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "La troisième"
+    },
+    {
+      "id": 342,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity_a": "Lausanne",
+        "entity_b": "ses frères",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Lausanne"
+    },
+    {
+      "id": 343,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity_a": "l' homme",
+        "entity_b": "une large rue",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "l' homme"
+    },
+    {
+      "id": 344,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity_a": "le catholicisme",
+        "entity_b": "ce que Madame Seton voyait surtout dans ses enfants",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "le catholicisme"
+    },
+    {
+      "id": 345,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "M De Voltaire",
+        "entity_b": "la communion",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "M De Voltaire"
+    },
+    {
+      "id": 346,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "le néophyte",
+        "entity_b": "MYSTèRES SACREMENS",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "le néophyte"
+    },
+    {
+      "id": 347,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity_a": "une seconde fille",
+        "entity_b": "Lalex",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "une seconde fille"
+    },
+    {
+      "id": 348,
+      "doc": "mademoisellefifi-1",
+      "variables": {
+        "entity_a": "un lieutenant",
+        "entity_b": "le râle",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un lieutenant"
+    },
+    {
+      "id": 349,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity_a": "trente ou quarante pauvres créatures de toutes les nations , Grecs , Turcs , Espagnols , Français , venant de faire naufrage",
+        "entity_b": "ma petite Kate",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "trente ou quarante pauvres créatures de toutes les nations , Grecs , Turcs , Espagnols , Français , venant de faire naufrage"
+    },
+    {
+      "id": 350,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "entity_a": "tous les souvenirs",
+        "entity_b": "Un homme",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "tous les souvenirs"
+    },
+    {
+      "id": 351,
+      "doc": "sarrasine",
+      "variables": {
+        "entity_a": "Le cardinal Cicognara",
+        "entity_b": "une statue de femme",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Le cardinal Cicognara"
+    },
+    {
+      "id": 352,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity_a": "Cette défroque hétéroclite",
+        "entity_b": "un coquemar de fonte pendu à la crémaillère",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Cette défroque hétéroclite"
+    },
+    {
+      "id": 353,
+      "doc": "nemoville",
+      "variables": {
+        "entity_a": "la terre avec toutes ses misères",
+        "entity_b": "un seul sous-marin",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la terre avec toutes ses misères"
+    },
+    {
+      "id": 354,
+      "doc": "aden",
+      "variables": {
+        "entity_a": "les problèmes",
+        "entity_b": "les curés",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "les problèmes"
+    },
+    {
+      "id": 355,
+      "doc": "morteamoureuse",
+      "variables": {
+        "entity_a": "Satan",
+        "entity_b": "paon",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Satan"
+    },
+    {
+      "id": 356,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity_a": "l' ami de leur père",
+        "entity_b": "des lettres fort tendres et humides de les larmes",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "l' ami de leur père"
+    },
+    {
+      "id": 357,
+      "doc": "pauline",
+      "variables": {
+        "entity_a": "sa bouche délicate",
+        "entity_b": "les moindres atours",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sa bouche délicate"
+    },
+    {
+      "id": 358,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "ce jeune enfant",
+        "entity_b": "la rédemption",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ce jeune enfant"
+    },
+    {
+      "id": 359,
+      "doc": "mademoisellefifi-1",
+      "variables": {
+        "entity_a": "La pluie",
+        "entity_b": "Le Devoir",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "La pluie"
+    },
+    {
+      "id": 360,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity_a": "son âme",
+        "entity_b": "la vie",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "son âme"
+    },
+    {
+      "id": 361,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity_a": "rue Montorgueil",
+        "entity_b": "le menton",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "rue Montorgueil"
+    },
+    {
+      "id": 362,
+      "doc": "bouvardetpecuchet",
+      "variables": {
+        "entity_a": "une ferme de trente-huit hectares",
+        "entity_b": "une redingote marron",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "une ferme de trente-huit hectares"
+    },
+    {
+      "id": 363,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity_a": "le cardinal de Richelieu",
+        "entity_b": "la comtesse de Provence",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "le cardinal de Richelieu"
+    },
+    {
+      "id": 364,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity_a": "Ma mère",
+        "entity_b": "ensemble",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Ma mère"
+    },
+    {
+      "id": 365,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity_a": "Mes frères et mes sœurs",
+        "entity_b": "La pluie",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Mes frères et mes sœurs"
+    },
+    {
+      "id": 366,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity_a": "son cœur",
+        "entity_b": "Jésus",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "son cœur"
+    },
+    {
+      "id": 367,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity_a": "Un gros homme",
+        "entity_b": "le gaz",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Un gros homme"
+    },
+    {
+      "id": 368,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "la nature",
+        "entity_b": "la terre",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la nature"
+    },
+    {
+      "id": 369,
+      "doc": "mademoisellefifi-3",
+      "variables": {
+        "entity_a": "la jeune malade",
+        "entity_b": "une femme",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la jeune malade"
+    },
+    {
+      "id": 370,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity_a": "Mes frères",
+        "entity_b": "ensemble",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Mes frères"
+    },
+    {
+      "id": 371,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity_a": "Les pavillons de le beurre et de la volaille",
+        "entity_b": "le monde",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Les pavillons de le beurre et de la volaille"
+    },
+    {
+      "id": 372,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity_a": "un de les gardiens de notre chambre",
+        "entity_b": "son cœur",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un de les gardiens de notre chambre"
+    },
+    {
+      "id": 373,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity_a": "Mme Denis",
+        "entity_b": "le cardinal de Richelieu",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Mme Denis"
+    },
+    {
+      "id": 374,
+      "doc": "sarrasine",
+      "variables": {
+        "entity_a": "Rome",
+        "entity_b": "notre ambassadeur",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Rome"
+    },
+    {
+      "id": 375,
+      "doc": "madamedehautefort",
+      "variables": {
+        "entity_a": "la fidélité et dans l' attachement",
+        "entity_b": "une vigueur extraordinaire",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la fidélité et dans l' attachement"
+    },
+    {
+      "id": 376,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity_a": "se tenaient",
+        "entity_b": "les bustes d' empereurs romains et autres personnages illustres de l' histoire",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "se tenaient"
+    },
+    {
+      "id": 377,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity_a": "quelque ville étrange",
+        "entity_b": "le ciel",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "quelque ville étrange"
+    },
+    {
+      "id": 378,
+      "doc": "mademoisellefifi-1",
+      "variables": {
+        "entity_a": "un tas de peuple",
+        "entity_b": "sa pensée",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un tas de peuple"
+    },
+    {
+      "id": 379,
+      "doc": "sarrasine",
+      "variables": {
+        "entity_a": "Paris",
+        "entity_b": "une statue de femme",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Paris"
+    },
+    {
+      "id": 380,
+      "doc": "madamedehautefort",
+      "variables": {
+        "entity_a": "la dureté de les moyens",
+        "entity_b": "sa vivacité et sa délicatesse",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la dureté de les moyens"
+    },
+    {
+      "id": 381,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity_a": "une femme penchée sur ses navets",
+        "entity_b": "l' homme",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "une femme penchée sur ses navets"
+    },
+    {
+      "id": 382,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity_a": "un de nos voisins",
+        "entity_b": "Ma mère",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un de nos voisins"
+    },
+    {
+      "id": 383,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "entity_a": "un brouillard blanc",
+        "entity_b": "la vendange faite",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un brouillard blanc"
+    },
+    {
+      "id": 384,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity_a": "une petite lampe de cuivre à un bec",
+        "entity_b": "sa toilette civile",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "une petite lampe de cuivre à un bec"
+    },
+    {
+      "id": 385,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "l' ame",
+        "entity_b": "ces écrivains de le siècle de Louis XIV",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "l' ame"
+    },
+    {
+      "id": 386,
+      "doc": "mademoisellefifi-1",
+      "variables": {
+        "entity_a": "sa cloche",
+        "entity_b": "le comte Fernand d' Amoys d' Uville",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sa cloche"
+    },
+    {
+      "id": 387,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "le genre humain",
+        "entity_b": "l' ame",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "le genre humain"
+    },
+    {
+      "id": 388,
+      "doc": "sarrasine",
+      "variables": {
+        "entity_a": "tous deux",
+        "entity_b": "Filippo",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "tous deux"
+    },
+    {
+      "id": 389,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity_a": "une enfant",
+        "entity_b": "Louvecienne",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "une enfant"
+    },
+    {
+      "id": 390,
+      "doc": "jeanchristophe-2",
+      "variables": {
+        "entity_a": "sa démission",
+        "entity_b": "le crépuscule",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sa démission"
+    },
+    {
+      "id": 391,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity_a": "ses légumes",
+        "entity_b": "une jeune femme",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ses légumes"
+    },
+    {
+      "id": 392,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity_a": "Lausanne",
+        "entity_b": "Les nouveaux époux",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Lausanne"
+    },
+    {
+      "id": 393,
+      "doc": "morteamoureuse",
+      "variables": {
+        "entity_a": "frère",
+        "entity_b": "mon cœur",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "frère"
+    },
+    {
+      "id": 394,
+      "doc": "bouvardetpecuchet",
+      "variables": {
+        "entity_a": "la verdure",
+        "entity_b": "une prodigieuse hauteur",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la verdure"
+    },
+    {
+      "id": 395,
+      "doc": "sarrasine",
+      "variables": {
+        "entity_a": "Le cardinal Cicognara",
+        "entity_b": "nous -mêmes",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Le cardinal Cicognara"
+    },
+    {
+      "id": 396,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "entity_a": "toute la famille",
+        "entity_b": "la route",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "toute la famille"
+    },
+    {
+      "id": 397,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity_a": "Lausanne",
+        "entity_b": "le comte d' Artois",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Lausanne"
+    },
+    {
+      "id": 398,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity_a": "toute la maison",
+        "entity_b": "la foule",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "toute la maison"
+    },
+    {
+      "id": 399,
+      "doc": "sarrasine",
+      "variables": {
+        "entity_a": "Filippo",
+        "entity_b": "Son père",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Filippo"
+    },
+    {
+      "id": 400,
+      "doc": "sarrasine",
+      "variables": {
+        "entity_a": "ces fées d' autrefois",
+        "entity_b": "le fond d' un cabinet",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ces fées d' autrefois"
+    },
+    {
+      "id": 401,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "les sophistes",
+        "entity_b": "la rédemption",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "les sophistes"
+    },
+    {
+      "id": 402,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity_a": "l' homme",
+        "entity_b": "son ami Marjolin",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "l' homme"
+    },
+    {
+      "id": 403,
+      "doc": "morteamoureuse",
+      "variables": {
+        "entity_a": "mon cœur",
+        "entity_b": "Le père",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "mon cœur"
+    },
+    {
+      "id": 404,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "l' empereur Julien",
+        "entity_b": "le péché originel",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "l' empereur Julien"
+    },
+    {
+      "id": 405,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "la rédemption",
+        "entity_b": "M De Voltaire",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la rédemption"
+    },
+    {
+      "id": 406,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity_a": "la soubrette",
+        "entity_b": "un coquemar de fonte pendu à la crémaillère",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la soubrette"
+    },
+    {
+      "id": 407,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity_a": "les douze fenêtres de la façade",
+        "entity_b": "le galant oublieux",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "les douze fenêtres de la façade"
+    },
+    {
+      "id": 408,
+      "doc": "mademoisellefifi-1",
+      "variables": {
+        "entity_a": "une famille",
+        "entity_b": "Les deux derniers",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "une famille"
+    },
+    {
+      "id": 409,
+      "doc": "nemoville",
+      "variables": {
+        "entity_a": "le salon",
+        "entity_b": "une chambre vivement éclairée à l' électricité",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "le salon"
+    },
+    {
+      "id": 410,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity_a": "un premier fils",
+        "entity_b": "le comte d' Artois",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un premier fils"
+    },
+    {
+      "id": 411,
+      "doc": "aden",
+      "variables": {
+        "entity_a": "ces années molles",
+        "entity_b": "Notre enfance",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ces années molles"
+    },
+    {
+      "id": 412,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity_a": "Le courage",
+        "entity_b": "les preuves de l' héroïcité de ses vertus",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Le courage"
+    },
+    {
+      "id": 413,
+      "doc": "morteamoureuse",
+      "variables": {
+        "entity_a": "l' esprit malin",
+        "entity_b": "un toit en tuiles",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "l' esprit malin"
+    },
+    {
+      "id": 414,
+      "doc": "sarrasine",
+      "variables": {
+        "entity_a": "nous -mêmes",
+        "entity_b": "sa mère",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "nous -mêmes"
+    },
+    {
+      "id": 415,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity_a": "un de nos voisins",
+        "entity_b": "ensemble",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un de nos voisins"
+    },
+    {
+      "id": 416,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity_a": "Jean-Baptiste",
+        "entity_b": "le trente-cinquième chapitre d' ïsaïe",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Jean-Baptiste"
+    },
+    {
+      "id": 417,
+      "doc": "nemoville",
+      "variables": {
+        "entity_a": "le mal",
+        "entity_b": "leur vingt ans",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "le mal"
+    },
+    {
+      "id": 418,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity_a": "Mme Denis",
+        "entity_b": "ses frères",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Mme Denis"
+    },
+    {
+      "id": 419,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "la chûte",
+        "entity_b": "L' esprit",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la chûte"
+    },
+    {
+      "id": 420,
+      "doc": "madamedehautefort",
+      "variables": {
+        "entity_a": "la grossesse d' Anne d' Autriche",
+        "entity_b": "le monde",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la grossesse d' Anne d' Autriche"
+    },
+    {
+      "id": 421,
+      "doc": "bouvardetpecuchet",
+      "variables": {
+        "entity_a": "le fermier",
+        "entity_b": "Barberou , un de ses amis",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "le fermier"
+    },
+    {
+      "id": 422,
+      "doc": "nemoville",
+      "variables": {
+        "entity_a": "l' Océan Pacifique",
+        "entity_b": "tous trois",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "l' Océan Pacifique"
+    },
+    {
+      "id": 423,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity_a": "tes lettres",
+        "entity_b": "les enfants trouvées",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "tes lettres"
+    },
+    {
+      "id": 424,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity_a": "Charles",
+        "entity_b": "le cardinal de Richelieu",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Charles"
+    },
+    {
+      "id": 425,
+      "doc": "aden",
+      "variables": {
+        "entity_a": "des européens",
+        "entity_b": "Aden",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "des européens"
+    },
+    {
+      "id": 426,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity_a": "la rue Pirouette",
+        "entity_b": "les beaux légumes",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la rue Pirouette"
+    },
+    {
+      "id": 427,
+      "doc": "pauline",
+      "variables": {
+        "entity_a": "une triste ville",
+        "entity_b": "La mairesse",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "une triste ville"
+    },
+    {
+      "id": 428,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity_a": "l' avenue",
+        "entity_b": "les autres",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "l' avenue"
+    },
+    {
+      "id": 429,
+      "doc": "doucelumiere",
+      "variables": {
+        "entity_a": "le frère de le tailleur",
+        "entity_b": "ses parents",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "le frère de le tailleur"
+    },
+    {
+      "id": 430,
+      "doc": "mademoisellefifi-3",
+      "variables": {
+        "entity_a": "ma bonne",
+        "entity_b": "Un médecin",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ma bonne"
+    },
+    {
+      "id": 431,
+      "doc": "morteamoureuse",
+      "variables": {
+        "entity_a": "ma vie",
+        "entity_b": "la mienne",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ma vie"
+    },
+    {
+      "id": 432,
+      "doc": "madamedehautefort",
+      "variables": {
+        "entity_a": "une lettre cachetée",
+        "entity_b": "la princesse de Conti",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "une lettre cachetée"
+    },
+    {
+      "id": 433,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "la chûte",
+        "entity_b": "la confession",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la chûte"
+    },
+    {
+      "id": 434,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity_a": "un premier fils",
+        "entity_b": "le cardinal de Richelieu",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un premier fils"
+    },
+    {
+      "id": 435,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity_a": "celui que l' on appelle ici Monsieur le capitano",
+        "entity_b": "une femme",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "celui que l' on appelle ici Monsieur le capitano"
+    },
+    {
+      "id": 436,
+      "doc": "sarrasine",
+      "variables": {
+        "entity_a": "tous deux",
+        "entity_b": "cette voix",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "tous deux"
+    },
+    {
+      "id": 437,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "les sophistes",
+        "entity_b": "la nature",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "les sophistes"
+    },
+    {
+      "id": 438,
+      "doc": "sarrasine",
+      "variables": {
+        "entity_a": "les vieilles robes",
+        "entity_b": "des émotions dangereuses",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "les vieilles robes"
+    },
+    {
+      "id": 439,
+      "doc": "sarrasine",
+      "variables": {
+        "entity_a": "Bouchardon",
+        "entity_b": "Le cardinal Cicognara",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Bouchardon"
+    },
+    {
+      "id": 440,
+      "doc": "nemoville",
+      "variables": {
+        "entity_a": "leurs compagnons",
+        "entity_b": "l' eau bouillonnante",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "leurs compagnons"
+    },
+    {
+      "id": 441,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "s Cyrille",
+        "entity_b": "le désert",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "s Cyrille"
+    },
+    {
+      "id": 442,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity_a": "la cuisine",
+        "entity_b": "une table en poirier noirci",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la cuisine"
+    },
+    {
+      "id": 443,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity_a": "Cette défroque hétéroclite",
+        "entity_b": "l' Isabelle",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Cette défroque hétéroclite"
+    },
+    {
+      "id": 444,
+      "doc": "doucelumiere",
+      "variables": {
+        "entity_a": "le verger",
+        "entity_b": "la sapinière voisine",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "le verger"
+    },
+    {
+      "id": 445,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity_a": "les Maréchaud",
+        "entity_b": "la petite chambre",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "les Maréchaud"
+    },
+    {
+      "id": 446,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "la nature",
+        "entity_b": "l' empereur Julien",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la nature"
+    },
+    {
+      "id": 447,
+      "doc": "sarrasine",
+      "variables": {
+        "entity_a": "tous deux",
+        "entity_b": "sa mère",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "tous deux"
+    },
+    {
+      "id": 448,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity_a": "Mme de le Baril",
+        "entity_b": "Mme Denis",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Mme de le Baril"
+    },
+    {
+      "id": 449,
+      "doc": "aden",
+      "variables": {
+        "entity_a": "nos pères",
+        "entity_b": "une femme capricieuse , mais à la plus primitive de les bêtes",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "nos pères"
+    },
+    {
+      "id": 450,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity_a": "le cardinal de Richelieu",
+        "entity_b": "Ferney",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "le cardinal de Richelieu"
+    },
+    {
+      "id": 451,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "les fidèles",
+        "entity_b": "les sophistes",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "les fidèles"
+    },
+    {
+      "id": 452,
+      "doc": "jeanchristophe-2",
+      "variables": {
+        "entity_a": "la petite ville princière",
+        "entity_b": "sa plaie secrète",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la petite ville princière"
+    },
+    {
+      "id": 453,
+      "doc": "elisabethseton",
+      "variables": {
+        "entity_a": "Anna et moi",
+        "entity_b": "les États-Unis",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Anna et moi"
+    },
+    {
+      "id": 454,
+      "doc": "jeanchristophe-2",
+      "variables": {
+        "entity_a": "un garçon",
+        "entity_b": "la petite ville princière",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un garçon"
+    },
+    {
+      "id": 455,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "le baptême",
+        "entity_b": "MYSTèRES SACREMENS",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "le baptême"
+    },
+    {
+      "id": 456,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity_a": "quatre cents et quelques autres prisonniers",
+        "entity_b": "la voiture",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "quatre cents et quelques autres prisonniers"
+    },
+    {
+      "id": 457,
+      "doc": "sarrasine",
+      "variables": {
+        "entity_a": "nous -mêmes",
+        "entity_b": "une statue de femme",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "nous -mêmes"
+    },
+    {
+      "id": 458,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "la confession",
+        "entity_b": "L' esprit",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la confession"
+    },
+    {
+      "id": 459,
+      "doc": "ventredeparis",
+      "variables": {
+        "entity_a": "un sou",
+        "entity_b": "les sourcils",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un sou"
+    },
+    {
+      "id": 460,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity_a": "Une femme",
+        "entity_b": "un panier",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Une femme"
+    },
+    {
+      "id": 461,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "MYSTèRES SACREMENS",
+        "entity_b": "le genre humain",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "MYSTèRES SACREMENS"
+    },
+    {
+      "id": 462,
+      "doc": "mademoisellefifi-3",
+      "variables": {
+        "entity_a": "les Champs-Elysées",
+        "entity_b": "toutes les sèves",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "les Champs-Elysées"
+    },
+    {
+      "id": 463,
+      "doc": "sarrasine",
+      "variables": {
+        "entity_a": "Adonis",
+        "entity_b": "des coffres",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Adonis"
+    },
+    {
+      "id": 464,
+      "doc": "doucelumiere",
+      "variables": {
+        "entity_a": "un étang",
+        "entity_b": "sa large et forte grille",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un étang"
+    },
+    {
+      "id": 465,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "entity_a": "un homme",
+        "entity_b": "la maison",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un homme"
+    },
+    {
+      "id": 466,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity_a": "Marthe et moi",
+        "entity_b": "un de nos voisins",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Marthe et moi"
+    },
+    {
+      "id": 467,
+      "doc": "jeanchristophe-2",
+      "variables": {
+        "entity_a": "Deux autres",
+        "entity_b": "ses parents",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Deux autres"
+    },
+    {
+      "id": 468,
+      "doc": "sarrasine",
+      "variables": {
+        "entity_a": "nous -mêmes",
+        "entity_b": "Paris",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "nous -mêmes"
+    },
+    {
+      "id": 469,
+      "doc": "aden",
+      "variables": {
+        "entity_a": "l' Europe",
+        "entity_b": "Aden",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "l' Europe"
+    },
+    {
+      "id": 470,
+      "doc": "sarrasine",
+      "variables": {
+        "entity_a": "le théâtre d' Argentina",
+        "entity_b": "une dame placée près de la porte",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "le théâtre d' Argentina"
+    },
+    {
+      "id": 471,
+      "doc": "pauline",
+      "variables": {
+        "entity_a": "La mairesse",
+        "entity_b": "d' autres",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "La mairesse"
+    },
+    {
+      "id": 472,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "les sophistes",
+        "entity_b": "la chûte",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "les sophistes"
+    },
+    {
+      "id": 473,
+      "doc": "jeanchristophe-2",
+      "variables": {
+        "entity_a": "la main",
+        "entity_b": "les larmes",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la main"
+    },
+    {
+      "id": 474,
+      "doc": "aden",
+      "variables": {
+        "entity_a": "des moments",
+        "entity_b": "un objet",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "des moments"
+    },
+    {
+      "id": 475,
+      "doc": "bouvardetpecuchet",
+      "variables": {
+        "entity_a": "un certain Dumouchel , professeur",
+        "entity_b": "Une petite fille",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un certain Dumouchel , professeur"
+    },
+    {
+      "id": 476,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "entity_a": "un homme",
+        "entity_b": "notre chauffeur",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un homme"
+    },
+    {
+      "id": 477,
+      "doc": "aden",
+      "variables": {
+        "entity_a": "Port-Saïd",
+        "entity_b": "des années",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Port-Saïd"
+    },
+    {
+      "id": 478,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "l' ame",
+        "entity_b": "l' église",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "l' ame"
+    },
+    {
+      "id": 479,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "la rédemption",
+        "entity_b": "la confession",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la rédemption"
+    },
+    {
+      "id": 480,
+      "doc": "jeanchristophe-2",
+      "variables": {
+        "entity_a": "ces gens",
+        "entity_b": "cette pensée",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ces gens"
+    },
+    {
+      "id": 481,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "entity_a": "mes frères et sœurs",
+        "entity_b": "un homme",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "mes frères et sœurs"
+    },
+    {
+      "id": 482,
+      "doc": "sarrasine",
+      "variables": {
+        "entity_a": "la famille de Lanty",
+        "entity_b": "cette voix",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la famille de Lanty"
+    },
+    {
+      "id": 483,
+      "doc": "delavilleaumoulin",
+      "variables": {
+        "entity_a": "notre chauffeur",
+        "entity_b": "Manine et moi",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "notre chauffeur"
+    },
+    {
+      "id": 484,
+      "doc": "madamedehautefort",
+      "variables": {
+        "entity_a": "la Bastille",
+        "entity_b": "le monde",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la Bastille"
+    },
+    {
+      "id": 485,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity_a": "le cardinal de Richelieu",
+        "entity_b": "tes tablettes",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "le cardinal de Richelieu"
+    },
+    {
+      "id": 486,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "L' esprit",
+        "entity_b": "la religion",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "L' esprit"
+    },
+    {
+      "id": 487,
+      "doc": "morteamoureuse",
+      "variables": {
+        "entity_a": "ses longs cheveux dénoués",
+        "entity_b": "Cet amour né tout à l' heure",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ses longs cheveux dénoués"
+    },
+    {
+      "id": 488,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity_a": "une divinité mythologique , Flore ou Pomone",
+        "entity_b": "ses prunelles vertes traversées d' une pupille en forme d' I",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "une divinité mythologique , Flore ou Pomone"
+    },
+    {
+      "id": 489,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "L' innocence",
+        "entity_b": "une fin quelconque",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "L' innocence"
+    },
+    {
+      "id": 490,
+      "doc": "diableaucorps",
+      "variables": {
+        "entity_a": "un de nos voisins",
+        "entity_b": "Mes frères",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un de nos voisins"
+    },
+    {
+      "id": 491,
+      "doc": "rosaliedeconstant",
+      "variables": {
+        "entity_a": "un habit de cour fond or avec une belle garniture de martre zybeline",
+        "entity_b": "MMmes de Luchet , Favre , Necker , Des Barry , Diodati , de la Richardière , MM. de Lacorbière , Tronchin , de Flavigny",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "un habit de cour fond or avec une belle garniture de martre zybeline"
+    },
+    {
+      "id": 492,
+      "doc": "doucelumiere",
+      "variables": {
+        "entity_a": "vous deux",
+        "entity_b": "ses élèves maladroites",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "vous deux"
+    },
+    {
+      "id": 493,
+      "doc": "mademoisellefifi-1",
+      "variables": {
+        "entity_a": "la plus grande",
+        "entity_b": "perpétuité",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la plus grande"
+    },
+    {
+      "id": 494,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "MYSTèRES SACREMENS",
+        "entity_b": "les sophistes",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "MYSTèRES SACREMENS"
+    },
+    {
+      "id": 495,
+      "doc": "mademoisellefifi-3",
+      "variables": {
+        "entity_a": "ma bonne",
+        "entity_b": "une femme",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ma bonne"
+    },
+    {
+      "id": 496,
+      "doc": "nemoville",
+      "variables": {
+        "entity_a": "l' Océan Pacifique",
+        "entity_b": "sa fille",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "l' Océan Pacifique"
+    },
+    {
+      "id": 497,
+      "doc": "capitainefracasse",
+      "variables": {
+        "entity_a": "la soubrette",
+        "entity_b": "la cheminée",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "la soubrette"
+    },
+    {
+      "id": 498,
+      "doc": "bouvardetpecuchet",
+      "variables": {
+        "entity_a": "Chavignolles",
+        "entity_b": "les alentours",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Chavignolles"
+    },
+    {
+      "id": 499,
+      "doc": "articleswiki_zebre",
+      "variables": {
+        "entity_a": "les équidés primitifs",
+        "entity_b": "un lion",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "les équidés primitifs"
+    },
+    {
+      "id": 500,
+      "doc": "chateaubriandgenie",
+      "variables": {
+        "entity_a": "toutes les angoisses physiques",
+        "entity_b": "les colombes de Dodone",
+        "text": "more_french_document.json"
+      },
+      "answer_type": "string",
+      "answer": "toutes les angoisses physiques"
+    }
+  ]
+}

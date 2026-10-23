@@ -1,0 +1,2905 @@
+{
+  "task": "conn-explicit",
+  "lang": "german",
+  "example_prompt": "An explicit discourse connective is a word or phrase which indicates the presence of a discourse relation between two segments, such as contrast, elaboration or temporal sequence. These connectives provide strong cues and allow us to classify discourse relations with high accuracy.\n\nMark all explicit discourse connectives in the sentence using curly brackets. If there is no explicit discourse connective, answer with 'no explicit connective'.\nHere are the options: aber, aber andererseits, aber auch, aber dann, allenfalls, allerdings, als, also, anderenfalls, andererseits, andernfalls, angesichts dessen, anstatt, auch, auch wenn, auf grund, aufgrund, außerdem, bei, beispielsweise, besonders, bevor, bis, bloß, da, dabei, dadurch, dafür, dagegen, daher, damit, danach, dann, daraufhin, darum, darüber hinaus, denn, denn angesichts, denn wenn, denn zum einen, dennoch, deshalb, desto, deswegen, doch, doch dann, doch statt, doch wenn, drum, durch, eben, ebenso, ehe, einerseits, entgegen, entweder, erstens, es, es sei denn, falls, folglich, freilich, gleichfalls, gleichwohl, gleichzeitig, hingegen, immerhin, indem, indes, indessen, insofern, inzwischen, je, jedenfalls, jedoch, jedoch auch, mit anderen worten, mithin, nach, nachdem, noch, nur, nämlich, obendrein, obschon, obwohl, oder, ohne, schließlich, seit, seitdem, seither, so, sobald, sofern, solange, somit, sondern, sondern zum beispiel, statt, statt dessen, trotz, trotzdem, um, und, und auch wenn, und daher, und damit, und darüberhinaus, und dennoch, und doch, und obwohl, und so, und somit, und zwar, vielmehr, vorher, weder, wegen, weil, wenn, wenn auch, wenngleich, wie, wobei, während, z. b., zu, zudem, zugleich, zum anderen, zum beispiel, zum einen, zumal, zuvor, zwar, zweitens\nHere is the text:\n{{text}}",
+  "instances": [
+    {
+      "id": 1,
+      "doc": "maz-19372",
+      "variables": {
+        "text": "Dann muss kein Tornado mehr üben , weil Geschosse unbemannt fliegen und via Satellit ins Ziel gebracht werden ."
+      },
+      "answer_type": "string",
+      "answer": "{Dann} muss kein Tornado mehr üben , {weil} Geschosse unbemannt fliegen {und} via Satellit ins Ziel gebracht werden ."
+    },
+    {
+      "id": 2,
+      "doc": "maz-10205",
+      "variables": {
+        "text": "Wenn sich Günter Grass , Christa Wolf oder Stefan Heym in politischen Angelegenheiten zu Wort melden , hört ein großer Teil der deutschen Intellektuellen inzwischen bewusst weg ."
+      },
+      "answer_type": "string",
+      "answer": "{Wenn} sich Günter Grass , Christa Wolf oder Stefan Heym in politischen Angelegenheiten zu Wort melden , hört ein großer Teil der deutschen Intellektuellen inzwischen bewusst weg ."
+    },
+    {
+      "id": 3,
+      "doc": "maz-18354",
+      "variables": {
+        "text": "Aber seit gestern graben sich am östlichen Rand Jüterbogs die Baumaschinen ins Erdreich ."
+      },
+      "answer_type": "string",
+      "answer": "{Aber} seit gestern graben sich am östlichen Rand Jüterbogs die Baumaschinen ins Erdreich ."
+    },
+    {
+      "id": 4,
+      "doc": "maz-8134",
+      "variables": {
+        "text": "Doch sie sind es noch nicht ."
+      },
+      "answer_type": "string",
+      "answer": "{Doch} sie sind es noch nicht ."
+    },
+    {
+      "id": 5,
+      "doc": "maz-17242",
+      "variables": {
+        "text": "Und wie immer haben die einen die Zeit völlig verpasst und rasen jetzt nach Winterrreifen rum , die anderen wollten schon lange Fensterspray kaufen , in den Schuhgeschäften werden die warmen Stiefel nun endlich doch anprobiert , und die Hompage der Standheizungsbauer hatte bald so viel Besuch wie die der Wetterkarten ."
+      },
+      "answer_type": "string",
+      "answer": "{Und} wie immer haben die einen die Zeit völlig verpasst {und} rasen jetzt nach Winterrreifen rum , die anderen wollten schon lange Fensterspray kaufen , in den Schuhgeschäften werden die warmen Stiefel nun endlich doch anprobiert , {und} die Hompage der Standheizungsbauer hatte bald so viel Besuch wie die der Wetterkarten ."
+    },
+    {
+      "id": 6,
+      "doc": "maz-13915",
+      "variables": {
+        "text": "Und der Wert der Liegenschaften beläuft sich auf eine halbe Milliarde Mark ."
+      },
+      "answer_type": "string",
+      "answer": "{Und} der Wert der Liegenschaften beläuft sich auf eine halbe Milliarde Mark ."
+    },
+    {
+      "id": 7,
+      "doc": "maz-19436",
+      "variables": {
+        "text": "Es kommt allerdings darauf an , wie wichtig die Sache ist , in der man nachgibt ."
+      },
+      "answer_type": "string",
+      "answer": "Es kommt {allerdings} darauf an , wie wichtig die Sache ist , in der man nachgibt ."
+    },
+    {
+      "id": 8,
+      "doc": "maz-10575",
+      "variables": {
+        "text": "Viele aus Interesse , einige , weil es in anderen Gruppen keinen Platz mehr gab ."
+      },
+      "answer_type": "string",
+      "answer": "Viele aus Interesse , einige , {weil} es in anderen Gruppen keinen Platz mehr gab ."
+    },
+    {
+      "id": 9,
+      "doc": "maz-8838",
+      "variables": {
+        "text": "So wurde die Aktion \" Euro-Cash for Kids \" gestartet , und sie fand speziell in Luckenwalde und Umgebung eine riesige Resonanz ."
+      },
+      "answer_type": "string",
+      "answer": "{So} wurde die Aktion \" Euro-Cash for Kids \" gestartet , {und} sie fand speziell in Luckenwalde und Umgebung eine riesige Resonanz ."
+    },
+    {
+      "id": 10,
+      "doc": "maz-18171",
+      "variables": {
+        "text": "Statt dessen stiefelte ein Mitarbeiter auf das Grundstück , knipste , was ihm verdächtig vorkam und löste dann den bürokratischen Gang der Dinge aus ."
+      },
+      "answer_type": "string",
+      "answer": "{Statt dessen} stiefelte ein Mitarbeiter auf das Grundstück , knipste , was ihm verdächtig vorkam {und} löste {dann} den bürokratischen Gang der Dinge aus ."
+    },
+    {
+      "id": 11,
+      "doc": "maz-6165",
+      "variables": {
+        "text": "Die aber scheint nur bei zwei Standorten an der Berliner Straße garantiert :"
+      },
+      "answer_type": "string",
+      "answer": "Die {aber} scheint nur bei zwei Standorten an der Berliner Straße garantiert :"
+    },
+    {
+      "id": 12,
+      "doc": "maz-16153",
+      "variables": {
+        "text": "Zwar wird das Planfeststellungsverfahren fortgesetzt , weil auch die PDS erkennen musste , dass es kein Zurück gibt , doch die Bedenken bleiben ."
+      },
+      "answer_type": "string",
+      "answer": "{Zwar} wird das Planfeststellungsverfahren fortgesetzt , {weil} auch die PDS erkennen musste , dass es kein Zurück gibt , {doch} die Bedenken bleiben ."
+    },
+    {
+      "id": 13,
+      "doc": "maz-14071",
+      "variables": {
+        "text": "Die Frage stellt sich , ob nicht die Randgruppe der Obdachlosen auch mit dem neuen Quartier in Kyritz weiter auf das Abstellgleich geschoben werden ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 14,
+      "doc": "maz-6728",
+      "variables": {
+        "text": "War das von Friedrich Eberhard von Rochow initiierte Haus im 18. und 19. Jahrhundert Vorbild für die Entwicklung der Volksschulen , wollen heute Tausende das Flair eines historischen Klassenzimmers kennen lernen , wie sie nur noch wenige in Deutschland existieren ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 15,
+      "doc": "maz-6488",
+      "variables": {
+        "text": "Kommt der Sanitärtrakt nicht spätestens zur nächsten Saison , droht Radewege , den Wettbewerb um Freizeitkapitäne auf dem Beetzsee mit anderen Anbietern zu verlieren ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 16,
+      "doc": "maz-17698",
+      "variables": {
+        "text": "Wer ernsthaft über Jugendschutz redet ( Stichwort Suchtgefahren ) , der sollte kleine Leute nicht an einen Ort zum Bodenturnen schicken , in dem es riecht wie in einer Kneipe am Morgen nach der Weihnachtsfeier ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 17,
+      "doc": "maz-17300",
+      "variables": {
+        "text": "Dennoch bleibt Gilde im Rennen und Engel ist draußen ."
+      },
+      "answer_type": "string",
+      "answer": "{Dennoch} bleibt Gilde im Rennen {und} Engel ist draußen ."
+    },
+    {
+      "id": 18,
+      "doc": "maz-5876",
+      "variables": {
+        "text": "Ein solcher Fall wie in Ludwigsfelde sei ihm in den sieben Jahren , die er jetzt Pressesprecher der Kassenärztlichen Vereinigung Brandenburg ist , \" noch nicht bekannt geworden \" , sagt Ralf Herre ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 19,
+      "doc": "maz-11299",
+      "variables": {
+        "text": "Und das , obwohl sie ihnen gegenüber sitzen ."
+      },
+      "answer_type": "string",
+      "answer": "{Und} das , {obwohl} sie ihnen gegenüber sitzen ."
+    },
+    {
+      "id": 20,
+      "doc": "maz-16250",
+      "variables": {
+        "text": "So heißt es in einem Bundeswehr-Papier knapp , dass das Bombodrom \" keine relevanten Auswirkungen \" auf den Tourismus haben wird ."
+      },
+      "answer_type": "string",
+      "answer": "{So} heißt es in einem Bundeswehr-Papier knapp , dass das Bombodrom \" keine relevanten Auswirkungen \" auf den Tourismus haben wird ."
+    },
+    {
+      "id": 21,
+      "doc": "maz-10374",
+      "variables": {
+        "text": "Die Fußball-Kleinmacht vom Dnepr steht kurz davor , das scheinbar mit einem Dauerabonnement für die WM ausgestattete Team in der schwarz-weißen Kluft und eine ganze Nation in das Tal der Tränen zu treiben ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 22,
+      "doc": "maz-15609",
+      "variables": {
+        "text": "Doch nicht allein die Fragen der Unfälle und der Haftung im Falle der Fälle sind unklar ."
+      },
+      "answer_type": "string",
+      "answer": "{Doch} nicht allein die Fragen der Unfälle und der Haftung im Falle der Fälle sind unklar ."
+    },
+    {
+      "id": 23,
+      "doc": "maz-7967",
+      "variables": {
+        "text": "Tatsächlich haben sich Anlieger in die Materie eingearbeitet und auf konkrete Probleme hingewiesen ."
+      },
+      "answer_type": "string",
+      "answer": "Tatsächlich haben sich Anlieger in die Materie eingearbeitet {und} auf konkrete Probleme hingewiesen ."
+    },
+    {
+      "id": 24,
+      "doc": "maz-18006",
+      "variables": {
+        "text": "Süffisant , lächelnd und mit feinem Florett hätte er ihr aufs Brot schmieren können , dass sie wohl ein wenig vorschnell gewesen sei , als sie den Markt noch vor Weihnachten zuschütten wollte ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 25,
+      "doc": "maz-19372",
+      "variables": {
+        "text": "Das ist zwar auch keine angenehme Zukunftsvision , aber der Streit wäre dann endlich vom Tisch ."
+      },
+      "answer_type": "string",
+      "answer": "Das ist {zwar} auch keine angenehme Zukunftsvision , {aber} der Streit wäre {dann} endlich vom Tisch ."
+    },
+    {
+      "id": 26,
+      "doc": "maz-15209",
+      "variables": {
+        "text": "Denn Minderjährige haben keine Wahl zwischen Pkw und Bus ."
+      },
+      "answer_type": "string",
+      "answer": "{Denn} Minderjährige haben keine Wahl zwischen Pkw und Bus ."
+    },
+    {
+      "id": 27,
+      "doc": "maz-18354",
+      "variables": {
+        "text": "Die Trasse ist abgesteckt , und die führt nicht um Kloster herum , sondern eher direkt in den Ort hinein ."
+      },
+      "answer_type": "string",
+      "answer": "Die Trasse ist abgesteckt , {und} die führt nicht um Kloster herum , sondern eher direkt in den Ort hinein ."
+    },
+    {
+      "id": 28,
+      "doc": "maz-9884",
+      "variables": {
+        "text": "Wer in der Zeit , da er noch nach Ämtern strebte , mit eben denselben Argumenten , die heute aus dem pazifistischen Lager der Regierung entgegenschallen , Kohl , Genscher und Kinkel verteufelte , hat kein Recht , den Kritikern ihr Gewissen abzusprechen ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 29,
+      "doc": "maz-8134",
+      "variables": {
+        "text": "Die knappe Antwort des Bürgermeisters stimmte sie dabei nicht gerade zufriedener , doch mehr gab es erst einmal nicht ."
+      },
+      "answer_type": "string",
+      "answer": "Die knappe Antwort des Bürgermeisters stimmte sie dabei nicht gerade zufriedener , {doch} mehr gab {es} erst einmal nicht ."
+    },
+    {
+      "id": 30,
+      "doc": "maz-5701",
+      "variables": {
+        "text": "Auch erscheint nach dem Erringen der Lufthoheit über dem verwüsteten Land weiter andauerndes Bombardement kaum sinnvoll ."
+      },
+      "answer_type": "string",
+      "answer": "{Auch} erscheint nach dem Erringen der Lufthoheit über dem verwüsteten Land weiter andauerndes Bombardement kaum sinnvoll ."
+    },
+    {
+      "id": 31,
+      "doc": "maz-18354",
+      "variables": {
+        "text": "Hildegard Uebe nutzte die Gelegenheit , mit dem Chef des Straßenbauamtes Wünsdorf mal persönlich ein ernstes Wort über die trotz Umgehung bleibenden Probleme zu reden ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 32,
+      "doc": "maz-9538",
+      "variables": {
+        "text": "Denn sie besetzen nichts weniger als die oberste Verwaltungsposition im Landkreis ."
+      },
+      "answer_type": "string",
+      "answer": "{Denn} sie besetzen nichts weniger als die oberste Verwaltungsposition im Landkreis ."
+    },
+    {
+      "id": 33,
+      "doc": "maz-11735",
+      "variables": {
+        "text": "Der unbeteiligte Beobachter fragt sich allerdings , warum erst jetzt ?"
+      },
+      "answer_type": "string",
+      "answer": "Der unbeteiligte Beobachter fragt sich {allerdings} , warum erst jetzt ?"
+    },
+    {
+      "id": 34,
+      "doc": "maz-14422",
+      "variables": {
+        "text": "Sie wollen vor allem , dass ihr Kind in einer harmonischen Umgebung den Tag verbringt , dass es ständige Bezugspersonen hat , die ihm Liebe und Wärme und Konsequenz entgegen bringen ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 35,
+      "doc": "maz-5709",
+      "variables": {
+        "text": "Hier , wo sich die Namensschilder wie ein Potsdamer \" Who is who ? \" kluger Menschen lesen , ist man aber offenbar nicht in der Lage , miteinander zu reden und eine Lösung zu finden ."
+      },
+      "answer_type": "string",
+      "answer": "Hier , wo sich die Namensschilder wie ein Potsdamer \" Who is who ? \" kluger Menschen lesen , ist man {aber} offenbar nicht in der Lage , miteinander zu reden und eine Lösung zu finden ."
+    },
+    {
+      "id": 36,
+      "doc": "maz-18712",
+      "variables": {
+        "text": "Dennoch endet mit Giersberg eine Ära ."
+      },
+      "answer_type": "string",
+      "answer": "{Dennoch} endet mit Giersberg eine Ära ."
+    },
+    {
+      "id": 37,
+      "doc": "maz-19372",
+      "variables": {
+        "text": "Aber irgendwann ist der Platz sowieso nicht mehr nötig ."
+      },
+      "answer_type": "string",
+      "answer": "{Aber} irgendwann ist der Platz sowieso nicht mehr nötig ."
+    },
+    {
+      "id": 38,
+      "doc": "maz-14072",
+      "variables": {
+        "text": "Auf der einen Seite privatrechtliche Probleme auf einmal zur öffentlichen Angelegenheit hochstilisiert , auf der anderen Seite ein Lebenslauf auf eine Art durchleuchtet , die auch die Autoren in schlechtes Licht bringt ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 39,
+      "doc": "maz-9782",
+      "variables": {
+        "text": "Dass sich manches auch in Deutschland nach dem 11. September verändert hat , dafür gibt es ja auch bei den oft abgeschottet lebenden Asylbewerbern Verständnis ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 40,
+      "doc": "maz-17698",
+      "variables": {
+        "text": "Schon der Gedanke daran wäre undenkbar in einem Land , in dem der Nikotinkonsum in öffentlichen Gebäuden , auf Flughäfen und auch in Restaurants ( sogar an Tischen im Freien mitten in Manhattan ! ) unter Strafe steht ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 41,
+      "doc": "maz-14384",
+      "variables": {
+        "text": "Also , was hält Sie von einem Dezemberausflug ins Grüne ab ?"
+      },
+      "answer_type": "string",
+      "answer": "{Also} , was hält Sie von einem Dezemberausflug ins Grüne ab ?"
+    },
+    {
+      "id": 42,
+      "doc": "maz-14853",
+      "variables": {
+        "text": "Gleich am ersten Tag nach ihrem Wahlsieg kam - so als ob es so geplant gewesen wäre - der EU-Kommissar für Regionalpolitik aus Brüssel , um hier mit Vertretern der letzten drei deutschen Urban-Städte die Programm-Verträge zu unterzeichnen ."
+      },
+      "answer_type": "string",
+      "answer": "Gleich am ersten Tag nach ihrem Wahlsieg kam - {so} als ob es so geplant gewesen wäre - der EU-Kommissar für Regionalpolitik aus Brüssel , {um} hier mit Vertretern der letzten drei deutschen Urban-Städte die Programm-Verträge {zu} unterzeichnen ."
+    },
+    {
+      "id": 43,
+      "doc": "maz-18712",
+      "variables": {
+        "text": "Sein stilles , aber nachhaltiges Eintreten für die Qualitäten der Kulturlandschaft außerhalb seiner Gärten , allzuoft als Sichtachsen-Fetischismus benörgelt , hat dazu beigetragen , die Landeshauptstadt als Gesamtkunstwerk erfahrbar zu machen ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 44,
+      "doc": "maz-3110",
+      "variables": {
+        "text": "Gerade eben feierten dort Anwohner die Wiederherstellung ihres - noch immer namenlosen - Stadtplatzes , schon trifft man sich auch am Kiewitt zum Bürgerfest ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 45,
+      "doc": "maz-11279",
+      "variables": {
+        "text": "Denn noch immer ist nicht erwiesen , ob das FX-Center , wie man es einst haben wollte , überhaupt funktionieren kann ."
+      },
+      "answer_type": "string",
+      "answer": "{Denn} noch immer ist nicht erwiesen , ob das FX-Center , wie man es einst haben wollte , überhaupt funktionieren kann ."
+    },
+    {
+      "id": 46,
+      "doc": "maz-1679",
+      "variables": {
+        "text": "Klirrende Gläser in den Wohnzimmerschränken sind dann Geschichte ."
+      },
+      "answer_type": "string",
+      "answer": "Klirrende Gläser in den Wohnzimmerschränken sind {dann} Geschichte ."
+    },
+    {
+      "id": 47,
+      "doc": "maz-12666",
+      "variables": {
+        "text": "Nach einem Jahr Verhandelns habe Rheinsbergs Favorit Rogner verspielt ."
+      },
+      "answer_type": "string",
+      "answer": "{Nach} einem Jahr Verhandelns habe Rheinsbergs Favorit Rogner verspielt ."
+    },
+    {
+      "id": 48,
+      "doc": "maz-18912",
+      "variables": {
+        "text": "Und so heißt es noch heute , vor allem in der Weihnachtszeit ."
+      },
+      "answer_type": "string",
+      "answer": "{Und} so heißt es noch heute , vor allem in der Weihnachtszeit ."
+    },
+    {
+      "id": 49,
+      "doc": "maz-8838",
+      "variables": {
+        "text": "Die erste Box war schneller als gedacht prall gefüllt und schwer , und sie konnte bereits an den Initiator der Sammelaktion , den Internationalen Bund ( IB ) , übergeben werden ."
+      },
+      "answer_type": "string",
+      "answer": "Die erste Box war schneller als gedacht prall gefüllt und schwer , {und} sie konnte bereits an den Initiator der Sammelaktion , den Internationalen Bund ( IB ) , übergeben werden ."
+    },
+    {
+      "id": 50,
+      "doc": "maz-14071",
+      "variables": {
+        "text": "Andererseits muss der Haushalt ausgeglichen sein ."
+      },
+      "answer_type": "string",
+      "answer": "{Andererseits} muss der Haushalt ausgeglichen sein ."
+    },
+    {
+      "id": 51,
+      "doc": "maz-5709",
+      "variables": {
+        "text": "Während es rund um die Plattenbauten an allen Ecken hapert , dem Schlaatz gerade Mittel entzogen werden müssen , soll die neue Straße An der Parforceheide durch Buckel ergänzt werden , die den Steuerzahler 40_000 Mark kosten ."
+      },
+      "answer_type": "string",
+      "answer": "{Während} es rund um die Plattenbauten an allen Ecken hapert , dem Schlaatz gerade Mittel entzogen werden müssen , soll die neue Straße An der Parforceheide durch Buckel ergänzt werden , die den Steuerzahler 40_000 Mark kosten ."
+    },
+    {
+      "id": 52,
+      "doc": "maz-3080",
+      "variables": {
+        "text": "Und wehe dem , der diesem Bild auch nur im entferntesten ähnelte ..."
+      },
+      "answer_type": "string",
+      "answer": "{Und} wehe dem , der diesem Bild auch nur im entferntesten ähnelte ..."
+    },
+    {
+      "id": 53,
+      "doc": "maz-16987",
+      "variables": {
+        "text": "Dass solch ein Schießplatz mehr Vor- als Nachteile bringt , lässt sich eben schlecht glauben ."
+      },
+      "answer_type": "string",
+      "answer": "Dass solch ein Schießplatz mehr Vor- als Nachteile bringt , lässt sich {eben} schlecht glauben ."
+    },
+    {
+      "id": 54,
+      "doc": "maz-12576",
+      "variables": {
+        "text": "Nun erheben sich erste Stimmen , die fordern , man möge doch bitteschön mal klar sagen , weshalb man Frau Stewin für nicht mehr tragbar hält , die Stadt zu verwalten ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 55,
+      "doc": "maz-17706",
+      "variables": {
+        "text": "Und der könnte Gefallen daran finden , ihm einen unbequemen Aufpasser an die Seite zu stellen ."
+      },
+      "answer_type": "string",
+      "answer": "{Und} der könnte Gefallen daran finden , ihm einen unbequemen Aufpasser an die Seite zu stellen ."
+    },
+    {
+      "id": 56,
+      "doc": "maz-17698",
+      "variables": {
+        "text": "Und Deutschland ?"
+      },
+      "answer_type": "string",
+      "answer": "{Und} Deutschland ?"
+    },
+    {
+      "id": 57,
+      "doc": "maz-19372",
+      "variables": {
+        "text": "Eine Frau von Adel sitzt mit unsichtbaren Gästen am Tisch und trinkt sich langsam aber sicher ins Abseits ."
+      },
+      "answer_type": "string",
+      "answer": "Eine Frau von Adel sitzt mit unsichtbaren Gästen am Tisch {und} trinkt sich langsam aber sicher ins Abseits ."
+    },
+    {
+      "id": 58,
+      "doc": "maz-7220",
+      "variables": {
+        "text": "Weder motivieren solche Einlassungen die eigenen Soldaten , noch fördern sie den Zusammenhalt im Bündnis ."
+      },
+      "answer_type": "string",
+      "answer": "{Weder} motivieren solche Einlassungen die eigenen Soldaten , {noch} fördern sie den Zusammenhalt im Bündnis ."
+    },
+    {
+      "id": 59,
+      "doc": "maz-13125",
+      "variables": {
+        "text": "Können wir denn alles glauben , was uns heute über den Kampf gegen den Terrorismus in dem asisatischen Land gesagt wird ?"
+      },
+      "answer_type": "string",
+      "answer": "Können wir {denn} alles glauben , was uns heute über den Kampf gegen den Terrorismus in dem asisatischen Land gesagt wird ?"
+    },
+    {
+      "id": 60,
+      "doc": "maz-10207",
+      "variables": {
+        "text": "Das kann bedeuten , dass die Bürger zwar Kontinuität wollten , aber mit einem simplen \" Weiter so \" eben nicht einverstanden wären ."
+      },
+      "answer_type": "string",
+      "answer": "Das kann bedeuten , dass die Bürger {zwar} Kontinuität wollten , {aber} mit einem simplen \" Weiter so \" eben nicht einverstanden wären ."
+    },
+    {
+      "id": 61,
+      "doc": "maz-17953",
+      "variables": {
+        "text": "Und doch macht der junge Mann auch keinen Schmus darum , dass er natürlich auch mal ein bisschen lavieren müsse , um an Informationen zu kommen , die Verwicklungen aufhellen oder Menschen Gewissheit geben , die schwarze Schafe entweder kräftig abseifen oder Einsicht wecken ."
+      },
+      "answer_type": "string",
+      "answer": "{Und} doch macht der junge Mann auch keinen Schmus darum , dass er natürlich auch mal ein bisschen lavieren müsse , um an Informationen zu kommen , die Verwicklungen aufhellen {oder} Menschen Gewissheit geben , die schwarze Schafe entweder kräftig abseifen {oder} Einsicht wecken ."
+    },
+    {
+      "id": 62,
+      "doc": "maz-17706",
+      "variables": {
+        "text": "Andererseits begibt sich Gilde damit in die Hände des Kreistags ."
+      },
+      "answer_type": "string",
+      "answer": "{Andererseits} begibt sich Gilde damit in die Hände des Kreistags ."
+    },
+    {
+      "id": 63,
+      "doc": "maz-5932",
+      "variables": {
+        "text": "Im Vergleich zur bislang praktizierten Kleinstaaterei im ländlich geprägten Süden des Kreisgebietes sind sie jedoch das kleinere Übel ."
+      },
+      "answer_type": "string",
+      "answer": "Im Vergleich zur bislang praktizierten Kleinstaaterei im ländlich geprägten Süden des Kreisgebietes sind sie {jedoch} das kleinere Übel ."
+    },
+    {
+      "id": 64,
+      "doc": "maz-12666",
+      "variables": {
+        "text": "Eine verständliche Einstellung - wenn es denn einen Spatz gäbe ."
+      },
+      "answer_type": "string",
+      "answer": "Eine verständliche Einstellung - {wenn} es denn einen Spatz gäbe ."
+    },
+    {
+      "id": 65,
+      "doc": "maz-9884",
+      "variables": {
+        "text": "Die anfängliche Überreaktion von Kanzler und Außenminister hat eben auch damit zu tun , dass sie als Bekehrte das Misstrauen jener fürchten , die mit Amerika schon kritische Solidarität übten , als Schröder noch Schmidt wegen dessen Amerikahörigkeit beschimpfte und Fischer in Mutlangen gegen die Nachrüstung demonstrierte ."
+      },
+      "answer_type": "string",
+      "answer": "Die anfängliche Überreaktion von Kanzler und Außenminister hat eben auch damit zu tun , dass sie als Bekehrte das Misstrauen jener fürchten , die mit Amerika schon kritische Solidarität übten , {als} Schröder noch Schmidt {wegen} dessen Amerikahörigkeit beschimpfte {und} Fischer in Mutlangen gegen die Nachrüstung demonstrierte ."
+    },
+    {
+      "id": 66,
+      "doc": "maz-3073",
+      "variables": {
+        "text": "Und auch , wenn nicht alle Blütenträume gereift sind , zeigen sich die Landwirte nicht unzufrieden ."
+      },
+      "answer_type": "string",
+      "answer": "{Und} auch , {wenn} nicht alle Blütenträume gereift sind , zeigen sich die Landwirte nicht unzufrieden ."
+    },
+    {
+      "id": 67,
+      "doc": "maz-11507",
+      "variables": {
+        "text": "Die Landwirtschaft stellt in Brandenburg - trotz des hohen Beschäftigungsrückgangs nach der Wende - noch immer einen wichtigen Wirtschaftszweig dar , der darüber hinaus viele Arbeits- und Ausbildungsplätze schafft ."
+      },
+      "answer_type": "string",
+      "answer": "Die Landwirtschaft stellt in Brandenburg - {trotz} des hohen Beschäftigungsrückgangs nach der Wende - noch immer einen wichtigen Wirtschaftszweig dar , der {darüber hinaus} viele Arbeits- und Ausbildungsplätze schafft ."
+    },
+    {
+      "id": 68,
+      "doc": "maz-6539",
+      "variables": {
+        "text": "Der Kanzler gibt seinen Berliner Genossen den entscheidenden Fingerzeig in Richtung rot-gelb-grüner Ampel-Koalition , weil er sich die Liberalen als möglichen Koalitionspartner für die Bundestagswahl im kommenden Jahr warmhalten möchte ."
+      },
+      "answer_type": "string",
+      "answer": "Der Kanzler gibt seinen Berliner Genossen den entscheidenden Fingerzeig in Richtung rot-gelb-grüner Ampel-Koalition , {weil} er sich die Liberalen als möglichen Koalitionspartner für die Bundestagswahl im kommenden Jahr warmhalten möchte ."
+    },
+    {
+      "id": 69,
+      "doc": "maz-10175",
+      "variables": {
+        "text": "Wenn da nicht die politischen Bedenken wären , dass der Krieg gegen die Taliban sich zu einem neuen Bürgerkrieg ausweiten könnte ."
+      },
+      "answer_type": "string",
+      "answer": "{Wenn} da nicht die politischen Bedenken wären , dass der Krieg gegen die Taliban sich zu einem neuen Bürgerkrieg ausweiten könnte ."
+    },
+    {
+      "id": 70,
+      "doc": "maz-13915",
+      "variables": {
+        "text": "Scheitert er nun auch mit dem zweifellos guten Liegenschaftskonzept , spräche dies für einen drastisch geschwundenen Einfluss in der Verwaltung und in der SVV , was die Stadt noch unregierbarer werden ließe ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 71,
+      "doc": "maz-17664",
+      "variables": {
+        "text": "\" Den Euro habe ich nie gewollt und dennoch stehe ich hier . \""
+      },
+      "answer_type": "string",
+      "answer": "\" Den Euro habe ich nie gewollt {und dennoch} stehe ich hier . \""
+    },
+    {
+      "id": 72,
+      "doc": "maz-11735",
+      "variables": {
+        "text": "Doch nach Ottawa soll ja alles anders werden ."
+      },
+      "answer_type": "string",
+      "answer": "{Doch} nach Ottawa soll ja alles anders werden ."
+    },
+    {
+      "id": 73,
+      "doc": "maz-15209",
+      "variables": {
+        "text": "Dann wären da noch die Schüler ."
+      },
+      "answer_type": "string",
+      "answer": "{Dann} wären da noch die Schüler ."
+    },
+    {
+      "id": 74,
+      "doc": "maz-19372",
+      "variables": {
+        "text": "Deshalb könnte auch der gleiche Kommentar abgegeben werden :"
+      },
+      "answer_type": "string",
+      "answer": "{Deshalb} könnte auch der gleiche Kommentar abgegeben werden :"
+    },
+    {
+      "id": 75,
+      "doc": "maz-18377",
+      "variables": {
+        "text": "Komisch ist nur : Wenn der Ärger über Klärbeiträge so gewaltig ist , warum fand am Mittwoch nicht ein einziger Kränzliner den Weg zur Verbandsversammlung ?"
+      },
+      "answer_type": "string",
+      "answer": "Komisch ist nur : {Wenn} der Ärger über Klärbeiträge so gewaltig ist , warum fand am Mittwoch nicht ein einziger Kränzliner den Weg zur Verbandsversammlung ?"
+    },
+    {
+      "id": 76,
+      "doc": "maz-18171",
+      "variables": {
+        "text": "Manchmal hilft es aber auch , mit dem Bürger einfach zu reden ."
+      },
+      "answer_type": "string",
+      "answer": "Manchmal hilft es {aber} auch , mit dem Bürger einfach zu reden ."
+    },
+    {
+      "id": 77,
+      "doc": "maz-15347",
+      "variables": {
+        "text": "Was wird aus uns , geht es überhaupt weiter oder steht eine Schließung bevor ?"
+      },
+      "answer_type": "string",
+      "answer": "Was wird aus uns , geht es überhaupt weiter {oder} steht eine Schließung bevor ?"
+    },
+    {
+      "id": 78,
+      "doc": "maz-14071",
+      "variables": {
+        "text": "Denn eigentlich sind sie ja in Wittstock zu Hause ."
+      },
+      "answer_type": "string",
+      "answer": "{Denn} eigentlich sind sie ja in Wittstock zu Hause ."
+    },
+    {
+      "id": 79,
+      "doc": "maz-8134",
+      "variables": {
+        "text": "Karwe bekommt per Beschluss mehr Geld aus dem Haushalt , doch das Problem löst die Finanzspritze nicht ."
+      },
+      "answer_type": "string",
+      "answer": "Karwe bekommt per Beschluss mehr Geld aus dem Haushalt , {doch} das Problem löst die Finanzspritze nicht ."
+    },
+    {
+      "id": 80,
+      "doc": "maz-00002",
+      "variables": {
+        "text": "Es kann nicht sein , dass für teure Modellprojekte wie Schnellläuferklassen oder Ganztagsschulen Geld locker gemacht , aber an der Grundausstattung gespart wird ."
+      },
+      "answer_type": "string",
+      "answer": "Es kann nicht sein , dass für teure Modellprojekte wie Schnellläuferklassen oder Ganztagsschulen Geld locker gemacht , {aber} an der Grundausstattung gespart wird ."
+    },
+    {
+      "id": 81,
+      "doc": "maz-16177",
+      "variables": {
+        "text": "Sie will heute hohe Tarifforderungen verkünden können , ohne auf die Bündnispartner Rücksicht nehmen zu müssen ."
+      },
+      "answer_type": "string",
+      "answer": "Sie will heute hohe Tarifforderungen verkünden können , {ohne} auf die Bündnispartner Rücksicht nehmen zu müssen ."
+    },
+    {
+      "id": 82,
+      "doc": "maz-11177",
+      "variables": {
+        "text": "Zumal das Land bereits im vorigen Jahr mehr als 30 Millionen Mark in die Sanierung des AZV steckte ."
+      },
+      "answer_type": "string",
+      "answer": "{Zumal} das Land bereits im vorigen Jahr mehr als 30 Millionen Mark in die Sanierung des AZV steckte ."
+    },
+    {
+      "id": 83,
+      "doc": "maz-16987",
+      "variables": {
+        "text": "Doch , Überraschung : Am Mittwochabend kündigte die CDU-Fraktion an , während der Sitzung eine Erklärung abgeben zu wollen und dies mit in die Tagesordnung aufzunehmen ."
+      },
+      "answer_type": "string",
+      "answer": "{Doch} , Überraschung : Am Mittwochabend kündigte die CDU-Fraktion an , während der Sitzung eine Erklärung abgeben zu wollen {und} dies mit in die Tagesordnung aufzunehmen ."
+    },
+    {
+      "id": 84,
+      "doc": "maz-17062",
+      "variables": {
+        "text": "Die 13 Projektbündel mit ihren insgesamt 140 Einzelvorhaben sind ein heller Hoffnungsschimmer für das von Wegzug und wirtschaftlicher Depression gebeutelte \" Aschenputtel der Mark \" ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 85,
+      "doc": "maz-14654",
+      "variables": {
+        "text": "Kein überraschendes , auch kein wahnsinnig überragendes , aber ein deutliches Stichwahl-Ergebnis ."
+      },
+      "answer_type": "string",
+      "answer": "Kein überraschendes , auch kein wahnsinnig überragendes , {aber} ein deutliches Stichwahl-Ergebnis ."
+    },
+    {
+      "id": 86,
+      "doc": "maz-11318",
+      "variables": {
+        "text": "Sein Nachbar hatte den Hund an eine kurze Kette gelegt und sich dann nicht mehr um das Tier gekümmert ."
+      },
+      "answer_type": "string",
+      "answer": "Sein Nachbar hatte den Hund an eine kurze Kette gelegt {und} sich {dann} nicht mehr um das Tier gekümmert ."
+    },
+    {
+      "id": 87,
+      "doc": "maz-9650",
+      "variables": {
+        "text": "Die Währungshüter haben ihren Teil getan , jetzt können die Politiker nicht mehr die Verantwortung abschieben , sondern müssen selbst mit ihren Mitteln aktiv werden ."
+      },
+      "answer_type": "string",
+      "answer": "Die Währungshüter haben ihren Teil getan , jetzt können die Politiker nicht mehr die Verantwortung abschieben , {sondern} müssen selbst mit ihren Mitteln aktiv werden ."
+    },
+    {
+      "id": 88,
+      "doc": "maz-11280",
+      "variables": {
+        "text": "Viele Menschen schaffen es nämlich nicht , ihren Müll korrekt in die doch einfach gekennzeichneten Behälter zu werfen ."
+      },
+      "answer_type": "string",
+      "answer": "Viele Menschen schaffen es {nämlich} nicht , ihren Müll korrekt in die doch einfach gekennzeichneten Behälter zu werfen ."
+    },
+    {
+      "id": 89,
+      "doc": "maz-6539",
+      "variables": {
+        "text": "Unter rechtsstaatlichen Gesichtspunkten sollte diese Methode der Hinrichtungen auf Verdacht in der Tat besser nicht Schule machen , doch ist ein Möchtegern-Chefdiplomat womöglich besser beraten , nicht schon vor Amtsantritt verbrannte Erde ausgerechnet in Israel zu hinterlassen ."
+      },
+      "answer_type": "string",
+      "answer": "Unter rechtsstaatlichen Gesichtspunkten sollte diese Methode der Hinrichtungen auf Verdacht in der Tat besser nicht Schule machen , {doch} ist ein Möchtegern-Chefdiplomat womöglich besser beraten , nicht schon vor Amtsantritt verbrannte Erde ausgerechnet in Israel zu hinterlassen ."
+    },
+    {
+      "id": 90,
+      "doc": "maz-1818",
+      "variables": {
+        "text": "Wohl niemand hätte sich vor dem 11. September vorstellen können , dass die in den 70er Jahren gegen die RAF erprobte und bewährte Rasterfahndung innerhalb kürzester Zeit wieder eingeführt würde - und dass diese Maßnahme sogar selbst von den Grünen begrüßt wird ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 91,
+      "doc": "maz-8727",
+      "variables": {
+        "text": "Inzwischen hat sich die Bücherstadt einen Namen gemacht ."
+      },
+      "answer_type": "string",
+      "answer": "{Inzwischen} hat sich die Bücherstadt einen Namen gemacht ."
+    },
+    {
+      "id": 92,
+      "doc": "maz-15545",
+      "variables": {
+        "text": "Doch das Angebot , nahe der Haustür den Personennahverkehr nutzen zu können , wollen nicht alle ."
+      },
+      "answer_type": "string",
+      "answer": "{Doch} das Angebot , nahe der Haustür den Personennahverkehr nutzen zu können , wollen nicht alle ."
+    },
+    {
+      "id": 93,
+      "doc": "maz-14055",
+      "variables": {
+        "text": "Statt dereguliert hat sie noch etwas mehr reglementiert ."
+      },
+      "answer_type": "string",
+      "answer": "{Statt} dereguliert hat sie noch etwas mehr reglementiert ."
+    },
+    {
+      "id": 94,
+      "doc": "maz-17242",
+      "variables": {
+        "text": "Aber dann begegnete ich einem Geisterfahrer , der verstohlen durch einen Schlitz in der Sichtscheibe schielte und beim Abbiegen nach links vorsichtshalber das Seitenfenster öffnete , um nicht in den Gegenverkehr zu brettern ."
+      },
+      "answer_type": "string",
+      "answer": "{Aber dann} begegnete ich einem Geisterfahrer , der verstohlen durch einen Schlitz in der Sichtscheibe schielte {und} beim Abbiegen nach links vorsichtshalber das Seitenfenster öffnete , {um} nicht in den Gegenverkehr zu brettern ."
+    },
+    {
+      "id": 95,
+      "doc": "maz-6046",
+      "variables": {
+        "text": "Es muss wohl mehr passieren , bevor der Boulevard sich von seinen Schießbudenfiguren trennt ."
+      },
+      "answer_type": "string",
+      "answer": "Es muss wohl mehr passieren , {bevor} der Boulevard sich von seinen Schießbudenfiguren trennt ."
+    },
+    {
+      "id": 96,
+      "doc": "maz-15970",
+      "variables": {
+        "text": "Rudolf Völler , den Volkes Mund liebevoll \" Ruuuuudi \" ruft , hat sein Ja-Wort als nationaler Teamchef bis zum WM-Finale 2006 in Berlin gegeben - und den Faxgeräten in der Frankfurter DFB-Zentrale damit den K.o. versetzt ."
+      },
+      "answer_type": "string",
+      "answer": "Rudolf Völler , den Volkes Mund liebevoll \" Ruuuuudi \" ruft , hat sein Ja-Wort als nationaler Teamchef bis zum WM-Finale 2006 in Berlin gegeben - {und} den Faxgeräten in der Frankfurter DFB-Zentrale damit den K.o. versetzt ."
+    },
+    {
+      "id": 97,
+      "doc": "maz-13946",
+      "variables": {
+        "text": "Eine Bürgerbefragung ergab jedoch , dass mehr als die Hälfte der Bewohner der Mittelstadt schon über den Wegzug nachgedacht hat ."
+      },
+      "answer_type": "string",
+      "answer": "Eine Bürgerbefragung ergab {jedoch} , dass mehr als die Hälfte der Bewohner der Mittelstadt schon über den Wegzug nachgedacht hat ."
+    },
+    {
+      "id": 98,
+      "doc": "maz-11299",
+      "variables": {
+        "text": "Die Jugendlichen wurden somit zum bloßen Feigenblatt degradiert ."
+      },
+      "answer_type": "string",
+      "answer": "Die Jugendlichen wurden {somit} zum bloßen Feigenblatt degradiert ."
+    },
+    {
+      "id": 99,
+      "doc": "maz-6193",
+      "variables": {
+        "text": "Doch seine Vergangenheit schien wie ein Fluch über dem Hotelkomplex zu liegen ."
+      },
+      "answer_type": "string",
+      "answer": "{Doch} seine Vergangenheit schien wie ein Fluch über dem Hotelkomplex zu liegen ."
+    },
+    {
+      "id": 100,
+      "doc": "maz-2609",
+      "variables": {
+        "text": "Unter den vielen Lobreden wäre gestern am neuen Hauptsitz des Instituts für Klimafolgenforschung fast die Tatsache in Vergessenheit geraten , dass dessen Direktor Schellnhuber kürzlich um ein Haar ins Ausland abgewandert wäre ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 101,
+      "doc": "maz-9852",
+      "variables": {
+        "text": "Aber nicht alle Jugendlichen lassen sich während schwieriger Lebensphasen einfach wegsperren ."
+      },
+      "answer_type": "string",
+      "answer": "{Aber} nicht alle Jugendlichen lassen sich während schwieriger Lebensphasen einfach wegsperren ."
+    },
+    {
+      "id": 102,
+      "doc": "maz-18006",
+      "variables": {
+        "text": "Aber nein : Stuckenbrok nahm den Krummsäbel und schlug zu ."
+      },
+      "answer_type": "string",
+      "answer": "{Aber} nein : Stuckenbrok nahm den Krummsäbel {und} schlug zu ."
+    },
+    {
+      "id": 103,
+      "doc": "maz-14384",
+      "variables": {
+        "text": "Voll des Lobes waren Mitglieder des Pritzwalker Bauausschusses am Mittwoch , als ein Bericht über die Bewirtschaftung des Stadtforstes auf der Tagesordnung ihrer Sitzung stand ."
+      },
+      "answer_type": "string",
+      "answer": "Voll des Lobes waren Mitglieder des Pritzwalker Bauausschusses am Mittwoch , {als} ein Bericht über die Bewirtschaftung des Stadtforstes auf der Tagesordnung ihrer Sitzung stand ."
+    },
+    {
+      "id": 104,
+      "doc": "maz-19074",
+      "variables": {
+        "text": "Punktsieg also für den Palästinenserchef im Duell der alten Haudegen ."
+      },
+      "answer_type": "string",
+      "answer": "Punktsieg {also} für den Palästinenserchef im Duell der alten Haudegen ."
+    },
+    {
+      "id": 105,
+      "doc": "maz-19501",
+      "variables": {
+        "text": "Vielmehr brütet man über einer abgespeckten Variante , die Kosten sparen und die Belastungen für die Länder Berlin und Brandenburg minimieren soll ."
+      },
+      "answer_type": "string",
+      "answer": "{Vielmehr} brütet man über einer abgespeckten Variante , die Kosten sparen {und} die Belastungen für die Länder Berlin und Brandenburg minimieren soll ."
+    },
+    {
+      "id": 106,
+      "doc": "maz-16250",
+      "variables": {
+        "text": "Doch werden sich Zivilisten und Uniformträger dabei nicht wirklich unterscheiden ."
+      },
+      "answer_type": "string",
+      "answer": "{Doch} werden sich Zivilisten und Uniformträger dabei nicht wirklich unterscheiden ."
+    },
+    {
+      "id": 107,
+      "doc": "maz-9612",
+      "variables": {
+        "text": "Jahrelange Erfahrungen in anderen Gebieten der Bundesrepublik hätten gezeigt , dass militärische Einrichtungen durchaus mit den Interessen des Tourismus in Einklang zu bringen seien ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 108,
+      "doc": "maz-13125",
+      "variables": {
+        "text": "Und doch : Was den Leuten damals über den Reichstagsbrand erzählt wurde , war Lüge ."
+      },
+      "answer_type": "string",
+      "answer": "{Und doch} : Was den Leuten damals über den Reichstagsbrand erzählt wurde , war Lüge ."
+    },
+    {
+      "id": 109,
+      "doc": "maz-14072",
+      "variables": {
+        "text": "Und es gibt Rechenkünstler , die das Wahlergebnis vom 11. November so ummodeln , dass am 2. Dezember der Sieg des eigenen Kandidaten herauskommt ."
+      },
+      "answer_type": "string",
+      "answer": "{Und} es gibt Rechenkünstler , die das Wahlergebnis vom 11. November so ummodeln , dass am 2. Dezember der Sieg des eigenen Kandidaten herauskommt ."
+    },
+    {
+      "id": 110,
+      "doc": "maz-13758",
+      "variables": {
+        "text": "So könnte es passieren , dass viele schöne Vorhaben nur Visionen bleiben ."
+      },
+      "answer_type": "string",
+      "answer": "{So} könnte es passieren , dass viele schöne Vorhaben nur Visionen bleiben ."
+    },
+    {
+      "id": 111,
+      "doc": "maz-5701",
+      "variables": {
+        "text": "Aus taktischen Gründen und um ihre Soldaten zu schützen , äußern sich die USA nicht zu Berichten über den Beginn der Boden-Operation in Afghanistan ."
+      },
+      "answer_type": "string",
+      "answer": "Aus taktischen Gründen {und} um ihre Soldaten zu schützen , äußern sich die USA nicht zu Berichten über den Beginn der Boden-Operation in Afghanistan ."
+    },
+    {
+      "id": 112,
+      "doc": "maz-19074",
+      "variables": {
+        "text": "Wäre der Konflikt im Nahen Osten nicht so tödlich und grausam , könnte man sich darüber amüsieren , wie Ariel Scharon und Jassir Arafat versuchen , sich gegenseitig auszumanövrieren ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 113,
+      "doc": "maz-1679",
+      "variables": {
+        "text": "Die Entlastungsstraße für Lkw führt zwar um die Altstadt herum , doch eine autofreie Stadt wird es nicht geben ."
+      },
+      "answer_type": "string",
+      "answer": "Die Entlastungsstraße für Lkw führt {zwar} um die Altstadt herum , {doch} eine autofreie Stadt wird es nicht geben ."
+    },
+    {
+      "id": 114,
+      "doc": "maz-15545",
+      "variables": {
+        "text": "Die Verwaltung hat inzwischen beschwichtigend wissen lassen , nicht gegen den Willen der Bewohner zu handeln ."
+      },
+      "answer_type": "string",
+      "answer": "Die Verwaltung hat {inzwischen} beschwichtigend wissen lassen , nicht gegen den Willen der Bewohner zu handeln ."
+    },
+    {
+      "id": 115,
+      "doc": "maz-19295",
+      "variables": {
+        "text": "Nehmen wir weiter an , dass die CDU-Basis im Bundesland B. eher ihrer Parteichefin Angela Merkel zuneigt , dürfte Landeschef S. dann guten Gewissens im CDU-Bundesvorstand für Stoiber votieren ?"
+      },
+      "answer_type": "string",
+      "answer": "Nehmen wir weiter an , dass die CDU-Basis im Bundesland B. eher ihrer Parteichefin Angela Merkel zuneigt , dürfte Landeschef S. {dann} guten Gewissens im CDU-Bundesvorstand für Stoiber votieren ?"
+    },
+    {
+      "id": 116,
+      "doc": "maz-6159",
+      "variables": {
+        "text": "Und nun scheint sogar unsere Landesregierung entschlossen , diese ( scheinbare ! ) Gleichbehandlung der beiden Fächer endgültig zu beseitigen ."
+      },
+      "answer_type": "string",
+      "answer": "{Und} nun scheint sogar unsere Landesregierung entschlossen , diese ( scheinbare ! ) Gleichbehandlung der beiden Fächer endgültig zu beseitigen ."
+    },
+    {
+      "id": 117,
+      "doc": "maz-9207",
+      "variables": {
+        "text": "Deshalb ist es auch gut , dass das Umweltministerium in diesem Jahr in engerem Sinne auf fachliche Leistungen setzt ."
+      },
+      "answer_type": "string",
+      "answer": "{Deshalb} ist es auch gut , dass das Umweltministerium in diesem Jahr in engerem Sinne auf fachliche Leistungen setzt ."
+    },
+    {
+      "id": 118,
+      "doc": "maz-14881",
+      "variables": {
+        "text": "Mit ärgerlichen Folgen : Die Fahrgäste stehen teilweise im Gras und müssen bei Schlechtwetter über einen schlammigen Trampelpfad zum nächsten befestigten Bürgersteig laufen ."
+      },
+      "answer_type": "string",
+      "answer": "Mit ärgerlichen Folgen : Die Fahrgäste stehen teilweise im Gras {und} müssen bei Schlechtwetter über einen schlammigen Trampelpfad zum nächsten befestigten Bürgersteig laufen ."
+    },
+    {
+      "id": 119,
+      "doc": "maz-10175",
+      "variables": {
+        "text": "Auch sei aus den Restaurants laute Musik zu hören gewesen , was unter dem Regime der Taliban verboten war ."
+      },
+      "answer_type": "string",
+      "answer": "{Auch} sei aus den Restaurants laute Musik zu hören gewesen , was unter dem Regime der Taliban verboten war ."
+    },
+    {
+      "id": 120,
+      "doc": "maz-16153",
+      "variables": {
+        "text": "In Berlin haben die rot-roten Verhandlungspartner eine wichtige Regel von Koalitionsrunden befolgt , nämlich die \" heißen Eisen \" möglichst gleich anzupacken ."
+      },
+      "answer_type": "string",
+      "answer": "In Berlin haben die rot-roten Verhandlungspartner eine wichtige Regel von Koalitionsrunden befolgt , {nämlich} die \" heißen Eisen \" möglichst gleich anzupacken ."
+    },
+    {
+      "id": 121,
+      "doc": "maz-18750",
+      "variables": {
+        "text": "Ganz im Gegenteil : Vielleicht machen ein paar Gedanken an diejenigen , die es heute nicht so gut haben , einem das eigene Glück ja noch deutlicher bewusst ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 122,
+      "doc": "maz-16353",
+      "variables": {
+        "text": "Sie gaben nicht klein bei und machten Geld locker ."
+      },
+      "answer_type": "string",
+      "answer": "Sie gaben nicht klein bei {und} machten Geld locker ."
+    },
+    {
+      "id": 123,
+      "doc": "maz-18914",
+      "variables": {
+        "text": "So lässt sich das schlingernde City-Schiff vielleicht doch noch auf einen erfolgversprechenden Kurs bringen ."
+      },
+      "answer_type": "string",
+      "answer": "{So} lässt sich das schlingernde City-Schiff vielleicht doch noch auf einen erfolgversprechenden Kurs bringen ."
+    },
+    {
+      "id": 124,
+      "doc": "maz-19150",
+      "variables": {
+        "text": "Das jüngste Kapitel : Die in den letzten Jahren zaghaft gewachsene , im Bewusstsein vieler Interessierter dennoch etablierte Informationsstelle in der Stadthalle muss am Jahresende schließen ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 125,
+      "doc": "maz-15155",
+      "variables": {
+        "text": "Wie aus jeder anderen WG auch ."
+      },
+      "answer_type": "string",
+      "answer": "{Wie} aus jeder anderen WG auch ."
+    },
+    {
+      "id": 126,
+      "doc": "maz-5873",
+      "variables": {
+        "text": "Mit der ungemütlichen Jahreszeit nehmen auch die Gefahren auf den Straßen zu , darauf weist die Polizei mit Nachdruck hin ."
+      },
+      "answer_type": "string",
+      "answer": "Mit der ungemütlichen Jahreszeit nehmen {auch} die Gefahren auf den Straßen zu , darauf weist die Polizei mit Nachdruck hin ."
+    },
+    {
+      "id": 127,
+      "doc": "maz-6539",
+      "variables": {
+        "text": "\" Riesenstaatsmann Mümmelmann \" , wie Franz-Josef Strauß den schnauzbärtigen Fallschirmspringer aus Münster einmal titulierte , ist auch schon voll im Geschäft und wird nicht müde , Israels Politik der \" präventiven Liquidierungen \" als \" Staatsterrorismus \" zu geißeln ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 128,
+      "doc": "maz-1423",
+      "variables": {
+        "text": "Wittstock dagegen muss sich erst einen Namen machen ."
+      },
+      "answer_type": "string",
+      "answer": "Wittstock {dagegen} muss sich erst einen Namen machen ."
+    },
+    {
+      "id": 129,
+      "doc": "maz-14047",
+      "variables": {
+        "text": "So darf man auf die Vorlage aus der Kreisverwaltung gespannt sein ."
+      },
+      "answer_type": "string",
+      "answer": "{So} darf man auf die Vorlage aus der Kreisverwaltung gespannt sein ."
+    },
+    {
+      "id": 130,
+      "doc": "maz-12473",
+      "variables": {
+        "text": "Gleichzeitig ist der Export eingebrochen , der traditionell die deutsche Konjunktur beflügelt hat ."
+      },
+      "answer_type": "string",
+      "answer": "{Gleichzeitig} ist der Export eingebrochen , der traditionell die deutsche Konjunktur beflügelt hat ."
+    },
+    {
+      "id": 131,
+      "doc": "maz-14590",
+      "variables": {
+        "text": "Für all das hat sich in Rheinsberg nämlich auch Siegfried Matthus eingesetzt , Komponist und Leiter der dortigen Kammeroper ."
+      },
+      "answer_type": "string",
+      "answer": "Für all das hat sich in Rheinsberg {nämlich} auch Siegfried Matthus eingesetzt , Komponist und Leiter der dortigen Kammeroper ."
+    },
+    {
+      "id": 132,
+      "doc": "maz-5297",
+      "variables": {
+        "text": "Einziger Weg aus dem Dilemma ist die Bildung eines neuen Energiekonzerns aus Rohstofflieferanten , Stromerzeugern und Endversorgern , in dem Risiken besser verteilt werden können ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 133,
+      "doc": "maz-11318",
+      "variables": {
+        "text": "Doch die Reaktionen lassen zu wünschen übrig ."
+      },
+      "answer_type": "string",
+      "answer": "{Doch} die Reaktionen lassen zu wünschen übrig ."
+    },
+    {
+      "id": 134,
+      "doc": "maz-12188",
+      "variables": {
+        "text": "Der Vorschlag , den die Verwaltung jetzt den Stadtverordneten unterbreiten will , wäre allerdings nicht ohne die Weitsicht der drei Schulkonferenzen zustande gekommen ."
+      },
+      "answer_type": "string",
+      "answer": "Der Vorschlag , den die Verwaltung jetzt den Stadtverordneten unterbreiten will , wäre {allerdings} nicht ohne die Weitsicht der drei Schulkonferenzen zustande gekommen ."
+    },
+    {
+      "id": 135,
+      "doc": "maz-14047",
+      "variables": {
+        "text": "Entweder das Paracelsus-Krankenhaus bildet einen regionalen Klinikverbund mit der Nauener Havellandklinik unter dem Dach einer kreiseigenen GmbH oder das Rathenower Krankenhaus wird an einen Freien Träger abgegeben ."
+      },
+      "answer_type": "string",
+      "answer": "{Entweder} das Paracelsus-Krankenhaus bildet einen regionalen Klinikverbund mit der Nauener Havellandklinik unter dem Dach einer kreiseigenen GmbH {oder} das Rathenower Krankenhaus wird an einen Freien Träger abgegeben ."
+    },
+    {
+      "id": 136,
+      "doc": "maz-6918",
+      "variables": {
+        "text": "Ob bei der touristischen Erschließung der Konversionsflächen auf lange Sicht neue Arbeitsplätze entstehen , hängt vor allem davon ab , wie viele Neugierige kommen werden ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 137,
+      "doc": "maz-6159",
+      "variables": {
+        "text": "LER- und Religionslehrer haben sich mit persönlichem Einsatz weitergebildet , um ihr Fach unterrichten zu können - und die Regierung schiebt die Anerkennung einer sich bewährenden Praxis hinaus ."
+      },
+      "answer_type": "string",
+      "answer": "LER- und Religionslehrer haben sich mit persönlichem Einsatz weitergebildet , {um} ihr Fach unterrichten zu können - {und} die Regierung schiebt die Anerkennung einer sich bewährenden Praxis hinaus ."
+    },
+    {
+      "id": 138,
+      "doc": "maz-18945",
+      "variables": {
+        "text": "Trotz geschlossener Eisdecke auf Autobahnen und Landstraßen kamen die meisten lieben Weihnachtsgäste am ersten Feiertag wohlbehalten wieder heim ."
+      },
+      "answer_type": "string",
+      "answer": "{Trotz} geschlossener Eisdecke auf Autobahnen und Landstraßen kamen die meisten lieben Weihnachtsgäste am ersten Feiertag wohlbehalten wieder heim ."
+    },
+    {
+      "id": 139,
+      "doc": "maz-5715",
+      "variables": {
+        "text": "Die Betriebe im Osten fürchten , dass die hohen Investitionen , die sie in moderne Legebatterien nach europäischem Standard gesteckt haben , umsonst gewesen sind ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 140,
+      "doc": "maz-5297",
+      "variables": {
+        "text": "Damit wird erneut deutlich , dass eine Neuordnung der Energiewirtschaft in Ostdeutschland überfällig ist ."
+      },
+      "answer_type": "string",
+      "answer": "{Damit} wird erneut deutlich , dass eine Neuordnung der Energiewirtschaft in Ostdeutschland überfällig ist ."
+    },
+    {
+      "id": 141,
+      "doc": "maz-9852",
+      "variables": {
+        "text": "Und das ist ein guter erster Schritt ."
+      },
+      "answer_type": "string",
+      "answer": "{Und} das ist ein guter erster Schritt ."
+    },
+    {
+      "id": 142,
+      "doc": "maz-10902",
+      "variables": {
+        "text": "Das Versteckspiel soll aufhören und eine sachliche Debatte geführt werden , an deren Ende Hilfsangebote für betroffene Schüler und Eltern stehen könnten ."
+      },
+      "answer_type": "string",
+      "answer": "Das Versteckspiel soll aufhören {und} eine sachliche Debatte geführt werden , an deren Ende Hilfsangebote für betroffene Schüler und Eltern stehen könnten ."
+    },
+    {
+      "id": 143,
+      "doc": "maz-18750",
+      "variables": {
+        "text": "Häufig werden sie über all dem Feiertagstrubel wirklich vergessen , die Alten und Einsamen , die Flüchtlinge und Asylsuchenden , die Heimatlosen , Hungernden , Kranken ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 144,
+      "doc": "maz-5701",
+      "variables": {
+        "text": "Sollte der Luftkrieg als bloße Drohkulisse gedacht gewesen sein , verlöre er spätestens mit dem einsetzenden Winter und der unausbleiblichen humanitären Katastrophe seine Legitimation ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 145,
+      "doc": "maz-8509",
+      "variables": {
+        "text": "Immer mehr verantwortungslose Zeitgenossen versuchen , ihren Müll illegal loszuwerden statt ihn ordnungsgemäß zu entsorgen ."
+      },
+      "answer_type": "string",
+      "answer": "Immer mehr verantwortungslose Zeitgenossen versuchen , ihren Müll illegal loszuwerden {statt} ihn ordnungsgemäß zu entsorgen ."
+    },
+    {
+      "id": 146,
+      "doc": "maz-8586",
+      "variables": {
+        "text": "Hilfe für die Krankenhäuser in Rumänien , Unterstützung für die hungernden Menschen im Sudan , Geld für die Opfer einer vernichtenden Überschwemmung , Spenden , um die Kinder in Afghanistan durch den Winter zu bringen :"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 147,
+      "doc": "maz-2611",
+      "variables": {
+        "text": "Knapp einen Monat nach Ausbruch der Rathenower Parteispendenaffäre scheint sich nunmehr aber wenigstens der Gedanke durchzusetzen , die Spenden als moralisch nicht akzeptabel zu werten ."
+      },
+      "answer_type": "string",
+      "answer": "Knapp einen Monat nach Ausbruch der Rathenower Parteispendenaffäre scheint sich nunmehr {aber} wenigstens der Gedanke durchzusetzen , die Spenden als moralisch nicht akzeptabel zu werten ."
+    },
+    {
+      "id": 148,
+      "doc": "maz-1423",
+      "variables": {
+        "text": "Die Einnahmen sind dennoch nur ein Tropfen auf den heißen Stein ."
+      },
+      "answer_type": "string",
+      "answer": "Die Einnahmen sind {dennoch} nur ein Tropfen auf den heißen Stein ."
+    },
+    {
+      "id": 149,
+      "doc": "maz-2669",
+      "variables": {
+        "text": "Grüne und Christdemokraten wären schlechte Herausforderer , würden sie dieses Ansinnen nicht als \" schlechten Stil \" und als \" Erbhof-Sicherung \" zerreißen , auch wenn die Sache rechtlich in Ordnung ginge ."
+      },
+      "answer_type": "string",
+      "answer": "Grüne und Christdemokraten wären schlechte Herausforderer , würden sie dieses Ansinnen nicht als \" schlechten Stil \" und als \" Erbhof-Sicherung \" zerreißen , {auch wenn} die Sache rechtlich in Ordnung ginge ."
+    },
+    {
+      "id": 150,
+      "doc": "maz-12576",
+      "variables": {
+        "text": "Sie tun , wie ihnen geheißen , und stimmen sechs Wochen später darüber ab ."
+      },
+      "answer_type": "string",
+      "answer": "Sie tun , wie ihnen geheißen , {und} stimmen sechs Wochen später darüber ab ."
+    },
+    {
+      "id": 151,
+      "doc": "maz-12473",
+      "variables": {
+        "text": "Das ist alarmierend , zumal sich auch der im ersten Halbjahr noch starke private Konsum abgeschwächt hat ."
+      },
+      "answer_type": "string",
+      "answer": "Das ist alarmierend , {zumal} sich auch der im ersten Halbjahr noch starke private Konsum abgeschwächt hat ."
+    },
+    {
+      "id": 152,
+      "doc": "maz-8563",
+      "variables": {
+        "text": "Wer zum Beispiel an der \" Glücksspirale \" dreht , beweist sich indirekt als Wohltäter ."
+      },
+      "answer_type": "string",
+      "answer": "Wer {zum Beispiel} an der \" Glücksspirale \" dreht , beweist sich indirekt als Wohltäter ."
+    },
+    {
+      "id": 153,
+      "doc": "maz-10423",
+      "variables": {
+        "text": "Und doch ist die Freude nicht ganz ungetrübt ."
+      },
+      "answer_type": "string",
+      "answer": "{Und doch} ist die Freude nicht ganz ungetrübt ."
+    },
+    {
+      "id": 154,
+      "doc": "maz-11507",
+      "variables": {
+        "text": "Land- , Forst- und Tierwirte sind nicht nur mit Kordhut , Blaumann und Gummistiefeln unterwegs , fahren nicht nur tagein , tagaus mit dem Traktor über das Feld ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 155,
+      "doc": "maz-16353",
+      "variables": {
+        "text": "Damit sich ihre Sprösslinge wohlfühlen ."
+      },
+      "answer_type": "string",
+      "answer": "{Damit} sich ihre Sprösslinge wohlfühlen ."
+    },
+    {
+      "id": 156,
+      "doc": "maz-16153",
+      "variables": {
+        "text": "Die Absage an eine Olympiabewerbung und der Verweis auf die desolate Haushaltslage sind einleuchtend ."
+      },
+      "answer_type": "string",
+      "answer": "Die Absage an eine Olympiabewerbung {und} der Verweis auf die desolate Haushaltslage sind einleuchtend ."
+    },
+    {
+      "id": 157,
+      "doc": "maz-15347",
+      "variables": {
+        "text": "Arno Rentsch hat recht , wenn er sagt , dass ABM noch nicht die endgültige Lösung ist ."
+      },
+      "answer_type": "string",
+      "answer": "Arno Rentsch hat recht , {wenn} er sagt , dass ABM noch nicht die endgültige Lösung ist ."
+    },
+    {
+      "id": 158,
+      "doc": "maz-8134",
+      "variables": {
+        "text": "Die Ortsteile wollen , dass die Abgeordneten mit ihnen sprechen , ihre Sorgen anhören , sich dafür interessieren - ohne dass ihnen jemand die Pistole auf die Brust setzt ."
+      },
+      "answer_type": "string",
+      "answer": "Die Ortsteile wollen , dass die Abgeordneten mit ihnen sprechen , ihre Sorgen anhören , sich dafür interessieren - {ohne} dass ihnen jemand die Pistole auf die Brust setzt ."
+    },
+    {
+      "id": 159,
+      "doc": "maz-10205",
+      "variables": {
+        "text": "Doch Schröder hat Angst , dass die öffentliche Meinung wegen der Kriegsteilnahme kippt und sich gegen ihn wendet ."
+      },
+      "answer_type": "string",
+      "answer": "{Doch} Schröder hat Angst , dass die öffentliche Meinung {wegen} der Kriegsteilnahme kippt {und} sich gegen ihn wendet ."
+    },
+    {
+      "id": 160,
+      "doc": "maz-19012",
+      "variables": {
+        "text": "Selbst auf Mallorca lag zum Fest Schnee - wenn auch nur in 1000 Meter Höhe ."
+      },
+      "answer_type": "string",
+      "answer": "Selbst auf Mallorca lag zum Fest Schnee - {wenn auch} nur in 1000 Meter Höhe ."
+    },
+    {
+      "id": 161,
+      "doc": "maz-12576",
+      "variables": {
+        "text": "Aufklärungsarbeit im 4-Augen-Gespräch ist aber schwer vorstellbar ."
+      },
+      "answer_type": "string",
+      "answer": "Aufklärungsarbeit im 4-Augen-Gespräch ist {aber} schwer vorstellbar ."
+    },
+    {
+      "id": 162,
+      "doc": "maz-18912",
+      "variables": {
+        "text": "Wenn Werbestrategen die Himmelsscharen als Verkäufer für Handys , Abführpillen und Aktienpapiere oder als Blickfang für Erotikmessen missbrauchen , müssen wir ihnen ja nicht glauben ."
+      },
+      "answer_type": "string",
+      "answer": "{Wenn} Werbestrategen die Himmelsscharen als Verkäufer für Handys , Abführpillen und Aktienpapiere oder als Blickfang für Erotikmessen missbrauchen , müssen wir ihnen ja nicht glauben ."
+    },
+    {
+      "id": 163,
+      "doc": "maz-00002",
+      "variables": {
+        "text": "Eltern beschweren sich über veraltete Schulbücher , Kommunen jammern über leere Kassen und Schulbuchverlage beklagen Umsatzeinbrüche ."
+      },
+      "answer_type": "string",
+      "answer": "Eltern beschweren sich über veraltete Schulbücher , Kommunen jammern über leere Kassen {und} Schulbuchverlage beklagen Umsatzeinbrüche ."
+    },
+    {
+      "id": 164,
+      "doc": "maz-11544",
+      "variables": {
+        "text": "Und wer weiß , vielleicht steht frische Milch aus Gransee eines Tages tatsächlich auf dem Tisch von Einheimischen ."
+      },
+      "answer_type": "string",
+      "answer": "{Und} wer weiß , vielleicht steht frische Milch aus Gransee eines Tages tatsächlich auf dem Tisch von Einheimischen ."
+    },
+    {
+      "id": 165,
+      "doc": "maz-1818",
+      "variables": {
+        "text": "Auch wenn die Basis murrt , haben sie den Ernst der Lage erkannt ."
+      },
+      "answer_type": "string",
+      "answer": "{Auch wenn} die Basis murrt , haben sie den Ernst der Lage erkannt ."
+    },
+    {
+      "id": 166,
+      "doc": "maz-10423",
+      "variables": {
+        "text": "Wenn Demex im Zuge der neuen Investitionen am Designer Outlet Center auch noch den \" Alten Spandauer Weg \" zumachen will , muss der Außenring funktionieren ."
+      },
+      "answer_type": "string",
+      "answer": "{Wenn} Demex im Zuge der neuen Investitionen am Designer Outlet Center auch noch den \" Alten Spandauer Weg \" zumachen will , muss der Außenring funktionieren ."
+    },
+    {
+      "id": 167,
+      "doc": "maz-17706",
+      "variables": {
+        "text": "Doch was dieser wirklich wert ist , zeigt sich erst im Tagesgeschäft ."
+      },
+      "answer_type": "string",
+      "answer": "{Doch} was dieser wirklich wert ist , zeigt sich erst im Tagesgeschäft ."
+    },
+    {
+      "id": 168,
+      "doc": "maz-13507",
+      "variables": {
+        "text": "Es ging um das Bombodrom in der Kyritz-Ruppiner Heide , das der einstige Kanzlerkandidat abschaffen wollte , wovon er als Verteidigungsminister heute nichts mehr wissen will ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 169,
+      "doc": "maz-19012",
+      "variables": {
+        "text": "Und auch wenn an den beiden Feiertagen ein Großteil wieder weg getaut ist , so dürften sich vor allem die Kinder über ein standesgemäßes Fest gefreut haben ."
+      },
+      "answer_type": "string",
+      "answer": "{Und auch wenn} an den beiden Feiertagen ein Großteil wieder weg getaut ist , {so} dürften sich vor allem die Kinder über ein standesgemäßes Fest gefreut haben ."
+    },
+    {
+      "id": 170,
+      "doc": "maz-19436",
+      "variables": {
+        "text": "Und an der Flughafen-Frage hängt schon viel Glaubwürdigkeit der PDS ."
+      },
+      "answer_type": "string",
+      "answer": "{Und} an der Flughafen-Frage hängt schon viel Glaubwürdigkeit der PDS ."
+    },
+    {
+      "id": 171,
+      "doc": "maz-12976",
+      "variables": {
+        "text": "Wenn die Vorzeichen nicht trügen , so könnte in Rostock in der Tat wieder einmal ein klassischer Kompromiss herauskommen - gegen den Militär-Einsatz und für die weitere Beteiligung an der Bundesregierung ."
+      },
+      "answer_type": "string",
+      "answer": "{Wenn} die Vorzeichen nicht trügen , {so} könnte in Rostock in der Tat wieder einmal ein klassischer Kompromiss herauskommen - gegen den Militär-Einsatz und für die weitere Beteiligung an der Bundesregierung ."
+    },
+    {
+      "id": 172,
+      "doc": "maz-9538",
+      "variables": {
+        "text": "Wofür sie aber letztlich steht , ist zumindest öffentlich noch nicht ganz klar geworden ."
+      },
+      "answer_type": "string",
+      "answer": "Wofür sie {aber} letztlich steht , ist zumindest öffentlich noch nicht ganz klar geworden ."
+    },
+    {
+      "id": 173,
+      "doc": "maz-6165",
+      "variables": {
+        "text": "Wie aber die Einsatzfahrzeuge von der Friedrich-Engels-Straße aus das Dauerproblem Bau und Stau auf der Langen Brücke umfahren sollen , das sagt er nicht ."
+      },
+      "answer_type": "string",
+      "answer": "Wie {aber} die Einsatzfahrzeuge von der Friedrich-Engels-Straße aus das Dauerproblem Bau und Stau auf der Langen Brücke umfahren sollen , das sagt er nicht ."
+    },
+    {
+      "id": 174,
+      "doc": "maz-11280",
+      "variables": {
+        "text": "Unverständlich ist deshalb die mit 37 Prozent doch recht hohe Anzahl der Bürger vom Görden , sich dem neuen System - gelbe Säcke und Papiertonnen - zu versagen ."
+      },
+      "answer_type": "string",
+      "answer": "Unverständlich ist {deshalb} die mit 37 Prozent doch recht hohe Anzahl der Bürger vom Görden , sich dem neuen System - gelbe Säcke und Papiertonnen - zu versagen ."
+    },
+    {
+      "id": 175,
+      "doc": "maz-18454",
+      "variables": {
+        "text": "Der Verein hat zwar Rechte am Namen von \" Affe , Schaf und Känguru \" , das Hausrecht für den Stadtteil hat er nicht ."
+      },
+      "answer_type": "string",
+      "answer": "Der Verein hat {zwar} Rechte am Namen von \" Affe , Schaf und Känguru \" , das Hausrecht für den Stadtteil hat er nicht ."
+    },
+    {
+      "id": 176,
+      "doc": "maz-15155",
+      "variables": {
+        "text": "Da spart der eine einen teuren Handwerker und der andere eine Fahrt zum Baumarkt ."
+      },
+      "answer_type": "string",
+      "answer": "Da spart der eine einen teuren Handwerker {und} der andere eine Fahrt zum Baumarkt ."
+    },
+    {
+      "id": 177,
+      "doc": "maz-13507",
+      "variables": {
+        "text": "Oder darf ."
+      },
+      "answer_type": "string",
+      "answer": "{Oder} darf ."
+    },
+    {
+      "id": 178,
+      "doc": "maz-7690",
+      "variables": {
+        "text": "Eines allerdings scheint sich geändert zu haben ."
+      },
+      "answer_type": "string",
+      "answer": "Eines {allerdings} scheint sich geändert zu haben ."
+    },
+    {
+      "id": 179,
+      "doc": "maz-18160",
+      "variables": {
+        "text": "Das muss sich nicht ändern , doch wenn der eigene Parteichef dem Kandidaten so derb in die Parade einer erfolgreichen Amtszeit fährt , werden andere Parteien nicht säumen , ihre Ansprüche deutlicher als bisher anzumelden ."
+      },
+      "answer_type": "string",
+      "answer": "Das muss sich nicht ändern , {doch wenn} der eigene Parteichef dem Kandidaten so derb in die Parade einer erfolgreichen Amtszeit fährt , werden andere Parteien nicht säumen , ihre Ansprüche deutlicher als bisher anzumelden ."
+    },
+    {
+      "id": 180,
+      "doc": "maz-9782",
+      "variables": {
+        "text": "Wer durch die Gegend fährt und auf alle nunmal existierenden Vorschriften pfeift , wird wohl kaum gemerkt haben , dass irgend etwas anders ist ."
+      },
+      "answer_type": "string",
+      "answer": "Wer durch die Gegend fährt {und} auf alle nunmal existierenden Vorschriften pfeift , wird wohl kaum gemerkt haben , dass irgend etwas anders ist ."
+    },
+    {
+      "id": 181,
+      "doc": "maz-12576",
+      "variables": {
+        "text": "Die Fakten : Über 850 Einwohner unterschreiben Listen und fordern die Stadtverordneten auf , das Abwahlbegehren in Gang zu setzen ."
+      },
+      "answer_type": "string",
+      "answer": "Die Fakten : Über 850 Einwohner unterschreiben Listen {und} fordern die Stadtverordneten auf , das Abwahlbegehren in Gang zu setzen ."
+    },
+    {
+      "id": 182,
+      "doc": "maz-14399",
+      "variables": {
+        "text": "Doch auch dieser Tierschützer befindet sich auf verlorenem Posten ."
+      },
+      "answer_type": "string",
+      "answer": "{Doch} auch dieser Tierschützer befindet sich auf verlorenem Posten ."
+    },
+    {
+      "id": 183,
+      "doc": "maz-7071",
+      "variables": {
+        "text": "Obendrein legte die Kämmerei , als für die Vermögensverwaltung der Stadt zuständige Stelle , die Hände in den Schoß ."
+      },
+      "answer_type": "string",
+      "answer": "{Obendrein} legte die Kämmerei , als für die Vermögensverwaltung der Stadt zuständige Stelle , die Hände in den Schoß ."
+    },
+    {
+      "id": 184,
+      "doc": "maz-13311",
+      "variables": {
+        "text": "Wenn an Katastrophen-Tagen Sondersendungen wie der \" ARD-Brennpunkt \" laufen , kann das nicht darüber hinwegtäuschen , dass die Spaßgesellschaft längst auch beim öffentlich-rechtlichen Rundfunk den Ton angibt ."
+      },
+      "answer_type": "string",
+      "answer": "{Wenn} an Katastrophen-Tagen Sondersendungen wie der \" ARD-Brennpunkt \" laufen , kann das nicht darüber hinwegtäuschen , dass die Spaßgesellschaft längst auch beim öffentlich-rechtlichen Rundfunk den Ton angibt ."
+    },
+    {
+      "id": 185,
+      "doc": "maz-18354",
+      "variables": {
+        "text": "Im August dieses Jahres entlud sich auf einer Einwohnerversammlung der Zorn der Klosteraner in der Ankündigung , den Bau der neuen Bundesstraße und der Ortsumgehung Jüterbog zu stoppen ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 186,
+      "doc": "maz-9891",
+      "variables": {
+        "text": "Allerdings müssen sie sich bewusst sein , dass so ein \" Kampf \" nur durchzustehen ist , wenn sich alle einig sind ."
+      },
+      "answer_type": "string",
+      "answer": "{Allerdings} müssen sie sich bewusst sein , dass so ein \" Kampf \" nur durchzustehen ist , {wenn} sich alle einig sind ."
+    },
+    {
+      "id": 187,
+      "doc": "maz-9725",
+      "variables": {
+        "text": "Konnte der Kosovo-Krieg noch mit dem Kampf für die Menschenrechte in Europa begründete werden , geht es nun um die militärische Solidarität mit den USA in einem weit entfernten Dritte-Welt-Land ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 188,
+      "doc": "maz-19442",
+      "variables": {
+        "text": "Beispielsweise mit einer Sandfüllung ."
+      },
+      "answer_type": "string",
+      "answer": "{Beispielsweise} mit einer Sandfüllung ."
+    },
+    {
+      "id": 189,
+      "doc": "maz-10503",
+      "variables": {
+        "text": "Doch aufgefädelt auf die Kette vieler Ereignisse rund um das Versagen der Verwaltung in Sachen Kitas ist dieser Akt nur die nächste Perle ."
+      },
+      "answer_type": "string",
+      "answer": "{Doch} aufgefädelt auf die Kette vieler Ereignisse rund um das Versagen der Verwaltung in Sachen Kitas ist dieser Akt nur die nächste Perle ."
+    },
+    {
+      "id": 190,
+      "doc": "maz-7071",
+      "variables": {
+        "text": "Dabei erwarten die Bürger nach diesem Vertrauensbruch klare Antworten darauf , welche Konsequenzen aus diesem Desaster gezogen wurden ."
+      },
+      "answer_type": "string",
+      "answer": "{Dabei} erwarten die Bürger nach diesem Vertrauensbruch klare Antworten darauf , welche Konsequenzen aus diesem Desaster gezogen wurden ."
+    },
+    {
+      "id": 191,
+      "doc": "maz-11507",
+      "variables": {
+        "text": "Darüber hinaus belebt der Wirtschaftszweig den dörflichen Raum ."
+      },
+      "answer_type": "string",
+      "answer": "{Darüber hinaus} belebt der Wirtschaftszweig den dörflichen Raum ."
+    },
+    {
+      "id": 192,
+      "doc": "maz-9852",
+      "variables": {
+        "text": "Sie wollen Rechtsbewusstsein lehren , Ansprechpartner sein und die jungen Leute an die Regeln des menschlichen Zusammenlebens heranführen ."
+      },
+      "answer_type": "string",
+      "answer": "Sie wollen Rechtsbewusstsein lehren , Ansprechpartner sein {und} die jungen Leute an die Regeln des menschlichen Zusammenlebens heranführen ."
+    },
+    {
+      "id": 193,
+      "doc": "maz-1757",
+      "variables": {
+        "text": "Die Einwohner von Städten und Gemeinden erfahren meist erst kurz vor dem Entscheid auf Bundesebene , wer ihr direkter politischer Ansprechpartner in Berlin sein könnte ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 194,
+      "doc": "maz-17664",
+      "variables": {
+        "text": "Sieht man mal von der Ausnahme kreisliche Busgesellschaft ab , die schon ab Neujahr nur noch die Einheitswährung zulassen will , kann jeder seine eigene Mark-Epoche ganz langsam austrudeln lassen ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 195,
+      "doc": "maz-13153",
+      "variables": {
+        "text": "Angesichts der seit Jahren obwaltenden rechtsradikalen Umtriebe sind insbesondere die Bemühungen um die Integration hier lebender Nicht-Deutscher und Aussiedler wichtig ."
+      },
+      "answer_type": "string",
+      "answer": "Angesichts der {seit} Jahren obwaltenden rechtsradikalen Umtriebe sind insbesondere die Bemühungen um die Integration hier lebender Nicht-Deutscher und Aussiedler wichtig ."
+    },
+    {
+      "id": 196,
+      "doc": "maz-19372",
+      "variables": {
+        "text": "Und die Stadt Wittstock hat mit einem schlechten Image zu kämpfen ."
+      },
+      "answer_type": "string",
+      "answer": "{Und} die Stadt Wittstock hat mit einem schlechten Image zu kämpfen ."
+    },
+    {
+      "id": 197,
+      "doc": "maz-10652",
+      "variables": {
+        "text": "Auf diesen Sendeplätzen laufen nämlich Wiederholungen , die ohnehin kein Mensch sieht ."
+      },
+      "answer_type": "string",
+      "answer": "Auf diesen Sendeplätzen laufen {nämlich} Wiederholungen , die ohnehin kein Mensch sieht ."
+    },
+    {
+      "id": 198,
+      "doc": "maz-18160",
+      "variables": {
+        "text": "Der Grund ist die Weigerung des Innenministers und Parteivorsitzenden Jörg Schönbohm , dem eindeutigen Bürgerwillen der Golmer nach Eingliederung in die Stadt Werder nachzukommen ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 199,
+      "doc": "maz-13758",
+      "variables": {
+        "text": "Das war auch kaum zu erwarten , handelt es sich doch um ein Gemeinschaftswerk , an dem die Einwohner mitgewirkt haben ."
+      },
+      "answer_type": "string",
+      "answer": "Das war {auch} kaum zu erwarten , handelt es sich {doch} um ein Gemeinschaftswerk , an dem die Einwohner mitgewirkt haben ."
+    },
+    {
+      "id": 200,
+      "doc": "maz-14399",
+      "variables": {
+        "text": "Ein Lehrer aus Baden-Württemberg verschickt eifrig so genannte \" Lusttöter \" , die zeigen sollen , dass das Grauen zwei Beine und ein Gewehr in Händen hat ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 201,
+      "doc": "maz-14047",
+      "variables": {
+        "text": "Wenn ein Freier Träger das besser kann als eine Kreis-GmbH , dann soll er das Krankenhaus haben ."
+      },
+      "answer_type": "string",
+      "answer": "{Wenn} ein Freier Träger das besser kann als eine Kreis-GmbH , {dann} soll er das Krankenhaus haben ."
+    },
+    {
+      "id": 202,
+      "doc": "maz-3073",
+      "variables": {
+        "text": "Wer die Arbeit dieser Frauen und Männer übers Jahr verfolgt , versteht , warum sie sich trotz vieler Mühen das Erntefest nie entgehen lassen ."
+      },
+      "answer_type": "string",
+      "answer": "Wer die Arbeit dieser Frauen und Männer übers Jahr verfolgt , versteht , warum sie sich {trotz} vieler Mühen das Erntefest nie entgehen lassen ."
+    },
+    {
+      "id": 203,
+      "doc": "maz-17664",
+      "variables": {
+        "text": "Dieser Zusatz wird gern in der Werbung verwendet , um den letzten Unentschlossenen doch für den Kauf der lammfellgefütterten Hosenträger , der Kaffeetasse für Linkshänder oder des automatischen Korkenziehers zu bewegen ."
+      },
+      "answer_type": "string",
+      "answer": "Dieser Zusatz wird gern in der Werbung verwendet , {um} den letzten Unentschlossenen doch für den Kauf der lammfellgefütterten Hosenträger , der Kaffeetasse für Linkshänder oder des automatischen Korkenziehers zu bewegen ."
+    },
+    {
+      "id": 204,
+      "doc": "maz-12188",
+      "variables": {
+        "text": "Und nun hat die künftige Schulkonferenz genügend Zeit , den endgültigen Standort zu wählen ."
+      },
+      "answer_type": "string",
+      "answer": "{Und} nun hat die künftige Schulkonferenz genügend Zeit , den endgültigen Standort zu wählen ."
+    },
+    {
+      "id": 205,
+      "doc": "maz-14399",
+      "variables": {
+        "text": "Wer zwei Frischlinge \" Schnitzel \" und \" Kotelett \" nennt - so gelesen im Internettagebuch eines Jägers - wollte vielleicht nur witzig sein ."
+      },
+      "answer_type": "string",
+      "answer": "Wer zwei Frischlinge \" Schnitzel \" und \" Kotelett \" nennt - {so} gelesen im Internettagebuch eines Jägers - wollte vielleicht nur witzig sein ."
+    },
+    {
+      "id": 206,
+      "doc": "maz-11544",
+      "variables": {
+        "text": "Aber auch Gransees Stadtväter trugen als unbürokratische Wegbereiter ihr Scherflein zum Erfolg bei ."
+      },
+      "answer_type": "string",
+      "answer": "{Aber} auch Gransees Stadtväter trugen als unbürokratische Wegbereiter ihr Scherflein zum Erfolg bei ."
+    },
+    {
+      "id": 207,
+      "doc": "maz-9884",
+      "variables": {
+        "text": "Gut , dass wir eine rot-grüne Koalition haben , stoßseufzen viele hinter vorgehaltener Hand , andernfalls würde die Republik brennen ."
+      },
+      "answer_type": "string",
+      "answer": "Gut , dass wir eine rot-grüne Koalition haben , stoßseufzen viele hinter vorgehaltener Hand , {andernfalls} würde die Republik brennen ."
+    },
+    {
+      "id": 208,
+      "doc": "maz-19501",
+      "variables": {
+        "text": "Denn der Bund ging bereits mit 50 Millionen Mark in Vorleistung , um die Einführung der Gleise in den Berliner Tiergartentunnel zu gewährleisten ."
+      },
+      "answer_type": "string",
+      "answer": "{Denn} der Bund ging bereits mit 50 Millionen Mark in Vorleistung , {um} die Einführung der Gleise in den Berliner Tiergartentunnel {zu} gewährleisten ."
+    },
+    {
+      "id": 209,
+      "doc": "maz-15609",
+      "variables": {
+        "text": "Im schlimmsten Fall stößt man gegen eine Müll- oder Papiertonne , die ja laut Abfallzweckverband bereits am Vorabend des jeweiligen Abholetages an den Straßenrand zu stellen ist ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 210,
+      "doc": "maz-18160",
+      "variables": {
+        "text": "Durchaus brisant wird die Situation für den Parteivorsitzenden auch dadurch , dass er gleich zwei CDU-Bürgermeister gegen sich aufgebracht hat und damit dort Ansehen und Rückhalt verlieren wird , wo sie mit Sicherheit jede Partei bitter nötig hat - nämlich an der Basis ."
+      },
+      "answer_type": "string",
+      "answer": "Durchaus brisant wird die Situation für den Parteivorsitzenden auch {dadurch} , dass er gleich zwei CDU-Bürgermeister gegen sich aufgebracht hat {und} damit dort Ansehen und Rückhalt verlieren wird , wo sie mit Sicherheit jede Partei bitter nötig hat - nämlich an der Basis ."
+    },
+    {
+      "id": 211,
+      "doc": "maz-13153",
+      "variables": {
+        "text": "Und zwar so intensiv , dass deren Funktionäre bereits eine Vorliebe für die Prignitz entwickelt haben ."
+      },
+      "answer_type": "string",
+      "answer": "{Und zwar} so intensiv , dass deren Funktionäre bereits eine Vorliebe für die Prignitz entwickelt haben ."
+    },
+    {
+      "id": 212,
+      "doc": "maz-5709",
+      "variables": {
+        "text": "Lieber gründet man Bürgerbewegung und Antibewegung , wobei die Buckelgegner öffentlich als kinderfeindlich gebrandmarkt werden ."
+      },
+      "answer_type": "string",
+      "answer": "Lieber gründet man Bürgerbewegung und Antibewegung , {wobei} die Buckelgegner öffentlich als kinderfeindlich gebrandmarkt werden ."
+    },
+    {
+      "id": 213,
+      "doc": "maz-17539",
+      "variables": {
+        "text": "In ihrer letzten Sitzung vor der Eingemeindung nach Stahnsdorf stehen sie heute vor der Gewissensfrage , sich zum Ausgliederungsverfahren für das Gewerbegebiet im Priesterweg aus dem Landschaftsschutzgebiet \" Parforceheide \" positionieren zu müssen ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 214,
+      "doc": "maz-18333",
+      "variables": {
+        "text": "Moderne verkehrliche Infrastruktur ist aber auch nur als Signal an die Wirtschaft zu verstehen , sich hier oder dort niederzulassen ."
+      },
+      "answer_type": "string",
+      "answer": "Moderne verkehrliche Infrastruktur ist {aber} auch nur als Signal an die Wirtschaft zu verstehen , sich hier oder dort niederzulassen ."
+    },
+    {
+      "id": 215,
+      "doc": "maz-8361",
+      "variables": {
+        "text": "Auch Glos weiß , dass Schäuble im Frühjahr 2000 nicht wegen des Ermittlungsverfahrens , sondern wegen politischer Fehler stürzte :"
+      },
+      "answer_type": "string",
+      "answer": "Auch Glos weiß , dass Schäuble im Frühjahr 2000 nicht wegen des Ermittlungsverfahrens , {sondern} wegen politischer Fehler stürzte :"
+    },
+    {
+      "id": 216,
+      "doc": "maz-00001",
+      "variables": {
+        "text": "So ist etwa unklar , wer Abfindungen erhalten soll , oder was passiert , wenn zu wenig Lehrer die Angebote des vorzeitigen Ausstiegs nutzen ."
+      },
+      "answer_type": "string",
+      "answer": "So ist etwa unklar , wer Abfindungen erhalten soll , {oder} was passiert , {wenn} zu wenig Lehrer die Angebote des vorzeitigen Ausstiegs nutzen ."
+    },
+    {
+      "id": 217,
+      "doc": "maz-11544",
+      "variables": {
+        "text": "Eine der modernsten Produktionslinien ist gestern offiziell gestartet worden , mit deren Hilfe frische Milch aus dem Brandenburgischen auf dem Frühstückstisch italienischer Familien landet ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 218,
+      "doc": "maz-8665",
+      "variables": {
+        "text": "Also haben die Gemeindevertreter Mut gezeigt ."
+      },
+      "answer_type": "string",
+      "answer": "{Also} haben die Gemeindevertreter Mut gezeigt ."
+    },
+    {
+      "id": 219,
+      "doc": "maz-10110",
+      "variables": {
+        "text": "Trotzdem bemühen sich Unternehmen sowie die Industrie- und Handelskammer Potsdam den Schulabgängern Wege in die Ausbildung aufzuzeigen ."
+      },
+      "answer_type": "string",
+      "answer": "{Trotzdem} bemühen sich Unternehmen sowie die Industrie- und Handelskammer Potsdam den Schulabgängern Wege in die Ausbildung aufzuzeigen ."
+    },
+    {
+      "id": 220,
+      "doc": "maz-16353",
+      "variables": {
+        "text": "Immerhin stampfen sie ein Haus aus dem Boden , das nicht in klassischer Bauweise - Stein auf Stein - , sondern in so genannter Holztafelbauweise entsteht ."
+      },
+      "answer_type": "string",
+      "answer": "{Immerhin} stampfen sie ein Haus aus dem Boden , das nicht in klassischer Bauweise - Stein auf Stein - , sondern in so genannter Holztafelbauweise entsteht ."
+    },
+    {
+      "id": 221,
+      "doc": "maz-14172",
+      "variables": {
+        "text": "Das aber könnte Petry passieren ."
+      },
+      "answer_type": "string",
+      "answer": "Das {aber} könnte Petry passieren ."
+    },
+    {
+      "id": 222,
+      "doc": "maz-15702",
+      "variables": {
+        "text": "Gefährlich sei er nicht , beeilte sich das Justizministerium gestern mitzuteilen , aber - klar doch - in die Freiheit gehört er auch noch nicht ."
+      },
+      "answer_type": "string",
+      "answer": "Gefährlich sei er nicht , beeilte sich das Justizministerium gestern mitzuteilen , {aber} - klar doch - in die Freiheit gehört er auch noch nicht ."
+    },
+    {
+      "id": 223,
+      "doc": "maz-10902",
+      "variables": {
+        "text": "Es darf nicht sein , dass Zehnjährige zum Glimmstängel und zum Bier greifen , weil sie es ohne Probleme bekommen ."
+      },
+      "answer_type": "string",
+      "answer": "Es darf nicht sein , dass Zehnjährige zum Glimmstängel und zum Bier greifen , {weil} sie es ohne Probleme bekommen ."
+    },
+    {
+      "id": 224,
+      "doc": "maz-17254",
+      "variables": {
+        "text": "Dreht sich Götz um und blickt nach Emster-Havel , sieht es am Horizont unter anderem die schon wartenden Gemeinden Schenkenberg und Jeserig ."
+      },
+      "answer_type": "string",
+      "answer": "Dreht sich Götz um {und} blickt nach Emster-Havel , sieht es am Horizont unter anderem die schon wartenden Gemeinden Schenkenberg und Jeserig ."
+    },
+    {
+      "id": 225,
+      "doc": "maz-18006",
+      "variables": {
+        "text": "Ist doch hinlänglich bekannt , dass es keine Partei intensiver versucht hat als die SPD - über welchen Umweg auch immer - Einfluss auf kritische Berichterstattung zu nehmen ."
+      },
+      "answer_type": "string",
+      "answer": "Ist {doch} hinlänglich bekannt , dass es keine Partei intensiver versucht hat als die SPD - über welchen Umweg auch immer - Einfluss auf kritische Berichterstattung zu nehmen ."
+    },
+    {
+      "id": 226,
+      "doc": "maz-17539",
+      "variables": {
+        "text": "Wer fest entschlossen zurück zur Natur will , hat jetzt auch das Schicksal von Menschen zu verantworten , deren Arbeitsplätze er dafür gleichzeitig opfert ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 227,
+      "doc": "maz-18914",
+      "variables": {
+        "text": "Und zwar an einer Ecke , die eine Art Aushängeschild für die Stadt ist ."
+      },
+      "answer_type": "string",
+      "answer": "{Und zwar} an einer Ecke , die eine Art Aushängeschild für die Stadt ist ."
+    },
+    {
+      "id": 228,
+      "doc": "maz-8727",
+      "variables": {
+        "text": "Und wird hoffentlich nicht mehr kleinzukriegen sein - trotz der Pleite der Landesentwicklungsgesellschaft ( LEG ) und gelegentlichen Jammerns in den eigenen Reihen ."
+      },
+      "answer_type": "string",
+      "answer": "{Und} wird hoffentlich nicht mehr kleinzukriegen sein - {trotz} der Pleite der Landesentwicklungsgesellschaft ( LEG ) {und} gelegentlichen Jammerns in den eigenen Reihen ."
+    },
+    {
+      "id": 229,
+      "doc": "maz-9891",
+      "variables": {
+        "text": "Überall wird darauf gedrängt , historische Orte in ihrem Urzustand zu belassen oder wieder so herzustellen ."
+      },
+      "answer_type": "string",
+      "answer": "Überall wird darauf gedrängt , historische Orte in ihrem Urzustand zu belassen {oder} wieder so herzustellen ."
+    },
+    {
+      "id": 230,
+      "doc": "maz-9612",
+      "variables": {
+        "text": "Alle werden es nicht sein , denn es liegt auf der Hand , dass sich auch wenigstens Teile des ehemaligen Kreises Kyritz darüber Gedanken machen müssen , wie sie mit den Überfliegern klarkommen ."
+      },
+      "answer_type": "string",
+      "answer": "Alle werden es nicht sein , {denn} es liegt auf der Hand , dass sich auch wenigstens Teile des ehemaligen Kreises Kyritz darüber Gedanken machen müssen , wie sie mit den Überfliegern klarkommen ."
+    },
+    {
+      "id": 231,
+      "doc": "maz-18333",
+      "variables": {
+        "text": "Doch der würde wenig nützen , wenn sich wie derzeit auch in einigen Jahren immer noch die B 101 durch die Stadt schlängeln würde ."
+      },
+      "answer_type": "string",
+      "answer": "{Doch} der würde wenig nützen , {wenn} sich wie derzeit auch in einigen Jahren immer noch die B 101 durch die Stadt schlängeln würde ."
+    },
+    {
+      "id": 232,
+      "doc": "maz-18712",
+      "variables": {
+        "text": "Sein Nachfolger wird nicht allein am Kunstsinn gemessen werden , er wird mehr von dem haben müssen , was Giersberg lästig war : Sinn für das Geld - und damit für alle \" niederen \" Bedürfnisse ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 233,
+      "doc": "maz-11299",
+      "variables": {
+        "text": "Vielleicht finden dann auch Vertreter von PDS und Gewerbeverein ihren Weg ins Rathaus ."
+      },
+      "answer_type": "string",
+      "answer": "Vielleicht finden {dann} auch Vertreter von PDS und Gewerbeverein ihren Weg ins Rathaus ."
+    },
+    {
+      "id": 234,
+      "doc": "maz-2611",
+      "variables": {
+        "text": "Während Timm mit diesem Verhalten Pro Rathenow helfen dürfte , nimmt das Verhalten von Bürgermeister Lünser langsam groteske Züge an ."
+      },
+      "answer_type": "string",
+      "answer": "{Während} Timm mit diesem Verhalten Pro Rathenow helfen dürfte , nimmt das Verhalten von Bürgermeister Lünser langsam groteske Züge an ."
+    },
+    {
+      "id": 235,
+      "doc": "maz-14422",
+      "variables": {
+        "text": "Aber die Kinder sehen noch , wie gekocht wird , anstatt mit Assiettenkost abgespeist zu werden ."
+      },
+      "answer_type": "string",
+      "answer": "{Aber} die Kinder sehen noch , wie gekocht wird , {anstatt} mit Assiettenkost abgespeist zu werden ."
+    },
+    {
+      "id": 236,
+      "doc": "maz-5701",
+      "variables": {
+        "text": "Dass der Beginn von begrenzten Boden-Operationen im Westen vielerorts erwartet wird , hat aber auch andere Ursachen :"
+      },
+      "answer_type": "string",
+      "answer": "Dass der Beginn von begrenzten Boden-Operationen im Westen vielerorts erwartet wird , hat {aber} auch andere Ursachen :"
+    },
+    {
+      "id": 237,
+      "doc": "maz-14047",
+      "variables": {
+        "text": "Die Kreistagsabgeordneten im Kreis- und Krankenhausausschuss haben viele Argumente gehört und müssen sich nun entscheiden ."
+      },
+      "answer_type": "string",
+      "answer": "Die Kreistagsabgeordneten im Kreis- und Krankenhausausschuss haben viele Argumente gehört {und} müssen sich nun entscheiden ."
+    },
+    {
+      "id": 238,
+      "doc": "maz-18171",
+      "variables": {
+        "text": "Dass das Hinterhofgebäude zwar reichlich baubedürftig aussieht , dort aber seit der Wende kein Handschlag mehr getan wurde , folglich gar keine Baustelle existiert , die gestoppt werden könnte ."
+      },
+      "answer_type": "string",
+      "answer": "Dass das Hinterhofgebäude {zwar} reichlich baubedürftig aussieht , dort {aber} seit der Wende kein Handschlag mehr getan wurde , {folglich} gar keine Baustelle existiert , die gestoppt werden könnte ."
+    },
+    {
+      "id": 239,
+      "doc": "maz-6165",
+      "variables": {
+        "text": "Am liebsten würde die Feuerwehr ja schon in fünf Minuten an jedem Ort der Stadt sein , aber derzeit sind es bestenfalls acht ."
+      },
+      "answer_type": "string",
+      "answer": "Am liebsten würde die Feuerwehr ja schon in fünf Minuten an jedem Ort der Stadt sein , {aber} derzeit sind es bestenfalls acht ."
+    },
+    {
+      "id": 240,
+      "doc": "maz-14384",
+      "variables": {
+        "text": "Wenn ältere Pritzwalker aufs Hainholz zu sprechen kommen , da können sie schon in Erinnerungen schwelgen ."
+      },
+      "answer_type": "string",
+      "answer": "{Wenn} ältere Pritzwalker aufs Hainholz zu sprechen kommen , da können sie schon in Erinnerungen schwelgen ."
+    },
+    {
+      "id": 241,
+      "doc": "maz-19436",
+      "variables": {
+        "text": "Gysi will die Chance der PDS zum Mitregieren in der Bundeshauptstadt nicht für etwas vertun , was sich in einem Jahr womöglich von allein erledigt ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 242,
+      "doc": "maz-17242",
+      "variables": {
+        "text": "Oder zu zittern , denn ein schnatterndes Gebiss ist immer dabei ."
+      },
+      "answer_type": "string",
+      "answer": "{Oder} zu zittern , {denn} ein schnatterndes Gebiss ist immer dabei ."
+    },
+    {
+      "id": 243,
+      "doc": "maz-14654",
+      "variables": {
+        "text": "Deshalb brauchen jetzt weder SPD- noch PDS-Anhänger einen Höhenflug zu bekommen ."
+      },
+      "answer_type": "string",
+      "answer": "{Deshalb} brauchen jetzt weder SPD- noch PDS-Anhänger einen Höhenflug zu bekommen ."
+    },
+    {
+      "id": 244,
+      "doc": "maz-17300",
+      "variables": {
+        "text": "Seinen Zuhörern in der Aula des Oberstufenzentrums kamen jedenfalls alle guten Gefühle abhanden , als Gilde ohne Eingehen auf die eigene Person seinen Rechenschaftsbericht runterspulte ."
+      },
+      "answer_type": "string",
+      "answer": "Seinen Zuhörern in der Aula des Oberstufenzentrums kamen jedenfalls alle guten Gefühle abhanden , {als} Gilde {ohne} Eingehen auf die eigene Person seinen Rechenschaftsbericht runterspulte ."
+    },
+    {
+      "id": 245,
+      "doc": "maz-2316",
+      "variables": {
+        "text": "Fast möchte man Andreas Wansing , den Geschäftsführer der Wobra , händeringend bitten , von seinem Plan Abstand zu nehmen , aus dem Bestand der Wobra hinaus Wohnungen zu verkaufen ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 246,
+      "doc": "maz-13946",
+      "variables": {
+        "text": "Die Oranienburger Mittelstadt kann sich glücklich schätzen , dass sie zu den 15 ausgewählten Stadtteilen im Land Brandenburg gehört , die in den nächsten fünf Jahren vom 220 Millionen Mark schweren EU-Förderprogramm \" Zukunft im Stadtteil \" ( ZiS ) profitieren werden ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 247,
+      "doc": "maz-7220",
+      "variables": {
+        "text": "Rumsfeld , der von Anfang an als Hardliner innerhalb der US-Regierung in Erscheinung trat , habe wohl klarmachen wollen , dass es sich um einen längeren Feldzug handeln werde , hieß es vage ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 248,
+      "doc": "maz-9650",
+      "variables": {
+        "text": "Doch gestern hat sie auf die schwache Konjunktur mit einer kräftigen Leitzinssenkung um 0,5 Prozentpunkte auf 3,25 Prozent reagiert ."
+      },
+      "answer_type": "string",
+      "answer": "{Doch} gestern hat sie auf die schwache Konjunktur mit einer kräftigen Leitzinssenkung um 0,5 Prozentpunkte auf 3,25 Prozent reagiert ."
+    },
+    {
+      "id": 249,
+      "doc": "maz-17953",
+      "variables": {
+        "text": "Während den Detektiv immer ein Tatbestand zum Handeln fordere , sei das Aushorchen unseligen Angedenkens nicht damit vergleichbar ."
+      },
+      "answer_type": "string",
+      "answer": "{Während} den Detektiv immer ein Tatbestand zum Handeln fordere , sei das Aushorchen unseligen Angedenkens nicht damit vergleichbar ."
+    },
+    {
+      "id": 250,
+      "doc": "maz-9891",
+      "variables": {
+        "text": "Denn die Ansicht der Denkmalpfleger ist kaum nachzuvollziehen ."
+      },
+      "answer_type": "string",
+      "answer": "{Denn} die Ansicht der Denkmalpfleger ist kaum nachzuvollziehen ."
+    },
+    {
+      "id": 251,
+      "doc": "maz-2609",
+      "variables": {
+        "text": "Denn weiche Standortfaktoren allein reichen nicht aus ."
+      },
+      "answer_type": "string",
+      "answer": "{Denn} weiche Standortfaktoren allein reichen nicht aus ."
+    },
+    {
+      "id": 252,
+      "doc": "maz-19501",
+      "variables": {
+        "text": "Das Unternehmen nährte dadurch Spekulationen , dass die bis 1945 existierende Bahnstrecke wohl doch keine Chance auf Wiederaufbau habe ."
+      },
+      "answer_type": "string",
+      "answer": "Das Unternehmen nährte {dadurch} Spekulationen , dass die bis 1945 existierende Bahnstrecke wohl doch keine Chance auf Wiederaufbau habe ."
+    },
+    {
+      "id": 253,
+      "doc": "maz-14071",
+      "variables": {
+        "text": "Die soziale Lage der Betroffenen ändert sich bei diesem Rechenbeispiel aber nicht ."
+      },
+      "answer_type": "string",
+      "answer": "Die soziale Lage der Betroffenen ändert sich bei diesem Rechenbeispiel {aber} nicht ."
+    },
+    {
+      "id": 254,
+      "doc": "maz-8727",
+      "variables": {
+        "text": "Hinzu kommt , dass es allemal besser ist , sich in puncto Resonanz nicht selbst zu belügen , sondern lieber etwas für mehr Besucher zu tun ."
+      },
+      "answer_type": "string",
+      "answer": "Hinzu kommt , dass es allemal besser ist , sich in puncto Resonanz nicht selbst zu belügen , {sondern} lieber etwas für mehr Besucher zu tun ."
+    },
+    {
+      "id": 255,
+      "doc": "maz-13915",
+      "variables": {
+        "text": "Mit dem Konzept lassen sich Unterhalts- und Personalkosten einsparen und gleichzeitig bleibt Geld für die Sanierung der oft maroden kommunalen Gebäude übrig ."
+      },
+      "answer_type": "string",
+      "answer": "Mit dem Konzept lassen sich Unterhalts- und Personalkosten einsparen {und} gleichzeitig bleibt Geld für die Sanierung der oft maroden kommunalen Gebäude übrig ."
+    },
+    {
+      "id": 256,
+      "doc": "maz-15347",
+      "variables": {
+        "text": "Doch nicht jede ABM ist gleich ."
+      },
+      "answer_type": "string",
+      "answer": "{Doch} nicht jede ABM ist gleich ."
+    },
+    {
+      "id": 257,
+      "doc": "maz-12576",
+      "variables": {
+        "text": "Heute stellt sich der Kyritzer FDP-Ortsvorsitzende Kai Müller hinter den Beschluss der Stadtverordneten vom 14. November und tritt mit einer Aufforderung an die Öffentlichkeit ."
+      },
+      "answer_type": "string",
+      "answer": "Heute stellt sich der Kyritzer FDP-Ortsvorsitzende Kai Müller hinter den Beschluss der Stadtverordneten vom 14. November {und} tritt mit einer Aufforderung an die Öffentlichkeit ."
+    },
+    {
+      "id": 258,
+      "doc": "maz-15970",
+      "variables": {
+        "text": "Obschon längst kein Taktik-Guru , hat der ehemalige Torjäger mit der WM-Qualifikation seines Teams für Fernost enorm an Profil gewonnen und das Image des unverbindlichen \" Ich-versuch's-einfach-mal\"-Typen verloren ."
+      },
+      "answer_type": "string",
+      "answer": "{Obschon} längst kein Taktik-Guru , hat der ehemalige Torjäger mit der WM-Qualifikation seines Teams für Fernost enorm an Profil gewonnen {und} das Image des unverbindlichen \" Ich-versuch's-einfach-mal\"-Typen verloren ."
+    },
+    {
+      "id": 259,
+      "doc": "maz-11735",
+      "variables": {
+        "text": "Mehr als eine Willensbekundung ist das zwar noch nicht - aber immerhin ."
+      },
+      "answer_type": "string",
+      "answer": "Mehr als eine Willensbekundung ist das {zwar} noch nicht - {aber} immerhin ."
+    },
+    {
+      "id": 260,
+      "doc": "maz-11916",
+      "variables": {
+        "text": "Tabak- , Alkohol- , Gewerbe- , Einkommens- , Grund- , Vergnügungs- , Kfz- , Kapitalertrags- und nun ab 1. Januar 2002 auch noch eine Bauabzugssteuer ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 261,
+      "doc": "maz-16590",
+      "variables": {
+        "text": "Im Zuge der Abschaffung des Haushaltsfreibetrages bis 2005 finden sich ausgerechnet die allein Erziehenden künftig mit jenen , die keine Kinder aufziehen , in der höchsten Steuerklasse wieder ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 262,
+      "doc": "maz-10110",
+      "variables": {
+        "text": "Wie schwierig es ist , in dieser Region einen Ausbildungsplatz zu finden , haben wir an dieser und anderer Stelle oft und ausführlich bewertet ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 263,
+      "doc": "maz-3080",
+      "variables": {
+        "text": "Wer etwa in den alten Bundesländern unterwegs war , der musste erleben , dass \" Brandenburg \" und \" Ausländerfeindlichkeit \" oft als Synonyme betrachtet wurden - durchaus kein angenehmer Zustand ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 264,
+      "doc": "maz-8288",
+      "variables": {
+        "text": "Während eine Anbindung der Rathenower Region über Milow als unwahrscheinlich gilt und die Döberitzer Variante aus Gründen des Naturschutzes abwegig ist , muss Pritzerbe mit seiner Favoritenrolle klarkommen ."
+      },
+      "answer_type": "string",
+      "answer": "{Während} eine Anbindung der Rathenower Region über Milow als unwahrscheinlich gilt {und} die Döberitzer Variante aus Gründen des Naturschutzes abwegig ist , muss Pritzerbe mit seiner Favoritenrolle klarkommen ."
+    },
+    {
+      "id": 265,
+      "doc": "maz-11280",
+      "variables": {
+        "text": "Sie sollten ihre Entscheidung noch einmal überdenken , denn neben dem Effekt , dass die Schmuddelecken verschwinden , ist der Weg mit dem gelben Sack vor die Haustür kürzer als die Fahrt zum Container ."
+      },
+      "answer_type": "string",
+      "answer": "Sie sollten ihre Entscheidung noch einmal überdenken , {denn} neben dem Effekt , dass die Schmuddelecken verschwinden , ist der Weg mit dem gelben Sack vor die Haustür kürzer als die Fahrt zum Container ."
+    },
+    {
+      "id": 266,
+      "doc": "maz-13125",
+      "variables": {
+        "text": "\" Seid sensibler und aufmerksamer , denn wir können nicht sicher sein ... \""
+      },
+      "answer_type": "string",
+      "answer": "\" Seid sensibler und aufmerksamer , {denn} wir können nicht sicher sein ... \""
+    },
+    {
+      "id": 267,
+      "doc": "maz-6918",
+      "variables": {
+        "text": "Die Abschnitte , auf denen möglicherweise weiterhin gefährliche Munition lagert , bleiben allerdings Sperrgebiet ."
+      },
+      "answer_type": "string",
+      "answer": "Die Abschnitte , auf denen möglicherweise weiterhin gefährliche Munition lagert , bleiben {allerdings} Sperrgebiet ."
+    },
+    {
+      "id": 268,
+      "doc": "maz-9538",
+      "variables": {
+        "text": "Die Entscheidung fällt aber nun einmal im Kreistag und ist noch offen , zumal angesichts geheimer Wahl ."
+      },
+      "answer_type": "string",
+      "answer": "Die Entscheidung fällt {aber} nun einmal im Kreistag {und} ist noch offen , {zumal} angesichts geheimer Wahl ."
+    },
+    {
+      "id": 269,
+      "doc": "maz-14422",
+      "variables": {
+        "text": "Im \" Spatzennest \" Groß Glienicke gehört das Klima zu den Stärken des Hauses , auch wenn das manchmal nach Essen riecht ."
+      },
+      "answer_type": "string",
+      "answer": "Im \" Spatzennest \" Groß Glienicke gehört das Klima zu den Stärken des Hauses , {auch wenn} das manchmal nach Essen riecht ."
+    },
+    {
+      "id": 270,
+      "doc": "maz-15609",
+      "variables": {
+        "text": "Auch erkennt man nicht , wohin man tritt ."
+      },
+      "answer_type": "string",
+      "answer": "{Auch} erkennt man nicht , wohin man tritt ."
+    },
+    {
+      "id": 271,
+      "doc": "maz-3080",
+      "variables": {
+        "text": "Das Zusammenleben von Ausländern und Deutschen hier in Brandenburg , wo der Anteil der Menschen aus anderen Ländern verschwindend gering ist , war auch vor dem 11. September 2001 nicht ohne Probleme ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 272,
+      "doc": "maz-5709",
+      "variables": {
+        "text": "Dabei sind es vor allem Anwohner , die mit mehr als den erlaubten 7 km/h durch die ausgewiesene Spielstraße fahren ."
+      },
+      "answer_type": "string",
+      "answer": "{Dabei} sind es vor allem Anwohner , die mit mehr als den erlaubten 7 km/h durch die ausgewiesene Spielstraße fahren ."
+    },
+    {
+      "id": 273,
+      "doc": "maz-5932",
+      "variables": {
+        "text": "Mittlerweile haben sich indes auch in der Dahmer Region neue politische Strukturen manifestiert ."
+      },
+      "answer_type": "string",
+      "answer": "Mittlerweile haben sich {indes} auch in der Dahmer Region neue politische Strukturen manifestiert ."
+    },
+    {
+      "id": 274,
+      "doc": "maz-18945",
+      "variables": {
+        "text": "An der viel und schnell befahrenen Landesstraße zwischen Wustrau und Dammkrug - einem häufig benutzten Schulweg - sehen Straßenbauamt und Verkehrsministerium für einen Radweg \" keinen Bedarf \" ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 275,
+      "doc": "maz-10503",
+      "variables": {
+        "text": "Sie hatten die Rechnung ohne SPD-Mann Kurt Kreisel gemacht , der gegen das Gremium schoss und zumindest erreichte , dass der Ausschuss nach Proporz besetzt wird ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 276,
+      "doc": "maz-13125",
+      "variables": {
+        "text": "Die Botschaft der Autoren des am Samstag in Zossen aufgeführten Stücks \" Eines Tages müssen wir die Wahrheit sagen \" ist übertragbar auf die Gegenwart :"
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 277,
+      "doc": "maz-6993",
+      "variables": {
+        "text": "Schließlich gaben die Stadtverordneten erst Montagabend grünes Licht für die weitere Erschließung des neuen Ortsteils Diepensee ."
+      },
+      "answer_type": "string",
+      "answer": "{Schließlich} gaben die Stadtverordneten erst Montagabend grünes Licht für die weitere Erschließung des neuen Ortsteils Diepensee ."
+    },
+    {
+      "id": 278,
+      "doc": "maz-5876",
+      "variables": {
+        "text": "Doch das , was sich bei 3600 Praxen im Land in dieser einen Praxis in Ludwigsfelde abspielt , das geht rein menschlich nicht ."
+      },
+      "answer_type": "string",
+      "answer": "{Doch} das , was sich bei 3600 Praxen im Land in dieser einen Praxis in Ludwigsfelde abspielt , das geht rein menschlich nicht ."
+    },
+    {
+      "id": 279,
+      "doc": "maz-10205",
+      "variables": {
+        "text": "Doch wo und wer sind sie ?"
+      },
+      "answer_type": "string",
+      "answer": "{Doch} wo und wer sind sie ?"
+    },
+    {
+      "id": 280,
+      "doc": "maz-16177",
+      "variables": {
+        "text": "Denn die Strategie der IG Metall ist durchsichtig ."
+      },
+      "answer_type": "string",
+      "answer": "{Denn} die Strategie der IG Metall ist durchsichtig ."
+    },
+    {
+      "id": 281,
+      "doc": "maz-9884",
+      "variables": {
+        "text": "Nicht , dass beide eine Mehrheit für ihre Koalition suchten , war das Ärgerliche in den vergangenen Tagen , sondern das Wie , der Druck auf Abgeordnete , die kein Regierungsamt haben und ihr Gewissen deshalb auch nicht in den Vorzimmern der Macht abgeben können ."
+      },
+      "answer_type": "string",
+      "answer": "Nicht , dass beide eine Mehrheit für ihre Koalition suchten , war das Ärgerliche in den vergangenen Tagen , {sondern} das Wie , der Druck auf Abgeordnete , die kein Regierungsamt haben {und} ihr Gewissen {deshalb} auch nicht in den Vorzimmern der Macht abgeben können ."
+    },
+    {
+      "id": 282,
+      "doc": "maz-15347",
+      "variables": {
+        "text": "ABM sind immer nur Übergangslösungen , deshalb sind sie auch nur kurzfristig angelegt ."
+      },
+      "answer_type": "string",
+      "answer": "ABM sind immer nur Übergangslösungen , {deshalb} sind sie auch nur kurzfristig angelegt ."
+    },
+    {
+      "id": 283,
+      "doc": "maz-9612",
+      "variables": {
+        "text": "Die Bundeswehr geht davon aus , dass ihre geplanten Aktivitäten aus der Luft \" keine relevanten Auswirkungen auf die Entwicklung der Region im touristischen Bereich \" haben werden ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 284,
+      "doc": "maz-9650",
+      "variables": {
+        "text": "Die wichtigste Botschaft der Zinsentscheidung ist deshalb eine andere :"
+      },
+      "answer_type": "string",
+      "answer": "Die wichtigste Botschaft der Zinsentscheidung ist {deshalb} eine andere :"
+    },
+    {
+      "id": 285,
+      "doc": "maz-15155",
+      "variables": {
+        "text": "Sicher , die Wahrscheinlichkeit , dass sich Teens und Twens auf eine gemeinsame Bude einlassen , ist größer , als dass sich Oldies ein Leben mit Gemeinschaftsküche und Einkaufsdienst antun ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 286,
+      "doc": "maz-11735",
+      "variables": {
+        "text": "Sowohl die G-20 Gruppe , in der die Industrieländer sowie die mächtigsten Schwellenländer vertreten sind , als auch die 183 IWF-Staaten haben sich in Ottawa darauf verständigt , gemeinsam gegen Geldwäsche und die Finanzierung von Terrornetzen vorzugehen ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 287,
+      "doc": "maz-11279",
+      "variables": {
+        "text": "Einen hungrigen Nachfolger , dem die hoch subventionierte Infrastruktur des Hauses ebenso zupass kam wie sein Leumund , mit dem Technik-Inventar absolut auf der Höhe der Zeit zu sein ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 288,
+      "doc": "maz-14881",
+      "variables": {
+        "text": "Wenn jetzt nachträglich woanders Haltestellen gebaut werden müssen , so wirkt das wie jener Streich der Schildbürger , die Licht ins Rathaus tragen wollten , weil sie die Fenster vergessen hatten ."
+      },
+      "answer_type": "string",
+      "answer": "{Wenn} jetzt nachträglich woanders Haltestellen gebaut werden müssen , {so} wirkt das wie jener Streich der Schildbürger , die Licht ins Rathaus tragen wollten , {weil} sie die Fenster vergessen hatten ."
+    },
+    {
+      "id": 289,
+      "doc": "maz-18171",
+      "variables": {
+        "text": "Die Bauverwaltung ist personell offenbar so gut ausgestattet , dass es sich ihre Mitarbeiter leisten können , auf der Suche nach Bausündern systematisch alle Straßen und Hinterhöfe zu durchkämmen ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 290,
+      "doc": "maz-14590",
+      "variables": {
+        "text": "Verdientermaßen : Zu nennen ist ihr Einsatz für den Wiederaufbau des Rheinsberger Schlosstheaters , die Entdeckung preußischer Komponisten , das zeitgenössische Musiktheater und den Musikstandort Rheinsberg ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 291,
+      "doc": "maz-8665",
+      "variables": {
+        "text": "Was nach der Idee kam , ging dann erstaunlich schnell ."
+      },
+      "answer_type": "string",
+      "answer": "Was nach der Idee kam , ging {dann} erstaunlich schnell ."
+    },
+    {
+      "id": 292,
+      "doc": "maz-3110",
+      "variables": {
+        "text": "Was die Menschen hier hält , ist durchaus nicht nur die Unlust , die oft kleinen Räume im Alter noch gegen größere zu tauschen ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 293,
+      "doc": "maz-9521",
+      "variables": {
+        "text": "Finanzstadtrat Bosse hatte vor Wochen aus der Zeitung erfahren müssen , dass er im Sommer 2002 zugunsten eines CDU-Kandidaten in die Wüste geschickt wird ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 294,
+      "doc": "maz-12084",
+      "variables": {
+        "text": "Fest steht doch :"
+      },
+      "answer_type": "string",
+      "answer": "Fest steht {doch} :"
+    },
+    {
+      "id": 295,
+      "doc": "maz-9650",
+      "variables": {
+        "text": "Fraglich ist aber , ob niedrige Zinsen und damit billigeres Geld für mehr Investitionen und Konsum und so für den erhofften raschen Aufschwung sorgen ."
+      },
+      "answer_type": "string",
+      "answer": "Fraglich ist {aber} , ob niedrige Zinsen und damit billigeres Geld für mehr Investitionen und Konsum {und} so für den erhofften raschen Aufschwung sorgen ."
+    },
+    {
+      "id": 296,
+      "doc": "maz-11280",
+      "variables": {
+        "text": "Egal , ob nun mutwillig oder aus Unwissenheit - ersteres ist moralisch sicherlich verwerflicher - rund die Hälfte der Abfälle gerät in den falschen Kreislauf ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 297,
+      "doc": "maz-12084",
+      "variables": {
+        "text": "Doch wer sich wählen lässt , sollte die Courage aufbringen , unpopuläre Entscheidungen zu treffen , ohne sich ein schlechtes Gewissen einreden zu lassen ."
+      },
+      "answer_type": "string",
+      "answer": "{Doch} wer sich wählen lässt , sollte die Courage aufbringen , unpopuläre Entscheidungen zu treffen , {ohne} sich ein schlechtes Gewissen einreden zu lassen ."
+    },
+    {
+      "id": 298,
+      "doc": "maz-14399",
+      "variables": {
+        "text": "Das Lachen kann empfindsamen Seelen aber vergehen , wenn sie die Internetseite des Zentralorgans der deutschen Jäger , \" Wild und Hund \" , aufrufen :"
+      },
+      "answer_type": "string",
+      "answer": "Das Lachen kann empfindsamen Seelen {aber} vergehen , {wenn} sie die Internetseite des Zentralorgans der deutschen Jäger , \" Wild und Hund \" , aufrufen :"
+    },
+    {
+      "id": 299,
+      "doc": "maz-9725",
+      "variables": {
+        "text": "Da es auch in der SPD Abweichler gibt , ist die eigene Mehrheit der Koalition gefährdet ."
+      },
+      "answer_type": "string",
+      "answer": "{Da} es auch in der SPD Abweichler gibt , ist die eigene Mehrheit der Koalition gefährdet ."
+    },
+    {
+      "id": 300,
+      "doc": "maz-14853",
+      "variables": {
+        "text": "Dass Luckenwalde als kleinste von insgesamt zwölf deutschen Städten vom Urban-II-Projekt profitiert , ist ganz wesentlich der 2. Beigeordneten und künftigen Bürgermeisterin zu verdanken , was ihr im Wahlkampf sicherlich auch geholfen hat ."
+      },
+      "answer_type": "string",
+      "answer": "Dass Luckenwalde als kleinste von insgesamt zwölf deutschen Städten vom Urban-II-Projekt profitiert , ist ganz wesentlich der 2. Beigeordneten und künftigen Bürgermeisterin zu verdanken , was ihr im Wahlkampf sicherlich {auch} geholfen hat ."
+    },
+    {
+      "id": 301,
+      "doc": "maz-1818",
+      "variables": {
+        "text": "Die innenpolitische Situation in Deutschland hat sich seit den Terroranschlägen in den USA grundlegend gewandelt :"
+      },
+      "answer_type": "string",
+      "answer": "Die innenpolitische Situation in Deutschland hat sich {seit} den Terroranschlägen in den USA grundlegend gewandelt :"
+    },
+    {
+      "id": 302,
+      "doc": "maz-15734",
+      "variables": {
+        "text": "Fußgänger und Radfahrer wuseln dazwischen und sollen keinen Schaden nehmen ."
+      },
+      "answer_type": "string",
+      "answer": "Fußgänger und Radfahrer wuseln dazwischen {und} sollen keinen Schaden nehmen ."
+    },
+    {
+      "id": 303,
+      "doc": "maz-10175",
+      "variables": {
+        "text": "Das lose Bündnis aus Minderheiten , das schon einmal brutal die Macht über die Paschtunen-Mehrheit ausübte , ist eben nicht nur Teil der Lösung , sondern auch Teil des Problems ."
+      },
+      "answer_type": "string",
+      "answer": "Das lose Bündnis aus Minderheiten , das schon einmal brutal die Macht über die Paschtunen-Mehrheit ausübte , ist eben nicht nur Teil der Lösung , {sondern} auch Teil des Problems ."
+    },
+    {
+      "id": 304,
+      "doc": "maz-10207",
+      "variables": {
+        "text": "Lediglich in Pritzwalk hatte die Möglichkeit eines zweiten Wahlgangs bestanden , sie schien angesichts dreier Kandidaten auch nicht unbedingt unwahrscheinlich ."
+      },
+      "answer_type": "string",
+      "answer": "Lediglich in Pritzwalk hatte die Möglichkeit eines zweiten Wahlgangs bestanden , sie schien angesichts dreier Kandidaten {auch} nicht unbedingt unwahrscheinlich ."
+    },
+    {
+      "id": 305,
+      "doc": "maz-17664",
+      "variables": {
+        "text": "Es gab die ersten blanken Münzen gestern eben so lange , bis sie vergriffen waren ."
+      },
+      "answer_type": "string",
+      "answer": "Es gab die ersten blanken Münzen gestern eben so lange , {bis} sie vergriffen waren ."
+    },
+    {
+      "id": 306,
+      "doc": "maz-14071",
+      "variables": {
+        "text": "Die obdachlosen Wittstocker kamen nach Heinrichsfelde und müssen demnächst nach Kyritz ziehen ."
+      },
+      "answer_type": "string",
+      "answer": "Die obdachlosen Wittstocker kamen nach Heinrichsfelde {und} müssen demnächst nach Kyritz ziehen ."
+    },
+    {
+      "id": 307,
+      "doc": "maz-17300",
+      "variables": {
+        "text": "Jeder mit halbwegs Durchblick in der Kreispolitik hätte den Inhalt seines Adventskalenders dafür verwettet , dass die Kandidatur von Schulrat Dolatkiewicz bei der Landratswahl am Donnerstag den Abend verlängern würde ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 308,
+      "doc": "maz-14055",
+      "variables": {
+        "text": "Gewiss können der Kanzler und seine Minister die Verunsicherung der Verbraucher seit dem 11. September anführen , den verschärften Konjunktureinbruch , den noch vor einem Jahr kein Wirtschaftsinstitut so vorausgesehen hatte ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 309,
+      "doc": "maz-16590",
+      "variables": {
+        "text": "Mit den Steuerkarten fürs neue Jahr in den Händen ahnen Eltern , was auf sie zu kommt : höhere Abgaben für nicht wenige von ihnen ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 310,
+      "doc": "maz-15702",
+      "variables": {
+        "text": "Schlicht durch eine Namensverwechslung konnte der verurteilte Dieb das Gefängnistor passieren ."
+      },
+      "answer_type": "string",
+      "answer": "Schlicht {durch} eine Namensverwechslung konnte der verurteilte Dieb das Gefängnistor passieren ."
+    },
+    {
+      "id": 311,
+      "doc": "maz-14384",
+      "variables": {
+        "text": "Der wunderbare Mischwald am Rande der Stadt entfaltet aber nicht nur eine nostalgische Wirkung auf die Menschen ."
+      },
+      "answer_type": "string",
+      "answer": "Der wunderbare Mischwald am Rande der Stadt entfaltet {aber} nicht nur eine nostalgische Wirkung auf die Menschen ."
+    },
+    {
+      "id": 312,
+      "doc": "maz-10110",
+      "variables": {
+        "text": "Längst ist der Zeitpunkt absehbar , zu dem gute Facharbeiter ins Land geholt werden müssen , um Lücken in Unternehmen zu füllen ."
+      },
+      "answer_type": "string",
+      "answer": "Längst ist der Zeitpunkt absehbar , zu dem gute Facharbeiter ins Land geholt werden müssen , {um} Lücken in Unternehmen zu füllen ."
+    },
+    {
+      "id": 313,
+      "doc": "maz-16987",
+      "variables": {
+        "text": "Den Brief an die gemeinsame Landesplanung , in dem gegen den geplanten Luft-Boden-Schießplatz in der Kyritz-Ruppiner Heide protestiert wird , hatte Stadtverordnetenvorsitzender Thomas Settgast bereits auf der Sitzung am 14. November vorgelegt ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 314,
+      "doc": "maz-17254",
+      "variables": {
+        "text": "Sah es noch vor wenigen Wochen düster um die Zukunft der Verwaltungseinheit aus , dürfte die Schwächung des Amtes Groß Kreutz durch die Austrittswünsche zweier Gemeinden Emster-Havel stärken ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 315,
+      "doc": "maz-8288",
+      "variables": {
+        "text": "Diplomatisches Geschick und politischer Weitblick sind gefragt , wenn es um die Verhandlungsmasse geht ."
+      },
+      "answer_type": "string",
+      "answer": "Diplomatisches Geschick und politischer Weitblick sind gefragt , {wenn} es um die Verhandlungsmasse geht ."
+    },
+    {
+      "id": 316,
+      "doc": "maz-10575",
+      "variables": {
+        "text": "Es machte schon Spaß zuzusehen , mit welchem Eifer die Mädchen und Jungen auf der großen Freifläche in der Berliner Straße zu Werke gingen ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 317,
+      "doc": "maz-18480",
+      "variables": {
+        "text": "Wie anderswo bereits seit längerem erfolgreich praktiziert , wird die Schule so stärker in den Mittelpunkt der Gesellschaft gerückt ."
+      },
+      "answer_type": "string",
+      "answer": "{Wie} anderswo bereits seit längerem erfolgreich praktiziert , wird die Schule so stärker in den Mittelpunkt der Gesellschaft gerückt ."
+    },
+    {
+      "id": 318,
+      "doc": "maz-10207",
+      "variables": {
+        "text": "Gleichwohl hat auch Zigan sich acht weitere Jahre im Amt gesichert , die er nach eigenem Bekunden auch voll erfüllen will ."
+      },
+      "answer_type": "string",
+      "answer": "{Gleichwohl} hat auch Zigan sich acht weitere Jahre im Amt gesichert , die er nach eigenem Bekunden auch voll erfüllen will ."
+    },
+    {
+      "id": 319,
+      "doc": "maz-19501",
+      "variables": {
+        "text": "Es bleibt also spannend beim Endlos-Thema \" Stammbahn \" ."
+      },
+      "answer_type": "string",
+      "answer": "Es bleibt {also} spannend beim Endlos-Thema \" Stammbahn \" ."
+    },
+    {
+      "id": 320,
+      "doc": "maz-12084",
+      "variables": {
+        "text": "Freilich , Außenstehende haben gut reden ."
+      },
+      "answer_type": "string",
+      "answer": "{Freilich} , Außenstehende haben gut reden ."
+    },
+    {
+      "id": 321,
+      "doc": "maz-14055",
+      "variables": {
+        "text": "Wer unter diesen Rahmenbedingungen erwartet haben sollte , dass kleine und mittlere Unternehmen sowie Handwerksbetriebe bei Einstellungen etwas riskieren , der muss die teilnehmende Beobachtung schon seit längerem eingestellt haben ."
+      },
+      "answer_type": "string",
+      "answer": "no explicit connective"
+    },
+    {
+      "id": 322,
+      "doc": "maz-5876",
+      "variables": {
+        "text": "Mediziner stehen im Land nicht Schlange , um sich niederzulassen ."
+      },
+      "answer_type": "string",
+      "answer": "Mediziner stehen im Land nicht Schlange , {um} sich niederzulassen ."
+    }
+  ]
+}

@@ -1,0 +1,4011 @@
+{
+  "task": "entity_most",
+  "lang": "english",
+  "example_prompt": "Which entity is mentioned the most times in the text? Ignore speaker labels (e.g., [Kendra], [Sabrina]). They are not entities and should not be considered as the answer.",
+  "instances": [
+    {
+      "id": 1,
+      "doc": "GUM_vlog_pregnant",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "I",
+        "my",
+        "me"
+      ]
+    },
+    {
+      "id": 2,
+      "doc": "GUM_vlog_appearance",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Your girl"
+      ]
+    },
+    {
+      "id": 3,
+      "doc": "GUM_vlog_college",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "this bitch",
+        "a terrible vlogger",
+        "Ash",
+        "the worst"
+      ]
+    },
+    {
+      "id": 4,
+      "doc": "GUM_vlog_covid",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Jasmine",
+        "the my"
+      ]
+    },
+    {
+      "id": 5,
+      "doc": "GUM_whow_arrogant",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Arrogant People",
+        "people who are stuck on themselves , intolerant of people different from them , rude or downright arrogant",
+        "These people",
+        "the arrogant",
+        "the arrogant person",
+        "an arrogant person",
+        "Prideful people",
+        "Many arrogant people",
+        "their ' friend . '"
+      ]
+    },
+    {
+      "id": 6,
+      "doc": "GUM_vlog_exams",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "a college student",
+        "guys"
+      ]
+    },
+    {
+      "id": 7,
+      "doc": "GUM_fiction_pag",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "one of us",
+        "a superlative observer",
+        "the new threat",
+        "some whole other kid that just , just grew back out of what was left"
+      ]
+    },
+    {
+      "id": 8,
+      "doc": "GUM_bio_galois",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Galois '",
+        "the author",
+        "Galois himself",
+        "the victim of an infamous coquette and her two dupes",
+        "a political enemy",
+        "Évariste Galois"
+      ]
+    },
+    {
+      "id": 9,
+      "doc": "GUM_letter_zora",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Zora"
+      ]
+    },
+    {
+      "id": 10,
+      "doc": "GUM_interview_messina",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Frank Messina",
+        "the ' Mets Poet '",
+        "Frank",
+        "a civilian volunteer",
+        "Poet",
+        "Mets Poet",
+        "The Poet"
+      ]
+    },
+    {
+      "id": 11,
+      "doc": "GUM_bio_emperor",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Emperor Norton",
+        "Joshua Abraham Norton ( c. 1818 – January 8 , 1880 ) , known as Emperor Norton",
+        "a citizen of San Francisco , California , who in 1859 proclaimed himself \" Norton I",
+        "Norton I , Emperor of the United States",
+        "Emperor of the United States \"",
+        "Protector of Mexico",
+        "Norton",
+        "a businessman",
+        "Norton 's",
+        "Norton I",
+        "emperor",
+        "Emperor Joshua Norton , in full military regalia , circa 1880 or earlier",
+        "Emperor of these United States",
+        "Joshua Norton",
+        "Emperor of these U. S."
+      ]
+    },
+    {
+      "id": 12,
+      "doc": "GUM_bio_jerome",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Jerome",
+        "dʒəˈroʊm",
+        "Eusebius Sophronius Hieronymus ;",
+        "Εὐσέβιος Σωφρόνιος Ἱερώνυμος",
+        "a Latin Catholic priest , confessor , theologian , and historian",
+        "Saint Jerome",
+        "The protégé of Pope Damasus I , who died in December of 384",
+        "a saint",
+        "Doctor of the Church",
+        "a schoolboy",
+        "a student in Rome",
+        "St. Jerome",
+        "he himself"
+      ]
+    },
+    {
+      "id": 13,
+      "doc": "GUM_fiction_error",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Tyler",
+        "Tyler ’s",
+        "a young child"
+      ]
+    },
+    {
+      "id": 14,
+      "doc": "GUM_fiction_beast",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "a little girl",
+        "Muscles"
+      ]
+    },
+    {
+      "id": 15,
+      "doc": "GUM_news_warhol",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Warhol 's",
+        "Warhol",
+        "Andy Warhol",
+        "Andy Warhol 's",
+        "an influential figure in the pop art movement",
+        "such a personality",
+        "an artist",
+        "a businessperson",
+        "a legend",
+        "the center of the Zeitgeist for the 20th century and everything since",
+        "a post-modern diety"
+      ]
+    },
+    {
+      "id": 16,
+      "doc": "GUM_vlog_studying",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "my",
+        "I",
+        "myself",
+        "me"
+      ]
+    },
+    {
+      "id": 17,
+      "doc": "GUM_bio_higuchi",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Ichiyō Higuchi",
+        "樋口 一葉",
+        "Higuchi Ichiyō",
+        "Japanese author Natsu Higuchi",
+        "樋口 奈津",
+        "Higuchi Natsu",
+        "Natsuko Higuchi",
+        "樋口 夏子",
+        "Higuchi Natsuko",
+        "one of the first important writers to appear in the Meiji period ( 1868 - 1912 )",
+        "Japan 's first prominent woman writer of modern times",
+        "Higuchi",
+        "this poet - turned - fiction - writer",
+        "Higuchi 's",
+        "a promising new author",
+        "the third woman to appear on a Japanese banknote"
+      ]
+    },
+    {
+      "id": 18,
+      "doc": "GUM_speech_destiny",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "representatives",
+        "sharers in their good [ or ] ill fortune alike",
+        "citizens of a great country on the verge of bold advance",
+        "All of us",
+        "the children of India with equal rights , privileges and obligations"
+      ]
+    },
+    {
+      "id": 19,
+      "doc": "GUM_conversation_grounded",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "your",
+        "I",
+        "You",
+        "my",
+        "me",
+        "she",
+        "her"
+      ]
+    },
+    {
+      "id": 20,
+      "doc": "GUM_whow_procrastinating",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "you",
+        "your",
+        "yourself",
+        "me"
+      ]
+    },
+    {
+      "id": 21,
+      "doc": "GUM_bio_gordon",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Patrick Gordon",
+        "Patrick Leopold Gordon of Auchleuchries",
+        "a general and rear admiral in Russia , of Scottish origin",
+        "principal advisor and close friend of Tsar Peter the Great",
+        "Gordon",
+        "a Roman Catholic",
+        "a lifelong Roman Catholic",
+        "a soldier of fortune",
+        "major - general",
+        "lieutenant - general",
+        "a full general",
+        "Gordon 's",
+        "the main benefactor",
+        "General Gordon",
+        "General Patrick Gordon of Auchleuchries"
+      ]
+    },
+    {
+      "id": 22,
+      "doc": "GUM_fiction_frankenstein",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "her brother",
+        "the concerned big brother",
+        "Nice big brother with retarded sister"
+      ]
+    },
+    {
+      "id": 23,
+      "doc": "GUM_bio_marbles",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Jenna Marbles",
+        "Jenna Nicole Mourey ( born September 15 , 1986 [ 1 ] [ 2 ] ) , better known by her pseudonym Jenna Marbles",
+        "an American YouTube personality",
+        "vlogger",
+        "comedian",
+        "actress",
+        "Marbles",
+        "the first social media star",
+        "Jenna 's",
+        "Marbles 's",
+        "the first ever YouTube star to be immortalized at Madame Tussauds New York",
+        "Jenna",
+        "an executive producer for Maximum Ride , a film based on the series of novels of the same name by James Patterson",
+        "a full - time vegan"
+      ]
+    },
+    {
+      "id": 24,
+      "doc": "GUM_fiction_honour",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "the pilot",
+        "Jacques Chalmers",
+        "one of the most panicked",
+        "Chalmers"
+      ]
+    },
+    {
+      "id": 25,
+      "doc": "GUM_court_carpet",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Mitchell Roberts",
+        "Mr. Roberts",
+        "a licensed contractor",
+        "his nephew",
+        "Nick Ro- Roberts ' nephew",
+        "one of them that we used , on the job",
+        "Mitchell 's"
+      ]
+    },
+    {
+      "id": 26,
+      "doc": "GUM_bio_jespersen",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Otto Jespersen",
+        "Jens Otto Harry Jespersen",
+        "ʌtˢo ˈjɛsb̥ɐsn̩",
+        "a Danish linguist who specialized in the grammar of the English language",
+        "a boy",
+        "a schoolteacher",
+        "a shorthand reporter",
+        "Jespersen",
+        "a professor of English at the University of Copenhagen",
+        "Rector of the university",
+        "someone with another native language",
+        "a proponent of phonosemanticism",
+        "president of the Fourth International Congress of Linguists in Copenhagen",
+        "an important figure in the international language movement",
+        "an early supporter of the Esperanto offshoot Ido",
+        "one of the first six international scholars to be elected as honorary members of the Linguistic Society of America"
+      ]
+    },
+    {
+      "id": 27,
+      "doc": "GUM_textbook_grit",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "an informed learner"
+      ]
+    },
+    {
+      "id": 28,
+      "doc": "GUM_vlog_hiking",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "we",
+        "our",
+        "us"
+      ]
+    },
+    {
+      "id": 29,
+      "doc": "GUM_vlog_radiology",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "me",
+        "I",
+        "my"
+      ]
+    },
+    {
+      "id": 30,
+      "doc": "GUM_conversation_artist",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "I",
+        "my",
+        "me",
+        "you",
+        "mine"
+      ]
+    },
+    {
+      "id": 31,
+      "doc": "GUM_vlog_hair",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Shawntas"
+      ]
+    },
+    {
+      "id": 32,
+      "doc": "GUM_whow_languages",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "your",
+        "You",
+        "yours",
+        "yourself"
+      ]
+    },
+    {
+      "id": 33,
+      "doc": "GUM_bio_holt",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Brock Holt",
+        "Holt",
+        "No. 12",
+        "Second baseman",
+        "Shortstop",
+        "Outfielder",
+        "Brock Wyatt Holt ( born June 11 , 1988 )",
+        "an American professional baseball second baseman , shortstop and outfielder for the Boston Red Sox of Major League Baseball ( MLB )",
+        "an infielder",
+        "a second - team All - District 8 - 4A inclusion",
+        "defensive player of the year",
+        "the MVP of the Eastern League All - Star Game",
+        "only the second Pirates player since 1900 to have a four - hit game within his first four career games in the majors"
+      ]
+    },
+    {
+      "id": 34,
+      "doc": "GUM_bio_theodorus",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Theodorus of Tabennese",
+        "Theodorus of Tabennese ( c. 314 – 368 ) , also known as Abba Theodorus",
+        "Abba Theodorus and Theodore the Sanctified",
+        "Theodore the Sanctified",
+        "the spiritual successor to Pachomius",
+        "St. Theodorus of Tabennese",
+        "Theodorus",
+        "the \" brothers ’ comforter \"",
+        "a prominent figure at Tabennese",
+        "steward of Tabennese",
+        "the would - be leader",
+        "the ambitious young man",
+        "his former protégé",
+        "the clearly qualified Theodorus",
+        "the popular Theodorus",
+        "the new de facto leader"
+      ]
+    },
+    {
+      "id": 35,
+      "doc": "GUM_conversation_risk",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Smart ass",
+        "my ass",
+        "Loser",
+        "your butt",
+        "buddy",
+        "You ass",
+        "You asshole"
+      ]
+    },
+    {
+      "id": 36,
+      "doc": "GUM_letter_sacco",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Cannon",
+        "James Cannon who organized the International Labor Defense to aid Sacco and Vanzetti",
+        "James Cannon",
+        "the International Labor Defense ’s executive secretary",
+        "James P. Cannon",
+        "Mr. James P. Cannon",
+        "Mr. Cannon",
+        "JPC"
+      ]
+    },
+    {
+      "id": 37,
+      "doc": "GUM_interview_shalev",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Israeli mathematician and writer Aner Shalev",
+        "Aner Shalev",
+        "an Israeli mathematician and writer born in 1958 in Kibbutz Kinneret , Tiberias",
+        "Shalev",
+        "a Professor at Hebrew University of Jerusalem 's Einstein Institute of Mathematics",
+        "a mathematician"
+      ]
+    },
+    {
+      "id": 38,
+      "doc": "GUM_bio_bernoulli",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Daniel Bernoulli",
+        "Daniel Bernoulli FRS",
+        "a Swiss mathematician and physicist",
+        "one of the many prominent mathematicians in the Bernoulli family",
+        "Bernoulli 's",
+        "Daniel",
+        "a son of Johann Bernoulli ( one of the \" early developers \" of calculus )",
+        "a nephew of Jacob Bernoulli ( who \" was the first to discover the theory of probability \" )",
+        "by far the ablest of the younger Bernoullis",
+        "Daniel 's",
+        "a contemporary and close friend of Leonhard Euler",
+        "professor of mathematics",
+        "a Fellow of the Royal Society",
+        "Bernoulli"
+      ]
+    },
+    {
+      "id": 39,
+      "doc": "GUM_fiction_wedding",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Christian Rosencreutz",
+        "Christian ’s",
+        "the purported author of a book called The Chemical Wedding",
+        "an old man who needed his rest"
+      ]
+    },
+    {
+      "id": 40,
+      "doc": "GUM_fiction_sneeze",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "noggins"
+      ]
+    },
+    {
+      "id": 41,
+      "doc": "GUM_bio_moreau",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Jeanne Moreau",
+        "Moreau in 1958",
+        "[ ʒan mɔʁo ]",
+        "a French actress , singer , screenwriter and director",
+        "the recipient of several lifetime awards , including a BAFTA Fellowship in 1996 , Cannes Golden Palm in 2003 and César Award in 2008",
+        "Moreau",
+        "one of the leading actresses of the Comédie - Française",
+        "the star of Elevator to the Gallows ( 1958 ) , directed by Louis Malle , and Jules et Jim ( 1962 ) , directed by François Truffaut",
+        "the daughter of Katherine ( née Buckley ) , a dancer who performed at the Folies Bergère ( d. 1990 ) , and Anatole - Désiré Moreau , a restaurateur ( d. 1975 )",
+        "Moreau 's",
+        "a young girl",
+        "Jeanne 's",
+        "one of leading actresses in the theatre 's troupe",
+        "head of the jury at the 33rd Berlin International Film Festival",
+        "a vocalist",
+        "a writer , director and producer"
+      ]
+    },
+    {
+      "id": 42,
+      "doc": "GUM_fiction_oversite",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "My",
+        "I",
+        "me"
+      ]
+    },
+    {
+      "id": 43,
+      "doc": "GUM_podcast_mealprep",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "you",
+        "your"
+      ]
+    },
+    {
+      "id": 44,
+      "doc": "GUM_bio_dvorak",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Antonín Dvořák",
+        "Antonín Leopold Dvořák",
+        "d(ə)ˈvɔːrʒɑːk , -ʒæk",
+        "d(ə)-VOR-zha(h)k",
+        "ˈantoɲiːn ˈlɛopolt ˈdvor̝aːk",
+        "a Czech composer",
+        "the next Czech Romantic - era composer to achieve worldwide recognition",
+        "Dvořák",
+        "Dvořák 's",
+        "an apt violin student",
+        "a professor at the Prague Conservatory",
+        "the director of the National Conservatory of Music of America in New York City"
+      ]
+    },
+    {
+      "id": 45,
+      "doc": "GUM_conversation_blacksmithing",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Mae",
+        "Mae Lynne"
+      ]
+    },
+    {
+      "id": 46,
+      "doc": "GUM_conversation_toys",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Mom",
+        "Poor mom",
+        "a little girl",
+        "a mess"
+      ]
+    },
+    {
+      "id": 47,
+      "doc": "GUM_speech_inauguration",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "my fellow citizens",
+        "our fellow citizens",
+        "a united people pledged to maintaining a political system which guarantees individual liberty to a greater degree than any other",
+        "Americans",
+        "All of us together , in and out of government",
+        "all Americans"
+      ]
+    },
+    {
+      "id": 48,
+      "doc": "GUM_vlog_portland",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Katie",
+        "an adult"
+      ]
+    },
+    {
+      "id": 49,
+      "doc": "GUM_conversation_lambada",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "you",
+        "I",
+        "my",
+        "me"
+      ]
+    },
+    {
+      "id": 50,
+      "doc": "GUM_speech_nixon",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "President",
+        "the President",
+        "your President"
+      ]
+    },
+    {
+      "id": 51,
+      "doc": "GUM_whow_joke",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "you",
+        "your",
+        "yourself"
+      ]
+    },
+    {
+      "id": 52,
+      "doc": "GUM_bio_byron",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Byron",
+        "An undistinguished student",
+        "an unskilled cricketer",
+        "the boy",
+        "Byron 's"
+      ]
+    },
+    {
+      "id": 53,
+      "doc": "GUM_fiction_rose",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Rachel Rook",
+        "a generous girl",
+        "a girl who took off her clothes with abandon",
+        "someone",
+        "The girl who stood before the tall desk"
+      ]
+    },
+    {
+      "id": 54,
+      "doc": "GUM_podcast_library",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "my listeners",
+        "listeners"
+      ]
+    },
+    {
+      "id": 55,
+      "doc": "GUM_speech_trump",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "we as a country",
+        "a group of people"
+      ]
+    },
+    {
+      "id": 56,
+      "doc": "GUM_conversation_gossip",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "this child",
+        "Jito",
+        "a righty",
+        "Child"
+      ]
+    },
+    {
+      "id": 57,
+      "doc": "GUM_vlog_lipstick",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "me",
+        "I"
+      ]
+    },
+    {
+      "id": 58,
+      "doc": "GUM_essay_system",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "the architect",
+        "the one who actually designed it"
+      ]
+    },
+    {
+      "id": 59,
+      "doc": "GUM_letter_travel",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Dear Miss Paget",
+        "a reader"
+      ]
+    },
+    {
+      "id": 60,
+      "doc": "GUM_news_imprisoned",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Australian woman",
+        "Valeska Paris",
+        "an Australian woman and former Scientologist",
+        "Paris",
+        "a teenager",
+        "Paris 's",
+        "a walking zombie",
+        "a volunteer"
+      ]
+    },
+    {
+      "id": 61,
+      "doc": "GUM_conversation_zero",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "I",
+        "you",
+        "me"
+      ]
+    },
+    {
+      "id": 62,
+      "doc": "GUM_fiction_veronique",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "a hero"
+      ]
+    },
+    {
+      "id": 63,
+      "doc": "GUM_voyage_lodz",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Łódź",
+        "Poland 's third biggest city",
+        "the capital of the Łódzkie Voivodship",
+        "an important industrial and commerce centre",
+        "a hub for design and creative industries",
+        "the city",
+        "Łódź 's",
+        "the city 's",
+        "present - day Łódź",
+        "city",
+        "a city",
+        "Łódź today",
+        "the investment - starved city",
+        "a city of 760,000 and agglomeration of 1.428,000"
+      ]
+    },
+    {
+      "id": 64,
+      "doc": "GUM_bio_fillmore",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Charles J. Fillmore",
+        "an American linguist",
+        "Professor of Linguistics at the University of California , Berkeley",
+        "Fillmore",
+        "a Fellow at the Center for Advanced Study in the Behavioral Sciences at Stanford University",
+        "a proponent of Noam Chomsky 's theory of generative grammar",
+        "Fillmore 's",
+        "one of the founders of cognitive linguistics",
+        "President of the Linguistic Society of America"
+      ]
+    },
+    {
+      "id": 65,
+      "doc": "GUM_bio_padalecki",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Jared Padalecki",
+        "Jared Tristan Padalecki ( born July 19 , 1982",
+        "an American actor",
+        "Padalecki",
+        "a 2000 candidate for the Presidential Scholars Program",
+        "Jared",
+        "Padalecki 's",
+        "Padalecki , who has been candid about his own struggles with depression"
+      ]
+    },
+    {
+      "id": 66,
+      "doc": "GUM_court_insanity",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "the Petitioner",
+        "Petitioner",
+        "the Petitier",
+        "P- Petitioner",
+        "Mr. Jones"
+      ]
+    },
+    {
+      "id": 67,
+      "doc": "GUM_bio_enfant",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Pierre Charles L'Enfant",
+        "[ pjɛʁ ʃɑʁl lɑ̃fɑ̃ ]",
+        "Peter Charles L'Enfant",
+        "L'Enfant",
+        "a French - born American military engineer who designed the basic plan for Washington , D.C. ( capital city of the U.S. ) known today as the L'Enfant Plan ( 1791 )",
+        "the third child and second son of Pierre L'Enfant ( 1704 – 1787 ) , a painter with a good reputation in the service of King Louis XV of France , ( 1710 - 1774 , reigned 1715 - 1774 ) , and Marie L'Enfant , the daughter of a minor official at court",
+        "Pierre Charles",
+        "the eldest son",
+        "a military engineer",
+        "a captain in the Corps of Engineers",
+        "a prisoner of war",
+        "Major in the Corps of Engineers",
+        "an architect",
+        "a friend of Alexander Hamilton"
+      ]
+    },
+    {
+      "id": 68,
+      "doc": "GUM_bio_nida",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Eugene Nida",
+        "Eugene A. Nida",
+        "a linguist who developed the dynamic - equivalence Bible - translation theory",
+        "one of the founders of the modern discipline of Translation Studies",
+        "Nida",
+        "a Christian",
+        "a founding charter member of Wycliffe Bible Translators",
+        "interim pastor of Calvary Church of Santa Ana , California",
+        "a Baptist minister",
+        "a pioneer in the fields of translation theory and linguistics",
+        "Nida 's"
+      ]
+    },
+    {
+      "id": 69,
+      "doc": "GUM_letter_cricket",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "My",
+        "I",
+        "me",
+        "you",
+        "your"
+      ]
+    },
+    {
+      "id": 70,
+      "doc": "GUM_news_defector",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Scientology defector",
+        "a defector from the elite group within Scientology",
+        "Daniel Montalvo",
+        "Montalvo",
+        "a member of Scientology all his life",
+        "Daniel",
+        "a 19 year old who does not even know the three branches of government",
+        "the kid"
+      ]
+    },
+    {
+      "id": 71,
+      "doc": "GUM_textbook_evoethics",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "we",
+        "our",
+        "us"
+      ]
+    },
+    {
+      "id": 72,
+      "doc": "GUM_voyage_athens",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Athens",
+        "the capital city of Greece",
+        "the birthplace of Classical Greece",
+        "the capital of independent Greece",
+        "the city proper",
+        "the city 's",
+        "a small provincial village",
+        "the national capital of the modern Greek State",
+        "the national capital",
+        "The city",
+        "a very attractive cosmopolitan city"
+      ]
+    },
+    {
+      "id": 73,
+      "doc": "GUM_whow_parachute",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "your",
+        "you",
+        "yourself"
+      ]
+    },
+    {
+      "id": 74,
+      "doc": "GUM_vlog_london",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Kharma Medic"
+      ]
+    },
+    {
+      "id": 75,
+      "doc": "GUM_whow_flirt",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "you",
+        "your",
+        "yourself",
+        "my",
+        "I"
+      ]
+    },
+    {
+      "id": 76,
+      "doc": "GUM_bio_chao",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Chao",
+        "a classmate and lifelong friend of Hu Shih , the leader of the New Culture Movement",
+        "Bertrand Russell 's interpreter",
+        "president of the Linguistic Society of America",
+        "an American citizen",
+        "Agassiz Professor of Oriental Languages"
+      ]
+    },
+    {
+      "id": 77,
+      "doc": "GUM_court_nullification",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "the judge",
+        "the judge 's",
+        "the trial judge",
+        "that trial judge 's"
+      ]
+    },
+    {
+      "id": 78,
+      "doc": "GUM_interview_libertarian",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Robert Sarvis",
+        "Libertarian Party nominee for Governor of Virginia",
+        "Attorney Robert Sarvis",
+        "the Libertarian Party 's nominee for Governor of Virginia",
+        "Sarvis",
+        "a third party candidate",
+        "the only candidate born and raised in Virginia",
+        "the only candidate who embodies both physically and philosophically the growing diversity of the commonwealth",
+        "the only candidate who has studied both economics and law",
+        "the only candidate with a background in technology entrepreneurship",
+        "the only candidate who believes in both economic freedom and personal liberty",
+        "the only candidate who stands on principle against cronyism and corporatism and in favor of the rule of law"
+      ]
+    },
+    {
+      "id": 79,
+      "doc": "GUM_speech_remarks",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "a Democrat",
+        "one who believes in the Democratic Party",
+        "one who believes that the Democratic Party has meant progress for this city , this State , and this country",
+        "a candidate",
+        "a citizen"
+      ]
+    },
+    {
+      "id": 80,
+      "doc": "GUM_conversation_christmas",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Dad",
+        "babe"
+      ]
+    },
+    {
+      "id": 81,
+      "doc": "GUM_essay_evolved",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "people",
+        "Each of us",
+        "’s"
+      ]
+    },
+    {
+      "id": 82,
+      "doc": "GUM_interview_hill",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Christopher Hill",
+        "U.S. Republican Party presidential candidate",
+        "an Officer in the United States Air Force",
+        "a young man in Air Force ROTC",
+        "Hill"
+      ]
+    },
+    {
+      "id": 83,
+      "doc": "GUM_letter_flood",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "CONGRESSMAN 'S",
+        "JAMES ABOUREZK",
+        "Member of Congress"
+      ]
+    },
+    {
+      "id": 84,
+      "doc": "GUM_podcast_wrestling",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "folks"
+      ]
+    },
+    {
+      "id": 85,
+      "doc": "GUM_vlog_mermaid",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Jackie"
+      ]
+    },
+    {
+      "id": 86,
+      "doc": "GUM_voyage_fortlee",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Fort Lee",
+        "a city in Bergen County",
+        "This town",
+        "a small town",
+        "the first town on the New Jersey side of the bridge",
+        "the town ’s",
+        "Fort Lee 's",
+        "borough"
+      ]
+    },
+    {
+      "id": 87,
+      "doc": "GUM_interview_dungeon",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "My husband"
+      ]
+    },
+    {
+      "id": 88,
+      "doc": "GUM_letter_arendt",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "the inveterate and proverbial busman",
+        "Regent",
+        "Bill"
+      ]
+    },
+    {
+      "id": 89,
+      "doc": "GUM_podcast_movie",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "you guys"
+      ]
+    },
+    {
+      "id": 90,
+      "doc": "GUM_voyage_york",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "York",
+        "an ancient cathedral city with a history that dates back to before Roman times",
+        "the second most visited city in England",
+        "the fortress city",
+        "home first to the Ninth Legion and home later to the Sixth",
+        "one of the most important cities in Roman Britain",
+        "the capital of the province Britannia Inferior",
+        "the city",
+        "a centre of Viking trade and settlement in northern England",
+        "a fairly small city",
+        "a city that reveals its charms to explorers with curiosity and patience",
+        "England 's \" City of Festivals \"",
+        "a romantic city for a weekend break",
+        "a wonderful place to bring children",
+        "city"
+      ]
+    },
+    {
+      "id": 91,
+      "doc": "GUM_whow_chicken",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "a Chicken",
+        "the chicken",
+        "the bird",
+        "the chicken 's",
+        "your feathered friend"
+      ]
+    },
+    {
+      "id": 92,
+      "doc": "GUM_bio_hadid",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Zaha Hadid",
+        "Dame Zaha Mohammad Hadid DBE RA",
+        "زها حديد",
+        "Zahā Ḥadīd",
+        "an Iraqi - British architect",
+        "the first woman to receive the Pritzker Architecture Prize",
+        "a Dame",
+        "the first and only woman to be awarded the Royal Gold Medal from the Royal Institute of British Architects",
+        "the ' Queen of the curve ' , who \" liberated architectural geometry , giving it a whole new expressive identity . \"",
+        "Hadid",
+        "a planet in her own orbit",
+        "the most outstanding pupil he ever taught",
+        "the inventor of the 89 degrees"
+      ]
+    },
+    {
+      "id": 93,
+      "doc": "GUM_essay_fear",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "humans",
+        "we humans",
+        "people"
+      ]
+    },
+    {
+      "id": 94,
+      "doc": "GUM_interview_onion",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "you guys",
+        "each other"
+      ]
+    },
+    {
+      "id": 95,
+      "doc": "GUM_news_clock",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Texas student Ahmed Mohamed",
+        "a boy 's",
+        "Ahmed Mohamed",
+        "a 14 - year - old boy from Irving , Texas",
+        "Mohamed",
+        "student Ahmed Mohamed",
+        "the student",
+        "the boy wearing a NASA T - shirt and handcuffed by the police",
+        "a VIP guest",
+        "his son",
+        "Ahmed",
+        "the boy",
+        "the boy 's"
+      ]
+    },
+    {
+      "id": 96,
+      "doc": "GUM_whow_elevator",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "you",
+        "your",
+        "I",
+        "yourself"
+      ]
+    },
+    {
+      "id": 97,
+      "doc": "GUM_essay_distraction",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "writers"
+      ]
+    },
+    {
+      "id": 98,
+      "doc": "GUM_fiction_falling",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "You",
+        "your",
+        "yourself"
+      ]
+    },
+    {
+      "id": 99,
+      "doc": "GUM_fiction_time",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "I",
+        "myself",
+        "me",
+        "my"
+      ]
+    },
+    {
+      "id": 100,
+      "doc": "GUM_interview_mcguire",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "LibriVox founder Hugh McGuire",
+        "Hugh McGuire"
+      ]
+    },
+    {
+      "id": 101,
+      "doc": "GUM_podcast_multitasking",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "me",
+        "I",
+        "you",
+        "your"
+      ]
+    },
+    {
+      "id": 102,
+      "doc": "GUM_conversation_atoms",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "folks",
+        "guys",
+        "everybody",
+        "you people"
+      ]
+    },
+    {
+      "id": 103,
+      "doc": "GUM_fiction_claus",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Mrs. Claus",
+        "his wife",
+        "doll",
+        "Betty ’s",
+        "Moroz"
+      ]
+    },
+    {
+      "id": 104,
+      "doc": "GUM_interview_herrick",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "wikiHow",
+        "a wiki - based site which aims to \" build the world 's largest , highest quality how - to manual . \"",
+        "the site",
+        "the site 's",
+        "his site",
+        "your site",
+        "a collaborative effort to build the world 's largest , highest quality how - to manual",
+        "the most popular single subject wiki after Wikipedia",
+        "the 135th most popular site",
+        "a wiki that runs on Mediawiki software",
+        "our site",
+        "the 135th most popular site in the US"
+      ]
+    },
+    {
+      "id": 105,
+      "doc": "GUM_interview_herrick",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "a Hybrid Organization",
+        "a for-profit company focused on achieving a social good",
+        "wikiHow",
+        "the company"
+      ]
+    },
+    {
+      "id": 106,
+      "doc": "GUM_letter_marcie2",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Miss Marcie Rickenbacker",
+        "a good girl",
+        "Marcie"
+      ]
+    },
+    {
+      "id": 107,
+      "doc": "GUM_fiction_moon",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "I",
+        "me",
+        "my"
+      ]
+    },
+    {
+      "id": 108,
+      "doc": "GUM_news_homeopathic",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "daughter 's",
+        "their nine - month - old child",
+        "Gloria",
+        "the child",
+        "his daughter",
+        "His daughter 's",
+        "the baby",
+        "Gloria 's",
+        "their child 's",
+        "their child"
+      ]
+    },
+    {
+      "id": 109,
+      "doc": "GUM_speech_maiden",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "We",
+        "our",
+        "us"
+      ]
+    },
+    {
+      "id": 110,
+      "doc": "GUM_conversation_family",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "toi"
+      ]
+    },
+    {
+      "id": 111,
+      "doc": "GUM_fiction_teeth",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "We all",
+        "The bunch that no one picked for their side at football or hockey",
+        "each other",
+        "friends",
+        "a group bonded by the common experience of being able to see our teeth on Steven ’s shelf"
+      ]
+    },
+    {
+      "id": 112,
+      "doc": "GUM_interview_cocktail",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Santorum cocktail",
+        "Santorum",
+        "a popular new politically - themed cocktail drink called Santorum",
+        "The beverage",
+        "the Santorum cocktail",
+        "a Santorum",
+        "the Santorum drink",
+        "the new santorum cocktail",
+        "My Santorum",
+        "the Santorum cocktail drink as a finished product",
+        "a cocktail",
+        "a delicious drink that mimicked the appearance of the Dan Savage meaning of \" santorum . \"",
+        "Your Santorum cocktail creation",
+        "a topical and funny new cocktail for our customers to laugh about and enjoy",
+        "the cocktail",
+        "the drink"
+      ]
+    },
+    {
+      "id": 113,
+      "doc": "GUM_podcast_llms",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Mr. Large Language Model"
+      ]
+    },
+    {
+      "id": 114,
+      "doc": "GUM_voyage_tulsa",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Tulsa",
+        "T - town",
+        "the \" Oil Capital of the World \"",
+        "The city",
+        "their city",
+        "a booming city",
+        "Tulsa 's"
+      ]
+    },
+    {
+      "id": 115,
+      "doc": "GUM_court_property",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Bradley Sova",
+        "Counselor",
+        "Mr. Sova"
+      ]
+    },
+    {
+      "id": 116,
+      "doc": "GUM_fiction_pixies",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "the one who likes to take baths",
+        "Jenna McMasters in 5C"
+      ]
+    },
+    {
+      "id": 117,
+      "doc": "GUM_podcast_muskoka",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "I",
+        "you",
+        "your",
+        "my"
+      ]
+    },
+    {
+      "id": 118,
+      "doc": "GUM_textbook_spacetime",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "’s"
+      ]
+    },
+    {
+      "id": 119,
+      "doc": "GUM_whow_ballet",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "you",
+        "yourself",
+        "your"
+      ]
+    },
+    {
+      "id": 120,
+      "doc": "GUM_whow_mice",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "your",
+        "you"
+      ]
+    },
+    {
+      "id": 121,
+      "doc": "GUM_court_equality",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Dr. Guruswamy",
+        "a member of the SCBA Bar"
+      ]
+    },
+    {
+      "id": 122,
+      "doc": "GUM_interview_daly",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Marymegan Daly",
+        "Daly"
+      ]
+    },
+    {
+      "id": 123,
+      "doc": "GUM_interview_gaming",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Mario J. Lucero and Isabel Ruiz of Heaven Sent Gaming",
+        "you two",
+        "Isabel and I"
+      ]
+    },
+    {
+      "id": 124,
+      "doc": "GUM_whow_skittles",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "you",
+        "your"
+      ]
+    },
+    {
+      "id": 125,
+      "doc": "GUM_academic_eegimaa",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "GUJJOLAAY EEGIMAA",
+        "the Gújjolaay Eegimaa",
+        "Eegimaa for short",
+        "the Eegimaa language",
+        "Eegimaa",
+        "a Jóola language",
+        "The Eegimaa spoken in Mof-Ávvi",
+        "their language",
+        "their Jóola variety",
+        "an endangered language whose transmission to new generations"
+      ]
+    },
+    {
+      "id": 126,
+      "doc": "GUM_bio_goode",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Matthew Goode",
+        "Matthew William Goode ( born 3 April 1978 )",
+        "an English character actor",
+        "Goode",
+        "the youngest of five children with a brother , two half - brothers , and a half - sister , television presenter Sally Meen , from his mother 's previous marriage"
+      ]
+    },
+    {
+      "id": 127,
+      "doc": "GUM_news_iodine",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "iodine",
+        "the mineral",
+        "enough iodine"
+      ]
+    },
+    {
+      "id": 128,
+      "doc": "GUM_vlog_pizzeria",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "a good teacher",
+        "the beautiful cook",
+        "The beautiful pizza maker",
+        "Pizza Princess"
+      ]
+    },
+    {
+      "id": 129,
+      "doc": "GUM_voyage_socotra",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Socotra",
+        "The Island",
+        "a perfect destination for the adventurous and nature loving travelers",
+        "this island",
+        "a beautiful and magnificent destination choice",
+        "an eco - tourism system with limited infrastructure",
+        "a fairly new eco - tourism destination",
+        "the jewel of biodiversity in the Arabian Sea",
+        "Socotra Island",
+        "Socotra 's"
+      ]
+    },
+    {
+      "id": 130,
+      "doc": "GUM_whow_packing",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Your",
+        "you"
+      ]
+    },
+    {
+      "id": 131,
+      "doc": "GUM_court_fire",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Debbie 's",
+        "Debbie"
+      ]
+    },
+    {
+      "id": 132,
+      "doc": "GUM_interview_chomsky",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "US political activist and philosopher Noam Chomsky",
+        "Political activist and philosopher Noam Chomsky",
+        "Noam Chomsky",
+        "a professor emeritus at Massachusetts Institute of Technology in Linguistics and Philosophy",
+        "one of the first opponents of the Vietnam War",
+        "a self - described Libertarian Socialist",
+        "Professor Chomsky",
+        "the eighth most cited scholar of all time"
+      ]
+    },
+    {
+      "id": 133,
+      "doc": "GUM_textbook_cognition",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "you",
+        "your"
+      ]
+    },
+    {
+      "id": 134,
+      "doc": "GUM_academic_replication",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Replication",
+        "replications"
+      ]
+    },
+    {
+      "id": 135,
+      "doc": "GUM_conversation_retirement",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "me",
+        "You",
+        "I",
+        "your"
+      ]
+    },
+    {
+      "id": 136,
+      "doc": "GUM_letter_wiki",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "The Pennsylvania State University",
+        "Penn State",
+        "University",
+        "the University",
+        "the University 's",
+        "Penn State 's"
+      ]
+    },
+    {
+      "id": 137,
+      "doc": "GUM_voyage_chatham",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "The Chatham Islands",
+        "The Chatnam Islands",
+        "Rekohu",
+        "the eastern - most settled islands in New Zealand",
+        "The islands",
+        "these islands",
+        "the Chathams",
+        "there"
+      ]
+    },
+    {
+      "id": 138,
+      "doc": "GUM_essay_ghost",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "The 1995 Anime",
+        "Ghost in the Shell",
+        "the anime movie",
+        "Ghost",
+        "one of twelve science fiction movies that feature in a new book that grapples with the complex intersection between emerging technologies and social responsibility",
+        "a “ meditation on consciousness and the philosophy of the self ”",
+        "the film",
+        "Ghost ’s",
+        "a powerful canvas on which to explore challenges that often transcend conventional thinking , and play out at the borders of our moral and ethical understanding"
+      ]
+    },
+    {
+      "id": 139,
+      "doc": "GUM_fiction_garden",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "each other"
+      ]
+    },
+    {
+      "id": 140,
+      "doc": "GUM_speech_floyd",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Pelosi",
+        "Speaker Nancy Pelosi",
+        "the Speaker ’s",
+        "Speaker Pelosi",
+        "Madam Speaker"
+      ]
+    },
+    {
+      "id": 141,
+      "doc": "GUM_voyage_isfahan",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Isfahan",
+        "اصفهان",
+        "Esfahan",
+        "a city in central Iran , south of Tehran",
+        "the capital of Isfahan Province",
+        "one of the most beautiful cities in the world",
+        "An ancient town",
+        "capital of Persia from 1598 to 1722",
+        "one of the highlights of Iran",
+        "The city"
+      ]
+    },
+    {
+      "id": 142,
+      "doc": "GUM_court_crash",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "the defendant",
+        "defendant 's",
+        "the defendant 's"
+      ]
+    },
+    {
+      "id": 143,
+      "doc": "GUM_interview_ants",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Biologist Nick Bos",
+        "Nick Bos",
+        "Bos"
+      ]
+    },
+    {
+      "id": 144,
+      "doc": "GUM_interview_cyclone",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Cyclone Phalin",
+        "Cyclone Phailin",
+        "T C Phailin",
+        "this swirling system",
+        "the storm",
+        "the Cyclone",
+        "Phailin 's",
+        "this cyclone",
+        "the present storm",
+        "this storm",
+        "Phailin"
+      ]
+    },
+    {
+      "id": 145,
+      "doc": "GUM_letter_gorbachev",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "land",
+        "the land they use"
+      ]
+    },
+    {
+      "id": 146,
+      "doc": "GUM_news_afghan",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "all - girl Afghan team",
+        "A group of Afghan teenagers",
+        "The six - member Afghan team , which consists entirely of girls",
+        "the team",
+        "this team",
+        "the Afghan team 's",
+        "Afghan Girls",
+        "team",
+        "the entire team"
+      ]
+    },
+    {
+      "id": 147,
+      "doc": "GUM_podcast_bangladesh",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "What you 're hearing",
+        "Mangal Shobhajatra",
+        "an annual procession of thousands of people that takes over the streets of Bangladesh 's capital city , Dhaka",
+        "a very festive affair",
+        "this parade",
+        "intangible cultural heritage",
+        "a creative stand for unity and against the forces of intolerance who seek to divide and oppress Bangladeshis",
+        "Bangladesh 's Mangal Shobhajatra",
+        "its unique New Year 's procession",
+        "Mangal sh-",
+        "The procession",
+        "one of the go go to things that -- uh , during the New Year celebration"
+      ]
+    },
+    {
+      "id": 148,
+      "doc": "GUM_podcast_collaboration",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "you",
+        "your",
+        "I"
+      ]
+    },
+    {
+      "id": 149,
+      "doc": "GUM_voyage_phoenix",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Phoenix",
+        "the capital of the state of Arizona",
+        "the most populous city in the American Southwest and sixth largest city in the United States",
+        "the region 's primary political , cultural , economic , and transportation center",
+        "the city",
+        "The city 's",
+        "a city \" reborn from the ashes \" of the previous settlement",
+        "a center for irrigation - based agriculture",
+        "a place to be"
+      ]
+    },
+    {
+      "id": 150,
+      "doc": "GUM_whow_quinoa",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "1 cup quinoa",
+        "the grains of quinoa",
+        "the measured grain",
+        "the grains",
+        "quinoa",
+        "the quinoa",
+        "one part of quinoa",
+        "the grain",
+        "the quinoa grain",
+        "a substitute for rice",
+        "1 cup of quinoa"
+      ]
+    },
+    {
+      "id": 151,
+      "doc": "GUM_court_mental",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "T. W.",
+        "appellant and respondent T. W.",
+        "T. W. 's"
+      ]
+    },
+    {
+      "id": 152,
+      "doc": "GUM_essay_merit",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "admissions",
+        "college admissions",
+        "admission",
+        "when a student is reported to have gained admission to all the Ivies",
+        "a rare , unexpected event"
+      ]
+    },
+    {
+      "id": 153,
+      "doc": "GUM_interview_brotherhood",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "President of the International Brotherhood of Magicians",
+        "William Evans",
+        "International President"
+      ]
+    },
+    {
+      "id": 154,
+      "doc": "GUM_voyage_sydfynske",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "you",
+        "your"
+      ]
+    },
+    {
+      "id": 155,
+      "doc": "GUM_court_negligence",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Julie Rosenthal",
+        "Miss Rosenthal"
+      ]
+    },
+    {
+      "id": 156,
+      "doc": "GUM_essay_fracking",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Plastic",
+        "plastic , most of which is also going to become waste"
+      ]
+    },
+    {
+      "id": 157,
+      "doc": "GUM_fiction_lunre",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "My",
+        "me",
+        "I"
+      ]
+    },
+    {
+      "id": 158,
+      "doc": "GUM_speech_data",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "The government",
+        "'s",
+        "national government",
+        "co-creators"
+      ]
+    },
+    {
+      "id": 159,
+      "doc": "GUM_textbook_union",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "The Union",
+        "the North",
+        "The North ’s",
+        "Union",
+        "Union ’s"
+      ]
+    },
+    {
+      "id": 160,
+      "doc": "GUM_vlog_wine",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sir"
+      ]
+    },
+    {
+      "id": 161,
+      "doc": "GUM_voyage_thailand",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "a foreign visitor"
+      ]
+    },
+    {
+      "id": 162,
+      "doc": "GUM_academic_enjambment",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Enjambment",
+        "Enjambment in Spanish",
+        "encabalgamiento",
+        "enjambment proper"
+      ]
+    },
+    {
+      "id": 163,
+      "doc": "GUM_court_prince",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "I",
+        "you",
+        "your",
+        "we",
+        "our"
+      ]
+    },
+    {
+      "id": 164,
+      "doc": "GUM_letter_marcie",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Marcie"
+      ]
+    },
+    {
+      "id": 165,
+      "doc": "GUM_voyage_cleveland",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Cleveland",
+        "a culturally diverse city on the shores of Lake Erie , one of the Great Lakes , in Cuyahoga County , Ohio , USA",
+        "the urban center of Northeast Ohio , the 15th largest combined metropolitan area in the United States",
+        "the City of Cleveland proper",
+        "Cleveland proper",
+        "Cleveland 's",
+        "the city"
+      ]
+    },
+    {
+      "id": 166,
+      "doc": "GUM_whow_glowstick",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "kids"
+      ]
+    },
+    {
+      "id": 167,
+      "doc": "GUM_podcast_brave",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Brenda Chapman",
+        "Brenda",
+        "the general"
+      ]
+    },
+    {
+      "id": 168,
+      "doc": "GUM_speech_telescope",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "President Biden",
+        "President Joe Biden",
+        "our President",
+        "Joe Biden",
+        "a leader who has always believed in the power of American innovation and international cooperation to achieve the remarkable",
+        "the President of the United States",
+        "THE PRESIDENT"
+      ]
+    },
+    {
+      "id": 169,
+      "doc": "GUM_voyage_coron",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Coron",
+        "the largest town on the island",
+        "the largest town on the island of Busuanga",
+        "that Coron",
+        "a town",
+        "the town",
+        "the municipality",
+        "a small , quaint fishing town"
+      ]
+    },
+    {
+      "id": 170,
+      "doc": "GUM_voyage_merida",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Mérida",
+        "the capital of the state of Yucatán in Mexico",
+        "the largest city in the Yucatán Peninsula",
+        "a city of contrasts",
+        "the city",
+        "town",
+        "Progressive Mérida",
+        "a more sleepy provincial capital",
+        "The city 's",
+        "City"
+      ]
+    },
+    {
+      "id": 171,
+      "doc": "GUM_whow_overalls",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "you",
+        "Your"
+      ]
+    },
+    {
+      "id": 172,
+      "doc": "GUM_conversation_scientist",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Ya"
+      ]
+    },
+    {
+      "id": 173,
+      "doc": "GUM_fiction_giants",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "I",
+        "my",
+        "me",
+        "You",
+        "yourself"
+      ]
+    },
+    {
+      "id": 174,
+      "doc": "GUM_interview_peres",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Shimon Peres",
+        "Mr. President",
+        "a Nobel Peace Prize recipient",
+        "one of the fathers of the modern peace process in Israel",
+        "Peres"
+      ]
+    },
+    {
+      "id": 175,
+      "doc": "GUM_letter_attorney",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "the letters",
+        "the property of Isabelle",
+        "these letters",
+        "hot merchandise",
+        "these stolen letters",
+        "these stolen letters , now apparently determined to be the property of Isabelle"
+      ]
+    },
+    {
+      "id": 176,
+      "doc": "GUM_news_ie9",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Internet Explorer 6",
+        "IE6",
+        "the antiquated 10 - year - old browser",
+        "a browser",
+        "the browser",
+        "Microsoft 's Internet Explorer 6",
+        "one of the most successful software products ever"
+      ]
+    },
+    {
+      "id": 177,
+      "doc": "GUM_podcast_addiction",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "you",
+        "your"
+      ]
+    },
+    {
+      "id": 178,
+      "doc": "GUM_podcast_blackholes",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Kevin"
+      ]
+    },
+    {
+      "id": 179,
+      "doc": "GUM_letter_marcie3",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Miss Marcie Rickenbacker",
+        "Marcie"
+      ]
+    },
+    {
+      "id": 180,
+      "doc": "GUM_textbook_stats",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "the third quartile",
+        "Q 3",
+        "the 75th percentile",
+        "9",
+        "the middle value , or median , of the upper half of the data",
+        "the median of the upper half",
+        "the middle value of the upper half",
+        "third quartile"
+      ]
+    },
+    {
+      "id": 181,
+      "doc": "GUM_interview_stardust",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "samples",
+        "the microscopically small samples the capsule collected",
+        "a sample",
+        "the first solid samples from the local interstellar medium",
+        "a sample of the Galaxy",
+        "these interstellar dust particles",
+        "particle",
+        "the interstellar dust particles",
+        "interstellar dust particles",
+        "the samples",
+        "the particles"
+      ]
+    },
+    {
+      "id": 182,
+      "doc": "GUM_letter_trade",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "our",
+        "we",
+        "us"
+      ]
+    },
+    {
+      "id": 183,
+      "doc": "GUM_podcast_bezos",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "the world 's richest man",
+        "Bezos 's",
+        "Bezos",
+        "the richest man on Earth",
+        "Jeff Bezos '",
+        "Bezos , who , in completely out of touch fashion , adamantly expressed that we should preserve our , quote , beautiful gem , end quote , also known as Earth , by transporting polluting industries to outer space , something he acknowledged would take , quote , decades to achieve , end quote"
+      ]
+    },
+    {
+      "id": 184,
+      "doc": "GUM_podcast_bezos",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "David McIntosh of the Club for Growth",
+        "Mr. McIntosh",
+        "David McIntosh"
+      ]
+    },
+    {
+      "id": 185,
+      "doc": "GUM_podcast_pandemic",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "a virus of a type called coronavirus",
+        "part of the family of viruses that include the common cold , SARS and MERS",
+        "SARS-CoV-2",
+        "this new virus technically called SARS-CoV-2",
+        "Covid - 19",
+        "the virus",
+        "this virus"
+      ]
+    },
+    {
+      "id": 186,
+      "doc": "GUM_podcast_pandemic",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "you"
+      ]
+    },
+    {
+      "id": 187,
+      "doc": "GUM_speech_open",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "ICT",
+        "Information and Communication Technology"
+      ]
+    },
+    {
+      "id": 188,
+      "doc": "GUM_textbook_alamo",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Texas",
+        "the state",
+        "Texas ’s",
+        "its northern province"
+      ]
+    },
+    {
+      "id": 189,
+      "doc": "GUM_academic_exposure",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "adult - learned second language",
+        "L2",
+        "the L2",
+        "a language",
+        "language"
+      ]
+    },
+    {
+      "id": 190,
+      "doc": "GUM_academic_theropod",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "We",
+        "Our"
+      ]
+    },
+    {
+      "id": 191,
+      "doc": "GUM_conversation_erasmus",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Erasmus",
+        "you alone",
+        "an Erasmus who writes against you"
+      ]
+    },
+    {
+      "id": 192,
+      "doc": "GUM_conversation_erasmus",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Luther"
+      ]
+    },
+    {
+      "id": 193,
+      "doc": "GUM_conversation_vet",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "I",
+        "you",
+        "It",
+        "me"
+      ]
+    },
+    {
+      "id": 194,
+      "doc": "GUM_essay_sexlife",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "our",
+        "We",
+        "us"
+      ]
+    },
+    {
+      "id": 195,
+      "doc": "GUM_letter_roomers",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Lucy Pope"
+      ]
+    },
+    {
+      "id": 196,
+      "doc": "GUM_news_hackers",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Church of Scientology",
+        "the Church of Scientology 's",
+        "Scientology",
+        "the Church of Scientology",
+        "church",
+        "The Church 's"
+      ]
+    },
+    {
+      "id": 197,
+      "doc": "GUM_news_nasa",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "NASA",
+        "NASA 's",
+        "the Administration 's"
+      ]
+    },
+    {
+      "id": 198,
+      "doc": "GUM_speech_albania",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Albania",
+        "the country 's",
+        "my country",
+        "Albania 's",
+        "the Republic of Albania",
+        "a party to other recently adopted international instruments on human rights",
+        "Albania , as one of the 191 signatory countries of the Millennium Declaration",
+        "one of the 191 signatory countries of the Millennium Declaration"
+      ]
+    },
+    {
+      "id": 199,
+      "doc": "GUM_speech_austria",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "we",
+        "us",
+        "our"
+      ]
+    },
+    {
+      "id": 200,
+      "doc": "GUM_speech_humanitarian",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "us all",
+        "leaders",
+        "the leaders"
+      ]
+    },
+    {
+      "id": 201,
+      "doc": "GUM_speech_newzealand",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "our",
+        "we",
+        "us"
+      ]
+    },
+    {
+      "id": 202,
+      "doc": "GUM_voyage_oakland",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Oakland",
+        "a hub of radical culture",
+        "the birthplace of both the Black Panther Party and the Hell 's Angels",
+        "Oakland 's",
+        "Oakland as a city",
+        "a city",
+        "town",
+        "the city 's"
+      ]
+    },
+    {
+      "id": 203,
+      "doc": "GUM_whow_basil",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Basil",
+        "the same herb",
+        "the basil"
+      ]
+    },
+    {
+      "id": 204,
+      "doc": "GUM_whow_basil",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "you",
+        "your"
+      ]
+    },
+    {
+      "id": 205,
+      "doc": "GUM_essay_food",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Cold , Hard Harvest",
+        "Frozen Produce",
+        "Frozen foods",
+        "these undersung foot soldiers of the local food movement",
+        "frozen food"
+      ]
+    },
+    {
+      "id": 206,
+      "doc": "GUM_essay_walking",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Walking",
+        "the exercise people stick with the most over time",
+        "a simple , effective and affordable way to build physical activity into our lives"
+      ]
+    },
+    {
+      "id": 207,
+      "doc": "GUM_letter_mandela",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Sir de Villiers Graaff",
+        "Leader of the Opposition",
+        "Sir",
+        "its leader"
+      ]
+    },
+    {
+      "id": 208,
+      "doc": "GUM_textbook_anthropology",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "a baby",
+        "a child"
+      ]
+    },
+    {
+      "id": 209,
+      "doc": "GUM_textbook_history",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "THE FIRST AMERICANS",
+        "THE OLMEC",
+        "the Olmec who worshipped a rain god , a maize god , and the feathered serpent so important in the future pantheons of the Aztecs ( who called him Quetzalcoatl ) and the Maya ( to whom he was Kukulkan )"
+      ]
+    },
+    {
+      "id": 210,
+      "doc": "GUM_academic_huh",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "we",
+        "us",
+        "our"
+      ]
+    },
+    {
+      "id": 211,
+      "doc": "GUM_academic_librarians",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Digital Humanities",
+        "DH",
+        "the Digital Humanities",
+        "the subject",
+        "this field"
+      ]
+    },
+    {
+      "id": 212,
+      "doc": "GUM_letter_conference",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Bill"
+      ]
+    },
+    {
+      "id": 213,
+      "doc": "GUM_letter_critique",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "O. A. BROWNSON D.D. LL.D."
+      ]
+    },
+    {
+      "id": 214,
+      "doc": "GUM_speech_impeachment",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "the House",
+        "this House",
+        "the House of Representatives",
+        "House"
+      ]
+    },
+    {
+      "id": 215,
+      "doc": "GUM_voyage_cuba",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "you",
+        "your"
+      ]
+    },
+    {
+      "id": 216,
+      "doc": "GUM_whow_cactus",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Beavertail cuttings",
+        "the cuttings",
+        "your Beavertail cactus cuttings",
+        "the cutting",
+        "the pad",
+        "the plants"
+      ]
+    },
+    {
+      "id": 217,
+      "doc": "GUM_academic_discrimination",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "discrimination",
+        "discrimination across the racial categories"
+      ]
+    },
+    {
+      "id": 218,
+      "doc": "GUM_academic_games",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Attention",
+        "The attention",
+        "the main point made in this study",
+        "recurring complaint among parents and teachers in schools",
+        "this process"
+      ]
+    },
+    {
+      "id": 219,
+      "doc": "GUM_court_loan",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Secretary Cardona",
+        "the Secretary",
+        "the Secretary 's"
+      ]
+    },
+    {
+      "id": 220,
+      "doc": "GUM_letter_srilanka",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Charu Hogg",
+        "Ms Hogg ’s",
+        "Ms Hogg"
+      ]
+    },
+    {
+      "id": 221,
+      "doc": "GUM_textbook_sociology",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Anthropologist Ken Barger",
+        "Barger",
+        "Barger ’s"
+      ]
+    },
+    {
+      "id": 222,
+      "doc": "GUM_academic_mutation",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Mutation"
+      ]
+    },
+    {
+      "id": 223,
+      "doc": "GUM_academic_mutation",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Suilen H. Alvarado"
+      ]
+    },
+    {
+      "id": 224,
+      "doc": "GUM_court_way",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Attorney King",
+        "Gwen King"
+      ]
+    },
+    {
+      "id": 225,
+      "doc": "GUM_interview_mckenzie",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "each other",
+        "the team",
+        "The Gliders"
+      ]
+    },
+    {
+      "id": 226,
+      "doc": "GUM_news_sensitive",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Sensitive Canadian document",
+        "A sensitive Environment Canada document",
+        "The 131 - page document",
+        "The document which had the stamp Protected B on every page",
+        "the document",
+        "such documents that are supposed to be stored in \" approved security cabinets \"",
+        "stuff that could be available under access to information",
+        "the papers",
+        "Sensitive government document",
+        "Document",
+        "Environment Canada security report",
+        "misplaced documents"
+      ]
+    },
+    {
+      "id": 227,
+      "doc": "GUM_textbook_artwork",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "beauty",
+        "mei"
+      ]
+    },
+    {
+      "id": 228,
+      "doc": "GUM_voyage_guadeloupe",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Guadeloupe",
+        "Gwadloup",
+        "Guadeloupe , known as Gwadloup in the local creole , and sometimes known as the Butterfly Island",
+        "the Butterfly Island ( French : I'ile Papillon",
+        "I'ile Papillon ) on account of the shape of two of its major islands",
+        "a group of islands in the eastern Caribbean",
+        "a French overseas department",
+        "Guadeloupe 's"
+      ]
+    },
+    {
+      "id": 229,
+      "doc": "GUM_whow_cupcakes",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "you",
+        "your"
+      ]
+    },
+    {
+      "id": 230,
+      "doc": "GUM_academic_salinity",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "sea"
+      ]
+    },
+    {
+      "id": 231,
+      "doc": "GUM_academic_salinity",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "global sea surface salinity",
+        "SSS"
+      ]
+    },
+    {
+      "id": 232,
+      "doc": "GUM_academic_thrones",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Game of Thrones",
+        "HBO ’s Game of Thrones",
+        "a transmedia system in the sense first used by Marsha Kinder ( 1991 ) and popularized by Henry Jenkins ( 2006 ) , in which media - hopping networks of intertextualities extend the “ storyworld ” of an original production",
+        "the television series itself",
+        "an adaptation of a book series with a pre-existing fandom",
+        "the series",
+        "the show",
+        "the television series ’"
+      ]
+    },
+    {
+      "id": 233,
+      "doc": "GUM_court_mitigation",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "provocation mitigator",
+        "the provocation mitiger- mitigator",
+        "The provocation mitigator",
+        "these provocation mitigators",
+        "these mitigators",
+        "the mitigators",
+        "those mitigators"
+      ]
+    },
+    {
+      "id": 234,
+      "doc": "GUM_court_mitigation",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "the jury 's",
+        "the jury",
+        "jury"
+      ]
+    },
+    {
+      "id": 235,
+      "doc": "GUM_news_warming",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "atmospheric ozone",
+        "ozone",
+        "Ground - level ozone",
+        "something that we understand the causes of , and the steps that need to be taken to improve air quality"
+      ]
+    },
+    {
+      "id": 236,
+      "doc": "GUM_textbook_entrepreneurship",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "One example of a disruptive technology",
+        "Airbnb",
+        "a company that threatens the established hotel industry"
+      ]
+    },
+    {
+      "id": 237,
+      "doc": "GUM_voyage_vavau",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "the main town of Neiafu",
+        "Neiafu",
+        "the official port of entry for yachts coming to Vava'u , which attracts over 500 yachts every winter sailing season between June and October",
+        "Neiafu town",
+        "the centre of activity",
+        "Neiafu Harbour"
+      ]
+    },
+    {
+      "id": 238,
+      "doc": "GUM_whow_quidditch",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "you",
+        "your"
+      ]
+    },
+    {
+      "id": 239,
+      "doc": "GUM_academic_art",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "a unique collection of 17th Century Zurbarán paintings",
+        "The Jacob cycle at Auckland Castle",
+        "the only UK example of a continental collection preserved in situ in purpose - built surroundings",
+        "the unique collection of Zurbarán artworks",
+        "the collection",
+        "Zurbarán ’s cycle of Jacob and his Sons",
+        "the only cycle to be preserved in purpose - built surroundings in the UK",
+        "one of very few of its kind in the world"
+      ]
+    },
+    {
+      "id": 240,
+      "doc": "GUM_academic_epistemic",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "expertise",
+        "academic expertise",
+        "expertise in relevant fields"
+      ]
+    },
+    {
+      "id": 241,
+      "doc": "GUM_essay_dividends",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Alaska",
+        "Alaska ’s",
+        "the state ’s",
+        "one of the least unequal states in America"
+      ]
+    },
+    {
+      "id": 242,
+      "doc": "GUM_essay_privatization",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "barbie"
+      ]
+    },
+    {
+      "id": 243,
+      "doc": "GUM_news_questionnaire",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "UK",
+        "United Kingdom",
+        "the nation 's",
+        "the UK 's",
+        "the UK",
+        "GB",
+        "our country",
+        "here"
+      ]
+    },
+    {
+      "id": 244,
+      "doc": "GUM_news_soccer",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Belgium",
+        "the Belgians"
+      ]
+    },
+    {
+      "id": 245,
+      "doc": "GUM_news_soccer",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "England",
+        "a highly - skilled and highly co-ordinated team"
+      ]
+    },
+    {
+      "id": 246,
+      "doc": "GUM_academic_lighting",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "lighting",
+        "the major source of electricity consumption"
+      ]
+    },
+    {
+      "id": 247,
+      "doc": "GUM_court_mountain",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "cause number DA 23-0716",
+        "Rodney Brandt and others versus R & R Mountain Escapes LLC",
+        "this case",
+        "the case"
+      ]
+    },
+    {
+      "id": 248,
+      "doc": "GUM_court_mountain",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Miss Baucus",
+        "Stephanie Baucus"
+      ]
+    },
+    {
+      "id": 249,
+      "doc": "GUM_essay_tools",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "A major reason",
+        "technology",
+        "the technology"
+      ]
+    },
+    {
+      "id": 250,
+      "doc": "GUM_interview_licen",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Paralympic Games in Sochi in 2014",
+        "the 2014 Winter Paralympics in Sochi , Russia",
+        "the Games",
+        "the Paralympic Games",
+        "the Paralympics",
+        "the event"
+      ]
+    },
+    {
+      "id": 251,
+      "doc": "GUM_news_expo",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Nick Moreau"
+      ]
+    },
+    {
+      "id": 252,
+      "doc": "GUM_news_flag",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "New Zealand",
+        "New Zealand 's",
+        "the nation 's"
+      ]
+    },
+    {
+      "id": 253,
+      "doc": "GUM_textbook_chemistry",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Dalton ’s",
+        "English schoolteacher John Dalton"
+      ]
+    },
+    {
+      "id": 254,
+      "doc": "GUM_textbook_chemistry",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "matter",
+        "all matter"
+      ]
+    },
+    {
+      "id": 255,
+      "doc": "GUM_academic_economics",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "the State ’s",
+        "the state",
+        "a state",
+        "the state itself"
+      ]
+    },
+    {
+      "id": 256,
+      "doc": "GUM_essay_public",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "our",
+        "we"
+      ]
+    },
+    {
+      "id": 257,
+      "doc": "GUM_news_korea",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "North Korea",
+        "North Korea 's",
+        "the country 's",
+        "North",
+        "the DPRK",
+        "the North"
+      ]
+    },
+    {
+      "id": 258,
+      "doc": "GUM_news_korea",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "military",
+        "the country 's military",
+        "KPA",
+        "the KPA",
+        "the Korean People 's Army"
+      ]
+    },
+    {
+      "id": 259,
+      "doc": "GUM_news_lanterns",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "the Taipei lantern festival",
+        "This particular event",
+        "the event",
+        "event",
+        "the lantern festival",
+        "festival",
+        "the festival"
+      ]
+    },
+    {
+      "id": 260,
+      "doc": "GUM_textbook_governments",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Government"
+      ]
+    },
+    {
+      "id": 261,
+      "doc": "GUM_news_election",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "pan - democracy camp 's",
+        "the Labour Party",
+        "pan - democracy camp",
+        "the pan - democracy camp"
+      ]
+    },
+    {
+      "id": 262,
+      "doc": "GUM_news_election",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "DAB 's",
+        "DAB",
+        "Pro-Beijing DAB 's"
+      ]
+    },
+    {
+      "id": 263,
+      "doc": "GUM_academic_census",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "a novel system , based on a topical web crawler , that can quickly and automatically assemble a full census of an academic field using digital data available on the public World Wide Web",
+        "This system",
+        "The system",
+        "our system"
+      ]
+    },
+    {
+      "id": 264,
+      "doc": "GUM_news_crane",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Mecca",
+        "Mecca 's",
+        "Islam 's holiest site"
+      ]
+    },
+    {
+      "id": 265,
+      "doc": "GUM_news_stampede",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Hajj",
+        "the annual Hajj pilgrimage near Mecca , Saudi Arabia",
+        "the Hajj",
+        "make a pilgrimage to Mecca",
+        "one of the five pillars of the Islamic faith"
+      ]
+    },
+    {
+      "id": 266,
+      "doc": "GUM_academic_implicature",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "this study",
+        "The current study"
+      ]
+    },
+    {
+      "id": 267,
+      "doc": "GUM_academic_implicature",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "two children",
+        "these two children"
+      ]
+    },
+    {
+      "id": 268,
+      "doc": "GUM_news_taxes",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "it"
+      ]
+    },
+    {
+      "id": 269,
+      "doc": "GUM_textbook_labor",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "people"
+      ]
+    },
+    {
+      "id": 270,
+      "doc": "GUM_news_asylum",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "asylum"
+      ]
+    },
+    {
+      "id": 271,
+      "doc": "GUM_news_asylum",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "over 700 asylum seekers whose boat sank",
+        "the people",
+        "The rescued members"
+      ]
+    },
+    {
+      "id": 272,
+      "doc": "GUM_news_asylum",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "Indonesia"
+      ]
+    },
+    {
+      "id": 273,
+      "doc": "GUM_news_worship",
+      "variables": {
+        "text": "most_english_document.json"
+      },
+      "answer_type": "list",
+      "answer": [
+        "the ancient Greek religion",
+        "the religion",
+        "Hellenic polytheism"
+      ]
+    }
+  ]
+}

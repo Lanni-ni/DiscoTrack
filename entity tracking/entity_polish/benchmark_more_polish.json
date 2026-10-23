@@ -1,0 +1,5507 @@
+{
+  "task": "entity_more",
+  "lang": "polish",
+  "example_prompt": "Which entity is mentioned more often in the text, {entity_a} or {entity_b}? Ignore speaker labels (e.g., sp0, sp1). They are not entities and should not be counted.",
+  "instances": [
+    {
+      "id": 1,
+      "doc": "input_data/PCC-1.5-MMAX/short/469_words.xml",
+      "variables": {
+        "entity_a": "języka , który zdaniem Niemca umożliwia projektowaną przez niego interakcję między podmiotami",
+        "entity_b": "Habermasa",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "języka , który zdaniem Niemca umożliwia projektowaną przez niego interakcję między podmiotami"
+    },
+    {
+      "id": 2,
+      "doc": "input_data/PCC-1.5-MMAX/short/2919_words.xml",
+      "variables": {
+        "entity_a": "Robert",
+        "entity_b": "to , że jedyny sposób , żeby żyło nam się fajnie , to rozwijać siebie",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Robert"
+    },
+    {
+      "id": 3,
+      "doc": "input_data/PCC-1.5-MMAX/short/3089_words.xml",
+      "variables": {
+        "entity_a": "MARIA",
+        "entity_b": "KUBA",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "MARIA"
+    },
+    {
+      "id": 4,
+      "doc": "input_data/PCC-1.5-MMAX/short/3138_words.xml",
+      "variables": {
+        "entity_a": "sp2",
+        "entity_b": "sp3",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sp2"
+    },
+    {
+      "id": 5,
+      "doc": "input_data/PCC-1.5-MMAX/short/1363_words.xml",
+      "variables": {
+        "entity_a": "jej dziecko",
+        "entity_b": "inne , białawe , przejrzyste , ledwo - ledwo widzialne",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "jej dziecko"
+    },
+    {
+      "id": 6,
+      "doc": "input_data/PCC-1.5-MMAX/short/2612_words.xml",
+      "variables": {
+        "entity_a": "Grodno i Wołkowysk",
+        "entity_b": "panoramy miast , widokówki , fotografie przedstawiające mieszkańców w różnych miejscach i sytuacjach",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Grodno i Wołkowysk"
+    },
+    {
+      "id": 7,
+      "doc": "input_data/PCC-1.5-MMAX/short/3048_words.xml",
+      "variables": {
+        "entity_a": "MARII",
+        "entity_b": "URSZULI",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "MARII"
+    },
+    {
+      "id": 8,
+      "doc": "input_data/PCC-1.5-MMAX/short/804_words.xml",
+      "variables": {
+        "entity_a": "Bejdak",
+        "entity_b": "bęben",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Bejdak"
+    },
+    {
+      "id": 9,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704230043_words.xml",
+      "variables": {
+        "entity_a": "trójkę",
+        "entity_b": "Polsce",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "trójkę"
+    },
+    {
+      "id": 10,
+      "doc": "input_data/PCC-1.5-MMAX/short/3405_words.xml",
+      "variables": {
+        "entity_a": "wielkiego wodza Siserę",
+        "entity_b": "Jael",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "wielkiego wodza Siserę"
+    },
+    {
+      "id": 11,
+      "doc": "input_data/PCC-1.5-MMAX/long/199912180034_words.xml",
+      "variables": {
+        "entity_a": "około 300 członków specjalnej komisji działającej przy Amerykańskiej Akademii Filmowej",
+        "entity_b": "demokrację",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "około 300 członków specjalnej komisji działającej przy Amerykańskiej Akademii Filmowej"
+    },
+    {
+      "id": 12,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704210012_words.xml",
+      "variables": {
+        "entity_a": "społeczeństwa",
+        "entity_b": "GRECJA",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "społeczeństwa"
+    },
+    {
+      "id": 13,
+      "doc": "input_data/PCC-1.5-MMAX/short/3544_words.xml",
+      "variables": {
+        "entity_a": "pani poseł Grażyna Pijanowska z Sojuszu Lewicy Demokratycznej",
+        "entity_b": "związkami zawodowymi",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "pani poseł Grażyna Pijanowska z Sojuszu Lewicy Demokratycznej"
+    },
+    {
+      "id": 14,
+      "doc": "input_data/PCC-1.5-MMAX/short/2977_words.xml",
+      "variables": {
+        "entity_a": "Kamyk",
+        "entity_b": "Stworzyciel",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Kamyk"
+    },
+    {
+      "id": 15,
+      "doc": "input_data/PCC-1.5-MMAX/short/3550_words.xml",
+      "variables": {
+        "entity_a": "SenatorRyszardBender",
+        "entity_b": "Niemcy",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "SenatorRyszardBender"
+    },
+    {
+      "id": 16,
+      "doc": "input_data/PCC-1.5-MMAX/long/200108300032_words.xml",
+      "variables": {
+        "entity_a": "Bydgoszczy",
+        "entity_b": "żony Łukaszka",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Bydgoszczy"
+    },
+    {
+      "id": 17,
+      "doc": "input_data/PCC-1.5-MMAX/short/3158_words.xml",
+      "variables": {
+        "entity_a": "sp0",
+        "entity_b": "sp1",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sp0"
+    },
+    {
+      "id": 18,
+      "doc": "input_data/PCC-1.5-MMAX/short/2600_words.xml",
+      "variables": {
+        "entity_a": "kontyngent",
+        "entity_b": "dealerzy",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "kontyngent"
+    },
+    {
+      "id": 19,
+      "doc": "input_data/PCC-1.5-MMAX/short/3199_words.xml",
+      "variables": {
+        "entity_a": "sp1",
+        "entity_b": "bedzieta",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sp1"
+    },
+    {
+      "id": 20,
+      "doc": "input_data/PCC-1.5-MMAX/short/3042_words.xml",
+      "variables": {
+        "entity_a": "zeznań",
+        "entity_b": "dziecka",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "zeznań"
+    },
+    {
+      "id": 21,
+      "doc": "input_data/PCC-1.5-MMAX/long/199906260027_words.xml",
+      "variables": {
+        "entity_a": "Boniek",
+        "entity_b": "Listkiewicz",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Boniek"
+    },
+    {
+      "id": 22,
+      "doc": "input_data/PCC-1.5-MMAX/short/2868_words.xml",
+      "variables": {
+        "entity_a": "Aleksandrze",
+        "entity_b": "dozorca korytarzowy",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Aleksandrze"
+    },
+    {
+      "id": 23,
+      "doc": "input_data/PCC-1.5-MMAX/short/3168_words.xml",
+      "variables": {
+        "entity_a": "sp0",
+        "entity_b": "taka jeszcze jedna",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sp0"
+    },
+    {
+      "id": 24,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "entity_a": "matka jednej z bialskich poganek , która utrzymywała bliskie kontakty z satanistami",
+        "entity_b": "córce",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "matka jednej z bialskich poganek , która utrzymywała bliskie kontakty z satanistami"
+    },
+    {
+      "id": 25,
+      "doc": "input_data/PCC-1.5-MMAX/short/694_words.xml",
+      "variables": {
+        "entity_a": "Stefanowi",
+        "entity_b": "Vogts",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Stefanowi"
+    },
+    {
+      "id": 26,
+      "doc": "input_data/PCC-1.5-MMAX/long/200203190026_words.xml",
+      "variables": {
+        "entity_a": "osobę 20-letnią ją która rozpoczęła pracę w 1999 r . i zaczyna płacić składki do ZUS",
+        "entity_b": "Przyszłe świadczenia",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "osobę 20-letnią ją która rozpoczęła pracę w 1999 r . i zaczyna płacić składki do ZUS"
+    },
+    {
+      "id": 27,
+      "doc": "input_data/PCC-1.5-MMAX/long/199901190115_words.xml",
+      "variables": {
+        "entity_a": "Europejskiego Ciśnieniowego Reaktora Wodnego",
+        "entity_b": "Minister ochrony środowiska Juergen Trittin , najgłośniejszy przeciwnik energii nuklearnej",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Europejskiego Ciśnieniowego Reaktora Wodnego"
+    },
+    {
+      "id": 28,
+      "doc": "input_data/PCC-1.5-MMAX/short/474_words.xml",
+      "variables": {
+        "entity_a": "STOMIL",
+        "entity_b": "ARTUR",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "STOMIL"
+    },
+    {
+      "id": 29,
+      "doc": "input_data/PCC-1.5-MMAX/short/2729_words.xml",
+      "variables": {
+        "entity_a": "Międzynarodowy Dom Spotkań Młodzieży",
+        "entity_b": "Oświęcimia",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Międzynarodowy Dom Spotkań Młodzieży"
+    },
+    {
+      "id": 30,
+      "doc": "input_data/PCC-1.5-MMAX/long/199801030068_words.xml",
+      "variables": {
+        "entity_a": "karty",
+        "entity_b": "kart stałego klienta i kart rabatowych",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "karty"
+    },
+    {
+      "id": 31,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "entity_a": "Obydwie",
+        "entity_b": "moim zdaniem",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Obydwie"
+    },
+    {
+      "id": 32,
+      "doc": "input_data/PCC-1.5-MMAX/short/948_words.xml",
+      "variables": {
+        "entity_a": "pułkownika Michała Wołodyjowskiego , który po śmierci _ narzeczonej porzucił żołnierską służbę i wstąpił do klasztoru Kamedułów",
+        "entity_b": "setnik Lipkowski , rzekomy Mellechowicz",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "pułkownika Michała Wołodyjowskiego , który po śmierci _ narzeczonej porzucił żołnierską służbę i wstąpił do klasztoru Kamedułów"
+    },
+    {
+      "id": 33,
+      "doc": "input_data/PCC-1.5-MMAX/long/200004290022_words.xml",
+      "variables": {
+        "entity_a": "Jan Lityński , poseł Unii",
+        "entity_b": "polityków Sojuszu",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Jan Lityński , poseł Unii"
+    },
+    {
+      "id": 34,
+      "doc": "input_data/PCC-1.5-MMAX/short/3086_words.xml",
+      "variables": {
+        "entity_a": "progu",
+        "entity_b": "balkonem i telewizorem",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "progu"
+    },
+    {
+      "id": 35,
+      "doc": "input_data/PCC-1.5-MMAX/short/2713_words.xml",
+      "variables": {
+        "entity_a": "pana Aleksandra Wysoczańskiego",
+        "entity_b": "żółw matamata",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "pana Aleksandra Wysoczańskiego"
+    },
+    {
+      "id": 36,
+      "doc": "input_data/PCC-1.5-MMAX/long/200202020036_words.xml",
+      "variables": {
+        "entity_a": "europejskich MSP",
+        "entity_b": "czynnika pierwszego",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "europejskich MSP"
+    },
+    {
+      "id": 37,
+      "doc": "input_data/PCC-1.5-MMAX/long/200004290022_words.xml",
+      "variables": {
+        "entity_a": "kwietnia",
+        "entity_b": "Toruniu",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "kwietnia"
+    },
+    {
+      "id": 38,
+      "doc": "input_data/PCC-1.5-MMAX/long/199802030127_words.xml",
+      "variables": {
+        "entity_a": "Upośledzona mniejszość",
+        "entity_b": "usług",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Upośledzona mniejszość"
+    },
+    {
+      "id": 39,
+      "doc": "input_data/PCC-1.5-MMAX/short/3056_words.xml",
+      "variables": {
+        "entity_a": "Kiernackiemu",
+        "entity_b": "Iza",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Kiernackiemu"
+    },
+    {
+      "id": 40,
+      "doc": "input_data/PCC-1.5-MMAX/short/2951_words.xml",
+      "variables": {
+        "entity_a": "pan",
+        "entity_b": "Gwa-ran-tu-ję",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "pan"
+    },
+    {
+      "id": 41,
+      "doc": "input_data/PCC-1.5-MMAX/short/2848_words.xml",
+      "variables": {
+        "entity_a": "cudowny kwiat w jednym z ogrodów tego miasta",
+        "entity_b": "swoich zaręczynach",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "cudowny kwiat w jednym z ogrodów tego miasta"
+    },
+    {
+      "id": 42,
+      "doc": "input_data/PCC-1.5-MMAX/short/1364_words.xml",
+      "variables": {
+        "entity_a": "Joaquinowi Carnelowi",
+        "entity_b": "szklanej tafli otaczającej wejściowe drzwi",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Joaquinowi Carnelowi"
+    },
+    {
+      "id": 43,
+      "doc": "input_data/PCC-1.5-MMAX/short/2091_words.xml",
+      "variables": {
+        "entity_a": "naszemu programikowi - kalkulatorowi",
+        "entity_b": "ich deklarowania",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "naszemu programikowi - kalkulatorowi"
+    },
+    {
+      "id": 44,
+      "doc": "input_data/PCC-1.5-MMAX/short/3305_words.xml",
+      "variables": {
+        "entity_a": "Billa Clintona",
+        "entity_b": "Gore ’ owi",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Billa Clintona"
+    },
+    {
+      "id": 45,
+      "doc": "input_data/PCC-1.5-MMAX/long/200202020036_words.xml",
+      "variables": {
+        "entity_a": "klimat społeczny - gotowości do podejmowania ryzyka biznesu , skoro tylko odpadną bariery krępujące inicjatywę i przedsiębiorczość",
+        "entity_b": "tym kierunku",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "klimat społeczny - gotowości do podejmowania ryzyka biznesu , skoro tylko odpadną bariery krępujące inicjatywę i przedsiębiorczość"
+    },
+    {
+      "id": 46,
+      "doc": "input_data/PCC-1.5-MMAX/short/3471_words.xml",
+      "variables": {
+        "entity_a": "zupy",
+        "entity_b": "łyżkę do zupy",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "zupy"
+    },
+    {
+      "id": 47,
+      "doc": "input_data/PCC-1.5-MMAX/short/2393_words.xml",
+      "variables": {
+        "entity_a": "siódemki",
+        "entity_b": "Radia Classic",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "siódemki"
+    },
+    {
+      "id": 48,
+      "doc": "input_data/PCC-1.5-MMAX/long/199801310037_words.xml",
+      "variables": {
+        "entity_a": "Sądu Najwyższego",
+        "entity_b": "powszechne sądy administracyjne",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Sądu Najwyższego"
+    },
+    {
+      "id": 49,
+      "doc": "input_data/PCC-1.5-MMAX/long/200108300032_words.xml",
+      "variables": {
+        "entity_a": "Bydgoszczy",
+        "entity_b": "nieistniejąca firma niejakiego Władysława Haszczakiewicza z Drohojowa pod Przemyślem",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Bydgoszczy"
+    },
+    {
+      "id": 50,
+      "doc": "input_data/PCC-1.5-MMAX/short/2941_words.xml",
+      "variables": {
+        "entity_a": "mój klient",
+        "entity_b": "swoją matkę , która regularnie odwiedzała małoletnią Karolinę i wnosiła pewne sumy na jej potrzeby",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "mój klient"
+    },
+    {
+      "id": 51,
+      "doc": "input_data/PCC-1.5-MMAX/short/2638_words.xml",
+      "variables": {
+        "entity_a": "kobiecie , która znalazła instrument",
+        "entity_b": "Pan Waldemar",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "kobiecie , która znalazła instrument"
+    },
+    {
+      "id": 52,
+      "doc": "input_data/PCC-1.5-MMAX/short/63_words.xml",
+      "variables": {
+        "entity_a": "kolejowych połączeń regionalnych w nowym rozkładzie jazdy pociągów 2009 / 2010",
+        "entity_b": "zaniepokojeniem",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "kolejowych połączeń regionalnych w nowym rozkładzie jazdy pociągów 2009 / 2010"
+    },
+    {
+      "id": 53,
+      "doc": "input_data/PCC-1.5-MMAX/short/2969_words.xml",
+      "variables": {
+        "entity_a": "KAMIL",
+        "entity_b": "pan Lucjan",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "KAMIL"
+    },
+    {
+      "id": 54,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "entity_a": "biblię La Veya",
+        "entity_b": "Paweł K . , ps . Suchy",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "biblię La Veya"
+    },
+    {
+      "id": 55,
+      "doc": "input_data/PCC-1.5-MMAX/short/2819_words.xml",
+      "variables": {
+        "entity_a": "utworzenia _",
+        "entity_b": "storczyk kukawka",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "utworzenia _"
+    },
+    {
+      "id": 56,
+      "doc": "input_data/PCC-1.5-MMAX/long/200202020036_words.xml",
+      "variables": {
+        "entity_a": "Polsce",
+        "entity_b": "UE",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Polsce"
+    },
+    {
+      "id": 57,
+      "doc": "input_data/PCC-1.5-MMAX/short/493_words.xml",
+      "variables": {
+        "entity_a": "sp3",
+        "entity_b": "sp0",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sp3"
+    },
+    {
+      "id": 58,
+      "doc": "input_data/PCC-1.5-MMAX/short/3399_words.xml",
+      "variables": {
+        "entity_a": "Europie",
+        "entity_b": "Sojusz",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Europie"
+    },
+    {
+      "id": 59,
+      "doc": "input_data/PCC-1.5-MMAX/short/166_words.xml",
+      "variables": {
+        "entity_a": "osób zajmujących kierownicze stanowiska państwowe",
+        "entity_b": "wejście nowych zasad udzielania świadczeń zdrowotnych z dniem 1 stycznia 1999 r . , określonych ustawą o powszechnym ubezpieczeniu zdrowotnym , oraz zamierzona likwidacja lecznicy rządowej i utworzenie jednostki badawczo - rozwojowej",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "osób zajmujących kierownicze stanowiska państwowe"
+    },
+    {
+      "id": 60,
+      "doc": "input_data/PCC-1.5-MMAX/short/2940_words.xml",
+      "variables": {
+        "entity_a": "stryjcia",
+        "entity_b": "tatuś _",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "stryjcia"
+    },
+    {
+      "id": 61,
+      "doc": "input_data/PCC-1.5-MMAX/long/199906240084_words.xml",
+      "variables": {
+        "entity_a": "podręczników",
+        "entity_b": "Wydawnictwa Szkolne i Pedagogiczne - potentat na tym rynku",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "podręczników"
+    },
+    {
+      "id": 62,
+      "doc": "input_data/PCC-1.5-MMAX/long/200108300032_words.xml",
+      "variables": {
+        "entity_a": "Bydgoszczy",
+        "entity_b": "Jacka Berdyna",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Bydgoszczy"
+    },
+    {
+      "id": 63,
+      "doc": "input_data/PCC-1.5-MMAX/short/3057_words.xml",
+      "variables": {
+        "entity_a": "Panie Ryszardzie",
+        "entity_b": "EDWARD",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Panie Ryszardzie"
+    },
+    {
+      "id": 64,
+      "doc": "input_data/PCC-1.5-MMAX/short/534_words.xml",
+      "variables": {
+        "entity_a": "SenatorHenrykStoklosa",
+        "entity_b": "Rzeczypospolitej Polskiej",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "SenatorHenrykStoklosa"
+    },
+    {
+      "id": 65,
+      "doc": "input_data/PCC-1.5-MMAX/short/2641_words.xml",
+      "variables": {
+        "entity_a": "brudną i popękaną ścianę",
+        "entity_b": "kuchni i łazience , gdzie z reguły ściany i podłogi pokrywają płytki ceramiczne",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "brudną i popękaną ścianę"
+    },
+    {
+      "id": 66,
+      "doc": "input_data/PCC-1.5-MMAX/short/2922_words.xml",
+      "variables": {
+        "entity_a": "JANINY",
+        "entity_b": "RENIA",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "JANINY"
+    },
+    {
+      "id": 67,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "entity_a": "Wiesław Gromadzki , szef Klubu Literackiego \" Maksyma \" w Białej Podlaskiej",
+        "entity_b": "satanistycznych obrzędów",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Wiesław Gromadzki , szef Klubu Literackiego \" Maksyma \" w Białej Podlaskiej"
+    },
+    {
+      "id": 68,
+      "doc": "input_data/PCC-1.5-MMAX/long/200202020036_words.xml",
+      "variables": {
+        "entity_a": "pracy",
+        "entity_b": "Polsce",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "pracy"
+    },
+    {
+      "id": 69,
+      "doc": "input_data/PCC-1.5-MMAX/short/3490_words.xml",
+      "variables": {
+        "entity_a": "Dotychczasowy szef demokratów Władysław Frasyniuk",
+        "entity_b": "Janusz Onyszkiewicz",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Dotychczasowy szef demokratów Władysław Frasyniuk"
+    },
+    {
+      "id": 70,
+      "doc": "input_data/PCC-1.5-MMAX/short/2572_words.xml",
+      "variables": {
+        "entity_a": "barbarzyńscy wodzowie",
+        "entity_b": "brańcami",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "barbarzyńscy wodzowie"
+    },
+    {
+      "id": 71,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "entity_a": "córce",
+        "entity_b": "Młodzi , niedojrzali",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "córce"
+    },
+    {
+      "id": 72,
+      "doc": "input_data/PCC-1.5-MMAX/short/179_words.xml",
+      "variables": {
+        "entity_a": "pamięci",
+        "entity_b": "bardziej znacząca część adresu",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "pamięci"
+    },
+    {
+      "id": 73,
+      "doc": "input_data/PCC-1.5-MMAX/short/436_words.xml",
+      "variables": {
+        "entity_a": "sióstr",
+        "entity_b": "Kopciuszka",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sióstr"
+    },
+    {
+      "id": 74,
+      "doc": "input_data/PCC-1.5-MMAX/short/2966_words.xml",
+      "variables": {
+        "entity_a": "Dzidzia",
+        "entity_b": "Drabowi",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Dzidzia"
+    },
+    {
+      "id": 75,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "entity_a": "córce",
+        "entity_b": "Kapłan",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "córce"
+    },
+    {
+      "id": 76,
+      "doc": "input_data/PCC-1.5-MMAX/short/3136_words.xml",
+      "variables": {
+        "entity_a": "sp2",
+        "entity_b": "sp0",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sp2"
+    },
+    {
+      "id": 77,
+      "doc": "input_data/PCC-1.5-MMAX/short/2238_words.xml",
+      "variables": {
+        "entity_a": "zestaw do ćwiczeń",
+        "entity_b": "tym , że był to jeden ze środków , który pomagał mu wrócić psychicznie między żywych po wypadku , w którym zginęła żona , a jego prawie sparaliżowało",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "zestaw do ćwiczeń"
+    },
+    {
+      "id": 78,
+      "doc": "input_data/PCC-1.5-MMAX/short/1366_words.xml",
+      "variables": {
+        "entity_a": "Staszku",
+        "entity_b": "Boję się",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Staszku"
+    },
+    {
+      "id": 79,
+      "doc": "input_data/PCC-1.5-MMAX/long/200004290022_words.xml",
+      "variables": {
+        "entity_a": "3 maja",
+        "entity_b": "30 kwietnia",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3 maja"
+    },
+    {
+      "id": 80,
+      "doc": "input_data/PCC-1.5-MMAX/short/485_words.xml",
+      "variables": {
+        "entity_a": "inne dzieci",
+        "entity_b": "sp1",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "inne dzieci"
+    },
+    {
+      "id": 81,
+      "doc": "input_data/PCC-1.5-MMAX/short/312_words.xml",
+      "variables": {
+        "entity_a": "polityków",
+        "entity_b": "pachołki polityków",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "polityków"
+    },
+    {
+      "id": 82,
+      "doc": "input_data/PCC-1.5-MMAX/long/200108300032_words.xml",
+      "variables": {
+        "entity_a": "znany w Bydgoszczy handlarz złotem Włodzimierz Bogucki",
+        "entity_b": "niejakiego Władysława Haszczakiewicza z Drohojowa pod Przemyślem",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "znany w Bydgoszczy handlarz złotem Włodzimierz Bogucki"
+    },
+    {
+      "id": 83,
+      "doc": "input_data/PCC-1.5-MMAX/short/3168_words.xml",
+      "variables": {
+        "entity_a": "Ireną",
+        "entity_b": "manka",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Ireną"
+    },
+    {
+      "id": 84,
+      "doc": "input_data/PCC-1.5-MMAX/short/157_words.xml",
+      "variables": {
+        "entity_a": "Haliny Zawadzkiej",
+        "entity_b": "książkę nie mniej interesującą , a trochę zepchniętą w cień , mianowicie \" Ucieczkę z getta \" Haliny Zawadzkiej",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Haliny Zawadzkiej"
+    },
+    {
+      "id": 85,
+      "doc": "input_data/PCC-1.5-MMAX/short/493_words.xml",
+      "variables": {
+        "entity_a": "sp5",
+        "entity_b": "Wiesia",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sp5"
+    },
+    {
+      "id": 86,
+      "doc": "input_data/PCC-1.5-MMAX/short/3199_words.xml",
+      "variables": {
+        "entity_a": "psem",
+        "entity_b": "sp5",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "psem"
+    },
+    {
+      "id": 87,
+      "doc": "input_data/PCC-1.5-MMAX/short/2432_words.xml",
+      "variables": {
+        "entity_a": "podopiecznych Kazimierza Studzińskiego",
+        "entity_b": "jeden z lepszych zawodników , Przemysław Szpiegla",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "podopiecznych Kazimierza Studzińskiego"
+    },
+    {
+      "id": 88,
+      "doc": "input_data/PCC-1.5-MMAX/short/3109_words.xml",
+      "variables": {
+        "entity_a": "Dzidka",
+        "entity_b": "Ramzesie",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Dzidka"
+    },
+    {
+      "id": 89,
+      "doc": "input_data/PCC-1.5-MMAX/short/3216_words.xml",
+      "variables": {
+        "entity_a": "Polski",
+        "entity_b": "Unii Europejskiej",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Polski"
+    },
+    {
+      "id": 90,
+      "doc": "input_data/PCC-1.5-MMAX/short/3519_words.xml",
+      "variables": {
+        "entity_a": "pani B . , która kiedyś zarzucała pani K . , byłej aktorce , że bierze za mało za swoje mieszkanie oraz narzekała , że nie będzie _ miała gdzie wyeksponować swoich antycznych mebli",
+        "entity_b": "Francuzi",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "pani B . , która kiedyś zarzucała pani K . , byłej aktorce , że bierze za mało za swoje mieszkanie oraz narzekała , że nie będzie _ miała gdzie wyeksponować swoich antycznych mebli"
+    },
+    {
+      "id": 91,
+      "doc": "input_data/PCC-1.5-MMAX/long/200004290022_words.xml",
+      "variables": {
+        "entity_a": "premier Jerzy Buzek",
+        "entity_b": "30 kwietnia",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "premier Jerzy Buzek"
+    },
+    {
+      "id": 92,
+      "doc": "input_data/PCC-1.5-MMAX/long/199901190115_words.xml",
+      "variables": {
+        "entity_a": "Niemczech",
+        "entity_b": "elektrowni jądrowych w Niemczech",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Niemczech"
+    },
+    {
+      "id": 93,
+      "doc": "input_data/PCC-1.5-MMAX/short/2930_words.xml",
+      "variables": {
+        "entity_a": "on , więzień przykuty do domku Hermesa , do pilnującego go żołnierza",
+        "entity_b": "Moje dziecko",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "on , więzień przykuty do domku Hermesa , do pilnującego go żołnierza"
+    },
+    {
+      "id": 94,
+      "doc": "input_data/PCC-1.5-MMAX/short/3186_words.xml",
+      "variables": {
+        "entity_a": "sp2",
+        "entity_b": "sp1",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sp2"
+    },
+    {
+      "id": 95,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "entity_a": "córce",
+        "entity_b": "szatanem",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "córce"
+    },
+    {
+      "id": 96,
+      "doc": "input_data/PCC-1.5-MMAX/long/199801030068_words.xml",
+      "variables": {
+        "entity_a": "niemieckiej firmy Hit",
+        "entity_b": "w 5 sklepach firmowych z odzieżą i sprzętem sportowym firmy Adidas Polska",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "niemieckiej firmy Hit"
+    },
+    {
+      "id": 97,
+      "doc": "input_data/PCC-1.5-MMAX/long/200203190026_words.xml",
+      "variables": {
+        "entity_a": "symulacji dotyczących wysokości przyszłych emerytur , jakie dość licznie pojawiły się w ostatnich tygodniach m . in . w prasie",
+        "entity_b": "kobiety",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "symulacji dotyczących wysokości przyszłych emerytur , jakie dość licznie pojawiły się w ostatnich tygodniach m . in . w prasie"
+    },
+    {
+      "id": 98,
+      "doc": "input_data/PCC-1.5-MMAX/short/1362_words.xml",
+      "variables": {
+        "entity_a": "ELI",
+        "entity_b": "ŁUKASZ",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ELI"
+    },
+    {
+      "id": 99,
+      "doc": "input_data/PCC-1.5-MMAX/short/3106_words.xml",
+      "variables": {
+        "entity_a": "MARII",
+        "entity_b": "URSZULA",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "MARII"
+    },
+    {
+      "id": 100,
+      "doc": "input_data/PCC-1.5-MMAX/long/200108300032_words.xml",
+      "variables": {
+        "entity_a": "Bydgoszczy",
+        "entity_b": "2000 roku",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Bydgoszczy"
+    },
+    {
+      "id": 101,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "entity_a": "szatanem",
+        "entity_b": "biblię La Veya",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "szatanem"
+    },
+    {
+      "id": 102,
+      "doc": "input_data/PCC-1.5-MMAX/long/199802030127_words.xml",
+      "variables": {
+        "entity_a": "towarów",
+        "entity_b": "Przejrzystość informacji",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "towarów"
+    },
+    {
+      "id": 103,
+      "doc": "input_data/PCC-1.5-MMAX/short/3012_words.xml",
+      "variables": {
+        "entity_a": "LAURA",
+        "entity_b": "LESZEK",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "LAURA"
+    },
+    {
+      "id": 104,
+      "doc": "input_data/PCC-1.5-MMAX/short/88_words.xml",
+      "variables": {
+        "entity_a": "Samotny",
+        "entity_b": "ciemności",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Samotny"
+    },
+    {
+      "id": 105,
+      "doc": "input_data/PCC-1.5-MMAX/short/3054_words.xml",
+      "variables": {
+        "entity_a": "Bóg , Właściciel Ziemi",
+        "entity_b": "rękę",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Bóg , Właściciel Ziemi"
+    },
+    {
+      "id": 106,
+      "doc": "input_data/PCC-1.5-MMAX/long/200108300032_words.xml",
+      "variables": {
+        "entity_a": "Motel w Ogonkach",
+        "entity_b": "konto firmy żony Łukaszka",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Motel w Ogonkach"
+    },
+    {
+      "id": 107,
+      "doc": "input_data/PCC-1.5-MMAX/short/1822_words.xml",
+      "variables": {
+        "entity_a": "z pieniędzy spółki remontowano dom Marka K . , byłego prezesa Funduszu",
+        "entity_b": "rady nadzorczej Eko-Pomocy",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "z pieniędzy spółki remontowano dom Marka K . , byłego prezesa Funduszu"
+    },
+    {
+      "id": 108,
+      "doc": "input_data/PCC-1.5-MMAX/short/3234_words.xml",
+      "variables": {
+        "entity_a": "Marcin",
+        "entity_b": "księdza Naliwajki",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Marcin"
+    },
+    {
+      "id": 109,
+      "doc": "input_data/PCC-1.5-MMAX/long/200108300032_words.xml",
+      "variables": {
+        "entity_a": "nieistniejąca firma niejakiego Władysława Haszczakiewicza z Drohojowa pod Przemyślem",
+        "entity_b": "Piotr Kudlak - ekspert ds . marketingu w PZU Development , wyposażony w pełnomocnictwo podpisane przez wiceprezesa PZU SA Jacka Berdyna i członka zarządu PZU Jacka Mejznera",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "nieistniejąca firma niejakiego Władysława Haszczakiewicza z Drohojowa pod Przemyślem"
+    },
+    {
+      "id": 110,
+      "doc": "input_data/PCC-1.5-MMAX/short/2862_words.xml",
+      "variables": {
+        "entity_a": "kolegi",
+        "entity_b": "matki kolegi",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "kolegi"
+    },
+    {
+      "id": 111,
+      "doc": "input_data/PCC-1.5-MMAX/short/647_words.xml",
+      "variables": {
+        "entity_a": "Firma",
+        "entity_b": "kompromisu",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Firma"
+    },
+    {
+      "id": 112,
+      "doc": "input_data/PCC-1.5-MMAX/short/3258_words.xml",
+      "variables": {
+        "entity_a": "Monika Skoczylas z Winnicy",
+        "entity_b": "papieża",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Monika Skoczylas z Winnicy"
+    },
+    {
+      "id": 113,
+      "doc": "input_data/PCC-1.5-MMAX/long/200202020036_words.xml",
+      "variables": {
+        "entity_a": "PAWEŁ GLIKMAN",
+        "entity_b": "majątku trwałym",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "PAWEŁ GLIKMAN"
+    },
+    {
+      "id": 114,
+      "doc": "input_data/PCC-1.5-MMAX/short/3202_words.xml",
+      "variables": {
+        "entity_a": "własne",
+        "entity_b": "sp0",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "własne"
+    },
+    {
+      "id": 115,
+      "doc": "input_data/PCC-1.5-MMAX/short/2126_words.xml",
+      "variables": {
+        "entity_a": "danych",
+        "entity_b": "oprogramowania sterującego łączem USB",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "danych"
+    },
+    {
+      "id": 116,
+      "doc": "input_data/PCC-1.5-MMAX/long/199801310037_words.xml",
+      "variables": {
+        "entity_a": "powszechnych",
+        "entity_b": "prawo",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "powszechnych"
+    },
+    {
+      "id": 117,
+      "doc": "input_data/PCC-1.5-MMAX/short/484_words.xml",
+      "variables": {
+        "entity_a": "Juan",
+        "entity_b": "Głowa człowieka głodnego",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Juan"
+    },
+    {
+      "id": 118,
+      "doc": "input_data/PCC-1.5-MMAX/long/199802040182_words.xml",
+      "variables": {
+        "entity_a": "Sławomir Luto",
+        "entity_b": "Polskiego Związku Zapaśniczego",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Sławomir Luto"
+    },
+    {
+      "id": 119,
+      "doc": "input_data/PCC-1.5-MMAX/short/2638_words.xml",
+      "variables": {
+        "entity_a": "Pan Waldemar",
+        "entity_b": "akordeon",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Pan Waldemar"
+    },
+    {
+      "id": 120,
+      "doc": "input_data/PCC-1.5-MMAX/short/1362_words.xml",
+      "variables": {
+        "entity_a": "ELI",
+        "entity_b": "Pati",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ELI"
+    },
+    {
+      "id": 121,
+      "doc": "input_data/PCC-1.5-MMAX/long/200004290022_words.xml",
+      "variables": {
+        "entity_a": "kwietnia",
+        "entity_b": "Unii Wolności",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "kwietnia"
+    },
+    {
+      "id": 122,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "entity_a": "Przywódca sekty - 23-letni Grzegorz Sz . , \" czarny biskup \"",
+        "entity_b": "biblię La Veya",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Przywódca sekty - 23-letni Grzegorz Sz . , \" czarny biskup \""
+    },
+    {
+      "id": 123,
+      "doc": "input_data/PCC-1.5-MMAX/short/2743_words.xml",
+      "variables": {
+        "entity_a": "ministra właściwego do spraw wewnętrznych",
+        "entity_b": "Państwowa Inspekcja Sanitarna Ministerstwa Spraw Wewnętrznych i Administracji , finansowana z budżetu państwa",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ministra właściwego do spraw wewnętrznych"
+    },
+    {
+      "id": 124,
+      "doc": "input_data/PCC-1.5-MMAX/long/200108300032_words.xml",
+      "variables": {
+        "entity_a": "2000 roku",
+        "entity_b": "Giżycku",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2000 roku"
+    },
+    {
+      "id": 125,
+      "doc": "input_data/PCC-1.5-MMAX/short/3098_words.xml",
+      "variables": {
+        "entity_a": "ŁUKASZ",
+        "entity_b": "PAWEŁ",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ŁUKASZ"
+    },
+    {
+      "id": 126,
+      "doc": "input_data/PCC-1.5-MMAX/short/2986_words.xml",
+      "variables": {
+        "entity_a": "Zaniego i Niższego",
+        "entity_b": "miejsce",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Zaniego i Niższego"
+    },
+    {
+      "id": 127,
+      "doc": "input_data/PCC-1.5-MMAX/long/199801310037_words.xml",
+      "variables": {
+        "entity_a": "okręgowe",
+        "entity_b": "Większość spraw tego rodzaju",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "okręgowe"
+    },
+    {
+      "id": 128,
+      "doc": "input_data/PCC-1.5-MMAX/short/493_words.xml",
+      "variables": {
+        "entity_a": "sp3",
+        "entity_b": "ta ta ta chrześnica",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sp3"
+    },
+    {
+      "id": 129,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704210012_words.xml",
+      "variables": {
+        "entity_a": "Jeorjos Aleksandros Mangakis , niegdyś członek ruchu oporu i więzień polityczny , dziś deputowany socjalistycznej partii PASOK",
+        "entity_b": "Rządy pułkowników",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Jeorjos Aleksandros Mangakis , niegdyś członek ruchu oporu i więzień polityczny , dziś deputowany socjalistycznej partii PASOK"
+    },
+    {
+      "id": 130,
+      "doc": "input_data/PCC-1.5-MMAX/short/3297_words.xml",
+      "variables": {
+        "entity_a": "potężna korupcja",
+        "entity_b": "Rumunii nacjonalistów",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "potężna korupcja"
+    },
+    {
+      "id": 131,
+      "doc": "input_data/PCC-1.5-MMAX/short/3495_words.xml",
+      "variables": {
+        "entity_a": "testy egzaminacyjne",
+        "entity_b": "Zarządzenia Ministerstwa Edukacji Narodowej",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "testy egzaminacyjne"
+    },
+    {
+      "id": 132,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "entity_a": "parku radziwiłłowskim w centrum miasta",
+        "entity_b": "lekcji",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "parku radziwiłłowskim w centrum miasta"
+    },
+    {
+      "id": 133,
+      "doc": "input_data/PCC-1.5-MMAX/long/200108300032_words.xml",
+      "variables": {
+        "entity_a": "zawieszonym w tamtym czasie prezesem Władysławem Jamrożym",
+        "entity_b": "były zarząd PZU",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "zawieszonym w tamtym czasie prezesem Władysławem Jamrożym"
+    },
+    {
+      "id": 134,
+      "doc": "input_data/PCC-1.5-MMAX/short/812_words.xml",
+      "variables": {
+        "entity_a": "Boze",
+        "entity_b": "swego losu",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Boze"
+    },
+    {
+      "id": 135,
+      "doc": "input_data/PCC-1.5-MMAX/short/3199_words.xml",
+      "variables": {
+        "entity_a": "sp5",
+        "entity_b": "sp1",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sp5"
+    },
+    {
+      "id": 136,
+      "doc": "input_data/PCC-1.5-MMAX/long/199801030068_words.xml",
+      "variables": {
+        "entity_a": "Polskie przedstawicielstwo niemieckiej firmy wysyłkowej Quelle , Quelle Polska z siedzibą w Poznaniu",
+        "entity_b": "bezpłatny autobus",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Polskie przedstawicielstwo niemieckiej firmy wysyłkowej Quelle , Quelle Polska z siedzibą w Poznaniu"
+    },
+    {
+      "id": 137,
+      "doc": "input_data/PCC-1.5-MMAX/long/199801030068_words.xml",
+      "variables": {
+        "entity_a": "Karty stałego klienta",
+        "entity_b": "stałego klienta",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Karty stałego klienta"
+    },
+    {
+      "id": 138,
+      "doc": "input_data/PCC-1.5-MMAX/short/2501_words.xml",
+      "variables": {
+        "entity_a": "historii Górnego Śląska",
+        "entity_b": "Gastprofessor",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "historii Górnego Śląska"
+    },
+    {
+      "id": 139,
+      "doc": "input_data/PCC-1.5-MMAX/long/199801030068_words.xml",
+      "variables": {
+        "entity_a": "kart stałego klienta i kart rabatowych",
+        "entity_b": "około 250 tys . kart",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "kart stałego klienta i kart rabatowych"
+    },
+    {
+      "id": 140,
+      "doc": "input_data/PCC-1.5-MMAX/short/277_words.xml",
+      "variables": {
+        "entity_a": "karetkę",
+        "entity_b": "Mężczyzna 2",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "karetkę"
+    },
+    {
+      "id": 141,
+      "doc": "input_data/PCC-1.5-MMAX/long/199802030127_words.xml",
+      "variables": {
+        "entity_a": "Dyrektywy , których celem jest ochrona życia i zdrowia konsumentów",
+        "entity_b": "produktów żywieniowych",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Dyrektywy , których celem jest ochrona życia i zdrowia konsumentów"
+    },
+    {
+      "id": 142,
+      "doc": "input_data/PCC-1.5-MMAX/short/162_words.xml",
+      "variables": {
+        "entity_a": "Bogusia",
+        "entity_b": "Jadźce",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Bogusia"
+    },
+    {
+      "id": 143,
+      "doc": "input_data/PCC-1.5-MMAX/short/408_words.xml",
+      "variables": {
+        "entity_a": "Październik",
+        "entity_b": "master6x6",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Październik"
+    },
+    {
+      "id": 144,
+      "doc": "input_data/PCC-1.5-MMAX/short/3556_words.xml",
+      "variables": {
+        "entity_a": "WicemarszalekMarcinTyrna",
+        "entity_b": "Pan senator Kozłowski",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "WicemarszalekMarcinTyrna"
+    },
+    {
+      "id": 145,
+      "doc": "input_data/PCC-1.5-MMAX/short/3041_words.xml",
+      "variables": {
+        "entity_a": "PIOTR",
+        "entity_b": "ZOFIA",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "PIOTR"
+    },
+    {
+      "id": 146,
+      "doc": "input_data/PCC-1.5-MMAX/short/3145_words.xml",
+      "variables": {
+        "entity_a": "Zosia",
+        "entity_b": "sp1",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Zosia"
+    },
+    {
+      "id": 147,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "entity_a": "La Veya",
+        "entity_b": "córce",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "La Veya"
+    },
+    {
+      "id": 148,
+      "doc": "input_data/PCC-1.5-MMAX/short/3536_words.xml",
+      "variables": {
+        "entity_a": "Popiela",
+        "entity_b": "Siemowita",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Popiela"
+    },
+    {
+      "id": 149,
+      "doc": "input_data/PCC-1.5-MMAX/short/3563_words.xml",
+      "variables": {
+        "entity_a": "danych",
+        "entity_b": "Ustaw",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "danych"
+    },
+    {
+      "id": 150,
+      "doc": "input_data/PCC-1.5-MMAX/short/2952_words.xml",
+      "variables": {
+        "entity_a": "Szmelc",
+        "entity_b": "Miki",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Szmelc"
+    },
+    {
+      "id": 151,
+      "doc": "input_data/PCC-1.5-MMAX/long/200108300032_words.xml",
+      "variables": {
+        "entity_a": "Piotr Kudlak - ekspert ds . marketingu w PZU Development , wyposażony w pełnomocnictwo podpisane przez wiceprezesa PZU SA Jacka Berdyna i członka zarządu PZU Jacka Mejznera",
+        "entity_b": "czarnym neseserze",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Piotr Kudlak - ekspert ds . marketingu w PZU Development , wyposażony w pełnomocnictwo podpisane przez wiceprezesa PZU SA Jacka Berdyna i członka zarządu PZU Jacka Mejznera"
+    },
+    {
+      "id": 152,
+      "doc": "input_data/PCC-1.5-MMAX/short/3074_words.xml",
+      "variables": {
+        "entity_a": "Trazyllusa",
+        "entity_b": "Tyberiusz",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Trazyllusa"
+    },
+    {
+      "id": 153,
+      "doc": "input_data/PCC-1.5-MMAX/short/3429_words.xml",
+      "variables": {
+        "entity_a": "Boże Narodzenie",
+        "entity_b": "ruchu",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Boże Narodzenie"
+    },
+    {
+      "id": 154,
+      "doc": "input_data/PCC-1.5-MMAX/long/200202020036_words.xml",
+      "variables": {
+        "entity_a": "UE",
+        "entity_b": "wydajności",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "UE"
+    },
+    {
+      "id": 155,
+      "doc": "input_data/PCC-1.5-MMAX/long/199801310037_words.xml",
+      "variables": {
+        "entity_a": "strony",
+        "entity_b": "sądownictwa powszechnego",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "strony"
+    },
+    {
+      "id": 156,
+      "doc": "input_data/PCC-1.5-MMAX/long/199906240084_words.xml",
+      "variables": {
+        "entity_a": "przyrody",
+        "entity_b": "niewiedza",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "przyrody"
+    },
+    {
+      "id": 157,
+      "doc": "input_data/PCC-1.5-MMAX/short/3041_words.xml",
+      "variables": {
+        "entity_a": "ZOFIA",
+        "entity_b": "MAGDA",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ZOFIA"
+    },
+    {
+      "id": 158,
+      "doc": "input_data/PCC-1.5-MMAX/short/2765_words.xml",
+      "variables": {
+        "entity_a": "Sweet girl",
+        "entity_b": "powiedzial",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Sweet girl"
+    },
+    {
+      "id": 159,
+      "doc": "input_data/PCC-1.5-MMAX/short/3140_words.xml",
+      "variables": {
+        "entity_a": "sp1",
+        "entity_b": "sp0",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sp1"
+    },
+    {
+      "id": 160,
+      "doc": "input_data/PCC-1.5-MMAX/long/200203190026_words.xml",
+      "variables": {
+        "entity_a": "wieku 65 lat",
+        "entity_b": "otwartym funduszu emerytalnym ( OFE )",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "wieku 65 lat"
+    },
+    {
+      "id": 161,
+      "doc": "input_data/PCC-1.5-MMAX/short/491_words.xml",
+      "variables": {
+        "entity_a": "sp0",
+        "entity_b": "sp2",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sp0"
+    },
+    {
+      "id": 162,
+      "doc": "input_data/PCC-1.5-MMAX/short/3401_words.xml",
+      "variables": {
+        "entity_a": "Kontrolerka",
+        "entity_b": "Aneta Krawczyk , była działaczka Samoobrony",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Kontrolerka"
+    },
+    {
+      "id": 163,
+      "doc": "input_data/PCC-1.5-MMAX/long/199802040182_words.xml",
+      "variables": {
+        "entity_a": "Jacek Wasilewski , japonista , komentator zawodów sumo",
+        "entity_b": "sekretarz generalny PZZ , Andrzej Wojda",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Jacek Wasilewski , japonista , komentator zawodów sumo"
+    },
+    {
+      "id": 164,
+      "doc": "input_data/PCC-1.5-MMAX/short/2941_words.xml",
+      "variables": {
+        "entity_a": "swoją matkę , która regularnie odwiedzała małoletnią Karolinę i wnosiła pewne sumy na jej potrzeby",
+        "entity_b": "kobieta w sędziowskim łańcuchu na szyi",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "swoją matkę , która regularnie odwiedzała małoletnią Karolinę i wnosiła pewne sumy na jej potrzeby"
+    },
+    {
+      "id": 165,
+      "doc": "input_data/PCC-1.5-MMAX/short/3199_words.xml",
+      "variables": {
+        "entity_a": "sp8",
+        "entity_b": "sp5",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sp8"
+    },
+    {
+      "id": 166,
+      "doc": "input_data/PCC-1.5-MMAX/short/400_words.xml",
+      "variables": {
+        "entity_a": "Benhakkera",
+        "entity_b": "Badlik",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Benhakkera"
+    },
+    {
+      "id": 167,
+      "doc": "input_data/PCC-1.5-MMAX/short/3186_words.xml",
+      "variables": {
+        "entity_a": "sp0",
+        "entity_b": "sp1",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sp0"
+    },
+    {
+      "id": 168,
+      "doc": "input_data/PCC-1.5-MMAX/short/2787_words.xml",
+      "variables": {
+        "entity_a": "KARP",
+        "entity_b": "Ane29",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "KARP"
+    },
+    {
+      "id": 169,
+      "doc": "input_data/PCC-1.5-MMAX/long/199912280024_words.xml",
+      "variables": {
+        "entity_a": "energii",
+        "entity_b": "Japonia , Korea czy Tajwan",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "energii"
+    },
+    {
+      "id": 170,
+      "doc": "input_data/PCC-1.5-MMAX/short/3007_words.xml",
+      "variables": {
+        "entity_a": "CHRUST",
+        "entity_b": "DONA",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "CHRUST"
+    },
+    {
+      "id": 171,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "entity_a": "Przywódca sekty - 23-letni Grzegorz Sz . , \" czarny biskup \"",
+        "entity_b": "Wiesław Gromadzki , szef Klubu Literackiego \" Maksyma \" w Białej Podlaskiej",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Przywódca sekty - 23-letni Grzegorz Sz . , \" czarny biskup \""
+    },
+    {
+      "id": 172,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704230043_words.xml",
+      "variables": {
+        "entity_a": "Polsce",
+        "entity_b": "tylko pozornie nawróconego ludu , który \" nic nie zna i nie czyni prócz tego , co palec szatana w sercach jego zapisał \"",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Polsce"
+    },
+    {
+      "id": 173,
+      "doc": "input_data/PCC-1.5-MMAX/short/2982_words.xml",
+      "variables": {
+        "entity_a": "MARIA",
+        "entity_b": "_ mamą",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "MARIA"
+    },
+    {
+      "id": 174,
+      "doc": "input_data/PCC-1.5-MMAX/short/422_words.xml",
+      "variables": {
+        "entity_a": "łacińską",
+        "entity_b": "Pozostałe dwa",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "łacińską"
+    },
+    {
+      "id": 175,
+      "doc": "input_data/PCC-1.5-MMAX/short/3353_words.xml",
+      "variables": {
+        "entity_a": "pan",
+        "entity_b": "nowa partia lewicowa",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "pan"
+    },
+    {
+      "id": 176,
+      "doc": "input_data/PCC-1.5-MMAX/long/200203190026_words.xml",
+      "variables": {
+        "entity_a": "dalsze trwanie życia",
+        "entity_b": "jej składki",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "dalsze trwanie życia"
+    },
+    {
+      "id": 177,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704230043_words.xml",
+      "variables": {
+        "entity_a": "\" jednoczącej się wówczas Europy \"",
+        "entity_b": "ciało",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "\" jednoczącej się wówczas Europy \""
+    },
+    {
+      "id": 178,
+      "doc": "input_data/PCC-1.5-MMAX/short/460_words.xml",
+      "variables": {
+        "entity_a": "nasza córka",
+        "entity_b": "Downa",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "nasza córka"
+    },
+    {
+      "id": 179,
+      "doc": "input_data/PCC-1.5-MMAX/long/200004290022_words.xml",
+      "variables": {
+        "entity_a": "obchodami tysiąclecia zjazdu gnieźnieńskiego",
+        "entity_b": "sobotnie popołudnie",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "obchodami tysiąclecia zjazdu gnieźnieńskiego"
+    },
+    {
+      "id": 180,
+      "doc": "input_data/PCC-1.5-MMAX/short/2157_words.xml",
+      "variables": {
+        "entity_a": "swoim dziecku",
+        "entity_b": "własnym",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "swoim dziecku"
+    },
+    {
+      "id": 181,
+      "doc": "input_data/PCC-1.5-MMAX/short/3179_words.xml",
+      "variables": {
+        "entity_a": "Maciek",
+        "entity_b": "jedźta",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Maciek"
+    },
+    {
+      "id": 182,
+      "doc": "input_data/PCC-1.5-MMAX/short/2513_words.xml",
+      "variables": {
+        "entity_a": "Hutnikiem Kraków",
+        "entity_b": "Mariusz Podgórski",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Hutnikiem Kraków"
+    },
+    {
+      "id": 183,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704230043_words.xml",
+      "variables": {
+        "entity_a": "Siedemnaście legend",
+        "entity_b": "myśl jednoczenia się Europy w znaczeniu czysto politycznym",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Siedemnaście legend"
+    },
+    {
+      "id": 184,
+      "doc": "input_data/PCC-1.5-MMAX/long/200203190026_words.xml",
+      "variables": {
+        "entity_a": "otwartym funduszu emerytalnym ( OFE )",
+        "entity_b": "kobiety",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "otwartym funduszu emerytalnym ( OFE )"
+    },
+    {
+      "id": 185,
+      "doc": "input_data/PCC-1.5-MMAX/short/2795_words.xml",
+      "variables": {
+        "entity_a": "Orlandoo",
+        "entity_b": "olszyna _ nad _ rowem",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Orlandoo"
+    },
+    {
+      "id": 186,
+      "doc": "input_data/PCC-1.5-MMAX/long/199801030068_words.xml",
+      "variables": {
+        "entity_a": "sklepu",
+        "entity_b": "pierwszego zakupionego produktu",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sklepu"
+    },
+    {
+      "id": 187,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "entity_a": "Kapłan",
+        "entity_b": "Młodzi , niedojrzali",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Kapłan"
+    },
+    {
+      "id": 188,
+      "doc": "input_data/PCC-1.5-MMAX/short/2490_words.xml",
+      "variables": {
+        "entity_a": "pana Gerharda",
+        "entity_b": "Michał",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "pana Gerharda"
+    },
+    {
+      "id": 189,
+      "doc": "input_data/PCC-1.5-MMAX/long/199901190115_words.xml",
+      "variables": {
+        "entity_a": "odpadów radioaktywnych , pochodzących z niemieckich elektrowni jądrowych , i wysyłanych do Francji",
+        "entity_b": "Zamknięcie elektrowni jądrowych w Niemczech",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "odpadów radioaktywnych , pochodzących z niemieckich elektrowni jądrowych , i wysyłanych do Francji"
+    },
+    {
+      "id": 190,
+      "doc": "input_data/PCC-1.5-MMAX/short/490_words.xml",
+      "variables": {
+        "entity_a": "sp0",
+        "entity_b": "sp2",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sp0"
+    },
+    {
+      "id": 191,
+      "doc": "input_data/PCC-1.5-MMAX/short/725_words.xml",
+      "variables": {
+        "entity_a": "Europą",
+        "entity_b": "działalności i zastosowań",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Europą"
+    },
+    {
+      "id": 192,
+      "doc": "input_data/PCC-1.5-MMAX/short/2566_words.xml",
+      "variables": {
+        "entity_a": "ul . Pocztowej",
+        "entity_b": "Markotu",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ul . Pocztowej"
+    },
+    {
+      "id": 193,
+      "doc": "input_data/PCC-1.5-MMAX/long/200004290022_words.xml",
+      "variables": {
+        "entity_a": "Prezydent",
+        "entity_b": "Leszek Balcerowicz",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Prezydent"
+    },
+    {
+      "id": 194,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "entity_a": "szatanem",
+        "entity_b": "Wielu członków grupy",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "szatanem"
+    },
+    {
+      "id": 195,
+      "doc": "input_data/PCC-1.5-MMAX/short/493_words.xml",
+      "variables": {
+        "entity_a": "Wiesia",
+        "entity_b": "sp3",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Wiesia"
+    },
+    {
+      "id": 196,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704230043_words.xml",
+      "variables": {
+        "entity_a": "śmierci",
+        "entity_b": "Gnieźnie",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "śmierci"
+    },
+    {
+      "id": 197,
+      "doc": "input_data/PCC-1.5-MMAX/short/2981_words.xml",
+      "variables": {
+        "entity_a": "MARIA",
+        "entity_b": "LUCJAN",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "MARIA"
+    },
+    {
+      "id": 198,
+      "doc": "input_data/PCC-1.5-MMAX/long/199802030127_words.xml",
+      "variables": {
+        "entity_a": "towarów",
+        "entity_b": "wytwórców i handlowców , określanych jako homo oeconomicus activus",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "towarów"
+    },
+    {
+      "id": 199,
+      "doc": "input_data/PCC-1.5-MMAX/short/605_words.xml",
+      "variables": {
+        "entity_a": "Frankensteina",
+        "entity_b": "mieszkańców",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Frankensteina"
+    },
+    {
+      "id": 200,
+      "doc": "input_data/PCC-1.5-MMAX/short/947_words.xml",
+      "variables": {
+        "entity_a": "portu Police",
+        "entity_b": "Police",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "portu Police"
+    },
+    {
+      "id": 201,
+      "doc": "input_data/PCC-1.5-MMAX/long/199801310037_words.xml",
+      "variables": {
+        "entity_a": "12 sądów ds . czynszów najmu i drugie tyle ds . czynszów dzierżawnych",
+        "entity_b": "organa administracji publicznej",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12 sądów ds . czynszów najmu i drugie tyle ds . czynszów dzierżawnych"
+    },
+    {
+      "id": 202,
+      "doc": "input_data/PCC-1.5-MMAX/long/199802030127_words.xml",
+      "variables": {
+        "entity_a": "celu",
+        "entity_b": "jej warunkach",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "celu"
+    },
+    {
+      "id": 203,
+      "doc": "input_data/PCC-1.5-MMAX/short/3177_words.xml",
+      "variables": {
+        "entity_a": "sp3",
+        "entity_b": "koleś którego coś takiego śmieszy",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sp3"
+    },
+    {
+      "id": 204,
+      "doc": "input_data/PCC-1.5-MMAX/short/2970_words.xml",
+      "variables": {
+        "entity_a": "REGUŁA",
+        "entity_b": "BARTEK",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "REGUŁA"
+    },
+    {
+      "id": 205,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704210012_words.xml",
+      "variables": {
+        "entity_a": "Rządy pułkowników",
+        "entity_b": "społeczeństwa",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Rządy pułkowników"
+    },
+    {
+      "id": 206,
+      "doc": "input_data/PCC-1.5-MMAX/short/2886_words.xml",
+      "variables": {
+        "entity_a": "bałkańskich narodach",
+        "entity_b": "Obrony",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "bałkańskich narodach"
+    },
+    {
+      "id": 207,
+      "doc": "input_data/PCC-1.5-MMAX/long/200108300032_words.xml",
+      "variables": {
+        "entity_a": "Piotr Kudlak - ekspert ds . marketingu w PZU Development , wyposażony w pełnomocnictwo podpisane przez wiceprezesa PZU SA Jacka Berdyna i członka zarządu PZU Jacka Mejznera",
+        "entity_b": "mojego domu",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Piotr Kudlak - ekspert ds . marketingu w PZU Development , wyposażony w pełnomocnictwo podpisane przez wiceprezesa PZU SA Jacka Berdyna i członka zarządu PZU Jacka Mejznera"
+    },
+    {
+      "id": 208,
+      "doc": "input_data/PCC-1.5-MMAX/short/457_words.xml",
+      "variables": {
+        "entity_a": "krakowskich biskupów",
+        "entity_b": "Czarnkowa",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "krakowskich biskupów"
+    },
+    {
+      "id": 209,
+      "doc": "input_data/PCC-1.5-MMAX/short/268_words.xml",
+      "variables": {
+        "entity_a": "MAGDA",
+        "entity_b": "BARTEK",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "MAGDA"
+    },
+    {
+      "id": 210,
+      "doc": "input_data/PCC-1.5-MMAX/long/199801030068_words.xml",
+      "variables": {
+        "entity_a": "karty stałego klienta",
+        "entity_b": "wysokości około 5 proc .",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "karty stałego klienta"
+    },
+    {
+      "id": 211,
+      "doc": "input_data/PCC-1.5-MMAX/short/2963_words.xml",
+      "variables": {
+        "entity_a": "Puzon",
+        "entity_b": "Dywan",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Puzon"
+    },
+    {
+      "id": 212,
+      "doc": "input_data/PCC-1.5-MMAX/short/3441_words.xml",
+      "variables": {
+        "entity_a": "były marszałek Sejmu Ludwik Dorn",
+        "entity_b": "16 czerwca",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "były marszałek Sejmu Ludwik Dorn"
+    },
+    {
+      "id": 213,
+      "doc": "input_data/PCC-1.5-MMAX/short/2385_words.xml",
+      "variables": {
+        "entity_a": "Uzdrowiska Darków , gdzie udali się mieszkańcy Biesłanu",
+        "entity_b": "zamachu",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Uzdrowiska Darków , gdzie udali się mieszkańcy Biesłanu"
+    },
+    {
+      "id": 214,
+      "doc": "input_data/PCC-1.5-MMAX/long/200108300032_words.xml",
+      "variables": {
+        "entity_a": "Motel w Ogonkach",
+        "entity_b": "Jacka Berdyna",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Motel w Ogonkach"
+    },
+    {
+      "id": 215,
+      "doc": "input_data/PCC-1.5-MMAX/long/200202020036_words.xml",
+      "variables": {
+        "entity_a": "Erupcja przedsiębiorczości",
+        "entity_b": "europejskich MSP",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Erupcja przedsiębiorczości"
+    },
+    {
+      "id": 216,
+      "doc": "input_data/PCC-1.5-MMAX/long/200203190026_words.xml",
+      "variables": {
+        "entity_a": "Przyszłe świadczenia",
+        "entity_b": "ZUS",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Przyszłe świadczenia"
+    },
+    {
+      "id": 217,
+      "doc": "input_data/PCC-1.5-MMAX/short/2925_words.xml",
+      "variables": {
+        "entity_a": "ŁUKASZ",
+        "entity_b": "DZIEWCZYNA - EWA",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ŁUKASZ"
+    },
+    {
+      "id": 218,
+      "doc": "input_data/PCC-1.5-MMAX/long/200108300032_words.xml",
+      "variables": {
+        "entity_a": "spółka zależna - PZU Development",
+        "entity_b": "nieruchomościami",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "spółka zależna - PZU Development"
+    },
+    {
+      "id": 219,
+      "doc": "input_data/PCC-1.5-MMAX/short/522_words.xml",
+      "variables": {
+        "entity_a": "kilku raczej zamożnych jego mieszkańców",
+        "entity_b": "panie",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "kilku raczej zamożnych jego mieszkańców"
+    },
+    {
+      "id": 220,
+      "doc": "input_data/PCC-1.5-MMAX/long/200108300032_words.xml",
+      "variables": {
+        "entity_a": "Motel w Ogonkach",
+        "entity_b": "mojego domu",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Motel w Ogonkach"
+    },
+    {
+      "id": 221,
+      "doc": "input_data/PCC-1.5-MMAX/short/84_words.xml",
+      "variables": {
+        "entity_a": "rozsrożony kowal",
+        "entity_b": "Antek",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "rozsrożony kowal"
+    },
+    {
+      "id": 222,
+      "doc": "input_data/PCC-1.5-MMAX/short/545_words.xml",
+      "variables": {
+        "entity_a": "sukcesu",
+        "entity_b": "samodyscyplina , przez którą rozumie się zdolność kontrolowania samego siebie , w tym przede wszystkich swoich emocji i myśli",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sukcesu"
+    },
+    {
+      "id": 223,
+      "doc": "input_data/PCC-1.5-MMAX/short/3016_words.xml",
+      "variables": {
+        "entity_a": "DANUTA",
+        "entity_b": "Teresa",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "DANUTA"
+    },
+    {
+      "id": 224,
+      "doc": "input_data/PCC-1.5-MMAX/short/2091_words.xml",
+      "variables": {
+        "entity_a": "nazw",
+        "entity_b": "treści programu",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "nazw"
+    },
+    {
+      "id": 225,
+      "doc": "input_data/PCC-1.5-MMAX/short/3515_words.xml",
+      "variables": {
+        "entity_a": "Huty \" Częstochowa \"",
+        "entity_b": "nutą zabawnej przewrotności",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Huty \" Częstochowa \""
+    },
+    {
+      "id": 226,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "entity_a": "La Veya",
+        "entity_b": "Przywódca sekty - 23-letni Grzegorz Sz . , \" czarny biskup \"",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "La Veya"
+    },
+    {
+      "id": 227,
+      "doc": "input_data/PCC-1.5-MMAX/short/3168_words.xml",
+      "variables": {
+        "entity_a": "Borczykowa",
+        "entity_b": "taka jeszcze jedna",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Borczykowa"
+    },
+    {
+      "id": 228,
+      "doc": "input_data/PCC-1.5-MMAX/long/199801030068_words.xml",
+      "variables": {
+        "entity_a": "właściciele złotej karty Adidasa pozostają wierni naszej firmie",
+        "entity_b": "kilkunastu proc .",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "właściciele złotej karty Adidasa pozostają wierni naszej firmie"
+    },
+    {
+      "id": 229,
+      "doc": "input_data/PCC-1.5-MMAX/short/496_words.xml",
+      "variables": {
+        "entity_a": "sp1",
+        "entity_b": "sp0",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sp1"
+    },
+    {
+      "id": 230,
+      "doc": "input_data/PCC-1.5-MMAX/short/478_words.xml",
+      "variables": {
+        "entity_a": "jego rodziców",
+        "entity_b": "ciasta",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "jego rodziców"
+    },
+    {
+      "id": 231,
+      "doc": "input_data/PCC-1.5-MMAX/long/200203190026_words.xml",
+      "variables": {
+        "entity_a": "lat 60",
+        "entity_b": "Ważny kapitał początkowy",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "lat 60"
+    },
+    {
+      "id": 232,
+      "doc": "input_data/PCC-1.5-MMAX/short/806_words.xml",
+      "variables": {
+        "entity_a": "czekolady",
+        "entity_b": "śliwki w czekoladzie",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "czekolady"
+    },
+    {
+      "id": 233,
+      "doc": "input_data/PCC-1.5-MMAX/short/269_words.xml",
+      "variables": {
+        "entity_a": "ARTUR",
+        "entity_b": "EUGENIUSZ",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ARTUR"
+    },
+    {
+      "id": 234,
+      "doc": "input_data/PCC-1.5-MMAX/long/200108300032_words.xml",
+      "variables": {
+        "entity_a": "Bydgoszczy",
+        "entity_b": "Motel w Ogonkach",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Bydgoszczy"
+    },
+    {
+      "id": 235,
+      "doc": "input_data/PCC-1.5-MMAX/long/199912280024_words.xml",
+      "variables": {
+        "entity_a": "stycznia",
+        "entity_b": "lokomotywy spalinowe",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "stycznia"
+    },
+    {
+      "id": 236,
+      "doc": "input_data/PCC-1.5-MMAX/long/199802030127_words.xml",
+      "variables": {
+        "entity_a": "Europie",
+        "entity_b": "Wspólnoty",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Europie"
+    },
+    {
+      "id": 237,
+      "doc": "input_data/PCC-1.5-MMAX/long/200108300032_words.xml",
+      "variables": {
+        "entity_a": "2000 roku",
+        "entity_b": "Włocławka",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2000 roku"
+    },
+    {
+      "id": 238,
+      "doc": "input_data/PCC-1.5-MMAX/short/1362_words.xml",
+      "variables": {
+        "entity_a": "Pati",
+        "entity_b": "Agnieszka",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Pati"
+    },
+    {
+      "id": 239,
+      "doc": "input_data/PCC-1.5-MMAX/long/199802030127_words.xml",
+      "variables": {
+        "entity_a": "towarów",
+        "entity_b": "rynku",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "towarów"
+    },
+    {
+      "id": 240,
+      "doc": "input_data/PCC-1.5-MMAX/short/3200_words.xml",
+      "variables": {
+        "entity_a": "państwo",
+        "entity_b": "sp0",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "państwo"
+    },
+    {
+      "id": 241,
+      "doc": "input_data/PCC-1.5-MMAX/long/199901190115_words.xml",
+      "variables": {
+        "entity_a": "energetyki jądrowej",
+        "entity_b": "energię",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "energetyki jądrowej"
+    },
+    {
+      "id": 242,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "entity_a": "Przywódca sekty - 23-letni Grzegorz Sz . , \" czarny biskup \"",
+        "entity_b": "satanizm",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Przywódca sekty - 23-letni Grzegorz Sz . , \" czarny biskup \""
+    },
+    {
+      "id": 243,
+      "doc": "input_data/PCC-1.5-MMAX/short/111_words.xml",
+      "variables": {
+        "entity_a": "Arek",
+        "entity_b": "Gocha",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Arek"
+    },
+    {
+      "id": 244,
+      "doc": "input_data/PCC-1.5-MMAX/short/537_words.xml",
+      "variables": {
+        "entity_a": "terenu",
+        "entity_b": "dyskusja",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "terenu"
+    },
+    {
+      "id": 245,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "entity_a": "Paweł K . , ps . Suchy",
+        "entity_b": "miłości",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Paweł K . , ps . Suchy"
+    },
+    {
+      "id": 246,
+      "doc": "input_data/PCC-1.5-MMAX/short/381_words.xml",
+      "variables": {
+        "entity_a": "pańskie",
+        "entity_b": "trudnej sytuacji , w jakiej znalazła się piłka nożna w naszym klubie",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "pańskie"
+    },
+    {
+      "id": 247,
+      "doc": "input_data/PCC-1.5-MMAX/long/200004290022_words.xml",
+      "variables": {
+        "entity_a": "Gniezna",
+        "entity_b": "delegacji państwowych",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Gniezna"
+    },
+    {
+      "id": 248,
+      "doc": "input_data/PCC-1.5-MMAX/long/199802030127_words.xml",
+      "variables": {
+        "entity_a": "( istniejącej od 1973 r . ) Komisji do Spraw Konsumentów",
+        "entity_b": "promocji konsumpcji przyjaznej środowisku naturalnemu",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "( istniejącej od 1973 r . ) Komisji do Spraw Konsumentów"
+    },
+    {
+      "id": 249,
+      "doc": "input_data/PCC-1.5-MMAX/short/3199_words.xml",
+      "variables": {
+        "entity_a": "sp5",
+        "entity_b": "bedzieta",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sp5"
+    },
+    {
+      "id": 250,
+      "doc": "input_data/PCC-1.5-MMAX/short/393_words.xml",
+      "variables": {
+        "entity_a": "Sejm",
+        "entity_b": "organizacji , których statutowym celem jest ochrona zwierząt",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Sejm"
+    },
+    {
+      "id": 251,
+      "doc": "input_data/PCC-1.5-MMAX/short/2638_words.xml",
+      "variables": {
+        "entity_a": "kobiecie , która znalazła instrument",
+        "entity_b": "akordeon",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "kobiecie , która znalazła instrument"
+    },
+    {
+      "id": 252,
+      "doc": "input_data/PCC-1.5-MMAX/long/199901300101_words.xml",
+      "variables": {
+        "entity_a": "różnych czynności umysłowych - czytania , liczenia , postrzegania lub wysiłku intelektualnego",
+        "entity_b": "lat 90 .",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "różnych czynności umysłowych - czytania , liczenia , postrzegania lub wysiłku intelektualnego"
+    },
+    {
+      "id": 253,
+      "doc": "input_data/PCC-1.5-MMAX/short/661_words.xml",
+      "variables": {
+        "entity_a": "pani prezydentowej",
+        "entity_b": "mąż",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "pani prezydentowej"
+    },
+    {
+      "id": 254,
+      "doc": "input_data/PCC-1.5-MMAX/short/2780_words.xml",
+      "variables": {
+        "entity_a": "Tabletki o które pytasz",
+        "entity_b": "schizol",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Tabletki o które pytasz"
+    },
+    {
+      "id": 255,
+      "doc": "input_data/PCC-1.5-MMAX/short/429_words.xml",
+      "variables": {
+        "entity_a": "niewiastą",
+        "entity_b": "człowieka",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "niewiastą"
+    },
+    {
+      "id": 256,
+      "doc": "input_data/PCC-1.5-MMAX/short/3357_words.xml",
+      "variables": {
+        "entity_a": "zablokowania mostu na Sanie",
+        "entity_b": "zaistniałą sytuację",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "zablokowania mostu na Sanie"
+    },
+    {
+      "id": 257,
+      "doc": "input_data/PCC-1.5-MMAX/short/288_words.xml",
+      "variables": {
+        "entity_a": "niewolniku",
+        "entity_b": "panie",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "niewolniku"
+    },
+    {
+      "id": 258,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "entity_a": "Wiesław Gromadzki , szef Klubu Literackiego \" Maksyma \" w Białej Podlaskiej",
+        "entity_b": "Młodzi , niedojrzali",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Wiesław Gromadzki , szef Klubu Literackiego \" Maksyma \" w Białej Podlaskiej"
+    },
+    {
+      "id": 259,
+      "doc": "input_data/PCC-1.5-MMAX/short/411_words.xml",
+      "variables": {
+        "entity_a": "sklepach",
+        "entity_b": "gustu",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sklepach"
+    },
+    {
+      "id": 260,
+      "doc": "input_data/PCC-1.5-MMAX/short/492_words.xml",
+      "variables": {
+        "entity_a": "mój brat",
+        "entity_b": "ten tata",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "mój brat"
+    },
+    {
+      "id": 261,
+      "doc": "input_data/PCC-1.5-MMAX/long/200004290022_words.xml",
+      "variables": {
+        "entity_a": "Unii Wolności",
+        "entity_b": "Izraela",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Unii Wolności"
+    },
+    {
+      "id": 262,
+      "doc": "input_data/PCC-1.5-MMAX/short/3127_words.xml",
+      "variables": {
+        "entity_a": "ludziska",
+        "entity_b": "takiego kundla",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ludziska"
+    },
+    {
+      "id": 263,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "entity_a": "matka jednej z bialskich poganek , która utrzymywała bliskie kontakty z satanistami",
+        "entity_b": "Białej Podlaskiej",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "matka jednej z bialskich poganek , która utrzymywała bliskie kontakty z satanistami"
+    },
+    {
+      "id": 264,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "entity_a": "Białej Podlaskiej",
+        "entity_b": "satanizm",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Białej Podlaskiej"
+    },
+    {
+      "id": 265,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "entity_a": "Bagsika",
+        "entity_b": "matka jednej z bialskich poganek , która utrzymywała bliskie kontakty z satanistami",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Bagsika"
+    },
+    {
+      "id": 266,
+      "doc": "input_data/PCC-1.5-MMAX/long/200004290022_words.xml",
+      "variables": {
+        "entity_a": "Leszek Balcerowicz",
+        "entity_b": "2 maja",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Leszek Balcerowicz"
+    },
+    {
+      "id": 267,
+      "doc": "input_data/PCC-1.5-MMAX/short/558_words.xml",
+      "variables": {
+        "entity_a": "Szef sprzedaży",
+        "entity_b": "handlowcy",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Szef sprzedaży"
+    },
+    {
+      "id": 268,
+      "doc": "input_data/PCC-1.5-MMAX/short/3190_words.xml",
+      "variables": {
+        "entity_a": "sp2",
+        "entity_b": "ona cała",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sp2"
+    },
+    {
+      "id": 269,
+      "doc": "input_data/PCC-1.5-MMAX/short/2603_words.xml",
+      "variables": {
+        "entity_a": "Książka",
+        "entity_b": "prezentacje instytucji związanych z książką : Biblioteki Raczyńskich , Wojewódzkiej Biblioteki Publicznej w Poznaniu , Muzeum Arkadego Fiedlera z Puszczykowa i Stowarzyszenia APAJTE ( Polskie Stowarzyszenie Autorów , Dziennikarzy i Tłumaczy w Europie )",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Książka"
+    },
+    {
+      "id": 270,
+      "doc": "input_data/PCC-1.5-MMAX/short/3126_words.xml",
+      "variables": {
+        "entity_a": "Aniela Sopelkundel",
+        "entity_b": "synu",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Aniela Sopelkundel"
+    },
+    {
+      "id": 271,
+      "doc": "input_data/PCC-1.5-MMAX/short/3041_words.xml",
+      "variables": {
+        "entity_a": "TOMASZ",
+        "entity_b": "PIOTR",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "TOMASZ"
+    },
+    {
+      "id": 272,
+      "doc": "input_data/PCC-1.5-MMAX/short/411_words.xml",
+      "variables": {
+        "entity_a": "cruel _ woman",
+        "entity_b": "zimowe czy letnie",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "cruel _ woman"
+    },
+    {
+      "id": 273,
+      "doc": "input_data/PCC-1.5-MMAX/short/450_words.xml",
+      "variables": {
+        "entity_a": "Przekopał tę ulicę w dół",
+        "entity_b": "Parku Łazienkowskiego",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Przekopał tę ulicę w dół"
+    },
+    {
+      "id": 274,
+      "doc": "input_data/PCC-1.5-MMAX/short/3014_words.xml",
+      "variables": {
+        "entity_a": "Ania",
+        "entity_b": "parostatek SS Butterfly",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Ania"
+    },
+    {
+      "id": 275,
+      "doc": "input_data/PCC-1.5-MMAX/short/3209_words.xml",
+      "variables": {
+        "entity_a": "sp2",
+        "entity_b": "sp0",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sp2"
+    },
+    {
+      "id": 276,
+      "doc": "input_data/PCC-1.5-MMAX/long/199802040182_words.xml",
+      "variables": {
+        "entity_a": "Sławomir Luto",
+        "entity_b": "sekretarz generalny PZZ , Andrzej Wojda",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Sławomir Luto"
+    },
+    {
+      "id": 277,
+      "doc": "input_data/PCC-1.5-MMAX/short/3035_words.xml",
+      "variables": {
+        "entity_a": "soboty",
+        "entity_b": "powiązania rodzinne",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "soboty"
+    },
+    {
+      "id": 278,
+      "doc": "input_data/PCC-1.5-MMAX/long/199906240084_words.xml",
+      "variables": {
+        "entity_a": "Nowej Ery",
+        "entity_b": "najszybszy przepływ gotówki",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Nowej Ery"
+    },
+    {
+      "id": 279,
+      "doc": "input_data/PCC-1.5-MMAX/long/199801310037_words.xml",
+      "variables": {
+        "entity_a": "powszechne sądy administracyjne",
+        "entity_b": "Sąd Pracy",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "powszechne sądy administracyjne"
+    },
+    {
+      "id": 280,
+      "doc": "input_data/PCC-1.5-MMAX/long/200004290022_words.xml",
+      "variables": {
+        "entity_a": "kwietnia",
+        "entity_b": "terenie",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "kwietnia"
+    },
+    {
+      "id": 281,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704210012_words.xml",
+      "variables": {
+        "entity_a": "dożywocie",
+        "entity_b": "pożytku",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "dożywocie"
+    },
+    {
+      "id": 282,
+      "doc": "input_data/PCC-1.5-MMAX/short/2528_words.xml",
+      "variables": {
+        "entity_a": "rtęć",
+        "entity_b": "zdrowia",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "rtęć"
+    },
+    {
+      "id": 283,
+      "doc": "input_data/PCC-1.5-MMAX/short/2104_words.xml",
+      "variables": {
+        "entity_a": "narządów głównych meridianów",
+        "entity_b": "osierdzia regulującego i kontrolującego procesy organizmu",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "narządów głównych meridianów"
+    },
+    {
+      "id": 284,
+      "doc": "input_data/PCC-1.5-MMAX/short/3012_words.xml",
+      "variables": {
+        "entity_a": "KNAPIK",
+        "entity_b": "ZDUMIONY",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "KNAPIK"
+    },
+    {
+      "id": 285,
+      "doc": "input_data/PCC-1.5-MMAX/short/503_words.xml",
+      "variables": {
+        "entity_a": "sp5",
+        "entity_b": "tego żeby wygrać wybory i to w dodatku w pier .",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sp5"
+    },
+    {
+      "id": 286,
+      "doc": "input_data/PCC-1.5-MMAX/short/3546_words.xml",
+      "variables": {
+        "entity_a": "WicemarszalekZbigniewRomaszewski",
+        "entity_b": "przedstawiciel rządu",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "WicemarszalekZbigniewRomaszewski"
+    },
+    {
+      "id": 287,
+      "doc": "input_data/PCC-1.5-MMAX/short/3126_words.xml",
+      "variables": {
+        "entity_a": "synu",
+        "entity_b": "Halinę",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "synu"
+    },
+    {
+      "id": 288,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "entity_a": "szatanem",
+        "entity_b": "satanizm",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "szatanem"
+    },
+    {
+      "id": 289,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "entity_a": "biblię La Veya",
+        "entity_b": "satanistycznych obrzędów",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "biblię La Veya"
+    },
+    {
+      "id": 290,
+      "doc": "input_data/PCC-1.5-MMAX/long/200202020036_words.xml",
+      "variables": {
+        "entity_a": "przedsiębiorstw",
+        "entity_b": "europejskich MSP",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "przedsiębiorstw"
+    },
+    {
+      "id": 291,
+      "doc": "input_data/PCC-1.5-MMAX/short/2984_words.xml",
+      "variables": {
+        "entity_a": "Maria",
+        "entity_b": "kapitanem statku",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Maria"
+    },
+    {
+      "id": 292,
+      "doc": "input_data/PCC-1.5-MMAX/short/2959_words.xml",
+      "variables": {
+        "entity_a": "pana",
+        "entity_b": "Pawłowska",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "pana"
+    },
+    {
+      "id": 293,
+      "doc": "input_data/PCC-1.5-MMAX/short/3231_words.xml",
+      "variables": {
+        "entity_a": "Dwóch studentów z Politechniki Warszawskiej",
+        "entity_b": "oprogramowanie Smart Presenter , które zarejestruje każdy wykład",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Dwóch studentów z Politechniki Warszawskiej"
+    },
+    {
+      "id": 294,
+      "doc": "input_data/PCC-1.5-MMAX/short/2794_words.xml",
+      "variables": {
+        "entity_a": "mineło",
+        "entity_b": "Anka",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "mineło"
+    },
+    {
+      "id": 295,
+      "doc": "input_data/PCC-1.5-MMAX/short/3089_words.xml",
+      "variables": {
+        "entity_a": "Niczym się od nas nie różnią .",
+        "entity_b": "błędne decyzje",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Niczym się od nas nie różnią ."
+    },
+    {
+      "id": 296,
+      "doc": "input_data/PCC-1.5-MMAX/long/200108300032_words.xml",
+      "variables": {
+        "entity_a": "niejakiego Władysława Haszczakiewicza z Drohojowa pod Przemyślem",
+        "entity_b": "Bydgoszczy",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "niejakiego Władysława Haszczakiewicza z Drohojowa pod Przemyślem"
+    },
+    {
+      "id": 297,
+      "doc": "input_data/PCC-1.5-MMAX/short/448_words.xml",
+      "variables": {
+        "entity_a": "Panie Józefie",
+        "entity_b": "swojego kapelana",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Panie Józefie"
+    },
+    {
+      "id": 298,
+      "doc": "input_data/PCC-1.5-MMAX/long/200202020036_words.xml",
+      "variables": {
+        "entity_a": "wielkich przedsiębiorstw sektora publicznego",
+        "entity_b": "produkcji sprzedanej",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "wielkich przedsiębiorstw sektora publicznego"
+    },
+    {
+      "id": 299,
+      "doc": "input_data/PCC-1.5-MMAX/short/3016_words.xml",
+      "variables": {
+        "entity_a": "Kacper",
+        "entity_b": "Teresa",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Kacper"
+    },
+    {
+      "id": 300,
+      "doc": "input_data/PCC-1.5-MMAX/short/2701_words.xml",
+      "variables": {
+        "entity_a": "własnościowe",
+        "entity_b": "zmiany statutów , uregulowanie spraw własności gruntów , podział na działki",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "własnościowe"
+    },
+    {
+      "id": 301,
+      "doc": "input_data/PCC-1.5-MMAX/short/3225_words.xml",
+      "variables": {
+        "entity_a": "szyitami",
+        "entity_b": "frakcjami politycznymi",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "szyitami"
+    },
+    {
+      "id": 302,
+      "doc": "input_data/PCC-1.5-MMAX/short/3090_words.xml",
+      "variables": {
+        "entity_a": "pułkowniku",
+        "entity_b": "Krechowiak",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "pułkowniku"
+    },
+    {
+      "id": 303,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "entity_a": "córce",
+        "entity_b": "Wielu członków grupy",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "córce"
+    },
+    {
+      "id": 304,
+      "doc": "input_data/PCC-1.5-MMAX/short/2938_words.xml",
+      "variables": {
+        "entity_a": "Fela",
+        "entity_b": "sióstr",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Fela"
+    },
+    {
+      "id": 305,
+      "doc": "input_data/PCC-1.5-MMAX/short/2562_words.xml",
+      "variables": {
+        "entity_a": "drugoligowy zespół piłkarzy",
+        "entity_b": "licencje zawodniczek pierwszoligowego zespołu",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "drugoligowy zespół piłkarzy"
+    },
+    {
+      "id": 306,
+      "doc": "input_data/PCC-1.5-MMAX/short/2485_words.xml",
+      "variables": {
+        "entity_a": "Henryk D . , były poseł AWS",
+        "entity_b": "dużym znakiem zapytania",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Henryk D . , były poseł AWS"
+    },
+    {
+      "id": 307,
+      "doc": "input_data/PCC-1.5-MMAX/short/3006_words.xml",
+      "variables": {
+        "entity_a": "tego garbatego potwora",
+        "entity_b": "Janka",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "tego garbatego potwora"
+    },
+    {
+      "id": 308,
+      "doc": "input_data/PCC-1.5-MMAX/long/199901300101_words.xml",
+      "variables": {
+        "entity_a": "Komputer sterowany myślą",
+        "entity_b": "kursorem",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Komputer sterowany myślą"
+    },
+    {
+      "id": 309,
+      "doc": "input_data/PCC-1.5-MMAX/long/200108300032_words.xml",
+      "variables": {
+        "entity_a": "nieistniejąca firma niejakiego Władysława Haszczakiewicza z Drohojowa pod Przemyślem",
+        "entity_b": "umowa i faktura firmy Haszczakiewicza z Drohojowa",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "nieistniejąca firma niejakiego Władysława Haszczakiewicza z Drohojowa pod Przemyślem"
+    },
+    {
+      "id": 310,
+      "doc": "input_data/PCC-1.5-MMAX/long/200004290022_words.xml",
+      "variables": {
+        "entity_a": "lider SLD Leszek Miller",
+        "entity_b": "urlop",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "lider SLD Leszek Miller"
+    },
+    {
+      "id": 311,
+      "doc": "input_data/PCC-1.5-MMAX/short/3450_words.xml",
+      "variables": {
+        "entity_a": "pokaźny udźwig",
+        "entity_b": "maszyn B-52 gotowych do ataku",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "pokaźny udźwig"
+    },
+    {
+      "id": 312,
+      "doc": "input_data/PCC-1.5-MMAX/long/200004290022_words.xml",
+      "variables": {
+        "entity_a": "2 maja",
+        "entity_b": "30 kwietnia",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "2 maja"
+    },
+    {
+      "id": 313,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "entity_a": "Wielu członków grupy",
+        "entity_b": "Policja w Białej Podlaskiej",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Wielu członków grupy"
+    },
+    {
+      "id": 314,
+      "doc": "input_data/PCC-1.5-MMAX/short/443_words.xml",
+      "variables": {
+        "entity_a": "własną",
+        "entity_b": "ludzi , którzy na co dzień mają kłopot z odczuwaniem tego , że _ żyją",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "własną"
+    },
+    {
+      "id": 315,
+      "doc": "input_data/PCC-1.5-MMAX/short/2638_words.xml",
+      "variables": {
+        "entity_a": "Pan Waldemar",
+        "entity_b": "policję",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Pan Waldemar"
+    },
+    {
+      "id": 316,
+      "doc": "input_data/PCC-1.5-MMAX/short/628_words.xml",
+      "variables": {
+        "entity_a": "Kancelarii Senatu",
+        "entity_b": "sprzętu telekomunikacyjnego",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Kancelarii Senatu"
+    },
+    {
+      "id": 317,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "entity_a": "Kapłan",
+        "entity_b": "Wielu członków grupy",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Kapłan"
+    },
+    {
+      "id": 318,
+      "doc": "input_data/PCC-1.5-MMAX/short/67_words.xml",
+      "variables": {
+        "entity_a": "ukształtowania się w wielu państwach , zwłaszcza _ najbardziej rozwiniętych , takiego modelu politycznego , w którym dominantą jest szerokie CENTRUM , kierujące się bardziej pragmatyzmem i nagromadzonym doświadczeniem niż jakąkolwiek konkretną doktryną społeczną",
+        "entity_b": "motyle",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ukształtowania się w wielu państwach , zwłaszcza _ najbardziej rozwiniętych , takiego modelu politycznego , w którym dominantą jest szerokie CENTRUM , kierujące się bardziej pragmatyzmem i nagromadzonym doświadczeniem niż jakąkolwiek konkretną doktryną społeczną"
+    },
+    {
+      "id": 319,
+      "doc": "input_data/PCC-1.5-MMAX/short/283_words.xml",
+      "variables": {
+        "entity_a": "Renatki",
+        "entity_b": "Zbigiem",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Renatki"
+    },
+    {
+      "id": 320,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "entity_a": "Białej Podlaskiej",
+        "entity_b": "Kapłan",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Białej Podlaskiej"
+    },
+    {
+      "id": 321,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "entity_a": "Białej Podlaskiej",
+        "entity_b": "córce",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Białej Podlaskiej"
+    },
+    {
+      "id": 322,
+      "doc": "input_data/PCC-1.5-MMAX/long/199802030127_words.xml",
+      "variables": {
+        "entity_a": "Przejrzystość informacji",
+        "entity_b": "Wspólnoty",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Przejrzystość informacji"
+    },
+    {
+      "id": 323,
+      "doc": "input_data/PCC-1.5-MMAX/long/200203190026_words.xml",
+      "variables": {
+        "entity_a": "Przyszłe świadczenia",
+        "entity_b": "życia",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Przyszłe świadczenia"
+    },
+    {
+      "id": 324,
+      "doc": "input_data/PCC-1.5-MMAX/short/497_words.xml",
+      "variables": {
+        "entity_a": "ten chłopak",
+        "entity_b": "sp1",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ten chłopak"
+    },
+    {
+      "id": 325,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704230043_words.xml",
+      "variables": {
+        "entity_a": "Polsce",
+        "entity_b": "Pragi",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Polsce"
+    },
+    {
+      "id": 326,
+      "doc": "input_data/PCC-1.5-MMAX/long/199802030127_words.xml",
+      "variables": {
+        "entity_a": "Wspólnot",
+        "entity_b": "ochrony interesów gospodarczych",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Wspólnot"
+    },
+    {
+      "id": 327,
+      "doc": "input_data/PCC-1.5-MMAX/short/1809_words.xml",
+      "variables": {
+        "entity_a": "BUDAPESZT",
+        "entity_b": "najlepszymi szablistami świata",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "BUDAPESZT"
+    },
+    {
+      "id": 328,
+      "doc": "input_data/PCC-1.5-MMAX/short/3544_words.xml",
+      "variables": {
+        "entity_a": "Marszalek",
+        "entity_b": "pracownikami",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Marszalek"
+    },
+    {
+      "id": 329,
+      "doc": "input_data/PCC-1.5-MMAX/short/2459_words.xml",
+      "variables": {
+        "entity_a": "Bracia Jerzy , profesor prawa , były minister sprawiedliwości , i Lech Bafiowie",
+        "entity_b": "Zakopanego",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Bracia Jerzy , profesor prawa , były minister sprawiedliwości , i Lech Bafiowie"
+    },
+    {
+      "id": 330,
+      "doc": "input_data/PCC-1.5-MMAX/short/378_words.xml",
+      "variables": {
+        "entity_a": "polityką",
+        "entity_b": "podobną wizję samorządności dla Śląska i Katowic",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "polityką"
+    },
+    {
+      "id": 331,
+      "doc": "input_data/PCC-1.5-MMAX/short/3170_words.xml",
+      "variables": {
+        "entity_a": "sp2",
+        "entity_b": "Martę",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sp2"
+    },
+    {
+      "id": 332,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "entity_a": "córce",
+        "entity_b": "satanizm",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "córce"
+    },
+    {
+      "id": 333,
+      "doc": "input_data/PCC-1.5-MMAX/long/199801310037_words.xml",
+      "variables": {
+        "entity_a": "Naczelny Sąd Administracyjny",
+        "entity_b": "Szwecji",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Naczelny Sąd Administracyjny"
+    },
+    {
+      "id": 334,
+      "doc": "input_data/PCC-1.5-MMAX/short/3008_words.xml",
+      "variables": {
+        "entity_a": "Ta moja",
+        "entity_b": "śmiał się",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Ta moja"
+    },
+    {
+      "id": 335,
+      "doc": "input_data/PCC-1.5-MMAX/short/310_words.xml",
+      "variables": {
+        "entity_a": "mimo ogromnych pieniędzy nie uda się zmniejszyć rozdrobnienia naszej wsi",
+        "entity_b": "ARiMR",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "mimo ogromnych pieniędzy nie uda się zmniejszyć rozdrobnienia naszej wsi"
+    },
+    {
+      "id": 336,
+      "doc": "input_data/PCC-1.5-MMAX/short/3198_words.xml",
+      "variables": {
+        "entity_a": "sp2",
+        "entity_b": "Asia",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sp2"
+    },
+    {
+      "id": 337,
+      "doc": "input_data/PCC-1.5-MMAX/short/671_words.xml",
+      "variables": {
+        "entity_a": "Marek Pietraszewski",
+        "entity_b": "szkołę",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Marek Pietraszewski"
+    },
+    {
+      "id": 338,
+      "doc": "input_data/PCC-1.5-MMAX/short/3442_words.xml",
+      "variables": {
+        "entity_a": "Amelia Żuberek z miejscowości Dębicze",
+        "entity_b": "cztery dziewczyny",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Amelia Żuberek z miejscowości Dębicze"
+    },
+    {
+      "id": 339,
+      "doc": "input_data/PCC-1.5-MMAX/long/200108300032_words.xml",
+      "variables": {
+        "entity_a": "Adam Taukert , rzecznik prasowy PZU SA",
+        "entity_b": "brudnych pieniędzy",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Adam Taukert , rzecznik prasowy PZU SA"
+    },
+    {
+      "id": 340,
+      "doc": "input_data/PCC-1.5-MMAX/short/3542_words.xml",
+      "variables": {
+        "entity_a": "SenatorLeonKieres",
+        "entity_b": "akredytacji",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "SenatorLeonKieres"
+    },
+    {
+      "id": 341,
+      "doc": "input_data/PCC-1.5-MMAX/long/199802030127_words.xml",
+      "variables": {
+        "entity_a": "integracji gospodarczej",
+        "entity_b": "jego funkcjonowania",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "integracji gospodarczej"
+    },
+    {
+      "id": 342,
+      "doc": "input_data/PCC-1.5-MMAX/short/2468_words.xml",
+      "variables": {
+        "entity_a": "posiadania narkotyków",
+        "entity_b": "mniejszej wagi",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "posiadania narkotyków"
+    },
+    {
+      "id": 343,
+      "doc": "input_data/PCC-1.5-MMAX/short/3196_words.xml",
+      "variables": {
+        "entity_a": "sp0",
+        "entity_b": "sp1",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sp0"
+    },
+    {
+      "id": 344,
+      "doc": "input_data/PCC-1.5-MMAX/short/439_words.xml",
+      "variables": {
+        "entity_a": "słowa",
+        "entity_b": "drzwiami",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "słowa"
+    },
+    {
+      "id": 345,
+      "doc": "input_data/PCC-1.5-MMAX/long/199802040182_words.xml",
+      "variables": {
+        "entity_a": "ring o średnicy pięciu metrów",
+        "entity_b": "polecenie własnej osoby uwadze bogów , którzy decydują o wyniku walki",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ring o średnicy pięciu metrów"
+    },
+    {
+      "id": 346,
+      "doc": "input_data/PCC-1.5-MMAX/short/3029_words.xml",
+      "variables": {
+        "entity_a": "MAGDA",
+        "entity_b": "język",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "MAGDA"
+    },
+    {
+      "id": 347,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "entity_a": "Bagsika",
+        "entity_b": "La Veya",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Bagsika"
+    },
+    {
+      "id": 348,
+      "doc": "input_data/PCC-1.5-MMAX/short/2946_words.xml",
+      "variables": {
+        "entity_a": "jego własne",
+        "entity_b": "Maciej",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "jego własne"
+    },
+    {
+      "id": 349,
+      "doc": "input_data/PCC-1.5-MMAX/short/520_words.xml",
+      "variables": {
+        "entity_a": "SP ZOZ w Mińsku",
+        "entity_b": "przedsięwzięć inwestycyjnych i modernizacyjnych",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "SP ZOZ w Mińsku"
+    },
+    {
+      "id": 350,
+      "doc": "input_data/PCC-1.5-MMAX/short/2238_words.xml",
+      "variables": {
+        "entity_a": "lekarza",
+        "entity_b": "zestaw do ćwiczeń",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "lekarza"
+    },
+    {
+      "id": 351,
+      "doc": "input_data/PCC-1.5-MMAX/long/200108300032_words.xml",
+      "variables": {
+        "entity_a": "znany w Bydgoszczy handlarz złotem Włodzimierz Bogucki",
+        "entity_b": "niejaki Piotr Borkowski - tajemniczy mężczyzna z Warszawy , zdaniem Łukaszka szczupły , ok . czterdziestoletni",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "znany w Bydgoszczy handlarz złotem Włodzimierz Bogucki"
+    },
+    {
+      "id": 352,
+      "doc": "input_data/PCC-1.5-MMAX/long/199802040182_words.xml",
+      "variables": {
+        "entity_a": "Sama walka",
+        "entity_b": "telewizja",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Sama walka"
+    },
+    {
+      "id": 353,
+      "doc": "input_data/PCC-1.5-MMAX/short/3199_words.xml",
+      "variables": {
+        "entity_a": "sp8",
+        "entity_b": "psem",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sp8"
+    },
+    {
+      "id": 354,
+      "doc": "input_data/PCC-1.5-MMAX/short/398_words.xml",
+      "variables": {
+        "entity_a": "certyfikaty inwestycyjne",
+        "entity_b": "uczestnictwa",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "certyfikaty inwestycyjne"
+    },
+    {
+      "id": 355,
+      "doc": "input_data/PCC-1.5-MMAX/short/2692_words.xml",
+      "variables": {
+        "entity_a": "kobiet",
+        "entity_b": "podjęcia rozumnej decyzji",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "kobiet"
+    },
+    {
+      "id": 356,
+      "doc": "input_data/PCC-1.5-MMAX/long/200108300032_words.xml",
+      "variables": {
+        "entity_a": "konto firmy żony Łukaszka",
+        "entity_b": "umowa i faktura firmy Haszczakiewicza z Drohojowa",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "konto firmy żony Łukaszka"
+    },
+    {
+      "id": 357,
+      "doc": "input_data/PCC-1.5-MMAX/short/3187_words.xml",
+      "variables": {
+        "entity_a": "sp1",
+        "entity_b": "sp0",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sp1"
+    },
+    {
+      "id": 358,
+      "doc": "input_data/PCC-1.5-MMAX/short/2710_words.xml",
+      "variables": {
+        "entity_a": "Wisły",
+        "entity_b": "zabrzan",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Wisły"
+    },
+    {
+      "id": 359,
+      "doc": "input_data/PCC-1.5-MMAX/short/3124_words.xml",
+      "variables": {
+        "entity_a": "Abramowa",
+        "entity_b": "_ mąż",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Abramowa"
+    },
+    {
+      "id": 360,
+      "doc": "input_data/PCC-1.5-MMAX/short/3186_words.xml",
+      "variables": {
+        "entity_a": "sp2",
+        "entity_b": "sp0",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sp2"
+    },
+    {
+      "id": 361,
+      "doc": "input_data/PCC-1.5-MMAX/short/3150_words.xml",
+      "variables": {
+        "entity_a": "sp1",
+        "entity_b": "stonsi",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sp1"
+    },
+    {
+      "id": 362,
+      "doc": "input_data/PCC-1.5-MMAX/long/200108300032_words.xml",
+      "variables": {
+        "entity_a": "Jacka Berdyna",
+        "entity_b": "dużo więcej",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Jacka Berdyna"
+    },
+    {
+      "id": 363,
+      "doc": "input_data/PCC-1.5-MMAX/short/654_words.xml",
+      "variables": {
+        "entity_a": "prezydentowi",
+        "entity_b": "Posłanka",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "prezydentowi"
+    },
+    {
+      "id": 364,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "entity_a": "Białej Podlaskiej",
+        "entity_b": "Młodzi , niedojrzali",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Białej Podlaskiej"
+    },
+    {
+      "id": 365,
+      "doc": "input_data/PCC-1.5-MMAX/short/3018_words.xml",
+      "variables": {
+        "entity_a": "JAREK",
+        "entity_b": "Jolkę",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "JAREK"
+    },
+    {
+      "id": 366,
+      "doc": "input_data/PCC-1.5-MMAX/short/492_words.xml",
+      "variables": {
+        "entity_a": "świadków",
+        "entity_b": "ten tata",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "świadków"
+    },
+    {
+      "id": 367,
+      "doc": "input_data/PCC-1.5-MMAX/long/199901300101_words.xml",
+      "variables": {
+        "entity_a": "ruchami gałek ocznych",
+        "entity_b": "sprawności i kontroli własnego ciała",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ruchami gałek ocznych"
+    },
+    {
+      "id": 368,
+      "doc": "input_data/PCC-1.5-MMAX/long/200108300032_words.xml",
+      "variables": {
+        "entity_a": "Motel w Ogonkach",
+        "entity_b": "całej operacji",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Motel w Ogonkach"
+    },
+    {
+      "id": 369,
+      "doc": "input_data/PCC-1.5-MMAX/short/3303_words.xml",
+      "variables": {
+        "entity_a": "profesorowi",
+        "entity_b": "Syn Sebastian",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "profesorowi"
+    },
+    {
+      "id": 370,
+      "doc": "input_data/PCC-1.5-MMAX/short/3136_words.xml",
+      "variables": {
+        "entity_a": "sp1",
+        "entity_b": "sp0",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sp1"
+    },
+    {
+      "id": 371,
+      "doc": "input_data/PCC-1.5-MMAX/short/3048_words.xml",
+      "variables": {
+        "entity_a": "URSZULI",
+        "entity_b": "Jolki , która jeszcze nie usiadła",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "URSZULI"
+    },
+    {
+      "id": 372,
+      "doc": "input_data/PCC-1.5-MMAX/short/3490_words.xml",
+      "variables": {
+        "entity_a": "Partia Demokratyczna",
+        "entity_b": "Dotychczasowy szef demokratów Władysław Frasyniuk",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Partia Demokratyczna"
+    },
+    {
+      "id": 373,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "entity_a": "La Veya",
+        "entity_b": "Białej Podlaskiej",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "La Veya"
+    },
+    {
+      "id": 374,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "entity_a": "Białej Podlaskiej",
+        "entity_b": "Przywódca sekty - 23-letni Grzegorz Sz . , \" czarny biskup \"",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Białej Podlaskiej"
+    },
+    {
+      "id": 375,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704210012_words.xml",
+      "variables": {
+        "entity_a": "dożywocie",
+        "entity_b": "zniszczenie uczciwości",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "dożywocie"
+    },
+    {
+      "id": 376,
+      "doc": "input_data/PCC-1.5-MMAX/short/2566_words.xml",
+      "variables": {
+        "entity_a": "Lech Stachera , nowy dyrektor domu",
+        "entity_b": "gmina Wałbrzych",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Lech Stachera , nowy dyrektor domu"
+    },
+    {
+      "id": 377,
+      "doc": "input_data/PCC-1.5-MMAX/short/3042_words.xml",
+      "variables": {
+        "entity_a": "DONA",
+        "entity_b": "RUCIŃSKI",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "DONA"
+    },
+    {
+      "id": 378,
+      "doc": "input_data/PCC-1.5-MMAX/short/3490_words.xml",
+      "variables": {
+        "entity_a": "Partia Demokratyczna",
+        "entity_b": "Janusz Onyszkiewicz",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Partia Demokratyczna"
+    },
+    {
+      "id": 379,
+      "doc": "input_data/PCC-1.5-MMAX/long/199802030127_words.xml",
+      "variables": {
+        "entity_a": "Rady Europy",
+        "entity_b": "produkcji",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Rady Europy"
+    },
+    {
+      "id": 380,
+      "doc": "input_data/PCC-1.5-MMAX/short/3087_words.xml",
+      "variables": {
+        "entity_a": "EDWARDA",
+        "entity_b": "MARTY",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "EDWARDA"
+    },
+    {
+      "id": 381,
+      "doc": "input_data/PCC-1.5-MMAX/long/200108300032_words.xml",
+      "variables": {
+        "entity_a": "niejaki Piotr Borkowski - tajemniczy mężczyzna z Warszawy , zdaniem Łukaszka szczupły , ok . czterdziestoletni",
+        "entity_b": "Bydgoszczy",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "niejaki Piotr Borkowski - tajemniczy mężczyzna z Warszawy , zdaniem Łukaszka szczupły , ok . czterdziestoletni"
+    },
+    {
+      "id": 382,
+      "doc": "input_data/PCC-1.5-MMAX/short/499_words.xml",
+      "variables": {
+        "entity_a": "sp0",
+        "entity_b": "sp1",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sp0"
+    },
+    {
+      "id": 383,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "entity_a": "dwunasto - , trzynastoletni chłopcy palący papierosy na klatce schodowej jednego z osiedlowych klubów kultury",
+        "entity_b": "satanistycznych obrzędów",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "dwunasto - , trzynastoletni chłopcy palący papierosy na klatce schodowej jednego z osiedlowych klubów kultury"
+    },
+    {
+      "id": 384,
+      "doc": "input_data/PCC-1.5-MMAX/short/512_words.xml",
+      "variables": {
+        "entity_a": "sp2",
+        "entity_b": "pan",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sp2"
+    },
+    {
+      "id": 385,
+      "doc": "input_data/PCC-1.5-MMAX/short/3077_words.xml",
+      "variables": {
+        "entity_a": "PIOTR",
+        "entity_b": "MAGDY",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "PIOTR"
+    },
+    {
+      "id": 386,
+      "doc": "input_data/PCC-1.5-MMAX/short/3031_words.xml",
+      "variables": {
+        "entity_a": "Zygmunt",
+        "entity_b": "zwłokami",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Zygmunt"
+    },
+    {
+      "id": 387,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "entity_a": "Przywódca sekty - 23-letni Grzegorz Sz . , \" czarny biskup \"",
+        "entity_b": "Wielu członków grupy",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Przywódca sekty - 23-letni Grzegorz Sz . , \" czarny biskup \""
+    },
+    {
+      "id": 388,
+      "doc": "input_data/PCC-1.5-MMAX/short/2969_words.xml",
+      "variables": {
+        "entity_a": "pan Lucjan",
+        "entity_b": "Zaskoczony Karol",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "pan Lucjan"
+    },
+    {
+      "id": 389,
+      "doc": "input_data/PCC-1.5-MMAX/long/199802030127_words.xml",
+      "variables": {
+        "entity_a": "( istniejącej od 1973 r . ) Komisji do Spraw Konsumentów",
+        "entity_b": "aspiracjami",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "( istniejącej od 1973 r . ) Komisji do Spraw Konsumentów"
+    },
+    {
+      "id": 390,
+      "doc": "input_data/PCC-1.5-MMAX/long/200004290022_words.xml",
+      "variables": {
+        "entity_a": "3 maja",
+        "entity_b": "Unii Wolności",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "3 maja"
+    },
+    {
+      "id": 391,
+      "doc": "input_data/PCC-1.5-MMAX/long/199901190115_words.xml",
+      "variables": {
+        "entity_a": "energetyki jądrowej",
+        "entity_b": "nowe technologie",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "energetyki jądrowej"
+    },
+    {
+      "id": 392,
+      "doc": "input_data/PCC-1.5-MMAX/short/3354_words.xml",
+      "variables": {
+        "entity_a": "Michał Rzepkowski",
+        "entity_b": "Rzepkowskich",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Michał Rzepkowski"
+    },
+    {
+      "id": 393,
+      "doc": "input_data/PCC-1.5-MMAX/short/527_words.xml",
+      "variables": {
+        "entity_a": "Funduszu św . Jerzego",
+        "entity_b": "Jarosław Włosek",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Funduszu św . Jerzego"
+    },
+    {
+      "id": 394,
+      "doc": "input_data/PCC-1.5-MMAX/short/2990_words.xml",
+      "variables": {
+        "entity_a": "BARBARA",
+        "entity_b": "EDYTA",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "BARBARA"
+    },
+    {
+      "id": 395,
+      "doc": "input_data/PCC-1.5-MMAX/short/2678_words.xml",
+      "variables": {
+        "entity_a": "obcokrajowca",
+        "entity_b": "oburzona Patrycja Ponufnik , przewodniczka skandynawskich wycieczek",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "obcokrajowca"
+    },
+    {
+      "id": 396,
+      "doc": "input_data/PCC-1.5-MMAX/long/200108300032_words.xml",
+      "variables": {
+        "entity_a": "Motel w Ogonkach",
+        "entity_b": "były zarząd PZU",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Motel w Ogonkach"
+    },
+    {
+      "id": 397,
+      "doc": "input_data/PCC-1.5-MMAX/short/3520_words.xml",
+      "variables": {
+        "entity_a": "prezydent Kwaśniewski",
+        "entity_b": "Wuju",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "prezydent Kwaśniewski"
+    },
+    {
+      "id": 398,
+      "doc": "input_data/PCC-1.5-MMAX/long/199801310037_words.xml",
+      "variables": {
+        "entity_a": "strony",
+        "entity_b": "okręgowe",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "strony"
+    },
+    {
+      "id": 399,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "entity_a": "biblię La Veya",
+        "entity_b": "Honor satanisty",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "biblię La Veya"
+    },
+    {
+      "id": 400,
+      "doc": "input_data/PCC-1.5-MMAX/short/2440_words.xml",
+      "variables": {
+        "entity_a": "Aronia",
+        "entity_b": "Czarny bez",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Aronia"
+    },
+    {
+      "id": 401,
+      "doc": "input_data/PCC-1.5-MMAX/short/2989_words.xml",
+      "variables": {
+        "entity_a": "JULITA",
+        "entity_b": "ŁUKASZ",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "JULITA"
+    },
+    {
+      "id": 402,
+      "doc": "input_data/PCC-1.5-MMAX/long/200004290022_words.xml",
+      "variables": {
+        "entity_a": "DŁUGI WEEKEND",
+        "entity_b": "SLD",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "DŁUGI WEEKEND"
+    },
+    {
+      "id": 403,
+      "doc": "input_data/PCC-1.5-MMAX/short/2816_words.xml",
+      "variables": {
+        "entity_a": "obu izbach",
+        "entity_b": "śmierci",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "obu izbach"
+    },
+    {
+      "id": 404,
+      "doc": "input_data/PCC-1.5-MMAX/short/3525_words.xml",
+      "variables": {
+        "entity_a": "zlikwidowanych w 1990 r . agencji i funduszy celowych , do których coraz szerszym strumieniem , poza kontrolą parlamentu , zaczęły płynąć publiczne pieniądze",
+        "entity_b": "kontrolą parlamentu",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "zlikwidowanych w 1990 r . agencji i funduszy celowych , do których coraz szerszym strumieniem , poza kontrolą parlamentu , zaczęły płynąć publiczne pieniądze"
+    },
+    {
+      "id": 405,
+      "doc": "input_data/PCC-1.5-MMAX/short/3001_words.xml",
+      "variables": {
+        "entity_a": "Filipiak",
+        "entity_b": "szeroko otwartych , szklistych oczu",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Filipiak"
+    },
+    {
+      "id": 406,
+      "doc": "input_data/PCC-1.5-MMAX/long/199901190115_words.xml",
+      "variables": {
+        "entity_a": "Niemieccy użytkownicy elektrowni jądrowych",
+        "entity_b": "29 stycznia",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Niemieccy użytkownicy elektrowni jądrowych"
+    },
+    {
+      "id": 407,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "entity_a": "Zło",
+        "entity_b": "zwyrodnieniu młodzieży",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Zło"
+    },
+    {
+      "id": 408,
+      "doc": "input_data/PCC-1.5-MMAX/short/282_words.xml",
+      "variables": {
+        "entity_a": "ŁUKASZ",
+        "entity_b": "Agnieszkę",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ŁUKASZ"
+    },
+    {
+      "id": 409,
+      "doc": "input_data/PCC-1.5-MMAX/long/199901190115_words.xml",
+      "variables": {
+        "entity_a": "Niemczech",
+        "entity_b": "odpadów radioaktywnych , pochodzących z niemieckich elektrowni jądrowych , i wysyłanych do Francji",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Niemczech"
+    },
+    {
+      "id": 410,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "entity_a": "biblię La Veya",
+        "entity_b": "satanizm",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "biblię La Veya"
+    },
+    {
+      "id": 411,
+      "doc": "input_data/PCC-1.5-MMAX/short/3048_words.xml",
+      "variables": {
+        "entity_a": "MARII",
+        "entity_b": "Jolki , która jeszcze nie usiadła",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "MARII"
+    },
+    {
+      "id": 412,
+      "doc": "input_data/PCC-1.5-MMAX/long/200108300032_words.xml",
+      "variables": {
+        "entity_a": "spółka z Włocławka , której prezesem jest Grażyna Bończewska",
+        "entity_b": "Włocławka",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "spółka z Włocławka , której prezesem jest Grażyna Bończewska"
+    },
+    {
+      "id": 413,
+      "doc": "input_data/PCC-1.5-MMAX/long/199901190115_words.xml",
+      "variables": {
+        "entity_a": "elektrowni jądrowych w Niemczech",
+        "entity_b": "odpadów radioaktywnych , pochodzących z niemieckich elektrowni jądrowych , i wysyłanych do Francji",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "elektrowni jądrowych w Niemczech"
+    },
+    {
+      "id": 414,
+      "doc": "input_data/PCC-1.5-MMAX/short/3209_words.xml",
+      "variables": {
+        "entity_a": "sp2",
+        "entity_b": "sp1",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sp2"
+    },
+    {
+      "id": 415,
+      "doc": "input_data/PCC-1.5-MMAX/long/200108300032_words.xml",
+      "variables": {
+        "entity_a": "Giżycku",
+        "entity_b": "28 lub 29 czerwca zeszłego roku",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Giżycku"
+    },
+    {
+      "id": 416,
+      "doc": "input_data/PCC-1.5-MMAX/long/200001030029_words.xml",
+      "variables": {
+        "entity_a": "osoba , która ją odebrała",
+        "entity_b": "niepodległej Polsce",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "osoba , która ją odebrała"
+    },
+    {
+      "id": 417,
+      "doc": "input_data/PCC-1.5-MMAX/short/2501_words.xml",
+      "variables": {
+        "entity_a": "Pan profesor",
+        "entity_b": "Waldemar Wojtasik",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Pan profesor"
+    },
+    {
+      "id": 418,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "entity_a": "szatanem",
+        "entity_b": "Młodzi , niedojrzali",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "szatanem"
+    },
+    {
+      "id": 419,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704230043_words.xml",
+      "variables": {
+        "entity_a": "jednoczącej się Europy nowej Europy Europa",
+        "entity_b": "duchowny",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "jednoczącej się Europy nowej Europy Europa"
+    },
+    {
+      "id": 420,
+      "doc": "input_data/PCC-1.5-MMAX/short/267_words.xml",
+      "variables": {
+        "entity_a": "ELŻBIETA",
+        "entity_b": "baba",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ELŻBIETA"
+    },
+    {
+      "id": 421,
+      "doc": "input_data/PCC-1.5-MMAX/long/199901190115_words.xml",
+      "variables": {
+        "entity_a": "Zamknięcie elektrowni jądrowych w Niemczech",
+        "entity_b": "Europejskiego Ciśnieniowego Reaktora Wodnego",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Zamknięcie elektrowni jądrowych w Niemczech"
+    },
+    {
+      "id": 422,
+      "doc": "input_data/PCC-1.5-MMAX/short/3104_words.xml",
+      "variables": {
+        "entity_a": "PIOTR",
+        "entity_b": "TOMASZ",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "PIOTR"
+    },
+    {
+      "id": 423,
+      "doc": "input_data/PCC-1.5-MMAX/short/471_words.xml",
+      "variables": {
+        "entity_a": "Dziewczyna",
+        "entity_b": "Istvan",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Dziewczyna"
+    },
+    {
+      "id": 424,
+      "doc": "input_data/PCC-1.5-MMAX/long/199802030127_words.xml",
+      "variables": {
+        "entity_a": "Przejrzystość informacji",
+        "entity_b": "Upośledzona mniejszość",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Przejrzystość informacji"
+    },
+    {
+      "id": 425,
+      "doc": "input_data/PCC-1.5-MMAX/short/3048_words.xml",
+      "variables": {
+        "entity_a": "Mirek",
+        "entity_b": "Jolki , która jeszcze nie usiadła",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Mirek"
+    },
+    {
+      "id": 426,
+      "doc": "input_data/PCC-1.5-MMAX/short/2927_words.xml",
+      "variables": {
+        "entity_a": "poważna , skromna dziewczyna z początku filmu",
+        "entity_b": "twój sługa",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "poważna , skromna dziewczyna z początku filmu"
+    },
+    {
+      "id": 427,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "entity_a": "matka jednej z bialskich poganek , która utrzymywała bliskie kontakty z satanistami",
+        "entity_b": "Przywódca sekty - 23-letni Grzegorz Sz . , \" czarny biskup \"",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "matka jednej z bialskich poganek , która utrzymywała bliskie kontakty z satanistami"
+    },
+    {
+      "id": 428,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "entity_a": "Wielu członków grupy",
+        "entity_b": "Młodzi , niedojrzali",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Wielu członków grupy"
+    },
+    {
+      "id": 429,
+      "doc": "input_data/PCC-1.5-MMAX/short/3122_words.xml",
+      "variables": {
+        "entity_a": "tego dnia nieopisanego",
+        "entity_b": "śnieg",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "tego dnia nieopisanego"
+    },
+    {
+      "id": 430,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "entity_a": "Przywódca sekty - 23-letni Grzegorz Sz . , \" czarny biskup \"",
+        "entity_b": "Młodzi , niedojrzali",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Przywódca sekty - 23-letni Grzegorz Sz . , \" czarny biskup \""
+    },
+    {
+      "id": 431,
+      "doc": "input_data/PCC-1.5-MMAX/short/2956_words.xml",
+      "variables": {
+        "entity_a": "Heniek",
+        "entity_b": "Nela",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Heniek"
+    },
+    {
+      "id": 432,
+      "doc": "input_data/PCC-1.5-MMAX/short/192_words.xml",
+      "variables": {
+        "entity_a": "Kule",
+        "entity_b": "tym przypadku",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Kule"
+    },
+    {
+      "id": 433,
+      "doc": "input_data/PCC-1.5-MMAX/short/284_words.xml",
+      "variables": {
+        "entity_a": "dobry człowieku",
+        "entity_b": "czarownicy",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "dobry człowieku"
+    },
+    {
+      "id": 434,
+      "doc": "input_data/PCC-1.5-MMAX/short/3084_words.xml",
+      "variables": {
+        "entity_a": "dziewczyna",
+        "entity_b": "Garcia",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "dziewczyna"
+    },
+    {
+      "id": 435,
+      "doc": "input_data/PCC-1.5-MMAX/long/200202020036_words.xml",
+      "variables": {
+        "entity_a": "pięciu działach",
+        "entity_b": "średnioroczny wzrost sprzedaży ogółem",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "pięciu działach"
+    },
+    {
+      "id": 436,
+      "doc": "input_data/PCC-1.5-MMAX/short/267_words.xml",
+      "variables": {
+        "entity_a": "KACPER",
+        "entity_b": "baba",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "KACPER"
+    },
+    {
+      "id": 437,
+      "doc": "input_data/PCC-1.5-MMAX/long/200202020036_words.xml",
+      "variables": {
+        "entity_a": "UE",
+        "entity_b": "wielkich przedsiębiorstw sektora publicznego",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "UE"
+    },
+    {
+      "id": 438,
+      "doc": "input_data/PCC-1.5-MMAX/short/2926_words.xml",
+      "variables": {
+        "entity_a": "EDWARDA",
+        "entity_b": "RYSZARD",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "EDWARDA"
+    },
+    {
+      "id": 439,
+      "doc": "input_data/PCC-1.5-MMAX/long/199802040182_words.xml",
+      "variables": {
+        "entity_a": "Sławomir Luto",
+        "entity_b": "Japonii",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Sławomir Luto"
+    },
+    {
+      "id": 440,
+      "doc": "input_data/PCC-1.5-MMAX/short/175_words.xml",
+      "variables": {
+        "entity_a": "transportu",
+        "entity_b": "Informacja o nabywanych środkach transportu",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "transportu"
+    },
+    {
+      "id": 441,
+      "doc": "input_data/PCC-1.5-MMAX/long/200202020036_words.xml",
+      "variables": {
+        "entity_a": "publicznego",
+        "entity_b": "europejskich MSP",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "publicznego"
+    },
+    {
+      "id": 442,
+      "doc": "input_data/PCC-1.5-MMAX/long/199802040182_words.xml",
+      "variables": {
+        "entity_a": "sumo sportowym ( amatorskim )",
+        "entity_b": "Sławomir Luto",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sumo sportowym ( amatorskim )"
+    },
+    {
+      "id": 443,
+      "doc": "input_data/PCC-1.5-MMAX/short/90_words.xml",
+      "variables": {
+        "entity_a": "Adasiu",
+        "entity_b": "Szostak",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Adasiu"
+    },
+    {
+      "id": 444,
+      "doc": "input_data/PCC-1.5-MMAX/long/199912180034_words.xml",
+      "variables": {
+        "entity_a": "Stevena Spielberga",
+        "entity_b": "honorowego Oscara za całokształt twórczości",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Stevena Spielberga"
+    },
+    {
+      "id": 445,
+      "doc": "input_data/PCC-1.5-MMAX/short/156_words.xml",
+      "variables": {
+        "entity_a": "Paryżu",
+        "entity_b": "Piłsudskich",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Paryżu"
+    },
+    {
+      "id": 446,
+      "doc": "input_data/PCC-1.5-MMAX/long/200203190026_words.xml",
+      "variables": {
+        "entity_a": "ZUS",
+        "entity_b": "instytucji wypłacającej emerytury",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ZUS"
+    },
+    {
+      "id": 447,
+      "doc": "input_data/PCC-1.5-MMAX/short/2944_words.xml",
+      "variables": {
+        "entity_a": "pies",
+        "entity_b": "robotników",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "pies"
+    },
+    {
+      "id": 448,
+      "doc": "input_data/PCC-1.5-MMAX/short/3308_words.xml",
+      "variables": {
+        "entity_a": "Gombrowicz",
+        "entity_b": "Musiałem",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Gombrowicz"
+    },
+    {
+      "id": 449,
+      "doc": "input_data/PCC-1.5-MMAX/short/351_words.xml",
+      "variables": {
+        "entity_a": "Panie Senatorze",
+        "entity_b": "Senatu",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Panie Senatorze"
+    },
+    {
+      "id": 450,
+      "doc": "input_data/PCC-1.5-MMAX/short/955_words.xml",
+      "variables": {
+        "entity_a": "Orbita",
+        "entity_b": "średnicę ok . 6-7 km",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Orbita"
+    },
+    {
+      "id": 451,
+      "doc": "input_data/PCC-1.5-MMAX/short/695_words.xml",
+      "variables": {
+        "entity_a": "substancje , które groziły wybuchem",
+        "entity_b": "Radomsku",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "substancje , które groziły wybuchem"
+    },
+    {
+      "id": 452,
+      "doc": "input_data/PCC-1.5-MMAX/short/499_words.xml",
+      "variables": {
+        "entity_a": "sp0",
+        "entity_b": "dziecko",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sp0"
+    },
+    {
+      "id": 453,
+      "doc": "input_data/PCC-1.5-MMAX/short/3561_words.xml",
+      "variables": {
+        "entity_a": "klasy",
+        "entity_b": "własnego egzemplarza klasy",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "klasy"
+    },
+    {
+      "id": 454,
+      "doc": "input_data/PCC-1.5-MMAX/long/200004290022_words.xml",
+      "variables": {
+        "entity_a": "lider SLD Leszek Miller",
+        "entity_b": "SLD",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "lider SLD Leszek Miller"
+    },
+    {
+      "id": 455,
+      "doc": "input_data/PCC-1.5-MMAX/short/374_words.xml",
+      "variables": {
+        "entity_a": "obrońca Chelsea Londyn John Terry",
+        "entity_b": "Sol Campbell i Ledley King , którzy także nie trenowali",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "obrońca Chelsea Londyn John Terry"
+    },
+    {
+      "id": 456,
+      "doc": "input_data/PCC-1.5-MMAX/short/3172_words.xml",
+      "variables": {
+        "entity_a": "fantazją",
+        "entity_b": "wywiady",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "fantazją"
+    },
+    {
+      "id": 457,
+      "doc": "input_data/PCC-1.5-MMAX/short/2642_words.xml",
+      "variables": {
+        "entity_a": "Polacy",
+        "entity_b": "akcji i lokat",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Polacy"
+    },
+    {
+      "id": 458,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "entity_a": "Białej Podlaskiej",
+        "entity_b": "Wielu członków grupy",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Białej Podlaskiej"
+    },
+    {
+      "id": 459,
+      "doc": "input_data/PCC-1.5-MMAX/short/2941_words.xml",
+      "variables": {
+        "entity_a": "małoletnią Karolinę",
+        "entity_b": "mój klient",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "małoletnią Karolinę"
+    },
+    {
+      "id": 460,
+      "doc": "input_data/PCC-1.5-MMAX/long/200108300032_words.xml",
+      "variables": {
+        "entity_a": "żony Łukaszka",
+        "entity_b": "Jacka Berdyna",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "żony Łukaszka"
+    },
+    {
+      "id": 461,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "entity_a": "biblię La Veya",
+        "entity_b": "specjalista do spraw zieleni pracujący w parku",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "biblię La Veya"
+    },
+    {
+      "id": 462,
+      "doc": "input_data/PCC-1.5-MMAX/long/199801310037_words.xml",
+      "variables": {
+        "entity_a": "Sądu Najwyższego",
+        "entity_b": "spraw",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Sądu Najwyższego"
+    },
+    {
+      "id": 463,
+      "doc": "input_data/PCC-1.5-MMAX/short/2611_words.xml",
+      "variables": {
+        "entity_a": "sześciu uczniów kursu nauki jazdy razem ze swoim instruktorem",
+        "entity_b": "katastrofach kolejowych",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sześciu uczniów kursu nauki jazdy razem ze swoim instruktorem"
+    },
+    {
+      "id": 464,
+      "doc": "input_data/PCC-1.5-MMAX/long/199906240084_words.xml",
+      "variables": {
+        "entity_a": "wydawcy",
+        "entity_b": "Nauczyciele",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "wydawcy"
+    },
+    {
+      "id": 465,
+      "doc": "input_data/PCC-1.5-MMAX/short/661_words.xml",
+      "variables": {
+        "entity_a": "państwa Szczurków",
+        "entity_b": "pani prezydentowej",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "państwa Szczurków"
+    },
+    {
+      "id": 466,
+      "doc": "input_data/PCC-1.5-MMAX/long/199801310037_words.xml",
+      "variables": {
+        "entity_a": "12 sądów ds . czynszów najmu i drugie tyle ds . czynszów dzierżawnych",
+        "entity_b": "nie tylko o zgodności z prawem , ale również o słuszności kwestionowanej decyzji",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "12 sądów ds . czynszów najmu i drugie tyle ds . czynszów dzierżawnych"
+    },
+    {
+      "id": 467,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "entity_a": "satanizm",
+        "entity_b": "specjalista do spraw zieleni pracujący w parku",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "satanizm"
+    },
+    {
+      "id": 468,
+      "doc": "input_data/PCC-1.5-MMAX/short/2997_words.xml",
+      "variables": {
+        "entity_a": "pierwszy z rycerzy",
+        "entity_b": "Trzej rycerze",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "pierwszy z rycerzy"
+    },
+    {
+      "id": 469,
+      "doc": "input_data/PCC-1.5-MMAX/short/591_words.xml",
+      "variables": {
+        "entity_a": "swoich mieszkań",
+        "entity_b": "dyrektor Zakładu Gospodarowania Nieruchomościami PKP w Łodzi Jacek Derwisiński",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "swoich mieszkań"
+    },
+    {
+      "id": 470,
+      "doc": "input_data/PCC-1.5-MMAX/short/3021_words.xml",
+      "variables": {
+        "entity_a": "niemowlęcia",
+        "entity_b": "Galileusz",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "niemowlęcia"
+    },
+    {
+      "id": 471,
+      "doc": "input_data/PCC-1.5-MMAX/short/333_words.xml",
+      "variables": {
+        "entity_a": "ZABRANY REWOLWER",
+        "entity_b": "KUCHARSKICH",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ZABRANY REWOLWER"
+    },
+    {
+      "id": 472,
+      "doc": "input_data/PCC-1.5-MMAX/short/2993_words.xml",
+      "variables": {
+        "entity_a": "Jasiu",
+        "entity_b": "Tobie jednej",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Jasiu"
+    },
+    {
+      "id": 473,
+      "doc": "input_data/PCC-1.5-MMAX/short/2513_words.xml",
+      "variables": {
+        "entity_a": "pierwszym meczu drugiej rundy Pucharu Ligi",
+        "entity_b": "niewykorzystanych sytuacjach",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "pierwszym meczu drugiej rundy Pucharu Ligi"
+    },
+    {
+      "id": 474,
+      "doc": "input_data/PCC-1.5-MMAX/short/637_words.xml",
+      "variables": {
+        "entity_a": "bezrobotnych z wyższym wykształceniem",
+        "entity_b": "Krakowie",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "bezrobotnych z wyższym wykształceniem"
+    },
+    {
+      "id": 475,
+      "doc": "input_data/PCC-1.5-MMAX/short/106_words.xml",
+      "variables": {
+        "entity_a": "Ziutek",
+        "entity_b": "Cukier",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Ziutek"
+    },
+    {
+      "id": 476,
+      "doc": "input_data/PCC-1.5-MMAX/short/3136_words.xml",
+      "variables": {
+        "entity_a": "sp1",
+        "entity_b": "sp2",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sp1"
+    },
+    {
+      "id": 477,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704230043_words.xml",
+      "variables": {
+        "entity_a": "tylko pozornie nawróconego ludu , który \" nic nie zna i nie czyni prócz tego , co palec szatana w sercach jego zapisał \"",
+        "entity_b": "Gnieźnie",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "tylko pozornie nawróconego ludu , który \" nic nie zna i nie czyni prócz tego , co palec szatana w sercach jego zapisał \""
+    },
+    {
+      "id": 478,
+      "doc": "input_data/PCC-1.5-MMAX/long/199906240084_words.xml",
+      "variables": {
+        "entity_a": "wydawcy",
+        "entity_b": "Wprowadzona od września tego roku reforma oświaty",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "wydawcy"
+    },
+    {
+      "id": 479,
+      "doc": "input_data/PCC-1.5-MMAX/short/3114_words.xml",
+      "variables": {
+        "entity_a": "Szprycha",
+        "entity_b": "Nince",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Szprycha"
+    },
+    {
+      "id": 480,
+      "doc": "input_data/PCC-1.5-MMAX/long/200004290022_words.xml",
+      "variables": {
+        "entity_a": "premier Jerzy Buzek",
+        "entity_b": "Gniezna",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "premier Jerzy Buzek"
+    },
+    {
+      "id": 481,
+      "doc": "input_data/PCC-1.5-MMAX/short/3190_words.xml",
+      "variables": {
+        "entity_a": "ona cała",
+        "entity_b": "sp0",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ona cała"
+    },
+    {
+      "id": 482,
+      "doc": "input_data/PCC-1.5-MMAX/short/3138_words.xml",
+      "variables": {
+        "entity_a": "sp4",
+        "entity_b": "koleżanki",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "sp4"
+    },
+    {
+      "id": 483,
+      "doc": "input_data/PCC-1.5-MMAX/long/200203190026_words.xml",
+      "variables": {
+        "entity_a": "ZUS",
+        "entity_b": "lat 60",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "ZUS"
+    },
+    {
+      "id": 484,
+      "doc": "input_data/PCC-1.5-MMAX/short/2393_words.xml",
+      "variables": {
+        "entity_a": "Expressu",
+        "entity_b": "słuchacze Classica i czytelnicy \" Expressu \" , którzy mają jak najwięcej siódemek w adresie zamieszkania",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Expressu"
+    },
+    {
+      "id": 485,
+      "doc": "input_data/PCC-1.5-MMAX/short/2126_words.xml",
+      "variables": {
+        "entity_a": "danych",
+        "entity_b": "transmisji danych",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "danych"
+    },
+    {
+      "id": 486,
+      "doc": "input_data/PCC-1.5-MMAX/short/3041_words.xml",
+      "variables": {
+        "entity_a": "TOMASZ",
+        "entity_b": "ZOFIA",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "TOMASZ"
+    },
+    {
+      "id": 487,
+      "doc": "input_data/PCC-1.5-MMAX/short/2898_words.xml",
+      "variables": {
+        "entity_a": "Michnik",
+        "entity_b": "władz",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Michnik"
+    },
+    {
+      "id": 488,
+      "doc": "input_data/PCC-1.5-MMAX/short/2941_words.xml",
+      "variables": {
+        "entity_a": "pani",
+        "entity_b": "mój klient",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "pani"
+    },
+    {
+      "id": 489,
+      "doc": "input_data/PCC-1.5-MMAX/long/199801030068_words.xml",
+      "variables": {
+        "entity_a": "innej francuskiej sieci , Geant",
+        "entity_b": "zakupów",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "innej francuskiej sieci , Geant"
+    },
+    {
+      "id": 490,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "entity_a": "Wiesław Gromadzki , szef Klubu Literackiego \" Maksyma \" w Białej Podlaskiej",
+        "entity_b": "Policja w Białej Podlaskiej",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Wiesław Gromadzki , szef Klubu Literackiego \" Maksyma \" w Białej Podlaskiej"
+    },
+    {
+      "id": 491,
+      "doc": "input_data/PCC-1.5-MMAX/short/3048_words.xml",
+      "variables": {
+        "entity_a": "MARII",
+        "entity_b": "Mirek",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "MARII"
+    },
+    {
+      "id": 492,
+      "doc": "input_data/PCC-1.5-MMAX/short/485_words.xml",
+      "variables": {
+        "entity_a": "inne dzieci",
+        "entity_b": "drugie oko",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "inne dzieci"
+    },
+    {
+      "id": 493,
+      "doc": "input_data/PCC-1.5-MMAX/short/3052_words.xml",
+      "variables": {
+        "entity_a": "panu",
+        "entity_b": "MAHARADŻA",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "panu"
+    },
+    {
+      "id": 494,
+      "doc": "input_data/PCC-1.5-MMAX/short/2983_words.xml",
+      "variables": {
+        "entity_a": "Uzależnienie od alkoholu",
+        "entity_b": "następstwem uzależnienia organizmu od alkoholu",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Uzależnienie od alkoholu"
+    },
+    {
+      "id": 495,
+      "doc": "input_data/PCC-1.5-MMAX/short/3274_words.xml",
+      "variables": {
+        "entity_a": "Basia",
+        "entity_b": "Janusz i Nieznajomy",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Basia"
+    },
+    {
+      "id": 496,
+      "doc": "input_data/PCC-1.5-MMAX/short/90_words.xml",
+      "variables": {
+        "entity_a": "Francuzie",
+        "entity_b": "rozpaczy",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Francuzie"
+    },
+    {
+      "id": 497,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704230043_words.xml",
+      "variables": {
+        "entity_a": "życia",
+        "entity_b": "wspólnych chrześcijańskich korzeni Europy Zachodniej i Wschodniej",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "życia"
+    },
+    {
+      "id": 498,
+      "doc": "input_data/PCC-1.5-MMAX/long/199704240021_words.xml",
+      "variables": {
+        "entity_a": "Białej Podlaskiej",
+        "entity_b": "szatanem",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Białej Podlaskiej"
+    },
+    {
+      "id": 499,
+      "doc": "input_data/PCC-1.5-MMAX/short/2707_words.xml",
+      "variables": {
+        "entity_a": "Concordia",
+        "entity_b": "Lech Świstak",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Concordia"
+    },
+    {
+      "id": 500,
+      "doc": "input_data/PCC-1.5-MMAX/short/448_words.xml",
+      "variables": {
+        "entity_a": "Panie Józefie",
+        "entity_b": "Arcybiskup Baziak",
+        "text": "more_polish_document.json"
+      },
+      "answer_type": "string",
+      "answer": "Panie Józefie"
+    }
+  ]
+}
